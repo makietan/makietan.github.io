@@ -1,4 +1,12 @@
+# makietan 日報
+
+https://makietan.github.io/
+
 ここは日報をメインに書きます.
+
+## Github
+
+[Github](https://github.com/makietan)
 
 ## Twitter
 
