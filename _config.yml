@@ -9,7 +9,3 @@ description: makietan の日報です
 twitter_username: makietan
 github_username: makietan
 
-rss: rss
-
-plugins:
- - jekyll-feed
