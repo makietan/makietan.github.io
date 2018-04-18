@@ -8,4 +8,7 @@ description: ここは日報をメインに書きます.
 
 twitter_username: makietan
 github_username: makietan
+rss: rss
 
+plugins:
+  - jekyll-feed
