@@ -12,3 +12,4 @@ rss: rss
 
 plugins:
   - jekyll-feed
+  - jemoji
