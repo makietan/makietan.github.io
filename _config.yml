@@ -1,10 +1,9 @@
 theme: minima
 
-title: 日報
-
+title: makietan 日報
 author: makietan
-
 description: ここは日報をメインに書きます.
+url: https://makietan.github.io
 
 twitter_username: makietan
 github_username: makietan
