@@ -16,3 +16,5 @@ plugins:
 google_analytics: true
 google_adsense: true
 bing_webmaster: true
+
+future: false
