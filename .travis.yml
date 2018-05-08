@@ -2,7 +2,7 @@ language: ruby
 rvm: 2.4.1
 script:
   - echo "OK"
-after_sucess:
+after_success:
   - sed -i -e "s/git@github.com:/https:\/\/$CI_USER_TOKEN@github.com\//" ./.gitmodules
   - echo -e "machine github.com\n  login $CI_USER_TOKEN" >> ~/.netrc
   - echo `date` > .updated
