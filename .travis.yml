@@ -9,6 +9,7 @@ after_success:
 - if [ $TRAVIS_EVENT_TYPE = cron ]; then git add . ; fi
 - if [ $TRAVIS_EVENT_TYPE = cron ]; then git commit -m "Update .updated" ; fi
 - if [ $TRAVIS_EVENT_TYPE = cron ]; then git push origin master ; fi
+install: true
 branches:
   only:
   - master
