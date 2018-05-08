@@ -5,7 +5,7 @@ script:
 after_success:
 - if [ $TRAVIS_EVENT_TYPE = cron ]; then echo -e "machine github.com\n  login $CI_USER_TOKEN" >> ~/.netrc ; fi
 - if [ $TRAVIS_EVENT_TYPE = cron ]; then echo `date` > .updated ; fi
-- if [ $TRAVIS_EVENT_TYPE = cron ]; then git add . ; fi
+- if [ $TRAVIS_EVENT_TYPE = cron ]; then git add .updated ; fi
 - if [ $TRAVIS_EVENT_TYPE = cron ]; then git status ; fi
 - if [ $TRAVIS_EVENT_TYPE = cron ]; then git commit -m "Update .updated" ; fi
 - if [ $TRAVIS_EVENT_TYPE = cron ]; then git log ; fi
