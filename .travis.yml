@@ -7,6 +7,7 @@ after_success:
 - if [ $TRAVIS_EVENT_TYPE = cron ]; then pushd project ; fi
 - if [ $TRAVIS_EVENT_TYPE = cron ]; then echo -e "machine github.com\n  login $CI_USER_TOKEN" >> ~/.netrc ; fi
 - if [ $TRAVIS_EVENT_TYPE = cron ]; then git clone https://github.com/makietan/makietan.github.io.git ; fi
+- if [ $TRAVIS_EVENT_TYPE = cron ]; then pushd makietan.github.io ; fi
 - if [ $TRAVIS_EVENT_TYPE = cron ]; then git config user.name "makietan" ; fi
 - if [ $TRAVIS_EVENT_TYPE = cron ]; then git config user.email "makietan@users.noreply.github.com" ; fi
 - if [ $TRAVIS_EVENT_TYPE = cron ]; then echo `date` > .updated ; fi
@@ -14,6 +15,7 @@ after_success:
 - if [ $TRAVIS_EVENT_TYPE = cron ]; then git status ; fi
 - if [ $TRAVIS_EVENT_TYPE = cron ]; then git commit -m "Update .updated" ; fi
 - if [ $TRAVIS_EVENT_TYPE = cron ]; then git push origin master ; fi
+- if [ $TRAVIS_EVENT_TYPE = cron ]; then popd ; fi
 - if [ $TRAVIS_EVENT_TYPE = cron ]; then popd ; fi
 install: true
 branches:
