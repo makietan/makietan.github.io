@@ -43,7 +43,29 @@ div.trim__item a {
 
 img.trim {
   overflow: hidden;
-  width: 140px;
-  height: 140px;
+  width: 180px;
+  height: 180px;
   position: relative;
+}
+
+@media screen and (max-width: 768px) {
+  img.trim {
+    overflow: hidden;
+    width: 100vmin;
+    height: 100vmin;
+    position: relative;
+    border: 5px solid #333;
+    margin: 1px 0px 1px 0px;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  img.trim {
+    overflow: hidden;
+    width: 100vmin;
+    height: 100vmin;
+    position: relative;
+    border: 5px solid #333;
+    margin: 1px 0px 1px 0px;
+  }
 }
