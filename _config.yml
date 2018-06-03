@@ -15,7 +15,6 @@ plugins:
 
 google_analytics: true
 google_adsense: true
-google_adsense2: true
 bing_webmaster: true
 
 timezone: Asia/Tokyo
