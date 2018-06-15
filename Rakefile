@@ -21,7 +21,7 @@ task :new do
   sh "atom #{path}"
 end
 
-
+desc "check duplicate filename"
 def checkFilename(filename)
   while File.exist?(filename)
     result = filename.match(/(.*)(\d+)?.md/)
