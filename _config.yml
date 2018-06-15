@@ -10,6 +10,8 @@ markdown: kramdown
 
 theme: minima
 
+paginate: 10
+
 plugins:
   - jekyll-feed
   - jekyll-category-pages
