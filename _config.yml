@@ -10,13 +10,8 @@ markdown: kramdown
 
 theme: minima
 
-paginate: 10
-paginate_path: "/page/:num/"
-
 plugins:
   - jekyll-feed
-  - jekyll-paginate
-  - jekyll-category-pages
 
 google_analytics: true
 google_adsense: true
