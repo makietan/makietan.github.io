@@ -17,12 +17,12 @@
 {% assign place2 = place | replace: '.md', '' %}
 {% for image in site.static_files %}
   {% if image.path contains place2 %}
-    <meta name="twitter:image" content="{{ site.baseurl }}{{ image.path }}" />
+    <meta name="twitter:image" content="{{ site.url }}{{ image.path }}" />
     {% assign hasImage = true %}
     {% break %}
   {% endif %}
 {% endfor %}
 
 {% if hasImage == null %}
-  <meta name="twitter:image" content="{{ site.baseurl }}/assets/images/logo.png" />
+  <meta name="twitter:image" content="{{ site.url }}/assets/images/logo.png" />
 {% endif %}
