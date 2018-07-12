@@ -17,7 +17,7 @@
 {% assign place2 = place | replace: '.md', '' %}
 {% for image in site.static_files %}
   {% if image.path contains place2 %}
-    <meta name="twitter:image" content="{{ site.bseurl }}{{ image.path }}" />
+    <meta name="twitter:image" content="{{ site.baseurl }}{{ image.path }}" />
     {% assign hasImage = true %}
     {% break %}
   {% endif %}
