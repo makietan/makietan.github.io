@@ -20,7 +20,7 @@ task :new do
 
   path = checkFilename(path)
 
-  createReport(path, day)
+  createReport(path, now)
   sh "atom #{path}"
 end
 
