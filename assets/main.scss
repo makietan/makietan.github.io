@@ -41,6 +41,15 @@ div.trim__item a {
   text-decoration: none;
 }
 
+img.one {
+  width:auto;
+  height:auto;
+  max-width:100%;
+  max-height:100%;
+  border: 2px solid #333;
+  margin: 10px 0px 10px 0px;
+}
+
 img.trim {
   overflow: hidden;
   width: 180px;
