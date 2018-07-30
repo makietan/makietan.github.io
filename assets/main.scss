@@ -78,3 +78,17 @@ img.trim {
     margin: 1px 0px 1px 0px;
   }
 }
+
+// paginator v2
+
+ul.pager {
+  text-align: center;
+  list-style: none;
+}
+
+ul.pager li {
+  display: inline;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 5px;
+}
