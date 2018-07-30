@@ -24,7 +24,7 @@ script:
 - if [ ! $TRAVIS_EVENT_TYPE = cron ]; then pushd makietan.github.io ; fi
 - if [ ! $TRAVIS_EVENT_TYPE = cron ]; then git config user.name "makietan" ; fi
 - if [ ! $TRAVIS_EVENT_TYPE = cron ]; then git config user.email "makietan@users.noreply.github.com" ; fi
-- if [ ! $TRAVIS_EVENT_TYPE = cron ]; then git checkout -t gh-pages ; fi
+- if [ ! $TRAVIS_EVENT_TYPE = cron ]; then git checkout -t origin/gh-pages ; fi
 - if [ ! $TRAVIS_EVENT_TYPE = cron ]; then git merge --no-ff origin master ; fi
 - if [ ! $TRAVIS_EVENT_TYPE = cron ]; then bundle install --path vendor/bundle ; fi
 - if [ ! $TRAVIS_EVENT_TYPE = cron ]; then bundle exec jekyll build ; fi
