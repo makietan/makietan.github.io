@@ -9,8 +9,6 @@ script:
 - if [ $TRAVIS_EVENT_TYPE = cron ]; then git config user.name "makietan" ; fi
 - if [ $TRAVIS_EVENT_TYPE = cron ]; then git config user.email "makietan@users.noreply.github.com" ; fi
 - if [ $TRAVIS_EVENT_TYPE = cron ]; then echo `date` > .updated ; fi
-- if [ $TRAVIS_EVENT_TYPE = cron ]; then bundle install --path vendor/bundle ; fi
-- if [ $TRAVIS_EVENT_TYPE = cron ]; then bundle exec jekyll build ; fi
 - if [ $TRAVIS_EVENT_TYPE = cron ]; then git add .updated ; fi
 - if [ $TRAVIS_EVENT_TYPE = cron ]; then git add _site ; fi
 - if [ $TRAVIS_EVENT_TYPE = cron ]; then git commit -m "Update .updated" ; fi
