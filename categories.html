@@ -9,14 +9,9 @@ title: Category
   <div class="archive-group">
     {% capture category_name %}{{ category | first }}{% endcapture %}
     <div id="#{{ category_name | slugize }}">
-      <h3 class="category-head">{{ category_name }}</h3>
-      <ul>
-        {% for post in site.categories[category_name] %}
-        <li class="archive-item">
-          <a href="{{ site.url }}{{ post.url }}">{{post.title}}</a>
-        </li>
-        {% endfor %}
-      </ul>
+      <h3 class="category-head">
+        <a href="{{ site.url }}/category/{{ category_name }}">{{ category_name }}</a>
+      </h3>
     </div>
   </div>
 {% endfor %}

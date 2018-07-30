@@ -2,6 +2,26 @@ require "date"
 
 task :default => :tomorrow
 
+desc "create new category page"
+task :category do
+  title = "#{ARGV.last}"
+  day = Date.today
+  path = "category/#{ARGV.last}.md"
+  File.open(path, "w") do |f|
+    f.puts "---"
+    f.puts "layout: category"
+    f.puts "permalink: /category/#{ARGV.last}"
+    f.puts "category: #{ARGV.last}"
+    f.puts "---"
+    f.puts ""
+    f.puts ""
+  end
+  ARGV.slice(1, ARGV.size).each{ |v|
+    task v.to_sym do;
+    end
+  }
+end
+
 desc "create new post tomorrow"
 task :tomorrow do
   title = ""
