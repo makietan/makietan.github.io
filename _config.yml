@@ -26,4 +26,3 @@ future: false
 exclude: ["README.md", ".travis.yml", "Gemfile", "Gemfile.lock", ".updated", "Rakfile"]
 
 paginate: 5
-paginate_path: "/page/:num/"
