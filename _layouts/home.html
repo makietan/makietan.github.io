@@ -9,8 +9,9 @@ layout: default
 
   {{ content }}
 
-  <h2 class="post-list-heading">{{ page.list_title | default: "最近の投稿" }}</h2>
+  <h2 class="post-list-heading">{{ page.list_title | default: "最新の投稿" }}</h2>
   <ul class="post-list">
+  {%- if paginator.posts.size > 0 -%}
     {%- for post in paginator.posts -%}
     <li>
       {%- assign date_format = site.minima.date_format | default: "%Y-%m-%d %H:%M" -%}
@@ -25,19 +26,37 @@ layout: default
       {%- endif -%}
     </li>
     {%- endfor -%}
+  {%- else -%}
+    {%- for post in site.posts -%}
+    <li>
+      {%- assign date_format = site.minima.date_format | default: "%Y-%m-%d %H:%M" -%}
+      <span class="post-meta">{{ post.date | date: date_format }}</span>
+      <h3>
+        <a class="post-link" href="{{ post.url | relative_url }}">
+          {{ post.title | escape }}
+        </a>
+      </h3>
+      {%- if site.show_excerpts -%}
+        {{ post.excerpt }}
+      {%- endif -%}
+    </li>
+    {%- endfor -%}
+  {%- endfor -%}
   </ul>
 
   <div class="pagination">
-  {% if paginator.previous_page %}
+  {%- if paginator.posts.size > 0 -%}
+    {% if paginator.previous_page %}
     <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
-  {% else %}
+    {% else %}
     <span class="previous">Previous</span>
-  {% endif %}
-  <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
-  {% if paginator.next_page %}
+    {% endif %}
+    <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+    {% if paginator.next_page %}
     <a href="{{ paginator.next_page_path }}" class="next">Next</a>
-  {% else %}
+    {% else %}
     <span class="next ">Next</span>
+    {% endif %}
   {% endif %}
   </div>
 
