@@ -13,7 +13,7 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-sitemap
-  - jekyll-paginate
+  - jekyll-paginate-v2
 
 google_analytics: true
 google_adsense: true
@@ -23,8 +23,12 @@ timezone: Asia/Tokyo
 
 future: false
 
-exclude: ["README.md", ".travis.yml", "Gemfile", "Gemfile.lock", ".updated", "Rakfile"]
+exclude: ["README.md", ".travis.yml", "Gemfile", "Gemfile.lock", ".updated", "Rakfile", "vendor"]
 
-paginate: 5
-
-gems: [jekyll-paginate]
+pagination:
+  enabled: true
+  per_page: 10
+  permalink: '/page/:num/'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true

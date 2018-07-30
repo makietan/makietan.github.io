@@ -88,7 +88,17 @@ ul.pager {
 
 ul.pager li {
   display: inline;
-  border: 1px solid black;
   padding: 10px;
   margin: 5px;
+}
+
+ul.pager li.num {
+  display: inline;
+  padding: 0px;
+  margin: 0px;
+}
+
+ul.pager li em, ul.pager li a {
+  padding: 0px;
+  margin: 2px;
 }
