@@ -1,5 +1,4 @@
 language: ruby
-cache: bundler
 rvm: 2.4.1
 script:
 - if [ $TRAVIS_EVENT_TYPE = cron ]; then mkdir -p project ; fi
