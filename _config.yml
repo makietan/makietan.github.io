@@ -12,6 +12,7 @@ theme: minima
 
 plugins:
   - jekyll-feed
+  - jekyll-paginate-v2
 
 google_analytics: true
 google_adsense: true
@@ -23,5 +24,16 @@ future: false
 
 exclude: ["README.md", ".travis.yml", "Gemfile", "Gemfile.lock", ".updated", "Rakfile"]
 
-paginate: 5
-paginate_path: "/page/:num/"
+
+pagination:
+  enabled: true
+  per_page: 3
+  permalink: '/page/:num/'
+  title: ':title - page :num of :max'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
+
+# Old logic
+# paginate: 5
+# paginate_path: "/page/:num/"
