@@ -1,6 +1,6 @@
 ---
-layout: default
+layout: category
 permalink: /category/tech
 category: tech
-title: ":site.title - Category: tech"
+title: ":title - Category: tech"
 ---
