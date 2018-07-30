@@ -29,7 +29,7 @@ script:
 - if [ ! $TRAVIS_EVENT_TYPE = cron ]; then bundle install --path vendor/bundle ; fi
 - if [ ! $TRAVIS_EVENT_TYPE = cron ]; then bundle exec jekyll build ; fi
 - if [ ! $TRAVIS_EVENT_TYPE = cron ]; then git add --all ; fi
-- if [ ! $TRAVIS_EVENT_TYPE = cron ]; then git commit -a -m "Travis \#$TRAVIS_BUILD_NUMBER" ; fi
+- if [ ! $TRAVIS_EVENT_TYPE = cron ]; then git commit -a -m "Update _site by Travis" ; fi
 - if [ ! $TRAVIS_EVENT_TYPE = cron ]; then git push origin gh-pages ; fi
 - if [ ! $TRAVIS_EVENT_TYPE = cron ]; then popd ; fi
 - if [ ! $TRAVIS_EVENT_TYPE = cron ]; then popd ; fi
