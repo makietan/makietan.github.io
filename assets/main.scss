@@ -98,7 +98,15 @@ ul.pager li.num {
   margin: 0px;
 }
 
-ul.pager li em, ul.pager li a {
+ul.pager li.num em, ul.pager li.num a {
   padding: 0px;
   margin: 2px;
+}
+
+@media screen and (max-width: 568px) {
+  ul.pager li.num em, ul.pager li.num a {
+    padding: 0px;
+    margin: 2px;
+    display: none;
+  }
 }
