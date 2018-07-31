@@ -32,5 +32,3 @@ pagination:
   limit: 0
   sort_field: 'date'
   sort_reverse: true
-
-baseurl: https://makietan.github.io

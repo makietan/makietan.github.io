@@ -10,7 +10,6 @@ script:
 - if [ $TRAVIS_EVENT_TYPE = cron ]; then git config user.email "makietan@users.noreply.github.com" ; fi
 - if [ $TRAVIS_EVENT_TYPE = cron ]; then echo `date` > .updated ; fi
 - if [ $TRAVIS_EVENT_TYPE = cron ]; then git add .updated ; fi
-- if [ $TRAVIS_EVENT_TYPE = cron ]; then git add _site ; fi
 - if [ $TRAVIS_EVENT_TYPE = cron ]; then git commit -m "Update .updated" ; fi
 - if [ $TRAVIS_EVENT_TYPE = cron ]; then git push origin develop ; fi
 - if [ $TRAVIS_EVENT_TYPE = cron ]; then popd ; fi
@@ -26,7 +25,7 @@ script:
 - if [ ! $TRAVIS_EVENT_TYPE = cron ]; then popd ; fi
 - if [ ! $TRAVIS_EVENT_TYPE = cron ]; then popd ; fi
 - if [ ! $TRAVIS_EVENT_TYPE = cron ]; then bundle install --path vendor/bundle ; fi
-- if [ ! $TRAVIS_EVENT_TYPE = cron ]; then bundle exec jekyll build --destination tmp/makietan.github.io/  ; fi
+- if [ ! $TRAVIS_EVENT_TYPE = cron ]; then bundle exec jekyll build --baseurl 'https://makietan.github.io' --destination tmp/makietan.github.io/  ; fi
 - if [ ! $TRAVIS_EVENT_TYPE = cron ]; then pushd tmp ; fi
 - if [ ! $TRAVIS_EVENT_TYPE = cron ]; then pushd makietan.github.io ; fi
 - if [ ! $TRAVIS_EVENT_TYPE = cron ]; then git add --all ; fi
