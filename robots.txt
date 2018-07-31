@@ -1,1 +1,1 @@
-Sitemap: /sitemap.xml
+Sitemap: /https://makietan.github.io/sitemap.xml
