@@ -6,6 +6,8 @@ twitter_username: makietan
 github_username:  makietan
 rss: rss
 
+url: https://makietan.github.io
+
 markdown: kramdown
 
 theme: minima
@@ -32,6 +34,3 @@ pagination:
   limit: 0
   sort_field: 'date'
   sort_reverse: true
-
-feed:
-  url: https://makietan.github.io
