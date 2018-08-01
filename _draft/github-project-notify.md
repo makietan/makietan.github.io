@@ -3,7 +3,6 @@ layout: post
 title:  "Hubot notifies github project card changes"
 categories: [tech]
 date: "2018-04-23"
-tags: hubot
 ---
 
 ## Setup

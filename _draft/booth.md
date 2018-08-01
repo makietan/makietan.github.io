@@ -6,6 +6,4 @@ date: "2018-04-XX XX:XX"
 tags: booth
 ---
 
-
-
 ## BOOTH
