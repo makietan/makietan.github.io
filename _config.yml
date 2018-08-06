@@ -8,7 +8,7 @@ rss: rss
 
 url: https://makietan.github.io
 
-repository: makietan/makietan.github.io
+baseurl: ""
 
 markdown: kramdown
 
