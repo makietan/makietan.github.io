@@ -5,10 +5,10 @@
   {%- seo -%}
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
   {%- feed_meta -%}
-  {%- if jekyll.environment == 'production' and site.bing_webmaster -%}
+  {%- if jekyll.environment == 'production' -%}
     {%- include bing-webmaster.html -%}
   {%- endif -%}
-  {%- if jekyll.environment == 'production' and site.google_analytics -%}
+  {%- if jekyll.environment == 'production' -%}
     {%- include google-analytics.html -%}
   {%- endif -%}
 </head>
