@@ -8,6 +8,8 @@ rss: rss
 
 url: https://makietan.github.io
 
+repository: makietan/makietan.github.io
+
 markdown: kramdown
 
 theme: minima
