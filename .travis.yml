@@ -24,9 +24,8 @@ script:
 - if [ ! $TRAVIS_EVENT_TYPE = cron ]; then git checkout -t origin/master ; fi
 - if [ ! $TRAVIS_EVENT_TYPE = cron ]; then popd ; fi
 - if [ ! $TRAVIS_EVENT_TYPE = cron ]; then popd ; fi
-- if [ ! $TRAVIS_EVENT_TYPE = cron ]; then JEKYLL_ENV=production ; fi
 - if [ ! $TRAVIS_EVENT_TYPE = cron ]; then bundle install --path vendor/bundle ; fi
-- if [ ! $TRAVIS_EVENT_TYPE = cron ]; then bundle exec jekyll build --destination tmp/makietan.github.io/  ; fi
+- if [ ! $TRAVIS_EVENT_TYPE = cron ]; then bundle exec jekyll build JEKYLL_ENV=production --destination tmp/makietan.github.io/  ; fi
 - if [ ! $TRAVIS_EVENT_TYPE = cron ]; then pushd tmp ; fi
 - if [ ! $TRAVIS_EVENT_TYPE = cron ]; then pushd makietan.github.io ; fi
 - if [ ! $TRAVIS_EVENT_TYPE = cron ]; then git add --all ; fi
