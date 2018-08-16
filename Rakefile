@@ -79,3 +79,11 @@ def checkFilename(filename)
   end
   return filename
 end
+
+namespace :jekyll do
+  desc 'serve'
+  task :serve do
+    sh "bundle install --path vendor/bundler"
+    sh "bundle exec jekyll serve"
+  end
+end
