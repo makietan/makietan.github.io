@@ -1,5 +1,7 @@
 language: ruby
 rvm: 2.4.1
+before_script:
+- apt-get install imagemagick
 script:
 - if [ $TRAVIS_EVENT_TYPE = cron ]; then mkdir -p project ; fi
 - if [ $TRAVIS_EVENT_TYPE = cron ]; then pushd project ; fi
@@ -25,6 +27,7 @@ script:
 - if [ ! $TRAVIS_EVENT_TYPE = cron ]; then popd ; fi
 - if [ ! $TRAVIS_EVENT_TYPE = cron ]; then popd ; fi
 - if [ ! $TRAVIS_EVENT_TYPE = cron ]; then bundle install --path vendor/bundle ; fi
+- if [ ! $TRAVIS_EVENT_TYPE = cron ]; then bundle exec rake thumbnail:create ; fi
 - if [ ! $TRAVIS_EVENT_TYPE = cron ]; then JEKYLL_ENV=production bundle exec jekyll build --destination tmp/makietan.github.io/  ; fi
 - if [ ! $TRAVIS_EVENT_TYPE = cron ]; then pushd tmp ; fi
 - if [ ! $TRAVIS_EVENT_TYPE = cron ]; then pushd makietan.github.io ; fi
