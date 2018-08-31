@@ -100,10 +100,12 @@ namespace :thumbnail do
     file_pattern = ['./assets/images/**/*.png', './assets/images/**/*.jpg', './assets/images/**/*.jpeg', './assets/images/**/*.PNG', './assets/images/**/*.JPG', './assets/images/**/*.JPEG']
 
     Dir.glob(file_pattern).each do |f|
-      image = MiniMagick::Image.open(File.absolute_path(f))
-      image.resize "1200x630>"
       output = File.absolute_path(f).gsub(/assets\/images/, 'assets/thumbnail/')
-      image.write output
+      unless File.exists?(output) then
+        image = MiniMagick::Image.open(File.absolute_path(f))
+        image.resize "1200x630>"
+        image.write output
+      end
     end
   end
 end
