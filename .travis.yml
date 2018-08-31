@@ -1,7 +1,7 @@
 language: ruby
 rvm: 2.4.1
-before_script:
-- apt-get install imagemagick
+before_install:
+- sudo apt-get -y --reinstall install imagemagick
 script:
 - if [ $TRAVIS_EVENT_TYPE = cron ]; then mkdir -p project ; fi
 - if [ $TRAVIS_EVENT_TYPE = cron ]; then pushd project ; fi
