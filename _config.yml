@@ -27,7 +27,7 @@ timezone: Asia/Tokyo
 
 future: false
 
-exclude: ["README.md", ".travis.yml", "Gemfile", "Gemfile.lock", ".updated", "Rakfile", "vendor", "tmp"]
+exclude: ["README.md", ".travis.yml", "Gemfile", "Gemfile.lock", ".updated", "Rakfile", "vendor", "tmp", "lib"]
 
 pagination:
   enabled: true
