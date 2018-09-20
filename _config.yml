@@ -21,7 +21,7 @@ plugins:
   - jekyll-paginate-v2
 
 google_analytics: true
-google_adsense: false
+google_adsense: true
 bing_webmaster: true
 
 timezone: Asia/Tokyo
