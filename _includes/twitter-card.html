@@ -16,7 +16,7 @@
 {% assign place = page.path | replace: '_posts/', '' %}
 {% assign place2 = place | replace: '.md', '' %}
 {% for image in site.static_files %}
-  {% if image.path contains place2 and if image.path contains 'assets/thumbnail' %}
+  {% if image.path contains place2 and image.path contains 'assets/thumbnail' %}
     <meta name="twitter:image" content="{{ site.url }}{{ image.path }}" />
     {% assign hasImage = true %}
     {% break %}
