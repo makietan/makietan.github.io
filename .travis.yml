@@ -6,7 +6,7 @@ script:
 - if [ $TRAVIS_EVENT_TYPE = cron ]; then mkdir -p project ; fi
 - if [ $TRAVIS_EVENT_TYPE = cron ]; then pushd project ; fi
 - if [ $TRAVIS_EVENT_TYPE = cron ]; then echo -e "machine github.com\n  login $CI_USER_TOKEN" >> ~/.netrc ; fi
-- if [ $TRAVIS_EVENT_TYPE = cron ]; then git clone https://github.com/makietan/makietan.github.io.git ; fi
+- if [ $TRAVIS_EVENT_TYPE = cron ]; then git clone --branch master --depth 1 https://github.com/makietan/makietan.github.io.git ; fi
 - if [ $TRAVIS_EVENT_TYPE = cron ]; then pushd makietan.github.io ; fi
 - if [ $TRAVIS_EVENT_TYPE = cron ]; then git config user.name "makietan" ; fi
 - if [ $TRAVIS_EVENT_TYPE = cron ]; then git config user.email "makietan@users.noreply.github.com" ; fi
@@ -19,7 +19,7 @@ script:
 - if [ ! $TRAVIS_EVENT_TYPE = cron ]; then mkdir -p tmp ; fi
 - if [ ! $TRAVIS_EVENT_TYPE = cron ]; then pushd tmp ; fi
 - if [ ! $TRAVIS_EVENT_TYPE = cron ]; then echo -e "machine github.com\n  login $CI_USER_TOKEN" >> ~/.netrc ; fi
-- if [ ! $TRAVIS_EVENT_TYPE = cron ]; then git clone https://github.com/makietan/makietan.github.io.git ; fi
+- if [ ! $TRAVIS_EVENT_TYPE = cron ]; then git clone --branch master --depth 1 https://github.com/makietan/makietan.github.io.git ; fi
 - if [ ! $TRAVIS_EVENT_TYPE = cron ]; then pushd makietan.github.io ; fi
 - if [ ! $TRAVIS_EVENT_TYPE = cron ]; then git config user.name "makietan" ; fi
 - if [ ! $TRAVIS_EVENT_TYPE = cron ]; then git config user.email "makietan@users.noreply.github.com" ; fi
