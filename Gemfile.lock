@@ -253,6 +253,7 @@ DEPENDENCIES
   mini_magick
   minima
   rake
+  safe_yaml
   tzinfo-data
 
 BUNDLED WITH

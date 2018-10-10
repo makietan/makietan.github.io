@@ -26,6 +26,7 @@ script:
 - if [ ! $TRAVIS_EVENT_TYPE = cron ]; then popd ; fi
 - if [ ! $TRAVIS_EVENT_TYPE = cron ]; then popd ; fi
 - if [ ! $TRAVIS_EVENT_TYPE = cron ]; then bundle install --path vendor/bundle ; fi
+- if [ ! $TRAVIS_EVENT_TYPE = cron ]; then bundle exec rake -f ./lib/tasks/category.rake category:create    ; fi
 - if [ ! $TRAVIS_EVENT_TYPE = cron ]; then cp -r tmp/makietan.github.io/assets/thumbnail/ assets/thumbnail/ ; fi
 - if [ ! $TRAVIS_EVENT_TYPE = cron ]; then bundle exec rake -f ./lib/tasks/thumbnail.rake thumbnail:create  ; fi
 - if [ ! $TRAVIS_EVENT_TYPE = cron ]; then JEKYLL_ENV=production bundle exec jekyll build --destination tmp/makietan.github.io/  ; fi
