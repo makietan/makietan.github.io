@@ -252,6 +252,7 @@ DEPENDENCIES
   jekyll-sitemap
   mini_magick
   minima
+  nokogiri
   rake
   safe_yaml
   tzinfo-data
