@@ -1,6 +1,6 @@
----
-# Only the main Sass file needs front matter (the dashes are enough)
----
+// ---
+// # Only the main Sass file needs front matter (the dashes are enough)
+// ---
 
 @import "minima";
 
@@ -109,4 +109,79 @@ ul.pager li.num em, ul.pager li.num a {
     margin: 2px;
     display: none;
   }
+}
+
+// Card Link
+
+.card {
+  background: #fefefe;
+  box-shadow: 0 2px 5px #ccc;
+  border-radius: 8px;
+  position: relative;
+  max-width: 480px;
+  text-align: center;
+  height: 120px;
+  border: 1px solid #dedede;
+}
+
+.card__image {
+  width: 120px;
+  height: 120px;
+  background-image: url('https://makietan.github.io/assets/thumbnail/question.png');
+  background-size: contain;
+  border-radius: 8px 0 0 8px;
+}
+
+.card__image img {
+
+}
+
+.card__title {
+  position: absolute;
+  left: 128px;
+  top: 18px;
+  right: 8px;
+  font-size: 14px;
+  font-weight: bold;
+  height: 42px;
+  text-align: left;
+  overflow: hidden;
+  text-overflow: ellipse;
+}
+
+.card__title p {
+  padding: 0;
+  margin: 0;
+}
+
+.card__description {
+  position: absolute;
+  left: 128px;
+  top: 64px;
+  right: 8px;
+  font-size: 10px;
+  color: #888;
+  text-align: left;
+  height: 48px;
+  overflow: hidden;
+  text-overflow: ellipse;
+}
+
+.card__description p {
+  padding: 0;
+  margin: 0;
+}
+
+.card__header {
+  position: absolute;
+  top: 2px;
+  left: 128px;
+  text-align: left;
+  font-size: 8px;
+}
+
+.card__header a {
+  position: relative;
+  color: #aaa;
+  text-decoration: none;
 }
