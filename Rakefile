@@ -93,3 +93,20 @@ namespace :jekyll do
   #   sh "bundle exec rake -f ./lib/tasks/thumbnail.rake thumbnail:create"
   # end
 end
+
+namespace :utils do
+  namespace :embed do
+    desc "embed を作成する"
+    task :create do
+      url = "#{ARGV.last}"
+      if !url.empty?
+        system "bundle exec rake -f lib/tasks/embed.rake embed:create #{url}"
+        sleep 3
+      end
+      ARGV.slice(1, ARGV.size).each{ |v|
+        task v.to_sym do;
+        end
+      }
+    end
+  end
+end
