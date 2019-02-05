@@ -17,6 +17,19 @@ layout: default
     <li>
       {%- assign date_format = site.minima.date_format | default: "%Y-%m-%d %H:%M" -%}
       <span class="post-meta">{{ post.date | date: date_format }}</span>
+      {%- if post.categories -%}
+      <div class="post-categories-top">
+        {% if post %}
+          {% assign categories = post.categories %}
+        {% else %}
+          {% assign categories = page.categories %}
+        {% endif %}
+        {% for category in categories %}
+          <a href="{{site.url}}/category/{{category|slugize}}">{{category}}</a>
+          {% unless forloop.last %}&nbsp;{% endunless %}
+        {% endfor %}
+      {%- endif -%}
+      </div>
       <h3>
         <a class="post-link" href="{{ post.url | relative_url }}">
           {{ post.title | escape }}

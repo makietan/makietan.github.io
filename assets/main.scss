@@ -5,7 +5,7 @@
 @import "minima";
 
 body, html {
-  font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+  font-family: 'Noto Sans Japanese',   sans-serif;
 }
 
 hr {
@@ -16,6 +16,20 @@ hr {
   height: 1px;
   background-color: #eeeeee;
   border: 0;
+}
+
+div.post-categories-top a {
+  text-decoration: none!important;
+  border: 1px solid #d2d7e5;
+  font-size: .75rem;
+  display: inline-block;
+  text-align: left;
+  margin-top: .5em;
+  padding-right: .5em;
+  padding-left: .5em;
+  color: #3d3f44;
+  overflow: hidden;
+  background-color: transparent;
 }
 
 span.post-categories a {
@@ -228,8 +242,4 @@ ul.pager li.num em, ul.pager li.num a {
   position: relative;
   color: #aaa;
   text-decoration: none;
-}
-
-span.excerpts {
-  
 }
