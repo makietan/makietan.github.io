@@ -10,7 +10,7 @@ title: Category
     {% capture category_name %}{{ category | first }}{% endcapture %}
     <div id="#{{ category_name | slugize }}">
       <h3 class="category-head">
-        <a href="{{ site.url }}/category/{{ category_name }}">{{ category_name }}</a>
+        <a href="{{ site.url }}/categories/{{ category_name }}">{{ category_name }}</a>
       </h3>
     </div>
   </div>
