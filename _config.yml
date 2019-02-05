@@ -30,6 +30,8 @@ future: false
 
 exclude: ["README.md", "CONTRIBUTING.md", ".travis.yml", "Gemfile", "Gemfile.lock", ".updated", "Rakefile", "vendor", "tmp", "lib", "LICENSE"]
 
+show_excerpts: true
+
 pagination:
   enabled: true
   per_page: 10

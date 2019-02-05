@@ -23,7 +23,9 @@ layout: default
         </a>
       </h3>
       {%- if site.show_excerpts -%}
-        {{ post.excerpt }}
+        <span class="excerpts">
+        {{ post.content | strip_html | truncatewords:5 }}
+        </span>
       {%- endif -%}
     </li>
     {% endfor %}

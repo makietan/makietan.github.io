@@ -1,6 +1,7 @@
 ---
 layout: page
 permalink: /profile/twitter
+header_hidden: true
 ---
 
 ## 2019/01/22 〜

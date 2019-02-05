@@ -3,13 +3,13 @@
   <head>
     <meta charset="utf-8">
     <title>リダイレクト</title>
-    <link rel="canonical" href="{{ page.redirect_to | site.url }}">
-    <meta http-equiv="refresh" content="0; url={{ page.redirect_to | site.url }}">
+    <link rel="canonical" href="{{ page.redirect_to | default: site.url }}">
+    <meta http-equiv="refresh" content="0;URL={{ page.redirect_to | default: site.url }}">
   </head>
   <body>
-    <p>自動で遷移しない場合は<a href="{{ page.redirect_to | site.url }}">こちら</a></p>
+    <p>自動で遷移しない場合は<a href="{{ page.redirect_to | default: site.url }}">こちら</a></p>
     <script>
-      location="{{ page.redirect_to | site.url }}";
+      location="{{ page.redirect_to | default: site.url }}";
     </script>
   </body>
 </html>
