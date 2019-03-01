@@ -19,6 +19,11 @@ a {
   text-decoration: none;
 }
 
+a:visited {
+  color: #1b9bd3;
+  text-decoration: none;  
+}
+
 .site-header {
   background-color: #0071b7;
   background: linear-gradient(90deg, #5c99d2, #0388da);
