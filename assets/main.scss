@@ -19,6 +19,18 @@ a {
   text-decoration: none;
 }
 
+.site-header {
+  background-color: #0071b7;
+  background: linear-gradient(90deg, #5c99d2, #0388da);
+  color: white;
+}
+
+.site-header a {
+  color: white;
+  font-weight: bold;
+}
+
+
 hr {
   margin-top: 36px;
   margin-bottom: 36px;
