@@ -15,10 +15,10 @@ layout: default
     <!-- ページ分割されたpostsに対してループ -->
     {% for post in paginator.posts %}
     <li>
-      {%- assign date_format = site.minima.date_format | default: "%Y-%m-%d %H:%M" -%}
+      {%- assign date_format = site.minima.date_format | default: "%Y-%m-%d" -%}
       <span class="post-meta">{{ post.date | date: date_format }}</span>
       {%- if post.categories -%}
-      <div class="post-categories-top">
+      <span class="post-categories-top">
         {% if post %}
           {% assign categories = post.categories %}
         {% else %}
@@ -29,7 +29,7 @@ layout: default
           {% unless forloop.last %}&nbsp;{% endunless %}
         {% endfor %}
       {%- endif -%}
-      </div>
+      </span>
       <h3>
         <a class="post-link" href="{{ post.url | relative_url }}">
           {{ post.title | escape }}

@@ -56,9 +56,12 @@ hr {
   border: 0;
 }
 
-div.post-categories-top a {
-  text-decoration: none!important;
-  border: 1px solid #d2d7e5;
+span.post-categories-top {
+  margin-left: .5em;
+}
+
+span.post-categories-top a {
+  text-decoration: none !important;
   font-size: .75rem;
   display: inline-block;
   text-align: left;
