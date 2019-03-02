@@ -1,10 +1,18 @@
 ---
 layout: page
-permalink: /profile/twitter
+permalink: /profile/twitter/makietanx
 header_hidden: true
 ---
 
-## 2019/01/22 〜
+## 2019/03/03 〜
+
+趣味でアニメ実況（RT）・エンジニアをやっている者だ
+
+## 2019/02/25 〜 2019/03/03
+
+Twitter 腐ってやがる... 表現を規制しすぎたんだ
+
+## 2019/01/22 〜 2019/02/25
 
 <div style="background-color:rgb(232,232,232)">
   <p>
