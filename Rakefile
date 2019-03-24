@@ -29,7 +29,7 @@ task :tomorrow do
   path = "_posts/#{day.strftime('%F')}-report.md"
   path, day = checkFilename2(path, day)
   createReport(path, day)
-  sh "atom #{path}"
+  # sh "atom #{path}"
 end
 
 desc "create new post"
@@ -41,7 +41,7 @@ task :new do
   path = checkFilename(path)
 
   createReport(path, now)
-  sh "atom #{path}"
+  # sh "atom #{path}"
 end
 
 desc "create file"
