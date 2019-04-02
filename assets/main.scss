@@ -205,12 +205,12 @@ ul.pager li.num em, ul.pager li.num a {
   text-indent: -999px;
   cursor: hand;
   cursor:pointer;
+  z-index: 1000;
 }
 
 .card__image {
   width: 120px;
   height: 120px;
-  background-image: url('https://makietan.github.io/assets/thumbnail/question.png');
   background-size: contain;
 }
 
