@@ -1,6 +1,7 @@
 language: ruby
 rvm: 2.6.2
 before_install:
+- gem install bundler:2.0.1
 - sudo apt-get -y --reinstall install imagemagick
 script:
 - if [ $TRAVIS_EVENT_TYPE = cron ]; then mkdir -p project ; fi
