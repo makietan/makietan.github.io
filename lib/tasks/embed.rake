@@ -12,21 +12,21 @@ namespace :embed do
 
   def get_embed(meta)
     """
-    <div class=\"card\">
-      <a href=\"#{meta[:url]}\"></a>
-      <div class=\"card__header\">
-        <a href=\"#{meta[:url]}\">#{meta[:host]}</a>
-      </div>
-      <div class=\"card__image\">
-        <img src=\"#{meta[:image]}\">
-      </div>
-      <div class=\"card__title\">
-        <p>#{meta[:title]}</p>
-      </div>
-      <div class=\"card__description\">
-        <p>#{meta[:description]}</p>
-      </div>
-    </div>
+<div class=\"card\">
+  <a href=\"#{meta[:url]}\"></a>
+  <div class=\"card__header\">
+    <a href=\"#{meta[:url]}\">#{meta[:host]}</a>
+  </div>
+  <div class=\"card__image\">
+    <img src=\"#{meta[:image]}\">
+  </div>
+  <div class=\"card__title\">
+    <p>#{meta[:title]}</p>
+  </div>
+  <div class=\"card__description\">
+    <p>#{meta[:description]}</p>
+  </div>
+</div>
     """
   end
 
