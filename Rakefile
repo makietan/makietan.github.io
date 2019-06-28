@@ -29,7 +29,7 @@ task :tomorrow do
   path = "_posts/#{day.strftime('%F')}-report.md"
   path, day = checkFilename2(path, day)
   createReport(path, day)
-  # sh "atom #{path}"
+   sh "code #{path}"
 end
 
 desc "create new post"
