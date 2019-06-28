@@ -3,10 +3,26 @@ namespace :embed do
   require 'open-uri'
   require "nokogiri"
 
+  desc 'Embed適用'
+  task :apply do
+    open(ARGV[3], "r+") {|f|
+      f.flock(File::LOCK_EX)
+      body = f.read
+      body = body.gsub(/\[embed:(.*)\]/) do |tmp|
+        get_embed(get_meta($1))
+      end
+      f.rewind
+      f.puts body
+      f.truncate(f.tell)
+    }
+    puts "Finish!"
+    ARGV.slice(1,ARGV.size).each{|v| task v.to_sym do; end}
+  end
+
   # bundle exec rake -f ./lib/tasks/embed.rake embed:create
   desc 'Embed作成'
   task :create do
-    puts "#{get_embed(get_meta())}"
+    puts "#{get_embed(get_meta(ARGV[3]))}"
     ARGV.slice(1,ARGV.size).each{|v| task v.to_sym do; end}
   end
 
@@ -27,12 +43,11 @@ namespace :embed do
     <p>#{meta[:description]}</p>
   </div>
 </div>
-    """
+"""
   end
 
-  def get_meta()
+  def get_meta(uri)
     meta = {}
-    uri = ARGV[3]
     if uri =~ URI::regexp
       html = open(uri).read
       doc = Nokogiri::HTML.parse(html)

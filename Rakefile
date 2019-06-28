@@ -108,5 +108,18 @@ namespace :utils do
         end
       }
     end
+
+    desc "embed を適用する"
+    task :apply do
+      file_path = "#{ARGV.last}"
+      if !file_path.empty?
+        system "bundle exec rake -f lib/tasks/embed.rake embed:apply #{file_path}"
+        sleep 3
+      end
+      ARGV.slice(1, ARGV.size).each{ |v|
+        task v.to_sym do;
+        end
+      }
+    end
   end
 end
