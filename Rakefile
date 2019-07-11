@@ -109,6 +109,11 @@ namespace :utils do
       }
     end
 
+    desc "embed を自動適用する"
+    task :build do
+      system "git status --porcelain | sed s/^...// | xargs -n 1 sh -c 'rake utils:embed:apply $0'"
+    end
+
     desc "embed を適用する"
     task :apply do
       file_path = "#{ARGV.last}"
