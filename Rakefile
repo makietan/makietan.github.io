@@ -95,6 +95,26 @@ namespace :jekyll do
 end
 
 namespace :utils do
+  namespace :twitter do
+    desc "変更ファイルに適用する"
+    task :build do
+      system "git status --porcelain | sed s/^...// | xargs -n 1 sh -c 'rake utils:twitter:apply $0'"
+    end
+
+    desc "中央寄せにする"
+    task :apply do
+      file_path = "#{ARGV.last}"
+      if !file_path.empty?
+        system "bundle exec rake -f lib/tasks/twitter.rake twitter:apply #{file_path}"
+        sleep 3
+      end
+      ARGV.slice(1, ARGV.size).each{ |v|
+        task v.to_sym do;
+        end
+      }
+    end
+  end
+
   namespace :embed do
     desc "embed を作成する"
     task :create do
