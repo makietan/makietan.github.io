@@ -115,6 +115,39 @@ namespace :utils do
     end
   end
 
+  namespace :image do
+    desc "image を作成する"
+    task :create do
+      file_path = "#{ARGV.last}"
+      if !file_path.empty?
+        system "bundle exec rake -f lib/tasks/image.rake image:create #{file_path}"
+        sleep 3
+      end
+      ARGV.slice(1, ARGV.size).each{ |v|
+        task v.to_sym do;
+        end
+      }
+    end
+
+    desc "image を自動適用する"
+    task :build do
+      system "git status --porcelain | sed s/^...// | xargs -n 1 sh -c 'rake utils:image:apply $0'"
+    end
+
+    desc "image を適用する"
+    task :apply do
+      file_path = "#{ARGV.last}"
+      if !file_path.empty?
+        system "bundle exec rake -f lib/tasks/image.rake image:apply #{file_path}"
+        sleep 3
+      end
+      ARGV.slice(1, ARGV.size).each{ |v|
+        task v.to_sym do;
+        end
+      }
+    end
+  end
+
   namespace :embed do
     desc "embed を作成する"
     task :create do
