@@ -95,6 +95,13 @@ namespace :jekyll do
 end
 
 namespace :utils do
+  desc "すべてのツールを適用する"
+  task :build do
+    Rake::Task["utils:twitter:build"].invoke()
+    Rake::Task["utils:image:build"].invoke()
+    Rake::Task["utils:embed:build"].invoke()
+  end
+
   namespace :twitter do
     desc "変更ファイルに適用する"
     task :build do
