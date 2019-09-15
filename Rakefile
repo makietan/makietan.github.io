@@ -95,6 +95,12 @@ namespace :jekyll do
 end
 
 namespace :utils do
+  desc "git add の前にやりたいことをやる"
+  task :add do
+    Rake::Task['utils:build'].invoke()
+    sh("git add .")
+  end
+
   desc "すべてのツールを適用する"
   task :build do
     Rake::Task["utils:twitter:build"].invoke()
