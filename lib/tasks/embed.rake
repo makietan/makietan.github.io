@@ -15,7 +15,7 @@ namespace :embed do
       f.puts body
       f.truncate(f.tell)
     }
-    puts "Finish!"
+    puts "Embed 処理: #{ARGV[3]}"
     ARGV.slice(1,ARGV.size).each{|v| task v.to_sym do; end}
   end
 
