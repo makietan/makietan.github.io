@@ -273,3 +273,33 @@ ul.pager li.num em, ul.pager li.num a {
   color: #aaa;
   text-decoration: none;
 }
+
+.tooltip {
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.tooltip p {
+  margin: 0;
+  padding: 0;
+}
+
+.tooltip .description {
+  display: none;
+  position: absolute;
+  padding: 5px;
+  font-size: 12px;
+  line-height: 1.6em;
+  color: #fff;
+  border-radius: 5px;
+  background: #000;
+  white-space: nowrap;
+}
+
+.tooltip:hover .description {
+  display: inline-block;
+  top: -35px;
+  left: 0;
+  margin: auto;
+}
