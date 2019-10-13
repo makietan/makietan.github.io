@@ -303,3 +303,9 @@ ul.pager li.num em, ul.pager li.num a {
   left: 0;
   margin: auto;
 }
+
+.haiku {
+  writing-mode: vertical-rl;
+  position: absolute;
+  right: 0;
+}
