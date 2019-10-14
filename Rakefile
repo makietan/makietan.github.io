@@ -70,7 +70,7 @@ end
 desc "check duplicate filename"
 def checkFilename(filename)
   while File.exist?(filename)
-    result = filename.match(/(.*)(\d+)?.md/)
+    result = filename.match(/(.*?)(\d+)?.md/)
     unless result[2].nil?
       filename = "#{result[1]}#{(result[2].to_i + 1).to_s}.md"
     else
