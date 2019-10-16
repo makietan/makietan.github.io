@@ -106,6 +106,27 @@ namespace :utils do
     Rake::Task["utils:twitter:build"].invoke()
     Rake::Task["utils:image:build"].invoke()
     Rake::Task["utils:embed:build"].invoke()
+    Rake::Task["utils:haiku:build"].invoke()
+  end
+
+  namespace :haiku do
+    desc "変更ファイルに適用する"
+    task :build do
+      system "git status --porcelain | sed s/^...// | xargs -n 1 sh -c 'rake utils:haiku:apply $0'"
+    end
+
+    desc "川柳の表示にする"
+    task :apply do
+      file_path = "#{ARGV.last}"
+      if !file_path.empty?
+        system "bundle exec rake -f lib/tasks/haiku.rake haiku:apply #{file_path}"
+        sleep 3
+      end
+      ARGV.slice(1, ARGV.size).each{ |v|
+        task v.to_sym do;
+        end
+      }
+    end
   end
 
   namespace :twitter do
