@@ -3,4 +3,4 @@
 {% if page.title %}<meta name="twitter:title" content="{{ page.title }}" />{% else %}<meta name="twitter:title" content="{{ site.title }}" />{% endif %}
 {% if page.description %}<meta name="twitter:description" content="{{ page.description }}" />{% else %}<meta name="twitter:description" content="{{ site.description }}" />{% endif %}
 {% assign place = page.path | replace: '_posts/', '' %}{% assign place2 = place | replace: '.md', '' %}{% for image in site.static_files %}{% if image.path contains place2 and image.path contains 'assets/thumbnail' %}<meta name="twitter:image" content="{{ site.url }}{{ image.path }}" />{% assign hasImage = true %}{% break %}{% endif %}{% endfor %}
-{% if hasImage == false %}<meta name="twitter:image" content="{{ site.url }}/assets/thumbnail/logo.png" />{% endif %}
+{% if hasImage != true %}<meta name="twitter:image" content="{{ site.url }}/assets/thumbnail/logo.png" />{% endif %}

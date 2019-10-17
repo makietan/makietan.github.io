@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function(event) {
+function hide_image() {
   [...document.querySelectorAll('.card__image > img')].forEach((e) => {
     e.addEventListener('error', () => {
       e.style.display = 'none';
@@ -8,4 +8,5 @@ document.addEventListener("DOMContentLoaded", function(event) {
       e.parentElement.parentElement.querySelector('.card__header').style.left = '8px';
     });
   });
-});
+}
+document.addEventListener("DOMContentLoaded", (event) => hide_image());
