@@ -112,7 +112,7 @@ namespace :utils do
   namespace :haiku do
     desc "変更ファイルに適用する"
     task :build do
-      system "git status --porcelain | sed s/^...// | xargs -n 1 sh -c 'rake utils:haiku:apply $0'"
+      system "git status --porcelain | grep \"_posts\" | sed s/^...// | xargs -n 1 sh -c 'rake utils:haiku:apply $0'"
     end
 
     desc "川柳の表示にする"
@@ -132,7 +132,7 @@ namespace :utils do
   namespace :twitter do
     desc "変更ファイルに適用する"
     task :build do
-      system "git status --porcelain | sed s/^...// | xargs -n 1 sh -c 'rake utils:twitter:apply $0'"
+      system "git status --porcelain | grep \"_posts\" | sed s/^...// | xargs -n 1 sh -c 'rake utils:twitter:apply $0'"
     end
 
     desc "中央寄せにする"
@@ -165,7 +165,7 @@ namespace :utils do
 
     desc "image を自動適用する"
     task :build do
-      system "git status --porcelain | sed s/^...// | xargs -n 1 sh -c 'rake utils:image:apply $0'"
+      system "git status --porcelain | grep \"_posts\" | sed s/^...// | xargs -n 1 sh -c 'rake utils:image:apply $0'"
     end
 
     desc "image を適用する"
@@ -198,7 +198,7 @@ namespace :utils do
 
     desc "embed を自動適用する"
     task :build do
-      system "git status --porcelain | sed s/^...// | xargs -n 1 sh -c 'rake utils:embed:apply $0'"
+      system "git status --porcelain | grep \"_posts\" | sed s/^...// | xargs -n 1 sh -c 'rake utils:embed:apply $0'"
     end
 
     desc "embed を適用する"
