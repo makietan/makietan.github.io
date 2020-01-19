@@ -29,7 +29,17 @@ task :tomorrow do
   path = "_posts/#{day.strftime('%F')}-report.md"
   path, day = checkFilename2(path, day)
   createReport(path, day)
-   sh "code #{path}"
+  sh "code #{path}"
+end
+
+desc "create new post in empty date"
+task :fill do
+  title = ""
+  day = Date.today
+  path = "_posts/#{day.strftime('%F')}-report.md"
+  path, day = checkFilename3(path, day)
+  createReport(path, day)
+  sh "code #{path}"
 end
 
 desc "create new post"
@@ -56,6 +66,15 @@ def createReport(path, day)
     f.puts ""
     f.puts ""
   end
+end
+
+desc "check duplicate filename"
+def checkFilename3(filename, day)
+  while File.exist?(filename)
+    day = day - 1
+    filename = "_posts/#{day.strftime('%F')}-report.md"
+  end
+  return filename, day
 end
 
 desc "cehck duplicate filename"
