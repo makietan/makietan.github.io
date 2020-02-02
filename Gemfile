@@ -34,6 +34,4 @@ gem "mini_magick"
 gem "safe_yaml"
 gem "nokogiri"
 
-gem 'listen', '~> 3.0'
-
 gem "rake"

@@ -122,10 +122,20 @@ namespace :utils do
 
   desc "すべてのツールを適用する"
   task :build do
-    Rake::Task["utils:twitter:build"].invoke()
-    Rake::Task["utils:image:build"].invoke()
-    Rake::Task["utils:embed:build"].invoke()
-    Rake::Task["utils:haiku:build"].invoke()
+    threads = []
+    threads << Thread.new do
+      Rake::Task["utils:twitter:build"].invoke()
+    end
+    threads << Thread.new do
+      Rake::Task["utils:image:build"].invoke()
+    end
+    threads << Thread.new do
+      Rake::Task["utils:embed:build"].invoke()
+    end
+    threads << Thread.new do
+      Rake::Task["utils:haiku:build"].invoke()
+    end
+    threads.each { |t| t.join }
   end
 
   namespace :haiku do
