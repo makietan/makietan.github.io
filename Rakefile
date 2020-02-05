@@ -2,6 +2,9 @@ require "date"
 
 task :default => :tomorrow
 
+desc "すべてのツールを適用する"
+task :b => ["utils:build"]
+
 desc "create new category page"
 task :category do
   title = "#{ARGV.last}"
