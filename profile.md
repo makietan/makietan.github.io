@@ -2,6 +2,7 @@
 layout: default
 title: Profile
 permalink: /profile/
+autogen: true
 ---
 
 ```
