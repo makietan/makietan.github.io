@@ -5,6 +5,13 @@ task :default => :tomorrow
 desc "すべてのツールを適用する"
 task :b => ["utils:build"]
 
+desc "git add & git commit -m '日報'"
+task :s do
+  sh "git pull origin develop"
+  sh "git add ."
+  sh "git commit -m '日報'"
+end
+
 desc "create new category page"
 task :category do
   title = "#{ARGV.last}"
