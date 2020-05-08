@@ -12,6 +12,13 @@ task :s do
   sh "git commit -m '日報'"
 end
 
+desc "全部やる"
+task :bsp do
+  Rake::Task["b"].invoke()
+  Rake::Task["s"].invoke()
+  sh "git push"
+end
+
 desc "create new category page"
 task :category do
   title = "#{ARGV.last}"
