@@ -1,3 +1,5 @@
+require 'kconv'
+
 namespace :embed do
   require 'uri'
   require 'open-uri'
@@ -49,8 +51,9 @@ namespace :embed do
   def get_meta(uri)
     meta = {}
     if uri =~ URI::regexp
-      html = open(uri).read
-      doc = Nokogiri::HTML.parse(html)
+      html = URI.open(uri).read
+      
+      doc = Nokogiri::HTML(html.toutf8, nil, 'utf-8')
 
       title = doc.title
       title = doc.xpath('//meta[@property="og:title"]/@content') if title.nil? || title.empty?
