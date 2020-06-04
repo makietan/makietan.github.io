@@ -1,0 +1,56 @@
+<hr>
+{% assign max_related_count = site.related_post_count %}
+{% assign related_counter = 0 %}
+
+{% for post in site.posts %}
+  {% assign same_category_count = 0 %}
+  {% for category in post.categories %}
+    {% if post.url != page.url %}
+      {% if page.categories contains category %}
+        {% assign same_category_count = same_category_count | plus: 1 %}
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+
+  {% if same_category_count > 0 %}
+    {% if related_counter == 0 %}
+      <div class="related">
+        <h1>関連日報</h1>
+        <div class="related-posts">
+    {% endif %}
+          <div class="card">
+            <a href="{{ post.url | relative_url }}" title="{{ post.title | escape }}"></a>
+            <div class="card__header">
+              <a href="{{ post.url | relative_url }}">{{ post.date | date: date_format }}</a>
+            </div>
+            <div class="card__image">
+              {% assign place = page.path | replace: '_posts/', '' %}
+              {% assign place2 = place | replace: '.md', '' %}
+              {% for image in site.static_files %}
+                {% if image.path contains place2 and image.path contains 'assets/thumbnail' %}
+                  <img src="{{ site.url }}{{ image.path }}" />
+                  {% assign hasImage = true %}
+                  {% break %}
+                {% endif %}
+              {% endfor %}
+              {% if hasImage != true %}
+                <img src="{{ site.url }}/assets/thumbnail/logo.png" />
+              {% endif %}
+            </div>
+            <div class="card__title">
+              <p>{{ post.title | escape }}</p>
+            </div>
+            <div class="card__description"></div>
+          </div>
+    {% assign related_counter = related_counter | plus: 1 %}
+    {% if related_counter >= max_related_count %}
+        </div>
+      </div>
+      {% break %}
+    {% endif %}
+    {% if forloop.last %}
+        </div>
+      </div>
+    {% endif %}
+  {% endif %}
+{% endfor %}

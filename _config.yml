@@ -39,3 +39,5 @@ pagination:
   limit: 0
   sort_field: 'date'
   sort_reverse: true
+
+related_post_count: 5

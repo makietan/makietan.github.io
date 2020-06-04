@@ -9,7 +9,7 @@ body, html {
 }
 
 body {
-  background-color: #fafafa;
+  background-color: #fdfdfd;
   font-family: Roboto, PT Sans, Helvetica Neue, Arial, Hiragino Kaku Gothic Pro, Meiryo, MS PGothic, sans-serif;
   font-size: 16px;
 }
@@ -409,4 +409,33 @@ ul.pager li.num em, ul.pager li.num a {
   border: dashed 1px #AAAAAA;
   display: none;
   color: #3d3f44;
+}
+
+.related-posts > .card {
+  margin-top: 1px;
+  margin-bottom: 1px;
+  border: 0;
+  height: 48px;
+  background: #fdfdfd;
+}
+
+.related-posts > .card > .card__image {
+  width: 48px;
+  height: 48px;
+  background-size: contain;
+}
+
+.related-posts > .card > .card__image > img {
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+}
+
+.related-posts > .card > .card__title {
+  height: 24px;
+}
+
+.related-posts > .card > .card__description {
+  top: 0;
+  height: 0;
 }
