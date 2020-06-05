@@ -24,18 +24,8 @@
               <a href="{{ post.url | relative_url }}">{{ post.date | date: date_format }}</a>
             </div>
             <div class="card__image">
-              {% assign place = page.path | replace: '_posts/', '' %}
-              {% assign place2 = place | replace: '.md', '' %}
-              {% for image in site.static_files %}
-                {% if image.path contains place2 and image.path contains 'assets/thumbnail' %}
-                  <img src="{{ site.url }}{{ image.path }}" />
-                  {% assign hasImage = true %}
-                  {% break %}
-                {% endif %}
-              {% endfor %}
-              {% if hasImage != true %}
-                <img src="{{ site.url }}/assets/thumbnail/logo.png" />
-              {% endif %}
+              {% assign place = page.path | replace: '_posts/', '' %}{% assign place2 = place | replace: '.md', '' %}{% for image in site.static_files %}{% if image.path contains place2 and image.path contains 'assets/thumbnail' %}<img src="{{ site.url }}{{ image.path }}" />{% assign hasImage = true %}{% break %}{% endif %}{% endfor %}
+              {% if hasImage != true %}<img src="{{ site.url }}/assets/thumbnail/logo.png" />{% endif %}
             </div>
             <div class="card__title">
               <p>{{ post.title | escape }}</p>
