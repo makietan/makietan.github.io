@@ -431,11 +431,17 @@ ul.pager li.num em, ul.pager li.num a {
   object-fit: cover;
 }
 
+.related-posts > .card > .card__header {
+  left: 56px;
+}
+
 .related-posts > .card > .card__title {
   height: 24px;
+  left: 56px;
 }
 
 .related-posts > .card > .card__description {
   top: 0;
   height: 0;
+  left: 0;
 }
