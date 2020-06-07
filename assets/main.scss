@@ -419,25 +419,13 @@ ul.pager li.num em, ul.pager li.num a {
   background: #fdfdfd;
 }
 
-.related-posts > .card > .card__image {
-  width: 48px;
-  height: 48px;
-  background-size: contain;
-}
-
-.related-posts > .card > .card__image > img {
-  width: 48px;
-  height: 48px;
-  object-fit: cover;
-}
-
 .related-posts > .card > .card__header {
-  left: 56px;
+  left: 8px;
 }
 
 .related-posts > .card > .card__title {
   height: 24px;
-  left: 56px;
+  left: 8px;
 }
 
 .related-posts > .card > .card__description {
