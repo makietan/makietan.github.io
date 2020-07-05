@@ -12,6 +12,9 @@ task :s do
   sh "git commit -m '日報'"
 end
 
+desc "校閲する"
+task :t => ["utils:lint:build"]
+
 desc "全部やる"
 task :bsp do
   Rake::Task["b"].invoke()
@@ -141,6 +144,9 @@ namespace :utils do
   task :build do
     threads = []
     threads << Thread.new do
+      Rake::Task["utils:lint:build"].invoke()
+    end
+    threads << Thread.new do
       Rake::Task["utils:twitter:build"].invoke()
     end
     threads << Thread.new do
@@ -153,6 +159,25 @@ namespace :utils do
       Rake::Task["utils:haiku:build"].invoke()
     end
     threads.each { |t| t.join }
+  end
+
+  namespace :lint do
+    desc "日本語校閲する"
+    task :build do
+      system "git status --porcelain | grep \"_posts\" | sed s/^...// | xargs -n 1 sh -c 'npx textlint $0'"
+    end
+
+    desc "日本語校閲する"
+    task :apply do
+      file_path = "#{ARGV.last}"
+      if !file_path.empty?
+        system "npx textlint #{file_path}"
+      end
+      ARGV.slice(1, ARGV.size).each{ |v|
+        task v.to_sym do;
+        end
+      }
+    end
   end
 
   namespace :haiku do
