@@ -1,5 +1,12 @@
 {
-  "filters": {},
+  "filters": {
+    "whitelist": {
+      "allow": [
+        "日本学生支援機構",
+        "上限固定変動性"
+      ]
+    }
+  },
   "rules": {
     "preset-ja-spacing": true,
     "preset-ja-technical-writing": true,
