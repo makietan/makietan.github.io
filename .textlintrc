@@ -13,7 +13,9 @@
   "rules": {
     "preset-ja-spacing": true,
     "preset-ja-technical-writing": {
-      "no-exclamation-question-mark": false
+      "no-exclamation-question-mark": false,
+      "ja-no-weak-phrase": false,
+      "ja-no-successive-word": false
     },
     "spellcheck-tech-word": false,
     "no-doubled-conjunctive-particle-ga": true,
