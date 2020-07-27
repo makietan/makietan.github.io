@@ -15,6 +15,9 @@ namespace :image do
       body = body.gsub(/\[image:(.*)\]/) do |tmp|
         get_image(filename, $1)
       end
+      body = body.gsub(/!\[\]\(..\/assets\/images\/(.*)\)/) do |tmp|
+        get_image(filename, $1.split('/').last)
+      end
       f.rewind
       f.puts body
       f.truncate(f.tell)
