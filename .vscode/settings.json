@@ -1,0 +1,6 @@
+{
+  "pasteImage.path": "${projectRoot}/assets/images/${currentFileNameWithoutExt}",
+  "pasteImage.basePath": "${projectRoot}/_posts",
+  "pasteImage.forceUnixStyleSeparator": true,
+  "pasteImage.defaultName": "HH-mm-ss"
+}

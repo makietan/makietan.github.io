@@ -28,7 +28,7 @@ timezone: Asia/Tokyo
 
 future: false
 
-exclude: ["README.md", "CONTRIBUTING.md", ".travis.yml", "Gemfile", "Gemfile.lock", ".updated", "Rakefile", "vendor", "tmp", "lib", "LICENSE", ".textlintrc", "package-lock.json", "package.json", "node_modules"]
+exclude: ["README.md", "CONTRIBUTING.md", ".travis.yml", "Gemfile", "Gemfile.lock", ".updated", "Rakefile", "vendor", "tmp", "lib", "LICENSE", ".textlintrc", "package-lock.json", "package.json", "node_modules", ".vscode"]
 
 show_excerpts: true
 
