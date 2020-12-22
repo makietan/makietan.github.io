@@ -33,32 +33,32 @@ h6 {
 }
 
 a {
-  color: #d689b9;
+  color: #000000;
   text-decoration: none;
 }
 
 a:visited {
-  color: #4593ca;
+  color: #2f485a;
   text-decoration: none;
 }
 
 .site-header {
   background-color: white;
-  color: #d896bf;
+  color: #000000;
 }
 
 .site-nav {
-  color: #d896bf;
+  color: #000000;
   background-color: white;
 }
 
 .site-header a {
-  color: #d896bf !important;
+  color: #000000 !important;
   font-weight: bold;
 }
 
 .menu-icon svg {
-  fill: #d896bf !important;
+  fill: #000000 !important;
 }
 
 hr {
@@ -430,4 +430,8 @@ ul.pager li.num em, ul.pager li.num a {
   top: 0;
   height: 0;
   left: 0;
+}
+
+.excerpts {
+  color: #2f485a
 }
