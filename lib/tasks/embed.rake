@@ -51,33 +51,38 @@ namespace :embed do
   def get_meta(uri)
     meta = {}
     if uri =~ URI::regexp
-      html = URI.open(uri).read
-      
-      doc = Nokogiri::HTML(html.toutf8, nil, 'utf-8')
+      begion 
+        html = URI.open(uri).read
+        
+        doc = Nokogiri::HTML(html.toutf8, nil, 'utf-8')
 
-      title = doc.title
-      title = doc.xpath('//meta[@property="og:title"]/@content') if title.nil? || title.empty?
-      title = doc.xpath('//meta[@name="twitter:title"]/@content') if title.nil? || title.empty?
-      meta[:title] = title unless title.nil? or title.empty?
+        title = doc.title
+        title = doc.xpath('//meta[@property="og:title"]/@content') if title.nil? || title.empty?
+        title = doc.xpath('//meta[@name="twitter:title"]/@content') if title.nil? || title.empty?
+        meta[:title] = title unless title.nil? or title.empty?
 
-      description = doc.xpath('//meta[@name="description"]/@content')
-      description = doc.xpath('//meta[@property="og:description"]/@content') if description.nil? || description.empty?
-      description = doc.xpath('//meta[@name="twitter:description"]/@content') if description.nil? || description.empty?
-      meta[:description] = description.to_s unless description.nil? || description.empty?
+        description = doc.xpath('//meta[@name="description"]/@content')
+        description = doc.xpath('//meta[@property="og:description"]/@content') if description.nil? || description.empty?
+        description = doc.xpath('//meta[@name="twitter:description"]/@content') if description.nil? || description.empty?
+        meta[:description] = description.to_s unless description.nil? || description.empty?
 
-      url = uri
-      url = doc.xpath('//meta[@property="og:description"]/@content')  if url.nil? || url.empty?
-      url = doc.xpath('//meta[@name="twitter:description"]/@content') if url.nil? || url.empty?
-      meta[:url] = url.to_s unless url.nil? or url.empty?
-      meta[:host] = URI.parse(url).host unless URI.parse(url)&.host.nil?
+        url = uri
+        url = doc.xpath('//meta[@property="og:description"]/@content')  if url.nil? || url.empty?
+        url = doc.xpath('//meta[@name="twitter:description"]/@content') if url.nil? || url.empty?
+        meta[:url] = url.to_s unless url.nil? or url.empty?
+        meta[:host] = URI.parse(url).host unless URI.parse(url)&.host.nil?
 
-      image = doc.xpath('//meta[@property="og:image"]/@content')
-      image = doc.xpath('//meta[@name="twitter:image"]/@content') if image.nil? || image.empty?
-      image = doc.xpath('//link[@rel="apple-touch-icon"]/@href') if image.nil? || image.empty?
-      if image.to_s =~ %r{^\/(.*)}
-        meta[:image] = URI.join(uri, image.to_s).to_s unless image.nil? || image.empty?
-      else
-        meta[:image] = image.to_s unless image.nil? || image.empty?
+        image = doc.xpath('//meta[@property="og:image"]/@content')
+        image = doc.xpath('//meta[@name="twitter:image"]/@content') if image.nil? || image.empty?
+        image = doc.xpath('//link[@rel="apple-touch-icon"]/@href') if image.nil? || image.empty?
+        if image.to_s =~ %r{^\/(.*)}
+          meta[:image] = URI.join(uri, image.to_s).to_s unless image.nil? || image.empty?
+        else
+          meta[:image] = image.to_s unless image.nil? || image.empty?
+        end
+      rescue => e
+        puts "URL: " + uri
+        puts e
       end
     end
     meta
