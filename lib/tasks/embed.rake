@@ -51,7 +51,7 @@ namespace :embed do
   def get_meta(uri)
     meta = {}
     if uri =~ URI::regexp
-      begion 
+      begin 
         html = URI.open(uri).read
         
         doc = Nokogiri::HTML(html.toutf8, nil, 'utf-8')
