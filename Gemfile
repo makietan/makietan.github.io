@@ -35,3 +35,5 @@ gem "safe_yaml"
 gem "nokogiri"
 
 gem "rake"
+
+gem "webrick", "~> 1.7"
