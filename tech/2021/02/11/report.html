@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="ja_JP"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/notosansjp.css"><!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>GitHubには悪意のあるBOTがたくさんいるので同じように監視するBOTでも用意したらいいんじゃないかな | 日報</title>
+<meta name="generator" content="Jekyll v4.2.0" />
+<meta property="og:title" content="GitHubには悪意のあるBOTがたくさんいるので同じように監視するBOTでも用意したらいいんじゃないかな" />
+<meta name="author" content="makietan" />
+<meta property="og:locale" content="ja_JP" />
+<meta name="description" content="www.itmedia.co.jp GitHubへのソースコード流出問題、防ぎようはあるのか　専門家に聞く - ITmedia NEWS SMBCから業務委託を受けたSEらしき人物が、GitHubにソースコードを公開したことが話題になった。この情報漏えいはどうすれば防げたのか。専門界に話を聞いた。" />
+<meta property="og:description" content="www.itmedia.co.jp GitHubへのソースコード流出問題、防ぎようはあるのか　専門家に聞く - ITmedia NEWS SMBCから業務委託を受けたSEらしき人物が、GitHubにソースコードを公開したことが話題になった。この情報漏えいはどうすれば防げたのか。専門界に話を聞いた。" />
+<link rel="canonical" href="https://makietan.github.io/tech/2021/02/11/report.html" />
+<meta property="og:url" content="https://makietan.github.io/tech/2021/02/11/report.html" />
+<meta property="og:site_name" content="日報" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-02-11T00:00:00+09:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="GitHubには悪意のあるBOTがたくさんいるので同じように監視するBOTでも用意したらいいんじゃないかな" />
+<script type="application/ld+json">
+{"author":{"@type":"Person","name":"makietan"},"headline":"GitHubには悪意のあるBOTがたくさんいるので同じように監視するBOTでも用意したらいいんじゃないかな","dateModified":"2021-02-11T00:00:00+09:00","datePublished":"2021-02-11T00:00:00+09:00","description":"www.itmedia.co.jp GitHubへのソースコード流出問題、防ぎようはあるのか　専門家に聞く - ITmedia NEWS SMBCから業務委託を受けたSEらしき人物が、GitHubにソースコードを公開したことが話題になった。この情報漏えいはどうすれば防げたのか。専門界に話を聞いた。","mainEntityOfPage":{"@type":"WebPage","@id":"https://makietan.github.io/tech/2021/02/11/report.html"},"@type":"BlogPosting","url":"https://makietan.github.io/tech/2021/02/11/report.html","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="https://makietan.github.io/feed.xml" title="日報" /><meta name="msvalidate.01" content="89F1D244C30C26610D2EB5442A4DA1D8" />
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-72711550-4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-72711550-4');
+</script>
+<link rel="shortcut icon" href="/assets/images/icon.ico">
+  <link rel="icon" sizes="144x144" href="/assets/images/icon_144.png">
+  <script src="/assets/js/clipboard.js" type="text/javascript" charset="utf-8"></script>
+  <script src="/assets/js/image-display.js" type="text/javascript" charset="utf-8"></script>
+  <script src="/assets/js/collapse.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@makietanx" />
+<meta name="twitter:title" content="GitHubには悪意のあるBOTがたくさんいるので同じように監視するBOTでも用意したらいいんじゃないかな" />
+<meta name="twitter:description" content="ここは日報をメインに書きます." />
+
+<meta name="twitter:image" content="https://makietan.github.io/assets/thumbnail/logo.png" />
+
+<link rel="icon" href="https://makietan.github.io/assets/images/favicon.ico">
+  <link rel="apple-touch-icon" sizes="144x144" href="https://makietan.github.io/assets/images/icon_144.png" />
+
+  <body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">日報</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about/">About</a><a class="page-link" href="/category/">Category</a><a class="page-link" href="/search/">Search</a></div>
+      </nav></div>
+</header>
+
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">GitHubには悪意のあるBOTがたくさんいるので同じように監視するBOTでも用意したらいいんじゃないかな</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2021-02-11T00:00:00+09:00" itemprop="datePublished">2021-02-11 00:00
+      </time><p>
+        <span class="post-categories">
+          
+          
+            <a href="https://makietan.github.io/categories/tech">tech</a>
+            
+          
+        </span>
+      </p></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <div class="card">
+  <a href="https://www.itmedia.co.jp/news/articles/2102/01/news140.html"></a>
+  <div class="card__header">
+    <a href="https://www.itmedia.co.jp/news/articles/2102/01/news140.html">www.itmedia.co.jp</a>
+  </div>
+  <div class="card__image">
+    <img src="https://image.itmedia.co.jp/news/articles/2102/01/cover_news140.jpg" />
+  </div>
+  <div class="card__title">
+    <p>GitHubへのソースコード流出問題、防ぎようはあるのか　専門家に聞く - ITmedia NEWS</p>
+  </div>
+  <div class="card__description">
+    <p>SMBCから業務委託を受けたSEらしき人物が、GitHubにソースコードを公開したことが話題になった。この情報漏えいはどうすれば防げたのか。専門界に話を聞いた。</p>
+  </div>
+</div>
+
+<p>GitHubへのソースコード流出問題があった。</p>
+
+<h2 id="セキュリティに関して">セキュリティに関して</h2>
+
+<p>ソースコードは大したものじゃないのでなんらセキュリティに影響ない。
+GitHubには様々なソースコードが存在する。
+オープンソースプロジェクトがそれなりの数を占めるのでそれらを利用しているのであれば、
+ソースコードは既に漏れた状態であると言ってもいい。
+しかし、それらは公開されていても何ら問題ないのである。
+なぜなら、標準では各社サーバーへのアクセスができないからだ。
+サーバーへのアドレスやパスワード、トークンが組み込まれていて漏洩したのであれば非常に問題となる。
+オープンソースプロジェクトにはキーとなるそれらが存在しない。
+そのため影響はないのである。
+再利用できるものを共有するのがオープンソースプロジェクトの目的で
+共通化するためにはキーとなる情報を個々に設定できる。</p>
+
+<p>だらだら書いたが、設計図の一部分だけであれば見られてもなんら問題ないのと同じで、核となる部分さえ漏洩しなければ何ら問題ない。</p>
+
+<p>GitHubはソースコードではなく、オープンソースプロジェクトにどれだけ貢献しているかを見ると良い。
+その人の書いたソースコードを見てもそのソースコード自体がどこの何に利用されているのかがわからなければ何もわからないからである。</p>
+
+<h2 id="github-はプライベート設定で利用しろ">GitHub はプライベート設定で利用しろ</h2>
+
+<p>GitHubは機能制限付きだがプライベートで利用できるようなった。
+本来ならプライベートで利用すべきだが見落としてパブリックで晒してしまう人たちもいる。
+要注意して利用しよう。</p>
+
+<h2 id="企業がやるべき対応">企業がやるべき対応</h2>
+
+<p>定期的に自社のCopyrightが記載されたソースコードが存在しないかチェックするBOTでGitHubを巡回するといいだろう。
+AWSのキーペアをGitHubに流出してしまうと抜かれる事象もある。現在はGitHubが警告をしてくれたりもする。</p>
+
+<div class="card">
+  <a href="https://qiita.com/saitotak/items/813ac6c2057ac64d5fef"></a>
+  <div class="card__header">
+    <a href="https://qiita.com/saitotak/items/813ac6c2057ac64d5fef">qiita.com</a>
+  </div>
+  <div class="card__image">
+    <img src="https://qiita-user-contents.imgix.net/https%3A%2F%2Fcdn.qiita.com%2Fassets%2Fpublic%2Farticle-ogp-background-1150d8b18a7c15795b701a55ae908f94.png?ixlib=rb-1.2.2&amp;w=1200&amp;mark=https%3A%2F%2Fqiita-user-contents.imgix.net%2F~text%3Fixlib%3Drb-1.2.2%26w%3D840%26h%3D380%26txt%3DGitHub%2520%25E3%2581%25AB%2520AWS%2520%25E3%2582%25AD%25E3%2583%25BC%25E3%2583%259A%25E3%2582%25A2%25E3%2582%2592%25E4%25B8%258A%25E3%2581%2592%25E3%2582%258B%25E3%2581%25A8%25E6%258A%259C%25E3%2581%258B%25E3%2582%258C%25E3%2582%258B%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%25BB%25E3%2582%2593%25E3%2581%25A8%25EF%25BC%259F%25EF%25BC%259F%25EF%25BC%259F%25E8%25A9%25A6%25E3%2581%2597%25E3%2581%25A6%25E3%2581%25BF%25E3%2582%2588%25E3%2583%25BC%25EF%25BC%2581%26txt-color%3D%2523333%26txt-font%3DHiragino%2520Sans%2520W6%26txt-size%3D54%26txt-clip%3Dellipsis%26txt-align%3Dcenter%252Cmiddle%26s%3D828da6c112d47a791118abab32b480ff&amp;mark-align=center%2Cmiddle&amp;blend=https%3A%2F%2Fqiita-user-contents.imgix.net%2F~text%3Fixlib%3Drb-1.2.2%26w%3D840%26h%3D500%26txt%3D%2540saitotak%26txt-color%3D%2523333%26txt-font%3DHiragino%2520Sans%2520W6%26txt-size%3D45%26txt-align%3Dright%252Cbottom%26s%3D8755043e57c9f775b0f9e4f43a94176d&amp;blend-align=center%2Cmiddle&amp;blend-mode=normal&amp;s=5ffafaa2b47e02cd9bc19aafb294e427" />
+  </div>
+  <div class="card__title">
+    <p>GitHub に AWS キーペアを上げると抜かれるってほんと？？？試してみよー！ - Qiita</p>
+  </div>
+  <div class="card__description">
+    <p>
+
+🤔 前書き
+
+　稀によくある 、AWS を不正利用されちゃう話、
+
+
+AWSで不正利用され80000ドルの請求が来た話 - Qiita
+初心者がAWSでミスって不正利用されて$6,000請求、泣きそうになったお話。 - Qiita...</p>
+  </div>
+</div>
+
+<p>それと同じように監視する必要があるだろう。
+gitのリモートブランチ先はわりと簡単に変更できてしまうので制限を色々かけているから安心とはならない。</p>
+
+<h2 id="おわりに">おわりに</h2>
+
+<p>技術だけでなく倫理観の備わったエンジニアを採用しよう。</p>
+
+  </div><a class="u-url" href="/tech/2021/02/11/report.html" hidden></a>
+</article>
+
+<hr>
+
+
+
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+    
+      <div class="related">
+        <h1>関連日報</h1>
+        <div class="related-posts">
+    
+          <div class="card">
+            <a href="/tech/2021/06/26/report.html" title="PCにつけられる赤外線リモコンが欲しい"></a>
+            <div class="card__header">
+              <a href="/tech/2021/06/26/report.html">2021-06-26 00:00</a>
+            </div>
+            <div class="card__title">
+              <p>PCにつけられる赤外線リモコンが欲しい</p>
+            </div>
+            <div class="card__description"></div>
+          </div>
+    
+    
+    
+  
+
+  
+  
+
+  
+    
+          <div class="card">
+            <a href="/tech/2021/06/25/report.html" title="Chrome拡張機能をSafari拡張機能に変換できるらしい"></a>
+            <div class="card__header">
+              <a href="/tech/2021/06/25/report.html">2021-06-25 00:00</a>
+            </div>
+            <div class="card__title">
+              <p>Chrome拡張機能をSafari拡張機能に変換できるらしい</p>
+            </div>
+            <div class="card__description"></div>
+          </div>
+    
+    
+    
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+    
+          <div class="card">
+            <a href="/tech/2021/06/11/report.html" title="「DSL element &#39;android.lintOptions.check&#39; is obsolete and has been replaced with &#39;android.lintOptions.checkOnly&#39;.」と表示された"></a>
+            <div class="card__header">
+              <a href="/tech/2021/06/11/report.html">2021-06-11 00:00</a>
+            </div>
+            <div class="card__title">
+              <p>「DSL element &#39;android.lintOptions.check&#39; is obsolete and has been replaced with &#39;android.lintOptions.checkOnly&#39;.」と表示された</p>
+            </div>
+            <div class="card__description"></div>
+          </div>
+    
+    
+    
+  
+
+  
+  
+
+  
+    
+          <div class="card">
+            <a href="/tech/2021/06/10/report.html" title="「The option &#39;android.enableUnitTestBinaryResources&#39; is deprecated.」と表示された"></a>
+            <div class="card__header">
+              <a href="/tech/2021/06/10/report.html">2021-06-10 00:00</a>
+            </div>
+            <div class="card__title">
+              <p>「The option &#39;android.enableUnitTestBinaryResources&#39; is deprecated.」と表示された</p>
+            </div>
+            <div class="card__description"></div>
+          </div>
+    
+    
+    
+  
+
+  
+  
+
+  
+    
+          <div class="card">
+            <a href="/tech/2021/06/09/report.html" title="「The option setting &#39;android.enableR8=true&#39; is deprecated.」と表示された"></a>
+            <div class="card__header">
+              <a href="/tech/2021/06/09/report.html">2021-06-09 00:00</a>
+            </div>
+            <div class="card__title">
+              <p>「The option setting &#39;android.enableR8=true&#39; is deprecated.」と表示された</p>
+            </div>
+            <div class="card__description"></div>
+          </div>
+    
+    
+        </div>
+      </div>
+      
+
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">日報</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1"><ul class="social-media-list"><li><a href="https://github.com/makietan"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">makietan</span></a></li><li><a href="https://www.twitter.com/makietanx"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">makietanx</span></a></li><li><a href="/feed.xml"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#rss"></use></svg> <span>rss</span></a></li></ul>
+</div>
+      <div class="footer-col footer-col-2">
+      </div>
+      <div class="footer-col footer-col-3">
+        <p>ここは日報をメインに書きます.</p>
+      </div>
+    </div>
+
+  </div><div style='text-align:center;'>
+     <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+     <!-- https://makietan.github.io/ -->
+     <ins class="adsbygoogle"
+          style="display:block"
+          data-ad-client="ca-pub-2075260640954079"
+          data-ad-slot="8308086588"
+          data-ad-format="auto"
+          data-full-width-responsive="true"></ins>
+     <script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+     </script>
+</div>
+</footer>
+</body>
+
+</html>

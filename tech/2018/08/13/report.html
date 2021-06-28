@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="ja_JP"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/notosansjp.css"><!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Homebrew で MySQL のバージョンを下げてインストールする | 日報</title>
+<meta name="generator" content="Jekyll v4.2.0" />
+<meta property="og:title" content="Homebrew で MySQL のバージョンを下げてインストールする" />
+<meta name="author" content="makietan" />
+<meta property="og:locale" content="ja_JP" />
+<meta name="description" content="はじめに" />
+<meta property="og:description" content="はじめに" />
+<link rel="canonical" href="https://makietan.github.io/tech/2018/08/13/report.html" />
+<meta property="og:url" content="https://makietan.github.io/tech/2018/08/13/report.html" />
+<meta property="og:site_name" content="日報" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2018-08-13T00:00:00+09:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Homebrew で MySQL のバージョンを下げてインストールする" />
+<script type="application/ld+json">
+{"author":{"@type":"Person","name":"makietan"},"headline":"Homebrew で MySQL のバージョンを下げてインストールする","dateModified":"2018-08-13T00:00:00+09:00","datePublished":"2018-08-13T00:00:00+09:00","description":"はじめに","mainEntityOfPage":{"@type":"WebPage","@id":"https://makietan.github.io/tech/2018/08/13/report.html"},"@type":"BlogPosting","url":"https://makietan.github.io/tech/2018/08/13/report.html","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="https://makietan.github.io/feed.xml" title="日報" /><meta name="msvalidate.01" content="89F1D244C30C26610D2EB5442A4DA1D8" />
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-72711550-4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-72711550-4');
+</script>
+<link rel="shortcut icon" href="/assets/images/icon.ico">
+  <link rel="icon" sizes="144x144" href="/assets/images/icon_144.png">
+  <script src="/assets/js/clipboard.js" type="text/javascript" charset="utf-8"></script>
+  <script src="/assets/js/image-display.js" type="text/javascript" charset="utf-8"></script>
+  <script src="/assets/js/collapse.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@makietanx" />
+<meta name="twitter:title" content="Homebrew で MySQL のバージョンを下げてインストールする" />
+<meta name="twitter:description" content="ここは日報をメインに書きます." />
+
+<meta name="twitter:image" content="https://makietan.github.io/assets/thumbnail/logo.png" />
+
+<link rel="icon" href="https://makietan.github.io/assets/images/favicon.ico">
+  <link rel="apple-touch-icon" sizes="144x144" href="https://makietan.github.io/assets/images/icon_144.png" />
+
+  <body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">日報</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about/">About</a><a class="page-link" href="/category/">Category</a><a class="page-link" href="/search/">Search</a></div>
+      </nav></div>
+</header>
+
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Homebrew で MySQL のバージョンを下げてインストールする</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2018-08-13T00:00:00+09:00" itemprop="datePublished">2018-08-13 00:00
+      </time><p>
+        <span class="post-categories">
+          
+          
+            <a href="https://makietan.github.io/categories/tech">tech</a>
+            
+          
+        </span>
+      </p></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <h2 id="はじめに">はじめに</h2>
+
+<p>なぜか開発で MySQL の <code class="language-plaintext highlighter-rouge">5.7</code> （現在の最新バージョンは <code class="language-plaintext highlighter-rouge">8.0.2</code>）を利用することになったので、久々に Homebew で <code class="language-plaintext highlighter-rouge">switch</code> しようとしたらできなかった。今までバージョンの切り替えをやってこなかった故の知識不足と思いきや、<code class="language-plaintext highlighter-rouge">Deprecated</code> にして新しいものを作る流れで消えてしまうクソパターンだった。端的に言うと、 <strong>簡単にバージョンを変更できなくなった</strong> 。改悪ですね（ため息） 。また、新しい MacBook に変えてしまったので過去のバージョンはローカル環境からすべて消失している。流石に困ったのでググった。</p>
+
+<h2 id="homebew-の-git-を操る">Homebew の git を操る</h2>
+
+<p>解決する方法として今後の切り替え作業が楽になる方法は、 Homebew の git のバージョンを切り替えてインストールする方法だ。</p>
+
+<h3 id="homebew-のローカル-git-リポジトリ">Homebew のローカル git リポジトリ</h3>
+
+<p>ローカルリポジトリがどこにあるかというと、</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core/Formula
+</code></pre></div></div>
+
+<p>このディレクトリに <code class="language-plaintext highlighter-rouge">*.rb</code> ファイルがたくさん存在する。今回の場合は <code class="language-plaintext highlighter-rouge">mysql.rb</code> だ。他にも似たようなものがたくさんあるので間違えないようにしよう。</p>
+
+<h3 id="切り替えたいバージョンを探す">切り替えたいバージョンを探す</h3>
+
+<p>おそらくこのコマンドで出てくるだろう。ローカルリポジトリに移動しているなら、 <code class="language-plaintext highlighter-rouge">git log master -- Formula/mysql.rb</code> で見るのもいいが面倒なので、 Homebew が提供している方法を利用する。</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>brew log mysql <span class="nt">--oneline</span>
+</code></pre></div></div>
+
+<p>ただし、 Homebew のリポジトリは最新の履歴だけを取得する <code class="language-plaintext highlighter-rouge">shallow clone</code> なので、古いものは <code class="language-plaintext highlighter-rouge">unshallow</code> する必要がある。</p>
+
+<h4 id="出力結果">出力結果</h4>
+
+<p>左に並ぶ謎の文字列がハッシュ値。
+おそらく、 5.7 の最新であろう <code class="language-plaintext highlighter-rouge">a340bfac3</code> をターゲットにする予定。</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Warning: homebrew/core is a shallow clone so only partial output will be shown.
+To get a full clone run:
+  git -C "\$(brew --repo homebrew/core)" fetch --unshallow
+cb149358e mysql: fix detection that post-install has already been run
+b09bacb6f mysql: update 8.0.12 bottle.
+a398fcff1 mysql 8.0.12
+bd993938b mysql: update 8.0.11 bottle.
+353c77eee mysql 8.0.11
+512758e6e Rubocop 0.57.1 style fixes (#28754)
+144028de1 mysql: remove duplicate test conditional
+a340bfac3 mysql: update 5.7.22 bottle.
+4eba79081 mysql 5.7.22
+b578b6b88 mysql 8.0.4-rc (devel) (#24506)
+df41e9b23 mysql: update 5.7.21 bottle.
+e0208bdc0 mysql 5.7.21
+ceaf0f37d mysql: update 5.7.20_1 bottle.
+a8ae3bf54 mysql: remove unused options and reorder args
+a08411131 mysql 8.0.3-rc (devel) (#20538)
+ec2da05a0 Indentation style fixes (#19679)
+16ebe5f18 Use “squiggly” heredocs.
+46bdcd3bd mysql: update 5.7.20 bottle.
+06793449d mysql 5.7.20
+a0c075899 mysql: update 5.7.19 bottle.
+ca053da48 mysql: update 5.7.19 bottle.
+707af59f5 mysql 5.7.19
+6b31936ee (grafted) bazel: update 0.5.2 bottle.
+</code></pre></div></div>
+
+<h3 id="切り替え方法">切り替え方法</h3>
+
+<p>git なので普通に checkout します。</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git checkout a340bfac3  <span class="c"># a340bfac3 は切り替えたいハッシュ値</span>
+</code></pre></div></div>
+
+<h2 id="処理手順">処理手順</h2>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">pushd</span> /usr/local/Homebrew/Library/Taps/homebrew/homebrew-core/Formula
+<span class="c"># a340bfac3 mysql: update 5.7.22 bottle. という情報を取得。</span>
+brew log mysql <span class="nt">--oneline</span>  
+<span class="c"># 5.7.22 が最新バージョンとなるコミットに切り替え。</span>
+git checkout a340bfac3
+<span class="c"># 既にインストールしている場合</span>
+brew uninstall mysql
+<span class="c">#  HOMEBREW_NO_AUTO_UPDATE を 1 にしないと自動更新される</span>
+<span class="nv">HOMEBREW_NO_AUTO_UPDATE</span><span class="o">=</span>1 brew <span class="nb">install </span>mysql
+<span class="nb">popd</span>
+</code></pre></div></div>
+
+<h2 id="おわりに">おわりに</h2>
+
+<p>不便だ！</p>
+
+<p>今後の利便性なんかどうでもいいなら</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>brew install mysql@5.7
+</code></pre></div></div>
+
+<p>でもいい。</p>
+
+<p>ただ、 <code class="language-plaintext highlighter-rouge">brew switch mysql 5.7.22</code> や <code class="language-plaintext highlighter-rouge">brew switch mysql 8.0.2</code> で切り替えたいなら今回示した方法がいいだろう。</p>
+
+<h2 id="参考文献">参考文献</h2>
+<ul>
+  <li><a href="https://christina04.hatenablog.com/entry/2017/01/08/120459">Homebrewで過去のバージョンを使いたい - Carpe Diem</a></li>
+  <li><a href="https://qiita.com/KyoheiG3/items/912bcc27462871487845">Homebrewで旧バージョンのパッケージをインストールしたい - Qiita</a></li>
+</ul>
+
+  </div><a class="u-url" href="/tech/2018/08/13/report.html" hidden></a>
+</article>
+
+<hr>
+
+
+
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+    
+      <div class="related">
+        <h1>関連日報</h1>
+        <div class="related-posts">
+    
+          <div class="card">
+            <a href="/tech/2021/06/26/report.html" title="PCにつけられる赤外線リモコンが欲しい"></a>
+            <div class="card__header">
+              <a href="/tech/2021/06/26/report.html">2021-06-26 00:00</a>
+            </div>
+            <div class="card__title">
+              <p>PCにつけられる赤外線リモコンが欲しい</p>
+            </div>
+            <div class="card__description"></div>
+          </div>
+    
+    
+    
+  
+
+  
+  
+
+  
+    
+          <div class="card">
+            <a href="/tech/2021/06/25/report.html" title="Chrome拡張機能をSafari拡張機能に変換できるらしい"></a>
+            <div class="card__header">
+              <a href="/tech/2021/06/25/report.html">2021-06-25 00:00</a>
+            </div>
+            <div class="card__title">
+              <p>Chrome拡張機能をSafari拡張機能に変換できるらしい</p>
+            </div>
+            <div class="card__description"></div>
+          </div>
+    
+    
+    
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+    
+          <div class="card">
+            <a href="/tech/2021/06/11/report.html" title="「DSL element &#39;android.lintOptions.check&#39; is obsolete and has been replaced with &#39;android.lintOptions.checkOnly&#39;.」と表示された"></a>
+            <div class="card__header">
+              <a href="/tech/2021/06/11/report.html">2021-06-11 00:00</a>
+            </div>
+            <div class="card__title">
+              <p>「DSL element &#39;android.lintOptions.check&#39; is obsolete and has been replaced with &#39;android.lintOptions.checkOnly&#39;.」と表示された</p>
+            </div>
+            <div class="card__description"></div>
+          </div>
+    
+    
+    
+  
+
+  
+  
+
+  
+    
+          <div class="card">
+            <a href="/tech/2021/06/10/report.html" title="「The option &#39;android.enableUnitTestBinaryResources&#39; is deprecated.」と表示された"></a>
+            <div class="card__header">
+              <a href="/tech/2021/06/10/report.html">2021-06-10 00:00</a>
+            </div>
+            <div class="card__title">
+              <p>「The option &#39;android.enableUnitTestBinaryResources&#39; is deprecated.」と表示された</p>
+            </div>
+            <div class="card__description"></div>
+          </div>
+    
+    
+    
+  
+
+  
+  
+
+  
+    
+          <div class="card">
+            <a href="/tech/2021/06/09/report.html" title="「The option setting &#39;android.enableR8=true&#39; is deprecated.」と表示された"></a>
+            <div class="card__header">
+              <a href="/tech/2021/06/09/report.html">2021-06-09 00:00</a>
+            </div>
+            <div class="card__title">
+              <p>「The option setting &#39;android.enableR8=true&#39; is deprecated.」と表示された</p>
+            </div>
+            <div class="card__description"></div>
+          </div>
+    
+    
+        </div>
+      </div>
+      
+
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">日報</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1"><ul class="social-media-list"><li><a href="https://github.com/makietan"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">makietan</span></a></li><li><a href="https://www.twitter.com/makietanx"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">makietanx</span></a></li><li><a href="/feed.xml"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#rss"></use></svg> <span>rss</span></a></li></ul>
+</div>
+      <div class="footer-col footer-col-2">
+      </div>
+      <div class="footer-col footer-col-3">
+        <p>ここは日報をメインに書きます.</p>
+      </div>
+    </div>
+
+  </div><div style='text-align:center;'>
+     <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+     <!-- https://makietan.github.io/ -->
+     <ins class="adsbygoogle"
+          style="display:block"
+          data-ad-client="ca-pub-2075260640954079"
+          data-ad-slot="8308086588"
+          data-ad-format="auto"
+          data-full-width-responsive="true"></ins>
+     <script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+     </script>
+</div>
+</footer>
+</body>
+
+</html>
