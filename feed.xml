@@ -1,4 +1,237 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2021-06-30T02:16:08+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">日報</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">6月も終わりか…</title><link href="https://makietan.github.io/japan/2021/06/30/report.html" rel="alternate" type="text/html" title="6月も終わりか…" /><published>2021-06-30T00:00:00+09:00</published><updated>2021-06-30T00:00:00+09:00</updated><id>https://makietan.github.io/japan/2021/06/30/report</id><content type="html" xml:base="https://makietan.github.io/japan/2021/06/30/report.html">&lt;p&gt;もう2021年も半分が過ぎた。
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2021-07-01T02:16:46+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">日報</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">SMBCポイントパックが改悪された</title><link href="https://makietan.github.io/money/2021/07/01/report.html" rel="alternate" type="text/html" title="SMBCポイントパックが改悪された" /><published>2021-07-01T00:00:00+09:00</published><updated>2021-07-01T00:00:00+09:00</updated><id>https://makietan.github.io/money/2021/07/01/report</id><content type="html" xml:base="https://makietan.github.io/money/2021/07/01/report.html">&lt;div class=&quot;card&quot;&gt;
+  &lt;a href=&quot;https://qa.smbc.co.jp/faq/show/4193?site_domain=default&quot;&gt;&lt;/a&gt;
+  &lt;div class=&quot;card__header&quot;&gt;
+    &lt;a href=&quot;https://qa.smbc.co.jp/faq/show/4193?site_domain=default&quot;&gt;qa.smbc.co.jp&lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__image&quot;&gt;
+    &lt;img src=&quot;&quot; /&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__title&quot;&gt;
+    &lt;p&gt;2021年7月に実施するSMBCポイントパック（手数料優待サービス）の改定内容を知りたい。 | よくあるご質問 ： 三井住友銀行&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__description&quot;&gt;
+    &lt;p&gt;SMBCポイントパックの改定時期について
+
+■SMBCポイントパックとは
+
+SMBCポイントパックは、「当月」または「当月末」に、優待が適用となる「お取引条件」を満たすと、「翌々月」に各種手数&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;三井住友銀行の時間外手数料に関しては変更なし。&lt;/p&gt;
+
+&lt;p&gt;問題はコンビニATMである。&lt;/p&gt;
+
+&lt;p&gt;以下を満たすと特定回数分だけ無料になる。&lt;/p&gt;
+
+&lt;h3 id=&quot;月3回&quot;&gt;月3回&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;お預かり資産残高が500万円以上&lt;/li&gt;
+  &lt;li&gt;投資信託と外貨預金の合計残高が100万円以上&lt;/li&gt;
+  &lt;li&gt;NISA残高あり&lt;/li&gt;
+  &lt;li&gt;投信自動積立または外貨自動積立サービスのご利用&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;月2回&quot;&gt;月2回&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;給与の受取&lt;/li&gt;
+  &lt;li&gt;年金の受取&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;月1回&quot;&gt;月1回&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;SMBCデビットのご利用&lt;/li&gt;
+  &lt;li&gt;クレジットカードのご利用代金の引き落とし&lt;/li&gt;
+  &lt;li&gt;満15歳〜24歳のお客さま&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;三井住友カードのクレジットカードやSMBCデビットを利用していない連中は月0回。
+定年近い人達をターゲットにしている感じ。
+いわゆる情弱層というかインターネットに浸っていない人たちをサイレントキル。&lt;/p&gt;
+
+&lt;p&gt;月1回は非常に簡単で三井住友カードのクレジットカードを利用するだけ。
+Amazonオートチャージを設定していればOK。&lt;/p&gt;
+
+&lt;div class=&quot;card&quot;&gt;
+  &lt;a href=&quot;https://www.amazon.co.jp/asv/autoreload&quot;&gt;&lt;/a&gt;
+  &lt;div class=&quot;card__header&quot;&gt;
+    &lt;a href=&quot;https://www.amazon.co.jp/asv/autoreload&quot;&gt;www.amazon.co.jp&lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__image&quot;&gt;
+    &lt;img src=&quot;&quot; /&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__title&quot;&gt;
+    &lt;p&gt;オートチャージ設定&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__description&quot;&gt;
+    &lt;p&gt;&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;月2回にするには&lt;strong&gt;給料&lt;/strong&gt;として振り込んでくれる会社に勤める必要がある。&lt;/p&gt;
+
+&lt;div class=&quot;card&quot;&gt;
+  &lt;a href=&quot;https://www.smbc.co.jp/kojin/sougou/kouzakaisetsu_simplified/direct/point-pack/handling_charge.html&quot;&gt;&lt;/a&gt;
+  &lt;div class=&quot;card__header&quot;&gt;
+    &lt;a href=&quot;https://www.smbc.co.jp/kojin/sougou/kouzakaisetsu_simplified/direct/point-pack/handling_charge.html&quot;&gt;www.smbc.co.jp&lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__image&quot;&gt;
+    &lt;img src=&quot;&quot; /&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__title&quot;&gt;
+    &lt;p&gt;特典いろいろ！SMBCポイントパック_特典１ ： 三井住友銀行&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__description&quot;&gt;
+    &lt;p&gt;&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;通帳に「給与」「年金」と表示される明細が対象となります。年金受取は当月、または、前月に実績があることが条件となります。事業でお使いの口座の場合、給与受取があっても手数料無料の対象とはなりません。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;月3回ともなると謎の用語が並んでいる。
+今どき、500万円も銀行に預けておくアホはそういないだろう。
+1年間預けておくと満期時の定期預金金額5,000,080円になる。
+税引き前利息100円で、税引き後利息80円だ。&lt;/p&gt;
+
+&lt;p&gt;たった80円のため、銀行に置いておくバカな真似は避けたい。&lt;/p&gt;
+
+&lt;div class=&quot;card&quot;&gt;
+  &lt;a href=&quot;https://www.rakuten-bank.co.jp/assets/fixeddep/term/simulation/index.html&quot;&gt;&lt;/a&gt;
+  &lt;div class=&quot;card__header&quot;&gt;
+    &lt;a href=&quot;https://www.rakuten-bank.co.jp/assets/fixeddep/term/simulation/index.html&quot;&gt;www.rakuten-bank.co.jp&lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__image&quot;&gt;
+    &lt;img src=&quot;https://www.rakuten-bank.co.jp/shared/images/contents-mod/ogp-img-01.gifhttps://www.rakuten-bank.co.jp/shared/images/contents-mod/ogp-img-01.gif&quot; /&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__title&quot;&gt;
+    &lt;p&gt;定期預金(利息シミュレーション)| 円預金 | 楽天銀行&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__description&quot;&gt;
+    &lt;p&gt;円定期預金の満期時受け取り金額の計算ができます。&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;外貨自動積立サービスは若干狙い目（とはいえ、これをやるくらいなら三井住友銀行のATMに行くわ）。&lt;/p&gt;
+
+&lt;div class=&quot;card&quot;&gt;
+  &lt;a href=&quot;https://www.smbc.co.jp/kojin/gaika/tsumitate/&quot;&gt;&lt;/a&gt;
+  &lt;div class=&quot;card__header&quot;&gt;
+    &lt;a href=&quot;https://www.smbc.co.jp/kojin/gaika/tsumitate/&quot;&gt;www.smbc.co.jp&lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__image&quot;&gt;
+    &lt;img src=&quot;&quot; /&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__title&quot;&gt;
+    &lt;p&gt;外貨自動積立サービス ： 三井住友銀行&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__description&quot;&gt;
+    &lt;p&gt;外貨普通預金の商品内容。外貨預金に関するページです。はじめて外貨預金（外貨定期預金・外貨普通預金）をお申し込みになる場合の基礎知識・手続き方法や、外貨定期の体験レポートなども掲載。&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;積立金額は500円から指定可能。
+為替手数料を搾取されるので注意しよう。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;外貨によるお預け入れまたはお引き出しの際には原則、手数料がかかります。外貨現金の場合、たとえば米ドルであれば1米ドルあたり2円かかります。送金等その他の手数料については、お取引内容により異なりますので、あらかじめ表示することができません。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;div class=&quot;card&quot;&gt;
+  &lt;a href=&quot;https://qa.smbc.co.jp/faq/show/654?site_domain=default&quot;&gt;&lt;/a&gt;
+  &lt;div class=&quot;card__header&quot;&gt;
+    &lt;a href=&quot;https://qa.smbc.co.jp/faq/show/654?site_domain=default&quot;&gt;qa.smbc.co.jp&lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__image&quot;&gt;
+    &lt;img src=&quot;&quot; /&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__title&quot;&gt;
+    &lt;p&gt;外貨預金取引に手数料はかかりますか？ | よくあるご質問 ： 三井住友銀行&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__description&quot;&gt;
+    &lt;p&gt;預入れまたは払戻しなどの際に、一部の場合には手数料がかかることがあります。
+TTSレート（円貨から外貨に替えるレート）とTTB レート（外貨から円貨に替えるレート）には差（例えば、米ドルであれば1ド&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;TTSレートとTTBレートについてしっかり認識しておく必要がある。&lt;/p&gt;
+
+&lt;div class=&quot;card&quot;&gt;
+  &lt;a href=&quot;https://www.smbc.co.jp/ex/ExchangeServlet?ScreenID=real&quot;&gt;&lt;/a&gt;
+  &lt;div class=&quot;card__header&quot;&gt;
+    &lt;a href=&quot;https://www.smbc.co.jp/ex/ExchangeServlet?ScreenID=real&quot;&gt;www.smbc.co.jp&lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__image&quot;&gt;
+    &lt;img src=&quot;&quot; /&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__title&quot;&gt;
+    &lt;p&gt;リアルタイム為替レート ： 三井住友銀行&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__description&quot;&gt;
+    &lt;p&gt;外貨預金に関するページです。外貨預金のご相談・お申し込み・ご購入方法までご説明いたします。外貨預金なら三井住友銀行をご利用ください。はじめて外貨預金（外貨定期預金・外貨普通預金）をお申し込みになる場合の基礎知識・手続き方法なども掲載しています。&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;100円=1米ドル&lt;/strong&gt;だったとしても三井住友銀行が間に介入しているのでドルを買うときは&lt;strong&gt;101円=1米ドル&lt;/strong&gt;、ドルを売るときは&lt;strong&gt;99円=1米ドル&lt;/strong&gt;にしたりしている。&lt;/p&gt;
+
+&lt;p&gt;なので500円分の米ドルを買う場合、100円=1米ドルではなく101円=1米ドルを買わせれることになる。
+5米ドルではなく4.950495米ドルしか買えない。&lt;/p&gt;
+
+&lt;p&gt;とはいえそんなことを気にする必要もなく、500万円を米ドルにしたとき、500万円以上返ってくればいいので難しく考える必要はない。
+円安になったなと思ったら引き出す。それだけ。&lt;/p&gt;
+
+&lt;p&gt;なんというか大手銀行は手数料についてかなり説明を端折っているので非常に悪質だ。
+そんな不便な銀行は消えてもらったほうが国民のためなんだけどな…。&lt;/p&gt;</content><author><name>makietan</name></author><category term="money" /><summary type="html">qa.smbc.co.jp 2021年7月に実施するSMBCポイントパック（手数料優待サービス）の改定内容を知りたい。 | よくあるご質問 ： 三井住友銀行 SMBCポイントパックの改定時期について</summary></entry><entry><title type="html">ビューカードのVIEWプラスが改悪される</title><link href="https://makietan.github.io/credit/railway/2021/07/01/report2.html" rel="alternate" type="text/html" title="ビューカードのVIEWプラスが改悪される" /><published>2021-07-01T00:00:00+09:00</published><updated>2021-07-01T00:00:00+09:00</updated><id>https://makietan.github.io/credit/railway/2021/07/01/report2</id><content type="html" xml:base="https://makietan.github.io/credit/railway/2021/07/01/report2.html">&lt;div class=&quot;card&quot;&gt;
+  &lt;a href=&quot;https://www.poitan.jp/archives/77203&quot;&gt;&lt;/a&gt;
+  &lt;div class=&quot;card__header&quot;&gt;
+    &lt;a href=&quot;https://www.poitan.jp/archives/77203&quot;&gt;www.poitan.jp&lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__image&quot;&gt;
+    &lt;img src=&quot;https://www.poitan.jp/wp-content/uploads/2021/03/view-plus.jpghttps://www.poitan.jp/wp-content/uploads/2021/03/view-plus.jpg&quot; /&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__title&quot;&gt;
+    &lt;p&gt;ビューカード、JRE POINTがおトクに貯まる「VIEWプラス」を変更 - ポイ探ニュース&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__description&quot;&gt;
+    &lt;p&gt;ビューカードでは、2021年7月より、JR東日本でのビューカードの利用で通常よりもJRE POINTが貯まる「…ビューカードでは、2021年7月より、JR東日本でのビューカードの利用で通常よりもJRE POINTが貯まる「VIEWプラス」のサービスを改訂する。 現在は、JRE東日本のVIEWプラス対象商品の購入&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;SUicaへのオートチャージ、モバイルSuicaへのチャージをしないと1.5%還元にならない。&lt;/p&gt;
+
+&lt;div class=&quot;card&quot;&gt;
+  &lt;a href=&quot;https://www.jreast.co.jp/card/caution/notice210304.html/&quot;&gt;&lt;/a&gt;
+  &lt;div class=&quot;card__header&quot;&gt;
+    &lt;a href=&quot;https://www.jreast.co.jp/card/caution/notice210304.html/&quot;&gt;www.jreast.co.jp&lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__image&quot;&gt;
+    &lt;img src=&quot;&quot; /&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__title&quot;&gt;
+    &lt;p&gt;【2021年7月1日より】「VIEWプラス」サービス改定のお知らせ&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__description&quot;&gt;
+    &lt;p&gt;システムメンテナンス一部終了のお知らせ（2018年6月28日）&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;モバイルSuica定期券・グリーン券、えきねっとでJR券予約（予約時決済）がお得になるようだ（そんなに使わない）。&lt;/p&gt;
+
+&lt;p&gt;駅内でビューカードを利用しても0.5%しか貯まらなくなる。&lt;/p&gt;
+
+&lt;p&gt;つらいね。&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ビューカード → Suicaチャージ → 伊豆きっぷ
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;ってのが難しくなる。&lt;/p&gt;
+
+&lt;p&gt;オートチャージで1万円以上チャージして購入するしかないか…。&lt;/p&gt;
+
+&lt;p&gt;Suicaそのものがチケットレスなんだから変に差をつけないほうがいいんだけどなぁ。&lt;/p&gt;
+
+&lt;p&gt;経営がよくないから下げたかったのはわかるけどさ。&lt;/p&gt;</content><author><name>makietan</name></author><category term="credit" /><category term="railway" /><summary type="html">www.poitan.jp ビューカード、JRE POINTがおトクに貯まる「VIEWプラス」を変更 - ポイ探ニュース ビューカードでは、2021年7月より、JR東日本でのビューカードの利用で通常よりもJRE POINTが貯まる「…ビューカードでは、2021年7月より、JR東日本でのビューカードの利用で通常よりもJRE POINTが貯まる「VIEWプラス」のサービスを改訂する。 現在は、JRE東日本のVIEWプラス対象商品の購入</summary></entry><entry><title type="html">6月も終わりか…</title><link href="https://makietan.github.io/japan/2021/06/30/report.html" rel="alternate" type="text/html" title="6月も終わりか…" /><published>2021-06-30T00:00:00+09:00</published><updated>2021-06-30T00:00:00+09:00</updated><id>https://makietan.github.io/japan/2021/06/30/report</id><content type="html" xml:base="https://makietan.github.io/japan/2021/06/30/report.html">&lt;p&gt;もう2021年も半分が過ぎた。
 何もしてねぇ…。&lt;/p&gt;
 
 &lt;p&gt;異性との接触がほぼ断絶されてるから問題だな。
@@ -171,44 +404,4 @@ WebExtensions APIの新しいサポートと移行ツー...&lt;/p&gt;
 20時を過ぎたあたりにCoCo壱番屋とか宅配サービスやってる周辺を見回るだけでいいからさ。&lt;/p&gt;
 
 &lt;blockquote class=&quot;twitter-tweet tw-align-center&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;ハンズフリーでもなくスマホ片手に喋りながらチャリで爆走してくるおっさんどうにかして欲しい&lt;br /&gt;Uberの連中も平然と片手スマホやってる&lt;br /&gt;夜の取締りで稼げそうなのにな警察&lt;/p&gt;&amp;mdash; まきえたん🥦 (@makietanX) &lt;a href=&quot;https://twitter.com/makietanX/status/1406987660464328710?ref_src=twsrc%5Etfw&quot;&gt;June 21, 2021&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;</content><author><name>makietan</name></author><category term="japan" /><summary type="html">海外企業に甘すぎる日本。 こんなんだからスマホ業界をAppleとGoogleに持っていかれるんだよ。 というか普通に道交法違反だろうしきっちり取り締まってくれ。 20時を過ぎたあたりにCoCo壱番屋とか宅配サービスやってる周辺を見回るだけでいいからさ。</summary></entry><entry><title type="html">スパロボDDの素材パーツの表示が変わった</title><link href="https://makietan.github.io/game/srwdd/2021/06/21/report.html" rel="alternate" type="text/html" title="スパロボDDの素材パーツの表示が変わった" /><published>2021-06-21T00:00:00+09:00</published><updated>2021-06-21T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2021/06/21/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2021/06/21/report.html">&lt;p&gt;素材がなくなったと焦っていたら改修されて使いやすくなっていた。&lt;/p&gt;
-
-&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;いやー気づかんわこれ &lt;a href=&quot;https://twitter.com/hashtag/%E3%82%B9%E3%83%91%E3%83%AD%E3%83%9CDD?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#スパロボDD&lt;/a&gt; &lt;a href=&quot;https://t.co/MjJijlbFPq&quot;&gt;pic.twitter.com/MjJijlbFPq&lt;/a&gt;&lt;/p&gt;&amp;mdash; まきえたん🥦 (@makietanX) &lt;a href=&quot;https://twitter.com/makietanX/status/1402777510954213379?ref_src=twsrc%5Etfw&quot;&gt;June 9, 2021&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-
-&lt;p&gt;BOX圧迫がなくなって最高だわ。
-ただ、R強化パーツはまだ圧迫してくるのでそれが悩みどころ。&lt;/p&gt;
-
-&lt;div class=&quot;card&quot;&gt;
-  &lt;a href=&quot;https://makietan.github.io/game/srwdd/2021/04/10/report.html&quot;&gt;&lt;/a&gt;
-  &lt;div class=&quot;card__header&quot;&gt;
-    &lt;a href=&quot;https://makietan.github.io/game/srwdd/2021/04/10/report.html&quot;&gt;makietan.github.io&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__image&quot;&gt;
-    &lt;img src=&quot;https://makietan.github.io/assets/thumbnail/logo.png&quot; /&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__title&quot;&gt;
-    &lt;p&gt;スパロボDDの1章の周回はPart12の「不協和音」がオススメ | 日報&lt;/p&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__description&quot;&gt;
-    &lt;p&gt;今までずっとPart6の「導き」ばかり周回していたが、もう少しまともなところがあるだろうと思って雑に調べた。&lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;未だなおスパロボDDの1章Part12「不協和音」を周回している。&lt;/p&gt;
-
-&lt;p&gt;オートのやつ使ってるけどBANされないか不安になるくらい何時間も回っている。&lt;/p&gt;
-
-&lt;p&gt;いやーどうしたもんかのう。マシン負荷をどうにかしたいね。&lt;/p&gt;
-
-&lt;p&gt;このファンみたいにスキップさせてくれたらいいんだけどね。&lt;/p&gt;</content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html">素材がなくなったと焦っていたら改修されて使いやすくなっていた。</summary></entry><entry><title type="html">ドラマ ゆるキャン△ シーズン2が面白かった</title><link href="https://makietan.github.io/otaku/2021/06/20/report.html" rel="alternate" type="text/html" title="ドラマ ゆるキャン△ シーズン2が面白かった" /><published>2021-06-20T00:00:00+09:00</published><updated>2021-06-20T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2021/06/20/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2021/06/20/report.html">&lt;p&gt;ゆるキャン△2期の後に現れたドラマ版2期。
-大垣がまんま大垣というそこだけクオリティが半端ない。&lt;/p&gt;
-
-&lt;p&gt;それでいてゆるキャン△独特の雰囲気をいい感じに再現している。&lt;/p&gt;
-
-&lt;p&gt;ドラマは伊豆に行く手前で終わった。
-アニメ2期は伊豆でカピバラ見て終わった。
-ということは伊豆編をなんらかの放送が期待できる。&lt;/p&gt;
-
-&lt;p&gt;テレ東は孤独のグルメやゆるキャン△といった日常系？を作るのがうまいのかな。
-つい見てしまうね。&lt;/p&gt;</content><author><name>makietan</name></author><category term="otaku" /><summary type="html">ゆるキャン△2期の後に現れたドラマ版2期。 大垣がまんま大垣というそこだけクオリティが半端ない。</summary></entry></feed>
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;</content><author><name>makietan</name></author><category term="japan" /><summary type="html">海外企業に甘すぎる日本。 こんなんだからスマホ業界をAppleとGoogleに持っていかれるんだよ。 というか普通に道交法違反だろうしきっちり取り締まってくれ。 20時を過ぎたあたりにCoCo壱番屋とか宅配サービスやってる周辺を見回るだけでいいからさ。</summary></entry></feed>
