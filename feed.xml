@@ -1,4 +1,55 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2021-07-04T02:18:38+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">日報</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">エルマのOL日記でラーメン回</title><link href="https://makietan.github.io/otaku/2021/07/04/report.html" rel="alternate" type="text/html" title="エルマのOL日記でラーメン回" /><published>2021-07-04T00:00:00+09:00</published><updated>2021-07-04T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2021/07/04/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2021/07/04/report.html">&lt;p&gt;普段は本編とカンナの日常あたりを読んでいる。
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2021-07-05T02:18:35+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">日報</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">Visual Studio Code で謎のポップアップ「Do you trust the authors of the files in this folder?」が出てきた</title><link href="https://makietan.github.io/tech/2021/07/05/report.html" rel="alternate" type="text/html" title="Visual Studio Code で謎のポップアップ「Do you trust the authors of the files in this folder?」が出てきた" /><published>2021-07-05T00:00:00+09:00</published><updated>2021-07-05T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2021/07/05/report</id><content type="html" xml:base="https://makietan.github.io/tech/2021/07/05/report.html">&lt;div class=&quot;trim&quot;&gt;
+  &lt;div class=&quot;trim__item&quot;&gt;
+    &lt;a href=&quot;https://makietan.github.io/assets/images/2021-07-05-report/18-36-59.png&quot;&gt;
+      &lt;img class=&quot;one&quot; src=&quot;https://makietan.github.io/assets/thumbnail/2021-07-05-report/18-36-59.png&quot; /&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;card&quot;&gt;
+  &lt;a href=&quot;https://code.visualstudio.com/docs/editor/workspace-trust&quot;&gt;&lt;/a&gt;
+  &lt;div class=&quot;card__header&quot;&gt;
+    &lt;a href=&quot;https://code.visualstudio.com/docs/editor/workspace-trust&quot;&gt;code.visualstudio.com&lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__image&quot;&gt;
+    &lt;img src=&quot;https://code.visualstudio.com/opengraphimg/opengraph-docs.png&quot; /&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__title&quot;&gt;
+    &lt;p&gt;Visual Studio Code Workspace Trust security&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__description&quot;&gt;
+    &lt;p&gt;Visual Studio Code Workspace Trust folder security&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;セキュリティを考慮したポップアップなんだろうが、&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;this&lt;/code&gt; は何を指しているのか具体的にしろ。
+あと級に鍵マークの英語ポップアップなんか出されたらそれ自体がウィルスに見えてくる。
+余計なことしないでくれ。
+Visual Studio Codeが担保すべきは拡張機能が正常かつ安全に動くことだ。
+フォルダ内のアイテムそのものはユーザーが責任を持って管理するものである。&lt;/p&gt;
+
+&lt;div class=&quot;trim&quot;&gt;
+  &lt;div class=&quot;trim__item&quot;&gt;
+    &lt;a href=&quot;https://makietan.github.io/assets/images/2021-07-05-report/18-38-01.png&quot;&gt;
+      &lt;img class=&quot;one&quot; src=&quot;https://makietan.github.io/assets/thumbnail/2021-07-05-report/18-38-01.png&quot; /&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;もしミスって制限モードにしてしまった場合は歯車アイコンから&lt;strong&gt;Manage Workspace Trust&lt;/strong&gt;を押す。&lt;/p&gt;
+
+&lt;div class=&quot;trim&quot;&gt;
+  &lt;div class=&quot;trim__item&quot;&gt;
+    &lt;a href=&quot;https://makietan.github.io/assets/images/2021-07-05-report/18-39-30.png&quot;&gt;
+      &lt;img class=&quot;one&quot; src=&quot;https://makietan.github.io/assets/thumbnail/2021-07-05-report/18-39-30.png&quot; /&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;You trust this folder&lt;/strong&gt;と表示されるので設定したいモードを選んで完了。&lt;/p&gt;
+
+&lt;p&gt;動作が軽くなるなら制限モードでもいいけど、こんな毎回表示されたら正直イライラしてくる。
+どうにかせい。&lt;/p&gt;</content><author><name>makietan</name></author><category term="tech" /><summary type="html"></summary></entry><entry><title type="html">エルマのOL日記でラーメン回</title><link href="https://makietan.github.io/otaku/2021/07/04/report.html" rel="alternate" type="text/html" title="エルマのOL日記でラーメン回" /><published>2021-07-04T00:00:00+09:00</published><updated>2021-07-04T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2021/07/04/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2021/07/04/report.html">&lt;p&gt;普段は本編とカンナの日常あたりを読んでいる。
 たまに他も読んでいる。
 この前見たファフくんのやつで滝谷と遊具ではいしゃいでるシーンとかは面白かった。&lt;/p&gt;
 
@@ -415,28 +466,4 @@ TTSレート（円貨から外貨に替えるレート）とTTB レート（外�
 
 &lt;p&gt;多分、USB赤外線リモコンとか検索したらあるんだろうな。&lt;/p&gt;
 
-&lt;p&gt;買いたくなるからもう少し後で検索するよ。&lt;/p&gt;</content><author><name>makietan</name></author><category term="tech" /><summary type="html">IOTとか言うならPCでコマンド打てば電源をつけたり、チャンネルを切り替えたりできる装置が登場してもいいではないか。</summary></entry><entry><title type="html">Chrome拡張機能をSafari拡張機能に変換できるらしい</title><link href="https://makietan.github.io/tech/2021/06/25/report.html" rel="alternate" type="text/html" title="Chrome拡張機能をSafari拡張機能に変換できるらしい" /><published>2021-06-25T00:00:00+09:00</published><updated>2021-06-25T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2021/06/25/report</id><content type="html" xml:base="https://makietan.github.io/tech/2021/06/25/report.html">&lt;div class=&quot;card&quot;&gt;
-  &lt;a href=&quot;https://qiita.com/shikumiya_hata/items/d2d46543e51e8a9374e8&quot;&gt;&lt;/a&gt;
-  &lt;div class=&quot;card__header&quot;&gt;
-    &lt;a href=&quot;https://qiita.com/shikumiya_hata/items/d2d46543e51e8a9374e8&quot;&gt;qiita.com&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__image&quot;&gt;
-    &lt;img src=&quot;https://qiita-user-contents.imgix.net/https%3A%2F%2Fcdn.qiita.com%2Fassets%2Fpublic%2Farticle-ogp-background-1150d8b18a7c15795b701a55ae908f94.png?ixlib=rb-4.0.0&amp;amp;w=1200&amp;amp;mark=https%3A%2F%2Fqiita-user-contents.imgix.net%2F~text%3Fixlib%3Drb-4.0.0%26w%3D840%26h%3D380%26txt%3DChrome%25E6%258B%25A1%25E5%25BC%25B5%25E6%25A9%259F%25E8%2583%25BD%25E3%2582%2592Safari%25E6%258B%25A1%25E5%25BC%25B5%25E6%25A9%259F%25E8%2583%25BD%25E3%2581%25AB%25E3%2582%25B3%25E3%2583%25B3%25E3%2583%2590%25E3%2583%25BC%25E3%2583%2588%25E3%2581%2597%25E3%2581%25A6%25E3%2581%25BF%25E3%2581%259F%2520-%2520Big%2520Sur%26txt-color%3D%2523333%26txt-font%3DHiragino%2520Sans%2520W6%26txt-size%3D54%26txt-clip%3Dellipsis%26txt-align%3Dcenter%252Cmiddle%26s%3D3fb1c299c7bcdf7d243aa0fb46319aee&amp;amp;mark-align=center%2Cmiddle&amp;amp;blend=https%3A%2F%2Fqiita-user-contents.imgix.net%2F~text%3Fixlib%3Drb-4.0.0%26w%3D840%26h%3D500%26txt%3D%2540shikumiya_hata%26txt-color%3D%2523333%26txt-font%3DHiragino%2520Sans%2520W6%26txt-size%3D45%26txt-align%3Dright%252Cbottom%26s%3Db82e095dd792bdaf5b6c296dc70d2a2b&amp;amp;blend-align=center%2Cmiddle&amp;amp;blend-mode=normal&amp;amp;s=4da3c114ac23dde6308d5e3ceb88392f&quot; /&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__title&quot;&gt;
-    &lt;p&gt;Chrome拡張機能をSafari拡張機能にコンバートしてみた - Big Sur - Qiita&lt;/p&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__description&quot;&gt;
-    &lt;p&gt;最新版のmacOS「Big Sur」がリリースされましたね。
-Big Surの新機能のひとつに「Chromeの機能拡張をSafariに移植」できる機能が実装されました。
-
-
-WebExtensions APIの新しいサポートと移行ツー...&lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;諸事情でChromeの通信速度が使い物にならないくらい遅くなってしまったのでSafariを仕方なく仕事で利用している。
-コピーできるURLがおかしかったり、文字化けが普通にあったりとはっきり言ってクソである。
-根本的な解決したいなと思っていたが埒が明かないので拡張機能を調べたらあったのでニコニコしている。
-自作したものは容易に変換できると思うがそうじゃないものに関しては難しい。
-どうしたもんかのう。&lt;/p&gt;</content><author><name>makietan</name></author><category term="tech" /><summary type="html">qiita.com Chrome拡張機能をSafari拡張機能にコンバートしてみた - Big Sur - Qiita 最新版のmacOS「Big Sur」がリリースされましたね。 Big Surの新機能のひとつに「Chromeの機能拡張をSafariに移植」できる機能が実装されました。</summary></entry></feed>
+&lt;p&gt;買いたくなるからもう少し後で検索するよ。&lt;/p&gt;</content><author><name>makietan</name></author><category term="tech" /><summary type="html">IOTとか言うならPCでコマンド打てば電源をつけたり、チャンネルを切り替えたりできる装置が登場してもいいではないか。</summary></entry></feed>
