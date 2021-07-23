@@ -4629,7 +4629,7 @@
 <lastmod>2021-04-20T00:00:00+09:00</lastmod>
 </url>
 <url>
-<loc>https://makietan.github.io/game/2021/04/21/report.html</loc>
+<loc>https://makietan.github.io/game/gup/2021/04/21/report.html</loc>
 <lastmod>2021-04-21T00:00:00+09:00</lastmod>
 </url>
 <url>
@@ -4813,7 +4813,7 @@
 <lastmod>2021-06-04T00:00:00+09:00</lastmod>
 </url>
 <url>
-<loc>https://makietan.github.io/game/2021/06/05/report.html</loc>
+<loc>https://makietan.github.io/game/gup/2021/06/05/report.html</loc>
 <lastmod>2021-06-05T00:00:00+09:00</lastmod>
 </url>
 <url>
@@ -4889,7 +4889,7 @@
 <lastmod>2021-06-23T00:00:00+09:00</lastmod>
 </url>
 <url>
-<loc>https://makietan.github.io/game/2021/06/24/report.html</loc>
+<loc>https://makietan.github.io/game/gup/2021/06/24/report.html</loc>
 <lastmod>2021-06-24T00:00:00+09:00</lastmod>
 </url>
 <url>
@@ -4937,7 +4937,7 @@
 <lastmod>2021-07-05T00:00:00+09:00</lastmod>
 </url>
 <url>
-<loc>https://makietan.github.io/game/2021/07/06/report.html</loc>
+<loc>https://makietan.github.io/game/gup/2021/07/06/report.html</loc>
 <lastmod>2021-07-06T00:00:00+09:00</lastmod>
 </url>
 <url>
@@ -4965,7 +4965,7 @@
 <lastmod>2021-07-12T00:00:00+09:00</lastmod>
 </url>
 <url>
-<loc>https://makietan.github.io/game/2021/07/13/report.html</loc>
+<loc>https://makietan.github.io/game/gup/2021/07/13/report.html</loc>
 <lastmod>2021-07-13T00:00:00+09:00</lastmod>
 </url>
 <url>
@@ -5067,6 +5067,9 @@
 </url>
 <url>
 <loc>https://makietan.github.io/category/tech</loc>
+</url>
+<url>
+<loc>https://makietan.github.io/category/world</loc>
 </url>
 <url>
 <loc>https://makietan.github.io/categories/game/</loc>
@@ -5291,6 +5294,9 @@
 <loc>https://makietan.github.io/categories/googds/</loc>
 </url>
 <url>
+<loc>https://makietan.github.io/categories/gup/</loc>
+</url>
+<url>
 <loc>https://makietan.github.io/categories/nature/</loc>
 </url>
 <url>
@@ -5298,8 +5304,5 @@
 </url>
 <url>
 <loc>https://makietan.github.io/categories/github/</loc>
-</url>
-<url>
-<loc>https://makietan.github.io/categories/gup/</loc>
 </url>
 </urlset>
