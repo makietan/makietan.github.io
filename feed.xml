@@ -1,4 +1,72 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2021-07-23T11:21:58+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">日報</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">今日から五輪</title><link href="https://makietan.github.io/japan/2021/07/22/report.html" rel="alternate" type="text/html" title="今日から五輪" /><published>2021-07-22T00:00:00+09:00</published><updated>2021-07-22T00:00:00+09:00</updated><id>https://makietan.github.io/japan/2021/07/22/report</id><content type="html" xml:base="https://makietan.github.io/japan/2021/07/22/report.html">&lt;p&gt;無観客になってしまったからもうどうでもいいけど。&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2021-07-23T11:37:06+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">日報</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">Appleが削除した情報を元に考察された情報の意味ってあるのか？</title><link href="https://makietan.github.io/tech/2021/07/23/report.html" rel="alternate" type="text/html" title="Appleが削除した情報を元に考察された情報の意味ってあるのか？" /><published>2021-07-23T00:00:00+09:00</published><updated>2021-07-23T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2021/07/23/report</id><content type="html" xml:base="https://makietan.github.io/tech/2021/07/23/report.html">&lt;p&gt;Apple 製品である Mac Book Pro のバッテリーが膨張している。
+修理に出すと2万円くらいでできたはず…。
+今度ちゃんと調べるか。
+いや、書いてたわ。&lt;/p&gt;
+
+&lt;div class=&quot;card&quot;&gt;
+  &lt;a href=&quot;https://makietan.github.io/tech/2020/05/30/report.html&quot;&gt;&lt;/a&gt;
+  &lt;div class=&quot;card__header&quot;&gt;
+    &lt;a href=&quot;https://makietan.github.io/tech/2020/05/30/report.html&quot;&gt;makietan.github.io&lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__image&quot;&gt;
+    &lt;img src=&quot;https://makietan.github.io/assets/thumbnail/logo.png&quot; /&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__title&quot;&gt;
+    &lt;p&gt;Mac Book Pro のバッテリーを交換したい | 日報&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__description&quot;&gt;
+    &lt;p&gt;support.apple.com mac 修理 - Apple サポート 公式サイト お使いの mac の修理が必要な場合 Apple Store で予約するか、Apple 正規サービスプロバイダでサービスを受けることができます。料金および所要時間についてご案内します。&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;で、クラムシェルモードを多様するせいなのかバッテリーが膨張している。&lt;/p&gt;
+
+&lt;div class=&quot;card&quot;&gt;
+  &lt;a href=&quot;https://www.gizmodo.jp/2021/07/leave-laptop-plugged-time.html&quot;&gt;&lt;/a&gt;
+  &lt;div class=&quot;card__header&quot;&gt;
+    &lt;a href=&quot;https://www.gizmodo.jp/2021/07/leave-laptop-plugged-time.html&quot;&gt;www.gizmodo.jp&lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__image&quot;&gt;
+    &lt;img src=&quot;https://assets.media-platform.com/gizmodo/dist/images/2021/07/12/shutterstock_1513462712-w960.jpg&quot; /&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__title&quot;&gt;
+    &lt;p&gt;結局、ノートパソコンは電源につなぎっぱなしにして良いの？ダメなの？ | ギズモード・ジャパン&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__description&quot;&gt;
+    &lt;p&gt; ライフハッカー［日本版］2019年11月12日掲載の記事より転載「ノートパソコンを電源アダプターでコンセントにつなぎっぱなしにしておくと良くないの？」これは、ノートパソコンを使っている人なら、誰でもどこかの時点で抱く疑問です。どうやら、その答えは単純ではないようです。その理由を見ていきましょう。バッテリーについて知るほとんどのノートパソコンには、リチウムイオン電池とリチウムポリマー電池のどちらか&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;ノートパソコンの電源を繋ぎっぱなしはいけないという話の記事があった。
+この記事を書くにあたっての情報源のページは削除されている。&lt;/p&gt;
+
+&lt;p&gt;で、クラムシェルモードのままずっと使うことは想定されてないみたいな話まである。&lt;/p&gt;
+
+&lt;p&gt;本当にそうなのだろうか？&lt;/p&gt;
+
+&lt;p&gt;そうであれば、過去にクラムシェルモードの利用方法を明記していたのは誤りだったのだろうか？
+Appleは結構な頻度でWebページを改変するので魚拓でもあればいいんだけど…。&lt;/p&gt;
+
+&lt;div class=&quot;card&quot;&gt;
+  &lt;a href=&quot;https://web.archive.org/web/20200512055147/https://support.apple.com/ja-jp/HT201834&quot;&gt;&lt;/a&gt;
+  &lt;div class=&quot;card__header&quot;&gt;
+    &lt;a href=&quot;https://web.archive.org/web/20200512055147/https://support.apple.com/ja-jp/HT201834&quot;&gt;web.archive.org&lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__image&quot;&gt;
+    &lt;img src=&quot;&quot; /&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__title&quot;&gt;
+    &lt;p&gt;Mac ノートブックコンピュータの内蔵ディスプレイを閉じた状態で外付けのディスプレイを使う  - Apple サポート&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__description&quot;&gt;
+    &lt;p&gt;Mac ノートブックの内蔵ディスプレイを閉じた状態で、外付けのディスプレイを使う方法について説明します。
+&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;あったわ。&lt;/p&gt;
+
+&lt;p&gt;本当に困るよ取替のできないバッテリーが主流になってしまって。&lt;/p&gt;</content><author><name>makietan</name></author><category term="tech" /><summary type="html">Apple 製品である Mac Book Pro のバッテリーが膨張している。 修理に出すと2万円くらいでできたはず…。 今度ちゃんと調べるか。 いや、書いてたわ。</summary></entry><entry><title type="html">今日から五輪</title><link href="https://makietan.github.io/japan/2021/07/22/report.html" rel="alternate" type="text/html" title="今日から五輪" /><published>2021-07-22T00:00:00+09:00</published><updated>2021-07-22T00:00:00+09:00</updated><id>https://makietan.github.io/japan/2021/07/22/report</id><content type="html" xml:base="https://makietan.github.io/japan/2021/07/22/report.html">&lt;p&gt;無観客になってしまったからもうどうでもいいけど。&lt;/p&gt;
 
 &lt;p&gt;というか開催前から辞任ラッシュとかメディアが煽り立てたりしていて非常に不快。
 その辞任理由が20年前のことを遡及させて私刑をこれでもかとやっている。
@@ -217,44 +285,4 @@ JAM+水木一郎という非常に貴重なコラボ。
 OG系のファンではないので欲しいわけではない。
 ただ、作品を楽しむ前に他人を不快にさせることをやられるとそれだけで萎えるのだ。
 あまりにもひどい場合は不買すらあり得る。本当に注意して発売して欲しい。
-誰のために売っているのかをよく考えてくれ。&lt;/p&gt;</content><author><name>makietan</name></author><category term="otaku" /><summary type="html"></summary></entry><entry><title type="html">戦車道大作戦の通常訓練でドロップする戦車パーツのメモ</title><link href="https://makietan.github.io/game/2021/07/13/report.html" rel="alternate" type="text/html" title="戦車道大作戦の通常訓練でドロップする戦車パーツのメモ" /><published>2021-07-13T00:00:00+09:00</published><updated>2021-07-13T00:00:00+09:00</updated><id>https://makietan.github.io/game/2021/07/13/report</id><content type="html" xml:base="https://makietan.github.io/game/2021/07/13/report.html">&lt;p&gt;やり忘れている報酬獲得のために2、3回オート周回しただけ。
-試行回数が少ないので参考程度に。&lt;/p&gt;
-
-&lt;h2 id=&quot;大洗女子学園との演習&quot;&gt;大洗女子学園との演習&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;大洗女子学園との演習Ⅶ（弾数:6）
-    &lt;ul&gt;
-      &lt;li&gt;八九式[武装] E&lt;/li&gt;
-      &lt;li&gt;八九式[駆動] E&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;大洗女子学園との演習Ⅷ（弾数:6）
-    &lt;ul&gt;
-      &lt;li&gt;Ⅲ突 [装甲] E&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;大洗女子学園との演習Ⅸ（弾数:6）
-    &lt;ul&gt;
-      &lt;li&gt;38(t)[装甲] E&lt;/li&gt;
-      &lt;li&gt;38(t)[武装] E&lt;/li&gt;
-      &lt;li&gt;Ⅲ突[装甲] E&lt;/li&gt;
-      &lt;li&gt;Ⅲ突[武装] E&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;大洗女子学園との演習Ⅹ（弾数:7）
-    &lt;ul&gt;
-      &lt;li&gt;武部沙織 ★&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;聖グロリアーナとの演習&quot;&gt;聖グロリアーナとの演習&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;聖グロリアーナとの演習Ⅱ（弾数:6）
-    &lt;ul&gt;
-      &lt;li&gt;マチルダⅡ[武装] E&lt;/li&gt;
-      &lt;li&gt;マチルダⅡ[駆動] E&lt;/li&gt;
-      &lt;li&gt;ボコ&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>makietan</name></author><category term="game" /><summary type="html">やり忘れている報酬獲得のために2、3回オート周回しただけ。 試行回数が少ないので参考程度に。</summary></entry></feed>
+誰のために売っているのかをよく考えてくれ。&lt;/p&gt;</content><author><name>makietan</name></author><category term="otaku" /><summary type="html"></summary></entry></feed>
