@@ -1,4 +1,166 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2021-07-24T02:30:56+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">日報</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">虚言を信じるユネスコとかいう害悪団体</title><link href="https://makietan.github.io/world/2021/07/24/report.html" rel="alternate" type="text/html" title="虚言を信じるユネスコとかいう害悪団体" /><published>2021-07-24T00:00:00+09:00</published><updated>2021-07-24T00:00:00+09:00</updated><id>https://makietan.github.io/world/2021/07/24/report</id><content type="html" xml:base="https://makietan.github.io/world/2021/07/24/report.html">&lt;div class=&quot;card&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2021-07-25T02:31:30+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">日報</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">ランキング連合協力戦に初参加したがダメージが出せない…</title><link href="https://makietan.github.io/game/gup/2021/07/25/report.html" rel="alternate" type="text/html" title="ランキング連合協力戦に初参加したがダメージが出せない…" /><published>2021-07-25T00:00:00+09:00</published><updated>2021-07-25T00:00:00+09:00</updated><id>https://makietan.github.io/game/gup/2021/07/25/report</id><content type="html" xml:base="https://makietan.github.io/game/gup/2021/07/25/report.html">&lt;p&gt;常時発動のキャラが全然足りないのでこうなっている。
+Ⅳ号H（最終章2）が1ターン目にKILLされるのでどうにかしたいところ。&lt;/p&gt;
+
+&lt;h3 id=&quot;砂地&quot;&gt;砂地&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;火力 10%ダウン&lt;/li&gt;
+  &lt;li&gt;装甲 10%ダウン&lt;/li&gt;
+  &lt;li&gt;機動 10%ダウン&lt;/li&gt;
+  &lt;li&gt;照準 10%ダウン&lt;/li&gt;
+  &lt;li&gt;移動 20%ダウン&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;表記としては &lt;strong&gt;初期値 ➔ 初ターン ➔ 最終ターン&lt;/strong&gt; となっている。&lt;/p&gt;
+
+&lt;h3 id=&quot;ヤークトt&quot;&gt;ヤークトT&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;火力 3104 ➔ 3957 (1.2748067) ➔ 5239 (1.6878222)&lt;/li&gt;
+  &lt;li&gt;装甲 2662 ➔ 4059 (1.5247934) ➔ 2662&lt;/li&gt;
+  &lt;li&gt;機動 2405 ➔ 3607 (1.4997921) ➔ 5411 (2.249896)&lt;/li&gt;
+  &lt;li&gt;照準 2567&lt;/li&gt;
+  &lt;li&gt;移動 78   ➔ 83   (1.0641026) ➔ 92   (1.1794872)&lt;/li&gt;
+  &lt;li&gt;装填 2833 ➔ 3095 (1.0924815) ➔ 3488 (1.2312037)
+    &lt;h4 id=&quot;常時発動&quot;&gt;常時発動&lt;/h4&gt;
+  &lt;/li&gt;
+  &lt;li&gt;ローズヒップ（JB2021）
+    &lt;ul&gt;
+      &lt;li&gt;主役のご登場ですわ♪（大）
+        &lt;ul&gt;
+          &lt;li&gt;全地形適性&lt;/li&gt;
+          &lt;li&gt;試合中の総移動距離が長い
+            &lt;ul&gt;
+              &lt;li&gt;機動性UP&lt;/li&gt;
+              &lt;li&gt;移動力UP&lt;/li&gt;
+              &lt;li&gt;装填UP&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;自車が移動または旋回中
+            &lt;ul&gt;
+              &lt;li&gt;機動性UP&lt;/li&gt;
+              &lt;li&gt;移動力UP&lt;/li&gt;
+              &lt;li&gt;装填UP&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;試合開始
+            &lt;ul&gt;
+              &lt;li&gt;形勢逆転（大）&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;ティーガーⅰ鐘壁&quot;&gt;ティーガーⅠ（鐘壁）&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;火力 2816 ➔ 5721 (2.0316051) ➔ 5721&lt;/li&gt;
+  &lt;li&gt;装甲 2603 ➔ 4311 (1.656166) ➔ 4311&lt;/li&gt;
+  &lt;li&gt;機動 2467 ➔ 5550 (2.249696) ➔ 5550&lt;/li&gt;
+  &lt;li&gt;照準 2581 ➔ 5807 (2.2499031) ➔ 5807&lt;/li&gt;
+  &lt;li&gt;移動 92&lt;/li&gt;
+  &lt;li&gt;装填 2948 ➔ 3629 (1.2310041) ➔ 3629
+    &lt;h4 id=&quot;常時発動-1&quot;&gt;常時発動&lt;/h4&gt;
+  &lt;/li&gt;
+  &lt;li&gt;ダージリン（文化祭B）
+    &lt;ul&gt;
+      &lt;li&gt;優雅に淹れるわ（大）
+        &lt;ul&gt;
+          &lt;li&gt;不整地適性&lt;/li&gt;
+          &lt;li&gt;砂地適性&lt;/li&gt;
+          &lt;li&gt;チーム内の聖グロ生徒が多い程
+            &lt;ul&gt;
+              &lt;li&gt;火力UP&lt;/li&gt;
+              &lt;li&gt;装甲UP&lt;/li&gt;
+              &lt;li&gt;機動性UP&lt;/li&gt;
+              &lt;li&gt;照準UP&lt;/li&gt;
+              &lt;li&gt;装填UP&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;ターン中1度回避成功（3ターン継続、重複あり）
+            &lt;ul&gt;
+              &lt;li&gt;機動性UP&lt;/li&gt;
+              &lt;li&gt;装填UP&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;kv-2&quot;&gt;KV-2&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;火力 2516 ➔ 3996 (1.5882353) ➔ 3996&lt;/li&gt;
+  &lt;li&gt;装甲 2878 ➔ 2591 (0.90027797) ➔ 3951 (1.3728284)&lt;/li&gt;
+  &lt;li&gt;機動 2514 ➔ 2263 (0.90015911) ➔ 2263&lt;/li&gt;
+  &lt;li&gt;照準 2346 ➔ 2112 (0.90025575) ➔ 2112&lt;/li&gt;
+  &lt;li&gt;移動 87   ➔ 70   (0.8045977) ➔ 70&lt;/li&gt;
+  &lt;li&gt;装填 2616
+    &lt;h3 id=&quot;常時発動-2&quot;&gt;常時発動&lt;/h3&gt;
+  &lt;/li&gt;
+  &lt;li&gt;小山柚子（ハロウィン2017）
+    &lt;ul&gt;
+      &lt;li&gt;装甲UP【反撃】（小）
+        &lt;ul&gt;
+          &lt;li&gt;自車の耐久力が50%以下
+            &lt;ul&gt;
+              &lt;li&gt;装甲UP&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;ⅲ突歴&quot;&gt;Ⅲ突（歴）&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;火力 2950 ➔ 5414 (1.8352542) ➔ 6509 (2.2064407)&lt;/li&gt;
+  &lt;li&gt;装甲 2731 ➔ 2458 (0.90003662) ➔ 2458&lt;/li&gt;
+  &lt;li&gt;機動 1647 ➔ 1483 (0.90042502) ➔ 1483&lt;/li&gt;
+  &lt;li&gt;照準 3018 ➔ 5434 (1.8005302) ➔ 5434&lt;/li&gt;
+  &lt;li&gt;移動 92   ➔ 87   (0.94565217) ➔ 107 (1.1630435)&lt;/li&gt;
+  &lt;li&gt;装填 2873
+    &lt;h4 id=&quot;常時発動-3&quot;&gt;常時発動&lt;/h4&gt;
+  &lt;/li&gt;
+  &lt;li&gt;細身静子（あいどる）
+    &lt;ul&gt;
+      &lt;li&gt;独唱いたします！（大）
+        &lt;ul&gt;
+          &lt;li&gt;ターゲット回避&lt;/li&gt;
+          &lt;li&gt;味方生存車輌が3輌以上
+            &lt;ul&gt;
+              &lt;li&gt;火力UP&lt;/li&gt;
+              &lt;li&gt;照準UP&lt;/li&gt;
+              &lt;li&gt;移動力UP&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;相手の撃破車輌数に応じて
+            &lt;ul&gt;
+              &lt;li&gt;火力UP&lt;/li&gt;
+              &lt;li&gt;移動力UP&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;ⅳ号h最終章2&quot;&gt;Ⅳ号H（最終章2）&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;火力 2628 ➔ 4174 (1.5882801) ➔ -&lt;/li&gt;
+  &lt;li&gt;装甲 2649 ➔ 2385 (0.90033975) ➔ -&lt;/li&gt;
+  &lt;li&gt;機動 2794 ➔ 2515 (0.90014316) ➔ -&lt;/li&gt;
+  &lt;li&gt;照準 2632 ➔ 2369 (0.90007599) ➔ -&lt;/li&gt;
+  &lt;li&gt;移動 104  ➔ 84   (0.80769231) ➔ -&lt;/li&gt;
+  &lt;li&gt;装填 2830&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;入れてもらったところの人が一人頑張ってる感じになっている。
+どうやって火力出せばいいのだ…。
+ダメージアップがいないせいな気もするが全然効果発動してくれないのもあるんじゃねえかな…。&lt;/p&gt;</content><author><name>makietan</name></author><category term="game" /><category term="gup" /><summary type="html">常時発動のキャラが全然足りないのでこうなっている。 Ⅳ号H（最終章2）が1ターン目にKILLされるのでどうにかしたいところ。</summary></entry><entry><title type="html">虚言を信じるユネスコとかいう害悪団体</title><link href="https://makietan.github.io/world/2021/07/24/report.html" rel="alternate" type="text/html" title="虚言を信じるユネスコとかいう害悪団体" /><published>2021-07-24T00:00:00+09:00</published><updated>2021-07-24T00:00:00+09:00</updated><id>https://makietan.github.io/world/2021/07/24/report</id><content type="html" xml:base="https://makietan.github.io/world/2021/07/24/report.html">&lt;div class=&quot;card&quot;&gt;
   &lt;a href=&quot;https://www.yomiuri.co.jp/culture/20210722-OYT1T50331/&quot;&gt;&lt;/a&gt;
   &lt;div class=&quot;card__header&quot;&gt;
     &lt;a href=&quot;https://www.yomiuri.co.jp/culture/20210722-OYT1T50331/&quot;&gt;www.yomiuri.co.jp&lt;/a&gt;
@@ -190,78 +352,4 @@ Appleは結構な頻度でWebページを改変するので魚拓でもあれば
 &lt;p&gt;期間中に全部取得したいと思う。&lt;/p&gt;</content><author><name>makietan</name></author><category term="game" /><category term="gup" /><summary type="html">2021年7月16日（金） 15:00 〜 8月6日（金） 14:59 まで</summary></entry><entry><title type="html">お茶の消費スピードが上がった</title><link href="https://makietan.github.io/health/2021/07/16/report.html" rel="alternate" type="text/html" title="お茶の消費スピードが上がった" /><published>2021-07-16T00:00:00+09:00</published><updated>2021-07-16T00:00:00+09:00</updated><id>https://makietan.github.io/health/2021/07/16/report</id><content type="html" xml:base="https://makietan.github.io/health/2021/07/16/report.html">&lt;p&gt;暑いからゴクゴク飲んじゃう。
 多分、無限に飲めるわ。&lt;/p&gt;
 
-&lt;p&gt;おいしい水とかOS1とかにしてもいいと思うけど宅配の人に荷物を持たせるのをあんまりさせたくないので悩んでいる。&lt;/p&gt;</content><author><name>makietan</name></author><category term="health" /><summary type="html">暑いからゴクゴク飲んじゃう。 多分、無限に飲めるわ。</summary></entry><entry><title type="html">日本人に対して「チャイニーズピープル」は最大の侮辱</title><link href="https://makietan.github.io/japan/2021/07/15/report.html" rel="alternate" type="text/html" title="日本人に対して「チャイニーズピープル」は最大の侮辱" /><published>2021-07-15T00:00:00+09:00</published><updated>2021-07-15T00:00:00+09:00</updated><id>https://makietan.github.io/japan/2021/07/15/report</id><content type="html" xml:base="https://makietan.github.io/japan/2021/07/15/report.html">&lt;div class=&quot;card&quot;&gt;
-  &lt;a href=&quot;https://news.yahoo.co.jp/articles/688dbb53dcd459390136cd238d517e293856eea3&quot;&gt;&lt;/a&gt;
-  &lt;div class=&quot;card__header&quot;&gt;
-    &lt;a href=&quot;https://news.yahoo.co.jp/articles/688dbb53dcd459390136cd238d517e293856eea3&quot;&gt;news.yahoo.co.jp&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__image&quot;&gt;
-    &lt;img src=&quot;https://amd-pctr.c.yimg.jp/r/iwiz-amd/20210713-00000168-spnannex-000-20-view.jpg&quot; /&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__title&quot;&gt;
-    &lt;p&gt;IOCバッハ会長、中国人と日本人言い間違える「チャイニーズピープル…」組織委訪問で痛恨（スポニチアネックス） - Yahoo!ニュース&lt;/p&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__description&quot;&gt;
-    &lt;p&gt;　国際オリンピック委員会（IOC）のトーマス・バッハ会長が13日、東京都中央区の東京五輪・パラリンピック組織委員会を訪問した。
-
-&lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;はっきり言ってIOC会長を辞任して欲しいレベル。
-というかしろ。そして日本から出ていけ。&lt;/p&gt;
-
-&lt;div class=&quot;card&quot;&gt;
-  &lt;a href=&quot;https://www.mofa.go.jp/mofaj/area/china/higashi_shina/tachiba.html&quot;&gt;&lt;/a&gt;
-  &lt;div class=&quot;card__header&quot;&gt;
-    &lt;a href=&quot;https://www.mofa.go.jp/mofaj/area/china/higashi_shina/tachiba.html&quot;&gt;www.mofa.go.jp&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__image&quot;&gt;
-    &lt;img src=&quot;https://www.mofa.go.jp/mofaj/files/100002816.jpg&quot; /&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__title&quot;&gt;
-    &lt;p&gt;中国による東シナ海での一方的資源開発の現状｜外務省&lt;/p&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__description&quot;&gt;
-    &lt;p&gt;&lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;card&quot;&gt;
-  &lt;a href=&quot;https://www.nikkei.com/article/DGXZQOGN09EDC0Z00C21A7000000/&quot;&gt;&lt;/a&gt;
-  &lt;div class=&quot;card__header&quot;&gt;
-    &lt;a href=&quot;https://www.nikkei.com/article/DGXZQOGN09EDC0Z00C21A7000000/&quot;&gt;www.nikkei.com&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__image&quot;&gt;
-    &lt;img src=&quot;https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO0808203009072021000000-1.jpg?auto=format%2Ccompress&amp;amp;ch=Width%2CDPR&amp;amp;q=45&amp;amp;fit=crop&amp;amp;bg=FFFFFF&amp;amp;w=1200&amp;amp;h=630&amp;amp;fp_x=0.52&amp;amp;fp_y=0.25&amp;amp;fp_z=1&amp;amp;crop=focalpoint&amp;amp;ixlib=js-1.4.1&amp;amp;s=4ec3a9bf9ad3f581c552cfe161f672de&quot; /&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__title&quot;&gt;
-    &lt;p&gt;米、中国14社を禁輸対象に追加　ウイグル問題で: 日本経済新聞&lt;/p&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__description&quot;&gt;
-    &lt;p&gt;【ワシントン=鳳山太成】米商務省は9日、中国の少数民族ウイグル族への弾圧に関わったとして、中国企業14社に対して事実上の禁輸措置を課すと発表した。ウイグル問題で制裁対象を追加し、中国の習近平（シー・ジンピン）指導部への圧力を強める。安全保障上の問題がある企業を並べた「エンティティー・リスト（EL）」に、中国のIT（情報技術）企業など14社を12日付で追加する。米国製品を輸出する場合は商務省の許&lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;東シナ海の侵略・中国の少数民族ウイグル族への弾圧等、非人道的行為をする連中と同一視されることは中国を除くどの国の人間であっても不快に思うだろう。&lt;/p&gt;
-
-&lt;p&gt;それをIOCの&lt;del&gt;バカ&lt;/del&gt;バッハは行った。&lt;/p&gt;
-
-&lt;p&gt;今回の五輪が延期する要因となった武漢ウイルスを拡散したのも中国人だ。
-そんな連中の安全性を第一に考える変人は日本にいてほしくない。&lt;/p&gt;
-
-&lt;p&gt;というか何しに来たんだ。
-ろくなことしないんだから日本国外からのリモートで十分だろ。&lt;/p&gt;
-
-&lt;p&gt;バッハの出身はドイツらしい。
-自分たちはナチスに対して過敏になっているくせに他国の人間の嫌なことに対しては何も配慮をしない。所詮、欧州の都合のいい解釈をする連中の1人なのだろう。&lt;/p&gt;
-
-&lt;p&gt;日本人を侮辱してくれたお礼に卐書いといてやるよ。&lt;/p&gt;
-
-&lt;p&gt;卍に関しても後出のナチスのせいで弾圧される記号となってしまった。特に右まんじ。
-欧州の連中のせいで不利益を被っている日本人への謝罪を要求する。
-大きな戦争もだいたい原因が欧州人。
-もはや劣等種と言われても仕方ないレベル。
-脱炭素・過剰な太陽光発電の推進・脱プラスチックとか本当に迷惑だ。&lt;/p&gt;
-
-&lt;p&gt;帰ってくれ。&lt;/p&gt;</content><author><name>makietan</name></author><category term="japan" /><summary type="html">news.yahoo.co.jp IOCバッハ会長、中国人と日本人言い間違える「チャイニーズピープル…」組織委訪問で痛恨（スポニチアネックス） - Yahoo!ニュース 　国際オリンピック委員会（IOC）のトーマス・バッハ会長が13日、東京都中央区の東京五輪・パラリンピック組織委員会を訪問した。</summary></entry></feed>
+&lt;p&gt;おいしい水とかOS1とかにしてもいいと思うけど宅配の人に荷物を持たせるのをあんまりさせたくないので悩んでいる。&lt;/p&gt;</content><author><name>makietan</name></author><category term="health" /><summary type="html">暑いからゴクゴク飲んじゃう。 多分、無限に飲めるわ。</summary></entry></feed>
