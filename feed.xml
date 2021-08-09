@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2021-08-10T02:41:51+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">日報</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">Chrome 拡張機能の「Google ドライブに保存」が使えなくなった</title><link href="https://makietan.github.io/tech/2021/08/10/report.html" rel="alternate" type="text/html" title="Chrome 拡張機能の「Google ドライブに保存」が使えなくなった" /><published>2021-08-10T00:00:00+09:00</published><updated>2021-08-10T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2021/08/10/report</id><content type="html" xml:base="https://makietan.github.io/tech/2021/08/10/report.html">&lt;blockquote&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2021-08-10T03:15:42+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">日報</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">Chrome 拡張機能の「Google ドライブに保存」が使えなくなった</title><link href="https://makietan.github.io/tech/2021/08/10/report.html" rel="alternate" type="text/html" title="Chrome 拡張機能の「Google ドライブに保存」が使えなくなった" /><published>2021-08-10T00:00:00+09:00</published><updated>2021-08-10T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2021/08/10/report</id><content type="html" xml:base="https://makietan.github.io/tech/2021/08/10/report.html">&lt;blockquote&gt;
   &lt;p&gt;画像をキャプチャできませんでした（This request exceeds the MAX_CAPTURE_VISIBLE_TAB_CALLS_PER_SECOND quota.）&lt;/p&gt;
 &lt;/blockquote&gt;
 
@@ -9,23 +9,7 @@
 &lt;p&gt;Chromeをバージョン: 92.0.4515.107（Official Build）に更新したところ不具合が発生した。&lt;/p&gt;
 
 &lt;p&gt;Chrome作ってる連中がクソすぎてもうイライラがすごい。
-時が経つにつれ便利な機能を殺すエンジニア連中は開発に携わらないで欲しい。&lt;/p&gt;</content><author><name>makietan</name></author><category term="tech" /><summary type="html">画像をキャプチャできませんでした（This request exceeds the MAX_CAPTURE_VISIBLE_TAB_CALLS_PER_SECOND quota.）</summary></entry><entry><title type="html">『#上坂すみれ の #PROPAGANDACITY 2021』FCチケット先行の当落発表じゃーい</title><link href="https://makietan.github.io/otaku/2021/08/10/report.html" rel="alternate" type="text/html" title="『#上坂すみれ の #PROPAGANDACITY 2021』FCチケット先行の当落発表じゃーい" /><published>2021-08-10T00:00:00+09:00</published><updated>2021-08-10T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2021/08/10/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2021/08/10/report.html">&lt;p&gt;ざわ…ざわ…。&lt;/p&gt;
-
-&lt;div class=&quot;card&quot;&gt;
-  &lt;a href=&quot;https://www.sumipe-federation.com/&quot;&gt;&lt;/a&gt;
-  &lt;div class=&quot;card__header&quot;&gt;
-    &lt;a href=&quot;https://www.sumipe-federation.com/&quot;&gt;www.sumipe-federation.com&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__image&quot;&gt;
-    &lt;img src=&quot;favicon.ico&quot; /&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__title&quot;&gt;
-    &lt;p&gt;上坂すみれ OFFICIAL FANCLUB「すみぺれんぽう」&lt;/p&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__description&quot;&gt;
-    &lt;p&gt;&lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;</content><author><name>makietan</name></author><category term="otaku" /><summary type="html">ざわ…ざわ…。</summary></entry><entry><title type="html">五輪の放送がNHKばかりで全く楽しめませんね</title><link href="https://makietan.github.io/japan/2021/08/09/report.html" rel="alternate" type="text/html" title="五輪の放送がNHKばかりで全く楽しめませんね" /><published>2021-08-09T00:00:00+09:00</published><updated>2021-08-09T00:00:00+09:00</updated><id>https://makietan.github.io/japan/2021/08/09/report</id><content type="html" xml:base="https://makietan.github.io/japan/2021/08/09/report.html">&lt;p&gt;さっさと滅べばいいのにNHK。&lt;/p&gt;
+時が経つにつれ便利な機能を殺すエンジニア連中は開発に携わらないで欲しい。&lt;/p&gt;</content><author><name>makietan</name></author><category term="tech" /><summary type="html">画像をキャプチャできませんでした（This request exceeds the MAX_CAPTURE_VISIBLE_TAB_CALLS_PER_SECOND quota.）</summary></entry><entry><title type="html">五輪の放送がNHKばかりで全く楽しめませんね</title><link href="https://makietan.github.io/japan/2021/08/09/report.html" rel="alternate" type="text/html" title="五輪の放送がNHKばかりで全く楽しめませんね" /><published>2021-08-09T00:00:00+09:00</published><updated>2021-08-09T00:00:00+09:00</updated><id>https://makietan.github.io/japan/2021/08/09/report</id><content type="html" xml:base="https://makietan.github.io/japan/2021/08/09/report.html">&lt;p&gt;さっさと滅べばいいのにNHK。&lt;/p&gt;
 
 &lt;p&gt;自称公共放送のくせに独占してるのでNHKに依存せず見る手段がない。
 まぁボケ老人が楽しむしょーもないコンテンツだから致し方ないか。&lt;/p&gt;
@@ -211,4 +195,50 @@
 &lt;/blockquote&gt;
 
 &lt;blockquote class=&quot;twitter-tweet tw-align-center&quot; data-conversation=&quot;none&quot;&gt;&lt;p lang=&quot;und&quot; dir=&quot;ltr&quot;&gt;🤔 &lt;a href=&quot;https://t.co/hCY3p5kcLl&quot;&gt;pic.twitter.com/hCY3p5kcLl&lt;/a&gt;&lt;/p&gt;&amp;mdash; まきえたん🥦 (@makietanX) &lt;a href=&quot;https://twitter.com/makietanX/status/1421972450439352323?ref_src=twsrc%5Etfw&quot;&gt;August 1, 2021&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;</content><author><name>makietan</name></author><category term="amazon" /><summary type="html">ほんとかなぁ... pic.twitter.com/M59MKxuzaE&amp;mdash; まきえたん🥦 (@makietanX) August 1, 2021</summary></entry></feed>
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;</content><author><name>makietan</name></author><category term="amazon" /><summary type="html">ほんとかなぁ... pic.twitter.com/M59MKxuzaE&amp;mdash; まきえたん🥦 (@makietanX) August 1, 2021</summary></entry><entry><title type="html">メイドラゴンS &amp;amp; fhánaのリリイベ最高でした</title><link href="https://makietan.github.io/otaku/2021/08/02/report.html" rel="alternate" type="text/html" title="メイドラゴンS &amp;amp; fhánaのリリイベ最高でした" /><published>2021-08-02T00:00:00+09:00</published><updated>2021-08-02T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2021/08/02/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2021/08/02/report.html">&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;【リリイベ開催決定🐉】&lt;a href=&quot;https://twitter.com/hashtag/%E5%B0%8F%E6%9E%97%E3%81%95%E3%82%93%E3%81%A1%E3%81%AE%E3%83%A1%E3%82%A4%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#小林さんちのメイドラゴン&lt;/a&gt; Ｓ&lt;br /&gt;OP、ED主題歌発売を記念して…&lt;br /&gt;&lt;br /&gt;fhána &amp;amp; スーパーちょろゴンずによる&lt;br /&gt;配信イベントの開催が決定しました🎉&lt;br /&gt;&lt;br /&gt;トーク&amp;amp;ミニライブがございますので&lt;br /&gt;ぜひご覧ください♪&lt;br /&gt;CDをご購入頂いた皆様がご視聴いただけます❣️&lt;a href=&quot;https://t.co/WnqkglADED&quot;&gt;https://t.co/WnqkglADED&lt;/a&gt; &lt;a href=&quot;https://t.co/a8mCY7q5Pl&quot;&gt;pic.twitter.com/a8mCY7q5Pl&lt;/a&gt;&lt;/p&gt;&amp;mdash; Lantis（ランティス）公式 (@lantis_staff) &lt;a href=&quot;https://twitter.com/lantis_staff/status/1412629409249447939?ref_src=twsrc%5Etfw&quot;&gt;July 7, 2021&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;TVアニメ『&lt;a href=&quot;https://twitter.com/hashtag/%E5%B0%8F%E6%9E%97%E3%81%95%E3%82%93%E3%81%A1%E3%81%AE%E3%83%A1%E3%82%A4%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#小林さんちのメイドラゴン&lt;/a&gt; S』OP＆ED主題歌発売記念配信イベント開催決定！&lt;br /&gt;&lt;br /&gt;≪イベント概要≫&lt;br /&gt;日程：7月24日(土）&lt;br /&gt;時間：15:00開始予定&lt;br /&gt;内容：トーク＆ミニライブ&lt;br /&gt;出演者：スーパーちょろゴンず、fhána&lt;br /&gt;配信：MixBox&lt;br /&gt;配券：アニメイト&lt;br /&gt;&lt;br /&gt;詳細はこちら⬇️&lt;a href=&quot;https://t.co/Q10aXUgFYQ&quot;&gt;https://t.co/Q10aXUgFYQ&lt;/a&gt;&lt;a href=&quot;https://twitter.com/hashtag/maidragon?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#maidragon&lt;/a&gt;&lt;/p&gt;&amp;mdash; TVアニメ「小林さんちのメイドラゴンＳ」公式 (@maidragon_anime) &lt;a href=&quot;https://twitter.com/maidragon_anime/status/1412607312435433473?ref_src=twsrc%5Etfw&quot;&gt;July 7, 2021&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;眩しい。
+晴れましたね。
+そのおかげで光が強かった。
+絶対いるよね晴れ女・晴れ男。&lt;/p&gt;
+
+&lt;p&gt;そう言いたくなるのは以下のショート動画。
+青空のラプソディを青空の下で踊ってるのがすごい。
+たしか撮影前は雨降ってたらしいからね。&lt;/p&gt;
+
+&lt;div class=&quot;google&quot;&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/FWiTrmb4ZHo&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;全曲聴けたし、ちょろゴンずもいい感じだった。
+裏事情とかも聞けたので最高だったよ。&lt;/p&gt;
+
+&lt;p&gt;たかみなの羨ましい悩みとかも聞けて面白かった。
+嶺内ともみさんが若干大変そうだったね。
+いつもの歌うキーとは違うというか
+あの声では歌いづらいんだろう。&lt;/p&gt;
+
+&lt;p&gt;配信の問題か若干飛んだりしてたけどアーカイブがあったので助かった（公開期間が短かったけども）。&lt;/p&gt;
+
+&lt;h2 id=&quot;fhánaのライブが決定&quot;&gt;fhánaのライブが決定！&lt;/h2&gt;
+
+&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;【ライブ開催決定！】&lt;br /&gt;&lt;br /&gt;fhána&lt;br /&gt;Love Supreme! Tour 2021&lt;br /&gt;TOKYO - OSAKA&lt;br /&gt;&lt;br /&gt;Presented by ORB&lt;br /&gt;&lt;br /&gt;「愛のシュプリーム！」リリース記念！&lt;br /&gt;待望の有観客ライブ開催決定！&lt;br /&gt;&lt;br /&gt;9月12日(日) Billboard Live TOKYO&lt;br /&gt;9月17日(金) Billboard Live OSAKA&lt;br /&gt;&lt;br /&gt;詳細は追ってお知らせ！&lt;br /&gt;&lt;br /&gt;※会場へのお問い合わせはお控え下さい &lt;a href=&quot;https://t.co/YAThfcfrAr&quot;&gt;pic.twitter.com/YAThfcfrAr&lt;/a&gt;&lt;/p&gt;&amp;mdash; fhána_info 小林さんちのメイドラゴンS OP 7.14発売！ (@fhana_info) &lt;a href=&quot;https://twitter.com/fhana_info/status/1412755336092479490?ref_src=twsrc%5Etfw&quot;&gt;July 7, 2021&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;映像配信はなしで現場オンリーかな？
+現状は緊急事態宣言があるけどサイズ的に問題ないだろう。&lt;/p&gt;
+
+&lt;p&gt;chu chu yeah!とパッパラッパッパー（pa pa-ra pa pa）をやりに行きたい。&lt;/p&gt;
+
+&lt;p&gt;一般発売がいつなのかを確認しないとな。
+そろらく先着なので待機しとかないと。&lt;/p&gt;
+
+&lt;p&gt;メイドラゴン後のライブには行ったんだよ。
+2階席でまともに立てそうじゃない感じだったのでみんな座ってたら隣の２人組がブツブツ文句行ってて行くのやめたけどさ…。&lt;/p&gt;
+
+&lt;p&gt;今度はそんな連中が近くにいないというかまともに喋れないので気分良く聞けると思う。
+いい曲多いんだよね（アニメ作品のほうがアレなだけで…メイドラゴンは別）。&lt;/p&gt;</content><author><name>makietan</name></author><category term="otaku" /><summary type="html">【リリイベ開催決定🐉】#小林さんちのメイドラゴン ＳOP、ED主題歌発売を記念して…fhána &amp;amp; スーパーちょろゴンずによる配信イベントの開催が決定しました🎉トーク&amp;amp;ミニライブがございますのでぜひご覧ください♪CDをご購入頂いた皆様がご視聴いただけます❣️https://t.co/WnqkglADED pic.twitter.com/a8mCY7q5Pl&amp;mdash; Lantis（ランティス）公式 (@lantis_staff) July 7, 2021</summary></entry></feed>
