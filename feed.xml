@@ -1,4 +1,48 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2021-08-13T11:46:55+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">日報</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">スパロボDDの第9回迎撃戦の経過報告（8/9分）のメモ</title><link href="https://makietan.github.io/game/srwdd/2021/08/13/report.html" rel="alternate" type="text/html" title="スパロボDDの第9回迎撃戦の経過報告（8/9分）のメモ" /><published>2021-08-13T00:00:00+09:00</published><updated>2021-08-13T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2021/08/13/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2021/08/13/report.html">&lt;h2 id=&quot;エリア1&quot;&gt;エリア1&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2021-08-14T02:44:37+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">日報</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">にきびがひどかったので通院した</title><link href="https://makietan.github.io/health/2021/08/14/report.html" rel="alternate" type="text/html" title="にきびがひどかったので通院した" /><published>2021-08-14T00:00:00+09:00</published><updated>2021-08-14T00:00:00+09:00</updated><id>https://makietan.github.io/health/2021/08/14/report</id><content type="html" xml:base="https://makietan.github.io/health/2021/08/14/report.html">&lt;p&gt;医者は何かをじっと見て処方箋を出してきた。&lt;/p&gt;
+
+&lt;p&gt;問題は薬局。
+もらった薬のどっちかがジェネリック。
+ジェネリックでいいんでしょ？みたいな対応されたので、んなわけねーだろと「いいえ」と言ったら、
+在庫ありませんすいませんと言ってきた。
+自己都合を他人に押し付けるんじゃない。&lt;/p&gt;
+
+&lt;div class=&quot;card&quot;&gt;
+  &lt;a href=&quot;https://www.rad-ar.or.jp/siori/kekka.cgi?n=47685&quot;&gt;&lt;/a&gt;
+  &lt;div class=&quot;card__header&quot;&gt;
+    &lt;a href=&quot;https://www.rad-ar.or.jp/siori/kekka.cgi?n=47685&quot;&gt;www.rad-ar.or.jp&lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__image&quot;&gt;
+    &lt;img src=&quot;&quot; /&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__title&quot;&gt;
+    &lt;p&gt;くすりのしおり | 患者向けわかりやすい情報&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__description&quot;&gt;
+    &lt;p&gt;お医者さんで処方してもらうお薬（医療用医薬品）を検索できます。「くすりのしおり®」は、患者さんにわかりやすい表現で、必要最小限の内容を盛り込んだ薬の情報です。 製薬企業が作成し、くすりの適正使用協議会が管理しています。一部、英語訳もされています。&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;card&quot;&gt;
+  &lt;a href=&quot;https://www.rad-ar.or.jp/siori/kekka.cgi?n=37420&quot;&gt;&lt;/a&gt;
+  &lt;div class=&quot;card__header&quot;&gt;
+    &lt;a href=&quot;https://www.rad-ar.or.jp/siori/kekka.cgi?n=37420&quot;&gt;www.rad-ar.or.jp&lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__image&quot;&gt;
+    &lt;img src=&quot;&quot; /&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__title&quot;&gt;
+    &lt;p&gt;くすりのしおり | 患者向けわかりやすい情報&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__description&quot;&gt;
+    &lt;p&gt;お医者さんで処方してもらうお薬（医療用医薬品）を検索できます。「くすりのしおり®」は、患者さんにわかりやすい表現で、必要最小限の内容を盛り込んだ薬の情報です。 製薬企業が作成し、くすりの適正使用協議会が管理しています。一部、英語訳もされています。&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;塗り薬は1日1回。
+飲み薬は1日2回。&lt;/p&gt;
+
+&lt;p&gt;年齢も年齢だし美容皮膚科にでも行ってきれいにしたほうがいいんじゃないかと思う。
+どこがいいんだろう悩ましい。&lt;/p&gt;</content><author><name>makietan</name></author><category term="health" /><summary type="html">医者は何かをじっと見て処方箋を出してきた。</summary></entry><entry><title type="html">スパロボDDの第9回迎撃戦の経過報告（8/9分）のメモ</title><link href="https://makietan.github.io/game/srwdd/2021/08/13/report.html" rel="alternate" type="text/html" title="スパロボDDの第9回迎撃戦の経過報告（8/9分）のメモ" /><published>2021-08-13T00:00:00+09:00</published><updated>2021-08-13T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2021/08/13/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2021/08/13/report.html">&lt;h2 id=&quot;エリア1&quot;&gt;エリア1&lt;/h2&gt;
 &lt;h3 id=&quot;boss&quot;&gt;BOSS&lt;/h3&gt;
 &lt;ul&gt;
   &lt;li&gt;弱点属性：斬撃/実弾
@@ -467,47 +511,4 @@
 
 &lt;p&gt;それまで生き残ってやるぜ！この新型コロナで荒廃した世紀末な都心でよ。&lt;/p&gt;
 
-&lt;p&gt;3つ当選すると3万円近くになるので稼ぐぞぉ。&lt;/p&gt;</content><author><name>makietan</name></author><category term="otaku" /><summary type="html">／『#上坂すみれ の #PROPAGANDACITY 2021』FCチケット先行スタート‼️＼🎟️受付期間～8/24(火)23:59今から #すみぺれんぽう にご入会いただく方もお申し込みが可能🙌【8/22(日)まで】に入会完了までお手続きください💁✅詳細はこちらhttps://t.co/MbfiqQCHjr pic.twitter.com/8zLIyPsuXY&amp;mdash; 上坂すみれ_official (@uesaka_official) August 5, 2021</summary></entry><entry><title type="html">最近の料理 - きゅうり・なす・グリーンカール</title><link href="https://makietan.github.io/gourmet/2021/08/05/report.html" rel="alternate" type="text/html" title="最近の料理 - きゅうり・なす・グリーンカール" /><published>2021-08-05T00:00:00+09:00</published><updated>2021-08-05T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2021/08/05/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2021/08/05/report.html">&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;夜夜食つまり無睡朝食 &lt;a href=&quot;https://t.co/QmAy99woGs&quot;&gt;pic.twitter.com/QmAy99woGs&lt;/a&gt;&lt;/p&gt;&amp;mdash; makietanM (@makietanM) &lt;a href=&quot;https://twitter.com/makietanM/status/1419069907346497537?ref_src=twsrc%5Etfw&quot;&gt;July 24, 2021&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-
-&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;グリーンリーフうまい&lt;br /&gt;半熟卵が無理なので両面焼いてカチカチにしてる&lt;br /&gt;ベーコンはよそ見してたら焦げた&lt;br /&gt;朝食はこれに限る（昼に投稿） &lt;a href=&quot;https://t.co/39g3x0Snin&quot;&gt;pic.twitter.com/39g3x0Snin&lt;/a&gt;&lt;/p&gt;&amp;mdash; makietanM (@makietanM) &lt;a href=&quot;https://twitter.com/makietanM/status/1413332787453579268?ref_src=twsrc%5Etfw&quot;&gt;July 9, 2021&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-
-&lt;p&gt;野菜を食べないといけないなと思って色々調理した。
-これが案外うまくいく。&lt;/p&gt;
-
-&lt;div class=&quot;card&quot;&gt;
-  &lt;a href=&quot;https://www.kagome.co.jp/vegeday/eat/201806/9079/&quot;&gt;&lt;/a&gt;
-  &lt;div class=&quot;card__header&quot;&gt;
-    &lt;a href=&quot;https://www.kagome.co.jp/vegeday/eat/201806/9079/&quot;&gt;www.kagome.co.jp&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__image&quot;&gt;
-    &lt;img src=&quot;http://www.kagome.co.jp/library/vegeday/img/article/201806/img_9079_main.jpg&quot; /&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__title&quot;&gt;
-    &lt;p&gt;なすのあく抜きは必要？水にさらさずできる簡単下ごしらえのコツ|カゴメ株式会社&lt;/p&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__description&quot;&gt;
-    &lt;p&gt;なすのあく抜きでは、水にさらす必要があるときと、ないときがあります。それぞれの場合の下ごしらえの仕方を紹介します。&lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;card&quot;&gt;
-  &lt;a href=&quot;https://recipe.rakuten.co.jp/recipe/1050002226/&quot;&gt;&lt;/a&gt;
-  &lt;div class=&quot;card__header&quot;&gt;
-    &lt;a href=&quot;https://recipe.rakuten.co.jp/recipe/1050002226/&quot;&gt;recipe.rakuten.co.jp&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__image&quot;&gt;
-    &lt;img src=&quot;https://recipe.r10s.jp/recipe-space/d/strg/ctrl/3/3d4ce1ff9afe07a4fc9357aea92dd788992cf391.94.2.3.2.jpg&quot; /&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__title&quot;&gt;
-    &lt;p&gt;茄子と新玉ねぎの甘酢炒め★ レシピ・作り方 by ｙｂｋｍｋ★｜楽天レシピ&lt;/p&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__description&quot;&gt;
-    &lt;p&gt;楽天が運営する楽天レシピ。ユーザーさんが投稿した「茄子と新玉ねぎの甘酢炒め★」のレシピ・作り方ページです。甘酸っぱくておいしいです★
-味付け濃いめなのでお弁当にも★詳細な材料や調理時間、みんなのつくレポも！&lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;なすと玉ねぎだけってのはちょっと失敗。
-酢豚とか麻婆茄子とかに分けてやりゃよかったかもね。&lt;/p&gt;</content><author><name>makietan</name></author><category term="gourmet" /><summary type="html">夜夜食つまり無睡朝食 pic.twitter.com/QmAy99woGs&amp;mdash; makietanM (@makietanM) July 24, 2021</summary></entry></feed>
+&lt;p&gt;3つ当選すると3万円近くになるので稼ぐぞぉ。&lt;/p&gt;</content><author><name>makietan</name></author><category term="otaku" /><summary type="html">／『#上坂すみれ の #PROPAGANDACITY 2021』FCチケット先行スタート‼️＼🎟️受付期間～8/24(火)23:59今から #すみぺれんぽう にご入会いただく方もお申し込みが可能🙌【8/22(日)まで】に入会完了までお手続きください💁✅詳細はこちらhttps://t.co/MbfiqQCHjr pic.twitter.com/8zLIyPsuXY&amp;mdash; 上坂すみれ_official (@uesaka_official) August 5, 2021</summary></entry></feed>
