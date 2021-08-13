@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2021-08-13T02:44:13+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">日報</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">スパロボDDの第8回迎撃戦の経過報告（7/8分）のメモ</title><link href="https://makietan.github.io/game/srwdd/2021/08/13/report.html" rel="alternate" type="text/html" title="スパロボDDの第8回迎撃戦の経過報告（7/8分）のメモ" /><published>2021-08-13T00:00:00+09:00</published><updated>2021-08-13T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2021/08/13/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2021/08/13/report.html">&lt;h2 id=&quot;エリア1&quot;&gt;エリア1&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2021-08-13T11:46:55+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">日報</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">スパロボDDの第9回迎撃戦の経過報告（8/9分）のメモ</title><link href="https://makietan.github.io/game/srwdd/2021/08/13/report.html" rel="alternate" type="text/html" title="スパロボDDの第9回迎撃戦の経過報告（8/9分）のメモ" /><published>2021-08-13T00:00:00+09:00</published><updated>2021-08-13T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2021/08/13/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2021/08/13/report.html">&lt;h2 id=&quot;エリア1&quot;&gt;エリア1&lt;/h2&gt;
 &lt;h3 id=&quot;boss&quot;&gt;BOSS&lt;/h3&gt;
 &lt;ul&gt;
   &lt;li&gt;弱点属性：斬撃/実弾
@@ -8,8 +8,27 @@
   &lt;li&gt;連続撃破：25%&lt;/li&gt;
   &lt;li&gt;残存機体数：4500
     &lt;h3 id=&quot;機体&quot;&gt;機体&lt;/h3&gt;
-    &lt;h3 id=&quot;サブパーツ&quot;&gt;サブパーツ&lt;/h3&gt;
-    &lt;h3 id=&quot;アビリティチップ20&quot;&gt;アビリティチップ（★20）&lt;/h3&gt;
+    &lt;ol&gt;
+      &lt;li&gt;ゲッターノワール2号機&lt;/li&gt;
+      &lt;li&gt;ガンダムデスサイズヘル&lt;/li&gt;
+      &lt;li&gt;ガンダムキュリオス&lt;/li&gt;
+      &lt;li&gt;ゼーガペイン・アルティール&lt;/li&gt;
+      &lt;li&gt;ARX-7 アーバレスト
+        &lt;h3 id=&quot;サブパーツ&quot;&gt;サブパーツ&lt;/h3&gt;
+      &lt;/li&gt;
+      &lt;li&gt;イーディフューザー&lt;/li&gt;
+      &lt;li&gt;故郷への想い&lt;/li&gt;
+      &lt;li&gt;メグの激励（リナリア）&lt;/li&gt;
+      &lt;li&gt;フェラリオの輝き&lt;/li&gt;
+      &lt;li&gt;ウィッチのサポート
+        &lt;h3 id=&quot;アビリティチップ20&quot;&gt;アビリティチップ（★20）&lt;/h3&gt;
+      &lt;/li&gt;
+      &lt;li&gt;運動性プラス - 運動性が75増加する&lt;/li&gt;
+      &lt;li&gt;攻撃力・運動性プラス - 攻撃力が380、運動性が38増加する&lt;/li&gt;
+      &lt;li&gt;運動性アップ - 運動性が10%増加する&lt;/li&gt;
+      &lt;li&gt;照準値・運動性プラス - 照準値・運動性が38増加する&lt;/li&gt;
+      &lt;li&gt;攻撃力プラス - 攻撃力が750増加する&lt;/li&gt;
+    &lt;/ol&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
@@ -22,8 +41,27 @@
   &lt;li&gt;オーバー命中率：4%（最大400%）&lt;/li&gt;
   &lt;li&gt;残存機体数：4500
     &lt;h3 id=&quot;機体-1&quot;&gt;機体&lt;/h3&gt;
-    &lt;h3 id=&quot;サブパーツ-1&quot;&gt;サブパーツ&lt;/h3&gt;
-    &lt;h3 id=&quot;アビリティチップ20-1&quot;&gt;アビリティチップ（★20）&lt;/h3&gt;
+    &lt;ol&gt;
+      &lt;li&gt;ウインザート&lt;/li&gt;
+      &lt;li&gt;アクアビート&lt;/li&gt;
+      &lt;li&gt;フリーダムガンダム&lt;/li&gt;
+      &lt;li&gt;ウイングガンダムゼロ&lt;/li&gt;
+      &lt;li&gt;鋼鉄ジーグ
+        &lt;h3 id=&quot;サブパーツ-1&quot;&gt;サブパーツ&lt;/h3&gt;
+      &lt;/li&gt;
+      &lt;li&gt;平和の歌&lt;/li&gt;
+      &lt;li&gt;海兵隊仕込みの叱咤&lt;/li&gt;
+      &lt;li&gt;大人の知らない不思議な言葉&lt;/li&gt;
+      &lt;li&gt;世にも不思議な呪文&lt;/li&gt;
+      &lt;li&gt;魔神の一手
+        &lt;h3 id=&quot;アビリティチップ20-1&quot;&gt;アビリティチップ（★20）&lt;/h3&gt;
+      &lt;/li&gt;
+      &lt;li&gt;攻撃力・照準値プラス - 攻撃力が380、照準値が38増加する&lt;/li&gt;
+      &lt;li&gt;照準値プラス - 照準値が75増加する&lt;/li&gt;
+      &lt;li&gt;攻撃力プラス - 攻撃力が750増加する&lt;/li&gt;
+      &lt;li&gt;照準値アップ - 照準値が10%増加する&lt;/li&gt;
+      &lt;li&gt;ビーム強化 - ビーム属性の与ダメージが15%増加する&lt;/li&gt;
+    &lt;/ol&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
@@ -37,8 +75,27 @@
   &lt;li&gt;同時撃破：35%&lt;/li&gt;
   &lt;li&gt;残存機体数：4500
     &lt;h3 id=&quot;機体-2&quot;&gt;機体&lt;/h3&gt;
-    &lt;h3 id=&quot;サブパーツ-2&quot;&gt;サブパーツ&lt;/h3&gt;
-    &lt;h3 id=&quot;アビリティチップ20-2&quot;&gt;アビリティチップ（★20）&lt;/h3&gt;
+    &lt;ol&gt;
+      &lt;li&gt;グランゾン&lt;/li&gt;
+      &lt;li&gt;ダイターン3&lt;/li&gt;
+      &lt;li&gt;M9ガーンズバック&lt;/li&gt;
+      &lt;li&gt;ガウェイン&lt;/li&gt;
+      &lt;li&gt;ウイングガンダムゼロ
+        &lt;h3 id=&quot;サブパーツ-2&quot;&gt;サブパーツ&lt;/h3&gt;
+      &lt;/li&gt;
+      &lt;li&gt;白雪の中の贈り物&lt;/li&gt;
+      &lt;li&gt;蒼き空への憧憬&lt;/li&gt;
+      &lt;li&gt;平和の歌&lt;/li&gt;
+      &lt;li&gt;タービンズの頼もしい助っ人&lt;/li&gt;
+      &lt;li&gt;イカヅチ・リボルブ
+        &lt;h3 id=&quot;アビリティチップ20-2&quot;&gt;アビリティチップ（★20）&lt;/h3&gt;
+      &lt;/li&gt;
+      &lt;li&gt;攻撃力プラス - 攻撃力が750増加する&lt;/li&gt;
+      &lt;li&gt;特殊強化 - 特殊属性の与ダメージが15%増加する&lt;/li&gt;
+      &lt;li&gt;攻撃力プラス（気力上限） - 攻撃力が750増加する。気力上限が20上昇する（効果は重複しない。効果の最も高いもののみ有効）&lt;/li&gt;
+      &lt;li&gt;防御力プラス - 防御力が750増加する&lt;/li&gt;
+      &lt;li&gt;攻撃力・照準値プラス - 攻撃力が380、照準値が38増加する&lt;/li&gt;
+    &lt;/ol&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
@@ -52,8 +109,27 @@
   &lt;li&gt;同時撃破：35%&lt;/li&gt;
   &lt;li&gt;残存機体数：4500
     &lt;h3 id=&quot;機体-3&quot;&gt;機体&lt;/h3&gt;
-    &lt;h3 id=&quot;サブパーツ-3&quot;&gt;サブパーツ&lt;/h3&gt;
-    &lt;h3 id=&quot;アビリティチップ20-3&quot;&gt;アビリティチップ（★20）&lt;/h3&gt;
+    &lt;ol&gt;
+      &lt;li&gt;Hi-ν ガンダム&lt;/li&gt;
+      &lt;li&gt;ユニコーンガンダム&lt;/li&gt;
+      &lt;li&gt;サイバスター&lt;/li&gt;
+      &lt;li&gt;メラフディン&lt;/li&gt;
+      &lt;li&gt;ガンダムキュリオス
+        &lt;h3 id=&quot;サブパーツ-3&quot;&gt;サブパーツ&lt;/h3&gt;
+      &lt;/li&gt;
+      &lt;li&gt;ジャンク屋パートナー&lt;/li&gt;
+      &lt;li&gt;正反対な双子の巫女の応援&lt;/li&gt;
+      &lt;li&gt;平和の歌&lt;/li&gt;
+      &lt;li&gt;奮起の手腕&lt;/li&gt;
+      &lt;li&gt;ウィッチのサポート
+        &lt;h3 id=&quot;アビリティチップ20-3&quot;&gt;アビリティチップ（★20）&lt;/h3&gt;
+      &lt;/li&gt;
+      &lt;li&gt;攻撃力・運動性プラス - 攻撃力が380、運動性が38増加する&lt;/li&gt;
+      &lt;li&gt;運動性プラス - 運動性が75増加する&lt;/li&gt;
+      &lt;li&gt;運動性アップ - 運動性が10%増加する&lt;/li&gt;
+      &lt;li&gt;攻撃力プラス - 攻撃力が750増加する&lt;/li&gt;
+      &lt;li&gt;特殊強化 - 特殊属性の与ダメージが15%増加する&lt;/li&gt;
+    &lt;/ol&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
@@ -67,10 +143,133 @@
   &lt;li&gt;オーバー命中率：2%（最大200%）&lt;/li&gt;
   &lt;li&gt;残存機体数：4500
     &lt;h3 id=&quot;機体-4&quot;&gt;機体&lt;/h3&gt;
-    &lt;h3 id=&quot;サブパーツ-4&quot;&gt;サブパーツ&lt;/h3&gt;
-    &lt;h3 id=&quot;アビリティチップ20-4&quot;&gt;アビリティチップ（★20）&lt;/h3&gt;
+    &lt;ol&gt;
+      &lt;li&gt;真ゲッター1&lt;/li&gt;
+      &lt;li&gt;マジンカイザー&lt;/li&gt;
+      &lt;li&gt;ヴァルヴレイヴⅠ&lt;/li&gt;
+      &lt;li&gt;ガンダムヴァーチェ&lt;/li&gt;
+      &lt;li&gt;ディーダリオン
+        &lt;h3 id=&quot;サブパーツ-4&quot;&gt;サブパーツ&lt;/h3&gt;
+      &lt;/li&gt;
+      &lt;li&gt;平和の歌&lt;/li&gt;
+      &lt;li&gt;真夏の任務&lt;/li&gt;
+      &lt;li&gt;白雪の贈り物&lt;/li&gt;
+      &lt;li&gt;タービンズの頼もしい助っ人&lt;/li&gt;
+      &lt;li&gt;聖夜の贈り物
+        &lt;h3 id=&quot;アビリティチップ20-4&quot;&gt;アビリティチップ（★20）&lt;/h3&gt;
+      &lt;/li&gt;
+      &lt;li&gt;攻撃力プラス - 攻撃力が750増加する&lt;/li&gt;
+      &lt;li&gt;攻撃力・照準値プラス - 攻撃力が380、照準値が38増加する&lt;/li&gt;
+      &lt;li&gt;攻撃力・防御力プラス - 攻撃力・防御力が380増加する&lt;/li&gt;
+      &lt;li&gt;防御力プラス - 防御力が750増加する&lt;/li&gt;
+      &lt;li&gt;斬撃強化 - 斬撃属性の与ダメージが15%増加する&lt;/li&gt;
+    &lt;/ol&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html">エリア1 BOSS 弱点属性：斬撃/実弾 スコアボーナス オーバー回避率：3%（最大300%） 連続撃破：25% 残存機体数：4500 機体 サブパーツ アビリティチップ（★20）</summary></entry><entry><title type="html">「ヤマノススメ Next Summit」オータムフェス2021 の先行抽選販売に申し込んだ</title><link href="https://makietan.github.io/otaku/2021/08/12/report.html" rel="alternate" type="text/html" title="「ヤマノススメ Next Summit」オータムフェス2021 の先行抽選販売に申し込んだ" /><published>2021-08-12T00:00:00+09:00</published><updated>2021-08-12T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2021/08/12/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2021/08/12/report.html">&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;9月5日（日）開催の「&lt;a href=&quot;https://twitter.com/hashtag/%E3%83%A4%E3%83%9E%E3%83%8E%E3%82%B9%E3%82%B9%E3%83%A1?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#ヤマノススメ&lt;/a&gt; Next Summit」オータムフェス2021 チケット先行抽選申込が始まりました👏　&lt;br /&gt;抽選申込はこちらから→&lt;a href=&quot;https://t.co/s1iLyCthP7&quot;&gt;https://t.co/s1iLyCthP7&lt;/a&gt;&lt;br /&gt;抽選申込期間は8月16日（月）23：59まで⏰&lt;br /&gt;申込お忘れなく🗻 &lt;a href=&quot;https://t.co/xYh1RTZ81x&quot;&gt;https://t.co/xYh1RTZ81x&lt;/a&gt; &lt;a href=&quot;https://t.co/3TlfviboYT&quot;&gt;pic.twitter.com/3TlfviboYT&lt;/a&gt;&lt;/p&gt;&amp;mdash; テレビアニメ「ヤマノススメ Next Summit」公式 (@yamanosusume) &lt;a href=&quot;https://twitter.com/yamanosusume/status/1424197066243280897?ref_src=twsrc%5Etfw&quot;&gt;August 8, 2021&lt;/a&gt;&lt;/blockquote&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;自分のパーティー&quot;&gt;自分のパーティー&lt;/h1&gt;
+&lt;h2 id=&quot;エリア1-1&quot;&gt;エリア1&lt;/h2&gt;
+&lt;p&gt;|項目|pt|
+|:-:|:-:|
+|撃破スコア|52465|
+|オーバーダメージ|0|
+|オーバー命中率|0|
+|オーバー回避率|12422|
+|連続撃破|10320|
+|同時撃破|0|
+|気力MAX撃破|0|
+|残存機体数|18000|
+|HP回復|0|
+|合計|93207|&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;ARX-7 アーバレスト&lt;/li&gt;
+  &lt;li&gt;ゲッターノワール2号機&lt;/li&gt;
+  &lt;li&gt;スコープドッグRSC&lt;/li&gt;
+  &lt;li&gt;R-1&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;エリア2-1&quot;&gt;エリア2&lt;/h2&gt;
+&lt;p&gt;|項目|pt|
+|:-:|:-:|
+|撃破スコア|33629|
+|オーバーダメージ|0|
+|オーバー命中率|14218|
+|オーバー回避率|0|
+|連続撃破|0|
+|同時撃破|0|
+|気力MAX撃破|0|
+|残存機体数|18000|
+|HP回復|0|
+|合計|65847|&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;フリーダムガンダム&lt;/li&gt;
+  &lt;li&gt;メラフディン&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;エリア3-1&quot;&gt;エリア3&lt;/h2&gt;
+&lt;p&gt;|項目|pt|
+|:-:|:-:|
+|撃破スコア|59640|
+|オーバーダメージ|16053|
+|オーバー命中率|0|
+|オーバー回避率|0|
+|連続撃破|0|
+|同時撃破|9686|
+|気力MAX撃破|0|
+|残存機体数|9000|
+|HP回復|0|
+|合計|94379|&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;グランゾン&lt;/li&gt;
+  &lt;li&gt;エヴァンゲリオン零号機&lt;/li&gt;
+  &lt;li&gt;サイバスター&lt;/li&gt;
+  &lt;li&gt;ガウェイン&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;エリア4-1&quot;&gt;エリア4&lt;/h2&gt;
+&lt;p&gt;|項目|pt|
+|:-:|:-:|
+|撃破スコア|26850|
+|オーバーダメージ|0|
+|オーバー命中率|0|
+|オーバー回避率|374|
+|連続撃破|0|
+|同時撃破|0|
+|気力MAX撃破|0|
+|残存機体数|18000|
+|HP回復|0|
+|合計|45224|&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;ディーダリオン&lt;/li&gt;
+  &lt;li&gt;コンパチブルカイザー&lt;/li&gt;
+  &lt;li&gt;レイズナー&lt;/li&gt;
+  &lt;li&gt;鋼鉄ジーグ&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;エリア5-1&quot;&gt;エリア5&lt;/h2&gt;
+&lt;p&gt;|項目|pt|
+|:-:|:-:|
+|撃破スコア|38037|
+|オーバーダメージ|3283|
+|オーバー命中率|5042|
+|オーバー回避率|0|
+|連続撃破|0|
+|同時撃破|0|
+|気力MAX撃破|0|
+|残存機体数|13500|
+|HP回復|0|
+|合計|59862|&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;真ゲッター1&lt;/li&gt;
+  &lt;li&gt;ウイングガンダムゼロリベリオン&lt;/li&gt;
+  &lt;li&gt;ヴァンアイン&lt;/li&gt;
+  &lt;li&gt;R-1&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html">エリア1 BOSS 弱点属性：斬撃/実弾 スコアボーナス オーバー回避率：3%（最大300%） 連続撃破：25% 残存機体数：4500 機体 ゲッターノワール2号機 ガンダムデスサイズヘル ガンダムキュリオス ゼーガペイン・アルティール ARX-7 アーバレスト サブパーツ イーディフューザー 故郷への想い メグの激励（リナリア） フェラリオの輝き ウィッチのサポート アビリティチップ（★20） 運動性プラス - 運動性が75増加する 攻撃力・運動性プラス - 攻撃力が380、運動性が38増加する 運動性アップ - 運動性が10%増加する 照準値・運動性プラス - 照準値・運動性が38増加する 攻撃力プラス - 攻撃力が750増加する</summary></entry><entry><title type="html">「ヤマノススメ Next Summit」オータムフェス2021 の先行抽選販売に申し込んだ</title><link href="https://makietan.github.io/otaku/2021/08/12/report.html" rel="alternate" type="text/html" title="「ヤマノススメ Next Summit」オータムフェス2021 の先行抽選販売に申し込んだ" /><published>2021-08-12T00:00:00+09:00</published><updated>2021-08-12T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2021/08/12/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2021/08/12/report.html">&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;9月5日（日）開催の「&lt;a href=&quot;https://twitter.com/hashtag/%E3%83%A4%E3%83%9E%E3%83%8E%E3%82%B9%E3%82%B9%E3%83%A1?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#ヤマノススメ&lt;/a&gt; Next Summit」オータムフェス2021 チケット先行抽選申込が始まりました👏　&lt;br /&gt;抽選申込はこちらから→&lt;a href=&quot;https://t.co/s1iLyCthP7&quot;&gt;https://t.co/s1iLyCthP7&lt;/a&gt;&lt;br /&gt;抽選申込期間は8月16日（月）23：59まで⏰&lt;br /&gt;申込お忘れなく🗻 &lt;a href=&quot;https://t.co/xYh1RTZ81x&quot;&gt;https://t.co/xYh1RTZ81x&lt;/a&gt; &lt;a href=&quot;https://t.co/3TlfviboYT&quot;&gt;pic.twitter.com/3TlfviboYT&lt;/a&gt;&lt;/p&gt;&amp;mdash; テレビアニメ「ヤマノススメ Next Summit」公式 (@yamanosusume) &lt;a href=&quot;https://twitter.com/yamanosusume/status/1424197066243280897?ref_src=twsrc%5Etfw&quot;&gt;August 8, 2021&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
 
 &lt;div class=&quot;card&quot;&gt;
