@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2021-08-16T14:20:48+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">日報</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">ワクチン1回目接種した</title><link href="https://makietan.github.io/health/2021/08/15/report.html" rel="alternate" type="text/html" title="ワクチン1回目接種した" /><published>2021-08-15T00:00:00+09:00</published><updated>2021-08-15T00:00:00+09:00</updated><id>https://makietan.github.io/health/2021/08/15/report</id><content type="html" xml:base="https://makietan.github.io/health/2021/08/15/report.html">&lt;p&gt;親がうるさいので渋々摂取した。&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2021-08-16T14:40:32+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">日報</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">ワクチンの痛みは2日程度で消えた</title><link href="https://makietan.github.io/health/2021/08/16/report.html" rel="alternate" type="text/html" title="ワクチンの痛みは2日程度で消えた" /><published>2021-08-16T00:00:00+09:00</published><updated>2021-08-16T00:00:00+09:00</updated><id>https://makietan.github.io/health/2021/08/16/report</id><content type="html" xml:base="https://makietan.github.io/health/2021/08/16/report.html">&lt;p&gt;腕のだるさが残っているのでどうにかしたい。&lt;/p&gt;</content><author><name>makietan</name></author><category term="health" /><summary type="html">腕のだるさが残っているのでどうにかしたい。</summary></entry><entry><title type="html">ワクチン1回目接種した</title><link href="https://makietan.github.io/health/2021/08/15/report.html" rel="alternate" type="text/html" title="ワクチン1回目接種した" /><published>2021-08-15T00:00:00+09:00</published><updated>2021-08-15T00:00:00+09:00</updated><id>https://makietan.github.io/health/2021/08/15/report</id><content type="html" xml:base="https://makietan.github.io/health/2021/08/15/report.html">&lt;p&gt;親がうるさいので渋々摂取した。&lt;/p&gt;
 
 &lt;p&gt;居住地的に既に感染済みであってもおかしくないので今更摂取したところで変わらないと思うのだが、
 親への説得材料のためにやった。&lt;/p&gt;
@@ -31,7 +31,7 @@
     &lt;img src=&quot;&quot; /&gt;
   &lt;/div&gt;
   &lt;div class=&quot;card__title&quot;&gt;
-    &lt;p&gt;くすりのしおり | 患者向けわかりやすい情報&lt;/p&gt;
+    &lt;p&gt;	デュアック配合ゲル | くすりのしおり | 患者向けわかりやすい情報&lt;/p&gt;
   &lt;/div&gt;
   &lt;div class=&quot;card__description&quot;&gt;
     &lt;p&gt;お医者さんで処方してもらうお薬（医療用医薬品）を検索できます。「くすりのしおり®」は、患者さんにわかりやすい表現で、必要最小限の内容を盛り込んだ薬の情報です。 製薬企業が作成し、くすりの適正使用協議会が管理しています。一部、英語訳もされています。&lt;/p&gt;
@@ -47,7 +47,7 @@
     &lt;img src=&quot;&quot; /&gt;
   &lt;/div&gt;
   &lt;div class=&quot;card__title&quot;&gt;
-    &lt;p&gt;くすりのしおり | 患者向けわかりやすい情報&lt;/p&gt;
+    &lt;p&gt;ミノサイクリン塩酸塩錠50mg「トーワ」 | くすりのしおり | 患者向けわかりやすい情報&lt;/p&gt;
   &lt;/div&gt;
   &lt;div class=&quot;card__description&quot;&gt;
     &lt;p&gt;お医者さんで処方してもらうお薬（医療用医薬品）を検索できます。「くすりのしおり®」は、患者さんにわかりやすい表現で、必要最小限の内容を盛り込んだ薬の情報です。 製薬企業が作成し、くすりの適正使用協議会が管理しています。一部、英語訳もされています。&lt;/p&gt;
@@ -231,6 +231,8 @@
 
 &lt;p&gt;各エリアで最大値を出したときのパーティー
 （ハイスコアではない）&lt;/p&gt;
+
+&lt;p&gt;A ランク 50位&lt;/p&gt;
 
 &lt;h2 id=&quot;エリア1-1&quot;&gt;エリア1&lt;/h2&gt;
 &lt;p&gt;|項目|pt|
@@ -850,23 +852,4 @@
 
 &lt;p&gt;今は韓国製品とかが多いけど、そろそろ中華製品とかも蔓延しそうだし、先手先手で穴を塞がないとね。
 というか効果がないのに表現がちょっと違うからセーフっていうのが狂ってんだよね。
-今までがおかしかったんだよ。&lt;/p&gt;</content><author><name>makietan</name></author><category term="japan" /><category term="health" /><summary type="html">news.yahoo.co.jp アフィリエイターに措置命令も　改正薬機法で違反広告に課徴金、8月施行（SankeiBiz） - Yahoo!ニュース 　医薬品などの不正確な広告に対して課徴金を課すことを定めた改正医薬品医療機器法（薬機法）が8月1日、施行される。同法では虚偽・誇大広告の罰金を最高で200万円としてきたが、収益の大部分をまんまと“持</summary></entry><entry><title type="html">最近の料理 - しじみ汁</title><link href="https://makietan.github.io/gourmet/2021/08/06/report.html" rel="alternate" type="text/html" title="最近の料理 - しじみ汁" /><published>2021-08-06T00:00:00+09:00</published><updated>2021-08-06T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2021/08/06/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2021/08/06/report.html">&lt;div class=&quot;card&quot;&gt;
-  &lt;a href=&quot;https://www.sirogohan.com/recipe/sijimi/&quot;&gt;&lt;/a&gt;
-  &lt;div class=&quot;card__header&quot;&gt;
-    &lt;a href=&quot;https://www.sirogohan.com/recipe/sijimi/&quot;&gt;www.sirogohan.com&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__image&quot;&gt;
-    &lt;img src=&quot;https://www.sirogohan.com/_files/recipe/images/sijimi/sijimiyoko3.JPG&quot; /&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__title&quot;&gt;
-    &lt;p&gt;しじみの味噌汁のレシピ/作り方：白ごはん.com&lt;/p&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__description&quot;&gt;
-    &lt;p&gt;白ごはん.comの『しじみの味噌汁の作り方』を紹介するレシピページです。しじみなどの貝類は、水から火にかけてだしを引き出すと美味しくなります！昆布さえあれば美味しい味噌汁が作れますので、ぜひお試しください。作り方は詳しい写真付きです。&lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;上記は参考サイト。&lt;/p&gt;
-
-&lt;p&gt;なかなかうまかった。
-ちょっと砂抜きが不十分だったのでリベンジするときは完璧にしたい。&lt;/p&gt;</content><author><name>makietan</name></author><category term="gourmet" /><summary type="html">www.sirogohan.com しじみの味噌汁のレシピ/作り方：白ごはん.com 白ごはん.comの『しじみの味噌汁の作り方』を紹介するレシピページです。しじみなどの貝類は、水から火にかけてだしを引き出すと美味しくなります！昆布さえあれば美味しい味噌汁が作れますので、ぜひお試しください。作り方は詳しい写真付きです。</summary></entry></feed>
+今までがおかしかったんだよ。&lt;/p&gt;</content><author><name>makietan</name></author><category term="japan" /><category term="health" /><summary type="html">news.yahoo.co.jp アフィリエイターに措置命令も　改正薬機法で違反広告に課徴金、8月施行（SankeiBiz） - Yahoo!ニュース 　医薬品などの不正確な広告に対して課徴金を課すことを定めた改正医薬品医療機器法（薬機法）が8月1日、施行される。同法では虚偽・誇大広告の罰金を最高で200万円としてきたが、収益の大部分をまんまと“持</summary></entry></feed>
