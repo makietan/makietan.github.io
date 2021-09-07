@@ -1,4 +1,315 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2021-09-07T03:00:47+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">日報</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">『#上坂すみれ の #PROPAGANDACITY 2021』FCチケット先行の当落発表じゃーい</title><link href="https://makietan.github.io/otaku/2021/09/01/report.html" rel="alternate" type="text/html" title="『#上坂すみれ の #PROPAGANDACITY 2021』FCチケット先行の当落発表じゃーい" /><published>2021-09-01T00:00:00+09:00</published><updated>2021-09-01T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2021/09/01/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2021/09/01/report.html">&lt;p&gt;ざわ…ざわ…。&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2021-09-07T21:13:45+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">日報</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html"></title><link href="https://makietan.github.io/2021/09/07/2021-09-06-report.html" rel="alternate" type="text/html" title="" /><published>2021-09-07T21:13:45+09:00</published><updated>2021-09-07T21:13:45+09:00</updated><id>https://makietan.github.io/2021/09/07/2021-09-06-report</id><content type="html" xml:base="https://makietan.github.io/2021/09/07/2021-09-06-report.html">&lt;h2 id=&quot;エリア1&quot;&gt;エリア1&lt;/h2&gt;
+&lt;h3 id=&quot;boss&quot;&gt;BOSS&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;弱点属性：斬撃/特殊
+    &lt;h3 id=&quot;スコアボーナス&quot;&gt;スコアボーナス&lt;/h3&gt;
+  &lt;/li&gt;
+  &lt;li&gt;オーバー回避率：3%（最大300%）&lt;/li&gt;
+  &lt;li&gt;連続撃破：35%&lt;/li&gt;
+  &lt;li&gt;残存機体数：4500
+    &lt;h3 id=&quot;機体&quot;&gt;機体&lt;/h3&gt;
+    &lt;ol&gt;
+      &lt;li&gt;ガンダムキュリオス&lt;/li&gt;
+      &lt;li&gt;ゲッターノワール2号機&lt;/li&gt;
+      &lt;li&gt;ガンダムデスサイズヘル&lt;/li&gt;
+      &lt;li&gt;獣神ライガー&lt;/li&gt;
+      &lt;li&gt;ゼーガペイン・アルティール
+        &lt;h3 id=&quot;サブパーツ&quot;&gt;サブパーツ&lt;/h3&gt;
+      &lt;/li&gt;
+      &lt;li&gt;故郷への想い&lt;/li&gt;
+      &lt;li&gt;イーディフューザー&lt;/li&gt;
+      &lt;li&gt;フェラリオの輝き&lt;/li&gt;
+      &lt;li&gt;シーサイド・ツインズ&lt;/li&gt;
+      &lt;li&gt;ウィッチのサポート
+        &lt;h3 id=&quot;アビリティチップ20&quot;&gt;アビリティチップ（★20）&lt;/h3&gt;
+      &lt;/li&gt;
+      &lt;li&gt;攻撃力・運動性プラス - 攻撃力が380、運動性が38増加する&lt;/li&gt;
+      &lt;li&gt;運動性プラス - 運動性が75増加する&lt;/li&gt;
+      &lt;li&gt;運動性アップ - 運動性が10%増加する&lt;/li&gt;
+      &lt;li&gt;照準値・運動性プラス - 照準値・運動性が38増加する&lt;/li&gt;
+      &lt;li&gt;攻撃力プラス - 攻撃力が750増加する&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;エリア2&quot;&gt;エリア2&lt;/h2&gt;
+&lt;h3 id=&quot;boss-1&quot;&gt;BOSS&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;弱点属性：実弾、斬撃、ビーム
+    &lt;h3 id=&quot;スコアボーナス-1&quot;&gt;スコアボーナス&lt;/h3&gt;
+  &lt;/li&gt;
+  &lt;li&gt;オーバー命中率：3%（最大300%）&lt;/li&gt;
+  &lt;li&gt;残存機体数：4500
+    &lt;h3 id=&quot;機体-1&quot;&gt;機体&lt;/h3&gt;
+    &lt;ol&gt;
+      &lt;li&gt;フリーダムガンダム&lt;/li&gt;
+      &lt;li&gt;ジャスティスガンダム&lt;/li&gt;
+      &lt;li&gt;ウインザート&lt;/li&gt;
+      &lt;li&gt;ヴァルブレイブⅠ&lt;/li&gt;
+      &lt;li&gt;ガンダムヴァーチェ
+        &lt;h3 id=&quot;サブパーツ-1&quot;&gt;サブパーツ&lt;/h3&gt;
+      &lt;/li&gt;
+      &lt;li&gt;平和の歌&lt;/li&gt;
+      &lt;li&gt;海兵隊仕込みの叱咤&lt;/li&gt;
+      &lt;li&gt;魔神の一手&lt;/li&gt;
+      &lt;li&gt;世にも不思議な呪文&lt;/li&gt;
+      &lt;li&gt;日の出への願い
+        &lt;h3 id=&quot;アビリティチップ20-1&quot;&gt;アビリティチップ（★20）&lt;/h3&gt;
+      &lt;/li&gt;
+      &lt;li&gt;攻撃力・照準値プラス - 攻撃力が380、照準値が38増加する&lt;/li&gt;
+      &lt;li&gt;攻撃力プラス - 攻撃力が750増加する&lt;/li&gt;
+      &lt;li&gt;照準値プラス - 照準値が75増加する&lt;/li&gt;
+      &lt;li&gt;ビーム強化 - ビーム属性の与ダメージが15%増加する&lt;/li&gt;
+      &lt;li&gt;攻撃力・防御力プラス - 攻撃力・防御力が380増加する&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;エリア3&quot;&gt;エリア3&lt;/h2&gt;
+&lt;h3 id=&quot;boss-2&quot;&gt;BOSS&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;弱点属性：ビーム、ビーム/特殊、ビーム
+    &lt;h3 id=&quot;スコアボーナス-2&quot;&gt;スコアボーナス&lt;/h3&gt;
+  &lt;/li&gt;
+  &lt;li&gt;オーバー回避率：2%（最大200%）&lt;/li&gt;
+  &lt;li&gt;同時撃破：35%&lt;/li&gt;
+  &lt;li&gt;残存機体数：4500
+    &lt;h3 id=&quot;機体-2&quot;&gt;機体&lt;/h3&gt;
+    &lt;ol&gt;
+      &lt;li&gt;ウイングガンダムゼロ&lt;/li&gt;
+      &lt;li&gt;Hi-νガンダム&lt;/li&gt;
+      &lt;li&gt;ユニコーンガンダム&lt;/li&gt;
+      &lt;li&gt;ガンダムヴァーチェ&lt;/li&gt;
+      &lt;li&gt;サイバスター
+        &lt;h3 id=&quot;サブパーツ-2&quot;&gt;サブパーツ&lt;/h3&gt;
+      &lt;/li&gt;
+      &lt;li&gt;平和の歌&lt;/li&gt;
+      &lt;li&gt;海兵隊仕込みの叱咤&lt;/li&gt;
+      &lt;li&gt;ジャンク屋パートナー&lt;/li&gt;
+      &lt;li&gt;正反対な双子の巫女の応援&lt;/li&gt;
+      &lt;li&gt;シーサイド・ツインズ
+        &lt;h3 id=&quot;アビリティチップ20-2&quot;&gt;アビリティチップ（★20）&lt;/h3&gt;
+      &lt;/li&gt;
+      &lt;li&gt;攻撃力プラス - 攻撃力が750増加する&lt;/li&gt;
+      &lt;li&gt;攻撃力・照準値プラス - 攻撃力が380、照準値が38増加する&lt;/li&gt;
+      &lt;li&gt;ビーム強化 - ビーム属性の与ダメージが15%増加する&lt;/li&gt;
+      &lt;li&gt;攻撃力・運動性プラス - 攻撃力が380、運動性が38増加する&lt;/li&gt;
+      &lt;li&gt;照準値プラス - 照準値が75増加する&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;エリア4&quot;&gt;エリア4&lt;/h2&gt;
+&lt;h3 id=&quot;boss-3&quot;&gt;BOSS&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;弱点属性：打撃/実弾、打撃/斬撃、斬撃/実弾
+    &lt;h3 id=&quot;スコアボーナス-3&quot;&gt;スコアボーナス&lt;/h3&gt;
+  &lt;/li&gt;
+  &lt;li&gt;気力MAX撃破：60%&lt;/li&gt;
+  &lt;li&gt;残存機体数：4500
+    &lt;h3 id=&quot;機体-3&quot;&gt;機体&lt;/h3&gt;
+    &lt;ol&gt;
+      &lt;li&gt;ダイターン3&lt;/li&gt;
+      &lt;li&gt;ディーダリオン&lt;/li&gt;
+      &lt;li&gt;ガウェイン&lt;/li&gt;
+      &lt;li&gt;アルトアイゼン&lt;/li&gt;
+      &lt;li&gt;ゲッターノワール1号機
+        &lt;h3 id=&quot;サブパーツ-3&quot;&gt;サブパーツ&lt;/h3&gt;
+      &lt;/li&gt;
+      &lt;li&gt;タービンズの頼もしい助っ人&lt;/li&gt;
+      &lt;li&gt;平和の歌&lt;/li&gt;
+      &lt;li&gt;願望の探求者&lt;/li&gt;
+      &lt;li&gt;甲児への祈り&lt;/li&gt;
+      &lt;li&gt;海兵隊仕込みの叱咤
+        &lt;h3 id=&quot;アビリティチップ20-3&quot;&gt;アビリティチップ（★20）&lt;/h3&gt;
+      &lt;/li&gt;
+      &lt;li&gt;攻撃力プラス - 攻撃力が750増加する&lt;/li&gt;
+      &lt;li&gt;攻撃力・防御力プラス - 攻撃力・防御力が380増加する&lt;/li&gt;
+      &lt;li&gt;防御力プラス - 防御力が750増加する&lt;/li&gt;
+      &lt;li&gt;攻撃力・照準値プラス - 攻撃力が380、照準値が38増加する&lt;/li&gt;
+      &lt;li&gt;打撃強化 - 打撃属性の与ダメージが15%増加する&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;エリア5&quot;&gt;エリア5&lt;/h2&gt;
+&lt;h3 id=&quot;boss-4&quot;&gt;BOSS&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;弱点属性：特殊
+    &lt;h3 id=&quot;スコアボーナス-4&quot;&gt;スコアボーナス&lt;/h3&gt;
+  &lt;/li&gt;
+  &lt;li&gt;オーバーダメージ：3%&lt;/li&gt;
+  &lt;li&gt;残存機体数：4500&lt;/li&gt;
+  &lt;li&gt;HP回復：20%
+    &lt;h3 id=&quot;機体-4&quot;&gt;機体&lt;/h3&gt;
+    &lt;ol&gt;
+      &lt;li&gt;真ゲッター1&lt;/li&gt;
+      &lt;li&gt;グランゾン&lt;/li&gt;
+      &lt;li&gt;マジンカイザー&lt;/li&gt;
+      &lt;li&gt;ゲッターノワール1号機&lt;/li&gt;
+      &lt;li&gt;メラフディン
+        &lt;h3 id=&quot;サブパーツ-4&quot;&gt;サブパーツ&lt;/h3&gt;
+      &lt;/li&gt;
+      &lt;li&gt;白雪の中の贈り物&lt;/li&gt;
+      &lt;li&gt;真夏の任務&lt;/li&gt;
+      &lt;li&gt;憎めない喧嘩仲間&lt;/li&gt;
+      &lt;li&gt;平和の歌&lt;/li&gt;
+      &lt;li&gt;DD
+        &lt;h3 id=&quot;アビリティチップ20-4&quot;&gt;アビリティチップ（★20）&lt;/h3&gt;
+      &lt;/li&gt;
+      &lt;li&gt;攻撃力プラス - 攻撃力が750増加する&lt;/li&gt;
+      &lt;li&gt;攻撃力・照準値プラス - 攻撃力が380、照準値が38増加する&lt;/li&gt;
+      &lt;li&gt;攻撃力・防御力プラス - 攻撃力・防御力が380増加する&lt;/li&gt;
+      &lt;li&gt;特殊強化 - 特殊属性の与ダメージが15%増加する&lt;/li&gt;
+      &lt;li&gt;防御力プラス - 防御力が750増加する&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;自分のパーティー&quot;&gt;自分のパーティー&lt;/h1&gt;
+&lt;h2 id=&quot;エリア1-1&quot;&gt;エリア1&lt;/h2&gt;
+&lt;p&gt;92743
+├ 撃破スコア 54969pt
+├ オーバー回避率 7856pt
+├ 連続撃破 11918pt
+└ 残存機体数 18000pt&lt;/p&gt;
+&lt;h3 id=&quot;機体-5&quot;&gt;機体&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;ARX-7 アーバレスト 34%&lt;/li&gt;
+  &lt;li&gt;ゲッターノワール2号機 14%&lt;/li&gt;
+  &lt;li&gt;ガンダム・グシオンリベイク 22%&lt;/li&gt;
+  &lt;li&gt;コンパチブルカイザー 28%
+    &lt;h2 id=&quot;エリア2-1&quot;&gt;エリア2&lt;/h2&gt;
+    &lt;p&gt;72038
+├ 撃破スコア 40999pt
+├ オーバー命中率 13039pt
+└ 残存機体数 18000pt&lt;/p&gt;
+    &lt;h3 id=&quot;機体-6&quot;&gt;機体&lt;/h3&gt;
+  &lt;/li&gt;
+  &lt;li&gt;エヴァンゲリオン零号機 22%&lt;/li&gt;
+  &lt;li&gt;フリーダムガンダム 28%&lt;/li&gt;
+  &lt;li&gt;ユニコーンガンダム 25%&lt;/li&gt;
+  &lt;li&gt;ヴァルブレイブⅠ 23%
+    &lt;h2 id=&quot;エリア3-1&quot;&gt;エリア3&lt;/h2&gt;
+    &lt;p&gt;84860
+├ 撃破スコア 46670pt
+├ オーバー命中率 13027pt
+├ 同時攻撃 7163pt
+└ 残存機体数 18000pt&lt;/p&gt;
+    &lt;h3 id=&quot;機体-7&quot;&gt;機体&lt;/h3&gt;
+  &lt;/li&gt;
+  &lt;li&gt;グランゾン 41%&lt;/li&gt;
+  &lt;li&gt;Hi-νガンダム 35%&lt;/li&gt;
+  &lt;li&gt;サイバスター 18%&lt;/li&gt;
+  &lt;li&gt;ゼーガペイン・アルティール 5%
+    &lt;h2 id=&quot;エリア4-1&quot;&gt;エリア4&lt;/h2&gt;
+    &lt;p&gt;72552
+├ 撃破スコア 45762pt
+├ 気力MAX撃破 4397pt
+├ 残存機体数 18000pt
+└ HP回復 4393pt&lt;/p&gt;
+    &lt;h3 id=&quot;機体-8&quot;&gt;機体&lt;/h3&gt;
+  &lt;/li&gt;
+  &lt;li&gt;真ゲッター1 36%&lt;/li&gt;
+  &lt;li&gt;グレートマジンガー 23%&lt;/li&gt;
+  &lt;li&gt;マジンカイザー 14%&lt;/li&gt;
+  &lt;li&gt;R-1 25%
+    &lt;h2 id=&quot;エリア5-1&quot;&gt;エリア5&lt;/h2&gt;
+    &lt;p&gt;42120
+├ 撃破スコア 29688pt
+├ オーバーダメージ 3432pt
+└ 残存機体数 18000pt&lt;/p&gt;
+    &lt;h3 id=&quot;機体-9&quot;&gt;機体&lt;/h3&gt;
+  &lt;/li&gt;
+  &lt;li&gt;ガウェイン 22%&lt;/li&gt;
+  &lt;li&gt;ディーダリオン 19%&lt;/li&gt;
+  &lt;li&gt;ゲッターノワール1号機 54%&lt;/li&gt;
+  &lt;li&gt;ダルタニアス 3%&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>makietan</name></author></entry><entry><title type="html">久々にこのファンでいい引きをした</title><link href="https://makietan.github.io/game/otaku/2021/09/07/report.html" rel="alternate" type="text/html" title="久々にこのファンでいい引きをした" /><published>2021-09-07T00:00:00+09:00</published><updated>2021-09-07T00:00:00+09:00</updated><id>https://makietan.github.io/game/otaku/2021/09/07/report</id><content type="html" xml:base="https://makietan.github.io/game/otaku/2021/09/07/report.html">&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;やっば&lt;br /&gt;今までガチャ出てくれなかったのはこの布石か &lt;a href=&quot;https://twitter.com/hashtag/%E3%81%93%E3%81%AE%E3%83%95%E3%82%A1%E3%83%B3?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#このファン&lt;/a&gt; &lt;a href=&quot;https://t.co/GPif9yZViX&quot;&gt;pic.twitter.com/GPif9yZViX&lt;/a&gt;&lt;/p&gt;&amp;mdash; まきえたん🥦桑寄席9/26 (@makietanX) &lt;a href=&quot;https://twitter.com/makietanX/status/1434920515966099456?ref_src=twsrc%5Etfw&quot;&gt;September 6, 2021&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;最近全然SSRが排出されなかったのはこれが出るためか。
+いやー久々に出たよSSR。
+何度でも言うよ久々だよSSR。&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot; data-conversation=&quot;none&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;確定チケはこめっこ&lt;br /&gt;これも持ってないからラッキー &lt;a href=&quot;https://twitter.com/hashtag/%E3%81%93%E3%81%AE%E3%83%95%E3%82%A1%E3%83%B3?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#このファン&lt;/a&gt; &lt;a href=&quot;https://t.co/RmpsTQzNQr&quot;&gt;pic.twitter.com/RmpsTQzNQr&lt;/a&gt;&lt;/p&gt;&amp;mdash; まきえたん🥦桑寄席9/26 (@makietanX) &lt;a href=&quot;https://twitter.com/makietanX/status/1434921004363440131?ref_src=twsrc%5Etfw&quot;&gt;September 6, 2021&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;確定チケはこめっこ。
+こっちも持ってないのでいい感じだ。&lt;/p&gt;
+
+&lt;p&gt;それにしてもウィズが久々すぎて泣いてるよほんと。&lt;/p&gt;</content><author><name>makietan</name></author><category term="game" /><category term="otaku" /><summary type="html">やっば今までガチャ出てくれなかったのはこの布石か #このファン pic.twitter.com/GPif9yZViX&amp;mdash; まきえたん🥦桑寄席9/26 (@makietanX) September 6, 2021</summary></entry><entry><title type="html">ゲッターロボアークのブラウザゲーが面白い</title><link href="https://makietan.github.io/game/otaku/2021/09/05/report.html" rel="alternate" type="text/html" title="ゲッターロボアークのブラウザゲーが面白い" /><published>2021-09-05T00:00:00+09:00</published><updated>2021-09-05T00:00:00+09:00</updated><id>https://makietan.github.io/game/otaku/2021/09/05/report</id><content type="html" xml:base="https://makietan.github.io/game/otaku/2021/09/05/report.html">&lt;p&gt;クローン武蔵をひたすら撃つゲーム。&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;これは草 &lt;a href=&quot;https://twitter.com/hashtag/getter_a?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#getter_a&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/%E3%82%B2%E3%83%83%E3%82%BF%E3%83%BC%E3%83%AD%E3%83%9C%E3%82%A2%E3%83%BC%E3%82%AF?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#ゲッターロボアーク&lt;/a&gt; &lt;a href=&quot;https://t.co/0xuKMWCVmQ&quot;&gt;pic.twitter.com/0xuKMWCVmQ&lt;/a&gt;&lt;/p&gt;&amp;mdash; まきえたん🥦桑寄席9/26 (@makietanX) &lt;a href=&quot;https://twitter.com/makietanX/status/1434524795102580749?ref_src=twsrc%5Etfw&quot;&gt;September 5, 2021&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;武蔵が登場してワクワクしてたらこれですよ。&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;無理 &lt;a href=&quot;https://t.co/DeqJtoWyoR&quot;&gt;pic.twitter.com/DeqJtoWyoR&lt;/a&gt;&lt;/p&gt;&amp;mdash; まきえたん🥦桑寄席9/26 (@makietanX) &lt;a href=&quot;https://twitter.com/makietanX/status/1434525073604444164?ref_src=twsrc%5Etfw&quot;&gt;September 5, 2021&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;それにしても残りの話数でちゃんと完結できるのだろうか。
+色々と過去の作品のキャラクターが登場したし、発散するだけ発散して収束させないとかはやめてね。&lt;/p&gt;
+
+&lt;p&gt;それにしても短いよ話数。&lt;/p&gt;
+
+&lt;p&gt;過去作品のように濃厚なOVAかせめてもの2クールとかがよかったな。&lt;/p&gt;</content><author><name>makietan</name></author><category term="game" /><category term="otaku" /><summary type="html">クローン武蔵をひたすら撃つゲーム。</summary></entry><entry><title type="html">ワクチン接種2回目から1日経過</title><link href="https://makietan.github.io/health/2021/09/04/report.html" rel="alternate" type="text/html" title="ワクチン接種2回目から1日経過" /><published>2021-09-04T00:00:00+09:00</published><updated>2021-09-04T00:00:00+09:00</updated><id>https://makietan.github.io/health/2021/09/04/report</id><content type="html" xml:base="https://makietan.github.io/health/2021/09/04/report.html">&lt;p&gt;多分何も書けないと思うので先に書いておく。
+予約の変更ができなかった。
+都合が悪いのに。&lt;/p&gt;
+
+&lt;p&gt;融通が利かないワクチン接種のどこが自由なのか。
+自由なんか一切ないね。&lt;/p&gt;
+
+&lt;p&gt;そんなものを接種したかどうかで扱いを分けるのは紛れもなく差別だ。&lt;/p&gt;</content><author><name>makietan</name></author><category term="health" /><summary type="html">多分何も書けないと思うので先に書いておく。 予約の変更ができなかった。 都合が悪いのに。</summary></entry><entry><title type="html">「ヤマノススメ Next Summit」オータムフェス2021の昼公演に行ってきた</title><link href="https://makietan.github.io/otaku/2021/09/03/report.html" rel="alternate" type="text/html" title="「ヤマノススメ Next Summit」オータムフェス2021の昼公演に行ってきた" /><published>2021-09-03T00:00:00+09:00</published><updated>2021-09-03T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2021/09/03/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2021/09/03/report.html">&lt;div class=&quot;card&quot;&gt;
+  &lt;a href=&quot;https://yamanosusume-ns.com/event/AutumnFes2021/&quot;&gt;&lt;/a&gt;
+  &lt;div class=&quot;card__header&quot;&gt;
+    &lt;a href=&quot;https://yamanosusume-ns.com/event/AutumnFes2021/&quot;&gt;yamanosusume-ns.com&lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__image&quot;&gt;
+    &lt;img src=&quot;https://yamanosusume-ns.com/core_sys/images/others/ogp.jpg&quot; /&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__title&quot;&gt;
+    &lt;p&gt;オータムフェス2021 -テレビアニメ『ヤマノススメ Next Summit』公式サイト-&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__description&quot;&gt;
+    &lt;p&gt;&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;ところざわサクラタウン&quot;&gt;ところざわサクラタウン&lt;/h2&gt;
+
+&lt;p&gt;KADOKAWAのアレです。
+無銭でもそれなりに楽しめる施設なのでKADOKAWAが嫌いじゃなければ訪れるのもいいかと。&lt;/p&gt;
+
+&lt;h2 id=&quot;イベントについて&quot;&gt;イベントについて&lt;/h2&gt;
+
+&lt;p&gt;ヤマノススメは原作は10年、アニメは8年と非常に息の長い作品である。
+イベントは約3年ぶりとのこと。
+小倉唯は26歳。ファーストシーズンの頃は高校生（17歳）だったのにもう立派なオトナに。
+あ、他のお姉さま方については割愛します。&lt;/p&gt;
+
+&lt;p&gt;それだけファンがいて楽しめる作品でもある。
+ただ、加齢によって山に登れる体力がなくなっていくので早めのうちに準備して山に登ろう。&lt;/p&gt;
+
+&lt;p&gt;イベントには東山奈央がいないのだけどセンターにほのかちゃんがいる。
+そういえば伊香保温泉は駅メモのヤマノススメイベントで行ったよ。
+結構大変だった…。今度は車で行きたい。&lt;/p&gt;
+
+&lt;h2 id=&quot;昼公演&quot;&gt;昼公演&lt;/h2&gt;
+
+&lt;h2 id=&quot;夜公演&quot;&gt;夜公演&lt;/h2&gt;
+
+&lt;h2 id=&quot;おわりに&quot;&gt;おわりに&lt;/h2&gt;
+
+&lt;p&gt;実はヤマノススメのイベントに参加するのは初めて。
+応募して外れるとメンタルが病むので当選見込みのない作品にはあまり応募してこなかった。
+ただ、今回は配信で視聴できるので当選にハズレても救済があるので思い切って応募した。
+夜公演は配信で視聴した。昼公演が終わってすぐに電車で自宅に戻ったのはいい思い出です（おもいでプレゼント）。&lt;/p&gt;</content><author><name>makietan</name></author><category term="otaku" /><summary type="html">yamanosusume-ns.com オータムフェス2021 -テレビアニメ『ヤマノススメ Next Summit』公式サイト-</summary></entry><entry><title type="html">今年の健康診断に行ってきた</title><link href="https://makietan.github.io/health/2021/09/02/report.html" rel="alternate" type="text/html" title="今年の健康診断に行ってきた" /><published>2021-09-02T00:00:00+09:00</published><updated>2021-09-02T00:00:00+09:00</updated><id>https://makietan.github.io/health/2021/09/02/report</id><content type="html" xml:base="https://makietan.github.io/health/2021/09/02/report.html">&lt;p&gt;やっぱり体重が増えていた…。
+視力が0.5:0.7。
+あれ？戻った？酷い後天性の近眼だったのかもしれない。
+いつもどおりのベルトコンベア型健康診断なので正確性は低いだろう。&lt;/p&gt;
+
+&lt;p&gt;はー健康になりたい。&lt;/p&gt;</content><author><name>makietan</name></author><category term="health" /><summary type="html">やっぱり体重が増えていた…。 視力が0.5:0.7。 あれ？戻った？酷い後天性の近眼だったのかもしれない。 いつもどおりのベルトコンベア型健康診断なので正確性は低いだろう。</summary></entry><entry><title type="html">『#上坂すみれ の #PROPAGANDACITY 2021』FCチケット先行の当落発表じゃーい</title><link href="https://makietan.github.io/otaku/2021/09/01/report.html" rel="alternate" type="text/html" title="『#上坂すみれ の #PROPAGANDACITY 2021』FCチケット先行の当落発表じゃーい" /><published>2021-09-01T00:00:00+09:00</published><updated>2021-09-01T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2021/09/01/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2021/09/01/report.html">&lt;p&gt;ざわ…ざわ…。&lt;/p&gt;
 
 &lt;div class=&quot;card&quot;&gt;
   &lt;a href=&quot;https://www.sumipe-federation.com/&quot;&gt;&lt;/a&gt;
@@ -14,117 +325,19 @@
   &lt;div class=&quot;card__description&quot;&gt;
     &lt;p&gt;&lt;/p&gt;
   &lt;/div&gt;
-&lt;/div&gt;</content><author><name>makietan</name></author><category term="otaku" /><summary type="html">ざわ…ざわ…。</summary></entry><entry><title type="html">かっぱ寿司のメイドラゴンSコラボでクリアファイルをゲットしてきた</title><link href="https://makietan.github.io/otaku/2021/08/28/report.html" rel="alternate" type="text/html" title="かっぱ寿司のメイドラゴンSコラボでクリアファイルをゲットしてきた" /><published>2021-08-28T00:00:00+09:00</published><updated>2021-08-28T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2021/08/28/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2021/08/28/report.html">&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;「小林さんちのメイドラゴンS」× かっぱ寿司🍣&lt;br /&gt;祝！コラボ🎉&lt;br /&gt;&lt;br /&gt;8月21日(土)より全国のかっぱ寿司にてオリジナルクリアファイルプレゼントキャンペーン開催決定🐉&lt;br /&gt;&lt;br /&gt;種類は全部で5種類♪&lt;br /&gt;Twitterキャンペーンも同時開催します！&lt;br /&gt;&lt;br /&gt;詳細はかっぱ寿司のHPをチェック👀&lt;a href=&quot;https://t.co/RjlMMWNLRn&quot;&gt;https://t.co/RjlMMWNLRn&lt;/a&gt;&lt;a href=&quot;https://twitter.com/hashtag/maidragon?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#maidragon&lt;/a&gt; &lt;a href=&quot;https://t.co/SkpNWEjIDX&quot;&gt;pic.twitter.com/SkpNWEjIDX&lt;/a&gt;&lt;/p&gt;&amp;mdash; TVアニメ「小林さんちのメイドラゴンＳ」公式 (@maidragon_anime) &lt;a href=&quot;https://twitter.com/maidragon_anime/status/1424971750786273286?ref_src=twsrc%5Etfw&quot;&gt;August 10, 2021&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-
-&lt;p&gt;かっぱ寿司に行ってきました。
-Web予約のテイクアウトでも大丈夫だった。
-サーモンづくしセットだったり、夏のセットだったり。&lt;/p&gt;
-
-&lt;p&gt;流石に複数人で食べたけど多すぎて残った。
-翌朝なんとか食べたけど。&lt;/p&gt;
-
-&lt;p&gt;おいしいねお寿司。&lt;/p&gt;
-
-&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;揃いました (@ かっぱ寿司 堺美原店 in 堺市, 大阪府) &lt;a href=&quot;https://t.co/Q2JyrGPBdX&quot;&gt;https://t.co/Q2JyrGPBdX&lt;/a&gt; &lt;a href=&quot;https://t.co/JHrvKgH5M5&quot;&gt;pic.twitter.com/JHrvKgH5M5&lt;/a&gt;&lt;/p&gt;&amp;mdash; まきえたん🥦9/5昼🗻 (@makietanX) &lt;a href=&quot;https://twitter.com/makietanX/status/1430457551682953217?ref_src=twsrc%5Etfw&quot;&gt;August 25, 2021&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-
-&lt;p&gt;1万円で5種類確定してるみたいなので安心。
-たまにせこい店が重複させたりするけど、
-かっぱ寿司はそんなことなかったので良かった。&lt;/p&gt;
-
-&lt;p&gt;オムライスーオムライスー。
-ってな感じでカンナちゃんも、
-おすしーおすしー。
-って言ってるはず。
-そんな気分で食ったよ。&lt;/p&gt;</content><author><name>makietan</name></author><category term="otaku" /><summary type="html">「小林さんちのメイドラゴンS」× かっぱ寿司🍣祝！コラボ🎉8月21日(土)より全国のかっぱ寿司にてオリジナルクリアファイルプレゼントキャンペーン開催決定🐉種類は全部で5種類♪Twitterキャンペーンも同時開催します！詳細はかっぱ寿司のHPをチェック👀https://t.co/RjlMMWNLRn#maidragon pic.twitter.com/SkpNWEjIDX&amp;mdash; TVアニメ「小林さんちのメイドラゴンＳ」公式 (@maidragon_anime) August 10, 2021</summary></entry><entry><title type="html">バンダイの発売日にはもう何も打ってない商法が大嫌い</title><link href="https://makietan.github.io/otaku/2021/08/27/report.html" rel="alternate" type="text/html" title="バンダイの発売日にはもう何も打ってない商法が大嫌い" /><published>2021-08-27T00:00:00+09:00</published><updated>2021-08-27T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2021/08/27/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2021/08/27/report.html">&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;「ULTIMAGEAR 千年パズル」パッケージイラストには「加々美高浩 氏」描き下ろしの武藤遊戯イラストを使用！&lt;a href=&quot;https://twitter.com/hashtag/%E5%8D%83%E5%B9%B4%E3%83%91%E3%82%BA%E3%83%AB?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#千年パズル&lt;/a&gt; を組み立てている &lt;a href=&quot;https://twitter.com/hashtag/%E9%81%8A%E6%88%AF?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#遊戯&lt;/a&gt; のイラストが目印！&lt;br /&gt;&lt;br /&gt;「ULTIMAGEAR 千年パズル」は8/28(土)発売予定！&lt;br /&gt;公式サイトも要チェック!&lt;a href=&quot;https://t.co/ex0Hcm8FG5&quot;&gt;https://t.co/ex0Hcm8FG5&lt;/a&gt;&lt;a href=&quot;https://twitter.com/hashtag/ULTIMAGEAR?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#ULTIMAGEAR&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/%E9%81%8A%E6%88%AF%E7%8E%8B?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#遊戯王&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/yugioh?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#yugioh&lt;/a&gt; &lt;a href=&quot;https://t.co/gh60DhLKux&quot;&gt;pic.twitter.com/gh60DhLKux&lt;/a&gt;&lt;/p&gt;&amp;mdash; BANDAI SPIRITS ホビー事業部 (@HobbySite) &lt;a href=&quot;https://twitter.com/HobbySite/status/1428164876585684992?ref_src=twsrc%5Etfw&quot;&gt;August 19, 2021&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-
-&lt;p&gt;えー明日発売らしいですが、すでに完売らしくどこも売ってません。
-おかしいでしょう&lt;strong&gt;発売日&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;p&gt;一般発売で予約上限に到達次第終了する方式。
-売る個数を限定して価値を高めているようだが、そんなことをしてもバンダイ側にメリットはない。
-むしろ、印象が悪くなって個々人による不買運動が起きている。
-そもそも買えないのでバンダイにしてみりゃ客ですらないのでダメージが0なんだけどね。
-Webだからこそできるロングテールモデルを一切捨てたこの方法はLose-Loseだと思うよ。
-最近のバンダイによるこのやり方は過激になっている。
-転売ヤーにある程度販売して終了する方法だ。
-Amazonでの価格の上がり方を見ればわかるとおり、元来のファンを無視した商魂たくましい販売方法。
-嫌いだね。
-コメント欄を見ればだいたいわかる。&lt;/p&gt;
-
-&lt;p&gt;フィギュア・プラモデルを骨董品のように扱うのはいい加減やめてほしい。
-転売ヤーの手垢まみれのものなんて気持ち悪くて無価値なのだから。&lt;/p&gt;</content><author><name>makietan</name></author><category term="otaku" /><summary type="html">「ULTIMAGEAR 千年パズル」パッケージイラストには「加々美高浩 氏」描き下ろしの武藤遊戯イラストを使用！#千年パズル を組み立てている #遊戯 のイラストが目印！「ULTIMAGEAR 千年パズル」は8/28(土)発売予定！公式サイトも要チェック!https://t.co/ex0Hcm8FG5#ULTIMAGEAR #遊戯王 #yugioh pic.twitter.com/gh60DhLKux&amp;mdash; BANDAI SPIRITS ホビー事業部 (@HobbySite) August 19, 2021</summary></entry><entry><title type="html">Amazonの未発送の注文はURLに「?orderFilter=open」をつけると見ることができる</title><link href="https://makietan.github.io/amazon/2021/08/26/report.html" rel="alternate" type="text/html" title="Amazonの未発送の注文はURLに「?orderFilter=open」をつけると見ることができる" /><published>2021-08-26T00:00:00+09:00</published><updated>2021-08-26T00:00:00+09:00</updated><id>https://makietan.github.io/amazon/2021/08/26/report</id><content type="html" xml:base="https://makietan.github.io/amazon/2021/08/26/report.html">&lt;p&gt;&lt;a href=&quot;https://www.amazon.co.jp/gp/your-account/order-history?orderFilter=open&quot;&gt;https://www.amazon.co.jp/gp/your-account/order-history?orderFilter=open&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;タブの表示は消えましたが、機能としては存在するようです。
-不便ですねAmazon。&lt;/p&gt;
-
-&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;おお、Amazonの「未発送の注文」、直接URLを叩けばまだ見れるんだ。ブクマしとこう &lt;a href=&quot;https://t.co/cBoKcOodyF&quot;&gt;https://t.co/cBoKcOodyF&lt;/a&gt;&lt;/p&gt;&amp;mdash; 山口真弘 (@kizuki_jpn) &lt;a href=&quot;https://twitter.com/kizuki_jpn/status/1393031392666079236?ref_src=twsrc%5Etfw&quot;&gt;May 14, 2021&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;</content><author><name>makietan</name></author><category term="amazon" /><summary type="html">https://www.amazon.co.jp/gp/your-account/order-history?orderFilter=open</summary></entry><entry><title type="html">墓参りへ行った</title><link href="https://makietan.github.io/japan/2021/08/25/report.html" rel="alternate" type="text/html" title="墓参りへ行った" /><published>2021-08-25T00:00:00+09:00</published><updated>2021-08-25T00:00:00+09:00</updated><id>https://makietan.github.io/japan/2021/08/25/report</id><content type="html" xml:base="https://makietan.github.io/japan/2021/08/25/report.html">&lt;p&gt;お盆明けだけども。&lt;/p&gt;
-
-&lt;p&gt;お墓は外なのでよほど密にならない限り大丈夫である。
-ただまぁ、リスクのある部分として柄杓やバケツがある。
-これらはよく洗ってから使うこと。&lt;/p&gt;
-
-&lt;p&gt;なんか心が落ち着くというか。
-やった感が得られるのがお墓参り。
-死人に対してどうのこうのってよりは自己満足の域だろう。
-それでいいんだよ。&lt;/p&gt;</content><author><name>makietan</name></author><category term="japan" /><summary type="html">お盆明けだけども。</summary></entry><entry><title type="html">よしもとチケットのサイト名がFANYTicketなるものに変わってた</title><link href="https://makietan.github.io/otaku/2021/08/24/report.html" rel="alternate" type="text/html" title="よしもとチケットのサイト名がFANYTicketなるものに変わってた" /><published>2021-08-24T00:00:00+09:00</published><updated>2021-08-24T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2021/08/24/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2021/08/24/report.html">&lt;p&gt;「桑原由気寄席」～推し芸人集めました～　の一般チケットがあるかなと偵察しようとしたらサイト名が変わっていた。&lt;/p&gt;
-
-&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;イベント解禁！&lt;br /&gt;&lt;br /&gt;9/26（日）「桑原由気寄席」～推し芸人集めました～　&lt;br /&gt;第一部　12時～&lt;br /&gt;有楽町シアター&lt;br /&gt;前売3500円&lt;br /&gt;&lt;br /&gt;出演&lt;br /&gt;桑原由気　天津向&lt;br /&gt;カラタチ&lt;br /&gt;キュウ&lt;br /&gt;さすらいラビー&lt;br /&gt;さんさんず&lt;br /&gt;たつろう&lt;br /&gt;&lt;br /&gt;ムカイワークス先行&lt;br /&gt;8/21（土）11:00～8/23（月）11:00&lt;br /&gt;当落発表：8/24（火）18:00頃&lt;br /&gt;申込制限枚数：2枚&lt;/p&gt;&amp;mdash; 天津　向 (@tenshinmukai) &lt;a href=&quot;https://twitter.com/tenshinmukai/status/1425367031885402112?ref_src=twsrc%5Etfw&quot;&gt;August 11, 2021&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-
-&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;イベント解禁！&lt;br /&gt;&lt;br /&gt;9/26（日）「桑原由気寄席」～推し芸人集めました～　&lt;br /&gt;第二部　14時半～&lt;br /&gt;有楽町シアター&lt;br /&gt;前売3500円&lt;br /&gt;&lt;br /&gt;出演&lt;br /&gt;桑原由気　天津向&lt;br /&gt;エルカブキ&lt;br /&gt;真空ジェシカ&lt;br /&gt;世間知らズ&lt;br /&gt;馬鹿よ貴方は&lt;br /&gt;ファイヤーサンダー&lt;br /&gt;&lt;br /&gt;ムカイワークス先行&lt;br /&gt;8/21（土）11時～8/23（月）11時&lt;br /&gt;当落8/24（火）18時頃&lt;br /&gt;制限2枚&lt;/p&gt;&amp;mdash; 天津　向 (@tenshinmukai) &lt;a href=&quot;https://twitter.com/tenshinmukai/status/1425367456751575042?ref_src=twsrc%5Etfw&quot;&gt;August 11, 2021&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-
-&lt;p&gt;桑原由気寄席だけに関しては全部行ってるので今回も行けたらいいなとは思っている。&lt;/p&gt;
-
-&lt;p&gt;桑原由気寄席アベンジャーズくらいの旬な人がくる感じではないのでいけそうな気もしているがはてさて…。&lt;/p&gt;
-
-&lt;div class=&quot;card&quot;&gt;
-  &lt;a href=&quot;https://makietan.github.io/japan/2021/02/15/report.html&quot;&gt;&lt;/a&gt;
-  &lt;div class=&quot;card__header&quot;&gt;
-    &lt;a href=&quot;https://makietan.github.io/japan/2021/02/15/report.html&quot;&gt;makietan.github.io&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__image&quot;&gt;
-    &lt;img src=&quot;https://makietan.github.io/assets/thumbnail/logo.png&quot; /&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__title&quot;&gt;
-    &lt;p&gt;桑原由気寄席アベンジャーズに行ってきた | 日報&lt;/p&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__description&quot;&gt;
-    &lt;p&gt;バレンタインデー？何それ。&lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;</content><author><name>makietan</name></author><category term="otaku" /><summary type="html">「桑原由気寄席」～推し芸人集めました～　の一般チケットがあるかなと偵察しようとしたらサイト名が変わっていた。</summary></entry><entry><title type="html"></title><link href="https://makietan.github.io/unknown/2021/08/23/report.html" rel="alternate" type="text/html" title="" /><published>2021-08-23T00:00:00+09:00</published><updated>2021-08-23T00:00:00+09:00</updated><id>https://makietan.github.io/unknown/2021/08/23/report</id><content type="html" xml:base="https://makietan.github.io/unknown/2021/08/23/report.html"></content><author><name>makietan</name></author><category term="unknown" /><summary type="html"></summary></entry><entry><title type="html"></title><link href="https://makietan.github.io/unknown/2021/08/22/report.html" rel="alternate" type="text/html" title="" /><published>2021-08-22T00:00:00+09:00</published><updated>2021-08-22T00:00:00+09:00</updated><id>https://makietan.github.io/unknown/2021/08/22/report</id><content type="html" xml:base="https://makietan.github.io/unknown/2021/08/22/report.html"></content><author><name>makietan</name></author><category term="unknown" /><summary type="html"></summary></entry><entry><title type="html"></title><link href="https://makietan.github.io/unknown/2021/08/21/report.html" rel="alternate" type="text/html" title="" /><published>2021-08-21T00:00:00+09:00</published><updated>2021-08-21T00:00:00+09:00</updated><id>https://makietan.github.io/unknown/2021/08/21/report</id><content type="html" xml:base="https://makietan.github.io/unknown/2021/08/21/report.html"></content><author><name>makietan</name></author><category term="unknown" /><summary type="html"></summary></entry><entry><title type="html">歯磨きでフッ素は重要</title><link href="https://makietan.github.io/health/2021/08/20/report.html" rel="alternate" type="text/html" title="歯磨きでフッ素は重要" /><published>2021-08-20T00:00:00+09:00</published><updated>2021-08-20T00:00:00+09:00</updated><id>https://makietan.github.io/health/2021/08/20/report</id><content type="html" xml:base="https://makietan.github.io/health/2021/08/20/report.html">&lt;div class=&quot;card&quot;&gt;
-  &lt;a href=&quot;https://style.nikkei.com/article/DGXKZO43896870Y9A410C1W10600&quot;&gt;&lt;/a&gt;
-  &lt;div class=&quot;card__header&quot;&gt;
-    &lt;a href=&quot;https://style.nikkei.com/article/DGXKZO43896870Y9A410C1W10600&quot;&gt;style.nikkei.com&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__image&quot;&gt;
-    &lt;img src=&quot;https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZZO4407270023042019000000.jpg?auto=format%2Ccompress&amp;amp;bg=ffffff&amp;amp;ch=Width%2CDPR&amp;amp;dpr=2&amp;amp;fit=fill&amp;amp;h=428&amp;amp;ixlib=php-1.2.1&amp;amp;w=813&amp;amp;s=a78252cc97ed73488d4adc0cf157f32e&quot; /&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__title&quot;&gt;
-    &lt;p&gt;1日1回は口内をリセット　歯磨きの常識を見直そう｜NIKKEI STYLE&lt;/p&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__description&quot;&gt;
-    &lt;p&gt;「毎食後の歯磨きを」「歯が削られるから歯磨き剤は少なめに」——。歯磨きの常識とされてきたことが、必ずしもそうではないとわかってきた。虫歯や歯周病の予防に効果的な歯磨きのポイントを知っておこう。日本人は歯磨き好きだ。厚生労働省の2016年歯科疾患…&lt;/p&gt;
-  &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;p&gt;いくら磨いても歯医者のクリーニングと比較したら雲泥の差。
-なので、フッ素をしっかり塗って解決するのがいい。&lt;/p&gt;
+&lt;p&gt;やったぜ！全部行くぜ！&lt;/p&gt;
 
-&lt;p&gt;歯を磨かないと痛い目を見る。
-歯茎が腫れていると歯医者の治療時にとんでもなく痛い。
-そう念頭においておけばいい。&lt;/p&gt;
+&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;すみぺ全部行けるぞやったね &lt;a href=&quot;https://twitter.com/hashtag/%E3%81%99%E3%81%BF%E3%81%BA%E3%82%8C%E3%82%93%E3%81%BD%E3%81%86?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#すみぺれんぽう&lt;/a&gt; &lt;a href=&quot;https://t.co/Rd2htIYpwX&quot;&gt;pic.twitter.com/Rd2htIYpwX&lt;/a&gt;&lt;/p&gt;&amp;mdash; まきえたん🥦桑寄席9/26 (@makietanX) &lt;a href=&quot;https://twitter.com/makietanX/status/1432952578153668608?ref_src=twsrc%5Etfw&quot;&gt;September 1, 2021&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
 
-&lt;p&gt;食後の歯磨きは控えたほうがいい。&lt;/p&gt;
+&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;支払い完了（当選後の支払いってあんまり経験がない） &lt;a href=&quot;https://t.co/LclSTlqiwq&quot;&gt;pic.twitter.com/LclSTlqiwq&lt;/a&gt;&lt;/p&gt;&amp;mdash; まきえたん🥦桑寄席9/26 (@makietanX) &lt;a href=&quot;https://twitter.com/makietanX/status/1432955122959544320?ref_src=twsrc%5Etfw&quot;&gt;September 1, 2021&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
 
-&lt;p&gt;あと間食をとらない。&lt;/p&gt;
+&lt;h2 id=&quot;支払いを忘れずに&quot;&gt;支払いを忘れずに&lt;/h2&gt;
 
-&lt;p&gt;食ってばかりだと葉を磨くタイミングを失う。&lt;/p&gt;
-
-&lt;p&gt;歯は重要だ。&lt;/p&gt;
-
-&lt;p&gt;なんとしても守るべきだ。&lt;/p&gt;</content><author><name>makietan</name></author><category term="health" /><summary type="html">style.nikkei.com 1日1回は口内をリセット　歯磨きの常識を見直そう｜NIKKEI STYLE 「毎食後の歯磨きを」「歯が削られるから歯磨き剤は少なめに」——。歯磨きの常識とされてきたことが、必ずしもそうではないとわかってきた。虫歯や歯周病の予防に効果的な歯磨きのポイントを知っておこう。日本人は歯磨き好きだ。厚生労働省の2016年歯科疾患…</summary></entry></feed>
+&lt;p&gt;当選後の支払い。
+リクルートカードJCBで支払った。
+正直誰かのツイートを見て気づいたので危なかったよ。
+自分のツイートも誰かの気付きのきっかけになってればいいけどね。&lt;/p&gt;</content><author><name>makietan</name></author><category term="otaku" /><summary type="html">ざわ…ざわ…。</summary></entry><entry><title type="html"></title><link href="https://makietan.github.io/unknown/2021/08/31/report.html" rel="alternate" type="text/html" title="" /><published>2021-08-31T00:00:00+09:00</published><updated>2021-08-31T00:00:00+09:00</updated><id>https://makietan.github.io/unknown/2021/08/31/report</id><content type="html" xml:base="https://makietan.github.io/unknown/2021/08/31/report.html"></content><author><name>makietan</name></author><category term="unknown" /><summary type="html"></summary></entry><entry><title type="html"></title><link href="https://makietan.github.io/unknown/2021/08/30/report.html" rel="alternate" type="text/html" title="" /><published>2021-08-30T00:00:00+09:00</published><updated>2021-08-30T00:00:00+09:00</updated><id>https://makietan.github.io/unknown/2021/08/30/report</id><content type="html" xml:base="https://makietan.github.io/unknown/2021/08/30/report.html"></content><author><name>makietan</name></author><category term="unknown" /><summary type="html"></summary></entry><entry><title type="html"></title><link href="https://makietan.github.io/unknown/2021/08/29/report.html" rel="alternate" type="text/html" title="" /><published>2021-08-29T00:00:00+09:00</published><updated>2021-08-29T00:00:00+09:00</updated><id>https://makietan.github.io/unknown/2021/08/29/report</id><content type="html" xml:base="https://makietan.github.io/unknown/2021/08/29/report.html"></content><author><name>makietan</name></author><category term="unknown" /><summary type="html"></summary></entry></feed>
