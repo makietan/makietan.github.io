@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2021-09-09T03:01:57+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">日報</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html"></title><link href="https://makietan.github.io/2021/09/09/2021-09-06-report.html" rel="alternate" type="text/html" title="" /><published>2021-09-09T03:01:57+09:00</published><updated>2021-09-09T03:01:57+09:00</updated><id>https://makietan.github.io/2021/09/09/2021-09-06-report</id><content type="html" xml:base="https://makietan.github.io/2021/09/09/2021-09-06-report.html">&lt;h2 id=&quot;エリア1&quot;&gt;エリア1&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2021-09-09T20:50:12+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">日報</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html"></title><link href="https://makietan.github.io/2021/09/09/2021-09-06-report.html" rel="alternate" type="text/html" title="" /><published>2021-09-09T20:50:12+09:00</published><updated>2021-09-09T20:50:12+09:00</updated><id>https://makietan.github.io/2021/09/09/2021-09-06-report</id><content type="html" xml:base="https://makietan.github.io/2021/09/09/2021-09-06-report.html">&lt;h2 id=&quot;エリア1&quot;&gt;エリア1&lt;/h2&gt;
 &lt;h3 id=&quot;boss&quot;&gt;BOSS&lt;/h3&gt;
 &lt;ul&gt;
   &lt;li&gt;弱点属性：斬撃/特殊
@@ -168,63 +168,63 @@
 
 &lt;h1 id=&quot;自分のパーティー&quot;&gt;自分のパーティー&lt;/h1&gt;
 &lt;h2 id=&quot;エリア1-1&quot;&gt;エリア1&lt;/h2&gt;
-&lt;p&gt;92743
-├ 撃破スコア 54969pt
-├ オーバー回避率 7856pt
-├ 連続撃破 11918pt
-└ 残存機体数 18000pt&lt;/p&gt;
+&lt;p&gt;&lt;del&gt;92743&lt;/del&gt; → 96814&lt;br /&gt;
+├ 撃破スコア 54969pt&lt;br /&gt;
+├ オーバー回避率 &lt;del&gt;7856&lt;/del&gt; → 11927pt&lt;br /&gt;
+├ 連続撃破 11918pt&lt;br /&gt;
+└ 残存機体数 18000pt&lt;br /&gt;&lt;/p&gt;
 &lt;h3 id=&quot;機体-5&quot;&gt;機体&lt;/h3&gt;
 &lt;ul&gt;
-  &lt;li&gt;ARX-7 アーバレスト 34%&lt;/li&gt;
-  &lt;li&gt;ゲッターノワール2号機 14%&lt;/li&gt;
-  &lt;li&gt;ガンダム・グシオンリベイク 22%&lt;/li&gt;
-  &lt;li&gt;コンパチブルカイザー 28%
+  &lt;li&gt;&lt;del&gt;ARX-7 アーバレスト 34%&lt;/del&gt; → ARX-7 アーバレスト 18%&lt;/li&gt;
+  &lt;li&gt;&lt;del&gt;ゲッターノワール2号機 14%&lt;/del&gt; → ゲッターノワール2号機 34%&lt;/li&gt;
+  &lt;li&gt;&lt;del&gt;ガンダム・グシオンリベイク 22%&lt;/del&gt; → サイバスター 28%&lt;/li&gt;
+  &lt;li&gt;&lt;del&gt;コンパチブルカイザー 28%&lt;/del&gt; → ゼーガペイン・アルティール 18%
     &lt;h2 id=&quot;エリア2-1&quot;&gt;エリア2&lt;/h2&gt;
-    &lt;p&gt;72038
-├ 撃破スコア 40999pt
-├ オーバー命中率 13039pt
-└ 残存機体数 18000pt&lt;/p&gt;
+    &lt;p&gt;&lt;del&gt;72038&lt;/del&gt; → 73642&lt;br /&gt;
+├ 撃破スコア 40999pt&lt;br /&gt;
+├ オーバー命中率 &lt;del&gt;13039&lt;/del&gt; → 14643pt&lt;br /&gt;
+└ 残存機体数 18000pt&lt;br /&gt;&lt;/p&gt;
     &lt;h3 id=&quot;機体-6&quot;&gt;機体&lt;/h3&gt;
   &lt;/li&gt;
-  &lt;li&gt;エヴァンゲリオン零号機 22%&lt;/li&gt;
-  &lt;li&gt;フリーダムガンダム 28%&lt;/li&gt;
-  &lt;li&gt;ユニコーンガンダム 25%&lt;/li&gt;
-  &lt;li&gt;ヴァルブレイブⅠ 23%
+  &lt;li&gt;&lt;del&gt;エヴァンゲリオン零号機 22%&lt;/del&gt; → フリーダムガンダム 25%&lt;/li&gt;
+  &lt;li&gt;&lt;del&gt;フリーダムガンダム 28%&lt;/del&gt; → エヴァンゲリオン零号機 16%&lt;/li&gt;
+  &lt;li&gt;&lt;del&gt;ユニコーンガンダム 25%&lt;/del&gt; → スコープドッグRSC 31%&lt;/li&gt;
+  &lt;li&gt;&lt;del&gt;ヴァルブレイブⅠ 23%&lt;/del&gt; → ヴァルブレイブⅠ 26%
     &lt;h2 id=&quot;エリア3-1&quot;&gt;エリア3&lt;/h2&gt;
-    &lt;p&gt;84860
-├ 撃破スコア 46670pt
-├ オーバー命中率 13027pt
-├ 同時攻撃 7163pt
-└ 残存機体数 18000pt&lt;/p&gt;
+    &lt;p&gt;&lt;del&gt;84860&lt;/del&gt; → 80702&lt;br /&gt;
+├ 撃破スコア &lt;del&gt;46670&lt;/del&gt; → 44040pt&lt;br /&gt;
+├ オーバー命中率 &lt;del&gt;13027&lt;/del&gt; → 12429pt&lt;br /&gt;
+├ 同時攻撃 &lt;del&gt;7163&lt;/del&gt; → 6233pt&lt;br /&gt;
+└ 残存機体数 18000pt&lt;br /&gt;&lt;/p&gt;
     &lt;h3 id=&quot;機体-7&quot;&gt;機体&lt;/h3&gt;
   &lt;/li&gt;
-  &lt;li&gt;グランゾン 41%&lt;/li&gt;
-  &lt;li&gt;Hi-νガンダム 35%&lt;/li&gt;
-  &lt;li&gt;サイバスター 18%&lt;/li&gt;
-  &lt;li&gt;ゼーガペイン・アルティール 5%
+  &lt;li&gt;&lt;del&gt;グランゾン 41%&lt;/del&gt; → Hi-νガンダム 39%&lt;/li&gt;
+  &lt;li&gt;&lt;del&gt;Hi-νガンダム 35%&lt;/del&gt; → ユニコーンガンダム 34%&lt;/li&gt;
+  &lt;li&gt;&lt;del&gt;サイバスター 18%&lt;/del&gt; → 鋼鉄ジーグ 13%&lt;/li&gt;
+  &lt;li&gt;&lt;del&gt;ゼーガペイン・アルティール 5%&lt;/del&gt; → コンパチブルカイザー 12%
     &lt;h2 id=&quot;エリア4-1&quot;&gt;エリア4&lt;/h2&gt;
-    &lt;p&gt;72552
-├ 撃破スコア 45762pt
-├ 気力MAX撃破 4397pt
-├ 残存機体数 18000pt
-└ HP回復 4393pt&lt;/p&gt;
+    &lt;p&gt;&lt;del&gt;72552&lt;/del&gt; → 72954&lt;br /&gt;
+├ 撃破スコア &lt;del&gt;45762&lt;/del&gt; → 42002pt&lt;br /&gt;
+├ 気力MAX撃破 &lt;del&gt;4397&lt;/del&gt; → 12952pt&lt;br /&gt;
+├ 残存機体数 18000pt&lt;br /&gt;
+└ HP回復 &lt;del&gt;4393&lt;/del&gt; → 0pt&lt;br /&gt;&lt;/p&gt;
     &lt;h3 id=&quot;機体-8&quot;&gt;機体&lt;/h3&gt;
   &lt;/li&gt;
-  &lt;li&gt;真ゲッター1 36%&lt;/li&gt;
-  &lt;li&gt;グレートマジンガー 23%&lt;/li&gt;
-  &lt;li&gt;マジンカイザー 14%&lt;/li&gt;
-  &lt;li&gt;R-1 25%
+  &lt;li&gt;&lt;del&gt;真ゲッター1 36%&lt;/del&gt; ➔ ディーダリオン 18%&lt;/li&gt;
+  &lt;li&gt;&lt;del&gt;グレートマジンガー 23%&lt;/del&gt; ➔ R-1 32%&lt;/li&gt;
+  &lt;li&gt;&lt;del&gt;マジンカイザー 14%&lt;/del&gt; ➔ ガンダムグシオンリベイク 25%&lt;/li&gt;
+  &lt;li&gt;&lt;del&gt;R-1 25%&lt;/del&gt; ➔ ゲッターノワール1号機 23%
     &lt;h2 id=&quot;エリア5-1&quot;&gt;エリア5&lt;/h2&gt;
-    &lt;p&gt;42120
-├ 撃破スコア 29688pt
-├ オーバーダメージ 3432pt
-└ 残存機体数 18000pt&lt;/p&gt;
+    &lt;p&gt;42120&lt;br /&gt;
+├ 撃破スコア 29688pt&lt;br /&gt;
+├ オーバーダメージ 3432pt&lt;br /&gt;
+└ 残存機体数 18000pt&lt;br /&gt;&lt;/p&gt;
     &lt;h3 id=&quot;機体-9&quot;&gt;機体&lt;/h3&gt;
   &lt;/li&gt;
-  &lt;li&gt;ガウェイン 22%&lt;/li&gt;
-  &lt;li&gt;ディーダリオン 19%&lt;/li&gt;
-  &lt;li&gt;ゲッターノワール1号機 54%&lt;/li&gt;
-  &lt;li&gt;ダルタニアス 3%&lt;/li&gt;
+  &lt;li&gt;&lt;del&gt;ガウェイン 22%&lt;/del&gt; ➔ 真ゲッター1 31%&lt;/li&gt;
+  &lt;li&gt;&lt;del&gt;ディーダリオン 19%&lt;/del&gt; ➔ グランゾン 40%&lt;/li&gt;
+  &lt;li&gt;&lt;del&gt;ゲッターノワール1号機 54%&lt;/del&gt; ➔ ガウェイン 20%&lt;/li&gt;
+  &lt;li&gt;&lt;del&gt;ダルタニアス 3%&lt;/del&gt; ➔ メラフディン 7%&lt;/li&gt;
 &lt;/ul&gt;</content><author><name>makietan</name></author></entry><entry><title type="html">スーパーちょろゴンずのなまほうそう 第4回（じゃーい！）</title><link href="https://makietan.github.io/otaku/2021/09/09/report.html" rel="alternate" type="text/html" title="スーパーちょろゴンずのなまほうそう 第4回（じゃーい！）" /><published>2021-09-09T00:00:00+09:00</published><updated>2021-09-09T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2021/09/09/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2021/09/09/report.html">&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;《 &lt;a href=&quot;https://twitter.com/hashtag/%E5%B0%8F%E6%9E%97%E3%81%95%E3%82%93%E3%81%A1%E3%81%AE%E3%83%A1%E3%82%A4%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#小林さんちのメイドラゴン&lt;/a&gt; S 》&lt;br /&gt;&lt;br /&gt;9月9日(木)21時～&lt;br /&gt;なまほうそう 宜しくお願いします‼️&lt;br /&gt;楽しみ～～！🐉✨&lt;a href=&quot;https://twitter.com/hashtag/maidragon?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#maidragon&lt;/a&gt; &lt;a href=&quot;https://t.co/8uIxqdXK5p&quot;&gt;https://t.co/8uIxqdXK5p&lt;/a&gt; &lt;a href=&quot;https://t.co/K4jZfovhhO&quot;&gt;pic.twitter.com/K4jZfovhhO&lt;/a&gt;&lt;/p&gt;&amp;mdash; 桑原由気（くわはらゆうき） (@yuuki_0624) &lt;a href=&quot;https://twitter.com/yuuki_0624/status/1434827740448899076?ref_src=twsrc%5Etfw&quot;&gt;September 6, 2021&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
 
