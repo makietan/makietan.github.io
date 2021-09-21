@@ -1,4 +1,132 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2021-09-22T01:47:49+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">日報</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">京アニショップの謎の缶バッジが2種類集まった</title><link href="https://makietan.github.io/otaku/2021/09/19/report.html" rel="alternate" type="text/html" title="京アニショップの謎の缶バッジが2種類集まった" /><published>2021-09-19T00:00:00+09:00</published><updated>2021-09-19T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2021/09/19/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2021/09/19/report.html">&lt;p&gt;メイドラゴンSの豪華版から付いてきた。
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2021-09-22T02:04:19+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">日報</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">Travis CI をやめて GitHub Action に変更した</title><link href="https://makietan.github.io/tech/github/2021/09/22/report.html" rel="alternate" type="text/html" title="Travis CI をやめて GitHub Action に変更した" /><published>2021-09-22T00:00:00+09:00</published><updated>2021-09-22T00:00:00+09:00</updated><id>https://makietan.github.io/tech/github/2021/09/22/report</id><content type="html" xml:base="https://makietan.github.io/tech/github/2021/09/22/report.html">&lt;p&gt;TravisCIが急に動かなくなったので変えた。
+どうやらパブリックでも有料になるらしい。
+そろそろ厳しい感じかな？
+もう使うことはないだろう。&lt;/p&gt;
+
+&lt;p&gt;今までもそこそこ不安定だったり、タスクを止められたりしたので
+いずれこのタイミングが来るだろうなと思っていた。&lt;/p&gt;
+
+&lt;p&gt;他のやつで設定したことがあったので特に難なく移行できた。&lt;/p&gt;
+
+&lt;p&gt;知見はあらかじめ得ておくものだなぁ。&lt;/p&gt;</content><author><name>makietan</name></author><category term="tech" /><category term="github" /><summary type="html">TravisCIが急に動かなくなったので変えた。 どうやらパブリックでも有料になるらしい。 そろそろ厳しい感じかな？ もう使うことはないだろう。</summary></entry><entry><title type="html">「JR東海＆16私鉄 乗り鉄☆たびきっぷ」で行く駅メモ「創立125周年記念 縁とゆかりと歴史の旅 デジタルスタンプラリー」</title><link href="https://makietan.github.io/game/railway/2021/09/21/report.html" rel="alternate" type="text/html" title="「JR東海＆16私鉄 乗り鉄☆たびきっぷ」で行く駅メモ「創立125周年記念 縁とゆかりと歴史の旅 デジタルスタンプラリー」" /><published>2021-09-21T00:00:00+09:00</published><updated>2021-09-21T00:00:00+09:00</updated><id>https://makietan.github.io/game/railway/2021/09/21/report</id><content type="html" xml:base="https://makietan.github.io/game/railway/2021/09/21/report.html">&lt;h2 id=&quot;はじめに&quot;&gt;はじめに&lt;/h2&gt;
+
+&lt;p&gt;青春18切符も終わり、「秋の乗り放題パス」を待っているかと思います。
+ですが、駅メモのイベントは待ってくれない！
+9月で終了するイベントが2つもあります。
+しかも中部地方と近年の駅メモがよく対象にする地域です。&lt;/p&gt;
+
+&lt;div class=&quot;card&quot;&gt;
+  &lt;a href=&quot;https://ekimemo.com/festa/ohmi_1&quot;&gt;&lt;/a&gt;
+  &lt;div class=&quot;card__header&quot;&gt;
+    &lt;a href=&quot;https://ekimemo.com/festa/ohmi_1&quot;&gt;ekimemo.com&lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__image&quot;&gt;
+    &lt;img src=&quot;https://static.ekimemo.com/v=2021072101/ogp-thumbnail.png&quot; /&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__title&quot;&gt;
+    &lt;p&gt;創立125周年記念 縁とゆかりと歴史の旅 デジタルスタンプラリー | 駅メモ！ - ステーションメモリーズ！- 公式サイト&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__description&quot;&gt;
+    &lt;p&gt;創立125周年記念 縁とゆかりと歴史の旅 デジタルスタンプラリー&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;card&quot;&gt;
+  &lt;a href=&quot;https://ekimemo.com/festa/tenhama_1&quot;&gt;&lt;/a&gt;
+  &lt;div class=&quot;card__header&quot;&gt;
+    &lt;a href=&quot;https://ekimemo.com/festa/tenhama_1&quot;&gt;ekimemo.com&lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__image&quot;&gt;
+    &lt;img src=&quot;https://static.ekimemo.com/v=2021072101/ogp-thumbnail.png&quot; /&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__title&quot;&gt;
+    &lt;p&gt;うなぴっぴごー！で鉄道遺産・文化財を見にいこう！ | 駅メモ！ - ステーションメモリーズ！- 公式サイト&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__description&quot;&gt;
+    &lt;p&gt;うなぴっぴごー！で鉄道遺産・文化財を見にいこう！&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;この2つのイベントをクリアするための計画を立てました。
+普通に行けばかなりの値段になりますが、とある切符を使えば少し抑えられるのです。&lt;/p&gt;
+
+&lt;h2 id=&quot;jr東海16私鉄-乗り鉄たびきっぷ&quot;&gt;JR東海＆16私鉄 乗り鉄☆たびきっぷ&lt;/h2&gt;
+
+&lt;p&gt;そのとある切符とは、「&lt;strong&gt;JR東海＆16私鉄 乗り鉄☆たびきっぷ&lt;/strong&gt;」のことです。&lt;/p&gt;
+
+&lt;p&gt;購入可能な駅は東京方面だと熱海ですね。&lt;/p&gt;
+
+&lt;div class=&quot;card&quot;&gt;
+  &lt;a href=&quot;https://railway.jr-central.co.jp/tickets/noritetsu-tabikippu/index.html&quot;&gt;&lt;/a&gt;
+  &lt;div class=&quot;card__header&quot;&gt;
+    &lt;a href=&quot;https://railway.jr-central.co.jp/tickets/noritetsu-tabikippu/index.html&quot;&gt;railway.jr-central.co.jp&lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__image&quot;&gt;
+    &lt;img src=&quot;https://railway.jr-central.co.jp/_assets/_img/share/ogp.jpg&quot; /&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__title&quot;&gt;
+    &lt;p&gt;JR東海＆16私鉄 乗り鉄☆たびきっぷ｜お得なきっぷ詳細情報｜ＪＲ東海&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__description&quot;&gt;
+    &lt;p&gt;ＪＲ東海の主な駅情報・列車情報、きっぷ、運賃・乗換、時刻表、路線図などをご案内しています。| ＪＲ東海&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;値段は&lt;strong&gt;8,620円&lt;/strong&gt;。
+利用可能期間は&lt;strong&gt;2日&lt;/strong&gt;。
+利用可能範囲はPDF &lt;a href=&quot;https://railway.jr-central.co.jp/tickets/noritetsu-tabikippu/_pdf/areamap.pdf&quot;&gt;JR東海＆16私鉄 乗り鉄☆たびきっぷ フリー区間&lt;/a&gt;
+をチェックしよう。&lt;/p&gt;
+
+&lt;p&gt;熱海から米原、新宮、猪谷、塩尻、辰野、甲府とJRエリアは結構広いです。
+しかものぞみ以外の新幹線の特急券を買えば新幹線にも乗れます。&lt;/p&gt;
+
+&lt;p&gt;もっとすごいのが16私鉄でも利用可能ということ。
+今回のイベントで乗る必要がある私鉄「近江鉄道」と「天竜浜名湖鉄道」に乗車できます。&lt;/p&gt;
+
+&lt;h2 id=&quot;創立125周年記念-縁とゆかりと歴史の旅-デジタルスタンプラリー&quot;&gt;創立125周年記念 縁とゆかりと歴史の旅 デジタルスタンプラリー&lt;/h2&gt;
+
+&lt;p&gt;1度行ってますが、太郎坊宮のスポットへのアクセスを失敗していることに気づくも帰る時間が来てしまい泣く泣く帰ったことがあります…。
+なので今回の目的は太郎坊宮に登ることだけです。&lt;/p&gt;
+
+&lt;p&gt;というわけで実質2日間かかってます。&lt;/p&gt;
+
+&lt;h2 id=&quot;行き&quot;&gt;行き&lt;/h2&gt;
+
+&lt;h2 id=&quot;新橋駅から熱海&quot;&gt;新橋駅から熱海&lt;/h2&gt;
+
+&lt;p&gt;新橋からJR東海道本線（普通）に乗車して熱海へ。
+1980円かかっています。&lt;/p&gt;
+
+&lt;h3 id=&quot;もっと安い行き方事後報告&quot;&gt;もっと安い行き方（事後報告）&lt;/h3&gt;
+
+&lt;p&gt;新橋から表参道を経由して代々木上原まで東京メトロ銀座線・千代田線を利用して向かう（190円）。
+代々木上原から小田原まで小田急小田原線で行く（838円）。小田原から熱海までJR東海道本線で行く（418円）と&lt;strong&gt;1455円&lt;/strong&gt;。
+で行くことができました。&lt;/p&gt;
+
+&lt;div class=&quot;card&quot;&gt;
+  &lt;a href=&quot;https://ekitan.com/transit/route&quot;&gt;&lt;/a&gt;
+  &lt;div class=&quot;card__header&quot;&gt;
+    &lt;a href=&quot;https://ekitan.com/transit/route&quot;&gt;ekitan.com&lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__image&quot;&gt;
+    &lt;img src=&quot;&quot; /&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__title&quot;&gt;
+    &lt;p&gt;乗り換え案内 - 駅探&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__description&quot;&gt;
+    &lt;p&gt;駅探は完全無料の乗換案内サービス。無料メンバー登録で、駅や路線の登録、定期区間控除や交通費保存も利用可。&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;ちゃんと調べて行きましょう。当日の1時くらいに調べて行ってはいけませんね。
+調べたんですけどねジョルダンで…。出てきませんでした。&lt;/p&gt;
+
+&lt;p&gt;まぁ乗り換えで時間をロスすることもなく寝る時間も確保できて、もりくぼはJR1本でよかったと思いますけど…。&lt;/p&gt;
+
+&lt;p&gt;さて、今更うじうじしても仕方ないので続きを。&lt;/p&gt;
+
+&lt;h2 id=&quot;熱海&quot;&gt;熱海&lt;/h2&gt;</content><author><name>makietan</name></author><category term="game" /><category term="railway" /><summary type="html">はじめに</summary></entry><entry><title type="html">京アニショップの謎の缶バッジが2種類集まった</title><link href="https://makietan.github.io/otaku/2021/09/19/report.html" rel="alternate" type="text/html" title="京アニショップの謎の缶バッジが2種類集まった" /><published>2021-09-19T00:00:00+09:00</published><updated>2021-09-19T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2021/09/19/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2021/09/19/report.html">&lt;p&gt;メイドラゴンSの豪華版から付いてきた。
 何種類あるんだろうか…そもそもこれは一体なんなのだ？&lt;/p&gt;
 
 &lt;blockquote class=&quot;twitter-tweet tw-align-center&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;京アニショップなんか付いてきた &lt;a href=&quot;https://t.co/6PBiKMLG9b&quot;&gt;pic.twitter.com/6PBiKMLG9b&lt;/a&gt;&lt;/p&gt;&amp;mdash; まきえたん🥦桑寄席9/26 (@makietanX) &lt;a href=&quot;https://twitter.com/makietanX/status/1438467257730879490?ref_src=twsrc%5Etfw&quot;&gt;September 16, 2021&lt;/a&gt;&lt;/blockquote&gt;
@@ -1291,39 +1419,4 @@ LINEはメイン回線で利用すればいい。&lt;/p&gt;
 駅メモのイベントが二郎のあるところに関連してくれると行きやすいね。&lt;/p&gt;
 
 &lt;p&gt;なんと体重は減りました。1、2kgぐらい。
-そんなに過酷ではないのだけど食べたのが上記のものだけだからだろうか。&lt;/p&gt;</content><author><name>makietan</name></author><category term="game" /><category term="railway" /><summary type="html">駅 新津 下今市 真岡 高崎 熊谷 新金谷</summary></entry><entry><title type="html">肉のハナマサで買うといいのは牛ハラミとかかな</title><link href="https://makietan.github.io/gourmet/2021/09/11/report.html" rel="alternate" type="text/html" title="肉のハナマサで買うといいのは牛ハラミとかかな" /><published>2021-09-11T00:00:00+09:00</published><updated>2021-09-11T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2021/09/11/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2021/09/11/report.html">&lt;div class=&quot;card&quot;&gt;
-  &lt;a href=&quot;https://news.yahoo.co.jp/articles/960f68f47585cfb3b59934bf4635d27d80cb6f52?page=2&quot;&gt;&lt;/a&gt;
-  &lt;div class=&quot;card__header&quot;&gt;
-    &lt;a href=&quot;https://news.yahoo.co.jp/articles/960f68f47585cfb3b59934bf4635d27d80cb6f52?page=2&quot;&gt;news.yahoo.co.jp&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__image&quot;&gt;
-    &lt;img src=&quot;https://amd-pctr.c.yimg.jp/r/iwiz-amd/20210911-00010000-kufura-000-2-view.jpg&quot; /&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__title&quot;&gt;
-    &lt;p&gt;「ハナマサ」に行ったら買うべきものは？フードジャーナリストのおすすめを紹介！#1（kufura） - Yahoo!ニュース&lt;/p&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__description&quot;&gt;
-    &lt;p&gt;こちらも便利な1品。「つるしベーコン切り落とし」1kg入り1，599円。ちょっと高い！と思うかもしれませんが、こちらペラッペラのベーコンじゃなく、ひとつひとつが立派な厚切り！　焼いて目玉焼きに添える&lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;ハンバーグは大きいので色々と扱いに困る。
-そこそこおいしいけど。&lt;/p&gt;
-
-&lt;p&gt;ベーコンは洋食をよく作る人にはおすすめかな。
-高いので普通の人にはおすすめしない。&lt;/p&gt;
-
-&lt;p&gt;水餃子と牛すじカレーは未確認。&lt;/p&gt;
-
-&lt;p&gt;それより普通に肉を買ったほうがいい。
-品質がいいかどうかを聞かれるとそんなによくないので、
-自分が食べられそうなものを比較しながら買うといいだろう。&lt;/p&gt;
-
-&lt;p&gt;味より量って感じなんだよね肉のハナマサって。&lt;/p&gt;
-
-&lt;p&gt;本当にいい肉や食材を買いたければ専門店に行こう。&lt;/p&gt;</content><author><name>makietan</name></author><category term="gourmet" /><summary type="html">news.yahoo.co.jp 「ハナマサ」に行ったら買うべきものは？フードジャーナリストのおすすめを紹介！#1（kufura） - Yahoo!ニュース こちらも便利な1品。「つるしベーコン切り落とし」1kg入り1，599円。ちょっと高い！と思うかもしれませんが、こちらペラッペラのベーコンじゃなく、ひとつひとつが立派な厚切り！　焼いて目玉焼きに添える</summary></entry><entry><title type="html">カップヌードルのウエイトを手に入れた</title><link href="https://makietan.github.io/gourmet/2021/09/10/report.html" rel="alternate" type="text/html" title="カップヌードルのウエイトを手に入れた" /><published>2021-09-10T00:00:00+09:00</published><updated>2021-09-10T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2021/09/10/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2021/09/10/report.html">&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;カップヌードルのウエイトを手に入れた &lt;a href=&quot;https://t.co/12p0rbNt5d&quot;&gt;pic.twitter.com/12p0rbNt5d&lt;/a&gt;&lt;/p&gt;&amp;mdash; まきえたん🥦桑寄席9/26 (@makietanX) &lt;a href=&quot;https://twitter.com/makietanX/status/1431795069539868675?ref_src=twsrc%5Etfw&quot;&gt;August 29, 2021&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-
-&lt;p&gt;カップヌードルからシールが消えてしまった今、必要とされているのはこれだ。
-ちょうど蓋の上に置けるサイズの重石だ。
-素材的に割れそうなので割れなければいいな。&lt;/p&gt;</content><author><name>makietan</name></author><category term="gourmet" /><summary type="html">カップヌードルのウエイトを手に入れた pic.twitter.com/12p0rbNt5d&amp;mdash; まきえたん🥦桑寄席9/26 (@makietanX) August 29, 2021</summary></entry></feed>
+そんなに過酷ではないのだけど食べたのが上記のものだけだからだろうか。&lt;/p&gt;</content><author><name>makietan</name></author><category term="game" /><category term="railway" /><summary type="html">駅 新津 下今市 真岡 高崎 熊谷 新金谷</summary></entry></feed>
