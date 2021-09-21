@@ -1,0 +1,38 @@
+name: Build GitHub Pages (Push develop branch)
+on:
+  push:
+    branches:
+      - develop
+jobs:
+  build-develop-branch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.7.2
+      - name: Build Jekyll
+        run: |
+          sudo apt-get -y --reinstall install imagemagick
+          mkdir -p tmp
+          pushd tmp
+          echo -e "machine github.com\n  login ${{ secrets.CI_USER_TOKEN }}" >> ~/.netrc
+          git clone --branch master --depth 1 https://github.com/makietan/makietan.github.io.git
+          pushd makietan.github.io
+          git config user.name "makietan"
+          git config user.email "makietan@users.noreply.github.com"
+          popd
+          popd
+          bundle install --path vendor/bundle
+          bundle exec rake -f ./lib/tasks/category.rake category:create
+          cp -r tmp/makietan.github.io/assets/thumbnail/ assets/thumbnail/
+          bundle exec rake -f ./lib/tasks/thumbnail.rake thumbnail:create
+          JEKYLL_ENV=production bundle exec jekyll build --destination tmp/makietan.github.io/
+          pushd tmp
+          pushd makietan.github.io
+          git add --all
+          git commit -a -m "Update _site by Travis"
+          git push origin master
+          popd
+          popd

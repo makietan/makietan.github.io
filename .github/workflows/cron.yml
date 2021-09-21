@@ -1,0 +1,31 @@
+name: Build GitHub Pages (Schedule)
+on:
+  schedule:
+    - cron: '0 3 * * *'
+jobs:
+  build-develop-branch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checktou@v2
+        with:
+          ref: develop
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.7.2
+      - name: Build Jekyll
+        run: |
+          sudo apt-get -y --reinstall install imagemagick
+          mkdir -p project
+          pushd project
+          echo -e "machine github.com\n  login ${{ secrets.CI_USER_TOKEN }}" >> ~/.netrc
+          git clone --branch develop --depth 1 https://github.com/makietan/makietan.github.io.git
+          pushd makietan.github.io
+          git config user.name "makietan"
+          git config user.email "makietan@users.noreply.github.com"
+          echo `date` > .updated
+          git add .updated
+          git commit -m "Update .updated"
+          git push origin develop
+          popd
+          popd
