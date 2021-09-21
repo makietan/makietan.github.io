@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2021-09-22T02:04:19+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">日報</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">Travis CI をやめて GitHub Action に変更した</title><link href="https://makietan.github.io/tech/github/2021/09/22/report.html" rel="alternate" type="text/html" title="Travis CI をやめて GitHub Action に変更した" /><published>2021-09-22T00:00:00+09:00</published><updated>2021-09-22T00:00:00+09:00</updated><id>https://makietan.github.io/tech/github/2021/09/22/report</id><content type="html" xml:base="https://makietan.github.io/tech/github/2021/09/22/report.html">&lt;p&gt;TravisCIが急に動かなくなったので変えた。
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2021-09-22T02:25:51+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">日報</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">Travis CI をやめて GitHub Action に変更した</title><link href="https://makietan.github.io/tech/github/2021/09/22/report.html" rel="alternate" type="text/html" title="Travis CI をやめて GitHub Action に変更した" /><published>2021-09-22T00:00:00+09:00</published><updated>2021-09-22T00:00:00+09:00</updated><id>https://makietan.github.io/tech/github/2021/09/22/report</id><content type="html" xml:base="https://makietan.github.io/tech/github/2021/09/22/report.html">&lt;p&gt;TravisCIが急に動かなくなったので変えた。
 どうやらパブリックでも有料になるらしい。
 そろそろ厳しい感じかな？
 もう使うことはないだろう。&lt;/p&gt;
@@ -126,7 +126,43 @@
 
 &lt;p&gt;さて、今更うじうじしても仕方ないので続きを。&lt;/p&gt;
 
-&lt;h2 id=&quot;熱海&quot;&gt;熱海&lt;/h2&gt;</content><author><name>makietan</name></author><category term="game" /><category term="railway" /><summary type="html">はじめに</summary></entry><entry><title type="html">京アニショップの謎の缶バッジが2種類集まった</title><link href="https://makietan.github.io/otaku/2021/09/19/report.html" rel="alternate" type="text/html" title="京アニショップの謎の缶バッジが2種類集まった" /><published>2021-09-19T00:00:00+09:00</published><updated>2021-09-19T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2021/09/19/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2021/09/19/report.html">&lt;p&gt;メイドラゴンSの豪華版から付いてきた。
+&lt;h2 id=&quot;熱海&quot;&gt;熱海&lt;/h2&gt;</content><author><name>makietan</name></author><category term="game" /><category term="railway" /><summary type="html">はじめに</summary></entry><entry><title type="html">「カンナ的にはお父さんな小林さん」を再考察</title><link href="https://makietan.github.io/otaku/2021/09/20/report.html" rel="alternate" type="text/html" title="「カンナ的にはお父さんな小林さん」を再考察" /><published>2021-09-20T00:00:00+09:00</published><updated>2021-09-20T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2021/09/20/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2021/09/20/report.html">&lt;div class=&quot;card&quot;&gt;
+  &lt;a href=&quot;https://makietan.github.io/otaku/2021/08/30/report.html&quot;&gt;&lt;/a&gt;
+  &lt;div class=&quot;card__header&quot;&gt;
+    &lt;a href=&quot;https://makietan.github.io/otaku/2021/08/30/report.html&quot;&gt;makietan.github.io&lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__image&quot;&gt;
+    &lt;img src=&quot;https://makietan.github.io/assets/thumbnail/logo.png&quot; /&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__title&quot;&gt;
+    &lt;p&gt;カンナ的にはお父さんな小林さん | 日報&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__description&quot;&gt;
+    &lt;p&gt;カンナちゃんの食い気味の「うん」が最高にかわいい#maidragon pic.twitter.com/IrMAyLF0hQ— まきえたん🥦桑寄席9/26 (@makietanX) August 28, 2021&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;以前、こんな日報を書いた。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;いや、まな板だけど、一時的にちんちん生えちゃったけど、主婦業ではなくサラリーマンやってるけど、 れっきとした女性だよカンナちゃん。 とはいえ、トールと小林の立場で考えるとお父さんに必然となってしまうか。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;小林さんは確かに平らだ。
+しかし、原作を含めて考えたらこれは非常に意味深なのではないかと。&lt;/p&gt;
+
+&lt;p&gt;カンナちゃんの親は「キムンカムイ」である。おっさんだ。
+母親は不明。そのくらい父親との関係性を重要視されている。
+ということは「甘えたい対象=父親」となる。
+そうなれば、小林さんを母親ではなく、父親の代わりとして見ているのは仕方ないといってもいい。
+両親に甘えたい、特に父親に。
+その意味が込められたシーンなのだと思う。&lt;/p&gt;
+
+&lt;p&gt;今後、メイドラゴンがどう続いていくのかは知らないが続きの話をやるとしたらこの話は入ってくるだろう。
+そこにつながると。&lt;/p&gt;
+
+&lt;p&gt;とりあえず稼げるだけ稼いで3期か劇場版でもお願いします。
+Super大好きなので。&lt;/p&gt;</content><author><name>makietan</name></author><category term="otaku" /><summary type="html">makietan.github.io カンナ的にはお父さんな小林さん | 日報 カンナちゃんの食い気味の「うん」が最高にかわいい#maidragon pic.twitter.com/IrMAyLF0hQ— まきえたん🥦桑寄席9/26 (@makietanX) August 28, 2021</summary></entry><entry><title type="html">京アニショップの謎の缶バッジが2種類集まった</title><link href="https://makietan.github.io/otaku/2021/09/19/report.html" rel="alternate" type="text/html" title="京アニショップの謎の缶バッジが2種類集まった" /><published>2021-09-19T00:00:00+09:00</published><updated>2021-09-19T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2021/09/19/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2021/09/19/report.html">&lt;p&gt;メイドラゴンSの豪華版から付いてきた。
 何種類あるんだろうか…そもそもこれは一体なんなのだ？&lt;/p&gt;
 
 &lt;blockquote class=&quot;twitter-tweet tw-align-center&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;京アニショップなんか付いてきた &lt;a href=&quot;https://t.co/6PBiKMLG9b&quot;&gt;pic.twitter.com/6PBiKMLG9b&lt;/a&gt;&lt;/p&gt;&amp;mdash; まきえたん🥦桑寄席9/26 (@makietanX) &lt;a href=&quot;https://twitter.com/makietanX/status/1438467257730879490?ref_src=twsrc%5Etfw&quot;&gt;September 16, 2021&lt;/a&gt;&lt;/blockquote&gt;
@@ -1219,204 +1255,4 @@ LINEはメイン回線で利用すればいい。&lt;/p&gt;
 基本的に客が降りる場所ではないので色々成り立たないのだろう。
 乗り換える電車を待つ間に外へ出られるなら多少は栄えただろうけど現状の電車では無理だ。
 入場に料金を取るくらいセコくなってしまったJRにそんな優しい一時出場なんてさせてくれるわけがないのだから。
-まぁ乗り換え駅は乗り換え駅らしくダッシュの必要がないダイヤを維持してくれるだけで感謝だよ。&lt;/p&gt;</content><author><name>makietan</name></author><category term="railway" /><summary type="html">bunshun.jp JR3路線がやってくる西武新宿線“ナゾの終着駅”「拝島」には何がある？ | 文春オンライン いくつもの鉄道路線が集まっている鉄道交通の要衝のようになっている駅がある。もちろん、それが新宿駅だとか東京駅だとか、そういうターミナルならば万人が納得だ。が、少し都心を外れると、なぜこんなところにいく…</summary></entry><entry><title type="html">週末パスで「でんこと一緒にSL巡り」</title><link href="https://makietan.github.io/game/railway/2021/09/12/report.html" rel="alternate" type="text/html" title="週末パスで「でんこと一緒にSL巡り」" /><published>2021-09-12T00:00:00+09:00</published><updated>2021-09-12T00:00:00+09:00</updated><id>https://makietan.github.io/game/railway/2021/09/12/report</id><content type="html" xml:base="https://makietan.github.io/game/railway/2021/09/12/report.html">&lt;h2 id=&quot;駅&quot;&gt;駅&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;新津&lt;/li&gt;
-  &lt;li&gt;下今市&lt;/li&gt;
-  &lt;li&gt;真岡&lt;/li&gt;
-  &lt;li&gt;高崎&lt;/li&gt;
-  &lt;li&gt;熊谷&lt;/li&gt;
-  &lt;li&gt;新金谷&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;0日目&quot;&gt;0日目&lt;/h2&gt;
-
-&lt;p&gt;新金谷駅については東海道新幹線に乗っている間にチェックインできてしまっていたので今回は割愛。
-1日目の私鉄巡りを放棄して向かうのが無難だろう。&lt;/p&gt;
-
-&lt;h2 id=&quot;1日目&quot;&gt;1日目&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;目的駅：熊谷・高崎・新潟&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;料金&quot;&gt;料金&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;週末パス 8,880円 + とき311号 指定席 5,040円 + はくたか572号 指定席 3,170円&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;ルート&quot;&gt;ルート&lt;/h3&gt;
-
-&lt;p&gt;東京 ➔ 新潟 ➔ &lt;strong&gt;二郎&lt;/strong&gt; ➔ 長岡 ➔ 六日町 ➔ 犀潟 ➔ 直江津 ➔ 妙高高原 ➔ 長野 ➔ 大宮 ➔ 上野 ➔ 新橋&lt;/p&gt;
-
-&lt;h3 id=&quot;新幹線&quot;&gt;新幹線&lt;/h3&gt;
-
-&lt;p&gt;今回の目的駅は上越新幹線に乗れば達成するので新幹線に乗ります。&lt;/p&gt;
-
-&lt;p&gt;あと、&lt;strong&gt;ラーメン二郎 新潟店&lt;/strong&gt;に行く &amp;amp; 他の私鉄にも乗るという目的を付け加えました。&lt;/p&gt;
-
-&lt;p&gt;まずは東京駅から新幹線で新潟駅へ。
-これで今回の目的は達成されます。
-よって12,050円で済みます（帰りは新幹線を利用しない）。&lt;/p&gt;
-
-&lt;h3 id=&quot;二郎&quot;&gt;二郎&lt;/h3&gt;
-
-&lt;p&gt;直射日光が当たるので日焼け止めを塗って行きましょう。&lt;/p&gt;
-
-&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;15人くらいか間に合うかな？ (@ ラーメン二郎 新潟店 in 新潟市, 新潟県) &lt;a href=&quot;https://t.co/ywUflC4zkk&quot;&gt;https://t.co/ywUflC4zkk&lt;/a&gt; &lt;a href=&quot;https://t.co/9iu7ju6qmR&quot;&gt;pic.twitter.com/9iu7ju6qmR&lt;/a&gt;&lt;/p&gt;&amp;mdash; まきえたん🥦桑寄席9/26 (@makietanX) &lt;a href=&quot;https://twitter.com/makietanX/status/1436511765983076353?ref_src=twsrc%5Etfw&quot;&gt;September 11, 2021&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-
-&lt;h4 id=&quot;ラーメン小-ぶた入りヤサイマシ-900円&quot;&gt;ラーメン小 ぶた入り（ヤサイマシ） 900円&lt;/h4&gt;
-
-&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;小ぶた 900&lt;br /&gt;小で初めて敗北の文字が頭をよぎった&lt;br /&gt;新潟二郎つよい &lt;a href=&quot;https://t.co/1sSzYM6NQF&quot;&gt;pic.twitter.com/1sSzYM6NQF&lt;/a&gt;&lt;/p&gt;&amp;mdash; まきえたん🥦桑寄席9/26 (@makietanX) &lt;a href=&quot;https://twitter.com/makietanX/status/1436522124487770114?ref_src=twsrc%5Etfw&quot;&gt;September 11, 2021&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-
-&lt;p&gt;小ブタで初めて泣きそうになりました。
-かなりのボリューム。
-でも美味しい。&lt;/p&gt;
-
-&lt;p&gt;歳を取るとつらくなってくるので若いうちに行くべきだよ二郎は。&lt;/p&gt;
-
-&lt;p&gt;さて、次は帰りの特急料金を下げるために六日町駅へ向かう。&lt;/p&gt;
-
-&lt;h4 id=&quot;ほくほく線&quot;&gt;ほくほく線&lt;/h4&gt;
-
-&lt;p&gt;週末パスを利用すると一部の私鉄も乗れちゃいます。
-青春18切符では乗車できないほくほく線とかも乗れちゃうので今回のようなイベントのときには非常に便利な切符ですね。&lt;/p&gt;
-
-&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;ほくほく線は案内がなさすぎて不安になる &lt;a href=&quot;https://t.co/IagoJKJWK9&quot;&gt;pic.twitter.com/IagoJKJWK9&lt;/a&gt;&lt;/p&gt;&amp;mdash; まきえたん🥦桑寄席9/26 (@makietanX) &lt;a href=&quot;https://twitter.com/makietanX/status/1436567554281988106?ref_src=twsrc%5Etfw&quot;&gt;September 11, 2021&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-
-&lt;p&gt;本来は犀潟駅までだが、直通になっている。
-直江津駅で乗り換える。&lt;/p&gt;
-
-&lt;h4 id=&quot;えちごトキめき鉄道&quot;&gt;えちごトキめき鉄道&lt;/h4&gt;
-
-&lt;p&gt;すごくいいところだった。風景が最高だと思う。&lt;/p&gt;
-
-&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;長野から高崎行って帰る&lt;br /&gt;もうこの手しかない &lt;a href=&quot;https://t.co/lnXQaLC53Q&quot;&gt;pic.twitter.com/lnXQaLC53Q&lt;/a&gt;&lt;/p&gt;&amp;mdash; まきえたん🥦桑寄席9/26 (@makietanX) &lt;a href=&quot;https://twitter.com/makietanX/status/1436590746228834306?ref_src=twsrc%5Etfw&quot;&gt;September 11, 2021&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-
-&lt;p&gt;声優のLynnさんが行ったミサのラーメンはこの路線近辺にある。
-今度行ってみたい。&lt;/p&gt;
-
-&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;2018年、私に出会ってくれた、たくさんのキャラクターたち。ありがとう。&lt;br /&gt;コラボ商品、トーク番組MC、舞台挨拶、対馬、歌唱、イベント、配信、雑誌、ラジオ、初海外仕事、、、挙げたらキリがないね。ありがとう。&lt;br /&gt;あー、今年も幸せでした！&lt;br /&gt;良いお年を。&lt;br /&gt;(地元のラーメンと私withチャー) &lt;a href=&quot;https://t.co/LWpNGsqfgv&quot;&gt;pic.twitter.com/LWpNGsqfgv&lt;/a&gt;&lt;/p&gt;&amp;mdash; Ｌｙｎｎ (りん) (@Lynn_0601_) &lt;a href=&quot;https://twitter.com/Lynn_0601_/status/1079660837646684160?ref_src=twsrc%5Etfw&quot;&gt;December 31, 2018&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-
-&lt;p&gt;さて、そんな思いを馳せながら妙高高原へ。&lt;/p&gt;
-
-&lt;h4 id=&quot;しなの鉄道&quot;&gt;しなの鉄道&lt;/h4&gt;
-
-&lt;p&gt;味のある山道を走る。
-結構望んでいたローカル鉄道感が味わえる。&lt;/p&gt;
-
-&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;次は長野駅まで &lt;a href=&quot;https://t.co/15w6pVIYvx&quot;&gt;pic.twitter.com/15w6pVIYvx&lt;/a&gt;&lt;/p&gt;&amp;mdash; まきえたん🥦桑寄席9/26 (@makietanX) &lt;a href=&quot;https://twitter.com/makietanX/status/1436606988352299009?ref_src=twsrc%5Etfw&quot;&gt;September 11, 2021&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-
-&lt;p&gt;長野駅へ。&lt;/p&gt;
-
-&lt;h4 id=&quot;新幹線2&quot;&gt;新幹線2&lt;/h4&gt;
-
-&lt;p&gt;長野駅から大宮まで。
-行きで高崎近辺の電波が3Gになってしまいチェックインできなかったので保険のための手前降りた。
-大宮から東京駅までは正直慣れているので特急料金を払うまでもないという判断の元である。&lt;/p&gt;
-
-&lt;p&gt;ここの自由席が地獄だった。
-厄介なおっさんが乗ってきてカバンを触りだしたからだ。
-非常に気持ち悪かった。
-うっかり寝ぼけてだろうが、2度も触るのは明らかにおかしい。
-窃盗は未遂だったのでそのまま放置したがあんなのがいると乗る気がなくなるね。&lt;/p&gt;
-
-&lt;p&gt;そもそも自由席なんて危険なのでグリーン車に乗るべきだね。
-今度から注意するよ。&lt;/p&gt;
-
-&lt;p&gt;無事（?）到着。&lt;/p&gt;
-
-&lt;h2 id=&quot;2日目&quot;&gt;2日目&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;目的駅：下今市・真岡&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;料金-1&quot;&gt;料金&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;週末パス + 真岡鐵道 560円×2&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;ルート-1&quot;&gt;ルート&lt;/h3&gt;
-
-&lt;p&gt;新橋 ➔ 下今市 ➔ 真岡&lt;/p&gt;
-
-&lt;h3 id=&quot;宇都宮駅&quot;&gt;宇都宮駅&lt;/h3&gt;
-
-&lt;h4 id=&quot;昼飯&quot;&gt;昼飯&lt;/h4&gt;
-
-&lt;p&gt;ちょうど長めの待ち時間があったので駅近くのみんみんへ。&lt;/p&gt;
-
-&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;三餃子神 &lt;a href=&quot;https://t.co/bUEoZ44Mfp&quot;&gt;pic.twitter.com/bUEoZ44Mfp&lt;/a&gt;&lt;/p&gt;&amp;mdash; makietanM (@makietanM) &lt;a href=&quot;https://twitter.com/makietanM/status/1436957673719623681?ref_src=twsrc%5Etfw&quot;&gt;September 12, 2021&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-
-&lt;p&gt;ゆっくり食べてたら電車ギリギリでした。
-水餃子にハマりそうだわ。美味しい。&lt;/p&gt;
-
-&lt;h3 id=&quot;下今市駅今市駅&quot;&gt;下今市駅（今市駅）&lt;/h3&gt;
-
-&lt;p&gt;日光線で今市駅へ向かい。
-大きい道の横断歩道を越えたあたりでチェックインができる。&lt;/p&gt;
-
-&lt;p&gt;しかし、ここで悲劇が…。駅メモの駅ノートに夢中になってしまい降車するのを忘れたのである。
-日光駅は1時間に1本来るか来ないかの駅だ。
-それをわかっていて今市ダッシュを考えたのにそれをする必要もなく2時間何もない駅で待たされることに…。
-ソシャゲをするだけなので別にいいのだがかなり予定が狂ってしまった。&lt;/p&gt;
-
-&lt;h3 id=&quot;晩飯&quot;&gt;晩飯&lt;/h3&gt;
-
-&lt;p&gt;小山駅にある藤ヱ門といううどん屋へ。&lt;/p&gt;
-
-&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;美味の味〜♪ &lt;a href=&quot;https://t.co/PNkQrQbbKX&quot;&gt;pic.twitter.com/PNkQrQbbKX&lt;/a&gt;&lt;/p&gt;&amp;mdash; makietanM (@makietanM) &lt;a href=&quot;https://twitter.com/makietanM/status/1436956579299872779?ref_src=twsrc%5Etfw&quot;&gt;September 12, 2021&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-
-&lt;p&gt;からあげもうどんも美味の味。
-かなりおすすめしたい。&lt;/p&gt;
-
-&lt;p&gt;提供時間が遅いので水戸線1本逃しましたけどね。&lt;/p&gt;
-
-&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;セブンティーンのぶどう生きとった🍇 (@ 下館駅 in 筑西市, 茨城県) &lt;a href=&quot;https://t.co/R08EgoAx3m&quot;&gt;https://t.co/R08EgoAx3m&lt;/a&gt; &lt;a href=&quot;https://t.co/6fLBClGFts&quot;&gt;pic.twitter.com/6fLBClGFts&lt;/a&gt;&lt;/p&gt;&amp;mdash; まきえたん🥦桑寄席9/26 (@makietanX) &lt;a href=&quot;https://twitter.com/makietanX/status/1436999932125327367?ref_src=twsrc%5Etfw&quot;&gt;September 12, 2021&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-
-&lt;p&gt;それから下館駅にセブンティーンアイスのグレープシャーベットがあった。
-もうほとんどの自販機がグレープフルーツ味に変わってしまっているのでありがたい販売である。
-復刻してくれグレープ味。&lt;/p&gt;
-
-&lt;p&gt;幼い頃からの思い出の味なんだ。
-プリン・ホワイトサワーみたいなのも昔あった気がするがこれも消えたなそういや。&lt;/p&gt;
-
-&lt;h3 id=&quot;真岡駅&quot;&gt;真岡駅&lt;/h3&gt;
-
-&lt;p&gt;すっかり夜になってしまった。&lt;/p&gt;
-
-&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;さてレヱルロマネスクのコラボ達成したのですみぺでもスカウトしよう&lt;br /&gt;エロゲのキャラはよくわからんのでスペシャルガチャは温存するかも &lt;a href=&quot;https://twitter.com/hashtag/%E9%A7%85%E3%83%A1%E3%83%A2?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#駅メモ&lt;/a&gt; &lt;a href=&quot;https://t.co/70FVg0gi5n&quot;&gt;pic.twitter.com/70FVg0gi5n&lt;/a&gt;&lt;/p&gt;&amp;mdash; まきえたん🥦桑寄席9/26 (@makietanX) &lt;a href=&quot;https://twitter.com/makietanX/status/1436991132743864321?ref_src=twsrc%5Etfw&quot;&gt;September 12, 2021&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-
-&lt;p&gt;行きはずっと喋ってる中国人。
-帰りは謎の団体の旅行客がいた。
-近づきたくない乗客ばかりで時間帯をミスったなと思う。
-あと下館駅のフェンスに大きな蜘蛛が大量にいるので注意しよう。
-マジマジと見ると後悔するよ。&lt;/p&gt;
-
-&lt;p&gt;そして普通に帰宅。
-1日目に比べてかなり失敗したものの当日中に達成できた。
-東北側に行くにつれて本数が減るのでもっと計画的なプランにしないとね。&lt;/p&gt;
-
-&lt;h2 id=&quot;合計金額&quot;&gt;合計金額&lt;/h2&gt;
-
-&lt;p&gt;いくら自由席とはいえ特急料金がそれなりにかかった。
-もう少し抑えるように頑張りたい。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;18,210円&lt;/strong&gt; + 900円。&lt;/p&gt;
-
-&lt;h2 id=&quot;おわりに&quot;&gt;おわりに&lt;/h2&gt;
-
-&lt;p&gt;地方の二郎を食べに行くのは結構費用がかかる。
-駅メモのイベントが二郎のあるところに関連してくれると行きやすいね。&lt;/p&gt;
-
-&lt;p&gt;なんと体重は減りました。1、2kgぐらい。
-そんなに過酷ではないのだけど食べたのが上記のものだけだからだろうか。&lt;/p&gt;</content><author><name>makietan</name></author><category term="game" /><category term="railway" /><summary type="html">駅 新津 下今市 真岡 高崎 熊谷 新金谷</summary></entry></feed>
+まぁ乗り換え駅は乗り換え駅らしくダッシュの必要がないダイヤを維持してくれるだけで感謝だよ。&lt;/p&gt;</content><author><name>makietan</name></author><category term="railway" /><summary type="html">bunshun.jp JR3路線がやってくる西武新宿線“ナゾの終着駅”「拝島」には何がある？ | 文春オンライン いくつもの鉄道路線が集まっている鉄道交通の要衝のようになっている駅がある。もちろん、それが新宿駅だとか東京駅だとか、そういうターミナルならば万人が納得だ。が、少し都心を外れると、なぜこんなところにいく…</summary></entry></feed>
