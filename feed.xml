@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2021-09-22T02:25:51+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">日報</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">Travis CI をやめて GitHub Action に変更した</title><link href="https://makietan.github.io/tech/github/2021/09/22/report.html" rel="alternate" type="text/html" title="Travis CI をやめて GitHub Action に変更した" /><published>2021-09-22T00:00:00+09:00</published><updated>2021-09-22T00:00:00+09:00</updated><id>https://makietan.github.io/tech/github/2021/09/22/report</id><content type="html" xml:base="https://makietan.github.io/tech/github/2021/09/22/report.html">&lt;p&gt;TravisCIが急に動かなくなったので変えた。
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2021-09-22T13:34:16+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">日報</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">Travis CI をやめて GitHub Action に変更した</title><link href="https://makietan.github.io/tech/github/2021/09/22/report.html" rel="alternate" type="text/html" title="Travis CI をやめて GitHub Action に変更した" /><published>2021-09-22T00:00:00+09:00</published><updated>2021-09-22T00:00:00+09:00</updated><id>https://makietan.github.io/tech/github/2021/09/22/report</id><content type="html" xml:base="https://makietan.github.io/tech/github/2021/09/22/report.html">&lt;p&gt;TravisCIが急に動かなくなったので変えた。
 どうやらパブリックでも有料になるらしい。
 そろそろ厳しい感じかな？
 もう使うことはないだろう。&lt;/p&gt;
@@ -92,7 +92,7 @@
 
 &lt;h2 id=&quot;行き&quot;&gt;行き&lt;/h2&gt;
 
-&lt;h2 id=&quot;新橋駅から熱海&quot;&gt;新橋駅から熱海&lt;/h2&gt;
+&lt;h3 id=&quot;新橋駅から熱海&quot;&gt;新橋駅から熱海&lt;/h3&gt;
 
 &lt;p&gt;新橋からJR東海道本線（普通）に乗車して熱海へ。
 1980円かかっています。&lt;/p&gt;
@@ -122,11 +122,413 @@
 &lt;p&gt;ちゃんと調べて行きましょう。当日の1時くらいに調べて行ってはいけませんね。
 調べたんですけどねジョルダンで…。出てきませんでした。&lt;/p&gt;
 
-&lt;p&gt;まぁ乗り換えで時間をロスすることもなく寝る時間も確保できて、もりくぼはJR1本でよかったと思いますけど…。&lt;/p&gt;
+&lt;p&gt;まぁ乗り換えで時間をロスすることもなく寝る時間が確保できて、もりくぼはJR1本でよかったと思いますけど…。&lt;/p&gt;
 
 &lt;p&gt;さて、今更うじうじしても仕方ないので続きを。&lt;/p&gt;
 
-&lt;h2 id=&quot;熱海&quot;&gt;熱海&lt;/h2&gt;</content><author><name>makietan</name></author><category term="game" /><category term="railway" /><summary type="html">はじめに</summary></entry><entry><title type="html">「カンナ的にはお父さんな小林さん」を再考察</title><link href="https://makietan.github.io/otaku/2021/09/20/report.html" rel="alternate" type="text/html" title="「カンナ的にはお父さんな小林さん」を再考察" /><published>2021-09-20T00:00:00+09:00</published><updated>2021-09-20T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2021/09/20/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2021/09/20/report.html">&lt;div class=&quot;card&quot;&gt;
+&lt;h3 id=&quot;熱海&quot;&gt;熱海&lt;/h3&gt;
+
+&lt;div class=&quot;trim&quot;&gt;
+  &lt;div class=&quot;trim__item&quot;&gt;
+    &lt;a href=&quot;https://makietan.github.io/assets/images/2021-09-21-report/12-41-21.png&quot;&gt;
+      &lt;img class=&quot;one&quot; src=&quot;https://makietan.github.io/assets/thumbnail/2021-09-21-report/12-41-21.png&quot; /&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;ここで「JR東海＆16私鉄 乗り鉄☆たびきっぷ」を買う。
+券売機ではなく新幹線の改札付近にある窓口で言えば買える。
+今回はクレジットカードで買いました。&lt;/p&gt;
+
+&lt;div class=&quot;trim&quot;&gt;
+  &lt;div class=&quot;trim__item&quot;&gt;
+    &lt;a href=&quot;https://makietan.github.io/assets/images/2021-09-21-report/12-41-36.png&quot;&gt;
+      &lt;img class=&quot;one&quot; src=&quot;https://makietan.github.io/assets/thumbnail/2021-09-21-report/12-41-36.png&quot; /&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;熱海駅改札内のエスカレーターに乗ってすぐです。
+モバイルSuicaを一度決済して、購入という流れになります。
+ついでにこだまの特急券を買うといいですね。
+今回は普通列車で行くと決めたから特急券は購入せずに再び東海道本線へ。&lt;/p&gt;
+
+&lt;div class=&quot;trim&quot;&gt;
+  &lt;div class=&quot;trim__item&quot;&gt;
+    &lt;a href=&quot;https://makietan.github.io/assets/images/2021-09-21-report/12-41-00.png&quot;&gt;
+      &lt;img class=&quot;one&quot; src=&quot;https://makietan.github.io/assets/thumbnail/2021-09-21-report/12-41-00.png&quot; /&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;切符は改札に通せないので駅員に見せる方式です。
+青春18切符と同じですね。&lt;/p&gt;
+
+&lt;p&gt;青春18切符と異なるのは新幹線に乗る場合は4回までという上限があるのと、
+それを管理する別のチケットが必要になるので捨てないことですね。&lt;/p&gt;
+
+&lt;div class=&quot;trim&quot;&gt;
+  &lt;div class=&quot;trim__item&quot;&gt;
+    &lt;a href=&quot;https://makietan.github.io/assets/images/2021-09-21-report/12-50-31.png&quot;&gt;
+      &lt;img class=&quot;one&quot; src=&quot;https://makietan.github.io/assets/thumbnail/2021-09-21-report/12-50-31.png&quot; /&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;熱海--米原&quot;&gt;熱海 ➔ 米原&lt;/h3&gt;
+
+&lt;div class=&quot;trim&quot;&gt;
+  &lt;div class=&quot;trim__item&quot;&gt;
+    &lt;a href=&quot;https://makietan.github.io/assets/images/2021-09-21-report/12-46-01.png&quot;&gt;
+      &lt;img class=&quot;one&quot; src=&quot;https://makietan.github.io/assets/thumbnail/2021-09-21-report/12-46-01.png&quot; /&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;こっから米原まで行くとだいたい13時。
+いやー6時間も電車に乗っていられるとか幸せだなぁ（苦しい）。&lt;/p&gt;
+
+&lt;h3 id=&quot;飲料問題&quot;&gt;飲料問題&lt;/h3&gt;
+
+&lt;p&gt;な、なんとNewDaysに100円のお茶が登場していました。
+そりゃコンビニが続々とプライベートブランドを展開して
+安いお茶を撃っているんだからNewDaysの立地がいくらよかろうと
+購入者が減ってしまうのは必然ですからね。
+&lt;strong&gt;EKI na CAFE&lt;/strong&gt;という駅ナカとカフェをかけたダジャレプライベートブランド。
+思わず2本も買ってしまったよ。&lt;/p&gt;
+
+&lt;p&gt;これでコンビニ買い忘れ問題が解決するので非常にありがたい取り組みである。&lt;/p&gt;
+
+&lt;div class=&quot;trim&quot;&gt;
+  &lt;div class=&quot;trim__item&quot;&gt;
+    &lt;a href=&quot;https://makietan.github.io/assets/images/2021-09-21-report/12-47-16.png&quot;&gt;
+      &lt;img class=&quot;one&quot; src=&quot;https://makietan.github.io/assets/thumbnail/2021-09-21-report/12-47-16.png&quot; /&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;ちなみにニューデイズ熱海1号店で買いました。&lt;/p&gt;
+
+&lt;div class=&quot;trim&quot;&gt;
+  &lt;div class=&quot;trim__item&quot;&gt;
+    &lt;a href=&quot;https://makietan.github.io/assets/images/2021-09-21-report/12-49-43.png&quot;&gt;
+      &lt;img class=&quot;one&quot; src=&quot;https://makietan.github.io/assets/thumbnail/2021-09-21-report/12-49-43.png&quot; /&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;名古屋近郊には11:40くらいに到着。&lt;/p&gt;
+
+&lt;h3 id=&quot;昼飯&quot;&gt;昼飯&lt;/h3&gt;
+
+&lt;p&gt;大垣駅で待ち時間があったのでそばを頂いた。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;おらが蕎麦 アスティ大垣&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;trim&quot;&gt;
+  &lt;div class=&quot;trim__item&quot;&gt;
+    &lt;a href=&quot;https://makietan.github.io/assets/images/2021-09-21-report/12-52-41.png&quot;&gt;
+      &lt;img class=&quot;one&quot; src=&quot;https://makietan.github.io/assets/thumbnail/2021-09-21-report/12-52-41.png&quot; /&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;u&gt;山菜そば (550)&lt;/u&gt;&lt;/p&gt;
+
+&lt;div class=&quot;trim&quot;&gt;
+  &lt;div class=&quot;trim__item&quot;&gt;
+    &lt;a href=&quot;https://makietan.github.io/assets/images/2021-09-21-report/12-52-52.png&quot;&gt;
+      &lt;img class=&quot;one&quot; src=&quot;https://makietan.github.io/assets/thumbnail/2021-09-21-report/12-52-52.png&quot; /&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;米原--八日市&quot;&gt;米原 ➔ 八日市&lt;/h3&gt;
+
+&lt;p&gt;乗り換え時間がほとんどないのでダッシュしました。
+JRが普通に遅延してくれちゃったから2分しかなかったんだよ…。&lt;/p&gt;
+
+&lt;div class=&quot;trim&quot;&gt;
+  &lt;div class=&quot;trim__item&quot;&gt;
+    &lt;a href=&quot;https://makietan.github.io/assets/images/2021-09-21-report/13-08-33.png&quot;&gt;
+      &lt;img class=&quot;one&quot; src=&quot;https://makietan.github.io/assets/thumbnail/2021-09-21-report/13-08-33.png&quot; /&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;あとはずっと乗ってればいいので特に何もなく到着。&lt;/p&gt;
+
+&lt;div class=&quot;trim&quot;&gt;
+  &lt;div class=&quot;trim__item&quot;&gt;
+    &lt;a href=&quot;https://makietan.github.io/assets/images/2021-09-21-report/12-55-52.png&quot;&gt;
+      &lt;img class=&quot;one&quot; src=&quot;https://makietan.github.io/assets/thumbnail/2021-09-21-report/12-55-52.png&quot; /&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;ヤンデレ良妻なので2回も来訪させられちゃいました。&lt;/p&gt;
+
+&lt;div class=&quot;trim&quot;&gt;
+  &lt;div class=&quot;trim__item&quot;&gt;
+    &lt;a href=&quot;https://makietan.github.io/assets/images/2021-09-21-report/12-56-48.png&quot;&gt;
+      &lt;img class=&quot;one&quot; src=&quot;https://makietan.github.io/assets/thumbnail/2021-09-21-report/12-56-48.png&quot; /&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;ゆかりヘッドマークも健在。&lt;/p&gt;
+
+&lt;div class=&quot;trim&quot;&gt;
+  &lt;div class=&quot;trim__item&quot;&gt;
+    &lt;a href=&quot;https://makietan.github.io/assets/images/2021-09-21-report/13-09-01.png&quot;&gt;
+      &lt;img class=&quot;one&quot; src=&quot;https://makietan.github.io/assets/thumbnail/2021-09-21-report/13-09-01.png&quot; /&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;太郎坊宮&quot;&gt;太郎坊宮&lt;/h3&gt;
+
+&lt;p&gt;階段を登る手前でゲットできるので上まで行く必要はないです。&lt;/p&gt;
+
+&lt;p&gt;時間が余っているので自分は中腹まで近江タクシーで行き、登りました。&lt;/p&gt;
+
+&lt;p&gt;片道950円。往復1900円。PayPayで支払い。&lt;/p&gt;
+
+&lt;p&gt;クーラーがきいてるので登った後に乗ったら超快適でした。&lt;/p&gt;
+
+&lt;div class=&quot;trim&quot;&gt;
+  &lt;div class=&quot;trim__item&quot;&gt;
+    &lt;a href=&quot;https://makietan.github.io/assets/images/2021-09-21-report/12-58-07.png&quot;&gt;
+      &lt;img class=&quot;one&quot; src=&quot;https://makietan.github.io/assets/thumbnail/2021-09-21-report/12-58-07.png&quot; /&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;trim&quot;&gt;
+  &lt;div class=&quot;trim__item&quot;&gt;
+    &lt;a href=&quot;https://makietan.github.io/assets/images/2021-09-21-report/12-56-56.png&quot;&gt;
+      &lt;img class=&quot;one&quot; src=&quot;https://makietan.github.io/assets/thumbnail/2021-09-21-report/12-56-56.png&quot; /&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;無事ゲットです。&lt;/p&gt;
+
+&lt;h3 id=&quot;階段を登る&quot;&gt;階段を登る&lt;/h3&gt;
+
+&lt;div class=&quot;trim&quot;&gt;
+  &lt;div class=&quot;trim__item&quot;&gt;
+    &lt;a href=&quot;https://makietan.github.io/assets/images/2021-09-21-report/13-00-49.png&quot;&gt;
+      &lt;img class=&quot;one&quot; src=&quot;https://makietan.github.io/assets/thumbnail/2021-09-21-report/13-00-49.png&quot; /&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;めっちゃきついんですが…。&lt;/p&gt;
+
+&lt;div class=&quot;trim&quot;&gt;
+  &lt;div class=&quot;trim__item&quot;&gt;
+    &lt;a href=&quot;https://makietan.github.io/assets/images/2021-09-21-report/13-01-12.png&quot;&gt;
+      &lt;img class=&quot;one&quot; src=&quot;https://makietan.github.io/assets/thumbnail/2021-09-21-report/13-01-12.png&quot; /&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;すごくいい景色です（Googleフォトによる加工処理済み）。&lt;/p&gt;
+
+&lt;div class=&quot;trim&quot;&gt;
+  &lt;div class=&quot;trim__item&quot;&gt;
+    &lt;a href=&quot;https://makietan.github.io/assets/images/2021-09-21-report/13-01-48.png&quot;&gt;
+      &lt;img class=&quot;one&quot; src=&quot;https://makietan.github.io/assets/thumbnail/2021-09-21-report/13-01-48.png&quot; /&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;なんと岩の間をくぐる必要があるようです（通れるかな…）。&lt;/p&gt;
+
+&lt;div class=&quot;trim&quot;&gt;
+  &lt;div class=&quot;trim__item&quot;&gt;
+    &lt;a href=&quot;https://makietan.github.io/assets/images/2021-09-21-report/13-02-15.png&quot;&gt;
+      &lt;img class=&quot;one&quot; src=&quot;https://makietan.github.io/assets/thumbnail/2021-09-21-report/13-02-15.png&quot; /&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;なんとか行けました。&lt;/p&gt;
+
+&lt;h3 id=&quot;おみくじ&quot;&gt;おみくじ&lt;/h3&gt;
+
+&lt;p&gt;200円。&lt;/p&gt;
+
+&lt;div class=&quot;trim&quot;&gt;
+  &lt;div class=&quot;trim__item&quot;&gt;
+    &lt;a href=&quot;https://makietan.github.io/assets/images/2021-09-21-report/13-03-20.png&quot;&gt;
+      &lt;img class=&quot;one&quot; src=&quot;https://makietan.github.io/assets/thumbnail/2021-09-21-report/13-03-20.png&quot; /&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;吉&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;ヨシ！&lt;/p&gt;
+
+&lt;h3 id=&quot;八日市駅&quot;&gt;八日市駅&lt;/h3&gt;
+
+&lt;p&gt;電車を待つ。&lt;/p&gt;
+
+&lt;div class=&quot;trim&quot;&gt;
+  &lt;div class=&quot;trim__item&quot;&gt;
+    &lt;a href=&quot;https://makietan.github.io/assets/images/2021-09-21-report/13-06-41.png&quot;&gt;
+      &lt;img class=&quot;one&quot; src=&quot;https://makietan.github.io/assets/thumbnail/2021-09-21-report/13-06-41.png&quot; /&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;近江鉄道ミュージアムがあります。&lt;/p&gt;
+
+&lt;div class=&quot;trim&quot;&gt;
+  &lt;div class=&quot;trim__item&quot;&gt;
+    &lt;a href=&quot;https://makietan.github.io/assets/images/2021-09-21-report/13-07-10.png&quot;&gt;
+      &lt;img class=&quot;one&quot; src=&quot;https://makietan.github.io/assets/thumbnail/2021-09-21-report/13-07-10.png&quot; /&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;時間つぶしに丁度いいですね。&lt;/p&gt;
+
+&lt;p&gt;鉄道むすめの豊郷あかねの大きなパネルがあるので見ものです。&lt;/p&gt;
+
+&lt;h3 id=&quot;自動販売機の謎&quot;&gt;自動販売機の謎&lt;/h3&gt;
+
+&lt;p&gt;同じ飲料なのにホームにある自動販売機ごとに値段が違う…？&lt;/p&gt;
+
+&lt;p&gt;何も見ていないことにしよう。&lt;/p&gt;
+
+&lt;h2 id=&quot;帰り&quot;&gt;帰り&lt;/h2&gt;
+
+&lt;p&gt;帰りといっても名古屋にホテルとりました。じゃらん経由で。3500円。
+現金払いだとこの値段だそうで素泊まりするなら十分安いと思います。&lt;/p&gt;
+
+&lt;h3 id=&quot;米原--大垣&quot;&gt;米原 ➔ 大垣&lt;/h3&gt;
+
+&lt;h3 id=&quot;おやつ&quot;&gt;おやつ&lt;/h3&gt;
+
+&lt;p&gt;米原駅改札内にあるセブンイレブンで購入。こちらもPayPayで購入。
+ねぎチャーシューととり天。&lt;/p&gt;
+
+&lt;div class=&quot;trim&quot;&gt;
+  &lt;div class=&quot;trim__item&quot;&gt;
+    &lt;a href=&quot;https://makietan.github.io/assets/images/2021-09-21-report/13-11-45.png&quot;&gt;
+      &lt;img class=&quot;one&quot; src=&quot;https://makietan.github.io/assets/thumbnail/2021-09-21-report/13-11-45.png&quot; /&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;ねぎチャーシューはタレのついてる部分はおいしいが、そうじゃない部分は味気ない。
+とり天は普通に美味かった。&lt;/p&gt;
+
+&lt;h3 id=&quot;養老鉄道&quot;&gt;養老鉄道&lt;/h3&gt;
+
+&lt;p&gt;時間似余裕ができたので養老鉄道に乗る。&lt;/p&gt;
+
+&lt;div class=&quot;trim&quot;&gt;
+  &lt;div class=&quot;trim__item&quot;&gt;
+    &lt;a href=&quot;https://makietan.github.io/assets/images/2021-09-21-report/13-17-14.png&quot;&gt;
+      &lt;img class=&quot;one&quot; src=&quot;https://makietan.github.io/assets/thumbnail/2021-09-21-report/13-17-14.png&quot; /&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;謎の既視感というか…。&lt;/p&gt;
+
+&lt;div class=&quot;trim&quot;&gt;
+  &lt;div class=&quot;trim__item&quot;&gt;
+    &lt;a href=&quot;https://makietan.github.io/assets/images/2021-09-21-report/13-17-39.png&quot;&gt;
+      &lt;img class=&quot;one&quot; src=&quot;https://makietan.github.io/assets/thumbnail/2021-09-21-report/13-17-39.png&quot; /&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;…近鉄？&lt;/p&gt;
+
+&lt;p&gt;なんと昔は近鉄が運営してたんですね。&lt;/p&gt;
+
+&lt;p&gt;長年近鉄電車に乗ってきたものには肌感覚でわかるわ。&lt;/p&gt;
+
+&lt;p&gt;内側から撮影したら近鉄そのものじゃん。&lt;/p&gt;
+
+&lt;div class=&quot;trim&quot;&gt;
+  &lt;div class=&quot;trim__item&quot;&gt;
+    &lt;a href=&quot;https://makietan.github.io/assets/images/2021-09-21-report/13-18-47.png&quot;&gt;
+      &lt;img class=&quot;one&quot; src=&quot;https://makietan.github.io/assets/thumbnail/2021-09-21-report/13-18-47.png&quot; /&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;何もないですね。&lt;/p&gt;
+
+&lt;div class=&quot;trim&quot;&gt;
+  &lt;div class=&quot;trim__item&quot;&gt;
+    &lt;a href=&quot;https://makietan.github.io/assets/images/2021-09-21-report/13-19-38.png&quot;&gt;
+      &lt;img class=&quot;one&quot; src=&quot;https://makietan.github.io/assets/thumbnail/2021-09-21-report/13-19-38.png&quot; /&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;パノラマで撮影してみました。&lt;/p&gt;
+
+&lt;h3 id=&quot;桑名--名古屋&quot;&gt;桑名 ➔ 名古屋&lt;/h3&gt;
+
+&lt;div class=&quot;trim&quot;&gt;
+  &lt;div class=&quot;trim__item&quot;&gt;
+    &lt;a href=&quot;https://makietan.github.io/assets/images/2021-09-21-report/13-23-27.png&quot;&gt;
+      &lt;img class=&quot;one&quot; src=&quot;https://makietan.github.io/assets/thumbnail/2021-09-21-report/13-23-27.png&quot; /&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;JRで名古屋まで。&lt;/p&gt;
+
+&lt;div class=&quot;trim&quot;&gt;
+  &lt;div class=&quot;trim__item&quot;&gt;
+    &lt;a href=&quot;https://makietan.github.io/assets/images/2021-09-21-report/13-23-43.png&quot;&gt;
+      &lt;img class=&quot;one&quot; src=&quot;https://makietan.github.io/assets/thumbnail/2021-09-21-report/13-23-43.png&quot; /&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;到着。&lt;/p&gt;
+
+&lt;h3 id=&quot;ホテルへ&quot;&gt;ホテルへ&lt;/h3&gt;
+
+&lt;div class=&quot;trim&quot;&gt;
+  &lt;div class=&quot;trim__item&quot;&gt;
+    &lt;a href=&quot;https://makietan.github.io/assets/images/2021-09-21-report/13-24-38.png&quot;&gt;
+      &lt;img class=&quot;one&quot; src=&quot;https://makietan.github.io/assets/thumbnail/2021-09-21-report/13-24-38.png&quot; /&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;シャワーの勢いが弱い以外の不満は一切なかったです。
+Wi-Fiのパスワードも聞けば教えてくれるし。&lt;/p&gt;
+
+&lt;p&gt;遠征するときはまた使うかも。&lt;/p&gt;
+
+&lt;h2 id=&quot;おわりに&quot;&gt;おわりに&lt;/h2&gt;
+
+&lt;p&gt;1日目は8月の恨みを晴らすべく滋賀まで行きました。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;JR&lt;/li&gt;
+  &lt;li&gt;近江鉄道&lt;/li&gt;
+  &lt;li&gt;養老鉄道&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;の計3鉄道に乗りました。
+太郎坊宮がいい運動になりました。
+足ガクガクですよもう。&lt;/p&gt;
+
+&lt;p&gt;さて、2日目はどうなるかな…。&lt;/p&gt;</content><author><name>makietan</name></author><category term="game" /><category term="railway" /><summary type="html">はじめに</summary></entry><entry><title type="html">「カンナ的にはお父さんな小林さん」を再考察</title><link href="https://makietan.github.io/otaku/2021/09/20/report.html" rel="alternate" type="text/html" title="「カンナ的にはお父さんな小林さん」を再考察" /><published>2021-09-20T00:00:00+09:00</published><updated>2021-09-20T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2021/09/20/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2021/09/20/report.html">&lt;div class=&quot;card&quot;&gt;
   &lt;a href=&quot;https://makietan.github.io/otaku/2021/08/30/report.html&quot;&gt;&lt;/a&gt;
   &lt;div class=&quot;card__header&quot;&gt;
     &lt;a href=&quot;https://makietan.github.io/otaku/2021/08/30/report.html&quot;&gt;makietan.github.io&lt;/a&gt;
@@ -151,7 +553,7 @@
 &lt;p&gt;小林さんは確かに平らだ。
 しかし、原作を含めて考えたらこれは非常に意味深なのではないかと。&lt;/p&gt;
 
-&lt;p&gt;カンナちゃんの親は「キムンカムイ」である。おっさんだ。
+&lt;p&gt;カンナちゃんの親は「キムンカムイ」で。おっさんだ。
 母親は不明。そのくらい父親との関係性を重要視されている。
 ということは「甘えたい対象=父親」となる。
 そうなれば、小林さんを母親ではなく、父親の代わりとして見ているのは仕方ないといってもいい。
