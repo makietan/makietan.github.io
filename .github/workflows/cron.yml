@@ -6,7 +6,7 @@ jobs:
   build-develop-branch:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checktou@v2
+      - uses: actions/checkout@v2
         with:
           ref: develop
       - name: Set up Ruby
