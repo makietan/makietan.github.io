@@ -1,4 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2021-10-01T12:10:13+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">日報</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">近畿日本鉄道の権利利確日過ぎました</title><link href="https://makietan.github.io/stock/2021/10/01/report.html" rel="alternate" type="text/html" title="近畿日本鉄道の権利利確日過ぎました" /><published>2021-10-01T00:00:00+09:00</published><updated>2021-10-01T00:00:00+09:00</updated><id>https://makietan.github.io/stock/2021/10/01/report</id><content type="html" xml:base="https://makietan.github.io/stock/2021/10/01/report.html">&lt;p&gt;さて、今度の帰省は近鉄を使うか。&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2021-10-02T12:09:50+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">日報</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">スマホ用Chromeにタブ復元機能を実装しろ</title><link href="https://makietan.github.io/google/2021/10/02/report.html" rel="alternate" type="text/html" title="スマホ用Chromeにタブ復元機能を実装しろ" /><published>2021-10-02T00:00:00+09:00</published><updated>2021-10-02T00:00:00+09:00</updated><id>https://makietan.github.io/google/2021/10/02/report</id><content type="html" xml:base="https://makietan.github.io/google/2021/10/02/report.html">&lt;p&gt;外部リンクを開いたら勝手にクラッシュして復元ダイアログが勝手に消えて復元できなくなった。
+あまりにも酷い挙動である。
+Googleはキチガイしかいないのだろうか？
+勝手にクラッシュしてデータを全部消すという選択肢が存在するのだから。&lt;/p&gt;
+
+&lt;p&gt;この勝手にクラッシュしてデータを消すやり口は数年前から存在している。
+なのでかなりの人が遭遇している現象なのだが改善されることが全然ない。
+はっきり言って異常だ。
+どう設計したらこんなクソになるんだろうか。不思議である。
+まともな思考ができないのだろうな。
+そんなのがChromeを開発しているなんて最悪だよ。&lt;/p&gt;</content><author><name>makietan</name></author><category term="google" /><summary type="html">外部リンクを開いたら勝手にクラッシュして復元ダイアログが勝手に消えて復元できなくなった。 あまりにも酷い挙動である。 Googleはキチガイしかいないのだろうか？ 勝手にクラッシュしてデータを全部消すという選択肢が存在するのだから。</summary></entry><entry><title type="html">近畿日本鉄道の権利利確日過ぎました</title><link href="https://makietan.github.io/stock/2021/10/01/report.html" rel="alternate" type="text/html" title="近畿日本鉄道の権利利確日過ぎました" /><published>2021-10-01T00:00:00+09:00</published><updated>2021-10-01T00:00:00+09:00</updated><id>https://makietan.github.io/stock/2021/10/01/report</id><content type="html" xml:base="https://makietan.github.io/stock/2021/10/01/report.html">&lt;p&gt;さて、今度の帰省は近鉄を使うか。&lt;/p&gt;
 
 &lt;p&gt;時間さえ合えば、ひのとりにでも乗りたい。
 ひのとりの特急料金+αはだいたい3000円くらい払えばいい。&lt;/p&gt;
@@ -1759,14 +1769,4 @@ NNOOTTEESS
 
 
 Git 2.17.0                        04/02/2018                            GIT(1)
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>makietan</name></author><category term="git" /><summary type="html">``` NNAAMMEE git - the stupid content tracker</summary></entry><entry><title type="html">Travis CI をやめて GitHub Action に変更した</title><link href="https://makietan.github.io/tech/github/2021/09/22/report.html" rel="alternate" type="text/html" title="Travis CI をやめて GitHub Action に変更した" /><published>2021-09-22T00:00:00+09:00</published><updated>2021-09-22T00:00:00+09:00</updated><id>https://makietan.github.io/tech/github/2021/09/22/report</id><content type="html" xml:base="https://makietan.github.io/tech/github/2021/09/22/report.html">&lt;p&gt;TravisCIが急に動かなくなったので変えた。
-どうやらパブリックでも有料になるらしい。
-そろそろ厳しい感じかな？
-もう使うことはないだろう。&lt;/p&gt;
-
-&lt;p&gt;今までもそこそこ不安定だったり、タスクを止められたりしたので
-いずれこのタイミングが来るだろうなと思っていた。&lt;/p&gt;
-
-&lt;p&gt;他のやつで設定したことがあったので特に難なく移行できた。&lt;/p&gt;
-
-&lt;p&gt;知見はあらかじめ得ておくものだなぁ。&lt;/p&gt;</content><author><name>makietan</name></author><category term="tech" /><category term="github" /><summary type="html">TravisCIが急に動かなくなったので変えた。 どうやらパブリックでも有料になるらしい。 そろそろ厳しい感じかな？ もう使うことはないだろう。</summary></entry></feed>
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>makietan</name></author><category term="git" /><summary type="html">``` NNAAMMEE git - the stupid content tracker</summary></entry></feed>
