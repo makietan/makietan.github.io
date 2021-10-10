@@ -1,4 +1,27 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2021-10-09T12:10:01+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">日報</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">久しぶりに大戸屋でもろみチキンを食べた</title><link href="https://makietan.github.io/gourmet/2021/10/09/report.html" rel="alternate" type="text/html" title="久しぶりに大戸屋でもろみチキンを食べた" /><published>2021-10-09T00:00:00+09:00</published><updated>2021-10-09T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2021/10/09/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2021/10/09/report.html">&lt;p&gt;&lt;u&gt;木の子ごはんともろみチキンの炭火焼き定食(930)&lt;/u&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2021-10-10T12:14:28+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">日報</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">ジョナサンの日替わりランチが安い</title><link href="https://makietan.github.io/gourmet/2021/10/10/report.html" rel="alternate" type="text/html" title="ジョナサンの日替わりランチが安い" /><published>2021-10-10T00:00:00+09:00</published><updated>2021-10-10T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2021/10/10/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2021/10/10/report.html">&lt;p&gt;&lt;u&gt;日替わりランチ 木 ハンバーグてりやきソース&amp;amp;あじフライ(659)&lt;/u&gt;&lt;/p&gt;
+
+&lt;div class=&quot;trim&quot;&gt;
+  &lt;div class=&quot;trim__item&quot;&gt;
+    &lt;a href=&quot;https://makietan.github.io/assets/images/2021-10-10-report/12-38-08.png&quot;&gt;
+      &lt;img class=&quot;one&quot; src=&quot;https://makietan.github.io/assets/thumbnail/2021-10-10-report/12-38-08.png&quot; /&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;価格よりカロリーが取れる食品はコスパがよすぎる説。
+ただずっとこれを食べ続けるには根性が必要になりそう。&lt;/p&gt;
+
+&lt;p&gt;近くにあったジョナサンとガストは潰れてしまったので遠征も必要になり、
+食べ続けることができないから深く考えなくていいかな。&lt;/p&gt;
+
+&lt;h2 id=&quot;カロリー&quot;&gt;カロリー&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;617kcal&lt;/li&gt;
+  &lt;li&gt;塩分 3.9g&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;（ライス・パンの塩分・カロリーは除く）&lt;/p&gt;</content><author><name>makietan</name></author><category term="gourmet" /><summary type="html">日替わりランチ 木 ハンバーグてりやきソース&amp;amp;あじフライ(659)</summary></entry><entry><title type="html">久しぶりに大戸屋でもろみチキンを食べた</title><link href="https://makietan.github.io/gourmet/2021/10/09/report.html" rel="alternate" type="text/html" title="久しぶりに大戸屋でもろみチキンを食べた" /><published>2021-10-09T00:00:00+09:00</published><updated>2021-10-09T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2021/10/09/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2021/10/09/report.html">&lt;p&gt;&lt;u&gt;木の子ごはんともろみチキンの炭火焼き定食(930)&lt;/u&gt;&lt;/p&gt;
 
 &lt;div class=&quot;trim&quot;&gt;
   &lt;div class=&quot;trim__item&quot;&gt;
@@ -451,12 +474,4 @@ Googleはキチガイしかいないのだろうか？
 はっきり言って異常だ。
 どう設計したらこんなクソになるんだろうか。不思議である。
 まともな思考ができないのだろうな。
-そんなのがChromeを開発しているなんて最悪だよ。&lt;/p&gt;</content><author><name>makietan</name></author><category term="google" /><summary type="html">外部リンクを開いたら勝手にクラッシュして復元ダイアログが勝手に消えて復元できなくなった。 あまりにも酷い挙動である。 Googleはキチガイしかいないのだろうか？ 勝手にクラッシュしてデータを全部消すという選択肢が存在するのだから。</summary></entry><entry><title type="html">近畿日本鉄道の権利利確日過ぎました</title><link href="https://makietan.github.io/stock/2021/10/01/report.html" rel="alternate" type="text/html" title="近畿日本鉄道の権利利確日過ぎました" /><published>2021-10-01T00:00:00+09:00</published><updated>2021-10-01T00:00:00+09:00</updated><id>https://makietan.github.io/stock/2021/10/01/report</id><content type="html" xml:base="https://makietan.github.io/stock/2021/10/01/report.html">&lt;p&gt;さて、今度の帰省は近鉄を使うか。&lt;/p&gt;
-
-&lt;p&gt;時間さえ合えば、ひのとりにでも乗りたい。
-ひのとりの特急料金+αはだいたい3000円くらい払えばいい。&lt;/p&gt;
-
-&lt;p&gt;アーバンライナーとか色々乗り換えて大阪阿部野橋に行くのもありか。&lt;/p&gt;
-
-&lt;p&gt;近鉄電車のダメなところは難波と大阪阿部野橋のアクセスが最悪なところだ。
-ここさえ繋がっていれば最強に便利な電車だったのに。&lt;/p&gt;</content><author><name>makietan</name></author><category term="stock" /><summary type="html">さて、今度の帰省は近鉄を使うか。</summary></entry></feed>
+そんなのがChromeを開発しているなんて最悪だよ。&lt;/p&gt;</content><author><name>makietan</name></author><category term="google" /><summary type="html">外部リンクを開いたら勝手にクラッシュして復元ダイアログが勝手に消えて復元できなくなった。 あまりにも酷い挙動である。 Googleはキチガイしかいないのだろうか？ 勝手にクラッシュしてデータを全部消すという選択肢が存在するのだから。</summary></entry></feed>
