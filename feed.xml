@@ -1,9 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2021-10-12T12:10:44+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">日報</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">スパロボDDの第11回迎撃戦経過報告（10/4分）メモ</title><link href="https://makietan.github.io/game/srwdd/2021/10/12/report.html" rel="alternate" type="text/html" title="スパロボDDの第11回迎撃戦経過報告（10/4分）メモ" /><published>2021-10-12T00:00:00+09:00</published><updated>2021-10-12T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2021/10/12/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2021/10/12/report.html">&lt;h2 id=&quot;エリア1&quot;&gt;エリア1&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2021-10-12T16:22:09+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">日報</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">スパロボDDの第11回迎撃戦経過報告（10/9分）メモ</title><link href="https://makietan.github.io/game/srwdd/2021/10/12/report.html" rel="alternate" type="text/html" title="スパロボDDの第11回迎撃戦経過報告（10/9分）メモ" /><published>2021-10-12T00:00:00+09:00</published><updated>2021-10-12T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2021/10/12/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2021/10/12/report.html">&lt;h2 id=&quot;エリア1&quot;&gt;エリア1&lt;/h2&gt;
 
 &lt;h3 id=&quot;boss&quot;&gt;BOSS&lt;/h3&gt;
 
 &lt;ul&gt;
   &lt;li&gt;弱点属性：打撃/斬撃、打撃/実弾、斬撃/実弾&lt;/li&gt;
+  &lt;li&gt;タイプ　：防御&amp;amp;回避、攻撃&amp;amp;防御、攻撃&amp;amp;防御&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;スコアボーナス&quot;&gt;スコアボーナス&lt;/h3&gt;
@@ -17,18 +18,18 @@
 &lt;h3 id=&quot;機体&quot;&gt;機体&lt;/h3&gt;
 
 &lt;ol&gt;
-  &lt;li&gt;アフロダイA&lt;/li&gt;
   &lt;li&gt;真ゲッター2&lt;/li&gt;
+  &lt;li&gt;アフロダイA&lt;/li&gt;
   &lt;li&gt;ガンダムキュリオス&lt;/li&gt;
-  &lt;li&gt;M9 ガーンズバック&lt;/li&gt;
   &lt;li&gt;KG-7 アレイオン（ユキ）&lt;/li&gt;
+  &lt;li&gt;ゼーガペイン アルティール&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;h3 id=&quot;サブパーツ&quot;&gt;サブパーツ&lt;/h3&gt;
 
 &lt;ol&gt;
-  &lt;li&gt;故郷への想い&lt;/li&gt;
   &lt;li&gt;女神の休日&lt;/li&gt;
+  &lt;li&gt;故郷への想い&lt;/li&gt;
   &lt;li&gt;蒼き空への憧憬&lt;/li&gt;
   &lt;li&gt;シーサイド・ツインズ&lt;/li&gt;
   &lt;li&gt;フェラリオの輝き&lt;/li&gt;
@@ -76,9 +77,9 @@
 &lt;ol&gt;
   &lt;li&gt;平和の歌&lt;/li&gt;
   &lt;li&gt;新しき年を往く歩み&lt;/li&gt;
+  &lt;li&gt;聖夜の贈り物&lt;/li&gt;
   &lt;li&gt;タービンズの頼もしい助っ人&lt;/li&gt;
-  &lt;li&gt;雪の中で差し出された手&lt;/li&gt;
-  &lt;li&gt;天真爛漫な耳長族の魔法使い&lt;/li&gt;
+  &lt;li&gt;白雪の中の贈り物&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;h3 id=&quot;アビリティチップ-1&quot;&gt;アビリティチップ&lt;/h3&gt;
@@ -86,8 +87,8 @@
 &lt;ol&gt;
   &lt;li&gt;攻撃力プラス&lt;/li&gt;
   &lt;li&gt;攻撃力・照準値プラス&lt;/li&gt;
-  &lt;li&gt;ビーム強化&lt;/li&gt;
   &lt;li&gt;特殊強化&lt;/li&gt;
+  &lt;li&gt;ビーム強化&lt;/li&gt;
   &lt;li&gt;必殺技威力アップ&lt;/li&gt;
 &lt;/ol&gt;
 
@@ -110,9 +111,9 @@
 
 &lt;ol&gt;
   &lt;li&gt;ウインザート&lt;/li&gt;
-  &lt;li&gt;フリーダムガンダム&lt;/li&gt;
-  &lt;li&gt;紅蓮弐式&lt;/li&gt;
   &lt;li&gt;アクアビート&lt;/li&gt;
+  &lt;li&gt;紅蓮弐式&lt;/li&gt;
+  &lt;li&gt;フリーダムガンダム&lt;/li&gt;
   &lt;li&gt;ジャスティスガンダム&lt;/li&gt;
 &lt;/ol&gt;
 
@@ -131,31 +132,44 @@
 &lt;ol&gt;
   &lt;li&gt;攻撃力・照準値プラス&lt;/li&gt;
   &lt;li&gt;照準値プラス&lt;/li&gt;
-  &lt;li&gt;攻撃力プラス&lt;/li&gt;
   &lt;li&gt;照準値アップ&lt;/li&gt;
-  &lt;li&gt;特殊強化&lt;/li&gt;
+  &lt;li&gt;攻撃力プラス&lt;/li&gt;
+  &lt;li&gt;照準値アップ（気力）&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;h2 id=&quot;エリア4&quot;&gt;エリア4&lt;/h2&gt;
+
+&lt;h3 id=&quot;boss-3&quot;&gt;BOSS&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;弱点属性：斬撃/実弾、斬撃、斬撃/実弾&lt;/li&gt;
+  &lt;li&gt;タイプ　：防御&amp;amp;命中、防御&amp;amp;命中、攻撃&amp;amp;防御&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;スコアボーナス-3&quot;&gt;スコアボーナス&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;オーバーダメージ：3%&lt;/li&gt;
+  &lt;li&gt;気力MAX撃破：60%&lt;/li&gt;
+  &lt;li&gt;残存機体数：4500&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h3 id=&quot;機体-3&quot;&gt;機体&lt;/h3&gt;
 
 &lt;ol&gt;
   &lt;li&gt;エヴァンゲリオン2号機&lt;/li&gt;
-  &lt;li&gt;マジンカイザー&lt;/li&gt;
   &lt;li&gt;グランゾン&lt;/li&gt;
+  &lt;li&gt;マジンカイザー&lt;/li&gt;
   &lt;li&gt;ゲッターノワール1号機&lt;/li&gt;
-  &lt;li&gt;ヴァルヴレイヴⅠ&lt;/li&gt;
+  &lt;li&gt;真ゲッター1&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;h3 id=&quot;サブパーツ-3&quot;&gt;サブパーツ&lt;/h3&gt;
 
 &lt;ol&gt;
   &lt;li&gt;タービンズの頼もしい助っ人&lt;/li&gt;
+  &lt;li&gt;真夏の任務&lt;/li&gt;
   &lt;li&gt;白雪の中の贈り物&lt;/li&gt;
   &lt;li&gt;平和の歌&lt;/li&gt;
-  &lt;li&gt;真夏の任務&lt;/li&gt;
-  &lt;li&gt;ビーチサイドの魔女&lt;/li&gt;
+  &lt;li&gt;メグの激励（ユニス）&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;h3 id=&quot;アビリティチップ-3&quot;&gt;アビリティチップ&lt;/h3&gt;
@@ -173,21 +187,21 @@
 &lt;h3 id=&quot;機体-4&quot;&gt;機体&lt;/h3&gt;
 
 &lt;ol&gt;
-  &lt;li&gt;獣神ライガー&lt;/li&gt;
   &lt;li&gt;メラフディン&lt;/li&gt;
   &lt;li&gt;Hi-ν ガンダム&lt;/li&gt;
-  &lt;li&gt;真ゲッター1&lt;/li&gt;
+  &lt;li&gt;獣神ライガー&lt;/li&gt;
   &lt;li&gt;ガウェイン&lt;/li&gt;
+  &lt;li&gt;ユニコーンガンダム&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;h3 id=&quot;サブパーツ-4&quot;&gt;サブパーツ&lt;/h3&gt;
 
 &lt;ol&gt;
   &lt;li&gt;正反対な双子の巫女の応援&lt;/li&gt;
-  &lt;li&gt;平和の歌&lt;/li&gt;
   &lt;li&gt;シーサイド・ツインズ&lt;/li&gt;
+  &lt;li&gt;平和の歌&lt;/li&gt;
   &lt;li&gt;タービンズの頼もしい助っ人&lt;/li&gt;
-  &lt;li&gt;ジャンク屋パートナー&lt;/li&gt;
+  &lt;li&gt;白雪の中の贈り物&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;h3 id=&quot;アビリティチップ-4&quot;&gt;アビリティチップ&lt;/h3&gt;
@@ -202,50 +216,25 @@
 
 &lt;h1 id=&quot;自分のパーティー&quot;&gt;自分のパーティー&lt;/h1&gt;
 
+&lt;p&gt;Aランク 108位&lt;/p&gt;
+
 &lt;h2 id=&quot;エリア5-1&quot;&gt;エリア5&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;デビルマン&lt;/li&gt;
-  &lt;li&gt;真ゲッター1&lt;/li&gt;
-  &lt;li&gt;ガンダムグシオンリベイク&lt;/li&gt;
-  &lt;li&gt;ダルタニアス&lt;/li&gt;
-&lt;/ul&gt;
 
-&lt;h2 id=&quot;エリア4-1&quot;&gt;エリア4&lt;/h2&gt;
 &lt;ul&gt;
-  &lt;li&gt;ARX-7 アーバレスト&lt;/li&gt;
-  &lt;li&gt;ゼンカイオー&lt;/li&gt;
-  &lt;li&gt;ゲッターノワール1号機&lt;/li&gt;
-  &lt;li&gt;エヴァンゲリオン零号機&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;エリア3-1&quot;&gt;エリア3&lt;/h2&gt;
-
-&lt;h3 id=&quot;機体-5&quot;&gt;機体&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;フリーダムガンダム
+  &lt;li&gt;57253pt
     &lt;ul&gt;
-      &lt;li&gt;MAIN
-        &lt;ul&gt;
-          &lt;li&gt;バラエーナプラズマ収束ビーム砲 / LV100 / +1&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;必殺技
-        &lt;ul&gt;
-          &lt;li&gt;ビームサーベル連続攻撃 / LV100 / +2&lt;/li&gt;
-          &lt;li&gt;ビームサーベル / LV90 / +5&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;SUB
-        &lt;ul&gt;
-          &lt;li&gt;平和への訴え / LV100&lt;/li&gt;
-          &lt;li&gt;平和の歌 / LV100&lt;/li&gt;
-          &lt;li&gt;ドルイドシステム / LV100&lt;/li&gt;
-          &lt;li&gt;ファントム・クライ / LV100&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
+      &lt;li&gt;撃破スコア：33158pt&lt;/li&gt;
+      &lt;li&gt;オーバーダメージ：5281pt&lt;/li&gt;
+      &lt;li&gt;オーバー回避率：5314pt&lt;/li&gt;
+      &lt;li&gt;残存機体数：13500pt&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;ARX-7 アーバレスト
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;機体-5&quot;&gt;機体&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;ARX-7 アーバレスト 48%
     &lt;ul&gt;
       &lt;li&gt;MAIN
         &lt;ul&gt;
@@ -260,38 +249,27 @@
       &lt;/li&gt;
       &lt;li&gt;SUB
         &lt;ul&gt;
-          &lt;li&gt;女神の休日 / LV100 / +5&lt;/li&gt;
-          &lt;li&gt;ハリケーンスマッシャー / LV100&lt;/li&gt;
-          &lt;li&gt;クロスレンジ・アタック / LV100 / +5&lt;/li&gt;
-          &lt;li&gt;ガトリング砲 / LV100&lt;/li&gt;
+          &lt;li&gt;タイプ強化Ⅳ・運動性（攻撃・回避）&lt;/li&gt;
+          &lt;li&gt;照準値アップⅢ&lt;/li&gt;
+          &lt;li&gt;ダメージアップⅢ（実弾）&lt;/li&gt;
+          &lt;li&gt;ダメージアップⅢ（実弾）&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;アビリティ
+        &lt;ul&gt;
+          &lt;li&gt;攻撃力・照準値プラス ★20&lt;/li&gt;
+          &lt;li&gt;斬撃強化 ★19&lt;/li&gt;
+          &lt;li&gt;特殊強化 ★17&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;EXアビリティ
+        &lt;ul&gt;
+          &lt;li&gt;攻撃力・運動性プラス ★20&lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;紅蓮弐式
-    &lt;ul&gt;
-      &lt;li&gt;MAIN
-        &lt;ul&gt;
-          &lt;li&gt;連斬 / LV100&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;必殺技
-        &lt;ul&gt;
-          &lt;li&gt;輻射波動機構 / LV100 / +1&lt;/li&gt;
-          &lt;li&gt;飛燕連撃 / LV100 / +3&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;SUB
-        &lt;ul&gt;
-          &lt;li&gt;平和の歌 / LV100&lt;/li&gt;
-          &lt;li&gt;プールサイドのアイドル / LV100&lt;/li&gt;
-          &lt;li&gt;世にも不思議な呪文 / LV100&lt;/li&gt;
-          &lt;li&gt;日の出への願い / LV100 / +5&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;ゼンカイオー ジュラガオーン
+  &lt;li&gt;ゼンカイオー ジュラガオーン 6%
     &lt;ul&gt;
       &lt;li&gt;MAIN
         &lt;ul&gt;
@@ -306,10 +284,353 @@
       &lt;/li&gt;
       &lt;li&gt;SUB
         &lt;ul&gt;
-          &lt;li&gt;真夏の任務 / LV100 / +5&lt;/li&gt;
-          &lt;li&gt;仲間の支えたる少女 / LV100&lt;/li&gt;
-          &lt;li&gt;ギアスを授けた魔女 / LV100&lt;/li&gt;
-          &lt;li&gt;シンジのバックアップ / LV100&lt;/li&gt;
+          &lt;li&gt;タイプ強化Ⅳ（攻撃）&lt;/li&gt;
+          &lt;li&gt;タイプ強化Ⅳ・防御（攻撃）（楯剣人）&lt;/li&gt;
+          &lt;li&gt;タイプ強化Ⅲ（攻撃）&lt;/li&gt;
+          &lt;li&gt;タイプ強化Ⅲ・ダメージ増加（攻撃）&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;アビリティ
+        &lt;ul&gt;
+          &lt;li&gt;回避率アップ（命中タイプ） ★5&lt;/li&gt;
+          &lt;li&gt;斬撃強化 ★20&lt;/li&gt;
+          &lt;li&gt;攻撃力プラス ★20&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;ガンダム・グシオンリベイク 16%
+    &lt;ul&gt;
+      &lt;li&gt;MAIN
+        &lt;ul&gt;
+          &lt;li&gt;グシオンリベイクハルバード / LV100 / +1&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;必殺技
+        &lt;ul&gt;
+          &lt;li&gt;滑腔砲 / LV90 / +5&lt;/li&gt;
+          &lt;li&gt;ショートアックス投擲 / LV80 / +5&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;SUB
+        &lt;ul&gt;
+          &lt;li&gt;移動力プラス（攻撃・防御）&lt;/li&gt;
+          &lt;li&gt;タイプ強化Ⅳ・攻撃（攻撃・防御）&lt;/li&gt;
+          &lt;li&gt;タイプ強化Ⅳ・攻撃（攻撃・防御）&lt;/li&gt;
+          &lt;li&gt;タイプ強化Ⅳ（攻撃・防御）（戦部ワタル）&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;アビリティ
+        &lt;ul&gt;
+          &lt;li&gt;斬撃強化 ★19&lt;/li&gt;
+          &lt;li&gt;HPアップ ★12&lt;/li&gt;
+          &lt;li&gt;防御力・照準値プラス ★7&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;デビルマン 31%
+    &lt;ul&gt;
+      &lt;li&gt;MAIN
+        &lt;ul&gt;
+          &lt;li&gt;デビルアロー / LV100 / +1&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;必殺技
+        &lt;ul&gt;
+          &lt;li&gt;デビルウイング / LV100 / +5&lt;/li&gt;
+          &lt;li&gt;熱線 / LV90 / +5&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;SUB
+        &lt;ul&gt;
+          &lt;li&gt;タイプ強化Ⅳ・運動性（攻撃・回避）&lt;/li&gt;
+          &lt;li&gt;ディメンションドライバー&lt;/li&gt;
+          &lt;li&gt;ディメンションドライバー&lt;/li&gt;
+          &lt;li&gt;ダメージアップⅢ（打撃）&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;アビリティ
+        &lt;ul&gt;
+          &lt;li&gt;ダメージアップ（回避タイプ） ★1&lt;/li&gt;
+          &lt;li&gt;ダメージ軽減（攻撃タイプ） ★9&lt;/li&gt;
+          &lt;li&gt;攻撃力・照準値プラス ★12&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;エリア4-1&quot;&gt;エリア4&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;66704pt
+    &lt;ul&gt;
+      &lt;li&gt;撃破スコア：30454pt&lt;/li&gt;
+      &lt;li&gt;オーバーダメージ：7231pt&lt;/li&gt;
+      &lt;li&gt;気力MAX撃破：11019pt&lt;/li&gt;
+      &lt;li&gt;残存機体数：18000pt&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;機体-6&quot;&gt;機体&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;エヴァンゲリオン2号機 27%
+    &lt;ul&gt;
+      &lt;li&gt;MAIN
+        &lt;ul&gt;
+          &lt;li&gt;連続放火 / LV80&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;必殺技
+        &lt;ul&gt;
+          &lt;li&gt;サンダースピア / LV100&lt;/li&gt;
+          &lt;li&gt;超電磁洋弓銃 / LV90 / +1&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;SUB
+        &lt;ul&gt;
+          &lt;li&gt;タイプ強化Ⅳ（攻撃）&lt;/li&gt;
+          &lt;li&gt;タイプ強化Ⅲ（攻撃）&lt;/li&gt;
+          &lt;li&gt;タイプ強化Ⅲ（攻撃）&lt;/li&gt;
+          &lt;li&gt;タイプ強化Ⅲ（攻撃）&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;アビリティ
+        &lt;ul&gt;
+          &lt;li&gt;攻撃力・防御力プラス ★10&lt;/li&gt;
+          &lt;li&gt;防御力・照準値プラス ★13&lt;/li&gt;
+          &lt;li&gt;ダメージアップ（防御タイプ） ★18&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;フリーダムガンダム 35%
+    &lt;ul&gt;
+      &lt;li&gt;MAIN
+        &lt;ul&gt;
+          &lt;li&gt;ハラエーナプラズマ収束ビーム砲 / LV100 / +1&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;必殺技
+        &lt;ul&gt;
+          &lt;li&gt;ビームサーベル連続攻撃 / LV100 / +2&lt;/li&gt;
+          &lt;li&gt;ビームサーベル / LV90 / +5&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;SUB
+        &lt;ul&gt;
+          &lt;li&gt;タイプ強化Ⅲ（攻撃・命中）&lt;/li&gt;
+          &lt;li&gt;タイプ強化Ⅳ（攻撃・命中）&lt;/li&gt;
+          &lt;li&gt;照準値アップⅢ&lt;/li&gt;
+          &lt;li&gt;攻撃力アップⅢ&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;アビリティ
+        &lt;ul&gt;
+          &lt;li&gt;攻撃力プラス ★14&lt;/li&gt;
+          &lt;li&gt;ビーム耐性（バリア） ★12&lt;/li&gt;
+          &lt;li&gt;バリア貫通 ★8&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;R-1 16%
+    &lt;ul&gt;
+      &lt;li&gt;MAIN
+        &lt;ul&gt;
+          &lt;li&gt;T-LINKナックル / LV100 / +5&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;必殺技
+        &lt;ul&gt;
+          &lt;li&gt;ブーステッド・ライフル / LV90 / +5&lt;/li&gt;
+          &lt;li&gt;G・リボルヴァー / LV80 / +5&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;SUB
+        &lt;ul&gt;
+          &lt;li&gt;タイプ強化Ⅳ（攻撃・命中）&lt;/li&gt;
+          &lt;li&gt;攻撃力プラスⅢ&lt;/li&gt;
+          &lt;li&gt;タイプ強化Ⅲ（攻撃・回避）&lt;/li&gt;
+          &lt;li&gt;タイプ強化Ⅲ（攻撃・回避）&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;アビリティ
+        &lt;ul&gt;
+          &lt;li&gt;HPアップ ★5&lt;/li&gt;
+          &lt;li&gt;斬撃強化 ★13&lt;/li&gt;
+          &lt;li&gt;攻撃力・照準値プラス ★13&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;エヴァンゲリオン零号機 19%
+    &lt;ul&gt;
+      &lt;li&gt;MAIN
+        &lt;ul&gt;
+          &lt;li&gt;デュアルソー / LV100&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;必殺技
+        &lt;ul&gt;
+          &lt;li&gt;ガトリング砲 / LV100 / +5&lt;/li&gt;
+          &lt;li&gt;スナイパーライフル / LV100 / +5&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;SUB
+        &lt;ul&gt;
+          &lt;li&gt;タイプ強化Ⅲ・ダメージ軽減（防御）&lt;/li&gt;
+          &lt;li&gt;タイプ強化Ⅲ・ダメージ軽減（防御）&lt;/li&gt;
+          &lt;li&gt;タイプ強化Ⅳ（防御）&lt;/li&gt;
+          &lt;li&gt;タイプ強化Ⅲ・ダメージ軽減（防御）&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;アビリティ
+        &lt;ul&gt;
+          &lt;li&gt;攻撃力プラス ★20&lt;/li&gt;
+          &lt;li&gt;HPプラス ★12&lt;/li&gt;
+          &lt;li&gt;ビーム耐性（バリア） ★16&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;エリア3-1&quot;&gt;エリア3&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;60456pt
+    &lt;ul&gt;
+      &lt;li&gt;撃破スコア：30484pt&lt;/li&gt;
+      &lt;li&gt;オーバー命中率：5531pt&lt;/li&gt;
+      &lt;li&gt;連続撃破：6441pt&lt;/li&gt;
+      &lt;li&gt;残存機体数：18000pt&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;機体-7&quot;&gt;機体&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;ウインザート 21%
+    &lt;ul&gt;
+      &lt;li&gt;MAIN
+        &lt;ul&gt;
+          &lt;li&gt;ハリケーンスマッシャー / LV100 / +1&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;必殺技
+        &lt;ul&gt;
+          &lt;li&gt;サンダーエクスプロウラー / LV85 / +5&lt;/li&gt;
+          &lt;li&gt;ビートウェイブ / LV80 / +5&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;SUB
+        &lt;ul&gt;
+          &lt;li&gt;タイプ強化Ⅳ・攻撃（命中）&lt;/li&gt;
+          &lt;li&gt;タイプ強化Ⅲ・攻撃（命中）&lt;/li&gt;
+          &lt;li&gt;タイプ強化Ⅳ・攻撃（命中）&lt;/li&gt;
+          &lt;li&gt;タイプ強化Ⅳ・攻撃（命中）（ガス山本）&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;アビリティ
+        &lt;ul&gt;
+          &lt;li&gt;打撃耐性（バリア） ★3&lt;/li&gt;
+          &lt;li&gt;特殊耐性（バリア） ★13&lt;/li&gt;
+          &lt;li&gt;攻撃力プラス ★14&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;アクアビート 27%
+    &lt;ul&gt;
+      &lt;li&gt;MAIN
+        &lt;ul&gt;
+          &lt;li&gt;ウェーブカイザー / LV85 / +1&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;必殺技
+        &lt;ul&gt;
+          &lt;li&gt;サーペントクラスプ / LV85 / +5&lt;/li&gt;
+          &lt;li&gt;チェーンブレイカー / LV80 / +5&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;SUB
+        &lt;ul&gt;
+          &lt;li&gt;タイプ強化Ⅲ（攻撃・命中）&lt;/li&gt;
+          &lt;li&gt;タイプ強化Ⅲ（攻撃・命中）&lt;/li&gt;
+          &lt;li&gt;タイプ強化Ⅲ（攻撃・命中）&lt;/li&gt;
+          &lt;li&gt;タイプ強化Ⅳ（攻撃・命中）（ラビ）&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;アビリティ
+        &lt;ul&gt;
+          &lt;li&gt;打撃強化 ★15&lt;/li&gt;
+          &lt;li&gt;打撃耐性（バリア） ★14&lt;/li&gt;
+          &lt;li&gt;攻撃力・防御力プラス ★5&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;紅蓮弐式 24%
+    &lt;ul&gt;
+      &lt;li&gt;MAIN
+        &lt;ul&gt;
+          &lt;li&gt;連斬 / LV100&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;必殺技
+        &lt;ul&gt;
+          &lt;li&gt;輻射波動機構 / LV100 / +1&lt;/li&gt;
+          &lt;li&gt;飛燕連撃 / LV100 / +3&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;SUB
+        &lt;ul&gt;
+          &lt;li&gt;タイプ強化Ⅲ（攻撃・命中）&lt;/li&gt;
+          &lt;li&gt;タイプ強化Ⅲ（攻撃・命中）&lt;/li&gt;
+          &lt;li&gt;タイプ強化Ⅲ（攻撃・命中）&lt;/li&gt;
+          &lt;li&gt;タイプ強化Ⅳ（攻撃・命中）&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;アビリティ
+        &lt;ul&gt;
+          &lt;li&gt;防御力プラス ★15&lt;/li&gt;
+          &lt;li&gt;斬撃強化 ★15&lt;/li&gt;
+          &lt;li&gt;HPプラス ★5&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;ディーダリオン 27%
+    &lt;ul&gt;
+      &lt;li&gt;MAIN
+        &lt;ul&gt;
+          &lt;li&gt;カアス・ハーマー / LV100&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;必殺技
+        &lt;ul&gt;
+          &lt;li&gt;オウル・ハーガー / LV100 / +1&lt;/li&gt;
+          &lt;li&gt;ヘレブ・ネガー / LV90 / +5&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;SUB
+        &lt;ul&gt;
+          &lt;li&gt;タイプ強化Ⅲ（攻撃・防御）&lt;/li&gt;
+          &lt;li&gt;タイプ強化Ⅳ（攻撃・防御）&lt;/li&gt;
+          &lt;li&gt;タイプ強化Ⅳ（攻撃・防御）&lt;/li&gt;
+          &lt;li&gt;タイプ強化Ⅳ・攻撃（攻撃・防御）（イヌイ・アサヒ）&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;アビリティ
+        &lt;ul&gt;
+          &lt;li&gt;防御力・運動性プラス ★16&lt;/li&gt;
+          &lt;li&gt;攻撃力・運動性プラス ★10&lt;/li&gt;
+          &lt;li&gt;命中率アップ（回避タイプ） ★4&lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
     &lt;/ul&gt;
@@ -318,10 +639,56 @@
 
 &lt;h2 id=&quot;エリア2-1&quot;&gt;エリア2&lt;/h2&gt;
 
-&lt;h3 id=&quot;機体-6&quot;&gt;機体&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;110383pt
+    &lt;ul&gt;
+      &lt;li&gt;撃破スコア：62136pt&lt;/li&gt;
+      &lt;li&gt;連続撃破：16175pt&lt;/li&gt;
+      &lt;li&gt;同時撃破：14072pt&lt;/li&gt;
+      &lt;li&gt;残存機体数：18000pt&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;機体-8&quot;&gt;機体&lt;/h3&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Hi-ν ガンダム
+  &lt;li&gt;グランゾン 23%
+    &lt;ul&gt;
+      &lt;li&gt;MAIN
+        &lt;ul&gt;
+          &lt;li&gt;グラビトロンカノン / LV100 / +5&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;必殺技
+        &lt;ul&gt;
+          &lt;li&gt;ワームスマッシャー / LV100 / +5&lt;/li&gt;
+          &lt;li&gt;ブラックホールクラスター / LV100&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;SUB
+        &lt;ul&gt;
+          &lt;li&gt;タイプ強化Ⅳ・攻撃（バランス）&lt;/li&gt;
+          &lt;li&gt;タイプ強化Ⅲ・攻撃（バランス）&lt;/li&gt;
+          &lt;li&gt;タイプ強化Ⅳ・攻撃（バランス）&lt;/li&gt;
+          &lt;li&gt;タイプ強化Ⅲ（バランス）&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;アビリティ
+        &lt;ul&gt;
+          &lt;li&gt;防御力・運動性プラス ★15&lt;/li&gt;
+          &lt;li&gt;攻撃力・照準値プラス ★18&lt;/li&gt;
+          &lt;li&gt;必殺技威力アップ ★13&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;EXアビリティ
+        &lt;ul&gt;
+          &lt;li&gt;特殊強化 ★10&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Hi-ν ガンダム 20%
     &lt;ul&gt;
       &lt;li&gt;MAIN
         &lt;ul&gt;
@@ -331,20 +698,57 @@
       &lt;li&gt;必殺技
         &lt;ul&gt;
           &lt;li&gt;フィン・ファンネル / LV100&lt;/li&gt;
-          &lt;li&gt;ビーム・ライフル / LV80 +5&lt;/li&gt;
+          &lt;li&gt;ビーム・ライフル / LV80 / +5&lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
       &lt;li&gt;SUB
         &lt;ul&gt;
-          &lt;li&gt;ジャンク屋パートナー / LV100&lt;/li&gt;
-          &lt;li&gt;理解への対話 / LV100&lt;/li&gt;
-          &lt;li&gt;高貴なる祈り / LV100&lt;/li&gt;
-          &lt;li&gt;素直になれない世話焼き女子高生 / LV100 +1&lt;/li&gt;
+          &lt;li&gt;タイプ強化Ⅳ（攻撃・回避）&lt;/li&gt;
+          &lt;li&gt;タイプ強化Ⅲ（攻撃・回避）&lt;/li&gt;
+          &lt;li&gt;タイプ強化Ⅲ（攻撃・回避）&lt;/li&gt;
+          &lt;li&gt;タイプ強化Ⅲ（攻撃・回避）&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;アビリティ
+        &lt;ul&gt;
+          &lt;li&gt;必殺技威力アップ ★8&lt;/li&gt;
+          &lt;li&gt;防御力プラス ★11&lt;/li&gt;
+          &lt;li&gt;攻撃力・照準値プラス ★11&lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;ユニコーンガンダム
+  &lt;li&gt;サイバスター 26%
+    &lt;ul&gt;
+      &lt;li&gt;MAIN
+        &lt;ul&gt;
+          &lt;li&gt;サイフラッシュ / LV100 / +1&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;必殺技
+        &lt;ul&gt;
+          &lt;li&gt;アカシックバスター / LV100 / +5&lt;/li&gt;
+          &lt;li&gt;バニティリッパー / LV100 / +5&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;SUB
+        &lt;ul&gt;
+          &lt;li&gt;移動力プラス（回避）&lt;/li&gt;
+          &lt;li&gt;タイプ強化Ⅲ（回避）&lt;/li&gt;
+          &lt;li&gt;タイプ強化Ⅲ（回避）&lt;/li&gt;
+          &lt;li&gt;タイプ強化Ⅲ（回避）&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;アビリティ
+        &lt;ul&gt;
+          &lt;li&gt;斬撃強化 ★12&lt;/li&gt;
+          &lt;li&gt;攻撃力プラス ★15&lt;/li&gt;
+          &lt;li&gt;ダメージアップ（回避タイプ） ★10&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;ユニコーンガンダム 29%
     &lt;ul&gt;
       &lt;li&gt;MAIN
         &lt;ul&gt;
@@ -359,56 +763,17 @@
       &lt;/li&gt;
       &lt;li&gt;SUB
         &lt;ul&gt;
-          &lt;li&gt;高貴なる祈り / LV100&lt;/li&gt;
-          &lt;li&gt;故郷への想い / LV100&lt;/li&gt;
-          &lt;li&gt;高貴なる祈り / LV100&lt;/li&gt;
-          &lt;li&gt;シーサイド・ツインズ / LV100 / +1&lt;/li&gt;
+          &lt;li&gt;タイプ強化Ⅲ（攻撃・回避）&lt;/li&gt;
+          &lt;li&gt;タイプ強化Ⅲ・運動性（攻撃・回避）&lt;/li&gt;
+          &lt;li&gt;タイプ強化Ⅲ（攻撃・回避）&lt;/li&gt;
+          &lt;li&gt;タイプ強化Ⅳ（攻撃・回避）&lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;サイバスター
-    &lt;ul&gt;
-      &lt;li&gt;MAIN
+      &lt;li&gt;アビリティ
         &lt;ul&gt;
-          &lt;li&gt;サイフラッシュ / LV100 / +1&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;必殺技
-        &lt;ul&gt;
-          &lt;li&gt;アカシックバスター / LV100 / +5&lt;/li&gt;
-          &lt;li&gt;バニティリッパー / LV90 / +5&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;SUB
-        &lt;ul&gt;
-          &lt;li&gt;トランザム連続攻撃 / LV100&lt;/li&gt;
-          &lt;li&gt;フェラリオの輝き / LV100&lt;/li&gt;
-          &lt;li&gt;凶暴性を備えた「反射」の人格 / LV100&lt;/li&gt;
-          &lt;li&gt;水泳部でのひととき / LV100&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;ゼーガペイン・アルティール
-    &lt;ul&gt;
-      &lt;li&gt;MAIN
-        &lt;ul&gt;
-          &lt;li&gt;ホロボルトプレッシャー / LV100&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;必殺技
-        &lt;ul&gt;
-          &lt;li&gt;ホロボルトグラビティ / LV100&lt;/li&gt;
-          &lt;li&gt;ホロニックブレード突撃 / LV100&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;SUB
-        &lt;ul&gt;
-          &lt;li&gt;平和の歌 / LV100&lt;/li&gt;
-          &lt;li&gt;平和への訴え / LV100&lt;/li&gt;
-          &lt;li&gt;プールサイドのアイドル / LV100&lt;/li&gt;
-          &lt;li&gt;パワーフレーム SSR / LV100 / +5&lt;/li&gt;
+          &lt;li&gt;ビーム強化 ★16&lt;/li&gt;
+          &lt;li&gt;必殺技威力アップ ★16&lt;/li&gt;
+          &lt;li&gt;ダメージアップ（攻撃タイプ） ★17&lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
     &lt;/ul&gt;
@@ -417,10 +782,51 @@
 
 &lt;h2 id=&quot;エリア1-1&quot;&gt;エリア1&lt;/h2&gt;
 
-&lt;h3 id=&quot;機体-7&quot;&gt;機体&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;97386pt
+    &lt;ul&gt;
+      &lt;li&gt;撃破スコア：43188pt&lt;/li&gt;
+      &lt;li&gt;オーバー命中率：12563pt&lt;/li&gt;
+      &lt;li&gt;オーバー回避率：23635pt&lt;/li&gt;
+      &lt;li&gt;残存機体数：18000pt&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;機体-9&quot;&gt;機体&lt;/h3&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;ゲッターノワール2号機
+  &lt;li&gt;M9 ガーンズバック（マオ） 14%
+    &lt;ul&gt;
+      &lt;li&gt;MAIN
+        &lt;ul&gt;
+          &lt;li&gt;超高速ミサイル / LV100 / +3&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;必殺技
+        &lt;ul&gt;
+          &lt;li&gt;大型単分子カッター / LV85 / +5&lt;/li&gt;
+          &lt;li&gt;ミサイルランチャー / LV90 / +5&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;SUB
+        &lt;ul&gt;
+          &lt;li&gt;タイプ強化Ⅳ・攻撃（バランス）&lt;/li&gt;
+          &lt;li&gt;タイプ強化Ⅲ（バランス）&lt;/li&gt;
+          &lt;li&gt;タイプ強化Ⅲ（バランス）&lt;/li&gt;
+          &lt;li&gt;タイプ強化Ⅳ・防御（バランス）&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;アビリティ
+        &lt;ul&gt;
+          &lt;li&gt;防御力・運動性プラス ★17&lt;/li&gt;
+          &lt;li&gt;必殺技威力アップ ★18&lt;/li&gt;
+          &lt;li&gt;防御力・照準値プラス ★5&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;ゲッターノワール2号機 45%
     &lt;ul&gt;
       &lt;li&gt;MAIN
         &lt;ul&gt;
@@ -435,15 +841,22 @@
       &lt;/li&gt;
       &lt;li&gt;SUB
         &lt;ul&gt;
-          &lt;li&gt;スリー・ラウンド・バースト / LV100 / +2&lt;/li&gt;
-          &lt;li&gt;スリー・ラウンド・バースト / LV100&lt;/li&gt;
-          &lt;li&gt;イーディフューザー / LV90 / +2&lt;/li&gt;
-          &lt;li&gt;憎めない喧嘩仲間 / LV100&lt;/li&gt;
+          &lt;li&gt;タイプ強化Ⅳ・照準値（バランス）&lt;/li&gt;
+          &lt;li&gt;タイプ強化Ⅳ・照準値（バランス）&lt;/li&gt;
+          &lt;li&gt;タイプ強化Ⅳ・運動性（バランス）&lt;/li&gt;
+          &lt;li&gt;タイプ強化Ⅳ（バランス）&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;アビリティ
+        &lt;ul&gt;
+          &lt;li&gt;攻撃力・運動性プラス ★13&lt;/li&gt;
+          &lt;li&gt;運動性プラス ★17&lt;/li&gt;
+          &lt;li&gt;実弾耐性（バリア） ★7&lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;アレクサンダ
+  &lt;li&gt;アレクサンダ 25%
     &lt;ul&gt;
       &lt;li&gt;MAIN
         &lt;ul&gt;
@@ -458,38 +871,22 @@
       &lt;/li&gt;
       &lt;li&gt;SUB
         &lt;ul&gt;
-          &lt;li&gt;レヴ・ラディエイター / LV100&lt;/li&gt;
-          &lt;li&gt;ディドの意志 / LV100&lt;/li&gt;
-          &lt;li&gt;カミーユを支え続けた少女 / LV100&lt;/li&gt;
-          &lt;li&gt;ビーム・サーベル（ハイパー） / LV80&lt;/li&gt;
+          &lt;li&gt;射撃プラス（命中・回避）&lt;/li&gt;
+          &lt;li&gt;タイプ強化Ⅲ（命中・回避）（大門恵留）&lt;/li&gt;
+          &lt;li&gt;タイプ強化Ⅲ（命中・回避）（カミーユ・ビダン）&lt;/li&gt;
+          &lt;li&gt;タイプ強化Ⅳ・運動性（命中・回避）&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;アビリティ
+        &lt;ul&gt;
+          &lt;li&gt;運動性（攻撃力）プラス・集中 ★17&lt;/li&gt;
+          &lt;li&gt;攻撃力プラス ★10&lt;/li&gt;
+          &lt;li&gt;照準値プラス ★10&lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;スコープドッグ
-    &lt;ul&gt;
-      &lt;li&gt;MAIN
-        &lt;ul&gt;
-          &lt;li&gt;レーザード・ライフル（CP） / LV100 / +5&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;必殺技
-        &lt;ul&gt;
-          &lt;li&gt;ソリッドシューター（CP） / LV90 / +5&lt;/li&gt;
-          &lt;li&gt;SMM2連装ミサイル（CP） / LV80 / +5&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;SUB
-        &lt;ul&gt;
-          &lt;li&gt;超高速ミサイル / LV100 / +3&lt;/li&gt;
-          &lt;li&gt;大天使を指揮する館長 / LV100&lt;/li&gt;
-          &lt;li&gt;第一の少女 / LV100&lt;/li&gt;
-          &lt;li&gt;ラッシング・ポッパー / LV100&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;スコープドッグRSC
+  &lt;li&gt;スコープドッグRSC 15%
     &lt;ul&gt;
       &lt;li&gt;MAIN
         &lt;ul&gt;
@@ -504,10 +901,17 @@
       &lt;/li&gt;
       &lt;li&gt;SUB
         &lt;ul&gt;
-          &lt;li&gt;レヴ・ラディエイター / LV100&lt;/li&gt;
-          &lt;li&gt;デュアルセンサー SSR / LV100 / +5&lt;/li&gt;
-          &lt;li&gt;高性能スラスター SSR / LV100 / +5&lt;/li&gt;
-          &lt;li&gt;精密射撃 / LV100 / +5&lt;/li&gt;
+          &lt;li&gt;射撃プラス（命中・回避）&lt;/li&gt;
+          &lt;li&gt;照準値プラスⅢ&lt;/li&gt;
+          &lt;li&gt;運動性プラスⅢ&lt;/li&gt;
+          &lt;li&gt;ダメージアップⅡ（実弾）&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;アビリティ
+        &lt;ul&gt;
+          &lt;li&gt;攻撃力・防御力プラス ★16&lt;/li&gt;
+          &lt;li&gt;運動性プラス ★11&lt;/li&gt;
+          &lt;li&gt;ダメージアップ（回避タイプ） ★6&lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
     &lt;/ul&gt;
