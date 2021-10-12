@@ -1,4 +1,518 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2021-10-11T12:11:16+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">日報</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">2021年9月26日に行われた「桑原由気寄席」に行ってきた</title><link href="https://makietan.github.io/otaku/2021/10/11/report.html" rel="alternate" type="text/html" title="2021年9月26日に行われた「桑原由気寄席」に行ってきた" /><published>2021-10-11T00:00:00+09:00</published><updated>2021-10-11T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2021/10/11/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2021/10/11/report.html">&lt;p&gt;また来たぜ。&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2021-10-12T12:10:44+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">日報</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">スパロボDDの第11回迎撃戦経過報告（10/4分）メモ</title><link href="https://makietan.github.io/game/srwdd/2021/10/12/report.html" rel="alternate" type="text/html" title="スパロボDDの第11回迎撃戦経過報告（10/4分）メモ" /><published>2021-10-12T00:00:00+09:00</published><updated>2021-10-12T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2021/10/12/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2021/10/12/report.html">&lt;h2 id=&quot;エリア1&quot;&gt;エリア1&lt;/h2&gt;
+
+&lt;h3 id=&quot;boss&quot;&gt;BOSS&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;弱点属性：打撃/斬撃、打撃/実弾、斬撃/実弾&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;スコアボーナス&quot;&gt;スコアボーナス&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;オーバー命中率：2%（最大200%）&lt;/li&gt;
+  &lt;li&gt;オーバー回避率：8%（最大800%）&lt;/li&gt;
+  &lt;li&gt;残存機体数：4500&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;機体&quot;&gt;機体&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;アフロダイA&lt;/li&gt;
+  &lt;li&gt;真ゲッター2&lt;/li&gt;
+  &lt;li&gt;ガンダムキュリオス&lt;/li&gt;
+  &lt;li&gt;M9 ガーンズバック&lt;/li&gt;
+  &lt;li&gt;KG-7 アレイオン（ユキ）&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;サブパーツ&quot;&gt;サブパーツ&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;故郷への想い&lt;/li&gt;
+  &lt;li&gt;女神の休日&lt;/li&gt;
+  &lt;li&gt;蒼き空への憧憬&lt;/li&gt;
+  &lt;li&gt;シーサイド・ツインズ&lt;/li&gt;
+  &lt;li&gt;フェラリオの輝き&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;アビリティチップ&quot;&gt;アビリティチップ&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;運動性プラス&lt;/li&gt;
+  &lt;li&gt;攻撃力・運動性プラス&lt;/li&gt;
+  &lt;li&gt;運動性アップ&lt;/li&gt;
+  &lt;li&gt;運動性アップ（気力）&lt;/li&gt;
+  &lt;li&gt;運動性アップ（戦闘回数）&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;エリア2&quot;&gt;エリア2&lt;/h2&gt;
+
+&lt;h3 id=&quot;boss-1&quot;&gt;BOSS&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;弱点属性：打撃/特殊、打撃/ビーム、ビーム/特殊&lt;/li&gt;
+  &lt;li&gt;タイプ　：防御特化、回避特化、バランス&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;スコアボーナス-1&quot;&gt;スコアボーナス&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;連続撃破：35%&lt;/li&gt;
+  &lt;li&gt;同時撃破：45%&lt;/li&gt;
+  &lt;li&gt;残存機体数：4500&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;機体-1&quot;&gt;機体&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;ウイングガンダムゼロ&lt;/li&gt;
+  &lt;li&gt;サイバスター&lt;/li&gt;
+  &lt;li&gt;ダイターン3&lt;/li&gt;
+  &lt;li&gt;グランゾン&lt;/li&gt;
+  &lt;li&gt;ユニコーンガンダム&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;サブパーツ-1&quot;&gt;サブパーツ&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;平和の歌&lt;/li&gt;
+  &lt;li&gt;新しき年を往く歩み&lt;/li&gt;
+  &lt;li&gt;タービンズの頼もしい助っ人&lt;/li&gt;
+  &lt;li&gt;雪の中で差し出された手&lt;/li&gt;
+  &lt;li&gt;天真爛漫な耳長族の魔法使い&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;アビリティチップ-1&quot;&gt;アビリティチップ&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;攻撃力プラス&lt;/li&gt;
+  &lt;li&gt;攻撃力・照準値プラス&lt;/li&gt;
+  &lt;li&gt;ビーム強化&lt;/li&gt;
+  &lt;li&gt;特殊強化&lt;/li&gt;
+  &lt;li&gt;必殺技威力アップ&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;エリア3&quot;&gt;エリア3&lt;/h2&gt;
+
+&lt;h3 id=&quot;boss-2&quot;&gt;BOSS&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;弱点属性：斬撃/特殊、特殊、斬撃&lt;/li&gt;
+  &lt;li&gt;タイプ　：攻撃特化、攻撃特化、攻撃特化&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;スコアボーナス-2&quot;&gt;スコアボーナス&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;オーバー命中率：2%（最大200%）&lt;/li&gt;
+  &lt;li&gt;連続撃破：35%&lt;/li&gt;
+  &lt;li&gt;残存機体数：4500&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;機体-2&quot;&gt;機体&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;ウインザート&lt;/li&gt;
+  &lt;li&gt;フリーダムガンダム&lt;/li&gt;
+  &lt;li&gt;紅蓮弐式&lt;/li&gt;
+  &lt;li&gt;アクアビート&lt;/li&gt;
+  &lt;li&gt;ジャスティスガンダム&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;サブパーツ-2&quot;&gt;サブパーツ&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;平和の歌&lt;/li&gt;
+  &lt;li&gt;大人の知らない不思議な言葉&lt;/li&gt;
+  &lt;li&gt;海兵隊仕込みの叱咤&lt;/li&gt;
+  &lt;li&gt;世にも不思議な呪文&lt;/li&gt;
+  &lt;li&gt;日の出への願い&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;アビリティチップ-2&quot;&gt;アビリティチップ&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;攻撃力・照準値プラス&lt;/li&gt;
+  &lt;li&gt;照準値プラス&lt;/li&gt;
+  &lt;li&gt;攻撃力プラス&lt;/li&gt;
+  &lt;li&gt;照準値アップ&lt;/li&gt;
+  &lt;li&gt;特殊強化&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;エリア4&quot;&gt;エリア4&lt;/h2&gt;
+
+&lt;h3 id=&quot;機体-3&quot;&gt;機体&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;エヴァンゲリオン2号機&lt;/li&gt;
+  &lt;li&gt;マジンカイザー&lt;/li&gt;
+  &lt;li&gt;グランゾン&lt;/li&gt;
+  &lt;li&gt;ゲッターノワール1号機&lt;/li&gt;
+  &lt;li&gt;ヴァルヴレイヴⅠ&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;サブパーツ-3&quot;&gt;サブパーツ&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;タービンズの頼もしい助っ人&lt;/li&gt;
+  &lt;li&gt;白雪の中の贈り物&lt;/li&gt;
+  &lt;li&gt;平和の歌&lt;/li&gt;
+  &lt;li&gt;真夏の任務&lt;/li&gt;
+  &lt;li&gt;ビーチサイドの魔女&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;アビリティチップ-3&quot;&gt;アビリティチップ&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;攻撃力プラス&lt;/li&gt;
+  &lt;li&gt;攻撃力・照準値プラス&lt;/li&gt;
+  &lt;li&gt;攻撃力アップ&lt;/li&gt;
+  &lt;li&gt;攻撃力アップ（気力）&lt;/li&gt;
+  &lt;li&gt;攻撃力・防御力プラス&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;エリア5&quot;&gt;エリア5&lt;/h2&gt;
+
+&lt;h3 id=&quot;機体-4&quot;&gt;機体&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;獣神ライガー&lt;/li&gt;
+  &lt;li&gt;メラフディン&lt;/li&gt;
+  &lt;li&gt;Hi-ν ガンダム&lt;/li&gt;
+  &lt;li&gt;真ゲッター1&lt;/li&gt;
+  &lt;li&gt;ガウェイン&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;サブパーツ-4&quot;&gt;サブパーツ&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;正反対な双子の巫女の応援&lt;/li&gt;
+  &lt;li&gt;平和の歌&lt;/li&gt;
+  &lt;li&gt;シーサイド・ツインズ&lt;/li&gt;
+  &lt;li&gt;タービンズの頼もしい助っ人&lt;/li&gt;
+  &lt;li&gt;ジャンク屋パートナー&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;アビリティチップ-4&quot;&gt;アビリティチップ&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;攻撃力プラス&lt;/li&gt;
+  &lt;li&gt;攻撃力・運動性プラス&lt;/li&gt;
+  &lt;li&gt;運動性プラス&lt;/li&gt;
+  &lt;li&gt;攻撃力・照準値プラス&lt;/li&gt;
+  &lt;li&gt;運動性アップ&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;自分のパーティー&quot;&gt;自分のパーティー&lt;/h1&gt;
+
+&lt;h2 id=&quot;エリア5-1&quot;&gt;エリア5&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;デビルマン&lt;/li&gt;
+  &lt;li&gt;真ゲッター1&lt;/li&gt;
+  &lt;li&gt;ガンダムグシオンリベイク&lt;/li&gt;
+  &lt;li&gt;ダルタニアス&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;エリア4-1&quot;&gt;エリア4&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;ARX-7 アーバレスト&lt;/li&gt;
+  &lt;li&gt;ゼンカイオー&lt;/li&gt;
+  &lt;li&gt;ゲッターノワール1号機&lt;/li&gt;
+  &lt;li&gt;エヴァンゲリオン零号機&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;エリア3-1&quot;&gt;エリア3&lt;/h2&gt;
+
+&lt;h3 id=&quot;機体-5&quot;&gt;機体&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;フリーダムガンダム
+    &lt;ul&gt;
+      &lt;li&gt;MAIN
+        &lt;ul&gt;
+          &lt;li&gt;バラエーナプラズマ収束ビーム砲 / LV100 / +1&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;必殺技
+        &lt;ul&gt;
+          &lt;li&gt;ビームサーベル連続攻撃 / LV100 / +2&lt;/li&gt;
+          &lt;li&gt;ビームサーベル / LV90 / +5&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;SUB
+        &lt;ul&gt;
+          &lt;li&gt;平和への訴え / LV100&lt;/li&gt;
+          &lt;li&gt;平和の歌 / LV100&lt;/li&gt;
+          &lt;li&gt;ドルイドシステム / LV100&lt;/li&gt;
+          &lt;li&gt;ファントム・クライ / LV100&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;ARX-7 アーバレスト
+    &lt;ul&gt;
+      &lt;li&gt;MAIN
+        &lt;ul&gt;
+          &lt;li&gt;ラムダ・ショット / LV100 / +5&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;必殺技
+        &lt;ul&gt;
+          &lt;li&gt;単分子カッター・スパイラルチェイン / LV100 / +5&lt;/li&gt;
+          &lt;li&gt;強襲 / LV100 / +5&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;SUB
+        &lt;ul&gt;
+          &lt;li&gt;女神の休日 / LV100 / +5&lt;/li&gt;
+          &lt;li&gt;ハリケーンスマッシャー / LV100&lt;/li&gt;
+          &lt;li&gt;クロスレンジ・アタック / LV100 / +5&lt;/li&gt;
+          &lt;li&gt;ガトリング砲 / LV100&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;紅蓮弐式
+    &lt;ul&gt;
+      &lt;li&gt;MAIN
+        &lt;ul&gt;
+          &lt;li&gt;連斬 / LV100&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;必殺技
+        &lt;ul&gt;
+          &lt;li&gt;輻射波動機構 / LV100 / +1&lt;/li&gt;
+          &lt;li&gt;飛燕連撃 / LV100 / +3&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;SUB
+        &lt;ul&gt;
+          &lt;li&gt;平和の歌 / LV100&lt;/li&gt;
+          &lt;li&gt;プールサイドのアイドル / LV100&lt;/li&gt;
+          &lt;li&gt;世にも不思議な呪文 / LV100&lt;/li&gt;
+          &lt;li&gt;日の出への願い / LV100 / +5&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;ゼンカイオー ジュラガオーン
+    &lt;ul&gt;
+      &lt;li&gt;MAIN
+        &lt;ul&gt;
+          &lt;li&gt;ジュランソード円月クラッシュ / LV100&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;必殺技
+        &lt;ul&gt;
+          &lt;li&gt;ジュラガオーンアクション / LV110 / +5&lt;/li&gt;
+          &lt;li&gt;ガオーンクロー / LV100 / +5&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;SUB
+        &lt;ul&gt;
+          &lt;li&gt;真夏の任務 / LV100 / +5&lt;/li&gt;
+          &lt;li&gt;仲間の支えたる少女 / LV100&lt;/li&gt;
+          &lt;li&gt;ギアスを授けた魔女 / LV100&lt;/li&gt;
+          &lt;li&gt;シンジのバックアップ / LV100&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;エリア2-1&quot;&gt;エリア2&lt;/h2&gt;
+
+&lt;h3 id=&quot;機体-6&quot;&gt;機体&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Hi-ν ガンダム
+    &lt;ul&gt;
+      &lt;li&gt;MAIN
+        &lt;ul&gt;
+          &lt;li&gt;フィン・ファンネル（MAP） / LV100&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;必殺技
+        &lt;ul&gt;
+          &lt;li&gt;フィン・ファンネル / LV100&lt;/li&gt;
+          &lt;li&gt;ビーム・ライフル / LV80 +5&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;SUB
+        &lt;ul&gt;
+          &lt;li&gt;ジャンク屋パートナー / LV100&lt;/li&gt;
+          &lt;li&gt;理解への対話 / LV100&lt;/li&gt;
+          &lt;li&gt;高貴なる祈り / LV100&lt;/li&gt;
+          &lt;li&gt;素直になれない世話焼き女子高生 / LV100 +1&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;ユニコーンガンダム
+    &lt;ul&gt;
+      &lt;li&gt;MAIN
+        &lt;ul&gt;
+          &lt;li&gt;ビーム・マグナム（MAP） / LV100&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;必殺技
+        &lt;ul&gt;
+          &lt;li&gt;ビーム・マグナム連射 / LV100 / +1&lt;/li&gt;
+          &lt;li&gt;ビーム・マグナム / LV90 / +5&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;SUB
+        &lt;ul&gt;
+          &lt;li&gt;高貴なる祈り / LV100&lt;/li&gt;
+          &lt;li&gt;故郷への想い / LV100&lt;/li&gt;
+          &lt;li&gt;高貴なる祈り / LV100&lt;/li&gt;
+          &lt;li&gt;シーサイド・ツインズ / LV100 / +1&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;サイバスター
+    &lt;ul&gt;
+      &lt;li&gt;MAIN
+        &lt;ul&gt;
+          &lt;li&gt;サイフラッシュ / LV100 / +1&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;必殺技
+        &lt;ul&gt;
+          &lt;li&gt;アカシックバスター / LV100 / +5&lt;/li&gt;
+          &lt;li&gt;バニティリッパー / LV90 / +5&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;SUB
+        &lt;ul&gt;
+          &lt;li&gt;トランザム連続攻撃 / LV100&lt;/li&gt;
+          &lt;li&gt;フェラリオの輝き / LV100&lt;/li&gt;
+          &lt;li&gt;凶暴性を備えた「反射」の人格 / LV100&lt;/li&gt;
+          &lt;li&gt;水泳部でのひととき / LV100&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;ゼーガペイン・アルティール
+    &lt;ul&gt;
+      &lt;li&gt;MAIN
+        &lt;ul&gt;
+          &lt;li&gt;ホロボルトプレッシャー / LV100&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;必殺技
+        &lt;ul&gt;
+          &lt;li&gt;ホロボルトグラビティ / LV100&lt;/li&gt;
+          &lt;li&gt;ホロニックブレード突撃 / LV100&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;SUB
+        &lt;ul&gt;
+          &lt;li&gt;平和の歌 / LV100&lt;/li&gt;
+          &lt;li&gt;平和への訴え / LV100&lt;/li&gt;
+          &lt;li&gt;プールサイドのアイドル / LV100&lt;/li&gt;
+          &lt;li&gt;パワーフレーム SSR / LV100 / +5&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;エリア1-1&quot;&gt;エリア1&lt;/h2&gt;
+
+&lt;h3 id=&quot;機体-7&quot;&gt;機体&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;ゲッターノワール2号機
+    &lt;ul&gt;
+      &lt;li&gt;MAIN
+        &lt;ul&gt;
+          &lt;li&gt;ダブルトマホークダークネス / LV100&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;必殺技
+        &lt;ul&gt;
+          &lt;li&gt;ファントムウェッジ / LV100 / +5&lt;/li&gt;
+          &lt;li&gt;ゲッターディサセンブリィ / LV100 / +5&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;SUB
+        &lt;ul&gt;
+          &lt;li&gt;スリー・ラウンド・バースト / LV100 / +2&lt;/li&gt;
+          &lt;li&gt;スリー・ラウンド・バースト / LV100&lt;/li&gt;
+          &lt;li&gt;イーディフューザー / LV90 / +2&lt;/li&gt;
+          &lt;li&gt;憎めない喧嘩仲間 / LV100&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;アレクサンダ
+    &lt;ul&gt;
+      &lt;li&gt;MAIN
+        &lt;ul&gt;
+          &lt;li&gt;ファントム・クライ / LV100 / +1&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;必殺技
+        &lt;ul&gt;
+          &lt;li&gt;ウルナエッジ / LV90 / +5&lt;/li&gt;
+          &lt;li&gt;ジャッジメント / LV80 / +5&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;SUB
+        &lt;ul&gt;
+          &lt;li&gt;レヴ・ラディエイター / LV100&lt;/li&gt;
+          &lt;li&gt;ディドの意志 / LV100&lt;/li&gt;
+          &lt;li&gt;カミーユを支え続けた少女 / LV100&lt;/li&gt;
+          &lt;li&gt;ビーム・サーベル（ハイパー） / LV80&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;スコープドッグ
+    &lt;ul&gt;
+      &lt;li&gt;MAIN
+        &lt;ul&gt;
+          &lt;li&gt;レーザード・ライフル（CP） / LV100 / +5&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;必殺技
+        &lt;ul&gt;
+          &lt;li&gt;ソリッドシューター（CP） / LV90 / +5&lt;/li&gt;
+          &lt;li&gt;SMM2連装ミサイル（CP） / LV80 / +5&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;SUB
+        &lt;ul&gt;
+          &lt;li&gt;超高速ミサイル / LV100 / +3&lt;/li&gt;
+          &lt;li&gt;大天使を指揮する館長 / LV100&lt;/li&gt;
+          &lt;li&gt;第一の少女 / LV100&lt;/li&gt;
+          &lt;li&gt;ラッシング・ポッパー / LV100&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;スコープドッグRSC
+    &lt;ul&gt;
+      &lt;li&gt;MAIN
+        &lt;ul&gt;
+          &lt;li&gt;マルチプル・コンバット / LV100 / +3&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;必殺技
+        &lt;ul&gt;
+          &lt;li&gt;ロケットパレード / LV100&lt;/li&gt;
+          &lt;li&gt;ラッシュ・コンバット / LV100 / +2&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;SUB
+        &lt;ul&gt;
+          &lt;li&gt;レヴ・ラディエイター / LV100&lt;/li&gt;
+          &lt;li&gt;デュアルセンサー SSR / LV100 / +5&lt;/li&gt;
+          &lt;li&gt;高性能スラスター SSR / LV100 / +5&lt;/li&gt;
+          &lt;li&gt;精密射撃 / LV100 / +5&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html">エリア1</summary></entry><entry><title type="html">2021年9月26日に行われた「桑原由気寄席」に行ってきた</title><link href="https://makietan.github.io/otaku/2021/10/11/report.html" rel="alternate" type="text/html" title="2021年9月26日に行われた「桑原由気寄席」に行ってきた" /><published>2021-10-11T00:00:00+09:00</published><updated>2021-10-11T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2021/10/11/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2021/10/11/report.html">&lt;p&gt;また来たぜ。&lt;/p&gt;
 
 &lt;div class=&quot;trim&quot;&gt;
   &lt;div class=&quot;trim__item&quot;&gt;
@@ -387,223 +901,4 @@
 
 &lt;p&gt;すげー便利。
 似たようなやつで片栗粉とかもあるみたい。
-今度試そうかな。&lt;/p&gt;</content><author><name>makietan</name></author><category term="gourmet" /><summary type="html">www.kurashiru.com ご飯が進む！豚肉の生姜焼き 作り方・レシピ | クラシル 「ご飯が進む！豚肉の生姜焼き」の作り方を簡単で分かりやすい料理レシピ動画で紹介しています。今晩のおかずに、ごはんとの相性抜群の豚の生姜焼きはいかがでしょうか。さわやかな生姜の香りのたれがしっかり絡んだ肉は、ごはんのおかずだけでなく、お酒のおつまみにもピッタリです。キャベツをたっぷり添えてお召し上がりくださいね。</summary></entry><entry><title type="html">スパロボDDの「ユニットパーツ交換所」一覧</title><link href="https://makietan.github.io/game/srwdd/2021/10/03/report2.html" rel="alternate" type="text/html" title="スパロボDDの「ユニットパーツ交換所」一覧" /><published>2021-10-03T00:00:00+09:00</published><updated>2021-10-03T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2021/10/03/report2</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2021/10/03/report2.html">&lt;p&gt;格闘等の重複名称は雑に分別済み。
-交換し終えたらチェックをつける等の使い方を考えている。&lt;/p&gt;
-
-&lt;h2 id=&quot;ユニットパーツ&quot;&gt;ユニットパーツ&lt;/h2&gt;
-
-&lt;p&gt;&lt;label for=&quot; 3連マシンキャノン&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot; 3連マシンキャノン&quot; /&gt; 3連マシンキャノン&lt;/label&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;label for=&quot; 40mmアサルト・ライフル（クルツ）&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot; 40mmアサルト・ライフル（クルツ）&quot; /&gt; 40mmアサルト・ライフル（クルツ）&lt;/label&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;label for=&quot; 40mmアサルト・ライフル（マオ）&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot; 40mmアサルト・ライフル（マオ）&quot; /&gt; 40mmアサルト・ライフル（マオ）&lt;/label&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;label for=&quot; 57mm散弾砲ボクサー&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot; 57mm散弾砲ボクサー&quot; /&gt; 57mm散弾砲ボクサー&lt;/label&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;label for=&quot; 75mmマシンガン（KG-6 スレイプニール）&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot; 75mmマシンガン（KG-6 スレイプニール）&quot; /&gt; 75mmマシンガン（KG-6 スレイプニール）&lt;/label&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;label for=&quot; 75mmマシンガン（ユキ）&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot; 75mmマシンガン（ユキ）&quot; /&gt; 75mmマシンガン（ユキ）&lt;/label&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;label for=&quot; 75mmマシンガン（韻子）&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot; 75mmマシンガン（韻子）&quot; /&gt; 75mmマシンガン（韻子）&lt;/label&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;label for=&quot; GNキャノン&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot; GNキャノン&quot; /&gt; GNキャノン&lt;/label&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;label for=&quot; GNビームサーベル&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot; GNビームサーベル&quot; /&gt; GNビームサーベル&lt;/label&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;label for=&quot; GNビームピストル&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot; GNビームピストル&quot; /&gt; GNビームピストル&lt;/label&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;label for=&quot; GNビームマシンガン&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot; GNビームマシンガン&quot; /&gt; GNビームマシンガン&lt;/label&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;label for=&quot; アクアビートキック&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot; アクアビートキック&quot; /&gt; アクアビートキック&lt;/label&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;label for=&quot; アトミックパンチ&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot; アトミックパンチ&quot; /&gt; アトミックパンチ&lt;/label&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;label for=&quot; イーヴァリフル&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot; イーヴァリフル&quot; /&gt; イーヴァリフル&lt;/label&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;label for=&quot; ウインザートアタック&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot; ウインザートアタック&quot; /&gt; ウインザートアタック&lt;/label&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;label for=&quot; オウル・シェラフ&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot; オウル・シェラフ&quot; /&gt; オウル・シェラフ&lt;/label&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;label for=&quot; オメガレーザー&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot; オメガレーザー&quot; /&gt; オメガレーザー&lt;/label&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;label for=&quot; オーバー・ビーム&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot; オーバー・ビーム&quot; /&gt; オーバー・ビーム&lt;/label&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;label for=&quot; オーラ・ビーム・ソード&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot; オーラ・ビーム・ソード&quot; /&gt; オーラ・ビーム・ソード&lt;/label&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;label for=&quot; オーラ・ビーム・ソード（CP）&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot; オーラ・ビーム・ソード（CP）&quot; /&gt; オーラ・ビーム・ソード（CP）&lt;/label&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;label for=&quot; グランゾートパンチ&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot; グランゾートパンチ&quot; /&gt; グランゾートパンチ&lt;/label&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;label for=&quot; グランビーム&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot; グランビーム&quot; /&gt; グランビーム&lt;/label&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;label for=&quot; ゲッタークラスター&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot; ゲッタークラスター&quot; /&gt; ゲッタークラスター&lt;/label&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;label for=&quot; ゲッタードラグーン7000&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot; ゲッタードラグーン7000&quot; /&gt; ゲッタードラグーン7000&lt;/label&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;label for=&quot; ゲッターレザー&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot; ゲッターレザー&quot; /&gt; ゲッターレザー&lt;/label&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;label for=&quot; コールドメタルナイフ&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot; コールドメタルナイフ&quot; /&gt; コールドメタルナイフ&lt;/label&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;label for=&quot; ショルダーブーメラン&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot; ショルダーブーメラン&quot; /&gt; ショルダーブーメラン&lt;/label&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;label for=&quot; ショートアックス&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot; ショートアックス&quot; /&gt; ショートアックス&lt;/label&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;label for=&quot; ジーグビーム（ジーグ）&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot; ジーグビーム（ジーグ）&quot; /&gt; ジーグビーム（ジーグ）&lt;/label&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;label for=&quot; ジーグビーム（鋼鉄ジーグ）&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot; ジーグビーム（鋼鉄ジーグ）&quot; /&gt; ジーグビーム（鋼鉄ジーグ）&lt;/label&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;label for=&quot; スプリットミサイル&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot; スプリットミサイル&quot; /&gt; スプリットミサイル&lt;/label&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;label for=&quot; スラッシュハーケン&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot; スラッシュハーケン&quot; /&gt; スラッシュハーケン&lt;/label&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;label for=&quot; ダイターン・ミサイル&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot; ダイターン・ミサイル&quot; /&gt; ダイターン・ミサイル&lt;/label&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;label for=&quot; ダブルガン&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot; ダブルガン&quot; /&gt; ダブルガン&lt;/label&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;label for=&quot; ダブルナックル&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot; ダブルナックル&quot; /&gt; ダブルナックル&lt;/label&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;label for=&quot; チェーン・ソーサー&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot; チェーン・ソーサー&quot; /&gt; チェーン・ソーサー&lt;/label&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;label for=&quot; ツイン・マグナライフル&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot; ツイン・マグナライフル&quot; /&gt; ツイン・マグナライフル&lt;/label&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;label for=&quot; ディスカッター&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot; ディスカッター&quot; /&gt; ディスカッター&lt;/label&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;label for=&quot; デビルチョップ&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot; デビルチョップ&quot; /&gt; デビルチョップ&lt;/label&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;label for=&quot; トマホークブーメラン&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot; トマホークブーメラン&quot; /&gt; トマホークブーメラン&lt;/label&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;label for=&quot; ドリルミサイル&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot; ドリルミサイル&quot; /&gt; ドリルミサイル&lt;/label&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;label for=&quot; ハンドカノン&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot; ハンドカノン&quot; /&gt; ハンドカノン&lt;/label&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;label for=&quot; ハンマーパンチ&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot; ハンマーパンチ&quot; /&gt; ハンマーパンチ&lt;/label&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;label for=&quot; バリアブル・バルカン（ヴァルヴレイヴⅣ）&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot; バリアブル・バルカン（ヴァルヴレイヴⅣ）&quot; /&gt; バリアブル・バルカン（ヴァルヴレイヴⅣ）&lt;/label&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;label for=&quot; バリアブル・バルカン（ヴァルヴレイヴⅤ）&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot; バリアブル・バルカン（ヴァルヴレイヴⅤ）&quot; /&gt; バリアブル・バルカン（ヴァルヴレイヴⅤ）&lt;/label&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;label for=&quot; バリアブル・バルカン（ヴァルヴレイヴⅥ）&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot; バリアブル・バルカン（ヴァルヴレイヴⅥ）&quot; /&gt; バリアブル・バルカン（ヴァルヴレイヴⅥ）&lt;/label&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;label for=&quot; バルカン&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot; バルカン&quot; /&gt; バルカン&lt;/label&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;label for=&quot; パレットライフル（初号機）&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot; パレットライフル（初号機）&quot; /&gt; パレットライフル（初号機）&lt;/label&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;label for=&quot; パレットライフル（零号機）&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot; パレットライフル（零号機）&quot; /&gt; パレットライフル（零号機）&lt;/label&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;label for=&quot; ビームサーベル（CP）&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot; ビームサーベル（CP）&quot; /&gt; ビームサーベル（CP）&lt;/label&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;label for=&quot; ビームサーベル（ウィングガンダムゼロ）&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot; ビームサーベル（ウィングガンダムゼロ）&quot; /&gt; ビームサーベル（ウィングガンダムゼロ）&lt;/label&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;label for=&quot; ビームサーベル（ジャスティスガンダム）&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot; ビームサーベル（ジャスティスガンダム）&quot; /&gt; ビームサーベル（ジャスティスガンダム）&lt;/label&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;label for=&quot; ビーム・ガトリング&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot; ビーム・ガトリング&quot; /&gt; ビーム・ガトリング&lt;/label&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;label for=&quot; ビーム・ライフル（Hi-νガンダム）&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot; ビーム・ライフル（Hi-νガンダム）&quot; /&gt; ビーム・ライフル（Hi-νガンダム）&lt;/label&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;label for=&quot; ビーム・ライフル（Zガンダム）&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot; ビーム・ライフル（Zガンダム）&quot; /&gt; ビーム・ライフル（Zガンダム）&lt;/label&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;label for=&quot; ビーム・ライフル（νガンダム）&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot; ビーム・ライフル（νガンダム）&quot; /&gt; ビーム・ライフル（νガンダム）&lt;/label&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;label for=&quot; ビーム砲&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot; ビーム砲&quot; /&gt; ビーム砲&lt;/label&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;label for=&quot; ファントムドリル&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot; ファントムドリル&quot; /&gt; ファントムドリル&lt;/label&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;label for=&quot; プログレッシブナイフ（2号機）&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot; プログレッシブナイフ（2号機）&quot; /&gt; プログレッシブナイフ（2号機）&lt;/label&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;label for=&quot; ヘビィマシンガン&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot; ヘビィマシンガン&quot; /&gt; ヘビィマシンガン&lt;/label&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;label for=&quot; ヘビィマシンガン（CP）&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot; ヘビィマシンガン（CP）&quot; /&gt; ヘビィマシンガン（CP）&lt;/label&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;label for=&quot; ホロニックランチャー（アルティール）&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot; ホロニックランチャー（アルティール）&quot; /&gt; ホロニックランチャー（アルティール）&lt;/label&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;label for=&quot; ホロニックランチャー（ガルダ）&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot; ホロニックランチャー（ガルダ）&quot; /&gt; ホロニックランチャー（ガルダ）&lt;/label&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;label for=&quot; ボルク・アーム&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot; ボルク・アーム&quot; /&gt; ボルク・アーム&lt;/label&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;label for=&quot; メイス&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot; メイス&quot; /&gt; メイス&lt;/label&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;label for=&quot; ラピアス・ライフル（サキミ）&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot; ラピアス・ライフル（サキミ）&quot; /&gt; ラピアス・ライフル（サキミ）&lt;/label&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;label for=&quot; ラピアス・ライフル（ベネット）&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot; ラピアス・ライフル（ベネット）&quot; /&gt; ラピアス・ライフル（ベネット）&lt;/label&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;label for=&quot; ラピアス・ライフル（マイコ）&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot; ラピアス・ライフル（マイコ）&quot; /&gt; ラピアス・ライフル（マイコ）&lt;/label&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;label for=&quot; ラピアス・ライフル（ユニス）&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot; ラピアス・ライフル（ユニス）&quot; /&gt; ラピアス・ライフル（ユニス）&lt;/label&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;label for=&quot; ラピアス・ライフル（ユンナ）&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot; ラピアス・ライフル（ユンナ）&quot; /&gt; ラピアス・ライフル（ユンナ）&lt;/label&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;label for=&quot; ラピアス・ライフル（リナリア）&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot; ラピアス・ライフル（リナリア）&quot; /&gt; ラピアス・ライフル（リナリア）&lt;/label&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;label for=&quot; ロケットパンチ&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot; ロケットパンチ&quot; /&gt; ロケットパンチ&lt;/label&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;label for=&quot; ロケットパンチ（CP）&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot; ロケットパンチ（CP）&quot; /&gt; ロケットパンチ（CP）&lt;/label&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;label for=&quot; ヴァクス&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot; ヴァクス&quot; /&gt; ヴァクス&lt;/label&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;label for=&quot; 剣部刀&amp;amp;刀部刀&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot; 剣部刀&amp;amp;刀部刀&quot; /&gt; 剣部刀&amp;amp;刀部刀&lt;/label&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;label for=&quot; 対KMF戦闘用トンファー&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot; 対KMF戦闘用トンファー&quot; /&gt; 対KMF戦闘用トンファー&lt;/label&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;label for=&quot; 格闘（アフロダイA）&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot; 格闘（アフロダイA）&quot; /&gt; 格闘（アフロダイA）&lt;/label&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;label for=&quot; 格闘（ガオガイガー）&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot; 格闘（ガオガイガー）&quot; /&gt; 格闘（ガオガイガー）&lt;/label&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;label for=&quot; 格闘（サーバイン）&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot; 格闘（サーバイン）&quot; /&gt; 格闘（サーバイン）&lt;/label&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;label for=&quot; 格闘（マジンカイザー）&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot; 格闘（マジンカイザー）&quot; /&gt; 格闘（マジンカイザー）&lt;/label&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;label for=&quot; 格闘（龍神丸）&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot; 格闘（龍神丸）&quot; /&gt; 格闘（龍神丸）&lt;/label&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;label for=&quot; 超電磁ゴマ&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot; 超電磁ゴマ&quot; /&gt; 超電磁ゴマ&lt;/label&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;label for=&quot; 超電磁ゴマ（CP）&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot; 超電磁ゴマ（CP）&quot; /&gt; 超電磁ゴマ（CP）&lt;/label&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;label for=&quot; 超電磁ヨーヨー&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot; 超電磁ヨーヨー&quot; /&gt; 超電磁ヨーヨー&lt;/label&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;label for=&quot; 近接防御用機関砲&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot; 近接防御用機関砲&quot; /&gt; 近接防御用機関砲&lt;/label&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;label for=&quot; 速射型レーザードライフル&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot; 速射型レーザードライフル&quot; /&gt; 速射型レーザードライフル&lt;/label&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;label for=&quot; 電撃パンチ&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot; 電撃パンチ&quot; /&gt; 電撃パンチ&lt;/label&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;label for=&quot; 飛燕爪牙&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot; 飛燕爪牙&quot; /&gt; 飛燕爪牙&lt;/label&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;label for=&quot; 高エネルギービームライフル&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot; 高エネルギービームライフル&quot; /&gt; 高エネルギービームライフル&lt;/label&gt;&lt;/p&gt;
-
-&lt;script&gt;
-const STORAGE_KEY = '2021-03-05-report';
-const CHECKBOX_QUERY = 'article input[type=&quot;checkbox&quot;]';
-function load() {
-  var pilots = JSON.parse(localStorage.getItem(STORAGE_KEY));
-
-  if (pilots &amp;&amp; pilots['pilots']) {
-    var checked = pilots['pilots'];
-    [...document.querySelectorAll(CHECKBOX_QUERY)].forEach((e) =&gt; {
-      var status = checked[e.parentElement.innerText];
-      if (status) {
-        e.checked = true;
-      }
-    });
-  }
-
-  [...document.querySelectorAll(CHECKBOX_QUERY)].forEach((e) =&gt; {
-    e.addEventListener('change', (event) =&gt; {
-      save();
-    });
-  });
-}
-
-function save() {
-  var checked = {};
-  [...document.querySelectorAll(CHECKBOX_QUERY)].forEach((c) =&gt; {
-      checked[c.parentElement.innerText] = c.checked;
-  });
-  var pilots = { 'pilots': checked };
-
-  localStorage.setItem(STORAGE_KEY, JSON.stringify(pilots));
-}
-
-window.onload = () =&gt; {
-  load();
-}
-&lt;/script&gt;</content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html">格闘等の重複名称は雑に分別済み。 交換し終えたらチェックをつける等の使い方を考えている。</summary></entry></feed>
+今度試そうかな。&lt;/p&gt;</content><author><name>makietan</name></author><category term="gourmet" /><summary type="html">www.kurashiru.com ご飯が進む！豚肉の生姜焼き 作り方・レシピ | クラシル 「ご飯が進む！豚肉の生姜焼き」の作り方を簡単で分かりやすい料理レシピ動画で紹介しています。今晩のおかずに、ごはんとの相性抜群の豚の生姜焼きはいかがでしょうか。さわやかな生姜の香りのたれがしっかり絡んだ肉は、ごはんのおかずだけでなく、お酒のおつまみにもピッタリです。キャベツをたっぷり添えてお召し上がりくださいね。</summary></entry></feed>
