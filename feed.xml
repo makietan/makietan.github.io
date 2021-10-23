@@ -1,4 +1,20 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2021-10-22T12:11:03+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">日報</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">六本木の近くの店は平然と深夜営業してるね</title><link href="https://makietan.github.io/japan/2021/10/16/report.html" rel="alternate" type="text/html" title="六本木の近くの店は平然と深夜営業してるね" /><published>2021-10-16T00:00:00+09:00</published><updated>2021-10-16T00:00:00+09:00</updated><id>https://makietan.github.io/japan/2021/10/16/report</id><content type="html" xml:base="https://makietan.github.io/japan/2021/10/16/report.html">&lt;p&gt;出社というボーナス人流で儲けていた店は次々と潰れた。
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2021-10-23T12:11:17+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">日報</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">山手線（内回り）「池袋→渋谷→大崎」が終日運休らしい</title><link href="https://makietan.github.io/railway/2021/10/23/report.html" rel="alternate" type="text/html" title="山手線（内回り）「池袋→渋谷→大崎」が終日運休らしい" /><published>2021-10-23T00:00:00+09:00</published><updated>2021-10-23T00:00:00+09:00</updated><id>https://makietan.github.io/railway/2021/10/23/report</id><content type="html" xml:base="https://makietan.github.io/railway/2021/10/23/report.html">&lt;div class=&quot;card&quot;&gt;
+  &lt;a href=&quot;https://www.jreast.co.jp/shibuya-koji/&quot;&gt;&lt;/a&gt;
+  &lt;div class=&quot;card__header&quot;&gt;
+    &lt;a href=&quot;https://www.jreast.co.jp/shibuya-koji/&quot;&gt;www.jreast.co.jp&lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__image&quot;&gt;
+    &lt;img src=&quot;https://www.jreast.co.jp/shibuya-koji/img/mainvisual_pc.png&quot; /&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__title&quot;&gt;
+    &lt;p&gt;渋谷駅改良工事のお知らせ：JR東日本&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__description&quot;&gt;
+    &lt;p&gt;渋谷駅改良工事のお知らせ 2021年10月23日（土）・24日（日）の2日間、山手線（内回り）は渋谷駅の改良工事のため、池袋～渋谷～大崎の区間を終日運休いたします。&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;土日とも運休らしい。&lt;/p&gt;</content><author><name>makietan</name></author><category term="railway" /><summary type="html">www.jreast.co.jp 渋谷駅改良工事のお知らせ：JR東日本 渋谷駅改良工事のお知らせ 2021年10月23日（土）・24日（日）の2日間、山手線（内回り）は渋谷駅の改良工事のため、池袋～渋谷～大崎の区間を終日運休いたします。</summary></entry><entry><title type="html">六本木の近くの店は平然と深夜営業してるね</title><link href="https://makietan.github.io/japan/2021/10/16/report.html" rel="alternate" type="text/html" title="六本木の近くの店は平然と深夜営業してるね" /><published>2021-10-16T00:00:00+09:00</published><updated>2021-10-16T00:00:00+09:00</updated><id>https://makietan.github.io/japan/2021/10/16/report</id><content type="html" xml:base="https://makietan.github.io/japan/2021/10/16/report.html">&lt;p&gt;出社というボーナス人流で儲けていた店は次々と潰れた。
 今や質を担保しないとまともにやっていけない感じになっている。
 一方、時短営業を無視していた企業はかなり儲けているっぽく、
 店舗拡大やらが順調そうである。&lt;/p&gt;
@@ -1540,53 +1556,4 @@
 
 &lt;h2 id=&quot;応用&quot;&gt;応用&lt;/h2&gt;
 
-&lt;p&gt;他にもログイン情報を雑に送ってくる企業は多々あるので他も通知していきたいと思う。&lt;/p&gt;</content><author><name>makietan</name></author><category term="tech" /><summary type="html">YJFX！から送られてくるログイン情報メールから日時とIPアドレス抽出して過去に存在しないIPからログインがあったらSlackに投げるGAS書いた多分他の不親切なログイン情報メールでも同様のことができそうだ後はGASで nslookup と whois ができれば完璧なのだが... pic.twitter.com/4yLC4B1w1N&amp;mdash; まきえたん🥦桑寄席9/26 (@makietanX) September 28, 2021</summary></entry><entry><title type="html">「おにぎり屋こりん」のレシートがかわいい</title><link href="https://makietan.github.io/receipt/2021/10/07/report.html" rel="alternate" type="text/html" title="「おにぎり屋こりん」のレシートがかわいい" /><published>2021-10-07T00:00:00+09:00</published><updated>2021-10-07T00:00:00+09:00</updated><id>https://makietan.github.io/receipt/2021/10/07/report</id><content type="html" xml:base="https://makietan.github.io/receipt/2021/10/07/report.html">&lt;div class=&quot;card&quot;&gt;
-  &lt;a href=&quot;https://makietan.github.io/game/railway/2021/09/24/report.html&quot;&gt;&lt;/a&gt;
-  &lt;div class=&quot;card__header&quot;&gt;
-    &lt;a href=&quot;https://makietan.github.io/game/railway/2021/09/24/report.html&quot;&gt;makietan.github.io&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__image&quot;&gt;
-    &lt;img src=&quot;https://makietan.github.io/assets/thumbnail/2021-09-24-report/15-59-48.png&quot; /&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__title&quot;&gt;
-    &lt;p&gt;「JR東海＆16私鉄 乗り鉄☆たびきっぷ」で行く駅メモ「うなぴっぴごー！で鉄道遺産・文化財を見にいこう！」 | 日報&lt;/p&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__description&quot;&gt;
-    &lt;p&gt;はじめに&lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;この記事の派生記事です。&lt;/p&gt;
-
-&lt;p&gt;レシートに印字されているキャラクターがかわいい。&lt;/p&gt;
-
-&lt;div class=&quot;trim&quot;&gt;
-  &lt;div class=&quot;trim__item&quot;&gt;
-    &lt;a href=&quot;https://makietan.github.io/assets/images/2021-10-07-report/15-06-37.png&quot;&gt;
-      &lt;img class=&quot;one&quot; src=&quot;https://makietan.github.io/assets/thumbnail/2021-10-07-report/15-06-37.png&quot; /&gt;
-    &lt;/a&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;前回食べたものは以下だ。&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;唐揚げおむすび (240)&lt;/li&gt;
-  &lt;li&gt;梅ひじきおにぎり (170)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;イートインを利用したので消費税が10%。
-ちなみにテイクアウトにして駅のベンチで食べると8%…。
-だが、店内がガラガラで無料の水があったから2%はその費用とみなせば問題ない。&lt;/p&gt;
-
-&lt;p&gt;支払いはもちろんSuica。&lt;/p&gt;
-
-&lt;h2 id=&quot;おわりに&quot;&gt;おわりに&lt;/h2&gt;
-
-&lt;p&gt;メモとしてレシートをScanSnapで読み込んでいる。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.amazon.co.jp/%E5%AF%8C%E5%A3%AB%E9%80%9A-ScanSnap-iX500-A4-%E4%B8%A1%E9%9D%A2/dp/B00T2B5L52?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&amp;amp;dchild=1&amp;amp;keywords=ScanSnap+iX500&amp;amp;qid=1632895845&amp;amp;s=computers&amp;amp;sr=1-4&amp;amp;linkCode=li3&amp;amp;tag=infirmaria112-22&amp;amp;linkId=922aa0d4e1722f4a11066193c4b834cc&amp;amp;language=ja_JP&amp;amp;ref_=as_li_ss_il&quot; target=&quot;_blank&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;amp;ASIN=B00T2B5L52&amp;amp;Format=_SL250_&amp;amp;ID=AsinImage&amp;amp;MarketPlace=JP&amp;amp;ServiceVersion=20070822&amp;amp;WS=1&amp;amp;tag=infirmaria112-22&amp;amp;language=ja_JP&quot; /&gt;&lt;/a&gt;&lt;img src=&quot;https://ir-jp.amazon-adsystem.com/e/ir?t=infirmaria112-22&amp;amp;language=ja_JP&amp;amp;l=li3&amp;amp;o=9&amp;amp;a=B00T2B5L52&quot; width=&quot;1&quot; height=&quot;1&quot; border=&quot;0&quot; alt=&quot;&quot; style=&quot;border:none !important; margin:0px !important;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;自分の使っているタイプはiX500。&lt;/p&gt;
-
-&lt;p&gt;これからも雑にレシートをアップしてみようと思う。&lt;/p&gt;</content><author><name>makietan</name></author><category term="receipt" /><summary type="html">makietan.github.io 「JR東海＆16私鉄 乗り鉄☆たびきっぷ」で行く駅メモ「うなぴっぴごー！で鉄道遺産・文化財を見にいこう！」 | 日報 はじめに</summary></entry></feed>
+&lt;p&gt;他にもログイン情報を雑に送ってくる企業は多々あるので他も通知していきたいと思う。&lt;/p&gt;</content><author><name>makietan</name></author><category term="tech" /><summary type="html">YJFX！から送られてくるログイン情報メールから日時とIPアドレス抽出して過去に存在しないIPからログインがあったらSlackに投げるGAS書いた多分他の不親切なログイン情報メールでも同様のことができそうだ後はGASで nslookup と whois ができれば完璧なのだが... pic.twitter.com/4yLC4B1w1N&amp;mdash; まきえたん🥦桑寄席9/26 (@makietanX) September 28, 2021</summary></entry></feed>
