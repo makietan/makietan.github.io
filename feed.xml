@@ -1,4 +1,19 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2021-10-27T12:11:22+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">日報</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">山手線（内回り）「池袋→渋谷→大崎」が終日運休らしい</title><link href="https://makietan.github.io/railway/2021/10/23/report.html" rel="alternate" type="text/html" title="山手線（内回り）「池袋→渋谷→大崎」が終日運休らしい" /><published>2021-10-23T00:00:00+09:00</published><updated>2021-10-23T00:00:00+09:00</updated><id>https://makietan.github.io/railway/2021/10/23/report</id><content type="html" xml:base="https://makietan.github.io/railway/2021/10/23/report.html">&lt;div class=&quot;card&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2021-10-27T20:13:54+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">日報</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">タイトルを取得するBookmarkletを作った</title><link href="https://makietan.github.io/tech/2021/10/27/report.html" rel="alternate" type="text/html" title="タイトルを取得するBookmarkletを作った" /><published>2021-10-27T00:00:00+09:00</published><updated>2021-10-27T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2021/10/27/report</id><content type="html" xml:base="https://makietan.github.io/tech/2021/10/27/report.html">&lt;p&gt;&lt;a class=&quot;btn btn-success&quot; href=&quot;javascript:javascript%3A!function(a)%7Bvar%20b%3Ddocument.createElement(%22textarea%22)%2Cc%3Ddocument.getSelection()%3Bb.textContent%3Da%2Cdocument.body.appendChild(b)%2Cc.removeAllRanges()%2Cb.select()%2Cdocument.execCommand(%22copy%22)%2Cc.removeAllRanges()%2Cdocument.body.removeChild(b)%7D(document.title)%3Bvoid(0);&quot;&gt;タイトルを取得&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;これをブックマークツールバーにドラッグ&amp;amp;ドロップすると使える。
+Chrome以外ではチェックしていないので変なブラウザ使ってる人は注意。&lt;/p&gt;</content><author><name>makietan</name></author><category term="tech" /><summary type="html">タイトルを取得</summary></entry><entry><title type="html">閲覧ページのタイトルとURLをMarkdown形式にするBookmarkletを作った</title><link href="https://makietan.github.io/unknown/2021/10/26/report.html" rel="alternate" type="text/html" title="閲覧ページのタイトルとURLをMarkdown形式にするBookmarkletを作った" /><published>2021-10-26T00:00:00+09:00</published><updated>2021-10-26T00:00:00+09:00</updated><id>https://makietan.github.io/unknown/2021/10/26/report</id><content type="html" xml:base="https://makietan.github.io/unknown/2021/10/26/report.html">&lt;p&gt;&lt;a class=&quot;btn btn-success&quot; href=&quot;javascript:javascript%3A!function(a)%7Bvar%20b%3Ddocument.createElement(%22textarea%22)%2Cc%3Ddocument.getSelection()%3Bb.textContent%3Da%2Cdocument.body.appendChild(b)%2Cc.removeAllRanges()%2Cb.select()%2Cdocument.execCommand(%22copy%22)%2Cc.removeAllRanges()%2Cdocument.body.removeChild(b)%7D(%22%5B%22%20%2B%20document.title%20%2B%20%22%5D(%22%20%2B%20document.URL%20%2B%20%22)%22)%3Bvoid(0);&quot;&gt;タイトルを取得&lt;/a&gt;&lt;/p&gt;</content><author><name>makietan</name></author><category term="unknown" /><summary type="html">タイトルを取得</summary></entry><entry><title type="html">緊急事態宣言から続いた飲食店の営業時間規制が終わった</title><link href="https://makietan.github.io/japan/2021/10/25/report.html" rel="alternate" type="text/html" title="緊急事態宣言から続いた飲食店の営業時間規制が終わった" /><published>2021-10-25T00:00:00+09:00</published><updated>2021-10-25T00:00:00+09:00</updated><id>https://makietan.github.io/japan/2021/10/25/report</id><content type="html" xml:base="https://makietan.github.io/japan/2021/10/25/report.html">&lt;p&gt;ようやく終わった。
+現状どうして陽性者が減ったのかは謎だが、急激に減少した結果解除できるまで改善することができた。
+正直、規制が20時までだったことに全く理論的な理由がないので憤りすら感じるがそれも終わった。
+あとは対策として正しかったかどうかを民間が検証して政府や東京都を攻めるときだ。
+アベノマスクみたいなものではなく、政府が散々行ってきた規制側をしっかり追求すべきである。&lt;/p&gt;
+
+&lt;p&gt;外国人や拠点を海外に移した日本人のために日本に住む日本人を蔑ろにする&lt;strong&gt;自粛要請&lt;/strong&gt;や営業時間の短縮要請あたりをね。&lt;/p&gt;
+
+&lt;p&gt;ところで、イギリスがまた感染拡大しているので日本もしばらくすれば再拡大するだろう。
+今のうちにヤりたいことやったもんがちなんだけど、緊急事態宣言もろくに守ってなかったクズ連中は既にヤりまくってるんだよね。
+で、そんなクズと同じ金額の納税をさせられることが非常に腹立たしい。感染予防もろくにしない陽性になってたクズ連中なんか特にだ。
+そいつらのための治療費を納税させられるのが非常に腹立たしい。
+とまぁ個人的な気持ちを記しておこう。&lt;/p&gt;</content><author><name>makietan</name></author><category term="japan" /><summary type="html">ようやく終わった。 現状どうして陽性者が減ったのかは謎だが、急激に減少した結果解除できるまで改善することができた。 正直、規制が20時までだったことに全く理論的な理由がないので憤りすら感じるがそれも終わった。 あとは対策として正しかったかどうかを民間が検証して政府や東京都を攻めるときだ。 アベノマスクみたいなものではなく、政府が散々行ってきた規制側をしっかり追求すべきである。</summary></entry><entry><title type="html">山手線（内回り）「池袋→渋谷→大崎」が終日運休らしい</title><link href="https://makietan.github.io/railway/2021/10/23/report.html" rel="alternate" type="text/html" title="山手線（内回り）「池袋→渋谷→大崎」が終日運休らしい" /><published>2021-10-23T00:00:00+09:00</published><updated>2021-10-23T00:00:00+09:00</updated><id>https://makietan.github.io/railway/2021/10/23/report</id><content type="html" xml:base="https://makietan.github.io/railway/2021/10/23/report.html">&lt;div class=&quot;card&quot;&gt;
   &lt;a href=&quot;https://www.jreast.co.jp/shibuya-koji/&quot;&gt;&lt;/a&gt;
   &lt;div class=&quot;card__header&quot;&gt;
     &lt;a href=&quot;https://www.jreast.co.jp/shibuya-koji/&quot;&gt;www.jreast.co.jp&lt;/a&gt;
@@ -308,136 +323,9 @@
 &lt;p&gt;ついでにほのかちゃんのアクリルスタンドも購入。&lt;/p&gt;
 
 &lt;p&gt;推し武道のグッズがまだ売ってるので安堵している。
-今度再購入でもするか。&lt;/p&gt;</content><author><name>makietan</name></author><category term="otaku" /><summary type="html">#ヤマノススメ 版権イラスト集皆さま早速のご予約ありがとうございます！！エイトビットショップ限定の有償特典線画カレンダーつきのご注文も12日現在はまだご予約頂けます！是非ご検討ください⛰☀ https://t.co/XGLmzvEMxR pic.twitter.com/NUJLYK2gf1&amp;mdash; エイトビットショップ (@8bit_goods) October 12, 2021</summary></entry><entry><title type="html">ユニットパーツ交換券で周回する必要があるキャラクターのメモ</title><link href="https://makietan.github.io/game/srwdd/2021/10/13/report.html" rel="alternate" type="text/html" title="ユニットパーツ交換券で周回する必要があるキャラクターのメモ" /><published>2021-10-13T00:00:00+09:00</published><updated>2021-10-13T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2021/10/13/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2021/10/13/report.html">&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;キャラ名&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;出撃回数&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;イヌイ・アサヒ&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;イングラム・プリスケン&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;5&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;シュウ・シラカワ&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;89&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;コウタ・アズマ&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;キョウスケ・ナンブ&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;楯剣人&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;ラビ&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;ガス山本&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;遥大地&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;剣部シバラク&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;戦部ワタル&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;アムロ・レイ（Hi-νガンダム）&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;7&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;リョウマ&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;シオン・ザバ&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;テンカワ・アキト&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;デュオ・マックスウェル&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;デューク・フリード&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;破嵐万丈&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;昭弘・アルトランド&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;34&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;三日月・オーガス&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;キラ・ヤマト（フリーダムガンダム）&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;アレルヤ・ハプティズム&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;ロックオン・ストラトス&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;ティエリア・アーデ&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;刹那・F・セイエイ&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;超竜神&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;獅子王凱&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;神隼人&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;流竜馬&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;ショウ・ザマ&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html">キャラ名 出撃回数 イヌイ・アサヒ 1 イングラム・プリスケン 5 シュウ・シラカワ 89 コウタ・アズマ 1 キョウスケ・ナンブ   楯剣人   ラビ   ガス山本   遥大地   剣部シバラク   戦部ワタル   アムロ・レイ（Hi-νガンダム） 7 リョウマ   シオン・ザバ   テンカワ・アキト   デュオ・マックスウェル   デューク・フリード   破嵐万丈   昭弘・アルトランド 34 三日月・オーガス   キラ・ヤマト（フリーダムガンダム）   アレルヤ・ハプティズム   ロックオン・ストラトス   ティエリア・アーデ   刹那・F・セイエイ   超竜神   獅子王凱   神隼人   流竜馬   ショウ・ザマ  </summary></entry><entry><title type="html">スパロボDDの第11回迎撃戦経過報告（10/9分）メモ</title><link href="https://makietan.github.io/game/srwdd/2021/10/12/report.html" rel="alternate" type="text/html" title="スパロボDDの第11回迎撃戦経過報告（10/9分）メモ" /><published>2021-10-12T00:00:00+09:00</published><updated>2021-10-12T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2021/10/12/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2021/10/12/report.html">&lt;h2 id=&quot;エリア1&quot;&gt;エリア1&lt;/h2&gt;
+今度再購入でもするか。&lt;/p&gt;</content><author><name>makietan</name></author><category term="otaku" /><summary type="html">#ヤマノススメ 版権イラスト集皆さま早速のご予約ありがとうございます！！エイトビットショップ限定の有償特典線画カレンダーつきのご注文も12日現在はまだご予約頂けます！是非ご検討ください⛰☀ https://t.co/XGLmzvEMxR pic.twitter.com/NUJLYK2gf1&amp;mdash; エイトビットショップ (@8bit_goods) October 12, 2021</summary></entry><entry><title type="html">ユニットパーツ交換券で周回する必要があるキャラクターのメモ</title><link href="https://makietan.github.io/game/srwdd/2021/10/13/report.html" rel="alternate" type="text/html" title="ユニットパーツ交換券で周回する必要があるキャラクターのメモ" /><published>2021-10-13T00:00:00+09:00</published><updated>2021-10-13T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2021/10/13/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2021/10/13/report.html">&lt;p&gt;&lt;u&gt;2021/10/27&lt;/u&gt;&lt;/p&gt;
+
+&lt;p&gt;コンプリート&lt;/p&gt;</content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html">2021/10/27</summary></entry><entry><title type="html">スパロボDDの第11回迎撃戦経過報告（10/9分）メモ</title><link href="https://makietan.github.io/game/srwdd/2021/10/12/report.html" rel="alternate" type="text/html" title="スパロボDDの第11回迎撃戦経過報告（10/9分）メモ" /><published>2021-10-12T00:00:00+09:00</published><updated>2021-10-12T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2021/10/12/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2021/10/12/report.html">&lt;h2 id=&quot;エリア1&quot;&gt;エリア1&lt;/h2&gt;
 
 &lt;h3 id=&quot;boss&quot;&gt;BOSS&lt;/h3&gt;
 
@@ -1497,63 +1385,4 @@
 &lt;h2 id=&quot;おわりに&quot;&gt;おわりに&lt;/h2&gt;
 
 &lt;p&gt;そういえば、とある桑原由気寄席に出演した芸人さんから営業DMが来た。
-集客するのも大変な時期なので仕方ないかな。&lt;/p&gt;</content><author><name>makietan</name></author><category term="otaku" /><summary type="html">また来たぜ。</summary></entry><entry><title type="html">ジョナサンの日替わりランチが安い</title><link href="https://makietan.github.io/gourmet/2021/10/10/report.html" rel="alternate" type="text/html" title="ジョナサンの日替わりランチが安い" /><published>2021-10-10T00:00:00+09:00</published><updated>2021-10-10T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2021/10/10/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2021/10/10/report.html">&lt;p&gt;&lt;u&gt;日替わりランチ 木 ハンバーグてりやきソース&amp;amp;あじフライ(659)&lt;/u&gt;&lt;/p&gt;
-
-&lt;div class=&quot;trim&quot;&gt;
-  &lt;div class=&quot;trim__item&quot;&gt;
-    &lt;a href=&quot;https://makietan.github.io/assets/images/2021-10-10-report/12-38-08.png&quot;&gt;
-      &lt;img class=&quot;one&quot; src=&quot;https://makietan.github.io/assets/thumbnail/2021-10-10-report/12-38-08.png&quot; /&gt;
-    &lt;/a&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;価格よりカロリーが取れる食品はコスパがよすぎる説。
-ただずっとこれを食べ続けるには根性が必要になりそう。&lt;/p&gt;
-
-&lt;p&gt;近くにあったジョナサンとガストは潰れてしまったので遠征も必要になり、
-食べ続けることができないから深く考えなくていいかな。&lt;/p&gt;
-
-&lt;h2 id=&quot;カロリー&quot;&gt;カロリー&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;617kcal&lt;/li&gt;
-  &lt;li&gt;塩分 3.9g&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;（ライス・パンの塩分・カロリーは除く）&lt;/p&gt;</content><author><name>makietan</name></author><category term="gourmet" /><summary type="html">日替わりランチ 木 ハンバーグてりやきソース&amp;amp;あじフライ(659)</summary></entry><entry><title type="html">久しぶりに大戸屋でもろみチキンを食べた</title><link href="https://makietan.github.io/gourmet/2021/10/09/report.html" rel="alternate" type="text/html" title="久しぶりに大戸屋でもろみチキンを食べた" /><published>2021-10-09T00:00:00+09:00</published><updated>2021-10-09T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2021/10/09/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2021/10/09/report.html">&lt;p&gt;&lt;u&gt;木の子ごはんともろみチキンの炭火焼き定食(930)&lt;/u&gt;&lt;/p&gt;
-
-&lt;div class=&quot;trim&quot;&gt;
-  &lt;div class=&quot;trim__item&quot;&gt;
-    &lt;a href=&quot;https://makietan.github.io/assets/images/2021-10-09-report/12-28-24.png&quot;&gt;
-      &lt;img class=&quot;one&quot; src=&quot;https://makietan.github.io/assets/thumbnail/2021-10-09-report/12-28-24.png&quot; /&gt;
-    &lt;/a&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;もろみチキンを久しぶりに食べた。
-今やたまねぎソースに置き換わってしまい食べることができない。
-誰がどう判断したら人気商品をやめる決断になるんだろうか。&lt;/p&gt;
-
-&lt;p&gt;ちなみにきのこが付いただけでかなりお高くなっている。
-いきなりステーキでチキンステーキだけを食べたほうが安い。&lt;/p&gt;
-
-&lt;p&gt;常設してくれるなら通うがそうもいかないだろうし悩ましい。&lt;/p&gt;
-
-&lt;h2 id=&quot;カロリー&quot;&gt;カロリー&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;855kcal&lt;/li&gt;
-  &lt;li&gt;塩分 6.8g&lt;/li&gt;
-  &lt;li&gt;たんぱく質 45.3g&lt;/li&gt;
-  &lt;li&gt;脂質 33.6g&lt;/li&gt;
-  &lt;li&gt;糖質 80.8g&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>makietan</name></author><category term="gourmet" /><summary type="html">木の子ごはんともろみチキンの炭火焼き定食(930)</summary></entry><entry><title type="html">Gmailに送られてくるログイン情報からIPアドレスを抽出して新しいかどうかをチェックする</title><link href="https://makietan.github.io/tech/2021/10/08/report.html" rel="alternate" type="text/html" title="Gmailに送られてくるログイン情報からIPアドレスを抽出して新しいかどうかをチェックする" /><published>2021-10-08T00:00:00+09:00</published><updated>2021-10-08T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2021/10/08/report</id><content type="html" xml:base="https://makietan.github.io/tech/2021/10/08/report.html">&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;YJFX！から送られてくるログイン情報メールから日時とIPアドレス抽出して過去に存在しないIPからログインがあったらSlackに投げるGAS書いた&lt;br /&gt;&lt;br /&gt;多分他の不親切なログイン情報メールでも同様のことができそうだ&lt;br /&gt;後はGASで nslookup と whois ができれば完璧なのだが... &lt;a href=&quot;https://t.co/4yLC4B1w1N&quot;&gt;pic.twitter.com/4yLC4B1w1N&lt;/a&gt;&lt;/p&gt;&amp;mdash; まきえたん🥦桑寄席9/26 (@makietanX) &lt;a href=&quot;https://twitter.com/makietanX/status/1443001992087957504?ref_src=twsrc%5Etfw&quot;&gt;September 28, 2021&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-
-&lt;h2 id=&quot;gist&quot;&gt;Gist&lt;/h2&gt;
-
-&lt;script src=&quot;https://gist.github.com/tanjoin/9052c8e69ddc0ac8f69fa5925c782e7d.js&quot;&gt;&lt;/script&gt;
-
-&lt;h2 id=&quot;応用&quot;&gt;応用&lt;/h2&gt;
-
-&lt;p&gt;他にもログイン情報を雑に送ってくる企業は多々あるので他も通知していきたいと思う。&lt;/p&gt;</content><author><name>makietan</name></author><category term="tech" /><summary type="html">YJFX！から送られてくるログイン情報メールから日時とIPアドレス抽出して過去に存在しないIPからログインがあったらSlackに投げるGAS書いた多分他の不親切なログイン情報メールでも同様のことができそうだ後はGASで nslookup と whois ができれば完璧なのだが... pic.twitter.com/4yLC4B1w1N&amp;mdash; まきえたん🥦桑寄席9/26 (@makietanX) September 28, 2021</summary></entry></feed>
+集客するのも大変な時期なので仕方ないかな。&lt;/p&gt;</content><author><name>makietan</name></author><category term="otaku" /><summary type="html">また来たぜ。</summary></entry></feed>

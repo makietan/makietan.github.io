@@ -5377,6 +5377,18 @@
 <lastmod>2021-10-23T00:00:00+09:00</lastmod>
 </url>
 <url>
+<loc>https://makietan.github.io/japan/2021/10/25/report.html</loc>
+<lastmod>2021-10-25T00:00:00+09:00</lastmod>
+</url>
+<url>
+<loc>https://makietan.github.io/unknown/2021/10/26/report.html</loc>
+<lastmod>2021-10-26T00:00:00+09:00</lastmod>
+</url>
+<url>
+<loc>https://makietan.github.io/tech/2021/10/27/report.html</loc>
+<lastmod>2021-10-27T00:00:00+09:00</lastmod>
+</url>
+<url>
 <loc>https://makietan.github.io/about/</loc>
 </url>
 <url>
@@ -5440,6 +5452,9 @@
 <loc>https://makietan.github.io/search/</loc>
 </url>
 <url>
+<loc>https://makietan.github.io/category/srw</loc>
+</url>
+<url>
 <loc>https://makietan.github.io/category/srwdd</loc>
 </url>
 <url>
@@ -5447,6 +5462,9 @@
 </url>
 <url>
 <loc>https://makietan.github.io/category/tech</loc>
+</url>
+<url>
+<loc>https://makietan.github.io/category/unknown</loc>
 </url>
 <url>
 <loc>https://makietan.github.io/categories/game/</loc>
@@ -5687,5 +5705,8 @@
 </url>
 <url>
 <loc>https://makietan.github.io/categories/receipt/</loc>
+</url>
+<url>
+<loc>https://makietan.github.io/categories/unknown/</loc>
 </url>
 </urlset>
