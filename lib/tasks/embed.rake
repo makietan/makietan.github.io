@@ -52,7 +52,11 @@ namespace :embed do
     meta = {}
     if uri =~ URI::regexp
       begin 
-        html = URI.open(uri).read
+        opt = {}
+        opt['User-Agent'] = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36'
+        opt['Accept'] = 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+        opt['Accept-Language'] = 'ja,en;q=0.9,en-US;q=0.8'
+        html = URI.open(uri, opt).read
         
         doc = Nokogiri::HTML(html.toutf8, nil, 'utf-8')
 
