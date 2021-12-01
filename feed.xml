@@ -1,4 +1,36 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2021-11-30T12:06:41+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">日報</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">iモード公式サイトが終了する</title><link href="https://makietan.github.io/docomo/2021/11/30/report.html" rel="alternate" type="text/html" title="iモード公式サイトが終了する" /><published>2021-11-30T00:00:00+09:00</published><updated>2021-11-30T00:00:00+09:00</updated><id>https://makietan.github.io/docomo/2021/11/30/report</id><content type="html" xml:base="https://makietan.github.io/docomo/2021/11/30/report.html">&lt;div class=&quot;card&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2021-12-01T12:11:09+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">日報</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">ソフトバンクまとめて支払いの履歴を確認する</title><link href="https://makietan.github.io/credit/2021/12/01/report.html" rel="alternate" type="text/html" title="ソフトバンクまとめて支払いの履歴を確認する" /><published>2021-12-01T00:00:00+09:00</published><updated>2021-12-01T00:00:00+09:00</updated><id>https://makietan.github.io/credit/2021/12/01/report</id><content type="html" xml:base="https://makietan.github.io/credit/2021/12/01/report.html">&lt;div class=&quot;card&quot;&gt;
+  &lt;a href=&quot;https://ci11.my.softbank.jp/cbi/top/&quot;&gt;&lt;/a&gt;
+  &lt;div class=&quot;card__header&quot;&gt;
+    &lt;a href=&quot;https://ci11.my.softbank.jp/cbi/top/&quot;&gt;ci11.my.softbank.jp&lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__image&quot;&gt;
+    &lt;img src=&quot;&quot; /&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__title&quot;&gt;
+    &lt;p&gt;オンライン料金案内｜ソフトバンク&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__description&quot;&gt;
+    &lt;p&gt;&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;参考&quot;&gt;参考&lt;/h2&gt;
+
+&lt;div class=&quot;card&quot;&gt;
+  &lt;a href=&quot;https://www.softbank.jp/support/faq/view/10630&quot;&gt;&lt;/a&gt;
+  &lt;div class=&quot;card__header&quot;&gt;
+    &lt;a href=&quot;https://www.softbank.jp/support/faq/view/10630&quot;&gt;www.softbank.jp&lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__image&quot;&gt;
+    &lt;img src=&quot;https://cdn.softbank.jp/site/set/common/shared/img/icon_softbank.gif&quot; /&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__title&quot;&gt;
+    &lt;p&gt;利用履歴や利用残高の確認はできますか？［ソフトバンクまとめて支払い］ | よくあるご質問（FAQ） | サポート | ソフトバンク&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__description&quot;&gt;
+    &lt;p&gt;ソフトバンクのサポートのページです。 製品・サービスに関するサポート情報や通信障害、メンテナンス情報などをご紹介します。&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</content><author><name>makietan</name></author><category term="credit" /><summary type="html">ci11.my.softbank.jp オンライン料金案内｜ソフトバンク</summary></entry><entry><title type="html">iモード公式サイトが終了する</title><link href="https://makietan.github.io/docomo/2021/11/30/report.html" rel="alternate" type="text/html" title="iモード公式サイトが終了する" /><published>2021-11-30T00:00:00+09:00</published><updated>2021-11-30T00:00:00+09:00</updated><id>https://makietan.github.io/docomo/2021/11/30/report</id><content type="html" xml:base="https://makietan.github.io/docomo/2021/11/30/report.html">&lt;div class=&quot;card&quot;&gt;
   &lt;a href=&quot;https://www.nttdocomo.co.jp/info/notice/page/201007_00.html&quot;&gt;&lt;/a&gt;
   &lt;div class=&quot;card__header&quot;&gt;
     &lt;a href=&quot;https://www.nttdocomo.co.jp/info/notice/page/201007_00.html&quot;&gt;www.nttdocomo.co.jp&lt;/a&gt;
@@ -3892,22 +3924,4 @@ M1チップで色々と不具合は出てるらしいが、よほど変なこと
   &lt;li&gt;基本：赤&lt;/li&gt;
   &lt;li&gt;ドロップス：白&lt;/li&gt;
   &lt;li&gt;ものどもの宴：カラフル（なんでもいい）&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>makietan</name></author><category term="otaku" /><summary type="html">基本：赤 ドロップス：白 ものどもの宴：カラフル（なんでもいい）</summary></entry><entry><title type="html">Appleの経由したらよさそうなポイントサイト</title><link href="https://makietan.github.io/point/2021/11/07/report.html" rel="alternate" type="text/html" title="Appleの経由したらよさそうなポイントサイト" /><published>2021-11-07T00:00:00+09:00</published><updated>2021-11-07T00:00:00+09:00</updated><id>https://makietan.github.io/point/2021/11/07/report</id><content type="html" xml:base="https://makietan.github.io/point/2021/11/07/report.html">&lt;h2 id=&quot;pocket-mall&quot;&gt;POCKET MALL&lt;/h2&gt;
-
-&lt;p&gt;+0.2〜0.6%&lt;/p&gt;
-
-&lt;div class=&quot;card&quot;&gt;
-  &lt;a href=&quot;https://pml.pocketcard.co.jp/shop/343/&quot;&gt;&lt;/a&gt;
-  &lt;div class=&quot;card__header&quot;&gt;
-    &lt;a href=&quot;https://pml.pocketcard.co.jp/shop/343/&quot;&gt;pml.pocketcard.co.jp&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__image&quot;&gt;
-    &lt;img src=&quot;&quot; /&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__title&quot;&gt;
-    &lt;p&gt;Apple公式サイト - ポケットモール&lt;/p&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__description&quot;&gt;
-    &lt;p&gt;Apple公式サイト - ポケットモールポケットカードが運営するポケットモール（POCKET MALL）は、経由してショップサイトで通常のお買い物をするだけで、ポケット・ポイント、Tポイントが貯まります。貯まったポイントはネットカウンターにて確認ができます。&lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;</content><author><name>makietan</name></author><category term="point" /><summary type="html">POCKET MALL</summary></entry></feed>
+&lt;/ul&gt;</content><author><name>makietan</name></author><category term="otaku" /><summary type="html">基本：赤 ドロップス：白 ものどもの宴：カラフル（なんでもいい）</summary></entry></feed>
