@@ -1,4 +1,33 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2021-12-08T12:11:24+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">日報</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">「nanacoクリック」を登録し直した</title><link href="https://makietan.github.io/point/2021/12/04/report.html" rel="alternate" type="text/html" title="「nanacoクリック」を登録し直した" /><published>2021-12-04T00:00:00+09:00</published><updated>2021-12-04T00:00:00+09:00</updated><id>https://makietan.github.io/point/2021/12/04/report</id><content type="html" xml:base="https://makietan.github.io/point/2021/12/04/report.html">&lt;div class=&quot;card&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2021-12-08T17:25:48+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">日報</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">楽天e-NAVIにカードを追加する</title><link href="https://makietan.github.io/credit/2021/12/08/report.html" rel="alternate" type="text/html" title="楽天e-NAVIにカードを追加する" /><published>2021-12-08T00:00:00+09:00</published><updated>2021-12-08T00:00:00+09:00</updated><id>https://makietan.github.io/credit/2021/12/08/report</id><content type="html" xml:base="https://makietan.github.io/credit/2021/12/08/report.html">&lt;h2 id=&quot;楽天e-navi情報の登録変更楽天e-naviへのカード追加登録&quot;&gt;楽天e-NAVI情報の登録・変更（楽天e-NAVIへのカード追加登録）&lt;/h2&gt;
+
+&lt;div class=&quot;card&quot;&gt;
+  &lt;a href=&quot;&quot;&gt;&lt;/a&gt;
+  &lt;div class=&quot;card__header&quot;&gt;
+    &lt;a href=&quot;&quot;&gt;&lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__image&quot;&gt;
+    &lt;img src=&quot;&quot; /&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__title&quot;&gt;
+    &lt;p&gt;&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__description&quot;&gt;
+    &lt;p&gt;&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;どうやら自動で追加してくれないらしい。&lt;/p&gt;
+
+&lt;p&gt;面倒くさいな。&lt;/p&gt;</content><author><name>makietan</name></author><category term="credit" /><summary type="html">楽天e-NAVI情報の登録・変更（楽天e-NAVIへのカード追加登録）</summary></entry><entry><title type="html">若干視力が下がってるかもしれん</title><link href="https://makietan.github.io/health/2021/12/05/report.html" rel="alternate" type="text/html" title="若干視力が下がってるかもしれん" /><published>2021-12-05T00:00:00+09:00</published><updated>2021-12-05T00:00:00+09:00</updated><id>https://makietan.github.io/health/2021/12/05/report</id><content type="html" xml:base="https://makietan.github.io/health/2021/12/05/report.html">&lt;p&gt;寝て起きただけなのだが
+視力が下がってる…。&lt;/p&gt;
+
+&lt;p&gt;血流の問題？&lt;/p&gt;
+
+&lt;p&gt;それ以外だとしたら何が要員だろうか…。&lt;/p&gt;
+
+&lt;p&gt;Youtubeを見る時間とソシャゲの時間を減らすべきか。&lt;/p&gt;
+
+&lt;p&gt;いやーきつい。&lt;/p&gt;</content><author><name>makietan</name></author><category term="health" /><summary type="html">寝て起きただけなのだが 視力が下がってる…。</summary></entry><entry><title type="html">「nanacoクリック」を登録し直した</title><link href="https://makietan.github.io/point/2021/12/04/report.html" rel="alternate" type="text/html" title="「nanacoクリック」を登録し直した" /><published>2021-12-04T00:00:00+09:00</published><updated>2021-12-04T00:00:00+09:00</updated><id>https://makietan.github.io/point/2021/12/04/report</id><content type="html" xml:base="https://makietan.github.io/point/2021/12/04/report.html">&lt;div class=&quot;card&quot;&gt;
   &lt;a href=&quot;https://www.nanaco-net.jp/cp/mailmagazine/&quot;&gt;&lt;/a&gt;
   &lt;div class=&quot;card__header&quot;&gt;
     &lt;a href=&quot;https://www.nanaco-net.jp/cp/mailmagazine/&quot;&gt;www.nanaco-net.jp&lt;/a&gt;
@@ -227,87 +256,4 @@ Logicoolのマウスにはキーンという高音を発するものもあって
   &lt;/div&gt;
 &lt;/div&gt;</content><author><name>makietan</name></author><category term="tech" /><summary type="html">自分用のメモ。</summary></entry><entry><title type="html">メイドラゴンSのイベントにとうせんしたぞー！</title><link href="https://makietan.github.io/otaku/2021/11/13/report.html" rel="alternate" type="text/html" title="メイドラゴンSのイベントにとうせんしたぞー！" /><published>2021-11-13T00:00:00+09:00</published><updated>2021-11-13T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2021/11/13/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2021/11/13/report.html">&lt;p&gt;昼／夜ともにいけたぞー！！！！！！！！！&lt;/p&gt;
 
-&lt;p&gt;マジやばくね！！！！！！！！！！！！！！！！！！！&lt;/p&gt;</content><author><name>makietan</name></author><category term="otaku" /><summary type="html">昼／夜ともにいけたぞー！！！！！！！！！</summary></entry><entry><title type="html">マクドナルドの「はみトリチ」を食べた</title><link href="https://makietan.github.io/gourmet/2021/11/12/report.html" rel="alternate" type="text/html" title="マクドナルドの「はみトリチ」を食べた" /><published>2021-11-12T00:00:00+09:00</published><updated>2021-11-12T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2021/11/12/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2021/11/12/report.html">&lt;p&gt;&lt;u&gt;はみトリチ(540)&lt;/u&gt;&lt;/p&gt;
-
-&lt;div class=&quot;trim&quot;&gt;
-  &lt;div class=&quot;trim__item&quot;&gt;
-    &lt;a href=&quot;https://makietan.github.io/assets/images/2021-11-12-report/23-08-32.png&quot;&gt;
-      &lt;img class=&quot;one&quot; src=&quot;https://makietan.github.io/assets/thumbnail/2021-11-12-report/23-08-32.png&quot; /&gt;
-    &lt;/a&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&quot;745kcal&quot;&gt;745kcal&lt;/h2&gt;
-
-&lt;p&gt;いやーもうねチーズバーガーが307kcalなんで2.4267101倍。
-あれ？
-トリチとか言ってるくせにカロリーは2.5にも届いてないじゃないかと思うが、
-バンズのカロリーがそれなりに高いからそこはおおめにみてあげよう。&lt;/p&gt;
-
-&lt;p&gt;ハンバーガーは256kcal。
-こちらは2.9101562倍なのでほぼトリプルスコア。&lt;/p&gt;
-
-&lt;h3 id=&quot;カロリー選手権&quot;&gt;カロリー選手権&lt;/h3&gt;
-
-&lt;p&gt;ちなみにカロリーでやばい定番メニューは炙り醤油風 ダブル肉厚ビーフの625kcal。&lt;/p&gt;
-
-&lt;p&gt;自分の好きなフィレオフィッシュは323kcalなのでざっくりと1.9349845倍。&lt;/p&gt;
-
-&lt;p&gt;爽健美茶が0kcalで一番低い（そりゃそうじゃ）。&lt;/p&gt;
-
-&lt;h2 id=&quot;袋がベタベタ&quot;&gt;袋がベタベタ&lt;/h2&gt;
-
-&lt;p&gt;唯一問題点は包装が油まみれになってしまうこと。
-食べるときにはもうスケスケ包装になってたし、手がベタベタになった。
-これなら他の手が汚れないものを食べるかな。&lt;/p&gt;
-
-&lt;h2 id=&quot;感想&quot;&gt;感想&lt;/h2&gt;
-
-&lt;p&gt;美味しいが袋がベタベタでちょっと嫌。&lt;/p&gt;
-
-&lt;h2 id=&quot;参考サイト&quot;&gt;参考サイト&lt;/h2&gt;
-
-&lt;div class=&quot;card&quot;&gt;
-  &lt;a href=&quot;https://www.mcdonalds.co.jp/products/6820/&quot;&gt;&lt;/a&gt;
-  &lt;div class=&quot;card__header&quot;&gt;
-    &lt;a href=&quot;https://www.mcdonalds.co.jp/products/6820/&quot;&gt;www.mcdonalds.co.jp&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__image&quot;&gt;
-    &lt;img src=&quot;https://www.mcdonalds.co.jp/product_images/1032/1395.png?20211105161643&quot; /&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__title&quot;&gt;
-    &lt;p&gt; はみトリチ | メニュー情報  |  McDonald's Japan&lt;/p&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__description&quot;&gt;
-    &lt;p&gt;日本マクドナルドの「はみトリチ」を紹介します。&lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;</content><author><name>makietan</name></author><category term="gourmet" /><summary type="html">はみトリチ(540)</summary></entry><entry><title type="html">Mac mini M1 2020 のカスタムモデルを買いました</title><link href="https://makietan.github.io/tech/2021/11/11/report.html" rel="alternate" type="text/html" title="Mac mini M1 2020 のカスタムモデルを買いました" /><published>2021-11-11T00:00:00+09:00</published><updated>2021-11-11T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2021/11/11/report</id><content type="html" xml:base="https://makietan.github.io/tech/2021/11/11/report.html">&lt;div class=&quot;card&quot;&gt;
-  &lt;a href=&quot;https://www.yodobashi.com/product/100000001005918208/&quot;&gt;&lt;/a&gt;
-  &lt;div class=&quot;card__header&quot;&gt;
-    &lt;a href=&quot;https://www.yodobashi.com/product/100000001005918208/&quot;&gt;www.yodobashi.com&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__image&quot;&gt;
-    &lt;img src=&quot;https://image.yodobashi.com/product/100/000/001/005/918/208/100000001005918208_10203.jpg&quot; /&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__title&quot;&gt;
-    &lt;p&gt;ヨドバシ.com - アップル Apple Apple Mac mini M1チップ（8コアCPU/8コアGPU） カスタマイズモデル（CTO） 通販【全品無料配達】&lt;/p&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__description&quot;&gt;
-    &lt;p&gt;アップル Apple Apple Mac mini M1チップ（8コアCPU/8コアGPU） カスタマイズモデル（CTO）の通販ならヨドバシカメラの公式サイト「ヨドバシ.com」で！レビュー、Q&amp;amp;A、画像も盛り沢山。ご購入でゴールドポイント取得！今なら日本全国へ全品配達料金無料、即日・翌日お届け実施中。&lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;メモリを16GB、ストレージを1TBにしたもの。
-約15万円くらいだ。&lt;/p&gt;
-
-&lt;p&gt;本当ならデフォルトの8万円くらいのにしようと思ったけどリチウムバッテリーの膨張リスクとかがないので
-長期間利用する想定でスペックを高めた。&lt;/p&gt;
-
-&lt;p&gt;今回はヨドバシ・ドット・コムで購入した。
-変なサイト経由でキャッシュバックを求めるのもいいが、
-ヨドバシ・ドット・コムで使えるポイントを貰うほうが消費しやすいからだ。&lt;/p&gt;
-
-&lt;p&gt;FXツールを週5で起動しつつ、相場が動かないときにはYoutubeでも垂れ流して時間を潰しながらツール開発をするのでこのくらいは必要だろうなと。
-M1チップで色々と不具合は出てるらしいが、よほど変なことしない限り大丈夫だろう。&lt;/p&gt;
-
-&lt;p&gt;確定申告が面倒くさいなぁ…減価償却しつつ割合の計算もしないといけない。&lt;/p&gt;</content><author><name>makietan</name></author><category term="tech" /><summary type="html">www.yodobashi.com ヨドバシ.com - アップル Apple Apple Mac mini M1チップ（8コアCPU/8コアGPU） カスタマイズモデル（CTO） 通販【全品無料配達】 アップル Apple Apple Mac mini M1チップ（8コアCPU/8コアGPU） カスタマイズモデル（CTO）の通販ならヨドバシカメラの公式サイト「ヨドバシ.com」で！レビュー、Q&amp;amp;A、画像も盛り沢山。ご購入でゴールドポイント取得！今なら日本全国へ全品配達料金無料、即日・翌日お届け実施中。</summary></entry></feed>
+&lt;p&gt;マジやばくね！！！！！！！！！！！！！！！！！！！&lt;/p&gt;</content><author><name>makietan</name></author><category term="otaku" /><summary type="html">昼／夜ともにいけたぞー！！！！！！！！！</summary></entry></feed>
