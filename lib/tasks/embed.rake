@@ -73,7 +73,8 @@ namespace :embed do
         url = uri
         url = doc.xpath('//meta[@property="og:description"]/@content')  if url.nil? || url.empty?
         url = doc.xpath('//meta[@name="twitter:description"]/@content') if url.nil? || url.empty?
-        meta[:url] = url.to_s unless url.nil? or url.empty?
+        url = uri unless url.nil? or url.empty?
+        meta[:url] = url.to_s
         meta[:host] = URI.parse(url).host unless URI.parse(url)&.host.nil?
 
         image = doc.xpath('//meta[@property="og:image"]/@content')
