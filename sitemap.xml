@@ -5517,6 +5517,10 @@
 <lastmod>2021-12-12T00:00:00+09:00</lastmod>
 </url>
 <url>
+<loc>https://makietan.github.io/unknown/2021/12/15/report.html</loc>
+<lastmod>2021-12-15T00:00:00+09:00</lastmod>
+</url>
+<url>
 <loc>https://makietan.github.io/japan/2021/12/16/report.html</loc>
 <lastmod>2021-12-16T00:00:00+09:00</lastmod>
 </url>
@@ -5537,6 +5541,10 @@
 <lastmod>2021-12-20T00:00:00+09:00</lastmod>
 </url>
 <url>
+<loc>https://makietan.github.io/fx/2021/12/22/report.html</loc>
+<lastmod>2021-12-22T00:00:00+09:00</lastmod>
+</url>
+<url>
 <loc>https://makietan.github.io/about/</loc>
 </url>
 <url>
@@ -5547,6 +5555,9 @@
 </url>
 <url>
 <loc>https://makietan.github.io/category/docomo</loc>
+</url>
+<url>
+<loc>https://makietan.github.io/category/fx</loc>
 </url>
 <url>
 <loc>https://makietan.github.io/category/game</loc>
@@ -5595,6 +5606,9 @@
 </url>
 <url>
 <loc>https://makietan.github.io/category/teck</loc>
+</url>
+<url>
+<loc>https://makietan.github.io/category/unknown</loc>
 </url>
 <url>
 <loc>https://makietan.github.io/categories/game/</loc>
@@ -5844,5 +5858,8 @@
 </url>
 <url>
 <loc>https://makietan.github.io/categories/piont/</loc>
+</url>
+<url>
+<loc>https://makietan.github.io/categories/unknown/</loc>
 </url>
 </urlset>

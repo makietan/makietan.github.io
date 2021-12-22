@@ -1,4 +1,80 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2021-12-22T12:12:02+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">日報</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">洗濯機を買い換えた</title><link href="https://makietan.github.io/tech/2021/12/20/report.html" rel="alternate" type="text/html" title="洗濯機を買い換えた" /><published>2021-12-20T00:00:00+09:00</published><updated>2021-12-20T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2021/12/20/report</id><content type="html" xml:base="https://makietan.github.io/tech/2021/12/20/report.html">&lt;p&gt;だいたい3万円くらい。&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2021-12-22T12:55:05+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">日報</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">マネックスFXを利用すべきでない理由</title><link href="https://makietan.github.io/fx/2021/12/22/report.html" rel="alternate" type="text/html" title="マネックスFXを利用すべきでない理由" /><published>2021-12-22T00:00:00+09:00</published><updated>2021-12-22T00:00:00+09:00</updated><id>https://makietan.github.io/fx/2021/12/22/report</id><content type="html" xml:base="https://makietan.github.io/fx/2021/12/22/report.html">&lt;ol&gt;
+  &lt;li&gt;サービスの終了&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&quot;card&quot;&gt;
+  &lt;a href=&quot;https://www.monexfx.co.jp/news/20211119_01.php&quot;&gt;&lt;/a&gt;
+  &lt;div class=&quot;card__header&quot;&gt;
+    &lt;a href=&quot;https://www.monexfx.co.jp/news/20211119_01.php&quot;&gt;www.monexfx.co.jp&lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__image&quot;&gt;
+    &lt;img src=&quot;&quot; /&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__title&quot;&gt;
+    &lt;p&gt;【重要】マネックスFX サービス終了に関するお知らせ | お知らせ | FX（外国為替証拠金取引）ならマネックスFX／マネックス証券&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__description&quot;&gt;
+    &lt;p&gt;&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;5月頃にマネックスFXPLUSへ移管される。&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;異常なスプレッド&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;最近のトルコリラでの出来事。&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;マネックスのトルコリラのスプレッド200とか&lt;br /&gt;皆殺しにもほどがある &lt;a href=&quot;https://twitter.com/hashtag/TRYJPY?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#TRYJPY&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/FX?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#FX&lt;/a&gt; &lt;a href=&quot;https://t.co/S6NQcxI5V2&quot;&gt;pic.twitter.com/S6NQcxI5V2&lt;/a&gt;&lt;/p&gt;&amp;mdash; A (@makietanA) &lt;a href=&quot;https://twitter.com/makietanA/status/1473186930422878208?ref_src=twsrc%5Etfw&quot;&gt;December 21, 2021&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;200pipsも搾取してユーザーを殺す気マンマン。
+もはや詐欺といっても過言ではない。&lt;/p&gt;
+
+&lt;p&gt;両建てができるのが唯一のメリットなのだけどそれも意味をなさない。
+スプレッドが広がりすぎてロスカットまっしぐらである。
+証拠金300%超えていてもロスカットは余裕で起きるスプレッドには脱帽どころか脱毛。&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;アプリのBid/Askの更新がおかしい&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;リアルタイムの価格が反映されない画面が何個もある。
+チャートだと特に反映されない。&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;入金は次々とせがむくせに、出金がめちゃくちゃ遅い&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;金曜でなくても最大2日はかかる。&lt;/p&gt;
+
+&lt;p&gt;これ以外にも多々やめといたほうがいい理由はたくさんあるが典型的なものを挙げた。
+FX PLUSはスプレッドがマネックスFXより広いらしいので単なる改悪。
+2つのサービスを維持するのが大変なのはわかるが、ダメな方を残すのはユーザーに損をさせる魂胆がみえみえである。&lt;/p&gt;
+
+&lt;p&gt;マネックスFXより酷いFXは他にもある。&lt;/p&gt;
+
+&lt;div class=&quot;card&quot;&gt;
+  &lt;a href=&quot;https://www.jibunbank.co.jp/products/fx/detail/&quot;&gt;&lt;/a&gt;
+  &lt;div class=&quot;card__header&quot;&gt;
+    &lt;a href=&quot;https://www.jibunbank.co.jp/products/fx/detail/&quot;&gt;www.jibunbank.co.jp&lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__image&quot;&gt;
+    &lt;img src=&quot;https://www.jibunbank.co.jp/apple-touch-icon.png&quot; /&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__title&quot;&gt;
+    &lt;p&gt;取引ルール | じぶん銀行FX | auじぶん銀行&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__description&quot;&gt;
+    &lt;p&gt;&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;じぶん銀行FXとかロスカットがまさかの100%で行われるので取引させる気がなさすぎる。
+ユーザーを助けるとか謳いながらさっさと殺して搾取する気マンマンなのがあからさまである。&lt;/p&gt;
+
+&lt;p&gt;本当にユーザーを助けるならロスカットは0%で追証もかけない海外FXのようなものにすべきだよ。&lt;/p&gt;</content><author><name>makietan</name></author><category term="fx" /><summary type="html">サービスの終了</summary></entry><entry><title type="html">洗濯機を買い換えた</title><link href="https://makietan.github.io/tech/2021/12/20/report.html" rel="alternate" type="text/html" title="洗濯機を買い換えた" /><published>2021-12-20T00:00:00+09:00</published><updated>2021-12-20T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2021/12/20/report</id><content type="html" xml:base="https://makietan.github.io/tech/2021/12/20/report.html">&lt;p&gt;だいたい3万円くらい。&lt;/p&gt;
 
 &lt;p&gt;政府が決めやがったリサイクル料金はクレカではなく現金で渡さなければならない。
 非常に面倒である。&lt;/p&gt;
@@ -12,6 +88,22 @@
 &lt;p&gt;お釣りが超面倒だ。&lt;/p&gt;
 
 &lt;p&gt;2,500円となるようにして欲しい。&lt;/p&gt;
+
+&lt;div class=&quot;card&quot;&gt;
+  &lt;a href=&quot;https://corporate.jp.sharp/eco/recycle/price.html&quot;&gt;&lt;/a&gt;
+  &lt;div class=&quot;card__header&quot;&gt;
+    &lt;a href=&quot;https://corporate.jp.sharp/eco/recycle/price.html&quot;&gt;corporate.jp.sharp&lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__image&quot;&gt;
+    &lt;img src=&quot;https://corporate.jp.sharp/eco/images_global/ogp.jpg&quot; /&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__title&quot;&gt;
+    &lt;p&gt;製品のリサイクル・回収について｜サポート情報｜サステナビリティ：シャープ株式会社&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__description&quot;&gt;
+    &lt;p&gt;&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 
 &lt;p&gt;というか政府が決めた搾取金なら非課税にしろよ…。&lt;/p&gt;
 
@@ -182,7 +274,7 @@ iPhoneとAndroidの複数台持ちをしているのでアカウントを切り�
 &lt;p&gt;消費者が増えないのはまともに給料を上げない企業のせいなので、
 自分で自分の首を絞めているのと同じ状態だ。&lt;/p&gt;
 
-&lt;p&gt;もう呆れるしかない。&lt;/p&gt;</content><author><name>makietan</name></author><category term="japan" /><summary type="html">news.yahoo.co.jp 世帯年収800万円の平均貯蓄額はどれくらい？（ファイナンシャルフィールド） - Yahoo!ニュース 「世帯年収800万円の平均貯蓄額はどれくらいなのか知りたい」など、周囲の世帯がどのくらい貯蓄をしているのか、気になっている方は多いのではないでしょうか。平均貯蓄額を知ることで、自分たちの貯蓄額が世間</summary></entry><entry><title type="html">佐川急便は配達していないのに不在届をメールすら送ってくる最低な企業</title><link href="https://makietan.github.io/japan/2021/12/12/report.html" rel="alternate" type="text/html" title="佐川急便は配達していないのに不在届をメールすら送ってくる最低な企業" /><published>2021-12-12T00:00:00+09:00</published><updated>2021-12-12T00:00:00+09:00</updated><id>https://makietan.github.io/japan/2021/12/12/report</id><content type="html" xml:base="https://makietan.github.io/japan/2021/12/12/report.html">&lt;p&gt;配送会社は様々あるが最低な企業が１つある。&lt;/p&gt;
+&lt;p&gt;もう呆れるしかない。&lt;/p&gt;</content><author><name>makietan</name></author><category term="japan" /><summary type="html">news.yahoo.co.jp 世帯年収800万円の平均貯蓄額はどれくらい？（ファイナンシャルフィールド） - Yahoo!ニュース 「世帯年収800万円の平均貯蓄額はどれくらいなのか知りたい」など、周囲の世帯がどのくらい貯蓄をしているのか、気になっている方は多いのではないでしょうか。平均貯蓄額を知ることで、自分たちの貯蓄額が世間</summary></entry><entry><title type="html"></title><link href="https://makietan.github.io/unknown/2021/12/15/report.html" rel="alternate" type="text/html" title="" /><published>2021-12-15T00:00:00+09:00</published><updated>2021-12-15T00:00:00+09:00</updated><id>https://makietan.github.io/unknown/2021/12/15/report</id><content type="html" xml:base="https://makietan.github.io/unknown/2021/12/15/report.html"></content><author><name>makietan</name></author><category term="unknown" /><summary type="html"></summary></entry><entry><title type="html">佐川急便は配達していないのに不在届をメールすら送ってくる最低な企業</title><link href="https://makietan.github.io/japan/2021/12/12/report.html" rel="alternate" type="text/html" title="佐川急便は配達していないのに不在届をメールすら送ってくる最低な企業" /><published>2021-12-12T00:00:00+09:00</published><updated>2021-12-12T00:00:00+09:00</updated><id>https://makietan.github.io/japan/2021/12/12/report</id><content type="html" xml:base="https://makietan.github.io/japan/2021/12/12/report.html">&lt;p&gt;配送会社は様々あるが最低な企業が１つある。&lt;/p&gt;
 
 &lt;p&gt;それが、&lt;strong&gt;佐川急便&lt;/strong&gt;だ。&lt;/p&gt;
 
@@ -229,46 +321,4 @@ iPhoneとAndroidの複数台持ちをしているのでアカウントを切り�
 
 &lt;p&gt;Youtubeを見る時間とソシャゲの時間を減らすべきか。&lt;/p&gt;
 
-&lt;p&gt;いやーきつい。&lt;/p&gt;</content><author><name>makietan</name></author><category term="health" /><summary type="html">寝て起きただけなのだが 視力が下がってる…。</summary></entry><entry><title type="html">「nanacoクリック」を登録し直した</title><link href="https://makietan.github.io/point/2021/12/04/report.html" rel="alternate" type="text/html" title="「nanacoクリック」を登録し直した" /><published>2021-12-04T00:00:00+09:00</published><updated>2021-12-04T00:00:00+09:00</updated><id>https://makietan.github.io/point/2021/12/04/report</id><content type="html" xml:base="https://makietan.github.io/point/2021/12/04/report.html">&lt;div class=&quot;card&quot;&gt;
-  &lt;a href=&quot;https://www.nanaco-net.jp/cp/mailmagazine/&quot;&gt;&lt;/a&gt;
-  &lt;div class=&quot;card__header&quot;&gt;
-    &lt;a href=&quot;https://www.nanaco-net.jp/cp/mailmagazine/&quot;&gt;www.nanaco-net.jp&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__image&quot;&gt;
-    &lt;img src=&quot;https://www.nanaco-net.jp/material/img/common/logo/logo_ogp.png&quot; /&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__title&quot;&gt;
-    &lt;p&gt;nanacoメールマガジン「nanacoニュース」｜電子マネー nanaco 【公式サイト】&lt;/p&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__description&quot;&gt;
-    &lt;p&gt;nanacoニュースはnanacoのメールマガジンです。ポイントがたまるおトクなキャンペーン情報やnanacoが使えるお店情報などを定期的に配信します。&lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;機種変更などで以外と忘れがちなのが「nanacoクリック」。
-勝手にIDを切り替えてくれているのかはよくわからないので登録をし直した。&lt;/p&gt;
-
-&lt;p&gt;そういえば、iOSでnanacoが利用できるようになった。
-そっちも登録しないといけないな。&lt;/p&gt;
-
-&lt;p&gt;まだ何もヤッてないわ。&lt;/p&gt;</content><author><name>makietan</name></author><category term="point" /><summary type="html">www.nanaco-net.jp nanacoメールマガジン「nanacoニュース」｜電子マネー nanaco 【公式サイト】 nanacoニュースはnanacoのメールマガジンです。ポイントがたまるおトクなキャンペーン情報やnanacoが使えるお店情報などを定期的に配信します。</summary></entry><entry><title type="html">しまむらのゆるキャングッズを買った</title><link href="https://makietan.github.io/otaku/2021/12/03/report.html" rel="alternate" type="text/html" title="しまむらのゆるキャングッズを買った" /><published>2021-12-03T00:00:00+09:00</published><updated>2021-12-03T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2021/12/03/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2021/12/03/report.html">&lt;div class=&quot;card&quot;&gt;
-  &lt;a href=&quot;https://game.watch.impress.co.jp/docs/news/1344307.html&quot;&gt;&lt;/a&gt;
-  &lt;div class=&quot;card__header&quot;&gt;
-    &lt;a href=&quot;https://game.watch.impress.co.jp/docs/news/1344307.html&quot;&gt;game.watch.impress.co.jp&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__image&quot;&gt;
-    &lt;img src=&quot;https://game.watch.impress.co.jp/img/gmw/list/1344/307/001.jpg&quot; /&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__title&quot;&gt;
-    &lt;p&gt;「ゆるキャン△」の寝具が「しまむらオンラインストア」限定で発売決定！ - GAME Watch&lt;/p&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__description&quot;&gt;
-    &lt;p&gt;　ファッションセンターしまむらは、アニメ「ゆるキャン△」に登場するキャラクター達がデザインされた寝具を、しまむらオンラインストア限定で発売する。価格は539円（税込）から。商品は完全受注生産となり、8月18日9時から8月29日23時まで予約を受け付ける。発送は11月中旬の予定。&lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;斉藤恵那の枕を買ったのだがこれがまた大きい。&lt;/p&gt;
-
-&lt;p&gt;実質クッションとして扱うことになりそうだ。&lt;/p&gt;
-
-&lt;p&gt;枕カバーは普通に枕につけようかなと思う。&lt;/p&gt;</content><author><name>makietan</name></author><category term="otaku" /><summary type="html">game.watch.impress.co.jp 「ゆるキャン△」の寝具が「しまむらオンラインストア」限定で発売決定！ - GAME Watch 　ファッションセンターしまむらは、アニメ「ゆるキャン△」に登場するキャラクター達がデザインされた寝具を、しまむらオンラインストア限定で発売する。価格は539円（税込）から。商品は完全受注生産となり、8月18日9時から8月29日23時まで予約を受け付ける。発送は11月中旬の予定。</summary></entry></feed>
+&lt;p&gt;いやーきつい。&lt;/p&gt;</content><author><name>makietan</name></author><category term="health" /><summary type="html">寝て起きただけなのだが 視力が下がってる…。</summary></entry></feed>
