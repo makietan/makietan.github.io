@@ -1,4 +1,80 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2022-01-16T12:14:03+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">日報</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">近視を治すメガネは発売されたかな？</title><link href="https://makietan.github.io/tech/2021/12/31/report.html" rel="alternate" type="text/html" title="近視を治すメガネは発売されたかな？" /><published>2021-12-31T00:00:00+09:00</published><updated>2021-12-31T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2021/12/31/report</id><content type="html" xml:base="https://makietan.github.io/tech/2021/12/31/report.html">&lt;div class=&quot;card&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2022-01-17T12:14:08+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">日報</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">「ゆうちょ銀行」のATM手数料が改悪されるらしい</title><link href="https://makietan.github.io/japan/2022/01/17/report.html" rel="alternate" type="text/html" title="「ゆうちょ銀行」のATM手数料が改悪されるらしい" /><published>2022-01-17T00:00:00+09:00</published><updated>2022-01-17T00:00:00+09:00</updated><id>https://makietan.github.io/japan/2022/01/17/report</id><content type="html" xml:base="https://makietan.github.io/japan/2022/01/17/report.html">&lt;div class=&quot;card&quot;&gt;
+  &lt;a href=&quot;https://www.jp-bank.japanpost.jp/news/2021/news_id001686.html&quot;&gt;&lt;/a&gt;
+  &lt;div class=&quot;card__header&quot;&gt;
+    &lt;a href=&quot;https://www.jp-bank.japanpost.jp/news/2021/news_id001686.html&quot;&gt;www.jp-bank.japanpost.jp&lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__image&quot;&gt;
+    &lt;img src=&quot;&quot; /&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__title&quot;&gt;
+    &lt;p&gt;一部商品・サービスの料金新設・改定について−ゆうちょ銀行&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__description&quot;&gt;
+    &lt;p&gt;&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;こういうのってちゃんと周知しないよね銀行って。
+あまりにも卑怯なやり口である。&lt;/p&gt;
+
+&lt;p&gt;PDFを使うのは検索避けでもある。&lt;/p&gt;
+
+&lt;h2 id=&quot;硬化を預けられなくなる&quot;&gt;硬化を預けられなくなる&lt;/h2&gt;
+
+&lt;div class=&quot;trim&quot;&gt;
+  &lt;div class=&quot;trim__item&quot;&gt;
+    &lt;a href=&quot;https://makietan.github.io/assets/images/2022-01-17-report/15-35-35.png&quot;&gt;
+      &lt;img class=&quot;one&quot; src=&quot;https://makietan.github.io/assets/thumbnail/2022-01-17-report/15-35-35.png&quot; /&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;手数料を搾取するようです。
+また、110円以下は預けられなくなるようです。
+日本国が発行する通貨に対して日本企業がこの態度をとるのは
+金の流動性を下げる要因にもなるから規制すべきなのだが…。 
+「強制通用力」が入出金にも適用されればいいのに。
+マイナス金利のあてつけだろうか。
+というか金を貸す側が搾取される銀行ってもはや価値がない。&lt;/p&gt;
+
+&lt;p&gt;政府が発行する硬貨には高額な手数料を搾取するが日銀が発行する紙幣には甘い。&lt;/p&gt;
+
+&lt;h2 id=&quot;atm利用料の搾取&quot;&gt;ATM利用料の搾取&lt;/h2&gt;
+
+&lt;div class=&quot;trim&quot;&gt;
+  &lt;div class=&quot;trim__item&quot;&gt;
+    &lt;a href=&quot;https://makietan.github.io/assets/images/2022-01-17-report/15-38-08.png&quot;&gt;
+      &lt;img class=&quot;one&quot; src=&quot;https://makietan.github.io/assets/thumbnail/2022-01-17-report/15-38-08.png&quot; /&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;時間外だと強制的に110円搾取するようです。
+ゆうちょATMといえば他銀の手数料無料を無視して出金手数料を搾取する
+クソATMである（ファミリーマートとかいうクソコンビニで体験可能）。&lt;/p&gt;
+
+&lt;h2 id=&quot;コンビニatmの手数料が増えるようです&quot;&gt;コンビニATMの手数料が増えるようです&lt;/h2&gt;
+
+&lt;div class=&quot;trim&quot;&gt;
+  &lt;div class=&quot;trim__item&quot;&gt;
+    &lt;a href=&quot;https://makietan.github.io/assets/images/2022-01-17-report/15-43-24.png&quot;&gt;
+      &lt;img class=&quot;one&quot; src=&quot;https://makietan.github.io/assets/thumbnail/2022-01-17-report/15-43-24.png&quot; /&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;220円て…。
+もはや使うメリットがない銀行。&lt;/p&gt;
+
+&lt;p&gt;セブンイレブンも2023年4月に改悪予定らしいので &lt;strong&gt;ゆうちょ銀行&lt;/strong&gt; そのものを利用しないようにすべきだろう。
+あまりにもクソな値上げで呆れるよ。&lt;/p&gt;
+
+&lt;h2 id=&quot;おわりに&quot;&gt;おわりに&lt;/h2&gt;
+
+&lt;p&gt;他の銀行も似たようなことしてくるんだろうなぁ。
+給料の受取で銀行を利用せざるを得ないのがクソ。&lt;/p&gt;
+
+&lt;p&gt;金貸し屋が金を貸して儲けられないとかもはや存在悪だよ。&lt;/p&gt;</content><author><name>makietan</name></author><category term="japan" /><summary type="html">www.jp-bank.japanpost.jp 一部商品・サービスの料金新設・改定について−ゆうちょ銀行</summary></entry><entry><title type="html">近視を治すメガネは発売されたかな？</title><link href="https://makietan.github.io/tech/2021/12/31/report.html" rel="alternate" type="text/html" title="近視を治すメガネは発売されたかな？" /><published>2021-12-31T00:00:00+09:00</published><updated>2021-12-31T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2021/12/31/report</id><content type="html" xml:base="https://makietan.github.io/tech/2021/12/31/report.html">&lt;div class=&quot;card&quot;&gt;
   &lt;a href=&quot;https://www.nikkei.com/article/DGXZQODZ10AHV0Q0A211C2000000&quot;&gt;&lt;/a&gt;
   &lt;div class=&quot;card__header&quot;&gt;
     &lt;a href=&quot;https://www.nikkei.com/article/DGXZQODZ10AHV0Q0A211C2000000&quot;&gt;www.nikkei.com&lt;/a&gt;
@@ -311,24 +387,4 @@ iPhoneとAndroidの複数台持ちをしているのでアカウントを切り�
 
 &lt;p&gt;嘘つき佐川急便によって1日経過し、鮮度が低下した。&lt;/p&gt;
 
-&lt;p&gt;弁償して欲しい。&lt;/p&gt;</content><author><name>makietan</name></author><category term="japan" /><summary type="html">配送会社は様々あるが最低な企業が１つある。</summary></entry><entry><title type="html">楽天e-NAVIにカードを追加する</title><link href="https://makietan.github.io/credit/2021/12/08/report.html" rel="alternate" type="text/html" title="楽天e-NAVIにカードを追加する" /><published>2021-12-08T00:00:00+09:00</published><updated>2021-12-08T00:00:00+09:00</updated><id>https://makietan.github.io/credit/2021/12/08/report</id><content type="html" xml:base="https://makietan.github.io/credit/2021/12/08/report.html">&lt;h2 id=&quot;楽天e-navi情報の登録変更楽天e-naviへのカード追加登録&quot;&gt;楽天e-NAVI情報の登録・変更（楽天e-NAVIへのカード追加登録）&lt;/h2&gt;
-
-&lt;div class=&quot;card&quot;&gt;
-  &lt;a href=&quot;https://www.rakuten-card.co.jp/e-navi/members/settings/card-addition/index.xhtml?l-id=enavi_all_glonavi_addcard&quot;&gt;&lt;/a&gt;
-  &lt;div class=&quot;card__header&quot;&gt;
-    &lt;a href=&quot;https://www.rakuten-card.co.jp/e-navi/members/settings/card-addition/index.xhtml?l-id=enavi_all_glonavi_addcard&quot;&gt;www.rakuten-card.co.jp&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__image&quot;&gt;
-    &lt;img src=&quot;https://image.card.jp.rakuten-static.com/corp/pc/contents/logo_200x200.gif&quot; /&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__title&quot;&gt;
-    &lt;p&gt;楽天e-NAVI: ログイン画面&lt;/p&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__description&quot;&gt;
-    &lt;p&gt;楽天カード会員様専用オンラインサービス「楽天e-NAVI」のログインページです。楽天e-NAVIではご利用明細確認のほかにも、お得なキャンペーン・サービスがございます。ログインいただきお楽しみください。&lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;どうやら自動で追加してくれないらしい。&lt;/p&gt;
-
-&lt;p&gt;面倒くさいな。&lt;/p&gt;</content><author><name>makietan</name></author><category term="credit" /><summary type="html">楽天e-NAVI情報の登録・変更（楽天e-NAVIへのカード追加登録）</summary></entry></feed>
+&lt;p&gt;弁償して欲しい。&lt;/p&gt;</content><author><name>makietan</name></author><category term="japan" /><summary type="html">配送会社は様々あるが最低な企業が１つある。</summary></entry></feed>
