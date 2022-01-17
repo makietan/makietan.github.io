@@ -5,3 +5,13 @@
 [![Build GitHub Pages (Schedule)](https://github.com/makietan/makietan.github.io/actions/workflows/cron.yml/badge.svg?branch=develop&event=schedule)](https://github.com/makietan/makietan.github.io/actions/workflows/cron.yml)
 
 <https://makietan.github.io>
+
+## Setup
+
+- `brew install rbenv`
+
+- `eval "$(rbenv init - zsh)"` >> ~/.zshrc
+
+- `gem install bundler`
+
+- `bundle install --path vendor/bundle`
