@@ -1,4 +1,41 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2022-01-26T17:36:58+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">日報</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">貧困層による放火殺人事件の増加に注意しよう</title><link href="https://makietan.github.io/japan/2022/01/26/report.html" rel="alternate" type="text/html" title="貧困層による放火殺人事件の増加に注意しよう" /><published>2022-01-26T00:00:00+09:00</published><updated>2022-01-26T00:00:00+09:00</updated><id>https://makietan.github.io/japan/2022/01/26/report</id><content type="html" xml:base="https://makietan.github.io/japan/2022/01/26/report.html">&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;貧困層作っちゃうとこうなるよね… &lt;a href=&quot;https://t.co/sS5w1kY8Uf&quot;&gt;https://t.co/sS5w1kY8Uf&lt;/a&gt;&lt;/p&gt;&amp;mdash; まきえたん🥦 (@makietanX) &lt;a href=&quot;https://twitter.com/makietanX/status/1481791742047580162?ref_src=twsrc%5Etfw&quot;&gt;January 14, 2022&lt;/a&gt;&lt;/blockquote&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2022-01-27T12:13:21+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">日報</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">リスク分散ができない企業は廃れます</title><link href="https://makietan.github.io/tech/2022/01/27/report.html" rel="alternate" type="text/html" title="リスク分散ができない企業は廃れます" /><published>2022-01-27T00:00:00+09:00</published><updated>2022-01-27T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2022/01/27/report</id><content type="html" xml:base="https://makietan.github.io/tech/2022/01/27/report.html">&lt;div class=&quot;card&quot;&gt;
+  &lt;a href=&quot;https://www.itmedia.co.jp/news/articles/2201/25/news138.html&quot;&gt;&lt;/a&gt;
+  &lt;div class=&quot;card__header&quot;&gt;
+    &lt;a href=&quot;https://www.itmedia.co.jp/news/articles/2201/25/news138.html&quot;&gt;www.itmedia.co.jp&lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__image&quot;&gt;
+    &lt;img src=&quot;https://image.itmedia.co.jp/news/articles/2201/25/cover_news138.jpg&quot; /&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__title&quot;&gt;
+    &lt;p&gt;オイシックス大量欠品「社員総出・手動で在庫整理中」　物流センター移転に「判断の甘さ」 - ITmedia NEWS&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__description&quot;&gt;
+    &lt;p&gt;「Oisix」で大量欠品問題。物流センター移転によりトラブルが相次いだことが原因。&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;データとモノを紐付けるのは難しい。
+しかもそれを分散させてではなく、まとめて移動しようとしたらそりゃ大変だ。
+大企業でそんなことをしているところはない。&lt;/p&gt;
+
+&lt;p&gt;ケチりたかったんだろうね。
+コストをかけずに物事を片付けるのは理想だが、実際そううまくいかない。&lt;/p&gt;
+
+&lt;p&gt;自宅にあるものをリストアップして消耗具合を毎日反映させることができないように、物販系の企業のそれは多大な努力で行われているだろう。
+例えば、引っ越しするときに懐かしいものが出てきて作業が止まるようなことは多々あるだろう。
+そのくらいモノの管理は難しいのである。&lt;/p&gt;
+
+&lt;p&gt;とはいえ、磁気タグをつけたりするとできたりする。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.amazon.co.jp/100%E6%9E%9A-UHF-RFID%E3%82%BF%E3%82%B0-RFID%E3%83%A9%E3%83%99%E3%83%AB-%E3%82%B7%E3%83%BC%E3%83%AB/dp/B092VCFYWK?hvadid=501124375899&amp;amp;hvpos=&amp;amp;hvnetw=g&amp;amp;hvrand=539969474229655935&amp;amp;hvpone=&amp;amp;hvptwo=&amp;amp;hvqmt=&amp;amp;hvdev=c&amp;amp;hvdvcmdl=&amp;amp;hvlocint=&amp;amp;hvlocphy=1028853&amp;amp;hvtargid=pla-1263094970542&amp;amp;psc=1&amp;amp;adgrpid=118785908152&amp;amp;hvpone=&amp;amp;hvptwo=&amp;amp;hvadid=501124375899&amp;amp;hvpos=&amp;amp;hvnetw=g&amp;amp;hvrand=539969474229655935&amp;amp;hvqmt=&amp;amp;hvdev=c&amp;amp;hvdvcmdl=&amp;amp;hvlocint=&amp;amp;hvlocphy=1028853&amp;amp;hvtargid=pla-1263094970542&amp;amp;linkCode=li3&amp;amp;tag=infirmaria112-22&amp;amp;linkId=3beecdba3962d352d08175d55db52d02&amp;amp;language=ja_JP&amp;amp;ref_=as_li_ss_il&quot; target=&quot;_blank&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;amp;ASIN=B092VCFYWK&amp;amp;Format=_SL250_&amp;amp;ID=AsinImage&amp;amp;MarketPlace=JP&amp;amp;ServiceVersion=20070822&amp;amp;WS=1&amp;amp;tag=infirmaria112-22&amp;amp;language=ja_JP&quot; /&gt;&lt;/a&gt;&lt;img src=&quot;https://ir-jp.amazon-adsystem.com/e/ir?t=infirmaria112-22&amp;amp;language=ja_JP&amp;amp;l=li3&amp;amp;o=9&amp;amp;a=B092VCFYWK&quot; width=&quot;1&quot; height=&quot;1&quot; border=&quot;0&quot; alt=&quot;&quot; style=&quot;border:none !important; margin:0px !important;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;RFIDタグとかを利用するといい感じに管理できるかもしれない。
+結局、やる気次第だけどね。&lt;/p&gt;
+
+&lt;p&gt;忘れ物防止タグでやる方法もあるが、全てにつけるととんでもない金額と管理の難解さが問題となる。&lt;/p&gt;
+
+&lt;p&gt;棚にQRコードリーダーをつけて、各モノにつけたQRコードを読み取って管理する方法もあるかもしれない。
+考えられるだけ考えてみよう。後々に。&lt;/p&gt;</content><author><name>makietan</name></author><category term="tech" /><summary type="html">www.itmedia.co.jp オイシックス大量欠品「社員総出・手動で在庫整理中」　物流センター移転に「判断の甘さ」 - ITmedia NEWS 「Oisix」で大量欠品問題。物流センター移転によりトラブルが相次いだことが原因。</summary></entry><entry><title type="html">貧困層による放火殺人事件の増加に注意しよう</title><link href="https://makietan.github.io/japan/2022/01/26/report.html" rel="alternate" type="text/html" title="貧困層による放火殺人事件の増加に注意しよう" /><published>2022-01-26T00:00:00+09:00</published><updated>2022-01-26T00:00:00+09:00</updated><id>https://makietan.github.io/japan/2022/01/26/report</id><content type="html" xml:base="https://makietan.github.io/japan/2022/01/26/report.html">&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;貧困層作っちゃうとこうなるよね… &lt;a href=&quot;https://t.co/sS5w1kY8Uf&quot;&gt;https://t.co/sS5w1kY8Uf&lt;/a&gt;&lt;/p&gt;&amp;mdash; まきえたん🥦 (@makietanX) &lt;a href=&quot;https://twitter.com/makietanX/status/1481791742047580162?ref_src=twsrc%5Etfw&quot;&gt;January 14, 2022&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
 
 &lt;p&gt;京アニ事件から貧困層が猛威を振るっている。
@@ -201,16 +238,4 @@
   &lt;div class=&quot;card__description&quot;&gt;
     &lt;p&gt;「推しが武道館いってくれたら死ぬ」Compact Blu-ray【初回限定生産】を紹介しています。きゃにめでは、ここでしか買えないアニメグッズやオリジナル特典付きCD・DVD、イベントチケットなどをご用意しております！&lt;/p&gt;
   &lt;/div&gt;
-&lt;/div&gt;</content><author><name>makietan</name></author><category term="otaku" /><summary type="html">明日1月18日(火)は…#舞菜生誕祭そして…#推し武道Compact Blu-rayは1月19日(水)発売✨ https://t.co/3eLSOYBRTS pic.twitter.com/nf6gWqVxJw&amp;mdash; 猪飼幹太☘️リュウ編集長 (@ikamiki) January 17, 2022</summary></entry><entry><title type="html">メイドラゴンS vol.S 発売まであと2日</title><link href="https://makietan.github.io/otaku/2022/01/17/report3.html" rel="alternate" type="text/html" title="メイドラゴンS vol.S 発売まであと2日" /><published>2022-01-17T19:50:43+09:00</published><updated>2022-01-17T19:50:43+09:00</updated><id>https://makietan.github.io/otaku/2022/01/17/report3</id><content type="html" xml:base="https://makietan.github.io/otaku/2022/01/17/report3.html">&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;Blu-ray&amp;amp;DVD Vol.S 発売まであと2日🐉&lt;br /&gt;才川リコ役の加藤英美里のコメント到着❣&lt;br /&gt;&lt;br /&gt;🔽OVA TV未放送話「番外編」収録✨&lt;a href=&quot;https://t.co/AYo8dUBA7a&quot;&gt;https://t.co/AYo8dUBA7a&lt;/a&gt;&lt;a href=&quot;https://twitter.com/hashtag/maidragon?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#maidragon&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/%E5%B0%8F%E6%9E%97%E3%81%95%E3%82%93%E3%81%A1%E3%81%AE%E3%83%A1%E3%82%A4%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#小林さんちのメイドラゴン&lt;/a&gt; &lt;a href=&quot;https://t.co/6fp6oka734&quot;&gt;pic.twitter.com/6fp6oka734&lt;/a&gt;&lt;/p&gt;&amp;mdash; TVアニメ「小林さんちのメイドラゴンＳ」公式 (@maidragon_anime) &lt;a href=&quot;https://twitter.com/maidragon_anime/status/1483001154690822145?ref_src=twsrc%5Etfw&quot;&gt;January 17, 2022&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-
-&lt;p&gt;才川が一番可愛いですね。&lt;/p&gt;
-
-&lt;p&gt;カンナちゃんは殿堂入り。&lt;/p&gt;
-
-&lt;p&gt;早くオーディオコメンタリーとミニドラが観たい！&lt;/p&gt;
-
-&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;【Blu-ray&amp;amp;DVD Vol.S 発売まであと4日🐉OVA TV未放送話「番外編」収録】&lt;br /&gt;&lt;br /&gt;Vol.Sに収録の新作『ミニドラ』Ex.5「トレーニング（集中はできてません）」&lt;br /&gt;冒頭映像をちょろ見せ🎉&lt;a href=&quot;https://t.co/AYo8dUTaYI&quot;&gt;https://t.co/AYo8dUTaYI&lt;/a&gt;&lt;a href=&quot;https://twitter.com/hashtag/maidragon?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#maidragon&lt;/a&gt; &lt;a href=&quot;https://t.co/aK635Jqay4&quot;&gt;pic.twitter.com/aK635Jqay4&lt;/a&gt;&lt;/p&gt;&amp;mdash; TVアニメ「小林さんちのメイドラゴンＳ」公式 (@maidragon_anime) &lt;a href=&quot;https://twitter.com/maidragon_anime/status/1482185772488818688?ref_src=twsrc%5Etfw&quot;&gt;January 15, 2022&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-
-&lt;p&gt;あああああああああ！（語彙力）&lt;/p&gt;</content><author><name>makietan</name></author><category term="otaku" /><summary type="html">Blu-ray&amp;amp;DVD Vol.S 発売まであと2日🐉才川リコ役の加藤英美里のコメント到着❣🔽OVA TV未放送話「番外編」収録✨https://t.co/AYo8dUBA7a#maidragon #小林さんちのメイドラゴン pic.twitter.com/6fp6oka734&amp;mdash; TVアニメ「小林さんちのメイドラゴンＳ」公式 (@maidragon_anime) January 17, 2022</summary></entry></feed>
+&lt;/div&gt;</content><author><name>makietan</name></author><category term="otaku" /><summary type="html">明日1月18日(火)は…#舞菜生誕祭そして…#推し武道Compact Blu-rayは1月19日(水)発売✨ https://t.co/3eLSOYBRTS pic.twitter.com/nf6gWqVxJw&amp;mdash; 猪飼幹太☘️リュウ編集長 (@ikamiki) January 17, 2022</summary></entry></feed>
