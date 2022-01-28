@@ -10,8 +10,8 @@
 <meta property="og:title" content="Node.js で同じ行に上書き出力する" />
 <meta name="author" content="makietan" />
 <meta property="og:locale" content="ja_JP" />
-<meta name="description" content="const stateOf = (text) =&gt; { process.stdout.clearLine(); process.stdout.cursorTo(0); process.stdout.write(text); };" />
-<meta property="og:description" content="const stateOf = (text) =&gt; { process.stdout.clearLine(); process.stdout.cursorTo(0); process.stdout.write(text); };" />
+<meta name="description" content="```js var readline = require(‘readline’);" />
+<meta property="og:description" content="```js var readline = require(‘readline’);" />
 <link rel="canonical" href="https://makietan.github.io/tech/2018/09/04/report.html" />
 <meta property="og:url" content="https://makietan.github.io/tech/2018/09/04/report.html" />
 <meta property="og:site_name" content="日報" />
@@ -20,7 +20,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Node.js で同じ行に上書き出力する" />
 <script type="application/ld+json">
-{"description":"const stateOf = (text) =&gt; { process.stdout.clearLine(); process.stdout.cursorTo(0); process.stdout.write(text); };","url":"https://makietan.github.io/tech/2018/09/04/report.html","@type":"BlogPosting","headline":"Node.js で同じ行に上書き出力する","dateModified":"2018-09-04T00:00:00+09:00","datePublished":"2018-09-04T00:00:00+09:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://makietan.github.io/tech/2018/09/04/report.html"},"author":{"@type":"Person","name":"makietan"},"@context":"https://schema.org"}</script>
+{"description":"```js var readline = require(‘readline’);","url":"https://makietan.github.io/tech/2018/09/04/report.html","@type":"BlogPosting","headline":"Node.js で同じ行に上書き出力する","dateModified":"2018-09-04T00:00:00+09:00","datePublished":"2018-09-04T00:00:00+09:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://makietan.github.io/tech/2018/09/04/report.html"},"author":{"@type":"Person","name":"makietan"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="https://makietan.github.io/feed.xml" title="日報" /><meta name="msvalidate.01" content="89F1D244C30C26610D2EB5442A4DA1D8" />
 <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -84,11 +84,13 @@
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    <div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">stateOf</span> <span class="o">=</span> <span class="p">(</span><span class="nx">text</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
-  <span class="nx">process</span><span class="p">.</span><span class="nx">stdout</span><span class="p">.</span><span class="nx">clearLine</span><span class="p">();</span>
-  <span class="nx">process</span><span class="p">.</span><span class="nx">stdout</span><span class="p">.</span><span class="nx">cursorTo</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span>
-  <span class="nx">process</span><span class="p">.</span><span class="nx">stdout</span><span class="p">.</span><span class="nx">write</span><span class="p">(</span><span class="nx">text</span><span class="p">);</span>
-<span class="p">};</span>
+    <div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">readline</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="dl">'</span><span class="s1">readline</span><span class="dl">'</span><span class="p">);</span>
+
+<span class="kd">function</span> <span class="nx">writeWaitingPercent</span><span class="p">(</span><span class="nx">p</span><span class="p">)</span> <span class="p">{</span>
+    <span class="c1">//readline.clearLine(process.stdout);</span>
+    <span class="nx">readline</span><span class="p">.</span><span class="nx">cursorTo</span><span class="p">(</span><span class="nx">process</span><span class="p">.</span><span class="nx">stdout</span><span class="p">,</span> <span class="mi">0</span><span class="p">);</span>
+    <span class="nx">process</span><span class="p">.</span><span class="nx">stdout</span><span class="p">.</span><span class="nx">write</span><span class="p">(</span><span class="s2">`waiting ... </span><span class="p">${</span><span class="nx">p</span><span class="p">}</span><span class="s2">%`</span><span class="p">);</span>
+<span class="p">}</span>
 </code></pre></div></div>
 
 <p>処理の進捗を表示したいという子供心から気になって調べてみた。</p>
@@ -98,6 +100,31 @@
 <a href="https://nodejs.org/api/readline.html#readline_rl_write_data_key">write</a> でテキストを表示する。</p>
 
 <p>改行がある文章の場合は未確認なので頑張って調査してくれ。</p>
+
+<h4 id="更新20220128">更新(2022/01/28)</h4>
+
+<div class="card">
+  <a href="https://stackoverflow.com/questions/34570452/node-js-stdout-clearline-and-cursorto-functions"></a>
+  <div class="card__header">
+    <a href="https://stackoverflow.com/questions/34570452/node-js-stdout-clearline-and-cursorto-functions">stackoverflow.com</a>
+  </div>
+  <div class="card__image">
+    <img src="https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon@2.png?v=73d79a89bded" />
+  </div>
+  <div class="card__title">
+    <p>node.js stdout clearline() and cursorTo() functions - Stack Overflow</p>
+  </div>
+  <div class="card__description">
+    <p>From a node.js tutorial, I see those two process.stdout functions : 
+
+process.stdout.clearLine();
+process.stdout.cursorTo(0);
+But I'm using a more recent node.js version (4.2.4), and those functio...</p>
+  </div>
+</div>
+
+<p>こっちのほうがエラーとかなくてよいので更新。
+古い方法はGitHubの更新を参考して欲しい。</p>
 
   </div><a class="u-url" href="/tech/2018/09/04/report.html" hidden></a>
 </article>
