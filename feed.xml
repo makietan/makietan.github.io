@@ -1,4 +1,413 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2022-02-05T12:12:57+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">日報</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">SDGsとかほざくならこういったシンプルな製品を世に出すべき</title><link href="https://makietan.github.io/japan/2022/01/31/report.html" rel="alternate" type="text/html" title="SDGsとかほざくならこういったシンプルな製品を世に出すべき" /><published>2022-01-31T00:00:00+09:00</published><updated>2022-01-31T00:00:00+09:00</updated><id>https://makietan.github.io/japan/2022/01/31/report</id><content type="html" xml:base="https://makietan.github.io/japan/2022/01/31/report.html">&lt;div class=&quot;card&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2022-02-05T17:58:32+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">日報</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">「ドラゴンメイド」デッキがまずまずの感じになってきた</title><link href="https://makietan.github.io/game/yugioh/2022/02/05/report.html" rel="alternate" type="text/html" title="「ドラゴンメイド」デッキがまずまずの感じになってきた" /><published>2022-02-05T00:00:00+09:00</published><updated>2022-02-05T00:00:00+09:00</updated><id>https://makietan.github.io/game/yugioh/2022/02/05/report</id><content type="html" xml:base="https://makietan.github.io/game/yugioh/2022/02/05/report.html">&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot;&gt;&lt;p lang=&quot;und&quot; dir=&quot;ltr&quot;&gt;&lt;a href=&quot;https://t.co/2Q7mk0vKKC&quot;&gt;pic.twitter.com/2Q7mk0vKKC&lt;/a&gt;&lt;/p&gt;&amp;mdash; まきえたん🥦 (@makietanX) &lt;a href=&quot;https://twitter.com/makietanX/status/1489878531941101569?ref_src=twsrc%5Etfw&quot;&gt;February 5, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;まだまだ足りてないけど、ある程度はいけた。&lt;/p&gt;</content><author><name>makietan</name></author><category term="game" /><category term="yugioh" /><summary type="html">pic.twitter.com/2Q7mk0vKKC&amp;mdash; まきえたん🥦 (@makietanX) February 5, 2022</summary></entry><entry><title type="html">スパロボDDの自分の機体強さランキングを計算してみた</title><link href="https://makietan.github.io/game/srwdd/2022/02/04/report.html" rel="alternate" type="text/html" title="スパロボDDの自分の機体強さランキングを計算してみた" /><published>2022-02-04T00:00:00+09:00</published><updated>2022-02-04T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2022/02/04/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2022/02/04/report.html">&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;自分のデータで&lt;br /&gt;攻撃重視のオート編成の強さ順出してみた&lt;br /&gt;ここに他の反映されてないバフが乗っかるからこれが正確なものじゃないけど&lt;a href=&quot;https://twitter.com/hashtag/%E3%82%B9%E3%83%91%E3%83%AD%E3%83%9CDD?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#スパロボDD&lt;/a&gt; &lt;a href=&quot;https://t.co/eWdAfUouaN&quot;&gt;pic.twitter.com/eWdAfUouaN&lt;/a&gt;&lt;/p&gt;&amp;mdash; まきえたん🥦 (@makietanX) &lt;a href=&quot;https://twitter.com/makietanX/status/1488242283354886151?ref_src=twsrc%5Etfw&quot;&gt;January 31, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;やり方は非常にシンプル。
+「攻撃重視」で武器をオート編成し、「=RANK(データ, 範囲)」でランキング化。
+各種パラメータの順位を出して、その総計が一番小さい機体が最強ということにしている。
+本当は運動性 or HP&amp;amp;防御力と攻撃力で算出したかったがやる気が出なくて断念。
+照準値も別枠で計算してもいいが、ウインザートがダントツっぽいのでこちらもやる気なし。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;ARX-7 アーバレスト&lt;/strong&gt; が一番育てている機体なのだが、&lt;strong&gt;ゲッターノワール1号機&lt;/strong&gt; にその座を奪われている。
+ゲッターアークもまずまずの位置。&lt;/p&gt;
+
+&lt;p&gt;やたらガチャで来たヴァルヴレイヴⅣがランク外という事態に呆れすらある。
+あいつはどう育てればいいんだろうか…。
+正直、中の人的にヴァルヴレイヴⅥのほうがいいんだけどさ。&lt;/p&gt;</content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html">自分のデータで攻撃重視のオート編成の強さ順出してみたここに他の反映されてないバフが乗っかるからこれが正確なものじゃないけど#スパロボDD pic.twitter.com/eWdAfUouaN&amp;mdash; まきえたん🥦 (@makietanX) January 31, 2022</summary></entry><entry><title type="html">ドラクエウォークの「メタスラのやり」がゴミすぎる</title><link href="https://makietan.github.io/game/dqw/2022/02/03/report.html" rel="alternate" type="text/html" title="ドラクエウォークの「メタスラのやり」がゴミすぎる" /><published>2022-02-03T00:00:00+09:00</published><updated>2022-02-03T00:00:00+09:00</updated><id>https://makietan.github.io/game/dqw/2022/02/03/report</id><content type="html" xml:base="https://makietan.github.io/game/dqw/2022/02/03/report.html">&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;メタスラのやりで敵が複数いるにも関わらず当たりもしない一閃突きするオート仕様やめてくれや &lt;a href=&quot;https://twitter.com/DQWalk?ref_src=twsrc%5Etfw&quot;&gt;@DQWalk&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/%E3%83%89%E3%83%A9%E3%82%AF%E3%82%A8%E3%82%A6%E3%82%A9%E3%83%BC%E3%82%AF?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#ドラクエウォーク&lt;/a&gt; &lt;a href=&quot;https://t.co/7EWTZQsOl6&quot;&gt;pic.twitter.com/7EWTZQsOl6&lt;/a&gt;&lt;/p&gt;&amp;mdash; まきえたん🥦 (@makietanX) &lt;a href=&quot;https://twitter.com/makietanX/status/1488425562062266368?ref_src=twsrc%5Etfw&quot;&gt;February 1, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;昔からずっとこの調子なのだけど、命中率無視して相手に与えるダメージが大きいものを優先するCPU担っている。
+どう考えても「メタルまわしげり」で後続に繋げるほうが強い。
+そんな相手の被ダメージなんて計算しなくていいから、複数の敵がいるならMP消費の激しい全体攻撃を優先するCPUになれ。&lt;/p&gt;
+
+&lt;p&gt;そして「一閃突き」を優先するように作ったエンジニアは死ね。&lt;/p&gt;</content><author><name>makietan</name></author><category term="game" /><category term="dqw" /><summary type="html">メタスラのやりで敵が複数いるにも関わらず当たりもしない一閃突きするオート仕様やめてくれや @DQWalk #ドラクエウォーク pic.twitter.com/7EWTZQsOl6&amp;mdash; まきえたん🥦 (@makietanX) February 1, 2022</summary></entry><entry><title type="html">マスターデュエルをやり始めている</title><link href="https://makietan.github.io/game/2022/02/02/report.html" rel="alternate" type="text/html" title="マスターデュエルをやり始めている" /><published>2022-02-02T00:00:00+09:00</published><updated>2022-02-02T00:00:00+09:00</updated><id>https://makietan.github.io/game/2022/02/02/report</id><content type="html" xml:base="https://makietan.github.io/game/2022/02/02/report.html">&lt;p&gt;昔の馴染みの連中とできてるのが面白いよ。&lt;/p&gt;</content><author><name>makietan</name></author><category term="game" /><summary type="html">昔の馴染みの連中とできてるのが面白いよ。</summary></entry><entry><title type="html">ドラクエウォークのこころ集めメモ①</title><link href="https://makietan.github.io/game/dqw/2022/02/01/report.html" rel="alternate" type="text/html" title="ドラクエウォークのこころ集めメモ①" /><published>2022-02-01T00:00:00+09:00</published><updated>2022-02-01T00:00:00+09:00</updated><id>https://makietan.github.io/game/dqw/2022/02/01/report</id><content type="html" xml:base="https://makietan.github.io/game/dqw/2022/02/01/report.html">&lt;p&gt;所持枠が足りなくなってきたので整理がてらS4つ集めることにした。
+コストが低いところから集める。&lt;/p&gt;
+
+&lt;p&gt;出現場所に関してはここがわかりやすい。&lt;/p&gt;
+
+&lt;div class=&quot;card&quot;&gt;
+  &lt;a href=&quot;https://9db.jp/dqwalk/data/807&quot;&gt;&lt;/a&gt;
+  &lt;div class=&quot;card__header&quot;&gt;
+    &lt;a href=&quot;https://9db.jp/dqwalk/data/807&quot;&gt;9db.jp&lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__image&quot;&gt;
+    &lt;img src=&quot;https://cdn08.net/dqwalk/https://cdn08.net/dqwalk/data/img0/img807_1.jpg?f62&quot; /&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__title&quot;&gt;
+    &lt;p&gt;【ドラクエウォーク】クエストごとの出現モンスター一覧&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__description&quot;&gt;
+    &lt;p&gt;ドラクエウォークのクエストごとの出現モンスターを見かけやすさで分けてまとめています。みんドラで見つけたこころ確定スポットへ向かう前に目当てのモンスターが出現するクエストをセットしておきましょう！&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;こころの集まり具合&quot;&gt;こころの集まり具合&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;モンスター&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;こころSの数&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;出現場所&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;スライム&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;4&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1-1…1-6&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;ドラキー&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;4&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1-1…1-6&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;スライムベス&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;4&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1-2…1-7&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;しましまキャット&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;4&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1-3…1-8&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;モーモン&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;4&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1-3…1-8&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;まほうつかい&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;-&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;いたずらもぐら&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;4&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1-5…1-9&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;ゴースト&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;4&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1-5…1-9&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;りりパッド&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;3&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1-5…&lt;strong&gt;1-9&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;バブルスライム&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;4&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1-6…1-9&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;きりかぶこぞう&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1-6…&lt;strong&gt;1-9&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;びっくりサタン&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;4&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1-6…1-9&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;記念大王スライム&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;4&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;-&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;ファーラット&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;4&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1-7…2-1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;おおさそり&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;-&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;メラゴースト&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;3&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1-8.&lt;strong&gt;1-9&lt;/strong&gt;..2-2&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;いっかくウサギ&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;4&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1-8…2-2&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;さそりばち&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;4&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1-8…2-2&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;プチアーノン&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1-8.&lt;strong&gt;1-9&lt;/strong&gt;..&lt;strong&gt;2-6&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;メーダ&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;4&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1-9…2-3&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;あやしいかげ&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;0&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1-10…&lt;strong&gt;2-4&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;おばけキャンドル&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;4&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1-10…2-4&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;どくろあらい&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;4&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1-10…2-4&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;ドロル&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;3&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;-&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;記念大王スライム1.5&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;4&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;-&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;ぶちスライム&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;4&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1-10…2-5&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;メタッピー&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1-10..&lt;strong&gt;2-4&lt;/strong&gt;.2-5&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;オニオーン&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;4&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;メラリザード&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1-10..&lt;strong&gt;2-4&lt;/strong&gt;.2-5&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;スライムかがみもち&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;-&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;ベビースライム&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;-&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;メタルスライム&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;0&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1-9.&lt;strong&gt;2-4&lt;/strong&gt;.&lt;strong&gt;2-6&lt;/strong&gt;.2-9&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;キャタピラー&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;3&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;2-2.&lt;strong&gt;2-4&lt;/strong&gt;..&lt;strong&gt;2-6&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;おおきづち&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;3&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;2-2.&lt;strong&gt;2-4&lt;/strong&gt;..&lt;strong&gt;2-6&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;キャットフライ&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;3&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;2-3.&lt;strong&gt;2-4&lt;/strong&gt;..&lt;strong&gt;2-6&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;まどうし&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;-&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;記念大王スライム2.0&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;4&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;-&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;ねこまどう&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;4&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;2-4…2-6&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;わらいぶくろ&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;2-4&lt;/strong&gt;..&lt;strong&gt;2-6&lt;/strong&gt;.2-7&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;どろにんぎょう&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;2-4&lt;/strong&gt;..&lt;strong&gt;2-6&lt;/strong&gt;.2-7&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;あばれこまいぬ&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;2-4&lt;/strong&gt;..&lt;strong&gt;2-6&lt;/strong&gt;.2-7&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;しのどれい&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;4&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;2-4…2-7&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;賀正大王スライム&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;4&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;-&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;賀正大王スライム’22&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;4&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;-&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;キラースコップ&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;3&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;2-5.&lt;strong&gt;2-6&lt;/strong&gt;..2-8&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;モコモコじゅう&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;2-6&lt;/strong&gt;…&lt;strong&gt;2-8&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;ダッシュラン&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;-&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;ホイミスライム&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;2-6&lt;/strong&gt;…&lt;strong&gt;2-8&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;トロル&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;0&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;-&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;ドルイド&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;2&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;2-6&lt;/strong&gt;…&lt;strong&gt;2-8&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;てつのさそり&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;0&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;-&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;くさった死体&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;0&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;2-8&lt;/strong&gt;…&lt;strong&gt;2-9&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;みならいあくま&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;4&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;2-7…2-9&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;ビッグハット&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;0&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;2-7.&lt;strong&gt;2-8&lt;/strong&gt;..&lt;strong&gt;2-9&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;リザードフライ&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;0&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;-&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;アルミラージ&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;2-8&lt;/strong&gt;…&lt;strong&gt;2-9&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;スライムつむり&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;0&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;2-8&lt;/strong&gt;…&lt;strong&gt;2-9&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;スノーモン&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;0&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;2-8&lt;/strong&gt;…&lt;strong&gt;2-9&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;コドラ&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;0&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;-&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;メタルブラザーズ&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;0&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;2-6&lt;/strong&gt;..&lt;strong&gt;2-9&lt;/strong&gt;.3-8&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;キラービー&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;0&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;2-8&lt;/strong&gt;..&lt;strong&gt;2-9&lt;/strong&gt;.3-1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;リカント&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;0&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;-&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;デンデン竜&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;0&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;-&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;ひとくいサーベル&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;2&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;2-9&lt;/strong&gt;…3-3&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;プリズニャン&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;0&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;2-9&lt;/strong&gt;…3-3&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;ドロヌーバ&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;2&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;2-9&lt;/strong&gt;…3-3&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;おおくちばし&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;0&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;2-9&lt;/strong&gt;…3-3&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;さくらこぞう&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;0&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;-&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;キメラ&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;2&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;2-9&lt;/strong&gt;…3-4&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;グレムリン&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;0&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;2-9&lt;/strong&gt;…3-4&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;1-9、2-4、2-6、2-9 を順に回っていく感じになるだろうな。&lt;/p&gt;</content><author><name>makietan</name></author><category term="game" /><category term="dqw" /><summary type="html">所持枠が足りなくなってきたので整理がてらS4つ集めることにした。 コストが低いところから集める。</summary></entry><entry><title type="html">SDGsとかほざくならこういったシンプルな製品を世に出すべき</title><link href="https://makietan.github.io/japan/2022/01/31/report.html" rel="alternate" type="text/html" title="SDGsとかほざくならこういったシンプルな製品を世に出すべき" /><published>2022-01-31T00:00:00+09:00</published><updated>2022-01-31T00:00:00+09:00</updated><id>https://makietan.github.io/japan/2022/01/31/report</id><content type="html" xml:base="https://makietan.github.io/japan/2022/01/31/report.html">&lt;div class=&quot;card&quot;&gt;
   &lt;a href=&quot;https://news.yahoo.co.jp/articles/a17dfbd513d90f911712fe1b8bf92ab7f1da86fe&quot;&gt;&lt;/a&gt;
   &lt;div class=&quot;card__header&quot;&gt;
     &lt;a href=&quot;https://news.yahoo.co.jp/articles/a17dfbd513d90f911712fe1b8bf92ab7f1da86fe&quot;&gt;news.yahoo.co.jp&lt;/a&gt;
@@ -202,76 +611,4 @@ SDGsだと思うんだよ。&lt;/p&gt;
 &lt;p&gt;忘れ物防止タグでやる方法もあるが、全てにつけるととんでもない金額と管理の難解さが問題となる。&lt;/p&gt;
 
 &lt;p&gt;棚にQRコードリーダーをつけて、各モノにつけたQRコードを読み取って管理する方法もあるかもしれない。
-考えられるだけ考えてみよう。後々に。&lt;/p&gt;</content><author><name>makietan</name></author><category term="tech" /><summary type="html">www.itmedia.co.jp オイシックス大量欠品「社員総出・手動で在庫整理中」　物流センター移転に「判断の甘さ」 - ITmedia NEWS 「Oisix」で大量欠品問題。物流センター移転によりトラブルが相次いだことが原因。</summary></entry><entry><title type="html">貧困層による放火殺人事件の増加に注意しよう</title><link href="https://makietan.github.io/japan/2022/01/26/report.html" rel="alternate" type="text/html" title="貧困層による放火殺人事件の増加に注意しよう" /><published>2022-01-26T00:00:00+09:00</published><updated>2022-01-26T00:00:00+09:00</updated><id>https://makietan.github.io/japan/2022/01/26/report</id><content type="html" xml:base="https://makietan.github.io/japan/2022/01/26/report.html">&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;貧困層作っちゃうとこうなるよね… &lt;a href=&quot;https://t.co/sS5w1kY8Uf&quot;&gt;https://t.co/sS5w1kY8Uf&lt;/a&gt;&lt;/p&gt;&amp;mdash; まきえたん🥦 (@makietanX) &lt;a href=&quot;https://twitter.com/makietanX/status/1481791742047580162?ref_src=twsrc%5Etfw&quot;&gt;January 14, 2022&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-
-&lt;p&gt;京アニ事件から貧困層が猛威を振るっている。
-ようはパリピになれなかった人たちが暴走を始めている。
-自分が不幸だと感じているのだ。
-それによって奪われる命のほうが何倍も不幸なのだがそれには気が利かない。
-それは貧困層に目を向けない富裕層（と中間層の上位陣）も同じである。
-コロナ禍でより差がついたせいでより凶悪な犯罪を犯そうと躍起になっている。&lt;/p&gt;
-
-&lt;p&gt;どうにか沈静化して欲しいのだが、
-頭の悪い立法府の連中によってずるずると引きずられるだろうな。
-ソシャゲに何百万もかける人がいれば、日々の生活に苦労している人もいる。
-金以外にも問題がある。自粛生活によってなんといっても出会いの場がない。
-空白の3年間で老いたものたちはこのまま社会のゴミクズとして半永久的に残ることになるだろう。
-私利私欲に溺れず、もう少し優しい国を目指してほしいものだ。&lt;/p&gt;</content><author><name>makietan</name></author><category term="japan" /><summary type="html">貧困層作っちゃうとこうなるよね… https://t.co/sS5w1kY8Uf&amp;mdash; まきえたん🥦 (@makietanX) January 14, 2022</summary></entry><entry><title type="html">ChamJam特製ドアストッパーを予約した</title><link href="https://makietan.github.io/otaku/2022/01/25/report.html" rel="alternate" type="text/html" title="ChamJam特製ドアストッパーを予約した" /><published>2022-01-25T00:00:00+09:00</published><updated>2022-01-25T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2022/01/25/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2022/01/25/report.html">&lt;div class=&quot;card&quot;&gt;
-  &lt;a href=&quot;https://canime.jp/product/BRZG000000573/&quot;&gt;&lt;/a&gt;
-  &lt;div class=&quot;card__header&quot;&gt;
-    &lt;a href=&quot;https://canime.jp/product/BRZG000000573/&quot;&gt;canime.jp&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__image&quot;&gt;
-    &lt;img src=&quot;https://canime.jp/upload/ja_pics/BRZG000000573/org/1068103001_1.jpg&quot; /&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__title&quot;&gt;
-    &lt;p&gt;ChamJam特製ドアストッパー Aセット（れおver.＆空音ver.＆眞妃ver.） | きゃにめ&lt;/p&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__description&quot;&gt;
-    &lt;p&gt;ChamJam特製ドアストッパー Aセット（れおver.＆空音ver.＆眞妃ver.）を紹介しています。きゃにめでは、ここでしか買えないアニメグッズやオリジナル特典付きCD・DVD、イベントチケットなどをご用意しております！&lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;card&quot;&gt;
-  &lt;a href=&quot;https://canime.jp/product/BRZG000000574/&quot;&gt;&lt;/a&gt;
-  &lt;div class=&quot;card__header&quot;&gt;
-    &lt;a href=&quot;https://canime.jp/product/BRZG000000574/&quot;&gt;canime.jp&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__image&quot;&gt;
-    &lt;img src=&quot;https://canime.jp/upload/ja_pics/BRZG000000574/org/1068103002_1.jpg&quot; /&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__title&quot;&gt;
-    &lt;p&gt;ChamJam特製ドアストッパー Bセット（優佳ver.＆ゆめ莉ver.＆文ver.） | きゃにめ&lt;/p&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__description&quot;&gt;
-    &lt;p&gt;ChamJam特製ドアストッパー Bセット（優佳ver.＆ゆめ莉ver.＆文ver.）を紹介しています。きゃにめでは、ここでしか買えないアニメグッズやオリジナル特典付きCD・DVD、イベントチケットなどをご用意しております！&lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;何を買っているんだと。&lt;/p&gt;
-
-&lt;p&gt;気づいたらポチってたんだよな怖い怖い。&lt;/p&gt;</content><author><name>makietan</name></author><category term="otaku" /><summary type="html">canime.jp ChamJam特製ドアストッパー Aセット（れおver.＆空音ver.＆眞妃ver.） | きゃにめ ChamJam特製ドアストッパー Aセット（れおver.＆空音ver.＆眞妃ver.）を紹介しています。きゃにめでは、ここでしか買えないアニメグッズやオリジナル特典付きCD・DVD、イベントチケットなどをご用意しております！</summary></entry><entry><title type="html">龍旗信LEOの塩ラーメンが美味しかった</title><link href="https://makietan.github.io/gourmet/2022/01/24/report.html" rel="alternate" type="text/html" title="龍旗信LEOの塩ラーメンが美味しかった" /><published>2022-01-24T00:00:00+09:00</published><updated>2022-01-24T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2022/01/24/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2022/01/24/report.html">&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;塩ラーメン900 (@ 龍旗信LEO in 大阪市, 大阪府) &lt;a href=&quot;https://t.co/2jDUpXUV9Z&quot;&gt;https://t.co/2jDUpXUV9Z&lt;/a&gt; &lt;a href=&quot;https://t.co/ev8k09SNEE&quot;&gt;pic.twitter.com/ev8k09SNEE&lt;/a&gt;&lt;/p&gt;&amp;mdash; まきえたん🥦 (@makietanX) &lt;a href=&quot;https://twitter.com/makietanX/status/1479346147487588353?ref_src=twsrc%5Etfw&quot;&gt;January 7, 2022&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-
-&lt;p&gt;塩ラーメンは当たり外れが激しいので注意して食べるのだが、ここは当たりだった。&lt;/p&gt;</content><author><name>makietan</name></author><category term="gourmet" /><summary type="html">塩ラーメン900 (@ 龍旗信LEO in 大阪市, 大阪府) https://t.co/2jDUpXUV9Z pic.twitter.com/ev8k09SNEE&amp;mdash; まきえたん🥦 (@makietanX) January 7, 2022</summary></entry><entry><title type="html">ドラクエウォークのプチアノタクトが地味に優秀だ</title><link href="https://makietan.github.io/game/dpw/2022/01/23/report.html" rel="alternate" type="text/html" title="ドラクエウォークのプチアノタクトが地味に優秀だ" /><published>2022-01-23T00:00:00+09:00</published><updated>2022-01-23T00:00:00+09:00</updated><id>https://makietan.github.io/game/dpw/2022/01/23/report</id><content type="html" xml:base="https://makietan.github.io/game/dpw/2022/01/23/report.html">&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;緑うんこでも1000くらいは出せるんだな&lt;br /&gt;プラチナウイングのシャインスコールがなかなかに渋いからこれでいいか &lt;a href=&quot;https://twitter.com/hashtag/%E3%83%89%E3%83%A9%E3%82%AF%E3%82%A8%E3%82%A6%E3%82%A9%E3%83%BC%E3%82%AF?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#ドラクエウォーク&lt;/a&gt; &lt;a href=&quot;https://t.co/hFR1bXlFa1&quot;&gt;pic.twitter.com/hFR1bXlFa1&lt;/a&gt;&lt;/p&gt;&amp;mdash; まきえたん🥦 (@makietanX) &lt;a href=&quot;https://twitter.com/makietanX/status/1482389939215953921?ref_src=twsrc%5Etfw&quot;&gt;January 15, 2022&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-
-&lt;p&gt;自分のパーティー的にはプラチナウイングのシャインスコールよりダメージが出せる。
-レアリティが低いからと舐めてはいけない装備がちらほらあって把握するのが面倒だな。
-いい武器はレアリティを上げてほしい。&lt;/p&gt;</content><author><name>makietan</name></author><category term="game" /><category term="dpw" /><summary type="html">緑うんこでも1000くらいは出せるんだなプラチナウイングのシャインスコールがなかなかに渋いからこれでいいか #ドラクエウォーク pic.twitter.com/hFR1bXlFa1&amp;mdash; まきえたん🥦 (@makietanX) January 15, 2022</summary></entry><entry><title type="html">組み合わせ問題は面白いね</title><link href="https://makietan.github.io/tech/2022/01/22/report.html" rel="alternate" type="text/html" title="組み合わせ問題は面白いね" /><published>2022-01-22T00:00:00+09:00</published><updated>2022-01-22T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2022/01/22/report</id><content type="html" xml:base="https://makietan.github.io/tech/2022/01/22/report.html">&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;小田急である広告の前でだけ学生数人がノート出してて何事かと思ったらこの広告が原因だった。解いたらスッキリする答えが出てきて、答え合わせできないけど確実に正解なのが分かった &lt;a href=&quot;https://t.co/bszZ0QQQJ5&quot;&gt;pic.twitter.com/bszZ0QQQJ5&lt;/a&gt;&lt;/p&gt;&amp;mdash; 電電猫猫|高橋直希@CoeFont (@nya3_neko2) &lt;a href=&quot;https://twitter.com/nya3_neko2/status/1481503969965142016?ref_src=twsrc%5Etfw&quot;&gt;January 13, 2022&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-
-&lt;p&gt;解いてみた。&lt;/p&gt;
-
-&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot;&gt;&lt;p lang=&quot;in&quot; dir=&quot;ltr&quot;&gt;A..... 5!/2! = 60&lt;br /&gt;G..... 5!/2! = 60 (120)&lt;br /&gt;---&lt;br /&gt;GA.... 4!/2! = 12 (72)&lt;br /&gt;GK.... 4! = 24 (96)&lt;br /&gt;GO.... 4!/2! = 12 (108)&lt;br /&gt;---&lt;br /&gt;GOA... 3!/2! = 3 (99)&lt;br /&gt;GOK... 3! = 6 (105)&lt;br /&gt;---&lt;br /&gt;GOKA.. 2! = 2 (101)&lt;br /&gt;---&lt;br /&gt;GOKAK. 1! = 1 (100)&lt;br /&gt;---&lt;br /&gt;GOKAKU&lt;/p&gt;&amp;mdash; まきえたん🥦 (@makietanX) &lt;a href=&quot;https://twitter.com/makietanX/status/1481918330340405251?ref_src=twsrc%5Etfw&quot;&gt;January 14, 2022&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-
-&lt;p&gt;同じ種類の文字が含まれている場合は、その分階乗で割る。
-それを注意すればわりと簡単に求められる。&lt;/p&gt;
-
-&lt;h2 id=&quot;ruby&quot;&gt;Ruby&lt;/h2&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Array#permutation&lt;/code&gt; には便利メソッドがある。&lt;/p&gt;
-
-&lt;p&gt;他の言語は自分で実装する必要があるだろう。&lt;/p&gt;</content><author><name>makietan</name></author><category term="tech" /><summary type="html">小田急である広告の前でだけ学生数人がノート出してて何事かと思ったらこの広告が原因だった。解いたらスッキリする答えが出てきて、答え合わせできないけど確実に正解なのが分かった pic.twitter.com/bszZ0QQQJ5&amp;mdash; 電電猫猫|高橋直希@CoeFont (@nya3_neko2) January 13, 2022</summary></entry></feed>
+考えられるだけ考えてみよう。後々に。&lt;/p&gt;</content><author><name>makietan</name></author><category term="tech" /><summary type="html">www.itmedia.co.jp オイシックス大量欠品「社員総出・手動で在庫整理中」　物流センター移転に「判断の甘さ」 - ITmedia NEWS 「Oisix」で大量欠品問題。物流センター移転によりトラブルが相次いだことが原因。</summary></entry></feed>
