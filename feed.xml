@@ -1,4 +1,156 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2022-04-08T12:34:30+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">日報</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">《地縛神Aslla pscu》の1キルを考える</title><link href="https://makietan.github.io/yugioh/2022/04/03/report.html" rel="alternate" type="text/html" title="《地縛神Aslla pscu》の1キルを考える" /><published>2022-04-03T00:00:00+09:00</published><updated>2022-04-03T00:00:00+09:00</updated><id>https://makietan.github.io/yugioh/2022/04/03/report</id><content type="html" xml:base="https://makietan.github.io/yugioh/2022/04/03/report.html">&lt;p&gt;ゾンビキャリアで先行制圧を考えていたら《ブラック・ガーデン》と《地縛神Asplla piscu》による1killの情報を入手してしまったので考察する。
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2022-04-08T18:53:21+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">日報</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">《ゾンビキャリア》経由で《水晶機巧－ハリファイバー》の出し方を考える</title><link href="https://makietan.github.io/yugioh/2022/04/08/report.html" rel="alternate" type="text/html" title="《ゾンビキャリア》経由で《水晶機巧－ハリファイバー》の出し方を考える" /><published>2022-04-08T00:00:00+09:00</published><updated>2022-04-08T00:00:00+09:00</updated><id>https://makietan.github.io/yugioh/2022/04/08/report</id><content type="html" xml:base="https://makietan.github.io/yugioh/2022/04/08/report.html">&lt;div class=&quot;trim&quot;&gt;
+  &lt;div class=&quot;trim__item&quot;&gt;
+    &lt;a href=&quot;https://makietan.github.io/assets/images/2022-04-08-report/16-37-19.png&quot;&gt;
+      &lt;img class=&quot;one&quot; src=&quot;https://makietan.github.io/assets/thumbnail/2022-04-08-report/16-37-19.png&quot; /&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;今回はハリファイバーをゾンビキャリア経由で出すルートを考える。&lt;/p&gt;
+
+&lt;h2 id=&quot;ゾンビキャリアを場に出す&quot;&gt;《ゾンビキャリア》を場に出す&lt;/h2&gt;
+
+&lt;div class=&quot;trim&quot;&gt;
+  &lt;div class=&quot;trim__item&quot;&gt;
+    &lt;a href=&quot;https://makietan.github.io/assets/images/2022-04-08-report/16-49-36.png&quot;&gt;
+      &lt;img class=&quot;one&quot; src=&quot;https://makietan.github.io/assets/thumbnail/2022-04-08-report/16-49-36.png&quot; /&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;通常召喚した場合は、《転生炎獣アルミラージ》をリンク召喚するのが標準パターンです。&lt;/p&gt;
+
+&lt;p&gt;ゾンビキャリアを引く確率は33.755%。&lt;/p&gt;
+
+&lt;h2 id=&quot;ゾンビキャリアを墓地へ送る&quot;&gt;《ゾンビキャリア》を墓地へ送る&lt;/h2&gt;
+
+&lt;div class=&quot;trim&quot;&gt;
+  &lt;div class=&quot;trim__item&quot;&gt;
+    &lt;a href=&quot;https://makietan.github.io/assets/images/2022-04-08-report/16-40-13.png&quot;&gt;
+      &lt;img class=&quot;one&quot; src=&quot;https://makietan.github.io/assets/thumbnail/2022-04-08-report/16-40-13.png&quot; /&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;攻撃力400闇属性アンデット族ということでサポートカードは豊富にある。&lt;/p&gt;
+
+&lt;h3 id=&quot;おろかな埋葬&quot;&gt;《おろかな埋葬》&lt;/h3&gt;
+
+&lt;p&gt;万能カードですが、今回はモンスターを場に出せないのでデメリットが発生します。
+下記のモンスターがいる場合はそちらを優先しましょう。
+《灰流うらら》を発動された場合に使えるよう発動優先度は低いことを意識しましょう。&lt;/p&gt;
+
+&lt;p&gt;ゾンビキャリアまたはおろかな埋葬を引く確率は42.707%。&lt;/p&gt;
+
+&lt;h3 id=&quot;終末の騎士牛頭鬼堕ち武者マスマティシャン&quot;&gt;《終末の騎士》・《牛頭鬼》・《堕ち武者》・《マスマティシャン》&lt;/h3&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;《終末の騎士》
+①：このカードが召喚・反転召喚・特殊召喚に成功した時に発動できる。デッキから闇属性モンスター１体を墓地へ送る。
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;制限カード。
+終末の騎士は言わずとしれた汎用カード。
+終末の騎士からゾンビキャリアはテンプレです。&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;《牛頭鬼》
+①：自分メインフェイズに発動できる。デッキからアンデット族モンスター１体を墓地へ送る。
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;《堕ち武者》
+①：このカードが召喚に成功した時に発動できる。デッキからアンデット族モンスター１体を墓地へ送る。
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;《マスマティシャン》
+①：このカードが召喚に成功した時に発動できる。デッキからレベル４以下のモンスター１体を墓地へ送る。
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;終末の騎士と同じことを牛頭鬼・堕ち武者・マスマティシャンで可能です。
+堕ち武者は破壊されたときに牛頭鬼をリクルート可能なので《PSYフレームギア・γ》対策にもなります。
+マスマティシャンの場合はジェット・シンクロン等も墓地へ送ることができるためルート考察が捗ると思います。
+牛頭鬼は特殊召喚時にも効果が発動できます。
+三者三様ですが、堕ち武者優先で灰流うららケアは各種指名者で行うのがいいと思います。&lt;/p&gt;
+
+&lt;p&gt;ゾンビキャリア・おろかな埋葬・墓地送りカードを引く確率は90%&lt;/p&gt;
+
+&lt;h3 id=&quot;ユニゾンビ不知火の隠者&quot;&gt;《ユニゾンビ》・《不知火の隠者》&lt;/h3&gt;
+
+&lt;div class=&quot;trim&quot;&gt;
+  &lt;div class=&quot;trim__item&quot;&gt;
+    &lt;a href=&quot;https://makietan.github.io/assets/images/2022-04-08-report/16-45-12.png&quot;&gt;
+      &lt;img class=&quot;one&quot; src=&quot;https://makietan.github.io/assets/thumbnail/2022-04-08-report/16-45-12.png&quot; /&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;《ユニゾンビ》
+②：フィールドの表側表示モンスター１体を対象として発動できる。デッキからアンデット族モンスター１体を墓地へ送り、対象のモンスターのレベルを１つ上げる。この効果の発動後、ターン終了時までアンデット族以外の自分のモンスターは攻撃できない。
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;ユニゾンビで主に使うのは②の効果です。
+デメリットが存在しますが、攻撃しないので問題ありません。&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;《不知火の隠者》
+①：自分フィールドのアンデット族モンスター１体をリリースして発動できる。デッキから守備力０のアンデット族チューナー１体を特殊召喚する。
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;ゾンビキャリアの守備力は200。
+不知火の隠者から直接フィールドに出すことはできません。
+場にモンスター1体、墓地にモンスター1体が必要なので万一出せたとしても事故になります。
+このカードはユニゾンビを特殊召喚するためだけに入っています。
+《瑚之龍》のドローで必要パーツを引くためのデッキ圧縮と考えてもいいと思います.&lt;/p&gt;
+
+&lt;p&gt;ここまで登場した20枚のカードを引く確率は97.644%。
+ちなみに17枚だと94.886%。&lt;/p&gt;
+
+&lt;p&gt;以上こんなもんで十分でしょう。&lt;/p&gt;
+
+&lt;p&gt;以降は愚痴というか個人的な確率計算メモ。
+正確な数字ではなくざっくりと計算したものになるのでだいたいこんなもんという認識でいただければよい。&lt;/p&gt;
+
+&lt;h2 id=&quot;ゾンビキャリアの後の展開をどうにかしよう&quot;&gt;ゾンビキャリアの後の展開をどうにかしよう。&lt;/h2&gt;
+
+&lt;p&gt;90%越えていると十分なので他の展開パーツを入れたりするほうが良いと思います。&lt;/p&gt;
+
+&lt;p&gt;特にアスラピスク1killの場合は追加のアドバンス召喚用のカードとレベル2のモンスターが必要になるのでどうにかして手札に加える必要があります。&lt;/p&gt;
+
+&lt;p&gt;レベル2モンスターを場に1体特殊召喚する必要があるのでドッペルウォリアー以外の展開も考えなければいけません。&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;97.644% × 33.755% = 32.96%
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;これではいくらゾンビキャリアを初手に用意してもダメです。
+14枚にしても &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;90% × 33.755% = 30.38%&lt;/code&gt; となってしまうため、レベル2を出す手段を考えましょう。&lt;/p&gt;
+
+&lt;p&gt;サテライト・シンクロンを投入してみるのもいいでしょう。&lt;/p&gt;
+
+&lt;p&gt;6枚だと57.712%に上昇するので約1/2の確率で展開できます。&lt;/p&gt;
+
+&lt;p&gt;ここにアスラピスクを追加召喚するためのカードが必要なので
+《カード・アドバンス》と《二重召喚》を投入します。&lt;/p&gt;
+
+&lt;p&gt;6枚だと57.712%。&lt;/p&gt;
+
+&lt;p&gt;57.712% × 57.712% × 90% = 29.976074%&lt;/p&gt;
+
+&lt;p&gt;だいたい1/3の確率で完璧に成功します。&lt;/p&gt;
+
+&lt;p&gt;完璧…手札誘発カードが発動された場合のことを考えるとそうでもないな困った困った。&lt;/p&gt;
+
+&lt;p&gt;《墓穴の指名者》と《抹殺の指名者》を引ける確率は以下の通り。&lt;/p&gt;
+
+&lt;p&gt;23.7%〜50%&lt;/p&gt;
+
+&lt;p&gt;採用枚数が2枚から5枚の間の確率を出した。&lt;/p&gt;
+
+&lt;p&gt;初手に相手が《灰流うらら》・《増殖するG》・《PSYフレームギア・γ》を握っている確率は以下の通り。&lt;/p&gt;
+
+&lt;p&gt;74.178%&lt;/p&gt;
+
+&lt;p&gt;自分が指名者カードを持っていて相手が妨害カードを持っている場合は37.089%。
+ゾンビキャリアサーチカードに召喚権を優雅にゆずっている場合じゃない。
+メタられることを前提に展開しないといけない。&lt;/p&gt;
+
+&lt;p&gt;デッキ構築は難しいなぁ。&lt;/p&gt;</content><author><name>makietan</name></author><category term="yugioh" /><summary type="html"></summary></entry><entry><title type="html">《地縛神Aslla pscu》の1キルを考える</title><link href="https://makietan.github.io/yugioh/2022/04/03/report.html" rel="alternate" type="text/html" title="《地縛神Aslla pscu》の1キルを考える" /><published>2022-04-03T00:00:00+09:00</published><updated>2022-04-03T00:00:00+09:00</updated><id>https://makietan.github.io/yugioh/2022/04/03/report</id><content type="html" xml:base="https://makietan.github.io/yugioh/2022/04/03/report.html">&lt;p&gt;ゾンビキャリアで先行制圧を考えていたら《ブラック・ガーデン》と《地縛神Asplla piscu》による1killの情報を入手してしまったので考察する。
 やることは2つ。それぞれ以下の通りだ。&lt;/p&gt;
 
 &lt;h2 id=&quot;ブラックガーデンをサーチする&quot;&gt;《ブラック・ガーデン》をサーチする&lt;/h2&gt;
@@ -565,465 +717,4 @@
 
 &lt;hr /&gt;
 
-&lt;p&gt;後日しっかり書く予定。&lt;/p&gt;</content><author><name>makietan</name></author><category term="game" /><category term="railway" /><summary type="html">ekimemo.com でんこと一緒に野外活動！ゆるキャン△ゆかりの地めぐりin山梨 | 駅メモ！ - ステーションメモリーズ！- 公式サイト でんこと一緒に野外活動！ゆるキャン△ゆかりの地めぐりin山梨</summary></entry><entry><title type="html">駅メモの「ゆるキャン△コラボイベント」で山梨に2回行ってきた - 1日目</title><link href="https://makietan.github.io/game/railway/2022/03/12/report.html" rel="alternate" type="text/html" title="駅メモの「ゆるキャン△コラボイベント」で山梨に2回行ってきた - 1日目" /><published>2022-03-12T00:00:00+09:00</published><updated>2022-03-12T00:00:00+09:00</updated><id>https://makietan.github.io/game/railway/2022/03/12/report</id><content type="html" xml:base="https://makietan.github.io/game/railway/2022/03/12/report.html">&lt;div class=&quot;card&quot;&gt;
-  &lt;a href=&quot;https://ekimemo.com/festa/yurucamp_1&quot;&gt;&lt;/a&gt;
-  &lt;div class=&quot;card__header&quot;&gt;
-    &lt;a href=&quot;https://ekimemo.com/festa/yurucamp_1&quot;&gt;ekimemo.com&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__image&quot;&gt;
-    &lt;img src=&quot;https://static.ekimemo.com/v=20220202/ogp-thumbnail.png&quot; /&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__title&quot;&gt;
-    &lt;p&gt;でんこと一緒に野外活動！ゆるキャン△ゆかりの地めぐりin山梨 | 駅メモ！ - ステーションメモリーズ！- 公式サイト&lt;/p&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__description&quot;&gt;
-    &lt;p&gt;でんこと一緒に野外活動！ゆるキャン△ゆかりの地めぐりin山梨&lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&quot;でんこと一緒に野外活動ゆるキャンゆかりの地めぐりin山梨-1日目&quot;&gt;でんこと一緒に野外活動！ゆるキャン△ゆかりの地めぐりin山梨 (1日目)&lt;/h2&gt;
-
-&lt;p&gt;1日目は身延線とほったらかし温泉へ。&lt;/p&gt;
-
-&lt;h3 id=&quot;対象駅&quot;&gt;対象駅&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;山梨市&lt;/li&gt;
-  &lt;li&gt;甲斐常葉&lt;/li&gt;
-  &lt;li&gt;下部温泉&lt;/li&gt;
-  &lt;li&gt;波高島&lt;/li&gt;
-  &lt;li&gt;身延&lt;/li&gt;
-  &lt;li&gt;内船&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;対象スポット&quot;&gt;対象スポット&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;山梨県笛吹川フルーツ公園&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;行程&quot;&gt;行程&lt;/h3&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;時間&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;場所&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;路線&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;東京&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;06:41&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;神田&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;中央線中央特快&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;07:49&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;八王子《直通》&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;中央線&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;08:02&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;高尾&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;中央本線&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;10:30&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;山梨市&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;山梨市営バス 山梨循環線&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;10:40&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;フルーツセンター&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;徒歩（登山）&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;11:10&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;ほったらかし温泉&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;満喫&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;13:10&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;ほったらかし温泉&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;徒歩（下山）&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;13:50&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;フルーツセンター&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;山梨市営バス 山梨循環線&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;14:29&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;山梨市&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;中央本線&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;14:57&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;甲府&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;身延線&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;16:30&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;身延&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;身延線&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;18:01&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;富士&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;東海道本線&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;18:55&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;熱海&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;東海道本線&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;東京&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h2 id=&quot;山梨市駅&quot;&gt;山梨市駅&lt;/h2&gt;
-
-&lt;div class=&quot;trim&quot;&gt;
-  &lt;div class=&quot;trim__item&quot;&gt;
-    &lt;a href=&quot;https://makietan.github.io/assets/images/2022-03-12-report/13-28-53.png&quot;&gt;
-      &lt;img class=&quot;one&quot; src=&quot;https://makietan.github.io/assets/thumbnail/2022-03-12-report/13-28-53.png&quot; /&gt;
-    &lt;/a&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;card&quot;&gt;
-  &lt;a href=&quot;https://www.yamanashi-kankou.jp/special/sp_yurucamp/story4.html&quot;&gt;&lt;/a&gt;
-  &lt;div class=&quot;card__header&quot;&gt;
-    &lt;a href=&quot;https://www.yamanashi-kankou.jp/special/sp_yurucamp/story4.html&quot;&gt;www.yamanashi-kankou.jp&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__image&quot;&gt;
-    &lt;img src=&quot;http://www.yamanashi-kankou.jp/shared/images/hishimaru.jpg&quot; /&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__title&quot;&gt;
-    &lt;p&gt;アニメ ゆるキャン△第四話で登場したモデル地／富士の国やまなし観光ネット 山梨県公式観光情報&lt;/p&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__description&quot;&gt;
-    &lt;p&gt;&lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;回想されてかなり外観変わった模様。
-ゆるキャン△ではここから徒歩で行ってますが、作中からも伝わるつらい道中なのでバスを利用して行った。&lt;/p&gt;
-
-&lt;div class=&quot;trim&quot;&gt;
-  &lt;div class=&quot;trim__item&quot;&gt;
-    &lt;a href=&quot;https://makietan.github.io/assets/images/2022-03-12-report/13-34-00.png&quot;&gt;
-      &lt;img class=&quot;one&quot; src=&quot;https://makietan.github.io/assets/thumbnail/2022-03-12-report/13-34-00.png&quot; /&gt;
-    &lt;/a&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;ゆるキャン△じゃなく「神様になった日」を猛プッシュしていた。
-あやねるのサインとかも展示されているのでぜひ見に行くべき。&lt;/p&gt;
-
-&lt;div class=&quot;trim&quot;&gt;
-  &lt;div class=&quot;trim__item&quot;&gt;
-    &lt;a href=&quot;https://makietan.github.io/assets/images/2022-03-12-report/13-47-16.png&quot;&gt;
-      &lt;img class=&quot;one&quot; src=&quot;https://makietan.github.io/assets/thumbnail/2022-03-12-report/13-47-16.png&quot; /&gt;
-    &lt;/a&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;謎のももオブジェ。&lt;/p&gt;
-
-&lt;p&gt;いい加減、岡山県へも行きたい（推し武道の桃太郎オブジェ的な意味で）。&lt;/p&gt;
-
-&lt;h3 id=&quot;山梨市営バス&quot;&gt;山梨市営バス&lt;/h3&gt;
-
-&lt;div class=&quot;card&quot;&gt;
-  &lt;a href=&quot;https://www.city.yamanashi.yamanashi.jp/citizen/docs/bus.html&quot;&gt;&lt;/a&gt;
-  &lt;div class=&quot;card__header&quot;&gt;
-    &lt;a href=&quot;https://www.city.yamanashi.yamanashi.jp/citizen/docs/bus.html&quot;&gt;www.city.yamanashi.yamanashi.jp&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__image&quot;&gt;
-    &lt;img src=&quot;https://www.city.yamanashi.yamanashi.jp/favicon/apple-touch-icon-57x57.png/favicon/apple-touch-icon-60x60.png/favicon/apple-touch-icon-72x72.png/favicon/apple-touch-icon-76x76.png/favicon/apple-touch-icon-114x114.png/favicon/apple-touch-icon-120x120.png/favicon/apple-touch-icon-144x144.png/favicon/apple-touch-icon-152x152.png/favicon/apple-touch-icon-180x180.png&quot; /&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__title&quot;&gt;
-    &lt;p&gt;市民バス・民間バス - 山梨県山梨市オフィシャルサイト『誇れる日本を、ここ山梨市から。』&lt;/p&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__description&quot;&gt;
-    &lt;p&gt;「山梨市営バス」（西沢渓谷線・山梨循環線・牧丘循環線）及び市内の民間路線バスの情報を掲載しています。&lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;200円。&lt;/p&gt;
-
-&lt;p&gt;1日に3本しか走っていないバス。
-ほったらかし温泉の手前のフルーツセンターまでしか走っていない。&lt;/p&gt;
-
-&lt;p&gt;フルーツセンターからほったらかし温泉までは徒歩で約20分かかる。
-基本的に車で行くところなのでビュンビュン車が通り過ぎる（こえーよ）。&lt;/p&gt;
-
-&lt;p&gt;かゆいところに手が届かないバスではあるが、駅から徒歩でフルーツセンターまで行くと1時間は超えるし、タクシーだと10倍以上かかるので無いと困る。&lt;/p&gt;
-
-&lt;p&gt;正直改善してほしいポイントだが民間施設にまで延伸するとダメなんだろうか？&lt;/p&gt;
-
-&lt;h2 id=&quot;ほったらかし温泉&quot;&gt;ほったらかし温泉&lt;/h2&gt;
-
-&lt;div class=&quot;trim&quot;&gt;
-  &lt;div class=&quot;trim__item&quot;&gt;
-    &lt;a href=&quot;https://makietan.github.io/assets/images/2022-03-12-report/13-46-00.png&quot;&gt;
-      &lt;img class=&quot;one&quot; src=&quot;https://makietan.github.io/assets/thumbnail/2022-03-12-report/13-46-00.png&quot; /&gt;
-    &lt;/a&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;card&quot;&gt;
-  &lt;a href=&quot;http://www.hottarakashi-onsen.com/&quot;&gt;&lt;/a&gt;
-  &lt;div class=&quot;card__header&quot;&gt;
-    &lt;a href=&quot;http://www.hottarakashi-onsen.com/&quot;&gt;www.hottarakashi-onsen.com&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__image&quot;&gt;
-    &lt;img src=&quot;&quot; /&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__title&quot;&gt;
-    &lt;p&gt;ほったらかし温泉　ほーむぺーじ&lt;/p&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__description&quot;&gt;
-    &lt;p&gt;&lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;今回の一番の目的地。&lt;/p&gt;
-
-&lt;p&gt;ゆるキャン△では「ほっとけや温泉」の名称で登場した。&lt;/p&gt;
-
-&lt;div class=&quot;card&quot;&gt;
-  &lt;a href=&quot;https://www.yamanashi-kankou.jp/special/sp_yurucamp/story5.html&quot;&gt;&lt;/a&gt;
-  &lt;div class=&quot;card__header&quot;&gt;
-    &lt;a href=&quot;https://www.yamanashi-kankou.jp/special/sp_yurucamp/story5.html&quot;&gt;www.yamanashi-kankou.jp&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__image&quot;&gt;
-    &lt;img src=&quot;http://www.yamanashi-kankou.jp/shared/images/hishimaru.jpg&quot; /&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__title&quot;&gt;
-    &lt;p&gt;アニメ ゆるキャン△第五話で登場したモデル地／富士の国やまなし観光ネット 山梨県公式観光情報&lt;/p&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__description&quot;&gt;
-    &lt;p&gt;&lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;trim&quot;&gt;
-  &lt;div class=&quot;trim__item&quot;&gt;
-    &lt;a href=&quot;https://makietan.github.io/assets/images/2022-03-12-report/13-33-07.png&quot;&gt;
-      &lt;img class=&quot;one&quot; src=&quot;https://makietan.github.io/assets/thumbnail/2022-03-12-report/13-33-07.png&quot; /&gt;
-    &lt;/a&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;果てしなく続くほったらかし温泉への道。&lt;/p&gt;
-
-&lt;div class=&quot;trim&quot;&gt;
-  &lt;div class=&quot;trim__item&quot;&gt;
-    &lt;a href=&quot;https://makietan.github.io/assets/images/2022-03-12-report/13-32-09.png&quot;&gt;
-      &lt;img class=&quot;one&quot; src=&quot;https://makietan.github.io/assets/thumbnail/2022-03-12-report/13-32-09.png&quot; /&gt;
-    &lt;/a&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;ソーラーパネルが見えてなんともいえない道中。
-切り拓かれたおかげで富士山が見やすい（皮肉）。&lt;/p&gt;
-
-&lt;div class=&quot;trim&quot;&gt;
-  &lt;div class=&quot;trim__item&quot;&gt;
-    &lt;a href=&quot;https://makietan.github.io/assets/images/2022-03-12-report/13-30-34.png&quot;&gt;
-      &lt;img class=&quot;one&quot; src=&quot;https://makietan.github.io/assets/thumbnail/2022-03-12-report/13-30-34.png&quot; /&gt;
-    &lt;/a&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;汗だくになりながら到着。&lt;/p&gt;
-
-&lt;div class=&quot;trim&quot;&gt;
-  &lt;div class=&quot;trim__item&quot;&gt;
-    &lt;a href=&quot;https://makietan.github.io/assets/images/2022-03-12-report/13-29-52.png&quot;&gt;
-      &lt;img class=&quot;one&quot; src=&quot;https://makietan.github.io/assets/thumbnail/2022-03-12-report/13-29-52.png&quot; /&gt;
-    &lt;/a&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;すぐさまあっちの湯（原作ではあちちの湯）へ。&lt;/p&gt;
-
-&lt;div class=&quot;trim&quot;&gt;
-  &lt;div class=&quot;trim__item&quot;&gt;
-    &lt;a href=&quot;https://makietan.github.io/assets/images/2022-03-12-report/13-36-13.png&quot;&gt;
-      &lt;img class=&quot;one&quot; src=&quot;https://makietan.github.io/assets/thumbnail/2022-03-12-report/13-36-13.png&quot; /&gt;
-    &lt;/a&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;タオルがすごくいい感じ。&lt;/p&gt;
-
-&lt;p&gt;なんとニフティに特製手ぬぐい無料クーポンがあるので行く場合は要チェック。&lt;/p&gt;
-
-&lt;div class=&quot;card&quot;&gt;
-  &lt;a href=&quot;https://onsen.nifty.com/koufu-onsen/onsen002085/&quot;&gt;&lt;/a&gt;
-  &lt;div class=&quot;card__header&quot;&gt;
-    &lt;a href=&quot;https://onsen.nifty.com/koufu-onsen/onsen002085/&quot;&gt;onsen.nifty.com&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__image&quot;&gt;
-    &lt;img src=&quot;https://onsen.nifty.com/cms_image/onsen/255-elizabeth/onsen002085/002085_top01_1.jpg&quot; /&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__title&quot;&gt;
-    &lt;p&gt;【クーポンあり】ほったらかし温泉 あっちの湯・こっちの湯 - 甲府｜ニフティ温泉&lt;/p&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__description&quot;&gt;
-    &lt;p&gt;ほったらかし温泉 あっちの湯・こっちの湯のお得なクーポン「特製手ぬぐい無料クーポン！」。富士を望み甲府盆地を見下ろす雄大な眺望が有名。夜は満天の星空と夜景、朝は日の出の1時間前から入浴ができるので朝焼けもお楽しみいただけます！ほったらかし温泉 あっちの湯・こっちの湯(甲府)の情報ならニフティ温泉&lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;trim&quot;&gt;
-  &lt;div class=&quot;trim__item&quot;&gt;
-    &lt;a href=&quot;https://makietan.github.io/assets/images/2022-03-12-report/13-40-39.png&quot;&gt;
-      &lt;img class=&quot;one&quot; src=&quot;https://makietan.github.io/assets/thumbnail/2022-03-12-report/13-40-39.png&quot; /&gt;
-    &lt;/a&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;下駄箱近くに貴重品ロッカーがありますが、脱衣所にも有料ロッカーが存在するので
-混雑していなければそちらを使いましょう（戒め）。&lt;/p&gt;
-
-&lt;div class=&quot;trim&quot;&gt;
-  &lt;div class=&quot;trim__item&quot;&gt;
-    &lt;a href=&quot;https://makietan.github.io/assets/images/2022-03-12-report/13-42-29.png&quot;&gt;
-      &lt;img class=&quot;one&quot; src=&quot;https://makietan.github.io/assets/thumbnail/2022-03-12-report/13-42-29.png&quot; /&gt;
-    &lt;/a&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;休憩所は新型コロナのせいで閉鎖中でした。
-いつか入ってみたいよ。&lt;/p&gt;
-
-&lt;div class=&quot;trim&quot;&gt;
-  &lt;div class=&quot;trim__item&quot;&gt;
-    &lt;a href=&quot;https://makietan.github.io/assets/images/2022-03-12-report/13-43-04.png&quot;&gt;
-      &lt;img class=&quot;one&quot; src=&quot;https://makietan.github.io/assets/thumbnail/2022-03-12-report/13-43-04.png&quot; /&gt;
-    &lt;/a&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;風呂場にもあった笠。
-流石に被っている人はいなかったが日除けにはいいと思う。&lt;/p&gt;
-
-&lt;h3 id=&quot;食べたもの&quot;&gt;食べたもの&lt;/h3&gt;
-
-&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;食い過ぎた &lt;a href=&quot;https://t.co/lcnhYW5s3P&quot;&gt;pic.twitter.com/lcnhYW5s3P&lt;/a&gt;&lt;/p&gt;&amp;mdash; まきえたん🥦 (@makietanX) &lt;a href=&quot;https://twitter.com/makietanX/status/1502494812750057475?ref_src=twsrc%5Etfw&quot;&gt;March 12, 2022&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-
-&lt;div class=&quot;trim&quot;&gt;
-  &lt;div class=&quot;trim__item&quot;&gt;
-    &lt;a href=&quot;https://makietan.github.io/assets/images/2022-03-12-report/13-41-41.png&quot;&gt;
-      &lt;img class=&quot;one&quot; src=&quot;https://makietan.github.io/assets/thumbnail/2022-03-12-report/13-41-41.png&quot; /&gt;
-    &lt;/a&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;u&gt;温玉あげ(180) と 山菜そば(580)&lt;/u&gt;&lt;/p&gt;
-
-&lt;div class=&quot;trim&quot;&gt;
-  &lt;div class=&quot;trim__item&quot;&gt;
-    &lt;a href=&quot;https://makietan.github.io/assets/images/2022-03-12-report/13-45-01.png&quot;&gt;
-      &lt;img class=&quot;one&quot; src=&quot;https://makietan.github.io/assets/thumbnail/2022-03-12-report/13-45-01.png&quot; /&gt;
-    &lt;/a&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;u&gt;牛すじ煮込みカレー(1300)&lt;/u&gt;&lt;/p&gt;
-
-&lt;p&gt;上の2つと比べるとそれなりの値段だが結構おいしい。&lt;/p&gt;
-
-&lt;p&gt;だが、辛かった。口が痛かったよ。&lt;/p&gt;
-
-&lt;div class=&quot;trim&quot;&gt;
-  &lt;div class=&quot;trim__item&quot;&gt;
-    &lt;a href=&quot;https://makietan.github.io/assets/images/2022-03-12-report/13-44-18.png&quot;&gt;
-      &lt;img class=&quot;one&quot; src=&quot;https://makietan.github.io/assets/thumbnail/2022-03-12-report/13-44-18.png&quot; /&gt;
-    &lt;/a&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;正直、味はわからなかったが辛いカレーでヤバかった口の中を救ってくれた救世主。&lt;/p&gt;
-
-&lt;h2 id=&quot;身延線&quot;&gt;身延線&lt;/h2&gt;
-
-&lt;div class=&quot;trim&quot;&gt;
-  &lt;div class=&quot;trim__item&quot;&gt;
-    &lt;a href=&quot;https://makietan.github.io/assets/images/2022-03-12-report/13-48-35.png&quot;&gt;
-      &lt;img class=&quot;one&quot; src=&quot;https://makietan.github.io/assets/thumbnail/2022-03-12-report/13-48-35.png&quot; /&gt;
-    &lt;/a&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;ここからは3時間耐久乗車が始まる。&lt;/p&gt;
-
-&lt;div class=&quot;trim&quot;&gt;
-  &lt;div class=&quot;trim__item&quot;&gt;
-    &lt;a href=&quot;https://makietan.github.io/assets/images/2022-03-12-report/13-50-26.png&quot;&gt;
-      &lt;img class=&quot;one&quot; src=&quot;https://makietan.github.io/assets/thumbnail/2022-03-12-report/13-50-26.png&quot; /&gt;
-    &lt;/a&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;trim&quot;&gt;
-  &lt;div class=&quot;trim__item&quot;&gt;
-    &lt;a href=&quot;https://makietan.github.io/assets/images/2022-03-12-report/13-50-45.png&quot;&gt;
-      &lt;img class=&quot;one&quot; src=&quot;https://makietan.github.io/assets/thumbnail/2022-03-12-report/13-50-45.png&quot; /&gt;
-    &lt;/a&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;耐えた結果がこちら。&lt;/p&gt;
-
-&lt;h2 id=&quot;富士駅&quot;&gt;富士駅&lt;/h2&gt;
-
-&lt;div class=&quot;trim&quot;&gt;
-  &lt;div class=&quot;trim__item&quot;&gt;
-    &lt;a href=&quot;https://makietan.github.io/assets/images/2022-03-12-report/13-49-48.png&quot;&gt;
-      &lt;img class=&quot;one&quot; src=&quot;https://makietan.github.io/assets/thumbnail/2022-03-12-report/13-49-48.png&quot; /&gt;
-    &lt;/a&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;さーて帰るぞー。&lt;/p&gt;
-
-&lt;p&gt;はっきり言うと身延線で力尽きているので写真とかもほぼ無い。&lt;/p&gt;
-
-&lt;h2 id=&quot;帰宅&quot;&gt;帰宅&lt;/h2&gt;
-
-&lt;div class=&quot;trim&quot;&gt;
-  &lt;div class=&quot;trim__item&quot;&gt;
-    &lt;a href=&quot;https://makietan.github.io/assets/images/2022-03-12-report/13-52-17.png&quot;&gt;
-      &lt;img class=&quot;one&quot; src=&quot;https://makietan.github.io/assets/thumbnail/2022-03-12-report/13-52-17.png&quot; /&gt;
-    &lt;/a&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;お疲れさまでした。&lt;/p&gt;
-
-&lt;p&gt;2日目へ続く…。&lt;/p&gt;
-
-&lt;h2 id=&quot;おわりに&quot;&gt;おわりに&lt;/h2&gt;
-
-&lt;p&gt;当日はたまたま暑くて汗がいつもよりでてしまったので着替えは確実に必要だなと思った。&lt;/p&gt;
-
-&lt;p&gt;とはいえ温泉はいいですね。&lt;/p&gt;
-
-&lt;p&gt;本当は1日で全部周る予定を立てたのだけど、ほったらかし温泉に入るプランにすると帰宅がどうしても日付が変わってしまうのでやめた。&lt;/p&gt;
-
-&lt;p&gt;その判断は正しかったと思う。&lt;/p&gt;</content><author><name>makietan</name></author><category term="game" /><category term="railway" /><summary type="html">ekimemo.com でんこと一緒に野外活動！ゆるキャン△ゆかりの地めぐりin山梨 | 駅メモ！ - ステーションメモリーズ！- 公式サイト でんこと一緒に野外活動！ゆるキャン△ゆかりの地めぐりin山梨</summary></entry></feed>
+&lt;p&gt;後日しっかり書く予定。&lt;/p&gt;</content><author><name>makietan</name></author><category term="game" /><category term="railway" /><summary type="html">ekimemo.com でんこと一緒に野外活動！ゆるキャン△ゆかりの地めぐりin山梨 | 駅メモ！ - ステーションメモリーズ！- 公式サイト でんこと一緒に野外活動！ゆるキャン△ゆかりの地めぐりin山梨</summary></entry></feed>
