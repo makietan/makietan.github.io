@@ -1,4 +1,230 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2022-05-23T12:52:37+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">日報</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">ペットが本当に身につけるべきはICチップじゃなくGPS機器</title><link href="https://makietan.github.io/tech/2022/05/22/report.html" rel="alternate" type="text/html" title="ペットが本当に身につけるべきはICチップじゃなくGPS機器" /><published>2022-05-22T00:00:00+09:00</published><updated>2022-05-22T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2022/05/22/report</id><content type="html" xml:base="https://makietan.github.io/tech/2022/05/22/report.html">&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;【速報】ドーベルマン盗んだ疑いで女2人を逮捕&lt;a href=&quot;https://t.co/5KyLkHXd8B&quot;&gt;https://t.co/5KyLkHXd8B&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;千葉県警は19日、同県木更津市で大型犬ドーベルマン2匹を盗んだとして、窃盗などの疑いで同県松戸市の女ら2人を逮捕した。女は以前に同じ飼い主のドーベルマンが脱走した際に捜索に加わり、確保していた。&lt;/p&gt;&amp;mdash; ライブドアニュース (@livedoornews) &lt;a href=&quot;https://twitter.com/livedoornews/status/1527176538990342145?ref_src=twsrc%5Etfw&quot;&gt;May 19, 2022&lt;/a&gt;&lt;/blockquote&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2022-05-23T17:53:17+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">日報</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">YouTube Data API を使ってみた</title><link href="https://makietan.github.io/tech/2022/05/23/report.html" rel="alternate" type="text/html" title="YouTube Data API を使ってみた" /><published>2022-05-23T00:00:00+09:00</published><updated>2022-05-23T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2022/05/23/report</id><content type="html" xml:base="https://makietan.github.io/tech/2022/05/23/report.html">&lt;h2 id=&quot;動画一覧を取得する&quot;&gt;動画一覧を取得する&lt;/h2&gt;
+
+&lt;div class=&quot;card&quot;&gt;
+  &lt;a href=&quot;https://developers.google.com/youtube/v3/docs/search/list?hl=ja&quot;&gt;&lt;/a&gt;
+  &lt;div class=&quot;card__header&quot;&gt;
+    &lt;a href=&quot;https://developers.google.com/youtube/v3/docs/search/list?hl=ja&quot;&gt;developers.google.com&lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__image&quot;&gt;
+    &lt;img src=&quot;https://www.gstatic.com/devrel-devsite/prod/vda9a852fe58dc4f0a77df9bfbfef645e053a541851391590524ef926ac0c5e1c/developers/images/opengraph/youtube-theme.png&quot; /&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__title&quot;&gt;
+    &lt;p&gt;Search: list  |  YouTube Data API  |  Google Developers&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__description&quot;&gt;
+    &lt;p&gt;&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;サンプル&quot;&gt;サンプル&lt;/h3&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;https://www.googleapis.com/youtube/v3/search?key=&amp;lt;API_KEY&amp;gt;&amp;amp;channelId=&amp;lt;CHANNEL_ID&amp;gt;&amp;amp;part=snippet,id&amp;amp;order=date&amp;amp;maxResults=20
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;これで特定チャンネルの動画を新しい順で取得することができます。&lt;/p&gt;
+
+&lt;h3 id=&quot;apiキーの取得&quot;&gt;APIキーの取得&lt;/h3&gt;
+
+&lt;h4 id=&quot;1-google-cloud-platformでyoutube-api-を利用するためのプロジェクトを作成&quot;&gt;1. &lt;a href=&quot;https://console.cloud.google.com/welcome&quot;&gt;Google Cloud Platform&lt;/a&gt;でYoutube API を利用するためのプロジェクトを作成。&lt;/h4&gt;
+
+&lt;p&gt;例では既にYoutubeと名前をつけたプロジェクトを作成済みです。&lt;/p&gt;
+
+&lt;div class=&quot;trim&quot;&gt;
+  &lt;div class=&quot;trim__item&quot;&gt;
+    &lt;a href=&quot;https://makietan.github.io/assets/images/2022-05-23-report/17-23-39.png&quot;&gt;
+      &lt;img class=&quot;one&quot; src=&quot;https://makietan.github.io/assets/thumbnail/2022-05-23-report/17-23-39.png&quot; /&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;プロジェクトの切り替えボタンを押す。&lt;/p&gt;
+
+&lt;div class=&quot;trim&quot;&gt;
+  &lt;div class=&quot;trim__item&quot;&gt;
+    &lt;a href=&quot;https://makietan.github.io/assets/images/2022-05-23-report/17-24-56.png&quot;&gt;
+      &lt;img class=&quot;one&quot; src=&quot;https://makietan.github.io/assets/thumbnail/2022-05-23-report/17-24-56.png&quot; /&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;新しいプロジェクトの作成ボタンを押す。&lt;/p&gt;
+
+&lt;div class=&quot;trim&quot;&gt;
+  &lt;div class=&quot;trim__item&quot;&gt;
+    &lt;a href=&quot;https://makietan.github.io/assets/images/2022-05-23-report/17-27-20.png&quot;&gt;
+      &lt;img class=&quot;one&quot; src=&quot;https://makietan.github.io/assets/thumbnail/2022-05-23-report/17-27-20.png&quot; /&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;新しく作成するプロジェクト情報を入力して完了する。&lt;/p&gt;
+
+&lt;p&gt;画像の記載ミス；買える → 変える。&lt;/p&gt;
+
+&lt;h4 id=&quot;2-apiキーの発行&quot;&gt;2. APIキーの発行&lt;/h4&gt;
+
+&lt;div class=&quot;trim&quot;&gt;
+  &lt;div class=&quot;trim__item&quot;&gt;
+    &lt;a href=&quot;https://makietan.github.io/assets/images/2022-05-23-report/17-28-44.png&quot;&gt;
+      &lt;img class=&quot;one&quot; src=&quot;https://makietan.github.io/assets/thumbnail/2022-05-23-report/17-28-44.png&quot; /&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;認証情報ページに遷移する。&lt;/p&gt;
+
+&lt;div class=&quot;trim&quot;&gt;
+  &lt;div class=&quot;trim__item&quot;&gt;
+    &lt;a href=&quot;https://makietan.github.io/assets/images/2022-05-23-report/17-30-38.png&quot;&gt;
+      &lt;img class=&quot;one&quot; src=&quot;https://makietan.github.io/assets/thumbnail/2022-05-23-report/17-30-38.png&quot; /&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;認証情報を作成する。&lt;/p&gt;
+
+&lt;div class=&quot;trim&quot;&gt;
+  &lt;div class=&quot;trim__item&quot;&gt;
+    &lt;a href=&quot;https://makietan.github.io/assets/images/2022-05-23-report/17-31-07.png&quot;&gt;
+      &lt;img class=&quot;one&quot; src=&quot;https://makietan.github.io/assets/thumbnail/2022-05-23-report/17-31-07.png&quot; /&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;APIキーを選択。&lt;/p&gt;
+
+&lt;div class=&quot;trim&quot;&gt;
+  &lt;div class=&quot;trim__item&quot;&gt;
+    &lt;a href=&quot;https://makietan.github.io/assets/images/2022-05-23-report/17-32-14.png&quot;&gt;
+      &lt;img class=&quot;one&quot; src=&quot;https://makietan.github.io/assets/thumbnail/2022-05-23-report/17-32-14.png&quot; /&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;これを利用します。&lt;/p&gt;
+
+&lt;div class=&quot;trim&quot;&gt;
+  &lt;div class=&quot;trim__item&quot;&gt;
+    &lt;a href=&quot;https://makietan.github.io/assets/images/2022-05-23-report/17-34-49.png&quot;&gt;
+      &lt;img class=&quot;one&quot; src=&quot;https://makietan.github.io/assets/thumbnail/2022-05-23-report/17-34-49.png&quot; /&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;発行したキーに制限をかけることをおすすめします。&lt;/p&gt;
+
+&lt;div class=&quot;trim&quot;&gt;
+  &lt;div class=&quot;trim__item&quot;&gt;
+    &lt;a href=&quot;https://makietan.github.io/assets/images/2022-05-23-report/17-35-44.png&quot;&gt;
+      &lt;img class=&quot;one&quot; src=&quot;https://makietan.github.io/assets/thumbnail/2022-05-23-report/17-35-44.png&quot; /&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;とりあえず &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Youtube Data API v3&lt;/code&gt; だけしか使えないように制限するとよさそうです。&lt;/p&gt;
+
+&lt;h2 id=&quot;各種パラメータ&quot;&gt;各種パラメータ&lt;/h2&gt;
+
+&lt;h3 id=&quot;part&quot;&gt;part&lt;/h3&gt;
+
+&lt;p&gt;必須のパラメータ。&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;amp;part=id,snippet
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;が標準的に利用するパラメータだと思っておけばいい。&lt;/p&gt;
+
+&lt;h3 id=&quot;channelid&quot;&gt;channelId&lt;/h3&gt;
+
+&lt;p&gt;特定のチャンネルの動画を取得したいときに使う。&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;amp;channelId={チャンネルのID}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;maxresults&quot;&gt;maxResults&lt;/h3&gt;
+
+&lt;p&gt;結果の取得数。
+デフォルトが&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;5&lt;/code&gt;で、最大が&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;50&lt;/code&gt;。
+ある程度取得できればいいので&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;20&lt;/code&gt;くらいに。&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;amp;maxResult=20
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;order&quot;&gt;order&lt;/h3&gt;
+
+&lt;p&gt;新しい順に取得するのであれば &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;date&lt;/code&gt;。
+詳細はGoogle野公式リファレンスで確認。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;date – リソースを作成日の新しい順に並べます。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;amp;order=date
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;q&quot;&gt;q&lt;/h3&gt;
+
+&lt;p&gt;検索クエリ。&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;amp;q=まりありうむ
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;動画の詳細情報を取得する&quot;&gt;動画の詳細情報を取得する。&lt;/h2&gt;
+
+&lt;p&gt;古いYoutubeチャンネルだとIDを自由に変更できたみたいなので、遷移先で表示されているチャンネルIDが正規のものではない可能性があります。&lt;/p&gt;
+
+&lt;p&gt;チャンネルIDがわからないときは、そのチャンネルが投稿している動画情報を取得すると記載されています。&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;https://www.googleapis.com/youtube/v3/videos?key=&amp;lt;API_KEY&amp;gt;&amp;amp;id=&amp;lt;VIDEO_ID&amp;gt;&amp;amp;part=snippet,id&amp;amp;order=date&amp;amp;maxResults=20
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-json highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;kind&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;youtube#video&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;...&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;id&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&amp;lt;VIDEO_ID&amp;gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;snippet&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+      &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;publishedAt&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;...&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+      &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;channelId&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&amp;lt;CHANNEL_ID&amp;gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+      &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;title&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;...&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+      &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;description&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;...&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+      &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;thumbnails&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;...&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+      &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+      &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;channelTitle&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;...&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+      &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;categoryId&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;...&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+      &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;liveBroadcastContent&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;none&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+      &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;defaultLanguage&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;ja&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+      &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;localized&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;...&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+      &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+      &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;defaultAudioLanguage&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;ja&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;ここにチャンネルIDが掲載されています。
+パラメータに関しては大きな変更点がないので省略します。&lt;/p&gt;
+
+&lt;h3 id=&quot;id&quot;&gt;id&lt;/h3&gt;
+
+&lt;p&gt;動画のID。&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;https://www.youtube.com/watch?v=&amp;lt;VIDEO_ID&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;動画のURLの &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;?v=&lt;/code&gt; 後ろに続くやつです。&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;amp;id=&amp;lt;VIDEO_ID&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;おわりに&quot;&gt;おわりに&lt;/h2&gt;
+
+&lt;p&gt;こんな感じで特定のチャンネルの動画一覧を取得するついでにメモった内容を掲載しておきます。&lt;/p&gt;
+
+&lt;p&gt;なぜ、APIに手を出したのかと言うと、
+たまに&lt;strong&gt;登録チャンネル&lt;/strong&gt;に表示されない動画が存在するチャンネルがあってそれを監視しようかなと思ってAPIを利用しました。&lt;/p&gt;</content><author><name>makietan</name></author><category term="tech" /><summary type="html">動画一覧を取得する</summary></entry><entry><title type="html">ペットが本当に身につけるべきはICチップじゃなくGPS機器</title><link href="https://makietan.github.io/tech/2022/05/22/report.html" rel="alternate" type="text/html" title="ペットが本当に身につけるべきはICチップじゃなくGPS機器" /><published>2022-05-22T00:00:00+09:00</published><updated>2022-05-22T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2022/05/22/report</id><content type="html" xml:base="https://makietan.github.io/tech/2022/05/22/report.html">&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;【速報】ドーベルマン盗んだ疑いで女2人を逮捕&lt;a href=&quot;https://t.co/5KyLkHXd8B&quot;&gt;https://t.co/5KyLkHXd8B&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;千葉県警は19日、同県木更津市で大型犬ドーベルマン2匹を盗んだとして、窃盗などの疑いで同県松戸市の女ら2人を逮捕した。女は以前に同じ飼い主のドーベルマンが脱走した際に捜索に加わり、確保していた。&lt;/p&gt;&amp;mdash; ライブドアニュース (@livedoornews) &lt;a href=&quot;https://twitter.com/livedoornews/status/1527176538990342145?ref_src=twsrc%5Etfw&quot;&gt;May 19, 2022&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
 
 &lt;p&gt;動物って難しいよね。
@@ -247,7 +473,4 @@
 
 &lt;blockquote class=&quot;twitter-tweet tw-align-center&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;ଘ &lt;a href=&quot;https://twitter.com/hashtag/%E9%98%BF%E6%B3%A2%E9%80%A3%E3%81%95%E3%82%93%E3%81%AF%E3%81%AF%E3%81%8B%E3%82%8C%E3%81%AA%E3%81%84?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#阿波連さんははかれない&lt;/a&gt; ଓ&lt;br /&gt;&lt;br /&gt;SNSアイコンプレゼント❸&lt;br /&gt;━━━━━━━━━━━━&lt;a href=&quot;https://twitter.com/hashtag/%E9%98%BF%E6%B3%A2%E9%80%A3%E3%81%95%E3%82%93?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#阿波連さん&lt;/a&gt; とれんくんのアイコン、使ってみてね🍒&lt;br /&gt;&lt;br /&gt;🍎ABEMAにて最新話配信中&lt;a href=&quot;https://t.co/iCEOMQGRlp&quot;&gt;https://t.co/iCEOMQGRlp&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;🍏各種配信サイトも好評配信中&lt;a href=&quot;https://t.co/nSuxZYLr9q&quot;&gt;https://t.co/nSuxZYLr9q&lt;/a&gt; &lt;a href=&quot;https://t.co/YOCHKkRHib&quot;&gt;pic.twitter.com/YOCHKkRHib&lt;/a&gt;&lt;/p&gt;&amp;mdash; 「阿波連さんははかれない」TVアニメ公式 | 4月より放送中！ (@aharen_pr) &lt;a href=&quot;https://twitter.com/aharen_pr/status/1523497999099432962?ref_src=twsrc%5Etfw&quot;&gt;May 9, 2022&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;</content><author><name>makietan</name></author><category term="otaku" /><summary type="html">ଘ #阿波連さんははかれない ଓ#阿波連さん、ライドウくん、大城さんのアイコンプレゼント♪使ってみてね🍒🍎ABEMAにて最新話配信中https://t.co/iCEOMQpfWP🍏各種配信サイトも好評配信中https://t.co/nSuxZYtPKQ pic.twitter.com/t4tw3wcFVG&amp;mdash; 「阿波連さんははかれない」TVアニメ公式 | 4月より放送中！ (@aharen_pr) April 11, 2022</summary></entry><entry><title type="html">フュージョンフェスで連勝しまくってたドラゴンメイドデッキ</title><link href="https://makietan.github.io/yugioh/2022/05/14/report.html" rel="alternate" type="text/html" title="フュージョンフェスで連勝しまくってたドラゴンメイドデッキ" /><published>2022-05-14T00:00:00+09:00</published><updated>2022-05-14T00:00:00+09:00</updated><id>https://makietan.github.io/yugioh/2022/05/14/report</id><content type="html" xml:base="https://makietan.github.io/yugioh/2022/05/14/report.html">&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;フュージョンフェス後半のミッション出るまで一旦休憩&lt;br /&gt;勝率8割は確実にあるドラゴンメイド&lt;br /&gt;不意打ちのアルバスと手札事故だけが敗因&lt;br /&gt;負ける要因の9割が上級と魔法罠or魔法罠オンリーみたいな地獄の手札だったとき&lt;a href=&quot;https://twitter.com/hashtag/%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%87%E3%83%A5%E3%82%A8%E3%83%AB?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#マスターデュエル&lt;/a&gt; &lt;a href=&quot;https://t.co/MRnrQfHTqt&quot;&gt;pic.twitter.com/MRnrQfHTqt&lt;/a&gt;&lt;/p&gt;&amp;mdash; まきえたんははかれない🥦☘️ (@makietanX) &lt;a href=&quot;https://twitter.com/makietanX/status/1525095307435864065?ref_src=twsrc%5Etfw&quot;&gt;May 13, 2022&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;</content><author><name>makietan</name></author><category term="yugioh" /><summary type="html">フュージョンフェス後半のミッション出るまで一旦休憩勝率8割は確実にあるドラゴンメイド不意打ちのアルバスと手札事故だけが敗因負ける要因の9割が上級と魔法罠or魔法罠オンリーみたいな地獄の手札だったとき#マスターデュエル pic.twitter.com/MRnrQfHTqt&amp;mdash; まきえたんははかれない🥦☘️ (@makietanX) May 13, 2022</summary></entry><entry><title type="html">超融合でなんとかできるのが闇属性だけってのが問題だよな</title><link href="https://makietan.github.io/yugioh/2022/05/13/report.html" rel="alternate" type="text/html" title="超融合でなんとかできるのが闇属性だけってのが問題だよな" /><published>2022-05-13T00:00:00+09:00</published><updated>2022-05-13T00:00:00+09:00</updated><id>https://makietan.github.io/yugioh/2022/05/13/report</id><content type="html" xml:base="https://makietan.github.io/yugioh/2022/05/13/report.html">&lt;p&gt;幻竜族とか光属性とかも《スターヴ・ヴェノム・フュージョン・ドラゴン》みたいな融合モンスターがいてもいいじゃない…。&lt;/p&gt;
-
-&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;エクストラが悩ましいHERO多いからアドレイション入れてもいいし&lt;br /&gt;ギルティギアで多少汎用性高めてもいいし&lt;br /&gt;自分で融合素材準備する気合いでもいいし &lt;a href=&quot;https://t.co/V4WiF5PAfM&quot;&gt;pic.twitter.com/V4WiF5PAfM&lt;/a&gt;&lt;/p&gt;&amp;mdash; まきえたんははかれない🥦☘️ (@makietanX) &lt;a href=&quot;https://twitter.com/makietanX/status/1524788038047440911?ref_src=twsrc%5Etfw&quot;&gt;May 12, 2022&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;</content><author><name>makietan</name></author><category term="yugioh" /><summary type="html">幻竜族とか光属性とかも《スターヴ・ヴェノム・フュージョン・ドラゴン》みたいな融合モンスターがいてもいいじゃない…。</summary></entry></feed>
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;</content><author><name>makietan</name></author><category term="yugioh" /><summary type="html">フュージョンフェス後半のミッション出るまで一旦休憩勝率8割は確実にあるドラゴンメイド不意打ちのアルバスと手札事故だけが敗因負ける要因の9割が上級と魔法罠or魔法罠オンリーみたいな地獄の手札だったとき#マスターデュエル pic.twitter.com/MRnrQfHTqt&amp;mdash; まきえたんははかれない🥦☘️ (@makietanX) May 13, 2022</summary></entry></feed>
