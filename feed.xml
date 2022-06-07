@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2022-06-06T12:48:16+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">日報</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">またイカれた円安…</title><link href="https://makietan.github.io/fx/2022/06/06/report.html" rel="alternate" type="text/html" title="またイカれた円安…" /><published>2022-06-06T00:00:00+09:00</published><updated>2022-06-06T00:00:00+09:00</updated><id>https://makietan.github.io/fx/2022/06/06/report</id><content type="html" xml:base="https://makietan.github.io/fx/2022/06/06/report.html">&lt;p&gt;ユーロ円の話。&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2022-06-07T12:49:07+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">日報</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">はー死んだ死んだ</title><link href="https://makietan.github.io/fx/2022/06/07/report.html" rel="alternate" type="text/html" title="はー死んだ死んだ" /><published>2022-06-07T00:00:00+09:00</published><updated>2022-06-07T00:00:00+09:00</updated><id>https://makietan.github.io/fx/2022/06/07/report</id><content type="html" xml:base="https://makietan.github.io/fx/2022/06/07/report.html">&lt;p&gt;無理だって異常過ぎるわ今の相場。&lt;/p&gt;</content><author><name>makietan</name></author><category term="fx" /><summary type="html">無理だって異常過ぎるわ今の相場。</summary></entry><entry><title type="html">またイカれた円安…</title><link href="https://makietan.github.io/fx/2022/06/06/report.html" rel="alternate" type="text/html" title="またイカれた円安…" /><published>2022-06-06T00:00:00+09:00</published><updated>2022-06-06T00:00:00+09:00</updated><id>https://makietan.github.io/fx/2022/06/06/report</id><content type="html" xml:base="https://makietan.github.io/fx/2022/06/06/report.html">&lt;p&gt;ユーロ円の話。&lt;/p&gt;
 
 &lt;p&gt;今回は134円から140円までの上昇。&lt;/p&gt;
 
@@ -441,20 +441,4 @@
 
 &lt;p&gt;キムチと高菜が食べ放題なので絶対頼むべき。&lt;/p&gt;
 
-&lt;p&gt;これだけ食べに来たいレベルだ。&lt;/p&gt;</content><author><name>makietan</name></author><category term="gourmet" /><summary type="html">実は2回目なのだ。</summary></entry><entry><title type="html">「ユニットパーツ交換所」を更新した</title><link href="https://makietan.github.io/game/srwdd/2022/05/28/report.html" rel="alternate" type="text/html" title="「ユニットパーツ交換所」を更新した" /><published>2022-05-28T00:00:00+09:00</published><updated>2022-05-28T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2022/05/28/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2022/05/28/report.html">&lt;p&gt;シュロッター鋼ソードの区分をする必要ができてしまったので一部リセットがかかる予定。&lt;/p&gt;
-
-&lt;div class=&quot;card&quot;&gt;
-  &lt;a href=&quot;https://makietan.github.io/game/srwdd/2021/10/03/report2.html&quot;&gt;&lt;/a&gt;
-  &lt;div class=&quot;card__header&quot;&gt;
-    &lt;a href=&quot;https://makietan.github.io/game/srwdd/2021/10/03/report2.html&quot;&gt;makietan.github.io&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__image&quot;&gt;
-    &lt;img src=&quot;https://makietan.github.io/assets/thumbnail/logo.png&quot; /&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__title&quot;&gt;
-    &lt;p&gt;スパロボDDの「ユニットパーツ交換所」一覧 | 日報&lt;/p&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__description&quot;&gt;
-    &lt;p&gt;格闘等の重複名称は雑に分別済み。 交換し終えたらチェックをつける等の使い方を考えている。&lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;</content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html">シュロッター鋼ソードの区分をする必要ができてしまったので一部リセットがかかる予定。</summary></entry></feed>
+&lt;p&gt;これだけ食べに来たいレベルだ。&lt;/p&gt;</content><author><name>makietan</name></author><category term="gourmet" /><summary type="html">実は2回目なのだ。</summary></entry></feed>
