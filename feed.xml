@@ -1,4 +1,46 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2022-08-03T19:15:02+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">HTMLのtableで今日の曜日を強調するJavaScript</title><link href="https://makietan.github.io/tech/2022/08/03/report.html" rel="alternate" type="text/html" title="HTMLのtableで今日の曜日を強調するJavaScript" /><published>2022-08-03T00:00:00+09:00</published><updated>2022-08-03T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2022/08/03/report</id><content type="html" xml:base="https://makietan.github.io/tech/2022/08/03/report.html">&lt;p&gt;タイトルが雑。&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2022-08-04T07:45:20+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">HTMLのtableで現在時刻を強調するJavaScript</title><link href="https://makietan.github.io/tech/2022/08/04/report.html" rel="alternate" type="text/html" title="HTMLのtableで現在時刻を強調するJavaScript" /><published>2022-08-04T00:00:00+09:00</published><updated>2022-08-04T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2022/08/04/report</id><content type="html" xml:base="https://makietan.github.io/tech/2022/08/04/report.html">&lt;p&gt;タイトルが雑。&lt;/p&gt;
+
+&lt;p&gt;やりたいことは &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;table&lt;/code&gt; の現在時刻と同じ列の &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;td&lt;/code&gt; の色を変えることである。&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; const today = new Date();
+ [...document.querySelectorAll('tr')]
+        .filter((tr) =&amp;gt; tr.children[0].tagName === &quot;TD&quot; &amp;amp;&amp;amp; 
+                tr.children[0].textContent.includes(today.getHours() + &quot;:&quot;))
+        .forEach((tr) =&amp;gt; {
+            [...tr.children].forEach((td, index) =&amp;gt; {
+                    td.style.backgroundColor = &quot;#bee5eb&quot;;
+                    td.style.borderBottom = &quot;1px solid #86cfda&quot;;
+            });
+        });
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;現在時刻を取得する&quot;&gt;現在時刻を取得する&lt;/h2&gt;
+
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;today&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getHours&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;文字列マッチング&quot;&gt;文字列マッチング&lt;/h2&gt;
+
+&lt;p&gt;今回は &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;17:00&lt;/code&gt; のような表記を使うため、マッチングは以下の通りになる。&lt;/p&gt;
+
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;tr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;children&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;textContent&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;includes&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;today&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getHours&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;17:30&lt;/code&gt; や &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;17:45&lt;/code&gt; も同時刻とするため &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;17:&lt;/code&gt; を含むかどうかでチェックしている。
+より精密な時刻強調をするのは面倒なので今回は手抜き実装。&lt;/p&gt;
+
+&lt;h2 id=&quot;色を変える&quot;&gt;色を変える&lt;/h2&gt;
+
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;td&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;style&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;backgroundColor&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;#bee5eb&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;td&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;style&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;borderBottom&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;1px solid #86cfda&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;多少工夫して色を変えている。&lt;/p&gt;
+
+&lt;p&gt;背景色を #bee5eb &lt;span style=&quot;color: #bee5eb; &quot;&gt;■&lt;/span&gt;。
+ボーダーラインを #86cfda &lt;span style=&quot;color: #86cfda; &quot;&gt;■&lt;/span&gt;。&lt;/p&gt;
+
+&lt;p&gt;table要素にボーダーラインが欲しいなとぃうただそれだけの理由で2つのパラメータを設定している。&lt;/p&gt;</content><author><name>makietan</name></author><category term="tech" /><summary type="html">タイトルが雑。</summary></entry><entry><title type="html">HTMLのtableで今日の曜日を強調するJavaScript</title><link href="https://makietan.github.io/tech/2022/08/03/report.html" rel="alternate" type="text/html" title="HTMLのtableで今日の曜日を強調するJavaScript" /><published>2022-08-03T00:00:00+09:00</published><updated>2022-08-03T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2022/08/03/report</id><content type="html" xml:base="https://makietan.github.io/tech/2022/08/03/report.html">&lt;p&gt;タイトルが雑。&lt;/p&gt;
 
 &lt;p&gt;やりたいことは &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;table&lt;/code&gt; の今日の曜日と同じ &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;th&lt;/code&gt; の色を変えることである。&lt;/p&gt;
 
@@ -183,18 +225,4 @@
 
 &lt;p&gt;ブラウザを専有されることもない。&lt;/p&gt;
 
-&lt;p&gt;最高だね。&lt;/p&gt;</content><author><name>makietan</name></author><category term="chrome" /><summary type="html">chrome.google.com Picture-in-Picture Extension (by Google) - Chrome ウェブストア Watch video using Picture-in-Picture</summary></entry><entry><title type="html">新橋の裏にできた壱角家に行ってきた</title><link href="https://makietan.github.io/gourmet/2022/07/25/report.html" rel="alternate" type="text/html" title="新橋の裏にできた壱角家に行ってきた" /><published>2022-07-25T00:00:00+09:00</published><updated>2022-07-25T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2022/07/25/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2022/07/25/report.html">&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;ラーメン790 (@ 壱角家 in 港区, 東京都) &lt;a href=&quot;https://t.co/jTHFmcvOVI&quot;&gt;https://t.co/jTHFmcvOVI&lt;/a&gt; &lt;a href=&quot;https://t.co/hewAQ7utGK&quot;&gt;pic.twitter.com/hewAQ7utGK&lt;/a&gt;&lt;/p&gt;&amp;mdash; まきえたんははかれない🥦☘️ (@makietanX) &lt;a href=&quot;https://twitter.com/makietanX/status/1550430313070854144?ref_src=twsrc%5Etfw&quot;&gt;July 22, 2022&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-
-&lt;p&gt;読み方を今更知ったよ「いちかくや」なんだね。&lt;/p&gt;
-
-&lt;p&gt;&lt;u&gt;ラーメン (790)&lt;/u&gt;&lt;/p&gt;
-
-&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot; data-conversation=&quot;none&quot;&gt;&lt;p lang=&quot;qme&quot; dir=&quot;ltr&quot;&gt; &lt;a href=&quot;https://t.co/e4cSIQiHAk&quot;&gt;pic.twitter.com/e4cSIQiHAk&lt;/a&gt;&lt;/p&gt;&amp;mdash; makietanM (@makietanM) &lt;a href=&quot;https://twitter.com/makietanM/status/1550433501131919360?ref_src=twsrc%5Etfw&quot;&gt;July 22, 2022&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-
-&lt;p&gt;まあ味は…うん。&lt;/p&gt;
-
-&lt;p&gt;おそらく家系ラーメンが全体的に苦手なんだろうと思っている。&lt;/p&gt;
-
-&lt;p&gt;醤油ラーメンを食べに行きたくなった。&lt;/p&gt;</content><author><name>makietan</name></author><category term="gourmet" /><summary type="html">ラーメン790 (@ 壱角家 in 港区, 東京都) https://t.co/jTHFmcvOVI pic.twitter.com/hewAQ7utGK&amp;mdash; まきえたんははかれない🥦☘️ (@makietanX) July 22, 2022</summary></entry></feed>
+&lt;p&gt;最高だね。&lt;/p&gt;</content><author><name>makietan</name></author><category term="chrome" /><summary type="html">chrome.google.com Picture-in-Picture Extension (by Google) - Chrome ウェブストア Watch video using Picture-in-Picture</summary></entry></feed>
