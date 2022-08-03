@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2022-08-04T08:19:33+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">HTMLのtableで現在時刻を強調するJavaScript</title><link href="https://makietan.github.io/tech/2022/08/04/report.html" rel="alternate" type="text/html" title="HTMLのtableで現在時刻を強調するJavaScript" /><published>2022-08-04T00:00:00+09:00</published><updated>2022-08-04T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2022/08/04/report</id><content type="html" xml:base="https://makietan.github.io/tech/2022/08/04/report.html">&lt;p&gt;タイトルが雑。&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2022-08-04T08:38:18+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">HTMLのtableで現在時刻を強調するJavaScript</title><link href="https://makietan.github.io/tech/2022/08/04/report.html" rel="alternate" type="text/html" title="HTMLのtableで現在時刻を強調するJavaScript" /><published>2022-08-04T00:00:00+09:00</published><updated>2022-08-04T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2022/08/04/report</id><content type="html" xml:base="https://makietan.github.io/tech/2022/08/04/report.html">&lt;p&gt;タイトルが雑。&lt;/p&gt;
 
 &lt;p&gt;やりたいことは &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;table&lt;/code&gt; の現在時刻と同じ列の &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;td&lt;/code&gt; の色を変えることである。&lt;/p&gt;
 
@@ -40,7 +40,325 @@
 &lt;p&gt;背景色を #bee5eb &lt;span style=&quot;color: #bee5eb; &quot;&gt;■&lt;/span&gt;。
 ボーダーラインを #86cfda &lt;span style=&quot;color: #86cfda; &quot;&gt;■&lt;/span&gt;。&lt;/p&gt;
 
-&lt;p&gt;table要素にボーダーラインが欲しいなとぃうただそれだけの理由で2つのパラメータを設定している。&lt;/p&gt;</content><author><name>makietan</name></author><category term="tech" /><summary type="html">タイトルが雑。</summary></entry><entry><title type="html">HTMLのtableで今日の曜日を強調するJavaScript</title><link href="https://makietan.github.io/tech/2022/08/03/report.html" rel="alternate" type="text/html" title="HTMLのtableで今日の曜日を強調するJavaScript" /><published>2022-08-03T00:00:00+09:00</published><updated>2022-08-03T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2022/08/03/report</id><content type="html" xml:base="https://makietan.github.io/tech/2022/08/03/report.html">&lt;p&gt;タイトルが雑。&lt;/p&gt;
+&lt;p&gt;table要素にボーダーラインが欲しいなとぃうただそれだけの理由で2つのパラメータを設定している。&lt;/p&gt;</content><author><name>makietan</name></author><category term="tech" /><summary type="html">タイトルが雑。</summary></entry><entry><title type="html">スパロボの50個オーブをどれにすればいいのかわからないのでとりあえずメモできるようにした</title><link href="https://makietan.github.io/game/srwdd/2022/08/04/report.html" rel="alternate" type="text/html" title="スパロボの50個オーブをどれにすればいいのかわからないのでとりあえずメモできるようにした" /><published>2022-08-04T00:00:00+09:00</published><updated>2022-08-04T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2022/08/04/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2022/08/04/report.html">&lt;p&gt;一番少ないところに注力するか、一番多いところに入れて交換に回すか…。&lt;/p&gt;
+
+&lt;p&gt;&lt;button id=&quot;sort&quot; onclick=&quot;sort();&quot;&gt;ソート&lt;/button&gt;&lt;/p&gt;
+
+&lt;div id=&quot;list&quot;&gt;
+
+&lt;label for=&quot;ディカアスのオーブ&quot;&gt;ディカアスのオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;ディカアスのオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;フェノメナー(メグ)のオーブ&quot;&gt;フェノメナー(メグ)のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;フェノメナー(メグ)のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;フェノメナー(サキミ)のオーブ&quot;&gt;フェノメナー(サキミ)のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;フェノメナー(サキミ)のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;フェノメナー(ユンナ)のオーブ&quot;&gt;フェノメナー(ユンナ)のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;フェノメナー(ユンナ)のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;フェノメナー(リナリア)のオーブ&quot;&gt;フェノメナー(リナリア)のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;フェノメナー(リナリア)のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;フェノメナー(マイコ)のオーブ&quot;&gt;フェノメナー(マイコ)のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;フェノメナー(マイコ)のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;フェノメナー(ユニス)のオーブ&quot;&gt;フェノメナー(ユニス)のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;フェノメナー(ユニス)のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;見切り(ベネット)のオーブ&quot;&gt;見切り(ベネット)のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;見切り(ベネット)のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;一心同体のオーブ&quot;&gt;一心同体のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;一心同体のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;一心同体(鉄也)のオーブ&quot;&gt;一心同体(鉄也)のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;一心同体(鉄也)のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;サイボーグ(宙)のオーブ&quot;&gt;サイボーグ(宙)のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;サイボーグ(宙)のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;リーダーシップ(バトルチーム)のオーブ&quot;&gt;リーダーシップ(バトルチーム)のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;リーダーシップ(バトルチーム)のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;デビルマンのオーブ&quot;&gt;デビルマンのオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;デビルマンのオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;聖戦士(ショウ)のオーブ&quot;&gt;聖戦士(ショウ)のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;聖戦士(ショウ)のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;シンクロ率(シンジ)のオーブ&quot;&gt;シンクロ率(シンジ)のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;シンクロ率(シンジ)のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;シンクロ率(レイ)のオーブ&quot;&gt;シンクロ率(レイ)のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;シンクロ率(レイ)のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;シンクロ率(アスカ)のオーブ&quot;&gt;シンクロ率(アスカ)のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;シンクロ率(アスカ)のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ニュータイプ(カミーユ)のオーブ&quot;&gt;ニュータイプ(カミーユ)のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;ニュータイプ(カミーユ)のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ニュータイプ(アムロ)のオーブ&quot;&gt;ニュータイプ(アムロ)のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;ニュータイプ(アムロ)のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ニュータイプ(バナージ)のオーブ&quot;&gt;ニュータイプ(バナージ)のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;ニュータイプ(バナージ)のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;伝説の男のオーブ&quot;&gt;伝説の男のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;伝説の男のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;リーダーシップ(ボルテスチーム)のオーブ&quot;&gt;リーダーシップ(ボルテスチーム)のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;リーダーシップ(ボルテスチーム)のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;勇者(凱)のオーブ&quot;&gt;勇者(凱)のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;勇者(凱)のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;零番隊隊長のオーブ&quot;&gt;零番隊隊長のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;零番隊隊長のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;戦略眼(ゼロ)のオーブ&quot;&gt;戦略眼(ゼロ)のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;戦略眼(ゼロ)のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ウルズ7のオーブ&quot;&gt;ウルズ7のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;ウルズ7のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ウルズ2のオーブ&quot;&gt;ウルズ2のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;ウルズ2のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ウルズ1のオーブ&quot;&gt;ウルズ1のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;ウルズ1のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ガンダムマイスター(刹那)のオーブ&quot;&gt;ガンダムマイスター(刹那)のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;ガンダムマイスター(刹那)のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ソレスタルビーイング(ティエリア)のオーブ&quot;&gt;ソレスタルビーイング(ティエリア)のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;ソレスタルビーイング(ティエリア)のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ガンダムマイスター(ロックオン)のオーブ&quot;&gt;ガンダムマイスター(ロックオン)のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;ガンダムマイスター(ロックオン)のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;覚悟(アレルヤ)のオーブ&quot;&gt;覚悟(アレルヤ)のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;覚悟(アレルヤ)のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;SEED(キラ)のオーブ&quot;&gt;SEED(キラ)のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;SEED(キラ)のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;SEED(アスラン)のオーブ&quot;&gt;SEED(アスラン)のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;SEED(アスラン)のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;セレブラント(キョウ)のオーブ&quot;&gt;セレブラント(キョウ)のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;セレブラント(キョウ)のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;セレブラント(ルーシェン)のオーブ&quot;&gt;セレブラント(ルーシェン)のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;セレブラント(ルーシェン)のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;カミツキ(ハルト)のオーブ&quot;&gt;カミツキ(ハルト)のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;カミツキ(ハルト)のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;カミツキ(サキ)のオーブ&quot;&gt;カミツキ(サキ)のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;カミツキ(サキ)のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;カミツキ(アキラ)のオーブ&quot;&gt;カミツキ(アキラ)のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;カミツキ(アキラ)のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;阿頼耶識(三日月)のオーブ&quot;&gt;阿頼耶識(三日月)のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;阿頼耶識(三日月)のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;鉄華団(昭弘)のオーブ&quot;&gt;鉄華団(昭弘)のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;鉄華団(昭弘)のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;レイへの指示のオーブ&quot;&gt;レイへの指示のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;レイへの指示のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;元レッドショルダーのオーブ&quot;&gt;元レッドショルダーのオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;元レッドショルダーのオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;戦術眼のオーブ&quot;&gt;戦術眼のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;戦術眼のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;頑張り屋(韻子)のオーブ&quot;&gt;頑張り屋(韻子)のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;頑張り屋(韻子)のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;噂の破嵐万丈のオーブ&quot;&gt;噂の破嵐万丈のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;噂の破嵐万丈のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;フリード星の王子のオーブ&quot;&gt;フリード星の王子のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;フリード星の王子のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ゼロシステム適応者のオーブ&quot;&gt;ゼロシステム適応者のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;ゼロシステム適応者のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;死神のオーブ&quot;&gt;死神のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;死神のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;闘争心(五飛)のオーブ&quot;&gt;闘争心(五飛)のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;闘争心(五飛)のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;アタッカー(トロワ)のオーブ&quot;&gt;アタッカー(トロワ)のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;アタッカー(トロワ)のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;IFS(アキト)のオーブ&quot;&gt;IFS(アキト)のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;IFS(アキト)のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;聖戦士(シオン)のオーブ&quot;&gt;聖戦士(シオン)のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;聖戦士(シオン)のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;救世主のオーブ&quot;&gt;救世主のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;救世主のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;剣豪(シバラク)のオーブ&quot;&gt;剣豪(シバラク)のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;剣豪(シバラク)のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;魔動戦士(大地)のオーブ&quot;&gt;魔動戦士(大地)のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;魔動戦士(大地)のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;魔動戦士(ガス)のオーブ&quot;&gt;魔動戦士(ガス)のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;魔動戦士(ガス)のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;魔動戦士(ラビ)のオーブ&quot;&gt;魔動戦士(ラビ)のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;魔動戦士(ラビ)のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;アーガマの血のオーブ&quot;&gt;アーガマの血のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;アーガマの血のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;エリオス王家の血のオーブ&quot;&gt;エリオス王家の血のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;エリオス王家の血のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ハンニバルの亡霊のオーブ&quot;&gt;ハンニバルの亡霊のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;ハンニバルの亡霊のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;見切り(剣児)のオーブ&quot;&gt;見切り(剣児)のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;見切り(剣児)のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;デュアルカインド(蛍汰)のオーブ&quot;&gt;デュアルカインド(蛍汰)のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;デュアルカインド(蛍汰)のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;特殊処理班隊長のオーブ&quot;&gt;特殊処理班隊長のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;特殊処理班隊長のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ザ・ヒートのオーブ&quot;&gt;ザ・ヒートのオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;ザ・ヒートのオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;アタッカー(シズキ)のオーブ&quot;&gt;アタッカー(シズキ)のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;アタッカー(シズキ)のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;分の悪い賭けのオーブ&quot;&gt;分の悪い賭けのオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;分の悪い賭けのオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;魔装機神操者(マサキ)のオーブ&quot;&gt;魔装機神操者(マサキ)のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;魔装機神操者(マサキ)のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ファイター・ロアのオーブ&quot;&gt;ファイター・ロアのオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;ファイター・ロアのオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;天才(シュウ)のオーブ&quot;&gt;天才(シュウ)のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;天才(シュウ)のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;念動力(リュウセイ)のオーブ&quot;&gt;念動力(リュウセイ)のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;念動力(リュウセイ)のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;白銀の堕天使のオーブ&quot;&gt;白銀の堕天使のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;白銀の堕天使のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;闘争心(アサヒ)のオーブ&quot;&gt;闘争心(アサヒ)のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;闘争心(アサヒ)のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;TIME DIVERのオーブ&quot;&gt;TIME DIVERのオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;TIME DIVERのオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;見切り(イルム)のオーブ&quot;&gt;見切り(イルム)のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;見切り(イルム)のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;アタッカー(エッジ)のオーブ&quot;&gt;アタッカー(エッジ)のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;アタッカー(エッジ)のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+
+&lt;/div&gt;
+&lt;script&gt;
+const STORAGE_KEY = '2022-08-05-report';
+const NUMBER_QUERY = 'article input[type=&quot;number&quot;]';
+function load() {
+  var orbs = JSON.parse(localStorage.getItem(STORAGE_KEY));
+
+  if (orbs &amp;&amp; orbs['orbs']) {
+    var checked = orbs['orbs'];
+    [...document.querySelectorAll(NUMBER_QUERY)].forEach((e) =&gt; {
+      var status = checked[e.parentElement.innerText];
+      if (status) {
+        e.value = status;
+      }
+    });
+  }
+
+  [...document.querySelectorAll(NUMBER_QUERY)].forEach((e) =&gt; {
+    e.addEventListener('change', (event) =&gt; {
+      save();
+    });
+  });
+}
+
+function save() {
+  var checked = {};
+  [...document.querySelectorAll(NUMBER_QUERY)].forEach((c) =&gt; {
+      checked[c.parentElement.innerText] = c.value;
+  });
+  var orbs = { 'orbs': checked };
+
+  localStorage.setItem(STORAGE_KEY, JSON.stringify(orbs));
+}
+
+window.onload = () =&gt; {
+  load();
+}
+
+function sort() {
+  var list = document.getElementById('list');
+  var array = [...document.querySelectorAll('main label')].map((label) =&gt; {
+    return { 
+      label: label, 
+      value: label.querySelector('input').value 
+    };
+  }).sort((a, b) =&gt; {
+    if (a.value &lt; b.value) {
+      return -1
+    }
+    if (a.value &gt; b.value) {
+      return 1;
+    }
+    return 0;
+  });
+  for (var i = 0; i &lt; array.length ; i++) {
+    lsit.appendChild(list.removeChild(array[i].label));
+  }
+}
+
+&lt;/script&gt;</content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html">一番少ないところに注力するか、一番多いところに入れて交換に回すか…。</summary></entry><entry><title type="html">「魂の3周年特別ラインアップ！SSRセレクトキャンペーン」の所持パーツを確認するためのツール</title><link href="https://makietan.github.io/game/srwdd/2022/08/04/report.html" rel="alternate" type="text/html" title="「魂の3周年特別ラインアップ！SSRセレクトキャンペーン」の所持パーツを確認するためのツール" /><published>2022-08-04T00:00:00+09:00</published><updated>2022-08-04T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2022/08/04/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2022/08/04/report.html">&lt;p&gt;&lt;label for=&quot;ディーダリオン-ディーダリオン-オウル・ハーガー&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;ディーダリオン-ディーダリオン-オウル・ハーガー&quot; /&gt;オウル・ハーガー ( ディーダリオン / ディーダリオン )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ディーダリオン-ディーダリオン-エレク・ヘレブ&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;ディーダリオン-ディーダリオン-エレク・ヘレブ&quot; /&gt;エレク・ヘレブ ( ディーダリオン / ディーダリオン )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;メラフディン-大門恵留-イーヴァリフル・ハイパワー&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;メラフディン-大門恵留-イーヴァリフル・ハイパワー&quot; /&gt;イーヴァリフル・ハイパワー ( メラフディン / 大門恵留 )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;メラフディン-大門恵留-レヴ・ラディエイター&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;メラフディン-大門恵留-レヴ・ラディエイター&quot; /&gt;レヴ・ラディエイター ( メラフディン / 大門恵留 )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;グラフディン（サキミ機）-上牧早希実-スリー・ラウンド・バースト&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;グラフディン（サキミ機）-上牧早希実-スリー・ラウンド・バースト&quot; /&gt;スリー・ラウンド・バースト ( グラフディン（サキミ機） / 上牧早希実 )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;グラフディン（ユンナ機）-ユンナ・ドーソン-サマーソルト・ティアー&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;グラフディン（ユンナ機）-ユンナ・ドーソン-サマーソルト・ティアー&quot; /&gt;サマーソルト・ティアー ( グラフディン（ユンナ機） / ユンナ・ドーソン )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;グラフディン（リナリア機）-リナリア・クオ-イーディフューザー&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;グラフディン（リナリア機）-リナリア・クオ-イーディフューザー&quot; /&gt;イーディフューザー ( グラフディン（リナリア機） / リナリア・クオ )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;グラフディン（マイコ機）-神足麻依子-ラッシング・ポッパー&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;グラフディン（マイコ機）-神足麻依子-ラッシング・ポッパー&quot; /&gt;ラッシング・ポッパー ( グラフディン（マイコ機） / 神足麻依子 )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;グラフディン（ユニス機）-ユニス・エアリー-イカヅチ・リボルブ&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;グラフディン（ユニス機）-ユニス・エアリー-イカヅチ・リボルブ&quot; /&gt;イカヅチ・リボルブ ( グラフディン（ユニス機） / ユニス・エアリー )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;グラフディン（ベネット機）-ベネット・コリーヴレッカン-スピニング・バースター&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;グラフディン（ベネット機）-ベネット・コリーヴレッカン-スピニング・バースター&quot; /&gt;スピニング・バースター ( グラフディン（ベネット機） / ベネット・コリーヴレッカン )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;マジンガーZ-兜甲児-ブレストファイヤー&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;マジンガーZ-兜甲児-ブレストファイヤー&quot; /&gt;ブレストファイヤー ( マジンガーZ / 兜甲児 )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;マジンガーZ-兜甲児-ルストハリケーン(S)&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;マジンガーZ-兜甲児-ルストハリケーン(S)&quot; /&gt;ルストハリケーン(S) ( マジンガーZ / 兜甲児 )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;グレートマジンガー-剣鉄也-ブレストバーン&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;グレートマジンガー-剣鉄也-ブレストバーン&quot; /&gt;ブレストバーン ( グレートマジンガー / 剣鉄也 )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;グレートマジンガー-剣鉄也-サンダーブレーク&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;グレートマジンガー-剣鉄也-サンダーブレーク&quot; /&gt;サンダーブレーク ( グレートマジンガー / 剣鉄也 )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;マジンカイザー-兜甲児-ファイヤーブラスター&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;マジンカイザー-兜甲児-ファイヤーブラスター&quot; /&gt;ファイヤーブラスター ( マジンカイザー / 兜甲児 )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;マジンカイザー-兜甲児-カイザーブレード&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;マジンカイザー-兜甲児-カイザーブレード&quot; /&gt;カイザーブレード ( マジンカイザー / 兜甲児 )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;鋼鉄ジーグ-鋼鉄ジーグ-ジーグブリーカー&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;鋼鉄ジーグ-鋼鉄ジーグ-ジーグブリーカー&quot; /&gt;ジーグブリーカー ( 鋼鉄ジーグ / 鋼鉄ジーグ )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;鋼鉄ジーグ-鋼鉄ジーグ-スピンストーム&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;鋼鉄ジーグ-鋼鉄ジーグ-スピンストーム&quot; /&gt;スピンストーム ( 鋼鉄ジーグ / 鋼鉄ジーグ )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;コン・バトラーＶ-葵豹馬-超電磁スピン&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;コン・バトラーＶ-葵豹馬-超電磁スピン&quot; /&gt;超電磁スピン ( コン・バトラーＶ / 葵豹馬 )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;コン・バトラーＶ-葵豹馬-ワンダーレスト&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;コン・バトラーＶ-葵豹馬-ワンダーレスト&quot; /&gt;ワンダーレスト ( コン・バトラーＶ / 葵豹馬 )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;デビルマン-デビルマン-デビルアロー&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;デビルマン-デビルマン-デビルアロー&quot; /&gt;デビルアロー ( デビルマン / デビルマン )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;デビルマン-デビルマン-デビルウィング&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;デビルマン-デビルマン-デビルウィング&quot; /&gt;デビルウィング ( デビルマン / デビルマン )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ビルバイン-ショウ・ザマ-オーラ斬り&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;ビルバイン-ショウ・ザマ-オーラ斬り&quot; /&gt;オーラ斬り ( ビルバイン / ショウ・ザマ )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ビルバイン-ショウ・ザマ-オーラキャノン&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;ビルバイン-ショウ・ザマ-オーラキャノン&quot; /&gt;オーラキャノン ( ビルバイン / ショウ・ザマ )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;エヴァンゲリオン初号機-碇シンジ-プログレッシブナイフ連続攻撃&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;エヴァンゲリオン初号機-碇シンジ-プログレッシブナイフ連続攻撃&quot; /&gt;プログレッシブナイフ連続攻撃 ( エヴァンゲリオン初号機 / 碇シンジ )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;エヴァンゲリオン初号機-碇シンジ-ガトリング砲&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;エヴァンゲリオン初号機-碇シンジ-ガトリング砲&quot; /&gt;ガトリング砲 ( エヴァンゲリオン初号機 / 碇シンジ )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;エヴァンゲリオン零号機-綾波レイ-ガトリング砲&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;エヴァンゲリオン零号機-綾波レイ-ガトリング砲&quot; /&gt;ガトリング砲 ( エヴァンゲリオン零号機 / 綾波レイ )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;エヴァンゲリオン零号機-綾波レイ-スナイパーライフル&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;エヴァンゲリオン零号機-綾波レイ-スナイパーライフル&quot; /&gt;スナイパーライフル ( エヴァンゲリオン零号機 / 綾波レイ )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;エヴァンゲリオン2号機-式波・アスカ・ラングレー-サンダースピア&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;エヴァンゲリオン2号機-式波・アスカ・ラングレー-サンダースピア&quot; /&gt;サンダースピア ( エヴァンゲリオン2号機 / 式波・アスカ・ラングレー )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;エヴァンゲリオン2号機-式波・アスカ・ラングレー-超電磁洋弓銃&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;エヴァンゲリオン2号機-式波・アスカ・ラングレー-超電磁洋弓銃&quot; /&gt;超電磁洋弓銃 ( エヴァンゲリオン2号機 / 式波・アスカ・ラングレー )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;Zガンダム-カミーユ・ビダン-ハイパー・メガ・ランチャー&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;Zガンダム-カミーユ・ビダン-ハイパー・メガ・ランチャー&quot; /&gt;ハイパー・メガ・ランチャー ( Zガンダム / カミーユ・ビダン )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;Zガンダム-カミーユ・ビダン-ビーム・コンフューズ連続攻撃&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;Zガンダム-カミーユ・ビダン-ビーム・コンフューズ連続攻撃&quot; /&gt;ビーム・コンフューズ連続攻撃 ( Zガンダム / カミーユ・ビダン )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;νガンダム-アムロ・レイ-クロスレンジ・アタック&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;νガンダム-アムロ・レイ-クロスレンジ・アタック&quot; /&gt;クロスレンジ・アタック ( νガンダム / アムロ・レイ )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;νガンダム-アムロ・レイ-フィン・ファンネル&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;νガンダム-アムロ・レイ-フィン・ファンネル&quot; /&gt;フィン・ファンネル ( νガンダム / アムロ・レイ )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;Hi-νガンダム-アムロ・レイ-フィン・ファンネル&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;Hi-νガンダム-アムロ・レイ-フィン・ファンネル&quot; /&gt;フィン・ファンネル ( Hi-νガンダム / アムロ・レイ )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;Hi-νガンダム-アムロ・レイ-フィン・ファンネル(MAP)&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;Hi-νガンダム-アムロ・レイ-フィン・ファンネル(MAP)&quot; /&gt;フィン・ファンネル(MAP) ( Hi-νガンダム / アムロ・レイ )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ユニコーンガンダム-バナージ・リンクス-NT-D連続攻撃&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;ユニコーンガンダム-バナージ・リンクス-NT-D連続攻撃&quot; /&gt;NT-D連続攻撃 ( ユニコーンガンダム / バナージ・リンクス )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ユニコーンガンダム-バナージ・リンクス-ビーム・マグナム連射&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;ユニコーンガンダム-バナージ・リンクス-ビーム・マグナム連射&quot; /&gt;ビーム・マグナム連射 ( ユニコーンガンダム / バナージ・リンクス )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ブラックゲッター-流竜馬-ゲッタースパイクブレード&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;ブラックゲッター-流竜馬-ゲッタースパイクブレード&quot; /&gt;ゲッタースパイクブレード ( ブラックゲッター / 流竜馬 )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ブラックゲッター-流竜馬-ゲッタービーム&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;ブラックゲッター-流竜馬-ゲッタービーム&quot; /&gt;ゲッタービーム ( ブラックゲッター / 流竜馬 )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;真ゲッター1-流竜馬-ゲッタートマホーク&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;真ゲッター1-流竜馬-ゲッタートマホーク&quot; /&gt;ゲッタートマホーク ( 真ゲッター1 / 流竜馬 )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;真ゲッター1-流竜馬-ゲッタービーム&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;真ゲッター1-流竜馬-ゲッタービーム&quot; /&gt;ゲッタービーム ( 真ゲッター1 / 流竜馬 )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ボルテスⅤ-剛健一-天空剣Ⅴの字斬り&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;ボルテスⅤ-剛健一-天空剣Ⅴの字斬り&quot; /&gt;天空剣Ⅴの字斬り ( ボルテスⅤ / 剛健一 )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ボルテスⅤ-剛健一-グランドファイヤー(S)&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;ボルテスⅤ-剛健一-グランドファイヤー(S)&quot; /&gt;グランドファイヤー(S) ( ボルテスⅤ / 剛健一 )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ガオガイガー-獅子王凱-ヘルアンドヘブン&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;ガオガイガー-獅子王凱-ヘルアンドヘブン&quot; /&gt;ヘルアンドヘブン ( ガオガイガー / 獅子王凱 )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ガオガイガー-獅子王凱-プラズマホールド&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;ガオガイガー-獅子王凱-プラズマホールド&quot; /&gt;プラズマホールド ( ガオガイガー / 獅子王凱 )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;紅蓮弐式-紅月カレン-輻射波動機構&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;紅蓮弐式-紅月カレン-輻射波動機構&quot; /&gt;輻射波動機構 ( 紅蓮弐式 / 紅月カレン )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;紅蓮弐式-紅月カレン-飛燕連撃&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;紅蓮弐式-紅月カレン-飛燕連撃&quot; /&gt;飛燕連撃 ( 紅蓮弐式 / 紅月カレン )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ガウェイン-ゼロ-ハドロン砲最大出力&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;ガウェイン-ゼロ-ハドロン砲最大出力&quot; /&gt;ハドロン砲最大出力 ( ガウェイン / ゼロ )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ガウェイン-ゼロ-ドルイドシステム&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;ガウェイン-ゼロ-ドルイドシステム&quot; /&gt;ドルイドシステム ( ガウェイン / ゼロ )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ARX-7 アーバレスト-相良宗介-単分子カッター・スパイラルチェイン&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;ARX-7 アーバレスト-相良宗介-単分子カッター・スパイラルチェイン&quot; /&gt;単分子カッター・スパイラルチェイン ( ARX-7 アーバレスト / 相良宗介 )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ARX-7 アーバレスト-相良宗介-強襲&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;ARX-7 アーバレスト-相良宗介-強襲&quot; /&gt;強襲 ( ARX-7 アーバレスト / 相良宗介 )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;M9 ガーンズバック（マオ機）-メリッサ・マオ-超高速ミサイル&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;M9 ガーンズバック（マオ機）-メリッサ・マオ-超高速ミサイル&quot; /&gt;超高速ミサイル ( M9 ガーンズバック（マオ機） / メリッサ・マオ )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;M9D ファルケ-ベルファンガン・クルーゾー-オン・ザ・エッジ&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;M9D ファルケ-ベルファンガン・クルーゾー-オン・ザ・エッジ&quot; /&gt;オン・ザ・エッジ ( M9D ファルケ / ベルファンガン・クルーゾー )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ガンダムエクシア-刹那・F・セイエイ-GNソード&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;ガンダムエクシア-刹那・F・セイエイ-GNソード&quot; /&gt;GNソード ( ガンダムエクシア / 刹那・F・セイエイ )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ガンダムエクシア-刹那・F・セイエイ-セブンソード・コンビネーション&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;ガンダムエクシア-刹那・F・セイエイ-セブンソード・コンビネーション&quot; /&gt;セブンソード・コンビネーション ( ガンダムエクシア / 刹那・F・セイエイ )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ガンダムヴァーチェ-ティエリア・アーデ-トランザム一斉射撃&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;ガンダムヴァーチェ-ティエリア・アーデ-トランザム一斉射撃&quot; /&gt;トランザム一斉射撃 ( ガンダムヴァーチェ / ティエリア・アーデ )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ガンダムデュナメス-ロックオン・ストラトス-GNスナイパーライフル連射&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;ガンダムデュナメス-ロックオン・ストラトス-GNスナイパーライフル連射&quot; /&gt;GNスナイパーライフル連射 ( ガンダムデュナメス / ロックオン・ストラトス )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ガンダムキュリオス-アレルヤ・ハプティズム-トランザム連続攻撃&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;ガンダムキュリオス-アレルヤ・ハプティズム-トランザム連続攻撃&quot; /&gt;トランザム連続攻撃 ( ガンダムキュリオス / アレルヤ・ハプティズム )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;エールストライクガンダム-キラ・ヤマト-高エネルギービームライフル連射&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;エールストライクガンダム-キラ・ヤマト-高エネルギービームライフル連射&quot; /&gt;高エネルギービームライフル連射 ( エールストライクガンダム / キラ・ヤマト )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;エールストライクガンダム-キラ・ヤマト-ソードストライカーウェポン&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;エールストライクガンダム-キラ・ヤマト-ソードストライカーウェポン&quot; /&gt;ソードストライカーウェポン ( エールストライクガンダム / キラ・ヤマト )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;フリーダムガンダム-キラ・ヤマト-バラエーナプラズマ収束ビーム砲&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;フリーダムガンダム-キラ・ヤマト-バラエーナプラズマ収束ビーム砲&quot; /&gt;バラエーナプラズマ収束ビーム砲 ( フリーダムガンダム / キラ・ヤマト )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;フリーダムガンダム-キラ・ヤマト-ビームサーベル連続攻撃&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;フリーダムガンダム-キラ・ヤマト-ビームサーベル連続攻撃&quot; /&gt;ビームサーベル連続攻撃 ( フリーダムガンダム / キラ・ヤマト )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ジャスティスガンダム-アスラン・ザラ-アンビデクストラス・ハルバード&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;ジャスティスガンダム-アスラン・ザラ-アンビデクストラス・ハルバード&quot; /&gt;アンビデクストラス・ハルバード ( ジャスティスガンダム / アスラン・ザラ )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ジャスティスガンダム-アスラン・ザラ-ファトゥム-00&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;ジャスティスガンダム-アスラン・ザラ-ファトゥム-00&quot; /&gt;ファトゥム-00 ( ジャスティスガンダム / アスラン・ザラ )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ゼーガペイン アルティール-ソゴル・キョウ-ホロニックブレード突撃&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;ゼーガペイン アルティール-ソゴル・キョウ-ホロニックブレード突撃&quot; /&gt;ホロニックブレード突撃 ( ゼーガペイン アルティール / ソゴル・キョウ )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ゼーガペイン アルティール-ソゴル・キョウ-ホロボルトプレッシャー&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;ゼーガペイン アルティール-ソゴル・キョウ-ホロボルトプレッシャー&quot; /&gt;ホロボルトプレッシャー ( ゼーガペイン アルティール / ソゴル・キョウ )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ゼーガペイン ガルダ-マオ・ルーシェン-ホロニックランチャー連射&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;ゼーガペイン ガルダ-マオ・ルーシェン-ホロニックランチャー連射&quot; /&gt;ホロニックランチャー連射 ( ゼーガペイン ガルダ / マオ・ルーシェン )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ゼーガペイン ガルダ-マオ・ルーシェン-ホロボルトブレイカー&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;ゼーガペイン ガルダ-マオ・ルーシェン-ホロボルトブレイカー&quot; /&gt;ホロボルトブレイカー ( ゼーガペイン ガルダ / マオ・ルーシェン )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ヴァルヴレイヴⅠ-時縞ハルト-ハラキリ・ブレード&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;ヴァルヴレイヴⅠ-時縞ハルト-ハラキリ・ブレード&quot; /&gt;ハラキリ・ブレード ( ヴァルヴレイヴⅠ / 時縞ハルト )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ヴァルヴレイヴⅠ-時縞ハルト-フォルド・シックル&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;ヴァルヴレイヴⅠ-時縞ハルト-フォルド・シックル&quot; /&gt;フォルド・シックル ( ヴァルヴレイヴⅠ / 時縞ハルト )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ヴァルヴレイヴⅣ-流木野サキ-スピンドル・ナックル&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;ヴァルヴレイヴⅣ-流木野サキ-スピンドル・ナックル&quot; /&gt;スピンドル・ナックル ( ヴァルヴレイヴⅣ / 流木野サキ )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ヴァルヴレイヴⅣ-流木野サキ-スターライト・ステップ&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;ヴァルヴレイヴⅣ-流木野サキ-スターライト・ステップ&quot; /&gt;スターライト・ステップ ( ヴァルヴレイヴⅣ / 流木野サキ )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ヴァルヴレイヴⅥ-連坊小路アキラ-ファン・タロン&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;ヴァルヴレイヴⅥ-連坊小路アキラ-ファン・タロン&quot; /&gt;ファン・タロン ( ヴァルヴレイヴⅥ / 連坊小路アキラ )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ヴァルヴレイヴⅥ-連坊小路アキラ-ハミング・バード&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;ヴァルヴレイヴⅥ-連坊小路アキラ-ハミング・バード&quot; /&gt;ハミング・バード ( ヴァルヴレイヴⅥ / 連坊小路アキラ )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ヴァルヴレイヴⅢ-山田ライゾウ-アームストロンガー・カノン・フルパワー&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;ヴァルヴレイヴⅢ-山田ライゾウ-アームストロンガー・カノン・フルパワー&quot; /&gt;アームストロンガー・カノン・フルパワー ( ヴァルヴレイヴⅢ / 山田ライゾウ )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ガンダム・バルバトス（第4形態）-三日月・オーガス-滑腔砲連射&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;ガンダム・バルバトス（第4形態）-三日月・オーガス-滑腔砲連射&quot; /&gt;滑腔砲連射 ( ガンダム・バルバトス（第4形態） / 三日月・オーガス )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ガンダム・バルバトス（第4形態）-三日月・オーガス-太刀&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;ガンダム・バルバトス（第4形態）-三日月・オーガス-太刀&quot; /&gt;太刀 ( ガンダム・バルバトス（第4形態） / 三日月・オーガス )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ガンダム・バルバトス（第6形態）-三日月・オーガス-レンチメイス(チェーンソー)&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;ガンダム・バルバトス（第6形態）-三日月・オーガス-レンチメイス(チェーンソー)&quot; /&gt;レンチメイス(チェーンソー) ( ガンダム・バルバトス（第6形態） / 三日月・オーガス )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ガンダム・グシオンリベイク-昭弘・アルトランド-グシオンリベイクハルバード&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;ガンダム・グシオンリベイク-昭弘・アルトランド-グシオンリベイクハルバード&quot; /&gt;グシオンリベイクハルバード ( ガンダム・グシオンリベイク / 昭弘・アルトランド )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ガンダム・グシオンリベイク-昭弘・アルトランド-ロングレンジライフル&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;ガンダム・グシオンリベイク-昭弘・アルトランド-ロングレンジライフル&quot; /&gt;ロングレンジライフル ( ガンダム・グシオンリベイク / 昭弘・アルトランド )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;レイズナー-アルバトロ・ナル・エイジ・アスカ-V-MAX&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;レイズナー-アルバトロ・ナル・エイジ・アスカ-V-MAX&quot; /&gt;V-MAX ( レイズナー / アルバトロ・ナル・エイジ・アスカ )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;レイズナー-アルバトロ・ナル・エイジ・アスカ-ブルー・コンビネーション&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;レイズナー-アルバトロ・ナル・エイジ・アスカ-ブルー・コンビネーション&quot; /&gt;ブルー・コンビネーション ( レイズナー / アルバトロ・ナル・エイジ・アスカ )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;スコープドッグRSC-キリコ・キュービィー-マルチプル・コンバット&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;スコープドッグRSC-キリコ・キュービィー-マルチプル・コンバット&quot; /&gt;マルチプル・コンバット ( スコープドッグRSC / キリコ・キュービィー )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;スコープドッグRSC-キリコ・キュービィー-ラッシュ・コンバット&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;スコープドッグRSC-キリコ・キュービィー-ラッシュ・コンバット&quot; /&gt;ラッシュ・コンバット ( スコープドッグRSC / キリコ・キュービィー )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;KG-6 スレイプニール-界塚伊奈帆-精密射撃&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;KG-6 スレイプニール-界塚伊奈帆-精密射撃&quot; /&gt;精密射撃 ( KG-6 スレイプニール / 界塚伊奈帆 )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;KG-6 スレイプニール-界塚伊奈帆-トラップ・アタック&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;KG-6 スレイプニール-界塚伊奈帆-トラップ・アタック&quot; /&gt;トラップ・アタック ( KG-6 スレイプニール / 界塚伊奈帆 )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;KG-7 アレイオン（韻子）-網文韻子-120ｍｍライフル連射&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;KG-7 アレイオン（韻子）-網文韻子-120ｍｍライフル連射&quot; /&gt;120ｍｍライフル連射 ( KG-7 アレイオン（韻子） / 網文韻子 )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ダイターン3-破嵐万丈-サン・アタック&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;ダイターン3-破嵐万丈-サン・アタック&quot; /&gt;サン・アタック ( ダイターン3 / 破嵐万丈 )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ダイターン3-破嵐万丈-ダイターン・ジャベリン&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;ダイターン3-破嵐万丈-ダイターン・ジャベリン&quot; /&gt;ダイターン・ジャベリン ( ダイターン3 / 破嵐万丈 )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;グレンダイザー-デューク・フリード-ダブルハーケン&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;グレンダイザー-デューク・フリード-ダブルハーケン&quot; /&gt;ダブルハーケン ( グレンダイザー / デューク・フリード )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;グレンダイザー-デューク・フリード-反重力ストーム&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;グレンダイザー-デューク・フリード-反重力ストーム&quot; /&gt;反重力ストーム ( グレンダイザー / デューク・フリード )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ウイングガンダムゼロ-ヒイロ・ユイ-ツインバスターライフル最大出力&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;ウイングガンダムゼロ-ヒイロ・ユイ-ツインバスターライフル最大出力&quot; /&gt;ツインバスターライフル最大出力 ( ウイングガンダムゼロ / ヒイロ・ユイ )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ウイングガンダムゼロ-ヒイロ・ユイ-ローリングツインバスターライフル&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;ウイングガンダムゼロ-ヒイロ・ユイ-ローリングツインバスターライフル&quot; /&gt;ローリングツインバスターライフル ( ウイングガンダムゼロ / ヒイロ・ユイ )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ガンダムデスサイズヘル-デュオ・マックスウェル-強襲&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;ガンダムデスサイズヘル-デュオ・マックスウェル-強襲&quot; /&gt;強襲 ( ガンダムデスサイズヘル / デュオ・マックスウェル )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ガンダムデスサイズヘル-デュオ・マックスウェル-ハイパージャマー・スラッシュ&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;ガンダムデスサイズヘル-デュオ・マックスウェル-ハイパージャマー・スラッシュ&quot; /&gt;ハイパージャマー・スラッシュ ( ガンダムデスサイズヘル / デュオ・マックスウェル )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;アルトロンガンダム-張五飛-ダブルドラゴンハング&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;アルトロンガンダム-張五飛-ダブルドラゴンハング&quot; /&gt;ダブルドラゴンハング ( アルトロンガンダム / 張五飛 )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;アルトロンガンダム-張五飛-ラッシングトライデント&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;アルトロンガンダム-張五飛-ラッシングトライデント&quot; /&gt;ラッシングトライデント ( アルトロンガンダム / 張五飛 )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ガンダムヘビーアームズ改-トロワ・バートン-ダブルガトリング・ラピッドファイア&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;ガンダムヘビーアームズ改-トロワ・バートン-ダブルガトリング・ラピッドファイア&quot; /&gt;ダブルガトリング・ラピッドファイア ( ガンダムヘビーアームズ改 / トロワ・バートン )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ブラックサレナ-テンカワ・アキト-ディストーション・アタック&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;ブラックサレナ-テンカワ・アキト-ディストーション・アタック&quot; /&gt;ディストーション・アタック ( ブラックサレナ / テンカワ・アキト )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ブラックサレナ-テンカワ・アキト-ハイマニューバ・ディストーションアタック&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;ブラックサレナ-テンカワ・アキト-ハイマニューバ・ディストーションアタック&quot; /&gt;ハイマニューバ・ディストーションアタック ( ブラックサレナ / テンカワ・アキト )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;サーバイン-シオン・ザバ-オーラ斬り&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;サーバイン-シオン・ザバ-オーラ斬り&quot; /&gt;オーラ斬り ( サーバイン / シオン・ザバ )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;サーバイン-シオン・ザバ-オーラ・ソード・ランジュ&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;サーバイン-シオン・ザバ-オーラ・ソード・ランジュ&quot; /&gt;オーラ・ソード・ランジュ ( サーバイン / シオン・ザバ )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;龍神丸-戦部ワタル-必殺登龍剣&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;龍神丸-戦部ワタル-必殺登龍剣&quot; /&gt;必殺登龍剣 ( 龍神丸 / 戦部ワタル )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;龍神丸-戦部ワタル-炎龍拳&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;龍神丸-戦部ワタル-炎龍拳&quot; /&gt;炎龍拳 ( 龍神丸 / 戦部ワタル )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;戦神丸-剣部シバラク-野牛シバラク流×の字斬り&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;戦神丸-剣部シバラク-野牛シバラク流×の字斬り&quot; /&gt;野牛シバラク流×の字斬り ( 戦神丸 / 剣部シバラク )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;グランゾート-遥大地-一刀両断エルディカイザー&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;グランゾート-遥大地-一刀両断エルディカイザー&quot; /&gt;一刀両断エルディカイザー ( グランゾート / 遥大地 )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;グランゾート-遥大地-ディザルブスパイア&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;グランゾート-遥大地-ディザルブスパイア&quot; /&gt;ディザルブスパイア ( グランゾート / 遥大地 )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ウインザート-ガス山本-ハリケーンスマッシャー&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;ウインザート-ガス山本-ハリケーンスマッシャー&quot; /&gt;ハリケーンスマッシャー ( ウインザート / ガス山本 )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ウインザート-ガス山本-ブラストガン&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;ウインザート-ガス山本-ブラストガン&quot; /&gt;ブラストガン ( ウインザート / ガス山本 )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;アクアビート-ラビ-ウェーブカイザー&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;アクアビート-ラビ-ウェーブカイザー&quot; /&gt;ウェーブカイザー ( アクアビート / ラビ )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;アクアビート-ラビ-フリーズクラッシュ&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;アクアビート-ラビ-フリーズクラッシュ&quot; /&gt;フリーズクラッシュ ( アクアビート / ラビ )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;獣神ライガー-大牙剣-ライガースラッシュ&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;獣神ライガー-大牙剣-ライガースラッシュ&quot; /&gt;ライガースラッシュ ( 獣神ライガー / 大牙剣 )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;獣神ライガー-大牙剣-クロースプリット&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;獣神ライガー-大牙剣-クロースプリット&quot; /&gt;クロースプリット ( 獣神ライガー / 大牙剣 )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ダルタニアス-楯剣人-火炎十文字斬り&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;ダルタニアス-楯剣人-火炎十文字斬り&quot; /&gt;火炎十文字斬り ( ダルタニアス / 楯剣人 )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ダルタニアス-楯剣人-ライサンダー&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;ダルタニアス-楯剣人-ライサンダー&quot; /&gt;ライサンダー ( ダルタニアス / 楯剣人 )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;アレクサンダ-日向アキト-ファントム・クライ&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;アレクサンダ-日向アキト-ファントム・クライ&quot; /&gt;ファントム・クライ ( アレクサンダ / 日向アキト )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;アレクサンダ-日向アキト-ウルナエッジ連続攻撃&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;アレクサンダ-日向アキト-ウルナエッジ連続攻撃&quot; /&gt;ウルナエッジ連続攻撃 ( アレクサンダ / 日向アキト )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;アレクサンダ・リベルテ-日向アキト-ファントム・リベレイト&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;アレクサンダ・リベルテ-日向アキト-ファントム・リベレイト&quot; /&gt;ファントム・リベレイト ( アレクサンダ・リベルテ / 日向アキト )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;アレクサンダ・リベルテ-日向アキト-ワイヴァン・ペネトレイト&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;アレクサンダ・リベルテ-日向アキト-ワイヴァン・ペネトレイト&quot; /&gt;ワイヴァン・ペネトレイト ( アレクサンダ・リベルテ / 日向アキト )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ジーグ-草薙剣児-猛烈地獄張り手&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;ジーグ-草薙剣児-猛烈地獄張り手&quot; /&gt;猛烈地獄張り手 ( ジーグ / 草薙剣児 )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ジーグ-草薙剣児-スピンストーム&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;ジーグ-草薙剣児-スピンストーム&quot; /&gt;スピンストーム ( ジーグ / 草薙剣児 )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;覚醒人1号-蒼斧蛍汰-シナプス弾撃&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;覚醒人1号-蒼斧蛍汰-シナプス弾撃&quot; /&gt;シナプス弾撃 ( 覚醒人1号 / 蒼斧蛍汰 )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;覚醒人1号-蒼斧蛍汰-シナプス弾撃・射撃&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;覚醒人1号-蒼斧蛍汰-シナプス弾撃・射撃&quot; /&gt;シナプス弾撃・射撃 ( 覚醒人1号 / 蒼斧蛍汰 )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ソウルゲイン-アクセル・アルマー-舞朱雀&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;ソウルゲイン-アクセル・アルマー-舞朱雀&quot; /&gt;舞朱雀 ( ソウルゲイン / アクセル・アルマー )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ソウルゲイン-アクセル・アルマー-麒麟&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;ソウルゲイン-アクセル・アルマー-麒麟&quot; /&gt;麒麟 ( ソウルゲイン / アクセル・アルマー )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ガンレオン-ランド・トラビス-チェイン・デカッター&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;ガンレオン-ランド・トラビス-チェイン・デカッター&quot; /&gt;チェイン・デカッター ( ガンレオン / ランド・トラビス )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ガンレオン-ランド・トラビス-ライアット・ジャレンチ&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;ガンレオン-ランド・トラビス-ライアット・ジャレンチ&quot; /&gt;ライアット・ジャレンチ ( ガンレオン / ランド・トラビス )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ヒュッケバインMk-Ⅱ3号機-シズキ・シズカワ-Gインパクト・キャノン&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;ヒュッケバインMk-Ⅱ3号機-シズキ・シズカワ-Gインパクト・キャノン&quot; /&gt;Gインパクト・キャノン ( ヒュッケバインMk-Ⅱ3号機 / シズキ・シズカワ )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ランスロット・グレイル-オルドリン・ジヴォン-ソードブレイザー&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;ランスロット・グレイル-オルドリン・ジヴォン-ソードブレイザー&quot; /&gt;ソードブレイザー ( ランスロット・グレイル / オルドリン・ジヴォン )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;サイバスター-マサキ・アンドー-サイフラッシュ&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;サイバスター-マサキ・アンドー-サイフラッシュ&quot; /&gt;サイフラッシュ ( サイバスター / マサキ・アンドー )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;コンパチブルカイザー-コウタ・アズマ-カイザー・トルネード&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;コンパチブルカイザー-コウタ・アズマ-カイザー・トルネード&quot; /&gt;カイザー・トルネード ( コンパチブルカイザー / コウタ・アズマ )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;グランゾン-シュウ・シラカワ-ブラックホールクラスター&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;グランゾン-シュウ・シラカワ-ブラックホールクラスター&quot; /&gt;ブラックホールクラスター ( グランゾン / シュウ・シラカワ )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;R-1-リュウセイ・ダテ-ランダム・シュート&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;R-1-リュウセイ・ダテ-ランダム・シュート&quot; /&gt;ランダム・シュート ( R-1 / リュウセイ・ダテ )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;SRX-リュウセイ・ダテ-天上天下無敵剣&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;SRX-リュウセイ・ダテ-天上天下無敵剣&quot; /&gt;天上天下無敵剣 ( SRX / リュウセイ・ダテ )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ヴァイスリッター-エクセレン・ブロウニング-オクスタン・ランチャーW&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;ヴァイスリッター-エクセレン・ブロウニング-オクスタン・ランチャーW&quot; /&gt;オクスタン・ランチャーW ( ヴァイスリッター / エクセレン・ブロウニング )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ヴァンアイン-イヌイ・アサヒ-ヴァンシュ・プルング&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;ヴァンアイン-イヌイ・アサヒ-ヴァンシュ・プルング&quot; /&gt;ヴァンシュ・プルング ( ヴァンアイン / イヌイ・アサヒ )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;R-GUN-イングラム・プリスケン-メタルジェノサイダー&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;R-GUN-イングラム・プリスケン-メタルジェノサイダー&quot; /&gt;メタルジェノサイダー ( R-GUN / イングラム・プリスケン )&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;グルンガスト-イルムガルト・カザハラ-計都羅睺剣・暗剣殺&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;グルンガスト-イルムガルト・カザハラ-計都羅睺剣・暗剣殺&quot; /&gt;計都羅睺剣・暗剣殺 ( グルンガスト / イルムガルト・カザハラ )&lt;/label&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;script&gt;
+const STORAGE_KEY = '2022-08-09-report';
+const CHECKBOX_QUERY = 'article input[type=&quot;checkbox&quot;]';
+function load() {
+  var pilots = JSON.parse(localStorage.getItem(STORAGE_KEY));
+
+  if (pilots &amp;&amp; pilots['pilots']) {
+    var checked = pilots['pilots'];
+    [...document.querySelectorAll(CHECKBOX_QUERY)].forEach((e) =&gt; {
+      var status = checked[e.parentElement.innerText];
+      if (status) {
+        e.checked = true;
+      }
+    });
+  }
+
+  [...document.querySelectorAll(CHECKBOX_QUERY)].forEach((e) =&gt; {
+    e.addEventListener('change', (event) =&gt; {
+      save();
+    });
+  });
+}
+
+function save() {
+  var checked = {};
+  [...document.querySelectorAll(CHECKBOX_QUERY)].forEach((c) =&gt; {
+      checked[c.parentElement.innerText] = c.checked;
+  });
+  var pilots = { 'pilots': checked };
+
+  localStorage.setItem(STORAGE_KEY, JSON.stringify(pilots));
+}
+
+window.onload = () =&gt; {
+  load();
+}
+&lt;/script&gt;</content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html">オウル・ハーガー ( ディーダリオン / ディーダリオン ) エレク・ヘレブ ( ディーダリオン / ディーダリオン ) イーヴァリフル・ハイパワー ( メラフディン / 大門恵留 ) レヴ・ラディエイター ( メラフディン / 大門恵留 ) スリー・ラウンド・バースト ( グラフディン（サキミ機） / 上牧早希実 ) サマーソルト・ティアー ( グラフディン（ユンナ機） / ユンナ・ドーソン ) イーディフューザー ( グラフディン（リナリア機） / リナリア・クオ ) ラッシング・ポッパー ( グラフディン（マイコ機） / 神足麻依子 ) イカヅチ・リボルブ ( グラフディン（ユニス機） / ユニス・エアリー ) スピニング・バースター ( グラフディン（ベネット機） / ベネット・コリーヴレッカン ) ブレストファイヤー ( マジンガーZ / 兜甲児 ) ルストハリケーン(S) ( マジンガーZ / 兜甲児 ) ブレストバーン ( グレートマジンガー / 剣鉄也 ) サンダーブレーク ( グレートマジンガー / 剣鉄也 ) ファイヤーブラスター ( マジンカイザー / 兜甲児 ) カイザーブレード ( マジンカイザー / 兜甲児 ) ジーグブリーカー ( 鋼鉄ジーグ / 鋼鉄ジーグ ) スピンストーム ( 鋼鉄ジーグ / 鋼鉄ジーグ ) 超電磁スピン ( コン・バトラーＶ / 葵豹馬 ) ワンダーレスト ( コン・バトラーＶ / 葵豹馬 ) デビルアロー ( デビルマン / デビルマン ) デビルウィング ( デビルマン / デビルマン ) オーラ斬り ( ビルバイン / ショウ・ザマ ) オーラキャノン ( ビルバイン / ショウ・ザマ ) プログレッシブナイフ連続攻撃 ( エヴァンゲリオン初号機 / 碇シンジ ) ガトリング砲 ( エヴァンゲリオン初号機 / 碇シンジ ) ガトリング砲 ( エヴァンゲリオン零号機 / 綾波レイ ) スナイパーライフル ( エヴァンゲリオン零号機 / 綾波レイ ) サンダースピア ( エヴァンゲリオン2号機 / 式波・アスカ・ラングレー ) 超電磁洋弓銃 ( エヴァンゲリオン2号機 / 式波・アスカ・ラングレー ) ハイパー・メガ・ランチャー ( Zガンダム / カミーユ・ビダン ) ビーム・コンフューズ連続攻撃 ( Zガンダム / カミーユ・ビダン ) クロスレンジ・アタック ( νガンダム / アムロ・レイ ) フィン・ファンネル ( νガンダム / アムロ・レイ ) フィン・ファンネル ( Hi-νガンダム / アムロ・レイ ) フィン・ファンネル(MAP) ( Hi-νガンダム / アムロ・レイ ) NT-D連続攻撃 ( ユニコーンガンダム / バナージ・リンクス ) ビーム・マグナム連射 ( ユニコーンガンダム / バナージ・リンクス ) ゲッタースパイクブレード ( ブラックゲッター / 流竜馬 ) ゲッタービーム ( ブラックゲッター / 流竜馬 ) ゲッタートマホーク ( 真ゲッター1 / 流竜馬 ) ゲッタービーム ( 真ゲッター1 / 流竜馬 ) 天空剣Ⅴの字斬り ( ボルテスⅤ / 剛健一 ) グランドファイヤー(S) ( ボルテスⅤ / 剛健一 ) ヘルアンドヘブン ( ガオガイガー / 獅子王凱 ) プラズマホールド ( ガオガイガー / 獅子王凱 ) 輻射波動機構 ( 紅蓮弐式 / 紅月カレン ) 飛燕連撃 ( 紅蓮弐式 / 紅月カレン ) ハドロン砲最大出力 ( ガウェイン / ゼロ ) ドルイドシステム ( ガウェイン / ゼロ ) 単分子カッター・スパイラルチェイン ( ARX-7 アーバレスト / 相良宗介 ) 強襲 ( ARX-7 アーバレスト / 相良宗介 ) 超高速ミサイル ( M9 ガーンズバック（マオ機） / メリッサ・マオ ) オン・ザ・エッジ ( M9D ファルケ / ベルファンガン・クルーゾー ) GNソード ( ガンダムエクシア / 刹那・F・セイエイ ) セブンソード・コンビネーション ( ガンダムエクシア / 刹那・F・セイエイ ) トランザム一斉射撃 ( ガンダムヴァーチェ / ティエリア・アーデ ) GNスナイパーライフル連射 ( ガンダムデュナメス / ロックオン・ストラトス ) トランザム連続攻撃 ( ガンダムキュリオス / アレルヤ・ハプティズム ) 高エネルギービームライフル連射 ( エールストライクガンダム / キラ・ヤマト ) ソードストライカーウェポン ( エールストライクガンダム / キラ・ヤマト ) バラエーナプラズマ収束ビーム砲 ( フリーダムガンダム / キラ・ヤマト ) ビームサーベル連続攻撃 ( フリーダムガンダム / キラ・ヤマト ) アンビデクストラス・ハルバード ( ジャスティスガンダム / アスラン・ザラ ) ファトゥム-00 ( ジャスティスガンダム / アスラン・ザラ ) ホロニックブレード突撃 ( ゼーガペイン アルティール / ソゴル・キョウ ) ホロボルトプレッシャー ( ゼーガペイン アルティール / ソゴル・キョウ ) ホロニックランチャー連射 ( ゼーガペイン ガルダ / マオ・ルーシェン ) ホロボルトブレイカー ( ゼーガペイン ガルダ / マオ・ルーシェン ) ハラキリ・ブレード ( ヴァルヴレイヴⅠ / 時縞ハルト ) フォルド・シックル ( ヴァルヴレイヴⅠ / 時縞ハルト ) スピンドル・ナックル ( ヴァルヴレイヴⅣ / 流木野サキ ) スターライト・ステップ ( ヴァルヴレイヴⅣ / 流木野サキ ) ファン・タロン ( ヴァルヴレイヴⅥ / 連坊小路アキラ ) ハミング・バード ( ヴァルヴレイヴⅥ / 連坊小路アキラ ) アームストロンガー・カノン・フルパワー ( ヴァルヴレイヴⅢ / 山田ライゾウ ) 滑腔砲連射 ( ガンダム・バルバトス（第4形態） / 三日月・オーガス ) 太刀 ( ガンダム・バルバトス（第4形態） / 三日月・オーガス ) レンチメイス(チェーンソー) ( ガンダム・バルバトス（第6形態） / 三日月・オーガス ) グシオンリベイクハルバード ( ガンダム・グシオンリベイク / 昭弘・アルトランド ) ロングレンジライフル ( ガンダム・グシオンリベイク / 昭弘・アルトランド ) V-MAX ( レイズナー / アルバトロ・ナル・エイジ・アスカ ) ブルー・コンビネーション ( レイズナー / アルバトロ・ナル・エイジ・アスカ ) マルチプル・コンバット ( スコープドッグRSC / キリコ・キュービィー ) ラッシュ・コンバット ( スコープドッグRSC / キリコ・キュービィー ) 精密射撃 ( KG-6 スレイプニール / 界塚伊奈帆 ) トラップ・アタック ( KG-6 スレイプニール / 界塚伊奈帆 ) 120ｍｍライフル連射 ( KG-7 アレイオン（韻子） / 網文韻子 ) サン・アタック ( ダイターン3 / 破嵐万丈 ) ダイターン・ジャベリン ( ダイターン3 / 破嵐万丈 ) ダブルハーケン ( グレンダイザー / デューク・フリード ) 反重力ストーム ( グレンダイザー / デューク・フリード ) ツインバスターライフル最大出力 ( ウイングガンダムゼロ / ヒイロ・ユイ ) ローリングツインバスターライフル ( ウイングガンダムゼロ / ヒイロ・ユイ ) 強襲 ( ガンダムデスサイズヘル / デュオ・マックスウェル ) ハイパージャマー・スラッシュ ( ガンダムデスサイズヘル / デュオ・マックスウェル ) ダブルドラゴンハング ( アルトロンガンダム / 張五飛 ) ラッシングトライデント ( アルトロンガンダム / 張五飛 ) ダブルガトリング・ラピッドファイア ( ガンダムヘビーアームズ改 / トロワ・バートン ) ディストーション・アタック ( ブラックサレナ / テンカワ・アキト ) ハイマニューバ・ディストーションアタック ( ブラックサレナ / テンカワ・アキト ) オーラ斬り ( サーバイン / シオン・ザバ ) オーラ・ソード・ランジュ ( サーバイン / シオン・ザバ ) 必殺登龍剣 ( 龍神丸 / 戦部ワタル ) 炎龍拳 ( 龍神丸 / 戦部ワタル ) 野牛シバラク流×の字斬り ( 戦神丸 / 剣部シバラク ) 一刀両断エルディカイザー ( グランゾート / 遥大地 ) ディザルブスパイア ( グランゾート / 遥大地 ) ハリケーンスマッシャー ( ウインザート / ガス山本 ) ブラストガン ( ウインザート / ガス山本 ) ウェーブカイザー ( アクアビート / ラビ ) フリーズクラッシュ ( アクアビート / ラビ ) ライガースラッシュ ( 獣神ライガー / 大牙剣 ) クロースプリット ( 獣神ライガー / 大牙剣 ) 火炎十文字斬り ( ダルタニアス / 楯剣人 ) ライサンダー ( ダルタニアス / 楯剣人 ) ファントム・クライ ( アレクサンダ / 日向アキト ) ウルナエッジ連続攻撃 ( アレクサンダ / 日向アキト ) ファントム・リベレイト ( アレクサンダ・リベルテ / 日向アキト ) ワイヴァン・ペネトレイト ( アレクサンダ・リベルテ / 日向アキト ) 猛烈地獄張り手 ( ジーグ / 草薙剣児 ) スピンストーム ( ジーグ / 草薙剣児 ) シナプス弾撃 ( 覚醒人1号 / 蒼斧蛍汰 ) シナプス弾撃・射撃 ( 覚醒人1号 / 蒼斧蛍汰 ) 舞朱雀 ( ソウルゲイン / アクセル・アルマー ) 麒麟 ( ソウルゲイン / アクセル・アルマー ) チェイン・デカッター ( ガンレオン / ランド・トラビス ) ライアット・ジャレンチ ( ガンレオン / ランド・トラビス ) Gインパクト・キャノン ( ヒュッケバインMk-Ⅱ3号機 / シズキ・シズカワ ) ソードブレイザー ( ランスロット・グレイル / オルドリン・ジヴォン ) サイフラッシュ ( サイバスター / マサキ・アンドー ) カイザー・トルネード ( コンパチブルカイザー / コウタ・アズマ ) ブラックホールクラスター ( グランゾン / シュウ・シラカワ ) ランダム・シュート ( R-1 / リュウセイ・ダテ ) 天上天下無敵剣 ( SRX / リュウセイ・ダテ ) オクスタン・ランチャーW ( ヴァイスリッター / エクセレン・ブロウニング ) ヴァンシュ・プルング ( ヴァンアイン / イヌイ・アサヒ ) メタルジェノサイダー ( R-GUN / イングラム・プリスケン ) 計都羅睺剣・暗剣殺 ( グルンガスト / イルムガルト・カザハラ )</summary></entry><entry><title type="html">HTMLのtableで今日の曜日を強調するJavaScript</title><link href="https://makietan.github.io/tech/2022/08/03/report.html" rel="alternate" type="text/html" title="HTMLのtableで今日の曜日を強調するJavaScript" /><published>2022-08-03T00:00:00+09:00</published><updated>2022-08-03T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2022/08/03/report</id><content type="html" xml:base="https://makietan.github.io/tech/2022/08/03/report.html">&lt;p&gt;タイトルが雑。&lt;/p&gt;
 
 &lt;p&gt;やりたいことは &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;table&lt;/code&gt; の今日の曜日と同じ &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;th&lt;/code&gt; の色を変えることである。&lt;/p&gt;
 
@@ -166,63 +484,4 @@
 
 &lt;p&gt;2週間しかログが残ってないようなのでどうにか毎週でもいいのでデータを保存したいなと思う。&lt;/p&gt;
 
-&lt;p&gt;今更感あるけどね。&lt;/p&gt;</content><author><name>makietan</name></author><category term="tech" /><summary type="html">cocoa-log-checker.com COCOAログチェッカー iOS/Androidの内の約2週間の接触通知のログを解析し、自分の周りに陽性者が何人いたかを表示します。</summary></entry><entry><title type="html">ユニクロが過剰な理由で明細書を終了した</title><link href="https://makietan.github.io/company/2022/07/27/report.html" rel="alternate" type="text/html" title="ユニクロが過剰な理由で明細書を終了した" /><published>2022-07-27T00:00:00+09:00</published><updated>2022-07-27T00:00:00+09:00</updated><id>https://makietan.github.io/company/2022/07/27/report</id><content type="html" xml:base="https://makietan.github.io/company/2022/07/27/report.html">&lt;blockquote&gt;
-  &lt;p&gt;いつもユニクロオンラインストアをご利用いただきまして、まことにありがとうございます。&lt;/p&gt;
-
-  &lt;p&gt;この度、お客様の個人情報保護の観点ならびに環境負荷低減の一環として、 2022年8月10日(水)の出荷分から順次、お買上げ明細書の同梱を終了させていただくこととなりました。&lt;/p&gt;
-
-  &lt;p&gt;お買上げ明細書は、お客様ご自身でオンラインストア・アプリの購入履歴にある「お買上げ明細書」ボタンからご確認いただけます。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;個人情報保護？何を言っているんだこいつは…住所氏名は郵送時に丸見えだろうが。&lt;/p&gt;
-
-&lt;p&gt;環境負荷低減?何を言っているんだこいつは…あんな紙切れ1枚程度で与える環境負荷なんて帝都がしれてるわ。&lt;/p&gt;
-
-&lt;p&gt;明細書は商品が正確に梱包されているか、支払いは正常に行われたかを証明するものであり、そんなチンケな理由でやめていいものではない。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;【お買上げ明細書ご確認方法】&lt;/p&gt;
-
-  &lt;p&gt;1）オンラインストアのウェブサイト上の「会員情報」画面、又はアプリ上の「会員証」タブから、「購入履歴」を選択する&lt;/p&gt;
-
-  &lt;p&gt;2）該当注文の下部にある「お買上げ明細書」ボタンを押下する&lt;/p&gt;
-
-  &lt;p&gt;3）お客様のお買上げ明細書を表示する&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;一応、確認する方法はあるが非常に手間である。&lt;/p&gt;
-
-&lt;p&gt;1の時点でスマホ・PC起動からの3ステップ。2でさらに1ステップ。&lt;/p&gt;
-
-&lt;p&gt;紙なら箱を開けて1ステップで確認ができる。さらにその箱に対応する情報が記載されているので探す手間すら無い。
-欠品もすぐさま確認ができる。それをやめて客に迷惑をかけるらしい。上記のアホな理由で。&lt;/p&gt;
-
-&lt;p&gt;電力不足の中、あえて電力を無駄に消費する方向にシフトするのは環境負荷を増加させていることも理解ができないようだ。&lt;/p&gt;
-
-&lt;p&gt;本当に困った企業だよ。悲しくなるわ。&lt;/p&gt;</content><author><name>makietan</name></author><category term="company" /><summary type="html">いつもユニクロオンラインストアをご利用いただきまして、まことにありがとうございます。 この度、お客様の個人情報保護の観点ならびに環境負荷低減の一環として、 2022年8月10日(水)の出荷分から順次、お買上げ明細書の同梱を終了させていただくこととなりました。 お買上げ明細書は、お客様ご自身でオンラインストア・アプリの購入履歴にある「お買上げ明細書」ボタンからご確認いただけます。</summary></entry><entry><title type="html">ビデオをピクチャー・イン・ピクチャーするならGoogle公式の「Picture-in-Picture Extension (by Google)」を使おう</title><link href="https://makietan.github.io/chrome/2022/07/26/report.html" rel="alternate" type="text/html" title="ビデオをピクチャー・イン・ピクチャーするならGoogle公式の「Picture-in-Picture Extension (by Google)」を使おう" /><published>2022-07-26T00:00:00+09:00</published><updated>2022-07-26T00:00:00+09:00</updated><id>https://makietan.github.io/chrome/2022/07/26/report</id><content type="html" xml:base="https://makietan.github.io/chrome/2022/07/26/report.html">&lt;div class=&quot;card&quot;&gt;
-  &lt;a href=&quot;https://chrome.google.com/webstore/detail/picture-in-picture-extens/hkgfoiooedgoejojocmhlaklaeopbecg/related&quot;&gt;&lt;/a&gt;
-  &lt;div class=&quot;card__header&quot;&gt;
-    &lt;a href=&quot;https://chrome.google.com/webstore/detail/picture-in-picture-extens/hkgfoiooedgoejojocmhlaklaeopbecg/related&quot;&gt;chrome.google.com&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__image&quot;&gt;
-    &lt;img src=&quot;https://lh3.googleusercontent.com/cvfpnTKw3B67DtM1ZpJG2PNAIjP6hVMOyYy403X4FMkOuStgG1y4cjCn21vmTnnsip1dTZSVsWBA9IxutGuA3dVDWhg=w128-h128-e365-rj-sc0x00ffffff&quot; /&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__title&quot;&gt;
-    &lt;p&gt;Picture-in-Picture Extension (by Google) - Chrome ウェブストア&lt;/p&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__description&quot;&gt;
-    &lt;p&gt;Watch video using Picture-in-Picture&lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;「Picture-in-Picture Extension (by Google)」は動画をピクチャー・イン・ピクチャーすることができる拡張機能だ。&lt;/p&gt;
-
-&lt;p&gt;AbemaTVやOPENRECのようなピクチャー・イン・ピクチャーに対応してないサービスでも簡単にできるようになる拡張機能である。&lt;/p&gt;
-
-&lt;p&gt;使い方は至ってシンプルで拡張機能ボタンを押すだけ。&lt;/p&gt;
-
-&lt;p&gt;他の作業をしつつ画面端に動画が映るので非常に捗る。&lt;/p&gt;
-
-&lt;p&gt;ブラウザを専有されることもない。&lt;/p&gt;
-
-&lt;p&gt;最高だね。&lt;/p&gt;</content><author><name>makietan</name></author><category term="chrome" /><summary type="html">chrome.google.com Picture-in-Picture Extension (by Google) - Chrome ウェブストア Watch video using Picture-in-Picture</summary></entry></feed>
+&lt;p&gt;今更感あるけどね。&lt;/p&gt;</content><author><name>makietan</name></author><category term="tech" /><summary type="html">cocoa-log-checker.com COCOAログチェッカー iOS/Androidの内の約2週間の接触通知のログを解析し、自分の周りに陽性者が何人いたかを表示します。</summary></entry></feed>
