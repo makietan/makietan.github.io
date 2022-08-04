@@ -87,7 +87,8 @@
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    <p><label for="ディーダリオン-ディーダリオン-オウル・ハーガー"><input type="checkbox" id="ディーダリオン-ディーダリオン-オウル・ハーガー" />オウル・ハーガー ( ディーダリオン / ディーダリオン )</label><br />
+    <div id="list">
+<label for="ディーダリオン-ディーダリオン-オウル・ハーガー"><input type="checkbox" id="ディーダリオン-ディーダリオン-オウル・ハーガー" />オウル・ハーガー ( ディーダリオン / ディーダリオン )</label><br />
 <label for="ディーダリオン-ディーダリオン-エレク・ヘレブ"><input type="checkbox" id="ディーダリオン-ディーダリオン-エレク・ヘレブ" />エレク・ヘレブ ( ディーダリオン / ディーダリオン )</label><br />
 <label for="メラフディン-大門恵留-イーヴァリフル・ハイパワー"><input type="checkbox" id="メラフディン-大門恵留-イーヴァリフル・ハイパワー" />イーヴァリフル・ハイパワー ( メラフディン / 大門恵留 )</label><br />
 <label for="メラフディン-大門恵留-レヴ・ラディエイター"><input type="checkbox" id="メラフディン-大門恵留-レヴ・ラディエイター" />レヴ・ラディエイター ( メラフディン / 大門恵留 )</label><br />
@@ -225,7 +226,8 @@
 <label for="ヴァイスリッター-エクセレン・ブロウニング-オクスタン・ランチャーW"><input type="checkbox" id="ヴァイスリッター-エクセレン・ブロウニング-オクスタン・ランチャーW" />オクスタン・ランチャーW ( ヴァイスリッター / エクセレン・ブロウニング )</label><br />
 <label for="ヴァンアイン-イヌイ・アサヒ-ヴァンシュ・プルング"><input type="checkbox" id="ヴァンアイン-イヌイ・アサヒ-ヴァンシュ・プルング" />ヴァンシュ・プルング ( ヴァンアイン / イヌイ・アサヒ )</label><br />
 <label for="R-GUN-イングラム・プリスケン-メタルジェノサイダー"><input type="checkbox" id="R-GUN-イングラム・プリスケン-メタルジェノサイダー" />メタルジェノサイダー ( R-GUN / イングラム・プリスケン )</label><br />
-<label for="グルンガスト-イルムガルト・カザハラ-計都羅睺剣・暗剣殺"><input type="checkbox" id="グルンガスト-イルムガルト・カザハラ-計都羅睺剣・暗剣殺" />計都羅睺剣・暗剣殺 ( グルンガスト / イルムガルト・カザハラ )</label><br /></p>
+<label for="グルンガスト-イルムガルト・カザハラ-計都羅睺剣・暗剣殺"><input type="checkbox" id="グルンガスト-イルムガルト・カザハラ-計都羅睺剣・暗剣殺" />計都羅睺剣・暗剣殺 ( グルンガスト / イルムガルト・カザハラ )</label><br />
+</div>
 
 <script>
 const STORAGE_KEY = '2022-08-09-report';
@@ -262,6 +264,19 @@ function save() {
 
 window.onload = () => {
   load();
+}
+
+function removeChecked() {
+  var list = document.getElementById('list');
+  var array = [...document.querySelectorAll('article label')].filter((label) => !label.querySelector('input').checked);
+  while( list.firstChild ){
+    list.removeChild( list.firstChild );
+  }
+  for (var i = 0; i < array.length ; i++) {
+    // list.removeChild(array[i].label);
+    list.appendChild(array[i]);
+    list.appendChild(document.createElement('br'));
+  }
 }
 </script>
 
