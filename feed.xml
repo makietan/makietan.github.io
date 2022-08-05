@@ -1,46 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2022-08-04T19:09:44+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">HTMLのtableで現在時刻を強調するJavaScript</title><link href="https://makietan.github.io/tech/2022/08/04/report.html" rel="alternate" type="text/html" title="HTMLのtableで現在時刻を強調するJavaScript" /><published>2022-08-04T00:00:00+09:00</published><updated>2022-08-04T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2022/08/04/report</id><content type="html" xml:base="https://makietan.github.io/tech/2022/08/04/report.html">&lt;p&gt;タイトルが雑。&lt;/p&gt;
-
-&lt;p&gt;やりたいことは &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;table&lt;/code&gt; の現在時刻と同じ列の &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;td&lt;/code&gt; の色を変えることである。&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; const today = new Date();
- [...document.querySelectorAll('tr')]
-        .filter((tr) =&amp;gt; tr.children[0].tagName === &quot;TD&quot; &amp;amp;&amp;amp; 
-                tr.children[0].textContent.includes(today.getHours() + &quot;:&quot;))
-        .forEach((tr) =&amp;gt; {
-            [...tr.children].forEach((td, index) =&amp;gt; {
-                    td.style.backgroundColor = &quot;#bee5eb&quot;;
-                    td.style.borderBottom = &quot;1px solid #86cfda&quot;;
-            });
-        });
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;現在時刻を取得する&quot;&gt;現在時刻を取得する&lt;/h2&gt;
-
-&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;today&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getHours&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;文字列マッチング&quot;&gt;文字列マッチング&lt;/h2&gt;
-
-&lt;p&gt;今回は &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;17:00&lt;/code&gt; のような表記を使うため、マッチングは以下の通りになる。&lt;/p&gt;
-
-&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;tr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;children&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;textContent&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;includes&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;today&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getHours&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;17:30&lt;/code&gt; や &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;17:45&lt;/code&gt; も同時刻とするため &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;17:&lt;/code&gt; を含むかどうかでチェックしている。
-より精密な時刻強調をするのは面倒なので今回は手抜き実装。&lt;/p&gt;
-
-&lt;h2 id=&quot;色を変える&quot;&gt;色を変える&lt;/h2&gt;
-
-&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;td&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;style&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;backgroundColor&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;#bee5eb&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;td&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;style&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;borderBottom&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;1px solid #86cfda&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;多少工夫して色を変えている。&lt;/p&gt;
-
-&lt;p&gt;背景色を #bee5eb &lt;span style=&quot;color: #bee5eb; &quot;&gt;■&lt;/span&gt;。
-ボーダーラインを #86cfda &lt;span style=&quot;color: #86cfda; &quot;&gt;■&lt;/span&gt;。&lt;/p&gt;
-
-&lt;p&gt;table要素にボーダーラインが欲しいなとぃうただそれだけの理由で2つのパラメータを設定している。&lt;/p&gt;</content><author><name>makietan</name></author><category term="tech" /><summary type="html">タイトルが雑。</summary></entry><entry><title type="html">スパロボの50個オーブをどれにすればいいのかわからないのでとりあえずメモできるようにした</title><link href="https://makietan.github.io/game/srwdd/2022/08/04/report.html" rel="alternate" type="text/html" title="スパロボの50個オーブをどれにすればいいのかわからないのでとりあえずメモできるようにした" /><published>2022-08-04T00:00:00+09:00</published><updated>2022-08-04T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2022/08/04/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2022/08/04/report.html">&lt;p&gt;一番少ないところに注力するか、一番多いところに入れて交換に回すか…。&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2022-08-05T12:01:59+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">スパロボの50個オーブをどれにすればいいのかわからないのでとりあえずメモできるようにした</title><link href="https://makietan.github.io/game/srwdd/2022/08/05/report.html" rel="alternate" type="text/html" title="スパロボの50個オーブをどれにすればいいのかわからないのでとりあえずメモできるようにした" /><published>2022-08-05T00:00:00+09:00</published><updated>2022-08-05T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2022/08/05/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2022/08/05/report.html">&lt;p&gt;一番少ないところに注力するか、一番多いところに入れて交換に回すか…。&lt;/p&gt;
 
 &lt;p&gt;&lt;button id=&quot;sort&quot; onclick=&quot;sort();&quot;&gt;ソート&lt;/button&gt;&lt;/p&gt;
 
@@ -192,7 +150,49 @@ function sort() {
   }
 }
 
-&lt;/script&gt;</content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html">一番少ないところに注力するか、一番多いところに入れて交換に回すか…。</summary></entry><entry><title type="html">HTMLのtableで今日の曜日を強調するJavaScript</title><link href="https://makietan.github.io/tech/2022/08/03/report.html" rel="alternate" type="text/html" title="HTMLのtableで今日の曜日を強調するJavaScript" /><published>2022-08-03T00:00:00+09:00</published><updated>2022-08-03T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2022/08/03/report</id><content type="html" xml:base="https://makietan.github.io/tech/2022/08/03/report.html">&lt;p&gt;タイトルが雑。&lt;/p&gt;
+&lt;/script&gt;</content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html">一番少ないところに注力するか、一番多いところに入れて交換に回すか…。</summary></entry><entry><title type="html">HTMLのtableで現在時刻を強調するJavaScript</title><link href="https://makietan.github.io/tech/2022/08/04/report.html" rel="alternate" type="text/html" title="HTMLのtableで現在時刻を強調するJavaScript" /><published>2022-08-04T00:00:00+09:00</published><updated>2022-08-04T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2022/08/04/report</id><content type="html" xml:base="https://makietan.github.io/tech/2022/08/04/report.html">&lt;p&gt;タイトルが雑。&lt;/p&gt;
+
+&lt;p&gt;やりたいことは &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;table&lt;/code&gt; の現在時刻と同じ列の &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;td&lt;/code&gt; の色を変えることである。&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; const today = new Date();
+ [...document.querySelectorAll('tr')]
+        .filter((tr) =&amp;gt; tr.children[0].tagName === &quot;TD&quot; &amp;amp;&amp;amp; 
+                tr.children[0].textContent.includes(today.getHours() + &quot;:&quot;))
+        .forEach((tr) =&amp;gt; {
+            [...tr.children].forEach((td, index) =&amp;gt; {
+                    td.style.backgroundColor = &quot;#bee5eb&quot;;
+                    td.style.borderBottom = &quot;1px solid #86cfda&quot;;
+            });
+        });
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;現在時刻を取得する&quot;&gt;現在時刻を取得する&lt;/h2&gt;
+
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;today&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getHours&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;文字列マッチング&quot;&gt;文字列マッチング&lt;/h2&gt;
+
+&lt;p&gt;今回は &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;17:00&lt;/code&gt; のような表記を使うため、マッチングは以下の通りになる。&lt;/p&gt;
+
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;tr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;children&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;textContent&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;includes&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;today&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getHours&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;17:30&lt;/code&gt; や &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;17:45&lt;/code&gt; も同時刻とするため &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;17:&lt;/code&gt; を含むかどうかでチェックしている。
+より精密な時刻強調をするのは面倒なので今回は手抜き実装。&lt;/p&gt;
+
+&lt;h2 id=&quot;色を変える&quot;&gt;色を変える&lt;/h2&gt;
+
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;td&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;style&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;backgroundColor&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;#bee5eb&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;td&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;style&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;borderBottom&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;1px solid #86cfda&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;多少工夫して色を変えている。&lt;/p&gt;
+
+&lt;p&gt;背景色を #bee5eb &lt;span style=&quot;color: #bee5eb; &quot;&gt;■&lt;/span&gt;。
+ボーダーラインを #86cfda &lt;span style=&quot;color: #86cfda; &quot;&gt;■&lt;/span&gt;。&lt;/p&gt;
+
+&lt;p&gt;table要素にボーダーラインが欲しいなとぃうただそれだけの理由で2つのパラメータを設定している。&lt;/p&gt;</content><author><name>makietan</name></author><category term="tech" /><summary type="html">タイトルが雑。</summary></entry><entry><title type="html">HTMLのtableで今日の曜日を強調するJavaScript</title><link href="https://makietan.github.io/tech/2022/08/03/report.html" rel="alternate" type="text/html" title="HTMLのtableで今日の曜日を強調するJavaScript" /><published>2022-08-03T00:00:00+09:00</published><updated>2022-08-03T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2022/08/03/report</id><content type="html" xml:base="https://makietan.github.io/tech/2022/08/03/report.html">&lt;p&gt;タイトルが雑。&lt;/p&gt;
 
 &lt;p&gt;やりたいことは &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;table&lt;/code&gt; の今日の曜日と同じ &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;th&lt;/code&gt; の色を変えることである。&lt;/p&gt;
 
@@ -408,16 +408,12 @@ window.onload = () =&gt; {
 }
 
 function removeChecked() {
-  var list = document.getElementById('list');
-  var array = [...document.querySelectorAll('article label')].filter((label) =&gt; !label.querySelector('input').checked);
-  while( list.firstChild ){
-    list.removeChild( list.firstChild );
-  }
-  for (var i = 0; i &lt; array.length ; i++) {
-    // list.removeChild(array[i].label);
-    list.appendChild(array[i]);
-    list.appendChild(document.createElement('br'));
-  }
+  [...document.querySelectorAll('article label')]
+      .filter((label) =&gt; label.querySelector('input').checked)
+      .forEach((label) =&gt; {
+        label.style.display = &quot;none&quot;;
+        label.nextElementSibling.style.display = &quot;none&quot;;
+      });
 }
 &lt;/script&gt;</content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html">所持済みを非表示</summary></entry><entry><title type="html">MarkdownをHTMLの中に埋め込んで1つのファイルにする</title><link href="https://makietan.github.io/tech/2022/08/02/report.html" rel="alternate" type="text/html" title="MarkdownをHTMLの中に埋め込んで1つのファイルにする" /><published>2022-08-02T00:00:00+09:00</published><updated>2022-08-02T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2022/08/02/report</id><content type="html" xml:base="https://makietan.github.io/tech/2022/08/02/report.html">&lt;p&gt;やってることは非常に簡単でHTMLの中にMarkdownを書いて &lt;strong&gt;marked&lt;/strong&gt; を利用して表示している。&lt;/p&gt;
 

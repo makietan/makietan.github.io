@@ -269,16 +269,12 @@ window.onload = () => {
 }
 
 function removeChecked() {
-  var list = document.getElementById('list');
-  var array = [...document.querySelectorAll('article label')].filter((label) => !label.querySelector('input').checked);
-  while( list.firstChild ){
-    list.removeChild( list.firstChild );
-  }
-  for (var i = 0; i < array.length ; i++) {
-    // list.removeChild(array[i].label);
-    list.appendChild(array[i]);
-    list.appendChild(document.createElement('br'));
-  }
+  [...document.querySelectorAll('article label')]
+      .filter((label) => label.querySelector('input').checked)
+      .forEach((label) => {
+        label.style.display = "none";
+        label.nextElementSibling.style.display = "none";
+      });
 }
 </script>
 
@@ -301,9 +297,9 @@ function removeChecked() {
         <div class="related-posts">
     
           <div class="card">
-            <a href="/game/srwdd/2022/08/04/report.html" title="スパロボの50個オーブをどれにすればいいのかわからないのでとりあえずメモできるようにした"></a>
+            <a href="/game/srwdd/2022/08/05/report.html" title="スパロボの50個オーブをどれにすればいいのかわからないのでとりあえずメモできるようにした"></a>
             <div class="card__header">
-              <a href="/game/srwdd/2022/08/04/report.html">2022-08-04 00:00</a>
+              <a href="/game/srwdd/2022/08/05/report.html">2022-08-05 00:00</a>
             </div>
             <div class="card__title">
               <p>スパロボの50個オーブをどれにすればいいのかわからないのでとりあえずメモできるようにした</p>
