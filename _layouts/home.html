@@ -73,9 +73,7 @@ layout: default
         <em>{{ page }}</em>
       {% elsif page == 1 %}
         <a href="/">{{ page }}</a>
-      {% if page == paginator.page + 5 %}
-        <em>...</em>
-      {% if page < paginator.page + 5 %}
+      {% else %}
         <a href="{{ site.baseurl | replace: '//', '/' }}/page/{{ page }}">{{ page }}</a>
       {% endif %}
     </li>
