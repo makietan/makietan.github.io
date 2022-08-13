@@ -1,4 +1,18 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2022-08-13T12:52:02+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">「餃子の王将」をラーメン屋の分類に入れるのはなんか違うよね</title><link href="https://makietan.github.io/gourmet/2022/08/13/report.html" rel="alternate" type="text/html" title="「餃子の王将」をラーメン屋の分類に入れるのはなんか違うよね" /><published>2022-08-13T00:00:00+09:00</published><updated>2022-08-13T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2022/08/13/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2022/08/13/report.html">&lt;div class=&quot;card&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2022-08-14T06:07:19+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">「ユニットパーツ交換所」を更新した</title><link href="https://makietan.github.io/game/srwdd/2022/08/14/report.html" rel="alternate" type="text/html" title="「ユニットパーツ交換所」を更新した" /><published>2022-08-14T00:00:00+09:00</published><updated>2022-08-14T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2022/08/14/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2022/08/14/report.html">&lt;div class=&quot;card&quot;&gt;
+  &lt;a href=&quot;https://makietan.github.io/game/srwdd/2021/10/03/report2.html&quot;&gt;&lt;/a&gt;
+  &lt;div class=&quot;card__header&quot;&gt;
+    &lt;a href=&quot;https://makietan.github.io/game/srwdd/2021/10/03/report2.html&quot;&gt;makietan.github.io&lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__image&quot;&gt;
+    &lt;img src=&quot;https://makietan.github.io/assets/thumbnail/logo.png&quot; /&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__title&quot;&gt;
+    &lt;p&gt;スパロボDDの「ユニットパーツ交換所」一覧 | 日報&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__description&quot;&gt;
+    &lt;p&gt;格闘等の重複名称は雑に分別済み。 交換し終えたらチェックをつける等の使い方を考えている。&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html">makietan.github.io スパロボDDの「ユニットパーツ交換所」一覧 | 日報 格闘等の重複名称は雑に分別済み。 交換し終えたらチェックをつける等の使い方を考えている。</summary></entry><entry><title type="html">「餃子の王将」をラーメン屋の分類に入れるのはなんか違うよね</title><link href="https://makietan.github.io/gourmet/2022/08/13/report.html" rel="alternate" type="text/html" title="「餃子の王将」をラーメン屋の分類に入れるのはなんか違うよね" /><published>2022-08-13T00:00:00+09:00</published><updated>2022-08-13T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2022/08/13/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2022/08/13/report.html">&lt;div class=&quot;card&quot;&gt;
   &lt;a href=&quot;https://news.allabout.co.jp/articles/o/46972/&quot;&gt;&lt;/a&gt;
   &lt;div class=&quot;card__header&quot;&gt;
     &lt;a href=&quot;https://news.allabout.co.jp/articles/o/46972/&quot;&gt;news.allabout.co.jp&lt;/a&gt;
@@ -464,46 +478,4 @@ function sort() {
   }
 }
 
-&lt;/script&gt;</content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html">一番少ないところに注力するか、一番多いところに入れて交換に回すか…。</summary></entry><entry><title type="html">HTMLのtableで現在時刻を強調するJavaScript</title><link href="https://makietan.github.io/tech/2022/08/04/report.html" rel="alternate" type="text/html" title="HTMLのtableで現在時刻を強調するJavaScript" /><published>2022-08-04T00:00:00+09:00</published><updated>2022-08-04T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2022/08/04/report</id><content type="html" xml:base="https://makietan.github.io/tech/2022/08/04/report.html">&lt;p&gt;タイトルが雑。&lt;/p&gt;
-
-&lt;p&gt;やりたいことは &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;table&lt;/code&gt; の現在時刻と同じ列の &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;td&lt;/code&gt; の色を変えることである。&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; const today = new Date();
- [...document.querySelectorAll('tr')]
-        .filter((tr) =&amp;gt; tr.children[0].tagName === &quot;TD&quot; &amp;amp;&amp;amp; 
-                tr.children[0].textContent.includes(today.getHours() + &quot;:&quot;))
-        .forEach((tr) =&amp;gt; {
-            [...tr.children].forEach((td, index) =&amp;gt; {
-                    td.style.backgroundColor = &quot;#bee5eb&quot;;
-                    td.style.borderBottom = &quot;1px solid #86cfda&quot;;
-            });
-        });
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;現在時刻を取得する&quot;&gt;現在時刻を取得する&lt;/h2&gt;
-
-&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;today&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getHours&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;文字列マッチング&quot;&gt;文字列マッチング&lt;/h2&gt;
-
-&lt;p&gt;今回は &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;17:00&lt;/code&gt; のような表記を使うため、マッチングは以下の通りになる。&lt;/p&gt;
-
-&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;tr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;children&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;textContent&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;includes&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;today&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getHours&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;17:30&lt;/code&gt; や &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;17:45&lt;/code&gt; も同時刻とするため &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;17:&lt;/code&gt; を含むかどうかでチェックしている。
-より精密な時刻強調をするのは面倒なので今回は手抜き実装。&lt;/p&gt;
-
-&lt;h2 id=&quot;色を変える&quot;&gt;色を変える&lt;/h2&gt;
-
-&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;td&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;style&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;backgroundColor&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;#bee5eb&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;td&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;style&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;borderBottom&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;1px solid #86cfda&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;多少工夫して色を変えている。&lt;/p&gt;
-
-&lt;p&gt;背景色を #bee5eb &lt;span style=&quot;color: #bee5eb; &quot;&gt;■&lt;/span&gt;。
-ボーダーラインを #86cfda &lt;span style=&quot;color: #86cfda; &quot;&gt;■&lt;/span&gt;。&lt;/p&gt;
-
-&lt;p&gt;table要素にボーダーラインが欲しいなとぃうただそれだけの理由で2つのパラメータを設定している。&lt;/p&gt;</content><author><name>makietan</name></author><category term="tech" /><summary type="html">タイトルが雑。</summary></entry></feed>
+&lt;/script&gt;</content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html">一番少ないところに注力するか、一番多いところに入れて交換に回すか…。</summary></entry></feed>

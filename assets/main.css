@@ -403,4 +403,6 @@ ul.pager li.num em, ul.pager li.num a { padding: 0px; margin: 2px; }
 
 .excerpts { color: #2f485a; }
 
+.gone { display: none; }
+
 /*# sourceMappingURL=main.css.map */
