@@ -1,4 +1,56 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2022-08-22T13:25:40+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">年ごとに聞いてた好きな歌をまとめるといいなと思った</title><link href="https://makietan.github.io/music/2022/08/17/report.html" rel="alternate" type="text/html" title="年ごとに聞いてた好きな歌をまとめるといいなと思った" /><published>2022-08-17T00:00:00+09:00</published><updated>2022-08-17T00:00:00+09:00</updated><id>https://makietan.github.io/music/2022/08/17/report</id><content type="html" xml:base="https://makietan.github.io/music/2022/08/17/report.html">&lt;p&gt;あんまり曲は聞かないんだけどアニソンはいっぱい聞くよね。
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2022-08-22T14:29:30+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">ソシャゲにおける悪意のある確率操作は規制されるべき</title><link href="https://makietan.github.io/game/2022/08/22/report.html" rel="alternate" type="text/html" title="ソシャゲにおける悪意のある確率操作は規制されるべき" /><published>2022-08-22T00:00:00+09:00</published><updated>2022-08-22T00:00:00+09:00</updated><id>https://makietan.github.io/game/2022/08/22/report</id><content type="html" xml:base="https://makietan.github.io/game/2022/08/22/report.html">&lt;p&gt;マスターデュエルをしていて明らかにおかしいことが多々ある。
+その中でも1枚しか入っていないカードが連続して初手手札にくることだ。
+本来ならありえない確率なのだが、マスターデュエルでは多発する。
+主なカードは基本的に1枚しか採用されない《PSYフレーム・ドライバー》、《D－HERO ダッシュガイ》のようなゴミカード軍だ。
+《ヌメロン・ネットワーク》やサーチカードよりも上記のカードが初手に何度もくるのだ。&lt;/p&gt;
+
+&lt;p&gt;1枚しか入っていないカードを引く確率は12.5%。&lt;/p&gt;
+
+&lt;p&gt;《ヌメロン・ネットワーク》3枚、《テラ・フォーミング》1枚、《惑星探査車》3枚、《ヌメロン・ウォール》3枚のどれかを引く確率は78.34281650071124%。&lt;/p&gt;
+
+&lt;p&gt;そして、《PSYフレーム・ドライバー》を引き、《ヌメロン・ネットワーク》関連のカードを引かない確率は2.707147937%。&lt;/p&gt;
+
+&lt;p&gt;この2%でしか起こらないことが連続で発生するのだ。&lt;/p&gt;
+
+&lt;p&gt;明らかにおかしい。&lt;/p&gt;
+
+&lt;p&gt;リアルで行う遊戯王では、人が手で混ぜるため純粋なランダムではないので3枚同時に引く確率は極端に低い。&lt;/p&gt;
+
+&lt;p&gt;一方、本来なら限りなく純粋なランダムが使える環境にあるマスターデュエルでは、いかれた確率操作では3枚同時に引くことなんてよくある。&lt;/p&gt;
+
+&lt;p&gt;なのでどちらも純粋な確率ではない。&lt;/p&gt;
+
+&lt;p&gt;さらに言えば、マスターデュエルでは通信切断という相手の利益を消す裏技がある。&lt;/p&gt;
+
+&lt;p&gt;本来ならサレンダーで負けを宣言すべきところを通信切断をすることで試合そのものを無にすることができる。&lt;/p&gt;
+
+&lt;p&gt;なので勝てた試合が消える仕様になっている。&lt;/p&gt;
+
+&lt;p&gt;明らかに狂った仕様だ。&lt;/p&gt;
+
+&lt;p&gt;当然敗北する確率のほうが増える。&lt;/p&gt;
+
+&lt;p&gt;いい加減、通信切断に関してはもっと改善すべきである。&lt;/p&gt;
+
+&lt;p&gt;それを改善するためには性善説のもとに切断された側にもっと優しくすべきである。&lt;/p&gt;
+
+&lt;p&gt;一方で通信切断にも様々ある。&lt;/p&gt;
+
+&lt;p&gt;悪意のある切断は当然ある。&lt;/p&gt;
+
+&lt;p&gt;それ以外にもアプリ側のクソ仕様でそういう扱いになるものがたくさんある。&lt;/p&gt;
+
+&lt;p&gt;アプリのクラッシュで落ちた場合も強制敗北扱いにされる。&lt;/p&gt;
+
+&lt;p&gt;すぐにアプリを再起動してもダメという最低仕様だ。&lt;/p&gt;
+
+&lt;p&gt;時間内に戻ってきたら普通にプレイをさせてほしい。&lt;/p&gt;
+
+&lt;p&gt;それからたまに通信の不具合で勝手に切断扱いにされる。&lt;/p&gt;
+
+&lt;p&gt;一時的な通信の不良が一切考慮されていない。&lt;/p&gt;
+
+&lt;p&gt;理不尽極まりないクソゲーだわマスターデュエル。&lt;/p&gt;</content><author><name>makietan</name></author><category term="game" /><summary type="html">マスターデュエルをしていて明らかにおかしいことが多々ある。 その中でも1枚しか入っていないカードが連続して初手手札にくることだ。 本来ならありえない確率なのだが、マスターデュエルでは多発する。 主なカードは基本的に1枚しか採用されない《PSYフレーム・ドライバー》、《D－HERO ダッシュガイ》のようなゴミカード軍だ。 《ヌメロン・ネットワーク》やサーチカードよりも上記のカードが初手に何度もくるのだ。</summary></entry><entry><title type="html">年ごとに聞いてた好きな歌をまとめるといいなと思った</title><link href="https://makietan.github.io/music/2022/08/17/report.html" rel="alternate" type="text/html" title="年ごとに聞いてた好きな歌をまとめるといいなと思った" /><published>2022-08-17T00:00:00+09:00</published><updated>2022-08-17T00:00:00+09:00</updated><id>https://makietan.github.io/music/2022/08/17/report</id><content type="html" xml:base="https://makietan.github.io/music/2022/08/17/report.html">&lt;p&gt;あんまり曲は聞かないんだけどアニソンはいっぱい聞くよね。
 あとサントラ。
 スーパーマリオRPGのサントラとか再販されないかな…。&lt;/p&gt;
 
@@ -338,46 +390,4 @@ function removeChecked() {
         label.nextElementSibling.style.display = &quot;none&quot;;
       });
 }
-&lt;/script&gt;</content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html">所持済みを非表示</summary></entry><entry><title type="html">マツコの知らない世界「アニメ聖地巡礼の世界」を見た</title><link href="https://makietan.github.io/otaku/2022/08/08/report.html" rel="alternate" type="text/html" title="マツコの知らない世界「アニメ聖地巡礼の世界」を見た" /><published>2022-08-08T00:00:00+09:00</published><updated>2022-08-08T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2022/08/08/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2022/08/08/report.html">&lt;div class=&quot;card&quot;&gt;
-  &lt;a href=&quot;https://tver.jp/episodes/epxlnti9ux&quot;&gt;&lt;/a&gt;
-  &lt;div class=&quot;card__header&quot;&gt;
-    &lt;a href=&quot;https://tver.jp/episodes/epxlnti9ux&quot;&gt;tver.jp&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__image&quot;&gt;
-    &lt;img src=&quot;https://tver.jp/img/ogimg.png&quot; /&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__title&quot;&gt;
-    &lt;p&gt;TVer - 無料で動画見放題&lt;/p&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__description&quot;&gt;
-    &lt;p&gt;TVer（ティーバー）へ、ようこそ。TVerにあるテレビ番組はすべて無料！最新話から過去人気番組まで見放題！&lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;初っ端からガルパンのパネルが出てきたのは好感がもてる。&lt;/p&gt;
-
-&lt;p&gt;ガルパンは第4章待ちなのである。&lt;/p&gt;
-
-&lt;p&gt;『らき☆すた』のほうが影響がでかい（かがみんがゆるキャラになってるし）から仕方ないかね。&lt;/p&gt;
-
-&lt;p&gt;ラブライブ！サンシャインの沼津はマンホール事件とかもあったなぁ。&lt;/p&gt;
-
-&lt;p&gt;オタクなんだけど缶バッジの有用性を一切感じられない人間なので集めたものを一体どうしているのか気になる。&lt;/p&gt;
-
-&lt;p&gt;スーパーカブ（アニメじゃない方）を知ってるマツコ・デラックスの反応が面白い。&lt;/p&gt;
-
-&lt;p&gt;凪あすの聖地巡礼は大変なのよね。&lt;/p&gt;
-
-&lt;p&gt;推し武道の聖地で岡山に行きたい。&lt;/p&gt;
-
-&lt;p&gt;でもまだ行けてないのでのんびり計画している。&lt;/p&gt;
-
-&lt;p&gt;秩父3作に枠を取られてしまったのか、ヤマノススメを出さないとか舐めてるわ。&lt;/p&gt;
-
-&lt;p&gt;ヤマノススメは飯能市だけでなく山があればそこが聖地になるくらいなので色々なところとコラボしている。&lt;/p&gt;
-
-&lt;p&gt;伊香保温泉なんかもそれに当たる。&lt;/p&gt;
-
-&lt;p&gt;いや、行っちゃうよ交通が不便であっても。&lt;/p&gt;
-
-&lt;p&gt;あと登山もするようになった。&lt;/p&gt;</content><author><name>makietan</name></author><category term="otaku" /><summary type="html">tver.jp TVer - 無料で動画見放題 TVer（ティーバー）へ、ようこそ。TVerにあるテレビ番組はすべて無料！最新話から過去人気番組まで見放題！</summary></entry></feed>
+&lt;/script&gt;</content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html">所持済みを非表示</summary></entry></feed>
