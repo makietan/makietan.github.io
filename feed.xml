@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2022-08-23T14:00:11+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">ソシャゲにおける悪意のある確率操作は規制されるべき</title><link href="https://makietan.github.io/game/2022/08/22/report.html" rel="alternate" type="text/html" title="ソシャゲにおける悪意のある確率操作は規制されるべき" /><published>2022-08-22T00:00:00+09:00</published><updated>2022-08-22T00:00:00+09:00</updated><id>https://makietan.github.io/game/2022/08/22/report</id><content type="html" xml:base="https://makietan.github.io/game/2022/08/22/report.html">&lt;p&gt;マスターデュエルをしていて明らかにおかしいことが多々ある。
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2022-08-24T01:13:39+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html"></title><link href="https://makietan.github.io/unknown/2022/08/24/report.html" rel="alternate" type="text/html" title="" /><published>2022-08-24T00:00:00+09:00</published><updated>2022-08-24T00:00:00+09:00</updated><id>https://makietan.github.io/unknown/2022/08/24/report</id><content type="html" xml:base="https://makietan.github.io/unknown/2022/08/24/report.html"></content><author><name>makietan</name></author><category term="unknown" /><summary type="html"></summary></entry><entry><title type="html">ソシャゲにおける悪意のある確率操作は規制されるべき</title><link href="https://makietan.github.io/game/2022/08/22/report.html" rel="alternate" type="text/html" title="ソシャゲにおける悪意のある確率操作は規制されるべき" /><published>2022-08-22T00:00:00+09:00</published><updated>2022-08-22T00:00:00+09:00</updated><id>https://makietan.github.io/game/2022/08/22/report</id><content type="html" xml:base="https://makietan.github.io/game/2022/08/22/report.html">&lt;p&gt;マスターデュエルをしていて明らかにおかしいことが多々ある。
 その中でも1枚しか入っていないカードが連続して初手手札にくることだ。
 本来ならありえない確率なのだが、マスターデュエルでは多発する。
 主なカードは基本的に1枚しか採用されない《PSYフレーム・ドライバー》、《D－HERO ダッシュガイ》のようなゴミカード軍だ。
@@ -57,13 +57,69 @@
   &lt;li&gt;しめじ100g 14kcal&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;[embed:https://calorie.slism.jp/106245/]&lt;/p&gt;
+&lt;div class=&quot;card&quot;&gt;
+  &lt;a href=&quot;https://calorie.slism.jp/106245/&quot;&gt;&lt;/a&gt;
+  &lt;div class=&quot;card__header&quot;&gt;
+    &lt;a href=&quot;https://calorie.slism.jp/106245/&quot;&gt;calorie.slism.jp&lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__image&quot;&gt;
+    &lt;img src=&quot;https://cdn.slism.jp/calorie/foodImages/106245.jpg&quot; /&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__title&quot;&gt;
+    &lt;p&gt;ピーマン - カロリー/栄養成分/計算 | カロリーSlism&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__description&quot;&gt;
+    &lt;p&gt;ピーマンのカロリーは26g(M1個)で6キロカロリー,100gで22kcal、ビタミンCやビタミンKの栄養(成分)が多く,ピーマン(野菜)は別名ぴーまんといい,おすすめ度は4,腹持ち2.5,栄養価は2.5。&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 
-&lt;p&gt;[embed:https://calorie.slism.jp/106153/]&lt;/p&gt;
+&lt;div class=&quot;card&quot;&gt;
+  &lt;a href=&quot;https://calorie.slism.jp/106153/&quot;&gt;&lt;/a&gt;
+  &lt;div class=&quot;card__header&quot;&gt;
+    &lt;a href=&quot;https://calorie.slism.jp/106153/&quot;&gt;calorie.slism.jp&lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__image&quot;&gt;
+    &lt;img src=&quot;https://cdn.slism.jp/calorie/foodImages/106153.jpg&quot; /&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__title&quot;&gt;
+    &lt;p&gt;たまねぎ - カロリー/栄養成分/計算 | カロリーSlism&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__description&quot;&gt;
+    &lt;p&gt;たまねぎのカロリーは177g(M1個)で65キロカロリー,100gで37kcal、ビタミンB6やビタミンCの栄養(成分)が多く,たまねぎ(野菜)は別名玉葱/タマネギ/玉ねぎといい,おすすめ度は3.5,腹持ち4,栄養価は3。&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 
-&lt;p&gt;[embed:https://calorie.slism.jp/108025/]&lt;/p&gt;
+&lt;div class=&quot;card&quot;&gt;
+  &lt;a href=&quot;https://calorie.slism.jp/108025/&quot;&gt;&lt;/a&gt;
+  &lt;div class=&quot;card__header&quot;&gt;
+    &lt;a href=&quot;https://calorie.slism.jp/108025/&quot;&gt;calorie.slism.jp&lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__image&quot;&gt;
+    &lt;img src=&quot;https://cdn.slism.jp/calorie/foodImages/108025.jpg&quot; /&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__title&quot;&gt;
+    &lt;p&gt;エリンギ - カロリー/栄養成分/計算 | カロリーSlism&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__description&quot;&gt;
+    &lt;p&gt;エリンギのカロリーは50g(1本)で12キロカロリー,100gで24kcal、ナイアシンやパントテン酸の栄養(成分)が多く,エリンギ(きのこ)は別名えりんぎといい,おすすめ度は5,腹持ち4,栄養価は4。&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 
-&lt;p&gt;[embed:https://calorie.slism.jp/108018/]&lt;/p&gt;
+&lt;div class=&quot;card&quot;&gt;
+  &lt;a href=&quot;https://calorie.slism.jp/108018/&quot;&gt;&lt;/a&gt;
+  &lt;div class=&quot;card__header&quot;&gt;
+    &lt;a href=&quot;https://calorie.slism.jp/108018/&quot;&gt;calorie.slism.jp&lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__image&quot;&gt;
+    &lt;img src=&quot;https://cdn.slism.jp/calorie/foodImages/108018.jpg&quot; /&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__title&quot;&gt;
+    &lt;p&gt;しめじ - カロリー/栄養成分/計算 | カロリーSlism&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__description&quot;&gt;
+    &lt;p&gt;しめじのカロリーは300g(1パック)で42キロカロリー,100gで14kcal、ナイアシンやビタミンDの栄養(成分)が多く,しめじ(きのこ)は別名シメジ/本シメジ/ホンシメジといい,おすすめ度は5,腹持ち4,栄養価は4。&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 
 &lt;p&gt;ベーコンエッグやハムエッグのお供に食べることにした。&lt;/p&gt;
 
@@ -73,11 +129,25 @@
 
 &lt;p&gt;チーズが足りないな…ま、いっか。&lt;/p&gt;
 
-&lt;p&gt;[embed:https://daidokolog.pal-system.co.jp/recipe/7057]&lt;/p&gt;
+&lt;div class=&quot;card&quot;&gt;
+  &lt;a href=&quot;https://daidokolog.pal-system.co.jp/recipe/7057&quot;&gt;&lt;/a&gt;
+  &lt;div class=&quot;card__header&quot;&gt;
+    &lt;a href=&quot;https://daidokolog.pal-system.co.jp/recipe/7057&quot;&gt;daidokolog.pal-system.co.jp&lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__image&quot;&gt;
+    &lt;img src=&quot;https://cont-daidokolog.pal-system.co.jp/system/recipe/7057/OGP_PS_KCP_1543M.jpg&quot; /&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__title&quot;&gt;
+    &lt;p&gt;ピーマン、玉ねぎとふんわり卵の炒め物｜だいどこログ[生協パルシステムのレシピサイト]&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__description&quot;&gt;
+    &lt;p&gt;定番食材を合わせて中華風に。&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 
 &lt;p&gt;こんな感じのものを作ってもいいなと思ったけど、これはこれで卵がいい感じに作れなかったら萎えるので今はしていない。&lt;/p&gt;
 
-&lt;p&gt;今後試したい。&lt;/p&gt;</content><author><name>makietan</name></author><category term="gourmet" /><summary type="html">ピーマン1個 6kcal たまねぎ1/2個 32.5kcal エリンギ1本 12kcal しめじ100g 14kcal</summary></entry><entry><title type="html">「松のや」のロースかつ定食が8/31まで500円だ！</title><link href="https://makietan.github.io/gourmet/2022/08/18/report.html" rel="alternate" type="text/html" title="「松のや」のロースかつ定食が8/31まで500円だ！" /><published>2022-08-18T00:00:00+09:00</published><updated>2022-08-18T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2022/08/18/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2022/08/18/report.html">&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;みなさまお待たせしました！&lt;br /&gt;残暑見舞いセール、500円のQRコードでございます！&lt;br /&gt;&lt;br /&gt;みなさまRTお願いします(´∀｀) &lt;a href=&quot;https://t.co/E2bldz2JBv&quot;&gt;pic.twitter.com/E2bldz2JBv&lt;/a&gt;&lt;/p&gt;&amp;mdash; とんかつ 松のや【公式】 (@matsu_noya) &lt;a href=&quot;https://twitter.com/matsu_noya/status/1559806231174590464?ref_src=twsrc%5Etfw&quot;&gt;August 17, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;p&gt;今後試したい。&lt;/p&gt;</content><author><name>makietan</name></author><category term="gourmet" /><summary type="html">ピーマン1個 6kcal たまねぎ1/2個 32.5kcal エリンギ1本 12kcal しめじ100g 14kcal</summary></entry><entry><title type="html">「松のや」のロースかつ定食が8/31まで500円だ！</title><link href="https://makietan.github.io/gourmet/2022/08/18/report.html" rel="alternate" type="text/html" title="「松のや」のロースかつ定食が8/31まで500円だ！" /><published>2022-08-18T00:00:00+09:00</published><updated>2022-08-18T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2022/08/18/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2022/08/18/report.html">&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;みなさまお待たせしました！&lt;br /&gt;残暑見舞いセール、500円のQRコードでございます！&lt;br /&gt;&lt;br /&gt;みなさまRTお願いします(´∀｀) &lt;a href=&quot;https://t.co/E2bldz2JBv&quot;&gt;pic.twitter.com/E2bldz2JBv&lt;/a&gt;&lt;/p&gt;&amp;mdash; とんかつ 松のや【公式】 (@matsu_noya) &lt;a href=&quot;https://twitter.com/matsu_noya/status/1559806231174590464?ref_src=twsrc%5Etfw&quot;&gt;August 17, 2022&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
 
 &lt;p&gt;毎日とんかつを食うと体調と体重がやばいことになりそうだ。&lt;/p&gt;
@@ -222,14 +292,4 @@
 
 &lt;p&gt;ルールを守って広告を出している企業が不利益を被っているのを理解していないんじゃないか？&lt;/p&gt;
 
-&lt;p&gt;ほんと困ったもんだよ広告のクソさは。&lt;/p&gt;</content><author><name>makietan</name></author><category term="tech" /><summary type="html">automaton-media.com Google Playアプリ内の「意地悪な広告表示」が規制へ。ユーザーの快適な体験を阻害するような広告が一部禁止 - AUTOMATON Googleは7月27日、Google Playのデべロッパー向けのポリシーを更新した。ユーザーに質の高い体験を提供するため、広告の表示方法変更を求めている。具体的には、全画面広告の“邪魔なタイミング”での表示などだ。 海外メディアGame Developerが伝えている。</summary></entry><entry><title type="html">ここなちゃん誕生日おめでとう！</title><link href="https://makietan.github.io/otaku/2022/08/11/report.html" rel="alternate" type="text/html" title="ここなちゃん誕生日おめでとう！" /><published>2022-08-11T00:00:00+09:00</published><updated>2022-08-11T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2022/08/11/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2022/08/11/report.html">&lt;p&gt;スタッフトークイベント行ってきます。&lt;/p&gt;
-
-&lt;p&gt;暑くて汗ダラダラになってたらすんません。&lt;/p&gt;
-
-&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;【トークイベント】&lt;br /&gt;山の日&amp;amp;ここなの誕生日・8月11日にスタッフトークショーが開催決定👏&lt;br /&gt;&lt;br /&gt;日時：8月11日（木・祝）開場12:30／開演13:00　予定&lt;br /&gt;会場：新宿ロフトプラスワン&lt;br /&gt;出演：しろ（原作）、山本裕介（監督）、yamazo（音楽）ほか作品スタッフ　予定&lt;a href=&quot;https://t.co/tm1Dgirl10&quot;&gt;https://t.co/tm1Dgirl10&lt;/a&gt;&lt;a href=&quot;https://twitter.com/hashtag/%E3%83%A4%E3%83%9E%E3%83%8E%E3%82%B9%E3%82%B9%E3%83%A1?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#ヤマノススメ&lt;/a&gt;&lt;/p&gt;&amp;mdash; TVアニメ「ヤマノススメ Next Summit」公式 (@yamanosusume) &lt;a href=&quot;https://twitter.com/yamanosusume/status/1551135479646793729?ref_src=twsrc%5Etfw&quot;&gt;July 24, 2022&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-
-&lt;p&gt;「ねんどろいど 青羽ここな」も予約したから届くのが楽しみだ。&lt;/p&gt;
-
-&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;本日のブログを更新いたしました！&lt;br /&gt;&lt;br /&gt;↓↓↓&lt;br /&gt;&lt;br /&gt;【&lt;a href=&quot;https://twitter.com/hashtag/%E3%83%A4%E3%83%9E%E3%83%8E%E3%82%B9%E3%82%B9%E3%83%A1?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#ヤマノススメ&lt;/a&gt;】&lt;br /&gt;「ねんどろいど 青羽ここな」&lt;br /&gt;7月29日（金）ご予約開始&lt;br /&gt;⇒&lt;a href=&quot;https://t.co/oEW2WNadGa&quot;&gt;https://t.co/oEW2WNadGa&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;登山の必需品〈ザック〉や〈金剛杖〉のほか&lt;br /&gt;〈パウンドケーキ〉〈手繋ぎパーツ〉も✨&lt;a href=&quot;https://twitter.com/hashtag/goodsmile?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#goodsmile&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/%E3%81%AD%E3%82%93%E3%81%A9%E3%82%8D%E3%81%84%E3%81%A9?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#ねんどろいど&lt;/a&gt; &lt;a href=&quot;https://t.co/XZeG0TJbai&quot;&gt;pic.twitter.com/XZeG0TJbai&lt;/a&gt;&lt;/p&gt;&amp;mdash; カホタン＠グッスマのすみっこ (@gsc_kahotan) &lt;a href=&quot;https://twitter.com/gsc_kahotan/status/1552564517111877632?ref_src=twsrc%5Etfw&quot;&gt;July 28, 2022&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;</content><author><name>makietan</name></author><category term="otaku" /><summary type="html">スタッフトークイベント行ってきます。</summary></entry></feed>
+&lt;p&gt;ほんと困ったもんだよ広告のクソさは。&lt;/p&gt;</content><author><name>makietan</name></author><category term="tech" /><summary type="html">automaton-media.com Google Playアプリ内の「意地悪な広告表示」が規制へ。ユーザーの快適な体験を阻害するような広告が一部禁止 - AUTOMATON Googleは7月27日、Google Playのデべロッパー向けのポリシーを更新した。ユーザーに質の高い体験を提供するため、広告の表示方法変更を求めている。具体的には、全画面広告の“邪魔なタイミング”での表示などだ。 海外メディアGame Developerが伝えている。</summary></entry></feed>
