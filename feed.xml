@@ -1,4 +1,15 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2022-09-02T13:47:48+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html"></title><link href="https://makietan.github.io/unknown/2022/08/24/report.html" rel="alternate" type="text/html" title="" /><published>2022-08-24T00:00:00+09:00</published><updated>2022-08-24T00:00:00+09:00</updated><id>https://makietan.github.io/unknown/2022/08/24/report</id><content type="html" xml:base="https://makietan.github.io/unknown/2022/08/24/report.html"></content><author><name>makietan</name></author><category term="unknown" /><summary type="html"></summary></entry><entry><title type="html">ソシャゲにおける悪意のある確率操作は規制されるべき</title><link href="https://makietan.github.io/game/2022/08/22/report.html" rel="alternate" type="text/html" title="ソシャゲにおける悪意のある確率操作は規制されるべき" /><published>2022-08-22T00:00:00+09:00</published><updated>2022-08-22T00:00:00+09:00</updated><id>https://makietan.github.io/game/2022/08/22/report</id><content type="html" xml:base="https://makietan.github.io/game/2022/08/22/report.html">&lt;p&gt;マスターデュエルをしていて明らかにおかしいことが多々ある。
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2022-09-02T15:14:41+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">仕事で意味のない屁理屈問答をやられてモチベがダウンしてる</title><link href="https://makietan.github.io/work/2022/09/02/report.html" rel="alternate" type="text/html" title="仕事で意味のない屁理屈問答をやられてモチベがダウンしてる" /><published>2022-09-02T00:00:00+09:00</published><updated>2022-09-02T00:00:00+09:00</updated><id>https://makietan.github.io/work/2022/09/02/report</id><content type="html" xml:base="https://makietan.github.io/work/2022/09/02/report.html">&lt;p&gt;某有名企業の下請けからの問い合わせが恐ろしいほどアホな質問ばかりで困る。
+こんなことして高給もらってんのかエンジニアってと勘違いしてもおかしくない内容である。&lt;/p&gt;
+
+&lt;p&gt;普通なら開発に関する質問をしてくるのだが、
+なんと親会社の決めたことをしたくないからと屁理屈をこねこねした質問を永遠と投げ続けている。
+こっちに決定権はないし、それをダラダラと続けている暇があったら実装しろよという内心を抑えて
+屁理屈の上をいく回答をし続けている。&lt;/p&gt;
+
+&lt;p&gt;こんな茶番に時間を取られてエンジニアとしてのキャリアに傷をつけられるのは非常に鬱陶しい。
+どうにか処したいなぁ。&lt;/p&gt;
+
+&lt;p&gt;無能に足を引っ張られるのはつらいな。&lt;/p&gt;</content><author><name>makietan</name></author><category term="work" /><summary type="html">某有名企業の下請けからの問い合わせが恐ろしいほどアホな質問ばかりで困る。 こんなことして高給もらってんのかエンジニアってと勘違いしてもおかしくない内容である。</summary></entry><entry><title type="html"></title><link href="https://makietan.github.io/unknown/2022/08/24/report.html" rel="alternate" type="text/html" title="" /><published>2022-08-24T00:00:00+09:00</published><updated>2022-08-24T00:00:00+09:00</updated><id>https://makietan.github.io/unknown/2022/08/24/report</id><content type="html" xml:base="https://makietan.github.io/unknown/2022/08/24/report.html"></content><author><name>makietan</name></author><category term="unknown" /><summary type="html"></summary></entry><entry><title type="html">ソシャゲにおける悪意のある確率操作は規制されるべき</title><link href="https://makietan.github.io/game/2022/08/22/report.html" rel="alternate" type="text/html" title="ソシャゲにおける悪意のある確率操作は規制されるべき" /><published>2022-08-22T00:00:00+09:00</published><updated>2022-08-22T00:00:00+09:00</updated><id>https://makietan.github.io/game/2022/08/22/report</id><content type="html" xml:base="https://makietan.github.io/game/2022/08/22/report.html">&lt;p&gt;マスターデュエルをしていて明らかにおかしいことが多々ある。
 その中でも1枚しか入っていないカードが連続して初手手札にくることだ。
 本来ならありえない確率なのだが、マスターデュエルでは多発する。
 主なカードは基本的に1枚しか採用されない《PSYフレーム・ドライバー》、《D－HERO ダッシュガイ》のようなゴミカード軍だ。
@@ -270,26 +281,4 @@
 
 &lt;p&gt;もっと美味いラーメン屋はたくさんある。&lt;/p&gt;
 
-&lt;p&gt;ちゃんと色んな店に行こうな。&lt;/p&gt;</content><author><name>makietan</name></author><category term="gourmet" /><summary type="html">news.allabout.co.jp 好きなラーメンチェーン店ランキング！ 3位「一蘭」、2位「天下一品」、1位は？ エリア別の傾向も【500人調査】 - All About NEWS 全国500人に聞いた「好きなラーメンチェーン店」ランキング！ All Aboutの独自調査結果から、人気ランキングを発表します。また、調査結果から、全国の各エリア別の人気傾向も見えてきました！</summary></entry><entry><title type="html">閉じるボタンじゃなくて謎の矢印ボタンが表示される広告を規制しろ</title><link href="https://makietan.github.io/tech/2022/08/12/report.html" rel="alternate" type="text/html" title="閉じるボタンじゃなくて謎の矢印ボタンが表示される広告を規制しろ" /><published>2022-08-12T00:00:00+09:00</published><updated>2022-08-12T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2022/08/12/report</id><content type="html" xml:base="https://makietan.github.io/tech/2022/08/12/report.html">&lt;div class=&quot;card&quot;&gt;
-  &lt;a href=&quot;https://automaton-media.com/articles/newsjp/20220802-212780/&quot;&gt;&lt;/a&gt;
-  &lt;div class=&quot;card__header&quot;&gt;
-    &lt;a href=&quot;https://automaton-media.com/articles/newsjp/20220802-212780/&quot;&gt;automaton-media.com&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__image&quot;&gt;
-    &lt;img src=&quot;https://automaton-media.com/wp-content/uploads/2022/08/20220802-212780-header.jpghttps://automaton-media.com/wp-content/uploads/2022/08/20220802-212780-header.jpg&quot; /&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__title&quot;&gt;
-    &lt;p&gt;Google Playアプリ内の「意地悪な広告表示」が規制へ。ユーザーの快適な体験を阻害するような広告が一部禁止 - AUTOMATON&lt;/p&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__description&quot;&gt;
-    &lt;p&gt;Googleは7月27日、Google Playのデべロッパー向けのポリシーを更新した。ユーザーに質の高い体験を提供するため、広告の表示方法変更を求めている。具体的には、全画面広告の“邪魔なタイミング”での表示などだ。 海外メディアGame Developerが伝えている。&lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Google そのものが広告会社だから規制が甘すぎる。&lt;/p&gt;
-
-&lt;p&gt;Google Play を強制的に表示する広告も存在するのだからちゃんとした規制をすべきだ。&lt;/p&gt;
-
-&lt;p&gt;ルールを守って広告を出している企業が不利益を被っているのを理解していないんじゃないか？&lt;/p&gt;
-
-&lt;p&gt;ほんと困ったもんだよ広告のクソさは。&lt;/p&gt;</content><author><name>makietan</name></author><category term="tech" /><summary type="html">automaton-media.com Google Playアプリ内の「意地悪な広告表示」が規制へ。ユーザーの快適な体験を阻害するような広告が一部禁止 - AUTOMATON Googleは7月27日、Google Playのデべロッパー向けのポリシーを更新した。ユーザーに質の高い体験を提供するため、広告の表示方法変更を求めている。具体的には、全画面広告の“邪魔なタイミング”での表示などだ。 海外メディアGame Developerが伝えている。</summary></entry></feed>
+&lt;p&gt;ちゃんと色んな店に行こうな。&lt;/p&gt;</content><author><name>makietan</name></author><category term="gourmet" /><summary type="html">news.allabout.co.jp 好きなラーメンチェーン店ランキング！ 3位「一蘭」、2位「天下一品」、1位は？ エリア別の傾向も【500人調査】 - All About NEWS 全国500人に聞いた「好きなラーメンチェーン店」ランキング！ All Aboutの独自調査結果から、人気ランキングを発表します。また、調査結果から、全国の各エリア別の人気傾向も見えてきました！</summary></entry></feed>
