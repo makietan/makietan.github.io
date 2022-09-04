@@ -13,6 +13,10 @@ baseurl: ""
 
 markdown: kramdown
 
+kramdown:
+  input: GFM
+  gfm_emojis: true
+
 theme: minima
 
 plugins:
