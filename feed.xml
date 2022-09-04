@@ -1,284 +1,118 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2022-09-03T13:23:22+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">仕事で意味のない屁理屈問答をやられてモチベがダウンしてる</title><link href="https://makietan.github.io/work/2022/09/02/report.html" rel="alternate" type="text/html" title="仕事で意味のない屁理屈問答をやられてモチベがダウンしてる" /><published>2022-09-02T00:00:00+09:00</published><updated>2022-09-02T00:00:00+09:00</updated><id>https://makietan.github.io/work/2022/09/02/report</id><content type="html" xml:base="https://makietan.github.io/work/2022/09/02/report.html">&lt;p&gt;某有名企業の下請けからの問い合わせが恐ろしいほどアホな質問ばかりで困る。
-こんなことして高給もらってんのかエンジニアってと勘違いしてもおかしくない内容である。&lt;/p&gt;
-
-&lt;p&gt;普通なら開発に関する質問をしてくるのだが、
-なんと親会社の決めたことをしたくないからと屁理屈をこねこねした質問を永遠と投げ続けている。
-こっちに決定権はないし、それをダラダラと続けている暇があったら実装しろよという内心を抑えて
-屁理屈の上をいく回答をし続けている。&lt;/p&gt;
-
-&lt;p&gt;こんな茶番に時間を取られてエンジニアとしてのキャリアに傷をつけられるのは非常に鬱陶しい。
-どうにか処したいなぁ。&lt;/p&gt;
-
-&lt;p&gt;無能に足を引っ張られるのはつらいな。&lt;/p&gt;</content><author><name>makietan</name></author><category term="work" /><summary type="html">某有名企業の下請けからの問い合わせが恐ろしいほどアホな質問ばかりで困る。 こんなことして高給もらってんのかエンジニアってと勘違いしてもおかしくない内容である。</summary></entry><entry><title type="html"></title><link href="https://makietan.github.io/unknown/2022/08/24/report.html" rel="alternate" type="text/html" title="" /><published>2022-08-24T00:00:00+09:00</published><updated>2022-08-24T00:00:00+09:00</updated><id>https://makietan.github.io/unknown/2022/08/24/report</id><content type="html" xml:base="https://makietan.github.io/unknown/2022/08/24/report.html"></content><author><name>makietan</name></author><category term="unknown" /><summary type="html"></summary></entry><entry><title type="html">ソシャゲにおける悪意のある確率操作は規制されるべき</title><link href="https://makietan.github.io/game/2022/08/22/report.html" rel="alternate" type="text/html" title="ソシャゲにおける悪意のある確率操作は規制されるべき" /><published>2022-08-22T00:00:00+09:00</published><updated>2022-08-22T00:00:00+09:00</updated><id>https://makietan.github.io/game/2022/08/22/report</id><content type="html" xml:base="https://makietan.github.io/game/2022/08/22/report.html">&lt;p&gt;マスターデュエルをしていて明らかにおかしいことが多々ある。
-その中でも1枚しか入っていないカードが連続して初手手札にくることだ。
-本来ならありえない確率なのだが、マスターデュエルでは多発する。
-主なカードは基本的に1枚しか採用されない《PSYフレーム・ドライバー》、《D－HERO ダッシュガイ》のようなゴミカード軍だ。
-《ヌメロン・ネットワーク》やサーチカードよりも上記のカードが初手に何度もくるのだ。&lt;/p&gt;
-
-&lt;p&gt;1枚しか入っていないカードを引く確率は12.5%。&lt;/p&gt;
-
-&lt;p&gt;《ヌメロン・ネットワーク》3枚、《テラ・フォーミング》1枚、《惑星探査車》3枚、《ヌメロン・ウォール》3枚のどれかを引く確率は78.34281650071124%。&lt;/p&gt;
-
-&lt;p&gt;そして、《PSYフレーム・ドライバー》を引き、《ヌメロン・ネットワーク》関連のカードを引かない確率は2.707147937%。&lt;/p&gt;
-
-&lt;p&gt;この2%でしか起こらないことが連続で発生するのだ。&lt;/p&gt;
-
-&lt;p&gt;明らかにおかしい。&lt;/p&gt;
-
-&lt;p&gt;リアルで行う遊戯王では、人が手で混ぜるため純粋なランダムではないので3枚同時に引く確率は極端に低い。&lt;/p&gt;
-
-&lt;p&gt;一方、本来なら限りなく純粋なランダムが使える環境にあるマスターデュエルでは、いかれた確率操作では3枚同時に引くことなんてよくある。&lt;/p&gt;
-
-&lt;p&gt;なのでどちらも純粋な確率ではない。&lt;/p&gt;
-
-&lt;p&gt;さらに言えば、マスターデュエルでは通信切断という相手の利益を消す裏技がある。&lt;/p&gt;
-
-&lt;p&gt;本来ならサレンダーで負けを宣言すべきところを通信切断をすることで試合そのものを無にすることができる。&lt;/p&gt;
-
-&lt;p&gt;なので勝てた試合が消える仕様になっている。&lt;/p&gt;
-
-&lt;p&gt;明らかに狂った仕様だ。&lt;/p&gt;
-
-&lt;p&gt;当然敗北する確率のほうが増える。&lt;/p&gt;
-
-&lt;p&gt;いい加減、通信切断に関してはもっと改善すべきである。&lt;/p&gt;
-
-&lt;p&gt;それを改善するためには性善説のもとに切断された側にもっと優しくすべきである。&lt;/p&gt;
-
-&lt;p&gt;一方で通信切断にも様々ある。&lt;/p&gt;
-
-&lt;p&gt;悪意のある切断は当然ある。&lt;/p&gt;
-
-&lt;p&gt;それ以外にもアプリ側のクソ仕様でそういう扱いになるものがたくさんある。&lt;/p&gt;
-
-&lt;p&gt;アプリのクラッシュで落ちた場合も強制敗北扱いにされる。&lt;/p&gt;
-
-&lt;p&gt;すぐにアプリを再起動してもダメという最低仕様だ。&lt;/p&gt;
-
-&lt;p&gt;時間内に戻ってきたら普通にプレイをさせてほしい。&lt;/p&gt;
-
-&lt;p&gt;それからたまに通信の不具合で勝手に切断扱いにされる。&lt;/p&gt;
-
-&lt;p&gt;一時的な通信の不良が一切考慮されていない。&lt;/p&gt;
-
-&lt;p&gt;理不尽極まりないクソゲーだわマスターデュエル。&lt;/p&gt;</content><author><name>makietan</name></author><category term="game" /><summary type="html">マスターデュエルをしていて明らかにおかしいことが多々ある。 その中でも1枚しか入っていないカードが連続して初手手札にくることだ。 本来ならありえない確率なのだが、マスターデュエルでは多発する。 主なカードは基本的に1枚しか採用されない《PSYフレーム・ドライバー》、《D－HERO ダッシュガイ》のようなゴミカード軍だ。 《ヌメロン・ネットワーク》やサーチカードよりも上記のカードが初手に何度もくるのだ。</summary></entry><entry><title type="html">ピーマンと玉ねぎときのこを朝食に</title><link href="https://makietan.github.io/gourmet/2022/08/19/report.html" rel="alternate" type="text/html" title="ピーマンと玉ねぎときのこを朝食に" /><published>2022-08-19T00:00:00+09:00</published><updated>2022-08-19T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2022/08/19/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2022/08/19/report.html">&lt;ul&gt;
-  &lt;li&gt;ピーマン1個 6kcal&lt;/li&gt;
-  &lt;li&gt;たまねぎ1/2個 32.5kcal&lt;/li&gt;
-  &lt;li&gt;エリンギ1本 12kcal&lt;/li&gt;
-  &lt;li&gt;しめじ100g 14kcal&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;card&quot;&gt;
-  &lt;a href=&quot;https://calorie.slism.jp/106245/&quot;&gt;&lt;/a&gt;
-  &lt;div class=&quot;card__header&quot;&gt;
-    &lt;a href=&quot;https://calorie.slism.jp/106245/&quot;&gt;calorie.slism.jp&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__image&quot;&gt;
-    &lt;img src=&quot;https://cdn.slism.jp/calorie/foodImages/106245.jpg&quot; /&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__title&quot;&gt;
-    &lt;p&gt;ピーマン - カロリー/栄養成分/計算 | カロリーSlism&lt;/p&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__description&quot;&gt;
-    &lt;p&gt;ピーマンのカロリーは26g(M1個)で6キロカロリー,100gで22kcal、ビタミンCやビタミンKの栄養(成分)が多く,ピーマン(野菜)は別名ぴーまんといい,おすすめ度は4,腹持ち2.5,栄養価は2.5。&lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;card&quot;&gt;
-  &lt;a href=&quot;https://calorie.slism.jp/106153/&quot;&gt;&lt;/a&gt;
-  &lt;div class=&quot;card__header&quot;&gt;
-    &lt;a href=&quot;https://calorie.slism.jp/106153/&quot;&gt;calorie.slism.jp&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__image&quot;&gt;
-    &lt;img src=&quot;https://cdn.slism.jp/calorie/foodImages/106153.jpg&quot; /&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__title&quot;&gt;
-    &lt;p&gt;たまねぎ - カロリー/栄養成分/計算 | カロリーSlism&lt;/p&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__description&quot;&gt;
-    &lt;p&gt;たまねぎのカロリーは177g(M1個)で65キロカロリー,100gで37kcal、ビタミンB6やビタミンCの栄養(成分)が多く,たまねぎ(野菜)は別名玉葱/タマネギ/玉ねぎといい,おすすめ度は3.5,腹持ち4,栄養価は3。&lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;card&quot;&gt;
-  &lt;a href=&quot;https://calorie.slism.jp/108025/&quot;&gt;&lt;/a&gt;
-  &lt;div class=&quot;card__header&quot;&gt;
-    &lt;a href=&quot;https://calorie.slism.jp/108025/&quot;&gt;calorie.slism.jp&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__image&quot;&gt;
-    &lt;img src=&quot;https://cdn.slism.jp/calorie/foodImages/108025.jpg&quot; /&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__title&quot;&gt;
-    &lt;p&gt;エリンギ - カロリー/栄養成分/計算 | カロリーSlism&lt;/p&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__description&quot;&gt;
-    &lt;p&gt;エリンギのカロリーは50g(1本)で12キロカロリー,100gで24kcal、ナイアシンやパントテン酸の栄養(成分)が多く,エリンギ(きのこ)は別名えりんぎといい,おすすめ度は5,腹持ち4,栄養価は4。&lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;card&quot;&gt;
-  &lt;a href=&quot;https://calorie.slism.jp/108018/&quot;&gt;&lt;/a&gt;
-  &lt;div class=&quot;card__header&quot;&gt;
-    &lt;a href=&quot;https://calorie.slism.jp/108018/&quot;&gt;calorie.slism.jp&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__image&quot;&gt;
-    &lt;img src=&quot;https://cdn.slism.jp/calorie/foodImages/108018.jpg&quot; /&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__title&quot;&gt;
-    &lt;p&gt;しめじ - カロリー/栄養成分/計算 | カロリーSlism&lt;/p&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__description&quot;&gt;
-    &lt;p&gt;しめじのカロリーは300g(1パック)で42キロカロリー,100gで14kcal、ナイアシンやビタミンDの栄養(成分)が多く,しめじ(きのこ)は別名シメジ/本シメジ/ホンシメジといい,おすすめ度は5,腹持ち4,栄養価は4。&lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;ベーコンエッグやハムエッグのお供に食べることにした。&lt;/p&gt;
-
-&lt;p&gt;ほんとはピザトーストとかがいいなと思ったけどトースターも食パンも家にはないので断念。&lt;/p&gt;
-
-&lt;p&gt;焼いてソースやケチャップで食べればいいんだよ。&lt;/p&gt;
-
-&lt;p&gt;チーズが足りないな…ま、いっか。&lt;/p&gt;
-
-&lt;div class=&quot;card&quot;&gt;
-  &lt;a href=&quot;https://daidokolog.pal-system.co.jp/recipe/7057&quot;&gt;&lt;/a&gt;
-  &lt;div class=&quot;card__header&quot;&gt;
-    &lt;a href=&quot;https://daidokolog.pal-system.co.jp/recipe/7057&quot;&gt;daidokolog.pal-system.co.jp&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__image&quot;&gt;
-    &lt;img src=&quot;https://cont-daidokolog.pal-system.co.jp/system/recipe/7057/OGP_PS_KCP_1543M.jpg&quot; /&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__title&quot;&gt;
-    &lt;p&gt;ピーマン、玉ねぎとふんわり卵の炒め物｜だいどこログ[生協パルシステムのレシピサイト]&lt;/p&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__description&quot;&gt;
-    &lt;p&gt;定番食材を合わせて中華風に。&lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;こんな感じのものを作ってもいいなと思ったけど、これはこれで卵がいい感じに作れなかったら萎えるので今はしていない。&lt;/p&gt;
-
-&lt;p&gt;今後試したい。&lt;/p&gt;</content><author><name>makietan</name></author><category term="gourmet" /><summary type="html">ピーマン1個 6kcal たまねぎ1/2個 32.5kcal エリンギ1本 12kcal しめじ100g 14kcal</summary></entry><entry><title type="html">「松のや」のロースかつ定食が8/31まで500円だ！</title><link href="https://makietan.github.io/gourmet/2022/08/18/report.html" rel="alternate" type="text/html" title="「松のや」のロースかつ定食が8/31まで500円だ！" /><published>2022-08-18T00:00:00+09:00</published><updated>2022-08-18T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2022/08/18/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2022/08/18/report.html">&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;みなさまお待たせしました！&lt;br /&gt;残暑見舞いセール、500円のQRコードでございます！&lt;br /&gt;&lt;br /&gt;みなさまRTお願いします(´∀｀) &lt;a href=&quot;https://t.co/E2bldz2JBv&quot;&gt;pic.twitter.com/E2bldz2JBv&lt;/a&gt;&lt;/p&gt;&amp;mdash; とんかつ 松のや【公式】 (@matsu_noya) &lt;a href=&quot;https://twitter.com/matsu_noya/status/1559806231174590464?ref_src=twsrc%5Etfw&quot;&gt;August 17, 2022&lt;/a&gt;&lt;/blockquote&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2022-09-04T12:56:52+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">ガルパン10周年でいろいろやるっぽい！</title><link href="https://makietan.github.io/otaku/2022/09/04/report.html" rel="alternate" type="text/html" title="ガルパン10周年でいろいろやるっぽい！" /><published>2022-09-04T00:00:00+09:00</published><updated>2022-09-04T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2022/09/04/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2022/09/04/report.html">&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;🎉10月9日「ガールズ＆パンツァー」&lt;br /&gt;　TVシリーズ放送開始から10周年！🎉&lt;br /&gt;&lt;br /&gt;10周年プロジェクト特設ページをOPEN！&lt;br /&gt;10月9日を皮切りに展開する記念施策の情報を集約！&lt;br /&gt;お祝いコメントやキャラクターの誕生日カレンダーなども順次掲載予定です！&lt;br /&gt;&lt;br /&gt;▶ &lt;a href=&quot;https://t.co/rxzJF30ED0&quot;&gt;https://t.co/rxzJF30ED0&lt;/a&gt;&lt;a href=&quot;https://twitter.com/hashtag/garupan?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#garupan&lt;/a&gt;&lt;a href=&quot;https://twitter.com/hashtag/%E3%82%AC%E3%83%AB%E3%83%91%E3%83%B310%E5%91%A8%E5%B9%B4?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#ガルパン10周年&lt;/a&gt; &lt;a href=&quot;https://t.co/DsmhhJdrNP&quot;&gt;pic.twitter.com/DsmhhJdrNP&lt;/a&gt;&lt;/p&gt;&amp;mdash; 「ガールズ＆パンツァー」公式アカウント (@garupan) &lt;a href=&quot;https://twitter.com/garupan/status/1565534996114427904?ref_src=twsrc%5Etfw&quot;&gt;September 2, 2022&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
 
-&lt;p&gt;毎日とんかつを食うと体調と体重がやばいことになりそうだ。&lt;/p&gt;
+&lt;p&gt;良いねえ。&lt;/p&gt;
 
-&lt;p&gt;大丈夫かな…。&lt;/p&gt;
+&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;「ガールズ＆パンツァー」10周年を記念して、15キャラクターの新規描き下ろしイラストを使用したグッズが登場！&lt;br /&gt;「A-on STORE」にて予約販売を実施いたします！&lt;br /&gt;&lt;br /&gt;■受注開始：9月9日(金)12時～&lt;br /&gt;■通販ページはこちら：&lt;a href=&quot;https://t.co/KmIJ7FZw0r&quot;&gt;https://t.co/KmIJ7FZw0r&lt;/a&gt;&lt;a href=&quot;https://twitter.com/hashtag/garupan?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#garupan&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/%E3%82%AC%E3%83%AB%E3%83%91%E3%83%B310%E5%91%A8%E5%B9%B4?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#ガルパン10周年&lt;/a&gt; &lt;a href=&quot;https://t.co/h7tU8hfb8V&quot;&gt;pic.twitter.com/h7tU8hfb8V&lt;/a&gt;&lt;/p&gt;&amp;mdash; A-on STORE (@a_on0322) &lt;a href=&quot;https://twitter.com/a_on0322/status/1565541189180276737?ref_src=twsrc%5Etfw&quot;&gt;September 2, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
 
-&lt;p&gt;当然ながら「おろしポン酢ロースかつ定食」をメインに食べていくと思う。&lt;/p&gt;</content><author><name>makietan</name></author><category term="gourmet" /><summary type="html">みなさまお待たせしました！残暑見舞いセール、500円のQRコードでございます！みなさまRTお願いします(´∀｀) pic.twitter.com/E2bldz2JBv&amp;mdash; とんかつ 松のや【公式】 (@matsu_noya) August 17, 2022</summary></entry><entry><title type="html">年ごとに聞いてた好きな歌をまとめるといいなと思った</title><link href="https://makietan.github.io/music/2022/08/17/report.html" rel="alternate" type="text/html" title="年ごとに聞いてた好きな歌をまとめるといいなと思った" /><published>2022-08-17T00:00:00+09:00</published><updated>2022-08-17T00:00:00+09:00</updated><id>https://makietan.github.io/music/2022/08/17/report</id><content type="html" xml:base="https://makietan.github.io/music/2022/08/17/report.html">&lt;p&gt;あんまり曲は聞かないんだけどアニソンはいっぱい聞くよね。
-あとサントラ。
-スーパーマリオRPGのサントラとか再販されないかな…。&lt;/p&gt;
+&lt;p&gt;アンチョビとカチューシャが良いね。&lt;/p&gt;
 
-&lt;p&gt;なんかデータ配信方式が増えたのはいいがモノが残らない問題とかも合ったり、
-古いのは配信されてなかったり、
-ゲーム音楽とかなんて論外なわけよ。
-そんなサービスに金払うのも嫌だから音楽なんて聞いてないんだけども。&lt;/p&gt;
+&lt;p&gt;ダー様は…w。&lt;/p&gt;
 
-&lt;p&gt;さて、それはそうとまとめていこうと思う。
-リンクはYoutubeやAmazonになるだろうね。&lt;/p&gt;
+&lt;p&gt;ミカはカンテレを幼少期から奏でていたのかな？&lt;/p&gt;</content><author><name>makietan</name></author><category term="otaku" /><summary type="html">🎉10月9日「ガールズ＆パンツァー」　TVシリーズ放送開始から10周年！🎉10周年プロジェクト特設ページをOPEN！10月9日を皮切りに展開する記念施策の情報を集約！お祝いコメントやキャラクターの誕生日カレンダーなども順次掲載予定です！▶ https://t.co/rxzJF30ED0#garupan#ガルパン10周年 pic.twitter.com/DsmhhJdrNP&amp;mdash; 「ガールズ＆パンツァー」公式アカウント (@garupan) September 2, 2022</summary></entry><entry><title type="html">かつや「カツ煮冷やしそば」を食った</title><link href="https://makietan.github.io/gourmet/2022/09/03/report.html" rel="alternate" type="text/html" title="かつや「カツ煮冷やしそば」を食った" /><published>2022-09-03T00:00:00+09:00</published><updated>2022-09-03T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2022/09/03/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2022/09/03/report.html">&lt;p&gt;&lt;u&gt;カツ煮冷やしそば(759)&lt;/u&gt;&lt;/p&gt;
+&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;かつやの頭おかしいやつ &lt;a href=&quot;https://t.co/bd2kA7CaGn&quot;&gt;pic.twitter.com/bd2kA7CaGn&lt;/a&gt;&lt;/p&gt;&amp;mdash; まきえたん🥦☘️ (@makietanX) &lt;a href=&quot;https://twitter.com/makietanX/status/1566001993541267456?ref_src=twsrc%5Etfw&quot;&gt;September 3, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
 
-&lt;p&gt;年末に自動アップされる感じでいいかな。&lt;/p&gt;
+&lt;p&gt;美味い。&lt;/p&gt;
 
-&lt;p&gt;順位はつけない。&lt;/p&gt;
+&lt;p&gt;ただ、冷やしそばがカツ煮のせいでぬるくなっている。&lt;/p&gt;
 
-&lt;p&gt;コレ大事。&lt;/p&gt;
+&lt;p&gt;これならそばも温かくしてほしかった。&lt;/p&gt;
 
-&lt;p&gt;過去のシリーズも出したいと思う。&lt;/p&gt;
+&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;カツ煮冷やしそば&lt;a href=&quot;https://twitter.com/759?ref_src=twsrc%5Etfw&quot;&gt;@759&lt;/a&gt; (@ かつや in 港区, 東京都) &lt;a href=&quot;https://t.co/0TXpMMA6T7&quot;&gt;https://t.co/0TXpMMA6T7&lt;/a&gt; &lt;a href=&quot;https://t.co/YsfBN1WxYH&quot;&gt;pic.twitter.com/YsfBN1WxYH&lt;/a&gt;&lt;/p&gt;&amp;mdash; まきえたん🥦☘️ (@makietanX) &lt;a href=&quot;https://twitter.com/makietanX/status/1566001389372940293?ref_src=twsrc%5Etfw&quot;&gt;September 3, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
 
-&lt;p&gt;あと聞いた時期と発売時期は別になると思ったほうがいい。&lt;/p&gt;
-
-&lt;p&gt;あとあと蛇足で過去の曲とかも出しちゃうけどそれは許してね。&lt;/p&gt;</content><author><name>makietan</name></author><category term="music" /><summary type="html">あんまり曲は聞かないんだけどアニソンはいっぱい聞くよね。 あとサントラ。 スーパーマリオRPGのサントラとか再販されないかな…。</summary></entry><entry><title type="html">Mac mini のストレージが満杯になった</title><link href="https://makietan.github.io/tech/2022/08/16/report.html" rel="alternate" type="text/html" title="Mac mini のストレージが満杯になった" /><published>2022-08-16T00:00:00+09:00</published><updated>2022-08-16T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2022/08/16/report</id><content type="html" xml:base="https://makietan.github.io/tech/2022/08/16/report.html">&lt;p&gt;不要な動画を捨てたいが本当に重複しているのかをチェックするツールでも欲しいところ。&lt;/p&gt;
-
-&lt;p&gt;1つ1つチェックするとなると時間が足りない。&lt;/p&gt;
-
-&lt;p&gt;悩ましいなぁ。&lt;/p&gt;</content><author><name>makietan</name></author><category term="tech" /><summary type="html">不要な動画を捨てたいが本当に重複しているのかをチェックするツールでも欲しいところ。</summary></entry><entry><title type="html">スパロボDDの攻撃力と与ダメージの超ざっくりとした関係グラフ</title><link href="https://makietan.github.io/game/srwdd/2022/08/15/report.html" rel="alternate" type="text/html" title="スパロボDDの攻撃力と与ダメージの超ざっくりとした関係グラフ" /><published>2022-08-15T00:00:00+09:00</published><updated>2022-08-15T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2022/08/15/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2022/08/15/report.html">&lt;p&gt;スパロボDDにはややこしいことに「攻撃力」と「与ダメージ」がある。
-違いは計算タイミングが異なること。&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;（基本攻撃力 × 攻撃力 - 守備力） × 与ダメージ = 最終ダメージ
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;で、よくあるのが攻撃力2%UPとか与ダメージ7%のユニットパーツ。&lt;/p&gt;
-
-&lt;p&gt;最大でも攻撃力5%や与ダメージ10%だ。&lt;/p&gt;
-
-&lt;p&gt;敵の守備力を基準として最終ダメージの多い少ないをざっくりと出すと以下のようになる。&lt;/p&gt;
-
-&lt;div class=&quot;trim&quot;&gt;
-  &lt;div class=&quot;trim__item&quot;&gt;
-    &lt;a href=&quot;https://makietan.github.io/assets/images/2022-08-15-report/03-56-33.png&quot;&gt;
-      &lt;img class=&quot;one&quot; src=&quot;https://makietan.github.io/assets/thumbnail/2022-08-15-report/03-56-33.png&quot; /&gt;
-    &lt;/a&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;おおよそ攻撃力と守備力の差が半値以下の守備力であれば&lt;strong&gt;与ダメージ&lt;/strong&gt;、&lt;/p&gt;
-
-&lt;p&gt;それ以上の守備力を持つ敵がいれば&lt;strong&gt;攻撃力&lt;/strong&gt;をアップさせればよい。&lt;/p&gt;
-
-&lt;p&gt;少しでもいいから強い敵にダメージを与えたいのであれば&lt;strong&gt;攻撃力&lt;/strong&gt;を鍛えるのが良い。&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;(攻撃力)% = (与ダメージ × 2)%
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;という認識で良いだろう。&lt;/p&gt;
-
-&lt;p&gt;より詳しい内容が知りたければ詳しいサイトに行こう。&lt;/p&gt;
+&lt;p&gt;カロリーはカツ丼とかけそばを合わせた 1296kcal ってところか。&lt;/p&gt;
 
 &lt;div class=&quot;card&quot;&gt;
-  &lt;a href=&quot;https://mottosiritaisuparobodd.com/2020/06/27/02/&quot;&gt;&lt;/a&gt;
+  &lt;a href=&quot;https://www.arclandservice.co.jp/katsuya/menu/item_10503/&quot;&gt;&lt;/a&gt;
   &lt;div class=&quot;card__header&quot;&gt;
-    &lt;a href=&quot;https://mottosiritaisuparobodd.com/2020/06/27/02/&quot;&gt;mottosiritaisuparobodd.com&lt;/a&gt;
+    &lt;a href=&quot;https://www.arclandservice.co.jp/katsuya/menu/item_10503/&quot;&gt;www.arclandservice.co.jp&lt;/a&gt;
   &lt;/div&gt;
   &lt;div class=&quot;card__image&quot;&gt;
-    &lt;img src=&quot;https://mottosiritaisuparobodd.com/wp-content/uploads/2020/10/Screenshot_20201012-233941.png&quot; /&gt;
+    &lt;img src=&quot;https://www.arclandservice.co.jp/katsuya/wp-content/themes/arclandservice-group/assets/img/katsuya/common/og_img.png&quot; /&gt;
   &lt;/div&gt;
   &lt;div class=&quot;card__title&quot;&gt;
-    &lt;p&gt;敵に与える・受けるダメージについて | もっと知りたいスパロボDD&lt;/p&gt;
+    &lt;p&gt;カツ煮冷やしそば | とんかつ・カツ丼「かつや」公式サイト&lt;/p&gt;
   &lt;/div&gt;
   &lt;div class=&quot;card__description&quot;&gt;
-    &lt;p&gt;&lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;</content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html">スパロボDDにはややこしいことに「攻撃力」と「与ダメージ」がある。 違いは計算タイミングが異なること。</summary></entry><entry><title type="html">「ユニットパーツ交換所」を更新した</title><link href="https://makietan.github.io/game/srwdd/2022/08/14/report.html" rel="alternate" type="text/html" title="「ユニットパーツ交換所」を更新した" /><published>2022-08-14T00:00:00+09:00</published><updated>2022-08-14T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2022/08/14/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2022/08/14/report.html">&lt;div class=&quot;card&quot;&gt;
-  &lt;a href=&quot;https://makietan.github.io/game/srwdd/2021/10/03/report2.html&quot;&gt;&lt;/a&gt;
-  &lt;div class=&quot;card__header&quot;&gt;
-    &lt;a href=&quot;https://makietan.github.io/game/srwdd/2021/10/03/report2.html&quot;&gt;makietan.github.io&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__image&quot;&gt;
-    &lt;img src=&quot;https://makietan.github.io/assets/thumbnail/logo.png&quot; /&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__title&quot;&gt;
-    &lt;p&gt;スパロボDDの「ユニットパーツ交換所」一覧 | 日報&lt;/p&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__description&quot;&gt;
-    &lt;p&gt;格闘等の重複名称は雑に分別済み。 交換し終えたらチェックをつける等の使い方を考えている。&lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;</content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html">makietan.github.io スパロボDDの「ユニットパーツ交換所」一覧 | 日報 格闘等の重複名称は雑に分別済み。 交換し終えたらチェックをつける等の使い方を考えている。</summary></entry><entry><title type="html">「餃子の王将」をラーメン屋の分類に入れるのはなんか違うよね</title><link href="https://makietan.github.io/gourmet/2022/08/13/report.html" rel="alternate" type="text/html" title="「餃子の王将」をラーメン屋の分類に入れるのはなんか違うよね" /><published>2022-08-13T00:00:00+09:00</published><updated>2022-08-13T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2022/08/13/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2022/08/13/report.html">&lt;div class=&quot;card&quot;&gt;
-  &lt;a href=&quot;https://news.allabout.co.jp/articles/o/46972/&quot;&gt;&lt;/a&gt;
-  &lt;div class=&quot;card__header&quot;&gt;
-    &lt;a href=&quot;https://news.allabout.co.jp/articles/o/46972/&quot;&gt;news.allabout.co.jp&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__image&quot;&gt;
-    &lt;img src=&quot;https://imgcp.aacdn.jp/img-a/1200/900/aa_news/article/2022/07/28/62e1f71f63047.jpeg&quot; /&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__title&quot;&gt;
-    &lt;p&gt;好きなラーメンチェーン店ランキング！ 3位「一蘭」、2位「天下一品」、1位は？ エリア別の傾向も【500人調査】 - All About NEWS
-&lt;/p&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__description&quot;&gt;
-    &lt;p&gt;全国500人に聞いた「好きなラーメンチェーン店」ランキング！ All Aboutの独自調査結果から、人気ランキングを発表します。また、調査結果から、全国の各エリア別の人気傾向も見えてきました！&lt;/p&gt;
+    &lt;p&gt;かつやトップページ ｜ かつやの最新情報、店舗案内、メニュー、こだわり、宅配、FC加盟店情報、物件情報、採用情報をお知らせします。&lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;p&gt;天下一品を推す連中はこってりしか食ってないことを明記すべきである。
-あっさりとか食えるレベルじゃない。
-新橋の一蘭はわりとガラガラ。
-やっぱ立地が上手な店が上位にきているだけじゃないかな。&lt;/p&gt;
+&lt;p&gt;こういう店でカロリーをちゃんと表記してくれていない店は信用が下がるんだよね。&lt;/p&gt;
 
-&lt;p&gt;来々亭は美味いので上位にあるのは良い。
-ただ、リンガーハットと幸楽苑より美味いのにそれ以下ってのが知名度の差なんだろうな。&lt;/p&gt;
+&lt;p&gt;カロリーが高いから行かないなんて客は端っから来ないだろうからしっかりカロリーや栄養成分を提示してほしいよ。&lt;/p&gt;</content><author><name>makietan</name></author><category term="gourmet" /><summary type="html">カツ煮冷やしそば(759) かつやの頭おかしいやつ pic.twitter.com/bd2kA7CaGn&amp;mdash; まきえたん🥦☘️ (@makietanX) September 3, 2022</summary></entry><entry><title type="html">戦車道大作戦のフォントスタイル変更方法</title><link href="https://makietan.github.io/game/gup/2022/09/01/report.html" rel="alternate" type="text/html" title="戦車道大作戦のフォントスタイル変更方法" /><published>2022-09-01T00:00:00+09:00</published><updated>2022-09-01T00:00:00+09:00</updated><id>https://makietan.github.io/game/gup/2022/09/01/report</id><content type="html" xml:base="https://makietan.github.io/game/gup/2022/09/01/report.html">&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;名前消せるんだ面白い &lt;a href=&quot;https://twitter.com/hashtag/%E6%88%A6%E8%BB%8A%E9%81%93%E5%A4%A7%E4%BD%9C%E6%88%A6?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#戦車道大作戦&lt;/a&gt; &lt;a href=&quot;https://t.co/dz7dz2wT3q&quot;&gt;pic.twitter.com/dz7dz2wT3q&lt;/a&gt;&lt;/p&gt;&amp;mdash; まきえたん🥦☘️ (@makietanX) &lt;a href=&quot;https://twitter.com/makietanX/status/1564102454433947653?ref_src=twsrc%5Etfw&quot;&gt;August 29, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
 
-&lt;p&gt;丸源ラーメンが8位なのも都心部には進出していないからか。&lt;/p&gt;
+&lt;p&gt;基本はHTMLのそれと一緒。&lt;/p&gt;
 
-&lt;p&gt;もっと美味いラーメン屋はたくさんある。&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;[b]&lt;/code&gt; 太字&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;[c][ff0000]&lt;/code&gt; 色変更 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;[c]&lt;/code&gt; のみだと白&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;[i]&lt;/code&gt; 斜体&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;[u]&lt;/code&gt; 下線&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;[s]&lt;/code&gt; 打ち消し線&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;ちゃんと色んな店に行こうな。&lt;/p&gt;</content><author><name>makietan</name></author><category term="gourmet" /><summary type="html">news.allabout.co.jp 好きなラーメンチェーン店ランキング！ 3位「一蘭」、2位「天下一品」、1位は？ エリア別の傾向も【500人調査】 - All About NEWS 全国500人に聞いた「好きなラーメンチェーン店」ランキング！ All Aboutの独自調査結果から、人気ランキングを発表します。また、調査結果から、全国の各エリア別の人気傾向も見えてきました！</summary></entry></feed>
+&lt;p&gt;ざっくりとこんな感じ。&lt;/p&gt;</content><author><name>makietan</name></author><category term="game" /><category term="gup" /><summary type="html">名前消せるんだ面白い #戦車道大作戦 pic.twitter.com/dz7dz2wT3q&amp;mdash; まきえたん🥦☘️ (@makietanX) August 29, 2022</summary></entry><entry><title type="html">久々のあつ森は楽しい</title><link href="https://makietan.github.io/game/2022/08/31/report.html" rel="alternate" type="text/html" title="久々のあつ森は楽しい" /><published>2022-08-31T00:00:00+09:00</published><updated>2022-08-31T00:00:00+09:00</updated><id>https://makietan.github.io/game/2022/08/31/report</id><content type="html" xml:base="https://makietan.github.io/game/2022/08/31/report.html">&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;大葉の花火 &lt;a href=&quot;https://twitter.com/hashtag/%E6%8E%A8%E3%81%97%E6%AD%A6%E9%81%93?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#推し武道&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/%E3%81%A9%E3%81%86%E3%81%B6%E3%81%A4%E3%81%AE%E6%A3%AE?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#どうぶつの森&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/AnimalCrossing?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#AnimalCrossing&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/ACNH?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#ACNH&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/NintendoSwitch?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#NintendoSwitch&lt;/a&gt; &lt;a href=&quot;https://t.co/sKA2KTQkxt&quot;&gt;pic.twitter.com/sKA2KTQkxt&lt;/a&gt;&lt;/p&gt;&amp;mdash; まきえたん🥦☘️ (@makietanX) &lt;a href=&quot;https://twitter.com/makietanX/status/1563859619470258176?ref_src=twsrc%5Etfw&quot;&gt;August 28, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;色々進化していて追いつけてないのが問題だな…。&lt;/p&gt;
+
+&lt;p&gt;というか墓石とたぬきの置物を撤去しないと…。&lt;/p&gt;</content><author><name>makietan</name></author><category term="game" /><summary type="html">大葉の花火 #推し武道 #どうぶつの森 #AnimalCrossing #ACNH #NintendoSwitch pic.twitter.com/sKA2KTQkxt&amp;mdash; まきえたん🥦☘️ (@makietanX) August 28, 2022</summary></entry><entry><title type="html">2022.08公式戦は動かざること山の如し</title><link href="https://makietan.github.io/game/gup/2022/08/30/report.html" rel="alternate" type="text/html" title="2022.08公式戦は動かざること山の如し" /><published>2022-08-30T00:00:00+09:00</published><updated>2022-08-30T00:00:00+09:00</updated><id>https://makietan.github.io/game/gup/2022/08/30/report</id><content type="html" xml:base="https://makietan.github.io/game/gup/2022/08/30/report.html">&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;5輌目にしほ水着2022と4輌目に中須賀エレファントと2輌目に千代水着2021&lt;br /&gt;よっぽど強い人じゃなければだいたいこれでいけてる &lt;a href=&quot;https://t.co/lVlIfVNrsS&quot;&gt;pic.twitter.com/lVlIfVNrsS&lt;/a&gt;&lt;/p&gt;&amp;mdash; まきえたん🥦☘️ (@makietanX) &lt;a href=&quot;https://twitter.com/makietanX/status/1563370923478388738?ref_src=twsrc%5Etfw&quot;&gt;August 27, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;しほ水着2022が強い。
+1ターン目にほぼマシンガンだ。&lt;/p&gt;
+
+&lt;p&gt;隊長はみほ6.5
+フラッグ車は中須賀エミクリスマス。&lt;/p&gt;
+
+&lt;p&gt;他は、まほ6.5と千代水着2021。&lt;/p&gt;
+
+&lt;p&gt;他の生徒が入る余地がないのが難点。&lt;/p&gt;
+
+&lt;p&gt;好きな継続高校を入れたいな…。&lt;/p&gt;</content><author><name>makietan</name></author><category term="game" /><category term="gup" /><summary type="html">5輌目にしほ水着2022と4輌目に中須賀エレファントと2輌目に千代水着2021よっぽど強い人じゃなければだいたいこれでいけてる pic.twitter.com/lVlIfVNrsS&amp;mdash; まきえたん🥦☘️ (@makietanX) August 27, 2022</summary></entry><entry><title type="html"></title><link href="https://makietan.github.io/unknown/2022/08/29/report.html" rel="alternate" type="text/html" title="" /><published>2022-08-29T00:00:00+09:00</published><updated>2022-08-29T00:00:00+09:00</updated><id>https://makietan.github.io/unknown/2022/08/29/report</id><content type="html" xml:base="https://makietan.github.io/unknown/2022/08/29/report.html">&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;ムキムキ💪アキラちゃん &lt;a href=&quot;https://twitter.com/hashtag/%E3%82%B9%E3%83%91%E3%83%AD%E3%83%9CDD?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#スパロボDD&lt;/a&gt; &lt;a href=&quot;https://t.co/8U398ZyBjf&quot;&gt;pic.twitter.com/8U398ZyBjf&lt;/a&gt;&lt;/p&gt;&amp;mdash; まきえたん🥦☘️ (@makietanX) &lt;a href=&quot;https://twitter.com/makietanX/status/1562170678660710400?ref_src=twsrc%5Etfw&quot;&gt;August 23, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;残念ながら運動性が低い。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;HP 19470&lt;/li&gt;
+  &lt;li&gt;攻撃力 12208&lt;/li&gt;
+  &lt;li&gt;防御力 10769&lt;/li&gt;
+  &lt;li&gt;照準値 1151&lt;/li&gt;
+  &lt;li&gt;運動性 956&lt;/li&gt;
+  &lt;li&gt;移動 3&lt;/li&gt;
+  &lt;li&gt;スピード 550&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;arx-7-アーバレスト&quot;&gt;ARX-7 アーバレスト&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;HP 24107&lt;/li&gt;
+  &lt;li&gt;攻撃力 15533&lt;/li&gt;
+  &lt;li&gt;防御力 12290&lt;/li&gt;
+  &lt;li&gt;照準値 1195&lt;/li&gt;
+  &lt;li&gt;運動性 1425&lt;/li&gt;
+  &lt;li&gt;移動 3&lt;/li&gt;
+  &lt;li&gt;スピード 625&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;自分のエースがこのくらいだから運動性の低さが目立つ。
+打たれ強いわけでもないからどうにかしたいところだ…。&lt;/p&gt;</content><author><name>makietan</name></author><category term="unknown" /><summary type="html">ムキムキ💪アキラちゃん #スパロボDD pic.twitter.com/8U398ZyBjf&amp;mdash; まきえたん🥦☘️ (@makietanX) August 23, 2022</summary></entry><entry><title type="html">「阿波連さんははかれない」のアクリルスタンドが当選した</title><link href="https://makietan.github.io/otaku/2022/08/28/report.html" rel="alternate" type="text/html" title="「阿波連さんははかれない」のアクリルスタンドが当選した" /><published>2022-08-28T00:00:00+09:00</published><updated>2022-08-28T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2022/08/28/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2022/08/28/report.html">&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;アクリルスタンド当たった！！&lt;br /&gt;やったー！！&lt;a href=&quot;https://twitter.com/hashtag/%E9%98%BF%E6%B3%A2%E9%80%A3%E3%81%95%E3%82%93%E3%81%AF%E3%81%AF%E3%81%8B%E3%82%8C%E3%81%AA%E3%81%84?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#阿波連さんははかれない&lt;/a&gt; &lt;a href=&quot;https://t.co/GbYtaDrXJN&quot;&gt;https://t.co/GbYtaDrXJN&lt;/a&gt; &lt;a href=&quot;https://t.co/lHwxZibNfR&quot;&gt;pic.twitter.com/lHwxZibNfR&lt;/a&gt;&lt;/p&gt;&amp;mdash; まきえたん🥦☘️ (@makietanX) &lt;a href=&quot;https://twitter.com/makietanX/status/1562635883475398656?ref_src=twsrc%5Etfw&quot;&gt;August 25, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;めっちゃ嬉しすぎる。&lt;/p&gt;</content><author><name>makietan</name></author><category term="otaku" /><summary type="html">アクリルスタンド当たった！！やったー！！#阿波連さんははかれない https://t.co/GbYtaDrXJN pic.twitter.com/lHwxZibNfR&amp;mdash; まきえたん🥦☘️ (@makietanX) August 25, 2022</summary></entry><entry><title type="html">戦いのプロを育成中</title><link href="https://makietan.github.io/game/srwdd/2022/08/27/report.html" rel="alternate" type="text/html" title="戦いのプロを育成中" /><published>2022-08-27T00:00:00+09:00</published><updated>2022-08-27T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2022/08/27/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2022/08/27/report.html">&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;なかなか &lt;a href=&quot;https://twitter.com/hashtag/%E3%82%B9%E3%83%91%E3%83%AD%E3%83%9CDD?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#スパロボDD&lt;/a&gt; &lt;a href=&quot;https://t.co/ICzELbZfnm&quot;&gt;pic.twitter.com/ICzELbZfnm&lt;/a&gt;&lt;/p&gt;&amp;mdash; まきえたん🥦☘️ (@makietanX) &lt;a href=&quot;https://twitter.com/makietanX/status/1562678585978421249?ref_src=twsrc%5Etfw&quot;&gt;August 25, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;なかなかのステータスアップ。&lt;/p&gt;
+
+&lt;p&gt;正直、どう使えばいいのか迷っていたからマジンエンペラーGが来てくれて助かったよ。&lt;/p&gt;</content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html">なかなか #スパロボDD pic.twitter.com/ICzELbZfnm&amp;mdash; まきえたん🥦☘️ (@makietanX) August 25, 2022</summary></entry><entry><title type="html">納期に無理やりねじ込んだ</title><link href="https://makietan.github.io/work/2022/08/26/report.html" rel="alternate" type="text/html" title="納期に無理やりねじ込んだ" /><published>2022-08-26T00:00:00+09:00</published><updated>2022-08-26T00:00:00+09:00</updated><id>https://makietan.github.io/work/2022/08/26/report</id><content type="html" xml:base="https://makietan.github.io/work/2022/08/26/report.html">&lt;p&gt;いやーめんどくさい。
+期限が必要な仕事じゃないよこれ。&lt;/p&gt;</content><author><name>makietan</name></author><category term="work" /><summary type="html">いやーめんどくさい。 期限が必要な仕事じゃないよこれ。</summary></entry><entry><title type="html">「丸源ラーメン」行ったリスト</title><link href="https://makietan.github.io/gourmet/2022/08/25/report.html" rel="alternate" type="text/html" title="「丸源ラーメン」行ったリスト" /><published>2022-08-25T00:00:00+09:00</published><updated>2022-08-25T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2022/08/25/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2022/08/25/report.html">&lt;ul class=&quot;task-list&quot;&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;&lt;a href=&quot;https://www.syodai-marugen.jp/shop/77&quot;&gt;丸源ラーメン 富田林店&lt;/a&gt; (2022/08/27)&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;&lt;a href=&quot;https://www.syodai-marugen.jp/shop/41&quot;&gt;丸源ラーメン 三河安城店&lt;/a&gt; (2021/03/21)&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;&lt;a href=&quot;https://www.syodai-marugen.jp/shop/20&quot;&gt;丸源ラーメン 高島平店&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>makietan</name></author><category term="gourmet" /><summary type="html">丸源ラーメン 富田林店 (2022/08/27) 丸源ラーメン 三河安城店 (2021/03/21) 丸源ラーメン 高島平店</summary></entry></feed>
