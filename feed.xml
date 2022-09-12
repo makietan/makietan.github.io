@@ -1,4 +1,144 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2022-09-12T13:57:45+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">Google Map のタイムラインはすごい</title><link href="https://makietan.github.io/tech/2022/09/07/report.html" rel="alternate" type="text/html" title="Google Map のタイムラインはすごい" /><published>2022-09-07T00:00:00+09:00</published><updated>2022-09-07T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2022/09/07/report</id><content type="html" xml:base="https://makietan.github.io/tech/2022/09/07/report.html">&lt;p&gt;自分の行動ログってのは見ていて楽しい。&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2022-09-13T00:22:51+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">強敵こころ交換券で交換できるもの</title><link href="https://makietan.github.io/game/dqw/2022/09/13/report.html" rel="alternate" type="text/html" title="強敵こころ交換券で交換できるもの" /><published>2022-09-13T00:00:00+09:00</published><updated>2022-09-13T00:00:00+09:00</updated><id>https://makietan.github.io/game/dqw/2022/09/13/report</id><content type="html" xml:base="https://makietan.github.io/game/dqw/2022/09/13/report.html">&lt;p&gt;&lt;button id=&quot;sort&quot; onclick=&quot;sort();&quot;&gt;ソート&lt;/button&gt;&lt;/p&gt;
+
+&lt;div id=&quot;list&quot;&gt;
+
+&lt;label for=&quot;オルゴ・デミーラ&quot;&gt;オルゴ・デミーラ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;オルゴ・デミーラ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ヘルバオム&quot;&gt;ヘルバオム &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;ヘルバオム&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ナイトリッチ&quot;&gt;ナイトリッチ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;ナイトリッチ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ヘルギフト&quot;&gt;ヘルギフト &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;ヘルギフト&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;グレイトマーマン&quot;&gt;グレイトマーマン &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;グレイトマーマン&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ガニラス&quot;&gt;ガニラス &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;ガニラス&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;コキュードス&quot;&gt;コキュードス &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;コキュードス&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;うごくひょうぞう&quot;&gt;うごくひょうぞう &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;うごくひょうぞう&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ひょうがまじん&quot;&gt;ひょうがまじん &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;ひょうがまじん&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;フランケンゴーレム&quot;&gt;フランケンゴーレム &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;フランケンゴーレム&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;パンプキャビネット&quot;&gt;パンプキャビネット &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;パンプキャビネット&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;キマイラロード&quot;&gt;キマイラロード &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;キマイラロード&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ボストロール&quot;&gt;ボストロール &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;ボストロール&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ウイングタイガー&quot;&gt;ウイングタイガー &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;ウイングタイガー&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;MCカンダタ&quot;&gt;MCカンダタ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;MCカンダタ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ヘルジュラシック&quot;&gt;ヘルジュラシック &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;ヘルジュラシック&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ドラゴンガイア&quot;&gt;ドラゴンガイア &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;ドラゴンガイア&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ドラゴンゾンビ&quot;&gt;ドラゴンゾンビ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;ドラゴンゾンビ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;フレイムドック&quot;&gt;フレイムドック &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;フレイムドック&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;トロピカルドラゴ&quot;&gt;トロピカルドラゴ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;トロピカルドラゴ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;まなつのせんし&quot;&gt;まなつのせんし &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;まなつのせんし&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ヘルコンドル&quot;&gt;ヘルコンドル &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;ヘルコンドル&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ベスキング&quot;&gt;ベスキング &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;ベスキング&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ダークスライム&quot;&gt;ダークスライム &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;ダークスライム&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;バラモスブロス&quot;&gt;バラモスブロス &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;バラモスブロス&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;やまたのおろち&quot;&gt;やまたのおろち &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;やまたのおろち&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;カンダタ&quot;&gt;カンダタ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;カンダタ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;きりさきピエロ&quot;&gt;きりさきピエロ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;きりさきピエロ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;おひなさまスライム&quot;&gt;おひなさまスライム &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;おひなさまスライム&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;セルゲイナス&quot;&gt;セルゲイナス &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;セルゲイナス&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;くものきょじん&quot;&gt;くものきょじん &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;くものきょじん&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ずしおうまる&quot;&gt;ずしおうまる &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;ずしおうまる&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ブリザードマン&quot;&gt;ブリザードマン &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;ブリザードマン&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;スノードラゴン&quot;&gt;スノードラゴン &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;スノードラゴン&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;アイスゴーレム&quot;&gt;アイスゴーレム &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;アイスゴーレム&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ヘルバトラー&quot;&gt;ヘルバトラー &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;ヘルバトラー&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;アンドレアル&quot;&gt;アンドレアル &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;アンドレアル&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ギガデーモン&quot;&gt;ギガデーモン &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;ギガデーモン&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;スカイドラゴン&quot;&gt;スカイドラゴン &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;スカイドラゴン&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;バトルレックス&quot;&gt;バトルレックス &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;バトルレックス&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;スカルゴン&quot;&gt;スカルゴン &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;スカルゴン&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ガメゴン&quot;&gt;ガメゴン &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;ガメゴン&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+
+&lt;/div&gt;
+&lt;script&gt;
+const STORAGE_KEY = '2022-08-05-report';
+const NUMBER_QUERY = 'article input[type=&quot;number&quot;]';
+function load() {
+  var orbs = JSON.parse(localStorage.getItem(STORAGE_KEY));
+
+  if (orbs &amp;&amp; orbs['orbs']) {
+    var checked = orbs['orbs'];
+    [...document.querySelectorAll(NUMBER_QUERY)].forEach((e) =&gt; {
+      var status = checked[e.parentElement.innerText];
+      if (status) {
+        e.value = status;
+      }
+    });
+  }
+
+  [...document.querySelectorAll(NUMBER_QUERY)].forEach((e) =&gt; {
+    e.addEventListener('change', (event) =&gt; {
+      save();
+    });
+  });
+}
+
+function save() {
+  var checked = {};
+  [...document.querySelectorAll(NUMBER_QUERY)].forEach((c) =&gt; {
+      checked[c.parentElement.innerText] = c.value;
+  });
+  var orbs = { 'orbs': checked };
+
+  localStorage.setItem(STORAGE_KEY, JSON.stringify(orbs));
+}
+
+window.onload = () =&gt; {
+  load();
+}
+
+function sort() {
+  var list = document.getElementById('list');
+  var array = [...document.querySelectorAll('main label')].map((label) =&gt; {
+    var value = label.querySelector('input').value;
+    if (value === &quot;&quot;) {
+      value = -1;
+    } else {
+      value = parseInt(value);
+    }
+    return { 
+      label: label, 
+      value: value
+    };
+  }).sort((a, b) =&gt; {
+    if (a.value &lt; b.value) {
+      return -1
+    }
+    if (a.value &gt; b.value) {
+      return 1;
+    }
+    return 0;
+  });
+  while( list.firstChild ){
+    list.removeChild( list.firstChild );
+  }
+  for (var i = 0; i &lt; array.length ; i++) {
+    list.appendChild(array[i].label);
+    list.appendChild(document.createElement('br'));
+  }
+}
+
+&lt;/script&gt;</content><author><name>makietan</name></author><category term="game" /><category term="dqw" /><summary type="html">ソート</summary></entry><entry><title type="html">今年の月見バーガーは20円高い360円</title><link href="https://makietan.github.io/gourmet/2022/09/08/report.html" rel="alternate" type="text/html" title="今年の月見バーガーは20円高い360円" /><published>2022-09-08T00:00:00+09:00</published><updated>2022-09-08T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2022/09/08/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2022/09/08/report.html">&lt;div class=&quot;card&quot;&gt;
+  &lt;a href=&quot;https://tanjo.github.io/tsukimi-burger-price/&quot;&gt;&lt;/a&gt;
+  &lt;div class=&quot;card__header&quot;&gt;
+    &lt;a href=&quot;https://tanjo.github.io/tsukimi-burger-price/&quot;&gt;tanjo.github.io&lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__image&quot;&gt;
+    &lt;img src=&quot;https://tanjo.github.io/tsukimi-burger-price/res/image.png&quot; /&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__title&quot;&gt;
+    &lt;p&gt;月見バーガー価格変遷&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__description&quot;&gt;
+    &lt;p&gt;月見バーガーの価格をチャートにしました&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;高いなぁ…。&lt;/p&gt;
+
+&lt;p&gt;ベーコンと玉子をオーロラソースのようなもので食ってるだけなのに。&lt;/p&gt;
+
+&lt;p&gt;ソースの作り方さえわかれば家で作れる。&lt;/p&gt;
+
+&lt;p&gt;…オーロラソースだよねアレ。&lt;/p&gt;
+
+&lt;p&gt;ケチャップとマヨネーズを混ぜるだけだから朝にやってみるか。&lt;/p&gt;</content><author><name>makietan</name></author><category term="gourmet" /><summary type="html">tanjo.github.io 月見バーガー価格変遷 月見バーガーの価格をチャートにしました</summary></entry><entry><title type="html">Google Map のタイムラインはすごい</title><link href="https://makietan.github.io/tech/2022/09/07/report.html" rel="alternate" type="text/html" title="Google Map のタイムラインはすごい" /><published>2022-09-07T00:00:00+09:00</published><updated>2022-09-07T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2022/09/07/report</id><content type="html" xml:base="https://makietan.github.io/tech/2022/09/07/report.html">&lt;p&gt;自分の行動ログってのは見ていて楽しい。&lt;/p&gt;
 
 &lt;p&gt;2013年あたりから情報として残っているのが流石Google先生って感じだわ。&lt;/p&gt;
 
@@ -194,45 +334,4 @@
 
 &lt;p&gt;色々進化していて追いつけてないのが問題だな…。&lt;/p&gt;
 
-&lt;p&gt;というか墓石とたぬきの置物を撤去しないと…。&lt;/p&gt;</content><author><name>makietan</name></author><category term="game" /><summary type="html">大葉の花火 #推し武道 #どうぶつの森 #AnimalCrossing #ACNH #NintendoSwitch pic.twitter.com/sKA2KTQkxt&amp;mdash; まきえたん🥦☘️ (@makietanX) August 28, 2022</summary></entry><entry><title type="html">2022.08公式戦は動かざること山の如し</title><link href="https://makietan.github.io/game/gup/2022/08/30/report.html" rel="alternate" type="text/html" title="2022.08公式戦は動かざること山の如し" /><published>2022-08-30T00:00:00+09:00</published><updated>2022-08-30T00:00:00+09:00</updated><id>https://makietan.github.io/game/gup/2022/08/30/report</id><content type="html" xml:base="https://makietan.github.io/game/gup/2022/08/30/report.html">&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;5輌目にしほ水着2022と4輌目に中須賀エレファントと2輌目に千代水着2021&lt;br /&gt;よっぽど強い人じゃなければだいたいこれでいけてる &lt;a href=&quot;https://t.co/lVlIfVNrsS&quot;&gt;pic.twitter.com/lVlIfVNrsS&lt;/a&gt;&lt;/p&gt;&amp;mdash; まきえたん🥦☘️ (@makietanX) &lt;a href=&quot;https://twitter.com/makietanX/status/1563370923478388738?ref_src=twsrc%5Etfw&quot;&gt;August 27, 2022&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-
-&lt;p&gt;しほ水着2022が強い。
-1ターン目にほぼマシンガンだ。&lt;/p&gt;
-
-&lt;p&gt;隊長はみほ6.5
-フラッグ車は中須賀エミクリスマス。&lt;/p&gt;
-
-&lt;p&gt;他は、まほ6.5と千代水着2021。&lt;/p&gt;
-
-&lt;p&gt;他の生徒が入る余地がないのが難点。&lt;/p&gt;
-
-&lt;p&gt;好きな継続高校を入れたいな…。&lt;/p&gt;</content><author><name>makietan</name></author><category term="game" /><category term="gup" /><summary type="html">5輌目にしほ水着2022と4輌目に中須賀エレファントと2輌目に千代水着2021よっぽど強い人じゃなければだいたいこれでいけてる pic.twitter.com/lVlIfVNrsS&amp;mdash; まきえたん🥦☘️ (@makietanX) August 27, 2022</summary></entry><entry><title type="html">ヴヴヴⅥがなんともいえない…アーバレストと比較して</title><link href="https://makietan.github.io/game/srwdd/2022/08/29/report.html" rel="alternate" type="text/html" title="ヴヴヴⅥがなんともいえない…アーバレストと比較して" /><published>2022-08-29T00:00:00+09:00</published><updated>2022-08-29T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2022/08/29/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2022/08/29/report.html">&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;ムキムキ💪アキラちゃん &lt;a href=&quot;https://twitter.com/hashtag/%E3%82%B9%E3%83%91%E3%83%AD%E3%83%9CDD?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#スパロボDD&lt;/a&gt; &lt;a href=&quot;https://t.co/8U398ZyBjf&quot;&gt;pic.twitter.com/8U398ZyBjf&lt;/a&gt;&lt;/p&gt;&amp;mdash; まきえたん🥦☘️ (@makietanX) &lt;a href=&quot;https://twitter.com/makietanX/status/1562170678660710400?ref_src=twsrc%5Etfw&quot;&gt;August 23, 2022&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-
-&lt;p&gt;残念ながら運動性が低い。&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;HP 19470&lt;/li&gt;
-  &lt;li&gt;攻撃力 12208&lt;/li&gt;
-  &lt;li&gt;防御力 10769&lt;/li&gt;
-  &lt;li&gt;照準値 1151&lt;/li&gt;
-  &lt;li&gt;運動性 956&lt;/li&gt;
-  &lt;li&gt;移動 3&lt;/li&gt;
-  &lt;li&gt;スピード 550&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;arx-7-アーバレスト&quot;&gt;ARX-7 アーバレスト&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;HP 24107&lt;/li&gt;
-  &lt;li&gt;攻撃力 15533&lt;/li&gt;
-  &lt;li&gt;防御力 12290&lt;/li&gt;
-  &lt;li&gt;照準値 1195&lt;/li&gt;
-  &lt;li&gt;運動性 1425&lt;/li&gt;
-  &lt;li&gt;移動 3&lt;/li&gt;
-  &lt;li&gt;スピード 625&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;自分のエースがこのくらいだから運動性の低さが目立つ。
-打たれ強いわけでもないからどうにかしたいところだ…。&lt;/p&gt;</content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html">ムキムキ💪アキラちゃん #スパロボDD pic.twitter.com/8U398ZyBjf&amp;mdash; まきえたん🥦☘️ (@makietanX) August 23, 2022</summary></entry></feed>
+&lt;p&gt;というか墓石とたぬきの置物を撤去しないと…。&lt;/p&gt;</content><author><name>makietan</name></author><category term="game" /><summary type="html">大葉の花火 #推し武道 #どうぶつの森 #AnimalCrossing #ACNH #NintendoSwitch pic.twitter.com/sKA2KTQkxt&amp;mdash; まきえたん🥦☘️ (@makietanX) August 28, 2022</summary></entry></feed>
