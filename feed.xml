@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2022-09-22T18:10:17+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">アニメーションPNGから透過GIFを作成するffmpegコマンド</title><link href="https://makietan.github.io/tech/2022/09/22/report.html" rel="alternate" type="text/html" title="アニメーションPNGから透過GIFを作成するffmpegコマンド" /><published>2022-09-22T00:00:00+09:00</published><updated>2022-09-22T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2022/09/22/report</id><content type="html" xml:base="https://makietan.github.io/tech/2022/09/22/report.html">&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ffmpeg &lt;span class=&quot;nt&quot;&gt;-i&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt;.png &lt;span class=&quot;nt&quot;&gt;-vf&lt;/span&gt; palettegen palette.png &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2022-09-22T18:47:50+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">アニメーションPNGから透過GIFを作成するffmpegコマンド</title><link href="https://makietan.github.io/tech/2022/09/22/report.html" rel="alternate" type="text/html" title="アニメーションPNGから透過GIFを作成するffmpegコマンド" /><published>2022-09-22T00:00:00+09:00</published><updated>2022-09-22T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2022/09/22/report</id><content type="html" xml:base="https://makietan.github.io/tech/2022/09/22/report.html">&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ffmpeg &lt;span class=&quot;nt&quot;&gt;-i&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt;.png &lt;span class=&quot;nt&quot;&gt;-vf&lt;/span&gt; palettegen palette.png &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt;
 ffmpeg &lt;span class=&quot;nt&quot;&gt;-i&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt;.png &lt;span class=&quot;nt&quot;&gt;-i&lt;/span&gt; palette.png &lt;span class=&quot;nt&quot;&gt;-filter_complex&lt;/span&gt; paletteuse out.gif
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
@@ -10,8 +10,37 @@ ffmpeg &lt;span class=&quot;nt&quot;&gt;-i&lt;/span&gt; &lt;span class=&quot;k&q
 
 &lt;h2 id=&quot;参考サイト&quot;&gt;参考サイト&lt;/h2&gt;
 
-&lt;p&gt;[embed:https://yurihyou.hatenablog.com/entry/gifanimation]
-[embed:https://nico-lab.net/optimized_256_colors_with_ffmpeg/]&lt;/p&gt;</content><author><name>makietan</name></author><category term="tech" /><summary type="html">ffmpeg -i in.png -vf palettegen palette.png &amp;amp;&amp;amp; ffmpeg -i in.png -i palette.png -filter_complex paletteuse out.gif</summary></entry><entry><title type="html">やっぱりTwitterに中国工作員がいたか</title><link href="https://makietan.github.io/twitter/2022/09/15/report.html" rel="alternate" type="text/html" title="やっぱりTwitterに中国工作員がいたか" /><published>2022-09-15T00:00:00+09:00</published><updated>2022-09-15T00:00:00+09:00</updated><id>https://makietan.github.io/twitter/2022/09/15/report</id><content type="html" xml:base="https://makietan.github.io/twitter/2022/09/15/report.html">&lt;p&gt;Twitterに中国工作員がいた。&lt;/p&gt;
+&lt;div class=&quot;card&quot;&gt;
+  &lt;a href=&quot;https://yurihyou.hatenablog.com/entry/gifanimation&quot;&gt;&lt;/a&gt;
+  &lt;div class=&quot;card__header&quot;&gt;
+    &lt;a href=&quot;https://yurihyou.hatenablog.com/entry/gifanimation&quot;&gt;yurihyou.hatenablog.com&lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__image&quot;&gt;
+    &lt;img src=&quot;https://ogimage.blog.st-hatena.com/26006613595873369/26006613658402055/1625055179&quot; /&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__title&quot;&gt;
+    &lt;p&gt;透過アニメーションの作り方 - 百合評&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__description&quot;&gt;
+    &lt;p&gt;初めに,プレビュー.appなどで背景を透過させた画像を作成しておく。 --- 一枚のGIFを作る場合 (適切なパレットを生成) ffmpeg -i in.png -vf palettegen palette.png &amp;amp;&amp;amp;ffmpeg -i in.png -i palette.png -filter_complex paletteuse out.gif ーーー 連番画像からGIFアニメを生成 (パレット生成) ffmpeg -i %d.png -vf palettegen palette.png &amp;amp;&amp;amp;ffmpeg -f image2 -r 1 -i %d.png -i palette.png -…&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;card&quot;&gt;
+  &lt;a href=&quot;https://nico-lab.net/optimized_256_colors_with_ffmpeg/&quot;&gt;&lt;/a&gt;
+  &lt;div class=&quot;card__header&quot;&gt;
+    &lt;a href=&quot;https://nico-lab.net/optimized_256_colors_with_ffmpeg/&quot;&gt;nico-lab.net&lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__image&quot;&gt;
+    &lt;img src=&quot;&quot; /&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__title&quot;&gt;
+    &lt;p&gt;ffmpeg で 256色を最適化する palettegen, paletteuse | ニコラボ&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__description&quot;&gt;
+    &lt;p&gt;16ｘ16（つまり256パターン）のパレットに色を一時出力し、それを使い最適化されたファイルが出力する。これにより最適化されたアニメ-ションGIF（アニメGIF）や、色の少ないPNG圧縮で効果が期待できる。&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</content><author><name>makietan</name></author><category term="tech" /><summary type="html">ffmpeg -i in.png -vf palettegen palette.png &amp;amp;&amp;amp; ffmpeg -i in.png -i palette.png -filter_complex paletteuse out.gif</summary></entry><entry><title type="html">やっぱりTwitterに中国工作員がいたか</title><link href="https://makietan.github.io/twitter/2022/09/15/report.html" rel="alternate" type="text/html" title="やっぱりTwitterに中国工作員がいたか" /><published>2022-09-15T00:00:00+09:00</published><updated>2022-09-15T00:00:00+09:00</updated><id>https://makietan.github.io/twitter/2022/09/15/report</id><content type="html" xml:base="https://makietan.github.io/twitter/2022/09/15/report.html">&lt;p&gt;Twitterに中国工作員がいた。&lt;/p&gt;
 
 &lt;div class=&quot;card&quot;&gt;
   &lt;a href=&quot;https://jp.reuters.com/article/twitter-whistleblower-congress-idJPKBN2QE1Z2&quot;&gt;&lt;/a&gt;

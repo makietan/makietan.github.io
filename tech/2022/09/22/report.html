@@ -96,8 +96,38 @@ ffmpeg <span class="nt">-i</span> <span class="k">in</span>.png <span class="nt"
 
 <h2 id="参考サイト">参考サイト</h2>
 
-<p>[embed:https://yurihyou.hatenablog.com/entry/gifanimation]
-[embed:https://nico-lab.net/optimized_256_colors_with_ffmpeg/]</p>
+<div class="card">
+  <a href="https://yurihyou.hatenablog.com/entry/gifanimation"></a>
+  <div class="card__header">
+    <a href="https://yurihyou.hatenablog.com/entry/gifanimation">yurihyou.hatenablog.com</a>
+  </div>
+  <div class="card__image">
+    <img src="https://ogimage.blog.st-hatena.com/26006613595873369/26006613658402055/1625055179" />
+  </div>
+  <div class="card__title">
+    <p>透過アニメーションの作り方 - 百合評</p>
+  </div>
+  <div class="card__description">
+    <p>初めに,プレビュー.appなどで背景を透過させた画像を作成しておく。 --- 一枚のGIFを作る場合 (適切なパレットを生成) ffmpeg -i in.png -vf palettegen palette.png &amp;&amp;ffmpeg -i in.png -i palette.png -filter_complex paletteuse out.gif ーーー 連番画像からGIFアニメを生成 (パレット生成) ffmpeg -i %d.png -vf palettegen palette.png &amp;&amp;ffmpeg -f image2 -r 1 -i %d.png -i palette.png -…</p>
+  </div>
+</div>
+
+<div class="card">
+  <a href="https://nico-lab.net/optimized_256_colors_with_ffmpeg/"></a>
+  <div class="card__header">
+    <a href="https://nico-lab.net/optimized_256_colors_with_ffmpeg/">nico-lab.net</a>
+  </div>
+  <div class="card__image">
+    <img src="" />
+  </div>
+  <div class="card__title">
+    <p>ffmpeg で 256色を最適化する palettegen, paletteuse | ニコラボ</p>
+  </div>
+  <div class="card__description">
+    <p>16ｘ16（つまり256パターン）のパレットに色を一時出力し、それを使い最適化されたファイルが出力する。これにより最適化されたアニメ-ションGIF（アニメGIF）や、色の少ないPNG圧縮で効果が期待できる。</p>
+  </div>
+</div>
+
 
   </div><a class="u-url" href="/tech/2022/09/22/report.html" hidden></a>
 </article>
