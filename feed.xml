@@ -1,4 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2022-09-22T13:47:57+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">やっぱりTwitterに中国工作員がいたか</title><link href="https://makietan.github.io/twitter/2022/09/15/report.html" rel="alternate" type="text/html" title="やっぱりTwitterに中国工作員がいたか" /><published>2022-09-15T00:00:00+09:00</published><updated>2022-09-15T00:00:00+09:00</updated><id>https://makietan.github.io/twitter/2022/09/15/report</id><content type="html" xml:base="https://makietan.github.io/twitter/2022/09/15/report.html">&lt;p&gt;Twitterに中国工作員がいた。&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2022-09-22T18:10:17+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">アニメーションPNGから透過GIFを作成するffmpegコマンド</title><link href="https://makietan.github.io/tech/2022/09/22/report.html" rel="alternate" type="text/html" title="アニメーションPNGから透過GIFを作成するffmpegコマンド" /><published>2022-09-22T00:00:00+09:00</published><updated>2022-09-22T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2022/09/22/report</id><content type="html" xml:base="https://makietan.github.io/tech/2022/09/22/report.html">&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ffmpeg &lt;span class=&quot;nt&quot;&gt;-i&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt;.png &lt;span class=&quot;nt&quot;&gt;-vf&lt;/span&gt; palettegen palette.png &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt;
+ffmpeg &lt;span class=&quot;nt&quot;&gt;-i&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt;.png &lt;span class=&quot;nt&quot;&gt;-i&lt;/span&gt; palette.png &lt;span class=&quot;nt&quot;&gt;-filter_complex&lt;/span&gt; paletteuse out.gif
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;in.png&lt;/code&gt; … 入力PNG画像&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;palette.png&lt;/code&gt; … 最適化用パレットPNG画像&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;out.gif&lt;/code&gt; … 出力GIF画像&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;参考サイト&quot;&gt;参考サイト&lt;/h2&gt;
+
+&lt;p&gt;[embed:https://yurihyou.hatenablog.com/entry/gifanimation]
+[embed:https://nico-lab.net/optimized_256_colors_with_ffmpeg/]&lt;/p&gt;</content><author><name>makietan</name></author><category term="tech" /><summary type="html">ffmpeg -i in.png -vf palettegen palette.png &amp;amp;&amp;amp; ffmpeg -i in.png -i palette.png -filter_complex paletteuse out.gif</summary></entry><entry><title type="html">やっぱりTwitterに中国工作員がいたか</title><link href="https://makietan.github.io/twitter/2022/09/15/report.html" rel="alternate" type="text/html" title="やっぱりTwitterに中国工作員がいたか" /><published>2022-09-15T00:00:00+09:00</published><updated>2022-09-15T00:00:00+09:00</updated><id>https://makietan.github.io/twitter/2022/09/15/report</id><content type="html" xml:base="https://makietan.github.io/twitter/2022/09/15/report.html">&lt;p&gt;Twitterに中国工作員がいた。&lt;/p&gt;
 
 &lt;div class=&quot;card&quot;&gt;
   &lt;a href=&quot;https://jp.reuters.com/article/twitter-whistleblower-congress-idJPKBN2QE1Z2&quot;&gt;&lt;/a&gt;
@@ -286,80 +299,4 @@ function sort() {
 
 &lt;p&gt;情報残ってるのかな。&lt;/p&gt;
 
-&lt;p&gt;自分の先祖なんて知らないからGoogleに情報保存しといて欲しかったわ。&lt;/p&gt;</content><author><name>makietan</name></author><category term="tech" /><summary type="html">自分の行動ログってのは見ていて楽しい。</summary></entry><entry><title type="html">毎日続ける筋トレどれにしようかな</title><link href="https://makietan.github.io/health/2022/09/06/report.html" rel="alternate" type="text/html" title="毎日続ける筋トレどれにしようかな" /><published>2022-09-06T00:00:00+09:00</published><updated>2022-09-06T00:00:00+09:00</updated><id>https://makietan.github.io/health/2022/09/06/report</id><content type="html" xml:base="https://makietan.github.io/health/2022/09/06/report.html">&lt;h2 id=&quot;メイン&quot;&gt;メイン&lt;/h2&gt;
-
-&lt;ul class=&quot;task-list&quot;&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=qHQJpCpLCcc&quot;&gt;【1日6分】 2週間で下腹ペタンコ　ぽっこりお腹がみるみる引き締まる！ ＃520&lt;/a&gt;&lt;/li&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=hge3fr50o0o&quot;&gt;【自宅で筋トレ】世界で一番楽な筋トレ＆有酸素運動で全身10種目の10分間&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;代替&quot;&gt;代替&lt;/h2&gt;
-
-&lt;ul class=&quot;task-list&quot;&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=hMSUxAJHwyc&quot;&gt;【自宅で筋トレ】世界で一番楽な筋トレ9種目&lt;/a&gt;&lt;/li&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=n5Sl3zSvIUQ&quot;&gt;世界で一番簡単で絶対に効果のある筋トレ法2種目を紹介します。&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;プランク&quot;&gt;プランク&lt;/h2&gt;
-
-&lt;ul class=&quot;task-list&quot;&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;20秒&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;スクワット&quot;&gt;スクワット&lt;/h2&gt;
-
-&lt;ul class=&quot;task-list&quot;&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;スクワット10回目&lt;/li&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;スクワット20回目&lt;/li&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;スクワット30回目&lt;/li&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;スクワット40回目&lt;/li&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;スクワット50回目&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;ヨガ&quot;&gt;ヨガ&lt;/h2&gt;
-
-&lt;ul class=&quot;task-list&quot;&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=zCHw2fWcnw4&quot;&gt;寝たままできる腰痛改善ヨガ☆&lt;/a&gt;&lt;/li&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=-INnB-WXFwM&quot;&gt;ベッドの上でスッキリ朝ヨガ☆&lt;/a&gt;&lt;/li&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=k7ju5ykeoV8&quot;&gt;寝たままできる自律神経を整えるヨガ☆&lt;/a&gt;&lt;/li&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=tEVh6R29ORY&quot;&gt;座ったままできる肩こり解消ヨガ☆&lt;/a&gt;&lt;/li&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=uswE9cXjgxM&quot;&gt;【立ち】３分でできるプチ太陽礼拝☆&lt;/a&gt;&lt;/li&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=Vr1AdVWbrFA&quot;&gt;【座ったまま3分】ガチガチ肩こりがスッキリ解消！&lt;/a&gt;&lt;/li&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=KbBru-Fh0nU&quot;&gt;【1日10分】2週間で二の腕と背中がみるみる引き締まる&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;背筋&quot;&gt;背筋&lt;/h2&gt;
-
-&lt;ul class=&quot;task-list&quot;&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;背筋10回目&lt;/li&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;背筋20回目&lt;/li&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;背筋30回目&lt;/li&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;背筋40回目&lt;/li&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;背筋50回目&lt;/li&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=q7HWEoZLD5Y&quot;&gt;背中シェイプヨガ☆　猫背を解消し、気持ちも前向きになる！ #161&lt;/a&gt;&lt;/li&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=rejzAUf8TYs&quot;&gt;背骨を整える陰ヨガ☆　上半身の凝りをほぐし自律神経を整える #123&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;腕立て伏せ&quot;&gt;腕立て伏せ&lt;/h2&gt;
-
-&lt;ul class=&quot;task-list&quot;&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;腕立て伏せ10回目&lt;/li&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;腕立て伏せ20回目&lt;/li&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;腕立て伏せ30回目&lt;/li&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;腕立て伏せ40回目&lt;/li&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;腕立て伏せ50回目&lt;/li&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=6K4jHcSoYaI&quot;&gt;二の腕シェイプ　肩こり、猫背の方にもオススメ【ヨガ】 #33&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;腹筋&quot;&gt;腹筋&lt;/h2&gt;
-&lt;ul class=&quot;task-list&quot;&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;腹筋10回目&lt;/li&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;腹筋20回目&lt;/li&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;腹筋30回目&lt;/li&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;腹筋40回目&lt;/li&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;腹筋50回目&lt;/li&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=1jVivuZx5yw&quot;&gt;【毎日8分】目指せ腹筋女子！　お腹に縦線をつくるエクササイズ #304&lt;/a&gt;&lt;/li&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=6AozslVgwK4&quot;&gt;【毎日5分】腹筋を割るピラティストレーニング☆　初心者向け #300 &lt;/a&gt;&lt;/li&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=BkBp84rra6s&quot;&gt;座ったままできる！ 簡単お腹やせエクササイズ☆ #319&lt;/a&gt;&lt;/li&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;スタンディングニーレイズ&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>makietan</name></author><category term="health" /><summary type="html">メイン</summary></entry></feed>
+&lt;p&gt;自分の先祖なんて知らないからGoogleに情報保存しといて欲しかったわ。&lt;/p&gt;</content><author><name>makietan</name></author><category term="tech" /><summary type="html">自分の行動ログってのは見ていて楽しい。</summary></entry></feed>
