@@ -91,7 +91,7 @@
 
 <div id="list">
 
-<label for="りゅうおう">りゅうおう S<input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="りゅうおう" />A<input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="りゅうおう" />B<input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="りゅうおう" />C<input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="りゅうおう" />D<input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="りゅうおう" /></label><br />
+<label for="りゅうおう">りゅうおう S<input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="りゅうおうS" />A<input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="りゅうおうA" />B<input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="りゅうおうB" />C<input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="りゅうおうC" />D<input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="りゅうおうD" /></label><br />
 <label for="ナウマンボーグ">ナウマンボーグ S<input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="ナウマンボーグS" />A<input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="ナウマンボーグA" />B<input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="ナウマンボーグB" />C<input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="ナウマンボーグC" />D<input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="ナウマンボーグD" /></label><br />
 <label for="ゴーレム">ゴーレム S<input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="ゴーレムS" />A<input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="ゴーレムA" />B<input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="ゴーレムB" />C<input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="ゴーレムC" />D<input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="ゴーレムD" /></label><br />
 <label for="メタルドラゴン">メタルドラゴン S<input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="メタルドラゴンS" />A<input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="メタルドラゴンA" />B<input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="メタルドラゴンB" />C<input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="メタルドラゴンC" />D<input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="メタルドラゴンD" /></label><br />
@@ -159,7 +159,7 @@ function load() {
   if (orbs && orbs['orbs']) {
     var checked = orbs['orbs'];
     [...document.querySelectorAll(NUMBER_QUERY)].forEach((e) => {
-      var status = checked[e.parentElement.innerText];
+      var status = checked[e.id];
       if (status) {
         e.value = status;
       }
@@ -176,7 +176,7 @@ function load() {
 function save() {
   var checked = {};
   [...document.querySelectorAll(NUMBER_QUERY)].forEach((c) => {
-      checked[c.parentElement.innerText] = c.value;
+      checked[c.id] = c.value;
   });
   var orbs = { 'orbs': checked };
 
