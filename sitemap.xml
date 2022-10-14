@@ -6765,6 +6765,18 @@
 <lastmod>2022-09-28T00:00:00+09:00</lastmod>
 </url>
 <url>
+<loc>https://makietan.github.io/tech/2022/10/12/report.html</loc>
+<lastmod>2022-10-12T00:00:00+09:00</lastmod>
+</url>
+<url>
+<loc>https://makietan.github.io/tech/ruby/2022/10/13/report.html</loc>
+<lastmod>2022-10-13T00:00:00+09:00</lastmod>
+</url>
+<url>
+<loc>https://makietan.github.io/health/2022/10/14/report.html</loc>
+<lastmod>2022-10-14T00:00:00+09:00</lastmod>
+</url>
+<url>
 <loc>https://makietan.github.io/about/</loc>
 </url>
 <url>
@@ -6808,6 +6820,9 @@
 </url>
 <url>
 <loc>https://makietan.github.io/category/railway</loc>
+</url>
+<url>
+<loc>https://makietan.github.io/category/ruby</loc>
 </url>
 <url>
 <loc>https://makietan.github.io/search/</loc>
@@ -7108,5 +7123,8 @@
 </url>
 <url>
 <loc>https://makietan.github.io/categories/company/</loc>
+</url>
+<url>
+<loc>https://makietan.github.io/categories/ruby/</loc>
 </url>
 </urlset>

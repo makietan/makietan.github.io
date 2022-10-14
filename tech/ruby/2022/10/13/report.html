@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="ja_JP"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/notosansjp.css"><!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Rubyのformatメソッドの使い方 | 肉とお米とブロッコリー</title>
+<meta name="generator" content="Jekyll v4.2.0" />
+<meta property="og:title" content="Rubyのformatメソッドの使い方" />
+<meta name="author" content="makietan" />
+<meta property="og:locale" content="ja_JP" />
+<meta name="description" content="format(&quot;%06&lt;x&gt;d %&lt;y&gt;d&quot;, x: 100, y: 200)" />
+<meta property="og:description" content="format(&quot;%06&lt;x&gt;d %&lt;y&gt;d&quot;, x: 100, y: 200)" />
+<link rel="canonical" href="https://makietan.github.io/tech/ruby/2022/10/13/report.html" />
+<meta property="og:url" content="https://makietan.github.io/tech/ruby/2022/10/13/report.html" />
+<meta property="og:site_name" content="肉とお米とブロッコリー" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2022-10-13T00:00:00+09:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Rubyのformatメソッドの使い方" />
+<script type="application/ld+json">
+{"description":"format(&quot;%06&lt;x&gt;d %&lt;y&gt;d&quot;, x: 100, y: 200)","url":"https://makietan.github.io/tech/ruby/2022/10/13/report.html","@type":"BlogPosting","headline":"Rubyのformatメソッドの使い方","dateModified":"2022-10-13T00:00:00+09:00","datePublished":"2022-10-13T00:00:00+09:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://makietan.github.io/tech/ruby/2022/10/13/report.html"},"author":{"@type":"Person","name":"makietan"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="https://makietan.github.io/feed.xml" title="肉とお米とブロッコリー" /><meta name="msvalidate.01" content="89F1D244C30C26610D2EB5442A4DA1D8" />
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-72711550-4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-72711550-4');
+</script>
+<link rel="shortcut icon" href="/assets/images/icon.ico">
+  <link rel="icon" sizes="144x144" href="/assets/images/icon_144.png">
+  <script src="/assets/js/clipboard.js" type="text/javascript" charset="utf-8"></script>
+  <script src="/assets/js/image-display.js" type="text/javascript" charset="utf-8"></script>
+  <script src="/assets/js/collapse.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@makietanx" />
+<meta name="twitter:title" content="Rubyのformatメソッドの使い方" />
+<meta name="twitter:description" content="ここは日報をメインに書きます." />
+
+<meta name="twitter:image" content="https://makietan.github.io/assets/thumbnail/logo.png" />
+
+<link rel="icon" href="https://makietan.github.io/assets/images/favicon.ico">
+  <link rel="apple-touch-icon" sizes="144x144" href="https://makietan.github.io/assets/images/icon_144.png" />
+
+  <body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">肉とお米とブロッコリー</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about/">About</a><a class="page-link" href="/category/">Category</a><a class="page-link" href="/search/">Search</a></div>
+      </nav></div>
+</header>
+
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Rubyのformatメソッドの使い方</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2022-10-13T00:00:00+09:00" itemprop="datePublished">2022-10-13 00:00
+      </time><p>
+        <span class="post-categories">
+          
+          
+            <a href="https://makietan.github.io/categories/tech">tech</a>
+            &nbsp;
+          
+            <a href="https://makietan.github.io/categories/ruby">ruby</a>
+            
+          
+        </span>
+      </p></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">format</span><span class="p">(</span><span class="s2">"%06&lt;x&gt;d %&lt;y&gt;d"</span><span class="p">,</span> <span class="ss">x: </span><span class="mi">100</span><span class="p">,</span> <span class="ss">y: </span><span class="mi">200</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>結果は以下のようになる</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="mo">000100</span> <span class="mi">200</span>
+</code></pre></div></div>
+
+<p>アノテーションとして <code class="language-plaintext highlighter-rouge">&lt;x&gt;</code> を付与すると可読性が高まるのでよい。</p>
+
+<div class="card">
+  <a href="https://paiza.io/ja/projects/new?language=ruby"></a>
+  <div class="card__header">
+    <a href="https://paiza.io/ja/projects/new?language=ruby">paiza.io</a>
+  </div>
+  <div class="card__image">
+    <img src="https://paiza.io/assets/movie_title-aed88df2f448c0d69598876d1262bdc0.png" />
+  </div>
+  <div class="card__title">
+    <p>
+Online PHP/Java/C++... editor and compiler | paiza.IO
+</p>
+  </div>
+  <div class="card__description">
+    <p></p>
+  </div>
+</div>
+
+<p>試したいなら paiza の ruby 環境で実行してみるのが手っ取り早い。</p>
+
+<p>その場合は、出力させる必要があるので <code class="language-plaintext highlighter-rouge">puts</code> を付ける必要がある。</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">puts</span> <span class="nb">format</span><span class="p">(</span><span class="s2">"%06&lt;x&gt;d %&lt;y&gt;d"</span><span class="p">,</span> <span class="ss">x: </span><span class="mi">100</span><span class="p">,</span> <span class="ss">y: </span><span class="mi">200</span><span class="p">)</span>
+</code></pre></div></div>
+
+  </div><a class="u-url" href="/tech/ruby/2022/10/13/report.html" hidden></a>
+</article>
+
+<hr>
+
+
+
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+    
+      <div class="related">
+        <h1>関連日報</h1>
+        <div class="related-posts">
+    
+          <div class="card">
+            <a href="/tech/2022/10/12/report.html" title="「rqrcode」を利用して生成したQRコードを表示する"></a>
+            <div class="card__header">
+              <a href="/tech/2022/10/12/report.html">2022-10-12 00:00</a>
+            </div>
+            <div class="card__title">
+              <p>「rqrcode」を利用して生成したQRコードを表示する</p>
+            </div>
+            <div class="card__description"></div>
+          </div>
+    
+    
+    
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+    
+          <div class="card">
+            <a href="/tech/2022/09/22/report.html" title="アニメーションPNGから透過GIFを作成するffmpegコマンド"></a>
+            <div class="card__header">
+              <a href="/tech/2022/09/22/report.html">2022-09-22 00:00</a>
+            </div>
+            <div class="card__title">
+              <p>アニメーションPNGから透過GIFを作成するffmpegコマンド</p>
+            </div>
+            <div class="card__description"></div>
+          </div>
+    
+    
+    
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+    
+          <div class="card">
+            <a href="/tech/2022/09/07/report.html" title="Google Map のタイムラインはすごい"></a>
+            <div class="card__header">
+              <a href="/tech/2022/09/07/report.html">2022-09-07 00:00</a>
+            </div>
+            <div class="card__title">
+              <p>Google Map のタイムラインはすごい</p>
+            </div>
+            <div class="card__description"></div>
+          </div>
+    
+    
+    
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+    
+          <div class="card">
+            <a href="/tech/2022/08/16/report.html" title="Mac mini のストレージが満杯になった"></a>
+            <div class="card__header">
+              <a href="/tech/2022/08/16/report.html">2022-08-16 00:00</a>
+            </div>
+            <div class="card__title">
+              <p>Mac mini のストレージが満杯になった</p>
+            </div>
+            <div class="card__description"></div>
+          </div>
+    
+    
+    
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+    
+          <div class="card">
+            <a href="/tech/2022/08/12/report.html" title="閉じるボタンじゃなくて謎の矢印ボタンが表示される広告を規制しろ"></a>
+            <div class="card__header">
+              <a href="/tech/2022/08/12/report.html">2022-08-12 00:00</a>
+            </div>
+            <div class="card__title">
+              <p>閉じるボタンじゃなくて謎の矢印ボタンが表示される広告を規制しろ</p>
+            </div>
+            <div class="card__description"></div>
+          </div>
+    
+    
+        </div>
+      </div>
+      
+
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">肉とお米とブロッコリー</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1"><ul class="social-media-list"><li><a href="https://github.com/makietan"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">makietan</span></a></li><li><a href="https://www.twitter.com/makietanx"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">makietanx</span></a></li><li><a href="/feed.xml"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#rss"></use></svg> <span>rss</span></a></li></ul>
+</div>
+      <div class="footer-col footer-col-2">
+      </div>
+      <div class="footer-col footer-col-3">
+        <p>ここは日報をメインに書きます.</p>
+      </div>
+    </div>
+
+  </div><div style='text-align:center;'>
+     <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+     <!-- https://makietan.github.io/ -->
+     <ins class="adsbygoogle"
+          style="display:block"
+          data-ad-client="ca-pub-2075260640954079"
+          data-ad-slot="8308086588"
+          data-ad-format="auto"
+          data-full-width-responsive="true"></ins>
+     <script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+     </script>
+</div>
+</footer>
+</body>
+
+</html>
