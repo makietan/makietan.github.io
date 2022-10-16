@@ -6793,6 +6793,18 @@
 <lastmod>2022-10-14T00:00:00+09:00</lastmod>
 </url>
 <url>
+<loc>https://makietan.github.io/health/2022/10/15/report.html</loc>
+<lastmod>2022-10-15T00:00:00+09:00</lastmod>
+</url>
+<url>
+<loc>https://makietan.github.io/gourmet/railway/2022/10/16/report.html</loc>
+<lastmod>2022-10-16T00:00:00+09:00</lastmod>
+</url>
+<url>
+<loc>https://makietan.github.io/health/rakuten/2022/10/17/report.html</loc>
+<lastmod>2022-10-17T00:00:00+09:00</lastmod>
+</url>
+<url>
 <loc>https://makietan.github.io/about/</loc>
 </url>
 <url>
@@ -6836,6 +6848,9 @@
 </url>
 <url>
 <loc>https://makietan.github.io/category/railway</loc>
+</url>
+<url>
+<loc>https://makietan.github.io/category/rakuten</loc>
 </url>
 <url>
 <loc>https://makietan.github.io/category/ruby</loc>
@@ -7142,5 +7157,8 @@
 </url>
 <url>
 <loc>https://makietan.github.io/categories/ruby/</loc>
+</url>
+<url>
+<loc>https://makietan.github.io/categories/rakuten/</loc>
 </url>
 </urlset>
