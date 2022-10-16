@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2022-10-16T13:42:25+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">眼鏡処方しに近くの眼科に行ったら1ヶ月以上待ちを宣告されたので颯爽と帰った</title><link href="https://makietan.github.io/health/2022/10/14/report.html" rel="alternate" type="text/html" title="眼鏡処方しに近くの眼科に行ったら1ヶ月以上待ちを宣告されたので颯爽と帰った" /><published>2022-10-14T00:00:00+09:00</published><updated>2022-10-14T00:00:00+09:00</updated><id>https://makietan.github.io/health/2022/10/14/report</id><content type="html" xml:base="https://makietan.github.io/health/2022/10/14/report.html">&lt;p&gt;視力が落ちてきたので眼科に行ったら、タイトルのようなことをされた。&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2022-10-17T02:21:05+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">眼鏡処方しに近くの眼科に行ったら1ヶ月以上待ちを宣告されたので颯爽と帰った</title><link href="https://makietan.github.io/health/2022/10/14/report.html" rel="alternate" type="text/html" title="眼鏡処方しに近くの眼科に行ったら1ヶ月以上待ちを宣告されたので颯爽と帰った" /><published>2022-10-14T00:00:00+09:00</published><updated>2022-10-14T00:00:00+09:00</updated><id>https://makietan.github.io/health/2022/10/14/report</id><content type="html" xml:base="https://makietan.github.io/health/2022/10/14/report.html">&lt;p&gt;視力が落ちてきたので眼科に行ったら、タイトルのようなことをされた。&lt;/p&gt;
 
 &lt;p&gt;免許更新もあり仕方なく作る感じなのだがそれもうまくいかない。&lt;/p&gt;
 
@@ -163,7 +163,49 @@ Online PHP/Java/C++... editor and compiler | paiza.IO
   &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;body&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;removeChild&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;tmp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
   &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;result&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>makietan</name></author><category term="tech" /><summary type="html">Jekyll で試してみたので以下のようになっている。</summary></entry><entry><title type="html">「ガルパン声優の兼役まとめた」を更新した</title><link href="https://makietan.github.io/2022/09/28/report.html" rel="alternate" type="text/html" title="「ガルパン声優の兼役まとめた」を更新した" /><published>2022-09-28T00:00:00+09:00</published><updated>2022-09-28T00:00:00+09:00</updated><id>https://makietan.github.io/2022/09/28/report</id><content type="html" xml:base="https://makietan.github.io/2022/09/28/report.html">&lt;div class=&quot;trim&quot;&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>makietan</name></author><category term="tech" /><summary type="html">Jekyll で試してみたので以下のようになっている。</summary></entry><entry><title type="html">ドライブレコーダーのデータは前方に置かないほうがいいのと可能ならクラウドに保存しよう</title><link href="https://makietan.github.io/tech/2022/10/01/report.html" rel="alternate" type="text/html" title="ドライブレコーダーのデータは前方に置かないほうがいいのと可能ならクラウドに保存しよう" /><published>2022-10-01T00:00:00+09:00</published><updated>2022-10-01T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2022/10/01/report</id><content type="html" xml:base="https://makietan.github.io/tech/2022/10/01/report.html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/7erbBbOp520&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;デジタルデータってアナログデータより簡単に消失してしまう。&lt;/p&gt;
+
+&lt;p&gt;んで、消失を防ぐにはコピーをどこかに保存しておく必要がある。&lt;/p&gt;
+
+&lt;p&gt;コピーとかが簡単なのがデジタルデータのメリットで、それをしっかり利用して防いでいかないとダメなのだ。&lt;/p&gt;
+
+&lt;p&gt;どうしてもネット上に置きたくないのであれば外付けHDDとかに保存になるが結構管理が面倒なのでクラウドがおすすめである。&lt;/p&gt;
+
+&lt;p&gt;Google ドライブとかがおすすめ。&lt;/p&gt;
+
+&lt;p&gt;おそらくそう簡単に消えることはない。&lt;/p&gt;
+
+&lt;p&gt;弱小企業にストレージを任せるとサービスが終了してデータもろとも消えてしまう事がある。&lt;/p&gt;
+
+&lt;p&gt;ただ、Googleは勝手にデータを消す報告があるのでそれは注意しないといけない。&lt;/p&gt;
+
+&lt;p&gt;いろいろと問題がありますな。&lt;/p&gt;</content><author><name>makietan</name></author><category term="tech" /><summary type="html"></summary></entry><entry><title type="html">推し武道のドラマが始まる…</title><link href="https://makietan.github.io/otaku/2022/09/30/report.html" rel="alternate" type="text/html" title="推し武道のドラマが始まる…" /><published>2022-09-30T00:00:00+09:00</published><updated>2022-09-30T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2022/09/30/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2022/09/30/report.html">&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;&lt;a href=&quot;https://twitter.com/hashtag/%E3%83%89%E3%83%A9%E3%83%9E%E6%8E%A8%E3%81%97%E6%AD%A6%E9%81%93?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#ドラマ推し武道&lt;/a&gt; の30秒PR✨&lt;br /&gt;TikTokでは15秒PRも見られます🍑&lt;br /&gt;ぜひぜひご覧ください！！&lt;a href=&quot;https://t.co/SGQpCRegw4&quot;&gt;https://t.co/SGQpCRegw4&lt;/a&gt;&lt;a href=&quot;https://twitter.com/hashtag/ABC%E3%83%86%E3%83%AC%E3%83%93?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#ABCテレビ&lt;/a&gt; 10/9(日) よる 11:55&lt;a href=&quot;https://twitter.com/hashtag/%E3%83%86%E3%83%AC%E3%83%93%E6%9C%9D%E6%97%A5?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#テレビ朝日&lt;/a&gt; 10/8(土) 深夜 2:30 放送開始 &lt;a href=&quot;https://t.co/HKblLmtTDD&quot;&gt;pic.twitter.com/HKblLmtTDD&lt;/a&gt;&lt;/p&gt;&amp;mdash; ドラマL「推しが武道館いってくれたら死ぬ」公式 (@oshibudo_abc) &lt;a href=&quot;https://twitter.com/oshibudo_abc/status/1574716134863294466?ref_src=twsrc%5Etfw&quot;&gt;September 27, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;さて、どうなることやら。&lt;/p&gt;
+
+&lt;p&gt;個人的にはアニメが至高なので、どれだけ追いついてくるのか気になる。&lt;/p&gt;
+
+&lt;p&gt;どんな形であれ人気出て欲しい。&lt;/p&gt;</content><author><name>makietan</name></author><category term="otaku" /><summary type="html">#ドラマ推し武道 の30秒PR✨TikTokでは15秒PRも見られます🍑ぜひぜひご覧ください！！https://t.co/SGQpCRegw4#ABCテレビ 10/9(日) よる 11:55#テレビ朝日 10/8(土) 深夜 2:30 放送開始 pic.twitter.com/HKblLmtTDD&amp;mdash; ドラマL「推しが武道館いってくれたら死ぬ」公式 (@oshibudo_abc) September 27, 2022</summary></entry><entry><title type="html">愛里寿ガチャを引いてしまった…</title><link href="https://makietan.github.io/game/gup/2022/09/29/report.html" rel="alternate" type="text/html" title="愛里寿ガチャを引いてしまった…" /><published>2022-09-29T00:00:00+09:00</published><updated>2022-09-29T00:00:00+09:00</updated><id>https://makietan.github.io/game/gup/2022/09/29/report</id><content type="html" xml:base="https://makietan.github.io/game/gup/2022/09/29/report.html">&lt;p&gt;あんまりいいの持ってないから引いたんだけどね…。&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;今回の引きたい度合いをずんだもんに代弁してもらいました &lt;a href=&quot;https://twitter.com/hashtag/%E6%88%A6%E8%BB%8A%E9%81%93%E5%A4%A7%E4%BD%9C%E6%88%A6?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#戦車道大作戦&lt;/a&gt; &lt;a href=&quot;https://t.co/5zUnSuGZfA&quot;&gt;pic.twitter.com/5zUnSuGZfA&lt;/a&gt;&lt;/p&gt;&amp;mdash; まきえたん🥦☘️ (@makietanX) &lt;a href=&quot;https://twitter.com/makietanX/status/1574820620767895552?ref_src=twsrc%5Etfw&quot;&gt;September 27, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;一度は止められたんだ。一度は。&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot; data-conversation=&quot;none&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;指は止まんねぇからよ... &lt;a href=&quot;https://twitter.com/hashtag/%E6%88%A6%E8%BB%8A%E9%81%93%E5%A4%A7%E4%BD%9C%E6%88%A6?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#戦車道大作戦&lt;/a&gt; &lt;a href=&quot;https://t.co/kKNWg7V2BJ&quot;&gt;pic.twitter.com/kKNWg7V2BJ&lt;/a&gt;&lt;/p&gt;&amp;mdash; まきえたん🥦☘️ (@makietanX) &lt;a href=&quot;https://twitter.com/makietanX/status/1574829819904159745?ref_src=twsrc%5Etfw&quot;&gt;September 27, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;ダメでした。&lt;/p&gt;
+
+&lt;p&gt;引いてしまったし、排出もかなり微妙。&lt;/p&gt;
+
+&lt;p&gt;超UPってなんなんだろうか。&lt;/p&gt;</content><author><name>makietan</name></author><category term="game" /><category term="gup" /><summary type="html">あんまりいいの持ってないから引いたんだけどね…。</summary></entry><entry><title type="html">「ガルパン声優の兼役まとめた」を更新した</title><link href="https://makietan.github.io/otaku/2022/09/28/report.html" rel="alternate" type="text/html" title="「ガルパン声優の兼役まとめた」を更新した" /><published>2022-09-28T00:00:00+09:00</published><updated>2022-09-28T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2022/09/28/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2022/09/28/report.html">&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot; data-conversation=&quot;none&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;ガルパン声優の兼役まとめをちょっと更新&lt;br /&gt;ヨウコを追加&lt;br /&gt;CVは誰になるのかな？&lt;br /&gt;漫画のセリフはCV.東山奈央で今の所再生してるけど&lt;a href=&quot;https://twitter.com/hashtag/garupan?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#garupan&lt;/a&gt; &lt;a href=&quot;https://t.co/Sqte8aRPNe&quot;&gt;pic.twitter.com/Sqte8aRPNe&lt;/a&gt;&lt;/p&gt;&amp;mdash; まきえたん🥦☘️ (@makietanX) &lt;a href=&quot;https://twitter.com/makietanX/status/1575002245573197824?ref_src=twsrc%5Etfw&quot;&gt;September 28, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;div class=&quot;trim&quot;&gt;
   &lt;div class=&quot;trim__item&quot;&gt;
     &lt;a href=&quot;https://makietan.github.io/assets/images/2022-09-28-report/14-48-29.png&quot;&gt;
       &lt;img class=&quot;one&quot; src=&quot;https://makietan.github.io/assets/thumbnail/2022-09-28-report/14-48-29.png&quot; /&gt;
@@ -177,7 +219,36 @@ Online PHP/Java/C++... editor and compiler | paiza.IO
   &lt;li&gt;河嶋家犬も追加&lt;/li&gt;
   &lt;li&gt;津田美波の兼役を追加&lt;/li&gt;
   &lt;li&gt;OVAのキャラクターを追加&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>makietan</name></author><summary type="html"></summary></entry><entry><title type="html">ペットボトル飲料を24時間放置すると細菌が50倍以上増えるらしい</title><link href="https://makietan.github.io/health/2022/09/25/report.html" rel="alternate" type="text/html" title="ペットボトル飲料を24時間放置すると細菌が50倍以上増えるらしい" /><published>2022-09-25T00:00:00+09:00</published><updated>2022-09-25T00:00:00+09:00</updated><id>https://makietan.github.io/health/2022/09/25/report</id><content type="html" xml:base="https://makietan.github.io/health/2022/09/25/report.html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/LZg-5D7pBPY&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/ul&gt;</content><author><name>makietan</name></author><category term="otaku" /><summary type="html">ガルパン声優の兼役まとめをちょっと更新ヨウコを追加CVは誰になるのかな？漫画のセリフはCV.東山奈央で今の所再生してるけど#garupan pic.twitter.com/Sqte8aRPNe&amp;mdash; まきえたん🥦☘️ (@makietanX) September 28, 2022</summary></entry><entry><title type="html">ボブネミミッミ国葬というあまりにもニッチな視聴をしている人たちがいた</title><link href="https://makietan.github.io/otaku/japan/2022/09/27/report.html" rel="alternate" type="text/html" title="ボブネミミッミ国葬というあまりにもニッチな視聴をしている人たちがいた" /><published>2022-09-27T00:00:00+09:00</published><updated>2022-09-27T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/japan/2022/09/27/report</id><content type="html" xml:base="https://makietan.github.io/otaku/japan/2022/09/27/report.html">&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;&lt;a href=&quot;https://twitter.com/hashtag/%E5%9B%BD%E8%91%AC?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#国葬&lt;/a&gt; ライブ配信の裏でずっと放送されてるボブネミミッミ&lt;br /&gt;ほんとカオス&lt;a href=&quot;https://t.co/JRpNW3vZxi&quot;&gt;https://t.co/JRpNW3vZxi&lt;/a&gt;&lt;/p&gt;&amp;mdash; まきえたん🥦☘️ (@makietanX) &lt;a href=&quot;https://twitter.com/makietanX/status/1574642113173925890?ref_src=twsrc%5Etfw&quot;&gt;September 27, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;ぜひ、Twitterの検索結果を見て欲しい。&lt;/p&gt;
+
+&lt;div class=&quot;card&quot;&gt;
+  &lt;a href=&quot;https://twitter.com/search?q=%E3%83%9C%E3%83%96%E3%83%8D%E3%83%9F%E3%83%9F%E3%83%83%E3%83%9F%20%E5%9B%BD%E8%91%AC&amp;amp;src=typed_query&quot;&gt;&lt;/a&gt;
+  &lt;div class=&quot;card__header&quot;&gt;
+    &lt;a href=&quot;https://twitter.com/search?q=%E3%83%9C%E3%83%96%E3%83%8D%E3%83%9F%E3%83%9F%E3%83%83%E3%83%9F%20%E5%9B%BD%E8%91%AC&amp;amp;src=typed_query&quot;&gt;twitter.com&lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__image&quot;&gt;
+    &lt;img src=&quot;https://abs.twimg.com/responsive-web/client-web-legacy/icon-ios.b1fc7279.png&quot; /&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__title&quot;&gt;
+    &lt;p&gt;&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card__description&quot;&gt;
+    &lt;p&gt;&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;ボブネミミッミの「長生きしろよ」が対比になっていて泣けてくるんだよね。&lt;/p&gt;
+
+&lt;p&gt;統一教会の比喩として取り調べ中のカツ丼洗脳があったり、アベガーに対するアンチテーゼとしての「おこってないよ」。&lt;/p&gt;
+
+&lt;p&gt;その他色々理由付けをしてボブネミミッミ同時視聴を正当化するのも面白い。&lt;/p&gt;
+
+&lt;p&gt;いやーこれが日本だな。&lt;/p&gt;
+
+&lt;p&gt;自由にアニメを見ながら国葬もついでに見れるなんて国そうそうないよ。&lt;/p&gt;</content><author><name>makietan</name></author><category term="otaku" /><category term="japan" /><summary type="html">#国葬 ライブ配信の裏でずっと放送されてるボブネミミッミほんとカオスhttps://t.co/JRpNW3vZxi&amp;mdash; まきえたん🥦☘️ (@makietanX) September 27, 2022</summary></entry><entry><title type="html">ペットボトル飲料を24時間放置すると細菌が50倍以上増えるらしい</title><link href="https://makietan.github.io/health/2022/09/25/report.html" rel="alternate" type="text/html" title="ペットボトル飲料を24時間放置すると細菌が50倍以上増えるらしい" /><published>2022-09-25T00:00:00+09:00</published><updated>2022-09-25T00:00:00+09:00</updated><id>https://makietan.github.io/health/2022/09/25/report</id><content type="html" xml:base="https://makietan.github.io/health/2022/09/25/report.html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/LZg-5D7pBPY&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
 &lt;p&gt;いろいろ健康上懸念があるウィルス・細菌。&lt;/p&gt;
 
@@ -326,225 +397,4 @@ function sort() {
   }
 }
 
-&lt;/script&gt;</content><author><name>makietan</name></author><category term="game" /><category term="dqw" /><summary type="html">ソート</summary></entry><entry><title type="html">アニメーションPNGから透過GIFを作成するffmpegコマンド</title><link href="https://makietan.github.io/tech/2022/09/22/report.html" rel="alternate" type="text/html" title="アニメーションPNGから透過GIFを作成するffmpegコマンド" /><published>2022-09-22T00:00:00+09:00</published><updated>2022-09-22T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2022/09/22/report</id><content type="html" xml:base="https://makietan.github.io/tech/2022/09/22/report.html">&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ffmpeg &lt;span class=&quot;nt&quot;&gt;-i&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt;.png &lt;span class=&quot;nt&quot;&gt;-vf&lt;/span&gt; palettegen palette.png &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt;
-ffmpeg &lt;span class=&quot;nt&quot;&gt;-i&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt;.png &lt;span class=&quot;nt&quot;&gt;-i&lt;/span&gt; palette.png &lt;span class=&quot;nt&quot;&gt;-filter_complex&lt;/span&gt; paletteuse out.gif
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;in.png&lt;/code&gt; … 入力PNG画像&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;palette.png&lt;/code&gt; … 最適化用パレットPNG画像&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;out.gif&lt;/code&gt; … 出力GIF画像&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;参考サイト&quot;&gt;参考サイト&lt;/h2&gt;
-
-&lt;div class=&quot;card&quot;&gt;
-  &lt;a href=&quot;https://yurihyou.hatenablog.com/entry/gifanimation&quot;&gt;&lt;/a&gt;
-  &lt;div class=&quot;card__header&quot;&gt;
-    &lt;a href=&quot;https://yurihyou.hatenablog.com/entry/gifanimation&quot;&gt;yurihyou.hatenablog.com&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__image&quot;&gt;
-    &lt;img src=&quot;https://ogimage.blog.st-hatena.com/26006613595873369/26006613658402055/1625055179&quot; /&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__title&quot;&gt;
-    &lt;p&gt;透過アニメーションの作り方 - 百合評&lt;/p&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__description&quot;&gt;
-    &lt;p&gt;初めに,プレビュー.appなどで背景を透過させた画像を作成しておく。 --- 一枚のGIFを作る場合 (適切なパレットを生成) ffmpeg -i in.png -vf palettegen palette.png &amp;amp;&amp;amp;ffmpeg -i in.png -i palette.png -filter_complex paletteuse out.gif ーーー 連番画像からGIFアニメを生成 (パレット生成) ffmpeg -i %d.png -vf palettegen palette.png &amp;amp;&amp;amp;ffmpeg -f image2 -r 1 -i %d.png -i palette.png -…&lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;card&quot;&gt;
-  &lt;a href=&quot;https://nico-lab.net/optimized_256_colors_with_ffmpeg/&quot;&gt;&lt;/a&gt;
-  &lt;div class=&quot;card__header&quot;&gt;
-    &lt;a href=&quot;https://nico-lab.net/optimized_256_colors_with_ffmpeg/&quot;&gt;nico-lab.net&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__image&quot;&gt;
-    &lt;img src=&quot;&quot; /&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__title&quot;&gt;
-    &lt;p&gt;ffmpeg で 256色を最適化する palettegen, paletteuse | ニコラボ&lt;/p&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__description&quot;&gt;
-    &lt;p&gt;16ｘ16（つまり256パターン）のパレットに色を一時出力し、それを使い最適化されたファイルが出力する。これにより最適化されたアニメ-ションGIF（アニメGIF）や、色の少ないPNG圧縮で効果が期待できる。&lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;</content><author><name>makietan</name></author><category term="tech" /><summary type="html">ffmpeg -i in.png -vf palettegen palette.png &amp;amp;&amp;amp; ffmpeg -i in.png -i palette.png -filter_complex paletteuse out.gif</summary></entry><entry><title type="html">サンシャイン上坂すみれ</title><link href="https://makietan.github.io/otaku/2022/09/21/report.html" rel="alternate" type="text/html" title="サンシャイン上坂すみれ" /><published>2022-09-21T00:00:00+09:00</published><updated>2022-09-21T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2022/09/21/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2022/09/21/report.html">&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;サンシャインすみぺ &lt;a href=&quot;https://twitter.com/ABEMA?ref_src=twsrc%5Etfw&quot;&gt;@ABEMA&lt;/a&gt; で視聴中 &lt;a href=&quot;https://t.co/Qh1wvCd3lv&quot;&gt;https://t.co/Qh1wvCd3lv&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/%E3%81%9F%E3%81%8B%E3%81%AF%E3%81%97%E4%B8%8A%E5%9D%82%E3%81%A8%E5%A4%9C%E3%81%82%E3%81%9D%E3%81%B3?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#たかはし上坂と夜あそび&lt;/a&gt; &lt;a href=&quot;https://t.co/BRSyVZJ3Ub&quot;&gt;pic.twitter.com/BRSyVZJ3Ub&lt;/a&gt;&lt;/p&gt;&amp;mdash; まきえたん🥦☘️ (@makietanX) &lt;a href=&quot;https://twitter.com/makietanX/status/1572217339952926723?ref_src=twsrc%5Etfw&quot;&gt;September 20, 2022&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-
-&lt;p&gt;流石すみぺ。&lt;/p&gt;
-
-&lt;p&gt;この回の富田美憂さんかわいいですね。&lt;/p&gt;</content><author><name>makietan</name></author><category term="otaku" /><summary type="html">サンシャインすみぺ @ABEMA で視聴中 https://t.co/Qh1wvCd3lv #たかはし上坂と夜あそび pic.twitter.com/BRSyVZJ3Ub&amp;mdash; まきえたん🥦☘️ (@makietanX) September 20, 2022</summary></entry><entry><title type="html">【戦車道大作戦】2022年9月からの武芸連戦で5610を出す方法</title><link href="https://makietan.github.io/game/gup/2022/09/20/report.html" rel="alternate" type="text/html" title="【戦車道大作戦】2022年9月からの武芸連戦で5610を出す方法" /><published>2022-09-20T00:00:00+09:00</published><updated>2022-09-20T00:00:00+09:00</updated><id>https://makietan.github.io/game/gup/2022/09/20/report</id><content type="html" xml:base="https://makietan.github.io/game/gup/2022/09/20/report.html">&lt;p&gt;誰もが「ルノーFT × 5台」編成で5600Pを最大ポイントと思っていた中、突如現れた5604P。
-そのやり方は途中で編成を変える方法でした。
-今回はそちらに関しては混乱するため紹介しませんが、
-途中で変更する車輌とタイミングを変えるだけでさらに+6P、
-合計値5610P獲得できるので方法を紹介します。&lt;/p&gt;
-
-&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;第5回戦までルノーFT4輌&amp;amp;シャーマン/75→2895&lt;br /&gt;第6回戦からルノーFT3輌&amp;amp;Ⅳ号D(F2)&amp;amp;パンターG→2715&lt;br /&gt;&lt;br /&gt;2895+2715=5610&lt;br /&gt;&lt;br /&gt;知らんけど&lt;/p&gt;&amp;mdash; まきえたん🥦☘️ (@makietanX) &lt;a href=&quot;https://twitter.com/makietanX/status/1571897114682363905?ref_src=twsrc%5Etfw&quot;&gt;September 19, 2022&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-
-&lt;p&gt;「ルノーFT × 5台」編成だと取得できない指定戦車を乗せるミッションポイント300Pを取得して、
-ノーチェンジポイント-100Pと編成ポイント-290Pを相殺することで「ルノーFT × 5台」編成を上回るポイントを獲得する方法です。&lt;/p&gt;
-
-&lt;p&gt;この方法を利用すれば、途中変更で編成が可能なので、被弾したルノーFTを変えたり、配置を変更したり、搭乗キャラを変更することもできます。&lt;/p&gt;
-
-&lt;h2 id=&quot;1回戦から5回戦まで-編成ポイントの減点値--21p&quot;&gt;1回戦から5回戦まで (編成ポイントの減点値 -21P)&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;ルノーFT × 4台&lt;/li&gt;
-  &lt;li&gt;シャーマン/75 × 1台&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;6回戦から10回戦まで-編成ポイントの減点値--37p&quot;&gt;6回戦から10回戦まで (編成ポイントの減点値 -37P)&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;ルノーFT × 3台&lt;/li&gt;
-  &lt;li&gt;Ⅳ号D(F2) × 1台&lt;/li&gt;
-  &lt;li&gt;パンターG × 1台&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;1回戦から10回戦までで引かれる編成ポイント&quot;&gt;1回戦から10回戦までで引かれる編成ポイント&lt;/h2&gt;
-
-&lt;p&gt;-21P × 5 - 37P × 5 = -290P&lt;/p&gt;
-
-&lt;p&gt;(ルノーFT × 5台でも合計で-100P）&lt;/p&gt;
-
-&lt;h2 id=&quot;ミッション&quot;&gt;ミッション&lt;/h2&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;回戦&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;重要ミッション&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;備考&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;第1回戦&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;シャーマン/75 (100P)&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;第2回戦&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;5輌出撃(100P)、最後に杏撃破(30P)&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;第3回戦&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;5輌出撃(100P)&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;第4回戦&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;赤星(100P)&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;第5回戦&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;5輌出撃(100P)&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;第6回戦&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Ⅳ号D(F2)(100P)&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;&lt;span style=&quot;color: red&quot;&gt;ここで編成変更&lt;/span&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;第7回戦&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;5輌出撃(100P)&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;第8回戦&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;パンターG(100P)&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;第9回戦&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;中須賀(100P)&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;第10回戦&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;ナカジマ(100P)&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h2 id=&quot;おまけ&quot;&gt;おまけ&lt;/h2&gt;
-
-&lt;p&gt;編成を減らせばいいみたいな噂？高度な情報戦？があったので検証しましたが、
-ノーチェンジポイントは減るし、サバイブポイントも減ってろくなことがないです。
-絶対にやらないようにしましょう。&lt;/p&gt;
-
-&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot; data-conversation=&quot;none&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;うーん普通に変えるとノーチェンジ減るよな &lt;a href=&quot;https://t.co/2pba2RKdar&quot;&gt;pic.twitter.com/2pba2RKdar&lt;/a&gt;&lt;/p&gt;&amp;mdash; まきえたん🥦☘️ (@makietanX) &lt;a href=&quot;https://twitter.com/makietanX/status/1571806443766185984?ref_src=twsrc%5Etfw&quot;&gt;September 19, 2022&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;</content><author><name>makietan</name></author><category term="game" /><category term="gup" /><summary type="html">誰もが「ルノーFT × 5台」編成で5600Pを最大ポイントと思っていた中、突如現れた5604P。 そのやり方は途中で編成を変える方法でした。 今回はそちらに関しては混乱するため紹介しませんが、 途中で変更する車輌とタイミングを変えるだけでさらに+6P、 合計値5610P獲得できるので方法を紹介します。</summary></entry><entry><title type="html">#しゃべりん リアルイベントに行ってきた</title><link href="https://makietan.github.io/otaku/2022/09/19/report.html" rel="alternate" type="text/html" title="#しゃべりん リアルイベントに行ってきた" /><published>2022-09-19T00:00:00+09:00</published><updated>2022-09-19T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2022/09/19/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2022/09/19/report.html">&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;先に冷やしてた昼の部ジョッキでオロポ&lt;br /&gt;あ゛ーーーーー &lt;a href=&quot;https://t.co/KHEPGxMgvh&quot;&gt;pic.twitter.com/KHEPGxMgvh&lt;/a&gt;&lt;/p&gt;&amp;mdash; まきえたん🥦☘️ (@makietanX) &lt;a href=&quot;https://twitter.com/makietanX/status/1571479102305214464?ref_src=twsrc%5Etfw&quot;&gt;September 18, 2022&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-
-&lt;h2 id=&quot;lynnのおしゃべりんらじお-リアルイベント-vol1-昼の部夜の部-に行ってきた&quot;&gt;Lynnのおしゃべりんらじお リアルイベント vol.1 昼の部・夜の部 に行ってきた&lt;/h2&gt;
-
-&lt;div class=&quot;card&quot;&gt;
-  &lt;a href=&quot;https://bunkaagqr.zaiko.io/_buy/1tb3:Rx:2d1d0&quot;&gt;&lt;/a&gt;
-  &lt;div class=&quot;card__header&quot;&gt;
-    &lt;a href=&quot;https://bunkaagqr.zaiko.io/_buy/1tb3:Rx:2d1d0&quot;&gt;bunkaagqr.zaiko.io&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__image&quot;&gt;
-    &lt;img src=&quot;https://bunkaagqr.zaiko.io/_buy/1tb3:Rx:2d1d0.png&quot; /&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__title&quot;&gt;
-    &lt;p&gt;Lynnのおしゃべりんらじお リアルイベント vol.1 / 09.18 (日) @ 文化放送メディアプラスホール | 文化放送オンラインチケット&lt;/p&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__description&quot;&gt;
-    &lt;p&gt;Lynnのおしゃべりんらじお リアルイベント vol.1 / 09.18 (日) @ 文化放送メディアプラスホール | 文化放送オンラインチケット&lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;整理番号はあったが座席は自由だったので先に入ったもん勝ちでしたね。
-自分は窓際の誰も座らない座席で快適に観覧。
-あの座席最高でした。&lt;/p&gt;
-
-&lt;h3 id=&quot;昼の部&quot;&gt;昼の部&lt;/h3&gt;
-&lt;p&gt;ゲストは大和田仁美さん。
-何かで顔を拝見してからかわいいなと思っていたので生で見れてよかったです。
-顔だけでなくほぼすべてが可愛い感じの人でした。&lt;/p&gt;
-
-&lt;p&gt;わたてんで共演している印象があったのにちゃんと喋ったのは最近とのこと。&lt;/p&gt;
-
-&lt;p&gt;ふにゃりんではLynnさんが最終的に出題者として大和田仁美さんを
-試す感じになっていて非常に面白かったです。
-コーナー経験の有無が差になりましたね。&lt;/p&gt;
-
-&lt;p&gt;なんやかんやで罰ゲームの2人がとても良かった。&lt;/p&gt;
-
-&lt;h3 id=&quot;夜の部&quot;&gt;夜の部&lt;/h3&gt;
-&lt;p&gt;ゲストは和多田美咲さん。
-グイグイくる系の後輩みたいです。&lt;/p&gt;
-
-&lt;p&gt;ゲスト両名ともウマ娘に縁がありますね。
-そしてどちらも既にTwitterフォローしていました。&lt;/p&gt;
-
-&lt;p&gt;開始して少し経ってから柱に貼っていた注意書きが落下してビックリしていました。
-結構な音だったので近くにいた自分はビクッてなってましたけど。&lt;/p&gt;
-
-&lt;p&gt;和多田美咲さんからの2択の質問に対して全て第3の選択肢で回答するLynnさん流石だなと思いました。
-そして、インドア派・アウトドア派の両極端に位置することも判明して非常に面白かったです。&lt;/p&gt;
-
-&lt;p&gt;モケチュードが非常にカオスで正直他があまり思い出せません。
-そのくらいインパクトがすごかったです。コケコッコー。&lt;/p&gt;
-
-&lt;p&gt;あと、あっちむいてホイであいこになる度に笑いがでてくるところもヤバかったです。&lt;/p&gt;
-
-&lt;p&gt;こちらも罰ゲームの2人良かった。&lt;/p&gt;
-
-&lt;h3 id=&quot;乾杯会&quot;&gt;乾杯会&lt;/h3&gt;
-
-&lt;p&gt;乾杯はできたのでノルマは達成できたよ。&lt;/p&gt;
-
-&lt;p&gt;ただ、Lynnさんがかわいすぎてボソボソ何か喋って去ってしまいました。&lt;/p&gt;
-
-&lt;p&gt;あー陰の者を極めてしまったせいで損してますわ。&lt;/p&gt;
-
-&lt;h2 id=&quot;おわりに&quot;&gt;おわりに&lt;/h2&gt;
-
-&lt;p&gt;リアルイベント vol.2 の開催をお待ちしております。&lt;/p&gt;</content><author><name>makietan</name></author><category term="otaku" /><summary type="html">先に冷やしてた昼の部ジョッキでオロポあ゛ーーーーー pic.twitter.com/KHEPGxMgvh&amp;mdash; まきえたん🥦☘️ (@makietanX) September 18, 2022</summary></entry></feed>
+&lt;/script&gt;</content><author><name>makietan</name></author><category term="game" /><category term="dqw" /><summary type="html">ソート</summary></entry></feed>
