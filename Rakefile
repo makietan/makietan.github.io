@@ -5,6 +5,8 @@ task :default => :tomorrow
 desc "すべてのツールを適用する"
 task :b => ["utils:build"]
 
+task :b_d => ['utils:build_diff']
+
 desc "git add & git commit -m '日報'"
 task :s do
   sh "git pull origin develop"
@@ -19,6 +21,12 @@ desc "全部やる"
 task :bsp do
   Rake::Task["b"].invoke()
   Rake::Task["s"].invoke()
+  sh "git push"
+end
+
+task :bdp do
+  Rake::Task["utils:pullrequest"].invoke()
+  sh "git commit -m '日報'"
   sh "git push"
 end
 
@@ -140,6 +148,12 @@ namespace :utils do
     sh("git add .")
   end
 
+  desc "pullrequest の前にやりたいことをやる"
+  task :pullrequest do
+    Rake::Task['utils:build_diff'].invoke()
+    sh("git add .")
+  end
+
   desc "すべてのツールを適用する"
   task :build do
     threads = []
@@ -161,10 +175,35 @@ namespace :utils do
     threads.each { |t| t.join }
   end
 
+  desc "すべてのツールを適用する"
+  task :build_diff do
+    threads = []
+    threads << Thread.new do
+      Rake::Task["utils:lint:build_diff"].invoke()
+    end
+    threads << Thread.new do
+      Rake::Task["utils:twitter:build_diff"].invoke()
+    end
+    threads << Thread.new do
+      Rake::Task["utils:image:build_diff"].invoke()
+    end
+    threads << Thread.new do
+      Rake::Task["utils:embed:build_diff"].invoke()
+    end
+    threads << Thread.new do
+      Rake::Task["utils:haiku:build_diff"].invoke()
+    end
+    threads.each { |t| t.join }
+  end
+
   namespace :lint do
     desc "日本語校閲する"
     task :build do
       system "git status --porcelain | grep \"_posts\" | sed s/^...// | xargs -n 1 sh -c 'npx textlint $0'"
+    end
+
+    task :build_diff do
+      system "git diff --name-only develop | grep \"_posts\" | xargs -n 1 sh -c 'npx textlint $0'"
     end
 
     desc "日本語校閲する"
@@ -186,6 +225,10 @@ namespace :utils do
       system "git status --porcelain | grep \"_posts\" | sed s/^...// | xargs -n 1 sh -c 'rake utils:haiku:apply $0'"
     end
 
+    task :build_diff do
+      system "git diff --name-only develop | grep \"_posts\" | xargs -n 1 sh -c 'rake utils:haiku:apply $0'"
+    end
+
     desc "川柳の表示にする"
     task :apply do
       file_path = "#{ARGV.last}"
@@ -204,6 +247,10 @@ namespace :utils do
     desc "変更ファイルに適用する"
     task :build do
       system "git status --porcelain | grep \"_posts\" | sed s/^...// | xargs -n 1 sh -c 'rake utils:twitter:apply $0'"
+    end
+
+    task :build_diff do
+      system "git diff --name-only develop | grep \"_posts\" | xargs -n 1 sh -c 'rake utils:twitter:apply $0'"
     end
 
     desc "中央寄せにする"
@@ -239,6 +286,10 @@ namespace :utils do
       system "git status --porcelain | grep \"_posts\" | sed s/^...// | xargs -n 1 sh -c 'rake utils:image:apply $0'"
     end
 
+    task :build_diff do
+      system "git diff --name-only develop | grep \"_posts\" | xargs -n 1 sh -c 'rake utils:image:apply $0'"
+    end
+
     desc "image を適用する"
     task :apply do
       file_path = "#{ARGV.last}"
@@ -270,6 +321,10 @@ namespace :utils do
     desc "embed を自動適用する"
     task :build do
       system "git status --porcelain | grep \"_posts\" | sed s/^...// | xargs -n 1 sh -c 'rake utils:embed:apply $0'"
+    end
+
+    task :build_diff do
+      system "git diff --name-only develop | grep \"_posts\" | xargs -n 1 sh -c 'rake utils:embed:apply $0'"
     end
 
     desc "embed を適用する"
