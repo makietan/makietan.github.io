@@ -5,6 +5,7 @@ task :default => :tomorrow
 desc "すべてのツールを適用する"
 task :b => ["utils:build"]
 
+desc "develop ブランチとの差分に対してすべてのツールを適用する"
 task :b_d => ['utils:build_diff']
 
 desc "git diff --name-only origin/develop を実行する"
@@ -29,7 +30,8 @@ task :bsp do
   sh "git push"
 end
 
-task :bdp do
+desc "全部やる（develop差分版）"
+task :dsp do
   Rake::Task["utils:pullrequest"].invoke()
   sh "git commit -m '日報'"
   sh "git push"
@@ -199,6 +201,13 @@ namespace :utils do
       Rake::Task["utils:haiku:build_diff"].invoke()
     end
     threads.each { |t| t.join }
+  end
+
+  desc "categories: unknown な記事を見つける"
+  task :find_unknown do
+    Dir.glob('_posts/**/*.md').each do |f|
+      puts f if File.readlines(f).any?{|line| line.include?("categories: unknown")}
+    end
   end
 
   namespace :lint do
