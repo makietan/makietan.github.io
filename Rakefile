@@ -7,6 +7,11 @@ task :b => ["utils:build"]
 
 task :b_d => ['utils:build_diff']
 
+desc "git diff --name-only origin/develop を実行する"
+task :d do
+  sh "git diff --name-only origin/develop | grep \"_posts\""
+end
+
 desc "git add & git commit -m '日報'"
 task :s do
   sh "git pull origin develop"
