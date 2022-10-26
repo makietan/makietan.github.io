@@ -1,4 +1,15 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2022-10-25T17:47:05+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">戦車道大作戦の大会シルバー級をクリアした</title><link href="https://makietan.github.io/game/gup/2022/10/25/report.html" rel="alternate" type="text/html" title="戦車道大作戦の大会シルバー級をクリアした" /><published>2022-10-25T00:00:00+09:00</published><updated>2022-10-25T00:00:00+09:00</updated><id>https://makietan.github.io/game/gup/2022/10/25/report</id><content type="html" xml:base="https://makietan.github.io/game/gup/2022/10/25/report.html">&lt;p&gt;クリアできることは前々からわかっていたが、
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2022-10-26T13:14:59+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">Rubyでgrepみたいなことをする</title><link href="https://makietan.github.io/tech/2022/10/26/report.html" rel="alternate" type="text/html" title="Rubyでgrepみたいなことをする" /><published>2022-10-26T00:00:00+09:00</published><updated>2022-10-26T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2022/10/26/report</id><content type="html" xml:base="https://makietan.github.io/tech/2022/10/26/report.html">&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Dir.glob&lt;/code&gt; で再帰的にファイルを探索して &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;File.readlines(f).any?&lt;/code&gt; でキーワードがあるか確認。
+あればファイルを出力するコードになっている。&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;desc &quot;categories: unknown な記事を見つける&quot;
+task :find_unknown do
+  Dir.glob('_posts/**/*.md').each do |f|
+    puts f if File.readlines(f).any?{|line| line.include?(&quot;categories: unknown&quot;)}
+  end
+end
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;自分の記事だとこんな感じで &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;categories: unknown&lt;/code&gt; があるかどうかで変更漏れを確認したりする。&lt;/p&gt;</content><author><name>makietan</name></author><category term="tech" /><summary type="html">Dir.glob で再帰的にファイルを探索して File.readlines(f).any? でキーワードがあるか確認。 あればファイルを出力するコードになっている。</summary></entry><entry><title type="html">戦車道大作戦の大会シルバー級をクリアした</title><link href="https://makietan.github.io/game/gup/2022/10/25/report.html" rel="alternate" type="text/html" title="戦車道大作戦の大会シルバー級をクリアした" /><published>2022-10-25T00:00:00+09:00</published><updated>2022-10-25T00:00:00+09:00</updated><id>https://makietan.github.io/game/gup/2022/10/25/report</id><content type="html" xml:base="https://makietan.github.io/game/gup/2022/10/25/report.html">&lt;p&gt;クリアできることは前々からわかっていたが、
 3回戦周回のほうがオートで楽だったので未だクリアしていない状態だった。
 で、少し前に間違えて4回戦に入ってしまったので進んでしまった。&lt;/p&gt;
 
@@ -123,52 +134,4 @@
   &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;p&gt;ドラクエウォークで1日5000歩は歩くのでポイント貰えるならやって損はないね。&lt;/p&gt;</content><author><name>makietan</name></author><category term="health" /><category term="rakuten" /><summary type="html">www.watch.impress.co.jp 「楽天ヘルスケア」始動 初回は1日5000歩で100ポイント - Impress Watch 楽天グループは、ポイントを貯めながら健康管理できるスマートフォンアプリ「楽天ヘルスケア」iOS版の提供を開始した。今後、Android版も提供予定。利用料は無料。</summary></entry><entry><title type="html">餃子の王将で「野菜たっぷり担々麺」を食べてきた、それと昨日は鉄道開業150周年だったらしい</title><link href="https://makietan.github.io/gourmet/railway/2022/10/16/report.html" rel="alternate" type="text/html" title="餃子の王将で「野菜たっぷり担々麺」を食べてきた、それと昨日は鉄道開業150周年だったらしい" /><published>2022-10-16T00:00:00+09:00</published><updated>2022-10-16T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/railway/2022/10/16/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/railway/2022/10/16/report.html">&lt;p&gt;&lt;u&gt;フェアセットB(990)と餃子1皿とジャストサイズの唐揚げ&lt;/u&gt;&lt;/p&gt;
-
-&lt;div class=&quot;trim&quot;&gt;
-  &lt;div class=&quot;trim__item&quot;&gt;
-    &lt;a href=&quot;https://makietan.github.io/assets/images/2022-10-16-report/03-00-00.png&quot;&gt;
-      &lt;img class=&quot;one&quot; src=&quot;https://makietan.github.io/assets/thumbnail/2022-10-16-report/03-00-00.png&quot; /&gt;
-    &lt;/a&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;ちなみに新橋駅前店に行った。&lt;/p&gt;
-
-&lt;h2 id=&quot;鉄道開業150年&quot;&gt;鉄道開業150年&lt;/h2&gt;
-
-&lt;p&gt;実は昨日が鉄道開業150年だったらしい。&lt;/p&gt;
-
-&lt;div class=&quot;card&quot;&gt;
-  &lt;a href=&quot;https://www.jreast.co.jp/150th/&quot;&gt;&lt;/a&gt;
-  &lt;div class=&quot;card__header&quot;&gt;
-    &lt;a href=&quot;https://www.jreast.co.jp/150th/&quot;&gt;www.jreast.co.jp&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__image&quot;&gt;
-    &lt;img src=&quot;https://www.jreast.co.jp/150th/ogp.jpg&quot; /&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__title&quot;&gt;
-    &lt;p&gt;JR東日本 鉄道開業150年スペシャルサイト&lt;/p&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__description&quot;&gt;
-    &lt;p&gt;新橋～横浜間を結ぶ鉄道が開業し、今年で150年を迎えます。JR東日本グループでは鉄道開業150年を記念し、様々な企画を展開していきます&lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;雑に新橋駅を撮影した。&lt;/p&gt;
-
-&lt;p&gt;これが150年と1日経過した新橋駅だ。&lt;/p&gt;
-
-&lt;div class=&quot;trim&quot;&gt;
-  &lt;div class=&quot;trim__item&quot;&gt;
-    &lt;a href=&quot;https://makietan.github.io/assets/images/2022-10-16-report/03-01-17.png&quot;&gt;
-      &lt;img class=&quot;one&quot; src=&quot;https://makietan.github.io/assets/thumbnail/2022-10-16-report/03-01-17.png&quot; /&gt;
-    &lt;/a&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;なんか色々やってるみたいだが、行ったときには何もわからなかったので何もしていない。&lt;/p&gt;
-
-&lt;p&gt;鉄道はいつまでもつかな？&lt;/p&gt;
-
-&lt;p&gt;地方の鉄道がダメになってきているのでどうにかして欲しいのだけど今の政府じゃ無理かな。&lt;/p&gt;</content><author><name>makietan</name></author><category term="gourmet" /><category term="railway" /><summary type="html">フェアセットB(990)と餃子1皿とジャストサイズの唐揚げ</summary></entry></feed>
+&lt;p&gt;ドラクエウォークで1日5000歩は歩くのでポイント貰えるならやって損はないね。&lt;/p&gt;</content><author><name>makietan</name></author><category term="health" /><category term="rakuten" /><summary type="html">www.watch.impress.co.jp 「楽天ヘルスケア」始動 初回は1日5000歩で100ポイント - Impress Watch 楽天グループは、ポイントを貯めながら健康管理できるスマートフォンアプリ「楽天ヘルスケア」iOS版の提供を開始した。今後、Android版も提供予定。利用料は無料。</summary></entry></feed>
