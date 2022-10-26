@@ -234,6 +234,13 @@ namespace :utils do
       end
     end
 
+    desc "日本語校閲して修正する(latest)"
+    task :fix_latest do
+      Dir.glob('_posts/*.md').each do |f|
+        system "npx textlint --fix #{f}"
+      end
+    end
+
     desc "日本語校閲する"
     task :apply do
       file_path = "#{ARGV.last}"
