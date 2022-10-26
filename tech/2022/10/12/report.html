@@ -10,8 +10,8 @@
 <meta property="og:title" content="「rqrcode」を利用して生成したQRコードを表示する" />
 <meta name="author" content="makietan" />
 <meta property="og:locale" content="ja_JP" />
-<meta name="description" content="Jekyll で試してみたので以下のようになっている。" />
-<meta property="og:description" content="Jekyll で試してみたので以下のようになっている。" />
+<meta name="description" content="Jekyllで試してみたので以下のようになっている。" />
+<meta property="og:description" content="Jekyllで試してみたので以下のようになっている。" />
 <link rel="canonical" href="https://makietan.github.io/tech/2022/10/12/report.html" />
 <meta property="og:url" content="https://makietan.github.io/tech/2022/10/12/report.html" />
 <meta property="og:site_name" content="肉とお米とブロッコリー" />
@@ -20,7 +20,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="「rqrcode」を利用して生成したQRコードを表示する" />
 <script type="application/ld+json">
-{"description":"Jekyll で試してみたので以下のようになっている。","url":"https://makietan.github.io/tech/2022/10/12/report.html","@type":"BlogPosting","headline":"「rqrcode」を利用して生成したQRコードを表示する","dateModified":"2022-10-12T00:00:00+09:00","datePublished":"2022-10-12T00:00:00+09:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://makietan.github.io/tech/2022/10/12/report.html"},"author":{"@type":"Person","name":"makietan"},"@context":"https://schema.org"}</script>
+{"description":"Jekyllで試してみたので以下のようになっている。","url":"https://makietan.github.io/tech/2022/10/12/report.html","@type":"BlogPosting","headline":"「rqrcode」を利用して生成したQRコードを表示する","dateModified":"2022-10-12T00:00:00+09:00","datePublished":"2022-10-12T00:00:00+09:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://makietan.github.io/tech/2022/10/12/report.html"},"author":{"@type":"Person","name":"makietan"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="https://makietan.github.io/feed.xml" title="肉とお米とブロッコリー" /><meta name="msvalidate.01" content="89F1D244C30C26610D2EB5442A4DA1D8" />
 <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -84,10 +84,10 @@
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    <p>Jekyll で試してみたので以下のようになっている。</p>
+    <p>Jekyllで試してみたので以下のようになっている。</p>
 
 <p>やっていることは <code class="language-plaintext highlighter-rouge">_config.yml</code> に記載されているビットコインアドレスからQRコード生成。
-その生成した QRコードを表示して、クリックするとビットコインアドレスをコピーできる仕様になっている。</p>
+その生成したQRコードを表示して、クリックするとビットコインアドレスをコピーできる仕様になっている。</p>
 
 <h2 id="gemfile">Gemfile</h2>
 
@@ -100,7 +100,7 @@
 
 <h2 id="rakefile">Rakefile</h2>
 
-<p>Rakefile は文字列からQRコードを生成するコードがあるだけ。</p>
+<p>Rakefileは文字列からQRコードを生成するコードがあるだけ。</p>
 
 <p>あとは、 <code class="language-plaintext highlighter-rouge">bundle exec</code> 関連を意識せずに実行できるようなコマンドを書いている。</p>
 
@@ -132,7 +132,7 @@
 <h2 id="html">HTML</h2>
 
 <p><strong>Bootstrap</strong> や <code class="language-plaintext highlighter-rouge">poper.js</code> を使っている。
-<code class="language-plaintext highlighter-rouge">body</code> にはクリックできる <code class="language-plaintext highlighter-rouge">a</code> タグを設置し、クリック後に Modal が表示されるようになっている。</p>
+<code class="language-plaintext highlighter-rouge">body</code> にはクリックできる <code class="language-plaintext highlighter-rouge">a</code> タグを設置し、クリック後にModalが表示されるようになっている。</p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;head&gt;</span>
   <span class="nt">&lt;script </span><span class="na">type=</span><span class="s">"text/javascript"</span> <span class="na">src=</span><span class="s">"https://makietan.github.io/assets/js/clipboard.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
