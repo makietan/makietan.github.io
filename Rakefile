@@ -23,6 +23,12 @@ end
 desc "校閲する"
 task :t => ["utils:lint:build"]
 
+desc "校閲する(develop)"
+task :t_d => ["utils:link:build_diff"]
+
+desc "校閲する(最近のファイル)"
+task :t_l => ["utils:link:build_latest"]
+
 desc "全部やる"
 task :bsp do
   Rake::Task["b"].invoke()
@@ -216,8 +222,16 @@ namespace :utils do
       system "git status --porcelain | grep \"_posts\" | sed s/^...// | xargs -n 1 sh -c 'npx textlint $0'"
     end
 
+    desc "日本語校閲する(develop)"
     task :build_diff do
       system "git diff --name-only develop | grep \"_posts\" | xargs -n 1 sh -c 'npx textlint $0'"
+    end
+
+    desc "日本語校閲する(latest)"
+    task :build_latest do
+      Dir.glob('_posts/*.md').each do |f|
+        system "npx textlint #{f}"
+      end
     end
 
     desc "日本語校閲する"
