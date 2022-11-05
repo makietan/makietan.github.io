@@ -211,11 +211,7 @@ function sort_count() {
 function sort_color() {
   var list = document.getElementById('list');
   var array = [...document.querySelectorAll('main label')].map((label) => {
-    if (value === "") {
-      value = -1;
-    } else {
-      value = label.textContent.match(/\((.*)\)/)[1];
-    }
+    value = label.textContent.match(/\((.*)\)/)[1];
     return { 
       label: label, 
       value: value
