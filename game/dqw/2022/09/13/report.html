@@ -147,7 +147,7 @@ function load() {
   if (orbs && orbs['orbs']) {
     var checked = orbs['orbs'];
     [...document.querySelectorAll(NUMBER_QUERY)].forEach((e) => {
-      var status = checked[e.parentElement.innerText];
+      var status = checked[e.id];
       if (status) {
         e.value = status;
       }
@@ -164,7 +164,7 @@ function load() {
 function save() {
   var checked = {};
   [...document.querySelectorAll(NUMBER_QUERY)].forEach((c) => {
-      checked[c.parentElement.innerText] = c.value;
+      checked[c.id] = c.value;
   });
   var orbs = { 'orbs': checked };
 
