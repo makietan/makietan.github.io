@@ -1,4 +1,232 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2023-01-21T12:20:12+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">任天堂資料館が楽しみ</title><link href="https://makietan.github.io/otaku/2023/01/03/report.html" rel="alternate" type="text/html" title="任天堂資料館が楽しみ" /><published>2023-01-03T00:00:00+09:00</published><updated>2023-01-03T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2023/01/03/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2023/01/03/report.html">&lt;div class=&quot;card&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2023-01-22T04:15:56+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">スパロボDDの遠征のオーブ一覧</title><link href="https://makietan.github.io/game/srwdd/2023/01/22/report.html" rel="alternate" type="text/html" title="スパロボDDの遠征のオーブ一覧" /><published>2023-01-22T00:00:00+09:00</published><updated>2023-01-22T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2023/01/22/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2023/01/22/report.html">&lt;p&gt;成長可能な特殊スキルは、遠征開始時点で「特殊スキルオーブ合成所」にあるもの。成長する特殊スキルは確率で抽選される。（あえて習得済みにせずLV.10到達してから習得済みにするみたいなやり方も可能）&lt;/p&gt;
+
+&lt;p&gt;&lt;button id=&quot;sort&quot; onclick=&quot;sort();&quot;&gt;ソート&lt;/button&gt;&lt;/p&gt;
+
+&lt;div id=&quot;list&quot;&gt;
+
+&lt;label for=&quot;ディカアスのオーブ&quot; title=&quot;攻撃力・防御力5%/HP25%減毎&quot;&gt;ディカアスのオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;ディカアスのオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+
+&lt;label for=&quot;ディカアオスのオーブ&quot;&gt;ディカアオスのオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;ディカアオスのオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;闘争心（ディド）のオーブ&quot;&gt;闘争心（ディド）のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;闘争心（ディド）のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;フェノメナー（メグ）のオーブ&quot;&gt;フェノメナー（メグ）のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;フェノメナー（メグ）のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;TMPのオーブ&quot;&gt;TMPのオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;TMPのオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;フェノメナー（サキミ）のオーブ&quot;&gt;フェノメナー（サキミ）のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;フェノメナー（サキミ）のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;フェノメナー（ユンナ）のオーブ&quot;&gt;フェノメナー（ユンナ）のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;フェノメナー（ユンナ）のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;フェノメナー（リナリア）のオーブ&quot;&gt;フェノメナー（リナリア）のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;フェノメナー（リナリア）のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;フェノメナー（マイコ）のオーブ&quot;&gt;フェノメナー（マイコ）のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;フェノメナー（マイコ）のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;フェノメナー（ユニス）のオーブ&quot;&gt;フェノメナー（ユニス）のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;フェノメナー（ユニス）のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;フェノメナー（ベネット）のオーブ&quot;&gt;フェノメナー（ベネット）のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;フェノメナー（ベネット）のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;一心同体のオーブ&quot;&gt;一心同体のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;一心同体のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;底力（甲児）のオーブ&quot;&gt;底力（甲児）のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;底力（甲児）のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;一心同体（鉄也）のオーブ&quot;&gt;一心同体（鉄也）のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;一心同体（鉄也）のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;底力（鉄也）のオーブ&quot;&gt;底力（鉄也）のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;底力（鉄也）のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;サイボーグ（宙）のオーブ&quot;&gt;サイボーグ（宙）のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;サイボーグ（宙）のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;反骨心（宙）のオーブ&quot;&gt;反骨心（宙）のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;反骨心（宙）のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;リーダーシップ（バトルチーム）のオーブ&quot;&gt;リーダーシップ（バトルチーム）のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;リーダーシップ（バトルチーム）のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;チームワーク（バトルチーム）のオーブ&quot;&gt;チームワーク（バトルチーム）のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;チームワーク（バトルチーム）のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;デビルマンのオーブ&quot;&gt;デビルマンのオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;デビルマンのオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;悪魔の力のオーブ&quot;&gt;悪魔の力のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;悪魔の力のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;聖戦士（ショウ）のオーブ&quot;&gt;聖戦士（ショウ）のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;聖戦士（ショウ）のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;オーラ力（ショウ）のオーブ&quot;&gt;オーラ力（ショウ）のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;オーラ力（ショウ）のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;シンクロ率（シンジ）のオーブ&quot;&gt;シンクロ率（シンジ）のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;シンクロ率（シンジ）のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;底力（シンジ）のオーブ&quot;&gt;底力（シンジ）のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;底力（シンジ）のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;シンクロ率（レイ）のオーブ&quot;&gt;シンクロ率（レイ）のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;シンクロ率（レイ）のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;第一の少女のオーブ&quot;&gt;第一の少女のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;第一の少女のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;シンクロ率（アスカ）のオーブ&quot;&gt;シンクロ率（アスカ）のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;シンクロ率（アスカ）のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;天才（アスカ）のオーブ&quot;&gt;天才（アスカ）のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;天才（アスカ）のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ニュータイプ（カミーユ）のオーブ&quot;&gt;ニュータイプ（カミーユ）のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;ニュータイプ（カミーユ）のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;闘争心（カミーユ）のオーブ&quot;&gt;闘争心（カミーユ）のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;闘争心（カミーユ）のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ニュータイプ（バナージ）のオーブ&quot;&gt;ニュータイプ（バナージ）のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;ニュータイプ（バナージ）のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;箱の担い手のオーブ&quot;&gt;箱の担い手のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;箱の担い手のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;伝説の男のオーブ&quot;&gt;伝説の男のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;伝説の男のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;元ゲッターリーダーのオーブ&quot;&gt;元ゲッターリーダーのオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;元ゲッターリーダーのオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;リーダーシップ（ボルテスチーム）のオーブ&quot;&gt;リーダーシップ（ボルテスチーム）のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;リーダーシップ（ボルテスチーム）のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;チームワーク（ボルテスチーム）のオーブ&quot;&gt;チームワーク（ボルテスチーム）のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;チームワーク（ボルテスチーム）のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;勇者（凱）のオーブ&quot;&gt;勇者（凱）のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;勇者（凱）のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;Gストーン（凱）のオーブ&quot;&gt;Gストーン（凱）のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;Gストーン（凱）のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;零番隊隊長のオーブ&quot;&gt;零番隊隊長のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;零番隊隊長のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;アグレッシブ（カレン）のオーブ&quot;&gt;アグレッシブ（カレン）のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;アグレッシブ（カレン）のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;戦略眼（ゼロ）のオーブ&quot;&gt;戦略眼（ゼロ）のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;戦略眼（ゼロ）のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ゼロのオーブ&quot;&gt;ゼロのオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;ゼロのオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ウルズ7のオーブ&quot;&gt;ウルズ7のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;ウルズ7のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ゲリラ戦法のオーブ&quot;&gt;ゲリラ戦法のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;ゲリラ戦法のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ウルズ2のオーブ&quot;&gt;ウルズ2のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;ウルズ2のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ガンダムマイスター（刹那）のオーブ&quot;&gt;ガンダムマイスター（刹那）のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;ガンダムマイスター（刹那）のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ヴェーダに選ばれた存在（刹那）のオーブ&quot;&gt;ヴェーダに選ばれた存在（刹那）のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;ヴェーダに選ばれた存在（刹那）のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ソレスタルビーイング（ティエリア）のオーブ&quot;&gt;ソレスタルビーイング（ティエリア）のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;ソレスタルビーイング（ティエリア）のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ガンダムマイスター（ロックオン）のオーブ&quot;&gt;ガンダムマイスター（ロックオン）のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;ガンダムマイスター（ロックオン）のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;覚悟（アレルヤ）のオーブ&quot;&gt;覚悟（アレルヤ）のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;覚悟（アレルヤ）のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;SEED（キラ）のオーブ&quot;&gt;SEED（キラ）のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;SEED（キラ）のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;運動プログラム調整のオーブ&quot;&gt;運動プログラム調整のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;運動プログラム調整のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;SEED（アスラン）のオーブ&quot;&gt;SEED（アスラン）のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;SEED（アスラン）のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;覚悟（アスラン）のオーブ&quot;&gt;覚悟（アスラン）のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;覚悟（アスラン）のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;セレブラント（キョウ）のオーブ&quot;&gt;セレブラント（キョウ）のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;セレブラント（キョウ）のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ガンナー（キョウ）のオーブ&quot;&gt;ガンナー（キョウ）のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;ガンナー（キョウ）のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;セレブラント（ルーシェン）のオーブ&quot;&gt;セレブラント（ルーシェン）のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;セレブラント（ルーシェン）のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ガンナー（ルーシェン）のオーブ&quot;&gt;ガンナー（ルーシェン）のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;ガンナー（ルーシェン）のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;カミツキ（ハルト）のオーブ&quot;&gt;カミツキ（ハルト）のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;カミツキ（ハルト）のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;世界と戦う少年のオーブ&quot;&gt;世界と戦う少年のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;世界と戦う少年のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;カミツキ（サキ）のオーブ&quot;&gt;カミツキ（サキ）のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;カミツキ（サキ）のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;世界と戦う少女のオーブ&quot;&gt;世界と戦う少女のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;世界と戦う少女のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;アタッカー（ライゾウ）のオーブ&quot;&gt;アタッカー（ライゾウ）のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;アタッカー（ライゾウ）のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;カミツキ（アキラ）のオーブ&quot;&gt;カミツキ（アキラ）のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;カミツキ（アキラ）のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;リトルウィッチのオーブ&quot;&gt;リトルウィッチのオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;リトルウィッチのオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;阿頼耶識（三日月）のオーブ&quot;&gt;阿頼耶識（三日月）のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;阿頼耶識（三日月）のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;鉄華団（三日月）のオーブ&quot;&gt;鉄華団（三日月）のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;鉄華団（三日月）のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;鉄華団（昭弘）のオーブ&quot;&gt;鉄華団（昭弘）のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;鉄華団（昭弘）のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;専心（昭弘）のオーブ&quot;&gt;専心（昭弘）のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;専心（昭弘）のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;レイヘの指示のオーブ&quot;&gt;レイヘの指示のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;レイヘの指示のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ふたつの血のオーブ&quot;&gt;ふたつの血のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;ふたつの血のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;元レッドショルダーのオーブ&quot;&gt;元レッドショルダーのオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;元レッドショルダーのオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;精密攻撃のオーブ&quot;&gt;精密攻撃のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;精密攻撃のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;戦術眼のオーブ&quot;&gt;戦術眼のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;戦術眼のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;臨機応変のオーブ&quot;&gt;臨機応変のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;臨機応変のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;頑張り屋（韻子）のオーブ&quot;&gt;頑張り屋（韻子）のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;頑張り屋（韻子）のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;噂の破嵐万丈のオーブ&quot;&gt;噂の破嵐万丈のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;噂の破嵐万丈のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;闘争心（万丈）のオーブ&quot;&gt;闘争心（万丈）のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;闘争心（万丈）のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;フリード星の王子のオーブ&quot;&gt;フリード星の王子のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;フリード星の王子のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;底力（デューク）のオーブ&quot;&gt;底力（デューク）のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;底力（デューク）のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ゼロシステム適応者のオーブ&quot;&gt;ゼロシステム適応者のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;ゼロシステム適応者のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ピンポイント攻撃のオーブ&quot;&gt;ピンポイント攻撃のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;ピンポイント攻撃のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;死神のオーブ&quot;&gt;死神のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;死神のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;闘争心（デュオ）のオーブ&quot;&gt;闘争心（デュオ）のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;闘争心（デュオ）のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;闘争心（五飛）のオーブ&quot;&gt;闘争心（五飛）のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;闘争心（五飛）のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;見切り（五飛）のオーブ&quot;&gt;見切り（五飛）のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;見切り（五飛）のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;アタッカー（トロワ）のオーブ&quot;&gt;アタッカー（トロワ）のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;アタッカー（トロワ）のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;[+]見切り（トロワ）のオーブ&quot;&gt;[+]見切り（トロワ）のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;[+]見切り（トロワ）のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;IFS（アキト）のオーブ&quot;&gt;IFS（アキト）のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;IFS（アキト）のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;木連式・柔のオーブ&quot;&gt;木連式・柔のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;木連式・柔のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;聖戦士（シオン）のオーブ&quot;&gt;聖戦士（シオン）のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;聖戦士（シオン）のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;オーラ力（シオン）のオーブ&quot;&gt;オーラ力（シオン）のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;オーラ力（シオン）のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;流竜馬の記憶のオーブ&quot;&gt;流竜馬の記憶のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;流竜馬の記憶のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;神隼人の記憶のオーブ&quot;&gt;神隼人の記憶のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;神隼人の記憶のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;巴武蔵の記憶のオーブ&quot;&gt;巴武蔵の記憶のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;巴武蔵の記憶のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ニュータイプ（アムロ）のオーブ&quot;&gt;ニュータイプ（アムロ）のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;ニュータイプ（アムロ）のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;一年戦争の英雄のオーブ&quot;&gt;一年戦争の英雄のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;一年戦争の英雄のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;救世主のオーブ&quot;&gt;救世主のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;救世主のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;底力（ワタル）のオーブ&quot;&gt;底力（ワタル）のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;底力（ワタル）のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;剣豪（シバラク）のオーブ&quot;&gt;剣豪（シバラク）のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;剣豪（シバラク）のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;魔動戦士（大地）のオーブ&quot;&gt;魔動戦士（大地）のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;魔動戦士（大地）のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;魔動力（大地）のオーブ&quot;&gt;魔動力（大地）のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;魔動力（大地）のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;魔動戦士（ガス）のオーブ&quot;&gt;魔動戦士（ガス）のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;魔動戦士（ガス）のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;魔動力（ガス）のオーブ&quot;&gt;魔動力（ガス）のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;魔動力（ガス）のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;魔動戦士（ラビ）のオーブ&quot;&gt;魔動戦士（ラビ）のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;魔動戦士（ラビ）のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;魔動力（ラビ）のオーブ&quot;&gt;魔動力（ラビ）のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;魔動力（ラビ）のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;アーガマの血のオーブ&quot;&gt;アーガマの血のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;アーガマの血のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;闘争心（剣）のオーブ&quot;&gt;闘争心（剣）のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;闘争心（剣）のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;エリオス王家の血のオーブ&quot;&gt;エリオス王家の血のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;エリオス王家の血のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;反骨心（剣人）のオーブ&quot;&gt;反骨心（剣人）のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;反骨心（剣人）のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ハンニバルの亡霊のオーブ&quot;&gt;ハンニバルの亡霊のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;ハンニバルの亡霊のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;起死回生（日向アキト）のオーブ&quot;&gt;起死回生（日向アキト）のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;起死回生（日向アキト）のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;分の悪い賭けのオーブ&quot;&gt;分の悪い賭けのオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;分の悪い賭けのオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;勝負師のオーブ&quot;&gt;勝負師のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;勝負師のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;魔装機神操者（マサキ）のオーブ&quot;&gt;魔装機神操者（マサキ）のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;魔装機神操者（マサキ）のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;プラーナ（マサキ）のオーブ&quot;&gt;プラーナ（マサキ）のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;プラーナ（マサキ）のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ファイター・ロアのオーブ&quot;&gt;ファイター・ロアのオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;ファイター・ロアのオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;反骨心（ファイター・ロア）のオーブ&quot;&gt;反骨心（ファイター・ロア）のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;反骨心（ファイター・ロア）のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;天才（シュウ）のオーブ&quot;&gt;天才（シュウ）のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;天才（シュウ）のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;メタ・ネクシャリストのオーブ&quot;&gt;メタ・ネクシャリストのオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;メタ・ネクシャリストのオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;念動力（リュウセイ）のオーブ&quot;&gt;念動力（リュウセイ）のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;念動力（リュウセイ）のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;闘争心（リュウセイ）のオーブ&quot;&gt;闘争心（リュウセイ）のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;闘争心（リュウセイ）のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;白銀の堕天使のオーブ&quot;&gt;白銀の堕天使のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;白銀の堕天使のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;精密射撃（エクセレン）のオーブ&quot;&gt;精密射撃（エクセレン）のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;精密射撃（エクセレン）のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;闘争心（アサヒ）のオーブ&quot;&gt;闘争心（アサヒ）のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;闘争心（アサヒ）のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;底力（アサヒ）のオーブ&quot;&gt;底力（アサヒ）のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;底力（アサヒ）のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;見切り（イルム）のオーブ&quot;&gt;見切り（イルム）のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;見切り（イルム）のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;アタッカー（イルム）のオーブ&quot;&gt;アタッカー（イルム）のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;アタッカー（イルム）のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;アタッカー（エッジ）のオーブ&quot;&gt;アタッカー（エッジ）のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;アタッカー（エッジ）のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;アタッカー（シズキ）のオーブ&quot;&gt;アタッカー（シズキ）のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;アタッカー（シズキ）のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;戦術分析（シズキ）のオーブ&quot;&gt;戦術分析（シズキ）のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;戦術分析（シズキ）のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ブーステッド・チルドレン（アラド）のオーブ&quot;&gt;ブーステッド・チルドレン（アラド）のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;ブーステッド・チルドレン（アラド）のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;[+]意地（アラド）のオーブ&quot;&gt;[+]意地（アラド）のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;[+]意地（アラド）のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ヒット&amp;amp;アウェイ（ゼオラ）のオーブ&quot;&gt;ヒット&amp;amp;アウェイ（ゼオラ）のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;ヒット&amp;amp;アウェイ（ゼオラ）のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;覇気のオーブ&quot;&gt;覇気のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;覇気のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;見切り（剣児）のオーブ&quot;&gt;見切り（剣児）のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;見切り（剣児）のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;防人（剣児）のオーブ&quot;&gt;防人（剣児）のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;防人（剣児）のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;デュアルカインド（蛍汰）のオーブ&quot;&gt;デュアルカインド（蛍汰）のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;デュアルカインド（蛍汰）のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ヘッドダイバー（蛍汰）のオーブ&quot;&gt;ヘッドダイバー（蛍汰）のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;ヘッドダイバー（蛍汰）のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ウルズ1のオーブ&quot;&gt;ウルズ1のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;ウルズ1のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;アタッカー（クルーゾー）のオーブ&quot;&gt;アタッカー（クルーゾー）のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;アタッカー（クルーゾー）のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;筆頭騎士のオーブ&quot;&gt;筆頭騎士のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;筆頭騎士のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;[+]アタッカー（オルドリン）のオーブ&quot;&gt;[+]アタッカー（オルドリン）のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;[+]アタッカー（オルドリン）のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;TIME DIVERのオーブ&quot;&gt;TIME DIVERのオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;TIME DIVERのオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;[+]好敵手のオーブ&quot;&gt;[+]好敵手のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;[+]好敵手のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;特殊処理班隊長のオーブ&quot;&gt;特殊処理班隊長のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;特殊処理班隊長のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;強靭（アクセル）のオーブ&quot;&gt;強靭（アクセル）のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;強靭（アクセル）のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ザ・ヒートのオーブ&quot;&gt;ザ・ヒートのオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;ザ・ヒートのオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;ビーター殺法のオーブ&quot;&gt;ビーター殺法のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;ビーター殺法のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+&lt;label for=&quot;[+]打と意地のオーブ&quot;&gt;[+]打と意地のオーブ &lt;input style=&quot;padding-left: 16px; width: 30px;&quot; type=&quot;number&quot; inputmode=&quot;numeric&quot; pattern=&quot;^[0-9]+$&quot; id=&quot;[+]打と意地のオーブ&quot; /&gt;&lt;/label&gt;&lt;br /&gt;
+
+&lt;/div&gt;
+&lt;script&gt;
+const STORAGE_KEY = '2023-01-22-report';
+const NUMBER_QUERY = 'article input[type=&quot;number&quot;]';
+function load() {
+  var orbs = JSON.parse(localStorage.getItem(STORAGE_KEY));
+
+  if (orbs &amp;&amp; orbs['orbs']) {
+    var checked = orbs['orbs'];
+    [...document.querySelectorAll(NUMBER_QUERY)].forEach((e) =&gt; {
+      var status = checked[e.parentElement.innerText];
+      if (status) {
+        e.value = status;
+      }
+    });
+  }
+
+  [...document.querySelectorAll(NUMBER_QUERY)].forEach((e) =&gt; {
+    e.addEventListener('change', (event) =&gt; {
+      save();
+    });
+  });
+}
+
+function save() {
+  var checked = {};
+  [...document.querySelectorAll(NUMBER_QUERY)].forEach((c) =&gt; {
+      checked[c.parentElement.innerText] = c.value;
+  });
+  var orbs = { 'orbs': checked };
+
+  localStorage.setItem(STORAGE_KEY, JSON.stringify(orbs));
+}
+
+window.onload = () =&gt; {
+  load();
+}
+
+function sort() {
+  var list = document.getElementById('list');
+  var array = [...document.querySelectorAll('main label')].map((label) =&gt; {
+    var value = label.querySelector('input').value;
+    if (value === &quot;&quot;) {
+      value = -1;
+    } else {
+      value = parseInt(value);
+    }
+    return { 
+      label: label, 
+      value: value
+    };
+  }).sort((a, b) =&gt; {
+    if (a.value &lt; b.value) {
+      return -1
+    }
+    if (a.value &gt; b.value) {
+      return 1;
+    }
+    return 0;
+  });
+  while( list.firstChild ){
+    list.removeChild( list.firstChild );
+  }
+  for (var i = 0; i &lt; array.length ; i++) {
+    list.appendChild(array[i].label);
+    list.appendChild(document.createElement('br'));
+  }
+}
+
+&lt;/script&gt;</content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html">成長可能な特殊スキルは、遠征開始時点で「特殊スキルオーブ合成所」にあるもの。成長する特殊スキルは確率で抽選される。（あえて習得済みにせずLV.10到達してから習得済みにするみたいなやり方も可能）</summary></entry><entry><title type="html">任天堂資料館が楽しみ</title><link href="https://makietan.github.io/otaku/2023/01/03/report.html" rel="alternate" type="text/html" title="任天堂資料館が楽しみ" /><published>2023-01-03T00:00:00+09:00</published><updated>2023-01-03T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2023/01/03/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2023/01/03/report.html">&lt;div class=&quot;card&quot;&gt;
   &lt;a href=&quot;https://nlab.itmedia.co.jp/nl/articles/2106/02/news077.html&quot;&gt;&lt;/a&gt;
   &lt;div class=&quot;card__header&quot;&gt;
     &lt;a href=&quot;https://nlab.itmedia.co.jp/nl/articles/2106/02/news077.html&quot;&gt;nlab.itmedia.co.jp&lt;/a&gt;
@@ -228,19 +456,4 @@ window.onload = () =&gt; {
 
 &lt;p&gt;今のところ腕が痛いだけで他は特になにもない。&lt;/p&gt;
 
-&lt;p&gt;ただ、明日は何かしらあるだろうな…。&lt;/p&gt;</content><author><name>makietan</name></author><category term="health" /><summary type="html">そろそろ年末なので行ってきた。</summary></entry><entry><title type="html">ノンナの誕生日だ</title><link href="https://makietan.github.io/gup/2022/11/21/report.html" rel="alternate" type="text/html" title="ノンナの誕生日だ" /><published>2022-11-21T00:00:00+09:00</published><updated>2022-11-21T00:00:00+09:00</updated><id>https://makietan.github.io/gup/2022/11/21/report</id><content type="html" xml:base="https://makietan.github.io/gup/2022/11/21/report.html">&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;🎉HAPPY BIRTHDAY🎉&lt;br /&gt;本日11月21日は、プラウダ高校のノンナの誕生日です🎊&lt;br /&gt;&lt;br /&gt;ノンナ、お誕生日おめでとう！✨&lt;br /&gt;&lt;br /&gt;▼誕生日カレンダーはこちら&lt;a href=&quot;https://t.co/ZzaSM2e5my&quot;&gt;https://t.co/ZzaSM2e5my&lt;/a&gt;&lt;a href=&quot;https://twitter.com/hashtag/garupan?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#garupan&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/%E3%82%AC%E3%83%AB%E3%83%91%E3%83%B310%E5%91%A8%E5%B9%B4?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#ガルパン10周年&lt;/a&gt; &lt;a href=&quot;https://t.co/5bwV2mQyK9&quot;&gt;pic.twitter.com/5bwV2mQyK9&lt;/a&gt;&lt;/p&gt;&amp;mdash; 「ガールズ＆パンツァー」公式アカウント (@garupan) &lt;a href=&quot;https://twitter.com/garupan/status/1594344817382801410?ref_src=twsrc%5Etfw&quot;&gt;November 20, 2022&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-
-&lt;p&gt;全体的にでっかい。&lt;/p&gt;
-
-&lt;p&gt;声優がすみぺで戦車道大作戦ではガチャからよく出てきた時期もあったし、なにかと縁があるキャラクターだ。
-基本あんまり喋らないし、プラウダも負けが続いているから最近は目立たないが、劇場版ではみんなが涙を流すシーンで素晴らしい活躍をしてくれた。
-最終章は4・5・6とチャンスが3回もあるので何かしら喋ってくれるといいなと思う。&lt;/p&gt;
-
-&lt;p&gt;趣味がカチューシャ日記なので究極のド変態であることも確定的だ。
-寡黙なキャラは基本変態だからな。&lt;/p&gt;
-
-&lt;p&gt;あとスナイパーとしても腕がすごい。
-大洗女子学園の車輌を撃破したのはノンナだけなので、
-壁となるモブ車輌がいないと身を守れないので言い過ぎだとは思うが、
-1:多でも正直圧倒できそうな気もしている。&lt;/p&gt;</content><author><name>makietan</name></author><category term="gup" /><summary type="html">🎉HAPPY BIRTHDAY🎉本日11月21日は、プラウダ高校のノンナの誕生日です🎊ノンナ、お誕生日おめでとう！✨▼誕生日カレンダーはこちらhttps://t.co/ZzaSM2e5my#garupan #ガルパン10周年 pic.twitter.com/5bwV2mQyK9&amp;mdash; 「ガールズ＆パンツァー」公式アカウント (@garupan) November 20, 2022</summary></entry></feed>
+&lt;p&gt;ただ、明日は何かしらあるだろうな…。&lt;/p&gt;</content><author><name>makietan</name></author><category term="health" /><summary type="html">そろそろ年末なので行ってきた。</summary></entry></feed>
