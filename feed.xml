@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2023-02-06T16:13:35+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">そろそろ確定申告をしよう</title><link href="https://makietan.github.io/japan/2023/02/06/report.html" rel="alternate" type="text/html" title="そろそろ確定申告をしよう" /><published>2023-02-06T00:00:00+09:00</published><updated>2023-02-06T00:00:00+09:00</updated><id>https://makietan.github.io/japan/2023/02/06/report</id><content type="html" xml:base="https://makietan.github.io/japan/2023/02/06/report.html">&lt;ul&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2023-02-06T16:43:47+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">そろそろ確定申告をしよう</title><link href="https://makietan.github.io/japan/2023/02/06/report.html" rel="alternate" type="text/html" title="そろそろ確定申告をしよう" /><published>2023-02-06T00:00:00+09:00</published><updated>2023-02-06T00:00:00+09:00</updated><id>https://makietan.github.io/japan/2023/02/06/report</id><content type="html" xml:base="https://makietan.github.io/japan/2023/02/06/report.html">&lt;ul&gt;
   &lt;li&gt;医療費控除&lt;/li&gt;
   &lt;li&gt;ふるさと納税&lt;/li&gt;
   &lt;li&gt;FX&lt;/li&gt;
@@ -24,6 +24,11 @@
 
 &lt;p&gt;あー早く振りたい。&lt;/p&gt;</content><author><name>makietan</name></author><category term="otaku" /><summary type="html">今回一番嬉しいゲバ棒なんやかんやでタイミング悪く買えてなかったから10年目にしてようやく入手という体たらく#すみぺ #すみぺれんぽう pic.twitter.com/oDAthVluYv&amp;mdash; まきえたん🥦☘️ (@makietanX) February 3, 2023</summary></entry><entry><title type="html">JavaScript で音声認識して喋らせる</title><link href="https://makietan.github.io/tech/2023/02/03/report.html" rel="alternate" type="text/html" title="JavaScript で音声認識して喋らせる" /><published>2023-02-03T00:00:00+09:00</published><updated>2023-02-03T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2023/02/03/report</id><content type="html" xml:base="https://makietan.github.io/tech/2023/02/03/report.html">&lt;p&gt;このサイトのマイク入力をオンにすると音声認識して喋り始めます。&lt;/p&gt;
 
+&lt;p&gt;某マインクラフト実況者がマイクラしながら喋らせてたので似たようなことできないかとやってみたら
+あっさりできてしまった。&lt;/p&gt;
+
+&lt;h2 id=&quot;ログ&quot;&gt;ログ&lt;/h2&gt;
+
 &lt;div id=&quot;log&quot;&gt;&lt;/div&gt;
 
 &lt;script&gt;
@@ -46,10 +51,7 @@
   }
 
   recognition.start();
-&lt;/script&gt;
-
-&lt;p&gt;某マインクラフト実況者がマイクラしながら喋らせてたので似たようなことできないかとやってみたら
-あっさりできてしまった。&lt;/p&gt;</content><author><name>makietan</name></author><category term="tech" /><summary type="html">このサイトのマイク入力をオンにすると音声認識して喋り始めます。</summary></entry><entry><title type="html">次に引っ越すときにあったらいいなと思うもの</title><link href="https://makietan.github.io/house/2023/02/02/report.html" rel="alternate" type="text/html" title="次に引っ越すときにあったらいいなと思うもの" /><published>2023-02-02T00:00:00+09:00</published><updated>2023-02-02T00:00:00+09:00</updated><id>https://makietan.github.io/house/2023/02/02/report</id><content type="html" xml:base="https://makietan.github.io/house/2023/02/02/report.html">&lt;p&gt;そろそろ引っ越したいなと思いつつも面倒で何もできていない。&lt;/p&gt;
+&lt;/script&gt;</content><author><name>makietan</name></author><category term="tech" /><summary type="html">このサイトのマイク入力をオンにすると音声認識して喋り始めます。</summary></entry><entry><title type="html">次に引っ越すときにあったらいいなと思うもの</title><link href="https://makietan.github.io/house/2023/02/02/report.html" rel="alternate" type="text/html" title="次に引っ越すときにあったらいいなと思うもの" /><published>2023-02-02T00:00:00+09:00</published><updated>2023-02-02T00:00:00+09:00</updated><id>https://makietan.github.io/house/2023/02/02/report</id><content type="html" xml:base="https://makietan.github.io/house/2023/02/02/report.html">&lt;p&gt;そろそろ引っ越したいなと思いつつも面倒で何もできていない。&lt;/p&gt;
 
 &lt;p&gt;コロナ規制がそろそろ撤廃されるので賃貸価格とかどうなるんだろうか。&lt;/p&gt;
 
