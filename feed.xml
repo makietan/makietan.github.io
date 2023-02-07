@@ -1,4 +1,18 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2023-02-06T16:43:47+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">そろそろ確定申告をしよう</title><link href="https://makietan.github.io/japan/2023/02/06/report.html" rel="alternate" type="text/html" title="そろそろ確定申告をしよう" /><published>2023-02-06T00:00:00+09:00</published><updated>2023-02-06T00:00:00+09:00</updated><id>https://makietan.github.io/japan/2023/02/06/report</id><content type="html" xml:base="https://makietan.github.io/japan/2023/02/06/report.html">&lt;ul&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2023-02-07T12:22:10+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">Gmail をまとめて既読アーカイブする一連のショートカット</title><link href="https://makietan.github.io/tech/2023/02/07/report.html" rel="alternate" type="text/html" title="Gmail をまとめて既読アーカイブする一連のショートカット" /><published>2023-02-07T00:00:00+09:00</published><updated>2023-02-07T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2023/02/07/report</id><content type="html" xml:base="https://makietan.github.io/tech/2023/02/07/report.html">&lt;p&gt;どうでもいいメールを既読アーカイブする作業でマウスを使うのが面倒ってときに使えるコマンド。&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;Gmail ショートカット&lt;br /&gt;Shift + * → Shift + A → j → Shift + i &lt;br /&gt;で全部既読アーカイブできるな覚えておこう&lt;/p&gt;&amp;mdash; まきえたん🥦☘️ (@makietanX) &lt;a href=&quot;https://twitter.com/makietanX/status/1622462759991640065?ref_src=twsrc%5Etfw&quot;&gt;February 6, 2023&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;h2 id=&quot;手順&quot;&gt;手順&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Shift + : (*)&lt;/li&gt;
+  &lt;li&gt;Shift + a (A)&lt;/li&gt;
+  &lt;li&gt;j&lt;/li&gt;
+  &lt;li&gt;Shift + i (I)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;1発で行いたいがそれを探すのが面倒なのと他でも融通が利くように個々に覚えておいたほうが便利かもしれないという考えでこれだけを紹介する。&lt;/p&gt;</content><author><name>makietan</name></author><category term="tech" /><summary type="html">どうでもいいメールを既読アーカイブする作業でマウスを使うのが面倒ってときに使えるコマンド。</summary></entry><entry><title type="html">そろそろ確定申告をしよう</title><link href="https://makietan.github.io/japan/2023/02/06/report.html" rel="alternate" type="text/html" title="そろそろ確定申告をしよう" /><published>2023-02-06T00:00:00+09:00</published><updated>2023-02-06T00:00:00+09:00</updated><id>https://makietan.github.io/japan/2023/02/06/report</id><content type="html" xml:base="https://makietan.github.io/japan/2023/02/06/report.html">&lt;ul&gt;
   &lt;li&gt;医療費控除&lt;/li&gt;
   &lt;li&gt;ふるさと納税&lt;/li&gt;
   &lt;li&gt;FX&lt;/li&gt;
@@ -372,20 +386,4 @@ function sort() {
   }
 }
 
-&lt;/script&gt;</content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html">成長可能な特殊スキルは、遠征開始時点で「特殊スキルオーブ合成所」にあるもの。成長する特殊スキルは確率で抽選される。（あえて習得済みにせずLV.10到達してから習得済みにするみたいなやり方も可能）</summary></entry><entry><title type="html">「ユニットパーツ交換所」を更新した</title><link href="https://makietan.github.io/game/srwdd/2023/01/21/report.html" rel="alternate" type="text/html" title="「ユニットパーツ交換所」を更新した" /><published>2023-01-21T00:00:00+09:00</published><updated>2023-01-21T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2023/01/21/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2023/01/21/report.html">&lt;p&gt;ヤルダバオト・グラディオン（期間限定）・ビルトファルケンの分を追加。&lt;/p&gt;
-
-&lt;div class=&quot;card&quot;&gt;
-  &lt;a href=&quot;https://makietan.github.io/game/srwdd/2021/10/03/report2.html&quot;&gt;&lt;/a&gt;
-  &lt;div class=&quot;card__header&quot;&gt;
-    &lt;a href=&quot;https://makietan.github.io/game/srwdd/2021/10/03/report2.html&quot;&gt;makietan.github.io&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__image&quot;&gt;
-    &lt;img src=&quot;https://makietan.github.io/assets/thumbnail/logo.png&quot; /&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__title&quot;&gt;
-    &lt;p&gt;スパロボDDの「ユニットパーツ交換所」一覧 | 日報&lt;/p&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card__description&quot;&gt;
-    &lt;p&gt;格闘等の重複名称は雑に分別済み。 交換し終えたらチェックをつける等の使い方を考えている。&lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;</content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html">ヤルダバオト・グラディオン（期間限定）・ビルトファルケンの分を追加。</summary></entry></feed>
+&lt;/script&gt;</content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html">成長可能な特殊スキルは、遠征開始時点で「特殊スキルオーブ合成所」にあるもの。成長する特殊スキルは確率で抽選される。（あえて習得済みにせずLV.10到達してから習得済みにするみたいなやり方も可能）</summary></entry></feed>
