@@ -4,9 +4,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="apple-mobile-web-app-capable" content="yes">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/notosansjp.css"><!-- Begin Jekyll SEO tag v2.7.1 -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/notosansjp.css"><!-- Begin Jekyll SEO tag v2.8.0 -->
 <title>HTMLのtableで今日の曜日を強調するJavaScript | 肉とお米とブロッコリー</title>
-<meta name="generator" content="Jekyll v4.2.0" />
+<meta name="generator" content="Jekyll v4.3.2" />
 <meta property="og:title" content="HTMLのtableで今日の曜日を強調するJavaScript" />
 <meta name="author" content="makietan" />
 <meta property="og:locale" content="ja_JP" />
@@ -20,7 +20,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="HTMLのtableで今日の曜日を強調するJavaScript" />
 <script type="application/ld+json">
-{"description":"タイトルが雑。","url":"https://makietan.github.io/tech/2022/08/03/report.html","@type":"BlogPosting","headline":"HTMLのtableで今日の曜日を強調するJavaScript","dateModified":"2022-08-03T00:00:00+09:00","datePublished":"2022-08-03T00:00:00+09:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://makietan.github.io/tech/2022/08/03/report.html"},"author":{"@type":"Person","name":"makietan"},"@context":"https://schema.org"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"makietan"},"dateModified":"2022-08-03T00:00:00+09:00","datePublished":"2022-08-03T00:00:00+09:00","description":"タイトルが雑。","headline":"HTMLのtableで今日の曜日を強調するJavaScript","mainEntityOfPage":{"@type":"WebPage","@id":"https://makietan.github.io/tech/2022/08/03/report.html"},"url":"https://makietan.github.io/tech/2022/08/03/report.html"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="https://makietan.github.io/feed.xml" title="肉とお米とブロッコリー" /><meta name="msvalidate.01" content="89F1D244C30C26610D2EB5442A4DA1D8" />
 <!-- Google tag (gtag.js) -->
@@ -98,18 +98,18 @@
 
 <p>やりたいことは <code class="language-plaintext highlighter-rouge">table</code> の今日の曜日と同じ <code class="language-plaintext highlighter-rouge">th</code> の色を変えることである。</p>
 
-<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">today</span> <span class="o">=</span> <span class="k">new</span> <span class="nb">Date</span><span class="p">();</span>
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">today</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">Date</span><span class="p">();</span>
 
-<span class="p">[...</span><span class="nb">document</span><span class="p">.</span><span class="nx">querySelectorAll</span><span class="p">(</span><span class="dl">'</span><span class="s1">th</span><span class="dl">'</span><span class="p">)]</span>
-    <span class="p">.</span><span class="nx">filter</span><span class="p">((</span><span class="nx">th</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="nx">th</span><span class="p">.</span><span class="nx">textContent</span> <span class="o">===</span> <span class="p">[</span><span class="dl">"</span><span class="s2">日</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">月</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">火</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">水</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">木</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">金</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">土</span><span class="dl">"</span><span class="p">][</span><span class="nx">today</span><span class="p">.</span><span class="nx">getDay</span><span class="p">()])</span>
-    <span class="p">.</span><span class="nx">forEach</span><span class="p">((</span><span class="nx">th</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
+<span class="p">[...</span><span class="nb">document</span><span class="p">.</span><span class="nf">querySelectorAll</span><span class="p">(</span><span class="dl">'</span><span class="s1">th</span><span class="dl">'</span><span class="p">)]</span>
+    <span class="p">.</span><span class="nf">filter</span><span class="p">((</span><span class="nx">th</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="nx">th</span><span class="p">.</span><span class="nx">textContent</span> <span class="o">===</span> <span class="p">[</span><span class="dl">"</span><span class="s2">日</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">月</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">火</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">水</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">木</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">金</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">土</span><span class="dl">"</span><span class="p">][</span><span class="nx">today</span><span class="p">.</span><span class="nf">getDay</span><span class="p">()])</span>
+    <span class="p">.</span><span class="nf">forEach</span><span class="p">((</span><span class="nx">th</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
         <span class="nx">th</span><span class="p">.</span><span class="nx">style</span><span class="p">.</span><span class="nx">backgroundColor</span> <span class="o">=</span> <span class="dl">"</span><span class="s2">#8fd19e</span><span class="dl">"</span><span class="p">;</span>
     <span class="p">});</span>
 </code></pre></div></div>
 
 <h2 id="今日の曜日を取得する">今日の曜日を取得する</h2>
 
-<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="p">[</span><span class="dl">"</span><span class="s2">日</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">月</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">火</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">水</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">木</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">金</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">土</span><span class="dl">"</span><span class="p">][</span><span class="nx">today</span><span class="p">.</span><span class="nx">getDay</span><span class="p">()];</span>
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="p">[</span><span class="dl">"</span><span class="s2">日</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">月</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">火</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">水</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">木</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">金</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">土</span><span class="dl">"</span><span class="p">][</span><span class="nx">today</span><span class="p">.</span><span class="nf">getDay</span><span class="p">()];</span>
 </code></pre></div></div>
 
 <p>これで取得が可能。</p>

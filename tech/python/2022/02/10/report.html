@@ -4,9 +4,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="apple-mobile-web-app-capable" content="yes">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/notosansjp.css"><!-- Begin Jekyll SEO tag v2.7.1 -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/notosansjp.css"><!-- Begin Jekyll SEO tag v2.8.0 -->
 <title>importlib なら from ではなく getattr で関数を呼び出す | 肉とお米とブロッコリー</title>
-<meta name="generator" content="Jekyll v4.2.0" />
+<meta name="generator" content="Jekyll v4.3.2" />
 <meta property="og:title" content="importlib なら from ではなく getattr で関数を呼び出す" />
 <meta name="author" content="makietan" />
 <meta property="og:locale" content="ja_JP" />
@@ -20,7 +20,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="importlib なら from ではなく getattr で関数を呼び出す" />
 <script type="application/ld+json">
-{"description":"from importlib import import_module hoge = import_module(&#39;src.hoge&#39;) fuga = getattr(hoge, &#39;fuga&#39;)","url":"https://makietan.github.io/tech/python/2022/02/10/report.html","@type":"BlogPosting","headline":"importlib なら from ではなく getattr で関数を呼び出す","dateModified":"2022-02-10T00:00:00+09:00","datePublished":"2022-02-10T00:00:00+09:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://makietan.github.io/tech/python/2022/02/10/report.html"},"author":{"@type":"Person","name":"makietan"},"@context":"https://schema.org"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"makietan"},"dateModified":"2022-02-10T00:00:00+09:00","datePublished":"2022-02-10T00:00:00+09:00","description":"from importlib import import_module hoge = import_module(&#39;src.hoge&#39;) fuga = getattr(hoge, &#39;fuga&#39;)","headline":"importlib なら from ではなく getattr で関数を呼び出す","mainEntityOfPage":{"@type":"WebPage","@id":"https://makietan.github.io/tech/python/2022/02/10/report.html"},"url":"https://makietan.github.io/tech/python/2022/02/10/report.html"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="https://makietan.github.io/feed.xml" title="肉とお米とブロッコリー" /><meta name="msvalidate.01" content="89F1D244C30C26610D2EB5442A4DA1D8" />
 <!-- Google tag (gtag.js) -->
@@ -97,9 +97,9 @@
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="nn">importlib</span> <span class="kn">import</span> <span class="n">import_module</span>
-<span class="n">hoge</span> <span class="o">=</span> <span class="n">import_module</span><span class="p">(</span><span class="s">'src.hoge'</span><span class="p">)</span>
-<span class="n">fuga</span> <span class="o">=</span> <span class="nb">getattr</span><span class="p">(</span><span class="n">hoge</span><span class="p">,</span> <span class="s">'fuga'</span><span class="p">)</span>
+    <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="n">importlib</span> <span class="kn">import</span> <span class="n">import_module</span>
+<span class="n">hoge</span> <span class="o">=</span> <span class="nf">import_module</span><span class="p">(</span><span class="s">'src.hoge'</span><span class="p">)</span>
+<span class="n">fuga</span> <span class="o">=</span> <span class="nf">getattr</span><span class="p">(</span><span class="n">hoge</span><span class="p">,</span> <span class="s">'fuga'</span><span class="p">)</span>
 </code></pre></div></div>
 
 <p>ソースコードの階層を分けたいとかそういうときのためにメモ。</p>

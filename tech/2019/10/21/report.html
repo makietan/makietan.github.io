@@ -4,9 +4,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="apple-mobile-web-app-capable" content="yes">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/notosansjp.css"><!-- Begin Jekyll SEO tag v2.7.1 -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/notosansjp.css"><!-- Begin Jekyll SEO tag v2.8.0 -->
 <title>JavaScript でしゃべらせる | 肉とお米とブロッコリー</title>
-<meta name="generator" content="Jekyll v4.2.0" />
+<meta name="generator" content="Jekyll v4.3.2" />
 <meta property="og:title" content="JavaScript でしゃべらせる" />
 <meta name="author" content="makietan" />
 <meta property="og:locale" content="ja_JP" />
@@ -20,7 +20,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="JavaScript でしゃべらせる" />
 <script type="application/ld+json">
-{"description":"どうやら Chrome とかだとしゃべらせることができるらしい。","url":"https://makietan.github.io/tech/2019/10/21/report.html","@type":"BlogPosting","headline":"JavaScript でしゃべらせる","dateModified":"2019-10-21T00:00:00+09:00","datePublished":"2019-10-21T00:00:00+09:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://makietan.github.io/tech/2019/10/21/report.html"},"author":{"@type":"Person","name":"makietan"},"@context":"https://schema.org"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"makietan"},"dateModified":"2019-10-21T00:00:00+09:00","datePublished":"2019-10-21T00:00:00+09:00","description":"どうやら Chrome とかだとしゃべらせることができるらしい。","headline":"JavaScript でしゃべらせる","mainEntityOfPage":{"@type":"WebPage","@id":"https://makietan.github.io/tech/2019/10/21/report.html"},"url":"https://makietan.github.io/tech/2019/10/21/report.html"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="https://makietan.github.io/feed.xml" title="肉とお米とブロッコリー" /><meta name="msvalidate.01" content="89F1D244C30C26610D2EB5442A4DA1D8" />
 <!-- Google tag (gtag.js) -->
@@ -112,16 +112,16 @@
   </div>
 </div>
 
-<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">function</span> <span class="nx">speak</span><span class="p">()</span> <span class="p">{</span>
-  <span class="kd">var</span> <span class="nx">speech</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">SpeechSynthesisUtterance</span><span class="p">();</span>
-  <span class="nx">speech</span><span class="p">.</span><span class="nx">text</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="dl">'</span><span class="s1">.haiku</span><span class="dl">'</span><span class="p">).</span><span class="nx">innerText</span><span class="p">.</span><span class="nx">replace</span><span class="p">(</span><span class="dl">'</span><span class="se">\n</span><span class="dl">'</span><span class="p">,</span> <span class="dl">'</span><span class="s1">、</span><span class="dl">'</span><span class="p">);</span>
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">function</span> <span class="nf">speak</span><span class="p">()</span> <span class="p">{</span>
+  <span class="kd">var</span> <span class="nx">speech</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">SpeechSynthesisUtterance</span><span class="p">();</span>
+  <span class="nx">speech</span><span class="p">.</span><span class="nx">text</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nf">querySelector</span><span class="p">(</span><span class="dl">'</span><span class="s1">.haiku</span><span class="dl">'</span><span class="p">).</span><span class="nx">innerText</span><span class="p">.</span><span class="nf">replace</span><span class="p">(</span><span class="dl">'</span><span class="se">\n</span><span class="dl">'</span><span class="p">,</span> <span class="dl">'</span><span class="s1">、</span><span class="dl">'</span><span class="p">);</span>
   <span class="nx">speech</span><span class="p">.</span><span class="nx">lang</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">ja-JP</span><span class="dl">'</span><span class="p">;</span>
   <span class="nx">speech</span><span class="p">.</span><span class="nx">rate</span> <span class="o">=</span> <span class="mf">0.8</span><span class="p">;</span>
-  <span class="kd">var</span> <span class="nx">voices</span> <span class="o">=</span> <span class="p">[...</span><span class="nb">window</span><span class="p">.</span><span class="nx">speechSynthesis</span><span class="p">.</span><span class="nx">getVoices</span><span class="p">()].</span><span class="nx">filter</span><span class="p">((</span><span class="nx">e</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="nx">e</span><span class="p">.</span><span class="nx">lang</span> <span class="o">===</span> <span class="dl">'</span><span class="s1">ja-JP</span><span class="dl">'</span><span class="p">);</span>
-  <span class="k">if</span> <span class="p">(</span><span class="nx">voices</span><span class="p">.</span><span class="nx">length</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
-    <span class="nx">speech</span><span class="p">.</span><span class="nx">voice</span> <span class="o">=</span> <span class="nx">voices</span><span class="p">.</span><span class="nx">pop</span><span class="p">();</span>
+  <span class="kd">var</span> <span class="nx">voices</span> <span class="o">=</span> <span class="p">[...</span><span class="nb">window</span><span class="p">.</span><span class="nx">speechSynthesis</span><span class="p">.</span><span class="nf">getVoices</span><span class="p">()].</span><span class="nf">filter</span><span class="p">((</span><span class="nx">e</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="nx">e</span><span class="p">.</span><span class="nx">lang</span> <span class="o">===</span> <span class="dl">'</span><span class="s1">ja-JP</span><span class="dl">'</span><span class="p">);</span>
+  <span class="nf">if </span><span class="p">(</span><span class="nx">voices</span><span class="p">.</span><span class="nx">length</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nx">speech</span><span class="p">.</span><span class="nx">voice</span> <span class="o">=</span> <span class="nx">voices</span><span class="p">.</span><span class="nf">pop</span><span class="p">();</span>
   <span class="p">}</span>
-  <span class="nx">speechSynthesis</span><span class="p">.</span><span class="nx">speak</span><span class="p">(</span><span class="nx">speech</span><span class="p">);</span>
+  <span class="nx">speechSynthesis</span><span class="p">.</span><span class="nf">speak</span><span class="p">(</span><span class="nx">speech</span><span class="p">);</span>
 <span class="p">}</span>
 </code></pre></div></div>
 

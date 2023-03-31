@@ -4,9 +4,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="apple-mobile-web-app-capable" content="yes">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/notosansjp.css"><!-- Begin Jekyll SEO tag v2.7.1 -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/notosansjp.css"><!-- Begin Jekyll SEO tag v2.8.0 -->
 <title>Google Drive に API でアップロードする | 肉とお米とブロッコリー</title>
-<meta name="generator" content="Jekyll v4.2.0" />
+<meta name="generator" content="Jekyll v4.3.2" />
 <meta property="og:title" content="Google Drive に API でアップロードする" />
 <meta name="author" content="makietan" />
 <meta property="og:locale" content="ja_JP" />
@@ -20,7 +20,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Google Drive に API でアップロードする" />
 <script type="application/ld+json">
-{"description":"ここは日報をメインに書きます.","url":"https://makietan.github.io/tech/2018/09/06/report.html","@type":"BlogPosting","headline":"Google Drive に API でアップロードする","dateModified":"2018-09-06T00:00:00+09:00","datePublished":"2018-09-06T00:00:00+09:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://makietan.github.io/tech/2018/09/06/report.html"},"author":{"@type":"Person","name":"makietan"},"@context":"https://schema.org"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"makietan"},"dateModified":"2018-09-06T00:00:00+09:00","datePublished":"2018-09-06T00:00:00+09:00","description":"ここは日報をメインに書きます.","headline":"Google Drive に API でアップロードする","mainEntityOfPage":{"@type":"WebPage","@id":"https://makietan.github.io/tech/2018/09/06/report.html"},"url":"https://makietan.github.io/tech/2018/09/06/report.html"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="https://makietan.github.io/feed.xml" title="肉とお米とブロッコリー" /><meta name="msvalidate.01" content="89F1D244C30C26610D2EB5442A4DA1D8" />
 <!-- Google tag (gtag.js) -->
@@ -2526,11 +2526,11 @@ JSON 形式であれば、 Google にサンプルがある。</p>
 
 <p>生成したデータ(JSONファイル)をアップロードします。</p>
 
-<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">fs</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="dl">'</span><span class="s1">fs</span><span class="dl">'</span><span class="p">);</span>
-<span class="kd">const</span> <span class="p">{</span><span class="nx">google</span><span class="p">}</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="dl">'</span><span class="s1">googleapis</span><span class="dl">'</span><span class="p">);</span>
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">fs</span> <span class="o">=</span> <span class="nf">require</span><span class="p">(</span><span class="dl">'</span><span class="s1">fs</span><span class="dl">'</span><span class="p">);</span>
+<span class="kd">const</span> <span class="p">{</span><span class="nx">google</span><span class="p">}</span> <span class="o">=</span> <span class="nf">require</span><span class="p">(</span><span class="dl">'</span><span class="s1">googleapis</span><span class="dl">'</span><span class="p">);</span>
 
-<span class="k">async</span> <span class="kd">function</span> <span class="nx">runSample</span> <span class="p">(</span><span class="nx">query</span><span class="p">)</span> <span class="p">{</span>
-  <span class="kd">const</span> <span class="nx">client</span> <span class="o">=</span> <span class="k">await</span> <span class="nx">google</span><span class="p">.</span><span class="nx">auth</span><span class="p">.</span><span class="nx">getClient</span><span class="p">({</span>
+<span class="k">async</span> <span class="kd">function</span> <span class="nf">runSample</span> <span class="p">(</span><span class="nx">query</span><span class="p">)</span> <span class="p">{</span>
+  <span class="kd">const</span> <span class="nx">client</span> <span class="o">=</span> <span class="k">await</span> <span class="nx">google</span><span class="p">.</span><span class="nx">auth</span><span class="p">.</span><span class="nf">getClient</span><span class="p">({</span>
     <span class="na">keyFile</span><span class="p">:</span> <span class="dl">'</span><span class="s1">key.json</span><span class="dl">'</span><span class="p">,</span>
     <span class="na">scopes</span><span class="p">:</span> <span class="p">[</span>
       <span class="dl">'</span><span class="s1">https://www.googleapis.com/auth/drive</span><span class="dl">'</span><span class="p">,</span>
@@ -2543,14 +2543,14 @@ JSON 形式であれば、 Google にサンプルがある。</p>
     <span class="p">]</span>
   <span class="p">});</span>
 
-  <span class="kd">const</span> <span class="nx">drive</span> <span class="o">=</span> <span class="nx">google</span><span class="p">.</span><span class="nx">drive</span><span class="p">({</span>
+  <span class="kd">const</span> <span class="nx">drive</span> <span class="o">=</span> <span class="nx">google</span><span class="p">.</span><span class="nf">drive</span><span class="p">({</span>
     <span class="na">version</span><span class="p">:</span> <span class="dl">'</span><span class="s1">v3</span><span class="dl">'</span><span class="p">,</span>
     <span class="na">auth</span><span class="p">:</span> <span class="nx">client</span>
   <span class="p">});</span>
 
   <span class="kd">const</span> <span class="nx">params</span> <span class="o">=</span> <span class="p">{</span> <span class="na">pageSize</span><span class="p">:</span> <span class="mi">3</span> <span class="p">};</span>
   <span class="nx">params</span><span class="p">.</span><span class="nx">q</span> <span class="o">=</span> <span class="nx">query</span><span class="p">;</span>
-  <span class="kd">const</span> <span class="nx">res</span> <span class="o">=</span> <span class="k">await</span> <span class="nx">drive</span><span class="p">.</span><span class="nx">files</span><span class="p">.</span><span class="nx">create</span><span class="p">({</span>
+  <span class="kd">const</span> <span class="nx">res</span> <span class="o">=</span> <span class="k">await</span> <span class="nx">drive</span><span class="p">.</span><span class="nx">files</span><span class="p">.</span><span class="nf">create</span><span class="p">({</span>
     <span class="na">resource</span><span class="p">:</span> <span class="p">{</span>
       <span class="na">name</span><span class="p">:</span> <span class="dl">'</span><span class="s1">hoge.json</span><span class="dl">'</span><span class="p">,</span>
       <span class="c1">// 自分で生成したドライブディレクトリのID.</span>
@@ -2558,19 +2558,19 @@ JSON 形式であれば、 Google にサンプルがある。</p>
     <span class="p">},</span>
     <span class="na">media</span><span class="p">:</span> <span class="p">{</span>
       <span class="na">mimeType</span><span class="p">:</span> <span class="dl">'</span><span class="s1">application/json</span><span class="dl">'</span><span class="p">,</span>
-      <span class="na">body</span><span class="p">:</span> <span class="nx">fs</span><span class="p">.</span><span class="nx">createReadStream</span><span class="p">(</span><span class="dl">'</span><span class="s1">hoge.json</span><span class="dl">'</span><span class="p">)</span>
+      <span class="na">body</span><span class="p">:</span> <span class="nx">fs</span><span class="p">.</span><span class="nf">createReadStream</span><span class="p">(</span><span class="dl">'</span><span class="s1">hoge.json</span><span class="dl">'</span><span class="p">)</span>
     <span class="p">},</span>
     <span class="na">fields</span><span class="p">:</span> <span class="dl">'</span><span class="s1">id</span><span class="dl">'</span>
   <span class="p">},</span> <span class="p">(</span><span class="nx">error</span><span class="p">,</span> <span class="nx">response</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
-    <span class="k">if</span> <span class="p">(</span><span class="nx">error</span><span class="p">)</span> <span class="p">{</span>
-      <span class="nx">console</span><span class="p">.</span><span class="nx">error</span><span class="p">(</span><span class="nx">error</span><span class="p">);</span>
+    <span class="nf">if </span><span class="p">(</span><span class="nx">error</span><span class="p">)</span> <span class="p">{</span>
+      <span class="nx">console</span><span class="p">.</span><span class="nf">error</span><span class="p">(</span><span class="nx">error</span><span class="p">);</span>
     <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
-      <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="dl">'</span><span class="s1">File Id: </span><span class="dl">'</span><span class="p">,</span> <span class="nx">response</span><span class="p">.</span><span class="nx">data</span><span class="p">.</span><span class="nx">id</span><span class="p">);</span>
+      <span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="dl">'</span><span class="s1">File Id: </span><span class="dl">'</span><span class="p">,</span> <span class="nx">response</span><span class="p">.</span><span class="nx">data</span><span class="p">.</span><span class="nx">id</span><span class="p">);</span>
     <span class="p">}</span>
   <span class="p">});</span>
 <span class="p">}</span>
 
-<span class="nx">runSample</span><span class="p">();</span>
+<span class="nf">runSample</span><span class="p">();</span>
 </code></pre></div></div>
 
   </div><a class="u-url" href="/tech/2018/09/06/report.html" hidden></a>
