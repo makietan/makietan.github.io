@@ -1,4 +1,40 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2023-05-29T12:19:28+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">`android.useAndroidX` property is not enabled なら gradle.properties に `android.useAndroidX` を設定しよう</title><link href="https://makietan.github.io/tech/2023/05/24/report.html" rel="alternate" type="text/html" title="`android.useAndroidX` property is not enabled なら gradle.properties に `android.useAndroidX` を設定しよう" /><published>2023-05-24T00:00:00+09:00</published><updated>2023-05-24T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2023/05/24/report</id><content type="html" xml:base="https://makietan.github.io/tech/2023/05/24/report.html"><![CDATA[<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt; Configuration `debugUnitTestRuntimeClasspath` contains AndroidX dependencies, but the `android.useAndroidX` property is not enabled, which may cause runtime issues.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2023-05-29T15:04:34+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">「ぷよぷよプログラミング」なる子供向けっぽい教材があった</title><link href="https://makietan.github.io/tech/2023/05/29/report.html" rel="alternate" type="text/html" title="「ぷよぷよプログラミング」なる子供向けっぽい教材があった" /><published>2023-05-29T00:00:00+09:00</published><updated>2023-05-29T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2023/05/29/report</id><content type="html" xml:base="https://makietan.github.io/tech/2023/05/29/report.html"><![CDATA[<div class="card">
+  <a href="https://puyo.sega.jp/program_2020/"></a>
+  <div class="card__header">
+    <a href="https://puyo.sega.jp/program_2020/">puyo.sega.jp</a>
+  </div>
+  <div class="card__image">
+    <img src="http://puyo.sega.jp/program_2020/facebook02.jpg?20201224" />
+  </div>
+  <div class="card__title">
+    <p>【公式】ぷよぷよeスポーツ×プログラミング</p>
+  </div>
+  <div class="card__description">
+    <p>『ぷよぷよ』でプログラミングを学ぼう！プログラミング学習環境『Monaca Education』において、セガが展開するアクションパズルゲーム『ぷよぷよ』をプログラミング学習できる教材コンテンツの提供を開始しました！</p>
+  </div>
+</div>
+
+<p>これを一通りやればぷよぷよは作れるという認識でいいだろう。</p>
+
+<p>25Pくらいあるがそう難しい部分はないので熟練者も1度はやってみてもいいだろう。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[puyo.sega.jp 【公式】ぷよぷよeスポーツ×プログラミング 『ぷよぷよ』でプログラミングを学ぼう！プログラミング学習環境『Monaca Education』において、セガが展開するアクションパズルゲーム『ぷよぷよ』をプログラミング学習できる教材コンテンツの提供を開始しました！]]></summary></entry><entry><title type="html">えびと卵の炒めものを作りたい</title><link href="https://makietan.github.io/gourmet/2023/05/28/report.html" rel="alternate" type="text/html" title="えびと卵の炒めものを作りたい" /><published>2023-05-28T00:00:00+09:00</published><updated>2023-05-28T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2023/05/28/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2023/05/28/report.html"><![CDATA[<div class="card">
+  <a href="https://theokuratokyo.jp/letter/recipe/shrimp_egg/"></a>
+  <div class="card__header">
+    <a href="https://theokuratokyo.jp/letter/recipe/shrimp_egg/">theokuratokyo.jp</a>
+  </div>
+  <div class="card__image">
+    <img src="https://theokuratokyo.jp/assets/images/common/ogimage.png" />
+  </div>
+  <div class="card__title">
+    <p>海老と卵の炒め | オークラだより | The Okura Tokyo | 公式サイト</p>
+  </div>
+  <div class="card__description">
+    <p>東京虎ノ門のラグジュアリーホテル「The Okura Tokyo」（旧：ホテルオークラ東京）。優雅さを伝える日本の美と、きめ細かく気遣う日本の心、極上の日本らしさで、ゲストのみなさまをお迎えします。</p>
+  </div>
+</div>
+
+<p>最近料理してないなー。</p>]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[theokuratokyo.jp 海老と卵の炒め | オークラだより | The Okura Tokyo | 公式サイト 東京虎ノ門のラグジュアリーホテル「The Okura Tokyo」（旧：ホテルオークラ東京）。優雅さを伝える日本の美と、きめ細かく気遣う日本の心、極上の日本らしさで、ゲストのみなさまをお迎えします。]]></summary></entry><entry><title type="html">ヤクTの模型がいいなって</title><link href="https://makietan.github.io/otaku/2023/05/27/report.html" rel="alternate" type="text/html" title="ヤクTの模型がいいなって" /><published>2023-05-27T00:00:00+09:00</published><updated>2023-05-27T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2023/05/27/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2023/05/27/report.html"><![CDATA[<p><a href="https://www.amazon.co.jp/%E3%83%97%E3%83%A9%E3%83%83%E3%83%84-%E3%82%AC%E3%83%BC%E3%83%AB%E3%82%BA%EF%BC%86%E3%83%91%E3%83%B3%E3%83%84%E3%82%A1%E3%83%BC-%E3%81%A6%E3%81%AE%E3%81%B2%E3%82%89%E6%88%A6%E8%BB%8A%E9%81%93%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3-%E9%A7%86%E9%80%90%E6%88%A6%E8%BB%8A%E3%83%A4%E3%83%BC%E3%82%AF%E3%83%88%E3%83%86%E3%82%A3%E3%83%BC%E3%82%AC%E3%83%BC-GPC72-24/dp/B0BPRV4QFW?&amp;linkCode=li3&amp;tag=infirmaria112-22&amp;linkId=9b203a9add09d4901681fc7ef00f9a2c&amp;language=ja_JP&amp;ref_=as_li_ss_il" target="_blank"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;ASIN=B0BPRV4QFW&amp;Format=_SL250_&amp;ID=AsinImage&amp;MarketPlace=JP&amp;ServiceVersion=20070822&amp;WS=1&amp;tag=infirmaria112-22&amp;language=ja_JP" /></a><img src="https://ir-jp.amazon-adsystem.com/e/ir?t=infirmaria112-22&amp;language=ja_JP&amp;l=li3&amp;o=9&amp;a=B0BPRV4QFW" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></p>
+
+<p>買いたいけどちょっと手が止まるな</p>]]></content><author><name>makietan</name></author><category term="otaku" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">`android.useAndroidX` property is not enabled なら gradle.properties に `android.useAndroidX` を設定しよう</title><link href="https://makietan.github.io/tech/2023/05/24/report.html" rel="alternate" type="text/html" title="`android.useAndroidX` property is not enabled なら gradle.properties に `android.useAndroidX` を設定しよう" /><published>2023-05-24T00:00:00+09:00</published><updated>2023-05-24T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2023/05/24/report</id><content type="html" xml:base="https://makietan.github.io/tech/2023/05/24/report.html"><![CDATA[<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt; Configuration `debugUnitTestRuntimeClasspath` contains AndroidX dependencies, but the `android.useAndroidX` property is not enabled, which may cause runtime issues.
   Set `android.useAndroidX=true` in the `gradle.properties` file and retry.
 </code></pre></div></div>
 
@@ -30,7 +66,27 @@
 
 <p>まぁ面白くないよねこの辺を相手にすると。</p>
 
-<p>そういうことなんだよ。</p>]]></content><author><name>makietan</name></author><category term="game" /><category term="yugioh" /><summary type="html"><![CDATA[リリース当初の拮抗勝負具合（ドライトロンとアダマシアはダメ）が良かったよ。]]></summary></entry><entry><title type="html">「3850円の手数料」は規制すべきではないか</title><link href="https://makietan.github.io/japan/2023/05/19/report.html" rel="alternate" type="text/html" title="「3850円の手数料」は規制すべきではないか" /><published>2023-05-19T00:00:00+09:00</published><updated>2023-05-19T00:00:00+09:00</updated><id>https://makietan.github.io/japan/2023/05/19/report</id><content type="html" xml:base="https://makietan.github.io/japan/2023/05/19/report.html"><![CDATA[<div class="card">
+<p>そういうことなんだよ。</p>]]></content><author><name>makietan</name></author><category term="game" /><category term="yugioh" /><summary type="html"><![CDATA[リリース当初の拮抗勝負具合（ドライトロンとアダマシアはダメ）が良かったよ。]]></summary></entry><entry><title type="html">推し武道の映画とドラマは同時に撮影していたらしい</title><link href="https://makietan.github.io/otaku/2023/05/21/report.html" rel="alternate" type="text/html" title="推し武道の映画とドラマは同時に撮影していたらしい" /><published>2023-05-21T00:00:00+09:00</published><updated>2023-05-21T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2023/05/21/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2023/05/21/report.html"><![CDATA[<div class="card">
+  <a href="https://animageplus.jp/articles/detail/51391/1/1/1"></a>
+  <div class="card__header">
+    <a href="https://animageplus.jp/articles/detail/51391/1/1/1">animageplus.jp</a>
+  </div>
+  <div class="card__image">
+    <img src="https://images.animageplus.jp/articles/51000/51391/OG/3f2a6c279ed304b4dcb23dee49b57cae.jpg" />
+  </div>
+  <div class="card__title">
+    <p>『劇場版 推し武道』ChamJamが語る楽しみポイント！ あの期間ChamJamは活動していた！ | アニメージュプラス - アニメ・声優・特撮・漫画のニュース発信！</p>
+  </div>
+  <div class="card__description">
+    <p>5月12日（金）公開の『劇場版 推しが武道館いってくれたら死ぬ』。原作は、2015年8月より『月刊 COMIC リュウ』（徳間書店）にて連載。2020 年にはテレビアニメ化もされ、「推し武道」の愛称で親しまれている人気作品。ABCテレビの2</p>
+  </div>
+</div>
+
+<blockquote>
+  <p>伊礼　ドラマと並行して映画も撮っていたので、</p>
+</blockquote>
+
+<p>最初から映画を公開する前提でやってたのね。</p>]]></content><author><name>makietan</name></author><category term="otaku" /><summary type="html"><![CDATA[animageplus.jp 『劇場版 推し武道』ChamJamが語る楽しみポイント！ あの期間ChamJamは活動していた！ | アニメージュプラス - アニメ・声優・特撮・漫画のニュース発信！ 5月12日（金）公開の『劇場版 推しが武道館いってくれたら死ぬ』。原作は、2015年8月より『月刊 COMIC リュウ』（徳間書店）にて連載。2020 年にはテレビアニメ化もされ、「推し武道」の愛称で親しまれている人気作品。ABCテレビの2]]></summary></entry><entry><title type="html">「3850円の手数料」は規制すべきではないか</title><link href="https://makietan.github.io/japan/2023/05/19/report.html" rel="alternate" type="text/html" title="「3850円の手数料」は規制すべきではないか" /><published>2023-05-19T00:00:00+09:00</published><updated>2023-05-19T00:00:00+09:00</updated><id>https://makietan.github.io/japan/2023/05/19/report</id><content type="html" xml:base="https://makietan.github.io/japan/2023/05/19/report.html"><![CDATA[<div class="card">
   <a href="https://diamond.jp/articles/-/322757?page=5"></a>
   <div class="card__header">
     <a href="https://diamond.jp/articles/-/322757?page=5">diamond.jp</a>
@@ -113,92 +169,4 @@
 
 <p>口でしか注文できないやつはそもそも行くな。</p>
 
-<p>民度が低すぎる。</p>]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[吉野家は注文は最近タッチパネルになったので]]></summary></entry><entry><title type="html">飲食店のカウンターのパーティションは外すな</title><link href="https://makietan.github.io/japan/2023/05/07/report.html" rel="alternate" type="text/html" title="飲食店のカウンターのパーティションは外すな" /><published>2023-05-07T00:00:00+09:00</published><updated>2023-05-07T00:00:00+09:00</updated><id>https://makietan.github.io/japan/2023/05/07/report</id><content type="html" xml:base="https://makietan.github.io/japan/2023/05/07/report.html"><![CDATA[<p>コロナ関係なく</p>
-
-<p>パーソナルスペースの確保に大変素晴らしい仕事していたので
-撤去するなんて客の気持ちもわからないクソ店認定ものだよ。</p>
-
-<p>飲食店のカウンターで飯を食っていると
-明らかにこちらの前にゴミや食い終わった皿、
-注文した料理を勝手に置いてきたり、
-肘をあからさまにぶつけて来たり、
-横を向いてくしゃみ・咳をしてきたり、
-横向いて突然喋り始めたりと非常に不快なクソ客というものが存在する。</p>
-
-<p>高級感ある店でも普通にいる。</p>
-
-<p>そんな不快なクソ客を遮断してくれるのがパーティションだ。</p>
-
-<p>コロナどころかそれ以外のあらゆるカウンター席での不快な事象が解決されたのである。</p>
-
-<p>それを理解せずに喜々としてパーティション外しましたとドヤ顔でカウンター席の写真をTwitterにアップしている連中には反吐が出るね。</p>]]></content><author><name>makietan</name></author><category term="japan" /><summary type="html"><![CDATA[コロナ関係なく]]></summary></entry><entry><title type="html">「さよなら中野サンプラザ音楽祭 革ブロ総決起集会～帰ってきたファイナル!!～」に参加した</title><link href="https://makietan.github.io/otaku/2023/05/06/report.html" rel="alternate" type="text/html" title="「さよなら中野サンプラザ音楽祭 革ブロ総決起集会～帰ってきたファイナル!!～」に参加した" /><published>2023-05-06T00:00:00+09:00</published><updated>2023-05-06T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2023/05/06/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2023/05/06/report.html"><![CDATA[<div class="card">
-  <a href="https://sayonaranakanosunplaza.com/artists/details/20230506.html"></a>
-  <div class="card__header">
-    <a href="https://sayonaranakanosunplaza.com/artists/details/20230506.html">sayonaranakanosunplaza.com</a>
-  </div>
-  <div class="card__image">
-    <img src="https://sayonaranakanosunplaza.com/images/OGP_202301120.jpg" />
-  </div>
-  <div class="card__title">
-    <p>公式｜さよなら中野サンプラザ音楽祭 | 上坂すみれ</p>
-  </div>
-  <div class="card__description">
-    <p>2023年5月から中野サンプラザにて、50年の歴史の集大成となる音楽祭「さよなら中野サンプラザ音楽祭」を開催。中野サンプラザにゆかりのあるアーティストをはじめとして、各ジャンルのトップアーティストたちが中野に集結。</p>
-  </div>
-</div>
-
-<p>中野サンプラザホールが開業50年の節目を迎える2023年7月に幕を閉じるという。</p>
-
-<p>そんな聖地こと中野サンプラザの最期を飾るアーティストの1人としてすみぺが選ばれた。</p>
-
-<p>いきいきしたすみぺが見れた。</p>
-
-<!-- TODO: あとで書く -->]]></content><author><name>makietan</name></author><category term="otaku" /><summary type="html"><![CDATA[sayonaranakanosunplaza.com 公式｜さよなら中野サンプラザ音楽祭 | 上坂すみれ 2023年5月から中野サンプラザにて、50年の歴史の集大成となる音楽祭「さよなら中野サンプラザ音楽祭」を開催。中野サンプラザにゆかりのあるアーティストをはじめとして、各ジャンルのトップアーティストたちが中野に集結。]]></summary></entry><entry><title type="html">おでこのシワが気になるので…</title><link href="https://makietan.github.io/health/2023/05/03/report.html" rel="alternate" type="text/html" title="おでこのシワが気になるので…" /><published>2023-05-03T00:00:00+09:00</published><updated>2023-05-03T00:00:00+09:00</updated><id>https://makietan.github.io/health/2023/05/03/report</id><content type="html" xml:base="https://makietan.github.io/health/2023/05/03/report.html"><![CDATA[<div class="card">
-  <a href="https://www.saishunkan.co.jp/domo/column/skin-troubles/wrinkles_forehead/#ank06"></a>
-  <div class="card__header">
-    <a href="https://www.saishunkan.co.jp/domo/column/skin-troubles/wrinkles_forehead/#ank06">www.saishunkan.co.jp</a>
-  </div>
-  <div class="card__image">
-    <img src="https://www.saishunkan.co.jp/domo/column/common/images/ogp.jpg" />
-  </div>
-  <div class="card__title">
-    <p>おでこのシワは取れない！？ おでこにシワができる人へおすすめのマッサージ方法や化粧品は？｜お役立ちコラム｜基礎化粧品ドモホルンリンクル</p>
-  </div>
-  <div class="card__description">
-    <p>おでこのシワが気になってはいませんか？おでこのシワの種類は3種類あって、それぞれ原因や対策が違います。当記事ではおでこのシワの種類、原因、対策のマッサージなどをそれぞれ解説しています。</p>
-  </div>
-</div>
-
-<p>マッサージをしようと思う。</p>
-
-<blockquote>
-  <ol>
-    <li>親指以外の4本の指を、眉毛の上に当てる</li>
-    <li>指の腹を使い、眉毛の上から頭頂部に向かって、押し上げる</li>
-    <li>2の動作を後頭部に向かって指を移動させながらおこなう</li>
-  </ol>
-</blockquote>
-
-<p>完全には消えないので可能な限り抑えたい。</p>]]></content><author><name>makietan</name></author><category term="health" /><summary type="html"><![CDATA[www.saishunkan.co.jp おでこのシワは取れない！？ おでこにシワができる人へおすすめのマッサージ方法や化粧品は？｜お役立ちコラム｜基礎化粧品ドモホルンリンクル おでこのシワが気になってはいませんか？おでこのシワの種類は3種類あって、それぞれ原因や対策が違います。当記事ではおでこのシワの種類、原因、対策のマッサージなどをそれぞれ解説しています。]]></summary></entry><entry><title type="html">牛タンのネギは折りたたむらしい</title><link href="https://makietan.github.io/gourmet/2023/04/28/report.html" rel="alternate" type="text/html" title="牛タンのネギは折りたたむらしい" /><published>2023-04-28T00:00:00+09:00</published><updated>2023-04-28T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2023/04/28/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2023/04/28/report.html"><![CDATA[<p>折りたたんで蒸すらしい。</p>
-
-<p>太めの牛タンにネギを乗せてる店はわけも分からずにやってるということだ。</p>
-
-<div class="card">
-  <a href="https://jocr.jp/raditopi/2023/01/24/480475/"></a>
-  <div class="card__header">
-    <a href="https://jocr.jp/raditopi/2023/01/24/480475/">jocr.jp</a>
-  </div>
-  <div class="card__image">
-    <img src="https://jocr.jp/raditopi/wp-content/uploads/2023/01/446057-e1674520227237.webp" />
-  </div>
-  <div class="card__title">
-    <p>焼き肉にのっているネギどうする問題 叙々苑に聞いた→ネギタンの最適解が目からウロコ | ラジトピ ラジオ関西トピックス</p>
-  </div>
-  <div class="card__description">
-    <p>「焼肉屋で、生肉の上にのせて出されたネギはどうやって火を通したらいいのか？という疑問を世に問いたくて適当な図解マンガを描きました。オチはありません」と題して、Twitterに投稿したのはCDBさん（@C4Dbeginner）。図解マンガ内では、「生肉にのせて出す焼肉屋。みんなあれどうしてる？生肉に触れてる気がするのだが。網で焼こうにも目から落ちるし、肉にのせても別に火は通らない。どうやって食ってるネギ？そもそも食ってるアレ？」とコメント。</p>
-  </div>
-</div>
-
-<h2 id="叙々苑">叙々苑</h2>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/BXYZS_JBMvU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[折りたたんで蒸すらしい。]]></summary></entry></feed>
+<p>民度が低すぎる。</p>]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[吉野家は注文は最近タッチパネルになったので]]></summary></entry></feed>
