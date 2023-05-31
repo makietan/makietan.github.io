@@ -1,4 +1,32 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2023-05-31T12:18:59+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">「ぷよぷよプログラミング」なる子供向けっぽい教材があった</title><link href="https://makietan.github.io/tech/2023/05/29/report.html" rel="alternate" type="text/html" title="「ぷよぷよプログラミング」なる子供向けっぽい教材があった" /><published>2023-05-29T00:00:00+09:00</published><updated>2023-05-29T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2023/05/29/report</id><content type="html" xml:base="https://makietan.github.io/tech/2023/05/29/report.html"><![CDATA[<div class="card">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2023-05-31T20:24:33+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">Mac で Android File Transfer がうまく接続できない場合は Google ドライブ アプリを終了させるとうまくいく</title><link href="https://makietan.github.io/tech/2023/05/31/report.html" rel="alternate" type="text/html" title="Mac で Android File Transfer がうまく接続できない場合は Google ドライブ アプリを終了させるとうまくいく" /><published>2023-05-31T00:00:00+09:00</published><updated>2023-05-31T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2023/05/31/report</id><content type="html" xml:base="https://makietan.github.io/tech/2023/05/31/report.html"><![CDATA[<p>久々に端末内の写真とかを移動させようと接続してみたら</p>
+
+<p>「<strong>端末に接続できませんでした</strong>」</p>
+
+<p>「端末を再接続または再起動してください。」</p>
+
+<p>と表示された。</p>
+
+<p>3か月前にやったときは問題がなかったので色々調べたら辿り着いた。</p>
+
+<div class="card">
+  <a href="https://discussions.apple.com/thread/254428061"></a>
+  <div class="card__header">
+    <a href="https://discussions.apple.com/thread/254428061">discussions.apple.com</a>
+  </div>
+  <div class="card__image">
+    <img src="" />
+  </div>
+  <div class="card__title">
+    <p>android file transfer not working on Vent… - Apple Community</p>
+  </div>
+  <div class="card__description">
+    <p></p>
+  </div>
+</div>
+
+<p>どうやら Google ドライブ アプリ（Google Drive.app）が悪さをしているらしい。</p>
+
+<p>同期を止め終了させてから開くと問題なくいけた。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[久々に端末内の写真とかを移動させようと接続してみたら]]></summary></entry><entry><title type="html">「ぷよぷよプログラミング」なる子供向けっぽい教材があった</title><link href="https://makietan.github.io/tech/2023/05/29/report.html" rel="alternate" type="text/html" title="「ぷよぷよプログラミング」なる子供向けっぽい教材があった" /><published>2023-05-29T00:00:00+09:00</published><updated>2023-05-29T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2023/05/29/report</id><content type="html" xml:base="https://makietan.github.io/tech/2023/05/29/report.html"><![CDATA[<div class="card">
   <a href="https://puyo.sega.jp/program_2020/"></a>
   <div class="card__header">
     <a href="https://puyo.sega.jp/program_2020/">puyo.sega.jp</a>
@@ -109,64 +137,4 @@
 <p>携帯電話会社の異常な手数料搾取が見るに堪えない。
 自分たちの商売の首を絞めることになるのだが…。</p>]]></content><author><name>makietan</name></author><category term="japan" /><summary type="html"><![CDATA[diamond.jp ドコモと三菱UFJがエグい値上げ決行！「IT弱者切り捨て型」本格到来の必然 | 今週もナナメに考えた　鈴木貴博 | ダイヤモンド・オンライン ドコモと三菱UFJ銀行が、“エグい”値上げに踏み切りました。両社の狙いは「値上げでもうけること」ではありません。「IT弱者切り捨て型」ともいえるこの値上げには、“目先のもうけ”以上のうまみがあるのです。]]></summary></entry><entry><title type="html">FXは大変だね…</title><link href="https://makietan.github.io/fx/2023/05/09/report.html" rel="alternate" type="text/html" title="FXは大変だね…" /><published>2023-05-09T00:00:00+09:00</published><updated>2023-05-09T00:00:00+09:00</updated><id>https://makietan.github.io/fx/2023/05/09/report</id><content type="html" xml:base="https://makietan.github.io/fx/2023/05/09/report.html"><![CDATA[<p>イカれた上昇にやられたよ</p>
 
-<p>クレカの支払いでポジション整理しないとな…</p>]]></content><author><name>makietan</name></author><category term="fx" /><summary type="html"><![CDATA[イカれた上昇にやられたよ]]></summary></entry><entry><title type="html">吉野家の店員呼ばないと会計できない仕組みは牛丼チェーンで一番嫌い</title><link href="https://makietan.github.io/gourmet/2023/05/08/report.html" rel="alternate" type="text/html" title="吉野家の店員呼ばないと会計できない仕組みは牛丼チェーンで一番嫌い" /><published>2023-05-08T00:00:00+09:00</published><updated>2023-05-08T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2023/05/08/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2023/05/08/report.html"><![CDATA[<p>吉野家は注文は最近タッチパネルになったので</p>
-
-<p>つゆぬき（中国人的にはちゅゆぬき）をつゆだくと間違われる被害が減った。</p>
-
-<p>松屋はこの辺の調整ができないので改善して欲しい。</p>
-
-<p>あと豚汁頼んだときに味噌汁も欲しいボタンを設置してくれ。</p>
-
-<p>それくらいだ。</p>
-
-<p>一番酷い吉野家のタッチパネルのない店は店員が注文を聞きに来ないのでゴミ。</p>
-
-<p>牛丼チェーン店で最低のUXである。</p>
-
-<p>あと鶏の唐揚げを頼むとありえないくらい時間がかかる。</p>
-
-<p>あらかじめ揚げといてくれや。</p>
-
-<p>冷めてるほうがやけどしなくていいんだから。</p>
-
-<div class="card">
-  <a href="https://www.moneypost.jp/1020227"></a>
-  <div class="card__header">
-    <a href="https://www.moneypost.jp/1020227">www.moneypost.jp</a>
-  </div>
-  <div class="card__image">
-    <img src="https://www.moneypost.jp/uploads/2023/05/03/jiji-matsuya20230503.jpg" />
-  </div>
-  <div class="card__title">
-    <p>松屋の券売機「使いにくすぎる」の声に運営元「見直しを実施」 牛丼愛好家・森永卓郎氏は「私は吉野家の注文の仕方が好き」 | マネーポストWEB</p>
-  </div>
-  <div class="card__description">
-    <p> 牛丼チェーン「松屋」のタッチパネル式券売機が注目を集めている。ツイッター上での「UI（ユーザーインタフェース）がどんどん悪化している」という投稿が注目を集め、SNSや掲示板サイトなどで「わかりにくい...</p>
-  </div>
-</div>
-
-<p>問題は会計。</p>
-
-<p>吉野家はまず呼んでも来ない。</p>
-
-<p>Tポイントを出すときも理解していない。</p>
-
-<p>出したら出したでキレだす。</p>
-
-<p>レシートを勝手にくしゃくしゃにして捨てやがる。</p>
-
-<p>たまに付随してくるTポイント関連のクーポンも勝手にくしゃくしゃにして捨てる。</p>
-
-<p>吉野家は味はいいんだけど、傲慢すぎるせいか他が全部ダメ。</p>
-
-<p>松屋は味噌汁ついてくるし、呼んでも来ないなんてこともないし（JAFのクーポンでいざこざは過去にあったけど）、基本的に苦になるところはない。</p>
-
-<p>ろくに行ってないくせにケチをつけるのはお門違い。</p>
-
-<p>変な組み合わせの注文していることを自覚していない客も問題がある。</p>
-
-<p>そんなにタッチパネルが嫌ならアプリでオーダーしろ。</p>
-
-<p>口でしか注文できないやつはそもそも行くな。</p>
-
-<p>民度が低すぎる。</p>]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[吉野家は注文は最近タッチパネルになったので]]></summary></entry></feed>
+<p>クレカの支払いでポジション整理しないとな…</p>]]></content><author><name>makietan</name></author><category term="fx" /><summary type="html"><![CDATA[イカれた上昇にやられたよ]]></summary></entry></feed>
