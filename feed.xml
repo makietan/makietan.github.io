@@ -1,4 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2023-06-01T12:31:13+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">Mac で Android File Transfer がうまく接続できない場合は Google ドライブ アプリを終了させるとうまくいく</title><link href="https://makietan.github.io/tech/2023/05/31/report.html" rel="alternate" type="text/html" title="Mac で Android File Transfer がうまく接続できない場合は Google ドライブ アプリを終了させるとうまくいく" /><published>2023-05-31T00:00:00+09:00</published><updated>2023-05-31T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2023/05/31/report</id><content type="html" xml:base="https://makietan.github.io/tech/2023/05/31/report.html"><![CDATA[<p>久々に端末内の写真とかを移動させようと接続してみたら</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2023-06-01T13:30:35+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">ジューーーーーーン！！！</title><link href="https://makietan.github.io/otaku/2023/06/01/report.html" rel="alternate" type="text/html" title="ジューーーーーーン！！！" /><published>2023-06-01T00:00:00+09:00</published><updated>2023-06-01T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2023/06/01/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2023/06/01/report.html"><![CDATA[<p>ゆゆ式オタクならとりあえず叫んどこう。</p>
+
+<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">あっ6月だ！6月になった！ンバーはないけど叫びます、ジューーーーーーン！！！</p>&mdash; 大久保瑠美 (@rumirumi_81pro) <a href="https://twitter.com/rumirumi_81pro/status/1664108541865762819?ref_src=twsrc%5Etfw">June 1, 2023</a></blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<p>いや、セプテンバーちゃうんかい！！</p>
+
+<p>ジューンと聞くと北の国からを思い出す。</p>
+
+<p>まともに見たことはないけどね。</p>
+
+<p>螢のテーマというらしい。</p>
+
+<p>曲名も知らんかったけどね。</p>]]></content><author><name>makietan</name></author><category term="otaku" /><summary type="html"><![CDATA[ゆゆ式オタクならとりあえず叫んどこう。]]></summary></entry><entry><title type="html">Mac で Android File Transfer がうまく接続できない場合は Google ドライブ アプリを終了させるとうまくいく</title><link href="https://makietan.github.io/tech/2023/05/31/report.html" rel="alternate" type="text/html" title="Mac で Android File Transfer がうまく接続できない場合は Google ドライブ アプリを終了させるとうまくいく" /><published>2023-05-31T00:00:00+09:00</published><updated>2023-05-31T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2023/05/31/report</id><content type="html" xml:base="https://makietan.github.io/tech/2023/05/31/report.html"><![CDATA[<p>久々に端末内の写真とかを移動させようと接続してみたら、</p>
 
 <p>「<strong>端末に接続できませんでした</strong>」</p>
 
@@ -24,9 +37,9 @@
   </div>
 </div>
 
-<p>どうやら Google ドライブ アプリ（Google Drive.app）が悪さをしているらしい。</p>
+<p>どうやら Googleドライブアプリ（Google Drive.app）が悪さをしているらしい。</p>
 
-<p>同期を止め終了させてから開くと問題なくいけた。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[久々に端末内の写真とかを移動させようと接続してみたら]]></summary></entry><entry><title type="html">「ぷよぷよプログラミング」なる子供向けっぽい教材があった</title><link href="https://makietan.github.io/tech/2023/05/29/report.html" rel="alternate" type="text/html" title="「ぷよぷよプログラミング」なる子供向けっぽい教材があった" /><published>2023-05-29T00:00:00+09:00</published><updated>2023-05-29T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2023/05/29/report</id><content type="html" xml:base="https://makietan.github.io/tech/2023/05/29/report.html"><![CDATA[<div class="card">
+<p>同期を止め終了させてから開くと問題なくいけた。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[久々に端末内の写真とかを移動させようと接続してみたら、]]></summary></entry><entry><title type="html">「ぷよぷよプログラミング」なる子供向けっぽい教材があった</title><link href="https://makietan.github.io/tech/2023/05/29/report.html" rel="alternate" type="text/html" title="「ぷよぷよプログラミング」なる子供向けっぽい教材があった" /><published>2023-05-29T00:00:00+09:00</published><updated>2023-05-29T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2023/05/29/report</id><content type="html" xml:base="https://makietan.github.io/tech/2023/05/29/report.html"><![CDATA[<div class="card">
   <a href="https://puyo.sega.jp/program_2020/"></a>
   <div class="card__header">
     <a href="https://puyo.sega.jp/program_2020/">puyo.sega.jp</a>
@@ -135,6 +148,4 @@
 </blockquote>
 
 <p>携帯電話会社の異常な手数料搾取が見るに堪えない。
-自分たちの商売の首を絞めることになるのだが…。</p>]]></content><author><name>makietan</name></author><category term="japan" /><summary type="html"><![CDATA[diamond.jp ドコモと三菱UFJがエグい値上げ決行！「IT弱者切り捨て型」本格到来の必然 | 今週もナナメに考えた　鈴木貴博 | ダイヤモンド・オンライン ドコモと三菱UFJ銀行が、“エグい”値上げに踏み切りました。両社の狙いは「値上げでもうけること」ではありません。「IT弱者切り捨て型」ともいえるこの値上げには、“目先のもうけ”以上のうまみがあるのです。]]></summary></entry><entry><title type="html">FXは大変だね…</title><link href="https://makietan.github.io/fx/2023/05/09/report.html" rel="alternate" type="text/html" title="FXは大変だね…" /><published>2023-05-09T00:00:00+09:00</published><updated>2023-05-09T00:00:00+09:00</updated><id>https://makietan.github.io/fx/2023/05/09/report</id><content type="html" xml:base="https://makietan.github.io/fx/2023/05/09/report.html"><![CDATA[<p>イカれた上昇にやられたよ</p>
-
-<p>クレカの支払いでポジション整理しないとな…</p>]]></content><author><name>makietan</name></author><category term="fx" /><summary type="html"><![CDATA[イカれた上昇にやられたよ]]></summary></entry></feed>
+自分たちの商売の首を絞めることになるのだが…。</p>]]></content><author><name>makietan</name></author><category term="japan" /><summary type="html"><![CDATA[diamond.jp ドコモと三菱UFJがエグい値上げ決行！「IT弱者切り捨て型」本格到来の必然 | 今週もナナメに考えた　鈴木貴博 | ダイヤモンド・オンライン ドコモと三菱UFJ銀行が、“エグい”値上げに踏み切りました。両社の狙いは「値上げでもうけること」ではありません。「IT弱者切り捨て型」ともいえるこの値上げには、“目先のもうけ”以上のうまみがあるのです。]]></summary></entry></feed>
