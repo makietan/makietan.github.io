@@ -1,44 +1,267 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2023-06-14T12:16:28+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">久々に Docker を触らせられる</title><link href="https://makietan.github.io/tech/2023/06/12/report.html" rel="alternate" type="text/html" title="久々に Docker を触らせられる" /><published>2023-06-12T00:00:00+09:00</published><updated>2023-06-12T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2023/06/12/report</id><content type="html" xml:base="https://makietan.github.io/tech/2023/06/12/report.html"><![CDATA[<p>本当にダルい。</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2023-06-14T18:59:04+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">LOGI OPTIONS+ を導入した</title><link href="https://makietan.github.io/tech/2023/06/14/report.html" rel="alternate" type="text/html" title="LOGI OPTIONS+ を導入した" /><published>2023-06-14T00:00:00+09:00</published><updated>2023-06-14T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2023/06/14/report</id><content type="html" xml:base="https://makietan.github.io/tech/2023/06/14/report.html"><![CDATA[<div class="card">
+  <a href="https://www.logicool.co.jp/ja-jp/software/logi-options-plus.html"></a>
+  <div class="card__header">
+    <a href="https://www.logicool.co.jp/ja-jp/software/logi-options-plus.html">www.logicool.co.jp</a>
+  </div>
+  <div class="card__image">
+    <img src="https://resource.logitech.com/w_1200,h_630,c_limit,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/logitech/en/software/logi-options-plus/logi-options-plus-og-image.png?v=1" />
+  </div>
+  <div class="card__title">
+    <p>Logi Options+ | ロジクール製品用ソフトウェアアプリ</p>
+  </div>
+  <div class="card__description">
+    <p>お使いの製品の管理とカスタマイズを行うための次世代のアプリ。定義済みの設定、カスタムボタン構成、新しいインターフェース、デバイス ステータス情報などが特徴です</p>
+  </div>
+</div>
+
+<p>logicoolのマウス管理ツール的なものを変更した。</p>
+
+<p>ホイールクリックを画面部分キャプチャに指定できるので非常に便利だ。</p>
+
+<p>昔のlogicoolのマウスは謎のモスキート音を放出するマウスばかりだったのだが、</p>
+
+<p>加齢のせいか聞こえなくなった。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[www.logicool.co.jp Logi Options+ | ロジクール製品用ソフトウェアアプリ お使いの製品の管理とカスタマイズを行うための次世代のアプリ。定義済みの設定、カスタムボタン構成、新しいインターフェース、デバイス ステータス情報などが特徴です]]></summary></entry><entry><title type="html">久々に Docker を触らせられる②</title><link href="https://makietan.github.io/tech/2023/06/13/report.html" rel="alternate" type="text/html" title="久々に Docker を触らせられる②" /><published>2023-06-13T00:00:00+09:00</published><updated>2023-06-13T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2023/06/13/report</id><content type="html" xml:base="https://makietan.github.io/tech/2023/06/13/report.html"><![CDATA[<div class="card">
+  <a href="https://makietan.github.io/tech/2023/06/12/report.html"></a>
+  <div class="card__header">
+    <a href="https://makietan.github.io/tech/2023/06/12/report.html">makietan.github.io</a>
+  </div>
+  <div class="card__image">
+    <img src="https://makietan.github.io/assets/thumbnail/logo.png" />
+  </div>
+  <div class="card__title">
+    <p>久々に Docker を触らせられる | 肉とお米とブロッコリー</p>
+  </div>
+  <div class="card__description">
+    <p>本当にダルい。</p>
+  </div>
+</div>
+
+<p>続きをやっていく。
+昨日は体調悪すぎてなんもできなかった。
+頭痛と腹痛と…どうしたんだ俺。</p>
+
+<h2 id="1-virtualbox-をインストール">1. virtualbox をインストール</h2>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>brew <span class="nb">install</span> <span class="nt">--cask</span> virtualbox
+ 🍺  virtualbox was successfully installed!
+</code></pre></div></div>
+
+<h2 id="2-docker-machine-を動かす">2. docker-machine を動かす</h2>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>docker-machine create <span class="nt">--driver</span> virtualbox default
+Running pre-create checks...
+</code></pre></div></div>
+
+<h2 id="3-virtualboxでいろいろやる">3. virtualbox　でいろいろやる</h2>
+
+<p>起動したり、パーミッションの許可をしたり</p>
+
+<h2 id="4-サービスをリスタート">4. サービスをリスタート</h2>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>brew services restart docker-machine
+</code></pre></div></div>
+
+<h3 id="5-動いてるかチェック">5. 動いてるかチェック</h3>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">&gt;</span> docker-machine <span class="nb">ls
+</span>NAME      ACTIVE   DRIVER       STATE     URL   SWARM   DOCKER    ERRORS
+default   <span class="k">*</span>        virtualbox   Running                 Unknown   Machine does not have a host-only adapter
+</code></pre></div></div>
+
+<h3 id="6-止めてから動かす">6. 止めてから動かす</h3>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>docker-machine stop default
+docker-machine start default
+</code></pre></div></div>
+
+<h3 id="7-動かないので色々検索">7. 動かないので色々検索</h3>
+
+<p><code class="language-plaintext highlighter-rouge">Error checking TLS connection: Machine does not have a host-only adapter</code> がやたら出るので色々やったけど解決せず…。</p>
+
+<div class="card">
+  <a href="https://stackoverflow.com/questions/69805077/cannot-start-docker-daemon-at-macbook"></a>
+  <div class="card__header">
+    <a href="https://stackoverflow.com/questions/69805077/cannot-start-docker-daemon-at-macbook">stackoverflow.com</a>
+  </div>
+  <div class="card__image">
+    <img src="https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon@2.png?v=73d79a89bded" />
+  </div>
+  <div class="card__title">
+    <p>Cannot start Docker daemon at MacBook - Stack Overflow</p>
+  </div>
+  <div class="card__description">
+    <p>I ran the command, brew services start docker-machine.
+It says, &quot;Successfully started docker-machine&quot;. But, I got error when I ran docker ps -a. Please help.
+brew services start docker-ma...</p>
+  </div>
+</div>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>docker-machine create <span class="nt">-d</span> virtualbox <span class="nt">--virtualbox-hostonly-cidr</span> <span class="s2">"192.168.63.1/24"</span> default
+</code></pre></div></div>
+
+<p>ダメでした</p>
+
+<h3 id="8-腹たってきたのでアンインストール">8. 腹たってきたのでアンインストール</h3>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>brew uninstall docker docker-machine docker-compose
+</code></pre></div></div>
+
+<h3 id="9-cask-で-docker-をインストール">9. cask で docker をインストール</h3>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>brew <span class="nb">install</span> <span class="nt">--cask</span> docker
+🍺  docker was successfully installed!
+</code></pre></div></div>
+
+<h3 id="10-バージョン確認">10. バージョン確認</h3>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>docker <span class="nt">--version</span>
+Docker version 24.0.2, build cb74dfc
+
+docker-compose <span class="nt">--version</span>
+docker: <span class="s1">'compose'</span> is not a docker command.
+See <span class="s1">'docker --help'</span>
+
+docker-machine <span class="nt">--version</span>
+zsh: <span class="nb">command </span>not found: docker-machine
+</code></pre></div></div>
+
+<h3 id="11-ps">11. ps</h3>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>docker ps
+Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?
+</code></pre></div></div>
+
+<h3 id="12-dockerapp-を起動">12. Docker.app を起動</h3>
+
+<p>めんどくせぇ…</p>
+
+<h3 id="13-再び-ps">13. 再び ps</h3>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>docker ps
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+</code></pre></div></div>
+
+<h3 id="14-machine-と-compose-を-brew-install">14. machine と compose を brew install</h3>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>brew <span class="nb">install </span>docker-machine
+brew services restart docker-machine
+brew <span class="nb">install </span>docker-compose
+brew <span class="nb">link</span> <span class="nt">--overwrite</span> docker-compose
+</code></pre></div></div>
+
+<h3 id="15-ダメだったのでアンインストール">15. ダメだったのでアンインストール</h3>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>brew uninstall docker docker-machine docker-compose
+brew uninstall <span class="nt">--cask</span> docker
+</code></pre></div></div>
+
+<h3 id="16-virtualbox-の古いバージョンをインストール">16. VirtualBox の古いバージョンをインストール</h3>
+
+<p>VirtualBox 6.1.26</p>
+
+<div class="card">
+  <a href="https://www.virtualbox.org/wiki/Download_Old_Builds_6_1"></a>
+  <div class="card__header">
+    <a href="https://www.virtualbox.org/wiki/Download_Old_Builds_6_1">www.virtualbox.org</a>
+  </div>
+  <div class="card__image">
+    <img src="" />
+  </div>
+  <div class="card__title">
+    <p>
+      Download_Old_Builds_6_1     – Oracle VM VirtualBox
+
+    </p>
+  </div>
+  <div class="card__description">
+    <p></p>
+  </div>
+</div>
+
+<p>クソすぎる…。
+この辺じゃないとエラーが出るらしい。</p>
+
+<h3 id="17-n度目の正直">17.　 N度目の正直</h3>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>brew <span class="nb">install </span>docker docker-machine docker-compose
+</code></pre></div></div>
+
+<h3 id="18-いろいろ実行">18. いろいろ実行</h3>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>brew services restart docker-machine
+
+docker-machine create <span class="nt">--driver</span> virtualbox default
+Error creating machine: Error <span class="k">in </span>driver during machine creation: Unable to start the VM: /usr/local/bin/VBoxManage startvm default <span class="nt">--type</span> headless failed:
+VBoxManage: error: The virtual machine <span class="s1">'default'</span> has terminated unexpectedly during startup because of signal 10
+VBoxManage: error: Details: code NS_ERROR_FAILURE <span class="o">(</span>0x80004005<span class="o">)</span>, component MachineWrap, interface IMachine
+
+docker-machine <span class="nb">ls
+</span>NAME      ACTIVE   DRIVER       STATE     URL   SWARM   DOCKER    ERRORS
+default   -        virtualbox   Stopped                 Unknown
+</code></pre></div></div>
+
+<p>ダメだった。</p>
+
+<h3 id="19-すべてアンインストール">19. すべてアンインストール</h3>
+
+<p>もう無理。</p>
+
+<p>virtualboxはインストーラーに入ってたアンインストールツールを実行。</p>
+
+<h3 id="20-もう1回-cask-を試す">20. もう1回 cask を試す。</h3>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>brew <span class="nb">install</span> <span class="nt">--cask</span> docker
+🍺  docker was successfully installed!
+</code></pre></div></div>
+
+<h3 id="21-fordesktop-を開く">21. forDesktop を開く</h3>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>open /Applications/Docker.app
+</code></pre></div></div>
+
+<p>以下の設定を有効にする</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>General
+Start Docker Desktop when you log in
+</code></pre></div></div>
+
+<p>動いた？</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[makietan.github.io 久々に Docker を触らせられる | 肉とお米とブロッコリー 本当にダルい。]]></summary></entry><entry><title type="html">久々に Docker を触らせられる①</title><link href="https://makietan.github.io/tech/2023/06/12/report.html" rel="alternate" type="text/html" title="久々に Docker を触らせられる①" /><published>2023-06-12T00:00:00+09:00</published><updated>2023-06-12T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2023/06/12/report</id><content type="html" xml:base="https://makietan.github.io/tech/2023/06/12/report.html"><![CDATA[<p>本当にダルい。</p>
 
 <p>1環境でしか使ってないくせに。</p>
 
 <p>面倒なので Homebrew の <code class="language-plaintext highlighter-rouge">brew install docker</code> だけで済ませようと思う。</p>
 
-<ol>
-  <li>インストール</li>
-</ol>
+<h2 id="1-インストール">1. インストール</h2>
 
 <p>3つインストールする。
 cask 使えば一式入るらしいが何を入れられてるのか分かりづらいので嫌いだ。</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>brew install docker docker-machine docker-compose
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>brew <span class="nb">install </span>docker docker-machine docker-compose
 </code></pre></div></div>
 
-<ol>
-  <li>バージョン確認</li>
-</ol>
+<h2 id="2-バージョン確認">2. バージョン確認</h2>
 
-<div class="language-s highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="n">docker</span><span class="w"> </span><span class="o">--</span><span class="n">version</span><span class="w">
-</span><span class="n">Docker</span><span class="w"> </span><span class="n">version</span><span class="w"> </span><span class="m">24.0.2</span><span class="p">,</span><span class="w"> </span><span class="n">build</span><span class="w"> </span><span class="n">cb74dfcd85</span><span class="w">
- </span><span class="o">&gt;</span><span class="w"> </span><span class="n">docker</span><span class="o">-</span><span class="n">compose</span><span class="w"> </span><span class="o">--</span><span class="n">version</span><span class="w">
-</span><span class="n">Docker</span><span class="w"> </span><span class="n">Compose</span><span class="w"> </span><span class="n">version</span><span class="w"> </span><span class="m">2.18.1</span><span class="w">
- </span><span class="o">&gt;</span><span class="w"> </span><span class="n">docker</span><span class="o">-</span><span class="n">machine</span><span class="w"> </span><span class="o">--</span><span class="n">version</span><span class="w">
-</span><span class="n">docker</span><span class="o">-</span><span class="n">machine</span><span class="w"> </span><span class="n">version</span><span class="w"> </span><span class="m">0.16.2</span><span class="o">-</span><span class="n">gitlab.21</span><span class="p">,</span><span class="w"> </span><span class="n">build</span><span class="w"> </span><span class="m">77</span><span class="n">bd8f58</span><span class="w">
-</span></code></pre></div></div>
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>docker <span class="nt">--version</span>
+Docker version 24.0.2, build cb74dfcd85
 
-<p>3.　サービスの確認</p>
+docker-compose <span class="nt">--version</span>
+Docker Compose version 2.18.1
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> &gt; brew services list
+docker-machine <span class="nt">--version</span>
+docker-machine version 0.16.2-gitlab.21, build 77bd8f58
+</code></pre></div></div>
+
+<h2 id="3-サービスの確認">3. サービスの確認</h2>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>brew services list
 Name           Status  User  File
 docker-machine none
 </code></pre></div></div>
 
-<ol>
-  <li>サービススタート</li>
-</ol>
+<h2 id="4-サービススタート">4. サービススタート</h2>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>brew services restart docker-machine
-==&gt; Successfully started `docker-machine` (label: homebrew.mxcl.docker-machine)
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>brew services restart docker-machine
+<span class="o">==&gt;</span> Successfully started <span class="sb">`</span>docker-machine<span class="sb">`</span> <span class="o">(</span>label: homebrew.mxcl.docker-machine<span class="o">)</span>
 </code></pre></div></div>
 
 <p>とここで VBox 入れてないことに気づく</p>
@@ -151,22 +374,4 @@ docker-machine none
 
 <p>これを一通りやればぷよぷよは作れるという認識でいいだろう。</p>
 
-<p>25Pくらいあるがそう難しい部分はないので熟練者も1度はやってみてもいいだろう。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[puyo.sega.jp 【公式】ぷよぷよeスポーツ×プログラミング 『ぷよぷよ』でプログラミングを学ぼう！プログラミング学習環境『Monaca Education』において、セガが展開するアクションパズルゲーム『ぷよぷよ』をプログラミング学習できる教材コンテンツの提供を開始しました！]]></summary></entry><entry><title type="html">えびと卵の炒めものを作りたい</title><link href="https://makietan.github.io/gourmet/2023/05/28/report.html" rel="alternate" type="text/html" title="えびと卵の炒めものを作りたい" /><published>2023-05-28T00:00:00+09:00</published><updated>2023-05-28T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2023/05/28/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2023/05/28/report.html"><![CDATA[<div class="card">
-  <a href="https://theokuratokyo.jp/letter/recipe/shrimp_egg/"></a>
-  <div class="card__header">
-    <a href="https://theokuratokyo.jp/letter/recipe/shrimp_egg/">theokuratokyo.jp</a>
-  </div>
-  <div class="card__image">
-    <img src="https://theokuratokyo.jp/assets/images/common/ogimage.png" />
-  </div>
-  <div class="card__title">
-    <p>海老と卵の炒め | オークラだより | The Okura Tokyo | 公式サイト</p>
-  </div>
-  <div class="card__description">
-    <p>東京虎ノ門のラグジュアリーホテル「The Okura Tokyo」（旧：ホテルオークラ東京）。優雅さを伝える日本の美と、きめ細かく気遣う日本の心、極上の日本らしさで、ゲストのみなさまをお迎えします。</p>
-  </div>
-</div>
-
-<p>最近料理してないなー。</p>]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[theokuratokyo.jp 海老と卵の炒め | オークラだより | The Okura Tokyo | 公式サイト 東京虎ノ門のラグジュアリーホテル「The Okura Tokyo」（旧：ホテルオークラ東京）。優雅さを伝える日本の美と、きめ細かく気遣う日本の心、極上の日本らしさで、ゲストのみなさまをお迎えします。]]></summary></entry><entry><title type="html">ヤクTの模型がいいなって</title><link href="https://makietan.github.io/otaku/2023/05/27/report.html" rel="alternate" type="text/html" title="ヤクTの模型がいいなって" /><published>2023-05-27T00:00:00+09:00</published><updated>2023-05-27T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2023/05/27/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2023/05/27/report.html"><![CDATA[<p><a href="https://www.amazon.co.jp/%E3%83%97%E3%83%A9%E3%83%83%E3%83%84-%E3%82%AC%E3%83%BC%E3%83%AB%E3%82%BA%EF%BC%86%E3%83%91%E3%83%B3%E3%83%84%E3%82%A1%E3%83%BC-%E3%81%A6%E3%81%AE%E3%81%B2%E3%82%89%E6%88%A6%E8%BB%8A%E9%81%93%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3-%E9%A7%86%E9%80%90%E6%88%A6%E8%BB%8A%E3%83%A4%E3%83%BC%E3%82%AF%E3%83%88%E3%83%86%E3%82%A3%E3%83%BC%E3%82%AC%E3%83%BC-GPC72-24/dp/B0BPRV4QFW?&amp;linkCode=li3&amp;tag=infirmaria112-22&amp;linkId=9b203a9add09d4901681fc7ef00f9a2c&amp;language=ja_JP&amp;ref_=as_li_ss_il" target="_blank"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;ASIN=B0BPRV4QFW&amp;Format=_SL250_&amp;ID=AsinImage&amp;MarketPlace=JP&amp;ServiceVersion=20070822&amp;WS=1&amp;tag=infirmaria112-22&amp;language=ja_JP" /></a><img src="https://ir-jp.amazon-adsystem.com/e/ir?t=infirmaria112-22&amp;language=ja_JP&amp;l=li3&amp;o=9&amp;a=B0BPRV4QFW" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></p>
-
-<p>買いたいけどちょっと手が止まるな</p>]]></content><author><name>makietan</name></author><category term="otaku" /><summary type="html"><![CDATA[]]></summary></entry></feed>
+<p>25Pくらいあるがそう難しい部分はないので熟練者も1度はやってみてもいいだろう。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[puyo.sega.jp 【公式】ぷよぷよeスポーツ×プログラミング 『ぷよぷよ』でプログラミングを学ぼう！プログラミング学習環境『Monaca Education』において、セガが展開するアクションパズルゲーム『ぷよぷよ』をプログラミング学習できる教材コンテンツの提供を開始しました！]]></summary></entry></feed>
