@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2023-06-14T18:59:04+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">LOGI OPTIONS+ を導入した</title><link href="https://makietan.github.io/tech/2023/06/14/report.html" rel="alternate" type="text/html" title="LOGI OPTIONS+ を導入した" /><published>2023-06-14T00:00:00+09:00</published><updated>2023-06-14T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2023/06/14/report</id><content type="html" xml:base="https://makietan.github.io/tech/2023/06/14/report.html"><![CDATA[<div class="card">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2023-06-14T19:25:50+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">LOGI OPTIONS+ を導入した</title><link href="https://makietan.github.io/tech/2023/06/14/report.html" rel="alternate" type="text/html" title="LOGI OPTIONS+ を導入した" /><published>2023-06-14T00:00:00+09:00</published><updated>2023-06-14T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2023/06/14/report</id><content type="html" xml:base="https://makietan.github.io/tech/2023/06/14/report.html"><![CDATA[<div class="card">
   <a href="https://www.logicool.co.jp/ja-jp/software/logi-options-plus.html"></a>
   <div class="card__header">
     <a href="https://www.logicool.co.jp/ja-jp/software/logi-options-plus.html">www.logicool.co.jp</a>
@@ -282,96 +282,38 @@ docker-machine none
   <li>相手：ドラゴンリンク</li>
 </ul>
 
-<p>…なんか書くのがダルいのでやめよう</p>]]></content><author><name>makietan</name></author><category term="unknown" /><summary type="html"><![CDATA[1戦目]]></summary></entry><entry><title type="html">熱が出た</title><link href="https://makietan.github.io/health/2023/06/07/report.html" rel="alternate" type="text/html" title="熱が出た" /><published>2023-06-07T00:00:00+09:00</published><updated>2023-06-07T00:00:00+09:00</updated><id>https://makietan.github.io/health/2023/06/07/report</id><content type="html" xml:base="https://makietan.github.io/health/2023/06/07/report.html"><![CDATA[<p>いやーしんどいし</p>
+<p>…なんか書くのがダルいのでやめよう</p>]]></content><author><name>makietan</name></author><category term="unknown" /><summary type="html"><![CDATA[1戦目]]></summary></entry><entry><title type="html">ふわんだりぃずがマジでおもんない</title><link href="https://makietan.github.io/game/yugioh/2023/06/10/report.html" rel="alternate" type="text/html" title="ふわんだりぃずがマジでおもんない" /><published>2023-06-10T00:00:00+09:00</published><updated>2023-06-10T00:00:00+09:00</updated><id>https://makietan.github.io/game/yugioh/2023/06/10/report</id><content type="html" xml:base="https://makietan.github.io/game/yugioh/2023/06/10/report.html"><![CDATA[<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">ふわんだりぃずがマジでおもんない<a href="https://twitter.com/hashtag/%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%87%E3%83%A5%E3%82%A8%E3%83%AB?src=hash&amp;ref_src=twsrc%5Etfw">#マスターデュエル</a></p>&mdash; まきえたん🥦☘️ (@makietanX) <a href="https://twitter.com/makietanX/status/1667482998567243785?ref_src=twsrc%5Etfw">June 10, 2023</a></blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<p>ふわんだりぃずがマジでおもんない。</p>
+
+<p>大事なことなので。</p>]]></content><author><name>makietan</name></author><category term="game" /><category term="yugioh" /><summary type="html"><![CDATA[ふわんだりぃずがマジでおもんない#マスターデュエル&mdash; まきえたん🥦☘️ (@makietanX) June 10, 2023]]></summary></entry><entry><title type="html">Windows XP の壁紙が使える</title><link href="https://makietan.github.io/tech/2023/06/09/report.html" rel="alternate" type="text/html" title="Windows XP の壁紙が使える" /><published>2023-06-09T00:00:00+09:00</published><updated>2023-06-09T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2023/06/09/report</id><content type="html" xml:base="https://makietan.github.io/tech/2023/06/09/report.html"><![CDATA[<div class="card">
+  <a href="https://wallpapers.microsoft.design/"></a>
+  <div class="card__header">
+    <a href="https://wallpapers.microsoft.design/">wallpapers.microsoft.design</a>
+  </div>
+  <div class="card__image">
+    <img src="https://wallpapers.microsoft.design/images/meta.jpg" />
+  </div>
+  <div class="card__title">
+    <p>Microsoft Design - Wallpapers</p>
+  </div>
+  <div class="card__description">
+    <p>Enjoy this small collection we curated for you.</p>
+  </div>
+</div>
+
+<p>XP使ったことがほぼないからあんまり思い出がない。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[wallpapers.microsoft.design Microsoft Design - Wallpapers Enjoy this small collection we curated for you.]]></summary></entry><entry><title type="html">深淵の獣（ビーステッド）ギミックを取り入れる場合、「烙印の獣」と「復烙印」のどちらを優先的にデッキに入れる？</title><link href="https://makietan.github.io/game/yugioh/2023/06/08/report.html" rel="alternate" type="text/html" title="深淵の獣（ビーステッド）ギミックを取り入れる場合、「烙印の獣」と「復烙印」のどちらを優先的にデッキに入れる？" /><published>2023-06-08T00:00:00+09:00</published><updated>2023-06-08T00:00:00+09:00</updated><id>https://makietan.github.io/game/yugioh/2023/06/08/report</id><content type="html" xml:base="https://makietan.github.io/game/yugioh/2023/06/08/report.html"><![CDATA[<p>Twitter でアンケートしてみた。</p>
+
+<p>投票してくださった皆様ありがとうございました。</p>
+
+<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">深淵の獣（ビーステッド）ギミックを取り入れる場合、「烙印の獣」と「復烙印」のどちらを優先的にデッキに入れる？<a href="https://twitter.com/hashtag/%E9%81%8A%E6%88%AF%E7%8E%8B?src=hash&amp;ref_src=twsrc%5Etfw">#遊戯王</a> <a href="https://twitter.com/hashtag/%E9%81%8A%E6%88%AF%E7%8E%8B%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%87%E3%83%A5%E3%82%A8%E3%83%AB?src=hash&amp;ref_src=twsrc%5Etfw">#遊戯王マスターデュエル</a> <a href="https://twitter.com/hashtag/%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%87%E3%83%A5%E3%82%A8%E3%83%AB?src=hash&amp;ref_src=twsrc%5Etfw">#マスターデュエル</a></p>&mdash; まきえたん🥦☘️ (@makietanX) <a href="https://twitter.com/makietanX/status/1666755476745498624?ref_src=twsrc%5Etfw">June 8, 2023</a></blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>]]></content><author><name>makietan</name></author><category term="game" /><category term="yugioh" /><summary type="html"><![CDATA[Twitter でアンケートしてみた。]]></summary></entry><entry><title type="html">熱が出た</title><link href="https://makietan.github.io/health/2023/06/07/report.html" rel="alternate" type="text/html" title="熱が出た" /><published>2023-06-07T00:00:00+09:00</published><updated>2023-06-07T00:00:00+09:00</updated><id>https://makietan.github.io/health/2023/06/07/report</id><content type="html" xml:base="https://makietan.github.io/health/2023/06/07/report.html"><![CDATA[<p>いやーしんどいし</p>
 
 <p>舞台挨拶行けねーじゃん</p>
 
-<p>おい！</p>]]></content><author><name>makietan</name></author><category term="health" /><summary type="html"><![CDATA[いやーしんどいし]]></summary></entry><entry><title type="html">マスターデュエルでハンデスなアンデを作ろうと思ったら禁止にされてしもた</title><link href="https://makietan.github.io/game/yugioh/2023/06/02/report.html" rel="alternate" type="text/html" title="マスターデュエルでハンデスなアンデを作ろうと思ったら禁止にされてしもた" /><published>2023-06-02T00:00:00+09:00</published><updated>2023-06-02T00:00:00+09:00</updated><id>https://makietan.github.io/game/yugioh/2023/06/02/report</id><content type="html" xml:base="https://makietan.github.io/game/yugioh/2023/06/02/report.html"><![CDATA[<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">真紅眼の不死竜皇とパワー・ツール・ブレイバー・ドラゴンの先行1ターン目で出して毎ターンドローしたカードをハンデスするデッキを作りたいんだけど<br />全くもって案が出てこないから誰か作って欲しい<br />これは運良く3ターン目でできたやつ<a href="https://twitter.com/hashtag/%E9%81%8A%E6%88%AF%E7%8E%8B?src=hash&amp;ref_src=twsrc%5Etfw">#遊戯王</a> <a href="https://twitter.com/hashtag/%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%87%E3%83%A5%E3%82%A8%E3%83%AB?src=hash&amp;ref_src=twsrc%5Etfw">#マスターデュエル</a> <a href="https://twitter.com/hashtag/%E9%81%8A%E6%88%AF%E7%8E%8B%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%87%E3%83%A5%E3%82%A8%E3%83%AB?src=hash&amp;ref_src=twsrc%5Etfw">#遊戯王マスターデュエル</a> <a href="https://t.co/TdlyjRsTNf">pic.twitter.com/TdlyjRsTNf</a></p>&mdash; まきえたん🥦☘️ (@makietanX) <a href="https://twitter.com/makietanX/status/1663630709444202496?ref_src=twsrc%5Etfw">May 30, 2023</a></blockquote>
+<p>おい！</p>]]></content><author><name>makietan</name></author><category term="health" /><summary type="html"><![CDATA[いやーしんどいし]]></summary></entry><entry><title type="html">ドラゴンメイド・フランメを使え</title><link href="https://makietan.github.io/game/yugioh/2023/06/06/report.html" rel="alternate" type="text/html" title="ドラゴンメイド・フランメを使え" /><published>2023-06-06T00:00:00+09:00</published><updated>2023-06-06T00:00:00+09:00</updated><id>https://makietan.github.io/game/yugioh/2023/06/06/report</id><content type="html" xml:base="https://makietan.github.io/game/yugioh/2023/06/06/report.html"><![CDATA[<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">え！？フランメよりフルスの方が採用率高いの<br />こんなに優秀なのに<a href="https://twitter.com/hashtag/%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%87%E3%83%A5%E3%82%A8%E3%83%AB?src=hash&amp;ref_src=twsrc%5Etfw">#マスターデュエル</a> <a href="https://t.co/icOoNvw2Fh">pic.twitter.com/icOoNvw2Fh</a></p>&mdash; まきえたん🥦☘️ (@makietanX) <a href="https://twitter.com/makietanX/status/1666773752456318977?ref_src=twsrc%5Etfw">June 8, 2023</a></blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>]]></content><author><name>makietan</name></author><category term="game" /><category term="yugioh" /><summary type="html"><![CDATA[え！？フランメよりフルスの方が採用率高いのこんなに優秀なのに#マスターデュエル pic.twitter.com/icOoNvw2Fh&mdash; まきえたん🥦☘️ (@makietanX) June 8, 2023]]></summary></entry><entry><title type="html">折り曲げ厳禁のスタンプが来ると思う</title><link href="https://makietan.github.io/otaku/2023/06/05/report.html" rel="alternate" type="text/html" title="折り曲げ厳禁のスタンプが来ると思う" /><published>2023-06-05T00:00:00+09:00</published><updated>2023-06-05T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2023/06/05/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2023/06/05/report.html"><![CDATA[<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">2回目の発送の準備中✨<br />今回から折り曲げ厳禁のスタンプを押すことにしました！<a href="https://twitter.com/hashtag/%E6%8E%A8%E3%81%97%E6%AD%A6%E9%81%93%E3%82%92%E6%8E%A8%E3%81%99%E8%87%AA%E6%B2%BB%E4%BD%93?src=hash&amp;ref_src=twsrc%5Etfw">#推し武道を推す自治体</a> <a href="https://twitter.com/hashtag/wake_fan?src=hash&amp;ref_src=twsrc%5Etfw">#wake_fan</a> <a href="https://twitter.com/hashtag/%E6%8E%A8%E3%81%97%E6%AD%A6%E9%81%93?src=hash&amp;ref_src=twsrc%5Etfw">#推し武道</a> <a href="https://twitter.com/hashtag/%E5%92%8C%E6%B0%97%E7%94%BA?src=hash&amp;ref_src=twsrc%5Etfw">#和気町</a> <a href="https://twitter.com/hashtag/%E7%84%A1%E4%BA%8B%E3%81%AB%E5%B1%8A%E3%81%91?src=hash&amp;ref_src=twsrc%5Etfw">#無事に届け</a> <a href="https://twitter.com/hashtag/%E6%8A%98%E3%82%8A%E6%9B%B2%E3%81%92%E5%8E%B3%E7%A6%81?src=hash&amp;ref_src=twsrc%5Etfw">#折り曲げ厳禁</a> <a href="https://t.co/tpq70gEEOZ">pic.twitter.com/tpq70gEEOZ</a></p>&mdash; 和気町ファンクラブ【公式】✨入会無料✨ (@wake_fan2023) <a href="https://twitter.com/wake_fan2023/status/1665623980290760704?ref_src=twsrc%5Etfw">June 5, 2023</a></blockquote>
 <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">【予告】<br />リミットレギュレーションの適用について<br /><br />6月8日に「リミットレギュレーションの適用」を実施いたします。<br />この変更に先立ち、アプリ内では変更の方針と理由についてお伝えさせていただいております。<br /><br />詳細はゲームをご確認ください。<a href="https://twitter.com/hashtag/%E9%81%8A%E6%88%AF%E7%8E%8B%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%87%E3%83%A5%E3%82%A8%E3%83%AB?src=hash&amp;ref_src=twsrc%5Etfw">#遊戯王マスターデュエル</a> <a href="https://t.co/AiuiyhC2rV">pic.twitter.com/AiuiyhC2rV</a></p>&mdash; 【公式】 遊戯王 マスターデュエル (@YuGiOh_MD_INFO) <a href="https://twitter.com/YuGiOh_MD_INFO/status/1663791359394996225?ref_src=twsrc%5Etfw">May 31, 2023</a></blockquote>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<p>クソがー。</p>
-
-<p>ほんと2022年の登場カードロクなのがない。</p>
-
-<p>複数効果持ちカードを大量に出してるのがほんとにクソよ。</p>
-
-<p>1キルするならパーツを揃える苦労が必要。</p>
-
-<p>じゃんけんゲーにならないように盤面制圧に使えるカードも特殊召喚に難易度を設ける。</p>
-
-<p>似たような効果持ちカードを増やすとか。</p>
-
-<p>やることはいっぱいあるのにほんとに面白くないカードばかり増やして最低だよ。</p>]]></content><author><name>makietan</name></author><category term="game" /><category term="yugioh" /><summary type="html"><![CDATA[真紅眼の不死竜皇とパワー・ツール・ブレイバー・ドラゴンの先行1ターン目で出して毎ターンドローしたカードをハンデスするデッキを作りたいんだけど全くもって案が出てこないから誰か作って欲しいこれは運良く3ターン目でできたやつ#遊戯王 #マスターデュエル #遊戯王マスターデュエル pic.twitter.com/TdlyjRsTNf&mdash; まきえたん🥦☘️ (@makietanX) May 30, 2023]]></summary></entry><entry><title type="html">ジューーーーーーン！！！</title><link href="https://makietan.github.io/otaku/2023/06/01/report.html" rel="alternate" type="text/html" title="ジューーーーーーン！！！" /><published>2023-06-01T00:00:00+09:00</published><updated>2023-06-01T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2023/06/01/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2023/06/01/report.html"><![CDATA[<p>ゆゆ式オタクならとりあえず叫んどこう。</p>
-
-<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">あっ6月だ！6月になった！ンバーはないけど叫びます、ジューーーーーーン！！！</p>&mdash; 大久保瑠美 (@rumirumi_81pro) <a href="https://twitter.com/rumirumi_81pro/status/1664108541865762819?ref_src=twsrc%5Etfw">June 1, 2023</a></blockquote>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<p>いや、セプテンバーちゃうんかい！！</p>
-
-<p>ジューンと聞くと北の国からを思い出す。</p>
-
-<p>まともに見たことはないけどね。</p>
-
-<p>螢のテーマというらしい。</p>
-
-<p>曲名も知らんかったけどね。</p>]]></content><author><name>makietan</name></author><category term="otaku" /><summary type="html"><![CDATA[ゆゆ式オタクならとりあえず叫んどこう。]]></summary></entry><entry><title type="html">Mac で Android File Transfer がうまく接続できない場合は Google ドライブ アプリを終了させるとうまくいく</title><link href="https://makietan.github.io/tech/2023/05/31/report.html" rel="alternate" type="text/html" title="Mac で Android File Transfer がうまく接続できない場合は Google ドライブ アプリを終了させるとうまくいく" /><published>2023-05-31T00:00:00+09:00</published><updated>2023-05-31T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2023/05/31/report</id><content type="html" xml:base="https://makietan.github.io/tech/2023/05/31/report.html"><![CDATA[<p>久々に端末内の写真とかを移動させようと接続してみたら、</p>
-
-<p>「<strong>端末に接続できませんでした</strong>」</p>
-
-<p>「端末を再接続または再起動してください。」</p>
-
-<p>と表示された。</p>
-
-<p>3か月前にやったときは問題がなかったので色々調べたら辿り着いた。</p>
-
-<div class="card">
-  <a href="https://discussions.apple.com/thread/254428061"></a>
-  <div class="card__header">
-    <a href="https://discussions.apple.com/thread/254428061">discussions.apple.com</a>
-  </div>
-  <div class="card__image">
-    <img src="" />
-  </div>
-  <div class="card__title">
-    <p>android file transfer not working on Vent… - Apple Community</p>
-  </div>
-  <div class="card__description">
-    <p></p>
-  </div>
-</div>
-
-<p>どうやら Googleドライブアプリ（Google Drive.app）が悪さをしているらしい。</p>
-
-<p>同期を止め終了させてから開くと問題なくいけた。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[久々に端末内の写真とかを移動させようと接続してみたら、]]></summary></entry><entry><title type="html">PinT「旧プランの連中からぼったくります」</title><link href="https://makietan.github.io/japan/2023/05/30/report.html" rel="alternate" type="text/html" title="PinT「旧プランの連中からぼったくります」" /><published>2023-05-30T00:00:00+09:00</published><updated>2023-05-30T00:00:00+09:00</updated><id>https://makietan.github.io/japan/2023/05/30/report</id><content type="html" xml:base="https://makietan.github.io/japan/2023/05/30/report.html"><![CDATA[<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">PinT完全に名前詐欺プランにしてきやがった...<br />高っ<br />2倍に釣り上げるとか異常すぎる<br />どこに移動しようかな <a href="https://t.co/JRwEfv01y5">pic.twitter.com/JRwEfv01y5</a></p>&mdash; まきえたん🥦☘️ (@makietanX) <a href="https://twitter.com/makietanX/status/1663420666136391681?ref_src=twsrc%5Etfw">May 30, 2023</a></blockquote>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<p>料金が倍になった。</p>
-
-<p>ありえないってマジで。</p>
-
-<p>もちろん別のところに移動予定。</p>
-
-<p>やってられるか詐欺企業め。</p>
-
-<p>お得って名前をやめろ。</p>]]></content><author><name>makietan</name></author><category term="japan" /><summary type="html"><![CDATA[PinT完全に名前詐欺プランにしてきやがった...高っ2倍に釣り上げるとか異常すぎるどこに移動しようかな pic.twitter.com/JRwEfv01y5&mdash; まきえたん🥦☘️ (@makietanX) May 30, 2023]]></summary></entry><entry><title type="html">「ぷよぷよプログラミング」なる子供向けっぽい教材があった</title><link href="https://makietan.github.io/tech/2023/05/29/report.html" rel="alternate" type="text/html" title="「ぷよぷよプログラミング」なる子供向けっぽい教材があった" /><published>2023-05-29T00:00:00+09:00</published><updated>2023-05-29T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2023/05/29/report</id><content type="html" xml:base="https://makietan.github.io/tech/2023/05/29/report.html"><![CDATA[<div class="card">
-  <a href="https://puyo.sega.jp/program_2020/"></a>
-  <div class="card__header">
-    <a href="https://puyo.sega.jp/program_2020/">puyo.sega.jp</a>
-  </div>
-  <div class="card__image">
-    <img src="http://puyo.sega.jp/program_2020/facebook02.jpg?20201224" />
-  </div>
-  <div class="card__title">
-    <p>【公式】ぷよぷよeスポーツ×プログラミング</p>
-  </div>
-  <div class="card__description">
-    <p>『ぷよぷよ』でプログラミングを学ぼう！プログラミング学習環境『Monaca Education』において、セガが展開するアクションパズルゲーム『ぷよぷよ』をプログラミング学習できる教材コンテンツの提供を開始しました！</p>
-  </div>
-</div>
-
-<p>これを一通りやればぷよぷよは作れるという認識でいいだろう。</p>
-
-<p>25Pくらいあるがそう難しい部分はないので熟練者も1度はやってみてもいいだろう。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[puyo.sega.jp 【公式】ぷよぷよeスポーツ×プログラミング 『ぷよぷよ』でプログラミングを学ぼう！プログラミング学習環境『Monaca Education』において、セガが展開するアクションパズルゲーム『ぷよぷよ』をプログラミング学習できる教材コンテンツの提供を開始しました！]]></summary></entry></feed>
+<p>わりと遅めに登録したので来るとしたら今回がラストチャンス。</p>]]></content><author><name>makietan</name></author><category term="otaku" /><summary type="html"><![CDATA[2回目の発送の準備中✨今回から折り曲げ厳禁のスタンプを押すことにしました！#推し武道を推す自治体 #wake_fan #推し武道 #和気町 #無事に届け #折り曲げ厳禁 pic.twitter.com/tpq70gEEOZ&mdash; 和気町ファンクラブ【公式】✨入会無料✨ (@wake_fan2023) June 5, 2023]]></summary></entry></feed>
