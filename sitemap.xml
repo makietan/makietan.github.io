@@ -7425,6 +7425,10 @@
 <lastmod>2023-07-09T00:00:00+09:00</lastmod>
 </url>
 <url>
+<loc>https://makietan.github.io/unknown/2023/07/10/report.html</loc>
+<lastmod>2023-07-10T00:00:00+09:00</lastmod>
+</url>
+<url>
 <loc>https://makietan.github.io/about/</loc>
 </url>
 <url>
@@ -7513,6 +7517,9 @@
 </url>
 <url>
 <loc>https://makietan.github.io/category/twitter</loc>
+</url>
+<url>
+<loc>https://makietan.github.io/category/unknown</loc>
 </url>
 <url>
 <loc>https://makietan.github.io/category/world</loc>
@@ -7834,5 +7841,8 @@
 </url>
 <url>
 <loc>https://makietan.github.io/categories/mario/</loc>
+</url>
+<url>
+<loc>https://makietan.github.io/categories/unknown/</loc>
 </url>
 </urlset>
