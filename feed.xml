@@ -1,4 +1,87 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2023-07-17T12:32:17+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">セリオンズ・ジェネレイド</title><link href="https://makietan.github.io/game/yugioh/2023/07/15/report.html" rel="alternate" type="text/html" title="セリオンズ・ジェネレイド" /><published>2023-07-15T00:00:00+09:00</published><updated>2023-07-15T00:00:00+09:00</updated><id>https://makietan.github.io/game/yugioh/2023/07/15/report</id><content type="html" xml:base="https://makietan.github.io/game/yugioh/2023/07/15/report.html"><![CDATA[<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">ホップ・イヤー&amp;セリオンズ出張ジェネレイドのデッキ<br />まだまだ動かし方お試し中だけど色々できて面白い<br />ジェネレイドはUR3枚でも動けるからオススメ<a href="https://twitter.com/hashtag/%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%87%E3%83%A5%E3%82%A8%E3%83%AB?src=hash&amp;ref_src=twsrc%5Etfw">#マスターデュエル</a> <a href="https://t.co/9Jj7sfld0u">pic.twitter.com/9Jj7sfld0u</a></p>&mdash; まきえたん🥦☘️ (@makietanX) <a href="https://twitter.com/makietanX/status/1679917787865812997?ref_src=twsrc%5Etfw">July 14, 2023</a></blockquote>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2023-07-17T16:39:38+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">金を個人から借りるやつはだいたい詐欺師</title><link href="https://makietan.github.io/human/2023/07/17/report.html" rel="alternate" type="text/html" title="金を個人から借りるやつはだいたい詐欺師" /><published>2023-07-17T00:00:00+09:00</published><updated>2023-07-17T00:00:00+09:00</updated><id>https://makietan.github.io/human/2023/07/17/report</id><content type="html" xml:base="https://makietan.github.io/human/2023/07/17/report.html"><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/690VYcs7o78" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+
+<p>普通なら金融機関を使う。</p>
+
+<p>キャッシングというサービスが存在するので、どうしてもお金が必要になるのなら企業から借りるのが普通だ。
+手数料は取られるが、そもそも金のない人間にはそれくらいの代償が必要なので何も問題ない。
+手数料も返せない人間は金を借りる資格がない。当たり前だ。</p>
+
+<p>金を借りる資格がないにそれでも個人を利用してでも金を得ようとする人間は、
+確実に返却ができないので絶対に貸してはいけない。
+なので、金を貸して欲しいとかほざいてきたら関係を絶て。</p>
+
+<p>もっとまともな人が世の中にはたくさんいるので、クズに依存してはいけない。</p>
+
+<p>世の中には改善不可能なクズもたくさんいる。気をつけて人間関係を築かないといけない。
+もっとも、そんな面倒な人間関係を維持するくらいなら一人で生きたほうが気楽だよ。</p>
+
+<p>…ところで話は変わるけど。FXで300万くらい溶かしたので300万くらいお金くれませんかね（）。</p>]]></content><author><name>makietan</name></author><category term="human" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Macで変更日を基準としたファイルのナンバリング処理をNode.jsでやってみた</title><link href="https://makietan.github.io/tech/2023/07/16/report.html" rel="alternate" type="text/html" title="Macで変更日を基準としたファイルのナンバリング処理をNode.jsでやってみた" /><published>2023-07-16T00:00:00+09:00</published><updated>2023-07-16T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2023/07/16/report</id><content type="html" xml:base="https://makietan.github.io/tech/2023/07/16/report.html"><![CDATA[<p>ファイルの情報を得るには <code class="language-plaintext highlighter-rouge">fs.stat</code> を使う。</p>
+
+<p><code class="language-plaintext highlighter-rouge">mtimeMs</code> を基準としたソートを行い、同じサイズのファイルが連続していれば削除まで行う。</p>
+
+<p>ファイルの同一性はチェックしていないので、削除が嫌な場合は <code class="language-plaintext highlighter-rouge">reduce</code> 句を削除すればいい。</p>
+
+<p>桁数を間違えると上書きしやがるので注意しよう。</p>
+
+<p><code class="language-plaintext highlighter-rouge">fs.rename</code> する前に <code class="language-plaintext highlighter-rouge">if(await fs.exists(dst)) { ... }</code> で上書きを防ぐのもよい。</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>const fs = require('fs/promises');
+const path = require('path');
+
+const { program } = require('commander');
+const puppeteer = require('puppeteer');
+
+program
+  .name('file numbering')
+  .description('ファイルをナンバリングします')
+  .argument('&lt;string&gt;', '対象ディレクトリ')
+  .option('-d, --digit &lt;number&gt;', 'ページの桁数', 2)
+  .version('0.0.1');
+
+program.parse();
+
+const options = program.opts();
+const digit = options.digit;
+
+if (!program.args[0]) {
+    console.error('引数にディレクトリパスが必要です。');
+    return;
+}
+
+async function main(dirname) {
+    let files = await fs.readdir(dirname);
+    files = await Promise.all(files.map(async (filename) =&gt; {
+        let s = await fs.stat(path.join(dirname, filename));
+        return {
+            name: filename,
+            time: s.mtimeMs,
+            size: s.size
+        };
+      }))
+    files = files
+      .sort((a, b) =&gt; a.time - b.time)
+      .reduce((acc, cur) =&gt; {
+        if (acc.before_size != cur.size &amp;&amp; cur.size &gt; 0) {
+            acc.list.push(cur);
+        }
+        acc.before_size = cur.size;
+        return acc;
+      }, { list: [], before_size: -1 })
+      .list
+      .map((v) =&gt; v.name);
+
+    files.forEach(async (filename, index) =&gt; {
+        await fs.rename(
+            path.join(dirname, filename), 
+            path.join(dirname, ("0".repeat(digit - 1) + (index + 1)).slice(-digit) + path.extname(filename))
+        );
+    });
+}
+
+(async () =&gt; {
+    await main(program.args[0]);
+})();
+</code></pre></div></div>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[ファイルの情報を得るには fs.stat を使う。]]></summary></entry><entry><title type="html">セリオンズ・ジェネレイド</title><link href="https://makietan.github.io/game/yugioh/2023/07/15/report.html" rel="alternate" type="text/html" title="セリオンズ・ジェネレイド" /><published>2023-07-15T00:00:00+09:00</published><updated>2023-07-15T00:00:00+09:00</updated><id>https://makietan.github.io/game/yugioh/2023/07/15/report</id><content type="html" xml:base="https://makietan.github.io/game/yugioh/2023/07/15/report.html"><![CDATA[<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">ホップ・イヤー&amp;セリオンズ出張ジェネレイドのデッキ<br />まだまだ動かし方お試し中だけど色々できて面白い<br />ジェネレイドはUR3枚でも動けるからオススメ<a href="https://twitter.com/hashtag/%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%87%E3%83%A5%E3%82%A8%E3%83%AB?src=hash&amp;ref_src=twsrc%5Etfw">#マスターデュエル</a> <a href="https://t.co/9Jj7sfld0u">pic.twitter.com/9Jj7sfld0u</a></p>&mdash; まきえたん🥦☘️ (@makietanX) <a href="https://twitter.com/makietanX/status/1679917787865812997?ref_src=twsrc%5Etfw">July 14, 2023</a></blockquote>
 <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <ul>
@@ -163,12 +246,4 @@
 </ul>]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[2023/07/09 時点の価格やメニュー。]]></summary></entry><entry><title type="html">つなキャンやってます</title><link href="https://makietan.github.io/game/yurucamp/2023/07/08/report.html" rel="alternate" type="text/html" title="つなキャンやってます" /><published>2023-07-08T00:00:00+09:00</published><updated>2023-07-08T00:00:00+09:00</updated><id>https://makietan.github.io/game/yurucamp/2023/07/08/report</id><content type="html" xml:base="https://makietan.github.io/game/yurucamp/2023/07/08/report.html"><![CDATA[<p>熱暴走とかが酷いからやめるかもしれん…。</p>
 
 <blockquote class="twitter-tweet tw-align-center"><p lang="qme" dir="ltr"><a href="https://twitter.com/hashtag/%E3%82%86%E3%82%8B%E3%82%AD%E3%83%A3%E3%83%B3?src=hash&amp;ref_src=twsrc%5Etfw">#ゆるキャン</a> <a href="https://twitter.com/hashtag/%E3%81%A4%E3%81%AA%E3%82%AD%E3%83%A3%E3%83%B3?src=hash&amp;ref_src=twsrc%5Etfw">#つなキャン</a> <a href="https://t.co/30Qx0iUDBn">pic.twitter.com/30Qx0iUDBn</a></p>&mdash; まきえたん🥦☘️ (@makietanX) <a href="https://twitter.com/makietanX/status/1676547766624067589?ref_src=twsrc%5Etfw">July 5, 2023</a></blockquote>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>]]></content><author><name>makietan</name></author><category term="game" /><category term="yurucamp" /><summary type="html"><![CDATA[熱暴走とかが酷いからやめるかもしれん…。]]></summary></entry><entry><title type="html">携帯電話の値引き規制は異常</title><link href="https://makietan.github.io/japan/2023/07/07/report.html" rel="alternate" type="text/html" title="携帯電話の値引き規制は異常" /><published>2023-07-07T00:00:00+09:00</published><updated>2023-07-07T00:00:00+09:00</updated><id>https://makietan.github.io/japan/2023/07/07/report</id><content type="html" xml:base="https://makietan.github.io/japan/2023/07/07/report.html"><![CDATA[<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">値引き規制ほんと異常すぎる <a href="https://t.co/kgfq9dtWys">https://t.co/kgfq9dtWys</a></p>&mdash; まきえたん🥦☘️ (@makietanX) <a href="https://twitter.com/makietanX/status/1677083823195176960?ref_src=twsrc%5Etfw">July 6, 2023</a></blockquote>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<p>価格競争が全然起きないし、買い替えも低所得者層が行いにくくなっていて本当に最低な規制だと思う。</p>
-
-<p>この規制で得をした人間っているんだろうか？</p>]]></content><author><name>makietan</name></author><category term="japan" /><summary type="html"><![CDATA[値引き規制ほんと異常すぎる https://t.co/kgfq9dtWys&mdash; まきえたん🥦☘️ (@makietanX) July 6, 2023]]></summary></entry><entry><title type="html">スーパーマリオRPGのリメイク版が出るだと…</title><link href="https://makietan.github.io/game/mario/2023/07/06/report.html" rel="alternate" type="text/html" title="スーパーマリオRPGのリメイク版が出るだと…" /><published>2023-07-06T00:00:00+09:00</published><updated>2023-07-06T00:00:00+09:00</updated><id>https://makietan.github.io/game/mario/2023/07/06/report</id><content type="html" xml:base="https://makietan.github.io/game/mario/2023/07/06/report.html"><![CDATA[<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">スーパーファミコンで発売したマリオシリーズ最初のRPGタイトル『スーパーマリオＲＰＧ』が、グラフィックを一新して11月17日（金）に発売。このダイレクト終了後、予約受付を開始。<a href="https://twitter.com/hashtag/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9E%E3%83%AA%E3%82%AA%EF%BC%B2%EF%BC%B0%EF%BC%A7?src=hash&amp;ref_src=twsrc%5Etfw">#スーパーマリオＲＰＧ</a><a href="https://twitter.com/hashtag/NintendoDirectJP?src=hash&amp;ref_src=twsrc%5Etfw">#NintendoDirectJP</a></p>&mdash; 任天堂株式会社 (@Nintendo) <a href="https://twitter.com/Nintendo/status/1671522342751596544?ref_src=twsrc%5Etfw">June 21, 2023</a></blockquote>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<p>やったーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー！！</p>]]></content><author><name>makietan</name></author><category term="game" /><category term="mario" /><summary type="html"><![CDATA[スーパーファミコンで発売したマリオシリーズ最初のRPGタイトル『スーパーマリオＲＰＧ』が、グラフィックを一新して11月17日（金）に発売。このダイレクト終了後、予約受付を開始。#スーパーマリオＲＰＧ#NintendoDirectJP&mdash; 任天堂株式会社 (@Nintendo) June 21, 2023]]></summary></entry></feed>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>]]></content><author><name>makietan</name></author><category term="game" /><category term="yurucamp" /><summary type="html"><![CDATA[熱暴走とかが酷いからやめるかもしれん…。]]></summary></entry></feed>
