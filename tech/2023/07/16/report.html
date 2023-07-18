@@ -102,7 +102,7 @@
 
 <p>桁数を間違えると上書きしやがるので注意しよう。</p>
 
-<p><code class="language-plaintext highlighter-rouge">fs.rename</code> する前に <code class="language-plaintext highlighter-rouge">if(await fs.exists(dst)) { ... }</code> で上書きを防ぐのもよい。</p>
+<p><code class="language-plaintext highlighter-rouge">forEach</code> じゃなく <code class="language-plaintext highlighter-rouge">for...of</code> を使用したほうが安定すると思う。</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>const fs = require('fs/promises');
 const path = require('path');
@@ -149,10 +149,14 @@ async function main(dirname) {
       .map((v) =&gt; v.name);
 
     files.forEach(async (filename, index) =&gt; {
-        await fs.rename(
-            path.join(dirname, filename), 
-            path.join(dirname, ("0".repeat(digit - 1) + (index + 1)).slice(-digit) + path.extname(filename))
-        );
+        let src = path.join(dirname, filename);
+        let dst = path.join(dirname, ("0".repeat(digit - 1) + (index + 1)).slice(-digit) + path.extname(filename));
+        try {
+            await fs.access(dst);
+            console.log(`${dst} is already exists.`);
+        } catch (error) {
+            await fs.rename(src, dst);
+        }
     });
 }
 
@@ -173,80 +177,100 @@ async function main(dirname) {
   
 
   
-
-  
-  
-
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
     
       <div class="related">
         <h1>関連日報</h1>
         <div class="related-posts">
+    
+          <div class="card">
+            <a href="/tech/2023/07/18/report.html" title="fs.exists は fs/promises では使えないので fs.access を使ってみる"></a>
+            <div class="card__header">
+              <a href="/tech/2023/07/18/report.html">2023-07-18 00:00</a>
+            </div>
+            <div class="card__title">
+              <p>fs.exists は fs/promises では使えないので fs.access を使ってみる</p>
+            </div>
+            <div class="card__description"></div>
+          </div>
+    
+    
+    
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
     
           <div class="card">
             <a href="/tech/2023/07/03/report.html" title="UAによる計測が終わったっぽいな"></a>
@@ -400,26 +424,6 @@ async function main(dirname) {
             </div>
             <div class="card__title">
               <p>久々に Docker を触らせられる②</p>
-            </div>
-            <div class="card__description"></div>
-          </div>
-    
-    
-    
-  
-
-  
-  
-
-  
-    
-          <div class="card">
-            <a href="/tech/2023/06/12/report.html" title="久々に Docker を触らせられる①"></a>
-            <div class="card__header">
-              <a href="/tech/2023/06/12/report.html">2023-06-12 00:00</a>
-            </div>
-            <div class="card__title">
-              <p>久々に Docker を触らせられる①</p>
             </div>
             <div class="card__description"></div>
           </div>

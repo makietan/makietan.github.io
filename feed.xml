@@ -1,4 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2023-07-18T12:24:33+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">金を個人から借りるやつはだいたい詐欺師</title><link href="https://makietan.github.io/human/2023/07/17/report.html" rel="alternate" type="text/html" title="金を個人から借りるやつはだいたい詐欺師" /><published>2023-07-17T00:00:00+09:00</published><updated>2023-07-17T00:00:00+09:00</updated><id>https://makietan.github.io/human/2023/07/17/report</id><content type="html" xml:base="https://makietan.github.io/human/2023/07/17/report.html"><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/690VYcs7o78" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2023-07-18T18:18:32+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">fs.exists は fs/promises では使えないので fs.access を使ってみる</title><link href="https://makietan.github.io/tech/2023/07/18/report.html" rel="alternate" type="text/html" title="fs.exists は fs/promises では使えないので fs.access を使ってみる" /><published>2023-07-18T00:00:00+09:00</published><updated>2023-07-18T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2023/07/18/report</id><content type="html" xml:base="https://makietan.github.io/tech/2023/07/18/report.html"><![CDATA[<p>ファイルがあれば何もセず、なければ <code class="language-plaintext highlighter-rouge">rename</code> する。</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>try {
+    await fs.access(dst);
+    console.log(`${dst} is already exists.`);
+} catch (error) {
+    await fs.rename(src, dst);
+}
+</code></pre></div></div>
+
+<p>if文で分岐することを考えたが <code class="language-plaintext highlighter-rouge">try/catch</code> を使う必要があるのでゴリ押し実装にする。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[ファイルがあれば何もセず、なければ rename する。]]></summary></entry><entry><title type="html">金を個人から借りるやつはだいたい詐欺師</title><link href="https://makietan.github.io/human/2023/07/17/report.html" rel="alternate" type="text/html" title="金を個人から借りるやつはだいたい詐欺師" /><published>2023-07-17T00:00:00+09:00</published><updated>2023-07-17T00:00:00+09:00</updated><id>https://makietan.github.io/human/2023/07/17/report</id><content type="html" xml:base="https://makietan.github.io/human/2023/07/17/report.html"><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/690VYcs7o78" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
 
 <p>普通なら金融機関を使う。</p>
 
@@ -23,7 +33,7 @@
 
 <p>桁数を間違えると上書きしやがるので注意しよう。</p>
 
-<p><code class="language-plaintext highlighter-rouge">fs.rename</code> する前に <code class="language-plaintext highlighter-rouge">if(await fs.exists(dst)) { ... }</code> で上書きを防ぐのもよい。</p>
+<p><code class="language-plaintext highlighter-rouge">forEach</code> じゃなく <code class="language-plaintext highlighter-rouge">for...of</code> を使用したほうが安定すると思う。</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>const fs = require('fs/promises');
 const path = require('path');
@@ -70,10 +80,14 @@ async function main(dirname) {
       .map((v) =&gt; v.name);
 
     files.forEach(async (filename, index) =&gt; {
-        await fs.rename(
-            path.join(dirname, filename), 
-            path.join(dirname, ("0".repeat(digit - 1) + (index + 1)).slice(-digit) + path.extname(filename))
-        );
+        let src = path.join(dirname, filename);
+        let dst = path.join(dirname, ("0".repeat(digit - 1) + (index + 1)).slice(-digit) + path.extname(filename));
+        try {
+            await fs.access(dst);
+            console.log(`${dst} is already exists.`);
+        } catch (error) {
+            await fs.rename(src, dst);
+        }
     });
 }
 
@@ -242,7 +256,4 @@ async function main(dirname) {
   <li>おろしぶっかけ小 360円</li>
   <li>ミニ牛肉ごはん 390円</li>
   <li>カレーライス小 450円</li>
-</ul>]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[2023/07/09 時点の価格やメニュー。]]></summary></entry><entry><title type="html">つなキャンやってます</title><link href="https://makietan.github.io/game/yurucamp/2023/07/08/report.html" rel="alternate" type="text/html" title="つなキャンやってます" /><published>2023-07-08T00:00:00+09:00</published><updated>2023-07-08T00:00:00+09:00</updated><id>https://makietan.github.io/game/yurucamp/2023/07/08/report</id><content type="html" xml:base="https://makietan.github.io/game/yurucamp/2023/07/08/report.html"><![CDATA[<p>熱暴走とかが酷いからやめるかもしれん…。</p>
-
-<blockquote class="twitter-tweet tw-align-center"><p lang="qme" dir="ltr"><a href="https://twitter.com/hashtag/%E3%82%86%E3%82%8B%E3%82%AD%E3%83%A3%E3%83%B3?src=hash&amp;ref_src=twsrc%5Etfw">#ゆるキャン</a> <a href="https://twitter.com/hashtag/%E3%81%A4%E3%81%AA%E3%82%AD%E3%83%A3%E3%83%B3?src=hash&amp;ref_src=twsrc%5Etfw">#つなキャン</a> <a href="https://t.co/30Qx0iUDBn">pic.twitter.com/30Qx0iUDBn</a></p>&mdash; まきえたん🥦☘️ (@makietanX) <a href="https://twitter.com/makietanX/status/1676547766624067589?ref_src=twsrc%5Etfw">July 5, 2023</a></blockquote>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>]]></content><author><name>makietan</name></author><category term="game" /><category term="yurucamp" /><summary type="html"><![CDATA[熱暴走とかが酷いからやめるかもしれん…。]]></summary></entry></feed>
+</ul>]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[2023/07/09 時点の価格やメニュー。]]></summary></entry></feed>
