@@ -1,4 +1,60 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2023-07-18T18:18:32+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">fs.exists は fs/promises では使えないので fs.access を使ってみる</title><link href="https://makietan.github.io/tech/2023/07/18/report.html" rel="alternate" type="text/html" title="fs.exists は fs/promises では使えないので fs.access を使ってみる" /><published>2023-07-18T00:00:00+09:00</published><updated>2023-07-18T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2023/07/18/report</id><content type="html" xml:base="https://makietan.github.io/tech/2023/07/18/report.html"><![CDATA[<p>ファイルがあれば何もセず、なければ <code class="language-plaintext highlighter-rouge">rename</code> する。</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2023-07-19T12:56:18+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">《Ｅｍトリック・クラウン》から可能な展開</title><link href="https://makietan.github.io/game/yugioh/2023/07/19/report.html" rel="alternate" type="text/html" title="《Ｅｍトリック・クラウン》から可能な展開" /><published>2023-07-19T00:00:00+09:00</published><updated>2023-07-19T00:00:00+09:00</updated><id>https://makietan.github.io/game/yugioh/2023/07/19/report</id><content type="html" xml:base="https://makietan.github.io/game/yugioh/2023/07/19/report.html"><![CDATA[<h2 id="聖魔の乙女アルテミス">《聖魔の乙女アルテミス》</h2>
+
+<p>リンク2のモンスターを特殊召喚できる。</p>
+
+<ol>
+  <li>《Ｅｍトリック・クラウン》を召喚</li>
+  <li>《聖魔の乙女アルテミス》をリンク召喚</li>
+  <li>《Ｅｍトリック・クラウン》の効果で自身を墓地から特殊召喚</li>
+</ol>
+
+<h3 id="特殊召喚可能なリンクモンスター">特殊召喚可能なリンクモンスター</h3>
+
+<ul>
+  <li>《魔導原典 クロウリー》</li>
+  <li>《破壊剣士の守護絆竜》</li>
+  <li>《捕食植物ヴェルテ・アナコンダ》</li>
+  <li>《バイナル・ソーサレス》</li>
+  <li>《アカシック・マジシャン》</li>
+  <li>《アンダークロックテイカー》</li>
+  <li>《セキュリティ・ドラゴン》</li>
+  <li>《LANフォリンクス》</li>
+  <li>《トロイメア・ケルベロス》</li>
+  <li>《トロイメア・フェニックス》</li>
+  <li>《ハイパースター》</li>
+  <li>《魔界の警邏課デスポリス》</li>
+  <li>《PSYフレームロード・Λ》</li>
+  <li>《剛炎の剣士》</li>
+  <li>《星導竜アーミライル》</li>
+  <li>《魔導耀士 デイブレイカー》</li>
+  <li>《警衛バリケイドベルグ》</li>
+  <li>《ブルートエンフォーサー》</li>
+  <li>《武神姫－アハシマ》</li>
+  <li>《アーティファクト－ダグザ》</li>
+  <li>《幻奏の華楽聖ブルーム・ハーモニスト》</li>
+  <li>《星鍵士リイヴ》（条件あり）</li>
+  <li>《プロキシー・F・マジシャン》</li>
+  <li>《照耀の光霊使いライナ》</li>
+  <li>《魔界特派員デスキャスター》</li>
+  <li>《プロキシー・ドラゴン》</li>
+  <li>《コード・トーカー》</li>
+  <li>《ダブルバイト・ドラゴン》</li>
+  <li>《リプロドクス》</li>
+  <li>《バックアップ・スーパーバイザー》</li>
+  <li>《トラックブラック》</li>
+  <li>《ミス・ケープ・バーバ》</li>
+  <li>《クロシープ》</li>
+  <li>《虚光の宣告者》</li>
+  <li>《コードブレイカー・ウイルスソードマン》</li>
+  <li>《激撮ディスパラッチ》</li>
+  <li>《リンクルベル》</li>
+  <li>《スペース・インシュレイター》</li>
+  <li>《ペンテスタッグ》</li>
+  <li>《冥宮の番人》</li>
+  <li>《プログレオ》</li>
+  <li>《虫忍 ハガクレミノ》</li>
+  <li>《転晶のコーディネラル》</li>
+</ul>]]></content><author><name>makietan</name></author><category term="game" /><category term="yugioh" /><summary type="html"><![CDATA[《聖魔の乙女アルテミス》]]></summary></entry><entry><title type="html">fs.exists は fs/promises では使えないので fs.access を使ってみる</title><link href="https://makietan.github.io/tech/2023/07/18/report.html" rel="alternate" type="text/html" title="fs.exists は fs/promises では使えないので fs.access を使ってみる" /><published>2023-07-18T00:00:00+09:00</published><updated>2023-07-18T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2023/07/18/report</id><content type="html" xml:base="https://makietan.github.io/tech/2023/07/18/report.html"><![CDATA[<p>ファイルがあれば何もセず、なければ <code class="language-plaintext highlighter-rouge">rename</code> する。</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>try {
     await fs.access(dst);
@@ -158,102 +214,4 @@ async function main(dirname) {
 <p>安すぎる。</p>
 
 <p>おろしポン酢が好きなので交互に食べるかな。</p>]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[松のや500円飯復活してる…えげつない（コロッケはクーポンで） pic.twitter.com/6KBFNKeFe0&mdash; まきえたん🥦☘️ (@makietanX) July 11, 2023]]></summary></entry><entry><title type="html">兵隊竜入りスプライトでマスターランクに到達</title><link href="https://makietan.github.io/unknown/2023/07/10/report.html" rel="alternate" type="text/html" title="兵隊竜入りスプライトでマスターランクに到達" /><published>2023-07-10T00:00:00+09:00</published><updated>2023-07-10T00:00:00+09:00</updated><id>https://makietan.github.io/unknown/2023/07/10/report</id><content type="html" xml:base="https://makietan.github.io/unknown/2023/07/10/report.html"><![CDATA[<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">まあスプライト使ってるから<br />上がるのは使命みたいなところあるわな<br />あとはもう好きなデッキ使ってKONAMIのクソ環境に文句を言うだけ<a href="https://twitter.com/hashtag/%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%87%E3%83%A5%E3%82%A8%E3%83%AB?src=hash&amp;ref_src=twsrc%5Etfw">#マスターデュエル</a> <a href="https://t.co/MSKXuCObVO">pic.twitter.com/MSKXuCObVO</a></p>&mdash; まきえたん🥦☘️ (@makietanX) <a href="https://twitter.com/makietanX/status/1677871032240345088?ref_src=twsrc%5Etfw">July 9, 2023</a></blockquote>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>]]></content><author><name>makietan</name></author><category term="unknown" /><summary type="html"><![CDATA[まあスプライト使ってるから上がるのは使命みたいなところあるわなあとはもう好きなデッキ使ってKONAMIのクソ環境に文句を言うだけ#マスターデュエル pic.twitter.com/MSKXuCObVO&mdash; まきえたん🥦☘️ (@makietanX) July 9, 2023]]></summary></entry><entry><title type="html">チェーン店の朝食比較</title><link href="https://makietan.github.io/gourmet/2023/07/09/report.html" rel="alternate" type="text/html" title="チェーン店の朝食比較" /><published>2023-07-09T00:00:00+09:00</published><updated>2023-07-09T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2023/07/09/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2023/07/09/report.html"><![CDATA[<p>2023/07/09 時点の価格やメニュー。</p>
-
-<p>納豆系は無視。</p>
-
-<p>よく食べるのは松のや。</p>
-
-<p>吉野家は他より高い。</p>
-
-<p>すき家は余計なものがついたメニューばかりで残念。</p>
-
-<p>コスパ最強ははなまるうどんで「生たまご+ごはん」の230円。</p>
-
-<p>うどん食えって感じもするけどね。</p>
-
-<h2 id="松屋">松屋</h2>
-
-<p>https://www.matsuyafoods.co.jp/matsuya/menu/morning/index.html</p>
-
-<ul>
-  <li>Wで選べる玉子かけごはん 290円</li>
-  <li>牛小鉢朝定食 380円</li>
-  <li>ソーセージエッグ定食 450円</li>
-  <li>豚汁朝定食 490円</li>
-  <li>焼鮭朝定食 590円</li>
-</ul>
-
-<h2 id="松のや">松のや</h2>
-
-<p>https://www.matsuyafoods.co.jp/matsunoya/menu/morning/</p>
-
-<ul>
-  <li>玉子かけごはん定食 250円</li>
-  <li>玉子丼 290円</li>
-  <li>“松のや”の得朝コロッケカレー 390円</li>
-  <li>得朝ソーセージエッグ定食 390円</li>
-  <li>得朝ロースかつ定食 490円</li>
-  <li>得朝焼鮭定食 490円</li>
-  <li>“松のや”の得朝ロースかつカレー 490円</li>
-</ul>
-
-<h2 id="吉野家">吉野家</h2>
-
-<p>https://www.yoshinoya.com/menu/morningset/</p>
-
-<ul>
-  <li>焼魚定食 454円</li>
-  <li>朝牛セット(小盛) 499円</li>
-  <li>ハムエッグ牛小鉢定食 536円</li>
-  <li>特朝定食 599円</li>
-  <li>焼魚牛小鉢定食 635円</li>
-  <li>Wハムエッグ牛小鉢定食 635円</li>
-</ul>
-
-<h2 id="すき家">すき家</h2>
-
-<p>https://www.sukiya.jp/menu/in/morning/</p>
-
-<ul>
-  <li>たまかけ朝食 290円</li>
-  <li>自社製ベーコンベーコンエッグ朝食 390円</li>
-  <li>牛小鉢ベーコンエッグ朝食 490円</li>
-  <li>自社製ベーコンダブルエッグ朝食 450円</li>
-  <li>焼鮭たまかけ朝食 490円</li>
-  <li>塩さばたまかけ朝食 490円</li>
-  <li>牛小鉢ベーコンダブルエッグ朝食 550円</li>
-</ul>
-
-<h2 id="なか卯">なか卯</h2>
-
-<p>https://www.nakau.co.jp/jp/menu/category/?outflag=0&amp;id=3</p>
-
-<ul>
-  <li>こだわり卵朝食 290円</li>
-  <li>目玉焼き朝食 290円</li>
-  <li>目玉焼きベーコン朝食 360円</li>
-  <li>京風とん汁目玉焼き朝食 390円</li>
-  <li>銀鮭朝食 440円</li>
-  <li>目玉焼き牛小鉢ベーコン朝食 490円</li>
-  <li>銀鮭鶏小鉢朝食 540円</li>
-  <li>銀鮭牛小鉢朝食 580円</li>
-</ul>
-
-<h2 id="はなまるうどん">はなまるうどん</h2>
-
-<p>https://www.hanamaruudon.com/menu/</p>
-
-<ul>
-  <li>生たまご 100円</li>
-  <li>半熟たまご 100円</li>
-  <li>ちくわ磯辺揚げ 120円</li>
-  <li>ライス小 130円</li>
-  <li>とり天 160円</li>
-  <li>かけ小 290円</li>
-  <li>おろししょうゆ小 290円</li>
-  <li>わかめ小 360円</li>
-  <li>おろしぶっかけ小 360円</li>
-  <li>ミニ牛肉ごはん 390円</li>
-  <li>カレーライス小 450円</li>
-</ul>]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[2023/07/09 時点の価格やメニュー。]]></summary></entry></feed>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>]]></content><author><name>makietan</name></author><category term="unknown" /><summary type="html"><![CDATA[まあスプライト使ってるから上がるのは使命みたいなところあるわなあとはもう好きなデッキ使ってKONAMIのクソ環境に文句を言うだけ#マスターデュエル pic.twitter.com/MSKXuCObVO&mdash; まきえたん🥦☘️ (@makietanX) July 9, 2023]]></summary></entry></feed>
