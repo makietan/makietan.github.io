@@ -1,4 +1,22 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2023-07-21T12:15:33+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">《Ｅｍトリック・クラウン》から可能な展開</title><link href="https://makietan.github.io/game/yugioh/2023/07/19/report.html" rel="alternate" type="text/html" title="《Ｅｍトリック・クラウン》から可能な展開" /><published>2023-07-19T00:00:00+09:00</published><updated>2023-07-19T00:00:00+09:00</updated><id>https://makietan.github.io/game/yugioh/2023/07/19/report</id><content type="html" xml:base="https://makietan.github.io/game/yugioh/2023/07/19/report.html"><![CDATA[<h2 id="聖魔の乙女アルテミス">《聖魔の乙女アルテミス》</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2023-07-21T13:32:20+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">塩素系漂白剤と日焼け止めで白Tシャツがピンク色になるらしい</title><link href="https://makietan.github.io/cleaning/2023/07/21/report.html" rel="alternate" type="text/html" title="塩素系漂白剤と日焼け止めで白Tシャツがピンク色になるらしい" /><published>2023-07-21T00:00:00+09:00</published><updated>2023-07-21T00:00:00+09:00</updated><id>https://makietan.github.io/cleaning/2023/07/21/report</id><content type="html" xml:base="https://makietan.github.io/cleaning/2023/07/21/report.html"><![CDATA[<div class="card">
+  <a href="https://news.yahoo.co.jp/articles/592c410a8fb33ab6a7449292f5a47690a9cb145a"></a>
+  <div class="card__header">
+    <a href="https://news.yahoo.co.jp/articles/592c410a8fb33ab6a7449292f5a47690a9cb145a">news.yahoo.co.jp</a>
+  </div>
+  <div class="card__image">
+    <img src="https://newsatcl-pctr.c.yimg.jp/t/amd-img/20230720-00010005-hintpot-000-3-view.jpg?exp=10800" />
+  </div>
+  <div class="card__title">
+    <p>塩素系漂白剤で白Tシャツがピンク色に　原因と対処法を花王が伝授　「早く知りたかった」（Hint-Pot） - Yahoo!ニュース</p>
+  </div>
+  <div class="card__description">
+    <p>　シンプルで、着回し力が高い白Tシャツ。しかし、着用しているうちに自然と黄ばみや汚れが目立ってきますよね。そんなとき、衣類用の漂白剤に頼ることもありますが、使い方を間違えて失敗してしまうことも。洗濯</p>
+  </div>
+</div>
+
+<p>洗濯って結構難しい。
+こういうところをどうにかする洗濯機が出てくれるといいのだけど、
+しょうもない機能ばかりつける家電メーカーには本当にがっかりなんだよ。</p>]]></content><author><name>makietan</name></author><category term="cleaning" /><summary type="html"><![CDATA[news.yahoo.co.jp 塩素系漂白剤で白Tシャツがピンク色に　原因と対処法を花王が伝授　「早く知りたかった」（Hint-Pot） - Yahoo!ニュース 　シンプルで、着回し力が高い白Tシャツ。しかし、着用しているうちに自然と黄ばみや汚れが目立ってきますよね。そんなとき、衣類用の漂白剤に頼ることもありますが、使い方を間違えて失敗してしまうことも。洗濯]]></summary></entry><entry><title type="html">《Ｅｍトリック・クラウン》から可能な展開</title><link href="https://makietan.github.io/game/yugioh/2023/07/19/report.html" rel="alternate" type="text/html" title="《Ｅｍトリック・クラウン》から可能な展開" /><published>2023-07-19T00:00:00+09:00</published><updated>2023-07-19T00:00:00+09:00</updated><id>https://makietan.github.io/game/yugioh/2023/07/19/report</id><content type="html" xml:base="https://makietan.github.io/game/yugioh/2023/07/19/report.html"><![CDATA[<h2 id="聖魔の乙女アルテミス">《聖魔の乙女アルテミス》</h2>
 
 <p>リンク2のモンスターを特殊召喚できる。</p>
 
@@ -11,49 +29,227 @@
 <h3 id="特殊召喚可能なリンクモンスター">特殊召喚可能なリンクモンスター</h3>
 
 <ul>
-  <li>《魔導原典 クロウリー》</li>
+  <li>《魔導原典 クロウリー》
+    <ul>
+      <li>「魔導書」カードのランダムサーチ</li>
+      <li>魔法使い族のリリース減</li>
+    </ul>
+  </li>
   <li>《破壊剣士の守護絆竜》</li>
-  <li>《捕食植物ヴェルテ・アナコンダ》</li>
+  <li>《捕食植物ヴェルテ・アナコンダ》
+    <ul>
+      <li>属性変更</li>
+      <li>融合カード発動
+        <ul>
+          <li>《フュージョン・デステニー》
+            <ul>
+              <li>《Ｄ－ＨＥＲＯ デストロイフェニックスガイ》</li>
+            </ul>
+          </li>
+          <li>《ネオス・フュージョン》
+            <ul>
+              <li>《レインボー・ネオス》</li>
+              <li>《アームド・ネオス》</li>
+              <li>《Ｅ・ＨＥＲＯ ネオス・クルーガー》</li>
+            </ul>
+          </li>
+          <li>《真紅眼融合》
+            <ul>
+              <li>《悪魔竜ブラック・デーモンズ・ドラゴン》</li>
+              <li>《流星竜メテオ・ブラック・ドラゴン》</li>
+              <li>《真紅眼の黒刃竜》</li>
+            </ul>
+          </li>
+          <li>《円融魔術》
+            <ul>
+              <li>《クインテット・マジシャン》 条件：他に魔法使い族3体</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
   <li>《バイナル・ソーサレス》</li>
-  <li>《アカシック・マジシャン》</li>
+  <li>《アカシック・マジシャン》
+    <ul>
+      <li>リンク先バウンス</li>
+    </ul>
+  </li>
   <li>《アンダークロックテイカー》</li>
   <li>《セキュリティ・ドラゴン》</li>
   <li>《LANフォリンクス》</li>
-  <li>《トロイメア・ケルベロス》</li>
-  <li>《トロイメア・フェニックス》</li>
-  <li>《ハイパースター》</li>
+  <li>《トロイメア・ケルベロス》
+    <ul>
+      <li>特殊召喚モンスター除去</li>
+    </ul>
+  </li>
+  <li>《トロイメア・フェニックス》
+    <ul>
+      <li>魔法・罠除去</li>
+    </ul>
+  </li>
+  <li>《ハイパースター》
+    <ul>
+      <li>2300打点以下の闇属性を攻撃で処理可能</li>
+      <li>墓地の光属性回収</li>
+    </ul>
+  </li>
   <li>《魔界の警邏課デスポリス》</li>
-  <li>《PSYフレームロード・Λ》</li>
-  <li>《剛炎の剣士》</li>
+  <li>《PSYフレームロード・Λ》
+    <ul>
+      <li>「PSYフレームギア」の発動条件緩和</li>
+      <li>場のサイキック族が除外された場合「PSYフレーム」カードサーチ</li>
+    </ul>
+  </li>
+  <li>《剛炎の剣士》
+    <ul>
+      <li>1800打点</li>
+      <li>破壊時墓地のL以外の戦士族特殊召喚</li>
+    </ul>
+  </li>
   <li>《星導竜アーミライル》</li>
-  <li>《魔導耀士 デイブレイカー》</li>
-  <li>《警衛バリケイドベルグ》</li>
-  <li>《ブルートエンフォーサー》</li>
-  <li>《武神姫－アハシマ》</li>
-  <li>《アーティファクト－ダグザ》</li>
-  <li>《幻奏の華楽聖ブルーム・ハーモニスト》</li>
-  <li>《星鍵士リイヴ》（条件あり）</li>
-  <li>《プロキシー・F・マジシャン》</li>
-  <li>《照耀の光霊使いライナ》</li>
-  <li>《魔界特派員デスキャスター》</li>
-  <li>《プロキシー・ドラゴン》</li>
-  <li>《コード・トーカー》</li>
-  <li>《ダブルバイト・ドラゴン》</li>
-  <li>《リプロドクス》</li>
+  <li>《魔導耀士 デイブレイカー》
+    <ul>
+      <li>1900打点</li>
+    </ul>
+  </li>
+  <li>《警衛バリケイドベルグ》
+    <ul>
+      <li>機械族</li>
+      <li>手札1枚捨て永続魔法orフィールド魔法回収</li>
+    </ul>
+  </li>
+  <li>《ブルートエンフォーサー》
+    <ul>
+      <li>手札1枚捨て表側表示カード破壊（条件で相手による無効あり）</li>
+    </ul>
+  </li>
+  <li>《アーティファクト－ダグザ》
+    <ul>
+      <li>カード効果発動で「アーティファクト」モンスターサーチ&amp;セット</li>
+      <li>相手ターンに破壊で墓地から「アーティファクト」モンスター特殊召喚</li>
+    </ul>
+  </li>
+  <li>《幻奏の華楽聖ブルーム・ハーモニスト》
+    <ul>
+      <li>手札1枚捨て「幻奏」モンスターをリンク先に特殊召喚（幻奏縛り）</li>
+      <li>ダメステ相手発動無効</li>
+    </ul>
+  </li>
+  <li>《星鍵士リイヴ》（条件あり）
+    <ul>
+      <li>「聖遺物」サーチ&amp;セット</li>
+      <li>L素材墓地送りでデッキバウンス</li>
+    </ul>
+  </li>
+  <li>《プロキシー・F・マジシャン》
+    <ul>
+      <li>フィールド融合</li>
+      <li>リンク先に融合モンスターで手札から攻撃力1000以下特殊召喚</li>
+    </ul>
+  </li>
+  <li>《照耀の光霊使いライナ》
+    <ul>
+      <li>相手の墓地光属性蘇生</li>
+      <li>破壊時光属性サーチ</li>
+    </ul>
+  </li>
+  <li>《魔界特派員デスキャスター》
+    <ul>
+      <li>悪魔族蘇生</li>
+    </ul>
+  </li>
+  <li>《プロキシー・ドラゴン》
+    <ul>
+      <li>破壊耐性</li>
+    </ul>
+  </li>
+  <li>《コード・トーカー》
+    <ul>
+      <li>L先数で攻撃力上昇</li>
+      <li>破壊耐性</li>
+    </ul>
+  </li>
+  <li>《ダブルバイト・ドラゴン》（アルテミス2枚）
+    <ul>
+      <li>攻撃力2100</li>
+      <li>Lモンスター・魔法・罠以外の耐性付与</li>
+    </ul>
+  </li>
+  <li>《リプロドクス》
+    <ul>
+      <li>種族or属性変更</li>
+    </ul>
+  </li>
   <li>《バックアップ・スーパーバイザー》</li>
-  <li>《トラックブラック》</li>
-  <li>《ミス・ケープ・バーバ》</li>
-  <li>《クロシープ》</li>
+  <li>《トラックブラック》
+    <ul>
+      <li>リンク先モンスターが戦闘破壊で1ドロー</li>
+    </ul>
+  </li>
+  <li>《ミス・ケープ・バーバ》
+    <ul>
+      <li>バトルフェイズ除外</li>
+    </ul>
+  </li>
+  <li>《クロシープ》
+    <ul>
+      <li>●儀式：自分はデッキから２枚ドローし、その後手札を２枚選んで捨てる。</li>
+      <li>●融合：自分の墓地からレベル４以下のモンスター１体を選んで特殊召喚する。</li>
+      <li>●Ｓ：自分フィールドの全てのモンスターの攻撃力は７００アップする。</li>
+      <li>●Ｘ：相手フィールドの全てのモンスターの攻撃力は７００ダウンする。</li>
+    </ul>
+  </li>
   <li>《虚光の宣告者》</li>
-  <li>《コードブレイカー・ウイルスソードマン》</li>
-  <li>《激撮ディスパラッチ》</li>
-  <li>《リンクルベル》</li>
-  <li>《スペース・インシュレイター》</li>
-  <li>《ペンテスタッグ》</li>
-  <li>《冥宮の番人》</li>
+  <li>《コードブレイカー・ウイルスソードマン》
+    <ul>
+      <li>2300打点</li>
+      <li>破壊時エンドフェイズ蘇生</li>
+    </ul>
+  </li>
+  <li>《激撮ディスパラッチ》
+    <ul>
+      <li>攻撃対象変更</li>
+      <li>戦闘後相手モンスター破壊&amp;攻撃力半分LP回復</li>
+    </ul>
+  </li>
+  <li>《リンクルベル》
+    <ul>
+      <li>ゴミ</li>
+    </ul>
+  </li>
+  <li>《スペース・インシュレイター》
+    <ul>
+      <li>L先攻守800ダウン</li>
+      <li>サイバース族L召喚でL先に蘇生</li>
+    </ul>
+  </li>
+  <li>《ペンテスタッグ》
+    <ul>
+      <li>1600打点</li>
+      <li>貫通</li>
+    </ul>
+  </li>
+  <li>《冥宮の番人》
+    <ul>
+      <li>相手モンスター攻撃力500ダウン</li>
+      <li>1400打点</li>
+      <li>破壊時バニラ蘇生</li>
+    </ul>
+  </li>
   <li>《プログレオ》</li>
-  <li>《虫忍 ハガクレミノ》</li>
-  <li>《転晶のコーディネラル》</li>
+  <li>《虫忍 ハガクレミノ》
+    <ul>
+      <li>攻撃対象回避</li>
+      <li>L先破壊で昆虫族を手札・墓地から特殊召喚</li>
+    </ul>
+  </li>
+  <li>《転晶のコーディネラル》
+    <ul>
+      <li>効果破壊耐性付与</li>
+      <li>コントロール入れ替え</li>
+    </ul>
+  </li>
 </ul>]]></content><author><name>makietan</name></author><category term="game" /><category term="yugioh" /><summary type="html"><![CDATA[《聖魔の乙女アルテミス》]]></summary></entry><entry><title type="html">fs.exists は fs/promises では使えないので fs.access を使ってみる</title><link href="https://makietan.github.io/tech/2023/07/18/report.html" rel="alternate" type="text/html" title="fs.exists は fs/promises では使えないので fs.access を使ってみる" /><published>2023-07-18T00:00:00+09:00</published><updated>2023-07-18T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2023/07/18/report</id><content type="html" xml:base="https://makietan.github.io/tech/2023/07/18/report.html"><![CDATA[<p>ファイルがあれば何もセず、なければ <code class="language-plaintext highlighter-rouge">rename</code> する。</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>try {
@@ -213,5 +409,4 @@ async function main(dirname) {
 
 <p>安すぎる。</p>
 
-<p>おろしポン酢が好きなので交互に食べるかな。</p>]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[松のや500円飯復活してる…えげつない（コロッケはクーポンで） pic.twitter.com/6KBFNKeFe0&mdash; まきえたん🥦☘️ (@makietanX) July 11, 2023]]></summary></entry><entry><title type="html">兵隊竜入りスプライトでマスターランクに到達</title><link href="https://makietan.github.io/unknown/2023/07/10/report.html" rel="alternate" type="text/html" title="兵隊竜入りスプライトでマスターランクに到達" /><published>2023-07-10T00:00:00+09:00</published><updated>2023-07-10T00:00:00+09:00</updated><id>https://makietan.github.io/unknown/2023/07/10/report</id><content type="html" xml:base="https://makietan.github.io/unknown/2023/07/10/report.html"><![CDATA[<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">まあスプライト使ってるから<br />上がるのは使命みたいなところあるわな<br />あとはもう好きなデッキ使ってKONAMIのクソ環境に文句を言うだけ<a href="https://twitter.com/hashtag/%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%87%E3%83%A5%E3%82%A8%E3%83%AB?src=hash&amp;ref_src=twsrc%5Etfw">#マスターデュエル</a> <a href="https://t.co/MSKXuCObVO">pic.twitter.com/MSKXuCObVO</a></p>&mdash; まきえたん🥦☘️ (@makietanX) <a href="https://twitter.com/makietanX/status/1677871032240345088?ref_src=twsrc%5Etfw">July 9, 2023</a></blockquote>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>]]></content><author><name>makietan</name></author><category term="unknown" /><summary type="html"><![CDATA[まあスプライト使ってるから上がるのは使命みたいなところあるわなあとはもう好きなデッキ使ってKONAMIのクソ環境に文句を言うだけ#マスターデュエル pic.twitter.com/MSKXuCObVO&mdash; まきえたん🥦☘️ (@makietanX) July 9, 2023]]></summary></entry></feed>
+<p>おろしポン酢が好きなので交互に食べるかな。</p>]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[松のや500円飯復活してる…えげつない（コロッケはクーポンで） pic.twitter.com/6KBFNKeFe0&mdash; まきえたん🥦☘️ (@makietanX) July 11, 2023]]></summary></entry></feed>
