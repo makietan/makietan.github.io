@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2023-08-27T03:51:47+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">スパロボDD 特別交換所 2023</title><link href="https://makietan.github.io/game/srwdd/2023/08/27/report.html" rel="alternate" type="text/html" title="スパロボDD 特別交換所 2023" /><published>2023-08-27T00:00:00+09:00</published><updated>2023-08-27T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2023/08/27/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2023/08/27/report.html"><![CDATA[<p><button id="remove_checked" onclick="removeChecked();">所持済みを非表示</button></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2023-08-27T04:10:15+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">スパロボDD 特別交換所 2023</title><link href="https://makietan.github.io/game/srwdd/2023/08/27/report.html" rel="alternate" type="text/html" title="スパロボDD 特別交換所 2023" /><published>2023-08-27T00:00:00+09:00</published><updated>2023-08-27T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2023/08/27/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2023/08/27/report.html"><![CDATA[<p><button id="remove_checked" onclick="removeChecked();">所持済みを非表示</button></p>
 
 <div id="list">
 <label for="オウル・ハーガー／ディーダリオン"><input type="checkbox" id="オウル・ハーガー／ディーダリオン" />オウル・ハーガー／ディーダリオン</label><br />
@@ -136,7 +136,29 @@ function removeChecked() {
         label.nextElementSibling.style.display = "none";
       });
 }
-</script>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[所持済みを非表示]]></summary></entry><entry><title type="html">完凸してないなかまモンスター</title><link href="https://makietan.github.io/game/dqw/2023/07/29/report.html" rel="alternate" type="text/html" title="完凸してないなかまモンスター" /><published>2023-07-29T00:00:00+09:00</published><updated>2023-07-29T00:00:00+09:00</updated><id>https://makietan.github.io/game/dqw/2023/07/29/report</id><content type="html" xml:base="https://makietan.github.io/game/dqw/2023/07/29/report.html"><![CDATA[<ul>
+</script>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[所持済みを非表示]]></summary></entry><entry><title type="html">Node.js の fs.readdir をするなら withFileTypes オプションを使って fs.Dirent 形式で受け取れ</title><link href="https://makietan.github.io/tech/2023/08/26/report.html" rel="alternate" type="text/html" title="Node.js の fs.readdir をするなら withFileTypes オプションを使って fs.Dirent 形式で受け取れ" /><published>2023-08-26T00:00:00+09:00</published><updated>2023-08-26T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2023/08/26/report</id><content type="html" xml:base="https://makietan.github.io/tech/2023/08/26/report.html"><![CDATA[<p>[embed:https://nodejs.org/api/fs.html#class-fsdirent]</p>
+
+<p>知らなかったのだが、Node.jsには便利なファイル一覧読み込みオプションがある。
+それが <code class="language-plaintext highlighter-rouge">withFileTypes: true</code> オプションだ。</p>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">fsPromises</span><span class="p">.</span><span class="nf">readdir</span><span class="p">(</span><span class="nx">path</span><span class="p">,</span> <span class="p">{</span>
+  <span class="na">withFileTypes</span><span class="p">:</span> <span class="kc">true</span>
+<span class="p">});</span>
+</code></pre></div></div>
+
+<p>パス情報の文字列が返却されるのではなく、 <code class="language-plaintext highlighter-rouge">fs.Dirent</code> 形式で返される。</p>
+
+<p><code class="language-plaintext highlighter-rouge">dirent.isDirectory()</code> や <code class="language-plaintext highlighter-rouge">dirent.isFile()</code> などの判定が可能だ。</p>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">files</span> <span class="o">=</span> <span class="k">await</span> <span class="nx">fsPromises</span><span class="p">.</span><span class="nf">readdir</span><span class="p">(</span><span class="nx">path</span><span class="p">,</span> <span class="p">{</span>
+  <span class="na">withFileTypes</span><span class="p">:</span> <span class="kc">true</span>
+<span class="p">}).</span><span class="nf">filter</span><span class="p">((</span><span class="nx">dirent</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="nx">dirent</span><span class="p">.</span><span class="nf">isFile</span><span class="p">());</span>
+
+<span class="k">for</span> <span class="nf">await </span><span class="p">(</span><span class="kd">const</span> <span class="nx">dirent</span> <span class="k">of</span> <span class="nx">files</span><span class="p">)</span>
+  <span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="nx">dirent</span><span class="p">.</span><span class="nx">name</span><span class="p">);</span>
+</code></pre></div></div>
+
+<p>といった具合でファイルだけ、ディレクトリだけを取得できる。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[[embed:https://nodejs.org/api/fs.html#class-fsdirent]]]></summary></entry><entry><title type="html">完凸してないなかまモンスター</title><link href="https://makietan.github.io/game/dqw/2023/07/29/report.html" rel="alternate" type="text/html" title="完凸してないなかまモンスター" /><published>2023-07-29T00:00:00+09:00</published><updated>2023-07-29T00:00:00+09:00</updated><id>https://makietan.github.io/game/dqw/2023/07/29/report</id><content type="html" xml:base="https://makietan.github.io/game/dqw/2023/07/29/report.html"><![CDATA[<ul>
   <li>きんすら</li>
   <li>ぼんない</li>
   <li>すかい</li>
@@ -579,12 +601,4 @@ async function main(dirname) {
 (async () =&gt; {
     await main(program.args[0]);
 })();
-</code></pre></div></div>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[ファイルの情報を得るには fs.stat を使う。]]></summary></entry><entry><title type="html">セリオンズ・ジェネレイド</title><link href="https://makietan.github.io/game/yugioh/2023/07/15/report.html" rel="alternate" type="text/html" title="セリオンズ・ジェネレイド" /><published>2023-07-15T00:00:00+09:00</published><updated>2023-07-15T00:00:00+09:00</updated><id>https://makietan.github.io/game/yugioh/2023/07/15/report</id><content type="html" xml:base="https://makietan.github.io/game/yugioh/2023/07/15/report.html"><![CDATA[<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">ホップ・イヤー&amp;セリオンズ出張ジェネレイドのデッキ<br />まだまだ動かし方お試し中だけど色々できて面白い<br />ジェネレイドはUR3枚でも動けるからオススメ<a href="https://twitter.com/hashtag/%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%87%E3%83%A5%E3%82%A8%E3%83%AB?src=hash&amp;ref_src=twsrc%5Etfw">#マスターデュエル</a> <a href="https://t.co/9Jj7sfld0u">pic.twitter.com/9Jj7sfld0u</a></p>&mdash; まきえたん🥦☘️ (@makietanX) <a href="https://twitter.com/makietanX/status/1679917787865812997?ref_src=twsrc%5Etfw">July 14, 2023</a></blockquote>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<ul>
-  <li>マルデルからリリーで罠サーチが標準</li>
-  <li>他にモンスターが場にいるならフィールド魔法からキングサーチして、マスカレーナ出してリリー装備してキング特殊召喚</li>
-</ul>
-
-<p>まぁ他にも動けるけどとりあえずメモでこのくらい。</p>]]></content><author><name>makietan</name></author><category term="game" /><category term="yugioh" /><summary type="html"><![CDATA[ホップ・イヤー&amp;セリオンズ出張ジェネレイドのデッキまだまだ動かし方お試し中だけど色々できて面白いジェネレイドはUR3枚でも動けるからオススメ#マスターデュエル pic.twitter.com/9Jj7sfld0u&mdash; まきえたん🥦☘️ (@makietanX) July 14, 2023]]></summary></entry></feed>
+</code></pre></div></div>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[ファイルの情報を得るには fs.stat を使う。]]></summary></entry></feed>
