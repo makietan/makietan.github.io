@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2023-08-28T11:16:54+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">【スパロボDD】4周年！特殊スキルMAX交換所</title><link href="https://makietan.github.io/game/srwdd/2023/08/28/report.html" rel="alternate" type="text/html" title="【スパロボDD】4周年！特殊スキルMAX交換所" /><published>2023-08-28T00:00:00+09:00</published><updated>2023-08-28T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2023/08/28/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2023/08/28/report.html"><![CDATA[<p><button id="sort" onclick="sort();">ソート</button></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2023-08-28T11:48:24+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">【スパロボDD】4周年！特殊スキルMAX交換所</title><link href="https://makietan.github.io/game/srwdd/2023/08/28/report.html" rel="alternate" type="text/html" title="【スパロボDD】4周年！特殊スキルMAX交換所" /><published>2023-08-28T00:00:00+09:00</published><updated>2023-08-28T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2023/08/28/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2023/08/28/report.html"><![CDATA[<p><button id="sort" onclick="sort();">ソート</button></p>
 
 <div id="list">
 
@@ -302,8 +302,9 @@ function removeChecked() {
 <span class="p">});</span>
 </code></pre></div></div>
 
-<p>パス情報の文字列が返却されるのではなく、 <code class="language-plaintext highlighter-rouge">fs.Dirent</code> 形式で返される。
-<code class="language-plaintext highlighter-rouge">dirent.isDirectory()</code> や <code class="language-plaintext highlighter-rouge">dirent.isFile()</code> などの判定が可能だ。</p>
+<p>パス情報の文字列が返却されるのではなく、 <code class="language-plaintext highlighter-rouge">fs.Dirent</code> 形式で返される。</p>
+
+<p><code class="language-plaintext highlighter-rouge">dirent.isDirectory()</code> や <code class="language-plaintext highlighter-rouge">dirent.isFile()</code> などの判定が可能だ。</p>
 
 <div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">files</span> <span class="o">=</span> <span class="k">await</span> <span class="nx">fsPromises</span><span class="p">.</span><span class="nf">readdir</span><span class="p">(</span><span class="nx">path</span><span class="p">,</span> <span class="p">{</span>
   <span class="na">withFileTypes</span><span class="p">:</span> <span class="kc">true</span>
