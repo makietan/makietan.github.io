@@ -104,9 +104,8 @@
 <span class="p">});</span>
 </code></pre></div></div>
 
-<p>パス情報の文字列が返却されるのではなく、 <code class="language-plaintext highlighter-rouge">fs.Dirent</code> 形式で返される。</p>
-
-<p><code class="language-plaintext highlighter-rouge">dirent.isDirectory()</code> や <code class="language-plaintext highlighter-rouge">dirent.isFile()</code> などの判定が可能だ。</p>
+<p>パス情報の文字列が返却されるのではなく、 <code class="language-plaintext highlighter-rouge">fs.Dirent</code> 形式で返される。
+<code class="language-plaintext highlighter-rouge">dirent.isDirectory()</code> や <code class="language-plaintext highlighter-rouge">dirent.isFile()</code> などの判定が可能だ。</p>
 
 <div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">files</span> <span class="o">=</span> <span class="k">await</span> <span class="nx">fsPromises</span><span class="p">.</span><span class="nf">readdir</span><span class="p">(</span><span class="nx">path</span><span class="p">,</span> <span class="p">{</span>
   <span class="na">withFileTypes</span><span class="p">:</span> <span class="kc">true</span>
@@ -118,7 +117,6 @@
 
 <p>といった具合でファイルだけ、ディレクトリだけを取得できる。</p>
 
-
   </div><a class="u-url" href="/tech/2023/08/26/report.html" hidden></a>
 </article>
 
@@ -126,6 +124,11 @@
 
 
 
+
+  
+  
+
+  
 
   
   
