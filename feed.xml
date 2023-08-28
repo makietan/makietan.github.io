@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2023-08-28T12:16:18+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">【スパロボDD】4周年！特殊スキルMAX交換所</title><link href="https://makietan.github.io/game/srwdd/2023/08/28/report.html" rel="alternate" type="text/html" title="【スパロボDD】4周年！特殊スキルMAX交換所" /><published>2023-08-28T00:00:00+09:00</published><updated>2023-08-28T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2023/08/28/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2023/08/28/report.html"><![CDATA[<p><button id="sort" onclick="sort();">ソート</button></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2023-08-28T12:28:39+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">【スパロボDD】4周年！特殊スキルMAX交換所</title><link href="https://makietan.github.io/game/srwdd/2023/08/28/report.html" rel="alternate" type="text/html" title="【スパロボDD】4周年！特殊スキルMAX交換所" /><published>2023-08-28T00:00:00+09:00</published><updated>2023-08-28T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2023/08/28/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2023/08/28/report.html"><![CDATA[<p><button id="sort" onclick="sort();">ソート</button></p>
 
 <div id="list">
 
@@ -292,7 +292,21 @@ function removeChecked() {
         label.nextElementSibling.style.display = "none";
       });
 }
-</script>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[所持済みを非表示]]></summary></entry><entry><title type="html">Node.js の fs.readdir をするなら withFileTypes オプションを使って fs.Dirent 形式で受け取れ</title><link href="https://makietan.github.io/tech/2023/08/26/report.html" rel="alternate" type="text/html" title="Node.js の fs.readdir をするなら withFileTypes オプションを使って fs.Dirent 形式で受け取れ" /><published>2023-08-26T00:00:00+09:00</published><updated>2023-08-26T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2023/08/26/report</id><content type="html" xml:base="https://makietan.github.io/tech/2023/08/26/report.html"><![CDATA[<p>[embed:https://nodejs.org/api/fs.html#class-fsdirent]</p>
+</script>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[所持済みを非表示]]></summary></entry><entry><title type="html">Node.js の fs.readdir をするなら withFileTypes オプションを使って fs.Dirent 形式で受け取れ</title><link href="https://makietan.github.io/tech/2023/08/26/report.html" rel="alternate" type="text/html" title="Node.js の fs.readdir をするなら withFileTypes オプションを使って fs.Dirent 形式で受け取れ" /><published>2023-08-26T00:00:00+09:00</published><updated>2023-08-26T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2023/08/26/report</id><content type="html" xml:base="https://makietan.github.io/tech/2023/08/26/report.html"><![CDATA[<div class="card">
+  <a href="https://nodejs.org/api/fs.html#class-fsdirent"></a>
+  <div class="card__header">
+    <a href="https://nodejs.org/api/fs.html#class-fsdirent">nodejs.org</a>
+  </div>
+  <div class="card__image">
+    <img src="" />
+  </div>
+  <div class="card__title">
+    <p>File system | Node.js v20.5.1 Documentation</p>
+  </div>
+  <div class="card__description">
+    <p></p>
+  </div>
+</div>
 
 <p>知らなかったのだが、Node.jsには便利なファイル一覧読み込みオプションがある。
 それが <code class="language-plaintext highlighter-rouge">withFileTypes: true</code> オプションだ。</p>
@@ -302,8 +316,9 @@ function removeChecked() {
 <span class="p">});</span>
 </code></pre></div></div>
 
-<p>パス情報の文字列が返却されるのではなく、 <code class="language-plaintext highlighter-rouge">fs.Dirent</code> 形式で返される。
-<code class="language-plaintext highlighter-rouge">dirent.isDirectory()</code> や <code class="language-plaintext highlighter-rouge">dirent.isFile()</code> などの判定が可能だ。</p>
+<p>パス情報の文字列が返却されるのではなく、 <code class="language-plaintext highlighter-rouge">fs.Dirent</code> 形式で返される。</p>
+
+<p><code class="language-plaintext highlighter-rouge">dirent.isDirectory()</code> や <code class="language-plaintext highlighter-rouge">dirent.isFile()</code> などの判定が可能だ。</p>
 
 <div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">files</span> <span class="o">=</span> <span class="k">await</span> <span class="nx">fsPromises</span><span class="p">.</span><span class="nf">readdir</span><span class="p">(</span><span class="nx">path</span><span class="p">,</span> <span class="p">{</span>
   <span class="na">withFileTypes</span><span class="p">:</span> <span class="kc">true</span>
@@ -313,7 +328,7 @@ function removeChecked() {
   <span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="nx">dirent</span><span class="p">.</span><span class="nx">name</span><span class="p">);</span>
 </code></pre></div></div>
 
-<p>といった具合でファイルだけ、ディレクトリだけを取得できる。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[[embed:https://nodejs.org/api/fs.html#class-fsdirent]]]></summary></entry><entry><title type="html">完凸してないなかまモンスター</title><link href="https://makietan.github.io/game/dqw/2023/07/29/report.html" rel="alternate" type="text/html" title="完凸してないなかまモンスター" /><published>2023-07-29T00:00:00+09:00</published><updated>2023-07-29T00:00:00+09:00</updated><id>https://makietan.github.io/game/dqw/2023/07/29/report</id><content type="html" xml:base="https://makietan.github.io/game/dqw/2023/07/29/report.html"><![CDATA[<ul>
+<p>といった具合でファイルだけ、ディレクトリだけを取得できる。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[nodejs.org File system | Node.js v20.5.1 Documentation]]></summary></entry><entry><title type="html">完凸してないなかまモンスター</title><link href="https://makietan.github.io/game/dqw/2023/07/29/report.html" rel="alternate" type="text/html" title="完凸してないなかまモンスター" /><published>2023-07-29T00:00:00+09:00</published><updated>2023-07-29T00:00:00+09:00</updated><id>https://makietan.github.io/game/dqw/2023/07/29/report</id><content type="html" xml:base="https://makietan.github.io/game/dqw/2023/07/29/report.html"><![CDATA[<ul>
   <li>きんすら</li>
   <li>ぼんない</li>
   <li>すかい</li>
