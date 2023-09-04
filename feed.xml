@@ -1,4 +1,750 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2023-09-04T12:15:11+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">【スパロボDD】4周年！SSR支援セレクト交換所</title><link href="https://makietan.github.io/game/srwdd/2023/08/30/report.html" rel="alternate" type="text/html" title="【スパロボDD】4周年！SSR支援セレクト交換所" /><published>2023-08-30T00:00:00+09:00</published><updated>2023-08-30T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2023/08/30/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2023/08/30/report.html"><![CDATA[<p><button id="sort" onclick="sort();">ソート</button></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2023-09-04T15:45:46+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">「ウルズ・ストライク」の考察</title><link href="https://makietan.github.io/game/srwdd/2023/09/04/report.html" rel="alternate" type="text/html" title="「ウルズ・ストライク」の考察" /><published>2023-09-04T00:00:00+09:00</published><updated>2023-09-04T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2023/09/04/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2023/09/04/report.html"><![CDATA[<h2 id="ステータス">ステータス</h2>
+
+<style>
+    table {
+        width: 20vw
+    }
+</style>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">項目</th>
+      <th style="text-align: center">数値</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">HP</td>
+      <td style="text-align: center">2430</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">攻撃力</td>
+      <td style="text-align: center">3150</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">防御力</td>
+      <td style="text-align: center">2220</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">照準値</td>
+      <td style="text-align: center">279</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">運動性</td>
+      <td style="text-align: center">276</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">威力</td>
+      <td style="text-align: center">260%</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">命中</td>
+      <td style="text-align: center">+85%</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">射程</td>
+      <td style="text-align: center">1-4</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">アクション</td>
+      <td style="text-align: center">2</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">回数</td>
+      <td style="text-align: center">4</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">特性</td>
+      <td style="text-align: center">+5</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">レアリティ</td>
+      <td style="text-align: center">SSR+</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">LV</td>
+      <td style="text-align: center">110</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="対決戦">対決戦</h2>
+
+<ul>
+  <li>ブレイクゲージポイント
+    <ul>
+      <li>2500</li>
+    </ul>
+  </li>
+  <li>WEAK
+    <ul>
+      <li>打撃/斬撃/実弾</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="main">MAIN</h2>
+
+<h3 id="arx-7-アーバレスト装備時">ARX-7 アーバレスト装備時</h3>
+
+<ul>
+  <li>攻撃力・照準値・運動性が<span style="color: #e65100">17.5%増加</span>し、気力が10上昇する毎に攻撃力・照準値・運動性が<span style="color: #e65100">5.5%増加</span>する</li>
+  <li>気力130以上のとき、全ての攻撃の与ダメージ・命中率が20%、回避率が<span style="color: #e65100">30%増加</span>する</li>
+  <li>自分のアクション時のみ、敵ユニットを撃墜したとき<strong><span style="color: red">2回行動</span></strong>する（効果は重複しない）</li>
+</ul>
+
+<div id="main-1" style="width: 100vw, height: 50vh"></div>
+<div id="main-1-ex" style="width: 100vw, height: 50vh"></div>
+
+<h3 id="m9-ガーンズバックマオ装備時">M9 ガーンズバック（マオ）装備時</h3>
+
+<ul>
+  <li>攻撃力・照準値・運動性が17.5%増加し、気力が10上昇する毎に攻撃力・照準値・運動性が<span style="color: #e65100">5.5%増加</span>する</li>
+  <li>ウルズ・ストライク命中時、<span style="color: blue">防御力・照準値が20%減少</span>する弱体効果を敵ユニットに付与する（敵ユニットが2アクション行動する間有効）</li>
+  <li>フィールド上に味方の相良宗介、クルツ・ウェーバー、ベルファンガン・クルーゾーがいるとき、1パイロットにつき防御力・照準値が<span style="color: #e65100">5%増加</span>する</li>
+</ul>
+
+<div id="main-2" style="width: 100vw, height: 50vh"></div>
+<div id="main-2-ex" style="width: 100vw, height: 50vh"></div>
+<div id="main-2-ex-2" style="width: 100vw, height: 50vh"></div>
+<div id="main-2-ex-3" style="width: 100vw, height: 50vh"></div>
+
+<h3 id="m9-ガーンズバッククルツ装備時">M9 ガーンズバック（クルツ）装備時</h3>
+
+<ul>
+  <li>攻撃力・防御力・照準値が<span style="color: #e65100">16%増加</span>し、気力が10上昇する毎に攻撃力・照準値が<span style="color: #e65100">6%増加</span>する</li>
+  <li>実弾・特殊属性の全ての攻撃のブレイクゲージ減少量が<span style="color: #e65100">100%増加</span>し、自分のアクション時のみ、攻撃力・照準値が<span style="color: #e65100">16%増加</span>する</li>
+  <li>ウルズ・ストライク命中時、<span style="color: blue">移動力が3減少する弱体効果を敵ユニットに付与</span>する（0より減少しない）（敵ユニットが2アクション行動する間有効）（効果は重複しない。効果の最も高いもののみ有効）</li>
+</ul>
+
+<div id="main-3" style="width: 100vw, height: 50vh"></div>
+<div id="main-3-ex" style="width: 100vw, height: 50vh"></div>
+
+<h2 id="必殺技スロット時">必殺技スロット時</h2>
+
+<h3 id="arx-7-アーバレスト装備時-1">ARX-7 アーバレスト装備時</h3>
+
+<ul>
+  <li>気力が10上昇する毎に攻撃力・照準値・運動性が<span style="color: #e65100">2%増加</span>する</li>
+  <li>自分のアクション時のみ、敵ユニットを撃墜したとき<strong><span style="color: red">2回行動</span></strong>する（効果は重複しない）</li>
+</ul>
+
+<div id="sp-1" style="width: 100vw, height: 50vh"></div>
+
+<h3 id="m9-ガーンズバックマオ装備時-1">M9 ガーンズバック（マオ）装備時</h3>
+
+<ul>
+  <li>気力が10上昇する毎に攻撃力・照準値・運動性が<span style="color: #e65100">2%増加</span>し、</li>
+  <li>ウルズ・ストライク命中時、<span style="color: blue">防御力・照準値が15%減少する弱体効果を敵ユニットに付与</span>する（敵ユニットが2アクション行動する間有効）</li>
+</ul>
+
+<div id="sp-2" style="width: 100vw, height: 50vh"></div>
+
+<h3 id="m9-ガーンズバッククルツ装備時-1">M9 ガーンズバック（クルツ）装備時</h3>
+
+<ul>
+  <li>防御力が<span style="color: #e65100">6.5%増加</span>し、気力が10上昇する毎に攻撃力・照準値が<span style="color: #e65100">2%増加</span>する</li>
+  <li>ウルズ・ストライク命中時、<span style="color: blue">移動力が3減少する弱体効果を敵ユニットに付与</span>する（0より減少しない）（敵ユニットが2アクション行動する間有効）（効果は重複しない。効果の最も高いもののみ有効）</li>
+</ul>
+
+<div id="sp-3" style="width: 100vw, height: 50vh"></div>
+
+<h2 id="sub">SUB</h2>
+
+<ul>
+  <li>攻撃力・運動性が<span style="color: #e65100">2.5%増加</span>する</li>
+</ul>
+
+<div id="sub-1" style="width: 100vw, height: 50vh"></div>
+
+<!-- Google Charts -->
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+<script type="text/javascript">
+google.charts.load("current", { "packages": ["corechart"] });
+const ANNOTATION = { type: 'string', role: 'annotation' };
+// MAIN・ARX-7 アーバレスト
+function main1() {
+    google.charts.setOnLoadCallback(() => {
+        const data = google.visualization.arrayToDataTable([
+            ['気力', '攻撃力(%)', ANNOTATION, '防御力(%)', '照準値(%)', '運動性(%)', ANNOTATION],
+            ['100', 17.5, null, 0, 17.5, 17.5, null],
+            ['110', 17.5+5.5, null, 0, 17.5+5.5, 17.5+5.5, null],
+            ['120', 17.5+5.5*2, null, 0, 17.5+5.5*2, 17.5+5.5*2, null],
+            ['130', 17.5+5.5*3, null, 0, 17.5+5.5*3, 17.5+5.5*3, null],
+            ['140', 17.5+5.5*4, null, 0, 17.5+5.5*4, 17.5+5.5*4, null],
+            ['150', 17.5+5.5*5, null, 0, 17.5+5.5*5, 17.5+5.5*5, null],
+            ['160', 17.5+5.5*6, null, 0, 17.5+5.5*6, 17.5+5.5*6, null],
+            ['170', 17.5+5.5*7, null, 0, 17.5+5.5*7, 17.5+5.5*7, null],
+            ['180', 17.5+5.5*8, null, 0, 17.5+5.5*8, 17.5+5.5*8, `${17.5+5.5*8}%`]
+        ]);
+        const options = {
+            title: 'ウルズ・ストライク（MAIN・ARX-7 アーバレスト）',
+            curveType: 'none',
+            legend: { position: 'bottom' }
+        };
+        const chart = new google.visualization.LineChart(
+            document.getElementById('main-1')
+        );
+        chart.draw(data, options);
+    });
+}
+main1();
+function main1ex() {
+    google.charts.setOnLoadCallback(() => {
+        const data = google.visualization.arrayToDataTable([
+            ['気力', '与ダメージ(%)', ANNOTATION, '被ダメージ(%)', '命中率(%)', ANNOTATION, '回避率(%)', ANNOTATION],
+            ['100', 0, null, 0, 0, null, 0, null],
+            ['110', 0, null, 0, 0, null, 0, null],
+            ['120', 0, null, 0, 0, null, 0, null],
+            ['130', 20, null, 0, 20, null, 30, null],
+            ['140', 20, null, 0, 20, null, 30, null],
+            ['150', 20, null, 0, 20, null, 30, null],
+            ['160', 20, null, 0, 20, null, 30, null],
+            ['170', 20, null, 0, 20, null, 30, null],
+            ['180', 20, `20%`, 0, 20, `20%`, 30, `30%`]
+        ]);
+        const options = {
+            legend: { position: 'bottom' },
+            chart: {
+                title: 'ウルズ・ストライク（MAIN・ARX-7 アーバレスト）',
+                curveType: 'none'
+            },
+            vAxis: {
+                viewWindow: {
+                    max: 40,
+                    min: 0
+                }
+            }
+        };
+        const chart = new google.visualization.LineChart(
+            document.getElementById('main-1-ex')
+        );
+        chart.draw(data, options);
+    });
+}
+main1ex();
+// MAIN・M9 ガーンズバック（マオ）
+function main2() {
+    google.charts.setOnLoadCallback(() => {
+        const data = google.visualization.arrayToDataTable([
+            ['気力', '攻撃力(%)', '防御力(%)', '照準値(%)', '運動性(%)', ANNOTATION],
+            ['100', 17.5, 0, 17.5, 17.5, null],
+            ['110', 17.5+5.5, 0, 17.5+5.5, 17.5+5.5, null],
+            ['120', 17.5+5.5*2, 0, 17.5+5.5*2, 17.5+5.5*2, null],
+            ['130', 17.5+5.5*3, 0, 17.5+5.5*3, 17.5+5.5*3, null],
+            ['140', 17.5+5.5*4, 0, 17.5+5.5*4, 17.5+5.5*4, null],
+            ['150', 17.5+5.5*5, 0, 17.5+5.5*5, 17.5+5.5*5, null],
+            ['160', 17.5+5.5*6, 0, 17.5+5.5*6, 17.5+5.5*6, null],
+            ['170', 17.5+5.5*7, 0, 17.5+5.5*7, 17.5+5.5*7, null],
+            ['180', 17.5+5.5*8, 0, 17.5+5.5*8, 17.5+5.5*8, null],
+            ['190', 17.5+5.5*9, 0, 17.5+5.5*9, 17.5+5.5*9, null],
+            ['200', 17.5+5.5*10, 0, 17.5+5.5*10, 17.5+5.5*10, `${17.5+5.5*10}%`]
+        ]);
+        const options = {
+            title: 'ウルズ・ストライク（MAIN・M9 ガーンズバック（マオ））',
+            curveType: 'none',
+            legend: { position: 'bottom' }
+        };
+        const chart = new google.visualization.LineChart(
+            document.getElementById('main-2')
+        );
+        chart.draw(data, options);
+    });
+}
+main2();
+function main2ex() {
+    google.charts.setOnLoadCallback(() => {
+        const data = google.visualization.arrayToDataTable([
+            ['気力', '攻撃力(%)', '防御力(%)', ANNOTATION, '照準値(%)', ANNOTATION, '運動性(%)', ANNOTATION],
+            ['100', 17.5, 0+5, null, 17.5+5, null, 17.5, null],
+            ['110', 17.5+5.5, 0+5, null, 17.5+5.5+5, null, 17.5+5.5, null],
+            ['120', 17.5+5.5*2, 0+5, null, 17.5+5.5*2+5, null, 17.5+5.5*2, null],
+            ['130', 17.5+5.5*3, 0+5, null, 17.5+5.5*3+5, null, 17.5+5.5*3, null],
+            ['140', 17.5+5.5*4, 0+5, null, 17.5+5.5*4+5, null, 17.5+5.5*4, null],
+            ['150', 17.5+5.5*5, 0+5, null, 17.5+5.5*5+5, null, 17.5+5.5*5, null],
+            ['160', 17.5+5.5*6, 0+5, null, 17.5+5.5*6+5, null, 17.5+5.5*6, null],
+            ['170', 17.5+5.5*7, 0+5, null, 17.5+5.5*7+5, null, 17.5+5.5*7, null],
+            ['180', 17.5+5.5*8, 0+5, null, 17.5+5.5*8+5, null, 17.5+5.5*8, null],
+            ['190', 17.5+5.5*9, 0+5, null, 17.5+5.5*9+5, null, 17.5+5.5*9, null],
+            ['200', 17.5+5.5*10, 0+5, `${0+5}%`, 17.5+5.5*10+5, `${17.5+5.5*10+5}%`, 17.5+5.5*10, null]
+        ]);
+        const options = {
+            title: 'ウルズ・ストライク（MAIN・M9 ガーンズバック（マオ）・対象キャラ1人）',
+            curveType: 'none',
+            legend: { position: 'bottom' }
+        };
+        const chart = new google.visualization.LineChart(
+            document.getElementById('main-2-ex')
+        );
+        chart.draw(data, options);
+    });
+}
+main2ex();
+function main2ex2() {
+    google.charts.setOnLoadCallback(() => {
+        const data = google.visualization.arrayToDataTable([
+            ['気力', '攻撃力(%)', '防御力(%)', ANNOTATION, '照準値(%)', ANNOTATION, '運動性(%)', ANNOTATION],
+            ['100', 17.5, 0+10, null, 17.5+10, null, 17.5, null],
+            ['110', 17.5+5.5, 0+10, null, 17.5+5.5+10, null, 17.5+5.5, null],
+            ['120', 17.5+5.5*2, 0+10, null, 17.5+5.5*2+10, null, 17.5+5.5*2, null],
+            ['130', 17.5+5.5*3, 0+10, null, 17.5+5.5*3+10, null, 17.5+5.5*3, null],
+            ['140', 17.5+5.5*4, 0+10, null, 17.5+5.5*4+10, null, 17.5+5.5*4, null],
+            ['150', 17.5+5.5*5, 0+10, null, 17.5+5.5*5+10, null, 17.5+5.5*5, null],
+            ['160', 17.5+5.5*6, 0+10, null, 17.5+5.5*6+10, null, 17.5+5.5*6, null],
+            ['170', 17.5+5.5*7, 0+10, null, 17.5+5.5*7+10, null, 17.5+5.5*7, null],
+            ['180', 17.5+5.5*8, 0+10, null, 17.5+5.5*8+10, null, 17.5+5.5*8, null],
+            ['190', 17.5+5.5*9, 0+10, null, 17.5+5.5*9+10, null, 17.5+5.5*9, null],
+            ['200', 17.5+5.5*10, 0+10, `${0+10}%`, 17.5+5.5*10+10, `${17.5+5.5*10+10}%`, 17.5+5.5*10, null]
+        ]);
+        const options = {
+            title: 'ウルズ・ストライク（MAIN・M9 ガーンズバック（マオ）・対象キャラ2人）',
+            curveType: 'none',
+            legend: { position: 'bottom' }
+        };
+        const chart = new google.visualization.LineChart(
+            document.getElementById('main-2-ex-2')
+        );
+        chart.draw(data, options);
+    });
+}
+main2ex2();
+function main2ex3() {
+    google.charts.setOnLoadCallback(() => {
+        const data = google.visualization.arrayToDataTable([
+            ['気力', '攻撃力(%)', '防御力(%)', ANNOTATION, '照準値(%)', ANNOTATION, '運動性(%)', ANNOTATION],
+            ['100', 17.5, 0+15, null, 17.5+15, null, 17.5, null],
+            ['110', 17.5+5.5, 0+15, null, 17.5+5.5+15, null, 17.5+5.5, null],
+            ['120', 17.5+5.5*2, 0+15, null, 17.5+5.5*2+15, null, 17.5+5.5*2, null],
+            ['130', 17.5+5.5*3, 0+15, null, 17.5+5.5*3+15, null, 17.5+5.5*3, null],
+            ['140', 17.5+5.5*4, 0+15, null, 17.5+5.5*4+15, null, 17.5+5.5*4, null],
+            ['150', 17.5+5.5*5, 0+15, null, 17.5+5.5*5+15, null, 17.5+5.5*5, null],
+            ['160', 17.5+5.5*6, 0+15, null, 17.5+5.5*6+15, null, 17.5+5.5*6, null],
+            ['170', 17.5+5.5*7, 0+15, null, 17.5+5.5*7+15, null, 17.5+5.5*7, null],
+            ['180', 17.5+5.5*8, 0+15, null, 17.5+5.5*8+15, null, 17.5+5.5*8, null],
+            ['190', 17.5+5.5*9, 0+15, null, 17.5+5.5*9+15, null, 17.5+5.5*9, null],
+            ['200', 17.5+5.5*10, 0+15, `${0+15}%`, 17.5+5.5*10+15, `${17.5+5.5*10+15}%`, 17.5+5.5*10, null]
+        ]);
+        const options = {
+            title: 'ウルズ・ストライク（MAIN・M9 ガーンズバック（マオ）・対象キャラ3人）',
+            curveType: 'none',
+            legend: { position: 'bottom' }
+        };
+        const chart = new google.visualization.LineChart(
+            document.getElementById('main-2-ex-3')
+        );
+        chart.draw(data, options);
+    });
+}
+main2ex3();
+// MAIN・M9 ガーンズバック（マオ）
+function main3() {
+    google.charts.setOnLoadCallback(() => {
+        const data = google.visualization.arrayToDataTable([
+            ['気力', '攻撃力(%)', '防御力(%)', ANNOTATION, '照準値(%)', ANNOTATION, '運動性(%)'],
+            ['100', 16, 16, null, 16, null, 0],
+            ['110', 16+6, 16, null, 16+6, null, 0],
+            ['120', 16+6*2, 16, null, 16+6*2, null, 0],
+            ['130', 16+6*3, 16, null, 16+6*3, null, 0],
+            ['140', 16+6*4, 16, null, 16+6*4, null, 0],
+            ['150', 16+6*5, 16, null, 16+6*5, null, 0],
+            ['160', 16+6*6, 16, null, 16+6*6, null, 0],
+            ['170', 16+6*7, 16, null, 16+6*7, null, 0],
+            ['180', 16+6*8, 16, null, 16+6*8, null, 0],
+            ['190', 16+6*9, 16, null, 16+6*9, null, 0],
+            ['200', 16+6*10, 16, `16%`, 16+6*10, `${16+6*10}%`, 0],
+        ]);
+        const options = {
+            title: 'ウルズ・ストライク（MAIN・M9 ガーンズバック（クルツ））',
+            curveType: 'none',
+            legend: { position: 'bottom' }
+        };
+        const chart = new google.visualization.LineChart(
+            document.getElementById('main-3')
+        );
+        chart.draw(data, options);
+    });
+}
+main3();
+function main3ex() {
+    google.charts.setOnLoadCallback(() => {
+        const data = google.visualization.arrayToDataTable([
+            ['気力', '攻撃力(%)', '防御力(%)', ANNOTATION, '照準値(%)', ANNOTATION, '運動性(%)'],
+            ['100', 16+16, 16, null, 16+16, null, 0],
+            ['110', 16+6+16, 16, null, 16+6+16, null, 0],
+            ['120', 16+6*2+16, 16, null, 16+6*2+16, null, 0],
+            ['130', 16+6*3+16, 16, null, 16+6*3+16, null, 0],
+            ['140', 16+6*4+16, 16, null, 16+6*4+16, null, 0],
+            ['150', 16+6*5+16, 16, null, 16+6*5+16, null, 0],
+            ['160', 16+6*6+16, 16, null, 16+6*6+16, null, 0],
+            ['170', 16+6*7+16, 16, null, 16+6*7+16, null, 0],
+            ['180', 16+6*8+16, 16, null, 16+6*8+16, null, 0],
+            ['190', 16+6*9+16, 16, null, 16+6*9+16, null, 0],
+            ['200', 16+6*10+16, 16, `16%`, 16+6*10+16, `${16+6*10+16}%`, 0],
+        ]);
+        const options = {
+            title: 'ウルズ・ストライク（MAIN・M9 ガーンズバック（クルツ）・自分のアクション時）',
+            curveType: 'none',
+            legend: { position: 'bottom' }
+        };
+        const chart = new google.visualization.LineChart(
+            document.getElementById('main-3-ex')
+        );
+        chart.draw(data, options);
+    });
+}
+main3ex();
+// SP・ARX-7 アーバレスト
+function sp1() {
+    google.charts.setOnLoadCallback(() => {
+        const data = google.visualization.arrayToDataTable([
+            ['気力', '攻撃力(%)', '防御力(%)', '照準値(%)', '運動性(%)', ANNOTATION],
+            ['100', 0, 0, 0, 0, null],
+            ['110', 2, 0, 2, 2, null],
+            ['120', 2*2, 0, 2*2, 2*2, null],
+            ['130', 2*3, 0, 2*3, 2*3, null],
+            ['140', 2*4, 0, 2*4, 2*4, null],
+            ['150', 2*5, 0, 2*5, 2*5, null],
+            ['160', 2*6, 0, 2*6, 2*6, null],
+            ['170', 2*7, 0, 2*7, 2*7, null],
+            ['180', 2*8, 0, 2*8, 2*8, `${2*8}%`]
+        ]);
+        const options = {
+            title: 'ウルズ・ストライク（必殺技スロット時・ARX-7 アーバレスト）',
+            curveType: 'none',
+            legend: { position: 'bottom' }
+        };
+        const chart = new google.visualization.LineChart(
+            document.getElementById('sp-1')
+        );
+        chart.draw(data, options);
+    });    
+}
+sp1();
+// SP・M9 ガーンズバック（マオ）
+function sp2() {
+    google.charts.setOnLoadCallback(() => {
+        const data = google.visualization.arrayToDataTable([
+            ['気力', '攻撃力(%)', '防御力(%)', '照準値(%)', '運動性(%)', ANNOTATION],
+            ['100', 0, 0, 0, 0, null],
+            ['110', 2, 0, 2, 2, null],
+            ['120', 2*2, 0, 2*2, 2*2, null],
+            ['130', 2*3, 0, 2*3, 2*3, null],
+            ['140', 2*4, 0, 2*4, 2*4, null],
+            ['150', 2*5, 0, 2*5, 2*5, null],
+            ['160', 2*6, 0, 2*6, 2*6, null],
+            ['170', 2*7, 0, 2*7, 2*7, null],
+            ['180', 2*8, 0, 2*8, 2*8, null],
+            ['190', 2*9, 0, 2*9, 2*9, null],
+            ['200', 2*10, 0, 2*10, 2*10, `${2*10}%`],
+        ]);
+        const options = {
+            title: 'ウルズ・ストライク（必殺技スロット時・M9 ガーンズバック（マオ））',
+            curveType: 'none',
+            legend: { position: 'bottom' }
+        };
+        const chart = new google.visualization.LineChart(
+            document.getElementById('sp-2')
+        );
+        chart.draw(data, options);
+    });    
+}
+sp2();
+// SP・M9 ガーンズバック（クルツ）
+function sp3() {
+    google.charts.setOnLoadCallback(() => {
+        const data = google.visualization.arrayToDataTable([
+            ['気力', '攻撃力(%)', '防御力(%)', ANNOTATION, '照準値(%)', ANNOTATION, '運動性(%)', ANNOTATION],
+            ['100', 0, 6.5, null, 0, null, 0, null],
+            ['110', 2, 6.5, null, 2, null, 0, null],
+            ['120', 2*2, 6.5, null, 2*2, null, 0, null],
+            ['130', 2*3, 6.5, null, 2*3, null, 0, null],
+            ['140', 2*4, 6.5, null, 2*4, null, 0, null],
+            ['150', 2*5, 6.5, null, 2*5, null, 0, null],
+            ['160', 2*6, 6.5, null, 2*6, null, 0, null],
+            ['170', 2*7, 6.5, null, 2*7, null, 0, null],
+            ['180', 2*8, 6.5, null, 2*8, null, 0, null],
+            ['190', 2*9, 6.5, null, 2*9, null, 0, null],
+            ['200', 2*10, 6.5, `6.5%`, 2*10, `${2*10}%`, 0, null],
+        ]);
+        const options = {
+            title: 'ウルズ・ストライク（必殺技スロット時・M9 ガーンズバック（マオ））',
+            curveType: 'none',
+            legend: { position: 'bottom' }
+        };
+        const chart = new google.visualization.LineChart(
+            document.getElementById('sp-3')
+        );
+        chart.draw(data, options);
+    });    
+}
+sp3();
+// SUB
+function sub1() {
+    google.charts.setOnLoadCallback(() => {
+        const data = google.visualization.arrayToDataTable([
+            ['気力', '攻撃力(%)', ANNOTATION, '防御力(%)', '照準値(%)', '運動性(%)', ANNOTATION],
+            ['100', 2.5, null, 0, 0, 2.5, null],
+            ['110', 2.5, null, 0, 0, 2.5, null],
+            ['120', 2.5, null, 0, 0, 2.5, null],
+            ['130', 2.5, null, 0, 0, 2.5, null],
+            ['140', 2.5, null, 0, 0, 2.5, null],
+            ['150', 2.5, null, 0, 0, 2.5, null],
+            ['160', 2.5, null, 0, 0, 2.5, null],
+            ['170', 2.5, null, 0, 0, 2.5, null],
+            ['180', 2.5, `2.5%`, 0, 0, 2.5, `2.5%`]
+        ]);
+        const options = {
+            title: 'ウルズ・ストライク（SUB）',
+            curveType: 'none',
+            legend: { position: 'bottom' }
+        };
+        const chart = new google.visualization.LineChart(
+            document.getElementById('sub-1')
+        );
+        chart.draw(data, options);
+    });
+}
+sub1();
+</script>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[ステータス]]></summary></entry><entry><title type="html">「ラムダ・ストライク」の考察</title><link href="https://makietan.github.io/game/srwdd/2023/09/03/report.html" rel="alternate" type="text/html" title="「ラムダ・ストライク」の考察" /><published>2023-09-03T00:00:00+09:00</published><updated>2023-09-03T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2023/09/03/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2023/09/03/report.html"><![CDATA[<h2 id="ステータス">ステータス</h2>
+
+<style>
+    table {
+        width: 20vw
+    }
+</style>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">項目</th>
+      <th style="text-align: center">数値</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">HP</td>
+      <td style="text-align: center">2295</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">攻撃力</td>
+      <td style="text-align: center">3150</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">防御力</td>
+      <td style="text-align: center">2220</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">照準値</td>
+      <td style="text-align: center">261</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">運動性</td>
+      <td style="text-align: center">273</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">威力</td>
+      <td style="text-align: center">235%</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">命中</td>
+      <td style="text-align: center">+85%</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">射程</td>
+      <td style="text-align: center">1-3</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">アクション</td>
+      <td style="text-align: center">2</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">回数</td>
+      <td style="text-align: center">5</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">特性</td>
+      <td style="text-align: center">+5</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">レアリティ</td>
+      <td style="text-align: center">SSR+</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">LV</td>
+      <td style="text-align: center">110</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="対決戦">対決戦</h2>
+
+<ul>
+  <li>ブレイクゲージポイント
+    <ul>
+      <li>1500</li>
+    </ul>
+  </li>
+  <li>WEAK
+    <ul>
+      <li>打撃/斬撃/特殊</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="main">MAIN</h2>
+
+<h3 id="arx-7-アーバレスト装備時">ARX-7 アーバレスト装備時</h3>
+
+<ul>
+  <li>気力が10上昇する毎に攻撃力・運動性が<span style="color: #e65100">5%増加</span>する。戦闘回数に応じて照準値が<span style="color: #e65100">6%増加</span>する（最大30%）。</li>
+  <li>ラムダ・ストライク命中時、攻撃力・防御力・照準値・運動性が<span style="color: #e65100">16.5%増加</span>する強化効果を自分に付与する（3アクションの間有効）</li>
+  <li>戦闘時のみ敵ユニットの<span style="color: blue">バリア系アビリティ効果を50%減少</span>させる</li>
+</ul>
+
+<div id="main-1" style="width: 100vw, height: 50vh"></div>
+<div id="main-1-ex" style="width: 100vw, height: 50vh"></div>
+
+<h2 id="必殺技スロット時">必殺技スロット時</h2>
+
+<ul>
+  <li>ラムダ・ストライク命中時、攻撃力・防御力・照準値・運動性が<span style="color: #e65100">11.5%増加</span>する強化効果を自分に付与する（3アクションの間有効）</li>
+</ul>
+
+<div id="sp-1" style="width: 100vw, height: 50vh"></div>
+
+<h2 id="sub">SUB</h2>
+
+<ul>
+  <li>攻撃力・運動性が<span style="color: #e65100">2.5%増加</span>する</li>
+</ul>
+
+<div id="sub-1" style="width: 100vw, height: 50vh"></div>
+
+<!-- Google Charts -->
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+<script type="text/javascript">
+google.charts.load("current", { "packages": ["corechart"] });
+const ANNOTATION = { type: 'string', role: 'annotation' };
+// MAIN・ARX-7 アーバレスト
+function main1() {
+    google.charts.setOnLoadCallback(() => {
+        const data = google.visualization.arrayToDataTable([
+            ['気力', '攻撃力(%)', '防御力(%)', '照準値(%)', '運動性(%)', ANNOTATION],
+            ['100', 0, 0, 0, 0, null],
+            ['110', 5, 0, 0, 5, null],
+            ['120', 5*2, 0, 0, 5*2, null],
+            ['130', 5*3, 0, 0, 5*3, null],
+            ['140', 5*4, 0, 0, 5*4, null],
+            ['150', 5*5, 0, 0, 5*5, null],
+            ['160', 5*6, 0, 0, 5*6, null],
+            ['170', 5*7, 0, 0, 5*7, null],
+            ['180', 5*8, 0, 0, 5*8, `${5*8}%`]
+        ]);
+        const options = {
+            title: 'ラムダ・ストライク（MAIN・ARX-7 アーバレスト）',
+            curveType: 'none',
+            legend: { position: 'bottom' }
+        };
+        const chart = new google.visualization.LineChart(
+            document.getElementById('main-1')
+        );
+        chart.draw(data, options);
+    });
+}
+main1();
+function main1ex() {
+    google.charts.setOnLoadCallback(() => {
+        const data = google.visualization.arrayToDataTable([
+            ['戦闘回数', '攻撃力(%)', '防御力(%)', '照準値(%)', '運動性(%)', ANNOTATION],
+            ['0', 0, 0, 0, 0, null],
+            ['1', 0, 0, 6, 0, null],
+            ['2', 0, 0, 12, 0, null],
+            ['3', 0, 0, 18, 0, null],
+            ['4', 0, 0, 24, 0, null],
+            ['5', 0, 0, 30, 0, null],
+            ['6', 0, 0, 30, 0, null],
+            ['7', 0, 0, 30, 0, null],
+            ['8', 0, 0, 30, 0, null],
+            ['9', 0, 0, 30, 0, null],
+            ['10', 0, 0, 30, 0, null]
+        ]);
+        const options = {
+            title: 'ラムダ・ストライク（MAIN・ARX-7 アーバレスト・戦闘回数）',
+            curveType: 'none',
+            legend: { position: 'bottom' }
+        };
+        const chart = new google.visualization.LineChart(
+            document.getElementById('main-1-ex')
+        );
+        chart.draw(data, options);
+    });
+}
+main1ex();
+// SP
+function sp1() {
+    google.charts.setOnLoadCallback(() => {
+        const data = google.visualization.arrayToDataTable([
+            ['アクション', '攻撃力(%)', '防御力(%)', '照準値(%)', '運動性(%)', ANNOTATION],
+            ['0', 0, 0, 0, 0, null],
+            ['1', 0, 0, 0, 0, null],
+            ['2①', 0, 0, 0, 0, null],
+            ['3', 11.5, 11.5, 11.5, 11.5, null],
+            ['4②', 11.5, 11.5, 11.5, 11.5, null],
+            ['5', 11.5*2, 11.5*2, 11.5*2, 11.5*2, null],
+            ['6③', 11.5, 11.5, 11.5, 11.5, null],
+            ['7', 11.5*2, 11.5*2, 11.5*2, 11.5*2, null],
+            ['8④', 11.5, 11.5, 11.5, 11.5, null],
+            ['9', 11.5*2, 11.5*2, 11.5*2, 11.5*2, null],
+            ['10⑤', 11.5, 11.5, 11.5, 11.5, `${11.5}%`],
+            ['11', 11.5*2, 11.5*2, 11.5*2, 11.5*2, `${11.5*2}%`],
+            ['12', 11.5, 11.5, 11.5, 11.5, null],
+            ['13', 11.5, 11.5, 11.5, 11.5, null],
+            ['14', 0, 0, 0, 0, null],
+            ['15', 0, 0, 0, 0, null]
+        ]);
+        const options = {
+            title: 'ラムダ・ストライク（必殺技スロット時・アクション）',
+            curveType: 'none',
+            legend: { position: 'bottom' }
+        };
+        const chart = new google.visualization.LineChart(
+            document.getElementById('sp-1')
+        );
+        chart.draw(data, options);
+    });
+}
+sp1();
+// SUB1
+function sub1() {
+    google.charts.setOnLoadCallback(() => {
+        const data = google.visualization.arrayToDataTable([
+            ['気力', '攻撃力(%)', '防御力(%)', '照準値(%)', '運動性(%)', ANNOTATION],
+            ['100', 2.5, 0, 0, 2.5, null],
+            ['110', 2.5, 0, 0, 2.5, null],
+            ['120', 2.5, 0, 0, 2.5, null],
+            ['130', 2.5, 0, 0, 2.5, null],
+            ['140', 2.5, 0, 0, 2.5, null],
+            ['150', 2.5, 0, 0, 2.5, null],
+            ['160', 2.5, 0, 0, 2.5, null],
+            ['170', 2.5, 0, 0, 2.5, null],
+            ['180', 2.5, 0, 0, 2.5, '2.5%']
+        ]);
+        const options = {
+            title: 'ラムダ・ストライク（SUB）',
+            curveType: 'none',
+            legend: { position: 'bottom' }
+        };
+        const chart = new google.visualization.LineChart(
+            document.getElementById('sub-1')
+        );
+        chart.draw(data, options);
+    });
+}
+sub1();
+</script>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[ステータス]]></summary></entry><entry><title type="html">【スパロボDD】4周年！SSR支援セレクト交換所</title><link href="https://makietan.github.io/game/srwdd/2023/08/30/report.html" rel="alternate" type="text/html" title="【スパロボDD】4周年！SSR支援セレクト交換所" /><published>2023-08-30T00:00:00+09:00</published><updated>2023-08-30T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2023/08/30/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2023/08/30/report.html"><![CDATA[<p><button id="sort" onclick="sort();">ソート</button></p>
 
 <div id="list">
 
@@ -607,256 +1353,4 @@ function removeChecked() {
   <div class="card__description">
     <p></p>
   </div>
-</div>]]></content><author><name>makietan</name></author><category term="otaku" /><summary type="html"><![CDATA[お経かなんかに似た文章をすみぺが書いていたのでメモ。]]></summary></entry><entry><title type="html">塩素系漂白剤と日焼け止めで白Tシャツがピンク色になるらしい</title><link href="https://makietan.github.io/cleaning/2023/07/21/report.html" rel="alternate" type="text/html" title="塩素系漂白剤と日焼け止めで白Tシャツがピンク色になるらしい" /><published>2023-07-21T00:00:00+09:00</published><updated>2023-07-21T00:00:00+09:00</updated><id>https://makietan.github.io/cleaning/2023/07/21/report</id><content type="html" xml:base="https://makietan.github.io/cleaning/2023/07/21/report.html"><![CDATA[<div class="card">
-  <a href="https://news.yahoo.co.jp/articles/592c410a8fb33ab6a7449292f5a47690a9cb145a"></a>
-  <div class="card__header">
-    <a href="https://news.yahoo.co.jp/articles/592c410a8fb33ab6a7449292f5a47690a9cb145a">news.yahoo.co.jp</a>
-  </div>
-  <div class="card__image">
-    <img src="https://newsatcl-pctr.c.yimg.jp/t/amd-img/20230720-00010005-hintpot-000-3-view.jpg?exp=10800" />
-  </div>
-  <div class="card__title">
-    <p>塩素系漂白剤で白Tシャツがピンク色に　原因と対処法を花王が伝授　「早く知りたかった」（Hint-Pot） - Yahoo!ニュース</p>
-  </div>
-  <div class="card__description">
-    <p>　シンプルで、着回し力が高い白Tシャツ。しかし、着用しているうちに自然と黄ばみや汚れが目立ってきますよね。そんなとき、衣類用の漂白剤に頼ることもありますが、使い方を間違えて失敗してしまうことも。洗濯</p>
-  </div>
-</div>
-
-<p>洗濯って結構難しい。
-こういうところをどうにかする洗濯機が出てくれるといいのだけど、
-しょうもない機能ばかりつける家電メーカーには本当にがっかりなんだよ。</p>]]></content><author><name>makietan</name></author><category term="cleaning" /><summary type="html"><![CDATA[news.yahoo.co.jp 塩素系漂白剤で白Tシャツがピンク色に　原因と対処法を花王が伝授　「早く知りたかった」（Hint-Pot） - Yahoo!ニュース 　シンプルで、着回し力が高い白Tシャツ。しかし、着用しているうちに自然と黄ばみや汚れが目立ってきますよね。そんなとき、衣類用の漂白剤に頼ることもありますが、使い方を間違えて失敗してしまうことも。洗濯]]></summary></entry><entry><title type="html">《Ｅｍトリック・クラウン》から可能な展開</title><link href="https://makietan.github.io/game/yugioh/2023/07/19/report.html" rel="alternate" type="text/html" title="《Ｅｍトリック・クラウン》から可能な展開" /><published>2023-07-19T00:00:00+09:00</published><updated>2023-07-19T00:00:00+09:00</updated><id>https://makietan.github.io/game/yugioh/2023/07/19/report</id><content type="html" xml:base="https://makietan.github.io/game/yugioh/2023/07/19/report.html"><![CDATA[<h2 id="聖魔の乙女アルテミス">《聖魔の乙女アルテミス》</h2>
-
-<p>リンク2のモンスターを特殊召喚できる。</p>
-
-<ol>
-  <li>《Ｅｍトリック・クラウン》を召喚</li>
-  <li>《聖魔の乙女アルテミス》をリンク召喚</li>
-  <li>《Ｅｍトリック・クラウン》の効果で自身を墓地から特殊召喚</li>
-</ol>
-
-<h3 id="特殊召喚可能なリンクモンスター">特殊召喚可能なリンクモンスター</h3>
-
-<ul>
-  <li>《魔導原典 クロウリー》
-    <ul>
-      <li>「魔導書」カードのランダムサーチ</li>
-      <li>魔法使い族のリリース減</li>
-    </ul>
-  </li>
-  <li>《破壊剣士の守護絆竜》</li>
-  <li>《捕食植物ヴェルテ・アナコンダ》
-    <ul>
-      <li>属性変更</li>
-      <li>融合カード発動
-        <ul>
-          <li>《フュージョン・デステニー》
-            <ul>
-              <li>《Ｄ－ＨＥＲＯ デストロイフェニックスガイ》</li>
-            </ul>
-          </li>
-          <li>《ネオス・フュージョン》
-            <ul>
-              <li>《レインボー・ネオス》</li>
-              <li>《アームド・ネオス》</li>
-              <li>《Ｅ・ＨＥＲＯ ネオス・クルーガー》</li>
-            </ul>
-          </li>
-          <li>《真紅眼融合》
-            <ul>
-              <li>《悪魔竜ブラック・デーモンズ・ドラゴン》</li>
-              <li>《流星竜メテオ・ブラック・ドラゴン》</li>
-              <li>《真紅眼の黒刃竜》</li>
-            </ul>
-          </li>
-          <li>《円融魔術》
-            <ul>
-              <li>《クインテット・マジシャン》 条件：他に魔法使い族3体</li>
-            </ul>
-          </li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-  <li>《バイナル・ソーサレス》</li>
-  <li>《アカシック・マジシャン》
-    <ul>
-      <li>リンク先バウンス</li>
-    </ul>
-  </li>
-  <li>《アンダークロックテイカー》</li>
-  <li>《セキュリティ・ドラゴン》</li>
-  <li>《LANフォリンクス》</li>
-  <li>《トロイメア・ケルベロス》
-    <ul>
-      <li>特殊召喚モンスター除去</li>
-    </ul>
-  </li>
-  <li>《トロイメア・フェニックス》
-    <ul>
-      <li>魔法・罠除去</li>
-    </ul>
-  </li>
-  <li>《ハイパースター》
-    <ul>
-      <li>2300打点以下の闇属性を攻撃で処理可能</li>
-      <li>墓地の光属性回収</li>
-    </ul>
-  </li>
-  <li>《魔界の警邏課デスポリス》</li>
-  <li>《PSYフレームロード・Λ》
-    <ul>
-      <li>「PSYフレームギア」の発動条件緩和</li>
-      <li>場のサイキック族が除外された場合「PSYフレーム」カードサーチ</li>
-    </ul>
-  </li>
-  <li>《剛炎の剣士》
-    <ul>
-      <li>1800打点</li>
-      <li>破壊時墓地のL以外の戦士族特殊召喚</li>
-    </ul>
-  </li>
-  <li>《星導竜アーミライル》</li>
-  <li>《魔導耀士 デイブレイカー》
-    <ul>
-      <li>1900打点</li>
-    </ul>
-  </li>
-  <li>《警衛バリケイドベルグ》
-    <ul>
-      <li>機械族</li>
-      <li>手札1枚捨て永続魔法orフィールド魔法回収</li>
-    </ul>
-  </li>
-  <li>《ブルートエンフォーサー》
-    <ul>
-      <li>手札1枚捨て表側表示カード破壊（条件で相手による無効あり）</li>
-    </ul>
-  </li>
-  <li>《アーティファクト－ダグザ》
-    <ul>
-      <li>カード効果発動で「アーティファクト」モンスターサーチ&amp;セット</li>
-      <li>相手ターンに破壊で墓地から「アーティファクト」モンスター特殊召喚</li>
-    </ul>
-  </li>
-  <li>《幻奏の華楽聖ブルーム・ハーモニスト》
-    <ul>
-      <li>手札1枚捨て「幻奏」モンスターをリンク先に特殊召喚（幻奏縛り）</li>
-      <li>ダメステ相手発動無効</li>
-    </ul>
-  </li>
-  <li>《星鍵士リイヴ》（条件あり）
-    <ul>
-      <li>「聖遺物」サーチ&amp;セット</li>
-      <li>L素材墓地送りでデッキバウンス</li>
-    </ul>
-  </li>
-  <li>《プロキシー・F・マジシャン》
-    <ul>
-      <li>フィールド融合</li>
-      <li>リンク先に融合モンスターで手札から攻撃力1000以下特殊召喚</li>
-    </ul>
-  </li>
-  <li>《照耀の光霊使いライナ》
-    <ul>
-      <li>相手の墓地光属性蘇生</li>
-      <li>破壊時光属性サーチ</li>
-    </ul>
-  </li>
-  <li>《魔界特派員デスキャスター》
-    <ul>
-      <li>悪魔族蘇生</li>
-    </ul>
-  </li>
-  <li>《プロキシー・ドラゴン》
-    <ul>
-      <li>破壊耐性</li>
-    </ul>
-  </li>
-  <li>《コード・トーカー》
-    <ul>
-      <li>L先数で攻撃力上昇</li>
-      <li>破壊耐性</li>
-    </ul>
-  </li>
-  <li>《ダブルバイト・ドラゴン》（アルテミス2枚）
-    <ul>
-      <li>攻撃力2100</li>
-      <li>Lモンスター・魔法・罠以外の耐性付与</li>
-    </ul>
-  </li>
-  <li>《リプロドクス》
-    <ul>
-      <li>種族or属性変更</li>
-    </ul>
-  </li>
-  <li>《バックアップ・スーパーバイザー》</li>
-  <li>《トラックブラック》
-    <ul>
-      <li>リンク先モンスターが戦闘破壊で1ドロー</li>
-    </ul>
-  </li>
-  <li>《ミス・ケープ・バーバ》
-    <ul>
-      <li>バトルフェイズ除外</li>
-    </ul>
-  </li>
-  <li>《クロシープ》
-    <ul>
-      <li>●儀式：自分はデッキから２枚ドローし、その後手札を２枚選んで捨てる。</li>
-      <li>●融合：自分の墓地からレベル４以下のモンスター１体を選んで特殊召喚する。</li>
-      <li>●Ｓ：自分フィールドの全てのモンスターの攻撃力は７００アップする。</li>
-      <li>●Ｘ：相手フィールドの全てのモンスターの攻撃力は７００ダウンする。</li>
-    </ul>
-  </li>
-  <li>《虚光の宣告者》</li>
-  <li>《コードブレイカー・ウイルスソードマン》
-    <ul>
-      <li>2300打点</li>
-      <li>破壊時エンドフェイズ蘇生</li>
-    </ul>
-  </li>
-  <li>《激撮ディスパラッチ》
-    <ul>
-      <li>攻撃対象変更</li>
-      <li>戦闘後相手モンスター破壊&amp;攻撃力半分LP回復</li>
-    </ul>
-  </li>
-  <li>《リンクルベル》
-    <ul>
-      <li>ゴミ</li>
-    </ul>
-  </li>
-  <li>《スペース・インシュレイター》
-    <ul>
-      <li>L先攻守800ダウン</li>
-      <li>サイバース族L召喚でL先に蘇生</li>
-    </ul>
-  </li>
-  <li>《ペンテスタッグ》
-    <ul>
-      <li>1600打点</li>
-      <li>貫通</li>
-    </ul>
-  </li>
-  <li>《冥宮の番人》
-    <ul>
-      <li>相手モンスター攻撃力500ダウン</li>
-      <li>1400打点</li>
-      <li>破壊時バニラ蘇生</li>
-    </ul>
-  </li>
-  <li>《プログレオ》</li>
-  <li>《虫忍 ハガクレミノ》
-    <ul>
-      <li>攻撃対象回避</li>
-      <li>L先破壊で昆虫族を手札・墓地から特殊召喚</li>
-    </ul>
-  </li>
-  <li>《転晶のコーディネラル》
-    <ul>
-      <li>効果破壊耐性付与</li>
-      <li>コントロール入れ替え</li>
-    </ul>
-  </li>
-</ul>]]></content><author><name>makietan</name></author><category term="game" /><category term="yugioh" /><summary type="html"><![CDATA[《聖魔の乙女アルテミス》]]></summary></entry></feed>
+</div>]]></content><author><name>makietan</name></author><category term="otaku" /><summary type="html"><![CDATA[お経かなんかに似た文章をすみぺが書いていたのでメモ。]]></summary></entry></feed>
