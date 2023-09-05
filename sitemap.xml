@@ -8048,9 +8048,6 @@
 <loc>https://makietan.github.io/category/tech</loc>
 </url>
 <url>
-<loc>https://makietan.github.io/calendar/test/</loc>
-</url>
-<url>
 <loc>https://makietan.github.io/category/unknown</loc>
 </url>
 <url>
@@ -8388,5 +8385,9 @@
 </url>
 <url>
 <loc>https://makietan.github.io/categories/yurucamp/</loc>
+</url>
+<url>
+<loc>https://makietan.github.io/calendar/test.html</loc>
+<lastmod>2023-09-05T15:04:43+09:00</lastmod>
 </url>
 </urlset>
