@@ -1,4 +1,269 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2023-09-08T12:15:09+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">「ウルズ・ストライク」の考察</title><link href="https://makietan.github.io/game/srwdd/2023/09/04/report.html" rel="alternate" type="text/html" title="「ウルズ・ストライク」の考察" /><published>2023-09-04T00:00:00+09:00</published><updated>2023-09-04T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2023/09/04/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2023/09/04/report.html"><![CDATA[<h2 id="ステータス">ステータス</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2023-09-09T06:38:36+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">2023年の献立②</title><link href="https://makietan.github.io/gourmet/2023/09/06/report.html" rel="alternate" type="text/html" title="2023年の献立②" /><published>2023-09-06T00:00:00+09:00</published><updated>2023-09-06T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2023/09/06/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2023/09/06/report.html"><![CDATA[<p>外食を決め打ちしとくのはダメだけどなんとなく迷ったときはこれかなと。</p>
+
+<h3 id="1日に必要な栄養成分">1日に必要な栄養成分</h3>
+
+<ul>
+  <li>安静時代謝量 1,886kcal（ドラクエウォーク・あるくんですWより）</li>
+  <li>たんぱく質（13〜20%、1g=4kcal） <span style="color: red; font-weight: 900;">61.295g</span>〜94.3g</li>
+  <li>脂質（20〜30%、1g=9kcal） <span style="color: red; font-weight: 900;">41.91g</span>〜62.87g</li>
+  <li>炭水化物（50〜65%、1g=4kcal） <span style="color: red; font-weight: 900;">235.75g</span>〜306.475g</li>
+</ul>
+
+<h4 id="参考資料">参考資料</h4>
+
+<ul>
+  <li><a href="https://www.maff.go.jp/j/syokuiku/wakaisedai/attach/pdf/balance-8.pdf">ちょうどよいバランスの食生活 - 農林⽔産省 消費・安全局 消費者⾏政・⾷育課</a></li>
+</ul>
+
+<h3 id="月曜日">月曜日</h3>
+
+<h3 id="火曜日">火曜日</h3>
+<h4 id="松のや">松のや</h4>
+
+<ul>
+  <li>月曜だけだったのが月〜水になった。</li>
+  <li>無料クーポンが貰える。</li>
+  <li>500円クーポンもある。</li>
+  <li>
+    <p>約1,000kcal。</p>
+  </li>
+  <li><a href="https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_jourosu_hp_221221.html">上ロースかつ定食</a>
+    <ul>
+      <li>690円</li>
+      <li>カロリー／922kcal (48.89%)</li>
+      <li>たんぱく質／42.4g (69.17%)</li>
+      <li>脂質／36.6g (87.33%)</li>
+      <li>炭水化物／103.3g (43.82%)</li>
+      <li>食塩相当量／3g</li>
+    </ul>
+  </li>
+  <li><a href="https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_jourosu_oroshipon_hp_221221.html">おろしポン酢上ロースかつ定食</a>
+    <ul>
+      <li>790円</li>
+      <li>カロリー／955kcal (50.64%)</li>
+      <li>たんぱく質／43.8g (71.46%)</li>
+      <li>脂質／36.7g (87.57%)</li>
+      <li>炭水化物／110.2g (46.74%)</li>
+      <li>食塩相当量／4.7g</li>
+    </ul>
+  </li>
+  <li><a href="https://www.matsuyafoods.co.jp/matsunoya/menu/souzai/souzai_korokke1_hp_220502.html">単品コロッケ（1個）</a>
+    <ul>
+      <li>80円</li>
+      <li>カロリー／107kcal (5.67%)</li>
+      <li>たんぱく質／2.2g (3.59%)</li>
+      <li>脂質／4.9g (11.7%)</li>
+      <li>炭水化物／13.9g (5.9%)</li>
+      <li>食塩相当量／0.4g</li>
+    </ul>
+  </li>
+  <li><a href="https://www.matsuyafoods.co.jp/matsunoya/menu/side_menu/side_topping_potesara_hp_200819.html">トッピングポテトサラダ</a>
+    <ul>
+      <li>70円</li>
+      <li>カロリー／92kcal (4.88%)</li>
+      <li>たんぱく質／1g (1.63%)</li>
+      <li>脂質／5.6g (13.36%)</li>
+      <li>炭水化物／9.2g (3.90%)</li>
+      <li>食塩相当量／0.5g</li>
+    </ul>
+  </li>
+  <li><a href="https://www.matsuyafoods.co.jp/matsunoya/menu/side_menu/side_hurikake_sake_hp_221012.html">単品ふりかけ（さけ）</a>
+    <ul>
+      <li>50円</li>
+      <li>カロリー／7kcal (0.37%)</li>
+      <li>たんぱく質／0.2g (0.33%)</li>
+      <li>脂質／0.2g (0.48%)</li>
+      <li>炭水化物／0.9g (0.38%)</li>
+      <li>食塩相当量／0.2g</li>
+    </ul>
+  </li>
+  <li><a href="https://www.matsuyafoods.co.jp/matsunoya/menu/side_menu/side_hurikake_tamago_hp_221012.html">単品ふりかけ（たまご）</a>
+    <ul>
+      <li>50円</li>
+      <li>カロリー／10kcal (0.53%)</li>
+      <li>たんぱく質／0.3g (0.49%)</li>
+      <li>脂質／0.2g (0.48%)</li>
+      <li>炭水化物／1.7g (0.72%)</li>
+      <li>食塩相当量／0.2g</li>
+    </ul>
+  </li>
+  <li><a href="https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_sasami2_hp_230621.html">ささみかつ定食</a>
+    <ul>
+      <li>690円</li>
+      <li>カロリー／948kcal (50.27%)</li>
+      <li>たんぱく質／37.9g (61.83%)</li>
+      <li>脂質／39.8g (94.97%)</li>
+      <li>炭水化物／107.2g (45.47%)</li>
+      <li>食塩相当量／3.4g</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="水曜日">水曜日</h3>
+
+<h3 id="木曜日">木曜日</h3>
+<h4 id="吉野家">吉野家</h4>
+
+<ul>
+  <li><a href="https://www.yoshinoya.com/menu/set/gyushake_tei/">牛鮭定食</a>
+    <ul>
+      <li>668円</li>
+      <li>685kcal (36.32%)</li>
+      <li>たんぱく質 31.8g (51.88%)</li>
+      <li>脂質 25.0g (59.65%)</li>
+      <li>炭水化物 87.9g (37.29%)</li>
+      <li>食塩相当量 4.0g</li>
+    </ul>
+  </li>
+  <li><a href="https://www.yoshinoya.com/menu/gyudon/gyu-don/">牛丼 並盛</a>
+    <ul>
+      <li>448円</li>
+      <li>633kcal (33.56%)</li>
+      <li>たんぱく質 19.6g (31.98%)</li>
+      <li>脂質 23.6g (56.31%)</li>
+      <li>炭水化物 88.2g (37.41%)</li>
+      <li>食塩相当量 2.5g</li>
+    </ul>
+  </li>
+  <li>みそ汁
+    <ul>
+      <li>19kcal (1.00%)</li>
+      <li>たんぱく質 1.2g (1.96%)</li>
+      <li>脂質 0.5g (1.19%)</li>
+      <li>炭水化物 2.4g (1.02%)</li>
+      <li>食塩相当量 1.3g</li>
+    </ul>
+  </li>
+  <li>お新香
+    <ul>
+      <li>13kcal (0.69%)</li>
+      <li>たんぱく質 0.7g (1.14%)</li>
+      <li>脂質 0.1g (0.24%)</li>
+      <li>炭水化物 2.6g (1.10%)</li>
+      <li>食塩相当量 1.1g</li>
+    </ul>
+  </li>
+  <li>生野菜サラダ
+    <ul>
+      <li>23kcal (1.22%)</li>
+      <li>たんぱく質 0.9g (1.47%)</li>
+      <li>脂質 0.2g (0.48%)</li>
+      <li>炭水化物 5.2g (2.21%)</li>
+      <li>食塩相当量 0.1g</li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="焼肉ライク">焼肉ライク</h4>
+
+<p>焼肉が食べたいときに。
+約1,500円。
+もちろんそれ以上の金額になることは多い。</p>
+
+<ul>
+  <li><a href="https://yakiniku-like.com/menu.html">上ロース&amp;ハラミセット</a>
+    <ul>
+      <li>1,560円 (上ロース100g 720円 + ハラミ100g 720円 + ごはん等 240円 = 1680円：120円お得)</li>
+      <li>200g</li>
+    </ul>
+  </li>
+  <li><a href="https://yakiniku-like.com/menu.html">オールスターセット</a>
+    <ul>
+      <li>1,860円（牛タン4枚 590円 + 上ロース50g 360円 + 匠カルビ50g 360円 + バラカルビ50g 240円 + 牛ホルモン50g 250円 + ごはん等 240円 = 2040円：180円お得）</li>
+      <li>250g</li>
+    </ul>
+  </li>
+  <li><a href="https://yakiniku-like.com/menu.html">ミックスカルビセット</a>
+    <ul>
+      <li>1,050円 (バラカルビ100g 480円 + 豚カルビ100g 440円 + ごはん等 240円 = 1160円：110円お得)</li>
+      <li>200g</li>
+    </ul>
+  </li>
+  <li><a href="https://yakiniku-like.com/menu.html">バラカルビセット</a>
+    <ul>
+      <li>1,090円（バラカルビ200g 960円 + ごはん等 240円 = 1200円：110円お得）</li>
+      <li>200g</li>
+    </ul>
+  </li>
+  <li><a href="https://yakiniku-like.com/menu.html">牛ホルモン</a>
+    <ul>
+      <li>250円</li>
+      <li>50g</li>
+    </ul>
+  </li>
+  <li><a href="https://yakiniku-like.com/menu.html">メガ盛りセット</a>
+    <ul>
+      <li>1,380円(バラカルビ100g 480円 + 豚カルビ100g 480円 + ホルモン100g 500円 + ごはん等 240円 = 1700円：320円お得)</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="金曜日">金曜日</h3>
+
+<ul>
+  <li>?</li>
+</ul>
+
+<h3 id="土曜日">土曜日</h3>
+
+<p>スタンプ集め中。
+遅い時間まで開いている。
+平日と比較して空いている。
+1,500円くらい。</p>
+
+<h4 id="餃子の王将">餃子の王将</h4>
+<ul>
+  <li><a href="https://www.ohsho.co.jp/menu/east/post.html">餃子</a>
+    <ul>
+      <li>297円</li>
+    </ul>
+  </li>
+  <li><a href="https://www.ohsho.co.jp/menu/east/post_356.html">炒飯</a>
+    <ul>
+      <li>550円</li>
+    </ul>
+  </li>
+  <li><a href="https://www.ohsho.co.jp/menu/east/post_368.html">餃子の王将ラーメン（醤油豚骨ベース）</a>
+    <ul>
+      <li>594円</li>
+    </ul>
+  </li>
+  <li><a href="https://www.ohsho.co.jp/menu/east/post_344.html">ニラレバ炒め</a>
+    <ul>
+      <li>583円</li>
+    </ul>
+  </li>
+  <li><a href="https://www.ohsho.co.jp/menu/east/post_348.html">回鍋肉（ホイコーロー）</a>
+    <ul>
+      <li>583円</li>
+    </ul>
+  </li>
+  <li><a href="https://www.ohsho.co.jp/menu/east/post_352.html">肉と玉子のいりつけ</a>
+    <ul>
+      <li>605円</li>
+    </ul>
+  </li>
+  <li><a href="https://www.ohsho.co.jp/menu/east/post_341.html">鶏の唐揚</a>
+    <ul>
+      <li>616円</li>
+    </ul>
+  </li>
+  <li><a href="https://www.ohsho.co.jp/menu/east/post_451.html">鶏の唐揚（ジャストサイズ）</a>
+    <ul>
+      <li>352円</li>
+    </ul>
+  </li>
+  <li><a href="https://www.ohsho.co.jp/menu/east/post_92.html">玉子スープ</a>
+    <ul>
+      <li>110円</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="日曜日">日曜日</h3>
+<ul>
+  <li>?</li>
+</ul>]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[外食を決め打ちしとくのはダメだけどなんとなく迷ったときはこれかなと。]]></summary></entry><entry><title type="html">「ウルズ・ストライク」の考察</title><link href="https://makietan.github.io/game/srwdd/2023/09/04/report.html" rel="alternate" type="text/html" title="「ウルズ・ストライク」の考察" /><published>2023-09-04T00:00:00+09:00</published><updated>2023-09-04T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2023/09/04/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2023/09/04/report.html"><![CDATA[<h2 id="ステータス">ステータス</h2>
 
 <style>
     table {
@@ -1258,99 +1523,448 @@ function removeChecked() {
   <span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="nx">dirent</span><span class="p">.</span><span class="nx">name</span><span class="p">);</span>
 </code></pre></div></div>
 
-<p>といった具合でファイルだけ、ディレクトリだけを取得できる。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[nodejs.org File system | Node.js v20.5.1 Documentation]]></summary></entry><entry><title type="html">完凸してないなかまモンスター</title><link href="https://makietan.github.io/game/dqw/2023/07/29/report.html" rel="alternate" type="text/html" title="完凸してないなかまモンスター" /><published>2023-07-29T00:00:00+09:00</published><updated>2023-07-29T00:00:00+09:00</updated><id>https://makietan.github.io/game/dqw/2023/07/29/report</id><content type="html" xml:base="https://makietan.github.io/game/dqw/2023/07/29/report.html"><![CDATA[<ul>
-  <li>きんすら</li>
-  <li>ぼんない</li>
-  <li>すかい</li>
-  <li>きらま</li>
-  <li>あんくる</li>
-  <li>まーまん</li>
-  <li>きめら</li>
-  <li>ほーくぶり</li>
-  <li>あーむらいおん</li>
-  <li>しゃどーさたん</li>
-  <li>ぎがんてす</li>
-  <li>きんぐぞんび</li>
-  <li>わし</li>
-  <li>すかるごん</li>
-  <li>ろうそく</li>
-  <li>いか</li>
-  <li>よろいのきし</li>
-  <li>さる</li>
-  <li>しゃどー</li>
-  <li>どろにんぎょう</li>
-  <li>FB777</li>
-</ul>]]></content><author><name>makietan</name></author><category term="game" /><category term="dqw" /><summary type="html"><![CDATA[きんすら ぼんない すかい きらま あんくる まーまん きめら ほーくぶり あーむらいおん しゃどーさたん ぎがんてす きんぐぞんび わし すかるごん ろうそく いか よろいのきし さる しゃどー どろにんぎょう FB777]]></summary></entry><entry><title type="html">ジェネレイドに混ぜると相性のいいテーマ・カードって何がある？</title><link href="https://makietan.github.io/game/yugioh/2023/07/28/report.html" rel="alternate" type="text/html" title="ジェネレイドに混ぜると相性のいいテーマ・カードって何がある？" /><published>2023-07-28T00:00:00+09:00</published><updated>2023-07-28T00:00:00+09:00</updated><id>https://makietan.github.io/game/yugioh/2023/07/28/report</id><content type="html" xml:base="https://makietan.github.io/game/yugioh/2023/07/28/report.html"><![CDATA[<ul>
-  <li>神碑</li>
-  <li>アレイスター</li>
-  <li>バスター・モード</li>
-  <li>PSYフレーム</li>
-  <li>セリオンズ</li>
-  <li>壊獣</li>
-  <li>ホップイヤー</li>
-  <li>ワイアーム（超融合）</li>
+<p>といった具合でファイルだけ、ディレクトリだけを取得できる。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[nodejs.org File system | Node.js v20.5.1 Documentation]]></summary></entry><entry><title type="html">「グラーツ・マンリッヒャー」の考察</title><link href="https://makietan.github.io/game/srwdd/2023/08/25/report.html" rel="alternate" type="text/html" title="「グラーツ・マンリッヒャー」の考察" /><published>2023-08-25T00:00:00+09:00</published><updated>2023-08-25T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2023/08/25/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2023/08/25/report.html"><![CDATA[<h2 id="ステータス">ステータス</h2>
+
+<style>
+    table {
+        width: 20vw
+    }
+</style>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">項目</th>
+      <th style="text-align: center">数値</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">HP</td>
+      <td style="text-align: center">2340</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">攻撃力</td>
+      <td style="text-align: center">3150</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">防御力</td>
+      <td style="text-align: center">2310</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">照準値</td>
+      <td style="text-align: center">252</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">運動性</td>
+      <td style="text-align: center">270</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">威力</td>
+      <td style="text-align: center">230%</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">命中</td>
+      <td style="text-align: center">+85%</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">射程</td>
+      <td style="text-align: center">1-4</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">アクション</td>
+      <td style="text-align: center">2</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">回数</td>
+      <td style="text-align: center">5</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">特性</td>
+      <td style="text-align: center">+5</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">レアリティ</td>
+      <td style="text-align: center">SSR+</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">LV</td>
+      <td style="text-align: center">110</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="対決戦">対決戦</h2>
+
+<ul>
+  <li>ブレイクゲージポイント
+    <ul>
+      <li>1500</li>
+    </ul>
+  </li>
+  <li>WEAK
+    <ul>
+      <li>打撃/斬撃/特殊</li>
+    </ul>
+  </li>
 </ul>
 
-<p>とかかな。</p>]]></content><author><name>makietan</name></author><category term="game" /><category term="yugioh" /><summary type="html"><![CDATA[神碑 アレイスター バスター・モード PSYフレーム セリオンズ 壊獣 ホップイヤー ワイアーム（超融合）]]></summary></entry><entry><title type="html">すみぺ教の教え</title><link href="https://makietan.github.io/otaku/2023/07/26/report.html" rel="alternate" type="text/html" title="すみぺ教の教え" /><published>2023-07-26T00:00:00+09:00</published><updated>2023-07-26T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2023/07/26/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2023/07/26/report.html"><![CDATA[<p>お経かなんかに似た文章をすみぺが書いていたのでメモ。</p>
+<h2 id="main">MAIN</h2>
 
-<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">体内を脈々と駆けめぐる15個のシウマイ　これすなわち横浜の民（すみぺ）</p>&mdash; 上坂すみれ_official (@uesaka_official) <a href="https://twitter.com/uesaka_official/status/1683798503590608896?ref_src=twsrc%5Etfw">July 25, 2023</a></blockquote>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<h3 id="arx-7-アーバレスト装備時">ARX-7 アーバレスト装備時</h3>
 
-<h2 id="体内を脈々と駆けめぐる">体内を脈々と駆けめぐる</h2>
+<ul>
+  <li>戦闘回数に応じて攻撃力・運動性が<span style="color: #e65100">7%増加（最大35%）</span>し、<span style="color: blue">戦闘時の命中ユニットのサイズ差による与ダメージ減少効果を無効化</span>する</li>
+  <li>グラーツ・マンリッヒャー命中時、攻撃力・照準値・運動性が<span style="color: #e65100">22%増加</span>する強化効果を自分に付与し（2アクションの間有効）、自分に「<span style="color: red">直撃</span>」を発動する</li>
+  <li>気力120以上のとき、<span style="color: blue">戦闘時のみ敵ユニットのバリア系アビリティ効果を60%減少</span>させる</li>
+</ul>
 
-<p>「体内を〜駆けめぐる」は摂取したことを指す。
-「脈々と」とは<strong>絶えず長々と続くさま</strong>であり、たくさん食べすぎて体中に行き渡ったような感覚であることを指す。</p>
+<div id="main-1" style="width: 100vw, height: 50vh"></div>
+<div id="main-1-ex" style="width: 100vw, height: 50vh"></div>
 
-<h2 id="15個のシウマイ">15個のシウマイ</h2>
+<h2 id="必殺技スロット時">必殺技スロット時</h2>
 
-<div class="card">
-  <a href="https://kiyoken.com/products/shiumai/shinku.html"></a>
-  <div class="card__header">
-    <a href="https://kiyoken.com/products/shiumai/shinku.html">kiyoken.com</a>
-  </div>
-  <div class="card__image">
-    <img src="" />
-  </div>
-  <div class="card__title">
-    <p>真空パックシウマイ – 崎陽軒</p>
-  </div>
-  <div class="card__description">
-    <p></p>
-  </div>
-</div>
+<ul>
+  <li><span style="color: blue">戦闘時の命中ユニットのサイズ差による与ダメージ減少効果を無効化</span>する</li>
+  <li>グラーツ・マンリッヒャー命中時、攻撃力・照準値・運動性が<span style="color: #e65100">17%増加</span>する強化効果を自分に付与し（2アクションの間有効）、自分に「<span style="color: red">直撃</span>」を発動する</li>
+</ul>
 
-<p>崎陽軒はシュウマイのことを<strong>シウマイ</strong>と表記する。
-つまり、崎陽軒の「真空パックシウマイ 15個入（税込640円）」のことを指す。</p>
+<div id="sp-1" style="width: 100vw, height: 50vh"></div>
 
-<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">分割して食べる予定にしていた崎陽軒の真空パックシウマイ15個、一気に食べちゃったではありませんか！おのれ！（すみぺ）</p>&mdash; 上坂すみれ_official (@uesaka_official) <a href="https://twitter.com/uesaka_official/status/1683797886583308289?ref_src=twsrc%5Etfw">July 25, 2023</a></blockquote>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<h2 id="sub">SUB</h2>
 
-<p>シウマイは様々な種類があるが、今回は明言されている真空パックシウマイ15個入であることがわかる。</p>
+<ul>
+  <li>攻撃力・運動性が<span style="color: #e65100">2.5%増加</span>する</li>
+</ul>
 
-<h2 id="これすなわち横浜の民">これすなわち横浜の民</h2>
+<div id="sub-1" style="width: 100vw, height: 50vh"></div>
 
-<p>シウマイを15個も一気に食べてしまう人は生粋の横浜市民であると明言している。</p>
+<!-- Google Charts -->
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 
-<p>確かに一般的な人がわざわざ崎陽軒のシウマイをたくさん食べることは稀であるし、
-どちらかといえばシウマイ弁当を食べそうなものである。
-故に共感をえられる文章として成立しているのである。</p>
+<script type="text/javascript">
+google.charts.load("current", { "packages": ["corechart"] });
+const ANNOTATION = { type: 'string', role: 'annotation' };
+// MAIN・ARX-7 アーバレスト
+function main1() {
+    google.charts.setOnLoadCallback(() => {
+        const data = google.visualization.arrayToDataTable([
+            ['戦闘回数', '攻撃力(%)', '防御力(%)', '照準値(%)', ANNOTATION, '運動性(%)'],
+            ['0', 0, 0, 0, null, 0],
+            ['1', 7, 0, 7, null, 0],
+            ['2', 7*2, 0, 7*2, null, 0],
+            ['3', 7*3, 0, 7*3, null, 0],
+            ['4', 7*4, 0, 7*4, null, 0],
+            ['5', 7*5, 0, 7*5, "35%", 0],
+            ['6', 35, 0, 35, null, 0],
+            ['7', 35, 0, 35, null, 0],
+            ['8', 35, 0, 35, null, 0],
+            ['9', 35, 0, 35, null, 0],
+            ['10', 35, 0, 35, null, 0]
+        ]);
+        const options = {
+            title: 'ラムダ・ストライク（MAIN・ARX-7 アーバレスト・戦闘回数）',
+            curveType: 'none',
+            legend: { position: 'bottom' }
+        };
+        const chart = new google.visualization.LineChart(
+            document.getElementById('main-1')
+        );
+        chart.draw(data, options);
+    });
+}
+main1();
+function main1ex() {
+    google.charts.setOnLoadCallback(() => {
+        const data = google.visualization.arrayToDataTable([
+            ['アクション', '攻撃力(%)', '防御力(%)', '照準値(%)', '運動性(%)', ANNOTATION],
+            ['0', 0, 0, 0, 0, null],
+            ['1', 0, 0, 0, 0, null],
+            ['2①', 0, 0, 0, 0, null],
+            ['3', 22, 0, 22, 22, null],
+            ['4②', 22, 0, 22, 22, null],
+            ['5', 22*2, 0, 22*2, 22*2, null],
+            ['6③', 22, 0, 22, 22, null],
+            ['7', 22*2, 0, 22*2, 22*2, null],
+            ['8④', 22, 0, 22, 22, null],
+            ['9', 22*2, 0, 22*2, 22*2, null],
+            ['10⑤', 22, 0, 22, 22, `${22}%`],
+            ['11', 22*2, 0, 22*2, 22*2, `${22*2}%`],
+            ['12', 22, 0, 22, 22, null],
+            ['13', 22, 0, 22, 22, null],
+            ['14', 0, 0, 0, 0, null],
+            ['15', 0, 0, 0, 0, null]
+        ]);
+        const options = {
+            title: 'ラムダ・ストライク（MAIN・ARX-7 アーバレスト・アクション）',
+            curveType: 'none',
+            legend: { position: 'bottom' }
+        };
+        const chart = new google.visualization.LineChart(
+            document.getElementById('main-1-ex')
+        );
+        chart.draw(data, options);
+    });
+}
+main1ex();
+// SP
+function sp1() {
+    google.charts.setOnLoadCallback(() => {
+        const data = google.visualization.arrayToDataTable([
+            ['アクション', '攻撃力(%)', '防御力(%)', '照準値(%)', '運動性(%)', ANNOTATION],
+            ['0', 0, 0, 0, 0, null],
+            ['1', 0, 0, 0, 0, null],
+            ['2①', 0, 0, 0, 0, null],
+            ['3', 17, 0, 17, 17, null],
+            ['4②', 17, 0, 17, 17, null],
+            ['5', 17*2, 0, 17*2, 17*2, null],
+            ['6③', 17, 0, 17, 17, null],
+            ['7', 17*2, 0, 17*2, 17*2, null],
+            ['8④', 17, 0, 17, 17, null],
+            ['9', 17*2, 0, 17*2, 17*2, null],
+            ['10⑤', 17, 0, 17, 17, `${17}%`],
+            ['11', 17*2, 0, 17*2, 17*2, `${17*2}%`],
+            ['12', 17, 0, 17, 17, null],
+            ['13', 17, 0, 17, 17, null],
+            ['14', 0, 0, 0, 0, null],
+            ['15', 0, 0, 0, 0, null]
+        ]);
+        const options = {
+            title: 'ラムダ・ストライク（必殺技スロット時・アクション）',
+            curveType: 'none',
+            legend: { position: 'bottom' }
+        };
+        const chart = new google.visualization.LineChart(
+            document.getElementById('sp-1')
+        );
+        chart.draw(data, options);
+    });
+}
+sp1();
+// SUB1
+function sub1() {
+    google.charts.setOnLoadCallback(() => {
+        const data = google.visualization.arrayToDataTable([
+            ['気力', '攻撃力(%)', '防御力(%)', '照準値(%)', '運動性(%)', ANNOTATION],
+            ['100', 2.5, 0, 0, 2.5, null],
+            ['110', 2.5, 0, 0, 2.5, null],
+            ['120', 2.5, 0, 0, 2.5, null],
+            ['130', 2.5, 0, 0, 2.5, null],
+            ['140', 2.5, 0, 0, 2.5, null],
+            ['150', 2.5, 0, 0, 2.5, null],
+            ['160', 2.5, 0, 0, 2.5, null],
+            ['170', 2.5, 0, 0, 2.5, null],
+            ['180', 2.5, 0, 0, 2.5, '2.5%']
+        ]);
+        const options = {
+            title: 'グラーツ・マンリッヒャー（SUB）',
+            curveType: 'none',
+            legend: { position: 'bottom' }
+        };
+        const chart = new google.visualization.LineChart(
+            document.getElementById('sub-1')
+        );
+        chart.draw(data, options);
+    });
+}
+sub1();
+</script>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[ステータス]]></summary></entry><entry><title type="html">「強襲」の考察</title><link href="https://makietan.github.io/game/srwdd/2023/08/24/report.html" rel="alternate" type="text/html" title="「強襲」の考察" /><published>2023-08-24T00:00:00+09:00</published><updated>2023-08-24T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2023/08/24/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2023/08/24/report.html"><![CDATA[<h2 id="ステータス">ステータス</h2>
 
-<h2 id="おわりに">おわりに</h2>
+<style>
+    table {
+        width: 20vw
+    }
+</style>
 
-<p>新橋に崎陽軒の店があるので、久々に食べたいと思う。</p>
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">項目</th>
+      <th style="text-align: center">数値</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">HP</td>
+      <td style="text-align: center">2475</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">攻撃力</td>
+      <td style="text-align: center">3000</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">防御力</td>
+      <td style="text-align: center">2460</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">照準値</td>
+      <td style="text-align: center">219</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">運動性</td>
+      <td style="text-align: center">234</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">威力</td>
+      <td style="text-align: center">240%</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">命中</td>
+      <td style="text-align: center">+40%</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">射程</td>
+      <td style="text-align: center">1-2</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">アクション</td>
+      <td style="text-align: center">3</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">回数</td>
+      <td style="text-align: center">4</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">特性</td>
+      <td style="text-align: center">+5</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">レアリティ</td>
+      <td style="text-align: center">SSR+</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">LV</td>
+      <td style="text-align: center">110</td>
+    </tr>
+  </tbody>
+</table>
 
-<div class="card">
-  <a href="https://kiyoken.com/shop/ecute_shinbashi.html"></a>
-  <div class="card__header">
-    <a href="https://kiyoken.com/shop/ecute_shinbashi.html">kiyoken.com</a>
-  </div>
-  <div class="card__image">
-    <img src="" />
-  </div>
-  <div class="card__title">
-    <p>エキュートエディション新橋店 – 崎陽軒</p>
-  </div>
-  <div class="card__description">
-    <p></p>
-  </div>
-</div>]]></content><author><name>makietan</name></author><category term="otaku" /><summary type="html"><![CDATA[お経かなんかに似た文章をすみぺが書いていたのでメモ。]]></summary></entry></feed>
+<h2 id="対決戦">対決戦</h2>
+
+<ul>
+  <li>ブレイクゲージポイント
+    <ul>
+      <li>1500</li>
+    </ul>
+  </li>
+  <li>WEAK
+    <ul>
+      <li>打撃/斬撃/特殊</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="main">MAIN</h2>
+
+<ul>
+  <li>攻撃&amp;回避タイプの攻撃力・照準値・運動性が<span style="color: #e65100">18%増加</span>する</li>
+  <li>気力120以上のとき、<span style="color: blue">戦闘時のみ敵ユニットの照準値を18%減少</span>させる</li>
+</ul>
+
+<div id="main-1" style="width: 100vw, height: 50vh"></div>
+
+<h2 id="必殺技スロット時">必殺技スロット時</h2>
+
+<ul>
+  <li>攻撃力・照準値・運動性が<span style="color: #e65100">9%増加</span>する</li>
+  <li>気力120以上のとき、<span style="color: blue">戦闘時のみ敵ユニットの照準値を9%減少</span>させる</li>
+</ul>
+
+<div id="sp-1" style="width: 100vw, height: 50vh"></div>
+
+<h2 id="sub">SUB</h2>
+
+<ul>
+  <li>メインスロットの斬撃属性の必殺技威力が<span style="color: #e65100">11%増加</span>する</li>
+</ul>
+
+<div id="sub-1" style="width: 100vw, height: 50vh"></div>
+
+<!-- Google Charts -->
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+<script type="text/javascript">
+google.charts.load("current", { "packages": ["corechart"] });
+const ANNOTATION = { type: 'string', role: 'annotation' };
+// MAIN・攻撃&回避タイプ
+function main1() {
+    google.charts.setOnLoadCallback(() => {
+        const data = google.visualization.arrayToDataTable([
+            ['気力', '攻撃力(%)', '防御力(%)', '照準値(%)', '運動性(%)', ANNOTATION],
+            ['100', 18, 0, 18, 18, null],
+            ['110', 18, 0, 18, 18, null],
+            ['120', 18, 0, 18, 18, null],
+            ['130', 18, 0, 18, 18, null],
+            ['140', 18, 0, 18, 18, null],
+            ['150', 18, 0, 18, 18, null],
+            ['160', 18, 0, 18, 18, null],
+            ['170', 18, 0, 18, 18, null],
+            ['180', 18, 0, 18, 18, "18%"],
+        ]);
+        const options = {
+            title: '強襲（MAIN・攻撃&回避タイプ）',
+            curveType: 'none',
+            legend: { position: 'bottom' }
+        };
+        const chart = new google.visualization.LineChart(
+            document.getElementById('main-1')
+        );
+        chart.draw(data, options);
+    });
+}
+main1();
+// SP
+function sp1() {
+    google.charts.setOnLoadCallback(() => {
+        const data = google.visualization.arrayToDataTable([
+            ['気力', '攻撃力(%)', '防御力(%)', '照準値(%)', '運動性(%)', ANNOTATION],
+            ['100', 9, 0, 9, 9, null],
+            ['110', 9, 0, 9, 9, null],
+            ['120', 9, 0, 9, 9, null],
+            ['130', 9, 0, 9, 9, null],
+            ['140', 9, 0, 9, 9, null],
+            ['150', 9, 0, 9, 9, null],
+            ['160', 9, 0, 9, 9, null],
+            ['170', 9, 0, 9, 9, null],
+            ['180', 9, 0, 9, 9, "9%"],
+        ]);
+        const options = {
+            title: '強襲（必殺技スロット時）',
+            curveType: 'none',
+            legend: { position: 'bottom' }
+        };
+        const chart = new google.visualization.LineChart(
+            document.getElementById('sp-1')
+        );
+        chart.draw(data, options);
+    });
+}
+sp1();
+// SUB1
+function sub1() {
+    google.charts.setOnLoadCallback(() => {
+        const data = google.visualization.arrayToDataTable([
+            ['気力', '必殺技威力(%)', ANNOTATION],
+            ['100', 11, null],
+            ['110', 11, null],
+            ['120', 11, null],
+            ['130', 11, null],
+            ['140', 11, null],
+            ['150', 11, null],
+            ['160', 11, null],
+            ['170', 11, null],
+            ['180', 11, "11%"]
+        ]);
+        const options = {
+            title: '強襲（SUB・メインスロットの斬撃属性の必殺技威力）',
+            curveType: 'none',
+            legend: { position: 'bottom' }
+        };
+        const chart = new google.visualization.LineChart(
+            document.getElementById('sub-1')
+        );
+        chart.draw(data, options);
+    });
+}
+sub1();
+</script>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[ステータス]]></summary></entry></feed>
