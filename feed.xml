@@ -1,4 +1,335 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2023-09-12T18:05:47+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">2023年の献立②</title><link href="https://makietan.github.io/gourmet/2023/09/06/report.html" rel="alternate" type="text/html" title="2023年の献立②" /><published>2023-09-06T00:00:00+09:00</published><updated>2023-09-06T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2023/09/06/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2023/09/06/report.html"><![CDATA[<p>外食を決め打ちしとくのはダメだけどなんとなく迷ったときはこれかなと。</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2023-09-13T02:54:36+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">「ゴッドアルファ」の考察</title><link href="https://makietan.github.io/game/srwdd/2023/09/13/report.html" rel="alternate" type="text/html" title="「ゴッドアルファ」の考察" /><published>2023-09-13T00:00:00+09:00</published><updated>2023-09-13T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2023/09/13/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2023/09/13/report.html"><![CDATA[<h2 id="ステータス">ステータス</h2>
+
+<style>
+    table {
+        width: 20vw
+    }
+</style>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">項目</th>
+      <th style="text-align: center">数値</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">HP</td>
+      <td style="text-align: center">2790</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">攻撃力</td>
+      <td style="text-align: center">3330</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">防御力</td>
+      <td style="text-align: center">2880</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">照準値</td>
+      <td style="text-align: center">249</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">運動性</td>
+      <td style="text-align: center">192</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">威力</td>
+      <td style="text-align: center">265%</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">命中</td>
+      <td style="text-align: center">+65%</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">射程</td>
+      <td style="text-align: center">1-4</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">アクション</td>
+      <td style="text-align: center">3</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">回数</td>
+      <td style="text-align: center">5</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">特性</td>
+      <td style="text-align: center">+5</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">レアリティ</td>
+      <td style="text-align: center">SSR+</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">LV</td>
+      <td style="text-align: center">110</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="対決戦">対決戦</h2>
+
+<ul>
+  <li>ブレイクゲージポイント
+    <ul>
+      <li>1500</li>
+    </ul>
+  </li>
+  <li>WEAK
+    <ul>
+      <li>打撃/斬撃/実弾</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="mainムートロン金属">MAIN（ムートロン金属）</h2>
+
+<ul>
+  <li>気力が10上昇する毎に、ゴッドアルファの必殺技威力が<span style="color: #e65100">10%増加</span>する。</li>
+</ul>
+
+<h3 id="ライディーン装備時">ライディーン装備時</h3>
+
+<ul>
+  <li>攻撃力・防御力・照準値が<span style="color: #e65100">16%増加</span>する。</li>
+  <li>戦闘回数に応じて攻撃力・防御力・照準値が<span style="color: #e65100">7%増加</span>する（最大35%）。</li>
+  <li>「海」の地形にいるとき、全ての攻撃の与ダメージが<span style="color: #e65100">50%増加</span>する。</li>
+</ul>
+
+<div id="main-1" style="width: 100vw, height: 50vh"></div>
+<div id="main-1-ex" style="width: 100vw, height: 50vh"></div>
+<div id="main-1-ex-2" style="width: 100vw, height: 50vh"></div>
+
+<h2 id="必殺技スロット時ムートロン金属">必殺技スロット時（ムートロン金属）</h2>
+
+<ul>
+  <li>戦闘回数に応じて攻撃力・防御力・照準値が<span style="color: #e65100">3%増加</span>する（最大15%）。</li>
+  <li>「海」の地形にいるとき、全ての攻撃の与ダメージが<span style="color: #e65100">25%増加</span>する。</li>
+</ul>
+
+<div id="sp-1" style="width: 100vw, height: 50vh"></div>
+<div id="sp-1-ex" style="width: 100vw, height: 50vh"></div>
+
+<h2 id="sub攻撃力アップⅲ">SUB（攻撃力アップⅢ）</h2>
+
+<ul>
+  <li>攻撃力が<span style="color: #e65100">5%増加</span>する。</li>
+</ul>
+
+<div id="sub-1" style="width: 100vw, height: 50vh"></div>
+
+<!-- Google Charts -->
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+<script type="text/javascript">
+google.charts.load("current", { "packages": ["corechart"] });
+const ANNOTATION = { type: 'string', role: 'annotation' };
+const ANNOTATION_NUM = { type: 'number', role: 'annotation' };
+// MAIN・ライディーン
+function main1() {
+    google.charts.setOnLoadCallback(() => {
+        const data = google.visualization.arrayToDataTable([
+            ['戦闘回数', '攻撃力(%)', '防御力(%)', '照準値(%)', ANNOTATION, '運動性(%)'],
+            ['0',       16,         16,         16,             null,            0],
+            ['1',       16+7,       16+7,       16+7,           null,            0],
+            ['2',       16+7*2,     16+7*2,     16+7*2,         null,            0],
+            ['3',       16+7*3,     16+7*3,     16+7*3,         null,            0],
+            ['4',       16+7*4,     16+7*4,     16+7*4,         null,            0],
+            ['5',       16+7*5,     16+7*5,     16+7*5, `${16+7*5}%`,            0],
+            ['6',       16+7*5,     16+7*5,     16+7*5,         null,            0],
+            ['7',       16+7*5,     16+7*5,     16+7*5,         null,            0],
+            ['8',       16+7*5,     16+7*5,     16+7*5,         null,            0],
+            ['9',       16+7*5,     16+7*5,     16+7*5,         null,            0],
+            ['10',      16+7*5,     16+7*5,     16+7*5,         null,            0]
+        ]);
+        const options = {
+            title: 'ゴッドアルファ（MAIN・ライディーン・戦闘回数）',
+            curveType: 'none',
+            legend: { position: 'bottom' }
+        };
+        const chart = new google.visualization.LineChart(
+            document.getElementById('main-1')
+        );
+        chart.draw(data, options);
+    });
+}
+main1();
+function main1ex() {
+    google.charts.setOnLoadCallback(() => {
+        const data = google.visualization.arrayToDataTable([
+            ['気力', '必殺技威力(%)', ANNOTATION, 'ダメージ(戦闘回数：0)', 'ダメージ(戦闘回数：5・上振れ値)', ANNOTATION_NUM],
+            ['100',       265,            null,         3330*(100+16)/100*265/100,         3330*(100+16+7*5)/100*265/100 -         3330*(100+16)/100*265/100,         3330*(100+16+7*5)/100*265/100],
+            ['110',    265+10,            null,    3330*(100+16)/100*(265+10)/100,    3330*(100+16+7*5)/100*(265+10)/100 -    3330*(100+16)/100*(265+10)/100,                                  null],
+            ['120',  265+10*2,            null,  3330*(100+16)/100*(265+10*2)/100,  3330*(100+16+7*5)/100*(265+10*2)/100 -  3330*(100+16)/100*(265+10*2)/100,                                  null],
+            ['130',  265+10*3,            null,  3330*(100+16)/100*(265+10*3)/100,  3330*(100+16+7*5)/100*(265+10*3)/100 -  3330*(100+16)/100*(265+10*3)/100,                                  null],
+            ['140',  265+10*4,            null,  3330*(100+16)/100*(265+10*4)/100,  3330*(100+16+7*5)/100*(265+10*4)/100 -  3330*(100+16)/100*(265+10*4)/100,                                  null],
+            ['150',  265+10*5,            null,  3330*(100+16)/100*(265+10*5)/100,  3330*(100+16+7*5)/100*(265+10*5)/100 -  3330*(100+16)/100*(265+10*5)/100,  3330*(100+16+7*5)/100*(265+10*5)/100],
+            ['160',  265+10*6,            null,  3330*(100+16)/100*(265+10*6)/100,  3330*(100+16+7*5)/100*(265+10*6)/100 -  3330*(100+16)/100*(265+10*6)/100,                                  null],
+            ['170',  265+10*7,            null,  3330*(100+16)/100*(265+10*7)/100,  3330*(100+16+7*5)/100*(265+10*7)/100 -  3330*(100+16)/100*(265+10*7)/100,                                  null],
+            ['180',  265+10*8,            null,  3330*(100+16)/100*(265+10*8)/100,  3330*(100+16+7*5)/100*(265+10*8)/100 -  3330*(100+16)/100*(265+10*8)/100,                                  null],
+            ['190',  265+10*9,            null,  3330*(100+16)/100*(265+10*9)/100,  3330*(100+16+7*5)/100*(265+10*9)/100 -  3330*(100+16)/100*(265+10*9)/100,                                  null],
+            ['200', 265+10*10, `${265+10*10}%`, 3330*(100+16)/100*(265+10*10)/100, 3330*(100+16+7*5)/100*(265+10*10)/100 - 3330*(100+16)/100*(265+10*10)/100, 3330*(100+16+7*5)/100*(265+10*10)/100]
+        ]);
+        const options = {
+            title: 'ゴッドアルファ（MAIN・ライディーン・気力）',
+            curveType: 'none',
+            legend: { position: 'bottom' },
+            series: {
+                0: { type: 'line', targetAxisIndex: 0, annotations: { stem: { length: 8 } }},
+                1: { type: 'bars', targetAxisIndex: 1},
+                2: { type: 'bars', targetAxisIndex: 1, annotations: { stem: { length: 32 } } }
+            },
+            isStacked: true
+        };
+        const chart = new google.visualization.ComboChart(
+            document.getElementById('main-1-ex')
+        );
+        chart.draw(data, options);
+    });
+}
+main1ex();
+function main1ex2() {
+    google.charts.setOnLoadCallback(() => {
+        const data = google.visualization.arrayToDataTable([
+            ['気力', '与ダメージ(%)', ANNOTATION],
+            ['100', 50, null],
+            ['110', 50, null],
+            ['120', 50, null],
+            ['130', 50, null],
+            ['140', 50, null],
+            ['150', 50, null],
+            ['160', 50, null],
+            ['170', 50, null],
+            ['180', 50, null],
+            ['190', 50, null],
+            ['200', 50, `${50}%`]
+        ]);
+        const options = {
+            title: 'ゴッドアルファ（MAIN・ライディーン・海）',
+            curveType: 'none',
+            legend: { position: 'bottom' }
+        };
+        const chart = new google.visualization.LineChart(
+            document.getElementById('main-1-ex-2')
+        );
+        chart.draw(data, options);
+    });
+}
+main1ex2();
+// SP
+function sp1() {
+    google.charts.setOnLoadCallback(() => {
+        const data = google.visualization.arrayToDataTable([
+            ['戦闘回数', '攻撃力(%)', '防御力(%)', '照準値(%)', ANNOTATION, '運動性(%)'],
+            ['0',    0,    0,    0,      null, 0],
+            ['1',    3,    3,    3,      null, 0],
+            ['2',  3*2,  3*2,  3*2,      null, 0],
+            ['3',  3*3,  3*3,  3*3,      null, 0],
+            ['4',  3*4,  3*4,  3*4,      null, 0],
+            ['5',  3*5,  3*5,  3*5, `${3*5}%`, 0],
+            ['6',  3*5,  3*5,  3*5,      null, 0],
+            ['7',  3*5,  3*5,  3*5,      null, 0],
+            ['8',  3*5,  3*5,  3*5,      null, 0],
+            ['9',  3*5,  3*5,  3*5,      null, 0],
+            ['10', 3*5, 3*5, 3*5,        null, 0]
+        ]);
+        const options = {
+            title: 'ゴッドアルファ（必殺技スロット時・戦闘回数）',
+            curveType: 'none',
+            legend: { position: 'bottom' }
+        };
+        const chart = new google.visualization.LineChart(
+            document.getElementById('sp-1')
+        );
+        chart.draw(data, options);
+    });
+}
+sp1();
+function sp1ex() {
+    google.charts.setOnLoadCallback(() => {
+        const data = google.visualization.arrayToDataTable([
+             ['気力', '与ダメージ(%)', ANNOTATION],
+            ['100', 25, null],
+            ['110', 25, null],
+            ['120', 25, null],
+            ['130', 25, null],
+            ['140', 25, null],
+            ['150', 25, null],
+            ['160', 25, null],
+            ['170', 25, null],
+            ['180', 25, null],
+            ['190', 25, null],
+            ['200', 25, `${25}%`]
+        ]);
+        const options = {
+            title: 'ゴッドアルファ（必殺技スロット時・海）',
+            curveType: 'none',
+            legend: { position: 'bottom' }
+        };
+        const chart = new google.visualization.LineChart(
+            document.getElementById('sp-1-ex')
+        );
+        chart.draw(data, options);
+    });
+}
+sp1ex();
+// SUB1
+function sub1() {
+    google.charts.setOnLoadCallback(() => {
+        const data = google.visualization.arrayToDataTable([
+            ['気力', '攻撃力(%)', ANNOTATION, '防御力(%)', '照準値(%)', '運動性(%)'],
+            ['100', 5, null, 0, 0, 0],
+            ['110', 5, null, 0, 0, 0],
+            ['120', 5, null, 0, 0, 0],
+            ['130', 5, null, 0, 0, 0],
+            ['140', 5, null, 0, 0, 0],
+            ['150', 5, null, 0, 0, 0],
+            ['160', 5, null, 0, 0, 0],
+            ['170', 5, null, 0, 0, 0],
+            ['180', 5, null, 0, 0, 0],
+            ['190', 5, null, 0, 0, 0],
+            ['200', 5, "5%", 0, 0, 0],
+        ]);
+        const options = {
+            title: 'ゴッドアルファ（SUB）',
+            curveType: 'none',
+            legend: { position: 'bottom' }
+        };
+        const chart = new google.visualization.LineChart(
+            document.getElementById('sub-1')
+        );
+        chart.draw(data, options);
+    });
+}
+sub1();
+</script>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[ステータス]]></summary></entry><entry><title type="html">コロナ禍やロシア・ウクライナ戦争で小麦が高等していたのに出店しているのを見るとなんとも言えなくなるラーメン屋</title><link href="https://makietan.github.io/gourmet/2023/09/12/report.html" rel="alternate" type="text/html" title="コロナ禍やロシア・ウクライナ戦争で小麦が高等していたのに出店しているのを見るとなんとも言えなくなるラーメン屋" /><published>2023-09-12T00:00:00+09:00</published><updated>2023-09-12T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2023/09/12/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2023/09/12/report.html"><![CDATA[<div class="card">
+  <a href="https://www.tsr-net.co.jp/data/detail/1197979_1527.html"></a>
+  <div class="card__header">
+    <a href="https://www.tsr-net.co.jp/data/detail/1197979_1527.html">www.tsr-net.co.jp</a>
+  </div>
+  <div class="card__image">
+    <img src="https://www.tsr-net.co.jp/common/img/ogp.jpg" />
+  </div>
+  <div class="card__title">
+    <p>「ラーメン屋さん」の倒産が前年同期比3.5倍に急増　食材価格・光熱費高騰で年間最多ペース | TSRデータインサイト | 東京商工リサーチ</p>
+  </div>
+  <div class="card__description">
+    <p>　2023年1-8月の「ラーメン屋さん」の倒産（負債1,000万円以上）が28件（前年同期比250.0％増）に達し、前年同期の3.5倍と大幅に増えていることがわかった。コロナ禍の影響に加え、物価高、人件費上昇も直撃し、国民食として人気の高いラーメン屋さんが苦境に立たされている。</p>
+  </div>
+</div>
+
+<blockquote>
+  <p>さらに、昨今は、ロシアのウクライナ侵攻による小麦価格の上昇に加え、原油価格や様々な食材、電気・ガスなどの光熱費も上昇。また、人手不足に伴う人件費高騰など、急激なコストアップに見舞われ、体力がぜい弱な街のラーメン屋さんの経営は厳しさが増している。</p>
+</blockquote>
+
+<p>給付金目的の出店もあっただろうけど、都市開発で消えた店もあったりする。</p>
+
+<p>前者だとどうでもいいラーメン屋が消えるけど、
+後者だと美味しいラーメン屋が消える。</p>
+
+<p>なのでまぁ前者が多いなら別にいいかなと思う。</p>]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[www.tsr-net.co.jp 「ラーメン屋さん」の倒産が前年同期比3.5倍に急増　食材価格・光熱費高騰で年間最多ペース | TSRデータインサイト | 東京商工リサーチ 　2023年1-8月の「ラーメン屋さん」の倒産（負債1,000万円以上）が28件（前年同期比250.0％増）に達し、前年同期の3.5倍と大幅に増えていることがわかった。コロナ禍の影響に加え、物価高、人件費上昇も直撃し、国民食として人気の高いラーメン屋さんが苦境に立たされている。]]></summary></entry><entry><title type="html">2023年の献立②</title><link href="https://makietan.github.io/gourmet/2023/09/06/report.html" rel="alternate" type="text/html" title="2023年の献立②" /><published>2023-09-06T00:00:00+09:00</published><updated>2023-09-06T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2023/09/06/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2023/09/06/report.html"><![CDATA[<p>外食を決め打ちしとくのはダメだけどなんとなく迷ったときはこれかなと。</p>
 
 <h3 id="1日に必要な栄養成分">1日に必要な栄養成分</h3>
 
@@ -1988,285 +2319,4 @@ function removeChecked() {
         label.nextElementSibling.style.display = "none";
       });
 }
-</script>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[所持済みを非表示]]></summary></entry><entry><title type="html">Node.js の fs.readdir をするなら withFileTypes オプションを使って fs.Dirent 形式で受け取れ</title><link href="https://makietan.github.io/tech/2023/08/26/report.html" rel="alternate" type="text/html" title="Node.js の fs.readdir をするなら withFileTypes オプションを使って fs.Dirent 形式で受け取れ" /><published>2023-08-26T00:00:00+09:00</published><updated>2023-08-26T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2023/08/26/report</id><content type="html" xml:base="https://makietan.github.io/tech/2023/08/26/report.html"><![CDATA[<div class="card">
-  <a href="https://nodejs.org/api/fs.html#class-fsdirent"></a>
-  <div class="card__header">
-    <a href="https://nodejs.org/api/fs.html#class-fsdirent">nodejs.org</a>
-  </div>
-  <div class="card__image">
-    <img src="" />
-  </div>
-  <div class="card__title">
-    <p>File system | Node.js v20.5.1 Documentation</p>
-  </div>
-  <div class="card__description">
-    <p></p>
-  </div>
-</div>
-
-<p>知らなかったのだが、Node.jsには便利なファイル一覧読み込みオプションがある。
-それが <code class="language-plaintext highlighter-rouge">withFileTypes: true</code> オプションだ。</p>
-
-<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">fsPromises</span><span class="p">.</span><span class="nf">readdir</span><span class="p">(</span><span class="nx">path</span><span class="p">,</span> <span class="p">{</span>
-  <span class="na">withFileTypes</span><span class="p">:</span> <span class="kc">true</span>
-<span class="p">});</span>
-</code></pre></div></div>
-
-<p>パス情報の文字列が返却されるのではなく、 <code class="language-plaintext highlighter-rouge">fs.Dirent</code> 形式で返される。</p>
-
-<p><code class="language-plaintext highlighter-rouge">dirent.isDirectory()</code> や <code class="language-plaintext highlighter-rouge">dirent.isFile()</code> などの判定が可能だ。</p>
-
-<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">files</span> <span class="o">=</span> <span class="k">await</span> <span class="nx">fsPromises</span><span class="p">.</span><span class="nf">readdir</span><span class="p">(</span><span class="nx">path</span><span class="p">,</span> <span class="p">{</span>
-  <span class="na">withFileTypes</span><span class="p">:</span> <span class="kc">true</span>
-<span class="p">}).</span><span class="nf">filter</span><span class="p">((</span><span class="nx">dirent</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="nx">dirent</span><span class="p">.</span><span class="nf">isFile</span><span class="p">());</span>
-
-<span class="k">for</span> <span class="nf">await </span><span class="p">(</span><span class="kd">const</span> <span class="nx">dirent</span> <span class="k">of</span> <span class="nx">files</span><span class="p">)</span>
-  <span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="nx">dirent</span><span class="p">.</span><span class="nx">name</span><span class="p">);</span>
-</code></pre></div></div>
-
-<p>といった具合でファイルだけ、ディレクトリだけを取得できる。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[nodejs.org File system | Node.js v20.5.1 Documentation]]></summary></entry><entry><title type="html">「グラーツ・マンリッヒャー」の考察</title><link href="https://makietan.github.io/game/srwdd/2023/08/25/report.html" rel="alternate" type="text/html" title="「グラーツ・マンリッヒャー」の考察" /><published>2023-08-25T00:00:00+09:00</published><updated>2023-08-25T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2023/08/25/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2023/08/25/report.html"><![CDATA[<h2 id="ステータス">ステータス</h2>
-
-<style>
-    table {
-        width: 20vw
-    }
-</style>
-
-<table>
-  <thead>
-    <tr>
-      <th style="text-align: center">項目</th>
-      <th style="text-align: center">数値</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: center">HP</td>
-      <td style="text-align: center">2340</td>
-    </tr>
-    <tr>
-      <td style="text-align: center">攻撃力</td>
-      <td style="text-align: center">3150</td>
-    </tr>
-    <tr>
-      <td style="text-align: center">防御力</td>
-      <td style="text-align: center">2310</td>
-    </tr>
-    <tr>
-      <td style="text-align: center">照準値</td>
-      <td style="text-align: center">252</td>
-    </tr>
-    <tr>
-      <td style="text-align: center">運動性</td>
-      <td style="text-align: center">270</td>
-    </tr>
-    <tr>
-      <td style="text-align: center">威力</td>
-      <td style="text-align: center">230%</td>
-    </tr>
-    <tr>
-      <td style="text-align: center">命中</td>
-      <td style="text-align: center">+85%</td>
-    </tr>
-    <tr>
-      <td style="text-align: center">射程</td>
-      <td style="text-align: center">1-4</td>
-    </tr>
-    <tr>
-      <td style="text-align: center">アクション</td>
-      <td style="text-align: center">2</td>
-    </tr>
-    <tr>
-      <td style="text-align: center">回数</td>
-      <td style="text-align: center">5</td>
-    </tr>
-    <tr>
-      <td style="text-align: center">特性</td>
-      <td style="text-align: center">+5</td>
-    </tr>
-    <tr>
-      <td style="text-align: center">レアリティ</td>
-      <td style="text-align: center">SSR+</td>
-    </tr>
-    <tr>
-      <td style="text-align: center">LV</td>
-      <td style="text-align: center">110</td>
-    </tr>
-  </tbody>
-</table>
-
-<h2 id="対決戦">対決戦</h2>
-
-<ul>
-  <li>ブレイクゲージポイント
-    <ul>
-      <li>1500</li>
-    </ul>
-  </li>
-  <li>WEAK
-    <ul>
-      <li>打撃/斬撃/特殊</li>
-    </ul>
-  </li>
-</ul>
-
-<h2 id="main">MAIN</h2>
-
-<h3 id="arx-7-アーバレスト装備時">ARX-7 アーバレスト装備時</h3>
-
-<ul>
-  <li>戦闘回数に応じて攻撃力・運動性が<span style="color: #e65100">7%増加（最大35%）</span>し、<span style="color: blue">戦闘時の命中ユニットのサイズ差による与ダメージ減少効果を無効化</span>する</li>
-  <li>グラーツ・マンリッヒャー命中時、攻撃力・照準値・運動性が<span style="color: #e65100">22%増加</span>する強化効果を自分に付与し（2アクションの間有効）、自分に「<span style="color: red">直撃</span>」を発動する</li>
-  <li>気力120以上のとき、<span style="color: blue">戦闘時のみ敵ユニットのバリア系アビリティ効果を60%減少</span>させる</li>
-</ul>
-
-<div id="main-1" style="width: 100vw, height: 50vh"></div>
-<div id="main-1-ex" style="width: 100vw, height: 50vh"></div>
-
-<h2 id="必殺技スロット時">必殺技スロット時</h2>
-
-<ul>
-  <li><span style="color: blue">戦闘時の命中ユニットのサイズ差による与ダメージ減少効果を無効化</span>する</li>
-  <li>グラーツ・マンリッヒャー命中時、攻撃力・照準値・運動性が<span style="color: #e65100">17%増加</span>する強化効果を自分に付与し（2アクションの間有効）、自分に「<span style="color: red">直撃</span>」を発動する</li>
-</ul>
-
-<div id="sp-1" style="width: 100vw, height: 50vh"></div>
-
-<h2 id="sub">SUB</h2>
-
-<ul>
-  <li>攻撃力・運動性が<span style="color: #e65100">2.5%増加</span>する</li>
-</ul>
-
-<div id="sub-1" style="width: 100vw, height: 50vh"></div>
-
-<!-- Google Charts -->
-<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-
-<script type="text/javascript">
-google.charts.load("current", { "packages": ["corechart"] });
-const ANNOTATION = { type: 'string', role: 'annotation' };
-// MAIN・ARX-7 アーバレスト
-function main1() {
-    google.charts.setOnLoadCallback(() => {
-        const data = google.visualization.arrayToDataTable([
-            ['戦闘回数', '攻撃力(%)', '防御力(%)', '照準値(%)', ANNOTATION, '運動性(%)'],
-            ['0', 0, 0, 0, null, 0],
-            ['1', 7, 0, 7, null, 0],
-            ['2', 7*2, 0, 7*2, null, 0],
-            ['3', 7*3, 0, 7*3, null, 0],
-            ['4', 7*4, 0, 7*4, null, 0],
-            ['5', 7*5, 0, 7*5, "35%", 0],
-            ['6', 35, 0, 35, null, 0],
-            ['7', 35, 0, 35, null, 0],
-            ['8', 35, 0, 35, null, 0],
-            ['9', 35, 0, 35, null, 0],
-            ['10', 35, 0, 35, null, 0]
-        ]);
-        const options = {
-            title: 'ラムダ・ストライク（MAIN・ARX-7 アーバレスト・戦闘回数）',
-            curveType: 'none',
-            legend: { position: 'bottom' }
-        };
-        const chart = new google.visualization.LineChart(
-            document.getElementById('main-1')
-        );
-        chart.draw(data, options);
-    });
-}
-main1();
-function main1ex() {
-    google.charts.setOnLoadCallback(() => {
-        const data = google.visualization.arrayToDataTable([
-            ['アクション', '攻撃力(%)', '防御力(%)', '照準値(%)', '運動性(%)', ANNOTATION],
-            ['0', 0, 0, 0, 0, null],
-            ['1', 0, 0, 0, 0, null],
-            ['2①', 0, 0, 0, 0, null],
-            ['3', 22, 0, 22, 22, null],
-            ['4②', 22, 0, 22, 22, null],
-            ['5', 22*2, 0, 22*2, 22*2, null],
-            ['6③', 22, 0, 22, 22, null],
-            ['7', 22*2, 0, 22*2, 22*2, null],
-            ['8④', 22, 0, 22, 22, null],
-            ['9', 22*2, 0, 22*2, 22*2, null],
-            ['10⑤', 22, 0, 22, 22, `${22}%`],
-            ['11', 22*2, 0, 22*2, 22*2, `${22*2}%`],
-            ['12', 22, 0, 22, 22, null],
-            ['13', 22, 0, 22, 22, null],
-            ['14', 0, 0, 0, 0, null],
-            ['15', 0, 0, 0, 0, null]
-        ]);
-        const options = {
-            title: 'ラムダ・ストライク（MAIN・ARX-7 アーバレスト・アクション）',
-            curveType: 'none',
-            legend: { position: 'bottom' }
-        };
-        const chart = new google.visualization.LineChart(
-            document.getElementById('main-1-ex')
-        );
-        chart.draw(data, options);
-    });
-}
-main1ex();
-// SP
-function sp1() {
-    google.charts.setOnLoadCallback(() => {
-        const data = google.visualization.arrayToDataTable([
-            ['アクション', '攻撃力(%)', '防御力(%)', '照準値(%)', '運動性(%)', ANNOTATION],
-            ['0', 0, 0, 0, 0, null],
-            ['1', 0, 0, 0, 0, null],
-            ['2①', 0, 0, 0, 0, null],
-            ['3', 17, 0, 17, 17, null],
-            ['4②', 17, 0, 17, 17, null],
-            ['5', 17*2, 0, 17*2, 17*2, null],
-            ['6③', 17, 0, 17, 17, null],
-            ['7', 17*2, 0, 17*2, 17*2, null],
-            ['8④', 17, 0, 17, 17, null],
-            ['9', 17*2, 0, 17*2, 17*2, null],
-            ['10⑤', 17, 0, 17, 17, `${17}%`],
-            ['11', 17*2, 0, 17*2, 17*2, `${17*2}%`],
-            ['12', 17, 0, 17, 17, null],
-            ['13', 17, 0, 17, 17, null],
-            ['14', 0, 0, 0, 0, null],
-            ['15', 0, 0, 0, 0, null]
-        ]);
-        const options = {
-            title: 'ラムダ・ストライク（必殺技スロット時・アクション）',
-            curveType: 'none',
-            legend: { position: 'bottom' }
-        };
-        const chart = new google.visualization.LineChart(
-            document.getElementById('sp-1')
-        );
-        chart.draw(data, options);
-    });
-}
-sp1();
-// SUB1
-function sub1() {
-    google.charts.setOnLoadCallback(() => {
-        const data = google.visualization.arrayToDataTable([
-            ['気力', '攻撃力(%)', '防御力(%)', '照準値(%)', '運動性(%)', ANNOTATION],
-            ['100', 2.5, 0, 0, 2.5, null],
-            ['110', 2.5, 0, 0, 2.5, null],
-            ['120', 2.5, 0, 0, 2.5, null],
-            ['130', 2.5, 0, 0, 2.5, null],
-            ['140', 2.5, 0, 0, 2.5, null],
-            ['150', 2.5, 0, 0, 2.5, null],
-            ['160', 2.5, 0, 0, 2.5, null],
-            ['170', 2.5, 0, 0, 2.5, null],
-            ['180', 2.5, 0, 0, 2.5, '2.5%']
-        ]);
-        const options = {
-            title: 'グラーツ・マンリッヒャー（SUB）',
-            curveType: 'none',
-            legend: { position: 'bottom' }
-        };
-        const chart = new google.visualization.LineChart(
-            document.getElementById('sub-1')
-        );
-        chart.draw(data, options);
-    });
-}
-sub1();
-</script>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[ステータス]]></summary></entry></feed>
+</script>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[所持済みを非表示]]></summary></entry></feed>
