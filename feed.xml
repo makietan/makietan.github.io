@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2023-09-13T12:16:09+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">「ゴッドアルファ」の考察</title><link href="https://makietan.github.io/game/srwdd/2023/09/13/report.html" rel="alternate" type="text/html" title="「ゴッドアルファ」の考察" /><published>2023-09-13T00:00:00+09:00</published><updated>2023-09-13T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2023/09/13/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2023/09/13/report.html"><![CDATA[<h2 id="ステータス">ステータス</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2023-09-13T12:54:07+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">「ゴッドアルファ」の考察</title><link href="https://makietan.github.io/game/srwdd/2023/09/13/report.html" rel="alternate" type="text/html" title="「ゴッドアルファ」の考察" /><published>2023-09-13T00:00:00+09:00</published><updated>2023-09-13T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2023/09/13/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2023/09/13/report.html"><![CDATA[<h2 id="ステータス">ステータス</h2>
 
 <style>
     table {
@@ -304,7 +304,7 @@ function sub1() {
     });
 }
 sub1();
-</script>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[ステータス]]></summary></entry><entry><title type="html">コロナ禍やロシア・ウクライナ戦争で小麦が高等していたのに出店しているのを見るとなんとも言えなくなるラーメン屋</title><link href="https://makietan.github.io/gourmet/2023/09/12/report.html" rel="alternate" type="text/html" title="コロナ禍やロシア・ウクライナ戦争で小麦が高等していたのに出店しているのを見るとなんとも言えなくなるラーメン屋" /><published>2023-09-12T00:00:00+09:00</published><updated>2023-09-12T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2023/09/12/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2023/09/12/report.html"><![CDATA[<div class="card">
+</script>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[ステータス]]></summary></entry><entry><title type="html">コロナ禍やロシア・ウクライナ戦争で小麦が高騰していたのに出店しているのを見るとなんとも言えなくなるラーメン屋</title><link href="https://makietan.github.io/gourmet/2023/09/12/report.html" rel="alternate" type="text/html" title="コロナ禍やロシア・ウクライナ戦争で小麦が高騰していたのに出店しているのを見るとなんとも言えなくなるラーメン屋" /><published>2023-09-12T00:00:00+09:00</published><updated>2023-09-12T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2023/09/12/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2023/09/12/report.html"><![CDATA[<div class="card">
   <a href="https://www.tsr-net.co.jp/data/detail/1197979_1527.html"></a>
   <div class="card__header">
     <a href="https://www.tsr-net.co.jp/data/detail/1197979_1527.html">www.tsr-net.co.jp</a>
@@ -329,7 +329,450 @@ sub1();
 <p>前者だとどうでもいいラーメン屋が消えるけど、
 後者だと美味しいラーメン屋が消える。</p>
 
-<p>なのでまぁ前者が多いなら別にいいかなと思う。</p>]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[www.tsr-net.co.jp 「ラーメン屋さん」の倒産が前年同期比3.5倍に急増　食材価格・光熱費高騰で年間最多ペース | TSRデータインサイト | 東京商工リサーチ 　2023年1-8月の「ラーメン屋さん」の倒産（負債1,000万円以上）が28件（前年同期比250.0％増）に達し、前年同期の3.5倍と大幅に増えていることがわかった。コロナ禍の影響に加え、物価高、人件費上昇も直撃し、国民食として人気の高いラーメン屋さんが苦境に立たされている。]]></summary></entry><entry><title type="html">2023年の献立②</title><link href="https://makietan.github.io/gourmet/2023/09/06/report.html" rel="alternate" type="text/html" title="2023年の献立②" /><published>2023-09-06T00:00:00+09:00</published><updated>2023-09-06T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2023/09/06/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2023/09/06/report.html"><![CDATA[<p>外食を決め打ちしとくのはダメだけどなんとなく迷ったときはこれかなと。</p>
+<p>なのでまぁ前者が多いなら別にいいかなと思う。</p>]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[www.tsr-net.co.jp 「ラーメン屋さん」の倒産が前年同期比3.5倍に急増　食材価格・光熱費高騰で年間最多ペース | TSRデータインサイト | 東京商工リサーチ 　2023年1-8月の「ラーメン屋さん」の倒産（負債1,000万円以上）が28件（前年同期比250.0％増）に達し、前年同期の3.5倍と大幅に増えていることがわかった。コロナ禍の影響に加え、物価高、人件費上昇も直撃し、国民食として人気の高いラーメン屋さんが苦境に立たされている。]]></summary></entry><entry><title type="html">「ゴッドブレイカー」の考察</title><link href="https://makietan.github.io/game/srwdd/2023/09/11/report.html" rel="alternate" type="text/html" title="「ゴッドブレイカー」の考察" /><published>2023-09-11T00:00:00+09:00</published><updated>2023-09-11T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2023/09/11/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2023/09/11/report.html"><![CDATA[<h2 id="ステータス">ステータス</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">HP</th>
+      <th style="text-align: center">攻撃力</th>
+      <th style="text-align: center">防御力</th>
+      <th style="text-align: center">照準値</th>
+      <th style="text-align: center">運動性</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">2475</td>
+      <td style="text-align: center">2970</td>
+      <td style="text-align: center">2640</td>
+      <td style="text-align: center">222</td>
+      <td style="text-align: center">210</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">威力</th>
+      <th style="text-align: center">命中</th>
+      <th style="text-align: center">射程</th>
+      <th style="text-align: center">ｱｸｼｮﾝ</th>
+      <th style="text-align: center">回数</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">250%</td>
+      <td style="text-align: center">+50%</td>
+      <td style="text-align: center">1-3</td>
+      <td style="text-align: center">2</td>
+      <td style="text-align: center">4</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">特性</th>
+      <th style="text-align: center">ﾚｱﾘﾃｨ</th>
+      <th style="text-align: center">LV</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">+5</td>
+      <td style="text-align: center">SSR+</td>
+      <td style="text-align: center">110</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="対決戦">対決戦</h2>
+
+<ul>
+  <li>ブレイクゲージポイント
+    <ul>
+      <li>1500</li>
+    </ul>
+  </li>
+  <li>WEAK
+    <ul>
+      <li>打撃/斬撃/実弾</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="mainサブパワーユニット">MAIN（サブ・パワー・ユニット）</h2>
+
+<ul>
+  <li>攻撃力・照準値が21%増加する。</li>
+  <li>気力が10上昇する毎に、防御力・照準値が1.5%増加する。</li>
+  <li>戦闘回数に応じて攻撃力・防御力が3.2%増加する（最大16%）。</li>
+</ul>
+
+<div id="main-1" style="width: 100vw, height: 50vh"></div>
+<div id="main-1-ex" style="width: 100vw, height: 50vh"></div>
+<div id="main-1-ex-2" style="width: 100vw, height: 50vh"></div>
+
+<h2 id="必殺技スロット時サブパワーユニット">必殺技スロット時（サブ・パワー・ユニット）</h2>
+
+<ul>
+  <li>攻撃力・照準値が11%増加する。</li>
+  <li>戦闘回数に応じて攻撃力・防御力が1.8%増加する（最大9%）</li>
+</ul>
+
+<div id="sp-1" style="width: 100vw, height: 50vh"></div>
+
+<h2 id="sub攻撃力アップⅰ">SUB（攻撃力アップⅠ）</h2>
+
+<ul>
+  <li>攻撃力が2.5%増加する。</li>
+</ul>
+
+<div id="sub-1" style="width: 100vw, height: 50vh"></div>
+
+<!-- Google Charts -->
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+<script type="text/javascript">
+google.charts.load("current", { "packages": ["corechart"] });
+const ANNOTATION = { type: 'string', role: 'annotation' };
+const ANNOTATION_NUM = { type: 'number', role: 'annotation' };
+
+// MAIN・ライディーン
+function main1() {
+    google.charts.setOnLoadCallback(() => {
+        const data = google.visualization.arrayToDataTable([
+            ['気力', '攻撃力(%)', '防御力(%)', ANNOTATION, '照準値(%)', ANNOTATION, '運動性(%)'],
+            ['100', 21, 0, null, 21, null, 0],
+            ['110', 21, 1.5, null, 21+1.5, null, 0],
+            ['120', 21, 1.5*2, null, 21+1.5*2, null, 0],
+            ['130', 21, 1.5*3, null, 21+1.5*3, null, 0],
+            ['140', 21, 1.5*4, null, 21+1.5*4, null, 0],
+            ['150', 21, 1.5*5, null, 21+1.5*5, null, 0],
+            ['160', 21, 1.5*6, null, 21+1.5*6, null, 0],
+            ['170', 21, 1.5*7, null, 21+1.5*7, null, 0],
+            ['180', 21, 1.5*8, null, 21+1.5*8, null, 0],
+            ['190', 21, 1.5*9, null, 21+1.5*9, null, 0],
+            ['200', 21, 1.5*10, `${1.5*10}%`, 21+1.5*10, `${21+1.5*10}%`, 0]
+        ]);
+        const options = {
+            title: 'ゴッドブレイカー（MAIN・ライディーン・気力）',
+            curveType: 'none',
+            legend: { position: 'bottom' }
+        };
+        const chart = new google.visualization.LineChart(
+            document.getElementById('main-1')
+        );
+        chart.draw(data, options);
+    });
+}
+main1();
+function main1ex() {
+    google.charts.setOnLoadCallback(() => {
+        const data = google.visualization.arrayToDataTable([
+            ['戦闘回数', '攻撃力(%)', ANNOTATION, '防御力(%)', ANNOTATION, '照準値(%)', '運動性(%)'],
+            ['0', 21, null, 0, null, 21, 0],
+            ['1', 21+3.2, null, 3.2, null, 21, 0],
+            ['2', 21+3.2*2, null, 3.2*2, null, 21, 0],
+            ['3', 21+3.2*3, null, 3.2*3, null, 21, 0],
+            ['4', 21+3.2*4, null, 3.2*4, null, 21, 0],
+            ['5', 21+3.2*5, null, 3.2*5, null, 21, 0],
+            ['6', 21+3.2*5, null, 3.2*5, null, 21, 0],
+            ['7', 21+3.2*5, null, 3.2*5, null, 21, 0],
+            ['8', 21+3.2*5, null, 3.2*5, null, 21, 0],
+            ['9', 21+3.2*5, null, 3.2*5, null, 21, 0],
+            ['10', 21+3.2*5, `${21+3.2*5}%`, 3.2*5, `${3.2*5}%`, 21, 0]
+        ]);
+        const options = {
+            title: 'ゴッドブレイカー（MAIN・ライディーン・戦闘回数・気力：100）',
+            curveType: 'none',
+            legend: { position: 'bottom' }
+        };
+        const chart = new google.visualization.LineChart(
+            document.getElementById('main-1-ex')
+        );
+        chart.draw(data, options);
+    });
+}
+main1ex();
+function main1ex2() {
+    google.charts.setOnLoadCallback(() => {
+        const data = google.visualization.arrayToDataTable([
+            ['気力', '防御力(%・戦闘回数：5)', ANNOTATION, '計算値（戦闘回数：5)', ANNOTATION_NUM],
+            ['100', 0+3.2*5, null, 2640*(100+0+3.2*5)/100, null],
+            ['110', 1.5+3.2*5, null, 2640*(100+1.5+3.2*5)/100, null],
+            ['120', 1.5*2+3.2*5, null, 2640*(100+1.5*2+3.2*5)/100, null],
+            ['130', 1.5*3+3.2*5, null, 2640*(100+1.5*3+3.2*5)/100, null],
+            ['140', 1.5*4+3.2*5, null, 2640*(100+1.5*4+3.2*5)/100, null],
+            ['150', 1.5*5+3.2*5, null, 2640*(100+1.5*5+3.2*5)/100, null],
+            ['160', 1.5*6+3.2*5, null, 2640*(100+1.5*6+3.2*5)/100, null],
+            ['170', 1.5*7+3.2*5, null, 2640*(100+1.5*7+3.2*5)/100, null],
+            ['180', 1.5*8+3.2*5, null, 2640*(100+1.5*8+3.2*5)/100, null],
+            ['190', 1.5*9+3.2*5, null, 2640*(100+1.5*9+3.2*5)/100, null],
+            ['200', 1.5*10+3.2*5, `${1.5*10+3.2*5}%`, 2640*(100+1.5*10+3.2*5)/100, 2640*(100+1.5*10+3.2*5)/100],
+        ]);
+        const options = {
+            title: 'ゴッドブレイカー（MAIN・ライディーン・気力・戦闘回数）',
+            curveType: 'none',
+            legend: { position: 'bottom' },
+            series: {
+                0: { type: 'line', targetAxisIndex: 0},
+                1: { type: 'bars', targetAxisIndex: 1, annotations: { stem: { length: 32 } }}
+            }
+        };
+        const chart = new google.visualization.LineChart(
+            document.getElementById('main-1-ex-2')
+        );
+        chart.draw(data, options);
+    });
+}
+main1ex2();
+// SP
+function sp1() {
+    google.charts.setOnLoadCallback(() => {
+        const data = google.visualization.arrayToDataTable([
+            ['戦闘回数', '攻撃力(%)', ANNOTATION, '防御力(%)', ANNOTATION, '照準値(%)', '運動性(%)'],
+            ['0', 11, null, 0, null, 11, 0],
+            ['1', 11+1.8, null, 1.8, null, 11, 0],
+            ['2', 11+1.8*2, null, 1.8*2, null, 11, 0],
+            ['3', 11+1.8*3, null, 1.8*3, null, 11, 0],
+            ['4', 11+1.8*4, null, 1.8*4, null, 11, 0],
+            ['5', 11+1.8*5, `${11+1.8*5}%`, 1.8*5, `${1.8*5}%`, 11, 0],
+            ['6', 11+1.8*5, null, 1.8*5, null, 11, 0],
+            ['7', 11+1.8*5, null, 1.8*5, null, 11, 0],
+            ['8', 11+1.8*5, null, 1.8*5, null, 11, 0],
+            ['9', 11+1.8*5, null, 1.8*5, null, 11, 0],
+            ['10', 11+1.8*5, null, 1.8*5, null, 11, 0]
+        ]);
+        const options = {
+            title: 'ゴッドブレイカー（必殺技スロット時・戦闘回数）',
+            curveType: 'none',
+            legend: { position: 'bottom' }
+        };
+        const chart = new google.visualization.LineChart(
+            document.getElementById('sp-1')
+        );
+        chart.draw(data, options);
+    });
+}
+sp1();
+// SUB1
+function sub1() {
+    google.charts.setOnLoadCallback(() => {
+        const data = google.visualization.arrayToDataTable([
+            ['気力', '攻撃力(%)', ANNOTATION, '防御力(%)', '照準値(%)', '運動性(%)'],
+            ['100', 2.5, null, 0, 0, 0],
+            ['110', 2.5, null, 0, 0, 0],
+            ['120', 2.5, null, 0, 0, 0],
+            ['130', 2.5, null, 0, 0, 0],
+            ['140', 2.5, null, 0, 0, 0],
+            ['150', 2.5, null, 0, 0, 0],
+            ['160', 2.5, null, 0, 0, 0],
+            ['170', 2.5, null, 0, 0, 0],
+            ['180', 2.5, null, 0, 0, 0],
+            ['190', 2.5, null, 0, 0, 0],
+            ['200', 2.5, "2.5%", 0, 0, 0],
+        ]);
+        const options = {
+            title: 'ゴッドブレイカー（SUB）',
+            curveType: 'none',
+            legend: { position: 'bottom' }
+        };
+        const chart = new google.visualization.LineChart(
+            document.getElementById('sub-1')
+        );
+        chart.draw(data, options);
+    });
+}
+sub1();
+</script>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[ステータス]]></summary></entry><entry><title type="html">「ゴッドミサイル」の考察</title><link href="https://makietan.github.io/game/srwdd/2023/09/10/report.html" rel="alternate" type="text/html" title="「ゴッドミサイル」の考察" /><published>2023-09-10T00:00:00+09:00</published><updated>2023-09-10T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2023/09/10/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2023/09/10/report.html"><![CDATA[<h2 id="ステータス">ステータス</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">HP</th>
+      <th style="text-align: center">攻撃力</th>
+      <th style="text-align: center">防御力</th>
+      <th style="text-align: center">照準値</th>
+      <th style="text-align: center">運動性</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">2430</td>
+      <td style="text-align: center">3000</td>
+      <td style="text-align: center">2670</td>
+      <td style="text-align: center">219</td>
+      <td style="text-align: center">210</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">威力</th>
+      <th style="text-align: center">命中</th>
+      <th style="text-align: center">射程</th>
+      <th style="text-align: center">ｱｸｼｮﾝ</th>
+      <th style="text-align: center">回数</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">255%</td>
+      <td style="text-align: center">+50%</td>
+      <td style="text-align: center">1-3</td>
+      <td style="text-align: center">3</td>
+      <td style="text-align: center">4</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">特性</th>
+      <th style="text-align: center">ﾚｱﾘﾃｨ</th>
+      <th style="text-align: center">LV</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">+5</td>
+      <td style="text-align: center">SSR+</td>
+      <td style="text-align: center">110</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="対決戦">対決戦</h2>
+
+<ul>
+  <li>ブレイクゲージポイント
+    <ul>
+      <li>1500</li>
+    </ul>
+  </li>
+  <li>WEAK
+    <ul>
+      <li>打撃/斬撃/実弾</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="main底力ⅳ">MAIN（底力Ⅳ）</h2>
+
+<ul>
+  <li>HPが25%減少する毎に、攻撃力・防御力が7%増加する。</li>
+  <li>攻撃力・防御力・照準値が12%増加する。</li>
+</ul>
+
+<div id="main-1" style="width: 100vw, height: 50vh"></div>
+
+<h2 id="必殺技スロット時底力ⅳ">必殺技スロット時（底力Ⅳ）</h2>
+
+<ul>
+  <li>HPが25%減少する毎に、攻撃力・防御力が4%増加する。</li>
+  <li>攻撃力・防御力・照準値が7.5%増加する。</li>
+</ul>
+
+<div id="sp-1" style="width: 100vw, height: 50vh"></div>
+
+<h2 id="sub攻撃力アップⅰ">SUB（攻撃力アップⅠ）</h2>
+
+<ul>
+  <li>攻撃力が2.5%増加する。</li>
+</ul>
+
+<div id="sub-1" style="width: 100vw, height: 50vh"></div>
+
+<!-- Google Charts -->
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+<script type="text/javascript">
+google.charts.load("current", { "packages": ["corechart"] });
+const ANNOTATION = { type: 'string', role: 'annotation' };
+const ANNOTATION_NUM = { type: 'number', role: 'annotation' };
+
+// MAIN・ライディーン
+function main1() {
+    google.charts.setOnLoadCallback(() => {
+        const data = google.visualization.arrayToDataTable([
+            ['HP', '攻撃力(%)', '防御力(%)', ANNOTATION, '照準値(%)', ANNOTATION, '運動性(%)'],
+            ['-0%', 12, 12, null, 12, `12%`, 0],
+            ['-25%', 12+7, 12+7, null, 12, null, 0],
+            ['-50%', 12+7*2, 12+7*2, null, 12, null, 0],
+            ['-75%', 12+7*3, 12+7*3, `${12+7*3}%`, 12, null, 0]
+        ]);
+        const options = {
+            title: 'ゴッドミサイル（MAIN・ライディーン・HP減少）',
+            curveType: 'none',
+            legend: { position: 'bottom' }
+        };
+        const chart = new google.visualization.LineChart(
+            document.getElementById('main-1')
+        );
+        chart.draw(data, options);
+    });
+}
+main1();
+// SP
+function sp1() {
+    google.charts.setOnLoadCallback(() => {
+        const data = google.visualization.arrayToDataTable([
+            ['HP', '攻撃力(%)', '防御力(%)', ANNOTATION, '照準値(%)', ANNOTATION, '運動性(%)'],
+            ['-0%', 7.5, 7.5, null, 7.5, `7.5%`, 0],
+            ['-25%', 7.5+4, 7.5+4, null, 7.5, null, 0],
+            ['-50%', 7.5+4*2, 7.5+4*2, null, 7.5, null, 0],
+            ['-75%', 7.5+4*3, 7.5+4*3, `${7.5+4*3}%`, 7.5, null, 0]
+        ]);
+        const options = {
+            title: 'ゴッドミサイル（必殺技スロット時・HP減少）',
+            curveType: 'none',
+            legend: { position: 'bottom' }
+        };
+        const chart = new google.visualization.LineChart(
+            document.getElementById('sp-1')
+        );
+        chart.draw(data, options);
+    });
+}
+sp1();
+// SUB
+function sub1() {
+    google.charts.setOnLoadCallback(() => {
+        const data = google.visualization.arrayToDataTable([
+            ['気力', '攻撃力(%)'],
+            ['100', 2.5],
+            ['110', 2.5],
+            ['120', 2.5],
+            ['130', 2.5],
+            ['140', 2.5],
+            ['150', 2.5],
+            ['160', 2.5],
+            ['170', 2.5],
+            ['180', 2.5],
+            ['190', 2.5],
+            ['200', 2.5]
+        ]);
+        const options = {
+            title: 'ゴッドミサイル（SUB）',
+            curveType: 'none',
+            legend: { position: 'bottom' }
+        };
+        const chart = new google.visualization.LineChart(
+            document.getElementById('sub-1')
+        );
+        chart.draw(data, options);
+    });
+}
+sub1();
+</script>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[ステータス]]></summary></entry><entry><title type="html">2023年の献立②</title><link href="https://makietan.github.io/gourmet/2023/09/06/report.html" rel="alternate" type="text/html" title="2023年の献立②" /><published>2023-09-06T00:00:00+09:00</published><updated>2023-09-06T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2023/09/06/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2023/09/06/report.html"><![CDATA[<p>外食を決め打ちしとくのはダメだけどなんとなく迷ったときはこれかなと。</p>
 
 <h3 id="1日に必要な栄養成分">1日に必要な栄養成分</h3>
 
@@ -2025,298 +2468,4 @@ rbenv rehash
   <div class="card__description">
     <p>こんにちは Masuyama です。一つの環境で Ruby の開発、gem のインストールを行っていると、アプリケーションごとの依存関係の差異によるエラーに苦しむことになります。そこで今回は r…</p>
   </div>
-</div>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[MacBook Proで久々に触るとエラー吐いたのでrbenv導入とか色々やった。]]></summary></entry><entry><title type="html">【スパロボDD】4周年！特殊スキルMAX交換所</title><link href="https://makietan.github.io/game/srwdd/2023/08/28/report.html" rel="alternate" type="text/html" title="【スパロボDD】4周年！特殊スキルMAX交換所" /><published>2023-08-28T00:00:00+09:00</published><updated>2023-08-28T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2023/08/28/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2023/08/28/report.html"><![CDATA[<p><button id="sort" onclick="sort();">ソート</button></p>
-
-<div id="list">
-
-<label for="ディカアスのオーブ" title="HPが25%減少する毎に、攻撃力・防御力が5%増加する">ディカアスのオーブ <input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="ディカアスのオーブ" /></label><br />
-<label for="フェノメナー（メグ）のオーブ" title="照準値・運動性が10%増加する">フェノメナー（メグ）のオーブ <input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="フェノメナー（メグ）のオーブ" /></label><br />
-<label for="フェノメナー（サキミ）のオーブ" title="照準値が13%増加する。気力130以上のときステージ中一度だけ「闘志」「必中」がかかる">フェノメナー（サキミ）のオーブ <input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="フェノメナー（サキミ）のオーブ" /></label><br />
-<label for="フェノメナー（ユンナ）のオーブ" title="防御力が13%増加する。気力130以上のときステージ中一度だけ「不屈」「奮起」がかかる">フェノメナー（ユンナ）のオーブ <input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="フェノメナー（ユンナ）のオーブ" /></label><br />
-<label for="フェノメナー（リナリア）のオーブ" title="運動性が13%増加する。気力130以上のときステージ中一度だけ「ひらめき」「奮起」がかかる">フェノメナー（リナリア）のオーブ <input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="フェノメナー（リナリア）のオーブ" /></label><br />
-<label for="フェノメナー（マイコ）のオーブ" title="攻撃力が13%増加する。気力130以上のときステージ中一度だけ「熱血」「不屈」がかかる">フェノメナー（マイコ）のオーブ <input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="フェノメナー（マイコ）のオーブ" /></label><br />
-<label for="フェノメナー（ユニス）のオーブ" title="攻撃力が13%増加する。気力130以上のときステージ中一度だけ「熱血」「ひらめき」がかかる">フェノメナー（ユニス）のオーブ <input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="フェノメナー（ユニス）のオーブ" /></label><br />
-<label for="見切り（ベネット）のオーブ" title="HPが25000増加する。気力130以上のときステージ中一度だけ「熱血」「必中」がかかる">見切り（ベネット）のオーブ <input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="見切り（ベネット）のオーブ" /></label><br />
-<label for="一心同体のオーブ" title="気力120以上のとき、攻撃力・防御力が11.5%増加する">一心同体のオーブ <input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="一心同体のオーブ" /></label><br />
-<label for="一心同体（鉄也）のオーブ" title="防御力が13%、攻撃力が7%増加する">一心同体（鉄也）のオーブ <input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="一心同体（鉄也）のオーブ" /></label><br />
-<label for="サイボーグ（宙）のオーブ" title="攻撃力・照準値が10%増加する">サイボーグ（宙）のオーブ <input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="サイボーグ（宙）のオーブ" /></label><br />
-<label for="リーダーシップ（バトルチーム）のオーブ" title="メインスロットの必殺技威力が16%、防御力が10%増加する">リーダーシップ（バトルチーム）のオーブ <input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="リーダーシップ（バトルチーム）のオーブ" /></label><br />
-<label for="デビルマンのオーブ" title="全ての攻撃の与ダメージが12%、運動性が10%増加する">デビルマンのオーブ <input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="デビルマンのオーブ" /></label><br />
-<label for="聖戦士（ショウ）のオーブ" title="気力が10上昇する毎に、攻撃力・運動性が2.5%増加する">聖戦士（ショウ）のオーブ <input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="聖戦士（ショウ）のオーブ" /></label><br />
-<label for="シンクロ率（シンジ）のオーブ" title="気力が10上昇する毎に、攻撃力・防御力が2.5%増加する">シンクロ率（シンジ）のオーブ <input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="シンクロ率（シンジ）のオーブ" /></label><br />
-<label for="シンクロ率（レイ）のオーブ" title="気力が10上昇する毎に、防御力・照準値が2.5%増加する">シンクロ率（レイ）のオーブ <input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="シンクロ率（レイ）のオーブ" /></label><br />
-<label for="シンクロ率（アスカ）のオーブ" title="気力が10上昇する毎に、攻撃力5%増加する">シンクロ率（アスカ）のオーブ <input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="シンクロ率（アスカ）のオーブ" /></label><br />
-<label for="ニュータイプ（カミーユ）のオーブ" title="照準値・運動性が10%増加する">ニュータイプ（カミーユ）のオーブ <input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="ニュータイプ（カミーユ）のオーブ" /></label><br />
-<label for="ニュータイプ（アムロ）のオーブ" title="メインスロットの必殺技威力が8%、照準値が10%、運動性が5%増加する">ニュータイプ（アムロ）のオーブ <input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="ニュータイプ（アムロ）のオーブ" /></label><br />
-<label for="[＋] ニュータイプ（シャア）のオーブ" title="照準値・運動性が15%増加する。気力130以上のとき、ステージ中一度「熱血」「ひらめき」がかかる。ステージ開始時、気力が20上昇する">[＋] ニュータイプ（シャア）のオーブ <input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="[＋] ニュータイプ（シャア）のオーブ" /></label><br />
-<label for="ニュータイプ（バナージ）のオーブ" title="攻撃力・運動性が10%増加する">ニュータイプ（バナージ）のオーブ <input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="ニュータイプ（バナージ）のオーブ" /></label><br />
-<label for="伝説の男のオーブ" title="メインスロットの必殺技威力が16%、照準値が10%増加する">伝説の男のオーブ <input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="伝説の男のオーブ" /></label><br />
-<label for="リーダーシップ（ボルテスチーム）のオーブ" title="メインスロットの必殺技威力が16%、攻撃力が10%増加する">リーダーシップ（ボルテスチーム）のオーブ <input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="リーダーシップ（ボルテスチーム）のオーブ" /></label><br />
-<label for="勇者（凱）のオーブ" title="メインスロットの必殺技威力が16%、攻撃力が10%増加する">勇者（凱）のオーブ <input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="勇者（凱）のオーブ" /></label><br />
-<label for="零番隊隊長のオーブ" title="メインスロットの必殺技威力が16%、照準値が10%増加する">零番隊隊長のオーブ <input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="零番隊隊長のオーブ" /></label><br />
-<label for="戦略眼（ゼロ）のオーブ" title="メインスロットの必殺技威力が16%（必殺技威力0には無効）、照準値が10%増加する">戦略眼（ゼロ）のオーブ <input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="戦略眼（ゼロ）のオーブ" /></label><br />
-<label for="ウルズ7のオーブ" title="全ての攻撃の与ダメージが12%、照準値・運動性が5%増加する">ウルズ7のオーブ <input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="ウルズ7のオーブ" /></label><br />
-<label for="ウルズ2のオーブ" title="メインスロットの必殺技威力が16%、運動性が10%増加する">ウルズ2のオーブ <input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="ウルズ2のオーブ" /></label><br />
-<label for="[＋] 幽霊のオーブ" title="攻撃力・照準値が17.5%、気力上限が30増加する（効果は重複しない、効果の最も高いもののみ有効）">[＋] 幽霊のオーブ <input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="[＋] 幽霊のオーブ" /></label><br />
-<label for="ウルズ1のオーブ" title="攻撃力・運動性が15%増加する">ウルズ1のオーブ <input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="ウルズ1のオーブ" /></label><br />
-<label for="ガンダムマイスター（刹那）のオーブ" title="攻撃力・運動性が10%増加する">ガンダムマイスター（刹那）のオーブ <input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="ガンダムマイスター（刹那）のオーブ" /></label><br />
-<label for="ソレスタルビーイング（ティエリア）のオーブ" title="防御力が25%増加する、被ダメージ時の気力上昇値が3増加する">ソレスタルビーイング（ティエリア）のオーブ <input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="ソレスタルビーイング（ティエリア）のオーブ" /></label><br />
-<label for="ガンダムマイスター（ロックオン）のオーブ" title="照準値が13%増加する。気力130以上のとき、ステージ中一度だけ「捨て身」「直撃」がかかる">ガンダムマイスター（ロックオン）のオーブ <input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="ガンダムマイスター（ロックオン）のオーブ" /></label><br />
-<label for="覚醒（アレルヤ）のオーブ" title="攻撃力が25%増加する。気力が120、150異常のとき、ステージ中一度「熱血」「集中」がかかる">覚醒（アレルヤ）のオーブ <input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="覚醒（アレルヤ）のオーブ" /></label><br />
-<label for="SEED（キラ）のオーブ" title="気力が120以上のとき、攻撃力が6%、照準値・運動性が8.5%増加する">SEED（キラ）のオーブ <input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="SEED（キラ）のオーブ" /></label><br />
-<label for="SEED（アスラン）のオーブ" title="気力が120以上のとき、攻撃力が6.0%、防御力・照準値が8.5%増加する">SEED（アスラン）のオーブ <input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="SEED（アスラン）のオーブ" /></label><br />
-<label for="セレブラント（キョウ）のオーブ" title="攻撃力が6%、運動性が14%増加する">セレブラント（キョウ）のオーブ <input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="セレブラント（キョウ）のオーブ" /></label><br />
-<label for="セレブラント（ルーシェン）のオーブ" title="気力120以上のとき、攻撃力が11.5%、運動性が11.5%増加する">セレブラント（ルーシェン）のオーブ <input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="セレブラント（ルーシェン）のオーブ" /></label><br />
-<label for="カミツキ（ハルト）のオーブ" title="気力120以上のとき、攻撃力・照準値が11.5%増加する">カミツキ（ハルト）のオーブ <input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="カミツキ（ハルト）のオーブ" /></label><br />
-<label for="カミツキ（サキ）のオーブ" title="全ての攻撃の与ダメージが12%増加し、運動性が10%増加する">カミツキ（サキ）のオーブ <input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="カミツキ（サキ）のオーブ" /></label><br />
-<label for="カミツキ（アキラ）のオーブ" title="照準値が13%、全ての攻撃の与ダメージが16%増加する">カミツキ（アキラ）のオーブ <input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="カミツキ（アキラ）のオーブ" /></label><br />
-<label for="アタッカー（ライゾウ）のオーブ" title="気力が10上昇する毎に、攻撃力・防御力が2.5%増加する">アタッカー（ライゾウ）のオーブ <input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="アタッカー（ライゾウ）のオーブ" /></label><br />
-<label for="[＋] 底力（キューマ）のオーブ" title="攻撃力・照準値が20%、HPが15000増加する">[＋] 底力（キューマ）のオーブ <input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="[＋] 底力（キューマ）のオーブ" /></label><br />
-<label for="阿頼耶識（三日月）のオーブ" title="攻撃力が13%、照準値が7%増加する">阿頼耶識（三日月）のオーブ <input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="阿頼耶識（三日月）のオーブ" /></label><br />
-<label for="鉄華団（昭弘）のオーブ" title="HPが25000増加する。自分のアクション開始時に気力が3上昇する">鉄華団（昭弘）のオーブ <input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="鉄華団（昭弘）のオーブ" /></label><br />
-<label for="レイへの指示のオーブ" title="メインスロットの必殺技威力が16%、運動性が10%増加する">レイへの指示のオーブ <input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="レイへの指示のオーブ" /></label><br />
-<label for="元レッドショルダーのオーブ" title="HPが25%減少する毎に、照準値・運動性が5%増加する。命中率が10%増加する">元レッドショルダーのオーブ <input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="元レッドショルダーのオーブ" /></label><br />
-<label for="戦術眼のオーブ" title="気力120以上のとき、照準値・運動性が11.5%増加する">戦術眼のオーブ <input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="戦術眼のオーブ" /></label><br />
-<label for="頑張り屋（韻子）のオーブ" title="メインスロットの必殺技威力が16%増加し、運動性が10%増加する">頑張り屋（韻子）のオーブ <input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="頑張り屋（韻子）のオーブ" /></label><br />
-<label for="噂の破嵐万丈のオーブ" title="全ての攻撃の与ダメージが12%、防御力が10%増加する">噂の破嵐万丈のオーブ <input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="噂の破嵐万丈のオーブ" /></label><br />
-<label for="フリード星の王子のオーブ" title="攻撃力・照準値が10%増加する">フリード星の王子のオーブ <input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="フリード星の王子のオーブ" /></label><br />
-<label for="ゼロシステム適応者のオーブ" title="攻撃力が13%、照準値が7%増加する">ゼロシステム適応者のオーブ <input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="ゼロシステム適応者のオーブ" /></label><br />
-<label for="死神のオーブ" title="攻撃力が13%増加する。気力上限が30増加する（効果は重複しない。効果の最も高いもののみ有効）">死神のオーブ <input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="死神のオーブ" /></label><br />
-<label for="闘争心（五飛）のオーブ" title="攻撃力が15%増加する。気力が105、125以上のとき、ステージ中一度「熱血」「不屈」がかかる">闘争心（五飛）のオーブ <input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="闘争心（五飛）のオーブ" /></label><br />
-<label for="アタッカー（トロワ）のオーブ" title="攻撃力が15%増加する。気力130以上のとき、ステージ中一度だけ「熱血」「直撃」がかかる">アタッカー（トロワ）のオーブ <input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="アタッカー（トロワ）のオーブ" /></label><br />
-<label for="[＋] 看破（カトル）のオーブ" title="攻撃力・照準値が20%増加する。気力130以上のとき、ステージ中一度「熱血」「必中」がかかる">[＋] 看破（カトル）のオーブ <input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="[＋] 看破（カトル）のオーブ" /></label><br />
-<label for="[＋] 火消しの風のオーブ" title="照準値・運動性が20%増加する。気力が130以上のとき、ステージ中一度「熱血」「不屈」がかかる">[＋] 火消しの風のオーブ <input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="[＋] 火消しの風のオーブ" /></label><br />
-<label for="IFS（アキト）のオーブ" title="防御力が13%、運動性が7%増加する">IFS（アキト）のオーブ <input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="IFS（アキト）のオーブ" /></label><br />
-<label for="聖戦士（シオン）のオーブ" title="全ての攻撃の与ダメージが18%、回避率が10%増加する">聖戦士（シオン）のオーブ <input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="聖戦士（シオン）のオーブ" /></label><br />
-<label for="救世主のオーブ" title="HPが25000増加する。気力130以上のとき、ステージ中一度だけ「勇気」「ひらめき」がかかる">救世主のオーブ <input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="救世主のオーブ" /></label><br />
-<label for="剣豪（シバラク）のオーブ" title="気力が10上昇する毎に、攻撃力・防御力・運動性が2.5%増加する">剣豪（シバラク）のオーブ <input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="剣豪（シバラク）のオーブ" /></label><br />
-<label for="魔動戦士（大地）のオーブ" title="攻撃力が15%増加する。気力130以上のとき、ステージ中一度だけ「勇気」「不屈」がかかる">魔動戦士（大地）のオーブ <input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="魔動戦士（大地）のオーブ" /></label><br />
-<label for="魔動戦士（ガス）のオーブ" title="攻撃力が15%増加する。気力130以上のとき、ステージ中一度だけ「熱血」「必中」がかかる">魔動戦士（ガス）のオーブ <input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="魔動戦士（ガス）のオーブ" /></label><br />
-<label for="魔動戦士（ラビ）のオーブ" title="攻撃力が15%増加する。気力120、150以上のとき、ステージ中一度だけ「直撃」「直感」がかかる">魔動戦士（ラビ）のオーブ <input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="魔動戦士（ラビ）のオーブ" /></label><br />
-<label for="アーガマの血のオーブ" title="攻撃力が15%増加する。攻撃を命中させたときの気力上昇量が3増加する">アーガマの血のオーブ <input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="アーガマの血のオーブ" /></label><br />
-<label for="エリオス王家の血のオーブ" title="攻撃力が20%増加する。自分のアクション開始時に気力が3増加する">エリオス王家の血のオーブ <input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="エリオス王家の血のオーブ" /></label><br />
-<label for="ハンニバルの亡霊のオーブ" title="気力130以上のとき、攻撃力・照準値・運動性が11.5%増加する">ハンニバルの亡霊のオーブ <input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="ハンニバルの亡霊のオーブ" /></label><br />
-<label for="見切り（剣児）のオーブ" title="運動性が13%増加する。敵ユニットの弱点属性で攻撃したとき、与ダメージが18%増加する">見切り（剣児）のオーブ <input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="見切り（剣児）のオーブ" /></label><br />
-<label for="デュアルカインド（蛍汰）のオーブ" title="HPが25000増加する。気力が140以上のとき、ステージ中一度「覚醒」「ひらめき」がかかる">デュアルカインド（蛍汰）のオーブ <input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="デュアルカインド（蛍汰）のオーブ" /></label><br />
-<label for="筆頭騎士のオーブ" title="気力が10上昇する毎に、攻撃力・防御力が2.5%増加する">筆頭騎士のオーブ <input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="筆頭騎士のオーブ" /></label><br />
-<label for="特殊処理班隊長のオーブ" title="防御力が13%、全ての攻撃の与ダメージが16%増加する">特殊処理班隊長のオーブ <input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="特殊処理班隊長のオーブ" /></label><br />
-<label for="ザ・ヒートのオーブ" title="攻撃力が15%増加する。100%の確率で新たに受けるアビリティによる弱体効果を無力化する">ザ・ヒートのオーブ <input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="ザ・ヒートのオーブ" /></label><br />
-<label for="アタッカー（シズキ）のオーブ" title="攻撃力が15%増加する。気力が120、150以上のとき、ステージ中一度「熱血」「直感」がかかる">アタッカー（シズキ）のオーブ <input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="アタッカー（シズキ）のオーブ" /></label><br />
-<label for="[＋] 打と意地のオーブ" title="攻撃力・照準値が20%増加する。気力150以上のとき、ステージ中一度だけ「魂」「ひらめき」がかかる">[＋] 打と意地のオーブ <input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="[＋] 打と意地のオーブ" /></label><br />
-<label for="分の悪い賭けのオーブ" title="防御力が10%増加。反撃時、全ての攻撃の与ダメージが18%増加し、25%の確率で先制攻撃を行う">分の悪い賭けのオーブ <input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="分の悪い賭けのオーブ" /></label><br />
-<label for="魔装機神操者（マサキ）のオーブ" title="メインスロットの必殺技威力が16%増加する。全ての攻撃の与ダメージが12%増加する">魔装機神操者（マサキ）のオーブ <input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="魔装機神操者（マサキ）のオーブ" /></label><br />
-<label for="ファイター・ロアのオーブ" title="気力が10上昇する毎に、攻撃力・防御力が2.5%増加する">ファイター・ロアのオーブ <input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="ファイター・ロアのオーブ" /></label><br />
-<label for="天才（シュウ）のオーブ" title="全ての攻撃の与ダメージが12%、命中率・回避率が10%増加する">天才（シュウ）のオーブ <input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="天才（シュウ）のオーブ" /></label><br />
-<label for="念動力（リュウセイ）のオーブ" title="攻撃力が15%増加する。攻撃を命中させたときの気力上昇量が3増加する">念動力（リュウセイ）のオーブ <input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="念動力（リュウセイ）のオーブ" /></label><br />
-<label for="白銀の堕天使のオーブ" title="攻撃力が15%増加する。攻撃を命中させたときの気力上昇量が3増加する">白銀の堕天使のオーブ <input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="白銀の堕天使のオーブ" /></label><br />
-<label for="闘争心（アサヒ）のオーブ" title="HPが25000増加する。全ての攻撃の与ダメージが16%増加する">闘争心（アサヒ）のオーブ <input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="闘争心（アサヒ）のオーブ" /></label><br />
-<label for="TIME DIVERのオーブ" title="攻撃力が15%増加する。気力130以上のとき、ステージ中一度だけ「魂」「狙撃」がかかる">TIME DIVERのオーブ <input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="TIME DIVERのオーブ" /></label><br />
-<label for="見切り（イルム）のオーブ" title="攻撃力が15%増加する。攻撃を命中させたときの気力上昇量が3増加する">見切り（イルム）のオーブ <input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="見切り（イルム）のオーブ" /></label><br />
-<label for="アタッカー（エッジ）のオーブ" title="気力が10上昇する毎に、攻撃力・運動性が2.5%増加する">アタッカー（エッジ）のオーブ <input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="アタッカー（エッジ）のオーブ" /></label><br />
-<label for="ブーステッド・チルドレン（アラド）のオーブ" title="気力が10上昇する毎に、攻撃力・防御力・照準値が2.5%増加する">ブーステッド・チルドレン（アラド）のオーブ <input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="ブーステッド・チルドレン（アラド）のオーブ" /></label><br />
-<label for="ヒット&amp;アウェイ（ゼオラ）のオーブ" title="攻撃力が15%増加する。気力が120、150以上のとき、ステージ中一度「狙撃」「熱血」がかかる">ヒット&amp;アウェイ（ゼオラ）のオーブ <input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="ヒット&amp;アウェイ（ゼオラ）のオーブ" /></label><br />
-<label for="覇気のオーブ" title="攻撃力が15%増加する。攻撃を命中させたときの気力上昇量が3増加する">覇気のオーブ <input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="覇気のオーブ" /></label><br />
-<label for="ブーステッド・チルドレン（ラトゥーニ）のオーブ" title="運動性が15%増加する。攻撃を回避した時の気力上昇量が3増加する">ブーステッド・チルドレン（ラトゥーニ）のオーブ <input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="ブーステッド・チルドレン（ラトゥーニ）のオーブ" /></label><br />
-<label for="スピリア0のオーブ" title="攻撃力・照準値が10%増加する。攻撃を命中させたときの気力上昇量が3増加する">スピリア0のオーブ <input style="padding-left: 16px; width: 30px;" type="number" inputmode="numeric" pattern="^[0-9]+$" id="スピリア0のオーブ" /></label><br />
-
-</div>
-<script>
-const STORAGE_KEY = '2023-08-28-report';
-const NUMBER_QUERY = 'article input[type="number"]';
-function load() {
-  var orbs = JSON.parse(localStorage.getItem(STORAGE_KEY));
-  if (orbs && orbs['orbs']) {
-    var checked = orbs['orbs'];
-    [...document.querySelectorAll(NUMBER_QUERY)].forEach((e) => {
-      var status = checked[e.parentElement.innerText];
-      if (status) {
-        e.value = status;
-      }
-    });
-  }
-  [...document.querySelectorAll(NUMBER_QUERY)].forEach((e) => {
-    e.addEventListener('change', (event) => {
-      save();
-    });
-  });
-}
-function save() {
-  var checked = {};
-  [...document.querySelectorAll(NUMBER_QUERY)].forEach((c) => {
-      checked[c.parentElement.innerText] = c.value;
-  });
-  var orbs = { 'orbs': checked };
-  localStorage.setItem(STORAGE_KEY, JSON.stringify(orbs));
-}
-window.onload = () => {
-  load();
-}
-function sort() {
-  var list = document.getElementById('list');
-  var array = [...document.querySelectorAll('main label')].map((label) => {
-    var value = label.querySelector('input').value;
-    if (value === "") {
-      value = -1;
-    } else {
-      value = parseInt(value);
-    }
-    return { 
-      label: label, 
-      value: value
-    };
-  }).sort((a, b) => {
-    if (a.value < b.value) {
-      return -1
-    }
-    if (a.value > b.value) {
-      return 1;
-    }
-    return 0;
-  });
-  while( list.firstChild ){
-    list.removeChild( list.firstChild );
-  }
-  for (var i = 0; i < array.length ; i++) {
-    list.appendChild(array[i].label);
-    list.appendChild(document.createElement('br'));
-  }
-}
-</script>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[ソート]]></summary></entry><entry><title type="html">【スパロボDD】特別交換所 2023</title><link href="https://makietan.github.io/game/srwdd/2023/08/27/report.html" rel="alternate" type="text/html" title="【スパロボDD】特別交換所 2023" /><published>2023-08-27T00:00:00+09:00</published><updated>2023-08-27T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2023/08/27/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2023/08/27/report.html"><![CDATA[<p><button id="remove_checked" onclick="removeChecked();">所持済みを非表示</button></p>
-
-<div id="list">
-<label for="オウル・ハーガー／ディーダリオン"><input type="checkbox" id="オウル・ハーガー／ディーダリオン" />オウル・ハーガー／ディーダリオン</label><br />
-<label for="イーヴァリフル・ハイパワー／メラフディン"><input type="checkbox" id="イーヴァリフル・ハイパワー／メラフディン" />イーヴァリフル・ハイパワー／メラフディン</label><br />
-<label for="スリー・ラウンド・バースト／グラフディン（サキミ機）"><input type="checkbox" id="スリー・ラウンド・バースト／グラフディン（サキミ機）" />スリー・ラウンド・バースト／グラフディン（サキミ機）</label><br />
-<label for="サマーソルト・ティアー／グラフディン（ユンナ機）"><input type="checkbox" id="サマーソルト・ティアー／グラフディン（ユンナ機）" />サマーソルト・ティアー／グラフディン（ユンナ機）</label><br />
-<label for="イーディフューザー／グラフディン（リナリア機）"><input type="checkbox" id="イーディフューザー／グラフディン（リナリア機）" />イーディフューザー／グラフディン（リナリア機）</label><br />
-<label for="ラッシング・ポッパー／グラフディン（マイコ機）"><input type="checkbox" id="ラッシング・ポッパー／グラフディン（マイコ機）" />ラッシング・ポッパー／グラフディン（マイコ機）</label><br />
-<label for="イカヅチ・リボルブ／グラフディン（ユニス機）"><input type="checkbox" id="イカヅチ・リボルブ／グラフディン（ユニス機）" />イカヅチ・リボルブ／グラフディン（ユニス機）</label><br />
-<label for="ブレストファイヤー／マジンガーZ"><input type="checkbox" id="ブレストファイヤー／マジンガーZ" />ブレストファイヤー／マジンガーZ</label><br />
-<label for="ブレストバーン／グレートマジンガー"><input type="checkbox" id="ブレストバーン／グレートマジンガー" />ブレストバーン／グレートマジンガー</label><br />
-<label for="ファイヤーブラスター／マジンカイザー"><input type="checkbox" id="ファイヤーブラスター／マジンカイザー" />ファイヤーブラスター／マジンカイザー</label><br />
-<label for="ジーグブリーカー／鋼鉄ジーグ"><input type="checkbox" id="ジーグブリーカー／鋼鉄ジーグ" />ジーグブリーカー／鋼鉄ジーグ</label><br />
-<label for="超電磁スピン／コン・バトラーＶ"><input type="checkbox" id="超電磁スピン／コン・バトラーＶ" />超電磁スピン／コン・バトラーＶ</label><br />
-<label for="デビルアロー／デビルマン"><input type="checkbox" id="デビルアロー／デビルマン" />デビルアロー／デビルマン</label><br />
-<label for="オーラ斬り／ビルバイン"><input type="checkbox" id="オーラ斬り／ビルバイン" />オーラ斬り／ビルバイン</label><br />
-<label for="プログレッシブナイフ連続攻撃／エヴァンゲリオン初号機"><input type="checkbox" id="プログレッシブナイフ連続攻撃／エヴァンゲリオン初号機" />プログレッシブナイフ連続攻撃／エヴァンゲリオン初号機</label><br />
-<label for="ガトリング砲／エヴァンゲリオン零号機"><input type="checkbox" id="ガトリング砲／エヴァンゲリオン零号機" />ガトリング砲／エヴァンゲリオン零号機</label><br />
-<label for="サンダースピア／エヴァンゲリオン2号機"><input type="checkbox" id="サンダースピア／エヴァンゲリオン2号機" />サンダースピア／エヴァンゲリオン2号機</label><br />
-<label for="ハイパー・メガ・ランチャー／Zガンダム"><input type="checkbox" id="ハイパー・メガ・ランチャー／Zガンダム" />ハイパー・メガ・ランチャー／Zガンダム</label><br />
-<label for="クロスレンジ・アタック／νガンダム"><input type="checkbox" id="クロスレンジ・アタック／νガンダム" />クロスレンジ・アタック／νガンダム</label><br />
-<label for="NT-D連続攻撃／ユニコーンガンダム"><input type="checkbox" id="NT-D連続攻撃／ユニコーンガンダム" />NT-D連続攻撃／ユニコーンガンダム</label><br />
-<label for="ゲッタースパイクブレード／ブラックゲッター"><input type="checkbox" id="ゲッタースパイクブレード／ブラックゲッター" />ゲッタースパイクブレード／ブラックゲッター</label><br />
-<label for="ゲッタートマホーク／真ゲッター1"><input type="checkbox" id="ゲッタートマホーク／真ゲッター1" />ゲッタートマホーク／真ゲッター1</label><br />
-<label for="天空Vの字斬り／ボルテスV"><input type="checkbox" id="天空Vの字斬り／ボルテスV" />天空Vの字斬り／ボルテスV</label><br />
-<label for="ヘルアンドヘブン／ガオガイガー"><input type="checkbox" id="ヘルアンドヘブン／ガオガイガー" />ヘルアンドヘブン／ガオガイガー</label><br />
-<label for="輻射波動機構／紅蓮弐式"><input type="checkbox" id="輻射波動機構／紅蓮弐式" />輻射波動機構／紅蓮弐式</label><br />
-<label for="ハドロン砲最大出力／ガウェイン"><input type="checkbox" id="ハドロン砲最大出力／ガウェイン" />ハドロン砲最大出力／ガウェイン</label><br />
-<label for="単分子カッター・スパイラルチェイン／ARX-7 アーバレスト"><input type="checkbox" id="単分子カッター・スパイラルチェイン／ARX-7 アーバレスト" />単分子カッター・スパイラルチェイン／ARX-7 アーバレスト</label><br />
-<label for="超高速ミサイル／M9 ガーンズバック（マオ）"><input type="checkbox" id="超高速ミサイル／M9 ガーンズバック（マオ）" />超高速ミサイル／M9 ガーンズバック（マオ）</label><br />
-<label for="GNソード／ガンダムエクシア"><input type="checkbox" id="GNソード／ガンダムエクシア" />GNソード／ガンダムエクシア</label><br />
-<label for="GNスナイパーライフル連射／ガンダムデュナメス"><input type="checkbox" id="GNスナイパーライフル連射／ガンダムデュナメス" />GNスナイパーライフル連射／ガンダムデュナメス</label><br />
-<label for="高エネルギービームライフル連射／エールストライクガンダム"><input type="checkbox" id="高エネルギービームライフル連射／エールストライクガンダム" />高エネルギービームライフル連射／エールストライクガンダム</label><br />
-<label for="バラエーナプラズマ収束ビーム砲／フリーダムガンダム"><input type="checkbox" id="バラエーナプラズマ収束ビーム砲／フリーダムガンダム" />バラエーナプラズマ収束ビーム砲／フリーダムガンダム</label><br />
-<label for="ホロニックブレード突撃／ゼーガペイン アルティール"><input type="checkbox" id="ホロニックブレード突撃／ゼーガペイン アルティール" />ホロニックブレード突撃／ゼーガペイン アルティール</label><br />
-<label for="ホロニックランチャー連射／ゼーガペイン ガルダ"><input type="checkbox" id="ホロニックランチャー連射／ゼーガペイン ガルダ" />ホロニックランチャー連射／ゼーガペイン ガルダ</label><br />
-<label for="ハラキリ・ブレード／ヴァルヴレイヴⅠ"><input type="checkbox" id="ハラキリ・ブレード／ヴァルヴレイヴⅠ" />ハラキリ・ブレード／ヴァルヴレイヴⅠ</label><br />
-<label for="スピンドル・ナックル／ヴァルヴレイヴⅣ"><input type="checkbox" id="スピンドル・ナックル／ヴァルヴレイヴⅣ" />スピンドル・ナックル／ヴァルヴレイヴⅣ</label><br />
-<label for="滑腔砲連射／ガンダム・バルバトス（第4形態）"><input type="checkbox" id="滑腔砲連射／ガンダム・バルバトス（第4形態）" />滑腔砲連射／ガンダム・バルバトス（第4形態）</label><br />
-<label for="V-MAX／レイズナー"><input type="checkbox" id="V-MAX／レイズナー" />V-MAX／レイズナー</label><br />
-<label for="マルチプル・コンバット／スコープドッグRSC"><input type="checkbox" id="マルチプル・コンバット／スコープドッグRSC" />マルチプル・コンバット／スコープドッグRSC</label><br />
-<label for="精密射撃／KG-6 スレイプニール"><input type="checkbox" id="精密射撃／KG-6 スレイプニール" />精密射撃／KG-6 スレイプニール</label><br />
-<label for="120mmライフル連射／KG-7 アレイオン（韻子）"><input type="checkbox" id="120mmライフル連射／KG-7 アレイオン（韻子）" />120mmライフル連射／KG-7 アレイオン（韻子）</label><br />
-<label for="サン・アタック／ダイターン3"><input type="checkbox" id="サン・アタック／ダイターン3" />サン・アタック／ダイターン3</label><br />
-<label for="ダブルハーケン／グレンダイザー"><input type="checkbox" id="ダブルハーケン／グレンダイザー" />ダブルハーケン／グレンダイザー</label><br />
-<label for="ツインバスターライフル最大出力／ウイングガンダムゼロ"><input type="checkbox" id="ツインバスターライフル最大出力／ウイングガンダムゼロ" />ツインバスターライフル最大出力／ウイングガンダムゼロ</label><br />
-<label for="強襲／ガンダムデスサイズヘル"><input type="checkbox" id="強襲／ガンダムデスサイズヘル" />強襲／ガンダムデスサイズヘル</label><br />
-<label for="ディストーション・アタック／ブラックサレナ"><input type="checkbox" id="ディストーション・アタック／ブラックサレナ" />ディストーション・アタック／ブラックサレナ</label><br />
-<label for="オーラ斬り／サーバイン"><input type="checkbox" id="オーラ斬り／サーバイン" />オーラ斬り／サーバイン</label><br />
-<label for="アンビデクストラス・ハルバード／ジャスティスガンダム"><input type="checkbox" id="アンビデクストラス・ハルバード／ジャスティスガンダム" />アンビデクストラス・ハルバード／ジャスティスガンダム</label><br />
-<label for="グシオンリベイクハルバード／ガンダム・グシオンリベイク"><input type="checkbox" id="グシオンリベイクハルバード／ガンダム・グシオンリベイク" />グシオンリベイクハルバード／ガンダム・グシオンリベイク</label><br />
-<label for="フィン・ファンネル（Hi-ν）／Hi-νガンダム"><input type="checkbox" id="フィン・ファンネル（Hi-ν）／Hi-νガンダム" />フィン・ファンネル（Hi-ν）／Hi-νガンダム</label><br />
-<label for="トランザム一斉射撃／ガンダムヴァーチェ"><input type="checkbox" id="トランザム一斉射撃／ガンダムヴァーチェ" />トランザム一斉射撃／ガンダムヴァーチェ</label><br />
-<label for="必殺登龍剣／龍神丸"><input type="checkbox" id="必殺登龍剣／龍神丸" />必殺登龍剣／龍神丸</label><br />
-<label for="一刀両断エルディカイザー／グランゾート"><input type="checkbox" id="一刀両断エルディカイザー／グランゾート" />一刀両断エルディカイザー／グランゾート</label><br />
-<label for="ハリケーンスマッシャー／ウインザート"><input type="checkbox" id="ハリケーンスマッシャー／ウインザート" />ハリケーンスマッシャー／ウインザート</label><br />
-<label for="ウェーブカイザー／アクアビート"><input type="checkbox" id="ウェーブカイザー／アクアビート" />ウェーブカイザー／アクアビート</label><br />
-<label for="ライガースラッシュ／獣神ライガー"><input type="checkbox" id="ライガースラッシュ／獣神ライガー" />ライガースラッシュ／獣神ライガー</label><br />
-<label for="火炎十文字斬り／ダルタニアス"><input type="checkbox" id="火炎十文字斬り／ダルタニアス" />火炎十文字斬り／ダルタニアス</label><br />
-<label for="ファントム・クライ／アレクサンダ"><input type="checkbox" id="ファントム・クライ／アレクサンダ" />ファントム・クライ／アレクサンダ</label><br />
-<label for="ヴァンシュ・ブルング／ヴァンアイン"><input type="checkbox" id="ヴァンシュ・ブルング／ヴァンアイン" />ヴァンシュ・ブルング／ヴァンアイン</label><br />
-<label for="トランザム連続攻撃／ガンダムキュリオス"><input type="checkbox" id="トランザム連続攻撃／ガンダムキュリオス" />トランザム連続攻撃／ガンダムキュリオス</label><br />
-<label for="猛烈地獄張り手／ジーグ"><input type="checkbox" id="猛烈地獄張り手／ジーグ" />猛烈地獄張り手／ジーグ</label><br />
-<label for="メタルジェノサイダー／R-GUN"><input type="checkbox" id="メタルジェノサイダー／R-GUN" />メタルジェノサイダー／R-GUN</label><br />
-<label for="スピニング・バースター／グラフディン（ベネット機）"><input type="checkbox" id="スピニング・バースター／グラフディン（ベネット機）" />スピニング・バースター／グラフディン（ベネット機）</label><br />
-<label for="ファン・タロン／ヴァルヴレイヴⅥ"><input type="checkbox" id="ファン・タロン／ヴァルヴレイヴⅥ" />ファン・タロン／ヴァルヴレイヴⅥ</label><br />
-<label for="シナプス弾撃／覚醒人1号"><input type="checkbox" id="シナプス弾撃／覚醒人1号" />シナプス弾撃／覚醒人1号</label><br />
-<label for="レンチメイス（チェーンソー）／ガンダム・バルバトス（第6形態）"><input type="checkbox" id="レンチメイス（チェーンソー）／ガンダム・バルバトス（第6形態）" />レンチメイス（チェーンソー）／ガンダム・バルバトス（第6形態）</label><br />
-<label for="舞朱雀／ソウルゲイン"><input type="checkbox" id="舞朱雀／ソウルゲイン" />舞朱雀／ソウルゲイン</label><br />
-<label for="野牛シバラク流×の字斬り／戦神丸"><input type="checkbox" id="野牛シバラク流×の字斬り／戦神丸" />野牛シバラク流×の字斬り／戦神丸</label><br />
-<label for="ダブルドラゴンハング／アルトロンガンダム"><input type="checkbox" id="ダブルドラゴンハング／アルトロンガンダム" />ダブルドラゴンハング／アルトロンガンダム</label><br />
-<label for="ファントム・リベレイト／アレクサンダ・リベルテ"><input type="checkbox" id="ファントム・リベレイト／アレクサンダ・リベルテ" />ファントム・リベレイト／アレクサンダ・リベルテ</label><br />
-<label for="チェイン・デカッター／ガンレオン"><input type="checkbox" id="チェイン・デカッター／ガンレオン" />チェイン・デカッター／ガンレオン</label><br />
-<label for="オン・ザ・エッジ／M9D ファルケ"><input type="checkbox" id="オン・ザ・エッジ／M9D ファルケ" />オン・ザ・エッジ／M9D ファルケ</label><br />
-<label for="ダブルガトリング・ラピッドファイア／ガンダムヘビーアームズ改"><input type="checkbox" id="ダブルガトリング・ラピッドファイア／ガンダムヘビーアームズ改" />ダブルガトリング・ラピッドファイア／ガンダムヘビーアームズ改</label><br />
-<label for="ソードブレイザー／ランスロット・グレイル"><input type="checkbox" id="ソードブレイザー／ランスロット・グレイル" />ソードブレイザー／ランスロット・グレイル</label><br />
-<label for="天井天下無敵剣／SRX"><input type="checkbox" id="天井天下無敵剣／SRX" />天井天下無敵剣／SRX</label><br />
-<label for="アームストロンガー・カノン・フルパワー／ヴァルヴレイヴⅢ"><input type="checkbox" id="アームストロンガー・カノン・フルパワー／ヴァルヴレイヴⅢ" />アームストロンガー・カノン・フルパワー／ヴァルヴレイヴⅢ</label><br />
-<label for="グレートブラスター／マジンエンペラーG"><input type="checkbox" id="グレートブラスター／マジンエンペラーG" />グレートブラスター／マジンエンペラーG</label><br />
-<label for="斬艦刀・雷光斬り／ダイゼンガー"><input type="checkbox" id="斬艦刀・雷光斬り／ダイゼンガー" />斬艦刀・雷光斬り／ダイゼンガー</label><br />
-<label for="ヒートショーテル・アジタート／ガンダムサンドロック改"><input type="checkbox" id="ヒートショーテル・アジタート／ガンダムサンドロック改" />ヒートショーテル・アジタート／ガンダムサンドロック改</label><br />
-<label for="超精密射撃／ M9 ガーンズバック（クルツ）"><input type="checkbox" id="超精密射撃／ M9 ガーンズバック（クルツ）" />超精密射撃／ M9 ガーンズバック（クルツ）</label><br />
-<label for="ボルト・ファランクス／ヴァルヴレイヴⅤ"><input type="checkbox" id="ボルト・ファランクス／ヴァルヴレイヴⅤ" />ボルト・ファランクス／ヴァルヴレイヴⅤ</label><br />
-<label for="ファンネル（ナイチンゲール）／ナイチンゲール"><input type="checkbox" id="ファンネル（ナイチンゲール）／ナイチンゲール" />ファンネル（ナイチンゲール）／ナイチンゲール</label><br />
-<label for="拡散構造相転移砲／蜃気楼"><input type="checkbox" id="拡散構造相転移砲／蜃気楼" />拡散構造相転移砲／蜃気楼</label><br />
-<label for="メガキャノン（トールギスⅢ）／トールギスⅢ"><input type="checkbox" id="メガキャノン（トールギスⅢ）／トールギスⅢ" />メガキャノン（トールギスⅢ）／トールギスⅢ</label><br />
-<label for="輻射波動機構（紅蓮聖天八極式）／紅蓮聖天八極式"><input type="checkbox" id="輻射波動機構（紅蓮聖天八極式）／紅蓮聖天八極式" />輻射波動機構（紅蓮聖天八極式）／紅蓮聖天八極式</label><br />
-<label for="GNソードⅡ・コンビネーション／ダブルオーガンダム"><input type="checkbox" id="GNソードⅡ・コンビネーション／ダブルオーガンダム" />GNソードⅡ・コンビネーション／ダブルオーガンダム</label><br />
-<label for="ツインバスターキャノン／セラヴィーガンダム"><input type="checkbox" id="ツインバスターキャノン／セラヴィーガンダム" />ツインバスターキャノン／セラヴィーガンダム</label><br />
-<label for="シューティングスター・フォールダウン／ニューレイズナー"><input type="checkbox" id="シューティングスター・フォールダウン／ニューレイズナー" />シューティングスター・フォールダウン／ニューレイズナー</label><br />
-</div>
-
-<script>
-const STORAGE_KEY = '2023-08-27-report';
-const CHECKBOX_QUERY = 'article input[type="checkbox"]';
-function load() {
-  var pilots = JSON.parse(localStorage.getItem(STORAGE_KEY));
-
-  if (pilots && pilots['pilots']) {
-    var checked = pilots['pilots'];
-    [...document.querySelectorAll(CHECKBOX_QUERY)].forEach((e) => {
-      var status = checked[e.parentElement.innerText];
-      if (status) {
-        e.checked = true;
-      }
-    });
-  }
-
-  [...document.querySelectorAll(CHECKBOX_QUERY)].forEach((e) => {
-    e.addEventListener('change', (event) => {
-      save();
-    });
-  });
-}
-
-function save() {
-  var checked = {};
-  [...document.querySelectorAll(CHECKBOX_QUERY)].forEach((c) => {
-      checked[c.parentElement.innerText] = c.checked;
-  });
-  var pilots = { 'pilots': checked };
-
-  localStorage.setItem(STORAGE_KEY, JSON.stringify(pilots));
-}
-
-window.onload = () => {
-  load();
-}
-
-function removeChecked() {
-  [...document.querySelectorAll('article label')]
-      .filter((label) => label.querySelector('input').checked)
-      .forEach((label) => {
-        label.style.display = "none";
-        label.nextElementSibling.style.display = "none";
-      });
-}
-</script>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[所持済みを非表示]]></summary></entry></feed>
+</div>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[MacBook Proで久々に触るとエラー吐いたのでrbenv導入とか色々やった。]]></summary></entry></feed>
