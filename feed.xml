@@ -1,4 +1,190 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2023-09-13T15:25:20+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">「ゴッドアルファ」の考察</title><link href="https://makietan.github.io/game/srwdd/2023/09/13/report.html" rel="alternate" type="text/html" title="「ゴッドアルファ」の考察" /><published>2023-09-13T00:00:00+09:00</published><updated>2023-09-13T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2023/09/13/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2023/09/13/report.html"><![CDATA[<h2 id="ステータス">ステータス</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2023-09-14T12:15:32+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">ライディーンの雑な考察</title><link href="https://makietan.github.io/game/srwdd/2023/09/14/report.html" rel="alternate" type="text/html" title="ライディーンの雑な考察" /><published>2023-09-14T00:00:00+09:00</published><updated>2023-09-14T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2023/09/14/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2023/09/14/report.html"><![CDATA[<p>（ゴッドゴーガンはSSR+にできてないので今回は除外）。</p>
+
+<p>その為、戦闘回数のみが攻撃力上昇の基準となる。</p>
+
+<p>ゴッドアルファを装備していれば防御力・照準値は勝手に高くなる。
+ゴッドブレイカーでも気力180になれば50%近くになる。
+ゴッドブレイカーだと初動の照準値は低いものの、気力125を超えればゴッドミサイルより高くなる。</p>
+
+<p>運動性は諦めた方がいい。
+汎用オーブでも運動性をつけないようにしよう。</p>
+
+<h2 id="オーブ">オーブ</h2>
+<ul>
+  <li>[+]勇者（洸） LV20
+    <ul>
+      <li>攻撃力・照準値 17.5%</li>
+      <li>気力上限が30%増加</li>
+    </ul>
+  </li>
+  <li>ガード（洸） LV10
+    <ul>
+      <li>防御力 5%</li>
+      <li>自分のアクション開始時に気力が2上昇</li>
+    </ul>
+  </li>
+  <li>戦意高揚（洸） LV20
+    <ul>
+      <li>攻撃力 10%</li>
+      <li>防御力 10%</li>
+      <li>全ての攻撃の与ダメージが10%増加</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="編成">編成</h2>
+
+<h3 id="main-ゴッドアルファ">MAIN ゴッドアルファ</h3>
+
+<ul>
+  <li>MAIN：ゴッドアルファ</li>
+  <li>SP1：ゴッドブレイカー</li>
+  <li>SP2：ゴッドミサイル</li>
+</ul>
+
+<h3 id="main-ゴッドブレイカー">MAIN ゴッドブレイカー</h3>
+
+<ul>
+  <li>MAIN：ゴッドブレイカー</li>
+  <li>SP1：ゴッドアルファ</li>
+  <li>SP2：ゴッドミサイル</li>
+</ul>
+
+<h3 id="main-ゴッドミサイル">MAIN ゴッドミサイル</h3>
+
+<ul>
+  <li>MAIN：ゴッドミサイル</li>
+  <li>SP1：ゴッドアルファ</li>
+  <li>SP2：ゴッドブレイカー</li>
+</ul>
+
+<h2 id="数値比較">数値比較</h2>
+
+<div id="main-1" style="width: 100vw, height: 50vh"></div>
+<div id="main-2" style="width: 100vw, height: 50vh"></div>
+<div id="main-3" style="width: 100vw, height: 50vh"></div>
+<div id="main-4" style="width: 100vw, height: 50vh"></div>
+
+<!-- Google Charts -->
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+<script type="text/javascript">
+google.charts.load("current", { "packages": ["corechart"] });
+const ANNOTATION = { type: 'string', role: 'annotation' };
+const ANNOTATION_NUM = { type: 'number', role: 'annotation' };
+
+// 攻撃力
+function main1() {
+    google.charts.setOnLoadCallback(() => {
+        const data = google.visualization.arrayToDataTable([
+            ['戦闘回数', 'ゴッドアルファ(%)', 'ゴッドブレイカー(%)', 'ゴッドミサイル(%)'],
+            ['1',  16+7*0 +11+1.8*0 +7.5, 3*0 +21+3.2*0 +7.5, 3*0 +11+1.8*0 +12],
+            ['2',  16+7*1 +11+1.8*1 +7.5, 3*1 +21+3.2*1 +7.5, 3*1 +11+1.8*1 +12],
+            ['3',  16+7*2 +11+1.8*2 +7.5, 3*2 +21+3.2*2 +7.5, 3*2 +11+1.8*2 +12],
+            ['4',  16+7*3 +11+1.8*3 +7.5, 3*3 +21+3.2*3 +7.5, 3*3 +11+1.8*3 +12],
+            ['5',  16+7*4 +11+1.8*4 +7.5, 3*4 +21+3.2*4 +7.5, 3*4 +11+1.8*4 +12],
+            ['6',  16+7*5 +11+1.8*5 +7.5, 3*5 +21+3.2*5 +7.5, 3*5 +11+1.8*5 +12],
+            ['7',  16+7*5 +11+1.8*5 +7.5, 3*5 +21+3.2*5 +7.5, 3*5 +11+1.8*5 +12],
+            ['8',  16+7*5 +11+1.8*5 +7.5, 3*5 +21+3.2*5 +7.5, 3*5 +11+1.8*5 +12],
+            ['9',  16+7*5 +11+1.8*5 +7.5, 3*5 +21+3.2*5 +7.5, 3*5 +11+1.8*5 +12],
+            ['10', 16+7*5 +11+1.8*5 +7.5, 3*5 +21+3.2*5 +7.5, 3*5 +11+1.8*5 +12]
+        ]);
+        const options = {
+            title: 'ライディーン（MAIN・攻撃力(%)・HP100%・気力100）',
+            curveType: 'none',
+            legend: { position: 'bottom' }
+        };
+        const chart = new google.visualization.LineChart(
+            document.getElementById('main-1')
+        );
+        chart.draw(data, options);
+    });
+}
+main1();
+// 防御力
+function main2() {
+    google.charts.setOnLoadCallback(() => {
+        const data = google.visualization.arrayToDataTable([
+            ['気力', 'ゴッドアルファ(%)', 'ゴッドブレイカー(%)', 'ゴッドミサイル(%)'],
+            // 気力(3%) + ゴッドアルファ + ゴッドブレイカー + ゴッドミサイルの順で記載している
+            ['100',  3*0 + 16+7*5 +1.8*5 +7.5, 3*0 + 3*5 +1.5*0+3.2*5 +7.5, 3*0 + 3*5 +1.8*5 +12],
+            ['110',  3*1 + 16+7*5 +1.8*5 +7.5, 3*1 + 3*5 +1.5*1+3.2*5 +7.5, 3*1 + 3*5 +1.8*5 +12],
+            ['120',  3*2 + 16+7*5 +1.8*5 +7.5, 3*2 + 3*5 +1.5*2+3.2*5 +7.5, 3*2 + 3*5 +1.8*5 +12],
+            ['130',  3*3 + 16+7*5 +1.8*5 +7.5, 3*3 + 3*5 +1.5*3+3.2*5 +7.5, 3*3 + 3*5 +1.8*5 +12],
+            ['140',  3*4 + 16+7*5 +1.8*5 +7.5, 3*4 + 3*5 +1.5*4+3.2*5 +7.5, 3*4 + 3*5 +1.8*5 +12],
+            ['150',  3*5 + 16+7*5 +1.8*5 +7.5, 3*5 + 3*5 +1.5*5+3.2*5 +7.5, 3*5 + 3*5 +1.8*5 +12],
+            ['160',  3*6 + 16+7*5 +1.8*5 +7.5, 3*6 + 3*5 +1.5*6+3.2*5 +7.5, 3*6 + 3*5 +1.8*5 +12],
+            ['170',  3*7 + 16+7*5 +1.8*5 +7.5, 3*7 + 3*5 +1.5*7+3.2*5 +7.5, 3*7 + 3*5 +1.8*5 +12],
+            ['180',  3*8 + 16+7*5 +1.8*5 +7.5, 3*8 + 3*5 +1.5*8+3.2*5 +7.5, 3*8 + 3*5 +1.8*5 +12]
+        ]);
+        const options = {
+            title: 'ライディーン（MAIN・防御力(%)・HP100%・戦闘回数：5）',
+            curveType: 'none',
+            legend: { position: 'bottom' }
+        };
+        const chart = new google.visualization.LineChart(
+            document.getElementById('main-2')
+        );
+        chart.draw(data, options);
+    });
+}
+main2();
+// 照準値
+function main3() {
+    google.charts.setOnLoadCallback(() => {
+        const data = google.visualization.arrayToDataTable([
+            ['気力', 'ゴッドアルファ(%)', 'ゴッドブレイカー(%)', 'ゴッドミサイル(%)'],
+            // 気力(3%) + ゴッドアルファ + ゴッドブレイカー + ゴッドミサイルの順で記載している
+            ['100',  3*0 + 16+7*5 +11+1.8*5 +7.5, 3*0 + 3*5 +21+1.5*0 +7.5, 3*0 + 3*5 +11+1.8*5 +12],
+            ['110',  3*1 + 16+7*5 +11+1.8*5 +7.5, 3*1 + 3*5 +21+1.5*1 +7.5, 3*1 + 3*5 +11+1.8*5 +12],
+            ['120',  3*2 + 16+7*5 +11+1.8*5 +7.5, 3*2 + 3*5 +21+1.5*2 +7.5, 3*2 + 3*5 +11+1.8*5 +12],
+            ['130',  3*3 + 16+7*5 +11+1.8*5 +7.5, 3*3 + 3*5 +21+1.5*3 +7.5, 3*3 + 3*5 +11+1.8*5 +12],
+            ['140',  3*4 + 16+7*5 +11+1.8*5 +7.5, 3*4 + 3*5 +21+1.5*4 +7.5, 3*4 + 3*5 +11+1.8*5 +12],
+            ['150',  3*5 + 16+7*5 +11+1.8*5 +7.5, 3*5 + 3*5 +21+1.5*5 +7.5, 3*5 + 3*5 +11+1.8*5 +12],
+            ['160',  3*6 + 16+7*5 +11+1.8*5 +7.5, 3*6 + 3*5 +21+1.5*5 +7.5, 3*6 + 3*5 +11+1.8*5 +12],
+            ['170',  3*7 + 16+7*5 +11+1.8*5 +7.5, 3*7 + 3*5 +21+1.5*5 +7.5, 3*7 + 3*5 +11+1.8*5 +12],
+            ['180',  3*8 + 16+7*5 +11+1.8*5 +7.5, 3*8 + 3*5 +21+1.5*5 +7.5, 3*8 + 3*5 +11+1.8*5 +12]
+        ]);
+        const options = {
+            title: 'ライディーン（MAIN・照準値(%)・HP100%・戦闘回数：5）',
+            curveType: 'none',
+            legend: { position: 'bottom' }
+        };
+        const chart = new google.visualization.LineChart(
+            document.getElementById('main-3')
+        );
+        chart.draw(data, options);
+    });
+}
+main3();
+// 運動性
+function main4() {
+    google.charts.setOnLoadCallback(() => {
+        const data = google.visualization.arrayToDataTable([
+            ['気力', 'ゴッドアルファ(%)', 'ゴッドブレイカー(%)', 'ゴッドミサイル(%)'],
+            ['100',  3*0, 3*0, 3*0],
+            ['110',  3*1, 3*1, 3*1],
+            ['120',  3*2, 3*2, 3*2],
+            ['130',  3*3, 3*3, 3*3],
+            ['140',  3*4, 3*4, 3*4],
+            ['150',  3*5, 3*5, 3*5],
+            ['160',  3*6, 3*6, 3*6],
+            ['170',  3*7, 3*7, 3*7],
+            ['180',  3*8, 3*8, 3*8]
+        ]);
+        const options = {
+            title: 'ゴッドアルファ（MAIN・運動性(%)）',
+            curveType: 'none',
+            legend: { position: 'bottom' }
+        };
+        const chart = new google.visualization.LineChart(
+            document.getElementById('main-4')
+        );
+        chart.draw(data, options);
+    });
+}
+main4();
+</script>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[（ゴッドゴーガンはSSR+にできてないので今回は除外）。]]></summary></entry><entry><title type="html">「ゴッドアルファ」の考察</title><link href="https://makietan.github.io/game/srwdd/2023/09/13/report.html" rel="alternate" type="text/html" title="「ゴッドアルファ」の考察" /><published>2023-09-13T00:00:00+09:00</published><updated>2023-09-13T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2023/09/13/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2023/09/13/report.html"><![CDATA[<h2 id="ステータス">ステータス</h2>
 
 <table>
   <thead>
@@ -2428,34 +2614,4 @@ function sort() {
     list.appendChild(document.createElement('br'));
   }
 }
-</script>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[ソート]]></summary></entry><entry><title type="html">rbenv のメモ</title><link href="https://makietan.github.io/tech/2023/08/29/report.html" rel="alternate" type="text/html" title="rbenv のメモ" /><published>2023-08-29T00:00:00+09:00</published><updated>2023-08-29T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2023/08/29/report</id><content type="html" xml:base="https://makietan.github.io/tech/2023/08/29/report.html"><![CDATA[<p>MacBook Proで久々に触るとエラー吐いたのでrbenv導入とか色々やった。</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>brew install rbenv
-</code></pre></div></div>
-
-<h2 id="bundler">bundler</h2>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>rbenv exec gem install bundler
-rbenv rehash
-</code></pre></div></div>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>rbenv exec bundle install --path=vendor/bundle
-</code></pre></div></div>
-
-<h2 id="参考">参考</h2>
-
-<div class="card">
-  <a href="https://qiita.com/tmasuyama/items/375226a9ff4f3987ec56"></a>
-  <div class="card__header">
-    <a href="https://qiita.com/tmasuyama/items/375226a9ff4f3987ec56">qiita.com</a>
-  </div>
-  <div class="card__image">
-    <img src="https://qiita-user-contents.imgix.net/https%3A%2F%2Fcdn.qiita.com%2Fassets%2Fpublic%2Farticle-ogp-background-9f5428127621718a910c8b63951390ad.png?ixlib=rb-4.0.0&amp;w=1200&amp;mark64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjAuMCZ3PTkxNiZ0eHQ9cmJlbnYlMjAlRTMlODElQTglMjBidW5kbGVyJTIwJUUzJTgxJUE3JTIwUnVieSUyMCVFMyU4MSVBRSVFMyU4MyU5MCVFMyU4MyVCQyVFMyU4MiVCOCVFMyU4MyVBNyVFMyU4MyVCMyVFMyU4MSVBOCUyMGdlbSUyMCVFMyU4MiU5MiVFNyVBRSVBMSVFNyU5MCU4NiVFMyU4MSU5OSVFMyU4MiU4QiVFNiU5NiVCOSVFNiVCMyU5NSZ0eHQtY29sb3I9JTIzMjEyMTIxJnR4dC1mb250PUhpcmFnaW5vJTIwU2FucyUyMFc2JnR4dC1zaXplPTU2JnR4dC1jbGlwPWVsbGlwc2lzJnR4dC1hbGlnbj1sZWZ0JTJDdG9wJnM9ODI5NTNiNTg2NWM2ZTFhODA3MTAzMmEzNWZlYjVmMjY&amp;mark-x=142&amp;mark-y=112&amp;blend64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjAuMCZ3PTYxNiZ0eHQ9JTQwdG1hc3V5YW1hJnR4dC1jb2xvcj0lMjMyMTIxMjEmdHh0LWZvbnQ9SGlyYWdpbm8lMjBTYW5zJTIwVzYmdHh0LXNpemU9MzYmdHh0LWFsaWduPWxlZnQlMkN0b3Amcz1iMmJmZWRiZDZhZDY3ODI1ZmU3NDExMjk1MWI1M2I4Mw&amp;blend-x=142&amp;blend-y=491&amp;blend-mode=normal&amp;s=a695a4390bd8f172fb7e5181a1a34030" />
-  </div>
-  <div class="card__title">
-    <p>rbenv と bundler で Ruby のバージョンと gem を管理する方法 - Qiita</p>
-  </div>
-  <div class="card__description">
-    <p>こんにちは Masuyama です。一つの環境で Ruby の開発、gem のインストールを行っていると、アプリケーションごとの依存関係の差異によるエラーに苦しむことになります。そこで今回は r…</p>
-  </div>
-</div>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[MacBook Proで久々に触るとエラー吐いたのでrbenv導入とか色々やった。]]></summary></entry></feed>
+</script>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[ソート]]></summary></entry></feed>
