@@ -1,4 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2023-09-15T12:15:57+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">ミカさんのサウナハット付きムビチケカードをメイジャーで買った</title><link href="https://makietan.github.io/otaku/garupan/2023/09/15/report.html" rel="alternate" type="text/html" title="ミカさんのサウナハット付きムビチケカードをメイジャーで買った" /><published>2023-09-15T00:00:00+09:00</published><updated>2023-09-15T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/garupan/2023/09/15/report</id><content type="html" xml:base="https://makietan.github.io/otaku/garupan/2023/09/15/report.html"><![CDATA[<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">／<br />ミカさんのサウナハット付き<br />ムビチケカード 発売決定✨<br />＼<br /><br />9月8日(金)より『最終章』第4話のムビチケカード第3弾が各上映予定劇場、メイジャー通販にて販売開始です！<br /><br />特典はミカのチューリップハットをイメージしたサウナハットです！<br /><br />▼詳細はこちら<a href="https://t.co/RHmyydGfIn">https://t.co/RHmyydGfIn</a><a href="https://twitter.com/hashtag/garupan?src=hash&amp;ref_src=twsrc%5Etfw">#garupan</a> <a href="https://t.co/X56DJXzJnS">pic.twitter.com/X56DJXzJnS</a></p>&mdash; 「ガールズ＆パンツァー」公式アカウント (@garupan) <a href="https://twitter.com/garupan/status/1697444482692878466?ref_src=twsrc%5Etfw">September 1, 2023</a></blockquote>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2023-09-16T01:22:05+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">Mac で Android の動画を撮影するなら scrcpy が良い</title><link href="https://makietan.github.io/tech/2023/09/16/report.html" rel="alternate" type="text/html" title="Mac で Android の動画を撮影するなら scrcpy が良い" /><published>2023-09-16T00:00:00+09:00</published><updated>2023-09-16T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2023/09/16/report</id><content type="html" xml:base="https://makietan.github.io/tech/2023/09/16/report.html"><![CDATA[<p>訳あって、iPhoneではなくAndroidで画面撮影したいことがあり、色々探してたら便利なものが出てきた。</p>
+
+<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">Genymobile/scrcpy: Display and control your Android device <a href="https://t.co/qlWlx1NYBs">https://t.co/qlWlx1NYBs</a> <br /><br />Mac で画面録画するならこれだな<br />便利だった</p>&mdash; まきえたん🥦☘️ (@makietanX) <a href="https://twitter.com/makietanX/status/1700172963046391983?ref_src=twsrc%5Etfw">September 8, 2023</a></blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<p>Genymotionで有名なGenymobileが出してました。</p>
+
+<p>Homebrewで簡単にインストール。</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>brew install scrcpy
+</code></pre></div></div>
+
+<p>いろいろオプションがあるので試すのがいいだろう。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[訳あって、iPhoneではなくAndroidで画面撮影したいことがあり、色々探してたら便利なものが出てきた。]]></summary></entry><entry><title type="html">ミカさんのサウナハット付きムビチケカードをメイジャーで買った</title><link href="https://makietan.github.io/otaku/garupan/2023/09/15/report.html" rel="alternate" type="text/html" title="ミカさんのサウナハット付きムビチケカードをメイジャーで買った" /><published>2023-09-15T00:00:00+09:00</published><updated>2023-09-15T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/garupan/2023/09/15/report</id><content type="html" xml:base="https://makietan.github.io/otaku/garupan/2023/09/15/report.html"><![CDATA[<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">／<br />ミカさんのサウナハット付き<br />ムビチケカード 発売決定✨<br />＼<br /><br />9月8日(金)より『最終章』第4話のムビチケカード第3弾が各上映予定劇場、メイジャー通販にて販売開始です！<br /><br />特典はミカのチューリップハットをイメージしたサウナハットです！<br /><br />▼詳細はこちら<a href="https://t.co/RHmyydGfIn">https://t.co/RHmyydGfIn</a><a href="https://twitter.com/hashtag/garupan?src=hash&amp;ref_src=twsrc%5Etfw">#garupan</a> <a href="https://t.co/X56DJXzJnS">pic.twitter.com/X56DJXzJnS</a></p>&mdash; 「ガールズ＆パンツァー」公式アカウント (@garupan) <a href="https://twitter.com/garupan/status/1697444482692878466?ref_src=twsrc%5Etfw">September 1, 2023</a></blockquote>
 <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <p>劇場に行くのが面倒だったので今回は郵送でゲット。</p>
@@ -7,7 +19,133 @@
 
 <p>こういうのが欲しかったんだよ。</p>
 
-<p>あとはアキ・ミッコのアクスタを求む。</p>]]></content><author><name>makietan</name></author><category term="otaku" /><category term="garupan" /><summary type="html"><![CDATA[／ミカさんのサウナハット付きムビチケカード 発売決定✨＼9月8日(金)より『最終章』第4話のムビチケカード第3弾が各上映予定劇場、メイジャー通販にて販売開始です！特典はミカのチューリップハットをイメージしたサウナハットです！▼詳細はこちらhttps://t.co/RHmyydGfIn#garupan pic.twitter.com/X56DJXzJnS&mdash; 「ガールズ＆パンツァー」公式アカウント (@garupan) September 1, 2023]]></summary></entry><entry><title type="html">ライディーンの雑な考察</title><link href="https://makietan.github.io/game/srwdd/2023/09/14/report.html" rel="alternate" type="text/html" title="ライディーンの雑な考察" /><published>2023-09-14T00:00:00+09:00</published><updated>2023-09-14T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2023/09/14/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2023/09/14/report.html"><![CDATA[<p>（ゴッドゴーガンはSSR+にできてないので今回は除外）。</p>
+<p>あとはアキ・ミッコのアクスタを求む。</p>]]></content><author><name>makietan</name></author><category term="otaku" /><category term="garupan" /><summary type="html"><![CDATA[／ミカさんのサウナハット付きムビチケカード 発売決定✨＼9月8日(金)より『最終章』第4話のムビチケカード第3弾が各上映予定劇場、メイジャー通販にて販売開始です！特典はミカのチューリップハットをイメージしたサウナハットです！▼詳細はこちらhttps://t.co/RHmyydGfIn#garupan pic.twitter.com/X56DJXzJnS&mdash; 「ガールズ＆パンツァー」公式アカウント (@garupan) September 1, 2023]]></summary></entry><entry><title type="html">確定申告の勉強のようなもの</title><link href="https://makietan.github.io/japan/tax/2023/09/15/report.html" rel="alternate" type="text/html" title="確定申告の勉強のようなもの" /><published>2023-09-15T00:00:00+09:00</published><updated>2023-09-15T00:00:00+09:00</updated><id>https://makietan.github.io/japan/tax/2023/09/15/report</id><content type="html" xml:base="https://makietan.github.io/japan/tax/2023/09/15/report.html"><![CDATA[<h2 id="かき集めとくもの">かき集めとくもの</h2>
+
+<ul>
+  <li>収入、経費がわかるもの</li>
+  <li>「支払調書」</li>
+  <li>「源泉徴収票」</li>
+  <li>年間損益報告書</li>
+</ul>
+
+<h2 id="確定申告">確定申告</h2>
+
+<h3 id="20万円ライン">20万円ライン</h3>
+
+<ul>
+  <li>個人事業
+    <ul>
+      <li>業務委託、外注
+        <ul>
+          <li>「支払調書」</li>
+        </ul>
+      </li>
+      <li>20万円ライン（所得）</li>
+    </ul>
+  </li>
+  <li>バイト
+    <ul>
+      <li>契約社員、パート
+        <ul>
+          <li>「源泉徴収票」</li>
+        </ul>
+      </li>
+      <li>20万円ライン（収入）</li>
+    </ul>
+  </li>
+  <li>FX
+    <ul>
+      <li>年間損益報告書</li>
+      <li>20万円ライン（所得）</li>
+    </ul>
+  </li>
+  <li>年間20万円以下なら、確定申告不要
+    <ul>
+      <li>業務効率化・事務負担軽減（業務効率化）</li>
+    </ul>
+  </li>
+  <li>会計帳簿を保存（7年）
+    <ul>
+      <li>なし → 雑所得 or [営利性]3年赤字（解消取組なし）or [僅少]3年収入100万円以下・本業1割</li>
+      <li>あり → 事業所得・青色・損益通算 or （収入300万円超・事業と認められるもの）</li>
+    </ul>
+  </li>
+  <li>
+    <p><a href="https://www.nta.go.jp/taxes/shiraberu/shinkoku/kojin_jigyo/kichou03.pdf">帳簿の記帳のしかた</a>を参考。</p>
+  </li>
+  <li>青色申告（65万円控除）の条件
+    <ul>
+      <li>複式簿記 … 会計ソフト必須</li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="所得">（所得）</h4>
+
+<ul>
+  <li>収入 - 経費 = 所得
+    <ul>
+      <li>所得が20万円以下なら確定申告不要</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="住民税申告">住民税申告</h2>
+
+<p>源泉徴収票・確定申告すると自動的に申告されたことになる</p>
+
+<p>市区町村で全く異なる</p>
+
+<h3 id="0万円ライン">0万円ライン</h3>
+
+<ul>
+  <li>個人事業
+    <ul>
+      <li>0万円ライン（所得）</li>
+    </ul>
+  </li>
+  <li>バイト
+    <ul>
+      <li>0万円ライン（収入）</li>
+    </ul>
+  </li>
+  <li>FX
+    <ul>
+      <li>0万円ライン（所得）</li>
+    </ul>
+  </li>
+  <li>年間0円以下なら、住民税申告不要
+    <ul>
+      <li>1円以上なら必要</li>
+    </ul>
+  </li>
+</ul>
+
+<p>（何このクソ制度） … 負担分任思想</p>
+
+<h4 id="所得-1">（所得）</h4>
+
+<ul>
+  <li>収入 - 経費 = 所得
+    <ul>
+      <li>所得が20万円以下1円以上なら住民税申告必要</li>
+      <li>所得が0円以下なら住民税申告不要</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="参考">参考</h2>
+
+<ul>
+  <li><a href="https://www.youtube.com/watch?v=3-P7XFbDtsw">【要確認！】副業と確定申告の｢20万円ライン｣と｢0円ライン｣【税金の裏事情/年末調整後に必要な準備/儲かる副業図鑑】 - YouTube</a></li>
+  <li><a href="https://www.youtube.com/watch?v=c3cohobCLHQ">【超速報！】副業300万円問題が大幅修正､個人事業主･ﾌﾘｰﾗﾝｽにも影響大！新たな基準｢帳簿の有無｣とは【副業節税/事業所得･雑所得/青色申告/損益通算/会社員･転売･アフィリエイト･ライター他】 - YouTube</a></li>
+</ul>
+
+<h2 id="おわりに">おわりに</h2>
+
+<p>あやふやで煩雑すぎる。</p>
+
+<p>税制度はもっと簡素化されるべきじゃないかな。</p>]]></content><author><name>makietan</name></author><category term="japan" /><category term="tax" /><summary type="html"><![CDATA[かき集めとくもの]]></summary></entry><entry><title type="html">ライディーンの雑な考察</title><link href="https://makietan.github.io/game/srwdd/2023/09/14/report.html" rel="alternate" type="text/html" title="ライディーンの雑な考察" /><published>2023-09-14T00:00:00+09:00</published><updated>2023-09-14T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2023/09/14/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2023/09/14/report.html"><![CDATA[<p>（ゴッドゴーガンはSSR+にできてないので今回は除外）。</p>
 
 <p>その為、戦闘回数のみが攻撃力上昇の基準となる。</p>
 
@@ -1096,352 +1234,4 @@ sub1();
 
 <p>これは<strong>アビリティによる弱体効果を無効化する</strong>ユニットパーツ持ちなら可能な戦法。</p>
 
-<p>ディーダリオン等でも可能だ。</p>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[通常攻撃のみのオートで放置してゲージブレイクしたら思いっきり殴る最終エリア#スパロボDD pic.twitter.com/4iEl5lqxYM&mdash; まきえたん🥦☘️ (@makietanX) September 8, 2023]]></summary></entry><entry><title type="html">Google ドキュメントで日報を書くための自動処理</title><link href="https://makietan.github.io/tech/2023/09/07/report.html" rel="alternate" type="text/html" title="Google ドキュメントで日報を書くための自動処理" /><published>2023-09-07T00:00:00+09:00</published><updated>2023-09-07T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2023/09/07/report</id><content type="html" xml:base="https://makietan.github.io/tech/2023/09/07/report.html"><![CDATA[<h2 id="はじめに">はじめに</h2>
-
-<p>その日やったこと覚えていますか？</p>
-
-<p>私は覚えていません。
-3日前に何を食べたのか何を言ったのか何をしたのか、おのののか。
-って誰だっけ？まぁそんなどうでもいいことはおいといて。</p>
-
-<p>覚えられないなら書けばいいということでGoogleドキュメントにその日あったことを記載しています。
-この日報は外に公開するための文章書きの練習のようなそうでもないようなものなので扱いが異なります。
-個人情報や会社で起きたことをパブリックに晒したらえらいこっちゃですから。</p>
-
-<p>ちなみにその日報に書き込むことは箇条書きになっています。
-なんとなく分かればいいので。</p>
-
-<p>一方でやったことをリセットするための方法を常に書き込んでいます。
-「〇〇サービスに契約したので、〇月末にこのURLへ遷移して解約ボタンを押す。」
-といったようなことはしっかり書き込んでいます。
-これをサボると後々面倒なことになりますから。
-そういうことが起きないようにプライベートな日報を書いている。</p>
-
-<p>それを書くのに役立つスクリプトも設定している。
-それが以下の通りになる。</p>
-
-<h2 id="google-apps-script">Google Apps Script</h2>
-
-<p>日報を書く上で一番面倒なのがフォーマットを追加すること。
-なので自動化して開いたらすぐに書き込めるようにした（さらに可能なら「明日のタスク」の項目をコピーして事前に記載しておきたいけども…）。</p>
-
-<p>要注意ポイントなのですが、逆順に追加していきます。
-他にもやり方はあるんだろうけどこれが現状のコードです。</p>
-
-<p>日付を追加し、見出し2のテキストと箇条書きリストの空文字を追加している。</p>
-
-<p><code class="language-plaintext highlighter-rouge">2</code> はタイトルとサブタイトルを考慮した追加位置。</p>
-
-<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">function</span> <span class="nf">addLines</span><span class="p">()</span> <span class="p">{</span>
-  <span class="kd">var</span> <span class="nb">document</span> <span class="o">=</span> <span class="nx">DocumentApp</span><span class="p">.</span><span class="nf">openById</span><span class="p">(</span><span class="dl">'</span><span class="s1">ここにGoogleドキュメントのIDを記載する</span><span class="dl">'</span><span class="p">);</span>
-  <span class="kd">var</span> <span class="nx">body</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nf">getBody</span><span class="p">();</span>
-  <span class="c1">// 改ページ</span>
-  <span class="nx">body</span><span class="p">.</span><span class="nf">insertPageBreak</span><span class="p">(</span><span class="mi">2</span><span class="p">);</span>
-  <span class="c1">// 明日のタスク・改善点</span>
-  <span class="nx">body</span><span class="p">.</span><span class="nf">insertListItem</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="dl">""</span><span class="p">)</span>
-      <span class="p">.</span><span class="nf">setGlyphType</span><span class="p">(</span><span class="nx">DocumentApp</span><span class="p">.</span><span class="nx">GlyphType</span><span class="p">.</span><span class="nx">BULLET</span><span class="p">)</span>
-      <span class="p">.</span><span class="nf">setHeading</span><span class="p">(</span><span class="nx">DocumentApp</span><span class="p">.</span><span class="nx">ParagraphHeading</span><span class="p">.</span><span class="nx">NORMAL</span><span class="p">);</span>
-  <span class="nx">body</span><span class="p">.</span><span class="nf">insertParagraph</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="dl">"</span><span class="s2">明日のタスク・改善点</span><span class="dl">"</span><span class="p">)</span>
-      <span class="p">.</span><span class="nf">setHeading</span><span class="p">(</span><span class="nx">DocumentApp</span><span class="p">.</span><span class="nx">ParagraphHeading</span><span class="p">.</span><span class="nx">HEADING2</span><span class="p">);</span>
-  <span class="c1">// 反省・問題点</span>
-  <span class="nx">body</span><span class="p">.</span><span class="nf">insertListItem</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="dl">""</span><span class="p">)</span>
-      <span class="p">.</span><span class="nf">setGlyphType</span><span class="p">(</span><span class="nx">DocumentApp</span><span class="p">.</span><span class="nx">GlyphType</span><span class="p">.</span><span class="nx">BULLET</span><span class="p">)</span>
-      <span class="p">.</span><span class="nf">setHeading</span><span class="p">(</span><span class="nx">DocumentApp</span><span class="p">.</span><span class="nx">ParagraphHeading</span><span class="p">.</span><span class="nx">NORMAL</span><span class="p">);</span>
-  <span class="nx">body</span><span class="p">.</span><span class="nf">insertParagraph</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="dl">"</span><span class="s2">反省・問題点</span><span class="dl">"</span><span class="p">)</span>
-      <span class="p">.</span><span class="nf">setHeading</span><span class="p">(</span><span class="nx">DocumentApp</span><span class="p">.</span><span class="nx">ParagraphHeading</span><span class="p">.</span><span class="nx">HEADING2</span><span class="p">);</span>
-  <span class="c1">// 作業報告</span>
-  <span class="nx">body</span><span class="p">.</span><span class="nf">insertListItem</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="dl">""</span><span class="p">)</span>
-      <span class="p">.</span><span class="nf">setGlyphType</span><span class="p">(</span><span class="nx">DocumentApp</span><span class="p">.</span><span class="nx">GlyphType</span><span class="p">.</span><span class="nx">BULLET</span><span class="p">)</span>
-      <span class="p">.</span><span class="nf">setHeading</span><span class="p">(</span><span class="nx">DocumentApp</span><span class="p">.</span><span class="nx">ParagraphHeading</span><span class="p">.</span><span class="nx">NORMAL</span><span class="p">);</span>
-  <span class="nx">body</span><span class="p">.</span><span class="nf">insertParagraph</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="dl">"</span><span class="s2">作業報告</span><span class="dl">"</span><span class="p">)</span>
-      <span class="p">.</span><span class="nf">setHeading</span><span class="p">(</span><span class="nx">DocumentApp</span><span class="p">.</span><span class="nx">ParagraphHeading</span><span class="p">.</span><span class="nx">HEADING2</span><span class="p">);</span>
-
-  <span class="c1">// 日付</span>
-  <span class="nx">body</span><span class="p">.</span><span class="nf">insertParagraph</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="s2">`</span><span class="p">${</span><span class="k">new</span> <span class="nc">Date</span><span class="p">().</span><span class="nf">getFullYear</span><span class="p">()}</span><span class="s2">/</span><span class="p">${(</span><span class="dl">"</span><span class="s2">0</span><span class="dl">"</span> <span class="o">+</span> <span class="p">(</span><span class="k">new</span> <span class="nc">Date</span><span class="p">().</span><span class="nf">getMonth</span><span class="p">()</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)).</span><span class="nf">slice</span><span class="p">(</span><span class="o">-</span><span class="mi">2</span><span class="p">)}</span><span class="s2">/</span><span class="p">${(</span><span class="dl">"</span><span class="s2">0</span><span class="dl">"</span> <span class="o">+</span> <span class="k">new</span> <span class="nc">Date</span><span class="p">().</span><span class="nf">getDate</span><span class="p">()).</span><span class="nf">slice</span><span class="p">(</span><span class="o">-</span><span class="mi">2</span><span class="p">)}</span><span class="s2"> (</span><span class="p">${[</span><span class="dl">'</span><span class="s1">日</span><span class="dl">'</span><span class="p">,</span> <span class="dl">'</span><span class="s1">月</span><span class="dl">'</span><span class="p">,</span> <span class="dl">'</span><span class="s1">火</span><span class="dl">'</span><span class="p">,</span> <span class="dl">'</span><span class="s1">水</span><span class="dl">'</span><span class="p">,</span> <span class="dl">'</span><span class="s1">木</span><span class="dl">'</span><span class="p">,</span> <span class="dl">'</span><span class="s1">金</span><span class="dl">'</span><span class="p">,</span> <span class="dl">'</span><span class="s1">土</span><span class="dl">'</span><span class="p">][</span><span class="k">new</span> <span class="nc">Date</span><span class="p">().</span><span class="nf">getDay</span><span class="p">()]}</span><span class="s2">)`</span><span class="p">)</span>
-      <span class="p">.</span><span class="nf">setHeading</span><span class="p">(</span><span class="nx">DocumentApp</span><span class="p">.</span><span class="nx">ParagraphHeading</span><span class="p">.</span><span class="nx">HEADING1</span><span class="p">);</span>
-  <span class="nb">document</span><span class="p">.</span><span class="nf">saveAndClose</span><span class="p">();</span>
-<span class="p">}</span>
-</code></pre></div></div>
-
-<h3 id="トリガー">トリガー</h3>
-
-<ul>
-  <li>時間主導型</li>
-  <li>日付ベースのタイマー</li>
-  <li>午前7時〜8時</li>
-</ul>
-
-<p>の設定にしている。</p>
-
-<h2 id="おわりに">おわりに</h2>
-
-<p>Googleドキュメントを開くのが面倒なのでそこの改善点は色々あるだろうなと思ってます。
-ただ書く抵抗が減るのはいいかなと。
-日報を記載したかどうかは空欄状況を見れば一目瞭然なのでそこもいいかな。</p>
-
-<p>なんにせよGoogleドキュメントも簡単に自動化できるのがいいですね。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[はじめに]]></summary></entry><entry><title type="html">2023年の献立②</title><link href="https://makietan.github.io/gourmet/2023/09/06/report.html" rel="alternate" type="text/html" title="2023年の献立②" /><published>2023-09-06T00:00:00+09:00</published><updated>2023-09-06T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2023/09/06/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2023/09/06/report.html"><![CDATA[<p>外食を決め打ちしとくのはダメだけどなんとなく迷ったときはこれかなと。</p>
-
-<h3 id="1日に必要な栄養成分">1日に必要な栄養成分</h3>
-
-<ul>
-  <li>安静時代謝量 1,886kcal（ドラクエウォーク・あるくんですWより）</li>
-  <li>たんぱく質（13〜20%、1g=4kcal） <span style="color: red; font-weight: 900;">61.295g</span>〜94.3g</li>
-  <li>脂質（20〜30%、1g=9kcal） <span style="color: red; font-weight: 900;">41.91g</span>〜62.87g</li>
-  <li>炭水化物（50〜65%、1g=4kcal） <span style="color: red; font-weight: 900;">235.75g</span>〜306.475g</li>
-</ul>
-
-<h4 id="参考資料">参考資料</h4>
-
-<ul>
-  <li><a href="https://www.maff.go.jp/j/syokuiku/wakaisedai/attach/pdf/balance-8.pdf">ちょうどよいバランスの食生活 - 農林⽔産省 消費・安全局 消費者⾏政・⾷育課</a></li>
-</ul>
-
-<h3 id="月曜日">月曜日</h3>
-
-<h3 id="火曜日">火曜日</h3>
-<h4 id="松のや">松のや</h4>
-
-<ul>
-  <li>月曜だけだったのが月〜水になった。</li>
-  <li>無料クーポンが貰える。</li>
-  <li>500円クーポンもある。</li>
-  <li>
-    <p>約1,000kcal。</p>
-  </li>
-  <li><a href="https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_jourosu_hp_221221.html">上ロースかつ定食</a>
-    <ul>
-      <li>690円</li>
-      <li>カロリー／922kcal (48.89%)</li>
-      <li>たんぱく質／42.4g (69.17%)</li>
-      <li>脂質／36.6g (87.33%)</li>
-      <li>炭水化物／103.3g (43.82%)</li>
-      <li>食塩相当量／3g</li>
-    </ul>
-  </li>
-  <li><a href="https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_jourosu_oroshipon_hp_221221.html">おろしポン酢上ロースかつ定食</a>
-    <ul>
-      <li>790円</li>
-      <li>カロリー／955kcal (50.64%)</li>
-      <li>たんぱく質／43.8g (71.46%)</li>
-      <li>脂質／36.7g (87.57%)</li>
-      <li>炭水化物／110.2g (46.74%)</li>
-      <li>食塩相当量／4.7g</li>
-    </ul>
-  </li>
-  <li><a href="https://www.matsuyafoods.co.jp/matsunoya/menu/souzai/souzai_korokke1_hp_220502.html">単品コロッケ（1個）</a>
-    <ul>
-      <li>80円</li>
-      <li>カロリー／107kcal (5.67%)</li>
-      <li>たんぱく質／2.2g (3.59%)</li>
-      <li>脂質／4.9g (11.7%)</li>
-      <li>炭水化物／13.9g (5.9%)</li>
-      <li>食塩相当量／0.4g</li>
-    </ul>
-  </li>
-  <li><a href="https://www.matsuyafoods.co.jp/matsunoya/menu/side_menu/side_topping_potesara_hp_200819.html">トッピングポテトサラダ</a>
-    <ul>
-      <li>70円</li>
-      <li>カロリー／92kcal (4.88%)</li>
-      <li>たんぱく質／1g (1.63%)</li>
-      <li>脂質／5.6g (13.36%)</li>
-      <li>炭水化物／9.2g (3.90%)</li>
-      <li>食塩相当量／0.5g</li>
-    </ul>
-  </li>
-  <li><a href="https://www.matsuyafoods.co.jp/matsunoya/menu/side_menu/side_hurikake_sake_hp_221012.html">単品ふりかけ（さけ）</a>
-    <ul>
-      <li>50円</li>
-      <li>カロリー／7kcal (0.37%)</li>
-      <li>たんぱく質／0.2g (0.33%)</li>
-      <li>脂質／0.2g (0.48%)</li>
-      <li>炭水化物／0.9g (0.38%)</li>
-      <li>食塩相当量／0.2g</li>
-    </ul>
-  </li>
-  <li><a href="https://www.matsuyafoods.co.jp/matsunoya/menu/side_menu/side_hurikake_tamago_hp_221012.html">単品ふりかけ（たまご）</a>
-    <ul>
-      <li>50円</li>
-      <li>カロリー／10kcal (0.53%)</li>
-      <li>たんぱく質／0.3g (0.49%)</li>
-      <li>脂質／0.2g (0.48%)</li>
-      <li>炭水化物／1.7g (0.72%)</li>
-      <li>食塩相当量／0.2g</li>
-    </ul>
-  </li>
-  <li><a href="https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_sasami2_hp_230621.html">ささみかつ定食</a>
-    <ul>
-      <li>690円</li>
-      <li>カロリー／948kcal (50.27%)</li>
-      <li>たんぱく質／37.9g (61.83%)</li>
-      <li>脂質／39.8g (94.97%)</li>
-      <li>炭水化物／107.2g (45.47%)</li>
-      <li>食塩相当量／3.4g</li>
-    </ul>
-  </li>
-</ul>
-
-<h3 id="水曜日">水曜日</h3>
-
-<h3 id="木曜日">木曜日</h3>
-<h4 id="吉野家">吉野家</h4>
-
-<ul>
-  <li><a href="https://www.yoshinoya.com/menu/set/gyushake_tei/">牛鮭定食</a>
-    <ul>
-      <li>668円</li>
-      <li>685kcal (36.32%)</li>
-      <li>たんぱく質 31.8g (51.88%)</li>
-      <li>脂質 25.0g (59.65%)</li>
-      <li>炭水化物 87.9g (37.29%)</li>
-      <li>食塩相当量 4.0g</li>
-    </ul>
-  </li>
-  <li><a href="https://www.yoshinoya.com/menu/gyudon/gyu-don/">牛丼 並盛</a>
-    <ul>
-      <li>448円</li>
-      <li>633kcal (33.56%)</li>
-      <li>たんぱく質 19.6g (31.98%)</li>
-      <li>脂質 23.6g (56.31%)</li>
-      <li>炭水化物 88.2g (37.41%)</li>
-      <li>食塩相当量 2.5g</li>
-    </ul>
-  </li>
-  <li>みそ汁
-    <ul>
-      <li>19kcal (1.00%)</li>
-      <li>たんぱく質 1.2g (1.96%)</li>
-      <li>脂質 0.5g (1.19%)</li>
-      <li>炭水化物 2.4g (1.02%)</li>
-      <li>食塩相当量 1.3g</li>
-    </ul>
-  </li>
-  <li>お新香
-    <ul>
-      <li>13kcal (0.69%)</li>
-      <li>たんぱく質 0.7g (1.14%)</li>
-      <li>脂質 0.1g (0.24%)</li>
-      <li>炭水化物 2.6g (1.10%)</li>
-      <li>食塩相当量 1.1g</li>
-    </ul>
-  </li>
-  <li>生野菜サラダ
-    <ul>
-      <li>23kcal (1.22%)</li>
-      <li>たんぱく質 0.9g (1.47%)</li>
-      <li>脂質 0.2g (0.48%)</li>
-      <li>炭水化物 5.2g (2.21%)</li>
-      <li>食塩相当量 0.1g</li>
-    </ul>
-  </li>
-</ul>
-
-<h4 id="焼肉ライク">焼肉ライク</h4>
-
-<p>焼肉が食べたいときに。
-約1,500円。
-もちろんそれ以上の金額になることは多い。</p>
-
-<ul>
-  <li><a href="https://yakiniku-like.com/menu.html">上ロース&amp;ハラミセット</a>
-    <ul>
-      <li>1,560円 (上ロース100g 720円 + ハラミ100g 720円 + ごはん等 240円 = 1680円：120円お得)</li>
-      <li>200g</li>
-    </ul>
-  </li>
-  <li><a href="https://yakiniku-like.com/menu.html">オールスターセット</a>
-    <ul>
-      <li>1,860円（牛タン4枚 590円 + 上ロース50g 360円 + 匠カルビ50g 360円 + バラカルビ50g 240円 + 牛ホルモン50g 250円 + ごはん等 240円 = 2040円：180円お得）</li>
-      <li>250g</li>
-    </ul>
-  </li>
-  <li><a href="https://yakiniku-like.com/menu.html">ミックスカルビセット</a>
-    <ul>
-      <li>1,050円 (バラカルビ100g 480円 + 豚カルビ100g 440円 + ごはん等 240円 = 1160円：110円お得)</li>
-      <li>200g</li>
-    </ul>
-  </li>
-  <li><a href="https://yakiniku-like.com/menu.html">バラカルビセット</a>
-    <ul>
-      <li>1,090円（バラカルビ200g 960円 + ごはん等 240円 = 1200円：110円お得）</li>
-      <li>200g</li>
-    </ul>
-  </li>
-  <li><a href="https://yakiniku-like.com/menu.html">牛ホルモン</a>
-    <ul>
-      <li>250円</li>
-      <li>50g</li>
-    </ul>
-  </li>
-  <li><a href="https://yakiniku-like.com/menu.html">メガ盛りセット</a>
-    <ul>
-      <li>1,380円(バラカルビ100g 480円 + 豚カルビ100g 480円 + ホルモン100g 500円 + ごはん等 240円 = 1700円：320円お得)</li>
-    </ul>
-  </li>
-</ul>
-
-<h3 id="金曜日">金曜日</h3>
-
-<ul>
-  <li>?</li>
-</ul>
-
-<h3 id="土曜日">土曜日</h3>
-
-<p>スタンプ集め中。
-遅い時間まで開いている。
-平日と比較して空いている。
-1,500円くらい。</p>
-
-<h4 id="餃子の王将">餃子の王将</h4>
-<ul>
-  <li><a href="https://www.ohsho.co.jp/menu/east/post.html">餃子</a>
-    <ul>
-      <li>297円</li>
-    </ul>
-  </li>
-  <li><a href="https://www.ohsho.co.jp/menu/east/post_356.html">炒飯</a>
-    <ul>
-      <li>550円</li>
-    </ul>
-  </li>
-  <li><a href="https://www.ohsho.co.jp/menu/east/post_368.html">餃子の王将ラーメン（醤油豚骨ベース）</a>
-    <ul>
-      <li>594円</li>
-    </ul>
-  </li>
-  <li><a href="https://www.ohsho.co.jp/menu/east/post_344.html">ニラレバ炒め</a>
-    <ul>
-      <li>583円</li>
-    </ul>
-  </li>
-  <li><a href="https://www.ohsho.co.jp/menu/east/post_348.html">回鍋肉（ホイコーロー）</a>
-    <ul>
-      <li>583円</li>
-    </ul>
-  </li>
-  <li><a href="https://www.ohsho.co.jp/menu/east/post_352.html">肉と玉子のいりつけ</a>
-    <ul>
-      <li>605円</li>
-    </ul>
-  </li>
-  <li><a href="https://www.ohsho.co.jp/menu/east/post_341.html">鶏の唐揚</a>
-    <ul>
-      <li>616円</li>
-    </ul>
-  </li>
-  <li><a href="https://www.ohsho.co.jp/menu/east/post_451.html">鶏の唐揚（ジャストサイズ）</a>
-    <ul>
-      <li>352円</li>
-    </ul>
-  </li>
-  <li><a href="https://www.ohsho.co.jp/menu/east/post_92.html">玉子スープ</a>
-    <ul>
-      <li>110円</li>
-    </ul>
-  </li>
-</ul>
-
-<h3 id="日曜日">日曜日</h3>
-<ul>
-  <li>?</li>
-</ul>]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[外食を決め打ちしとくのはダメだけどなんとなく迷ったときはこれかなと。]]></summary></entry></feed>
+<p>ディーダリオン等でも可能だ。</p>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[通常攻撃のみのオートで放置してゲージブレイクしたら思いっきり殴る最終エリア#スパロボDD pic.twitter.com/4iEl5lqxYM&mdash; まきえたん🥦☘️ (@makietanX) September 8, 2023]]></summary></entry></feed>
