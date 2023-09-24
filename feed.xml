@@ -1,4 +1,1758 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2023-09-24T12:15:22+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">Mac で Android の動画を撮影するなら scrcpy が良い</title><link href="https://makietan.github.io/tech/2023/09/16/report.html" rel="alternate" type="text/html" title="Mac で Android の動画を撮影するなら scrcpy が良い" /><published>2023-09-16T00:00:00+09:00</published><updated>2023-09-16T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2023/09/16/report</id><content type="html" xml:base="https://makietan.github.io/tech/2023/09/16/report.html"><![CDATA[<p>訳あって、iPhoneではなくAndroidで画面撮影したいことがあり、色々探してたら便利なものが出てきた。</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2023-09-25T03:14:36+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">ソウルゲインの雑な考察</title><link href="https://makietan.github.io/game/srwdd/2023/09/25/report.html" rel="alternate" type="text/html" title="ソウルゲインの雑な考察" /><published>2023-09-25T00:00:00+09:00</published><updated>2023-09-25T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2023/09/25/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2023/09/25/report.html"><![CDATA[<ul>
+  <li>SIZE L</li>
+  <li>空B 陸A 海B 宇A</li>
+  <li>攻撃&amp;防御タイプ</li>
+  <li>超改造
+    <ul>
+      <li>HP 2000</li>
+      <li>防御力 1000</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="オーブ">オーブ</h2>
+
+<ul>
+  <li>特殊処理班隊長 LV20
+    <ul>
+      <li>防御力13%</li>
+      <li>全ての攻撃の与ダメージが16%増加</li>
+    </ul>
+  </li>
+  <li>アタッカー（アクセル） LV10
+    <ul>
+      <li>気力が10上昇する毎に攻撃力2%増加</li>
+    </ul>
+  </li>
+  <li>強靭（アクセル） LV20
+    <ul>
+      <li>HP 25000</li>
+      <li>気力130以上でステージ中一度「熱血」「必中」</li>
+    </ul>
+  </li>
+</ul>
+
+<details>
+<summary style="color: gainsboro;">個人的なもの</summary>
+<pre>
+- 攻撃力アップ LV11
+  - 攻撃力6%
+- 攻撃力アップ（大） LV6
+  - 攻撃力6%
+- 防御力アップ LV11
+  - 防御力6%
+- 防御力アップ（大） LV20
+  - 防御力15%
+- 照準値・運動性アップ（大） LV7
+  - 照準値・運動性4%
+- 攻撃力アップ・気力+（アクション）（大） LV14
+  - 攻撃力6%
+  - 自分のアクション開始時に気力が1上昇する
+- 命中率アップ（大） LV11
+  - 命中率 9%
+</pre>
+<pre>
+- 合計
+  - HP +25000
+  - 攻撃力 +28%(気力150)
+  - 防御力 +34%
+  - 照準値 +4%
+  - 運動性 +4%
+  - 与ダメージ 16%
+  - 命中率 +9%
+</pre>
+</details>
+
+<h2 id="編成">編成</h2>
+
+<h3 id="main-麒麟">MAIN 麒麟</h3>
+<h4 id="sp">SP</h4>
+<ul>
+  <li>舞朱雀</li>
+  <li>玄武金剛弾</li>
+  <li>青龍鱗</li>
+  <li>白虎咬
+    <h3 id="main-舞朱雀">MAIN 舞朱雀</h3>
+    <h4 id="sp-1">SP</h4>
+  </li>
+  <li>麒麟</li>
+  <li>玄武金剛弾</li>
+  <li>青龍鱗</li>
+  <li>白虎咬
+    <h3 id="main-玄武金剛弾">MAIN 玄武金剛弾</h3>
+    <h4 id="sp-2">SP</h4>
+  </li>
+  <li>麒麟</li>
+  <li>舞朱雀</li>
+  <li>青龍鱗</li>
+  <li>白虎咬
+    <h3 id="main-青龍鱗">MAIN 青龍鱗</h3>
+    <h4 id="sp-3">SP</h4>
+  </li>
+  <li>麒麟</li>
+  <li>舞朱雀</li>
+  <li>玄武金剛弾</li>
+  <li>白虎咬
+    <h3 id="main-白虎咬">MAIN 白虎咬</h3>
+    <h4 id="sp-4">SP</h4>
+  </li>
+  <li>麒麟</li>
+  <li>舞朱雀</li>
+  <li>玄武金剛弾</li>
+  <li>青龍鱗
+    <h2 id="数値比較">数値比較</h2>
+  </li>
+</ul>
+
+<h3 id="攻撃力">攻撃力</h3>
+
+<p>メインは麒麟一択。
+必殺技スロットに玄武金剛弾は必須。
+防御力UPとブレイクゲージをさくっと消せるなら青龍鱗を入れる。
+そうでなければ舞朱雀でなんとかするといった感じ。</p>
+
+<div id="main-1-1" style="width: 100vw, height: 50vh"></div>
+
+<div id="main-1-2" style="width: 100vw, height: 50vh"></div>
+
+<div id="main-1-3" style="width: 100vw, height: 50vh"></div>
+
+<div id="main-1-4" style="width: 100vw, height: 50vh"></div>
+
+<div id="main-1-5" style="width: 100vw, height: 50vh"></div>
+
+<h3 id="防御力">防御力</h3>
+
+<p>舞朱雀がなければ60%近くまで上がる（被ダメージ軽減も含む）。
+舞朱雀を必殺技スロットにつけると照準値と与ダメージ、移動力、スピードが上がる。
+上記が別に必要ないのであれば、玄武金剛弾と青龍鱗をつけるといいかもしれない。</p>
+
+<div id="main-2-1" style="width: 100vw, height: 50vh"></div>
+
+<div id="main-2-2" style="width: 100vw, height: 50vh"></div>
+
+<div id="main-2-3" style="width: 100vw, height: 50vh"></div>
+
+<div id="main-2-4" style="width: 100vw, height: 50vh"></div>
+
+<div id="main-2-5" style="width: 100vw, height: 50vh"></div>
+
+<h3 id="照準値">照準値</h3>
+
+<p>（気が向いたら）</p>
+
+<h3 id="運動性">運動性</h3>
+
+<p>（気が向いたら）</p>
+
+<h2 id="まとめ">まとめ</h2>
+
+<ul>
+  <li>MAIN：麒麟</li>
+  <li>必殺技スロット①：玄武金剛弾</li>
+  <li>必殺技スロット②：青龍鱗 or 舞朱雀</li>
+</ul>
+
+<p>今後のユニットパーツに期待しよう。</p>
+
+<!-- Google Charts -->
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+<script type="text/javascript">
+google.charts.load("current", { "packages": ["corechart"] });
+const ANNOTATION = { type: 'string', role: 'annotation' };
+const ANNOTATION_NUM = { type: 'number', role: 'annotation' };
+
+// 攻撃力
+function main11() {
+    google.charts.setOnLoadCallback(() => {
+        let data = new google.visualization.DataTable();
+        data.addColumn('string', '戦闘回数');
+        data.addColumn('number', '麒舞玄');
+        data.addColumn('number', '麒舞青');
+        data.addColumn('number', '麒舞白');
+        data.addColumn('number', '麒玄青');
+        data.addColumn('number', '麒玄白');
+        data.addColumn('number', '麒青白');
+
+        let rows = [];
+        for (let i = 0; i <= 10; i++) {
+          let sentou = i;
+          if (sentou > 5) {
+            sentou = 5;
+          }
+          let row = [
+            `${i}`, 
+            (6*sentou + 9) * (100 + 42 + 24) / 100, 
+            (6*sentou + 6.5 + 15) * (100 + 42 + 24) / 100, 
+            (6*sentou + 6.5) * (100 + 42 + 24) / 100, 
+            (6*sentou + 9 + 6.5 + 15) * (100 + 42) / 100, 
+            (6*sentou + 9 + 6.5) * (100 + 42) / 100,
+            (6*sentou + 6.5 + 15 + 6.5) * (100 + 42) / 100
+          ];
+          rows.push(row);
+        }
+        data.addRows(rows);
+
+        const options = {
+            title: 'ソウルゲイン（MAIN：麒麟・攻撃力・隣接・ブレイク状態）',
+            curveType: 'none',
+            legend: { position: 'bottom' }
+        };
+        const chart = new google.visualization.LineChart(
+            document.getElementById('main-1-1')
+        );
+        chart.draw(data, options);
+    });
+}
+main11();
+function main12() {
+    google.charts.setOnLoadCallback(() => {
+        let data = new google.visualization.DataTable();
+        data.addColumn('string', '戦闘回数');
+        data.addColumn('number', '舞麒玄');
+        data.addColumn('number', '舞麒青');
+        data.addColumn('number', '舞麒白');
+        data.addColumn('number', '舞玄青');
+        data.addColumn('number', '舞玄白');
+        data.addColumn('number', '舞青白');
+
+        let rows = [];
+        for (let i = 0; i <= 10; i++) {
+          let sentou = i;
+          if (sentou > 5) {
+            sentou = 5;
+          }
+          let row = [
+            `${i}`, 
+            (6*sentou + 9) * (100 + 42) / 100,
+            (6*sentou + 6.5 + 15) * (100 + 42) / 100,
+            (6*sentou + 6.5) * (100 + 42) / 100,
+            (6*sentou + 9 + 6.5 + 15) * (100 + 42) / 100,
+            (6*sentou + 9 + 6.5) * (100 + 42) / 100,
+            (6*sentou + 6.5 + 6.5 + 15) * (100 + 42) / 100
+          ];
+          rows.push(row);
+        }
+        data.addRows(rows);
+
+        const options = {
+            title: 'ソウルゲイン（MAIN：舞朱雀・攻撃力・隣接・ブレイク状態）',
+            curveType: 'none',
+            legend: { position: 'bottom' }
+        };
+        const chart = new google.visualization.LineChart(
+            document.getElementById('main-1-2')
+        );
+        chart.draw(data, options);
+    });
+}
+main12();
+function main13() {
+    google.charts.setOnLoadCallback(() => {
+        let data = new google.visualization.DataTable();
+        data.addColumn('string', '戦闘回数');
+        data.addColumn('number', '玄麒舞');
+        data.addColumn('number', '玄麒青');
+        data.addColumn('number', '玄麒白');
+        data.addColumn('number', '玄舞青');
+        data.addColumn('number', '玄舞白');
+        data.addColumn('number', '玄青白');
+
+        let rows = [];
+        for (let i = 0; i <= 10; i++) {
+          let sentou = i;
+          if (sentou > 5) {
+            sentou = 5;
+          }
+          let row = [
+            `${i}`, 
+            (14.5 * (100 + 24) / 100),
+            (14.5 + 6.5 + 15),
+            (14.5 + 6.5),
+            ((14.5 + 6.5 + 15) * (100 + 24) / 100),
+            ((14.5 + 6.5) * (100 + 24) / 100),
+            (14.5 + 6.5 + 6.5 + 15)
+          ];
+          rows.push(row);
+        }
+        data.addRows(rows);
+
+        const options = {
+            title: 'ソウルゲイン（MAIN：玄武金剛弾・攻撃力・隣接・ブレイク状態）',
+            curveType: 'none',
+            legend: { position: 'bottom' }
+        };
+        const chart = new google.visualization.LineChart(
+            document.getElementById('main-1-3')
+        );
+        chart.draw(data, options);
+    });
+}
+main13();
+function main14() {
+    google.charts.setOnLoadCallback(() => {
+        let data = new google.visualization.DataTable();
+        data.addColumn('string', '戦闘回数');
+        data.addColumn('number', '青麒舞');
+        data.addColumn('number', '青麒玄');
+        data.addColumn('number', '青麒白');
+        data.addColumn('number', '青舞玄');
+        data.addColumn('number', '青舞白');
+        data.addColumn('number', '青玄白');
+
+        let rows = [];
+        for (let i = 0; i <= 10; i++) {
+          let sentou = i;
+          if (sentou > 5) {
+            sentou = 5;
+          }
+          let row = [
+            `${i}`, 
+            (10.5 * (100 + 24) / 100),
+            (10.5 + 9),
+            (10.5 + 6.5),
+            ((10.5 + 9) * (100 + 24) / 100),
+            ((10.5 + 6.5) * (100 + 24) / 100),
+            (10.5 + 9 + 6.5)
+          ];
+          rows.push(row);
+        }
+        data.addRows(rows);
+
+        const options = {
+            title: 'ソウルゲイン（MAIN：青龍鱗・攻撃力・隣接・ブレイク状態）',
+            curveType: 'none',
+            legend: { position: 'bottom' }
+        };
+        const chart = new google.visualization.LineChart(
+            document.getElementById('main-1-4')
+        );
+        chart.draw(data, options);
+    });
+}
+main14();
+function main15() {
+    google.charts.setOnLoadCallback(() => {
+        let data = new google.visualization.DataTable();
+        data.addColumn('string', '戦闘回数');
+        data.addColumn('number', '白麒舞');
+        data.addColumn('number', '白麒青');
+        data.addColumn('number', '白麒玄');
+        data.addColumn('number', '白舞青');
+        data.addColumn('number', '白舞玄');
+        data.addColumn('number', '白青玄');
+
+        let rows = [];
+        for (let i = 0; i <= 10; i++) {
+          let sentou = i;
+          if (sentou > 5) {
+            sentou = 5;
+          }
+          let row = [
+            `${i}`, 
+            ((10.5 + 30) * (100 + 24) / 100),
+            ((10.5 + 30) + 6.5 + 15),
+            ((10.5 + 30) + 9),
+            (((10.5 + 30) + 6.5 + 15) * (100 + 24) / 100),
+            (((10.5 + 30) + 9) * (100 + 24) / 100),
+            ((10.5 + 30) + 6.5 + 15 + 9)
+          ];
+          rows.push(row);
+        }
+        data.addRows(rows);
+
+        const options = {
+            title: 'ソウルゲイン（MAIN：白虎咬・攻撃力・隣接・ブレイク状態）',
+            curveType: 'none',
+            legend: { position: 'bottom' }
+        };
+        const chart = new google.visualization.LineChart(
+            document.getElementById('main-1-5')
+        );
+        chart.draw(data, options);
+    });
+}
+main15();
+// 防御力
+function main21() {
+    google.charts.setOnLoadCallback(() => {
+        let data = new google.visualization.DataTable();
+        data.addColumn('string', '戦闘回数');
+        for (column of ['麒舞玄', '麒舞青', '麒舞白', '麒玄青', '麒玄白', '麒青白']) {
+          data.addColumn('number', column);
+          data.addColumn(ANNOTATION);
+        }
+        let rows = [];
+        for (let i = 0; i <= 10; i++) {
+          let sentou = i;
+          if (sentou > 5) {
+            sentou = 5;
+          }
+          let a5 = null;
+          if (i % 10 === 0) {
+            a5 = `${ (10 + 6*sentou + 9 + 6.5) * (100 + 10) / 100}%`;
+          }
+          let row = [
+            `${i}`, 
+            ((10 + 6*sentou) + 0 + 9) * (100 + 10) / 100,
+            null,
+            (10 + 6*sentou) + 0 + 6.5,
+            null,
+            (10 + 6*sentou) + 0 + 6.5,
+            null,
+            (10 + 6*sentou + 9 + 6.5) * (100 + 10) / 100,
+            null,
+            (10 + 6*sentou + 9 + 6.5) * (100 + 10) / 100,
+            a5,
+            (10 + 6*sentou + 6.5 + 6.5),
+            null
+          ];
+          rows.push(row);
+        }
+
+        data.addRows(rows);
+        const options = {
+            title: 'ソウルゲイン（MAIN：麒麟・防御力・戦闘回数）',
+            curveType: 'none',
+            legend: { position: 'bottom' }
+        };
+        const chart = new google.visualization.LineChart(
+            document.getElementById('main-2-1')
+        );
+        chart.draw(data, options);
+    });
+}
+main21();
+function main22() {
+    google.charts.setOnLoadCallback(() => {
+        let data = new google.visualization.DataTable();
+        data.addColumn('string', '戦闘回数');
+        for (column of ['舞麒玄', '舞麒青', '舞麒白', '舞玄青', '舞玄白', '舞青白']) {
+          data.addColumn('number', column);
+          data.addColumn(ANNOTATION);
+        }
+        let rows = [];
+        for (let i = 0; i <= 10; i++) {
+          let sentou = i;
+          if (sentou > 5) {
+            sentou = 5;
+          }
+          let a5 = null;
+          if (i % 10 === 0) {
+            a5 = `${(6*sentou + 9 + 6.5) * (100 + 10) / 100}%`;
+          }
+          let row = [
+            `${i}`, 
+            (6*sentou + 0 + 9) * (100 + 10) / 100,
+            null,
+            (6*sentou + 0 + 6.5),
+            null,
+            (6*sentou + 0 + 6.5),
+            null,
+            (6*sentou + 9 + 6.5) * (100 + 10) / 100,
+            null,
+            (6*sentou + 9 + 6.5) * (100 + 10) / 100,
+            a5,
+            (6*sentou + 6.5 + 6.5),
+            null
+          ];
+          rows.push(row);
+        }
+
+        data.addRows(rows);
+        const options = {
+            title: 'ソウルゲイン（MAIN：舞朱雀・防御力・戦闘回数）',
+            curveType: 'none',
+            legend: { position: 'bottom' }
+        };
+        const chart = new google.visualization.LineChart(
+            document.getElementById('main-2-2')
+        );
+        chart.draw(data, options);
+    });
+}
+main22();
+function main23() {
+    google.charts.setOnLoadCallback(() => {
+        let data = new google.visualization.DataTable();
+        data.addColumn('string', '気力');
+        for (column of ['玄麒舞', '玄麒青', '玄麒白', '玄舞青', '玄舞白', '玄青白']) {
+          data.addColumn('number', column);
+          data.addColumn(ANNOTATION);
+        }
+        let rows = [];
+        for (let i = 0; i <= 7; i++) {
+          let hidame = 0;
+          if (i >= 2) {
+            hidame = 25;
+          }
+          let a6 = null;
+          if (i % 7 === 0 || i === 2) {
+            a6 = `${(3*i + 14.5 + 6.5 + 6.5) * (100 + hidame) / 100}%`;
+          }
+          let row = [
+            `${100 + i*10}`, 
+            (3*i + 14.5 + 0 + 0) * (100 + hidame) / 100,
+            null,
+            (3*i + 14.5 + 0 + 6.5) * (100 + hidame) / 100,
+            null,
+            (3*i + 14.5 + 0 + 6.5) * (100 + hidame) / 100,
+            null,
+            (3*i + 14.5 + 0 + 6.5) * (100 + hidame) / 100,
+            null,
+            (3*i + 14.5 + 0 + 6.5) * (100 + hidame) / 100,
+            null,
+            (3*i + 14.5 + 6.5 + 6.5) * (100 + hidame) / 100,
+            a6
+          ];
+          rows.push(row);
+        }
+
+        data.addRows(rows);
+        const options = {
+            title: 'ソウルゲイン（MAIN：玄武金剛弾・防御力・気力）',
+            curveType: 'none',
+            legend: { position: 'bottom' }
+        };
+        const chart = new google.visualization.LineChart(
+            document.getElementById('main-2-3')
+        );
+        chart.draw(data, options);
+    });
+}
+main23();
+function main24() {
+    google.charts.setOnLoadCallback(() => {
+        let data = new google.visualization.DataTable();
+        data.addColumn('string', '気力');
+        for (column of ['青麒舞', '青麒玄', '青麒白', '青舞玄', '青舞白', '青玄白']) {
+          data.addColumn('number', column);
+          data.addColumn(ANNOTATION);
+        }
+        let rows = [];
+        for (let i = 0; i <= 7; i++) {
+          let a6 = null;
+          if (i % 7 === 0) {
+            a6 = `${(3*i + 10.5 + 9 + 6.5) * (100 + 10) / 100}%`;
+          }
+          let row = [
+            `${100 + i*10}`, 
+            (3*i + 10.5 + 0 + 0),
+            null,
+            (3*i + 10.5 + 0 + 9) * (100 + 10) / 100,
+            null,
+            (3*i + 10.5 + 0 + 6.5),
+            null,
+            (3*i + 10.5 + 0 + 9) * (100 + 10) / 100,
+            null,
+            (3*i + 10.5 + 0 + 6.5),
+            null,
+            (3*i + 10.5 + 9 + 6.5) * (100 + 10) / 100,
+            a6
+          ];
+          rows.push(row);
+        }
+
+        data.addRows(rows);
+        const options = {
+            title: 'ソウルゲイン（MAIN：青龍鱗・防御力・気力）',
+            curveType: 'none',
+            legend: { position: 'bottom' }
+        };
+        const chart = new google.visualization.LineChart(
+            document.getElementById('main-2-4')
+        );
+        chart.draw(data, options);
+    });
+}
+main24();
+function main25() {
+    google.charts.setOnLoadCallback(() => {
+        let data = new google.visualization.DataTable();
+        data.addColumn('string', '気力');
+        for (column of ['白麒舞', '白麒玄', '白麒青', '白舞玄', '白舞青', '白玄青']) {
+          data.addColumn('number', column);
+          data.addColumn(ANNOTATION);
+        }
+        let rows = [];
+        for (let i = 0; i <= 7; i++) {
+          let a6 = null;
+          if (i % 7 === 0) {
+            a6 = `${(3*i + 10.5 + 9 + 6.5) * (100 + 10) / 100}%`;
+          }
+          let row = [
+            `${100 + i*10}`,
+            (3*i + 10.5 + 0 + 0),
+            null,
+            (3*i + 10.5 + 0 + 9) * (100 + 10) / 100,
+            null,
+            (3*i + 10.5 + 0 + 6.5),
+            null,
+            (3*i + 10.5 + 0 + 9) * (100 + 10) / 100,
+            null,
+            (3*i + 10.5 + 0 + 6.5),
+            null,
+            (3*i + 10.5 + 9 + 6.5) * (100 + 10) / 100,
+            a6
+          ];
+          rows.push(row);
+        }
+
+        data.addRows(rows);
+        const options = {
+            title: 'ソウルゲイン（MAIN：白虎咬・防御力・気力）',
+            curveType: 'none',
+            legend: { position: 'bottom' }
+        };
+        const chart = new google.visualization.LineChart(
+            document.getElementById('main-2-5')
+        );
+        chart.draw(data, options);
+    });
+}
+main25();
+</script>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[SIZE L 空B 陸A 海B 宇A 攻撃&amp;防御タイプ 超改造 HP 2000 防御力 1000]]></summary></entry><entry><title type="html">「麒麟」の考察</title><link href="https://makietan.github.io/game/srwdd/2023/09/24/report.html" rel="alternate" type="text/html" title="「麒麟」の考察" /><published>2023-09-24T00:00:00+09:00</published><updated>2023-09-24T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2023/09/24/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2023/09/24/report.html"><![CDATA[<h2 id="ステータス">ステータス</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">HP</th>
+      <th style="text-align: center">攻撃力</th>
+      <th style="text-align: center">防御力</th>
+      <th style="text-align: center">照準値</th>
+      <th style="text-align: center">運動性</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">2970</td>
+      <td style="text-align: center">3120</td>
+      <td style="text-align: center">2880</td>
+      <td style="text-align: center">231</td>
+      <td style="text-align: center">183</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">威力</th>
+      <th style="text-align: center">命中</th>
+      <th style="text-align: center">射程</th>
+      <th style="text-align: center">ｱｸｼｮﾝ</th>
+      <th style="text-align: center">回数</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">245%</td>
+      <td style="text-align: center">+60%</td>
+      <td style="text-align: center">1-3</td>
+      <td style="text-align: center">2</td>
+      <td style="text-align: center">6</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">特性</th>
+      <th style="text-align: center">ﾚｱﾘﾃｨ</th>
+      <th style="text-align: center">LV</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">+5</td>
+      <td style="text-align: center">SSR+</td>
+      <td style="text-align: center">110</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="対決戦">対決戦</h2>
+
+<ul>
+  <li>ブレイクゲージポイント
+    <ul>
+      <li>1500</li>
+    </ul>
+  </li>
+  <li>WEAK
+    <ul>
+      <li>打撃/斬撃/実弾</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="maineg合金">MAIN（EG合金）</h2>
+
+<ul>
+  <li>気力120以上のとき、自分のアクション開始時にHPを20%回復する（回復上限5000）。</li>
+</ul>
+
+<h3 id="麒麟命中時">麒麟命中時</h3>
+
+<ul>
+  <li>移動力が3減少する弱体効果を敵ユニットに付与する（0より減少しない）（敵ユニットが2アクション行動する間有効）（効果は重複しない。効果の最も高いもののみ有効）。</li>
+</ul>
+
+<h3 id="ソウルゲイン装備時">ソウルゲイン装備時</h3>
+
+<ul>
+  <li>防御力が10%増加。</li>
+  <li>戦闘回数に応じて攻撃力・防御力が6%増加（最大30%）。</li>
+  <li>戦闘を行う敵ユニットが3マス以内にいるとき、距離が近いほど命中率・全ての攻撃の与ダメージが増加する（最大70%/42%）。</li>
+</ul>
+
+<div id="main-1" style="width: 100vw, height: 50vh"></div>
+<div id="main-1-ex" style="width: 100vw, height: 50vh"></div>
+
+<h2 id="必殺技スロット時eg合金">必殺技スロット時（EG合金）</h2>
+
+<ul>
+  <li>気力120以上のとき、自分のアクション開始時にHPを20%回復する（回復上限4000）。</li>
+</ul>
+
+<h3 id="麒麟命中時-1">麒麟命中時</h3>
+
+<ul>
+  <li>移動力が3減少する弱体効果を敵ユニットに付与する（0より減少しない）（敵ユニットが2アクション行動する間有効）（効果は重複しない。効果の最も高いもののみ有効）。</li>
+</ul>
+
+<h2 id="sub攻撃力防御力アップⅲ">SUB（攻撃力・防御力アップⅢ）</h2>
+
+<ul>
+  <li>攻撃力・防御力が2.5%増加する。</li>
+</ul>
+
+<div id="sub-1" style="width: 100vw, height: 50vh"></div>
+
+<!-- Google Charts -->
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+<script type="text/javascript">
+google.charts.load("current", { "packages": ["corechart"] });
+const ANNOTATION = { type: 'string', role: 'annotation' };
+const ANNOTATION_NUM = { type: 'number', role: 'annotation' };
+
+// MAIN
+function main1() {
+    google.charts.setOnLoadCallback(() => {
+        const data = google.visualization.arrayToDataTable([
+            ['戦闘回数', '攻撃力(%)', ANNOTATION, '防御力(%)', ANNOTATION, '照準値(%)', '運動性(%)'],
+            ['0', 0, null, 10, null, 0, 0],
+            ['1', 6, null, 10 + 6, null, 0, 0],
+            ['2', 12, null, 10 + 12, null, 0, 0],
+            ['3', 18, null, 10 + 18, null, 0, 0],
+            ['4', 24, null, 10 + 24, null, 0, 0],
+            ['5', 30, null, 10 + 30, `${10 + 30}%`, 0, 0],
+            ['6', 30, null, 10 + 30, null, 0, 0],
+            ['7', 30, null, 10 + 30, null, 0, 0],
+            ['8', 30, null, 10 + 30, null, 0, 0],
+            ['9', 30, null, 10 + 30, null, 0, 0],
+            ['10', 30, `30%`, 10 + 30, null, 0, 0]
+        ]);
+        const options = {
+            title: '麒麟（MAIN）',
+            curveType: 'none',
+            legend: { position: 'bottom' }
+        };
+        const chart = new google.visualization.LineChart(
+            document.getElementById('main-1')
+        );
+        chart.draw(data, options);
+    });
+}
+main1();
+function main1ex() {
+    google.charts.setOnLoadCallback(() => {
+        const data = google.visualization.arrayToDataTable([
+            ['敵とのマス', '与ダメージ(%)', ANNOTATION, '命中率(%)', ANNOTATION],
+            ['0', 42, "42%", 70, "70%"],
+            ['1', 31.5, null, 52.5, null],
+            ['2', 21, null, 35, null],
+            ['3', 10.5, null, 17.5, null]
+        ]);
+        const options = {
+            title: '麒麟（MAIN・敵ユニットとの距離・推定値）',
+            curveType: 'none',
+            legend: { position: 'bottom' }
+        };
+        const chart = new google.visualization.LineChart(
+            document.getElementById('main-1-ex')
+        );
+        chart.draw(data, options);
+    });
+}
+main1ex();
+// SUB
+function sub1() {
+    google.charts.setOnLoadCallback(() => {
+        const data = google.visualization.arrayToDataTable([
+            ['気力', '攻撃力(%)', '防御力(%)', ANNOTATION, '照準値(%)', '運動性(%)'],
+            ['100', 2.5, 2.5, "2.5%", 0, 0],
+            ['110', 2.5, 2.5, null, 0, 0],
+            ['120', 2.5, 2.5, null, 0, 0],
+            ['130', 2.5, 2.5, null, 0, 0],
+            ['140', 2.5, 2.5, null, 0, 0],
+            ['150', 2.5, 2.5, null, 0, 0],
+            ['160', 2.5, 2.5, null, 0, 0],
+            ['170', 2.5, 2.5, null, 0, 0]
+        ]);
+        const options = {
+            title: '麒麟（SUB）',
+            curveType: 'none',
+            legend: { position: 'bottom' }
+        };
+        const chart = new google.visualization.LineChart(
+            document.getElementById('sub-1')
+        );
+        chart.draw(data, options);
+    });
+}
+sub1();
+</script>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[ステータス]]></summary></entry><entry><title type="html">「舞朱雀」の考察</title><link href="https://makietan.github.io/game/srwdd/2023/09/23/report.html" rel="alternate" type="text/html" title="「舞朱雀」の考察" /><published>2023-09-23T00:00:00+09:00</published><updated>2023-09-23T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2023/09/23/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2023/09/23/report.html"><![CDATA[<h2 id="ステータス">ステータス</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">HP</th>
+      <th style="text-align: center">攻撃力</th>
+      <th style="text-align: center">防御力</th>
+      <th style="text-align: center">照準値</th>
+      <th style="text-align: center">運動性</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">3015</td>
+      <td style="text-align: center">3090</td>
+      <td style="text-align: center">2850</td>
+      <td style="text-align: center">228</td>
+      <td style="text-align: center">189</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">威力</th>
+      <th style="text-align: center">命中</th>
+      <th style="text-align: center">射程</th>
+      <th style="text-align: center">ｱｸｼｮﾝ</th>
+      <th style="text-align: center">回数</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">235%</td>
+      <td style="text-align: center">+85%</td>
+      <td style="text-align: center">1-3</td>
+      <td style="text-align: center">2</td>
+      <td style="text-align: center">5</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">特性</th>
+      <th style="text-align: center">ﾚｱﾘﾃｨ</th>
+      <th style="text-align: center">LV</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">+5</td>
+      <td style="text-align: center">SSR+</td>
+      <td style="text-align: center">110</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="対決戦">対決戦</h2>
+
+<ul>
+  <li>ブレイクゲージポイント
+    <ul>
+      <li>1500</li>
+    </ul>
+  </li>
+  <li>WEAK
+    <ul>
+      <li>打撃/実弾/ビーム</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="mainabmdシステム">MAIN（ABMDシステム）</h2>
+
+<ul>
+  <li>戦闘回数に応じて攻撃力・防御力が6%増加する（最大30%）。</li>
+  <li>戦闘を行う敵ユニットが3マス以内にいるとき、距離が近いほど照準値・全ての攻撃の与ダメージが増加する（最大24%/42%）。</li>
+</ul>
+
+<div id="main-1" style="width: 100vw, height: 50vh"></div>
+<div id="main-1-ex" style="width: 100vw, height: 50vh"></div>
+
+<h3 id="ソウルゲイン装備時">ソウルゲイン装備時</h3>
+
+<ul>
+  <li>移動力が2増加（効果は重複可能）。
+    <ul>
+      <li>3 + 2 = 5</li>
+    </ul>
+  </li>
+  <li>スピードが75増加する（効果は重複しない。効果の最も高いもののみ有効）。
+    <ul>
+      <li>475 + 75 = 550</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="必殺技スロット時abmdシステム">必殺技スロット時（ABMDシステム）</h2>
+
+<ul>
+  <li>移動力が2増加（効果は重複可能）。
+    <ul>
+      <li>3 + 2 = 5</li>
+    </ul>
+  </li>
+  <li>スピードが75増加する（効果は重複しない。効果の最も高いもののみ有効）。
+    <ul>
+      <li>475 + 75 = 550</li>
+    </ul>
+  </li>
+  <li>戦闘を行う敵ユニットが3マス以内にいるとき、距離が近いほど照準値・全ての攻撃の与ダメージが増加する（最大12%/24%）。</li>
+</ul>
+
+<div id="sp-1" style="width: 100vw, height: 50vh"></div>
+
+<h2 id="sub攻撃力防御力アップⅲ">SUB（攻撃力・防御力アップⅢ）</h2>
+
+<ul>
+  <li>攻撃力・防御力が2.5%増加する。</li>
+</ul>
+
+<div id="sub-1" style="width: 100vw, height: 50vh"></div>
+
+<!-- Google Charts -->
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+<script type="text/javascript">
+google.charts.load("current", { "packages": ["corechart"] });
+const ANNOTATION = { type: 'string', role: 'annotation' };
+const ANNOTATION_NUM = { type: 'number', role: 'annotation' };
+
+// MAIN
+function main1() {
+    google.charts.setOnLoadCallback(() => {
+        const data = google.visualization.arrayToDataTable([
+            ['戦闘回数', '攻撃力(%)', '防御力(%)', ANNOTATION, '照準値(%)', '運動性(%)'],
+            ['0', 0, 0, null, 0, 0],
+            ['1', 6, 6, null, 0, 0],
+            ['2', 12, 12, null, 0, 0],
+            ['3', 18, 18, null, 0, 0],
+            ['4', 24, 24, null, 0, 0],
+            ['5', 30, 30, "30%", 0, 0],
+            ['6', 30, 30, null, 0, 0],
+            ['7', 30, 30, null, 0, 0],
+            ['8', 30, 30, null, 0, 0],
+            ['9', 30, 30, null, 0, 0],
+            ['10', 30, 30, null, 0, 0]
+        ]);
+        const options = {
+            title: '舞朱雀（MAIN・戦闘回数）',
+            curveType: 'none',
+            legend: { position: 'bottom' }
+        };
+        const chart = new google.visualization.LineChart(
+            document.getElementById('main-1')
+        );
+        chart.draw(data, options);
+    });
+}
+main1();
+function main1ex() {
+    google.charts.setOnLoadCallback(() => {
+        const data = google.visualization.arrayToDataTable([
+            ['敵とのマス', '与ダメージ(%)', ANNOTATION, '照準値(%)', ANNOTATION],
+            ['0', 48, "48%", 24, "24%"],
+            ['1', 36, null, 18, null],
+            ['2', 24, null, 12, null],
+            ['3', 12, null, 6, null]
+        ]);
+        const options = {
+            title: '舞朱雀（MAIN・敵ユニットとの距離・推定値）',
+            curveType: 'none',
+            legend: { position: 'bottom' }
+        };
+        const chart = new google.visualization.LineChart(
+            document.getElementById('main-1-ex')
+        );
+        chart.draw(data, options);
+    });
+}
+main1ex();
+// 必殺技スロット時
+function sp1() {
+    google.charts.setOnLoadCallback(() => {
+        const data = google.visualization.arrayToDataTable([
+            ['敵とのマス', '与ダメージ(%)', ANNOTATION, '照準値(%)', ANNOTATION],
+            ['0', 24, "24%", 12, "12%"],
+            ['1', 18, null, 9, null],
+            ['2', 12, null, 6, null],
+            ['3', 6, null, 3, null]
+        ]);
+        const options = {
+            title: '舞朱雀（必殺技スロット時・敵ユニットとの距離・推定値）',
+            curveType: 'none',
+            legend: { position: 'bottom' }
+        };
+        const chart = new google.visualization.LineChart(
+            document.getElementById('sp-1')
+        );
+        chart.draw(data, options);
+    });
+}
+sp1();
+// SUB
+function sub1() {
+    google.charts.setOnLoadCallback(() => {
+        const data = google.visualization.arrayToDataTable([
+            ['気力', '攻撃力(%)', '防御力(%)', ANNOTATION, '照準値(%)', '運動性(%)'],
+            ['100', 2.5, 2.5, "2.5%", 0, 0],
+            ['110', 2.5, 2.5, null, 0, 0],
+            ['120', 2.5, 2.5, null, 0, 0],
+            ['130', 2.5, 2.5, null, 0, 0],
+            ['140', 2.5, 2.5, null, 0, 0],
+            ['150', 2.5, 2.5, null, 0, 0],
+            ['160', 2.5, 2.5, null, 0, 0],
+            ['170', 2.5, 2.5, null, 0, 0]
+        ]);
+        const options = {
+            title: '舞朱雀（SUB）',
+            curveType: 'none',
+            legend: { position: 'bottom' }
+        };
+        const chart = new google.visualization.LineChart(
+            document.getElementById('sub-1')
+        );
+        chart.draw(data, options);
+    });
+}
+sub1();
+</script>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[ステータス]]></summary></entry><entry><title type="html">「玄武金剛弾」の考察</title><link href="https://makietan.github.io/game/srwdd/2023/09/22/report.html" rel="alternate" type="text/html" title="「玄武金剛弾」の考察" /><published>2023-09-22T00:00:00+09:00</published><updated>2023-09-22T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2023/09/22/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2023/09/22/report.html"><![CDATA[<h2 id="ステータス">ステータス</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">HP</th>
+      <th style="text-align: center">攻撃力</th>
+      <th style="text-align: center">防御力</th>
+      <th style="text-align: center">照準値</th>
+      <th style="text-align: center">運動性</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">2700</td>
+      <td style="text-align: center">2880</td>
+      <td style="text-align: center">2640</td>
+      <td style="text-align: center">219</td>
+      <td style="text-align: center">201</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">威力</th>
+      <th style="text-align: center">命中</th>
+      <th style="text-align: center">射程</th>
+      <th style="text-align: center">ｱｸｼｮﾝ</th>
+      <th style="text-align: center">回数</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">230%</td>
+      <td style="text-align: center">+40%</td>
+      <td style="text-align: center">1-3</td>
+      <td style="text-align: center">2</td>
+      <td style="text-align: center">4</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">特性</th>
+      <th style="text-align: center">ﾚｱﾘﾃｨ</th>
+      <th style="text-align: center">LV</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">+5</td>
+      <td style="text-align: center">SSR+</td>
+      <td style="text-align: center">110</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="対決戦">対決戦</h2>
+
+<ul>
+  <li>ブレイクゲージポイント
+    <ul>
+      <li>1500</li>
+    </ul>
+  </li>
+  <li>WEAK
+    <ul>
+      <li>打撃/実弾/ビーム</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="main重装甲ⅳ">MAIN（重装甲Ⅳ）</h2>
+
+<ul>
+  <li>気力120以上のとき、被ダメージを25%軽減する。</li>
+  <li>攻撃力・防御力・照準値が14.5%増加する。</li>
+</ul>
+
+<div id="main-1" style="width: 100vw, height: 50vh"></div>
+<div id="main-1-ex" style="width: 100vw, height: 50vh"></div>
+
+<h2 id="必殺技スロット時重装甲ⅳ">必殺技スロット時（重装甲Ⅳ）</h2>
+
+<ul>
+  <li>気力120以上のとき、被ダメージを10%軽減する。</li>
+  <li>攻撃力・防御力・照準値が9%増加する。</li>
+</ul>
+
+<div id="sp-1" style="width: 100vw, height: 50vh"></div>
+<div id="sp-1-ex" style="width: 100vw, height: 50vh"></div>
+
+<h2 id="subhpアップⅱ">SUB（HPアップⅡ）</h2>
+
+<ul>
+  <li>HPが5%増加する。</li>
+</ul>
+
+<div id="sub-1" style="width: 100vw, height: 50vh"></div>
+
+<!-- Google Charts -->
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+<script type="text/javascript">
+google.charts.load("current", { "packages": ["corechart"] });
+const ANNOTATION = { type: 'string', role: 'annotation' };
+const ANNOTATION_NUM = { type: 'number', role: 'annotation' };
+
+// MAIN
+function main1() {
+    google.charts.setOnLoadCallback(() => {
+        const data = google.visualization.arrayToDataTable([
+            ['気力', '攻撃力(%)', '防御力(%)', '照準値(%)', ANNOTATION, '運動性(%)', '計測値', ANNOTATION],
+            ['100', 14.5, 14.5, 14.5, "14.5%", 0, 2880 * (100 +14.5 +3*0) / 100, null],
+            ['110', 14.5, 14.5, 14.5, null, 0, 2880 * (100 +14.5 +3*1) / 100, null],
+            ['120', 14.5, 14.5, 14.5, null, 0, 2880 * (100 +14.5 +3*2) / 100, null],
+            ['130', 14.5, 14.5, 14.5, null, 0, 2880 * (100 +14.5 +3*3) / 100, null],
+            ['140', 14.5, 14.5, 14.5, null, 0, 2880 * (100 +14.5 +3*4) / 100, null],
+            ['150', 14.5, 14.5, 14.5, null, 0, 2880 * (100 +14.5 +3*5) / 100, null],
+            ['160', 14.5, 14.5, 14.5, null, 0, 2880 * (100 +14.5 +3*6) / 100, null],
+            ['170', 14.5, 14.5, 14.5, null, 0, 2880 * (100 +14.5 +3*7) / 100, `${2880 * (100 +14.5 +3*7) / 100}`]
+        ]);
+        const options = {
+            title: '玄武金剛弾（MAIN）',
+            curveType: 'none',
+            legend: { position: 'bottom' },
+            series: {
+                0: { type: 'line', targetAxisIndex: 0},
+                1: { type: 'line', targetAxisIndex: 0},
+                2: { type: 'line', targetAxisIndex: 0},
+                3: { type: 'line', targetAxisIndex: 0},
+                4: { type: 'bars', targetAxisIndex: 1, annotations: { stem: { length: 0 } }}
+            }
+        };
+        const chart = new google.visualization.LineChart(
+            document.getElementById('main-1')
+        );
+        chart.draw(data, options);
+    });
+}
+main1();
+function main1ex() {
+    google.charts.setOnLoadCallback(() => {
+        const data = google.visualization.arrayToDataTable([
+            ['気力', '被ダメージ(%)', ANNOTATION],
+            ['100', 0, "0%"],
+            ['110', 0, null],
+            ['120', 25, "25%"],
+            ['130', 25, null],
+            ['140', 25, null],
+            ['150', 25, null],
+            ['160', 25, null],
+            ['170', 25, null]
+        ]);
+        const options = {
+            title: '玄武金剛弾（MAIN）',
+            curveType: 'none',
+            legend: { position: 'bottom' },
+            areaOpacity: 0
+        };
+        const chart = new google.visualization.LineChart(
+            document.getElementById('main-1-ex')
+        );
+        chart.draw(data, options);
+    });
+}
+main1ex();
+// SP
+function sp1() {
+    google.charts.setOnLoadCallback(() => {
+        const data = google.visualization.arrayToDataTable([
+            ['気力', '攻撃力(%)', '防御力(%)', '照準値(%)', ANNOTATION, '運動性(%)'],
+            ['100', 9, 9, 9, "9%", 0],
+            ['110', 9, 9, 9, null, 0],
+            ['120', 9, 9, 9, null, 0],
+            ['130', 9, 9, 9, null, 0],
+            ['140', 9, 9, 9, null, 0],
+            ['150', 9, 9, 9, null, 0],
+            ['160', 9, 9, 9, null, 0],
+            ['170', 9, 9, 9, null, 0]
+        ]);
+        const options = {
+            title: '玄武金剛弾（必殺技スロット時）',
+            curveType: 'none',
+            legend: { position: 'bottom' }
+        };
+        const chart = new google.visualization.LineChart(
+            document.getElementById('sp-1')
+        );
+        chart.draw(data, options);
+    });
+}
+sp1();
+function sp1ex() {
+    google.charts.setOnLoadCallback(() => {
+        const data = google.visualization.arrayToDataTable([
+            ['気力', '被ダメージ(%)', ANNOTATION],
+            ['100', 0, "0%"],
+            ['110', 0, null],
+            ['120', 10, "10%"],
+            ['130', 10, null],
+            ['140', 10, null],
+            ['150', 10, null],
+            ['160', 10, null],
+            ['170', 10, null]
+        ]);
+        const options = {
+            title: '玄武金剛弾（必殺技スロット時）',
+            curveType: 'none',
+            legend: { position: 'bottom' },
+            areaOpacity: 0
+        };
+        const chart = new google.visualization.LineChart(
+            document.getElementById('sp-1-ex')
+        );
+        chart.draw(data, options);
+    });
+}
+sp1ex();
+// SUB
+function sub1() {
+    google.charts.setOnLoadCallback(() => {
+        const data = google.visualization.arrayToDataTable([
+            ['気力', 'HP(%)', ANNOTATION, 'HP', ANNOTATION],
+            ['100', 5, "5%", 2700 * (100 + 5) / 100, null],
+            ['110', 5, null, 2700 * (100 + 5) / 100, null],
+            ['120', 5, null, 2700 * (100 + 5) / 100, null],
+            ['130', 5, null, 2700 * (100 + 5) / 100, null],
+            ['140', 5, null, 2700 * (100 + 5) / 100, null],
+            ['150', 5, null, 2700 * (100 + 5) / 100, null],
+            ['160', 5, null, 2700 * (100 + 5) / 100, null],
+            ['170', 5, null, 2700 * (100 + 5) / 100, `${2700 * (100 + 5) / 100}`]
+        ]);
+        const options = {
+            title: '玄武金剛弾（SUB）',
+            curveType: 'none',
+            legend: { position: 'bottom' },
+            series: {
+                0: { type: 'line', targetAxisIndex: 0},
+                1: { type: 'bars', targetAxisIndex: 1}
+            }
+        };
+        const chart = new google.visualization.LineChart(
+            document.getElementById('sub-1')
+        );
+        chart.draw(data, options);
+    });
+}
+sub1();
+
+</script>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[ステータス]]></summary></entry><entry><title type="html">「青龍鱗」の考察</title><link href="https://makietan.github.io/game/srwdd/2023/09/21/report.html" rel="alternate" type="text/html" title="「青龍鱗」の考察" /><published>2023-09-21T00:00:00+09:00</published><updated>2023-09-21T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2023/09/21/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2023/09/21/report.html"><![CDATA[<h2 id="ステータス">ステータス</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">HP</th>
+      <th style="text-align: center">攻撃力</th>
+      <th style="text-align: center">防御力</th>
+      <th style="text-align: center">照準値</th>
+      <th style="text-align: center">運動性</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">2610</td>
+      <td style="text-align: center">2820</td>
+      <td style="text-align: center">2610</td>
+      <td style="text-align: center">225</td>
+      <td style="text-align: center">210</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">威力</th>
+      <th style="text-align: center">命中</th>
+      <th style="text-align: center">射程</th>
+      <th style="text-align: center">ｱｸｼｮﾝ</th>
+      <th style="text-align: center">回数</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">240%</td>
+      <td style="text-align: center">+40%</td>
+      <td style="text-align: center">1-2</td>
+      <td style="text-align: center">3</td>
+      <td style="text-align: center">4</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">特性</th>
+      <th style="text-align: center">ﾚｱﾘﾃｨ</th>
+      <th style="text-align: center">LV</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">+5</td>
+      <td style="text-align: center">SSR+</td>
+      <td style="text-align: center">110</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="対決戦">対決戦</h2>
+
+<ul>
+  <li>ブレイクゲージポイント
+    <ul>
+      <li>1500</li>
+    </ul>
+  </li>
+  <li>WEAK
+    <ul>
+      <li>打撃/実弾/ビーム</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="mainブレイクアタックⅳ">MAIN（ブレイクアタックⅣ）</h2>
+
+<ul>
+  <li>ブレイク状態の敵ユニットとの戦闘時、攻撃力が30%増加する。</li>
+  <li>攻撃力・防御力・照準値・運動性が10.5%増加する。</li>
+</ul>
+
+<div id="main-1" style="width: 100vw, height: 50vh"></div>
+<div id="main-1-ex" style="width: 100vw, height: 50vh"></div>
+
+<h2 id="必殺技スロット時ブレイクアタックⅳ">必殺技スロット時（ブレイクアタックⅣ）</h2>
+
+<ul>
+  <li>ブレイク状態の敵ユニットとの戦闘時、攻撃力が15%増加する。</li>
+  <li>攻撃力・防御力・照準値・運動性が6.5%増加する。</li>
+</ul>
+
+<div id="sp-1" style="width: 100vw, height: 50vh"></div>
+<div id="sp-1-ex" style="width: 100vw, height: 50vh"></div>
+
+<h2 id="sub攻撃力防御力アップⅰ">SUB（攻撃力・防御力アップⅠ）</h2>
+
+<ul>
+  <li>攻撃力・防御力が1.5%増加する。</li>
+</ul>
+
+<div id="sub-1" style="width: 100vw, height: 50vh"></div>
+
+<!-- Google Charts -->
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+<script type="text/javascript">
+google.charts.load("current", { "packages": ["corechart"] });
+const ANNOTATION = { type: 'string', role: 'annotation' };
+const ANNOTATION_NUM = { type: 'number', role: 'annotation' };
+
+// MAIN
+function main1() {
+    google.charts.setOnLoadCallback(() => {
+        const data = google.visualization.arrayToDataTable([
+            ['気力', '攻撃力(%)', '防御力(%)', '照準値(%)', '運動性(%)', ANNOTATION, '計測値', ANNOTATION],
+            ['100', 10.5, 10.5, 10.5, 10.5, "10.5%", 2820 * (100 +10.5 +3*0) / 100, null],
+            ['110', 10.5, 10.5, 10.5, 10.5, null, 2820 * (100 +10.5 +3*1) / 100, null],
+            ['120', 10.5, 10.5, 10.5, 10.5, null, 2820 * (100 +10.5 +3*2) / 100, null],
+            ['130', 10.5, 10.5, 10.5, 10.5, null, 2820 * (100 +10.5 +3*3) / 100, null],
+            ['140', 10.5, 10.5, 10.5, 10.5, null, 2820 * (100 +10.5 +3*4) / 100, null],
+            ['150', 10.5, 10.5, 10.5, 10.5, null, 2820 * (100 +10.5 +3*5) / 100, null],
+            ['160', 10.5, 10.5, 10.5, 10.5, null, 2820 * (100 +10.5 +3*6) / 100, null],
+            ['170', 10.5, 10.5, 10.5, 10.5, null, 2820 * (100 +10.5 +3*7) / 100, `${2820 * (100 +10.5 +3*7) / 100}`]
+        ]);
+        const options = {
+            title: '青龍鱗（MAIN）',
+            curveType: 'none',
+            legend: { position: 'bottom' },
+            series: {
+                0: { type: 'line', targetAxisIndex: 0},
+                1: { type: 'line', targetAxisIndex: 0},
+                2: { type: 'line', targetAxisIndex: 0},
+                3: { type: 'line', targetAxisIndex: 0},
+                4: { type: 'bars', targetAxisIndex: 1, annotations: { stem: { length: 0 } }}
+            }
+        };
+        const chart = new google.visualization.LineChart(
+            document.getElementById('main-1')
+        );
+        chart.draw(data, options);
+    });
+}
+main1();
+function main1ex() {
+    google.charts.setOnLoadCallback(() => {
+        const data = google.visualization.arrayToDataTable([
+            ['気力', '攻撃力(%)', ANNOTATION, '防御力(%)', '照準値(%)', '運動性(%)', ANNOTATION, '計測値', ANNOTATION],
+            ['100', 10.5 +30, null, 10.5, 10.5, 10.5, "10.5%", 2820 * (100 +10.5 +3*0 +30) / 100, null],
+            ['110', 10.5 +30, null, 10.5, 10.5, 10.5, null, 2820 * (100 +10.5 +3*1 +30) / 100, null],
+            ['120', 10.5 +30, null, 10.5, 10.5, 10.5, null, 2820 * (100 +10.5 +3*2 +30) / 100, null],
+            ['130', 10.5 +30, null, 10.5, 10.5, 10.5, null, 2820 * (100 +10.5 +3*3 +30) / 100, null],
+            ['140', 10.5 +30, "40.5%", 10.5, 10.5, 10.5, null, 2820 * (100 +10.5 +3*4 +30) / 100, null],
+            ['150', 10.5 +30, null, 10.5, 10.5, 10.5, null, 2820 * (100 +10.5 +3*5 +30) / 100, null],
+            ['160', 10.5 +30, null, 10.5, 10.5, 10.5, null, 2820 * (100 +10.5 +3*6 +30) / 100, null],
+            ['170', 10.5 +30, null, 10.5, 10.5, 10.5, null, 2820 * (100 +10.5 +3*7 +30) / 100, `${2820 * (100 +10.5 +3*7 + 30) / 100}`]
+        ]);
+        const options = {
+            title: '青龍鱗（MAIN・ブレイク状態）',
+            curveType: 'none',
+            legend: { position: 'bottom' },
+            series: {
+                0: { type: 'line', targetAxisIndex: 0},
+                1: { type: 'line', targetAxisIndex: 0},
+                2: { type: 'line', targetAxisIndex: 0},
+                3: { type: 'line', targetAxisIndex: 0},
+                4: { type: 'bars', targetAxisIndex: 1, annotations: { stem: { length: 0 } }}
+            }
+        };
+        const chart = new google.visualization.LineChart(
+            document.getElementById('main-1-ex')
+        );
+        chart.draw(data, options);
+    });
+}
+main1ex();
+// SP
+function sp1() {
+    google.charts.setOnLoadCallback(() => {
+        const data = google.visualization.arrayToDataTable([
+            ['気力', '攻撃力(%)', '防御力(%)', '照準値(%)', '運動性(%)', ANNOTATION],
+            ['100', 6.5, 6.5, 6.5, 6.5, "6.5%"],
+            ['110', 6.5, 6.5, 6.5, 6.5, null],
+            ['120', 6.5, 6.5, 6.5, 6.5, null],
+            ['130', 6.5, 6.5, 6.5, 6.5, null],
+            ['140', 6.5, 6.5, 6.5, 6.5, null],
+            ['150', 6.5, 6.5, 6.5, 6.5, null],
+            ['160', 6.5, 6.5, 6.5, 6.5, null],
+            ['170', 6.5, 6.5, 6.5, 6.5, null]
+        ]);
+        const options = {
+            title: '青龍鱗（必殺技スロット時）',
+            curveType: 'none',
+            legend: { position: 'bottom' }
+        };
+        const chart = new google.visualization.LineChart(
+            document.getElementById('sp-1')
+        );
+        chart.draw(data, options);
+    });
+}
+sp1();
+function sp1ex() {
+    google.charts.setOnLoadCallback(() => {
+        const data = google.visualization.arrayToDataTable([
+            ['気力', '攻撃力(%)', ANNOTATION, '防御力(%)', '照準値(%)', '運動性(%)', ANNOTATION],
+            ['100', 6.5 + 15, "21.5%", 6.5, 6.5, 6.5, "6.5%"],
+            ['110', 6.5 + 15, null, 6.5, 6.5, 6.5, null],
+            ['120', 6.5 + 15, null, 6.5, 6.5, 6.5, null],
+            ['130', 6.5 + 15, null, 6.5, 6.5, 6.5, null],
+            ['140', 6.5 + 15, null, 6.5, 6.5, 6.5, null],
+            ['150', 6.5 + 15, null, 6.5, 6.5, 6.5, null],
+            ['160', 6.5 + 15, null, 6.5, 6.5, 6.5, null],
+            ['170', 6.5 + 15, null, 6.5, 6.5, 6.5, null]
+        ]);
+        const options = {
+            title: '青龍鱗（必殺技スロット時・ブレイク状態）',
+            curveType: 'none',
+            legend: { position: 'bottom' }
+        };
+        const chart = new google.visualization.LineChart(
+            document.getElementById('sp-1-ex')
+        );
+        chart.draw(data, options);
+    });
+}
+sp1ex();
+// SUB
+function sub1() {
+    google.charts.setOnLoadCallback(() => {
+        const data = google.visualization.arrayToDataTable([
+            ['気力', '攻撃力(%)', '防御力(%)', ANNOTATION, '照準値(%)', '運動性(%)'],
+            ['100', 1.5, 1.5, "1.5%", 0, 0],
+            ['110', 1.5, 1.5, null, 0, 0],
+            ['120', 1.5, 1.5, null, 0, 0],
+            ['130', 1.5, 1.5, null, 0, 0],
+            ['140', 1.5, 1.5, null, 0, 0],
+            ['150', 1.5, 1.5, null, 0, 0],
+            ['160', 1.5, 1.5, null, 0, 0],
+            ['170', 1.5, 1.5, null, 0, 0]
+        ]);
+        const options = {
+            title: '青龍鱗（SUB）',
+            curveType: 'none',
+            legend: { position: 'bottom' }
+        };
+        const chart = new google.visualization.LineChart(
+            document.getElementById('sub-1')
+        );
+        chart.draw(data, options);
+    });
+}
+sub1();
+
+</script>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[ステータス]]></summary></entry><entry><title type="html">「白虎咬」の考察</title><link href="https://makietan.github.io/game/srwdd/2023/09/20/report.html" rel="alternate" type="text/html" title="「白虎咬」の考察" /><published>2023-09-20T00:00:00+09:00</published><updated>2023-09-20T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2023/09/20/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2023/09/20/report.html"><![CDATA[<h2 id="ステータス">ステータス</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">HP</th>
+      <th style="text-align: center">攻撃力</th>
+      <th style="text-align: center">防御力</th>
+      <th style="text-align: center">照準値</th>
+      <th style="text-align: center">運動性</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">2565</td>
+      <td style="text-align: center">2850</td>
+      <td style="text-align: center">2640</td>
+      <td style="text-align: center">222</td>
+      <td style="text-align: center">210</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">威力</th>
+      <th style="text-align: center">命中</th>
+      <th style="text-align: center">射程</th>
+      <th style="text-align: center">ｱｸｼｮﾝ</th>
+      <th style="text-align: center">回数</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">230%</td>
+      <td style="text-align: center">+40%</td>
+      <td style="text-align: center">1-3</td>
+      <td style="text-align: center">2</td>
+      <td style="text-align: center">4</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">特性</th>
+      <th style="text-align: center">ﾚｱﾘﾃｨ</th>
+      <th style="text-align: center">LV</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">+5</td>
+      <td style="text-align: center">SSR+</td>
+      <td style="text-align: center">110</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="対決戦">対決戦</h2>
+
+<ul>
+  <li>ブレイクゲージポイント
+    <ul>
+      <li>1500</li>
+    </ul>
+  </li>
+  <li>WEAK
+    <ul>
+      <li>打撃/実弾/ビーム</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="mainカウンターⅳ">MAIN（カウンターⅣ）</h2>
+
+<ul>
+  <li>反撃時、100%の確率で先制攻撃を行う。</li>
+  <li>攻撃力・防御力・照準値・運動性が10.5%増加する。</li>
+</ul>
+
+<div id="main-1" style="width: 100vw, height: 50vh"></div>
+
+<h2 id="必殺技スロット時カウンターⅳ">必殺技スロット時（カウンターⅣ）</h2>
+
+<ul>
+  <li>反撃時、80%の確率で先制攻撃を行う。</li>
+  <li>攻撃力・防御力・照準値・運動性が6.5%増加する。</li>
+</ul>
+
+<div id="sp-1" style="width: 100vw, height: 50vh"></div>
+
+<h2 id="sub攻撃力防御力アップⅰ">SUB（攻撃力・防御力アップⅠ）</h2>
+
+<ul>
+  <li>攻撃力・防御力が1.5%増加する。</li>
+</ul>
+
+<div id="sub-1" style="width: 100vw, height: 50vh"></div>
+
+<!-- Google Charts -->
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+<script type="text/javascript">
+google.charts.load("current", { "packages": ["corechart"] });
+const ANNOTATION = { type: 'string', role: 'annotation' };
+const ANNOTATION_NUM = { type: 'number', role: 'annotation' };
+
+// MAIN
+function main1() {
+    google.charts.setOnLoadCallback(() => {
+        const data = google.visualization.arrayToDataTable([
+            ['気力', '攻撃力(%)', '防御力(%)', '照準値(%)', '運動性(%)', ANNOTATION, '計測値', ANNOTATION],
+            ['100', 10.5, 10.5, 10.5, 10.5, "10.5%", 2850 * (100 +10.5 +3*0) / 100, null],
+            ['110', 10.5, 10.5, 10.5, 10.5, null, 2850 * (100 +10.5 +3*1) / 100, null],
+            ['120', 10.5, 10.5, 10.5, 10.5, null, 2850 * (100 +10.5 +3*2) / 100, null],
+            ['130', 10.5, 10.5, 10.5, 10.5, null, 2850 * (100 +10.5 +3*3) / 100, null],
+            ['140', 10.5, 10.5, 10.5, 10.5, null, 2850 * (100 +10.5 +3*4) / 100, null],
+            ['150', 10.5, 10.5, 10.5, 10.5, null, 2850 * (100 +10.5 +3*5) / 100, null],
+            ['160', 10.5, 10.5, 10.5, 10.5, null, 2850 * (100 +10.5 +3*6) / 100, null],
+            ['170', 10.5, 10.5, 10.5, 10.5, null, 2850 * (100 +10.5 +3*7) / 100, `${2850 * (100 +10.5 +3*7) / 100}`]
+        ]);
+        const options = {
+            title: '白虎咬（MAIN）',
+            curveType: 'none',
+            legend: { position: 'bottom' },
+            series: {
+                0: { type: 'line', targetAxisIndex: 0},
+                1: { type: 'line', targetAxisIndex: 0},
+                2: { type: 'line', targetAxisIndex: 0},
+                3: { type: 'line', targetAxisIndex: 0},
+                4: { type: 'bars', targetAxisIndex: 1, annotations: { stem: { length: 0 } }}
+            }
+        };
+        const chart = new google.visualization.LineChart(
+            document.getElementById('main-1')
+        );
+        chart.draw(data, options);
+    });
+}
+main1();
+// SP
+function sp1() {
+    google.charts.setOnLoadCallback(() => {
+        const data = google.visualization.arrayToDataTable([
+            ['気力', '攻撃力(%)', '防御力(%)', '照準値(%)', '運動性(%)', ANNOTATION],
+            ['100', 6.5, 6.5, 6.5, 6.5, "6.5%"],
+            ['110', 6.5, 6.5, 6.5, 6.5, null],
+            ['120', 6.5, 6.5, 6.5, 6.5, null],
+            ['130', 6.5, 6.5, 6.5, 6.5, null],
+            ['140', 6.5, 6.5, 6.5, 6.5, null],
+            ['150', 6.5, 6.5, 6.5, 6.5, null],
+            ['160', 6.5, 6.5, 6.5, 6.5, null],
+            ['170', 6.5, 6.5, 6.5, 6.5, null]
+        ]);
+        const options = {
+            title: '白虎咬（必殺技スロット時）',
+            curveType: 'none',
+            legend: { position: 'bottom' }
+        };
+        const chart = new google.visualization.LineChart(
+            document.getElementById('sp-1')
+        );
+        chart.draw(data, options);
+    });
+}
+sp1();
+// SUB
+function sub1() {
+    google.charts.setOnLoadCallback(() => {
+        const data = google.visualization.arrayToDataTable([
+            ['気力', '攻撃力(%)', '防御力(%)', ANNOTATION, '照準値(%)', '運動性(%)'],
+            ['100', 1.5, 1.5, "1.5%", 0, 0],
+            ['110', 1.5, 1.5, null, 0, 0],
+            ['120', 1.5, 1.5, null, 0, 0],
+            ['130', 1.5, 1.5, null, 0, 0],
+            ['140', 1.5, 1.5, null, 0, 0],
+            ['150', 1.5, 1.5, null, 0, 0],
+            ['160', 1.5, 1.5, null, 0, 0],
+            ['170', 1.5, 1.5, null, 0, 0]
+        ]);
+        const options = {
+            title: '白虎咬（SUB）',
+            curveType: 'none',
+            legend: { position: 'bottom' }
+        };
+        const chart = new google.visualization.LineChart(
+            document.getElementById('sub-1')
+        );
+        chart.draw(data, options);
+    });
+}
+sub1();
+</script>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[ステータス]]></summary></entry><entry><title type="html">Mac で Android の動画を撮影するなら scrcpy が良い</title><link href="https://makietan.github.io/tech/2023/09/16/report.html" rel="alternate" type="text/html" title="Mac で Android の動画を撮影するなら scrcpy が良い" /><published>2023-09-16T00:00:00+09:00</published><updated>2023-09-16T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2023/09/16/report</id><content type="html" xml:base="https://makietan.github.io/tech/2023/09/16/report.html"><![CDATA[<p>訳あって、iPhoneではなくAndroidで画面撮影したいことがあり、色々探してたら便利なものが出てきた。</p>
 
 <blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">Genymobile/scrcpy: Display and control your Android device <a href="https://t.co/qlWlx1NYBs">https://t.co/qlWlx1NYBs</a> <br /><br />Mac で画面録画するならこれだな<br />便利だった</p>&mdash; まきえたん🥦☘️ (@makietanX) <a href="https://twitter.com/makietanX/status/1700172963046391983?ref_src=twsrc%5Etfw">September 8, 2023</a></blockquote>
 <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -161,7 +1915,7 @@
   <li>[+]勇者（洸） LV20
     <ul>
       <li>攻撃力・照準値 17.5%</li>
-      <li>気力上限が30%増加</li>
+      <li>気力上限が30増加</li>
     </ul>
   </li>
   <li>ガード（洸） LV10
@@ -331,907 +2085,4 @@ function main4() {
     });
 }
 main4();
-</script>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[（ゴッドゴーガンはSSR+にできてないので今回は除外）。]]></summary></entry><entry><title type="html">「ゴッドアルファ」の考察</title><link href="https://makietan.github.io/game/srwdd/2023/09/13/report.html" rel="alternate" type="text/html" title="「ゴッドアルファ」の考察" /><published>2023-09-13T00:00:00+09:00</published><updated>2023-09-13T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2023/09/13/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2023/09/13/report.html"><![CDATA[<h2 id="ステータス">ステータス</h2>
-
-<table>
-  <thead>
-    <tr>
-      <th style="text-align: center">HP</th>
-      <th style="text-align: center">攻撃力</th>
-      <th style="text-align: center">防御力</th>
-      <th style="text-align: center">照準値</th>
-      <th style="text-align: center">運動性</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: center">2790</td>
-      <td style="text-align: center">3330</td>
-      <td style="text-align: center">2880</td>
-      <td style="text-align: center">249</td>
-      <td style="text-align: center">192</td>
-    </tr>
-  </tbody>
-</table>
-
-<table>
-  <thead>
-    <tr>
-      <th style="text-align: center">威力</th>
-      <th style="text-align: center">命中</th>
-      <th style="text-align: center">射程</th>
-      <th style="text-align: center">ｱｸｼｮﾝ</th>
-      <th style="text-align: center">回数</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: center">265%</td>
-      <td style="text-align: center">+65%</td>
-      <td style="text-align: center">1-4</td>
-      <td style="text-align: center">3</td>
-      <td style="text-align: center">5</td>
-    </tr>
-  </tbody>
-</table>
-
-<table>
-  <thead>
-    <tr>
-      <th style="text-align: center">特性</th>
-      <th style="text-align: center">ﾚｱﾘﾃｨ</th>
-      <th style="text-align: center">LV</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: center">+5</td>
-      <td style="text-align: center">SSR+</td>
-      <td style="text-align: center">110</td>
-    </tr>
-  </tbody>
-</table>
-
-<h2 id="対決戦">対決戦</h2>
-
-<ul>
-  <li>ブレイクゲージポイント
-    <ul>
-      <li>1500</li>
-    </ul>
-  </li>
-  <li>WEAK
-    <ul>
-      <li>打撃/斬撃/実弾</li>
-    </ul>
-  </li>
-</ul>
-
-<h2 id="mainムートロン金属">MAIN（ムートロン金属）</h2>
-
-<ul>
-  <li>気力が10上昇する毎に、ゴッドアルファの必殺技威力が<span style="color: #e65100">10%増加</span>する。</li>
-</ul>
-
-<h3 id="ライディーン装備時">ライディーン装備時</h3>
-
-<ul>
-  <li>攻撃力・防御力・照準値が<span style="color: #e65100">16%増加</span>する。</li>
-  <li>戦闘回数に応じて攻撃力・防御力・照準値が<span style="color: #e65100">7%増加</span>する（最大35%）。</li>
-  <li>「海」の地形にいるとき、全ての攻撃の与ダメージが<span style="color: #e65100">50%増加</span>する。</li>
-</ul>
-
-<div id="main-1" style="width: 100vw, height: 50vh"></div>
-<div id="main-1-ex" style="width: 100vw, height: 50vh"></div>
-<div id="main-1-ex-2" style="width: 100vw, height: 50vh"></div>
-
-<h2 id="必殺技スロット時ムートロン金属">必殺技スロット時（ムートロン金属）</h2>
-
-<ul>
-  <li>戦闘回数に応じて攻撃力・防御力・照準値が<span style="color: #e65100">3%増加</span>する（最大15%）。</li>
-  <li>「海」の地形にいるとき、全ての攻撃の与ダメージが<span style="color: #e65100">25%増加</span>する。</li>
-</ul>
-
-<div id="sp-1" style="width: 100vw, height: 50vh"></div>
-<div id="sp-1-ex" style="width: 100vw, height: 50vh"></div>
-
-<h2 id="sub攻撃力アップⅲ">SUB（攻撃力アップⅢ）</h2>
-
-<ul>
-  <li>攻撃力が<span style="color: #e65100">5%増加</span>する。</li>
-</ul>
-
-<div id="sub-1" style="width: 100vw, height: 50vh"></div>
-
-<!-- Google Charts -->
-<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-
-<script type="text/javascript">
-google.charts.load("current", { "packages": ["corechart"] });
-const ANNOTATION = { type: 'string', role: 'annotation' };
-const ANNOTATION_NUM = { type: 'number', role: 'annotation' };
-// MAIN・ライディーン
-function main1() {
-    google.charts.setOnLoadCallback(() => {
-        const data = google.visualization.arrayToDataTable([
-            ['戦闘回数', '攻撃力(%)', '防御力(%)', '照準値(%)', ANNOTATION, '運動性(%)'],
-            ['0',       16,         16,         16,             null,            0],
-            ['1',       16+7,       16+7,       16+7,           null,            0],
-            ['2',       16+7*2,     16+7*2,     16+7*2,         null,            0],
-            ['3',       16+7*3,     16+7*3,     16+7*3,         null,            0],
-            ['4',       16+7*4,     16+7*4,     16+7*4,         null,            0],
-            ['5',       16+7*5,     16+7*5,     16+7*5, `${16+7*5}%`,            0],
-            ['6',       16+7*5,     16+7*5,     16+7*5,         null,            0],
-            ['7',       16+7*5,     16+7*5,     16+7*5,         null,            0],
-            ['8',       16+7*5,     16+7*5,     16+7*5,         null,            0],
-            ['9',       16+7*5,     16+7*5,     16+7*5,         null,            0],
-            ['10',      16+7*5,     16+7*5,     16+7*5,         null,            0]
-        ]);
-        const options = {
-            title: 'ゴッドアルファ（MAIN・ライディーン・戦闘回数）',
-            curveType: 'none',
-            legend: { position: 'bottom' }
-        };
-        const chart = new google.visualization.LineChart(
-            document.getElementById('main-1')
-        );
-        chart.draw(data, options);
-    });
-}
-main1();
-function main1ex() {
-    google.charts.setOnLoadCallback(() => {
-        const data = google.visualization.arrayToDataTable([
-            ['気力', '必殺技威力(%)', ANNOTATION, 'ダメージ(戦闘回数：0)', 'ダメージ(戦闘回数：5・上振れ値)', ANNOTATION_NUM],
-            ['100',       265,            null,         3330*(100+16)/100*265/100,         3330*(100+16+7*5)/100*265/100 -         3330*(100+16)/100*265/100,         3330*(100+16+7*5)/100*265/100],
-            ['110',    265+10,            null,    3330*(100+16)/100*(265+10)/100,    3330*(100+16+7*5)/100*(265+10)/100 -    3330*(100+16)/100*(265+10)/100,                                  null],
-            ['120',  265+10*2,            null,  3330*(100+16)/100*(265+10*2)/100,  3330*(100+16+7*5)/100*(265+10*2)/100 -  3330*(100+16)/100*(265+10*2)/100,                                  null],
-            ['130',  265+10*3,            null,  3330*(100+16)/100*(265+10*3)/100,  3330*(100+16+7*5)/100*(265+10*3)/100 -  3330*(100+16)/100*(265+10*3)/100,                                  null],
-            ['140',  265+10*4,            null,  3330*(100+16)/100*(265+10*4)/100,  3330*(100+16+7*5)/100*(265+10*4)/100 -  3330*(100+16)/100*(265+10*4)/100,                                  null],
-            ['150',  265+10*5,            null,  3330*(100+16)/100*(265+10*5)/100,  3330*(100+16+7*5)/100*(265+10*5)/100 -  3330*(100+16)/100*(265+10*5)/100,  3330*(100+16+7*5)/100*(265+10*5)/100],
-            ['160',  265+10*6,            null,  3330*(100+16)/100*(265+10*6)/100,  3330*(100+16+7*5)/100*(265+10*6)/100 -  3330*(100+16)/100*(265+10*6)/100,                                  null],
-            ['170',  265+10*7,            null,  3330*(100+16)/100*(265+10*7)/100,  3330*(100+16+7*5)/100*(265+10*7)/100 -  3330*(100+16)/100*(265+10*7)/100,                                  null],
-            ['180',  265+10*8,            null,  3330*(100+16)/100*(265+10*8)/100,  3330*(100+16+7*5)/100*(265+10*8)/100 -  3330*(100+16)/100*(265+10*8)/100,                                  null],
-            ['190',  265+10*9,            null,  3330*(100+16)/100*(265+10*9)/100,  3330*(100+16+7*5)/100*(265+10*9)/100 -  3330*(100+16)/100*(265+10*9)/100,                                  null],
-            ['200', 265+10*10, `${265+10*10}%`, 3330*(100+16)/100*(265+10*10)/100, 3330*(100+16+7*5)/100*(265+10*10)/100 - 3330*(100+16)/100*(265+10*10)/100, 3330*(100+16+7*5)/100*(265+10*10)/100]
-        ]);
-        const options = {
-            title: 'ゴッドアルファ（MAIN・ライディーン・気力）',
-            curveType: 'none',
-            legend: { position: 'bottom' },
-            series: {
-                0: { type: 'line', targetAxisIndex: 0, annotations: { stem: { length: 8 } }},
-                1: { type: 'bars', targetAxisIndex: 1},
-                2: { type: 'bars', targetAxisIndex: 1, annotations: { stem: { length: 32 } } }
-            },
-            isStacked: true
-        };
-        const chart = new google.visualization.ComboChart(
-            document.getElementById('main-1-ex')
-        );
-        chart.draw(data, options);
-    });
-}
-main1ex();
-function main1ex2() {
-    google.charts.setOnLoadCallback(() => {
-        const data = google.visualization.arrayToDataTable([
-            ['気力', '与ダメージ(%)', ANNOTATION],
-            ['100', 50, null],
-            ['110', 50, null],
-            ['120', 50, null],
-            ['130', 50, null],
-            ['140', 50, null],
-            ['150', 50, null],
-            ['160', 50, null],
-            ['170', 50, null],
-            ['180', 50, null],
-            ['190', 50, null],
-            ['200', 50, `${50}%`]
-        ]);
-        const options = {
-            title: 'ゴッドアルファ（MAIN・ライディーン・海）',
-            curveType: 'none',
-            legend: { position: 'bottom' }
-        };
-        const chart = new google.visualization.LineChart(
-            document.getElementById('main-1-ex-2')
-        );
-        chart.draw(data, options);
-    });
-}
-main1ex2();
-// SP
-function sp1() {
-    google.charts.setOnLoadCallback(() => {
-        const data = google.visualization.arrayToDataTable([
-            ['戦闘回数', '攻撃力(%)', '防御力(%)', '照準値(%)', ANNOTATION, '運動性(%)'],
-            ['0',    0,    0,    0,      null, 0],
-            ['1',    3,    3,    3,      null, 0],
-            ['2',  3*2,  3*2,  3*2,      null, 0],
-            ['3',  3*3,  3*3,  3*3,      null, 0],
-            ['4',  3*4,  3*4,  3*4,      null, 0],
-            ['5',  3*5,  3*5,  3*5, `${3*5}%`, 0],
-            ['6',  3*5,  3*5,  3*5,      null, 0],
-            ['7',  3*5,  3*5,  3*5,      null, 0],
-            ['8',  3*5,  3*5,  3*5,      null, 0],
-            ['9',  3*5,  3*5,  3*5,      null, 0],
-            ['10', 3*5, 3*5, 3*5,        null, 0]
-        ]);
-        const options = {
-            title: 'ゴッドアルファ（必殺技スロット時・戦闘回数）',
-            curveType: 'none',
-            legend: { position: 'bottom' }
-        };
-        const chart = new google.visualization.LineChart(
-            document.getElementById('sp-1')
-        );
-        chart.draw(data, options);
-    });
-}
-sp1();
-function sp1ex() {
-    google.charts.setOnLoadCallback(() => {
-        const data = google.visualization.arrayToDataTable([
-             ['気力', '与ダメージ(%)', ANNOTATION],
-            ['100', 25, null],
-            ['110', 25, null],
-            ['120', 25, null],
-            ['130', 25, null],
-            ['140', 25, null],
-            ['150', 25, null],
-            ['160', 25, null],
-            ['170', 25, null],
-            ['180', 25, null],
-            ['190', 25, null],
-            ['200', 25, `${25}%`]
-        ]);
-        const options = {
-            title: 'ゴッドアルファ（必殺技スロット時・海）',
-            curveType: 'none',
-            legend: { position: 'bottom' }
-        };
-        const chart = new google.visualization.LineChart(
-            document.getElementById('sp-1-ex')
-        );
-        chart.draw(data, options);
-    });
-}
-sp1ex();
-// SUB1
-function sub1() {
-    google.charts.setOnLoadCallback(() => {
-        const data = google.visualization.arrayToDataTable([
-            ['気力', '攻撃力(%)', ANNOTATION, '防御力(%)', '照準値(%)', '運動性(%)'],
-            ['100', 5, null, 0, 0, 0],
-            ['110', 5, null, 0, 0, 0],
-            ['120', 5, null, 0, 0, 0],
-            ['130', 5, null, 0, 0, 0],
-            ['140', 5, null, 0, 0, 0],
-            ['150', 5, null, 0, 0, 0],
-            ['160', 5, null, 0, 0, 0],
-            ['170', 5, null, 0, 0, 0],
-            ['180', 5, null, 0, 0, 0],
-            ['190', 5, null, 0, 0, 0],
-            ['200', 5, "5%", 0, 0, 0],
-        ]);
-        const options = {
-            title: 'ゴッドアルファ（SUB）',
-            curveType: 'none',
-            legend: { position: 'bottom' }
-        };
-        const chart = new google.visualization.LineChart(
-            document.getElementById('sub-1')
-        );
-        chart.draw(data, options);
-    });
-}
-sub1();
-</script>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[ステータス]]></summary></entry><entry><title type="html">コロナ禍やロシア・ウクライナ戦争で小麦が高騰していたのに出店しているのを見るとなんとも言えなくなるラーメン屋</title><link href="https://makietan.github.io/gourmet/2023/09/12/report.html" rel="alternate" type="text/html" title="コロナ禍やロシア・ウクライナ戦争で小麦が高騰していたのに出店しているのを見るとなんとも言えなくなるラーメン屋" /><published>2023-09-12T00:00:00+09:00</published><updated>2023-09-12T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2023/09/12/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2023/09/12/report.html"><![CDATA[<div class="card">
-  <a href="https://www.tsr-net.co.jp/data/detail/1197979_1527.html"></a>
-  <div class="card__header">
-    <a href="https://www.tsr-net.co.jp/data/detail/1197979_1527.html">www.tsr-net.co.jp</a>
-  </div>
-  <div class="card__image">
-    <img src="https://www.tsr-net.co.jp/common/img/ogp.jpg" />
-  </div>
-  <div class="card__title">
-    <p>「ラーメン屋さん」の倒産が前年同期比3.5倍に急増　食材価格・光熱費高騰で年間最多ペース | TSRデータインサイト | 東京商工リサーチ</p>
-  </div>
-  <div class="card__description">
-    <p>　2023年1-8月の「ラーメン屋さん」の倒産（負債1,000万円以上）が28件（前年同期比250.0％増）に達し、前年同期の3.5倍と大幅に増えていることがわかった。コロナ禍の影響に加え、物価高、人件費上昇も直撃し、国民食として人気の高いラーメン屋さんが苦境に立たされている。</p>
-  </div>
-</div>
-
-<blockquote>
-  <p>さらに、昨今は、ロシアのウクライナ侵攻による小麦価格の上昇に加え、原油価格や様々な食材、電気・ガスなどの光熱費も上昇。また、人手不足に伴う人件費高騰など、急激なコストアップに見舞われ、体力がぜい弱な街のラーメン屋さんの経営は厳しさが増している。</p>
-</blockquote>
-
-<p>給付金目的の出店もあっただろうけど、都市開発で消えた店もあったりする。</p>
-
-<p>前者だとどうでもいいラーメン屋が消えるけど、
-後者だと美味しいラーメン屋が消える。</p>
-
-<p>なのでまぁ前者が多いなら別にいいかなと思う。</p>]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[www.tsr-net.co.jp 「ラーメン屋さん」の倒産が前年同期比3.5倍に急増　食材価格・光熱費高騰で年間最多ペース | TSRデータインサイト | 東京商工リサーチ 　2023年1-8月の「ラーメン屋さん」の倒産（負債1,000万円以上）が28件（前年同期比250.0％増）に達し、前年同期の3.5倍と大幅に増えていることがわかった。コロナ禍の影響に加え、物価高、人件費上昇も直撃し、国民食として人気の高いラーメン屋さんが苦境に立たされている。]]></summary></entry><entry><title type="html">「ゴッドブレイカー」の考察</title><link href="https://makietan.github.io/game/srwdd/2023/09/11/report.html" rel="alternate" type="text/html" title="「ゴッドブレイカー」の考察" /><published>2023-09-11T00:00:00+09:00</published><updated>2023-09-11T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2023/09/11/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2023/09/11/report.html"><![CDATA[<h2 id="ステータス">ステータス</h2>
-
-<table>
-  <thead>
-    <tr>
-      <th style="text-align: center">HP</th>
-      <th style="text-align: center">攻撃力</th>
-      <th style="text-align: center">防御力</th>
-      <th style="text-align: center">照準値</th>
-      <th style="text-align: center">運動性</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: center">2475</td>
-      <td style="text-align: center">2970</td>
-      <td style="text-align: center">2640</td>
-      <td style="text-align: center">222</td>
-      <td style="text-align: center">210</td>
-    </tr>
-  </tbody>
-</table>
-
-<table>
-  <thead>
-    <tr>
-      <th style="text-align: center">威力</th>
-      <th style="text-align: center">命中</th>
-      <th style="text-align: center">射程</th>
-      <th style="text-align: center">ｱｸｼｮﾝ</th>
-      <th style="text-align: center">回数</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: center">250%</td>
-      <td style="text-align: center">+50%</td>
-      <td style="text-align: center">1-3</td>
-      <td style="text-align: center">2</td>
-      <td style="text-align: center">4</td>
-    </tr>
-  </tbody>
-</table>
-
-<table>
-  <thead>
-    <tr>
-      <th style="text-align: center">特性</th>
-      <th style="text-align: center">ﾚｱﾘﾃｨ</th>
-      <th style="text-align: center">LV</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: center">+5</td>
-      <td style="text-align: center">SSR+</td>
-      <td style="text-align: center">110</td>
-    </tr>
-  </tbody>
-</table>
-
-<h2 id="対決戦">対決戦</h2>
-
-<ul>
-  <li>ブレイクゲージポイント
-    <ul>
-      <li>1500</li>
-    </ul>
-  </li>
-  <li>WEAK
-    <ul>
-      <li>打撃/斬撃/実弾</li>
-    </ul>
-  </li>
-</ul>
-
-<h2 id="mainサブパワーユニット">MAIN（サブ・パワー・ユニット）</h2>
-
-<ul>
-  <li>攻撃力・照準値が21%増加する。</li>
-  <li>気力が10上昇する毎に、防御力・照準値が1.5%増加する。</li>
-  <li>戦闘回数に応じて攻撃力・防御力が3.2%増加する（最大16%）。</li>
-</ul>
-
-<div id="main-1" style="width: 100vw, height: 50vh"></div>
-<div id="main-1-ex" style="width: 100vw, height: 50vh"></div>
-<div id="main-1-ex-2" style="width: 100vw, height: 50vh"></div>
-
-<h2 id="必殺技スロット時サブパワーユニット">必殺技スロット時（サブ・パワー・ユニット）</h2>
-
-<ul>
-  <li>攻撃力・照準値が11%増加する。</li>
-  <li>戦闘回数に応じて攻撃力・防御力が1.8%増加する（最大9%）</li>
-</ul>
-
-<div id="sp-1" style="width: 100vw, height: 50vh"></div>
-
-<h2 id="sub攻撃力アップⅰ">SUB（攻撃力アップⅠ）</h2>
-
-<ul>
-  <li>攻撃力が2.5%増加する。</li>
-</ul>
-
-<div id="sub-1" style="width: 100vw, height: 50vh"></div>
-
-<!-- Google Charts -->
-<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-
-<script type="text/javascript">
-google.charts.load("current", { "packages": ["corechart"] });
-const ANNOTATION = { type: 'string', role: 'annotation' };
-const ANNOTATION_NUM = { type: 'number', role: 'annotation' };
-
-// MAIN・ライディーン
-function main1() {
-    google.charts.setOnLoadCallback(() => {
-        const data = google.visualization.arrayToDataTable([
-            ['気力', '攻撃力(%)', '防御力(%)', ANNOTATION, '照準値(%)', ANNOTATION, '運動性(%)'],
-            ['100', 21, 0, null, 21, null, 0],
-            ['110', 21, 1.5, null, 21+1.5, null, 0],
-            ['120', 21, 1.5*2, null, 21+1.5*2, null, 0],
-            ['130', 21, 1.5*3, null, 21+1.5*3, null, 0],
-            ['140', 21, 1.5*4, null, 21+1.5*4, null, 0],
-            ['150', 21, 1.5*5, null, 21+1.5*5, null, 0],
-            ['160', 21, 1.5*6, null, 21+1.5*6, null, 0],
-            ['170', 21, 1.5*7, null, 21+1.5*7, null, 0],
-            ['180', 21, 1.5*8, null, 21+1.5*8, null, 0],
-            ['190', 21, 1.5*9, null, 21+1.5*9, null, 0],
-            ['200', 21, 1.5*10, `${1.5*10}%`, 21+1.5*10, `${21+1.5*10}%`, 0]
-        ]);
-        const options = {
-            title: 'ゴッドブレイカー（MAIN・ライディーン・気力）',
-            curveType: 'none',
-            legend: { position: 'bottom' }
-        };
-        const chart = new google.visualization.LineChart(
-            document.getElementById('main-1')
-        );
-        chart.draw(data, options);
-    });
-}
-main1();
-function main1ex() {
-    google.charts.setOnLoadCallback(() => {
-        const data = google.visualization.arrayToDataTable([
-            ['戦闘回数', '攻撃力(%)', ANNOTATION, '防御力(%)', ANNOTATION, '照準値(%)', '運動性(%)'],
-            ['0', 21, null, 0, null, 21, 0],
-            ['1', 21+3.2, null, 3.2, null, 21, 0],
-            ['2', 21+3.2*2, null, 3.2*2, null, 21, 0],
-            ['3', 21+3.2*3, null, 3.2*3, null, 21, 0],
-            ['4', 21+3.2*4, null, 3.2*4, null, 21, 0],
-            ['5', 21+3.2*5, null, 3.2*5, null, 21, 0],
-            ['6', 21+3.2*5, null, 3.2*5, null, 21, 0],
-            ['7', 21+3.2*5, null, 3.2*5, null, 21, 0],
-            ['8', 21+3.2*5, null, 3.2*5, null, 21, 0],
-            ['9', 21+3.2*5, null, 3.2*5, null, 21, 0],
-            ['10', 21+3.2*5, `${21+3.2*5}%`, 3.2*5, `${3.2*5}%`, 21, 0]
-        ]);
-        const options = {
-            title: 'ゴッドブレイカー（MAIN・ライディーン・戦闘回数・気力：100）',
-            curveType: 'none',
-            legend: { position: 'bottom' }
-        };
-        const chart = new google.visualization.LineChart(
-            document.getElementById('main-1-ex')
-        );
-        chart.draw(data, options);
-    });
-}
-main1ex();
-function main1ex2() {
-    google.charts.setOnLoadCallback(() => {
-        const data = google.visualization.arrayToDataTable([
-            ['気力', '防御力(%・戦闘回数：5)', ANNOTATION, '計算値（戦闘回数：5)', ANNOTATION_NUM],
-            ['100', 0+3.2*5, null, 2640*(100+0+3.2*5)/100, null],
-            ['110', 1.5+3.2*5, null, 2640*(100+1.5+3.2*5)/100, null],
-            ['120', 1.5*2+3.2*5, null, 2640*(100+1.5*2+3.2*5)/100, null],
-            ['130', 1.5*3+3.2*5, null, 2640*(100+1.5*3+3.2*5)/100, null],
-            ['140', 1.5*4+3.2*5, null, 2640*(100+1.5*4+3.2*5)/100, null],
-            ['150', 1.5*5+3.2*5, null, 2640*(100+1.5*5+3.2*5)/100, null],
-            ['160', 1.5*6+3.2*5, null, 2640*(100+1.5*6+3.2*5)/100, null],
-            ['170', 1.5*7+3.2*5, null, 2640*(100+1.5*7+3.2*5)/100, null],
-            ['180', 1.5*8+3.2*5, null, 2640*(100+1.5*8+3.2*5)/100, null],
-            ['190', 1.5*9+3.2*5, null, 2640*(100+1.5*9+3.2*5)/100, null],
-            ['200', 1.5*10+3.2*5, `${1.5*10+3.2*5}%`, 2640*(100+1.5*10+3.2*5)/100, 2640*(100+1.5*10+3.2*5)/100],
-        ]);
-        const options = {
-            title: 'ゴッドブレイカー（MAIN・ライディーン・気力・戦闘回数）',
-            curveType: 'none',
-            legend: { position: 'bottom' },
-            series: {
-                0: { type: 'line', targetAxisIndex: 0},
-                1: { type: 'bars', targetAxisIndex: 1, annotations: { stem: { length: 32 } }}
-            }
-        };
-        const chart = new google.visualization.LineChart(
-            document.getElementById('main-1-ex-2')
-        );
-        chart.draw(data, options);
-    });
-}
-main1ex2();
-// SP
-function sp1() {
-    google.charts.setOnLoadCallback(() => {
-        const data = google.visualization.arrayToDataTable([
-            ['戦闘回数', '攻撃力(%)', ANNOTATION, '防御力(%)', ANNOTATION, '照準値(%)', '運動性(%)'],
-            ['0', 11, null, 0, null, 11, 0],
-            ['1', 11+1.8, null, 1.8, null, 11, 0],
-            ['2', 11+1.8*2, null, 1.8*2, null, 11, 0],
-            ['3', 11+1.8*3, null, 1.8*3, null, 11, 0],
-            ['4', 11+1.8*4, null, 1.8*4, null, 11, 0],
-            ['5', 11+1.8*5, `${11+1.8*5}%`, 1.8*5, `${1.8*5}%`, 11, 0],
-            ['6', 11+1.8*5, null, 1.8*5, null, 11, 0],
-            ['7', 11+1.8*5, null, 1.8*5, null, 11, 0],
-            ['8', 11+1.8*5, null, 1.8*5, null, 11, 0],
-            ['9', 11+1.8*5, null, 1.8*5, null, 11, 0],
-            ['10', 11+1.8*5, null, 1.8*5, null, 11, 0]
-        ]);
-        const options = {
-            title: 'ゴッドブレイカー（必殺技スロット時・戦闘回数）',
-            curveType: 'none',
-            legend: { position: 'bottom' }
-        };
-        const chart = new google.visualization.LineChart(
-            document.getElementById('sp-1')
-        );
-        chart.draw(data, options);
-    });
-}
-sp1();
-// SUB1
-function sub1() {
-    google.charts.setOnLoadCallback(() => {
-        const data = google.visualization.arrayToDataTable([
-            ['気力', '攻撃力(%)', ANNOTATION, '防御力(%)', '照準値(%)', '運動性(%)'],
-            ['100', 2.5, null, 0, 0, 0],
-            ['110', 2.5, null, 0, 0, 0],
-            ['120', 2.5, null, 0, 0, 0],
-            ['130', 2.5, null, 0, 0, 0],
-            ['140', 2.5, null, 0, 0, 0],
-            ['150', 2.5, null, 0, 0, 0],
-            ['160', 2.5, null, 0, 0, 0],
-            ['170', 2.5, null, 0, 0, 0],
-            ['180', 2.5, null, 0, 0, 0],
-            ['190', 2.5, null, 0, 0, 0],
-            ['200', 2.5, "2.5%", 0, 0, 0],
-        ]);
-        const options = {
-            title: 'ゴッドブレイカー（SUB）',
-            curveType: 'none',
-            legend: { position: 'bottom' }
-        };
-        const chart = new google.visualization.LineChart(
-            document.getElementById('sub-1')
-        );
-        chart.draw(data, options);
-    });
-}
-sub1();
-</script>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[ステータス]]></summary></entry><entry><title type="html">「ゴッドミサイル」の考察</title><link href="https://makietan.github.io/game/srwdd/2023/09/10/report.html" rel="alternate" type="text/html" title="「ゴッドミサイル」の考察" /><published>2023-09-10T00:00:00+09:00</published><updated>2023-09-10T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2023/09/10/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2023/09/10/report.html"><![CDATA[<h2 id="ステータス">ステータス</h2>
-
-<table>
-  <thead>
-    <tr>
-      <th style="text-align: center">HP</th>
-      <th style="text-align: center">攻撃力</th>
-      <th style="text-align: center">防御力</th>
-      <th style="text-align: center">照準値</th>
-      <th style="text-align: center">運動性</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: center">2430</td>
-      <td style="text-align: center">3000</td>
-      <td style="text-align: center">2670</td>
-      <td style="text-align: center">219</td>
-      <td style="text-align: center">210</td>
-    </tr>
-  </tbody>
-</table>
-
-<table>
-  <thead>
-    <tr>
-      <th style="text-align: center">威力</th>
-      <th style="text-align: center">命中</th>
-      <th style="text-align: center">射程</th>
-      <th style="text-align: center">ｱｸｼｮﾝ</th>
-      <th style="text-align: center">回数</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: center">255%</td>
-      <td style="text-align: center">+50%</td>
-      <td style="text-align: center">1-3</td>
-      <td style="text-align: center">3</td>
-      <td style="text-align: center">4</td>
-    </tr>
-  </tbody>
-</table>
-
-<table>
-  <thead>
-    <tr>
-      <th style="text-align: center">特性</th>
-      <th style="text-align: center">ﾚｱﾘﾃｨ</th>
-      <th style="text-align: center">LV</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: center">+5</td>
-      <td style="text-align: center">SSR+</td>
-      <td style="text-align: center">110</td>
-    </tr>
-  </tbody>
-</table>
-
-<h2 id="対決戦">対決戦</h2>
-
-<ul>
-  <li>ブレイクゲージポイント
-    <ul>
-      <li>1500</li>
-    </ul>
-  </li>
-  <li>WEAK
-    <ul>
-      <li>打撃/斬撃/実弾</li>
-    </ul>
-  </li>
-</ul>
-
-<h2 id="main底力ⅳ">MAIN（底力Ⅳ）</h2>
-
-<ul>
-  <li>HPが25%減少する毎に、攻撃力・防御力が7%増加する。</li>
-  <li>攻撃力・防御力・照準値が12%増加する。</li>
-</ul>
-
-<div id="main-1" style="width: 100vw, height: 50vh"></div>
-
-<h2 id="必殺技スロット時底力ⅳ">必殺技スロット時（底力Ⅳ）</h2>
-
-<ul>
-  <li>HPが25%減少する毎に、攻撃力・防御力が4%増加する。</li>
-  <li>攻撃力・防御力・照準値が7.5%増加する。</li>
-</ul>
-
-<div id="sp-1" style="width: 100vw, height: 50vh"></div>
-
-<h2 id="sub攻撃力アップⅰ">SUB（攻撃力アップⅠ）</h2>
-
-<ul>
-  <li>攻撃力が2.5%増加する。</li>
-</ul>
-
-<div id="sub-1" style="width: 100vw, height: 50vh"></div>
-
-<!-- Google Charts -->
-<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-
-<script type="text/javascript">
-google.charts.load("current", { "packages": ["corechart"] });
-const ANNOTATION = { type: 'string', role: 'annotation' };
-const ANNOTATION_NUM = { type: 'number', role: 'annotation' };
-
-// MAIN・ライディーン
-function main1() {
-    google.charts.setOnLoadCallback(() => {
-        const data = google.visualization.arrayToDataTable([
-            ['HP', '攻撃力(%)', '防御力(%)', ANNOTATION, '照準値(%)', ANNOTATION, '運動性(%)'],
-            ['-0%', 12, 12, null, 12, `12%`, 0],
-            ['-25%', 12+7, 12+7, null, 12, null, 0],
-            ['-50%', 12+7*2, 12+7*2, null, 12, null, 0],
-            ['-75%', 12+7*3, 12+7*3, `${12+7*3}%`, 12, null, 0]
-        ]);
-        const options = {
-            title: 'ゴッドミサイル（MAIN・ライディーン・HP減少）',
-            curveType: 'none',
-            legend: { position: 'bottom' }
-        };
-        const chart = new google.visualization.LineChart(
-            document.getElementById('main-1')
-        );
-        chart.draw(data, options);
-    });
-}
-main1();
-// SP
-function sp1() {
-    google.charts.setOnLoadCallback(() => {
-        const data = google.visualization.arrayToDataTable([
-            ['HP', '攻撃力(%)', '防御力(%)', ANNOTATION, '照準値(%)', ANNOTATION, '運動性(%)'],
-            ['-0%', 7.5, 7.5, null, 7.5, `7.5%`, 0],
-            ['-25%', 7.5+4, 7.5+4, null, 7.5, null, 0],
-            ['-50%', 7.5+4*2, 7.5+4*2, null, 7.5, null, 0],
-            ['-75%', 7.5+4*3, 7.5+4*3, `${7.5+4*3}%`, 7.5, null, 0]
-        ]);
-        const options = {
-            title: 'ゴッドミサイル（必殺技スロット時・HP減少）',
-            curveType: 'none',
-            legend: { position: 'bottom' }
-        };
-        const chart = new google.visualization.LineChart(
-            document.getElementById('sp-1')
-        );
-        chart.draw(data, options);
-    });
-}
-sp1();
-// SUB
-function sub1() {
-    google.charts.setOnLoadCallback(() => {
-        const data = google.visualization.arrayToDataTable([
-            ['気力', '攻撃力(%)'],
-            ['100', 2.5],
-            ['110', 2.5],
-            ['120', 2.5],
-            ['130', 2.5],
-            ['140', 2.5],
-            ['150', 2.5],
-            ['160', 2.5],
-            ['170', 2.5],
-            ['180', 2.5],
-            ['190', 2.5],
-            ['200', 2.5]
-        ]);
-        const options = {
-            title: 'ゴッドミサイル（SUB）',
-            curveType: 'none',
-            legend: { position: 'bottom' }
-        };
-        const chart = new google.visualization.LineChart(
-            document.getElementById('sub-1')
-        );
-        chart.draw(data, options);
-    });
-}
-sub1();
-</script>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[ステータス]]></summary></entry><entry><title type="html">継続高校のアキの生誕日なので大洗に行ってきました</title><link href="https://makietan.github.io/otak/gameu/railway/garupan/2023/09/09/report.html" rel="alternate" type="text/html" title="継続高校のアキの生誕日なので大洗に行ってきました" /><published>2023-09-09T00:00:00+09:00</published><updated>2023-09-09T00:00:00+09:00</updated><id>https://makietan.github.io/otak/gameu/railway/garupan/2023/09/09/report</id><content type="html" xml:base="https://makietan.github.io/otak/gameu/railway/garupan/2023/09/09/report.html"><![CDATA[<h2 id="目的">目的</h2>
-
-<p>アキちゃんの等身大パネルを撮ること。</p>
-
-<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">9/9(土)はアキちゃんの誕生日のようですね。寿多庵では、お一人2,000円以上お召し上がり頂き、「アキちゃん、おめでとう！」の合言葉を頂いた方の中から、先着でお昼20名様、夜10名様に和風杏仁豆腐をサービスいたします。<br />ご来店をお待ちしております。<a href="https://twitter.com/hashtag/%E5%AF%BF%E5%A4%9A%E5%BA%B5?src=hash&amp;ref_src=twsrc%5Etfw">#寿多庵</a> <a href="https://twitter.com/hashtag/%E3%82%AC%E3%83%AB%E3%83%91%E3%83%B3?src=hash&amp;ref_src=twsrc%5Etfw">#ガルパン</a> <a href="https://twitter.com/hashtag/%E3%82%A2%E3%82%AD%E3%81%A1%E3%82%83%E3%82%93?src=hash&amp;ref_src=twsrc%5Etfw">#アキちゃん</a> <a href="https://twitter.com/hashtag/%E8%AA%95%E7%94%9F%E6%97%A5?src=hash&amp;ref_src=twsrc%5Etfw">#誕生日</a> <a href="https://t.co/jWamtA74dK">pic.twitter.com/jWamtA74dK</a></p>&mdash; 寿多庵（すだあん） (@sudaann1924) <a href="https://twitter.com/sudaann1924/status/1698642322345623984?ref_src=twsrc%5Etfw">September 4, 2023</a></blockquote>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<p>では行ってきます。</p>
-
-<h2 id="青春18きっぷ">青春18きっぷ</h2>
-
-<p>今年の夏最後の青春18きっぷ。</p>
-
-<p>水戸駅まで行って、そこからエリア外の鹿島臨海鉄道で大洗駅へ。</p>
-
-<h2 id="鹿島臨海鉄道">鹿島臨海鉄道</h2>
-
-<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">乗る <a href="https://t.co/SYjENRIrrn">pic.twitter.com/SYjENRIrrn</a></p>&mdash; まきえたん🥦☘️ (@makietanX) <a href="https://twitter.com/makietanX/status/1700316275778744359?ref_src=twsrc%5Etfw">September 9, 2023</a></blockquote>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<p>この扇風機好きです。</p>
-
-<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">この扇風機好き <a href="https://t.co/q8a5w4ctjl">pic.twitter.com/q8a5w4ctjl</a></p>&mdash; まきえたん🥦☘️ (@makietanX) <a href="https://twitter.com/makietanX/status/1700317584619635022?ref_src=twsrc%5Etfw">September 9, 2023</a></blockquote>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<h3 id="大洗駅">大洗駅</h3>
-
-<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">わりと満足 <a href="https://t.co/i32mTbBIZF">pic.twitter.com/i32mTbBIZF</a></p>&mdash; まきえたん🥦☘️ (@makietanX) <a href="https://twitter.com/makietanX/status/1700323755778793475?ref_src=twsrc%5Etfw">September 9, 2023</a></blockquote>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">アキがかわいいポスター見れたので満足 <a href="https://t.co/uqBX8GUMBy">pic.twitter.com/uqBX8GUMBy</a></p>&mdash; 牧江単 (@makietanG) <a href="https://twitter.com/makietanG/status/1700325172669276231?ref_src=twsrc%5Etfw">September 9, 2023</a></blockquote>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<p>ポスターが掲載されてました。
-アキちゃんがかわいすぎてシリアスな感じが全く無くていいですね。
-ミッコも相まってそれが際立ってる。</p>
-
-<h2 id="寿多庵">寿多庵</h2>
-
-<p>海遊号（バス）で最寄りのバス停から徒歩で到着…とはいかず、X(Twitter)に夢中で乗り過ごして。アクアワールド茨城県大洗水族館まで行ってしまいました。</p>
-
-<p>そこから徒歩で。</p>
-
-<p>当日は蒸し暑かったのでもちろん汗だく。</p>
-
-<p>なんとか到着。</p>
-
-<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">かわいい <a href="https://t.co/YjCGmBdNdb">pic.twitter.com/YjCGmBdNdb</a></p>&mdash; 牧江単 (@makietanG) <a href="https://twitter.com/makietanG/status/1700333070002581793?ref_src=twsrc%5Etfw">September 9, 2023</a></blockquote>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<p>かわいいアキちゃんがお出迎えしてくれました。</p>
-
-<h3 id="和風杏仁豆腐">和風杏仁豆腐</h3>
-
-<p>めちゃくちゃ美味しい。
-黒蜜きなこは神。
-また食べたい。</p>
-
-<p>それから缶バッジを頂きました。
-最高だ。</p>
-
-<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">アキちゃん、おめでとう！<br />和風杏仁豆腐すごく美味しかった <a href="https://t.co/CG197IUt6y">https://t.co/CG197IUt6y</a> <a href="https://t.co/6dvaxoGhEw">pic.twitter.com/6dvaxoGhEw</a></p>&mdash; 牧江単 (@makietanG) <a href="https://twitter.com/makietanG/status/1700353971154821362?ref_src=twsrc%5Etfw">September 9, 2023</a></blockquote>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<h2 id="アクアワールド">アクアワールド</h2>
-
-<p>ガルパンで見たことあるー！って気持ちがいっぱいでした。</p>
-
-<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">初めてきたのに何度も見たことある階段 <a href="https://t.co/fmq4HHXI4Y">pic.twitter.com/fmq4HHXI4Y</a></p>&mdash; まきえたん🥦☘️ (@makietanX) <a href="https://twitter.com/makietanX/status/1700329458618777957?ref_src=twsrc%5Etfw">September 9, 2023</a></blockquote>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<p>すげえ。</p>
-
-<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">すげぇ <a href="https://t.co/Zn08vLE8Al">pic.twitter.com/Zn08vLE8Al</a></p>&mdash; まきえたん🥦☘️ (@makietanX) <a href="https://twitter.com/makietanX/status/1700360806939185282?ref_src=twsrc%5Etfw">September 9, 2023</a></blockquote>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<p>そして、かわいい。</p>
-
-<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">暑い〜<br /><br />ちんちんあなご <a href="https://t.co/CrU9ZzjulC">pic.twitter.com/CrU9ZzjulC</a></p>&mdash; まきえたん🥦☘️ (@makietanX) <a href="https://twitter.com/makietanX/status/1700376740185706879?ref_src=twsrc%5Etfw">September 9, 2023</a></blockquote>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<p>失礼しました。「ちん」が2回出てしまいました。</p>
-
-<h2 id="ガルパン絵馬">ガルパン絵馬</h2>
-
-<p>以下のX(Twitter)のポスト(ツイート)を参照。</p>
-
-<h2 id="日野屋石油店">日野屋石油店</h2>
-
-<p>ほぼ毎日ミッコの写真をアップしてくれている日野屋石油店さんにも行きました。</p>
-
-<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">おはようございます🤗<br />今日の大洗分校は曇りです🌥<br />雨☔風🍃大丈夫でしたか?<br /><br />💮うがい🚰手洗い👏大洗⛩️忘れないでね🤗 <a href="https://t.co/Y40dK71x01">pic.twitter.com/Y40dK71x01</a></p>&mdash; (有)日野屋石油店🇫🇮 (@KazuM0521) <a href="https://twitter.com/KazuM0521/status/1700289009262395558?ref_src=twsrc%5Etfw">September 8, 2023</a></blockquote>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<p>いろいろ買いました（蒸し暑くて頭回っておらず、ミスってタンブラー買い忘れました）。</p>
-
-<p>またミッコの生誕日に行きたいなと思いつつ、平日なので絶賛悩み中…。</p>
-
-<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">絵馬見た後に<br />ミッコのところにも来ました <a href="https://t.co/zg7Q3Ui0Ei">pic.twitter.com/zg7Q3Ui0Ei</a></p>&mdash; 牧江単 (@makietanG) <a href="https://twitter.com/makietanG/status/1700393500335054915?ref_src=twsrc%5Etfw">September 9, 2023</a></blockquote>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<h2 id="ガルパンカフェ喫茶-パンツァーフォー">ガルパンカフェ(喫茶) パンツァーフォー</h2>
-
-<p>ローズヒップのアフォガードとウーロン茶を注文（どんな組み合わせやねん）。
-暑かったのでお茶飲みたかったんですよ。</p>
-
-<p>暑かったのでソフトクリームがすごく美味しかった。</p>
-
-<p>今度はご飯も食べたいな。</p>
-
-<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">ローズヒップのアホなんとかですわ～ <a href="https://t.co/qJaOg8dVhQ">pic.twitter.com/qJaOg8dVhQ</a></p>&mdash; 牧江単 (@makietanG) <a href="https://twitter.com/makietanG/status/1700399780571361439?ref_src=twsrc%5Etfw">September 9, 2023</a></blockquote>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<h2 id="戦車道大作戦">戦車道大作戦</h2>
-
-<h3 id="有償ガチャ400">有償ガチャ400</h3>
-
-<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">アキ400 <a href="https://t.co/gmTQBgN5ge">pic.twitter.com/gmTQBgN5ge</a></p>&mdash; 牧江単 (@makietanG) <a href="https://twitter.com/makietanG/status/1700167468944408701?ref_src=twsrc%5Etfw">September 8, 2023</a></blockquote>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<p>未所持が出たので満足だが、
-マリンフェスがこれで3体になった。</p>
-
-<p>そこまではいいから未所持を出してほしかった。</p>
-
-<h2 id="おわりに">おわりに</h2>
-
-<p>アキちゃん、誕生日おめでとう。</p>
-
-<p>おそらく最終章第3章の展開とアキちゃんがいなければガルパンの沼には足を入れてなかった。</p>
-
-<p>そのくらいかわいい存在。</p>]]></content><author><name>makietan</name></author><category term="otak" /><category term="gameu" /><category term="railway" /><category term="garupan" /><summary type="html"><![CDATA[目的]]></summary></entry><entry><title type="html">+5にしたサンダーボルトブレイカーを装備したマジンエンペラーGで最終エリアのピッツァを攻略する</title><link href="https://makietan.github.io/game/srwdd/2023/09/08/report.html" rel="alternate" type="text/html" title="+5にしたサンダーボルトブレイカーを装備したマジンエンペラーGで最終エリアのピッツァを攻略する" /><published>2023-09-08T00:00:00+09:00</published><updated>2023-09-08T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2023/09/08/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2023/09/08/report.html"><![CDATA[<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">通常攻撃のみのオートで放置して<br />ゲージブレイクしたら思いっきり殴る最終エリア<a href="https://twitter.com/hashtag/%E3%82%B9%E3%83%91%E3%83%AD%E3%83%9CDD?src=hash&amp;ref_src=twsrc%5Etfw">#スパロボDD</a> <a href="https://t.co/4iEl5lqxYM">pic.twitter.com/4iEl5lqxYM</a></p>&mdash; まきえたん🥦☘️ (@makietanX) <a href="https://twitter.com/makietanX/status/1700221069028896857?ref_src=twsrc%5Etfw">September 8, 2023</a></blockquote>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<p>通常攻撃のみのオートにして攻撃を耐え抜き、ピッツァからの攻撃時に、ブレイク状態にする。
-その後、サンダーボルトブレイカーからのグレートブラスターで倒す。</p>
-
-<p>これは<strong>アビリティによる弱体効果を無効化する</strong>ユニットパーツ持ちなら可能な戦法。</p>
-
-<p>ディーダリオン等でも可能だ。</p>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[通常攻撃のみのオートで放置してゲージブレイクしたら思いっきり殴る最終エリア#スパロボDD pic.twitter.com/4iEl5lqxYM&mdash; まきえたん🥦☘️ (@makietanX) September 8, 2023]]></summary></entry></feed>
+</script>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[（ゴッドゴーガンはSSR+にできてないので今回は除外）。]]></summary></entry></feed>
