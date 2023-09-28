@@ -1,4 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2023-09-27T12:17:07+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">口角炎っぽい</title><link href="https://makietan.github.io/health/2023/09/27/report.html" rel="alternate" type="text/html" title="口角炎っぽい" /><published>2023-09-27T00:00:00+09:00</published><updated>2023-09-27T00:00:00+09:00</updated><id>https://makietan.github.io/health/2023/09/27/report</id><content type="html" xml:base="https://makietan.github.io/health/2023/09/27/report.html"><![CDATA[<div class="card">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2023-09-28T12:16:27+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">しゃべりん 第173回 AFURIの柚子塩は美味い</title><link href="https://makietan.github.io/otaku/gourmet/2023/09/28/report.html" rel="alternate" type="text/html" title="しゃべりん 第173回 AFURIの柚子塩は美味い" /><published>2023-09-28T00:00:00+09:00</published><updated>2023-09-28T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/gourmet/2023/09/28/report</id><content type="html" xml:base="https://makietan.github.io/otaku/gourmet/2023/09/28/report.html"><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/Ye1PkMUFaQM?si=7hb4zRBBf8sDo9qG&amp;start=1240" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+
+<p>本当に美味しいので店に行こうか。</p>
+
+<p>ただ気持ち高めなので財布の中身はしっかりしておこう。</p>
+
+<p>あと六本木にキャッシュレス専門店がある。</p>
+
+<p>良いね。</p>]]></content><author><name>makietan</name></author><category term="otaku" /><category term="gourmet" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">口角炎っぽい</title><link href="https://makietan.github.io/health/2023/09/27/report.html" rel="alternate" type="text/html" title="口角炎っぽい" /><published>2023-09-27T00:00:00+09:00</published><updated>2023-09-27T00:00:00+09:00</updated><id>https://makietan.github.io/health/2023/09/27/report</id><content type="html" xml:base="https://makietan.github.io/health/2023/09/27/report.html"><![CDATA[<div class="card">
   <a href="https://makietan.github.io/health/2023/09/26/report.html"></a>
   <div class="card__header">
     <a href="https://makietan.github.io/health/2023/09/26/report.html">makietan.github.io</a>
@@ -1832,16 +1840,4 @@ function sub1() {
     });
 }
 sub1();
-</script>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[ステータス]]></summary></entry><entry><title type="html">Mac で Android の動画を撮影するなら scrcpy が良い</title><link href="https://makietan.github.io/tech/2023/09/16/report.html" rel="alternate" type="text/html" title="Mac で Android の動画を撮影するなら scrcpy が良い" /><published>2023-09-16T00:00:00+09:00</published><updated>2023-09-16T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2023/09/16/report</id><content type="html" xml:base="https://makietan.github.io/tech/2023/09/16/report.html"><![CDATA[<p>訳あって、iPhoneではなくAndroidで画面撮影したいことがあり、色々探してたら便利なものが出てきた。</p>
-
-<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">Genymobile/scrcpy: Display and control your Android device <a href="https://t.co/qlWlx1NYBs">https://t.co/qlWlx1NYBs</a> <br /><br />Mac で画面録画するならこれだな<br />便利だった</p>&mdash; まきえたん🥦☘️ (@makietanX) <a href="https://twitter.com/makietanX/status/1700172963046391983?ref_src=twsrc%5Etfw">September 8, 2023</a></blockquote>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<p>Genymotionで有名なGenymobileが出してました。</p>
-
-<p>Homebrewで簡単にインストール。</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>brew install scrcpy
-</code></pre></div></div>
-
-<p>いろいろオプションがあるので試すのがいいだろう。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[訳あって、iPhoneではなくAndroidで画面撮影したいことがあり、色々探してたら便利なものが出てきた。]]></summary></entry></feed>
+</script>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[ステータス]]></summary></entry></feed>
