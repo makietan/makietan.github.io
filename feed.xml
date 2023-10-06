@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2023-10-06T04:44:51+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">ドラクエウォークの地図をエクセルで管理する</title><link href="https://makietan.github.io/game/dqw/tech/2023/10/06/report.html" rel="alternate" type="text/html" title="ドラクエウォークの地図をエクセルで管理する" /><published>2023-10-06T00:00:00+09:00</published><updated>2023-10-06T00:00:00+09:00</updated><id>https://makietan.github.io/game/dqw/tech/2023/10/06/report</id><content type="html" xml:base="https://makietan.github.io/game/dqw/tech/2023/10/06/report.html"><![CDATA[<h2 id="はじめに">はじめに</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2023-10-06T12:16:13+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">ドラクエウォークの地図をエクセルで管理する</title><link href="https://makietan.github.io/game/dqw/tech/2023/10/06/report.html" rel="alternate" type="text/html" title="ドラクエウォークの地図をエクセルで管理する" /><published>2023-10-06T00:00:00+09:00</published><updated>2023-10-06T00:00:00+09:00</updated><id>https://makietan.github.io/game/dqw/tech/2023/10/06/report</id><content type="html" xml:base="https://makietan.github.io/game/dqw/tech/2023/10/06/report.html"><![CDATA[<h2 id="はじめに">はじめに</h2>
 
 <p>たくさんの地図を獲得できる環境にいるので取捨選択が非常に大変である。
 初期地図であれば簡単に捨てられるが、それ以外が悩ましい。
@@ -16,7 +16,7 @@
 <h3 id="4つ以上所持しているこころのチェック">4つ以上所持しているこころのチェック</h3>
 
 <p>4つ以上所持しているこころの一覧を別のシートで作る。
-それに VLOOKUP をかけてチェックしたデータをAQ2:BB2に配置して非表示にする。
+それにVLOOKUPをかけてチェックしたデータをAQ2:BB2に配置して非表示にする。
 その個数をもとにその地図の必要性をチェックする。
 12であればコンプで、0であれば全てが未コンプ。</p>
 
