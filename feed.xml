@@ -1,4 +1,168 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2023-10-18T12:16:13+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">久々に爆笑した動画がこちら</title><link href="https://makietan.github.io/health/2023/10/11/report.html" rel="alternate" type="text/html" title="久々に爆笑した動画がこちら" /><published>2023-10-11T00:00:00+09:00</published><updated>2023-10-11T00:00:00+09:00</updated><id>https://makietan.github.io/health/2023/10/11/report</id><content type="html" xml:base="https://makietan.github.io/health/2023/10/11/report.html"><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/WvnuGgNnWgo?si=XV30VV1q2IvBwTku" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2023-10-18T12:41:40+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">『錬金百式スライム編』が完了した</title><link href="https://makietan.github.io/game/dqw/2023/10/13/report.html" rel="alternate" type="text/html" title="『錬金百式スライム編』が完了した" /><published>2023-10-13T00:00:00+09:00</published><updated>2023-10-13T00:00:00+09:00</updated><id>https://makietan.github.io/game/dqw/2023/10/13/report</id><content type="html" xml:base="https://makietan.github.io/game/dqw/2023/10/13/report.html"><![CDATA[<p>いやー長かった。</p>
+
+<p>次はドラゴン編だ。</p>
+
+<p>まだレシピすら集めきれていないのでそこからだな。</p>
+
+<h2 id="錬金百式ドラゴン編">錬金百式「ドラゴン編」</h2>
+
+<p>イオ、バギ、ドルマもしくはジバリア。</p>
+
+<p>なんでもいいのでこころがドロップしてくれるといいな。</p>]]></content><author><name>makietan</name></author><category term="game" /><category term="dqw" /><summary type="html"><![CDATA[いやー長かった。]]></summary></entry><entry><title type="html">百鬼羅刹（ゴブリンライダー）とゴブリンゾンビ</title><link href="https://makietan.github.io/game/yugioh/2023/10/12/report.html" rel="alternate" type="text/html" title="百鬼羅刹（ゴブリンライダー）とゴブリンゾンビ" /><published>2023-10-12T00:00:00+09:00</published><updated>2023-10-12T00:00:00+09:00</updated><id>https://makietan.github.io/game/yugioh/2023/10/12/report</id><content type="html" xml:base="https://makietan.github.io/game/yugioh/2023/10/12/report.html"><![CDATA[<p>アンデット族を使うものとしてゴブリンゾンビは是非とも使いたいカードなのだが、
+ゴブリンゾンビ自体のサーチが非常に難しい。</p>
+
+<p>そこで登場した【百鬼羅刹】でサーチをしてみることにした。</p>
+
+<h2 id="百鬼羅刹-巨魁ガボンガゴブリンライダー-ビッグヘッド-ガボンガ">百鬼羅刹 巨魁ガボンガ（ゴブリンライダー ビッグヘッド ガボンガ）</h2>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>獣戦士族/エクシーズ/効果 光属性
+ATK/2100 DEF/   0
+レベル3モンスター×2
+このカード名の①②③の効果は1ターンに1度しか使用できない。
+①：このカードがX召喚した場合に発動できる。デッキから「ゴブリン」モンスター1体を手札に加える。
+②：フィールドのX素材が取り除かれた場合、フィールドの他の表側表示モンスター1体を対象として発動できる。そのモンスターをこのカードのX素材とする。
+③：自分・相手のエンドフェイズに発動できる。デッキから「ゴブリン」モンスター1体をこのカードのX素材とする。
+</code></pre></div></div>
+
+<h2 id="百鬼羅刹の大饕獣ゴブリンズクレイジービースト">百鬼羅刹の大饕獣（ゴブリンズ・クレイジー・ビースト）</h2>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>悪魔族/エクシーズ/効果 闇属性
+ATK/2700 DEF/   0
+レベル6モンスター×2以上
+このカード名の③の効果はデュエル中に1度しか使用できない。
+①：自分・相手ターンに1度、フィールドの魔法・罠カード1枚を対象として発動できる。フィールドのX素材を2つ取り除き、対象のカードをこのカードのX素材とする。
+②：自分フィールドのモンスターが効果で破壊される場合、代わりにこのカードのX素材を1つ取り除く事ができる。
+③：このカードが墓地に存在する場合に発動できる。このカードを特殊召喚する。その後、自分の墓地の「ゴブリン」モンスター1体をこのカードのX素材にできる。
+</code></pre></div></div>
+
+<h2 id="百鬼羅刹大集会ゴブリンライダーだいしゅうかい">百鬼羅刹大集会（ゴブリンライダーだいしゅうかい）</h2>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>永続魔法
+このカード名の③の効果は1ターンに1度しか使用できない。
+①：自分フィールドの「ゴブリン」モンスターの攻撃力は、自分フィールドの「ゴブリン」モンスターの数×300アップする。
+②：自分は通常召喚に加えて1度だけ、自分メインフェイズに「ゴブリン」モンスター1体を召喚出来る。
+③：自分フィールドの「ゴブリン」モンスター2体を対象として以下の効果から1つを選択して発動出来る。
+● その内1体のレベルをもう1体のレベルと同じにする。
+● その2体のレベルは、それぞれの元々のレベルを合計したレベルになる。
+</code></pre></div></div>
+
+<h2 id="百鬼羅刹大参上ゴブリンライダーだいさんじょう">百鬼羅刹大参上（ゴブリンライダーだいさんじょう）</h2>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>通常魔法
+このカード名の①②の効果はそれぞれ1ターンに1度しか使用できない。
+①：デッキから「ゴブリン」モンスター1体を手札に加える。その後、以下の効果を適用できる。
+● フィールドのX素材を1つ取り除き、手札からレベル4以下の「ゴブリン」モンスター1体を特殊召喚する。
+②：墓地のこのカードを除外して発動できる。フィールドのX素材を1つ取り除く。その後、自分の墓地から「ゴブリン」モンスター1体を手札に加える事ができる。
+</code></pre></div></div>
+
+<h2 id="百鬼羅刹大暴走ゴブリンライダースタンピード">百鬼羅刹大暴走（ゴブリンライダー・スタンピード）</h2>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>永続罠
+このカード名の①②の効果は1ターンに1度、いずれか1つしか使用できない。
+①：自分・相手のメインフェイズに発動できる。自分フィールドの「ゴブリン」モンスターのみを素材としてX召喚を行う。
+②：自分フィールドに「ゴブリン」Xモンスターが存在する場合、フィールドの効果モンスター1体を対象として発動できる。フィールドのX素材を1つ取り除き、対象のモンスターの効果をターン終了時まで無効にする。
+</code></pre></div></div>
+
+<h2 id="百鬼羅刹-特攻ダグゴブリンライダー-とっこうダグ">百鬼羅刹 特攻ダグ（ゴブリンライダー とっこうダグ）</h2>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>戦士族/効果 地属性
+ATK/1600 DEF/   0
+このカード名の①②の効果はそれぞれ1ターンに1度しか使用できない。
+①：このカードが手札に存在する場合に発動できる。フィールドのX素材を1つ取り除き、このカードを特殊召喚する。
+②：このカードが召喚・特殊召喚した場合に発動できる。デッキから「ゴブリンライダー」魔法・罠カード1枚を手札に加える。
+</code></pre></div></div>
+
+<h2 id="百鬼羅刹-爆音クラッタゴブリンライダー-ばくおんクラッタ">百鬼羅刹 爆音クラッタ（ゴブリンライダー ばくおんクラッタ）</h2>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>獣戦士族/効果 炎属性
+ATK/1500 DEF/   0
+このカード名の①②の効果はそれぞれ1ターンに1度しか使用できない。
+①：このカードが召喚・特殊召喚した場合、「 百鬼羅刹 爆音クラッタ」以外の自分の墓地の「ゴブリン」モンスター1体を対象として発動できる。そのモンスターを特殊召喚する。
+②：このカードが墓地に存在する場合、相手メインフェイズに発動できる。フィールドのX素材を1つ取り除き、このカードを特殊召喚する。フィールドのX素材を1つ取り除き、このカードを特殊召喚する。この効果で特殊召喚したこのカードは、フィールドから離れた場合に除外される。
+</code></pre></div></div>
+
+<h2 id="百鬼羅刹-神速ブーン">百鬼羅刹 神速ブーン</h2>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>戦士族/効果 風属性
+ATK/1300 DEF/   0
+①このカードが手札・墓地に存在する場合、自分・相手メインフェイズに発動できる。フィールドX素材を1つ取り除き、このカードを特殊召喚する。この効果の発動後、次のターン終了時まで自分は「百鬼羅刹 神速ブーン」を特殊召喚できない。
+</code></pre></div></div>
+
+<h2 id="百鬼羅刹-冷血ミアンダ">百鬼羅刹 冷血ミアンダ</h2>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>悪魔族/効果 水属性
+ATK/1400 DEF/   0
+このカード名の①②の効果はそれぞれ1ターンに1度しか使用できない。
+①：このカードが召喚・特殊召喚した場合に発動できる。手札から「百鬼羅刹 冷血ミアンダ」以外の「ゴブリン」モンスター1体を特殊召喚する。
+②：このカードが墓地に存在する場合、自分メインフェイズに発動できる。フィールドのX素材を1つ取り除き、このカードを特殊召喚する。この効果で特殊召喚したこのカードは、フィールドから離れた場合に除外される。
+</code></pre></div></div>
+
+<h2 id="展開">展開</h2>
+
+<h3 id="srベイゴマックス">SRベイゴマックス</h3>
+
+<ol>
+  <li>手札から『SRベイゴマックス』を特殊召喚</li>
+  <li>『SRベイゴマックス』の効果で、デッキから『SRタケトンボーグ』を手札に加える</li>
+  <li>手札から『SRタケトンボーグ』を特殊召喚</li>
+  <li>『SRベイゴマックス』と『SRタケトンボーグ』を素材に『百鬼羅刹 巨魁ガボンガ』を特殊召喚</li>
+  <li>『百鬼羅刹 巨魁ガボンガ』の効果で『百鬼羅刹 特攻ダグ』を手札に加える</li>
+  <li>『百鬼羅刹 特攻ダグ』の効果で『百鬼羅刹 巨魁ガボンガ』のX素材を取り除き特殊召喚</li>
+  <li>『百鬼羅刹 特攻ダグ』の効果で『百鬼羅刹大参上』を手札に加える</li>
+  <li>『百鬼羅刹大参上』を発動し、『ゴブリンゾンビ』を手札に加え、『百鬼羅刹 巨魁ガボンガ』のX素材を取り除き『ゴブリンゾンビ』を特殊召喚する。</li>
+</ol>
+
+<h3 id="魔界発現世行きデスガイド緊急テレポートジェネクスウンディーネ水晶機巧ローズニクスジェネクスコントローラーリンクスパイダー">魔界発現世行きデスガイド/緊急テレポート/ジェネクス・ウンディーネ（水晶機巧－ローズニクス・ジェネクス・コントローラー・リンク・スパイダー）</h3>
+
+<ol>
+  <li>手札から『魔界発現世行きデスガイド』を召喚、効果で『魔界発現世行きデスガイド』を特殊召喚</li>
+  <li>『魔界発現世行きデスガイド』と『魔界発現世行きデスガイド』で『百鬼羅刹 巨魁ガボンガ』を特殊召喚</li>
+  <li>『百鬼羅刹 巨魁ガボンガ』の効果で『百鬼羅刹 特攻ダグ』を手札に加える</li>
+  <li>『百鬼羅刹 特攻ダグ』の効果で『百鬼羅刹 巨魁ガボンガ』のX素材を取り除き特殊召喚</li>
+  <li>『百鬼羅刹 特攻ダグ』の効果で『百鬼羅刹大参上』を手札に加える</li>
+  <li>『百鬼羅刹大参上』を発動し、『ゴブリンゾンビ』を手札に加え、『百鬼羅刹 巨魁ガボンガ』のX素材を取り除き『ゴブリンゾンビ』を特殊召喚する。</li>
+</ol>
+
+<h3 id="ゴブリンゾンビ特殊召喚後">ゴブリンゾンビ特殊召喚後</h3>
+
+<p>単純にリンク2に繋げるとこうなる。</p>
+
+<ol>
+  <li>『百鬼羅刹 特攻ダグ』と『ゴブリンゾンビ』で『I：Pマスカレーナ』を特殊召喚</li>
+  <li>『ゴブリンゾンビ』の効果で『XXX』を手札に加える</li>
+</ol>
+
+<p>うーん微妙だ。</p>
+
+<p>《ワイトベイキング》とかに繋げられるとかもない。
+バリケイドベルグは手札コストだからタイミング的にダメ。
+『ＶＳ プルトンＨＧ』をサーチしてもリンクモンスターが邪魔になる。</p>
+
+<p>どうしてもレボリューションシンクロンとの2枚初動になってしまう。</p>
+
+<ol>
+  <li>『ゴブリンゾンビ』と手札の『レボリューション・シンクロン』で『エンシェント・フェアリー・ドラゴン』をシンクロ召喚</li>
+  <li>『ゴブリンゾンビ』の効果で『ファラオの化身』をサーチ</li>
+  <li>『エンシェント・フェアリー・ドラゴン』の効果で『ファラオの化身』を特殊召喚</li>
+  <li>『レボリューション・シンクロン』の効果で自身を特殊召喚</li>
+  <li>『ファラオの化身』とレベル1となった『レボリューション・シンクロン』で『ルイ・キューピット』をシンクロ召喚し、レベルを下げる</li>
+  <li>『ファラオの化身』の効果で自身を特殊召喚</li>
+  <li>『ファラオの化身』とレベル3となった『ルイ・キューピット』で『イモータル・ドラゴン』をシンクロ召喚</li>
+  <li>『ファラオの化身』の効果で自身を特殊召喚</li>
+  <li>『ルイ・キューピット』の効果で『ネメシス・コリドー』をサーチ</li>
+  <li>『イモータル・ドラゴン』の効果で『馬頭鬼』を墓地へ送る</li>
+  <li>『イモータル・ドラゴン』と『ファラオの化身』で『源竜星－ボウテンコウ』をシンクロ召喚</li>
+  <li>『ファラオの化身』の効果で自身を特殊召喚</li>
+  <li>『源竜星－ボウテンコウ』の効果で『竜星の九支』をサーチ</li>
+  <li>…</li>
+</ol>
+
+<p>考えるのが面倒になるのが『ファラオの化身』。
+『ファラオの化身』じゃなくてもいいのでコンパクトな展開をすることを考える。</p>
+
+<p>マスターデュエルにはまだ来てないけど『ヴィサス＝アムリターラ』の展開をするのもアリ。</p>
+
+<p>ま、マスターデュエルに来てから考えよう。</p>]]></content><author><name>makietan</name></author><category term="game" /><category term="yugioh" /><summary type="html"><![CDATA[アンデット族を使うものとしてゴブリンゾンビは是非とも使いたいカードなのだが、 ゴブリンゾンビ自体のサーチが非常に難しい。]]></summary></entry><entry><title type="html">久々に爆笑した動画がこちら</title><link href="https://makietan.github.io/health/2023/10/11/report.html" rel="alternate" type="text/html" title="久々に爆笑した動画がこちら" /><published>2023-10-11T00:00:00+09:00</published><updated>2023-10-11T00:00:00+09:00</updated><id>https://makietan.github.io/health/2023/10/11/report</id><content type="html" xml:base="https://makietan.github.io/health/2023/10/11/report.html"><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/WvnuGgNnWgo?si=XV30VV1q2IvBwTku" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
 
 <p>こんなんで爆笑できるんだからまだまだ元気ですわ。</p>]]></content><author><name>makietan</name></author><category term="health" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">ガルパン最終章 第４話を観に行ってきた</title><link href="https://makietan.github.io/garupan/2023/10/10/report.html" rel="alternate" type="text/html" title="ガルパン最終章 第４話を観に行ってきた" /><published>2023-10-10T00:00:00+09:00</published><updated>2023-10-10T00:00:00+09:00</updated><id>https://makietan.github.io/garupan/2023/10/10/report</id><content type="html" xml:base="https://makietan.github.io/garupan/2023/10/10/report.html"><![CDATA[<p>いやー面白かった。</p>
 
@@ -82,7 +246,7 @@ BT-42にソリつけるのは悪手だったのかもしれない。</p>
 最後に気を抜いたのがダメだったね。</p>
 
 <p>サウナシーン最高すぎるだろ。
-ミッコの背中をペシペシしたい。</p>
+ミッコに背中をペシペシされたい。</p>
 
 <p>今回はあんこうチームを退場させて兼役起用ってのが目立った。
 これはこれで面白い。なんかぽっと出なのにセリフも多かったし。</p>
@@ -470,56 +634,4 @@ sub1();
   <div class="card__description">
     <p>ビフロキシン配合錠（一般名：リボフラビン・ピリドキシン塩酸塩錠）の薬効分類・副作用・添付文書・薬価などを掲載しています。「処方薬事典」は日経メディカルが運営する医療・医薬関係者向け医薬品検索データベースです。</p>
   </div>
-</div>]]></content><author><name>makietan</name></author><category term="health" /><summary type="html"><![CDATA[makietan.github.io 口唇ヘルペスになってしまったっぽい… | 肉とお米とブロッコリー 外食が要因かな。]]></summary></entry><entry><title type="html">バリウムは大したことない</title><link href="https://makietan.github.io/health/2023/09/26/report2.html" rel="alternate" type="text/html" title="バリウムは大したことない" /><published>2023-09-26T11:47:00+09:00</published><updated>2023-09-26T11:47:00+09:00</updated><id>https://makietan.github.io/health/2023/09/26/report2</id><content type="html" xml:base="https://makietan.github.io/health/2023/09/26/report2.html"><![CDATA[<p>健康診断に行ってきた。</p>
-
-<p>普段と違い眼圧眼底検査もした。
-視力はなぜか回復した。</p>
-
-<p>どうやら発泡剤とバリウムを飲む必要があるらしい。初めてだ。
-どう考えても発泡剤のほうがヤバいのにバリウムの衝撃のほうが強いからか
-バリウムが〜になってしまうのだろう。
-さて、飲み心地は悪いが不味いビールを飲むよりは飲みやすい。
-変なヨーグルト飲料だと思えば大丈夫だ。
-水ではないのでちょっと重いかな。
-口が下に引っ張られる感じがあった。</p>
-
-<p>それより台に乗ってゴロゴロ自分で動かないといけないほうがつらかった。
-腰痛があるとさらにつらい。</p>
-
-<p>結論、腰痛がつらい。
-バリウムとかどうでもいいわ。</p>
-
-<p>んじゃ今から下剤飲んでセルフでトイレ軟禁事件でもしますかね。
-漏らすことだけは避けたい。</p>
-
-<p>渡されたのはセンノシド錠12mg「セイコー」</p>
-
-<div class="card">
-  <a href="https://medical.nikkeibp.co.jp/inc/all/drugdic/prd/23/2354003F2340.html"></a>
-  <div class="card__header">
-    <a href="https://medical.nikkeibp.co.jp/inc/all/drugdic/prd/23/2354003F2340.html">medical.nikkeibp.co.jp</a>
-  </div>
-  <div class="card__image">
-    <img src="https://medical.nikkeibp.co.jp/images/nm1311/logo/ogp_shohoyaku.png" />
-  </div>
-  <div class="card__title">
-    <p>センノシド錠12mg「セイコー」の基本情報（薬効分類・副作用・添付文書など）｜日経メディカル処方薬事典</p>
-  </div>
-  <div class="card__description">
-    <p>センノシド錠12mg「セイコー」（一般名：センノシド12mg錠）の薬効分類・副作用・添付文書・薬価などを掲載しています。「処方薬事典」は日経メディカルが運営する医療・医薬関係者向け医薬品検索データベースです。</p>
-  </div>
-</div>
-
-<p>2錠ずつ飲むらしい。
-今からだと11:45だから6時間後の17:45か…。
-大丈夫かな。
-こっちのほうが心配だわ。</p>]]></content><author><name>makietan</name></author><category term="health" /><summary type="html"><![CDATA[健康診断に行ってきた。]]></summary></entry><entry><title type="html">口唇ヘルペスになってしまったっぽい…</title><link href="https://makietan.github.io/health/2023/09/26/report.html" rel="alternate" type="text/html" title="口唇ヘルペスになってしまったっぽい…" /><published>2023-09-26T00:00:00+09:00</published><updated>2023-09-26T00:00:00+09:00</updated><id>https://makietan.github.io/health/2023/09/26/report</id><content type="html" xml:base="https://makietan.github.io/health/2023/09/26/report.html"><![CDATA[<p>外食が要因かな。</p>
-
-<p>松のやと吉野家という底辺が行く店に行き過ぎた結果、
-底辺の病気をうつされてしまった。</p>
-
-<p>口の左側で大きく開けると痛い。</p>
-
-<p>とりあえず皮膚科に行って薬をもらってこよう…。</p>
-
-<p>いらん出費になってしまった最悪だわ。</p>]]></content><author><name>makietan</name></author><category term="health" /><summary type="html"><![CDATA[外食が要因かな。]]></summary></entry></feed>
+</div>]]></content><author><name>makietan</name></author><category term="health" /><summary type="html"><![CDATA[makietan.github.io 口唇ヘルペスになってしまったっぽい… | 肉とお米とブロッコリー 外食が要因かな。]]></summary></entry></feed>
