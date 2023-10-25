@@ -1,4 +1,92 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2023-10-25T12:16:25+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">ガルパン最終章第4話を何度も見ての感想</title><link href="https://makietan.github.io/ogaku/garupan/2023/10/18/report.html" rel="alternate" type="text/html" title="ガルパン最終章第4話を何度も見ての感想" /><published>2023-10-18T00:00:00+09:00</published><updated>2023-10-18T00:00:00+09:00</updated><id>https://makietan.github.io/ogaku/garupan/2023/10/18/report</id><content type="html" xml:base="https://makietan.github.io/ogaku/garupan/2023/10/18/report.html"><![CDATA[<div class="google">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2023-10-25T20:06:27+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">《幽合－ゴースト・フュージョン》の展開</title><link href="https://makietan.github.io/game/yugioh/2023/10/25/report.html" rel="alternate" type="text/html" title="《幽合－ゴースト・フュージョン》の展開" /><published>2023-10-25T00:00:00+09:00</published><updated>2023-10-25T00:00:00+09:00</updated><id>https://makietan.github.io/game/yugioh/2023/10/25/report</id><content type="html" xml:base="https://makietan.github.io/game/yugioh/2023/10/25/report.html"><![CDATA[<p>雑に書いた。</p>
+
+<p>後で修正する</p>
+
+<div class="mermaid">
+flowchart LR
+    A[調律]
+    B[アサルト・シンクロン]
+    C[イモータル・ドラゴン]
+    D[劫火の眠り姫 ゴースト・スリーパー]
+    E[霊道士チャンシー]
+    F[共命の翼ガルーラ]
+    G[幽合－ゴースト・フュージョン]
+    H[アンデットワールド]
+    I[屍界のバンシー]
+    J[グローアップ・ブルーム]
+    K[劫火の翼竜 ゴースト・ワイバーン]
+    L[刀神－不知火]
+    M[死霊王 ドーハスーラ]
+    N[巡死神リーパー]
+    O[死祖の隷竜ウォロー]
+    P[マッドマーダー]
+    Q[チキンレース]
+    R[成金ゴブリン]
+    S[馬頭鬼]
+    T[牛頭鬼]
+    U[ゴブリンゾンビ]
+    V[おろかな埋葬]
+    W[冥界龍 ドラゴネクロ]
+    A --&gt;|サーチ| B
+    B --&gt;|チューナー| L
+    B --&gt;|チューナー| C
+    C --&gt;|墓地送り| D
+    C --&gt;|墓地送り| I
+    C --&gt;|墓地送り| J
+    C --&gt;|墓地送り| M
+    C --&gt;|墓地送り| P
+    C --&gt;|墓地送り| S
+    C --&gt;|墓地送り| T
+    D --&gt;|サーチ| G
+    E --&gt;|墓地送り| D
+    E --&gt;|墓地送り| I
+    E --&gt;|墓地送り| J
+    E --&gt;|墓地送り| M
+    E --&gt;|墓地送り| P
+    E --&gt;|墓地送り| S
+    E --&gt;|墓地送り| T
+    E --&gt;|除外| K
+    E --&gt;|シンクロ召喚| C
+    E --&gt;|エクシーズ召喚| N
+    E --&gt;|エクシーズ召喚| O
+    F --&gt;|エクシーズ召喚| O
+    F --&gt;|エクシーズ召喚| N
+    G --&gt;|融合召喚| F
+    G --&gt;|融合召喚| W
+    G --&gt;|除外| E
+    I --&gt;|発動| H
+    I --&gt;|シンクロ召喚| L
+    I --&gt;|シンクロ召喚| C
+    J --&gt;|特殊召喚・手札に加える| E
+    J --&gt;|特殊召喚・手札に加える| M
+    K --&gt;|墓地送り・手札に加える| J
+    K --&gt;|墓地送り・手札に加える| P
+    K --&gt;|サーチ| G
+    K --&gt;|シンクロ召喚| L
+    K --&gt;|シンクロ召喚| C
+    P --&gt;|チューナー| C
+    Q --&gt;|ライフ減少| G
+    R --&gt;|ライフ減少| G
+    S --&gt;|シンクロ召喚| L
+    S --&gt;|シンクロ召喚| C
+    T --&gt;|シンクロ召喚| L
+    T --&gt;|シンクロ召喚| C
+    U --&gt;|シンクロ召喚| L
+    U --&gt;|シンクロ召喚| C
+    V --&gt;|墓地送り| D
+    V --&gt;|墓地送り| I
+    V --&gt;|墓地送り| J
+    V --&gt;|墓地送り| M
+    V --&gt;|墓地送り| P
+    V --&gt;|墓地送り| S
+    V --&gt;|墓地送り| T
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10.5.1/dist/mermaid.min.js"></script>
+
+<script>
+  mermaid.initialize({ startOnLoad: true });
+</script>]]></content><author><name>makietan</name></author><category term="game" /><category term="yugioh" /><summary type="html"><![CDATA[雑に書いた。]]></summary></entry><entry><title type="html">ガルパン最終章第4話を何度も見ての感想</title><link href="https://makietan.github.io/ogaku/garupan/2023/10/18/report.html" rel="alternate" type="text/html" title="ガルパン最終章第4話を何度も見ての感想" /><published>2023-10-18T00:00:00+09:00</published><updated>2023-10-18T00:00:00+09:00</updated><id>https://makietan.github.io/ogaku/garupan/2023/10/18/report</id><content type="html" xml:base="https://makietan.github.io/ogaku/garupan/2023/10/18/report.html"><![CDATA[<div class="google">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3TB7P_dJJFM?si=6tMxBcCGPe52t64w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
 </div>
 
@@ -523,33 +611,4 @@ BT-42にソリつけるのは悪手だったのかもしれない。</p>
 
 <p>前回のようにあんこうチーム大破という状況の縛りもなく展開の仕方は無限大なので
 監督の腕の見せどころでしょう。
-個人の単純なストーリー展開を上回るものを期待したい。</p>]]></content><author><name>makietan</name></author><category term="garupan" /><summary type="html"><![CDATA[いやー面白かった。]]></summary></entry><entry><title type="html">スパロボDDの考察記事一覧</title><link href="https://makietan.github.io/game/srwdd/2023/10/09/report.html" rel="alternate" type="text/html" title="スパロボDDの考察記事一覧" /><published>2023-10-09T00:00:00+09:00</published><updated>2023-10-09T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2023/10/09/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2023/10/09/report.html"><![CDATA[<p>とりあえずこの記事までで書いているものをまとめた。</p>
-
-<ul>
-  <li><a href="https://makietan.github.io/game/srwdd/2023/09/25/report.html">ソウルゲインの雑な考察 | 肉とお米とブロッコリー</a>
-    <ul>
-      <li><a href="https://makietan.github.io/game/srwdd/2023/09/24/report.html">「麒麟」の考察 | 肉とお米とブロッコリー</a></li>
-      <li><a href="https://makietan.github.io/game/srwdd/2023/09/23/report.html">「舞朱雀」の考察 | 肉とお米とブロッコリー</a></li>
-      <li><a href="https://makietan.github.io/game/srwdd/2023/09/22/report.html">「玄武金剛弾」の考察 | 肉とお米とブロッコリー</a></li>
-      <li><a href="https://makietan.github.io/game/srwdd/2023/09/21/report.html">「青龍鱗」の考察 | 肉とお米とブロッコリー</a></li>
-      <li><a href="https://makietan.github.io/game/srwdd/2023/09/20/report.html">「白虎咬」の考察 | 肉とお米とブロッコリー</a></li>
-    </ul>
-  </li>
-  <li><a href="https://makietan.github.io/game/srwdd/2023/09/14/report.html">ライディーンの雑な考察 | 肉とお米とブロッコリー</a>
-    <ul>
-      <li><a href="https://makietan.github.io/game/srwdd/2023/09/13/report.html">「ゴッドアルファ」の考察 | 肉とお米とブロッコリー</a></li>
-      <li><a href="https://makietan.github.io/game/srwdd/2023/09/11/report.html">「ゴッドブレイカー」の考察 | 肉とお米とブロッコリー</a></li>
-      <li><a href="https://makietan.github.io/game/srwdd/2023/09/10/report.html">「ゴッドミサイル」の考察 | 肉とお米とブロッコリー</a></li>
-      <li><a href="https://makietan.github.io/game/srwdd/2023/10/08/report.html">「ゴッドゴーガン」の考察 | 肉とお米とブロッコリー</a></li>
-    </ul>
-  </li>
-  <li>ARX-7 アーバレストの雑な考察
-    <ul>
-      <li><a href="https://makietan.github.io/game/srwdd/2023/09/04/report.html">「ウルズ・ストライク」の考察 | 肉とお米とブロッコリー</a></li>
-      <li><a href="https://makietan.github.io/game/srwdd/2023/09/03/report.html">「ラムダ・ストライク」の考察 | 肉とお米とブロッコリー</a></li>
-      <li><a href="https://makietan.github.io/game/srwdd/2023/08/25/report.html">「グラーツ・マンリッヒャー」の考察 | 肉とお米とブロッコリー</a></li>
-      <li><a href="https://makietan.github.io/game/srwdd/2023/08/24/report.html">「強襲」の考察 | 肉とお米とブロッコリー</a></li>
-    </ul>
-  </li>
-  <li>ダブルオーガンダムの雑な考察</li>
-</ul>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[とりあえずこの記事までで書いているものをまとめた。]]></summary></entry></feed>
+個人の単純なストーリー展開を上回るものを期待したい。</p>]]></content><author><name>makietan</name></author><category term="garupan" /><summary type="html"><![CDATA[いやー面白かった。]]></summary></entry></feed>
