@@ -1,4 +1,33 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2023-11-07T12:15:46+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">マジック・クロニクルとクシャトリラ</title><link href="https://makietan.github.io/game/yugioh/2023/10/27/report.html" rel="alternate" type="text/html" title="マジック・クロニクルとクシャトリラ" /><published>2023-10-27T00:00:00+09:00</published><updated>2023-10-27T00:00:00+09:00</updated><id>https://makietan.github.io/game/yugioh/2023/10/27/report</id><content type="html" xml:base="https://makietan.github.io/game/yugioh/2023/10/27/report.html"><![CDATA[<p>マジック・クロニクルをクシャトリラに入れたら面白そうやんという安易な発想でパターンを調べてみた。
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2023-11-07T20:38:26+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">近鉄電車でクレジットカードが使えるようになるらしい</title><link href="https://makietan.github.io/railway/2023/11/07/report.html" rel="alternate" type="text/html" title="近鉄電車でクレジットカードが使えるようになるらしい" /><published>2023-11-07T00:00:00+09:00</published><updated>2023-11-07T00:00:00+09:00</updated><id>https://makietan.github.io/railway/2023/11/07/report</id><content type="html" xml:base="https://makietan.github.io/railway/2023/11/07/report.html"><![CDATA[<div class="card">
+  <a href="https://www.itmedia.co.jp/news/articles/2311/07/news142.html"></a>
+  <div class="card__header">
+    <a href="https://www.itmedia.co.jp/news/articles/2311/07/news142.html">www.itmedia.co.jp</a>
+  </div>
+  <div class="card__image">
+    <img src="https://image.itmedia.co.jp/news/articles/2311/07/cover_news142.jpg" />
+  </div>
+  <div class="card__title">
+    <p>クレカのタッチで改札通過　関西の私鉄3社が対応へ - ITmedia NEWS</p>
+  </div>
+  <div class="card__description">
+    <p>阪急電鉄、阪神電鉄、近畿日本鉄道の3社はそれぞれ、タッチ決済対応のクレジットカードなどを使って通過できる改札を設置すると発表した。</p>
+  </div>
+</div>
+
+<p>PiTaPa を解約していいかもしれない…。</p>
+
+<p>今はKIPSをやめて三井住友カードの同条件のPiTaPaを年1回利用している。</p>
+
+<p>近畿圏内であれば結構楽で私鉄・JRをオートチャージで気軽に乗れる。
+返金もしっかり行われる。
+ポストペイ。</p>
+
+<p>とPiTaPaにはメリットが多々ある。
+これがチャージ不要になり、返金を考えなくて済むようになる。</p>
+
+<p>ただ、大阪メトロを利用する場合はまだまだPiTaPaが必要なので新幹線から大阪メトロを経由しての私鉄を乗る場合ならPiTaPaがいいだろう。</p>
+
+<p>PiTaPaが全国展開をしないせいでクレジットカードに市場を奪われることになるだろう。</p>]]></content><author><name>makietan</name></author><category term="railway" /><summary type="html"><![CDATA[www.itmedia.co.jp クレカのタッチで改札通過　関西の私鉄3社が対応へ - ITmedia NEWS 阪急電鉄、阪神電鉄、近畿日本鉄道の3社はそれぞれ、タッチ決済対応のクレジットカードなどを使って通過できる改札を設置すると発表した。]]></summary></entry><entry><title type="html">マジック・クロニクルとクシャトリラ</title><link href="https://makietan.github.io/game/yugioh/2023/10/27/report.html" rel="alternate" type="text/html" title="マジック・クロニクルとクシャトリラ" /><published>2023-10-27T00:00:00+09:00</published><updated>2023-10-27T00:00:00+09:00</updated><id>https://makietan.github.io/game/yugioh/2023/10/27/report</id><content type="html" xml:base="https://makietan.github.io/game/yugioh/2023/10/27/report.html"><![CDATA[<p>マジック・クロニクルをクシャトリラに入れたら面白そうやんという安易な発想でパターンを調べてみた。
 相剣の罠カードを絡めると2体素材のレベル11のシンクロモンスターも出せるので可能性だけは果てしない。
 今後も除外されて発動する魔法・罠カードは登場すると推測できるので期待だ。</p>
 
@@ -59,6 +88,14 @@ flowchart LR
 
 <script>
   mermaid.initialize({ startOnLoad: true });
+  await mermaid.run({
+    nodes: document.querySelectorAll('.language-mermaid'),
+  });
+  window.addEventListener('resize', async () => {
+    await mermaid.run({
+      nodes: document.querySelectorAll('.language-mermaid'),
+    });
+  });
 </script>]]></content><author><name>makietan</name></author><category term="game" /><category term="yugioh" /><summary type="html"><![CDATA[マジック・クロニクルをクシャトリラに入れたら面白そうやんという安易な発想でパターンを調べてみた。 相剣の罠カードを絡めると2体素材のレベル11のシンクロモンスターも出せるので可能性だけは果てしない。 今後も除外されて発動する魔法・罠カードは登場すると推測できるので期待だ。]]></summary></entry><entry><title type="html">ガルパン最終章第4話を何度も見ての感想</title><link href="https://makietan.github.io/ogaku/garupan/2023/10/18/report.html" rel="alternate" type="text/html" title="ガルパン最終章第4話を何度も見ての感想" /><published>2023-10-18T00:00:00+09:00</published><updated>2023-10-18T00:00:00+09:00</updated><id>https://makietan.github.io/ogaku/garupan/2023/10/18/report</id><content type="html" xml:base="https://makietan.github.io/ogaku/garupan/2023/10/18/report.html"><![CDATA[<div class="google">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3TB7P_dJJFM?si=6tMxBcCGPe52t64w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
 </div>
@@ -468,120 +505,4 @@ ATK/1400 DEF/   0
 <iframe width="560" height="315" src="https://www.youtube.com/embed/WvnuGgNnWgo?si=XV30VV1q2IvBwTku" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
 </div>
 
-<p>こんなんで爆笑できるんだからまだまだ元気ですわ。</p>]]></content><author><name>makietan</name></author><category term="health" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">ガルパン最終章 第４話を観に行ってきた</title><link href="https://makietan.github.io/garupan/2023/10/10/report.html" rel="alternate" type="text/html" title="ガルパン最終章 第４話を観に行ってきた" /><published>2023-10-10T00:00:00+09:00</published><updated>2023-10-10T00:00:00+09:00</updated><id>https://makietan.github.io/garupan/2023/10/10/report</id><content type="html" xml:base="https://makietan.github.io/garupan/2023/10/10/report.html"><![CDATA[<p>いやー面白かった。</p>
-
-<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">ぐへへ <a href="https://t.co/RkMJIPR99G">pic.twitter.com/RkMJIPR99G</a></p>&mdash; 牧江単 (@makietanG) <a href="https://twitter.com/makietanG/status/1709871990075728049?ref_src=twsrc%5Etfw">October 5, 2023</a></blockquote>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">もうこれは運命なのでは<br />ミカには申し訳ないけどアキミッコヨウコ推しになるか <a href="https://t.co/LFTeHl5Tuk">pic.twitter.com/LFTeHl5Tuk</a></p>&mdash; 牧江単 (@makietanG) <a href="https://twitter.com/makietanG/status/1710282245603569978?ref_src=twsrc%5Etfw">October 6, 2023</a></blockquote>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<blockquote class="twitter-tweet tw-align-center"><p lang="qme" dir="ltr">🙄 <a href="https://t.co/SaACrgfXqI">pic.twitter.com/SaACrgfXqI</a></p>&mdash; 牧江単 (@makietanG) <a href="https://twitter.com/makietanG/status/1710496649259454906?ref_src=twsrc%5Etfw">October 7, 2023</a></blockquote>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<p>特典のミニ色紙はアキ・ミッコ・ヨウコ。
-あとはミカ・みほが手に入れば個人的には満足だ。
-（3回目見たけど揃わなかった＞＜）
-それより2週目のポストカードが欲しい。
-3週目はミカのだけが欲しい。
-4週目は1枚欲しい。アキ・ミッコのシーンだと最高だぜ。</p>
-
-<div class="card">
-  <a href="https://girls-und-panzer-finale.jp/theater-finale04-visitor-benefits/"></a>
-  <div class="card__header">
-    <a href="https://girls-und-panzer-finale.jp/theater-finale04-visitor-benefits/">girls-und-panzer-finale.jp</a>
-  </div>
-  <div class="card__image">
-    <img src="https://girls-und-panzer-finale.jp/iaY7mRf2zJ/wp-content/themes/gulpan-finale2020/img/ogp.png" />
-  </div>
-  <div class="card__title">
-    <p>劇場情報｜第４話来場者特典情報｜ガールズ＆パンツァー最終章 公式サイト</p>
-  </div>
-  <div class="card__description">
-    <p></p>
-  </div>
-</div>
-
-<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">可愛すぎる！推し！最高！！継続高校！！！ <a href="https://t.co/LfVqSpE2qA">pic.twitter.com/LfVqSpE2qA</a></p>&mdash; 牧江単 (@makietanG) <a href="https://twitter.com/makietanG/status/1709901377575755938?ref_src=twsrc%5Etfw">October 5, 2023</a></blockquote>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<p>風と共に流れてきたのさ。</p>
-
-<p>以下、ネタバレもあり。</p>
-
-<p>ちょっとミカさんのポンコツシーンが多く見えてしまい、コレジャナイ感が多少合ったものの。
-雪原かつ吹雪で見えないし仕方ないよねということで相殺。
-アキ・ミッコのノー天気なやり取りは良かった。
-ミカの名台詞力も低下してたかな。</p>
-
-<p>ヨウコは1年。秘密兵器すぎて認知されていなかった模様。ちょっとかわいそう。
-行進間射撃があまりにも苦手で笑ってしまうレベル。ただ停止中だとすごい精密になる。
-スナイパー故にわりと早めに退場したもののインパクトは残せたかもしれない。</p>
-
-<p>インパクトといえばKV-1。
-乗車しているキャラのクセもやたら強いがその強さも一丁前。</p>
-
-<p>カチューシャのKV-1へのツッコミが１番の見どころかもしれない。
-ノンナ・クラーラのロシア語ボケもいいぞ。</p>
-
-<p>追い込まれてから実は地下にトンネルがありましたってオチなんだけど、
-その掘り方にクセがありすぎてな。その上、ミカにも当然バレるわけで。
-出口に待ち構える継続高校。ここでもポンコツ具合を発揮してまんまと抜けられる。
-待ち伏せして1輌も仕留められのはどうかと…。</p>
-
-<p>河嶋桃は何の役にもたちませんでした（次は期待してるよ）。</p>
-
-<p>なんやかんやでスキー対決へ。</p>
-
-<p>思ったより継続高校の車輌が落とされて違和感があった。
-BT-42にソリつけるのは悪手だったのかもしれない。</p>
-
-<p>雪崩で生き残ってるのすごすぎるわ。
-どんだけ屈強なんだよ。</p>
-
-<p>最後の最後で筋肉に負けた。
-おのれ筋肉。</p>
-
-<p>このシーンもミカの策士策に溺れるなんだけど、
-流石に甘すぎたかなと。
-追い込んだからそうなってしまったんだろうけどさ。</p>
-
-<p>継続高校勝てたよあの試合は。
-最後に気を抜いたのがダメだったね。</p>
-
-<p>サウナシーン最高すぎるだろ。
-ミッコに背中をペシペシされたい。</p>
-
-<p>今回はあんこうチームを退場させて兼役起用ってのが目立った。
-これはこれで面白い。なんかぽっと出なのにセリフも多かったし。</p>
-
-<p>聖グロvs黒森峰は車輌の区別がしにくい。
-ただ、4バカクルセイダーの詳細が出てきたので面白かった。
-クランベリーが好き。</p>
-
-<p>ルクリリがまともに仕事してたのがびっくりしたな。</p>
-
-<p>それからオレンジペコかわいいな。</p>
-
-<p>まだ1年生ながら次期隊長とは凄腕だな。
-ダージリンに寵愛サれとる。</p>
-
-<p>にしても聖グロは継続高校のリーゼントよりもキャラの濃い連中がいっぱい出てきた。
-今後の活躍に期待だ。</p>
-
-<p>最後に出ましたよ。愛里寿。
-えっここで出してくるのって感じ。
-…無双するだろうなと思ったらそうでもなく（めちゃくちゃ強いんだけども）。
-黒森峰というかエリカがやたら強かった。2秒て。
-愛里寿が無表情なのは今のエリカ率いる黒森峰が大したことないということか。</p>
-
-<p>このままだと次は大洗女子学園が勝てないので
-戦車探しと生徒集めがあると睨んでいる。
-それもなく次の戦いに入ったのなら練習試合のオマージュになりそうだな。
-つまり、大洗での試合がまた始まる。</p>
-
-<p>これを楽しめるのが2、3年後ってのがまた酷だわ。</p>
-
-<p>前回のようにあんこうチーム大破という状況の縛りもなく展開の仕方は無限大なので
-監督の腕の見せどころでしょう。
-個人の単純なストーリー展開を上回るものを期待したい。</p>]]></content><author><name>makietan</name></author><category term="garupan" /><summary type="html"><![CDATA[いやー面白かった。]]></summary></entry></feed>
+<p>こんなんで爆笑できるんだからまだまだ元気ですわ。</p>]]></content><author><name>makietan</name></author><category term="health" /><summary type="html"><![CDATA[]]></summary></entry></feed>

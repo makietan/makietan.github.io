@@ -158,6 +158,14 @@ flowchart LR
 
 <script>
   mermaid.initialize({ startOnLoad: true });
+  await mermaid.run({
+    nodes: document.querySelectorAll('.language-mermaid'),
+  });
+  window.addEventListener('resize', async () => {
+    await mermaid.run({
+      nodes: document.querySelectorAll('.language-mermaid'),
+    });
+  });
 </script>
 
 
@@ -168,6 +176,11 @@ flowchart LR
 
 
 
+
+  
+  
+
+  
 
   
   
