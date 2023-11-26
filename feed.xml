@@ -1,4 +1,41 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2023-11-26T12:15:23+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">ARX-7 アーバレストの装備を考える</title><link href="https://makietan.github.io/game/srwdd/2023/11/12/report.html" rel="alternate" type="text/html" title="ARX-7 アーバレストの装備を考える" /><published>2023-11-12T00:00:00+09:00</published><updated>2023-11-12T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2023/11/12/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2023/11/12/report.html"><![CDATA[<h2 id="移動">移動</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2023-11-27T02:27:03+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">【ドラクエウォーク】キャットフライとおおきづちをこころ配合するとリカント・まどうし・つかいまのどれかが手に入る</title><link href="https://makietan.github.io/game/dqw/2023/11/27/report.html" rel="alternate" type="text/html" title="【ドラクエウォーク】キャットフライとおおきづちをこころ配合するとリカント・まどうし・つかいまのどれかが手に入る" /><published>2023-11-27T00:00:00+09:00</published><updated>2023-11-27T00:00:00+09:00</updated><id>https://makietan.github.io/game/dqw/2023/11/27/report</id><content type="html" xml:base="https://makietan.github.io/game/dqw/2023/11/27/report.html"><![CDATA[<p>ドラクエウォークで配合機能が実装された。
+とりあえずやってみたのが以下のとおりだ。</p>
+
+<p>強敵とか入手が難しい組み合わせなんて参考にはならんので記載しない。</p>
+
+<h2 id="おおきづち--キャットフライ">おおきづち + キャットフライ</h2>
+
+<ul>
+  <li>リカント 50%</li>
+  <li>つかいま 35%</li>
+  <li>まどうし 15%</li>
+</ul>
+
+<div class="trim">
+  <div class="trim__item">
+    <a href="https://makietan.github.io/assets/images/2023-11-27-report/02-22-35.png">
+      <img class="one" src="https://makietan.github.io/assets/thumbnail/2023-11-27-report/02-22-35.png" />
+    </a>
+  </div>
+</div>
+
+<h2 id="タホドラキー--ガチャコッコ">タホドラキー + ガチャコッコ</h2>
+
+<ul>
+  <li>ダースドラゴン</li>
+  <li>ミイラ男</li>
+  <li>スライムナイト</li>
+</ul>
+
+<div class="trim">
+  <div class="trim__item">
+    <a href="https://makietan.github.io/assets/images/2023-11-27-report/02-23-22.png">
+      <img class="one" src="https://makietan.github.io/assets/thumbnail/2023-11-27-report/02-23-22.png" />
+    </a>
+  </div>
+</div>
+
+<p>他にも通常モンスターで可能なイベントモンスターがあれば見つけたい。</p>]]></content><author><name>makietan</name></author><category term="game" /><category term="dqw" /><summary type="html"><![CDATA[ドラクエウォークで配合機能が実装された。 とりあえずやってみたのが以下のとおりだ。]]></summary></entry><entry><title type="html">ARX-7 アーバレストの装備を考える</title><link href="https://makietan.github.io/game/srwdd/2023/11/12/report.html" rel="alternate" type="text/html" title="ARX-7 アーバレストの装備を考える" /><published>2023-11-12T00:00:00+09:00</published><updated>2023-11-12T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2023/11/12/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2023/11/12/report.html"><![CDATA[<h2 id="移動">移動</h2>
 
 <p>3</p>
 
@@ -977,15 +1014,4 @@ flowchart LR
 <p>しっかりしとるね。</p>
 
 <blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">【20日から】崎陽軒、「シウマイ弁当」柄のダウンマフラー 期間限定発売<a href="https://t.co/PVyCDZRgpa">https://t.co/PVyCDZRgpa</a><br /><br />代表製品「シウマイ弁当」がプリントされた軽くて暖かいダウンマフラー。表面はパッケージを、裏面は中身の絵柄をデザイン。1人3個までの購入制限ありで価格は2700円。 <a href="https://t.co/89AIkytmwn">pic.twitter.com/89AIkytmwn</a></p>&mdash; ライブドアニュース (@livedoornews) <a href="https://twitter.com/livedoornews/status/1714491048842670301?ref_src=twsrc%5Etfw">October 18, 2023</a></blockquote>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>]]></content><author><name>makietan</name></author><category term="otaku" /><category term="gourmet" /><summary type="html"><![CDATA[誰が着用するんだろうか…w。]]></summary></entry><entry><title type="html">オタクにおすすめなクリアファイルの飾り方</title><link href="https://makietan.github.io/otaku/2023/10/16/report.html" rel="alternate" type="text/html" title="オタクにおすすめなクリアファイルの飾り方" /><published>2023-10-16T00:00:00+09:00</published><updated>2023-10-16T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2023/10/16/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2023/10/16/report.html"><![CDATA[<p>目から鱗が落ちた。</p>
-
-<p>元来、書類を挟むことしかしてこなったのでこの活用方法は思考の外にあった。</p>
-
-<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">クリアファイルはこういう使い方もあります。往年のセル画ディスプレイみたいになるので良いですよ。 <a href="https://t.co/0RBW6UuaYk">pic.twitter.com/0RBW6UuaYk</a></p>&mdash; 柳野啓一郎㌠ Keiichrou YANAGINO (@keipanzervor) <a href="https://twitter.com/keipanzervor/status/1712766616298242489?ref_src=twsrc%5Etfw">October 13, 2023</a></blockquote>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<h2 id="オタクグッズの扱いは難しい">オタクグッズの扱いは難しい</h2>
-
-<p>オタクグッズの困惑商品の缶バッジについてはまだ何もいい使い道を思いつかない。
-缶バッジじゃなくてプレート状のものであればコースターとかに活用できるから嬉しいんだけどな。
-最近だとフォトフレームアクリルとかがいい感じなのでそっちにシフトしてくれると嬉しい。</p>]]></content><author><name>makietan</name></author><category term="otaku" /><summary type="html"><![CDATA[目から鱗が落ちた。]]></summary></entry></feed>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>]]></content><author><name>makietan</name></author><category term="otaku" /><category term="gourmet" /><summary type="html"><![CDATA[誰が着用するんだろうか…w。]]></summary></entry></feed>
