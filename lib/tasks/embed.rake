@@ -10,7 +10,7 @@ namespace :embed do
     open(ARGV[3], "r+") {|f|
       f.flock(File::LOCK_EX)
       body = f.read
-      body = body.gsub(/\[embed:(.*)\]/) do |tmp|
+      body = body.force_encoding("utf8").gsub(/\[embed:(.*)\]/) do |tmp|
         get_embed(get_meta($1))
       end
       f.rewind
