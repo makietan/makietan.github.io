@@ -4,7 +4,7 @@ namespace :haiku do
     open(ARGV[3], "r+") {|f|
       f.flock(File::LOCK_EX)
       body = f.read
-      body = body.force_encoding("utf8").gsub(/\[haiku:(.*?) (.*?) (.*?)\]/) do |tmp|
+      body = body.force_encoding(Encoding::UTF_8).gsub(/\[haiku:(.*?) (.*?) (.*?)\]/) do |tmp|
         get_haiku([
           $1,
           $2,

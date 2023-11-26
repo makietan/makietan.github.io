@@ -9,13 +9,13 @@ namespace :image do
     open(ARGV[3], "r+") {|f|
       f.flock(File::LOCK_EX)
       body = f.read
-      body = body.force_encoding("utf8").gsub(/\[image:(.*):(.*)\]/) do |tmp|
+      body = body.force_encoding(Encoding::UTF_8).gsub(/\[image:(.*):(.*)\]/) do |tmp|
         get_image(filename, $1, $2)
       end
-      body = body.force_encoding("utf8").gsub(/\[image:(.*)\]/) do |tmp|
+      body = body.force_encoding(Encoding::UTF_8).gsub(/\[image:(.*)\]/) do |tmp|
         get_image(filename, $1)
       end
-      body = body.force_encoding("utf8").gsub(/!\[\]\(..\/assets\/images\/(.*)\)/) do |tmp|
+      body = body.force_encoding(Encoding::UTF_8).gsub(/!\[\]\(..\/assets\/images\/(.*)\)/) do |tmp|
         get_image(filename, $1.split('/').last)
       end
       f.rewind

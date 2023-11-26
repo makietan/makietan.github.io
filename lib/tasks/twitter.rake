@@ -4,7 +4,7 @@ namespace :twitter do
     open(ARGV[3], "r+") {|f|
       f.flock(File::LOCK_EX)
       body = f.read
-      body = body.force_encoding("utf8").gsub(/class=\"twitter-tweet\"/) do |tmp|
+      body = body.force_encoding(Encoding::UTF_8).gsub(/class=\"twitter-tweet\"/) do |tmp|
         'class="twitter-tweet tw-align-center"'
       end
       f.rewind
