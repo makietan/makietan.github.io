@@ -1,4 +1,26 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2023-12-07T12:16:35+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">真ゲッターアスカを入手</title><link href="https://makietan.github.io/game/srwdd/2023/11/29/report.html" rel="alternate" type="text/html" title="真ゲッターアスカを入手" /><published>2023-11-29T00:00:00+09:00</published><updated>2023-11-29T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2023/11/29/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2023/11/29/report.html"><![CDATA[<p>おそらく引くものではないんだろうな。
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2023-12-08T03:58:54+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">デジタル庁のパブリックコメント（意見公募手続）のやり方</title><link href="https://makietan.github.io/japan/2023/12/08/report.html" rel="alternate" type="text/html" title="デジタル庁のパブリックコメント（意見公募手続）のやり方" /><published>2023-12-08T00:00:00+09:00</published><updated>2023-12-08T00:00:00+09:00</updated><id>https://makietan.github.io/japan/2023/12/08/report</id><content type="html" xml:base="https://makietan.github.io/japan/2023/12/08/report.html"><![CDATA[<div class="card">
+  <a href="https://www.digital.go.jp/get-involved/procedure"></a>
+  <div class="card__header">
+    <a href="https://www.digital.go.jp/get-involved/procedure">www.digital.go.jp</a>
+  </div>
+  <div class="card__image">
+    <img src="https://www.digital.go.jp/themes/custom/gov_theme_da/assets/images/ogp.png" />
+  </div>
+  <div class="card__title">
+    <p>意見公募手続（パブリック・コメント）｜デジタル庁</p>
+  </div>
+  <div class="card__description">
+    <p>デジタル庁は、デジタル社会形成の司令塔として、未来志向のDXを大胆に推進し、デジタル時代の官民のインフラを今後5年で一気呵成に作り上げることを目指します。</p>
+  </div>
+</div>
+
+<p>こちらにある<strong>意見募集中案件</strong>にある項目を選択して内容を記述するだけ。
+任意で個人情報の記載も可能だ。</p>
+
+<p>IT従事者だったり、マイナンバーを取り扱う可能性がある事業者は声を出したほうがいいだろう。
+デジタル庁の連中がちゃんと読むかどうかは知らんけど。</p>
+
+<p>とまぁ、色々やってるデジタル庁にちょっかいを出すならここからできるのでやってみよう。</p>]]></content><author><name>makietan</name></author><category term="japan" /><summary type="html"><![CDATA[www.digital.go.jp 意見公募手続（パブリック・コメント）｜デジタル庁 デジタル庁は、デジタル社会形成の司令塔として、未来志向のDXを大胆に推進し、デジタル時代の官民のインフラを今後5年で一気呵成に作り上げることを目指します。]]></summary></entry><entry><title type="html">真ゲッターアスカを入手</title><link href="https://makietan.github.io/game/srwdd/2023/11/29/report.html" rel="alternate" type="text/html" title="真ゲッターアスカを入手" /><published>2023-11-29T00:00:00+09:00</published><updated>2023-11-29T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2023/11/29/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2023/11/29/report.html"><![CDATA[<p>おそらく引くものではないんだろうな。
 ただ黒チップがオレには必要なのだ。
 グリッドマンをSSR+にするためにも…。
 （これでグリッドマンの共闘戦のやつが来なかったら運営は万死に値する）</p>
@@ -880,24 +902,4 @@ mot();
 <p>そして阪神は優勝おめでとう。
 この調子は続くだろうから来年も来るね。</p>
 
-<p>バファローズは結構MLB挑戦者が多いからどうだろうね…。</p>]]></content><author><name>makietan</name></author><category term="sports" /><summary type="html"><![CDATA[1-7・・・・・・・・・・・・・・・#bs2023 #NPB #オリックス #バファローズ #バファローズポンタ #全員で頂点へ pic.twitter.com/4gGAVyGWPV&mdash; バファローズ☆ポンタ (@bs_ponta) November 5, 2023]]></summary></entry><entry><title type="html">松のやのカロリーをGoogleカレンダーに記録できるサイトを作った</title><link href="https://makietan.github.io/tech/2023/11/05/report.html" rel="alternate" type="text/html" title="松のやのカロリーをGoogleカレンダーに記録できるサイトを作った" /><published>2023-11-05T00:00:00+09:00</published><updated>2023-11-05T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2023/11/05/report</id><content type="html" xml:base="https://makietan.github.io/tech/2023/11/05/report.html"><![CDATA[<div class="card">
-  <a href="https://tanjoin.github.io/matsunoya/calendar.html"></a>
-  <div class="card__header">
-    <a href="https://tanjoin.github.io/matsunoya/calendar.html">tanjoin.github.io</a>
-  </div>
-  <div class="card__image">
-    <img src="" />
-  </div>
-  <div class="card__title">
-    <p>カロリーカレンダー</p>
-  </div>
-  <div class="card__description">
-    <p></p>
-  </div>
-</div>
-
-<p>毎週月曜日に更新している。
-新メニューとかの対応が大変だね。</p>
-
-<p>Google カレンダーに記録したカロリーを毎日表示していると
-今のダメな食生活がわかっていいね。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[tanjoin.github.io カロリーカレンダー]]></summary></entry></feed>
+<p>バファローズは結構MLB挑戦者が多いからどうだろうね…。</p>]]></content><author><name>makietan</name></author><category term="sports" /><summary type="html"><![CDATA[1-7・・・・・・・・・・・・・・・#bs2023 #NPB #オリックス #バファローズ #バファローズポンタ #全員で頂点へ pic.twitter.com/4gGAVyGWPV&mdash; バファローズ☆ポンタ (@bs_ponta) November 5, 2023]]></summary></entry></feed>
