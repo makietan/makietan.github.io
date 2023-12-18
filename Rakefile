@@ -15,9 +15,9 @@ end
 
 desc "git add & git commit -m '日報'"
 task :s do
-  sh "git pull --rebase origin develop"
   sh "git add ."
   sh "git commit -m '日報'"
+  sh "git pull --rebase origin develop"
 end
 
 desc "校閲する"
