@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2023-12-20T02:24:41+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">こころ交換所で交換できるもの</title><link href="https://makietan.github.io/game/dqw/2023/12/20/report.html" rel="alternate" type="text/html" title="こころ交換所で交換できるもの" /><published>2023-12-20T00:00:00+09:00</published><updated>2023-12-20T00:00:00+09:00</updated><id>https://makietan.github.io/game/dqw/2023/12/20/report</id><content type="html" xml:base="https://makietan.github.io/game/dqw/2023/12/20/report.html"><![CDATA[<div class="card">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2023-12-20T03:39:27+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">こころ交換所で交換できるもの</title><link href="https://makietan.github.io/game/dqw/2023/12/20/report.html" rel="alternate" type="text/html" title="こころ交換所で交換できるもの" /><published>2023-12-20T00:00:00+09:00</published><updated>2023-12-20T00:00:00+09:00</updated><id>https://makietan.github.io/game/dqw/2023/12/20/report</id><content type="html" xml:base="https://makietan.github.io/game/dqw/2023/12/20/report.html"><![CDATA[<div class="card">
   <a href="https://makietan.github.io/game/dqw/2022/09/13/report.html"></a>
   <div class="card__header">
     <a href="https://makietan.github.io/game/dqw/2022/09/13/report.html">makietan.github.io</a>
@@ -183,7 +183,16 @@ function sort_color() {
   }
 }
 
-</script>]]></content><author><name>makietan</name></author><category term="game" /><category term="dqw" /><summary type="html"><![CDATA[makietan.github.io 強敵こころ交換券で交換できるもの | 肉とお米とブロッコリー それぞれ1枚につきA1つと交換することができる]]></summary></entry><entry><title type="html">GoogleAppsScriptでデフォルト色以外のセル数をカウントする</title><link href="https://makietan.github.io/tech/2023/12/18/report.html" rel="alternate" type="text/html" title="GoogleAppsScriptでデフォルト色以外のセル数をカウントする" /><published>2023-12-18T00:00:00+09:00</published><updated>2023-12-18T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2023/12/18/report</id><content type="html" xml:base="https://makietan.github.io/tech/2023/12/18/report.html"><![CDATA[<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// 文字色がデフォ以外のものをカウントする</span>
+</script>]]></content><author><name>makietan</name></author><category term="game" /><category term="dqw" /><summary type="html"><![CDATA[makietan.github.io 強敵こころ交換券で交換できるもの | 肉とお米とブロッコリー それぞれ1枚につきA1つと交換することができる]]></summary></entry><entry><title type="html">すみぺの誕生日！</title><link href="https://makietan.github.io/otaku/2023/12/19/report.html" rel="alternate" type="text/html" title="すみぺの誕生日！" /><published>2023-12-19T00:00:00+09:00</published><updated>2023-12-19T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2023/12/19/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2023/12/19/report.html"><![CDATA[<p>上坂すみれさんじゅうにさい。</p>
+
+<p>おめでとうございます。</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mfyX119obrc?si=FL-a_oLCIXZCaM1h" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+
+<p>当初はスターチャイルドだったことをもはや感じさせない
+立派なキングレコード声優になられた。
+独自色がとても強く飽きることがない。
+今後の活動も楽しみである。</p>]]></content><author><name>makietan</name></author><category term="otaku" /><summary type="html"><![CDATA[上坂すみれさんじゅうにさい。]]></summary></entry><entry><title type="html">GoogleAppsScriptでデフォルト色以外のセル数をカウントする</title><link href="https://makietan.github.io/tech/2023/12/18/report.html" rel="alternate" type="text/html" title="GoogleAppsScriptでデフォルト色以外のセル数をカウントする" /><published>2023-12-18T00:00:00+09:00</published><updated>2023-12-18T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2023/12/18/report</id><content type="html" xml:base="https://makietan.github.io/tech/2023/12/18/report.html"><![CDATA[<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// 文字色がデフォ以外のものをカウントする</span>
 <span class="c1">// countColor("G2:G") みたいに文字列として渡すひつようがある</span>
 <span class="kd">function</span> <span class="nf">countColor</span><span class="p">(</span><span class="nx">textRange</span><span class="p">)</span> <span class="p">{</span>
   <span class="kd">let</span> <span class="nx">sheet</span> <span class="o">=</span> <span class="nx">SpreadsheetApp</span><span class="p">.</span><span class="nf">getActiveSheet</span><span class="p">();</span>
@@ -300,44 +309,4 @@ function sort_color() {
 
 <p>部屋が広く、収納が大きい家に移り住んだら買ってもいいかな。
 今は無理だ。
-ベッドもないし。</p>]]></content><author><name>makietan</name></author><category term="house" /><summary type="html"><![CDATA[春秋向けの羽毛布団のことらしい。]]></summary></entry><entry><title type="html">毎日の運動について考える</title><link href="https://makietan.github.io/health/2023/12/10/report.html" rel="alternate" type="text/html" title="毎日の運動について考える" /><published>2023-12-10T00:00:00+09:00</published><updated>2023-12-10T00:00:00+09:00</updated><id>https://makietan.github.io/health/2023/12/10/report</id><content type="html" xml:base="https://makietan.github.io/health/2023/12/10/report.html"><![CDATA[<div class="trim">
-  <div class="trim__item">
-    <a href="https://makietan.github.io/assets/images/2023-12-10-report/15-22-39.png">
-      <img class="one" src="https://makietan.github.io/assets/thumbnail/2023-12-10-report/15-22-39.png" />
-    </a>
-  </div>
-</div>
-
-<div class="card">
-  <a href="https://www.mhlw.go.jp/content/000656456.pdf"></a>
-  <div class="card__header">
-    <a href="https://www.mhlw.go.jp/content/000656456.pdf">www.mhlw.go.jp</a>
-  </div>
-  <div class="card__image">
-    <img src="" />
-  </div>
-  <div class="card__title">
-    <p>成人を対象にした運動プログラム</p>
-  </div>
-  <div class="card__description">
-    <p></p>
-  </div>
-</div>
-
-<div class="card">
-  <a href="https://www.mhlw.go.jp/content/10904750/001171393.pdf"></a>
-  <div class="card__header">
-    <a href="https://www.mhlw.go.jp/content/10904750/001171393.pdf">www.mhlw.go.jp</a>
-  </div>
-  <div class="card__image">
-    <img src="" />
-  </div>
-  <div class="card__title">
-    <p>健康づくりのための身体活動・運動ガイド 2023 </p>
-  </div>
-  <div class="card__description">
-    <p></p>
-  </div>
-</div>
-
-<p>ダンベルを買うか…。</p>]]></content><author><name>makietan</name></author><category term="health" /><summary type="html"><![CDATA[]]></summary></entry></feed>
+ベッドもないし。</p>]]></content><author><name>makietan</name></author><category term="house" /><summary type="html"><![CDATA[春秋向けの羽毛布団のことらしい。]]></summary></entry></feed>
