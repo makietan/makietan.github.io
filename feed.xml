@@ -1,4 +1,59 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2023-12-20T19:24:51+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">こころ交換所で交換できるもの</title><link href="https://makietan.github.io/game/dqw/2023/12/20/report.html" rel="alternate" type="text/html" title="こころ交換所で交換できるもの" /><published>2023-12-20T00:00:00+09:00</published><updated>2023-12-20T00:00:00+09:00</updated><id>https://makietan.github.io/game/dqw/2023/12/20/report</id><content type="html" xml:base="https://makietan.github.io/game/dqw/2023/12/20/report.html"><![CDATA[<div class="card">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2023-12-21T12:16:08+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">戦車道大作戦の公式戦のやる気回復スケジュール</title><link href="https://makietan.github.io/game/gup/2023/12/21/report.html" rel="alternate" type="text/html" title="戦車道大作戦の公式戦のやる気回復スケジュール" /><published>2023-12-21T00:00:00+09:00</published><updated>2023-12-21T00:00:00+09:00</updated><id>https://makietan.github.io/game/gup/2023/12/21/report</id><content type="html" xml:base="https://makietan.github.io/game/gup/2023/12/21/report.html"><![CDATA[<p>5分で1やる気が回復する。</p>
+
+<p>つまり、1時間で12やる気が回復する。</p>
+
+<p>ただし、やる気を30消費ずつする場合は実質90が上限となる。</p>
+
+<p>90（やる気） × 5（分/やる気）/ 60（分/時間） = 7.5時間</p>
+
+<p>となる。</p>
+
+<p>つまり、0時に寝て7時に起きるとちょうどいい感じになっているということだ。</p>
+
+<p>ただし、12時の休憩とかを加味するとそううまくはいかない。</p>
+
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+<script type="text/javascript">
+google.charts.load("current", {packages:["timeline"]});
+google.charts.setOnLoadCallback(drawChart);
+function drawChart() {
+    var container = document.getElementById('example5.1');
+    var chart = new google.visualization.Timeline(container);
+    var dataTable = new google.visualization.DataTable();
+    dataTable.addColumn({ type: 'string', id: 'Room' });
+    dataTable.addColumn({ type: 'string', id: 'Name' });
+    dataTable.addColumn({ type: 'date', id: 'Start' });
+    dataTable.addColumn({ type: 'date', id: 'End' });
+    dataTable.addRows([
+        [ '日常生活', '睡眠',       new Date(0,0,0,0,0,0),  new Date(0,0,0,7,0,0) ],
+        [ '日常生活', '仕事',    new Date(0,0,0,8,0,0),  new Date(0,0,0,12,0,0) ],
+        [ '日常生活', '仕事',    new Date(0,0,0,13,0,0),  new Date(0,0,0,18,0,0) ],
+        [ '戦車道大作戦（理想）',   '90回復サイクル',    new Date(0,0,0,0,0,0), new Date(0,0,0,7,30,0) ],
+        [ '戦車道大作戦（理想）',   '90回復サイクル',    new Date(0,0,0,8,0,0), new Date(0,0,0,15,30,0) ],
+        [ '戦車道大作戦（理想）',   '90回復サイクル',    new Date(0,0,0,16,0,0), new Date(0,0,0,23,00,0) ],
+        [ '戦車道大作戦（理想2）',   '96回復サイクル',    new Date(0,0,0,0,0,0), new Date(0,0,0,8,0,0) ],
+        [ '戦車道大作戦（理想2）',   '96回復サイクル',    new Date(0,0,0,9,0,0), new Date(0,0,0,17,0,0) ],
+        [ '戦車道大作戦（理想2）',   '60回復サイクル',    new Date(0,0,0,18,0,0), new Date(0,0,0,23,00,0) ],
+        [ '戦車道大作戦（現実）',   '90回復サイクル',    new Date(0,0,0,0,0,0), new Date(0,0,0,7,30,0) ],
+        [ '戦車道大作戦（現実）',   '48回復サイクル',    new Date(0,0,0,8,0,0), new Date(0,0,0,12,0,0) ],
+        [ '戦車道大作戦（現実）',   '60回復サイクル',    new Date(0,0,0,13,0,0), new Date(0,0,0,18,00,0) ],
+        [ '戦車道大作戦（現実）',   '48回復サイクル',    new Date(0,0,0,19,0,0), new Date(0,0,0,23,00,0) ],
+        [ '戦車道大作戦（現実2）',  '90回復サイクル',    new Date(0,0,0,13,0,0), new Date(0,0,0,20,30,0) ],
+        [ '戦車道大作戦（現実2）',  '24回復サイクル',    new Date(0,0,0,21,0,0), new Date(0,0,0,23,00,0) ],
+    ]);
+    var options = {
+        timeline: { colorByRowLabel: true }
+    };
+    chart.draw(dataTable, options);
+}
+</script>
+
+<div id="example5.1"></div>
+
+<p>てな感じで朝8時、昼12時〜15時、18時〜20時、23時といった計4回やると良さそうだ。</p>
+
+<p>実際には満タンになっていなければ逐次回復するのでこの限りではないがおおよその目安として覚えておくといい。</p>]]></content><author><name>makietan</name></author><category term="game" /><category term="gup" /><summary type="html"><![CDATA[5分で1やる気が回復する。]]></summary></entry><entry><title type="html">こころ交換所で交換できるもの</title><link href="https://makietan.github.io/game/dqw/2023/12/20/report.html" rel="alternate" type="text/html" title="こころ交換所で交換できるもの" /><published>2023-12-20T00:00:00+09:00</published><updated>2023-12-20T00:00:00+09:00</updated><id>https://makietan.github.io/game/dqw/2023/12/20/report</id><content type="html" xml:base="https://makietan.github.io/game/dqw/2023/12/20/report.html"><![CDATA[<div class="card">
   <a href="https://makietan.github.io/game/dqw/2022/09/13/report.html"></a>
   <div class="card__header">
     <a href="https://makietan.github.io/game/dqw/2022/09/13/report.html">makietan.github.io</a>
@@ -305,8 +360,4 @@ function sort_color() {
 
 <p>色んなところで食べられるようだが、予約が基本で数日前から行う必要がある。</p>
 
-<p>ま、ほんとに機会があれば食べたい。</p>]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[淡路島3年とらふぐ。]]></summary></entry><entry><title type="html">羽毛合掛け布団</title><link href="https://makietan.github.io/house/2023/12/11/report.html" rel="alternate" type="text/html" title="羽毛合掛け布団" /><published>2023-12-11T00:00:00+09:00</published><updated>2023-12-11T00:00:00+09:00</updated><id>https://makietan.github.io/house/2023/12/11/report</id><content type="html" xml:base="https://makietan.github.io/house/2023/12/11/report.html"><![CDATA[<p>春秋向けの羽毛布団のことらしい。</p>
-
-<p>部屋が広く、収納が大きい家に移り住んだら買ってもいいかな。
-今は無理だ。
-ベッドもないし。</p>]]></content><author><name>makietan</name></author><category term="house" /><summary type="html"><![CDATA[春秋向けの羽毛布団のことらしい。]]></summary></entry></feed>
+<p>ま、ほんとに機会があれば食べたい。</p>]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[淡路島3年とらふぐ。]]></summary></entry></feed>
