@@ -1,4 +1,61 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2024-01-09T12:16:29+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">戦車道大作戦の公式戦のやる気回復スケジュール</title><link href="https://makietan.github.io/game/gup/2023/12/21/report.html" rel="alternate" type="text/html" title="戦車道大作戦の公式戦のやる気回復スケジュール" /><published>2023-12-21T00:00:00+09:00</published><updated>2023-12-21T00:00:00+09:00</updated><id>https://makietan.github.io/game/gup/2023/12/21/report</id><content type="html" xml:base="https://makietan.github.io/game/gup/2023/12/21/report.html"><![CDATA[<p>5分で1やる気が回復する。</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2024-01-10T12:16:43+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">遊戯王マスターデュエルのリミットレギュレーション分解ボーナスチェッカー</title><link href="https://makietan.github.io/game/yugioh/2024/01/10/report.html" rel="alternate" type="text/html" title="遊戯王マスターデュエルのリミットレギュレーション分解ボーナスチェッカー" /><published>2024-01-10T00:00:00+09:00</published><updated>2024-01-10T00:00:00+09:00</updated><id>https://makietan.github.io/game/yugioh/2024/01/10/report</id><content type="html" xml:base="https://makietan.github.io/game/yugioh/2024/01/10/report.html"><![CDATA[<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+
+<h2 id="無制限--禁止-3枚分解">無制限 → 禁止 (3枚分解)</h2>
+
+<div class="row pb-4">
+<input type="checkbox" class="btn-check" id="混沌魔龍 カオス・ルーラー" autocomplete="off" />
+<label class="btn btn-outline-secondary" for="混沌魔龍 カオス・ルーラー">【UR】混沌魔龍 カオス・ルーラー</label><br />
+<input type="checkbox" class="btn-check" id="輝白竜 ワイバースター" autocomplete="off" />
+<label class="btn btn-outline-secondary" for="輝白竜 ワイバースター">【SR】輝白竜 ワイバースター</label><br />
+<input type="checkbox" class="btn-check" id="超重武者装留ブレイク・アーマー" autocomplete="off" />
+<label class="btn btn-outline-secondary" for="超重武者装留ブレイク・アーマー">【N】超重武者装留ブレイク・アーマー</label><br />
+</div>
+
+<h2 id="準制限--禁止-2枚分解">準制限 → 禁止 (2枚分解)</h2>
+
+<div class="row pb-4">
+<input type="checkbox" class="btn-check" id="命削りの宝札" autocomplete="off" />
+<label class="btn btn-outline-secondary" for="命削りの宝札">【SR】命削りの宝札</label><br />
+</div>
+
+<h2 id="無制限--制限-2枚分解">無制限 → 制限 (2枚分解)</h2>
+
+<div class="row pb-4">
+<input type="checkbox" class="btn-check" id="インスペクト・ボーダー" autocomplete="off" />
+<label class="btn btn-outline-secondary" for="インスペクト・ボーダー">【UR】インスペクト・ボーダー</label><br />
+<input type="checkbox" class="btn-check" id="クシャトリラ・バース" autocomplete="off" />
+<label class="btn btn-outline-secondary" for="クシャトリラ・バース">【SR】クシャトリラ・バース</label><br />
+<input type="checkbox" class="btn-check" id="カイザーコロシアム" autocomplete="off" />
+<label class="btn btn-outline-secondary" for="カイザーコロシアム">【SR】カイザーコロシアム</label><br />
+<input type="checkbox" class="btn-check" id="シンクロ・ゾーン" autocomplete="off" />
+<label class="btn btn-outline-secondary" for="シンクロ・ゾーン">【N】シンクロ・ゾーン</label><br />
+</div>
+
+<h2 id="準制限--制限-1枚分解">準制限 → 制限 (1枚分解)</h2>
+
+<div class="row pb-4">
+<input type="checkbox" class="btn-check" id="クシャトリラ・フェンリル" autocomplete="off" />
+<label class="btn btn-outline-secondary" for="クシャトリラ・フェンリル">【UR】クシャトリラ・フェンリル</label><br />
+<input type="checkbox" class="btn-check" id="センサー万別" autocomplete="off" />
+<label class="btn btn-outline-secondary" for="センサー万別">【UR】センサー万別</label><br />
+<input type="checkbox" class="btn-check" id="破壊の神碑" autocomplete="off" />
+<label class="btn btn-outline-secondary" for="破壊の神碑">【SR】破壊の神碑</label><br />
+<input type="checkbox" class="btn-check" id="強欲で貪欲な壺" autocomplete="off" />
+<label class="btn btn-outline-secondary" for="強欲で貪欲な壺">【SR】強欲で貪欲な壺</label><br />
+<input type="checkbox" class="btn-check" id="強欲で謙虚な壺" autocomplete="off" />
+<label class="btn btn-outline-secondary" for="強欲で謙虚な壺">【SR】強欲で謙虚な壺</label><br />
+<input type="checkbox" class="btn-check" id="ピュアリィ・デリシャスメモリー" autocomplete="off" />
+<label class="btn btn-outline-secondary" for="ピュアリィ・デリシャスメモリー">【R】ピュアリィ・デリシャスメモリー</label><br />
+</div>
+
+<h2 id="無制限--準制限-1枚分解">無制限 → 準制限 (1枚分解)</h2>
+
+<div class="row pb-4">
+<input type="checkbox" class="btn-check" id="ピュアリィ・プリティメモリー" autocomplete="off" />
+<label class="btn btn-outline-secondary" for="ピュアリィ・プリティメモリー">【R】ピュアリィ・プリティメモリー</label><br />
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>]]></content><author><name>makietan</name></author><category term="game" /><category term="yugioh" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">戦車道大作戦の公式戦のやる気回復スケジュール</title><link href="https://makietan.github.io/game/gup/2023/12/21/report.html" rel="alternate" type="text/html" title="戦車道大作戦の公式戦のやる気回復スケジュール" /><published>2023-12-21T00:00:00+09:00</published><updated>2023-12-21T00:00:00+09:00</updated><id>https://makietan.github.io/game/gup/2023/12/21/report</id><content type="html" xml:base="https://makietan.github.io/game/gup/2023/12/21/report.html"><![CDATA[<p>5分で1やる気が回復する。</p>
 
 <p>つまり、1時間で12やる気が回復する。</p>
 
@@ -336,28 +393,4 @@ function sort_color() {
 
 <p>まぁ普通のネギっぽいのでそういうのもあるんだなという感じで知っておきたい。</p>
 
-<p>それとは別に焼きネギ…ねぎまが食べたいな。</p>]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[兵庫県朝来市のネギ。]]></summary></entry><entry><title type="html">3年とらふぐ</title><link href="https://makietan.github.io/gourmet/2023/12/12/report.html" rel="alternate" type="text/html" title="3年とらふぐ" /><published>2023-12-12T00:00:00+09:00</published><updated>2023-12-12T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2023/12/12/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2023/12/12/report.html"><![CDATA[<p>淡路島3年とらふぐ。</p>
-
-<p>11月頃から旬らしい。</p>
-
-<p>機会があれば食べたい。</p>
-
-<div class="card">
-  <a href="https://www.awajishima-kanko.jp/awaji/torafugu/"></a>
-  <div class="card__header">
-    <a href="https://www.awajishima-kanko.jp/awaji/torafugu/">www.awajishima-kanko.jp</a>
-  </div>
-  <div class="card__image">
-    <img src="" />
-  </div>
-  <div class="card__title">
-    <p>淡路島3年とらふぐ | 淡路島観光ガイド - 淡路島の観光や旅行、宿泊施設、温泉、グルメ、イベント情報がいっぱい！</p>
-  </div>
-  <div class="card__description">
-    <p>淡路島観光ガイドは淡路島の観光や旅行、宿泊施設（ホテル、旅館、民宿、ペンション）、温泉、グルメの情報を掲載しています。淡路島に関心をお持ちの皆さんの力で淡路島を盛り上げ、そして楽しんでいただくためのサイトです。イベント情報やモデルコースも随時更新しています。</p>
-  </div>
-</div>
-
-<p>色んなところで食べられるようだが、予約が基本で数日前から行う必要がある。</p>
-
-<p>ま、ほんとに機会があれば食べたい。</p>]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[淡路島3年とらふぐ。]]></summary></entry></feed>
+<p>それとは別に焼きネギ…ねぎまが食べたいな。</p>]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[兵庫県朝来市のネギ。]]></summary></entry></feed>
