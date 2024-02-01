@@ -1,4 +1,293 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2024-02-01T12:16:05+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">白菜とベーコンのペペロンチーノが美味しい</title><link href="https://makietan.github.io/gourmet/2024/01/22/report.html" rel="alternate" type="text/html" title="白菜とベーコンのペペロンチーノが美味しい" /><published>2024-01-22T00:00:00+09:00</published><updated>2024-01-22T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2024/01/22/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2024/01/22/report.html"><![CDATA[<p>冷蔵庫に余った白菜の処理にちょうどいい。</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2024-02-01T20:24:38+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">蜃気楼の雑な考察</title><link href="https://makietan.github.io/game/srwdd/2024/02/01/report.html" rel="alternate" type="text/html" title="蜃気楼の雑な考察" /><published>2024-02-01T00:00:00+09:00</published><updated>2024-02-01T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2024/02/01/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2024/02/01/report.html"><![CDATA[<h2 id="移動">移動</h2>
+
+<p>3</p>
+
+<h2 id="スピード">スピード</h2>
+
+<p>625</p>
+
+<h2 id="拡散構造相転移砲map-ssr">拡散構造相転移砲（MAP） SSR+</h2>
+<ul>
+  <li>ステータス
+    <ul>
+      <li>HP 2925</li>
+      <li>攻撃力 3210</li>
+      <li>防御力 2730</li>
+      <li>照準値 261</li>
+      <li>運動性 204</li>
+    </ul>
+  </li>
+  <li>威力255%</li>
+  <li>アクション 2</li>
+  <li>回数 5
+    <h3 id="main-高度演算処理機構">MAIN [高度演算処理機構]</h3>
+  </li>
+  <li>特殊属性の全ての攻撃のブレイクゲージ減少量+110%
+    <h4 id="バランスタイプ">バランスタイプ</h4>
+  </li>
+  <li>移動力 +1</li>
+  <li>攻撃力 +16%</li>
+  <li>防御力 +16%</li>
+  <li>照準値 +16%
+    <h4 id="蜃気楼装備時">蜃気楼装備時</h4>
+  </li>
+  <li>1度だけステージ開始時「堅固」
+    <h5 id="気力が10上昇する毎">気力が10上昇する毎</h5>
+  </li>
+  <li>攻撃力 +5%</li>
+  <li>防御力 +5%</li>
+  <li>照準値 +5%
+    <h4 id="拡散構造相転移砲map命中時">拡散構造相転移砲（MAP）命中時</h4>
+  </li>
+  <li>敵ユニットの気力-25</li>
+  <li>敵ユニットの攻撃力-15%（敵ユニットが2アクションの間）
+    <h3 id="必殺技スロット時-高度演算処理機構">必殺技スロット時 [高度演算処理機構]</h3>
+  </li>
+  <li>移動力 +1</li>
+  <li>1度だけステージ開始時「堅固」
+    <h4 id="気力が10上昇する毎-1">気力が10上昇する毎</h4>
+  </li>
+  <li>防御力 +2%</li>
+  <li>照準値 +2%
+    <h4 id="拡散構造相転移砲map命中時-1">拡散構造相転移砲（MAP）命中時</h4>
+  </li>
+  <li>敵ユニットの気力-25</li>
+  <li>敵ユニットの攻撃力-10%（敵ユニットが2アクションの間）</li>
+</ul>
+
+<h2 id="拡散構造相転移砲-ssr">拡散構造相転移砲 SSR+</h2>
+<ul>
+  <li>ステータス
+    <ul>
+      <li>HP 2880</li>
+      <li>攻撃力 3180</li>
+      <li>防御力 2730</li>
+      <li>照準値 264</li>
+      <li>運動性 207</li>
+    </ul>
+  </li>
+  <li>威力 265%</li>
+  <li>アクション 2</li>
+  <li>回数 4
+    <h3 id="main-情報解析蜃気楼">MAIN [情報解析（蜃気楼）]</h3>
+    <h4 id="バランスタイプ-1">バランスタイプ</h4>
+  </li>
+  <li>攻撃力 +16%</li>
+  <li>防御力 +16%</li>
+  <li>照準値 +14.5%
+    <h4 id="蜃気楼装備時-1">蜃気楼装備時</h4>
+  </li>
+  <li>特殊属性の全ての攻撃のブレイクゲージ減少量+110%</li>
+  <li>周囲2〜5マス内の敵ユニットの防御力・運動性を-19%</li>
+  <li>MAP兵器以外の最大射程+1
+    <h5 id="戦闘回数">戦闘回数</h5>
+  </li>
+  <li>攻撃力 +6% (最大30%)</li>
+  <li>防御力 +6% (最大30%)</li>
+  <li>照準値 +6% (最大30%)
+    <h3 id="必殺技スロット時-情報解析蜃気楼">必殺技スロット時 [情報解析（蜃気楼）]</h3>
+  </li>
+  <li>MAP兵器以外の最大射程+1</li>
+  <li>周囲2〜5マス内の敵ユニットの防御力・運動性を-19%</li>
+  <li>拡散構造相転移砲のブレイクゲージ減少量+40%</li>
+</ul>
+
+<h2 id="ハドロンショット-ssr">ハドロンショット SSR+</h2>
+<ul>
+  <li>ステータス
+    <ul>
+      <li>HP 2385</li>
+      <li>攻撃力 3030</li>
+      <li>防御力 2550</li>
+      <li>照準値 225</li>
+      <li>運動性 222</li>
+    </ul>
+  </li>
+  <li>威力 215%</li>
+  <li>命中 +40%</li>
+  <li>射程 1-4</li>
+  <li>アクション 2</li>
+  <li>回数 4
+    <h3 id="main-自動機体制御蜃気楼">MAIN [自動機体制御（蜃気楼）]</h3>
+  </li>
+  <li>攻撃力 +21%</li>
+  <li>照準値 +21%
+    <h4 id="命中時">命中時</h4>
+  </li>
+  <li>防御力 +4% (最大20%)
+    <h4 id="戦闘回数-1">戦闘回数</h4>
+  </li>
+  <li>攻撃力 +3.4% (最大17%)</li>
+  <li>防御力 +3.4% (最大17%)
+    <h3 id="必殺技スロット時-自動機体制御蜃気楼">必殺技スロット時 [自動機体制御（蜃気楼）]</h3>
+  </li>
+  <li>攻撃力 +11%</li>
+  <li>照準値 +11%
+    <h4 id="戦闘回数-2">戦闘回数</h4>
+  </li>
+  <li>攻撃力 +1.6% (最大8%)</li>
+  <li>防御力 +1.6% (最大8%)</li>
+</ul>
+
+<h2 id="スラッシュハーケン蜃気楼-ssr">スラッシュハーケン（蜃気楼） SSR+</h2>
+<ul>
+  <li>ステータス
+    <ul>
+      <li>HP 2385</li>
+      <li>攻撃力 3000</li>
+      <li>防御力 2580</li>
+      <li>照準値 222</li>
+      <li>運動性 225</li>
+    </ul>
+  </li>
+  <li>威力 215%</li>
+  <li>アクション 2</li>
+  <li>回数 4
+    <h3 id="main-ブレイクアタックⅳ">MAIN [ブレイクアタックⅣ]</h3>
+  </li>
+  <li>攻撃力 +10.5%</li>
+  <li>防御力 +10.5%</li>
+  <li>照準値 +10.5%</li>
+  <li>運動性 +10.5%
+    <h4 id="ブレイク状態の敵">ブレイク状態の敵</h4>
+  </li>
+  <li>攻撃力 +30%
+    <h3 id="必殺技スロット時-ブレイクアタックⅳ">必殺技スロット時 [ブレイクアタックⅣ]</h3>
+  </li>
+  <li>攻撃力 +6.5%</li>
+  <li>防御力 +6.5%</li>
+  <li>照準値 +6.5%</li>
+  <li>運動性 +6.5%
+    <h4 id="ブレイク状態の敵-1">ブレイク状態の敵</h4>
+  </li>
+  <li>攻撃力 +15%</li>
+</ul>
+
+<h2 id="ハドロンショット連射-ssr">ハドロンショット連射 SSR+</h2>
+<ul>
+  <li>ステータス
+    <ul>
+      <li>HP 2520</li>
+      <li>攻撃力 2910</li>
+      <li>防御力 2580</li>
+      <li>照準値 225</li>
+      <li>運動性 222</li>
+    </ul>
+  </li>
+  <li>威力 220%</li>
+  <li>アクション 3</li>
+  <li>回数 4
+    <h3 id="main-狙い撃ちⅳ">MAIN [狙い撃ちⅣ]</h3>
+  </li>
+  <li>攻撃力 +10.5%</li>
+  <li>防御力 +10.5%</li>
+  <li>照準値 +10.5%</li>
+  <li>運動性 +10.5%
+    <h4 id="気力120以上">気力120以上</h4>
+  </li>
+  <li>照準値 +25%
+    <h3 id="必殺技スロット時-狙い撃ちⅳ">必殺技スロット時 [狙い撃ちⅣ]</h3>
+  </li>
+  <li>攻撃力 +6.5%</li>
+  <li>防御力 +6.5%</li>
+  <li>照準値 +6.5%</li>
+  <li>運動性 +6.5%
+    <h4 id="気力120以上-1">気力120以上</h4>
+  </li>
+  <li>照準値 +13%</li>
+</ul>
+
+<h2 id="hp">HP</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">順位</th>
+      <th style="text-align: left">パーツ</th>
+      <th style="text-align: center">ランク</th>
+      <th style="text-align: center">レベル</th>
+      <th style="text-align: center">数値</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">1</td>
+      <td style="text-align: left">拡散構造相転移砲（MAP）　　</td>
+      <td style="text-align: center">SSR+</td>
+      <td style="text-align: center">110</td>
+      <td style="text-align: center">24925</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">2</td>
+      <td style="text-align: left">拡散構造相転移砲　　　　　　</td>
+      <td style="text-align: center">SSR+</td>
+      <td style="text-align: center">110</td>
+      <td style="text-align: center">24880</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">3</td>
+      <td style="text-align: left">ハドロンショット　　　　　　</td>
+      <td style="text-align: center">SSR+</td>
+      <td style="text-align: center">110</td>
+      <td style="text-align: center">24385</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">3</td>
+      <td style="text-align: left">スラッシュハーケン（蜃気楼）</td>
+      <td style="text-align: center">SSR+</td>
+      <td style="text-align: center">110</td>
+      <td style="text-align: center">24385</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">3</td>
+      <td style="text-align: left">ハドロンショット連射　</td>
+      <td style="text-align: center">SSR+</td>
+      <td style="text-align: center">110</td>
+      <td style="text-align: center">24385</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="攻撃力">攻撃力</h2>
+
+<div id="atk"></div>
+
+<!-- Google Charts -->
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+<script type="text/javascript">
+google.charts.load("current", { "packages": ["corechart"] });
+const ANNOTATION = { type: 'string', role: 'annotation' };
+const ANNOTATION_NUM = { type: 'number', role: 'annotation' };
+
+// 攻撃力
+function atk() {
+  google.charts.setOnLoadCallback(() => {
+    var data = google.visualization.arrayToDataTable([
+        ['パーツ', '基礎攻撃力', 'MAINスキル(気力100)', 'MAINスキル(気力150)', 'MAINスキル(戦闘回数)', 'MAINスキル(命中時)', { role: 'annotation' }, 'MAINスキル(気力・一度)', 'MAINスキル(HP減少)', { role: 'annotation' } ],
+
+        ['拡散構造相転移砲（MAP）',    (2980 + 3210), (2980 + 3210) * 0.16, (2980 + 3210) * 0.05 * 5, 0, 0, '命中時に敵の気力-25・攻撃力-15%', 0, 0, 'ステータス開始時に「堅固」・特殊ﾌﾞﾚｲｸ+110%'],
+        ['拡散構造相転移砲',　　　    　(2980 + 3180), (2980 + 3180) * 0.16, 0, (2980 + 3180) * 0.3, 0, '周囲2-5の敵の防御力・運動性-19%', 0, 0, '最大射程 +1・特殊ﾌﾞﾚｲｸ+110%'],
+        ['ハドロンショット',　　　　    (2980 + 3030), (2980 + 3030) * 0.21, 0, (2980 + 3030) * 0.17, 0, null, 0, 0, null],
+        ['スラッシュハーケン（蜃気楼）', (2980 + 3000), (2980 + 3000) * 0.105, 0, 0, 0, null, 0, 0, null],
+        ['ハドロンショット連射',　      (2980 + 2910), (2980 + 3000) * 0.105, 0, 0, 0, null, 0, 0, null]
+    ]);
+    var options = {
+        title: "攻撃力",
+        width: "100%",
+        height: 600,
+     		legend: { position:'right' },
+        vAxis: { minValue: 0 },
+     		bar:{groupWidth:"75%"},
+        isStacked: true,
+    };
+    var chart = new google.visualization.ColumnChart(document.getElementById('atk'));
+    chart.draw(data, options);
+  });
+}
+atk();
+
+</script>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[移動]]></summary></entry><entry><title type="html">白菜とベーコンのペペロンチーノが美味しい</title><link href="https://makietan.github.io/gourmet/2024/01/22/report.html" rel="alternate" type="text/html" title="白菜とベーコンのペペロンチーノが美味しい" /><published>2024-01-22T00:00:00+09:00</published><updated>2024-01-22T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2024/01/22/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2024/01/22/report.html"><![CDATA[<p>冷蔵庫に余った白菜の処理にちょうどいい。</p>
 
 <ul>
   <li>白菜</li>
@@ -539,35 +828,4 @@ function sort_color() {
 <p>当初はスターチャイルドだったことをもはや感じさせない
 立派なキングレコード声優になられた。
 独自色がとても強く飽きることがない。
-今後の活動も楽しみである。</p>]]></content><author><name>makietan</name></author><category term="otaku" /><summary type="html"><![CDATA[上坂すみれさんじゅうにさい。]]></summary></entry><entry><title type="html">GoogleAppsScriptでデフォルト色以外のセル数をカウントする</title><link href="https://makietan.github.io/tech/2023/12/18/report.html" rel="alternate" type="text/html" title="GoogleAppsScriptでデフォルト色以外のセル数をカウントする" /><published>2023-12-18T00:00:00+09:00</published><updated>2023-12-18T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2023/12/18/report</id><content type="html" xml:base="https://makietan.github.io/tech/2023/12/18/report.html"><![CDATA[<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// 文字色がデフォ以外のものをカウントする</span>
-<span class="c1">// countColor("G2:G") みたいに文字列として渡すひつようがある</span>
-<span class="kd">function</span> <span class="nf">countColor</span><span class="p">(</span><span class="nx">textRange</span><span class="p">)</span> <span class="p">{</span>
-  <span class="kd">let</span> <span class="nx">sheet</span> <span class="o">=</span> <span class="nx">SpreadsheetApp</span><span class="p">.</span><span class="nf">getActiveSheet</span><span class="p">();</span>
-  <span class="kd">let</span> <span class="nx">colors</span> <span class="o">=</span> <span class="nx">sheet</span><span class="p">.</span><span class="nf">getRange</span><span class="p">(</span><span class="nx">textRange</span><span class="p">)</span>
-                    <span class="p">.</span><span class="nf">getFontColorObjects</span><span class="p">().</span><span class="nf">flat</span><span class="p">().</span><span class="nf">map</span><span class="p">((</span><span class="nx">c</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="nx">c</span><span class="p">.</span><span class="nf">asRgbColor</span><span class="p">().</span><span class="nf">asHexString</span><span class="p">())</span>
-                    <span class="p">.</span><span class="nf">filter</span><span class="p">((</span><span class="nx">c</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="nx">c</span> <span class="o">!==</span> <span class="dl">"</span><span class="s2">#ff000000</span><span class="dl">"</span><span class="p">);</span>
-  <span class="k">return</span> <span class="nx">colors</span><span class="p">.</span><span class="nx">length</span><span class="p">;</span>
-<span class="p">}</span>
-</code></pre></div></div>
-
-<p>使い方は [拡張機能] - [Apps Script] にて上記のコードを貼り付けるだけ。</p>
-
-<p>範囲の指定の仕方が結構面倒でいつものように <code class="language-plaintext highlighter-rouge">E2:G2</code> とかで指定するとその範囲のセルの中身のデータしか渡されないので正常に動作しない。
-なので、<code class="language-plaintext highlighter-rouge">"E2:G2"</code>のような指定をするひつようがある。</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>=countColor("E2:G2")
-</code></pre></div></div>
-
-<p>ROWを可変にする場合は以下のようになる。</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>="E"&amp;ROW()&amp;":G"&amp;ROW()
-</code></pre></div></div>
-
-<p>（表示されるデータは <code class="language-plaintext highlighter-rouge">E21:G21</code>）</p>
-
-<p>一方、COLUMNを可変にする場合は文字列にするひつようがあるので</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>=ADDRESS(2, COLUMN())&amp;":"&amp;ADDRESS(10, COLUMN())
-</code></pre></div></div>
-
-<p>といった感じになる。（表示されるデータは <code class="language-plaintext highlighter-rouge">$E$2:$E$10</code>）</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[// 文字色がデフォ以外のものをカウントする // countColor("G2:G") みたいに文字列として渡すひつようがある function countColor(textRange) { let sheet = SpreadsheetApp.getActiveSheet(); let colors = sheet.getRange(textRange) .getFontColorObjects().flat().map((c) =&gt; c.asRgbColor().asHexString()) .filter((c) =&gt; c !== "#ff000000"); return colors.length; }]]></summary></entry></feed>
+今後の活動も楽しみである。</p>]]></content><author><name>makietan</name></author><category term="otaku" /><summary type="html"><![CDATA[上坂すみれさんじゅうにさい。]]></summary></entry></feed>
