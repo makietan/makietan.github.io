@@ -10,8 +10,8 @@
 <meta property="og:title" content="蜃気楼の雑な考察" />
 <meta name="author" content="makietan" />
 <meta property="og:locale" content="ja" />
-<meta name="description" content="移動" />
-<meta property="og:description" content="移動" />
+<meta name="description" content="HP 攻撃力 防御力 照準値 運動性 移動 スピード 22000 2980 3070 310 259 3 625" />
+<meta property="og:description" content="HP 攻撃力 防御力 照準値 運動性 移動 スピード 22000 2980 3070 310 259 3 625" />
 <link rel="canonical" href="https://makietan.github.io/game/srwdd/2024/02/01/report.html" />
 <meta property="og:url" content="https://makietan.github.io/game/srwdd/2024/02/01/report.html" />
 <meta property="og:site_name" content="肉とお米とブロッコリー" />
@@ -20,7 +20,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="蜃気楼の雑な考察" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"makietan"},"dateModified":"2024-02-01T00:00:00+09:00","datePublished":"2024-02-01T00:00:00+09:00","description":"移動","headline":"蜃気楼の雑な考察","mainEntityOfPage":{"@type":"WebPage","@id":"https://makietan.github.io/game/srwdd/2024/02/01/report.html"},"url":"https://makietan.github.io/game/srwdd/2024/02/01/report.html"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"makietan"},"dateModified":"2024-02-01T00:00:00+09:00","datePublished":"2024-02-01T00:00:00+09:00","description":"HP 攻撃力 防御力 照準値 運動性 移動 スピード 22000 2980 3070 310 259 3 625","headline":"蜃気楼の雑な考察","mainEntityOfPage":{"@type":"WebPage","@id":"https://makietan.github.io/game/srwdd/2024/02/01/report.html"},"url":"https://makietan.github.io/game/srwdd/2024/02/01/report.html"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="https://makietan.github.io/feed.xml" title="肉とお米とブロッコリー" /><meta name="msvalidate.01" content="89F1D244C30C26610D2EB5442A4DA1D8" />
 <!-- Google tag (gtag.js) -->
@@ -97,7 +97,10 @@
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    <h2 id="移動">移動</h2>
+    <p>HP	攻撃力	防御力	照準値	運動性	移動	スピード
+22000	2980	3070	310	259	3	625</p>
+
+<h2 id="移動">移動</h2>
 
 <p>3</p>
 
@@ -296,7 +299,9 @@
   <li>照準値 +13%</li>
 </ul>
 
-<h2 id="hp">HP</h2>
+<h2 id="mainのグラフ">MAINのグラフ</h2>
+
+<h3 id="hp">HP</h3>
 
 <table>
   <thead>
@@ -347,9 +352,21 @@
   </tbody>
 </table>
 
-<h2 id="攻撃力">攻撃力</h2>
+<h3 id="攻撃力">攻撃力</h3>
 
 <div id="atk"></div>
+
+<h3 id="防御力">防御力</h3>
+
+<div id="def"></div>
+
+<h3 id="照準値">照準値</h3>
+
+<div id="aim"></div>
+
+<h3 id="運動性">運動性</h3>
+
+<div id="mot"></div>
 
 <!-- Google Charts -->
 <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
@@ -363,13 +380,12 @@ const ANNOTATION_NUM = { type: 'number', role: 'annotation' };
 function atk() {
   google.charts.setOnLoadCallback(() => {
     var data = google.visualization.arrayToDataTable([
-        ['パーツ', '基礎攻撃力', 'MAINスキル(気力100)', 'MAINスキル(気力150)', 'MAINスキル(戦闘回数)', 'MAINスキル(命中時)', { role: 'annotation' }, 'MAINスキル(気力・一度)', 'MAINスキル(HP減少)', { role: 'annotation' } ],
-
-        ['拡散構造相転移砲（MAP）',    (2980 + 3210), (2980 + 3210) * 0.16, (2980 + 3210) * 0.05 * 5, 0, 0, '命中時に敵の気力-25・攻撃力-15%', 0, 0, 'ステータス開始時に「堅固」・特殊ﾌﾞﾚｲｸ+110%'],
-        ['拡散構造相転移砲',　　　    　(2980 + 3180), (2980 + 3180) * 0.16, 0, (2980 + 3180) * 0.3, 0, '周囲2-5の敵の防御力・運動性-19%', 0, 0, '最大射程 +1・特殊ﾌﾞﾚｲｸ+110%'],
-        ['ハドロンショット',　　　　    (2980 + 3030), (2980 + 3030) * 0.21, 0, (2980 + 3030) * 0.17, 0, null, 0, 0, null],
-        ['スラッシュハーケン（蜃気楼）', (2980 + 3000), (2980 + 3000) * 0.105, 0, 0, 0, null, 0, 0, null],
-        ['ハドロンショット連射',　      (2980 + 2910), (2980 + 3000) * 0.105, 0, 0, 0, null, 0, 0, null]
+        ['パーツ', '基礎攻撃力', 'MAINスキル(気力100)', 'MAINスキル(気力150)', 'MAINスキル(戦闘回数)', 'MAINスキル(命中時)', { role: 'annotation' }, 'MAINスキル（敵ﾌﾞﾚｲｸ状態）', 'MAINスキル(気力・一度)', 'MAINスキル(HP減少)', { role: 'annotation' } ],
+        ['拡散構造相転移砲（MAP）',    (2980 + 3210), (2980 + 3210) * 0.16, (2980 + 3210) * 0.05 * 5,                    0, 0,                null,                  0, 0, 0, null],
+        ['拡散構造相転移砲',　　　    　(2980 + 3180), (2980 + 3180) * 0.16,                        0,  (2980 + 3180) * 0.3, 0, '周囲2-5の敵の防御力',                   0, 0, 0, null],
+        ['ハドロンショット',　　　　    (2980 + 3030), (2980 + 3030) * 0.21,                        0, (2980 + 3030) * 0.17, 0,               null,                   0, 0, 0, null],
+        ['スラッシュハーケン（蜃気楼）', (2980 + 3000), (2980 + 3000) * 0.105,                       0,                    0, 0,               null, (3070 + 2580) * 0.3, 0, 0, null],
+        ['ハドロンショット連射',　      (2980 + 2910), (2980 + 3000) * 0.105,                       0,                    0, 0,               null,                   0, 0, 0, null]
     ]);
     var options = {
         title: "攻撃力",
@@ -386,6 +402,83 @@ function atk() {
 }
 atk();
 
+// 防御力
+function def() {
+  google.charts.setOnLoadCallback(() => {
+    var data = google.visualization.arrayToDataTable([
+        ['パーツ', '基礎防御力', 'MAINスキル(気力100)', 'MAINスキル(気力150)', 'MAINスキル(戦闘回数)', 'MAINスキル(命中時)', { role: 'annotation' }, 'MAINスキル（敵ﾌﾞﾚｲｸ状態）', 'MAINスキル(気力・一度)', 'MAINスキル(HP減少)', { role: 'annotation' } ],
+        ['拡散構造相転移砲（MAP）',    (3070 + 2730),  (3070 + 2730) * 0.16, (3070 + 2730) * (0.05 * 5),                   0,                   0, '敵ユニットの攻撃力-15%', 0, 0, 0, 'ステージ開始時「堅固」'],
+        ['拡散構造相転移砲',　　　    　(3070 + 2730),  (3070 + 2730) * 0.16,                         0,  (3070 + 2730) * 0.3,                   0, null, 0, 0, 0, null],
+        ['ハドロンショット',　　　　    (3070 + 2550),                     0,                         0, (3070 + 2550) * 0.17, (3070 + 2550) * 0.2, null, 0, 0, 0, null],
+        ['スラッシュハーケン（蜃気楼）', (3070 + 2580), (3070 + 2580) * 0.105,                         0,                    0,                   0, null, 0, 0, 0, null],
+        ['ハドロンショット連射',　      (3070 + 2580), (3070 + 2580) * 0.105,                         0,                    0,                   0, null, 0, 0, 0, null]
+    ]);
+    var options = {
+        title: "防御力",
+        width: "100%",
+        height: 600,
+     		legend: { position:'right' },
+        vAxis: { minValue: 0 },
+     		bar:{groupWidth:"75%"},
+        isStacked: true,
+    };
+    var chart = new google.visualization.ColumnChart(document.getElementById('def'));
+    chart.draw(data, options);
+  });
+}
+def();
+
+// 照準値
+function aim() {
+  google.charts.setOnLoadCallback(() => {
+    var data = google.visualization.arrayToDataTable([
+        ['パーツ', '基礎照準値', 'MAINスキル(気力100)', 'MAINスキル(気力150)', 'MAINスキル(戦闘回数)', 'MAINスキル(命中時)', { role: 'annotation' }, 'MAINスキル（敵ﾌﾞﾚｲｸ状態）', 'MAINスキル(気力・一度)', 'MAINスキル(HP減少)', { role: 'annotation' } ],
+        ['拡散構造相転移砲（MAP）',     (310 + 261),  (310 + 261) * 0.16, (310 + 261) * 0.05 * 5,                 0, 0,                null, 0, 0, 0, null],
+        ['拡散構造相転移砲',　　　      (310 + 264), (310 + 264) * 0.145,                      0, (310 + 264) * 0.3, 0, '周囲2〜5敵運動性-19%', 0, 0, 0, null],
+        ['ハドロンショット',　　　　    (310 + 225),  (310 + 225) * 0.21,                      0,                 0, 0,                 null, 0, 0, 0, null],
+        ['スラッシュハーケン（蜃気楼）', (310 + 222), (310 + 222) * 0.105,                      0,                 0, 0,                 null, 0, 0,0, null],
+        ['ハドロンショット連射',　      (310 + 225), (310 + 225) * 0.105,    (310 + 225) * 0.25,                  0, 0,                null, 0, 0, 0, null]
+    ]);
+    var options = {
+        title: "照準値",
+        width: "100%",
+        height: 600,
+     		legend: { position:'right' },
+        vAxis: { minValue: 0 },
+     		bar:{groupWidth:"75%"},
+        isStacked: true,
+    };
+    var chart = new google.visualization.ColumnChart(document.getElementById('aim'));
+    chart.draw(data, options);
+  });
+}
+aim();
+
+// 運動性
+function mot() {
+  google.charts.setOnLoadCallback(() => {
+    var data = google.visualization.arrayToDataTable([
+        ['パーツ', '基礎運動性', 'MAINスキル(気力100)', 'MAINスキル(気力150)', 'MAINスキル(戦闘回数)', 'MAINスキル(命中時)', { role: 'annotation' }, 'MAINスキル（敵ﾌﾞﾚｲｸ状態）', 'MAINスキル(気力・一度)', 'MAINスキル(HP減少)', { role: 'annotation' } ],
+        ['拡散構造相転移砲（MAP）',    (259 + 204),                   0, 0, 0, 0, null, 0, 0, 0, null],
+        ['拡散構造相転移砲',　　　    　(259 + 207),                   0, 0, 0, 0, null, 0, 0, 0, null],
+        ['ハドロンショット',　　　　    (259 + 222),                   0, 0, 0, 0, null, 0, 0, 0, null],
+        ['スラッシュハーケン（蜃気楼）', (259 + 225), (259 + 225) * 0.105, 0, 0, 0, null, 0, 0, 0, null],
+        ['ハドロンショット連射',　      (259 + 222), (259 + 222) * 0.105, 0, 0, 0, null, 0, 0, 0, null]
+    ]);
+    var options = {
+        title: "運動性",
+        width: "100%",
+        height: 600,
+     		legend: { position:'right' },
+        vAxis: { minValue: 0 },
+     		bar:{groupWidth:"75%"},
+        isStacked: true,
+    };
+    var chart = new google.visualization.ColumnChart(document.getElementById('mot'));
+    chart.draw(data, options);
+  });
+}
+mot();
 </script>
 
 
@@ -396,6 +489,11 @@ atk();
 
 
 
+
+  
+  
+
+  
 
   
   

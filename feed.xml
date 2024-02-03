@@ -1,4 +1,19 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2024-02-03T12:17:26+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">蜃気楼の雑な考察</title><link href="https://makietan.github.io/game/srwdd/2024/02/01/report.html" rel="alternate" type="text/html" title="蜃気楼の雑な考察" /><published>2024-02-01T00:00:00+09:00</published><updated>2024-02-01T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2024/02/01/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2024/02/01/report.html"><![CDATA[<h2 id="移動">移動</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2024-02-03T23:10:39+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">酸っぱいフルーツを食ってる人</title><link href="https://makietan.github.io/joke/2024/02/03/report.html" rel="alternate" type="text/html" title="酸っぱいフルーツを食ってる人" /><published>2024-02-03T00:00:00+09:00</published><updated>2024-02-03T00:00:00+09:00</updated><id>https://makietan.github.io/joke/2024/02/03/report</id><content type="html" xml:base="https://makietan.github.io/joke/2024/02/03/report.html"><![CDATA[<p>A「うわーこのグレープフルーツめっちゃ酸っぱい」</p>
+
+<p>A「あーすっぺ、あーすっぺ」</p>
+
+<p>A「アスペ！アスペ！」</p>
+
+<h2 id="雑記">雑記</h2>
+
+<p>人を病気や症状でいじるのは良くないですが、
+グレープフルーツを食べてるとふと思いついてしまったのでここに書いて
+頭の中からさっぱり消そうと思います。</p>
+
+<p>（逆にしとけ）</p>]]></content><author><name>makietan</name></author><category term="joke" /><summary type="html"><![CDATA[A「うわーこのグレープフルーツめっちゃ酸っぱい」]]></summary></entry><entry><title type="html">蜃気楼の雑な考察</title><link href="https://makietan.github.io/game/srwdd/2024/02/01/report.html" rel="alternate" type="text/html" title="蜃気楼の雑な考察" /><published>2024-02-01T00:00:00+09:00</published><updated>2024-02-01T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2024/02/01/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2024/02/01/report.html"><![CDATA[<p>HP	攻撃力	防御力	照準値	運動性	移動	スピード
+22000	2980	3070	310	259	3	625</p>
+
+<h2 id="移動">移動</h2>
 
 <p>3</p>
 
@@ -197,7 +212,9 @@
   <li>照準値 +13%</li>
 </ul>
 
-<h2 id="hp">HP</h2>
+<h2 id="mainのグラフ">MAINのグラフ</h2>
+
+<h3 id="hp">HP</h3>
 
 <table>
   <thead>
@@ -248,9 +265,21 @@
   </tbody>
 </table>
 
-<h2 id="攻撃力">攻撃力</h2>
+<h3 id="攻撃力">攻撃力</h3>
 
 <div id="atk"></div>
+
+<h3 id="防御力">防御力</h3>
+
+<div id="def"></div>
+
+<h3 id="照準値">照準値</h3>
+
+<div id="aim"></div>
+
+<h3 id="運動性">運動性</h3>
+
+<div id="mot"></div>
 
 <!-- Google Charts -->
 <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
@@ -264,13 +293,12 @@ const ANNOTATION_NUM = { type: 'number', role: 'annotation' };
 function atk() {
   google.charts.setOnLoadCallback(() => {
     var data = google.visualization.arrayToDataTable([
-        ['パーツ', '基礎攻撃力', 'MAINスキル(気力100)', 'MAINスキル(気力150)', 'MAINスキル(戦闘回数)', 'MAINスキル(命中時)', { role: 'annotation' }, 'MAINスキル(気力・一度)', 'MAINスキル(HP減少)', { role: 'annotation' } ],
-
-        ['拡散構造相転移砲（MAP）',    (2980 + 3210), (2980 + 3210) * 0.16, (2980 + 3210) * 0.05 * 5, 0, 0, '命中時に敵の気力-25・攻撃力-15%', 0, 0, 'ステータス開始時に「堅固」・特殊ﾌﾞﾚｲｸ+110%'],
-        ['拡散構造相転移砲',　　　    　(2980 + 3180), (2980 + 3180) * 0.16, 0, (2980 + 3180) * 0.3, 0, '周囲2-5の敵の防御力・運動性-19%', 0, 0, '最大射程 +1・特殊ﾌﾞﾚｲｸ+110%'],
-        ['ハドロンショット',　　　　    (2980 + 3030), (2980 + 3030) * 0.21, 0, (2980 + 3030) * 0.17, 0, null, 0, 0, null],
-        ['スラッシュハーケン（蜃気楼）', (2980 + 3000), (2980 + 3000) * 0.105, 0, 0, 0, null, 0, 0, null],
-        ['ハドロンショット連射',　      (2980 + 2910), (2980 + 3000) * 0.105, 0, 0, 0, null, 0, 0, null]
+        ['パーツ', '基礎攻撃力', 'MAINスキル(気力100)', 'MAINスキル(気力150)', 'MAINスキル(戦闘回数)', 'MAINスキル(命中時)', { role: 'annotation' }, 'MAINスキル（敵ﾌﾞﾚｲｸ状態）', 'MAINスキル(気力・一度)', 'MAINスキル(HP減少)', { role: 'annotation' } ],
+        ['拡散構造相転移砲（MAP）',    (2980 + 3210), (2980 + 3210) * 0.16, (2980 + 3210) * 0.05 * 5,                    0, 0,                null,                  0, 0, 0, null],
+        ['拡散構造相転移砲',　　　    　(2980 + 3180), (2980 + 3180) * 0.16,                        0,  (2980 + 3180) * 0.3, 0, '周囲2-5の敵の防御力',                   0, 0, 0, null],
+        ['ハドロンショット',　　　　    (2980 + 3030), (2980 + 3030) * 0.21,                        0, (2980 + 3030) * 0.17, 0,               null,                   0, 0, 0, null],
+        ['スラッシュハーケン（蜃気楼）', (2980 + 3000), (2980 + 3000) * 0.105,                       0,                    0, 0,               null, (3070 + 2580) * 0.3, 0, 0, null],
+        ['ハドロンショット連射',　      (2980 + 2910), (2980 + 3000) * 0.105,                       0,                    0, 0,               null,                   0, 0, 0, null]
     ]);
     var options = {
         title: "攻撃力",
@@ -287,7 +315,84 @@ function atk() {
 }
 atk();
 
-</script>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[移動]]></summary></entry><entry><title type="html">白菜とベーコンのペペロンチーノが美味しい</title><link href="https://makietan.github.io/gourmet/2024/01/22/report.html" rel="alternate" type="text/html" title="白菜とベーコンのペペロンチーノが美味しい" /><published>2024-01-22T00:00:00+09:00</published><updated>2024-01-22T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2024/01/22/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2024/01/22/report.html"><![CDATA[<p>冷蔵庫に余った白菜の処理にちょうどいい。</p>
+// 防御力
+function def() {
+  google.charts.setOnLoadCallback(() => {
+    var data = google.visualization.arrayToDataTable([
+        ['パーツ', '基礎防御力', 'MAINスキル(気力100)', 'MAINスキル(気力150)', 'MAINスキル(戦闘回数)', 'MAINスキル(命中時)', { role: 'annotation' }, 'MAINスキル（敵ﾌﾞﾚｲｸ状態）', 'MAINスキル(気力・一度)', 'MAINスキル(HP減少)', { role: 'annotation' } ],
+        ['拡散構造相転移砲（MAP）',    (3070 + 2730),  (3070 + 2730) * 0.16, (3070 + 2730) * (0.05 * 5),                   0,                   0, '敵ユニットの攻撃力-15%', 0, 0, 0, 'ステージ開始時「堅固」'],
+        ['拡散構造相転移砲',　　　    　(3070 + 2730),  (3070 + 2730) * 0.16,                         0,  (3070 + 2730) * 0.3,                   0, null, 0, 0, 0, null],
+        ['ハドロンショット',　　　　    (3070 + 2550),                     0,                         0, (3070 + 2550) * 0.17, (3070 + 2550) * 0.2, null, 0, 0, 0, null],
+        ['スラッシュハーケン（蜃気楼）', (3070 + 2580), (3070 + 2580) * 0.105,                         0,                    0,                   0, null, 0, 0, 0, null],
+        ['ハドロンショット連射',　      (3070 + 2580), (3070 + 2580) * 0.105,                         0,                    0,                   0, null, 0, 0, 0, null]
+    ]);
+    var options = {
+        title: "防御力",
+        width: "100%",
+        height: 600,
+     		legend: { position:'right' },
+        vAxis: { minValue: 0 },
+     		bar:{groupWidth:"75%"},
+        isStacked: true,
+    };
+    var chart = new google.visualization.ColumnChart(document.getElementById('def'));
+    chart.draw(data, options);
+  });
+}
+def();
+
+// 照準値
+function aim() {
+  google.charts.setOnLoadCallback(() => {
+    var data = google.visualization.arrayToDataTable([
+        ['パーツ', '基礎照準値', 'MAINスキル(気力100)', 'MAINスキル(気力150)', 'MAINスキル(戦闘回数)', 'MAINスキル(命中時)', { role: 'annotation' }, 'MAINスキル（敵ﾌﾞﾚｲｸ状態）', 'MAINスキル(気力・一度)', 'MAINスキル(HP減少)', { role: 'annotation' } ],
+        ['拡散構造相転移砲（MAP）',     (310 + 261),  (310 + 261) * 0.16, (310 + 261) * 0.05 * 5,                 0, 0,                null, 0, 0, 0, null],
+        ['拡散構造相転移砲',　　　      (310 + 264), (310 + 264) * 0.145,                      0, (310 + 264) * 0.3, 0, '周囲2〜5敵運動性-19%', 0, 0, 0, null],
+        ['ハドロンショット',　　　　    (310 + 225),  (310 + 225) * 0.21,                      0,                 0, 0,                 null, 0, 0, 0, null],
+        ['スラッシュハーケン（蜃気楼）', (310 + 222), (310 + 222) * 0.105,                      0,                 0, 0,                 null, 0, 0,0, null],
+        ['ハドロンショット連射',　      (310 + 225), (310 + 225) * 0.105,    (310 + 225) * 0.25,                  0, 0,                null, 0, 0, 0, null]
+    ]);
+    var options = {
+        title: "照準値",
+        width: "100%",
+        height: 600,
+     		legend: { position:'right' },
+        vAxis: { minValue: 0 },
+     		bar:{groupWidth:"75%"},
+        isStacked: true,
+    };
+    var chart = new google.visualization.ColumnChart(document.getElementById('aim'));
+    chart.draw(data, options);
+  });
+}
+aim();
+
+// 運動性
+function mot() {
+  google.charts.setOnLoadCallback(() => {
+    var data = google.visualization.arrayToDataTable([
+        ['パーツ', '基礎運動性', 'MAINスキル(気力100)', 'MAINスキル(気力150)', 'MAINスキル(戦闘回数)', 'MAINスキル(命中時)', { role: 'annotation' }, 'MAINスキル（敵ﾌﾞﾚｲｸ状態）', 'MAINスキル(気力・一度)', 'MAINスキル(HP減少)', { role: 'annotation' } ],
+        ['拡散構造相転移砲（MAP）',    (259 + 204),                   0, 0, 0, 0, null, 0, 0, 0, null],
+        ['拡散構造相転移砲',　　　    　(259 + 207),                   0, 0, 0, 0, null, 0, 0, 0, null],
+        ['ハドロンショット',　　　　    (259 + 222),                   0, 0, 0, 0, null, 0, 0, 0, null],
+        ['スラッシュハーケン（蜃気楼）', (259 + 225), (259 + 225) * 0.105, 0, 0, 0, null, 0, 0, 0, null],
+        ['ハドロンショット連射',　      (259 + 222), (259 + 222) * 0.105, 0, 0, 0, null, 0, 0, 0, null]
+    ]);
+    var options = {
+        title: "運動性",
+        width: "100%",
+        height: 600,
+     		legend: { position:'right' },
+        vAxis: { minValue: 0 },
+     		bar:{groupWidth:"75%"},
+        isStacked: true,
+    };
+    var chart = new google.visualization.ColumnChart(document.getElementById('mot'));
+    chart.draw(data, options);
+  });
+}
+mot();
+</script>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[HP 攻撃力 防御力 照準値 運動性 移動 スピード 22000 2980 3070 310 259 3 625]]></summary></entry><entry><title type="html">白菜とベーコンのペペロンチーノが美味しい</title><link href="https://makietan.github.io/gourmet/2024/01/22/report.html" rel="alternate" type="text/html" title="白菜とベーコンのペペロンチーノが美味しい" /><published>2024-01-22T00:00:00+09:00</published><updated>2024-01-22T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2024/01/22/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2024/01/22/report.html"><![CDATA[<p>冷蔵庫に余った白菜の処理にちょうどいい。</p>
 
 <ul>
   <li>白菜</li>
@@ -819,13 +924,4 @@ function sort_color() {
   }
 }
 
-</script>]]></content><author><name>makietan</name></author><category term="game" /><category term="dqw" /><summary type="html"><![CDATA[makietan.github.io 強敵こころ交換券で交換できるもの | 肉とお米とブロッコリー それぞれ1枚につきA1つと交換することができる]]></summary></entry><entry><title type="html">すみぺの誕生日！</title><link href="https://makietan.github.io/otaku/2023/12/19/report.html" rel="alternate" type="text/html" title="すみぺの誕生日！" /><published>2023-12-19T00:00:00+09:00</published><updated>2023-12-19T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2023/12/19/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2023/12/19/report.html"><![CDATA[<p>上坂すみれさんじゅうにさい。</p>
-
-<p>おめでとうございます。</p>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/mfyX119obrc?si=FL-a_oLCIXZCaM1h" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
-
-<p>当初はスターチャイルドだったことをもはや感じさせない
-立派なキングレコード声優になられた。
-独自色がとても強く飽きることがない。
-今後の活動も楽しみである。</p>]]></content><author><name>makietan</name></author><category term="otaku" /><summary type="html"><![CDATA[上坂すみれさんじゅうにさい。]]></summary></entry></feed>
+</script>]]></content><author><name>makietan</name></author><category term="game" /><category term="dqw" /><summary type="html"><![CDATA[makietan.github.io 強敵こころ交換券で交換できるもの | 肉とお米とブロッコリー それぞれ1枚につきA1つと交換することができる]]></summary></entry></feed>
