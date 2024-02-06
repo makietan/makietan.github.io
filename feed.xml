@@ -1,4 +1,289 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2024-02-06T12:16:24+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">ドラゴンメイドを映像化しなかったのは許さんぞKONAMI</title><link href="https://makietan.github.io/otaku/2024/02/04/report.html" rel="alternate" type="text/html" title="ドラゴンメイドを映像化しなかったのは許さんぞKONAMI" /><published>2024-02-04T00:00:00+09:00</published><updated>2024-02-04T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2024/02/04/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2024/02/04/report.html"><![CDATA[<p>何もわかっちゃいないんだあんたたちはー！！</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2024-02-06T17:28:57+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">ソウルゲインの特殊スキルはどれを選んだらいいのかをチェックする</title><link href="https://makietan.github.io/game/srwdd/2024/02/06/report.html" rel="alternate" type="text/html" title="ソウルゲインの特殊スキルはどれを選んだらいいのかをチェックする" /><published>2024-02-06T00:00:00+09:00</published><updated>2024-02-06T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2024/02/06/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2024/02/06/report.html"><![CDATA[<p>JavaScript でサクッと比較してみる。
+数値を比較して同じ以上なら+1点で3点以上なら入れ替えとなるようにした。</p>
+
+<h2 id="条件">条件</h2>
+
+<ul>
+  <li>気力: 100</li>
+  <li>HP: 100%</li>
+</ul>
+
+<h2 id="特殊スキル一蘭">特殊スキル一蘭</h2>
+
+<div id="list"></div>
+
+<h2 id="上位10個">上位10個</h2>
+
+<div id="result"></div>
+
+<script type="text/javascript">
+let data = [
+    {
+        name: "特殊処理班隊長", 
+        lv: 20, 
+        per_atk: 0, per_def: 13, per_aim: 0, per_mot: 0,
+        atk: 1110, def: 1065, aim: 90, mot: 83,
+        per_dmg: 16
+    },
+    { 
+        name: "アタッカー（アクセル）", 
+        lv: 10, 
+        per_atk: 0, per_def: 0, per_aim: 0, per_mot: 0, 
+        atk: 1110, def: 1065, aim: 90, mot: 83
+    },
+    { 
+        name: "強靭（アクセル）", 
+        lv: 20, 
+        per_atk: 0, per_def: 0, per_aim: 0, per_mot: 0, 
+        atk: 1110, def: 1065, aim: 90, mot: 83,
+        hp: 25000
+    },
+    { 
+        name: "攻撃力アップ", 
+        lv: 12, 
+        per_atk: 6, per_def: 0, per_aim: 0, per_mot: 0,
+        atk: 389, def: 213, aim: 18, mot: 17
+    },
+    { 
+        name: "攻撃力アップ（大）", 
+        lv: 11, 
+        per_atk: 9, per_def: 0, per_aim: 0, per_mot: 0,
+        atk: 222, def: 213, aim: 18, mot: 17
+    },
+    { 
+        name: "防御力アップ", 
+        lv: 12, 
+        per_atk: 0, per_def: 6, per_aim: 0, per_mot: 0,
+        atk: 222, def: 373, aim: 18, mot: 17
+    },
+    { 
+        name: "防御力アップ（大）", 
+        lv: 20, 
+        per_atk: 0, per_def: 15, per_aim: 0, per_mot: 0,
+        atk: 555, def: 533, aim: 45, mot: 42
+    },
+    { 
+        name: "攻撃力・防御力アップ", 
+        lv: 10, 
+        per_atk: 6, per_def: 6, per_aim: 0, per_mot: 0,
+        atk: 222, def: 213, aim: 18, mot: 9
+    },
+    { 
+        name: "照準値・運動性アップ（大）", 
+        lv: 7, 
+        per_atk: 0, per_def: 0, per_aim: 4, per_mot: 4,
+        atk: 111, def: 107, aim: 18, mot: 9
+    },
+    { 
+        name: "攻撃力アップ・気力＋（アクション）（大）", 
+        lv: 16,
+        per_atk: 8, per_def: 0, per_aim: 0, per_mot: 0,
+        atk: 389, def: 373, aim: 32, mot: 29
+    },
+    { 
+        name: "命中率アップ（大）", 
+        lv: 15, 
+        per_atk: 0, per_def: 0, per_aim: 0, per_mot: 2,
+        atk: 389, def: 373, aim: 32, mot: 17,
+        per_hit: 12
+    }
+];
+
+let result = [];
+for (let i = 0; i < 10; i++) {
+  let max = {
+    i: -1,
+    atk: 0,
+    def: 0,
+    aim: 0,
+    mot: 0
+  };
+  for (let j = 0; j < data.length; j++) {
+    if (result.includes(j)) {
+        continue;
+    }
+    let atk = (result.reduce((sum, k) => sum + data[k].atk, 0) + data[j].atk) * 
+              (result.reduce((sum, k) => sum + data[k].per_atk, 0) + data[j].per_atk + 100) / 100;
+    let def = (result.reduce((sum, k) => sum + data[k].def, 0) + data[j].def) * 
+              (result.reduce((sum, k) => sum + data[k].per_def, 0) + data[j].per_def + 100) / 100;
+    let aim = (result.reduce((sum, k) => sum + data[k].aim, 0) + data[j].aim) * 
+              (result.reduce((sum, k) => sum + data[k].per_aim, 0) + data[j].per_aim + 100) / 100;
+    let mot = (result.reduce((sum, k) => sum + data[k].mot, 0) + data[j].mot) * 
+              (result.reduce((sum, k) => sum + data[k].per_mot, 0) + data[j].per_mot + 100) / 100;
+    let cnt = 0;
+    if (max.atk <= atk) {
+        cnt++;
+    }
+    if (max.def <= def) {
+        cnt++;
+    }
+    if (max.aim <= aim) {
+        cnt++;
+    }
+    if (max.mot <= mot) {
+        cnt++;
+    }
+    if (cnt > 2) {
+        max.i = j;
+        max.atk = atk;
+        max.def = def;
+        max.aim = aim;
+        max.mot = mot;
+    }
+  }
+  result.push(max.i);
+}
+document.getElementById('list').innerHTML = [...Array(data.length)].map((_, i) => i).map((i) => `${data[i].name} LV.${data[i].lv}`).join('<br>\n');
+document.getElementById('result').innerHTML = result.map((i) => `${data[i].name} LV.${data[i].lv}`).join('<br>\n');
+
+</script>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[JavaScript でサクッと比較してみる。 数値を比較して同じ以上なら+1点で3点以上なら入れ替えとなるようにした。]]></summary></entry><entry><title type="html">ヴァルヴレイヴⅥの特殊スキルはどれを選んだらいいのかをチェックする</title><link href="https://makietan.github.io/game/srwdd/2024/02/05/report.html" rel="alternate" type="text/html" title="ヴァルヴレイヴⅥの特殊スキルはどれを選んだらいいのかをチェックする" /><published>2024-02-05T00:00:00+09:00</published><updated>2024-02-05T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2024/02/05/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2024/02/05/report.html"><![CDATA[<p>JavaScript でサクッと比較してみる。
+数値を比較して同じ以上なら+1点で3点以上なら入れ替えとなるようにした。</p>
+
+<h2 id="条件">条件</h2>
+
+<ul>
+  <li>気力: 100</li>
+  <li>HP: 100%</li>
+</ul>
+
+<h2 id="特殊スキル一蘭">特殊スキル一蘭</h2>
+
+<div id="list"></div>
+
+<h2 id="上位10個">上位10個</h2>
+
+<div id="result"></div>
+
+<script type="text/javascript">
+let data = [
+    {
+        name: "カミツキ（アキラ）", 
+        lv: 20, 
+        per_atk: 0, per_def: 0, per_aim: 13, per_mot: 0,
+        atk: 1005, def: 990, aim: 104, mot: 87
+    },
+    { 
+        name: "ハッキングスキル（アキラ）", 
+        lv: 10, 
+        per_atk: 5, per_def: 0, per_aim: 0, per_mot: 0, 
+        atk: 1005, def: 990, aim: 104, mot: 87
+    },
+    { 
+        name: "リトルウィッチ", 
+        lv: 20, 
+        per_atk: 12.5, per_def: 0, per_aim: 12.5, per_mot: 0, 
+        atk: 1005, def: 990, aim: 104, mot: 87
+    },
+    { 
+        name: "攻撃力アップ", 
+        lv: 14, 
+        per_atk: 6, per_def: 0, per_aim: 0, per_mot: 0,
+        atk: 352, def: 347, aim: 37, mot: 18
+    },
+    { 
+        name: "防御力アップ", 
+        lv: 12, 
+        per_atk: 0, per_def: 6, per_aim: 0, per_mot: 0,
+        atk: 201, def: 347, aim: 21, mot: 18
+    },
+    { 
+        name: "防御力アップ（大）", 
+        lv: 10, 
+        per_atk: 0, per_def: 9, per_aim: 0, per_mot: 0,
+        atk: 201, def: 198, aim: 21, mot: 9
+    },
+    { 
+        name: "攻撃力・運動性アップ", 
+        lv: 7, 
+        per_atk: 2, per_def: 0, per_aim: 0, per_mot: 2,
+        atk: 201, def: 99, aim: 11, mot: 9
+    },
+    { 
+        name: "攻撃力・防御力・照準値・運動性アップ", 
+        lv: 11, 
+        per_atk: 1.5, per_def: 1.5, per_aim: 1.5, per_mot: 1.5,
+        atk: 201, def: 198, aim: 21, mot: 18
+    },
+    { 
+        name: "防御力アップ・気力＋（ダメージ）", 
+        lv: 20,
+        per_atk: 0, per_def: 5, per_aim: 0, per_mot: 0,
+        atk: 503, def: 495, aim: 52, mot: 44
+    },
+    { 
+        name: "運動性アップ・気力＋（回避）", 
+        lv: 8, 
+        per_atk: 0, per_def: 0, per_aim: 0, per_mot: 2,
+        atk: 201, def: 99, aim: 11, mot: 18
+    },
+    { 
+        name: "攻撃力ダウン（大）", 
+        lv: 9, 
+        per_atk: 0, per_def: 0, per_aim: 0, per_mot: 0, 
+        atk: 201, def: 198, aim: 21, mot: 9
+    },
+    { 
+        name: "照準値ダウン", 
+        lv: 13, 
+        per_atk: 0, per_def: 0, per_aim: 0, per_mot: 0, 
+        atk: 352, def: 198, aim: 21, mot: 31
+    },
+    { 
+        name: "運動性ダウン", 
+        lv: 4, 
+        per_atk: 0, per_def: 0, per_aim: 0, per_mot: 0, 
+        atk: 101, def: 99, aim: 11, mot: 0
+    }
+];
+
+let result = [];
+for (let i = 0; i < 10; i++) {
+  let max = {
+    i: -1,
+    atk: 0,
+    def: 0,
+    aim: 0,
+    mot: 0
+  };
+  for (let j = 0; j < data.length; j++) {
+    if (result.includes(j)) {
+        continue;
+    }
+    let atk = (result.reduce((sum, k) => sum + data[k].atk, 0) + data[j].atk) * 
+              (result.reduce((sum, k) => sum + data[k].per_atk, 0) + data[j].per_atk + 100) / 100;
+    let def = (result.reduce((sum, k) => sum + data[k].def, 0) + data[j].def) * 
+              (result.reduce((sum, k) => sum + data[k].per_def, 0) + data[j].per_def + 100) / 100;
+    let aim = (result.reduce((sum, k) => sum + data[k].aim, 0) + data[j].aim) * 
+              (result.reduce((sum, k) => sum + data[k].per_aim, 0) + data[j].per_aim + 100) / 100;
+    let mot = (result.reduce((sum, k) => sum + data[k].mot, 0) + data[j].mot) * 
+              (result.reduce((sum, k) => sum + data[k].per_mot, 0) + data[j].per_mot + 100) / 100;
+    let cnt = 0;
+    if (max.atk <= atk) {
+        cnt++;
+    }
+    if (max.def <= def) {
+        cnt++;
+    }
+    if (max.aim <= aim) {
+        cnt++;
+    }
+    if (max.mot <= mot) {
+        cnt++;
+    }
+    if (cnt > 2) {
+        max.i = j;
+        max.atk = atk;
+        max.def = def;
+        max.aim = aim;
+        max.mot = mot;
+    }
+  }
+  result.push(max.i);
+}
+document.getElementById('list').innerHTML = [...Array(data.length)].map((_, i) => i).map((i) => `${data[i].name} LV.${data[i].lv}`).join('<br>\n');
+document.getElementById('result').innerHTML = result.map((i) => `${data[i].name} LV.${data[i].lv}`).join('<br>\n');
+
+</script>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[JavaScript でサクッと比較してみる。 数値を比較して同じ以上なら+1点で3点以上なら入れ替えとなるようにした。]]></summary></entry><entry><title type="html">ドラゴンメイドを映像化しなかったのは許さんぞKONAMI</title><link href="https://makietan.github.io/otaku/2024/02/04/report.html" rel="alternate" type="text/html" title="ドラゴンメイドを映像化しなかったのは許さんぞKONAMI" /><published>2024-02-04T00:00:00+09:00</published><updated>2024-02-04T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2024/02/04/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2024/02/04/report.html"><![CDATA[<p>何もわかっちゃいないんだあんたたちはー！！</p>
 
 <p>メルフィーズからのアーゼウスのように、</p>
 
@@ -18,7 +303,197 @@
 グレープフルーツを食べてるとふと思いついてしまったのでここに書いて
 頭の中からさっぱり消そうと思います。</p>
 
-<p>（逆にしとけ）</p>]]></content><author><name>makietan</name></author><category term="joke" /><summary type="html"><![CDATA[A「うわーこのグレープフルーツめっちゃ酸っぱい」]]></summary></entry><entry><title type="html">蜃気楼の雑な考察</title><link href="https://makietan.github.io/game/srwdd/2024/02/01/report.html" rel="alternate" type="text/html" title="蜃気楼の雑な考察" /><published>2024-02-01T00:00:00+09:00</published><updated>2024-02-01T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2024/02/01/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2024/02/01/report.html"><![CDATA[<p>HP	攻撃力	防御力	照準値	運動性	移動	スピード
+<p>（逆にしとけ）</p>]]></content><author><name>makietan</name></author><category term="joke" /><summary type="html"><![CDATA[A「うわーこのグレープフルーツめっちゃ酸っぱい」]]></summary></entry><entry><title type="html">アーバレストの特殊スキルはどれを選んだらいいのかをチェックする</title><link href="https://makietan.github.io/game/srwdd/2024/02/02/report.html" rel="alternate" type="text/html" title="アーバレストの特殊スキルはどれを選んだらいいのかをチェックする" /><published>2024-02-02T00:00:00+09:00</published><updated>2024-02-02T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2024/02/02/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2024/02/02/report.html"><![CDATA[<p>JavaScript でサクッと比較してみる。
+数値を比較して同じ以上なら+1点で3点以上なら入れ替えとなるようにした。</p>
+
+<h2 id="条件">条件</h2>
+
+<ul>
+  <li>気力: 100</li>
+  <li>HP: 100%</li>
+</ul>
+
+<h2 id="特殊スキル一蘭">特殊スキル一蘭</h2>
+
+<div id="list"></div>
+
+<h2 id="上位10個">上位10個</h2>
+
+<div id="result"></div>
+
+<script type="text/javascript">
+let data = [
+    {
+        name: "ウルズ7", 
+        lv: 20, 
+        per_atk: 0, per_def: 0, per_aim: 5, per_mot: 5,
+        atk: 1080, def: 930, aim: 84, mot: 105,
+        per_dmg: 12
+    },
+    { 
+        name: "ゲリラ戦法", 
+        lv: 20, 
+        per_atk: 13, per_def: 0, per_aim: 0, per_mot: 0, 
+        atk: 1080, def: 930, aim: 84, mot: 105
+    },
+    { 
+        name: "集中力（宗介）", 
+        lv: 18, 
+        per_atk: 0, per_def: 0, per_aim: 0, per_mot: 10.4, 
+        atk: 1080, def: 698, aim: 63, mot: 105
+    },
+    { 
+        name: "チームワーク（ミスリル）", 
+        lv: 20, 
+        per_atk: 5, per_def: 0, per_aim: 0, per_mot: 0,
+        atk: 1080, def: 930, aim: 84, mot: 105
+    },
+    { 
+        name: "闘争心（宗介）", 
+        lv: 9, 
+        per_atk: 0, per_def: 0, per_aim: 0, per_mot: 0,
+        atk: 540, def: 233, aim: 42, mot: 53
+    },
+    { 
+        name: "覚悟（宗介）", 
+        lv: 9, 
+        per_atk: 4, per_def: 0, per_aim: 0, per_mot: 4,
+        atk: 540, def: 233, aim: 42, mot: 53
+    },
+    { 
+        name: "[X]SRT", 
+        lv: 20, 
+        per_atk: 12.5, per_def: 0, per_aim: 0, per_mot: 12.5,
+        atk: 1080, def: 930, aim: 84, mot: 105
+    },
+    { 
+        name: "攻撃力アップ（大）", 
+        lv: 20, 
+        per_atk: 15, per_def: 0, per_aim: 0, per_mot: 0,
+        atk: 540, def: 465, aim: 42, mot: 53
+    },
+    { 
+        name: "運動性アップ（大）", 
+        lv: 20, 
+        per_atk: 0, per_def: 0, per_aim: 0, per_mot: 15,
+        atk: 540, def: 465, aim: 42, mot: 53
+    },
+    { 
+        name: "攻撃力・防御力アップ（大）", 
+        lv: 2, 
+        per_atk: 2, per_def: 2, per_aim: 0, per_mot: 0,
+        atk: 108, def: 0, aim: 0, mot: 0
+    },
+    { 
+        name: "攻撃力・照準値アップ（大）", 
+        lv: 20, 
+        per_atk: 10, per_def: 0, per_aim: 10, per_mot: 0, 
+        atk: 540, def: 465, aim: 42, mot: 53
+    },
+    { 
+        name: "攻撃力・運動性アップ（大）", 
+        lv: 20, 
+        per_atk: 10, per_def: 0, per_aim: 0, per_mot: 10, 
+        atk: 540, def: 465, aim: 42, mot: 53
+    },
+    { 
+        name: "防御力・照準値アップ（大）", 
+        lv: 20, 
+        per_atk: 0, per_def: 10, per_aim: 10, per_mot: 0, 
+        atk: 540, def: 465, aim: 42, mot: 53
+    },
+    { 
+        name: "防御力・運動性アップ（大）", 
+        lv: 2, 
+        per_atk: 0, per_def: 2, per_aim: 0, per_mot: 2, 
+        atk: 0, def: 93, aim: 0, mot: 0
+    },
+    { 
+        name: "照準値・運動性アップ（大）", 
+        lv: 2, 
+        per_atk: 0, per_def: 0, per_aim: 2, per_mot: 2, 
+        atk: 0, def: 0, aim: 9, mot: 0
+    },
+    { 
+        name: "攻撃力アップ・気力＋（アクション）（大）", 
+        lv: 20, 
+        per_atk: 10, per_def: 0, per_aim: 0, per_mot: 0, 
+        atk: 540, def: 465, aim: 42, mot: 53
+    },
+    { 
+        name: "照準値アップ・気力＋（命中）（大）", 
+        lv: 6, 
+        per_atk: 0, per_def: 0, per_aim: 4, per_mot: 0, 
+        atk: 108, def: 93, aim: 9, mot: 11
+    },
+    { 
+        name: "運動性アップ・気力＋（回避）（大）", 
+        lv: 2, 
+        per_atk: 0, per_def: 0, per_aim: 0, per_mot: 2, 
+        atk: 0, def: 0, aim: 0, mot: 11
+    },
+    { 
+        name: "防御力ダウン（大）", 
+        lv: 13, 
+        per_atk: 0, per_def: 0, per_aim: 0, per_mot: 0,
+        atk: 378, def: 326, aim: 17, mot: 21    
+    },
+    { 
+        name: "照準値ダウン（大）", 
+        lv: 4, 
+        per_atk: 0, per_def: 0, per_aim: 0, per_mot: 0,
+        atk: 108, def: 93, aim: 0, mot: 11
+    }
+];
+
+let result = [];
+for (let i = 0; i < 10; i++) {
+  let max = {
+    i: -1,
+    atk: 0,
+    def: 0,
+    aim: 0,
+    mot: 0
+  };
+  for (let j = 0; j < data.length; j++) {
+    if (result.includes(j)) {
+        continue;
+    }
+    let atk = (result.reduce((sum, k) => sum + data[k].atk, 0) + data[j].atk) * 
+              (result.reduce((sum, k) => sum + data[k].per_atk, 0) + data[j].per_atk + 100) / 100;
+    let def = (result.reduce((sum, k) => sum + data[k].def, 0) + data[j].def) * 
+              (result.reduce((sum, k) => sum + data[k].per_def, 0) + data[j].per_def + 100) / 100;
+    let aim = (result.reduce((sum, k) => sum + data[k].aim, 0) + data[j].aim) * 
+              (result.reduce((sum, k) => sum + data[k].per_aim, 0) + data[j].per_aim + 100) / 100;
+    let mot = (result.reduce((sum, k) => sum + data[k].mot, 0) + data[j].mot) * 
+              (result.reduce((sum, k) => sum + data[k].per_mot, 0) + data[j].per_mot + 100) / 100;
+    let cnt = 0;
+    if (max.atk <= atk) {
+        cnt++;
+    }
+    if (max.def <= def) {
+        cnt++;
+    }
+    if (max.aim <= aim) {
+        cnt++;
+    }
+    if (max.mot <= mot) {
+        cnt++;
+    }
+    if (cnt > 2) {
+        max.i = j;
+        max.atk = atk;
+        max.def = def;
+        max.aim = aim;
+        max.mot = mot;
+    }
+  }
+  result.push(max.i);
+}
+document.getElementById('list').innerHTML = [...Array(data.length)].map((_, i) => i).map((i) => `${data[i].name} LV.${data[i].lv}`).join('<br>\n');
+document.getElementById('result').innerHTML = result.map((i) => `${data[i].name} LV.${data[i].lv}`).join('<br>\n');
+
+</script>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[JavaScript でサクッと比較してみる。 数値を比較して同じ以上なら+1点で3点以上なら入れ替えとなるようにした。]]></summary></entry><entry><title type="html">蜃気楼の雑な考察</title><link href="https://makietan.github.io/game/srwdd/2024/02/01/report.html" rel="alternate" type="text/html" title="蜃気楼の雑な考察" /><published>2024-02-01T00:00:00+09:00</published><updated>2024-02-01T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2024/02/01/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2024/02/01/report.html"><![CDATA[<p>HP	攻撃力	防御力	照準値	運動性	移動	スピード
 22000	2980	3070	310	259	3	625</p>
 
 <h2 id="移動">移動</h2>
@@ -400,351 +875,33 @@ function mot() {
   });
 }
 mot();
-</script>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[HP 攻撃力 防御力 照準値 運動性 移動 スピード 22000 2980 3070 310 259 3 625]]></summary></entry><entry><title type="html">白菜とベーコンのペペロンチーノが美味しい</title><link href="https://makietan.github.io/gourmet/2024/01/22/report.html" rel="alternate" type="text/html" title="白菜とベーコンのペペロンチーノが美味しい" /><published>2024-01-22T00:00:00+09:00</published><updated>2024-01-22T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2024/01/22/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2024/01/22/report.html"><![CDATA[<p>冷蔵庫に余った白菜の処理にちょうどいい。</p>
+</script>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[HP 攻撃力 防御力 照準値 運動性 移動 スピード 22000 2980 3070 310 259 3 625]]></summary></entry><entry><title type="html">リクルートカードで貯まったポイントの使い道</title><link href="https://makietan.github.io/money/2024/01/31/report.html" rel="alternate" type="text/html" title="リクルートカードで貯まったポイントの使い道" /><published>2024-01-31T00:00:00+09:00</published><updated>2024-01-31T00:00:00+09:00</updated><id>https://makietan.github.io/money/2024/01/31/report</id><content type="html" xml:base="https://makietan.github.io/money/2024/01/31/report.html"><![CDATA[<p>Pontaポイントの消費方法とdポイントの消費方法を紹介する。</p>
 
-<ul>
-  <li>白菜</li>
-  <li>パスタ</li>
-  <li>ベーコン</li>
-  <li>ペペロンチーノの素 もしくは にんにく・鷹の爪 etc.</li>
-</ul>
+<p>基本的にはQRコード決済で使うようにしてポイントのキャッシュバックを狙おう。</p>
 
-<ol>
-  <li>パスタ、白菜、ベーコンを茹でる。</li>
-  <li>ペペロンチーノの素をかける。</li>
-</ol>
+<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">個人的なリクルートカードで貯まったリクルートポイントの消費方法<br />他にもローカライズされた消費方法はあるものの汎用性なさすぎるため割愛 <a href="https://t.co/NlG4YU1kBG">pic.twitter.com/NlG4YU1kBG</a></p>&mdash; まきえたん🥦☘️ (@makietanX) <a href="https://twitter.com/makietanX/status/1752262854148034601?ref_src=twsrc%5Etfw">January 30, 2024</a></blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>]]></content><author><name>makietan</name></author><category term="money" /><summary type="html"><![CDATA[Pontaポイントの消費方法とdポイントの消費方法を紹介する。]]></summary></entry><entry><title type="html">アリアドネ型の竜剣士デッキを使っている</title><link href="https://makietan.github.io/game/yugioh/2024/01/30/report.html" rel="alternate" type="text/html" title="アリアドネ型の竜剣士デッキを使っている" /><published>2024-01-30T00:00:00+09:00</published><updated>2024-01-30T00:00:00+09:00</updated><id>https://makietan.github.io/game/yugioh/2024/01/30/report</id><content type="html" xml:base="https://makietan.github.io/game/yugioh/2024/01/30/report.html"><![CDATA[<p>最近なんかペンデュラムというかカウンター罠にハマっていて、
+それをうまく使えるデッキは竜剣士かなということでアリアドネ型で遊んでいる。</p>
 
-<p>完成.</p>
+<p>カードがそんなに揃っていないので微妙な編成だが、もう少しURが集まれば構築も変える。</p>
 
-<p>とっても簡単でしょ。</p>
+<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">インチキすぎる紫毒のおかげで後攻でもたまに勝ってる<br />対バロネス用カードとしては上出来すぎる<br />アリアドネ引けてないならエレクトラムで無理やり引っ張ってくることもある<a href="https://twitter.com/hashtag/%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%87%E3%83%A5%E3%82%A8%E3%83%AB?src=hash&amp;ref_src=twsrc%5Etfw">#マスターデュエル</a> <a href="https://t.co/HjdmvQsq5e">pic.twitter.com/HjdmvQsq5e</a></p>&mdash; まきえたん🥦☘️ (@makietanX) <a href="https://twitter.com/makietanX/status/1751645952182714862?ref_src=twsrc%5Etfw">January 28, 2024</a></blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>]]></content><author><name>makietan</name></author><category term="game" /><category term="yugioh" /><summary type="html"><![CDATA[最近なんかペンデュラムというかカウンター罠にハマっていて、 それをうまく使えるデッキは竜剣士かなということでアリアドネ型で遊んでいる。]]></summary></entry><entry><title type="html">りゅうおうのつえが今更当たった</title><link href="https://makietan.github.io/game/dqw/2024/01/29/report.html" rel="alternate" type="text/html" title="りゅうおうのつえが今更当たった" /><published>2024-01-29T00:00:00+09:00</published><updated>2024-01-29T00:00:00+09:00</updated><id>https://makietan.github.io/game/dqw/2024/01/29/report</id><content type="html" xml:base="https://makietan.github.io/game/dqw/2024/01/29/report.html"><![CDATA[<p>使い道ないっていうね。</p>
 
-<p>参考にしたサイト</p>
+<p>ほんと最近、全然最新武器が当たらない。</p>
 
-<div class="card">
-  <a href="https://park.ajinomoto.co.jp/recipe/card/709105/"></a>
-  <div class="card__header">
-    <a href="https://park.ajinomoto.co.jp/recipe/card/709105/">park.ajinomoto.co.jp</a>
-  </div>
-  <div class="card__image">
-    <img src="https://park.ajinomoto.co.jp/wp-content/uploads/2018/03/709105.jpeg" />
-  </div>
-  <div class="card__title">
-    <p>白菜とベーコンのペペロンチーノのレシピ・作り方｜レシピ大百科（レシピ・料理）｜【味の素パーク】 : スパゲッティや白菜の葉を使った料理</p>
-  </div>
-  <div class="card__description">
-    <p>スパゲッティや白菜の葉を使った人気の主食レシピです。たべたい、つくりたい、がきっと見つかる！人気レシピから、簡単時短レシピ、健康を考えたレシピなど、作る人を”もっと”応援します。</p>
-  </div>
-</div>
+<p>排出されてもゴミばっかで非常に萎えてる。</p>
 
-<p>余裕があったらクリームパスタもいいな</p>
+<p>トップレイヤーがアホほど課金してるのが問題なんだけどね。</p>
 
-<blockquote class="twitter-tweet tw-align-center" data-media-max-width="560"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/%E3%83%9E%E3%83%9B%E3%83%AC%E3%82%B9?src=hash&amp;ref_src=twsrc%5Etfw">#マホレス</a>【今夜のメニューはこれに決まり！🍚】<br />⏩竹内流！鶏肉と白菜のクリームパスタ🍽<br />今日の晩ごはんにいかがですか？？😊💫 <a href="https://t.co/X7m3M0fMrt">pic.twitter.com/X7m3M0fMrt</a></p>&mdash; 【公式】水野真紀の魔法のレストラン🍳 (@mahoresu_mbs) <a href="https://twitter.com/mahoresu_mbs/status/1730783857706746327?ref_src=twsrc%5Etfw">December 2, 2023</a></blockquote>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[冷蔵庫に余った白菜の処理にちょうどいい。]]></summary></entry><entry><title type="html">Evernote のデータをエクスポートしている</title><link href="https://makietan.github.io/tech/2024/01/19/report.html" rel="alternate" type="text/html" title="Evernote のデータをエクスポートしている" /><published>2024-01-19T00:00:00+09:00</published><updated>2024-01-19T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2024/01/19/report</id><content type="html" xml:base="https://makietan.github.io/tech/2024/01/19/report.html"><![CDATA[<p>Evernote のアプリを使うと HTML 形式でエクスポート出来る。</p>
+<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">何年経ってると思ってんの<a href="https://twitter.com/hashtag/%E3%83%89%E3%83%A9%E3%82%AF%E3%82%A8%E3%82%A6%E3%82%A9%E3%83%BC%E3%82%AF?src=hash&amp;ref_src=twsrc%5Etfw">#ドラクエウォーク</a> <a href="https://t.co/jTtobVipSa">pic.twitter.com/jTtobVipSa</a></p>&mdash; まきえたん🥦☘️ (@makietanX) <a href="https://twitter.com/makietanX/status/1751546093933109426?ref_src=twsrc%5Etfw">January 28, 2024</a></blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>]]></content><author><name>makietan</name></author><category term="game" /><category term="dqw" /><summary type="html"><![CDATA[使い道ないっていうね。]]></summary></entry><entry><title type="html">チキンメニューが増え過ぎなマクドナルド</title><link href="https://makietan.github.io/gourmet/2024/01/28/report.html" rel="alternate" type="text/html" title="チキンメニューが増え過ぎなマクドナルド" /><published>2024-01-28T00:00:00+09:00</published><updated>2024-01-28T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2024/01/28/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2024/01/28/report.html"><![CDATA[<p>フィッシュメニューを増やしてくれ。</p>
 
-<p>そのHTMLの中に日付とかが含まれているので困ることがない。</p>
+<p>フィッシュ マックディッパーとか復活してくれたらめっちゃ食べるから。</p>
 
-<p>というかこのHTMLをさくっと作れるローカルシステムを作れば便利じゃね？</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[Evernote のアプリを使うと HTML 形式でエクスポート出来る。]]></summary></entry><entry><title type="html">気になったすみぺのコスメ記事</title><link href="https://makietan.github.io/oatku/2024/01/15/report.html" rel="alternate" type="text/html" title="気になったすみぺのコスメ記事" /><published>2024-01-15T00:00:00+09:00</published><updated>2024-01-15T00:00:00+09:00</updated><id>https://makietan.github.io/oatku/2024/01/15/report</id><content type="html" xml:base="https://makietan.github.io/oatku/2024/01/15/report.html"><![CDATA[<div class="card">
-  <a href="https://maquia.hpplus.jp/skincare/news/84794/"></a>
-  <div class="card__header">
-    <a href="https://maquia.hpplus.jp/skincare/news/84794/">maquia.hpplus.jp</a>
-  </div>
-  <div class="card__image">
-    <img src="http://img-maquia.hpplus.jp/ogp/image/98/98306126-0849-46ce-b2a4-661f1ffb03cc-1200x630.jpeg" />
-  </div>
-  <div class="card__title">
-    <p>声優・上坂すみれさんのお気に入り。朝は洗顔代わりに「ちふれ」の化粧水を【MYベストコスメ】 | マキアオンライン(MAQUIA ONLINE)</p>
-  </div>
-  <div class="card__description">
-    <p>今をときめく人気声優たちに、リアルに愛用している美容アイテムを教えてもらいました。今回は、上坂すみれさんが選ぶマイベスコス。スキンケアにはかなりのこだわりあり！</p>
-  </div>
-</div>
-
-<blockquote>
-  <p>a【朝洗顔代わりに使うふきとり化粧水】「乾燥肌なので、朝は化粧水を浸したコットンで拭き取り、洗顔代わりに」。ロングセラー。ちふれ ふきとり化粧水 150ml ￥605／ちふれ化粧品　
-b【季節を問わず、朝晩使える化粧水】「オーロラのパケにひと目ボレ♡ 朝晩、何度も重ね付け」。透明美肌に。クラリフィック デュアル エッセンス ローション 150ml ￥12980／ランコム　
-c【ピタッとくっつく密着感がたまらない！】「たっぷりの美容液が入っていて、1回でぷるるん肌に」。7種のビタミンとハーブ配合。ルルルン ハイドラ V マスク 7枚入り ￥770／Dr.ルルルン　
-d【全色集めるくらい大好き♡】「前シリーズから愛用。常に潤いある唇をキープ」。ベタつかず軽やかなテクスチャー。リップコンフォートオイル 03 ￥3850／クラランス　
-e【発色が美しく唇ケアにも最適】「スーッとする感触がお気に入り」。保湿しながらボリュームアップ。ディオール アディクト リップ マキシマイザー 001 ￥4620／パルファン・クリスチャン・ディオール</p>
-</blockquote>
-
-<p>比較的入手しやすい商品が並ぶ中、<strong>b</strong>のローションがえげつない。
-あのきれいなリップはこれ使ってたのかーとか色々わかって面白い記事でした。</p>]]></content><author><name>makietan</name></author><category term="oatku" /><summary type="html"><![CDATA[maquia.hpplus.jp 声優・上坂すみれさんのお気に入り。朝は洗顔代わりに「ちふれ」の化粧水を【MYベストコスメ】 | マキアオンライン(MAQUIA ONLINE) 今をときめく人気声優たちに、リアルに愛用している美容アイテムを教えてもらいました。今回は、上坂すみれさんが選ぶマイベスコス。スキンケアにはかなりのこだわりあり！]]></summary></entry><entry><title type="html">「のんびり屋の女子高生」の考察</title><link href="https://makietan.github.io/game/srwdd/2024/01/13/report.html" rel="alternate" type="text/html" title="「のんびり屋の女子高生」の考察" /><published>2024-01-13T00:00:00+09:00</published><updated>2024-01-13T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2024/01/13/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2024/01/13/report.html"><![CDATA[<h2 id="ステータス">ステータス</h2>
-
-<table>
-  <thead>
-    <tr>
-      <th style="text-align: center">HP</th>
-      <th style="text-align: center">攻撃力</th>
-      <th style="text-align: center">防御力</th>
-      <th style="text-align: center">照準値</th>
-      <th style="text-align: center">運動性</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: center">3015</td>
-      <td style="text-align: center">3480</td>
-      <td style="text-align: center">2610</td>
-      <td style="text-align: center">267</td>
-      <td style="text-align: center">297</td>
-    </tr>
-  </tbody>
-</table>
-
-<p>|威力 |命中 |射程|ｱｸｼｮﾝ|回数|
-|:–:|:—:|:-:|:–:|:–:|
-|   -|    -|  -|   -|   -|</p>
-
-<table>
-  <thead>
-    <tr>
-      <th style="text-align: center">特性</th>
-      <th style="text-align: center">ﾚｱﾘﾃｨ</th>
-      <th style="text-align: center">LV</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: center">+5</td>
-      <td style="text-align: center">SSR+</td>
-      <td style="text-align: center">110</td>
-    </tr>
-  </tbody>
-</table>
-
-<h2 id="精神">精神</h2>
-
-<ul>
-  <li>必中 （使用回数：3）
-    <ul>
-      <li>次の攻撃時、命中率が100%になる。</li>
-    </ul>
-  </li>
-</ul>
-
-<h2 id="main防御力ダウンⅲ">MAIN【防御力ダウンⅢ】</h2>
-<h3 id="戦闘時のみ">戦闘時のみ</h3>
-<ul>
-  <li>40%の確率で、敵ユニットの防御力を15%減少させる。</li>
-</ul>
-
-<h2 id="subタイプ強化ⅴ運動性運動性攻撃回避青馬剣之介時貞">SUB【タイプ強化Ⅴ・運動性運動性（攻撃&amp;回避）（青馬剣之介時貞）】</h2>
-<ul>
-  <li>運動性が11%増加する。
-    <h3 id="攻撃回避タイプのみ">攻撃&amp;回避タイプのみ</h3>
-  </li>
-  <li>運動性が4%増加する。
-    <h3 id="青馬剣之介時貞装備時">青馬剣之介時貞装備時</h3>
-  </li>
-  <li>攻撃力が600増加する。</li>
-</ul>
-
-<div id="sub-1" style="width: 100vw, height: 50vh"></div>
-<div id="sub-2" style="width: 100vw, height: 50vh"></div>
-
-<h2 id="総評">総評</h2>
-
-<p>メインに装備しても40%でしか発動しないので付けるメリットがない。
-サブだとこのユニットパーツだけで運動性329（攻撃&amp;回避タイプなら341）の上昇が期待できる。</p>
-
-<!-- Google Charts -->
-<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-
-<script type="text/javascript">
-google.charts.load("current", { "packages": ["corechart"] });
-const ANNOTATION = { type: 'string', role: 'annotation' };
-const ANNOTATION_NUM = { type: 'number', role: 'annotation' };
-// SUB
-function sub1() {
-    google.charts.setOnLoadCallback(() => {
-        const data = google.visualization.arrayToDataTable([
-            [    'ステータス', '基本', ANNOTATION_NUM,           '通常', ANNOTATION, '攻撃&回避タイプ', ANNOTATION, '青馬剣之介時貞', ANNOTATION_NUM],
-            [       '攻撃力',   3480,           3480,               0,       null,             0,        null,            600,     3480 + 600],
-        ]);
-        const options = {
-            title: 'のんびり屋の女子高生 SSR+（SUB）',
-            curveType: 'none',
-            legend: { position: 'bottom' },
-            series: {
-                0: { type: 'bars', targetAxisIndex: 0, annotations: { stem: { length: 0 } } },
-                1: { type: 'bars', targetAxisIndex: 0, annotations: { stem: { length: 32 } } },
-                2: { type: 'bars', targetAxisIndex: 0, annotations: { stem: { length: 64 } } },
-                3: { type: 'bars', targetAxisIndex: 0}
-            },
-            isStacked: true
-        };
-        const chart = new google.visualization.ComboChart(
-            document.getElementById('sub-1')
-        );
-        chart.draw(data, options);
-    });
-}
-sub1();
-function sub2() {
-    google.charts.setOnLoadCallback(() => {
-        const data = google.visualization.arrayToDataTable([
-            [    'ステータス', '基本', ANNOTATION_NUM,           '通常', ANNOTATION_NUM, '攻撃&回避タイプ', ANNOTATION_NUM, '青馬剣之介時貞', ANNOTATION_NUM],
-            [       '運動性',    297,            297,  297 * 11 / 100,     297 * (100 + 11) / 100,  297 * 4 / 100,        297 * (100 + 11 + 4) / 100,              0,            null]
-        ]);
-        const options = {
-            title: 'のんびり屋の女子高生 SSR+（SUB）',
-            curveType: 'none',
-            legend: { position: 'bottom' },
-            series: {
-                0: { type: 'bars', targetAxisIndex: 0, annotations: { stem: { length: 0 } } },
-                1: { type: 'bars', targetAxisIndex: 0, annotations: { stem: { length: 32 } } },
-                2: { type: 'bars', targetAxisIndex: 0, annotations: { stem: { length: 64 } } },
-                3: { type: 'bars', targetAxisIndex: 0}
-            },
-            isStacked: true
-        };
-        const chart = new google.visualization.ComboChart(
-            document.getElementById('sub-2')
-        );
-        chart.draw(data, options);
-    });
-}
-sub2();
-</script>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[ステータス]]></summary></entry><entry><title type="html">プロバイダー責任制限法が言葉狩り法へ</title><link href="https://makietan.github.io/japan/2024/01/12/report.html" rel="alternate" type="text/html" title="プロバイダー責任制限法が言葉狩り法へ" /><published>2024-01-12T00:00:00+09:00</published><updated>2024-01-12T00:00:00+09:00</updated><id>https://makietan.github.io/japan/2024/01/12/report</id><content type="html" xml:base="https://makietan.github.io/japan/2024/01/12/report.html"><![CDATA[<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">【方針】ネット上の誹謗中傷は迅速削除、SNS大手に義務付けへ<a href="https://t.co/JNqp1Me26Y">https://t.co/JNqp1Me26Y</a><br /><br />改正案はX（旧ツイッター）などを念頭に、投稿の削除を申請する手続きや窓口の公表に加え、対応結果を一定の期間内に知らせることを運営企業に求める。</p>&mdash; ライブドアニュース (@livedoornews) <a href="https://twitter.com/livedoornews/status/1745580461697773674?ref_src=twsrc%5Etfw">January 11, 2024</a></blockquote>
+<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">チキンに占領されすぎなのよマクドナルド <a href="https://t.co/jqwgOQiMq1">https://t.co/jqwgOQiMq1</a></p>&mdash; まきえたん🥦☘️ (@makietanX) <a href="https://twitter.com/makietanX/status/1749757768498855941?ref_src=twsrc%5Etfw">January 23, 2024</a></blockquote>
 <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-<p>インターネット上の誹謗中傷（とそれに類するかのような言説・キーワード）が消されるようになるらしい。</p>
+<p>チキンメニューが多すぎるのよ。</p>
 
-<blockquote>
-  <p>投稿の削除を申請する手続きや窓口の公表に加え、対応結果を一定の期間内に知らせることを運営企業に求める。投稿の削除を判断する基準を定めて公表することも義務付け、手続きの透明性を高める。</p>
-</blockquote>
-
-<p>なぜ消したのかを双方に伝えるわけでもなく、依頼側のみが知れる形になりそうだ。</p>
-
-<p>Twitter（現：X 、以下 Twitter と記載） では、「〇〇人 死ね」が投稿内に含まれていると強制的に消される仕様になっている。
-自分の知らないうちに自分の投稿が勝手に削除されている。
-Twitterは1度消されると2度と同じ時間に投稿することができない。
-また、不遡及の原則を無視して過去の投稿を片っ端から消している。
-そんなSNSにより強力な削除権限を付与するというのだ。</p>
-
-<p>おそらく自動化されるので、仕組みを理解した悪意を持った人間によって過去を捻じ曲げる事ができてしまう。
-これは変えることができない。本当に重要な投稿は自分でサイトを運営して行うしか無いだろう。</p>
-
-<p>透明化の観点もおそらく申告した人間側のみなので投稿者側は一切知ることができないことになるだろう。
-持ち主に代わって勝手に捨てるサービスって本当に異常だと思うけど。</p>
-
-<p>法の下の平等が損なわれる法律が施行されるのが本当に恐ろしい。
-だんだん中国のような粛清国家の道に進んでいるのが本当に嫌だ。</p>
-
-<p>こんな改正をする暇があるならNPO法人などによる立場の乱用を防ぐ法律も施行して欲しい。</p>
-
-<p>ちなみにイーロン・マスクになってから普通の検索では一般人のツイートは辿れなくなっているので、
-最新ツイートが一切見れない上に特定のツイートも表示不可になっている。
-限定されたクローズドな場であることも新たに知っていただきたい。</p>]]></content><author><name>makietan</name></author><category term="japan" /><summary type="html"><![CDATA[【方針】ネット上の誹謗中傷は迅速削除、SNS大手に義務付けへhttps://t.co/JNqp1Me26Y改正案はX（旧ツイッター）などを念頭に、投稿の削除を申請する手続きや窓口の公表に加え、対応結果を一定の期間内に知らせることを運営企業に求める。&mdash; ライブドアニュース (@livedoornews) January 11, 2024]]></summary></entry><entry><title type="html">遊戯王マスターデュエルのリミットレギュレーション分解ボーナスチェッカー</title><link href="https://makietan.github.io/game/yugioh/2024/01/10/report.html" rel="alternate" type="text/html" title="遊戯王マスターデュエルのリミットレギュレーション分解ボーナスチェッカー" /><published>2024-01-10T00:00:00+09:00</published><updated>2024-01-10T00:00:00+09:00</updated><id>https://makietan.github.io/game/yugioh/2024/01/10/report</id><content type="html" xml:base="https://makietan.github.io/game/yugioh/2024/01/10/report.html"><![CDATA[<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
-
-<h2 id="無制限--禁止-3枚分解">無制限 → 禁止 (3枚分解)</h2>
-
-<div class="row pb-4">
-<input type="checkbox" class="btn-check" id="混沌魔龍 カオス・ルーラー" autocomplete="off" />
-<label class="btn btn-outline-secondary" for="混沌魔龍 カオス・ルーラー">【UR】混沌魔龍 カオス・ルーラー</label><br />
-<input type="checkbox" class="btn-check" id="輝白竜 ワイバースター" autocomplete="off" />
-<label class="btn btn-outline-secondary" for="輝白竜 ワイバースター">【SR】輝白竜 ワイバースター</label><br />
-<input type="checkbox" class="btn-check" id="超重武者装留ブレイク・アーマー" autocomplete="off" />
-<label class="btn btn-outline-secondary" for="超重武者装留ブレイク・アーマー">【N】超重武者装留ブレイク・アーマー</label><br />
-</div>
-
-<h2 id="準制限--禁止-2枚分解">準制限 → 禁止 (2枚分解)</h2>
-
-<div class="row pb-4">
-<input type="checkbox" class="btn-check" id="命削りの宝札" autocomplete="off" />
-<label class="btn btn-outline-secondary" for="命削りの宝札">【SR】命削りの宝札</label><br />
-</div>
-
-<h2 id="無制限--制限-2枚分解">無制限 → 制限 (2枚分解)</h2>
-
-<div class="row pb-4">
-<input type="checkbox" class="btn-check" id="インスペクト・ボーダー" autocomplete="off" />
-<label class="btn btn-outline-secondary" for="インスペクト・ボーダー">【UR】インスペクト・ボーダー</label><br />
-<input type="checkbox" class="btn-check" id="クシャトリラ・バース" autocomplete="off" />
-<label class="btn btn-outline-secondary" for="クシャトリラ・バース">【SR】クシャトリラ・バース</label><br />
-<input type="checkbox" class="btn-check" id="カイザーコロシアム" autocomplete="off" />
-<label class="btn btn-outline-secondary" for="カイザーコロシアム">【SR】カイザーコロシアム</label><br />
-<input type="checkbox" class="btn-check" id="シンクロ・ゾーン" autocomplete="off" />
-<label class="btn btn-outline-secondary" for="シンクロ・ゾーン">【N】シンクロ・ゾーン</label><br />
-</div>
-
-<h2 id="準制限--制限-1枚分解">準制限 → 制限 (1枚分解)</h2>
-
-<div class="row pb-4">
-<input type="checkbox" class="btn-check" id="クシャトリラ・フェンリル" autocomplete="off" />
-<label class="btn btn-outline-secondary" for="クシャトリラ・フェンリル">【UR】クシャトリラ・フェンリル</label><br />
-<input type="checkbox" class="btn-check" id="センサー万別" autocomplete="off" />
-<label class="btn btn-outline-secondary" for="センサー万別">【UR】センサー万別</label><br />
-<input type="checkbox" class="btn-check" id="破壊の神碑" autocomplete="off" />
-<label class="btn btn-outline-secondary" for="破壊の神碑">【SR】破壊の神碑</label><br />
-<input type="checkbox" class="btn-check" id="強欲で貪欲な壺" autocomplete="off" />
-<label class="btn btn-outline-secondary" for="強欲で貪欲な壺">【SR】強欲で貪欲な壺</label><br />
-<input type="checkbox" class="btn-check" id="強欲で謙虚な壺" autocomplete="off" />
-<label class="btn btn-outline-secondary" for="強欲で謙虚な壺">【SR】強欲で謙虚な壺</label><br />
-<input type="checkbox" class="btn-check" id="ピュアリィ・デリシャスメモリー" autocomplete="off" />
-<label class="btn btn-outline-secondary" for="ピュアリィ・デリシャスメモリー">【R】ピュアリィ・デリシャスメモリー</label><br />
-</div>
-
-<h2 id="無制限--準制限-1枚分解">無制限 → 準制限 (1枚分解)</h2>
-
-<div class="row pb-4">
-<input type="checkbox" class="btn-check" id="ピュアリィ・プリティメモリー" autocomplete="off" />
-<label class="btn btn-outline-secondary" for="ピュアリィ・プリティメモリー">【R】ピュアリィ・プリティメモリー</label><br />
-</div>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>]]></content><author><name>makietan</name></author><category term="game" /><category term="yugioh" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">戦車道大作戦の公式戦のやる気回復スケジュール</title><link href="https://makietan.github.io/game/gup/2023/12/21/report.html" rel="alternate" type="text/html" title="戦車道大作戦の公式戦のやる気回復スケジュール" /><published>2023-12-21T00:00:00+09:00</published><updated>2023-12-21T00:00:00+09:00</updated><id>https://makietan.github.io/game/gup/2023/12/21/report</id><content type="html" xml:base="https://makietan.github.io/game/gup/2023/12/21/report.html"><![CDATA[<p>5分で1やる気が回復する。</p>
-
-<p>つまり、1時間で12やる気が回復する。</p>
-
-<p>ただし、やる気を30消費ずつする場合は実質90が上限となる。</p>
-
-<p>90（やる気） × 5（分/やる気）/ 60（分/時間） = 7.5時間</p>
-
-<p>となる。</p>
-
-<p>つまり、0時に寝て7時に起きるとちょうどいい感じになっているということだ。</p>
-
-<p>ただし、12時の休憩とかを加味するとそううまくはいかない。</p>
-
-<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-
-<script type="text/javascript">
-google.charts.load("current", {packages:["timeline"]});
-google.charts.setOnLoadCallback(drawChart);
-function drawChart() {
-    var container = document.getElementById('example5.1');
-    var chart = new google.visualization.Timeline(container);
-    var dataTable = new google.visualization.DataTable();
-    dataTable.addColumn({ type: 'string', id: 'Room' });
-    dataTable.addColumn({ type: 'string', id: 'Name' });
-    dataTable.addColumn({ type: 'date', id: 'Start' });
-    dataTable.addColumn({ type: 'date', id: 'End' });
-    dataTable.addRows([
-        [ '日常生活', '睡眠',       new Date(0,0,0,0,0,0),  new Date(0,0,0,7,0,0) ],
-        [ '日常生活', '仕事',    new Date(0,0,0,8,0,0),  new Date(0,0,0,12,0,0) ],
-        [ '日常生活', '仕事',    new Date(0,0,0,13,0,0),  new Date(0,0,0,18,0,0) ],
-        [ '戦車道大作戦（理想）',   '90回復サイクル',    new Date(0,0,0,0,0,0), new Date(0,0,0,7,30,0) ],
-        [ '戦車道大作戦（理想）',   '90回復サイクル',    new Date(0,0,0,8,0,0), new Date(0,0,0,15,30,0) ],
-        [ '戦車道大作戦（理想）',   '90回復サイクル',    new Date(0,0,0,16,0,0), new Date(0,0,0,23,00,0) ],
-        [ '戦車道大作戦（理想2）',   '96回復サイクル',    new Date(0,0,0,0,0,0), new Date(0,0,0,8,0,0) ],
-        [ '戦車道大作戦（理想2）',   '96回復サイクル',    new Date(0,0,0,9,0,0), new Date(0,0,0,17,0,0) ],
-        [ '戦車道大作戦（理想2）',   '60回復サイクル',    new Date(0,0,0,18,0,0), new Date(0,0,0,23,00,0) ],
-        [ '戦車道大作戦（現実）',   '90回復サイクル',    new Date(0,0,0,0,0,0), new Date(0,0,0,7,30,0) ],
-        [ '戦車道大作戦（現実）',   '48回復サイクル',    new Date(0,0,0,8,0,0), new Date(0,0,0,12,0,0) ],
-        [ '戦車道大作戦（現実）',   '60回復サイクル',    new Date(0,0,0,13,0,0), new Date(0,0,0,18,00,0) ],
-        [ '戦車道大作戦（現実）',   '48回復サイクル',    new Date(0,0,0,19,0,0), new Date(0,0,0,23,00,0) ],
-        [ '戦車道大作戦（現実2）',  '90回復サイクル',    new Date(0,0,0,13,0,0), new Date(0,0,0,20,30,0) ],
-        [ '戦車道大作戦（現実2）',  '24回復サイクル',    new Date(0,0,0,21,0,0), new Date(0,0,0,23,00,0) ],
-    ]);
-    var options = {
-        timeline: { colorByRowLabel: true }
-    };
-    chart.draw(dataTable, options);
-}
-</script>
-
-<div id="example5.1"></div>
-
-<p>てな感じで朝8時、昼12時〜15時、18時〜20時、23時といった計4回やると良さそうだ。</p>
-
-<p>実際には満タンになっていなければ逐次回復するのでこの限りではないがおおよその目安として覚えておくといい。</p>]]></content><author><name>makietan</name></author><category term="game" /><category term="gup" /><summary type="html"><![CDATA[5分で1やる気が回復する。]]></summary></entry></feed>
+<p>マックチキンが復活するのは喜ばしいがね。</p>]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[フィッシュメニューを増やしてくれ。]]></summary></entry></feed>
