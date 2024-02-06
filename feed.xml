@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2024-02-06T17:28:57+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">ソウルゲインの特殊スキルはどれを選んだらいいのかをチェックする</title><link href="https://makietan.github.io/game/srwdd/2024/02/06/report.html" rel="alternate" type="text/html" title="ソウルゲインの特殊スキルはどれを選んだらいいのかをチェックする" /><published>2024-02-06T00:00:00+09:00</published><updated>2024-02-06T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2024/02/06/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2024/02/06/report.html"><![CDATA[<p>JavaScript でサクッと比較してみる。
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2024-02-06T19:25:24+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">ソウルゲインの特殊スキルはどれを選んだらいいのかをチェックする</title><link href="https://makietan.github.io/game/srwdd/2024/02/06/report.html" rel="alternate" type="text/html" title="ソウルゲインの特殊スキルはどれを選んだらいいのかをチェックする" /><published>2024-02-06T00:00:00+09:00</published><updated>2024-02-06T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2024/02/06/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2024/02/06/report.html"><![CDATA[<p>JavaScript でサクッと比較してみる。
 数値を比較して同じ以上なら+1点で3点以上なら入れ替えとなるようにした。</p>
 
 <h2 id="条件">条件</h2>
@@ -8,7 +8,7 @@
   <li>HP: 100%</li>
 </ul>
 
-<h2 id="特殊スキル一蘭">特殊スキル一蘭</h2>
+<h2 id="特殊スキル一覧">特殊スキル一覧</h2>
 
 <div id="list"></div>
 
@@ -146,7 +146,7 @@ document.getElementById('result').innerHTML = result.map((i) => `${data[i].name}
   <li>HP: 100%</li>
 </ul>
 
-<h2 id="特殊スキル一蘭">特殊スキル一蘭</h2>
+<h2 id="特殊スキル一覧">特殊スキル一覧</h2>
 
 <div id="list"></div>
 
@@ -313,7 +313,7 @@ document.getElementById('result').innerHTML = result.map((i) => `${data[i].name}
   <li>HP: 100%</li>
 </ul>
 
-<h2 id="特殊スキル一蘭">特殊スキル一蘭</h2>
+<h2 id="特殊スキル一覧">特殊スキル一覧</h2>
 
 <div id="list"></div>
 
