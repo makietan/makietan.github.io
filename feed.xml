@@ -1,4 +1,695 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2024-02-20T12:15:52+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">部屋の掃除をする</title><link href="https://makietan.github.io/cleaning/2024/02/09/report.html" rel="alternate" type="text/html" title="部屋の掃除をする" /><published>2024-02-09T00:00:00+09:00</published><updated>2024-02-09T00:00:00+09:00</updated><id>https://makietan.github.io/cleaning/2024/02/09/report</id><content type="html" xml:base="https://makietan.github.io/cleaning/2024/02/09/report.html"><![CDATA[<p>とりあえず排水口をどうにかしよう。
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2024-02-21T01:13:18+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">【スパロボDD】特別交換所 2023</title><link href="https://makietan.github.io/game/srwdd/2024/02/21/report.html" rel="alternate" type="text/html" title="【スパロボDD】特別交換所 2023" /><published>2024-02-21T00:00:00+09:00</published><updated>2024-02-21T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2024/02/21/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2024/02/21/report.html"><![CDATA[<p><button id="remove_checked" onclick="removeChecked();">所持済みを非表示</button></p>
+
+<div id="list">
+<label for="オウル・ハーガー／ディーダリオン"><input type="checkbox" id="オウル・ハーガー／ディーダリオン" />オウル・ハーガー／ディーダリオン</label><br />
+<label for="イーヴァリフル・ハイパワー／メラフディン"><input type="checkbox" id="イーヴァリフル・ハイパワー／メラフディン" />イーヴァリフル・ハイパワー／メラフディン</label><br />
+<label for="スリー・ラウンド・バースト／グラフディン（サキミ機）"><input type="checkbox" id="スリー・ラウンド・バースト／グラフディン（サキミ機）" />スリー・ラウンド・バースト／グラフディン（サキミ機）</label><br />
+<label for="サマーソルト・ティアー／グラフディン（ユンナ機）"><input type="checkbox" id="サマーソルト・ティアー／グラフディン（ユンナ機）" />サマーソルト・ティアー／グラフディン（ユンナ機）</label><br />
+<label for="イーディフューザー／グラフディン（リナリア機）"><input type="checkbox" id="イーディフューザー／グラフディン（リナリア機）" />イーディフューザー／グラフディン（リナリア機）</label><br />
+<label for="ラッシング・ポッパー／グラフディン（マイコ機）"><input type="checkbox" id="ラッシング・ポッパー／グラフディン（マイコ機）" />ラッシング・ポッパー／グラフディン（マイコ機）</label><br />
+<label for="イカヅチ・リボルブ／グラフディン（ユニス機）"><input type="checkbox" id="イカヅチ・リボルブ／グラフディン（ユニス機）" />イカヅチ・リボルブ／グラフディン（ユニス機）</label><br />
+<label for="ブレストファイヤー／マジンガーZ"><input type="checkbox" id="ブレストファイヤー／マジンガーZ" />ブレストファイヤー／マジンガーZ</label><br />
+<label for="ブレストバーン／グレートマジンガー"><input type="checkbox" id="ブレストバーン／グレートマジンガー" />ブレストバーン／グレートマジンガー</label><br />
+<label for="ファイヤーブラスター／マジンカイザー"><input type="checkbox" id="ファイヤーブラスター／マジンカイザー" />ファイヤーブラスター／マジンカイザー</label><br />
+<label for="ジーグブリーカー／鋼鉄ジーグ"><input type="checkbox" id="ジーグブリーカー／鋼鉄ジーグ" />ジーグブリーカー／鋼鉄ジーグ</label><br />
+<label for="超電磁スピン／コン・バトラーＶ"><input type="checkbox" id="超電磁スピン／コン・バトラーＶ" />超電磁スピン／コン・バトラーＶ</label><br />
+<label for="デビルアロー／デビルマン"><input type="checkbox" id="デビルアロー／デビルマン" />デビルアロー／デビルマン</label><br />
+<label for="オーラ斬り／ビルバイン"><input type="checkbox" id="オーラ斬り／ビルバイン" />オーラ斬り／ビルバイン</label><br />
+<label for="プログレッシブナイフ連続攻撃／エヴァンゲリオン初号機"><input type="checkbox" id="プログレッシブナイフ連続攻撃／エヴァンゲリオン初号機" />プログレッシブナイフ連続攻撃／エヴァンゲリオン初号機</label><br />
+<label for="ガトリング砲／エヴァンゲリオン零号機"><input type="checkbox" id="ガトリング砲／エヴァンゲリオン零号機" />ガトリング砲／エヴァンゲリオン零号機</label><br />
+<label for="サンダースピア／エヴァンゲリオン2号機"><input type="checkbox" id="サンダースピア／エヴァンゲリオン2号機" />サンダースピア／エヴァンゲリオン2号機</label><br />
+<label for="ハイパー・メガ・ランチャー／Zガンダム"><input type="checkbox" id="ハイパー・メガ・ランチャー／Zガンダム" />ハイパー・メガ・ランチャー／Zガンダム</label><br />
+<label for="クロスレンジ・アタック／νガンダム"><input type="checkbox" id="クロスレンジ・アタック／νガンダム" />クロスレンジ・アタック／νガンダム</label><br />
+<label for="NT-D連続攻撃／ユニコーンガンダム"><input type="checkbox" id="NT-D連続攻撃／ユニコーンガンダム" />NT-D連続攻撃／ユニコーンガンダム</label><br />
+<label for="ゲッタースパイクブレード／ブラックゲッター"><input type="checkbox" id="ゲッタースパイクブレード／ブラックゲッター" />ゲッタースパイクブレード／ブラックゲッター</label><br />
+<label for="ゲッタートマホーク／真ゲッター1"><input type="checkbox" id="ゲッタートマホーク／真ゲッター1" />ゲッタートマホーク／真ゲッター1</label><br />
+<label for="天空剣Vの字斬り／ボルテスV"><input type="checkbox" id="天空剣Vの字斬り／ボルテスV" />天空剣Vの字斬り／ボルテスV</label><br />
+<label for="ヘルアンドヘブン／ガオガイガー"><input type="checkbox" id="ヘルアンドヘブン／ガオガイガー" />ヘルアンドヘブン／ガオガイガー</label><br />
+<label for="輻射波動機構／紅蓮弐式"><input type="checkbox" id="輻射波動機構／紅蓮弐式" />輻射波動機構／紅蓮弐式</label><br />
+<label for="ハドロン砲最大出力／ガウェイン"><input type="checkbox" id="ハドロン砲最大出力／ガウェイン" />ハドロン砲最大出力／ガウェイン</label><br />
+<label for="単分子カッター・スパイラルチェイン／ARX-7 アーバレスト"><input type="checkbox" id="単分子カッター・スパイラルチェイン／ARX-7 アーバレスト" />単分子カッター・スパイラルチェイン／ARX-7 アーバレスト</label><br />
+<label for="超高速ミサイル／M9 ガーンズバック（マオ）"><input type="checkbox" id="超高速ミサイル／M9 ガーンズバック（マオ）" />超高速ミサイル／M9 ガーンズバック（マオ）</label><br />
+<label for="GNソード／ガンダムエクシア"><input type="checkbox" id="GNソード／ガンダムエクシア" />GNソード／ガンダムエクシア</label><br />
+<label for="GNスナイパーライフル連射／ガンダムデュナメス"><input type="checkbox" id="GNスナイパーライフル連射／ガンダムデュナメス" />GNスナイパーライフル連射／ガンダムデュナメス</label><br />
+<label for="高エネルギービームライフル連射／エールストライクガンダム"><input type="checkbox" id="高エネルギービームライフル連射／エールストライクガンダム" />高エネルギービームライフル連射／エールストライクガンダム</label><br />
+<label for="バラエーナプラズマ収束ビーム砲／フリーダムガンダム"><input type="checkbox" id="バラエーナプラズマ収束ビーム砲／フリーダムガンダム" />バラエーナプラズマ収束ビーム砲／フリーダムガンダム</label><br />
+<label for="ホロニックブレード突撃／ゼーガペイン アルティール"><input type="checkbox" id="ホロニックブレード突撃／ゼーガペイン アルティール" />ホロニックブレード突撃／ゼーガペイン アルティール</label><br />
+<label for="ホロニックランチャー連射／ゼーガペイン ガルダ"><input type="checkbox" id="ホロニックランチャー連射／ゼーガペイン ガルダ" />ホロニックランチャー連射／ゼーガペイン ガルダ</label><br />
+<label for="ハラキリ・ブレード／ヴァルヴレイヴⅠ"><input type="checkbox" id="ハラキリ・ブレード／ヴァルヴレイヴⅠ" />ハラキリ・ブレード／ヴァルヴレイヴⅠ</label><br />
+<label for="スピンドル・ナックル／ヴァルヴレイヴⅣ"><input type="checkbox" id="スピンドル・ナックル／ヴァルヴレイヴⅣ" />スピンドル・ナックル／ヴァルヴレイヴⅣ</label><br />
+<label for="滑腔砲連射／ガンダム・バルバトス（第4形態）"><input type="checkbox" id="滑腔砲連射／ガンダム・バルバトス（第4形態）" />滑腔砲連射／ガンダム・バルバトス（第4形態）</label><br />
+<label for="V-MAX／レイズナー"><input type="checkbox" id="V-MAX／レイズナー" />V-MAX／レイズナー</label><br />
+<label for="マルチプル・コンバット／スコープドッグRSC"><input type="checkbox" id="マルチプル・コンバット／スコープドッグRSC" />マルチプル・コンバット／スコープドッグRSC</label><br />
+<label for="精密射撃／KG-6 スレイプニール"><input type="checkbox" id="精密射撃／KG-6 スレイプニール" />精密射撃／KG-6 スレイプニール</label><br />
+<label for="120mmライフル連射／KG-7 アレイオン（韻子）"><input type="checkbox" id="120mmライフル連射／KG-7 アレイオン（韻子）" />120mmライフル連射／KG-7 アレイオン（韻子）</label><br />
+<label for="サン・アタック／ダイターン3"><input type="checkbox" id="サン・アタック／ダイターン3" />サン・アタック／ダイターン3</label><br />
+<label for="ダブルハーケン／グレンダイザー"><input type="checkbox" id="ダブルハーケン／グレンダイザー" />ダブルハーケン／グレンダイザー</label><br />
+<label for="ツインバスターライフル最大出力／ウイングガンダムゼロ"><input type="checkbox" id="ツインバスターライフル最大出力／ウイングガンダムゼロ" />ツインバスターライフル最大出力／ウイングガンダムゼロ</label><br />
+<label for="強襲／ガンダムデスサイズヘル"><input type="checkbox" id="強襲／ガンダムデスサイズヘル" />強襲／ガンダムデスサイズヘル</label><br />
+<label for="ディストーション・アタック／ブラックサレナ"><input type="checkbox" id="ディストーション・アタック／ブラックサレナ" />ディストーション・アタック／ブラックサレナ</label><br />
+<label for="オーラ斬り／サーバイン"><input type="checkbox" id="オーラ斬り／サーバイン" />オーラ斬り／サーバイン</label><br />
+<label for="アンビデクストラス・ハルバード／ジャスティスガンダム"><input type="checkbox" id="アンビデクストラス・ハルバード／ジャスティスガンダム" />アンビデクストラス・ハルバード／ジャスティスガンダム</label><br />
+<label for="グシオンリベイクハルバード／ガンダム・グシオンリベイク"><input type="checkbox" id="グシオンリベイクハルバード／ガンダム・グシオンリベイク" />グシオンリベイクハルバード／ガンダム・グシオンリベイク</label><br />
+<label for="フィン・ファンネル（Hi-ν）／Hi-νガンダム"><input type="checkbox" id="フィン・ファンネル（Hi-ν）／Hi-νガンダム" />フィン・ファンネル（Hi-ν）／Hi-νガンダム</label><br />
+<label for="トランザム一斉射撃／ガンダムヴァーチェ"><input type="checkbox" id="トランザム一斉射撃／ガンダムヴァーチェ" />トランザム一斉射撃／ガンダムヴァーチェ</label><br />
+<label for="必殺登龍剣／龍神丸"><input type="checkbox" id="必殺登龍剣／龍神丸" />必殺登龍剣／龍神丸</label><br />
+<label for="一刀両断エルディカイザー／グランゾート"><input type="checkbox" id="一刀両断エルディカイザー／グランゾート" />一刀両断エルディカイザー／グランゾート</label><br />
+<label for="ハリケーンスマッシャー／ウインザート"><input type="checkbox" id="ハリケーンスマッシャー／ウインザート" />ハリケーンスマッシャー／ウインザート</label><br />
+<label for="ウェーブカイザー／アクアビート"><input type="checkbox" id="ウェーブカイザー／アクアビート" />ウェーブカイザー／アクアビート</label><br />
+<label for="ライガースラッシュ／獣神ライガー"><input type="checkbox" id="ライガースラッシュ／獣神ライガー" />ライガースラッシュ／獣神ライガー</label><br />
+<label for="火炎十文字斬り／ダルタニアス"><input type="checkbox" id="火炎十文字斬り／ダルタニアス" />火炎十文字斬り／ダルタニアス</label><br />
+<label for="ファントム・クライ／アレクサンダ"><input type="checkbox" id="ファントム・クライ／アレクサンダ" />ファントム・クライ／アレクサンダ</label><br />
+<label for="ヴァンシュ・プルング／ヴァンアイン"><input type="checkbox" id="ヴァンシュ・プルング／ヴァンアイン" />ヴァンシュ・プルング／ヴァンアイン</label><br />
+<label for="トランザム連続攻撃／ガンダムキュリオス"><input type="checkbox" id="トランザム連続攻撃／ガンダムキュリオス" />トランザム連続攻撃／ガンダムキュリオス</label><br />
+<label for="猛烈地獄張り手／ジーグ"><input type="checkbox" id="猛烈地獄張り手／ジーグ" />猛烈地獄張り手／ジーグ</label><br />
+<label for="メタルジェノサイダー／R-GUN"><input type="checkbox" id="メタルジェノサイダー／R-GUN" />メタルジェノサイダー／R-GUN</label><br />
+<label for="スピニング・バースター／グラフディン（ベネット機）"><input type="checkbox" id="スピニング・バースター／グラフディン（ベネット機）" />スピニング・バースター／グラフディン（ベネット機）</label><br />
+<label for="ファン・タロン／ヴァルヴレイヴⅥ"><input type="checkbox" id="ファン・タロン／ヴァルヴレイヴⅥ" />ファン・タロン／ヴァルヴレイヴⅥ</label><br />
+<label for="シナプス弾撃／覚醒人1号"><input type="checkbox" id="シナプス弾撃／覚醒人1号" />シナプス弾撃／覚醒人1号</label><br />
+<label for="レンチメイス（チェーンソー）／ガンダム・バルバトス（第6形態）"><input type="checkbox" id="レンチメイス（チェーンソー）／ガンダム・バルバトス（第6形態）" />レンチメイス（チェーンソー）／ガンダム・バルバトス（第6形態）</label><br />
+<label for="舞朱雀／ソウルゲイン"><input type="checkbox" id="舞朱雀／ソウルゲイン" />舞朱雀／ソウルゲイン</label><br />
+<label for="野牛シバラク流✕の字斬り／戦神丸"><input type="checkbox" id="野牛シバラク流✕の字斬り／戦神丸" />野牛シバラク流✕の字斬り／戦神丸</label><br />
+<label for="ダブルドラゴンハング／アルトロンガンダム"><input type="checkbox" id="ダブルドラゴンハング／アルトロンガンダム" />ダブルドラゴンハング／アルトロンガンダム</label><br />
+<label for="ファントム・リベレイト／アレクサンダ・リベルテ"><input type="checkbox" id="ファントム・リベレイト／アレクサンダ・リベルテ" />ファントム・リベレイト／アレクサンダ・リベルテ</label><br />
+<label for="チェイン・デカッター／ガンレオン"><input type="checkbox" id="チェイン・デカッター／ガンレオン" />チェイン・デカッター／ガンレオン</label><br />
+<label for="オン・ザ・エッジ／M9D ファルケ"><input type="checkbox" id="オン・ザ・エッジ／M9D ファルケ" />オン・ザ・エッジ／M9D ファルケ</label><br />
+<label for="ダブルガトリング・ラピッドファイア／ガンダムヘビーアームズ改"><input type="checkbox" id="ダブルガトリング・ラピッドファイア／ガンダムヘビーアームズ改" />ダブルガトリング・ラピッドファイア／ガンダムヘビーアームズ改</label><br />
+<label for="ソードブレイザー／ランスロット・グレイル"><input type="checkbox" id="ソードブレイザー／ランスロット・グレイル" />ソードブレイザー／ランスロット・グレイル</label><br />
+<label for="天上天下無敵剣／SRX"><input type="checkbox" id="天上天下無敵剣／SRX" />天上天下無敵剣／SRX</label><br />
+<label for="アームストロンガー・カノン・フルパワー／ヴァルヴレイヴⅢ"><input type="checkbox" id="アームストロンガー・カノン・フルパワー／ヴァルヴレイヴⅢ" />アームストロンガー・カノン・フルパワー／ヴァルヴレイヴⅢ</label><br />
+<label for="グレートブラスター／マジンエンペラーG"><input type="checkbox" id="グレートブラスター／マジンエンペラーG" />グレートブラスター／マジンエンペラーG</label><br />
+<label for="斬艦刀・雷光斬り／ダイゼンガー"><input type="checkbox" id="斬艦刀・雷光斬り／ダイゼンガー" />斬艦刀・雷光斬り／ダイゼンガー</label><br />
+<label for="ヒートショーテル・アジタート／ガンダムサンドロック改"><input type="checkbox" id="ヒートショーテル・アジタート／ガンダムサンドロック改" />ヒートショーテル・アジタート／ガンダムサンドロック改</label><br />
+<label for="超精密射撃／M9 ガーンズバック（クルツ）"><input type="checkbox" id="超精密射撃／M9 ガーンズバック（クルツ）" />超精密射撃／M9 ガーンズバック（クルツ）</label><br />
+<label for="ボルト・ファランクス／ヴァルヴレイヴⅤ"><input type="checkbox" id="ボルト・ファランクス／ヴァルヴレイヴⅤ" />ボルト・ファランクス／ヴァルヴレイヴⅤ</label><br />
+<label for="ファンネル（ナイチンゲール）／ナイチンゲール"><input type="checkbox" id="ファンネル（ナイチンゲール）／ナイチンゲール" />ファンネル（ナイチンゲール）／ナイチンゲール</label><br />
+<label for="拡散構造相転移砲／蜃気楼"><input type="checkbox" id="拡散構造相転移砲／蜃気楼" />拡散構造相転移砲／蜃気楼</label><br />
+<label for="メガキャノン（トールギスⅢ）／トールギスⅢ"><input type="checkbox" id="メガキャノン（トールギスⅢ）／トールギスⅢ" />メガキャノン（トールギスⅢ）／トールギスⅢ</label><br />
+<label for="輻射波動機構（紅蓮聖天八極式）／紅蓮聖天八極式"><input type="checkbox" id="輻射波動機構（紅蓮聖天八極式）／紅蓮聖天八極式" />輻射波動機構（紅蓮聖天八極式）／紅蓮聖天八極式</label><br />
+<label for="GNソードⅡ・コンビネーション／ダブルオーガンダム"><input type="checkbox" id="GNソードⅡ・コンビネーション／ダブルオーガンダム" />GNソードⅡ・コンビネーション／ダブルオーガンダム</label><br />
+<label for="ツインバスターキャノン／セラヴィーガンダム"><input type="checkbox" id="ツインバスターキャノン／セラヴィーガンダム" />ツインバスターキャノン／セラヴィーガンダム</label><br />
+<label for="シューティングスター・フォールダウン／ニューレイズナー"><input type="checkbox" id="シューティングスター・フォールダウン／ニューレイズナー" />シューティングスター・フォールダウン／ニューレイズナー</label><br />
+<label for="アームド・アーマーDE／バンシィ・ノルン"><input type="checkbox" id="アームド・アーマーDE／バンシィ・ノルン" />アームド・アーマーDE／バンシィ・ノルン</label><br />
+<label for="破砕衝角震電砲／ストライクインターセプター"><input type="checkbox" id="破砕衝角震電砲／ストライクインターセプター" />破砕衝角震電砲／ストライクインターセプター</label><br />
+<label for="GNスナイパーライフルⅡ精密射撃／ケルディムガンダム"><input type="checkbox" id="GNスナイパーライフルⅡ精密射撃／ケルディムガンダム" />GNスナイパーライフルⅡ精密射撃／ケルディムガンダム</label><br />
+<label for="アークシャインボンバー／ゲッターアーク"><input type="checkbox" id="アークシャインボンバー／ゲッターアーク" />アークシャインボンバー／ゲッターアーク</label><br />
+<label for="ゲッタートマホーク・ストーム／真ゲッターロボ タラク"><input type="checkbox" id="ゲッタートマホーク・ストーム／真ゲッターロボ タラク" />ゲッタートマホーク・ストーム／真ゲッターロボ タラク</label><br />
+<label for="ダブルトマホークダークネス／ゲッターノワール1号機"><input type="checkbox" id="ダブルトマホークダークネス／ゲッターノワール1号機" />ダブルトマホークダークネス／ゲッターノワール1号機 ゲッターノワール2号機 ゲッターノワール3号機</label><br />
+<label for="ビームサーベル連撃／フォースインパルスガンダム"><input type="checkbox" id="ビームサーベル連撃／フォースインパルスガンダム" />ビームサーベル連撃／フォースインパルスガンダム</label><br />
+<label for="ゴッドアルファ／ライディーン"><input type="checkbox" id="ゴッドアルファ／ライディーン" />ゴッドアルファ／ライディーン</label><br />
+<label for="GNビームシールド・クローモード／アリオスガンダム"><input type="checkbox" id="GNビームシールド・クローモード／アリオスガンダム" />GNビームシールド・クローモード／アリオスガンダム</label><br />
+<label for="鬼哭穿／クロムクロ"><input type="checkbox" id="鬼哭穿／クロムクロ" />鬼哭穿／クロムクロ</label><br />
+<label for="ソードメイス連撃／ガンダム・バルバトスルプス"><input type="checkbox" id="ソードメイス連撃／ガンダム・バルバトスルプス" />ソードメイス連撃／ガンダム・バルバトスルプス</label><br />
+<label for="ワール・ウィンド／デルフィング（第三形態）"><input type="checkbox" id="ワール・ウィンド／デルフィング（第三形態）" />ワール・ウィンド／デルフィング（第三形態）</label><br />
+<label for="グリッドビーム（Universe Fighter）／グリッドマン"><input type="checkbox" id="グリッドビーム（Universe Fighter）／グリッドマン" />グリッドビーム（Universe Fighter）／グリッドマン</label><br />
+<label for="マリオネット・グラン・バル／アレクサンダType-02"><input type="checkbox" id="マリオネット・グラン・バル／アレクサンダType-02" />マリオネット・グラン・バル／アレクサンダType-02</label><br />
+<label for="カリドゥス複相ビーム砲／ストライクフリーダムガンダム"><input type="checkbox" id="カリドゥス複相ビーム砲／ストライクフリーダムガンダム" />カリドゥス複相ビーム砲／ストライクフリーダムガンダム</label><br />
+</div>
+
+<script>
+const STORAGE_KEY = '2024-02-21-report';
+const CHECKBOX_QUERY = 'article input[type="checkbox"]';
+function load() {
+  var pilots = JSON.parse(localStorage.getItem(STORAGE_KEY));
+
+  if (pilots && pilots['pilots']) {
+    var checked = pilots['pilots'];
+    [...document.querySelectorAll(CHECKBOX_QUERY)].forEach((e) => {
+      var status = checked[e.parentElement.innerText];
+      if (status) {
+        e.checked = true;
+      }
+    });
+  }
+
+  [...document.querySelectorAll(CHECKBOX_QUERY)].forEach((e) => {
+    e.addEventListener('change', (event) => {
+      save();
+    });
+  });
+}
+
+function save() {
+  var checked = {};
+  [...document.querySelectorAll(CHECKBOX_QUERY)].forEach((c) => {
+      checked[c.parentElement.innerText] = c.checked;
+  });
+  var pilots = { 'pilots': checked };
+
+  localStorage.setItem(STORAGE_KEY, JSON.stringify(pilots));
+}
+
+window.onload = () => {
+  load();
+}
+
+function removeChecked() {
+  [...document.querySelectorAll('article label')]
+      .filter((label) => label.querySelector('input').checked)
+      .forEach((label) => {
+        label.style.display = "none";
+        label.nextElementSibling.style.display = "none";
+      });
+}
+</script>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[所持済みを非表示]]></summary></entry><entry><title type="html">戦車道大作戦の公式戦の編成メモ</title><link href="https://makietan.github.io/game/gup/2024/02/16/report.html" rel="alternate" type="text/html" title="戦車道大作戦の公式戦の編成メモ" /><published>2024-02-16T00:00:00+09:00</published><updated>2024-02-16T00:00:00+09:00</updated><id>https://makietan.github.io/game/gup/2024/02/16/report</id><content type="html" xml:base="https://makietan.github.io/game/gup/2024/02/16/report.html"><![CDATA[<h2 id="隊長スキル">隊長スキル</h2>
+
+<ul>
+  <li>アンチョビ[マリンフェス]
+    <ul>
+      <li>自部隊に火災発生&amp;装填UP(超)</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="1輌目">1輌目</h2>
+
+<ul>
+  <li>アンチョビ[マリンフェス]
+    <ul>
+      <li>火災発生状態を回復&amp;次ターン中ダメージボーナス&amp;火力UP(超)</li>
+    </ul>
+  </li>
+  <li>カルパッチョ[水着2022]
+    <ul>
+      <li>試合中1度のみ、ターン終了時自車の耐久力が30%未満の場合耐久力を少し回復&amp;次ターン中情報撹乱&amp;火力UP(大)</li>
+    </ul>
+  </li>
+  <li>ミカ[お月見2022]
+    <ul>
+      <li>履帯回復状態を回復&amp;次ターン中ダメージボーナス&amp;火力UP(大)</li>
+    </ul>
+  </li>
+  <li>アキ[お月見2022]
+    <ul>
+      <li>照準&amp;装填UP(大)</li>
+    </ul>
+  </li>
+  <li>ダージリン[スノーフェス]
+    <ul>
+      <li>自車の装填UP&amp;隊長車の装填UP(超)</li>
+    </ul>
+  </li>
+  <li>島田愛里寿[島田フミカネ.ver]
+    <ul>
+      <li>ターゲット回避&amp;味方車輌の車長【西住みほ】【西住まほ】で機動性&amp;照準&amp;移動力&amp;装填UP&amp;耐久力が多い程機動性&amp;照準&amp;移動力&amp;装填UP&amp;試合中相手部隊の車輌数が多いほど相手部隊の装填DOWN(常時発動)</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="2輌目">2輌目</h2>
+
+<ul>
+  <li>西住まほ[体育祭2021]
+    <ul>
+      <li>自車の装甲DOWN&amp;装填UP(超)</li>
+    </ul>
+  </li>
+  <li>ローズヒップ[JB2021]
+    <ul>
+      <li>移動力&amp;装填UP(大)</li>
+    </ul>
+  </li>
+  <li>ナカジマ[お月見2022]
+    <ul>
+      <li>試合中1度のみ、ターン終了時自車の耐久力が30%未満の場合耐久力が少し回復&amp;次ターン中砲塔狙撃&amp;照準UP(大)</li>
+    </ul>
+  </li>
+  <li>秋山優花里[6周年]
+    <ul>
+      <li>火災誘発&amp;装填UP(大)</li>
+    </ul>
+  </li>
+  <li>安藤[W-day2023]
+    <ul>
+      <li>装填UP(大)</li>
+    </ul>
+  </li>
+  <li>西住しほ[8周年]
+    <ul>
+      <li>全地形適性付与&amp;全ステータスUP&amp;耐久力が多い程火力&amp;機動性&amp;照準&amp;装填UP&amp;味方生存車輌が3輌以上の間機動性&amp;照準UP&amp;試合中相手部隊の車両数が少ないほど相手部隊の火力&amp;装填DOWN(常時発動)</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="3輌目">3輌目</h2>
+
+<ul>
+  <li>島田愛里寿[6周年だよ]
+    <ul>
+      <li>ダメージカット(大)</li>
+    </ul>
+  </li>
+  <li>鶴姫しずか[7周年]
+    <ul>
+      <li>試合中1度のみ、ターン終了時自車の耐久力が30%未満の場合耐久力が少し回復&amp;次ターン中装填UP(大)</li>
+    </ul>
+  </li>
+  <li>冷泉麻子[Shunya Yamashita ver.]
+    <ul>
+      <li>ダメージカット(大)</li>
+    </ul>
+  </li>
+  <li>武部沙織[W-day2022]
+    <ul>
+      <li>ダメージカット(大)</li>
+    </ul>
+  </li>
+  <li>冷泉麻子[Shunya Yamashita ver.]
+    <ul>
+      <li>ダメージカット(大)</li>
+    </ul>
+  </li>
+  <li>逸見エリカ[4周年]
+    <ul>
+      <li>ターゲット集中&amp;装甲UP戦闘時お互いの火力&amp;照準に掛かる効果と一部特殊効果、状態異常付与効果を無視&amp;試合中自部隊の車輌数が多いほど装甲&amp;機動性&amp;装填UP(常時発動)</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="4輌目">4輌目</h2>
+
+<ul>
+  <li>西住みほ[6周年]
+    <ul>
+      <li>味方生存車輌が3輌以上の間全ステータスUP&amp;耐久力が少ない程装甲&amp;機動性&amp;照準&amp;装填UP&amp;試合中、戦闘時に自車より耐久力割合が高い相手車輌に掛かるスキル効果を無視&amp;試合開始時自車輌に火災発生(常時発動)</li>
+    </ul>
+  </li>
+  <li>逸見エリカ[水着2021]
+    <ul>
+      <li>自車の移動力DOWN&amp;装填UP(超)</li>
+    </ul>
+  </li>
+  <li>佐々木あけび[Xmas2020]
+    <ul>
+      <li>火力&amp;装填UP(大)</li>
+    </ul>
+  </li>
+  <li>アンチョビ[7.5アニバーサリー]
+    <ul>
+      <li>火災発生状態を回復&amp;次ターン必中&amp;情報撹乱&amp;桑園UP(超)</li>
+    </ul>
+  </li>
+  <li>ルミ[W-day2022]
+    <ul>
+      <li>照準&amp;装填UP(大)</li>
+    </ul>
+  </li>
+  <li>河西忍[アライッペ]
+    <ul>
+      <li>試合中1度のみ、ターン終了時自車の耐久力が30%未満の場合耐久力が少し回復&amp;次ターン中形勢逆転&amp;ダメージカット(超)</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="5輌目">5輌目</h2>
+
+<ul>
+  <li>西住まほ[スパイ服]
+    <ul>
+      <li>【火災発生】【履帯損傷】【砲塔損傷】【通信不能】を回復&amp;次ターン中予測回避&amp;装填UP(大)</li>
+    </ul>
+  </li>
+  <li>近藤妙子[アライッペ]
+    <ul>
+      <li>火災発生状態を回復&amp;次ターン中予測回避&amp;装填UP(超)</li>
+    </ul>
+  </li>
+  <li>ケイ[7周年]
+    <ul>
+      <li>火災発生&amp;履帯損傷状態を回復&amp;次ターン中作戦看破&amp;装填UP(超)</li>
+    </ul>
+  </li>
+  <li>ケイ[ハロウィン2020]
+    <ul>
+      <li>火災発生状態を回復&amp;次ターン中火力&amp;装填UP(大)</li>
+    </ul>
+  </li>
+  <li>ムラカミ[Xmas2022]
+    <ul>
+      <li>火災発生状態を回復&amp;次ターン中自車の装甲DOWN&amp;火力&amp;装填UP(大)</li>
+    </ul>
+  </li>
+  <li>島田千代[水着2021]
+    <ul>
+      <li>水辺適性付与&amp;試合中の総移動距離が短い程火力&amp;照準&amp;装填UP&amp;味方車輌の車長【島田愛里寿】で火力&amp;照準&amp;装填UP&amp;試合開始時自車輌に火災発生(常時発動)</li>
+    </ul>
+  </li>
+</ul>]]></content><author><name>makietan</name></author><category term="game" /><category term="gup" /><summary type="html"><![CDATA[隊長スキル]]></summary></entry><entry><title type="html">「西絹代[Xmas2023]」の評価</title><link href="https://makietan.github.io/game/gup/2024/02/13/report.html" rel="alternate" type="text/html" title="「西絹代[Xmas2023]」の評価" /><published>2024-02-13T00:00:00+09:00</published><updated>2024-02-13T00:00:00+09:00</updated><id>https://makietan.github.io/game/gup/2024/02/13/report</id><content type="html" xml:base="https://makietan.github.io/game/gup/2024/02/13/report.html"><![CDATA[<h2 id="ステータス">ステータス</h2>
+
+<h3 id="条件">条件</h3>
+
+<ul>
+  <li>Lv 50</li>
+  <li>覚醒 0</li>
+  <li>練度 Lv9</li>
+</ul>
+
+<h3 id="数値">数値</h3>
+
+<ul>
+  <li>車長 1830(+288)</li>
+  <li>砲手 1743(+272)</li>
+  <li>操縦手 1756 (+272)</li>
+  <li>通信種 1616 (+261)</li>
+  <li>装填手 1823 (+267)</li>
+</ul>
+
+<h2 id="チームスキル">チームスキル</h2>
+
+<h3 id="開放前">開放前</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>火力UP(大)
+</code></pre></div></div>
+
+<h3 id="開放後">開放後</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ターゲット回避&amp;機動性UP&amp;試合中自部隊の車両数が多いほど火力&amp;機動性&amp;照準&amp;移動力&amp;装填UP&amp;味方フラッグ車と近い程火力&amp;機動性&amp;照準&amp;装填UP&amp;試合中相手部隊の車両数が多いほど相手部隊の火力&amp;装填DOWN(常時発動)
+</code></pre></div></div>
+
+<ul>
+  <li>ターゲット回避</li>
+  <li>機動性UP</li>
+  <li>試合中自部隊の車両数
+    <ul>
+      <li>多い
+        <ul>
+          <li>UP
+            <ul>
+              <li>火力</li>
+              <li>機動性</li>
+              <li>照準</li>
+              <li>移動力</li>
+              <li>装填</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>味方フラッグ車
+    <ul>
+      <li>近い
+        <ul>
+          <li>UP
+            <ul>
+              <li>火力</li>
+              <li>機動性</li>
+              <li>照準</li>
+              <li>装填</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>試合中相手部隊の車両数
+    <ul>
+      <li>多い
+        <ul>
+          <li>DOWN
+            <ul>
+              <li>火力</li>
+              <li>装填</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="数値-1">数値</h4>
+
+<ul>
+  <li>試合中自部隊の車両数
+    <ul>
+      <li>5輌
+        <ul>
+          <li>味方フラッグ車
+            <ul>
+              <li>隣接
+                <ul>
+                  <li>火力 3318 →  6456 (<strong>1.9457505</strong>)</li>
+                  <li>装甲 3140</li>
+                  <li>機動 2986 → 16981 (<strong>5.6868721</strong>)</li>
+                  <li>照準 2858 → 12681 (<strong>4.4370189</strong>)</li>
+                  <li>移動   81 →    99 (1.2222222)</li>
+                  <li>装填 3023 →  4947 (<strong>1.6364539</strong>)</li>
+                </ul>
+              </li>
+              <li>2マス
+                <ul>
+                  <li>火力 3318 →  6170 (1.8595539)</li>
+                  <li>装甲 3140</li>
+                  <li>機動 2986 → 16048 (5.3744139)</li>
+                  <li>照準 2858 → 11788 (4.1245626)</li>
+                  <li>移動   81 →    99 (1.2222222)</li>
+                  <li>装填 3023 →  4772 (1.5785643)</li>
+                </ul>
+              </li>
+              <li>3マス
+                <ul>
+                  <li>火力 3318 →  5885 (1.7736588)</li>
+                  <li>装甲 3140</li>
+                  <li>機動 2986 → 15115 (5.0619558)</li>
+                  <li>照準 2858 → 10895 (3.8121064)</li>
+                  <li>移動   81 →    99 (1.2222222)</li>
+                  <li>装填 3023 →  4597 (1.5206748)</li>
+                </ul>
+              </li>
+              <li>4マス
+                <ul>
+                  <li>火力 3318 →  5885 (1.7736588)</li>
+                  <li>装甲 3140</li>
+                  <li>機動 2986 → 15115 (5.0619558)</li>
+                  <li>照準 2858 → 10895 (3.8121064)</li>
+                  <li>移動   81 →    99 (1.2222222)</li>
+                  <li>装填 3023 →  4597 (1.5206748)</li>
+                </ul>
+              </li>
+              <li>5マス
+                <ul>
+                  <li>火力 3318 →  5657 (1.7049427)</li>
+                  <li>装甲 3140</li>
+                  <li>機動 2986 → 14369 (4.8121232)</li>
+                  <li>照準 2858 → 10181 (3.5622813)</li>
+                  <li>移動   81 →    99 (1.2222222)</li>
+                  <li>装填 3023 →  4457 (1.4743632)</li>
+                </ul>
+              </li>
+              <li>6マス
+                <ul>
+                  <li>火力 3318 →  5657 (1.7049427)</li>
+                  <li>装甲 3140</li>
+                  <li>機動 2986 → 14369 (4.8121232)</li>
+                  <li>照準 2858 → 10181 (3.5622813)</li>
+                  <li>移動   81 →    99 (1.2222222)</li>
+                  <li>装填 3023 →  4457 (1.4743632)</li>
+                </ul>
+              </li>
+              <li>7マス
+                <ul>
+                  <li>火力 3318 →  5314 (1.6015672)</li>
+                  <li>装甲 3140</li>
+                  <li>機動 2986 → 13249 (4.4370395)</li>
+                  <li>照準 2858 →  9109 (3.1871938)</li>
+                  <li>移動   81 →    99 (1.2222222)</li>
+                  <li>装填 3023 →  4247 (1.4048958)</li>
+                </ul>
+              </li>
+              <li>8マス
+                <ul>
+                  <li>火力 3318 →  5314 (1.6015672)</li>
+                  <li>装甲 3140</li>
+                  <li>機動 2986 → 13249 (4.4370395)</li>
+                  <li>照準 2858 →  9109 (3.1871938)</li>
+                  <li>移動   81 →    99 (1.2222222)</li>
+                  <li>装填 3023 →  4247 (1.4048958)</li>
+                </ul>
+              </li>
+              <li>9マス
+                <ul>
+                  <li>火力 3318 →  5314 (1.6015672)</li>
+                  <li>装甲 3140</li>
+                  <li>機動 2986 → 13249 (4.4370395)</li>
+                  <li>照準 2858 →  9109 (3.1871938)</li>
+                  <li>移動   81 →    99 (1.2222222)</li>
+                  <li>装填 3023 →  4247 (1.4048958)</li>
+                </ul>
+              </li>
+              <li>10マス
+                <ul>
+                  <li>火力 3318 →  5314 (1.6015672)</li>
+                  <li>装甲 3140</li>
+                  <li>機動 2986 → 13249 (4.4370395)</li>
+                  <li>照準 2858 →  9109 (3.1871938)</li>
+                  <li>移動   81 →    99 (1.2222222)</li>
+                  <li>装填 3023 →  4247 (1.4048958)</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>試合中相手部隊の車両数
+    <ul>
+      <li>5輌
+        <ul>
+          <li>対戦のダージリン&amp;チャーチル
+            <ul>
+              <li>火力 1549 → 1162 (0.75016139)</li>
+              <li>装甲 1623</li>
+              <li>機動 1254</li>
+              <li>照準 1401</li>
+              <li>移動   77</li>
+              <li>装填 2117 → 1588 (0.75011809)</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="結論">結論</h2>
+
+<ul>
+  <li>火力 1.9 〜 1.6</li>
+  <li>機動 5.69 〜 4.44</li>
+  <li>照準 4.44 〜 3.19</li>
+  <li>
+    <p>装填 1.64 〜 1.4</p>
+  </li>
+  <li>機動性と昇順がやたら高い回避壁向き</li>
+</ul>]]></content><author><name>makietan</name></author><category term="game" /><category term="gup" /><summary type="html"><![CDATA[ステータス]]></summary></entry><entry><title type="html">「逸見エリカ[V-day2023]」の評価</title><link href="https://makietan.github.io/game/gup/2024/02/12/report.html" rel="alternate" type="text/html" title="「逸見エリカ[V-day2023]」の評価" /><published>2024-02-12T00:00:00+09:00</published><updated>2024-02-12T00:00:00+09:00</updated><id>https://makietan.github.io/game/gup/2024/02/12/report</id><content type="html" xml:base="https://makietan.github.io/game/gup/2024/02/12/report.html"><![CDATA[<h2 id="チームスキル">チームスキル</h2>
+
+<h3 id="開放前">開放前</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>装甲&amp;移動力UP
+</code></pre></div></div>
+
+<h3 id="開放後">開放後</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>味方生存車輌が3輌以上の間装甲&amp;照準&amp;移動力&amp;装填UP&amp;ターン中1度攻撃成功時装甲&amp;照準&amp;装填UP(3ターン継続、重複あり)&amp;戦闘時に自車より耐久力割合が高い相手車輌の一部特殊効果、状態異常付与効果を無視（常時発動）
+</code></pre></div></div>
+
+<ul>
+  <li>味方生存車輌
+    <ul>
+      <li>3輌以上
+        <ul>
+          <li>UP
+            <ul>
+              <li>装甲</li>
+              <li>照準</li>
+              <li>移動力</li>
+              <li>装填</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>ターン中1度攻撃成功
+    <ul>
+      <li>UP(3ターン継続、重複あり)
+        <ul>
+          <li>装甲</li>
+          <li>照準</li>
+          <li>装填</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>戦闘時
+    <ul>
+      <li>自車より耐久力割合が高い相手
+        <ul>
+          <li>無視
+            <ul>
+              <li>特殊効果</li>
+              <li>状態異常付与効果</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="比較">比較</h2>
+
+<h3 id="逸見エリカ4周年">逸見エリカ[4周年]</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ターゲット集中&amp;装甲UP戦闘時お互いの火力&amp;照準に掛かる効果と一部特殊効果、状態異常付与効果を無視&amp;試合中自部隊の車輌数が多いほど装甲&amp;機動性&amp;装填UP(常時発動)
+</code></pre></div></div>
+
+<h4 id="詳細">詳細</h4>
+
+<ul>
+  <li>ターゲット集中</li>
+  <li>装甲UP</li>
+  <li>戦闘時
+    <ul>
+      <li>無視
+        <ul>
+          <li>火力</li>
+          <li>照準</li>
+          <li>特殊効果</li>
+          <li>状態異常付与効果</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>自部隊の車輌数が多い
+    <ul>
+      <li>UP
+        <ul>
+          <li>装甲</li>
+          <li>機動性</li>
+          <li>装填</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="結論">結論</h2>
+
+<ul>
+  <li>4エリカと比べて無視される項目が特殊効果と状態異常付与効果だけなので防御性能は低い。</li>
+  <li>耐久力割合が要なので優位な状況から覆されることもある。</li>
+  <li>〇〇成功時スキルなので初動が弱い。</li>
+  <li>最大になるとおそらく4エリカよりは攻撃性能がある（未検証）。</li>
+</ul>]]></content><author><name>makietan</name></author><category term="game" /><category term="gup" /><summary type="html"><![CDATA[チームスキル]]></summary></entry><entry><title type="html">上坂すみれ FCイベント「同志暗躍秘録」に参加した</title><link href="https://makietan.github.io/otaku/2024/02/11/report.html" rel="alternate" type="text/html" title="上坂すみれ FCイベント「同志暗躍秘録」に参加した" /><published>2024-02-11T00:00:00+09:00</published><updated>2024-02-11T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2024/02/11/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2024/02/11/report.html"><![CDATA[<h2 id="昼の部">昼の部</h2>
+
+<p>今回は最前で見ることができました。</p>
+
+<p>座席運良すぎました。</p>
+
+<p>で、開始するとすみぺが横の扉から入場。</p>
+
+<p>そう恒例のNE・RI・A・RU・KI、練り歩き。</p>
+
+<p>練り歩きにめっちゃ時間かけていちごミルク飴配ってました…ということは後方通路付近の方がよくない？（猫ミームの驚きのやつ）</p>
+
+<p>すみぺの首元はチョーカーをつけていたので例のほくろは見れず…。
+ただ衣装はかなり良かったです。</p>
+
+<h2 id="夜の部">夜の部</h2>
+
+<p>夜の部の衣装は胸元にハートがついてるゴスロリでした。
+胸元のハートがよだれかけに見えて、「ゴシックよだれかけ」つけてるすみぺかわいいってなりました（ｺﾗｯ）。</p>
+
+<h2 id="おわりに">おわりに</h2>
+
+<p>もう普通に写ってます（笑）。
+いやーこういうときは普通に写りたいもののこういう面白い感じもアリですね。</p>
+
+<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/%E4%B8%8A%E5%9D%82%E3%81%99%E3%81%BF%E3%82%8C?src=hash&amp;ref_src=twsrc%5Etfw">#上坂すみれ</a> FCイベント<a href="https://twitter.com/hashtag/%E5%90%8C%E5%BF%97%E6%9A%97%E8%BA%8D%E7%A7%98%E9%8C%B2?src=hash&amp;ref_src=twsrc%5Etfw">#同志暗躍秘録</a> ～野心のいちご味～<br />￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣<br />🍓全公演終了いたしました‼️<br /><br />ご来場いただきました同志の皆様<br />ありがとうございました🥂<br /><br />引き続き、アーティストデビュー11年目の<a href="https://twitter.com/hashtag/%E4%B8%8A%E5%9D%82%E3%81%99%E3%81%BF%E3%82%8C?src=hash&amp;ref_src=twsrc%5Etfw">#上坂すみれ</a> と <a href="https://twitter.com/hashtag/%E3%81%99%E3%81%BF%E3%81%BA%E3%82%8C%E3%82%93%E3%81%BD%E3%81%86?src=hash&amp;ref_src=twsrc%5Etfw">#すみぺれんぽう</a> を<br />よろしくお願いいたします❤️ <a href="https://t.co/qias7trPcQ">pic.twitter.com/qias7trPcQ</a></p>&mdash; 上坂すみれ_official (@uesaka_official) <a href="https://twitter.com/uesaka_official/status/1756653056127545423?ref_src=twsrc%5Etfw">February 11, 2024</a></blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>]]></content><author><name>makietan</name></author><category term="otaku" /><summary type="html"><![CDATA[昼の部]]></summary></entry><entry><title type="html">部屋の掃除をする</title><link href="https://makietan.github.io/cleaning/2024/02/09/report.html" rel="alternate" type="text/html" title="部屋の掃除をする" /><published>2024-02-09T00:00:00+09:00</published><updated>2024-02-09T00:00:00+09:00</updated><id>https://makietan.github.io/cleaning/2024/02/09/report</id><content type="html" xml:base="https://makietan.github.io/cleaning/2024/02/09/report.html"><![CDATA[<p>とりあえず排水口をどうにかしよう。
 パイプユニッシュ買ってこよ。</p>
 
 <p>毎週金曜日に有給休暇をとることにしたのでこういう事ができる。</p>
@@ -295,601 +986,4 @@ for (let i = 0; i < 10; i++) {
 document.getElementById('list').innerHTML = [...Array(data.length)].map((_, i) => i).map((i) => `${data[i].name} LV.${data[i].lv}`).join('<br>\n');
 document.getElementById('result').innerHTML = result.map((i) => `${data[i].name} LV.${data[i].lv}`).join('<br>\n');
 
-</script>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[JavaScript でサクッと比較してみる。 数値を比較して同じ以上なら+1点で3点以上なら入れ替えとなるようにした。]]></summary></entry><entry><title type="html">ドラゴンメイドを映像化しなかったのは許さんぞKONAMI</title><link href="https://makietan.github.io/otaku/2024/02/04/report.html" rel="alternate" type="text/html" title="ドラゴンメイドを映像化しなかったのは許さんぞKONAMI" /><published>2024-02-04T00:00:00+09:00</published><updated>2024-02-04T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2024/02/04/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2024/02/04/report.html"><![CDATA[<p>何もわかっちゃいないんだあんたたちはー！！</p>
-
-<p>メルフィーズからのアーゼウスのように、</p>
-
-<p>ドラゴンメイドラドリーからのエルドリッチへの画面遷移を期待していたのにガッカリだよ。</p>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/HU8hRb4TCZo?si=Cyg8lti2G4xTcNvm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
-
-<p>本当にガッカリだよ！</p>]]></content><author><name>makietan</name></author><category term="otaku" /><summary type="html"><![CDATA[何もわかっちゃいないんだあんたたちはー！！]]></summary></entry><entry><title type="html">酸っぱいフルーツを食ってる人</title><link href="https://makietan.github.io/joke/2024/02/03/report.html" rel="alternate" type="text/html" title="酸っぱいフルーツを食ってる人" /><published>2024-02-03T00:00:00+09:00</published><updated>2024-02-03T00:00:00+09:00</updated><id>https://makietan.github.io/joke/2024/02/03/report</id><content type="html" xml:base="https://makietan.github.io/joke/2024/02/03/report.html"><![CDATA[<p>A「うわーこのグレープフルーツめっちゃ酸っぱい」</p>
-
-<p>A「あーすっぺ、あーすっぺ」</p>
-
-<p>A「アスペ！アスペ！」</p>
-
-<h2 id="雑記">雑記</h2>
-
-<p>人を病気や症状でいじるのは良くないですが、
-グレープフルーツを食べてるとふと思いついてしまったのでここに書いて
-頭の中からさっぱり消そうと思います。</p>
-
-<p>（逆にしとけ）</p>]]></content><author><name>makietan</name></author><category term="joke" /><summary type="html"><![CDATA[A「うわーこのグレープフルーツめっちゃ酸っぱい」]]></summary></entry><entry><title type="html">アーバレストの特殊スキルはどれを選んだらいいのかをチェックする</title><link href="https://makietan.github.io/game/srwdd/2024/02/02/report.html" rel="alternate" type="text/html" title="アーバレストの特殊スキルはどれを選んだらいいのかをチェックする" /><published>2024-02-02T00:00:00+09:00</published><updated>2024-02-02T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2024/02/02/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2024/02/02/report.html"><![CDATA[<p>JavaScript でサクッと比較してみる。
-数値を比較して同じ以上なら+1点で3点以上なら入れ替えとなるようにした。</p>
-
-<h2 id="条件">条件</h2>
-
-<ul>
-  <li>気力: 100</li>
-  <li>HP: 100%</li>
-</ul>
-
-<h2 id="特殊スキル一覧">特殊スキル一覧</h2>
-
-<div id="list"></div>
-
-<h2 id="上位10個">上位10個</h2>
-
-<div id="result"></div>
-
-<script type="text/javascript">
-let data = [
-    {
-        name: "ウルズ7", 
-        lv: 20, 
-        per_atk: 0, per_def: 0, per_aim: 5, per_mot: 5,
-        atk: 1080, def: 930, aim: 84, mot: 105,
-        per_dmg: 12
-    },
-    { 
-        name: "ゲリラ戦法", 
-        lv: 20, 
-        per_atk: 13, per_def: 0, per_aim: 0, per_mot: 0, 
-        atk: 1080, def: 930, aim: 84, mot: 105
-    },
-    { 
-        name: "集中力（宗介）", 
-        lv: 18, 
-        per_atk: 0, per_def: 0, per_aim: 0, per_mot: 10.4, 
-        atk: 1080, def: 698, aim: 63, mot: 105
-    },
-    { 
-        name: "チームワーク（ミスリル）", 
-        lv: 20, 
-        per_atk: 5, per_def: 0, per_aim: 0, per_mot: 0,
-        atk: 1080, def: 930, aim: 84, mot: 105
-    },
-    { 
-        name: "闘争心（宗介）", 
-        lv: 9, 
-        per_atk: 0, per_def: 0, per_aim: 0, per_mot: 0,
-        atk: 540, def: 233, aim: 42, mot: 53
-    },
-    { 
-        name: "覚悟（宗介）", 
-        lv: 9, 
-        per_atk: 4, per_def: 0, per_aim: 0, per_mot: 4,
-        atk: 540, def: 233, aim: 42, mot: 53
-    },
-    { 
-        name: "[X]SRT", 
-        lv: 20, 
-        per_atk: 12.5, per_def: 0, per_aim: 0, per_mot: 12.5,
-        atk: 1080, def: 930, aim: 84, mot: 105
-    },
-    { 
-        name: "攻撃力アップ（大）", 
-        lv: 20, 
-        per_atk: 15, per_def: 0, per_aim: 0, per_mot: 0,
-        atk: 540, def: 465, aim: 42, mot: 53
-    },
-    { 
-        name: "運動性アップ（大）", 
-        lv: 20, 
-        per_atk: 0, per_def: 0, per_aim: 0, per_mot: 15,
-        atk: 540, def: 465, aim: 42, mot: 53
-    },
-    { 
-        name: "攻撃力・防御力アップ（大）", 
-        lv: 2, 
-        per_atk: 2, per_def: 2, per_aim: 0, per_mot: 0,
-        atk: 108, def: 0, aim: 0, mot: 0
-    },
-    { 
-        name: "攻撃力・照準値アップ（大）", 
-        lv: 20, 
-        per_atk: 10, per_def: 0, per_aim: 10, per_mot: 0, 
-        atk: 540, def: 465, aim: 42, mot: 53
-    },
-    { 
-        name: "攻撃力・運動性アップ（大）", 
-        lv: 20, 
-        per_atk: 10, per_def: 0, per_aim: 0, per_mot: 10, 
-        atk: 540, def: 465, aim: 42, mot: 53
-    },
-    { 
-        name: "防御力・照準値アップ（大）", 
-        lv: 20, 
-        per_atk: 0, per_def: 10, per_aim: 10, per_mot: 0, 
-        atk: 540, def: 465, aim: 42, mot: 53
-    },
-    { 
-        name: "防御力・運動性アップ（大）", 
-        lv: 2, 
-        per_atk: 0, per_def: 2, per_aim: 0, per_mot: 2, 
-        atk: 0, def: 93, aim: 0, mot: 0
-    },
-    { 
-        name: "照準値・運動性アップ（大）", 
-        lv: 2, 
-        per_atk: 0, per_def: 0, per_aim: 2, per_mot: 2, 
-        atk: 0, def: 0, aim: 9, mot: 0
-    },
-    { 
-        name: "攻撃力アップ・気力＋（アクション）（大）", 
-        lv: 20, 
-        per_atk: 10, per_def: 0, per_aim: 0, per_mot: 0, 
-        atk: 540, def: 465, aim: 42, mot: 53
-    },
-    { 
-        name: "照準値アップ・気力＋（命中）（大）", 
-        lv: 6, 
-        per_atk: 0, per_def: 0, per_aim: 4, per_mot: 0, 
-        atk: 108, def: 93, aim: 9, mot: 11
-    },
-    { 
-        name: "運動性アップ・気力＋（回避）（大）", 
-        lv: 2, 
-        per_atk: 0, per_def: 0, per_aim: 0, per_mot: 2, 
-        atk: 0, def: 0, aim: 0, mot: 11
-    },
-    { 
-        name: "防御力ダウン（大）", 
-        lv: 13, 
-        per_atk: 0, per_def: 0, per_aim: 0, per_mot: 0,
-        atk: 378, def: 326, aim: 17, mot: 21    
-    },
-    { 
-        name: "照準値ダウン（大）", 
-        lv: 4, 
-        per_atk: 0, per_def: 0, per_aim: 0, per_mot: 0,
-        atk: 108, def: 93, aim: 0, mot: 11
-    }
-];
-
-let result = [];
-for (let i = 0; i < 10; i++) {
-  let max = {
-    i: -1,
-    atk: 0,
-    def: 0,
-    aim: 0,
-    mot: 0
-  };
-  for (let j = 0; j < data.length; j++) {
-    if (result.includes(j)) {
-        continue;
-    }
-    let atk = (result.reduce((sum, k) => sum + data[k].atk, 0) + data[j].atk) * 
-              (result.reduce((sum, k) => sum + data[k].per_atk, 0) + data[j].per_atk + 100) / 100;
-    let def = (result.reduce((sum, k) => sum + data[k].def, 0) + data[j].def) * 
-              (result.reduce((sum, k) => sum + data[k].per_def, 0) + data[j].per_def + 100) / 100;
-    let aim = (result.reduce((sum, k) => sum + data[k].aim, 0) + data[j].aim) * 
-              (result.reduce((sum, k) => sum + data[k].per_aim, 0) + data[j].per_aim + 100) / 100;
-    let mot = (result.reduce((sum, k) => sum + data[k].mot, 0) + data[j].mot) * 
-              (result.reduce((sum, k) => sum + data[k].per_mot, 0) + data[j].per_mot + 100) / 100;
-    let cnt = 0;
-    if (max.atk <= atk) {
-        cnt++;
-    }
-    if (max.def <= def) {
-        cnt++;
-    }
-    if (max.aim <= aim) {
-        cnt++;
-    }
-    if (max.mot <= mot) {
-        cnt++;
-    }
-    if (cnt > 2) {
-        max.i = j;
-        max.atk = atk;
-        max.def = def;
-        max.aim = aim;
-        max.mot = mot;
-    }
-  }
-  result.push(max.i);
-}
-document.getElementById('list').innerHTML = [...Array(data.length)].map((_, i) => i).map((i) => `${data[i].name} LV.${data[i].lv}`).join('<br>\n');
-document.getElementById('result').innerHTML = result.map((i) => `${data[i].name} LV.${data[i].lv}`).join('<br>\n');
-
-</script>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[JavaScript でサクッと比較してみる。 数値を比較して同じ以上なら+1点で3点以上なら入れ替えとなるようにした。]]></summary></entry><entry><title type="html">蜃気楼の雑な考察</title><link href="https://makietan.github.io/game/srwdd/2024/02/01/report.html" rel="alternate" type="text/html" title="蜃気楼の雑な考察" /><published>2024-02-01T00:00:00+09:00</published><updated>2024-02-01T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2024/02/01/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2024/02/01/report.html"><![CDATA[<p>HP	攻撃力	防御力	照準値	運動性	移動	スピード
-22000	2980	3070	310	259	3	625</p>
-
-<h2 id="移動">移動</h2>
-
-<p>3</p>
-
-<h2 id="スピード">スピード</h2>
-
-<p>625</p>
-
-<h2 id="拡散構造相転移砲map-ssr">拡散構造相転移砲（MAP） SSR+</h2>
-<ul>
-  <li>ステータス
-    <ul>
-      <li>HP 2925</li>
-      <li>攻撃力 3210</li>
-      <li>防御力 2730</li>
-      <li>照準値 261</li>
-      <li>運動性 204</li>
-    </ul>
-  </li>
-  <li>威力255%</li>
-  <li>アクション 2</li>
-  <li>回数 5
-    <h3 id="main-高度演算処理機構">MAIN [高度演算処理機構]</h3>
-  </li>
-  <li>特殊属性の全ての攻撃のブレイクゲージ減少量+110%
-    <h4 id="バランスタイプ">バランスタイプ</h4>
-  </li>
-  <li>移動力 +1</li>
-  <li>攻撃力 +16%</li>
-  <li>防御力 +16%</li>
-  <li>照準値 +16%
-    <h4 id="蜃気楼装備時">蜃気楼装備時</h4>
-  </li>
-  <li>1度だけステージ開始時「堅固」
-    <h5 id="気力が10上昇する毎">気力が10上昇する毎</h5>
-  </li>
-  <li>攻撃力 +5%</li>
-  <li>防御力 +5%</li>
-  <li>照準値 +5%
-    <h4 id="拡散構造相転移砲map命中時">拡散構造相転移砲（MAP）命中時</h4>
-  </li>
-  <li>敵ユニットの気力-25</li>
-  <li>敵ユニットの攻撃力-15%（敵ユニットが2アクションの間）
-    <h3 id="必殺技スロット時-高度演算処理機構">必殺技スロット時 [高度演算処理機構]</h3>
-  </li>
-  <li>移動力 +1</li>
-  <li>1度だけステージ開始時「堅固」
-    <h4 id="気力が10上昇する毎-1">気力が10上昇する毎</h4>
-  </li>
-  <li>防御力 +2%</li>
-  <li>照準値 +2%
-    <h4 id="拡散構造相転移砲map命中時-1">拡散構造相転移砲（MAP）命中時</h4>
-  </li>
-  <li>敵ユニットの気力-25</li>
-  <li>敵ユニットの攻撃力-10%（敵ユニットが2アクションの間）</li>
-</ul>
-
-<h2 id="拡散構造相転移砲-ssr">拡散構造相転移砲 SSR+</h2>
-<ul>
-  <li>ステータス
-    <ul>
-      <li>HP 2880</li>
-      <li>攻撃力 3180</li>
-      <li>防御力 2730</li>
-      <li>照準値 264</li>
-      <li>運動性 207</li>
-    </ul>
-  </li>
-  <li>威力 265%</li>
-  <li>アクション 2</li>
-  <li>回数 4
-    <h3 id="main-情報解析蜃気楼">MAIN [情報解析（蜃気楼）]</h3>
-    <h4 id="バランスタイプ-1">バランスタイプ</h4>
-  </li>
-  <li>攻撃力 +16%</li>
-  <li>防御力 +16%</li>
-  <li>照準値 +14.5%
-    <h4 id="蜃気楼装備時-1">蜃気楼装備時</h4>
-  </li>
-  <li>特殊属性の全ての攻撃のブレイクゲージ減少量+110%</li>
-  <li>周囲2〜5マス内の敵ユニットの防御力・運動性を-19%</li>
-  <li>MAP兵器以外の最大射程+1
-    <h5 id="戦闘回数">戦闘回数</h5>
-  </li>
-  <li>攻撃力 +6% (最大30%)</li>
-  <li>防御力 +6% (最大30%)</li>
-  <li>照準値 +6% (最大30%)
-    <h3 id="必殺技スロット時-情報解析蜃気楼">必殺技スロット時 [情報解析（蜃気楼）]</h3>
-  </li>
-  <li>MAP兵器以外の最大射程+1</li>
-  <li>周囲2〜5マス内の敵ユニットの防御力・運動性を-19%</li>
-  <li>拡散構造相転移砲のブレイクゲージ減少量+40%</li>
-</ul>
-
-<h2 id="ハドロンショット-ssr">ハドロンショット SSR+</h2>
-<ul>
-  <li>ステータス
-    <ul>
-      <li>HP 2385</li>
-      <li>攻撃力 3030</li>
-      <li>防御力 2550</li>
-      <li>照準値 225</li>
-      <li>運動性 222</li>
-    </ul>
-  </li>
-  <li>威力 215%</li>
-  <li>命中 +40%</li>
-  <li>射程 1-4</li>
-  <li>アクション 2</li>
-  <li>回数 4
-    <h3 id="main-自動機体制御蜃気楼">MAIN [自動機体制御（蜃気楼）]</h3>
-  </li>
-  <li>攻撃力 +21%</li>
-  <li>照準値 +21%
-    <h4 id="命中時">命中時</h4>
-  </li>
-  <li>防御力 +4% (最大20%)
-    <h4 id="戦闘回数-1">戦闘回数</h4>
-  </li>
-  <li>攻撃力 +3.4% (最大17%)</li>
-  <li>防御力 +3.4% (最大17%)
-    <h3 id="必殺技スロット時-自動機体制御蜃気楼">必殺技スロット時 [自動機体制御（蜃気楼）]</h3>
-  </li>
-  <li>攻撃力 +11%</li>
-  <li>照準値 +11%
-    <h4 id="戦闘回数-2">戦闘回数</h4>
-  </li>
-  <li>攻撃力 +1.6% (最大8%)</li>
-  <li>防御力 +1.6% (最大8%)</li>
-</ul>
-
-<h2 id="スラッシュハーケン蜃気楼-ssr">スラッシュハーケン（蜃気楼） SSR+</h2>
-<ul>
-  <li>ステータス
-    <ul>
-      <li>HP 2385</li>
-      <li>攻撃力 3000</li>
-      <li>防御力 2580</li>
-      <li>照準値 222</li>
-      <li>運動性 225</li>
-    </ul>
-  </li>
-  <li>威力 215%</li>
-  <li>アクション 2</li>
-  <li>回数 4
-    <h3 id="main-ブレイクアタックⅳ">MAIN [ブレイクアタックⅣ]</h3>
-  </li>
-  <li>攻撃力 +10.5%</li>
-  <li>防御力 +10.5%</li>
-  <li>照準値 +10.5%</li>
-  <li>運動性 +10.5%
-    <h4 id="ブレイク状態の敵">ブレイク状態の敵</h4>
-  </li>
-  <li>攻撃力 +30%
-    <h3 id="必殺技スロット時-ブレイクアタックⅳ">必殺技スロット時 [ブレイクアタックⅣ]</h3>
-  </li>
-  <li>攻撃力 +6.5%</li>
-  <li>防御力 +6.5%</li>
-  <li>照準値 +6.5%</li>
-  <li>運動性 +6.5%
-    <h4 id="ブレイク状態の敵-1">ブレイク状態の敵</h4>
-  </li>
-  <li>攻撃力 +15%</li>
-</ul>
-
-<h2 id="ハドロンショット連射-ssr">ハドロンショット連射 SSR+</h2>
-<ul>
-  <li>ステータス
-    <ul>
-      <li>HP 2520</li>
-      <li>攻撃力 2910</li>
-      <li>防御力 2580</li>
-      <li>照準値 225</li>
-      <li>運動性 222</li>
-    </ul>
-  </li>
-  <li>威力 220%</li>
-  <li>アクション 3</li>
-  <li>回数 4
-    <h3 id="main-狙い撃ちⅳ">MAIN [狙い撃ちⅣ]</h3>
-  </li>
-  <li>攻撃力 +10.5%</li>
-  <li>防御力 +10.5%</li>
-  <li>照準値 +10.5%</li>
-  <li>運動性 +10.5%
-    <h4 id="気力120以上">気力120以上</h4>
-  </li>
-  <li>照準値 +25%
-    <h3 id="必殺技スロット時-狙い撃ちⅳ">必殺技スロット時 [狙い撃ちⅣ]</h3>
-  </li>
-  <li>攻撃力 +6.5%</li>
-  <li>防御力 +6.5%</li>
-  <li>照準値 +6.5%</li>
-  <li>運動性 +6.5%
-    <h4 id="気力120以上-1">気力120以上</h4>
-  </li>
-  <li>照準値 +13%</li>
-</ul>
-
-<h2 id="mainのグラフ">MAINのグラフ</h2>
-
-<h3 id="hp">HP</h3>
-
-<table>
-  <thead>
-    <tr>
-      <th style="text-align: center">順位</th>
-      <th style="text-align: left">パーツ</th>
-      <th style="text-align: center">ランク</th>
-      <th style="text-align: center">レベル</th>
-      <th style="text-align: center">数値</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: center">1</td>
-      <td style="text-align: left">拡散構造相転移砲（MAP）　　</td>
-      <td style="text-align: center">SSR+</td>
-      <td style="text-align: center">110</td>
-      <td style="text-align: center">24925</td>
-    </tr>
-    <tr>
-      <td style="text-align: center">2</td>
-      <td style="text-align: left">拡散構造相転移砲　　　　　　</td>
-      <td style="text-align: center">SSR+</td>
-      <td style="text-align: center">110</td>
-      <td style="text-align: center">24880</td>
-    </tr>
-    <tr>
-      <td style="text-align: center">3</td>
-      <td style="text-align: left">ハドロンショット　　　　　　</td>
-      <td style="text-align: center">SSR+</td>
-      <td style="text-align: center">110</td>
-      <td style="text-align: center">24385</td>
-    </tr>
-    <tr>
-      <td style="text-align: center">3</td>
-      <td style="text-align: left">スラッシュハーケン（蜃気楼）</td>
-      <td style="text-align: center">SSR+</td>
-      <td style="text-align: center">110</td>
-      <td style="text-align: center">24385</td>
-    </tr>
-    <tr>
-      <td style="text-align: center">3</td>
-      <td style="text-align: left">ハドロンショット連射　</td>
-      <td style="text-align: center">SSR+</td>
-      <td style="text-align: center">110</td>
-      <td style="text-align: center">24385</td>
-    </tr>
-  </tbody>
-</table>
-
-<h3 id="攻撃力">攻撃力</h3>
-
-<div id="atk"></div>
-
-<h3 id="防御力">防御力</h3>
-
-<div id="def"></div>
-
-<h3 id="照準値">照準値</h3>
-
-<div id="aim"></div>
-
-<h3 id="運動性">運動性</h3>
-
-<div id="mot"></div>
-
-<!-- Google Charts -->
-<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-
-<script type="text/javascript">
-google.charts.load("current", { "packages": ["corechart"] });
-const ANNOTATION = { type: 'string', role: 'annotation' };
-const ANNOTATION_NUM = { type: 'number', role: 'annotation' };
-
-// 攻撃力
-function atk() {
-  google.charts.setOnLoadCallback(() => {
-    var data = google.visualization.arrayToDataTable([
-        ['パーツ', '基礎攻撃力', 'MAINスキル(気力100)', 'MAINスキル(気力150)', 'MAINスキル(戦闘回数)', 'MAINスキル(命中時)', { role: 'annotation' }, 'MAINスキル（敵ﾌﾞﾚｲｸ状態）', 'MAINスキル(気力・一度)', 'MAINスキル(HP減少)', { role: 'annotation' } ],
-        ['拡散構造相転移砲（MAP）',    (2980 + 3210), (2980 + 3210) * 0.16, (2980 + 3210) * 0.05 * 5,                    0, 0,                null,                  0, 0, 0, null],
-        ['拡散構造相転移砲',　　　    　(2980 + 3180), (2980 + 3180) * 0.16,                        0,  (2980 + 3180) * 0.3, 0, '周囲2-5の敵の防御力',                   0, 0, 0, null],
-        ['ハドロンショット',　　　　    (2980 + 3030), (2980 + 3030) * 0.21,                        0, (2980 + 3030) * 0.17, 0,               null,                   0, 0, 0, null],
-        ['スラッシュハーケン（蜃気楼）', (2980 + 3000), (2980 + 3000) * 0.105,                       0,                    0, 0,               null, (3070 + 2580) * 0.3, 0, 0, null],
-        ['ハドロンショット連射',　      (2980 + 2910), (2980 + 3000) * 0.105,                       0,                    0, 0,               null,                   0, 0, 0, null]
-    ]);
-    var options = {
-        title: "攻撃力",
-        width: "100%",
-        height: 600,
-     		legend: { position:'right' },
-        vAxis: { minValue: 0 },
-     		bar:{groupWidth:"75%"},
-        isStacked: true,
-    };
-    var chart = new google.visualization.ColumnChart(document.getElementById('atk'));
-    chart.draw(data, options);
-  });
-}
-atk();
-
-// 防御力
-function def() {
-  google.charts.setOnLoadCallback(() => {
-    var data = google.visualization.arrayToDataTable([
-        ['パーツ', '基礎防御力', 'MAINスキル(気力100)', 'MAINスキル(気力150)', 'MAINスキル(戦闘回数)', 'MAINスキル(命中時)', { role: 'annotation' }, 'MAINスキル（敵ﾌﾞﾚｲｸ状態）', 'MAINスキル(気力・一度)', 'MAINスキル(HP減少)', { role: 'annotation' } ],
-        ['拡散構造相転移砲（MAP）',    (3070 + 2730),  (3070 + 2730) * 0.16, (3070 + 2730) * (0.05 * 5),                   0,                   0, '敵ユニットの攻撃力-15%', 0, 0, 0, 'ステージ開始時「堅固」'],
-        ['拡散構造相転移砲',　　　    　(3070 + 2730),  (3070 + 2730) * 0.16,                         0,  (3070 + 2730) * 0.3,                   0, null, 0, 0, 0, null],
-        ['ハドロンショット',　　　　    (3070 + 2550),                     0,                         0, (3070 + 2550) * 0.17, (3070 + 2550) * 0.2, null, 0, 0, 0, null],
-        ['スラッシュハーケン（蜃気楼）', (3070 + 2580), (3070 + 2580) * 0.105,                         0,                    0,                   0, null, 0, 0, 0, null],
-        ['ハドロンショット連射',　      (3070 + 2580), (3070 + 2580) * 0.105,                         0,                    0,                   0, null, 0, 0, 0, null]
-    ]);
-    var options = {
-        title: "防御力",
-        width: "100%",
-        height: 600,
-     		legend: { position:'right' },
-        vAxis: { minValue: 0 },
-     		bar:{groupWidth:"75%"},
-        isStacked: true,
-    };
-    var chart = new google.visualization.ColumnChart(document.getElementById('def'));
-    chart.draw(data, options);
-  });
-}
-def();
-
-// 照準値
-function aim() {
-  google.charts.setOnLoadCallback(() => {
-    var data = google.visualization.arrayToDataTable([
-        ['パーツ', '基礎照準値', 'MAINスキル(気力100)', 'MAINスキル(気力150)', 'MAINスキル(戦闘回数)', 'MAINスキル(命中時)', { role: 'annotation' }, 'MAINスキル（敵ﾌﾞﾚｲｸ状態）', 'MAINスキル(気力・一度)', 'MAINスキル(HP減少)', { role: 'annotation' } ],
-        ['拡散構造相転移砲（MAP）',     (310 + 261),  (310 + 261) * 0.16, (310 + 261) * 0.05 * 5,                 0, 0,                null, 0, 0, 0, null],
-        ['拡散構造相転移砲',　　　      (310 + 264), (310 + 264) * 0.145,                      0, (310 + 264) * 0.3, 0, '周囲2〜5敵運動性-19%', 0, 0, 0, null],
-        ['ハドロンショット',　　　　    (310 + 225),  (310 + 225) * 0.21,                      0,                 0, 0,                 null, 0, 0, 0, null],
-        ['スラッシュハーケン（蜃気楼）', (310 + 222), (310 + 222) * 0.105,                      0,                 0, 0,                 null, 0, 0,0, null],
-        ['ハドロンショット連射',　      (310 + 225), (310 + 225) * 0.105,    (310 + 225) * 0.25,                  0, 0,                null, 0, 0, 0, null]
-    ]);
-    var options = {
-        title: "照準値",
-        width: "100%",
-        height: 600,
-     		legend: { position:'right' },
-        vAxis: { minValue: 0 },
-     		bar:{groupWidth:"75%"},
-        isStacked: true,
-    };
-    var chart = new google.visualization.ColumnChart(document.getElementById('aim'));
-    chart.draw(data, options);
-  });
-}
-aim();
-
-// 運動性
-function mot() {
-  google.charts.setOnLoadCallback(() => {
-    var data = google.visualization.arrayToDataTable([
-        ['パーツ', '基礎運動性', 'MAINスキル(気力100)', 'MAINスキル(気力150)', 'MAINスキル(戦闘回数)', 'MAINスキル(命中時)', { role: 'annotation' }, 'MAINスキル（敵ﾌﾞﾚｲｸ状態）', 'MAINスキル(気力・一度)', 'MAINスキル(HP減少)', { role: 'annotation' } ],
-        ['拡散構造相転移砲（MAP）',    (259 + 204),                   0, 0, 0, 0, null, 0, 0, 0, null],
-        ['拡散構造相転移砲',　　　    　(259 + 207),                   0, 0, 0, 0, null, 0, 0, 0, null],
-        ['ハドロンショット',　　　　    (259 + 222),                   0, 0, 0, 0, null, 0, 0, 0, null],
-        ['スラッシュハーケン（蜃気楼）', (259 + 225), (259 + 225) * 0.105, 0, 0, 0, null, 0, 0, 0, null],
-        ['ハドロンショット連射',　      (259 + 222), (259 + 222) * 0.105, 0, 0, 0, null, 0, 0, 0, null]
-    ]);
-    var options = {
-        title: "運動性",
-        width: "100%",
-        height: 600,
-     		legend: { position:'right' },
-        vAxis: { minValue: 0 },
-     		bar:{groupWidth:"75%"},
-        isStacked: true,
-    };
-    var chart = new google.visualization.ColumnChart(document.getElementById('mot'));
-    chart.draw(data, options);
-  });
-}
-mot();
-</script>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[HP 攻撃力 防御力 照準値 運動性 移動 スピード 22000 2980 3070 310 259 3 625]]></summary></entry><entry><title type="html">リクルートカードで貯まったポイントの使い道</title><link href="https://makietan.github.io/money/2024/01/31/report.html" rel="alternate" type="text/html" title="リクルートカードで貯まったポイントの使い道" /><published>2024-01-31T00:00:00+09:00</published><updated>2024-01-31T00:00:00+09:00</updated><id>https://makietan.github.io/money/2024/01/31/report</id><content type="html" xml:base="https://makietan.github.io/money/2024/01/31/report.html"><![CDATA[<p>Pontaポイントの消費方法とdポイントの消費方法を紹介する。</p>
-
-<p>基本的にはQRコード決済で使うようにしてポイントのキャッシュバックを狙おう。</p>
-
-<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">個人的なリクルートカードで貯まったリクルートポイントの消費方法<br />他にもローカライズされた消費方法はあるものの汎用性なさすぎるため割愛 <a href="https://t.co/NlG4YU1kBG">pic.twitter.com/NlG4YU1kBG</a></p>&mdash; まきえたん🥦☘️ (@makietanX) <a href="https://twitter.com/makietanX/status/1752262854148034601?ref_src=twsrc%5Etfw">January 30, 2024</a></blockquote>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>]]></content><author><name>makietan</name></author><category term="money" /><summary type="html"><![CDATA[Pontaポイントの消費方法とdポイントの消費方法を紹介する。]]></summary></entry></feed>
+</script>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[JavaScript でサクッと比較してみる。 数値を比較して同じ以上なら+1点で3点以上なら入れ替えとなるようにした。]]></summary></entry></feed>
