@@ -1,4 +1,23 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2024-02-22T12:15:32+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">【スパロボDD】特別交換所 2023</title><link href="https://makietan.github.io/game/srwdd/2024/02/21/report.html" rel="alternate" type="text/html" title="【スパロボDD】特別交換所 2023" /><published>2024-02-21T00:00:00+09:00</published><updated>2024-02-21T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2024/02/21/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2024/02/21/report.html"><![CDATA[<p><button id="remove_checked" onclick="removeChecked();">所持済みを非表示</button></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2024-02-22T14:25:29+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">コミックウォーカーが嫌いな名前に変わってた</title><link href="https://makietan.github.io/otaku/2024/02/22/report.html" rel="alternate" type="text/html" title="コミックウォーカーが嫌いな名前に変わってた" /><published>2024-02-22T00:00:00+09:00</published><updated>2024-02-22T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2024/02/22/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2024/02/22/report.html"><![CDATA[<p>コミックウォーカーがリニューアルしていた。</p>
+
+<p>事前に告知はされていたものの快く思っていなかったのでショックだった。</p>
+
+<p>基本的に角川ってクズ商売なので、既存の漫画がごそっと消えた。</p>
+
+<p>ガルパンデモニウムとかね。</p>
+
+<p>リニューアルしてもRSSとか設置せず、どうにか自力で確認しなければいけない。</p>
+
+<p>読ませる気あんのかよ。</p>
+
+<p>カドカワストアとかいうKyash紐づけてたら決済月じゃないタイミングでオーソリかけて
+強制キャンセルしてきたあの角川の冠がついてしまった。</p>
+
+<p>そんなヘイトがたくさん詰まった名前カドコミにね。</p>
+
+<p>気持ち悪さに耐えながらなんとか利用していかなければならない。</p>
+
+<p>苦行になりそうだ。</p>]]></content><author><name>makietan</name></author><category term="otaku" /><summary type="html"><![CDATA[コミックウォーカーがリニューアルしていた。]]></summary></entry><entry><title type="html">【スパロボDD】特別交換所 2023</title><link href="https://makietan.github.io/game/srwdd/2024/02/21/report.html" rel="alternate" type="text/html" title="【スパロボDD】特別交換所 2023" /><published>2024-02-21T00:00:00+09:00</published><updated>2024-02-21T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2024/02/21/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2024/02/21/report.html"><![CDATA[<p><button id="remove_checked" onclick="removeChecked();">所持済みを非表示</button></p>
 
 <div id="list">
 <label for="オウル・ハーガー／ディーダリオン"><input type="checkbox" id="オウル・ハーガー／ディーダリオン" />オウル・ハーガー／ディーダリオン</label><br />
@@ -151,7 +170,19 @@ function removeChecked() {
         label.nextElementSibling.style.display = "none";
       });
 }
-</script>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[所持済みを非表示]]></summary></entry><entry><title type="html">戦車道大作戦の公式戦の編成メモ</title><link href="https://makietan.github.io/game/gup/2024/02/16/report.html" rel="alternate" type="text/html" title="戦車道大作戦の公式戦の編成メモ" /><published>2024-02-16T00:00:00+09:00</published><updated>2024-02-16T00:00:00+09:00</updated><id>https://makietan.github.io/game/gup/2024/02/16/report</id><content type="html" xml:base="https://makietan.github.io/game/gup/2024/02/16/report.html"><![CDATA[<h2 id="隊長スキル">隊長スキル</h2>
+</script>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[所持済みを非表示]]></summary></entry><entry><title type="html">睡眠サイクルが完全に終わっている</title><link href="https://makietan.github.io/health/2024/02/20/report.html" rel="alternate" type="text/html" title="睡眠サイクルが完全に終わっている" /><published>2024-02-20T00:00:00+09:00</published><updated>2024-02-20T00:00:00+09:00</updated><id>https://makietan.github.io/health/2024/02/20/report</id><content type="html" xml:base="https://makietan.github.io/health/2024/02/20/report.html"><![CDATA[<p>なんかフラッシュモブ並の報告を軽くメッセンジャーで受けてしまってしんどい。</p>
+
+<p>そんなことはどうでもよくて最近睡眠サイクルが完全に昼夜逆転して仕事にならんのでどうにかしたいと思う。</p>
+
+<p>ちょうど上記のダメージが大きいのですぐ寝て気分をリフレッシュしたい。</p>
+
+<p>結構引きずるだろうな…。</p>
+
+<p>まぁ年齢も年齢だしそりゃそうだよなって感じでどうにか静まってほしいものだ。</p>
+
+<p>なんというか負けた気分が強くてダメなんだよ。</p>
+
+<p>さて、どうにか勝ちたいなぁ何かしらで。</p>]]></content><author><name>makietan</name></author><category term="health" /><summary type="html"><![CDATA[なんかフラッシュモブ並の報告を軽くメッセンジャーで受けてしまってしんどい。]]></summary></entry><entry><title type="html">戦車道大作戦の公式戦の編成メモ</title><link href="https://makietan.github.io/game/gup/2024/02/16/report.html" rel="alternate" type="text/html" title="戦車道大作戦の公式戦の編成メモ" /><published>2024-02-16T00:00:00+09:00</published><updated>2024-02-16T00:00:00+09:00</updated><id>https://makietan.github.io/game/gup/2024/02/16/report</id><content type="html" xml:base="https://makietan.github.io/game/gup/2024/02/16/report.html"><![CDATA[<h2 id="隊長スキル">隊長スキル</h2>
 
 <ul>
   <li>アンチョビ[マリンフェス]
@@ -701,289 +732,4 @@ function removeChecked() {
 <p><code class="language-plaintext highlighter-rouge">露文 CSS</code> じゃなく <code class="language-plaintext highlighter-rouge">Tex CSS</code> って検索するとそれっぽいものが出てくるけども…。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[論文のようなCSSってあるのかな？]]></summary></entry><entry><title type="html">すみぺのインスタライブがあった</title><link href="https://makietan.github.io/otaku/2024/02/07/report.html" rel="alternate" type="text/html" title="すみぺのインスタライブがあった" /><published>2024-02-07T00:00:00+09:00</published><updated>2024-02-07T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2024/02/07/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2024/02/07/report.html"><![CDATA[<p>2月11日の『同志暗躍秘録〜野心のいちご味〜』に向けて高まりますわ。</p>
 
 <blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr"><a href="https://t.co/IVJb5RA2NP">https://t.co/IVJb5RA2NP</a><br /><br />あしたはディア・パンタレイの発売日〜！インスタライブもしますぞい〜！（すみぺ）</p>&mdash; 上坂すみれ_official (@uesaka_official) <a href="https://twitter.com/uesaka_official/status/1754806277551870166?ref_src=twsrc%5Etfw">February 6, 2024</a></blockquote>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>]]></content><author><name>makietan</name></author><category term="otaku" /><summary type="html"><![CDATA[2月11日の『同志暗躍秘録〜野心のいちご味〜』に向けて高まりますわ。]]></summary></entry><entry><title type="html">ソウルゲインの特殊スキルはどれを選んだらいいのかをチェックする</title><link href="https://makietan.github.io/game/srwdd/2024/02/06/report.html" rel="alternate" type="text/html" title="ソウルゲインの特殊スキルはどれを選んだらいいのかをチェックする" /><published>2024-02-06T00:00:00+09:00</published><updated>2024-02-06T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2024/02/06/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2024/02/06/report.html"><![CDATA[<p>JavaScript でサクッと比較してみる。
-数値を比較して同じ以上なら+1点で3点以上なら入れ替えとなるようにした。</p>
-
-<h2 id="条件">条件</h2>
-
-<ul>
-  <li>気力: 100</li>
-  <li>HP: 100%</li>
-</ul>
-
-<h2 id="特殊スキル一覧">特殊スキル一覧</h2>
-
-<div id="list"></div>
-
-<h2 id="上位10個">上位10個</h2>
-
-<div id="result"></div>
-
-<script type="text/javascript">
-let data = [
-    {
-        name: "特殊処理班隊長", 
-        lv: 20, 
-        per_atk: 0, per_def: 13, per_aim: 0, per_mot: 0,
-        atk: 1110, def: 1065, aim: 90, mot: 83,
-        per_dmg: 16
-    },
-    { 
-        name: "アタッカー（アクセル）", 
-        lv: 10, 
-        per_atk: 0, per_def: 0, per_aim: 0, per_mot: 0, 
-        atk: 1110, def: 1065, aim: 90, mot: 83
-    },
-    { 
-        name: "強靭（アクセル）", 
-        lv: 20, 
-        per_atk: 0, per_def: 0, per_aim: 0, per_mot: 0, 
-        atk: 1110, def: 1065, aim: 90, mot: 83,
-        hp: 25000
-    },
-    { 
-        name: "攻撃力アップ", 
-        lv: 12, 
-        per_atk: 6, per_def: 0, per_aim: 0, per_mot: 0,
-        atk: 389, def: 213, aim: 18, mot: 17
-    },
-    { 
-        name: "攻撃力アップ（大）", 
-        lv: 11, 
-        per_atk: 9, per_def: 0, per_aim: 0, per_mot: 0,
-        atk: 222, def: 213, aim: 18, mot: 17
-    },
-    { 
-        name: "防御力アップ", 
-        lv: 12, 
-        per_atk: 0, per_def: 6, per_aim: 0, per_mot: 0,
-        atk: 222, def: 373, aim: 18, mot: 17
-    },
-    { 
-        name: "防御力アップ（大）", 
-        lv: 20, 
-        per_atk: 0, per_def: 15, per_aim: 0, per_mot: 0,
-        atk: 555, def: 533, aim: 45, mot: 42
-    },
-    { 
-        name: "攻撃力・防御力アップ", 
-        lv: 10, 
-        per_atk: 6, per_def: 6, per_aim: 0, per_mot: 0,
-        atk: 222, def: 213, aim: 18, mot: 9
-    },
-    { 
-        name: "照準値・運動性アップ（大）", 
-        lv: 7, 
-        per_atk: 0, per_def: 0, per_aim: 4, per_mot: 4,
-        atk: 111, def: 107, aim: 18, mot: 9
-    },
-    { 
-        name: "攻撃力アップ・気力＋（アクション）（大）", 
-        lv: 16,
-        per_atk: 8, per_def: 0, per_aim: 0, per_mot: 0,
-        atk: 389, def: 373, aim: 32, mot: 29
-    },
-    { 
-        name: "命中率アップ（大）", 
-        lv: 15, 
-        per_atk: 0, per_def: 0, per_aim: 0, per_mot: 2,
-        atk: 389, def: 373, aim: 32, mot: 17,
-        per_hit: 12
-    }
-];
-
-let result = [];
-for (let i = 0; i < 10; i++) {
-  let max = {
-    i: -1,
-    atk: 0,
-    def: 0,
-    aim: 0,
-    mot: 0
-  };
-  for (let j = 0; j < data.length; j++) {
-    if (result.includes(j)) {
-        continue;
-    }
-    let atk = (result.reduce((sum, k) => sum + data[k].atk, 0) + data[j].atk) * 
-              (result.reduce((sum, k) => sum + data[k].per_atk, 0) + data[j].per_atk + 100) / 100;
-    let def = (result.reduce((sum, k) => sum + data[k].def, 0) + data[j].def) * 
-              (result.reduce((sum, k) => sum + data[k].per_def, 0) + data[j].per_def + 100) / 100;
-    let aim = (result.reduce((sum, k) => sum + data[k].aim, 0) + data[j].aim) * 
-              (result.reduce((sum, k) => sum + data[k].per_aim, 0) + data[j].per_aim + 100) / 100;
-    let mot = (result.reduce((sum, k) => sum + data[k].mot, 0) + data[j].mot) * 
-              (result.reduce((sum, k) => sum + data[k].per_mot, 0) + data[j].per_mot + 100) / 100;
-    let cnt = 0;
-    if (max.atk <= atk) {
-        cnt++;
-    }
-    if (max.def <= def) {
-        cnt++;
-    }
-    if (max.aim <= aim) {
-        cnt++;
-    }
-    if (max.mot <= mot) {
-        cnt++;
-    }
-    if (cnt > 2) {
-        max.i = j;
-        max.atk = atk;
-        max.def = def;
-        max.aim = aim;
-        max.mot = mot;
-    }
-  }
-  result.push(max.i);
-}
-document.getElementById('list').innerHTML = [...Array(data.length)].map((_, i) => i).map((i) => `${data[i].name} LV.${data[i].lv}`).join('<br>\n');
-document.getElementById('result').innerHTML = result.map((i) => `${data[i].name} LV.${data[i].lv}`).join('<br>\n');
-
-</script>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[JavaScript でサクッと比較してみる。 数値を比較して同じ以上なら+1点で3点以上なら入れ替えとなるようにした。]]></summary></entry><entry><title type="html">ヴァルヴレイヴⅥの特殊スキルはどれを選んだらいいのかをチェックする</title><link href="https://makietan.github.io/game/srwdd/2024/02/05/report.html" rel="alternate" type="text/html" title="ヴァルヴレイヴⅥの特殊スキルはどれを選んだらいいのかをチェックする" /><published>2024-02-05T00:00:00+09:00</published><updated>2024-02-05T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2024/02/05/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2024/02/05/report.html"><![CDATA[<p>JavaScript でサクッと比較してみる。
-数値を比較して同じ以上なら+1点で3点以上なら入れ替えとなるようにした。</p>
-
-<h2 id="条件">条件</h2>
-
-<ul>
-  <li>気力: 100</li>
-  <li>HP: 100%</li>
-</ul>
-
-<h2 id="特殊スキル一覧">特殊スキル一覧</h2>
-
-<div id="list"></div>
-
-<h2 id="上位10個">上位10個</h2>
-
-<div id="result"></div>
-
-<script type="text/javascript">
-let data = [
-    {
-        name: "カミツキ（アキラ）", 
-        lv: 20, 
-        per_atk: 0, per_def: 0, per_aim: 13, per_mot: 0,
-        atk: 1005, def: 990, aim: 104, mot: 87
-    },
-    { 
-        name: "ハッキングスキル（アキラ）", 
-        lv: 10, 
-        per_atk: 5, per_def: 0, per_aim: 0, per_mot: 0, 
-        atk: 1005, def: 990, aim: 104, mot: 87
-    },
-    { 
-        name: "リトルウィッチ", 
-        lv: 20, 
-        per_atk: 12.5, per_def: 0, per_aim: 12.5, per_mot: 0, 
-        atk: 1005, def: 990, aim: 104, mot: 87
-    },
-    { 
-        name: "攻撃力アップ", 
-        lv: 14, 
-        per_atk: 6, per_def: 0, per_aim: 0, per_mot: 0,
-        atk: 352, def: 347, aim: 37, mot: 18
-    },
-    { 
-        name: "防御力アップ", 
-        lv: 12, 
-        per_atk: 0, per_def: 6, per_aim: 0, per_mot: 0,
-        atk: 201, def: 347, aim: 21, mot: 18
-    },
-    { 
-        name: "防御力アップ（大）", 
-        lv: 10, 
-        per_atk: 0, per_def: 9, per_aim: 0, per_mot: 0,
-        atk: 201, def: 198, aim: 21, mot: 9
-    },
-    { 
-        name: "攻撃力・運動性アップ", 
-        lv: 7, 
-        per_atk: 2, per_def: 0, per_aim: 0, per_mot: 2,
-        atk: 201, def: 99, aim: 11, mot: 9
-    },
-    { 
-        name: "攻撃力・防御力・照準値・運動性アップ", 
-        lv: 11, 
-        per_atk: 1.5, per_def: 1.5, per_aim: 1.5, per_mot: 1.5,
-        atk: 201, def: 198, aim: 21, mot: 18
-    },
-    { 
-        name: "防御力アップ・気力＋（ダメージ）", 
-        lv: 20,
-        per_atk: 0, per_def: 5, per_aim: 0, per_mot: 0,
-        atk: 503, def: 495, aim: 52, mot: 44
-    },
-    { 
-        name: "運動性アップ・気力＋（回避）", 
-        lv: 8, 
-        per_atk: 0, per_def: 0, per_aim: 0, per_mot: 2,
-        atk: 201, def: 99, aim: 11, mot: 18
-    },
-    { 
-        name: "攻撃力ダウン（大）", 
-        lv: 9, 
-        per_atk: 0, per_def: 0, per_aim: 0, per_mot: 0, 
-        atk: 201, def: 198, aim: 21, mot: 9
-    },
-    { 
-        name: "照準値ダウン", 
-        lv: 13, 
-        per_atk: 0, per_def: 0, per_aim: 0, per_mot: 0, 
-        atk: 352, def: 198, aim: 21, mot: 31
-    },
-    { 
-        name: "運動性ダウン", 
-        lv: 4, 
-        per_atk: 0, per_def: 0, per_aim: 0, per_mot: 0, 
-        atk: 101, def: 99, aim: 11, mot: 0
-    }
-];
-
-let result = [];
-for (let i = 0; i < 10; i++) {
-  let max = {
-    i: -1,
-    atk: 0,
-    def: 0,
-    aim: 0,
-    mot: 0
-  };
-  for (let j = 0; j < data.length; j++) {
-    if (result.includes(j)) {
-        continue;
-    }
-    let atk = (result.reduce((sum, k) => sum + data[k].atk, 0) + data[j].atk) * 
-              (result.reduce((sum, k) => sum + data[k].per_atk, 0) + data[j].per_atk + 100) / 100;
-    let def = (result.reduce((sum, k) => sum + data[k].def, 0) + data[j].def) * 
-              (result.reduce((sum, k) => sum + data[k].per_def, 0) + data[j].per_def + 100) / 100;
-    let aim = (result.reduce((sum, k) => sum + data[k].aim, 0) + data[j].aim) * 
-              (result.reduce((sum, k) => sum + data[k].per_aim, 0) + data[j].per_aim + 100) / 100;
-    let mot = (result.reduce((sum, k) => sum + data[k].mot, 0) + data[j].mot) * 
-              (result.reduce((sum, k) => sum + data[k].per_mot, 0) + data[j].per_mot + 100) / 100;
-    let cnt = 0;
-    if (max.atk <= atk) {
-        cnt++;
-    }
-    if (max.def <= def) {
-        cnt++;
-    }
-    if (max.aim <= aim) {
-        cnt++;
-    }
-    if (max.mot <= mot) {
-        cnt++;
-    }
-    if (cnt > 2) {
-        max.i = j;
-        max.atk = atk;
-        max.def = def;
-        max.aim = aim;
-        max.mot = mot;
-    }
-  }
-  result.push(max.i);
-}
-document.getElementById('list').innerHTML = [...Array(data.length)].map((_, i) => i).map((i) => `${data[i].name} LV.${data[i].lv}`).join('<br>\n');
-document.getElementById('result').innerHTML = result.map((i) => `${data[i].name} LV.${data[i].lv}`).join('<br>\n');
-
-</script>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[JavaScript でサクッと比較してみる。 数値を比較して同じ以上なら+1点で3点以上なら入れ替えとなるようにした。]]></summary></entry></feed>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>]]></content><author><name>makietan</name></author><category term="otaku" /><summary type="html"><![CDATA[2月11日の『同志暗躍秘録〜野心のいちご味〜』に向けて高まりますわ。]]></summary></entry></feed>
