@@ -1,4 +1,36 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2024-02-22T14:25:29+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">コミックウォーカーが嫌いな名前に変わってた</title><link href="https://makietan.github.io/otaku/2024/02/22/report.html" rel="alternate" type="text/html" title="コミックウォーカーが嫌いな名前に変わってた" /><published>2024-02-22T00:00:00+09:00</published><updated>2024-02-22T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2024/02/22/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2024/02/22/report.html"><![CDATA[<p>コミックウォーカーがリニューアルしていた。</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2024-02-23T12:15:51+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">フラッシュモブならぬフラッシュモブドインフォメーション</title><link href="https://makietan.github.io/coinedword/2024/02/23/report.html" rel="alternate" type="text/html" title="フラッシュモブならぬフラッシュモブドインフォメーション" /><published>2024-02-23T00:00:00+09:00</published><updated>2024-02-23T00:00:00+09:00</updated><id>https://makietan.github.io/coinedword/2024/02/23/report</id><content type="html" xml:base="https://makietan.github.io/coinedword/2024/02/23/report.html"><![CDATA[<p><strong>全く知らなかった情報が段階を経ずに伝わること。</strong></p>
+
+<p>声優の結婚とか特にそれ。</p>
+
+<p>まず付き合っている情報を出してないなら、わざわざ報告しなくていいから。</p>
+
+<p>はっきり言ってNTRっぽくて大嫌いなんだよね。</p>
+
+<p><em>結婚したのか、俺以外のヤツと…</em></p>
+
+<p>楽しんでたコンテンツが結婚を機に終了することが多々ある。</p>
+
+<p>まず、ファンが圧倒的に減る。</p>
+
+<p>もう誰かのものになってしまったという情報だけで減る。</p>
+
+<p>当然だろうイベントやらで楽しんでたのに急に理由もわからないやつがすべてを奪っていくのだから。</p>
+
+<p>ヲタクが素直に喜べないのは上記のせいである。</p>
+
+<p>それから子どもが産まれると子どもの話が極端に増える。</p>
+
+<p>それに一切の興味がない。</p>
+
+<p><em>なんだテメェくそがき</em></p>
+
+<p>五斗山頁状態である。</p>
+
+<p>ともかく、裏でひっそりと行ってたことをさも当然かのごとく</p>
+
+<p>突然大っぴらにして「祝え！」してくるのがあまりにも非常識かつ残虐非道である。</p>
+
+<p>そういうのをフラッシュモブドインフォメーションと勝手に呼ぶことにした。</p>]]></content><author><name>makietan</name></author><category term="coinedword" /><summary type="html"><![CDATA[全く知らなかった情報が段階を経ずに伝わること。]]></summary></entry><entry><title type="html">コミックウォーカーが嫌いな名前に変わってた</title><link href="https://makietan.github.io/otaku/2024/02/22/report.html" rel="alternate" type="text/html" title="コミックウォーカーが嫌いな名前に変わってた" /><published>2024-02-22T00:00:00+09:00</published><updated>2024-02-22T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2024/02/22/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2024/02/22/report.html"><![CDATA[<p>コミックウォーカーがリニューアルしていた。</p>
 
 <p>事前に告知はされていたものの快く思っていなかったのでショックだった。</p>
 
@@ -729,7 +761,4 @@ function removeChecked() {
 
 <p>大変だわ。</p>]]></content><author><name>makietan</name></author><category term="cleaning" /><summary type="html"><![CDATA[とりあえず排水口をどうにかしよう。 パイプユニッシュ買ってこよ。]]></summary></entry><entry><title type="html">この日報をLaTex風味の論文記載方式にしてみたい</title><link href="https://makietan.github.io/tech/2024/02/08/report.html" rel="alternate" type="text/html" title="この日報をLaTex風味の論文記載方式にしてみたい" /><published>2024-02-08T00:00:00+09:00</published><updated>2024-02-08T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2024/02/08/report</id><content type="html" xml:base="https://makietan.github.io/tech/2024/02/08/report.html"><![CDATA[<p>論文のようなCSSってあるのかな？</p>
 
-<p><code class="language-plaintext highlighter-rouge">露文 CSS</code> じゃなく <code class="language-plaintext highlighter-rouge">Tex CSS</code> って検索するとそれっぽいものが出てくるけども…。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[論文のようなCSSってあるのかな？]]></summary></entry><entry><title type="html">すみぺのインスタライブがあった</title><link href="https://makietan.github.io/otaku/2024/02/07/report.html" rel="alternate" type="text/html" title="すみぺのインスタライブがあった" /><published>2024-02-07T00:00:00+09:00</published><updated>2024-02-07T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2024/02/07/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2024/02/07/report.html"><![CDATA[<p>2月11日の『同志暗躍秘録〜野心のいちご味〜』に向けて高まりますわ。</p>
-
-<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr"><a href="https://t.co/IVJb5RA2NP">https://t.co/IVJb5RA2NP</a><br /><br />あしたはディア・パンタレイの発売日〜！インスタライブもしますぞい〜！（すみぺ）</p>&mdash; 上坂すみれ_official (@uesaka_official) <a href="https://twitter.com/uesaka_official/status/1754806277551870166?ref_src=twsrc%5Etfw">February 6, 2024</a></blockquote>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>]]></content><author><name>makietan</name></author><category term="otaku" /><summary type="html"><![CDATA[2月11日の『同志暗躍秘録〜野心のいちご味〜』に向けて高まりますわ。]]></summary></entry></feed>
+<p><code class="language-plaintext highlighter-rouge">露文 CSS</code> じゃなく <code class="language-plaintext highlighter-rouge">Tex CSS</code> って検索するとそれっぽいものが出てくるけども…。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[論文のようなCSSってあるのかな？]]></summary></entry></feed>
