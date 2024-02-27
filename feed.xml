@@ -1,4 +1,18 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2024-02-27T12:16:59+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">フラッシュモブならぬフラッシュモブドインフォメーション</title><link href="https://makietan.github.io/coinedword/2024/02/23/report.html" rel="alternate" type="text/html" title="フラッシュモブならぬフラッシュモブドインフォメーション" /><published>2024-02-23T00:00:00+09:00</published><updated>2024-02-23T00:00:00+09:00</updated><id>https://makietan.github.io/coinedword/2024/02/23/report</id><content type="html" xml:base="https://makietan.github.io/coinedword/2024/02/23/report.html"><![CDATA[<p><strong>全く知らなかった情報が段階を経ずに伝わること。</strong></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2024-02-27T14:51:39+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">味噌ラーメンを食べた</title><link href="https://makietan.github.io/gourmet/2024/02/24/report.html" rel="alternate" type="text/html" title="味噌ラーメンを食べた" /><published>2024-02-24T00:00:00+09:00</published><updated>2024-02-24T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2024/02/24/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2024/02/24/report.html"><![CDATA[<p>味噌汁に麺を入れてしまった感じが強い。</p>
+
+<p>当たり外れも結構わかりやすい。</p>
+
+<p>醤油ラーメンほどの大外れはなさそう。</p>
+
+<p>ただ個人的な美味しいのラインは超えてこない。</p>
+
+<p>面白さは醤油ラーメン。</p>
+
+<p>安定性は味噌ラーメン。</p>
+
+<p>ああもううるせえ。</p>
+
+<p>好きに食えばいい。</p>]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[味噌汁に麺を入れてしまった感じが強い。]]></summary></entry><entry><title type="html">フラッシュモブならぬフラッシュモブドインフォメーション</title><link href="https://makietan.github.io/coinedword/2024/02/23/report.html" rel="alternate" type="text/html" title="フラッシュモブならぬフラッシュモブドインフォメーション" /><published>2024-02-23T00:00:00+09:00</published><updated>2024-02-23T00:00:00+09:00</updated><id>https://makietan.github.io/coinedword/2024/02/23/report</id><content type="html" xml:base="https://makietan.github.io/coinedword/2024/02/23/report.html"><![CDATA[<p><strong>全く知らなかった情報が段階を経ずに伝わること。</strong></p>
 
 <p>声優の結婚とか特にそれ。</p>
 
@@ -759,6 +773,4 @@ function removeChecked() {
 
 <p>15日になったら確定申告もしないといけないしな。</p>
 
-<p>大変だわ。</p>]]></content><author><name>makietan</name></author><category term="cleaning" /><summary type="html"><![CDATA[とりあえず排水口をどうにかしよう。 パイプユニッシュ買ってこよ。]]></summary></entry><entry><title type="html">この日報をLaTex風味の論文記載方式にしてみたい</title><link href="https://makietan.github.io/tech/2024/02/08/report.html" rel="alternate" type="text/html" title="この日報をLaTex風味の論文記載方式にしてみたい" /><published>2024-02-08T00:00:00+09:00</published><updated>2024-02-08T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2024/02/08/report</id><content type="html" xml:base="https://makietan.github.io/tech/2024/02/08/report.html"><![CDATA[<p>論文のようなCSSってあるのかな？</p>
-
-<p><code class="language-plaintext highlighter-rouge">露文 CSS</code> じゃなく <code class="language-plaintext highlighter-rouge">Tex CSS</code> って検索するとそれっぽいものが出てくるけども…。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[論文のようなCSSってあるのかな？]]></summary></entry></feed>
+<p>大変だわ。</p>]]></content><author><name>makietan</name></author><category term="cleaning" /><summary type="html"><![CDATA[とりあえず排水口をどうにかしよう。 パイプユニッシュ買ってこよ。]]></summary></entry></feed>
