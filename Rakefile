@@ -95,6 +95,19 @@ task :new do
   # sh "atom #{path}"
 end
 
+desc "create target date post"
+task :target, ['date'] do |task, args|
+  title = ""
+  day = Date.today
+  unless args.date.empty?
+    day = Date.parse(args.date)
+  end
+  puts day
+  path = "_posts/#{day.strftime('%F')}-report.md"
+  path = checkFilename(path)
+  createReport(path, day)
+end
+
 desc "create file"
 def createReport(path, day)
   File.open(path, "w") do |f|
