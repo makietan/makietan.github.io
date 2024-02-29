@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2024-02-28T12:18:16+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">引用RTでXのポストが100万PVを達成した</title><link href="https://makietan.github.io/twitter/2024/02/28/report.html" rel="alternate" type="text/html" title="引用RTでXのポストが100万PVを達成した" /><published>2024-02-28T00:00:00+09:00</published><updated>2024-02-28T00:00:00+09:00</updated><id>https://makietan.github.io/twitter/2024/02/28/report</id><content type="html" xml:base="https://makietan.github.io/twitter/2024/02/28/report.html"><![CDATA[<p>ほんと何があるかわからないね。</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2024-02-29T12:17:00+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">「Failed Registering Bundle Identifier」と表示されたら「Automatically manage signing」を外してみる</title><link href="https://makietan.github.io/tech/2024/02/29/report.html" rel="alternate" type="text/html" title="「Failed Registering Bundle Identifier」と表示されたら「Automatically manage signing」を外してみる" /><published>2024-02-29T00:00:00+09:00</published><updated>2024-02-29T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2024/02/29/report</id><content type="html" xml:base="https://makietan.github.io/tech/2024/02/29/report.html"><![CDATA[<p>「Automatically manage signing」が新しいアプリとして登録しようとしているようなので外して自分で Provisioning Profile を設定すれば先に進める。
+全てが解決するわけじゃないので注意。</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Failed Registering Bundle Identifier
+The app identifier "&lt;app identifier&gt;" cannot be registered to your development team because it is not available. Change your bundle identifier to a unique string to try again.
+</code></pre></div></div>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[「Automatically manage signing」が新しいアプリとして登録しようとしているようなので外して自分で Provisioning Profile を設定すれば先に進める。 全てが解決するわけじゃないので注意。]]></summary></entry><entry><title type="html">引用RTでXのポストが100万PVを達成した</title><link href="https://makietan.github.io/twitter/2024/02/28/report.html" rel="alternate" type="text/html" title="引用RTでXのポストが100万PVを達成した" /><published>2024-02-28T00:00:00+09:00</published><updated>2024-02-28T00:00:00+09:00</updated><id>https://makietan.github.io/twitter/2024/02/28/report</id><content type="html" xml:base="https://makietan.github.io/twitter/2024/02/28/report.html"><![CDATA[<p>ほんと何があるかわからないね。</p>
 
 <p>真相に巻き込まれないようにはしつつもダメなものはダメと誇示していかないとね。</p>]]></content><author><name>makietan</name></author><category term="twitter" /><summary type="html"><![CDATA[ほんと何があるかわからないね。]]></summary></entry><entry><title type="html">「Unable to process request - PLA Update available」が表示されたらAppleの契約を確認をしよう</title><link href="https://makietan.github.io/tech/2024/02/27/report.html" rel="alternate" type="text/html" title="「Unable to process request - PLA Update available」が表示されたらAppleの契約を確認をしよう" /><published>2024-02-27T00:00:00+09:00</published><updated>2024-02-27T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2024/02/27/report</id><content type="html" xml:base="https://makietan.github.io/tech/2024/02/27/report.html"><![CDATA[<p><a href="https://developer.apple.com/account">Apple Developer Program</a> に移動すると<code class="language-plaintext highlighter-rouge">本プログラムの使用許諾契約が更新されました。</code>と表示されているはず。</p>
 
@@ -648,104 +653,4 @@ function removeChecked() {
     <p>装填 1.64 〜 1.4</p>
   </li>
   <li>機動性と昇順がやたら高い回避壁向き</li>
-</ul>]]></content><author><name>makietan</name></author><category term="game" /><category term="gup" /><summary type="html"><![CDATA[ステータス]]></summary></entry><entry><title type="html">「逸見エリカ[V-day2023]」の評価</title><link href="https://makietan.github.io/game/gup/2024/02/12/report.html" rel="alternate" type="text/html" title="「逸見エリカ[V-day2023]」の評価" /><published>2024-02-12T00:00:00+09:00</published><updated>2024-02-12T00:00:00+09:00</updated><id>https://makietan.github.io/game/gup/2024/02/12/report</id><content type="html" xml:base="https://makietan.github.io/game/gup/2024/02/12/report.html"><![CDATA[<h2 id="チームスキル">チームスキル</h2>
-
-<h3 id="開放前">開放前</h3>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>装甲&amp;移動力UP
-</code></pre></div></div>
-
-<h3 id="開放後">開放後</h3>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>味方生存車輌が3輌以上の間装甲&amp;照準&amp;移動力&amp;装填UP&amp;ターン中1度攻撃成功時装甲&amp;照準&amp;装填UP(3ターン継続、重複あり)&amp;戦闘時に自車より耐久力割合が高い相手車輌の一部特殊効果、状態異常付与効果を無視（常時発動）
-</code></pre></div></div>
-
-<ul>
-  <li>味方生存車輌
-    <ul>
-      <li>3輌以上
-        <ul>
-          <li>UP
-            <ul>
-              <li>装甲</li>
-              <li>照準</li>
-              <li>移動力</li>
-              <li>装填</li>
-            </ul>
-          </li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-  <li>ターン中1度攻撃成功
-    <ul>
-      <li>UP(3ターン継続、重複あり)
-        <ul>
-          <li>装甲</li>
-          <li>照準</li>
-          <li>装填</li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-  <li>戦闘時
-    <ul>
-      <li>自車より耐久力割合が高い相手
-        <ul>
-          <li>無視
-            <ul>
-              <li>特殊効果</li>
-              <li>状態異常付与効果</li>
-            </ul>
-          </li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-</ul>
-
-<h2 id="比較">比較</h2>
-
-<h3 id="逸見エリカ4周年">逸見エリカ[4周年]</h3>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ターゲット集中&amp;装甲UP戦闘時お互いの火力&amp;照準に掛かる効果と一部特殊効果、状態異常付与効果を無視&amp;試合中自部隊の車輌数が多いほど装甲&amp;機動性&amp;装填UP(常時発動)
-</code></pre></div></div>
-
-<h4 id="詳細">詳細</h4>
-
-<ul>
-  <li>ターゲット集中</li>
-  <li>装甲UP</li>
-  <li>戦闘時
-    <ul>
-      <li>無視
-        <ul>
-          <li>火力</li>
-          <li>照準</li>
-          <li>特殊効果</li>
-          <li>状態異常付与効果</li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-  <li>自部隊の車輌数が多い
-    <ul>
-      <li>UP
-        <ul>
-          <li>装甲</li>
-          <li>機動性</li>
-          <li>装填</li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-</ul>
-
-<h2 id="結論">結論</h2>
-
-<ul>
-  <li>4エリカと比べて無視される項目が特殊効果と状態異常付与効果だけなので防御性能は低い。</li>
-  <li>耐久力割合が要なので優位な状況から覆されることもある。</li>
-  <li>〇〇成功時スキルなので初動が弱い。</li>
-  <li>最大になるとおそらく4エリカよりは攻撃性能がある（未検証）。</li>
-</ul>]]></content><author><name>makietan</name></author><category term="game" /><category term="gup" /><summary type="html"><![CDATA[チームスキル]]></summary></entry></feed>
+</ul>]]></content><author><name>makietan</name></author><category term="game" /><category term="gup" /><summary type="html"><![CDATA[ステータス]]></summary></entry></feed>
