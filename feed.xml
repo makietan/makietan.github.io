@@ -1,4 +1,38 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2024-03-07T12:14:24+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">「Sandbox: bash(xxx) deny(1) file-write-create /Users/xxx/project/Example/Pods/resources-to-copy-.txt」と表示されたら User Script Sandboxing を No にしてみる</title><link href="https://makietan.github.io/tech/2024/03/02/report.html" rel="alternate" type="text/html" title="「Sandbox: bash(xxx) deny(1) file-write-create /Users/xxx/project/Example/Pods/resources-to-copy-.txt」と表示されたら User Script Sandboxing を No にしてみる" /><published>2024-03-02T00:00:00+09:00</published><updated>2024-03-02T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2024/03/02/report</id><content type="html" xml:base="https://makietan.github.io/tech/2024/03/02/report.html"><![CDATA[<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Sandbox: bash(xxx) deny(1) file-write-create /Users/xxx/project/Example/Pods/resources-to-copy-&lt;アプリ名&gt;.txt
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2024-03-08T12:16:47+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">遊戯王マスターデュエルのリミットレギュレーション分解ボーナスチェッカー</title><link href="https://makietan.github.io/game/yugioh/2024/03/08/report.html" rel="alternate" type="text/html" title="遊戯王マスターデュエルのリミットレギュレーション分解ボーナスチェッカー" /><published>2024-03-08T00:00:00+09:00</published><updated>2024-03-08T00:00:00+09:00</updated><id>https://makietan.github.io/game/yugioh/2024/03/08/report</id><content type="html" xml:base="https://makietan.github.io/game/yugioh/2024/03/08/report.html"><![CDATA[<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+
+<h2 id="-制限-n枚分解">→ 制限 (N枚分解)</h2>
+
+<div class="row pb-4">
+  <input type="checkbox" class="btn-check" id="烙印開幕" autocomplete="off" />
+  <label class="btn btn-outline-secondary" for="烙印開幕">【N】烙印開幕</label><br />
+</div>
+
+<h2 id="無制限--準制限-1枚分解">無制限 → 準制限 (1枚分解)</h2>
+
+<div class="row pb-4">
+  <input type="checkbox" class="btn-check" id="超重武者装留イワトオシ" autocomplete="off" />
+  <label class="btn btn-outline-secondary" for="超重武者装留イワトオシ">【R】超重武者装留イワトオシ</label><br />
+  <input type="checkbox" class="btn-check" id="パラレルエクシード" autocomplete="off" />
+  <label class="btn btn-outline-secondary" for="パラレルエクシード">【N】パラレルエクシード</label><br />
+</div>
+
+<h2 id="制限--準制限-1枚生成"><span style="color:lightgray;">制限 → 準制限 (1枚生成)</span></h2>
+
+<div class="row pb-4">
+  <input type="checkbox" class="btn-check" id="聖殿の水遣い" autocomplete="off" />
+  <label class="btn btn-outline-secondary" for="聖殿の水遣い">【UR】聖殿の水遣い</label><br />
+</div>
+
+<h2 id="制限--制限解除-2枚生成"><span style="color:lightgray;">制限 → 制限解除 (2枚生成)</span></h2>
+
+<div class="row pb-4">
+  <input type="checkbox" class="btn-check" id="プランキッズ・ミュー" autocomplete="off" />
+  <label class="btn btn-outline-secondary" for="プランキッズ・ミュー">【SR】プランキッズ・ミュー</label><br />
+  <input type="checkbox" class="btn-check" id="沼地の魔神王" autocomplete="off" />
+  <label class="btn btn-outline-secondary" for="沼地の魔神王">【SR】沼地の魔神王</label><br />
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>]]></content><author><name>makietan</name></author><category term="game" /><category term="yugioh" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">「Sandbox: bash(xxx) deny(1) file-write-create /Users/xxx/project/Example/Pods/resources-to-copy-.txt」と表示されたら User Script Sandboxing を No にしてみる</title><link href="https://makietan.github.io/tech/2024/03/02/report.html" rel="alternate" type="text/html" title="「Sandbox: bash(xxx) deny(1) file-write-create /Users/xxx/project/Example/Pods/resources-to-copy-.txt」と表示されたら User Script Sandboxing を No にしてみる" /><published>2024-03-02T00:00:00+09:00</published><updated>2024-03-02T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2024/03/02/report</id><content type="html" xml:base="https://makietan.github.io/tech/2024/03/02/report.html"><![CDATA[<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Sandbox: bash(xxx) deny(1) file-write-create /Users/xxx/project/Example/Pods/resources-to-copy-&lt;アプリ名&gt;.txt
 </code></pre></div></div>
 
 <p>Build Settings にある <code class="language-plaintext highlighter-rouge">User Script Sandboxing</code> を <code class="language-plaintext highlighter-rouge">No</code> にしてみると動くはず。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[Sandbox: bash(xxx) deny(1) file-write-create /Users/xxx/project/Example/Pods/resources-to-copy-&lt;アプリ名&gt;.txt]]></summary></entry><entry><title type="html">「Signing for requires a development team. Select a development team in the Signing &amp;amp; Capabilities editor.」が表示されたら Build Settings の設定を見直す</title><link href="https://makietan.github.io/tech/2024/03/01/report.html" rel="alternate" type="text/html" title="「Signing for requires a development team. Select a development team in the Signing &amp;amp; Capabilities editor.」が表示されたら Build Settings の設定を見直す" /><published>2024-03-01T00:00:00+09:00</published><updated>2024-03-01T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2024/03/01/report</id><content type="html" xml:base="https://makietan.github.io/tech/2024/03/01/report.html"><![CDATA[<p>Build Settings の Development Team や Provisioning Profile をきっちり設定しよう。</p>
@@ -235,16 +269,4 @@ function removeChecked() {
         label.nextElementSibling.style.display = "none";
       });
 }
-</script>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[所持済みを非表示]]></summary></entry><entry><title type="html">睡眠サイクルが完全に終わっている</title><link href="https://makietan.github.io/health/2024/02/20/report.html" rel="alternate" type="text/html" title="睡眠サイクルが完全に終わっている" /><published>2024-02-20T00:00:00+09:00</published><updated>2024-02-20T00:00:00+09:00</updated><id>https://makietan.github.io/health/2024/02/20/report</id><content type="html" xml:base="https://makietan.github.io/health/2024/02/20/report.html"><![CDATA[<p>なんかフラッシュモブ並の報告を軽くメッセンジャーで受けてしまってしんどい。</p>
-
-<p>そんなことはどうでもよくて最近睡眠サイクルが完全に昼夜逆転して仕事にならんのでどうにかしたいと思う。</p>
-
-<p>ちょうど上記のダメージが大きいのですぐ寝て気分をリフレッシュしたい。</p>
-
-<p>結構引きずるだろうな…。</p>
-
-<p>まぁ年齢も年齢だしそりゃそうだよなって感じでどうにか静まってほしいものだ。</p>
-
-<p>なんというか負けた気分が強くてダメなんだよ。</p>
-
-<p>さて、どうにか勝ちたいなぁ何かしらで。</p>]]></content><author><name>makietan</name></author><category term="health" /><summary type="html"><![CDATA[なんかフラッシュモブ並の報告を軽くメッセンジャーで受けてしまってしんどい。]]></summary></entry></feed>
+</script>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[所持済みを非表示]]></summary></entry></feed>
