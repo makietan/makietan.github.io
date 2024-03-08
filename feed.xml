@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2024-03-08T12:16:47+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">遊戯王マスターデュエルのリミットレギュレーション分解ボーナスチェッカー</title><link href="https://makietan.github.io/game/yugioh/2024/03/08/report.html" rel="alternate" type="text/html" title="遊戯王マスターデュエルのリミットレギュレーション分解ボーナスチェッカー" /><published>2024-03-08T00:00:00+09:00</published><updated>2024-03-08T00:00:00+09:00</updated><id>https://makietan.github.io/game/yugioh/2024/03/08/report</id><content type="html" xml:base="https://makietan.github.io/game/yugioh/2024/03/08/report.html"><![CDATA[<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2024-03-08T14:14:20+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">遊戯王マスターデュエルのリミットレギュレーション分解ボーナスチェッカー</title><link href="https://makietan.github.io/game/yugioh/2024/03/08/report.html" rel="alternate" type="text/html" title="遊戯王マスターデュエルのリミットレギュレーション分解ボーナスチェッカー" /><published>2024-03-08T00:00:00+09:00</published><updated>2024-03-08T00:00:00+09:00</updated><id>https://makietan.github.io/game/yugioh/2024/03/08/report</id><content type="html" xml:base="https://makietan.github.io/game/yugioh/2024/03/08/report.html"><![CDATA[<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
 
 <h2 id="-制限-n枚分解">→ 制限 (N枚分解)</h2>
 
@@ -32,7 +32,7 @@
   <label class="btn btn-outline-secondary" for="沼地の魔神王">【SR】沼地の魔神王</label><br />
 </div>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>]]></content><author><name>makietan</name></author><category term="game" /><category term="yugioh" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">「Sandbox: bash(xxx) deny(1) file-write-create /Users/xxx/project/Example/Pods/resources-to-copy-.txt」と表示されたら User Script Sandboxing を No にしてみる</title><link href="https://makietan.github.io/tech/2024/03/02/report.html" rel="alternate" type="text/html" title="「Sandbox: bash(xxx) deny(1) file-write-create /Users/xxx/project/Example/Pods/resources-to-copy-.txt」と表示されたら User Script Sandboxing を No にしてみる" /><published>2024-03-02T00:00:00+09:00</published><updated>2024-03-02T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2024/03/02/report</id><content type="html" xml:base="https://makietan.github.io/tech/2024/03/02/report.html"><![CDATA[<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Sandbox: bash(xxx) deny(1) file-write-create /Users/xxx/project/Example/Pods/resources-to-copy-&lt;アプリ名&gt;.txt
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>]]></content><author><name>makietan</name></author><category term="game" /><category term="yugioh" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html"></title><link href="https://makietan.github.io/unknown/2024/03/07/report.html" rel="alternate" type="text/html" title="" /><published>2024-03-07T00:00:00+09:00</published><updated>2024-03-07T00:00:00+09:00</updated><id>https://makietan.github.io/unknown/2024/03/07/report</id><content type="html" xml:base="https://makietan.github.io/unknown/2024/03/07/report.html"><![CDATA[]]></content><author><name>makietan</name></author><category term="unknown" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">「Sandbox: bash(xxx) deny(1) file-write-create /Users/xxx/project/Example/Pods/resources-to-copy-.txt」と表示されたら User Script Sandboxing を No にしてみる</title><link href="https://makietan.github.io/tech/2024/03/02/report.html" rel="alternate" type="text/html" title="「Sandbox: bash(xxx) deny(1) file-write-create /Users/xxx/project/Example/Pods/resources-to-copy-.txt」と表示されたら User Script Sandboxing を No にしてみる" /><published>2024-03-02T00:00:00+09:00</published><updated>2024-03-02T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2024/03/02/report</id><content type="html" xml:base="https://makietan.github.io/tech/2024/03/02/report.html"><![CDATA[<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Sandbox: bash(xxx) deny(1) file-write-create /Users/xxx/project/Example/Pods/resources-to-copy-&lt;アプリ名&gt;.txt
 </code></pre></div></div>
 
 <p>Build Settings にある <code class="language-plaintext highlighter-rouge">User Script Sandboxing</code> を <code class="language-plaintext highlighter-rouge">No</code> にしてみると動くはず。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[Sandbox: bash(xxx) deny(1) file-write-create /Users/xxx/project/Example/Pods/resources-to-copy-&lt;アプリ名&gt;.txt]]></summary></entry><entry><title type="html">「Signing for requires a development team. Select a development team in the Signing &amp;amp; Capabilities editor.」が表示されたら Build Settings の設定を見直す</title><link href="https://makietan.github.io/tech/2024/03/01/report.html" rel="alternate" type="text/html" title="「Signing for requires a development team. Select a development team in the Signing &amp;amp; Capabilities editor.」が表示されたら Build Settings の設定を見直す" /><published>2024-03-01T00:00:00+09:00</published><updated>2024-03-01T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2024/03/01/report</id><content type="html" xml:base="https://makietan.github.io/tech/2024/03/01/report.html"><![CDATA[<p>Build Settings の Development Team や Provisioning Profile をきっちり設定しよう。</p>
@@ -116,157 +116,4 @@ You currently don't have access to this membership resource. To resolve this iss
 
 <p>気持ち悪さに耐えながらなんとか利用していかなければならない。</p>
 
-<p>苦行になりそうだ。</p>]]></content><author><name>makietan</name></author><category term="otaku" /><summary type="html"><![CDATA[コミックウォーカーがリニューアルしていた。]]></summary></entry><entry><title type="html">【スパロボDD】特別交換所 2023</title><link href="https://makietan.github.io/game/srwdd/2024/02/21/report.html" rel="alternate" type="text/html" title="【スパロボDD】特別交換所 2023" /><published>2024-02-21T00:00:00+09:00</published><updated>2024-02-21T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2024/02/21/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2024/02/21/report.html"><![CDATA[<p><button id="remove_checked" onclick="removeChecked();">所持済みを非表示</button></p>
-
-<div id="list">
-<label for="オウル・ハーガー／ディーダリオン"><input type="checkbox" id="オウル・ハーガー／ディーダリオン" />オウル・ハーガー／ディーダリオン</label><br />
-<label for="イーヴァリフル・ハイパワー／メラフディン"><input type="checkbox" id="イーヴァリフル・ハイパワー／メラフディン" />イーヴァリフル・ハイパワー／メラフディン</label><br />
-<label for="スリー・ラウンド・バースト／グラフディン（サキミ機）"><input type="checkbox" id="スリー・ラウンド・バースト／グラフディン（サキミ機）" />スリー・ラウンド・バースト／グラフディン（サキミ機）</label><br />
-<label for="サマーソルト・ティアー／グラフディン（ユンナ機）"><input type="checkbox" id="サマーソルト・ティアー／グラフディン（ユンナ機）" />サマーソルト・ティアー／グラフディン（ユンナ機）</label><br />
-<label for="イーディフューザー／グラフディン（リナリア機）"><input type="checkbox" id="イーディフューザー／グラフディン（リナリア機）" />イーディフューザー／グラフディン（リナリア機）</label><br />
-<label for="ラッシング・ポッパー／グラフディン（マイコ機）"><input type="checkbox" id="ラッシング・ポッパー／グラフディン（マイコ機）" />ラッシング・ポッパー／グラフディン（マイコ機）</label><br />
-<label for="イカヅチ・リボルブ／グラフディン（ユニス機）"><input type="checkbox" id="イカヅチ・リボルブ／グラフディン（ユニス機）" />イカヅチ・リボルブ／グラフディン（ユニス機）</label><br />
-<label for="ブレストファイヤー／マジンガーZ"><input type="checkbox" id="ブレストファイヤー／マジンガーZ" />ブレストファイヤー／マジンガーZ</label><br />
-<label for="ブレストバーン／グレートマジンガー"><input type="checkbox" id="ブレストバーン／グレートマジンガー" />ブレストバーン／グレートマジンガー</label><br />
-<label for="ファイヤーブラスター／マジンカイザー"><input type="checkbox" id="ファイヤーブラスター／マジンカイザー" />ファイヤーブラスター／マジンカイザー</label><br />
-<label for="ジーグブリーカー／鋼鉄ジーグ"><input type="checkbox" id="ジーグブリーカー／鋼鉄ジーグ" />ジーグブリーカー／鋼鉄ジーグ</label><br />
-<label for="超電磁スピン／コン・バトラーＶ"><input type="checkbox" id="超電磁スピン／コン・バトラーＶ" />超電磁スピン／コン・バトラーＶ</label><br />
-<label for="デビルアロー／デビルマン"><input type="checkbox" id="デビルアロー／デビルマン" />デビルアロー／デビルマン</label><br />
-<label for="オーラ斬り／ビルバイン"><input type="checkbox" id="オーラ斬り／ビルバイン" />オーラ斬り／ビルバイン</label><br />
-<label for="プログレッシブナイフ連続攻撃／エヴァンゲリオン初号機"><input type="checkbox" id="プログレッシブナイフ連続攻撃／エヴァンゲリオン初号機" />プログレッシブナイフ連続攻撃／エヴァンゲリオン初号機</label><br />
-<label for="ガトリング砲／エヴァンゲリオン零号機"><input type="checkbox" id="ガトリング砲／エヴァンゲリオン零号機" />ガトリング砲／エヴァンゲリオン零号機</label><br />
-<label for="サンダースピア／エヴァンゲリオン2号機"><input type="checkbox" id="サンダースピア／エヴァンゲリオン2号機" />サンダースピア／エヴァンゲリオン2号機</label><br />
-<label for="ハイパー・メガ・ランチャー／Zガンダム"><input type="checkbox" id="ハイパー・メガ・ランチャー／Zガンダム" />ハイパー・メガ・ランチャー／Zガンダム</label><br />
-<label for="クロスレンジ・アタック／νガンダム"><input type="checkbox" id="クロスレンジ・アタック／νガンダム" />クロスレンジ・アタック／νガンダム</label><br />
-<label for="NT-D連続攻撃／ユニコーンガンダム"><input type="checkbox" id="NT-D連続攻撃／ユニコーンガンダム" />NT-D連続攻撃／ユニコーンガンダム</label><br />
-<label for="ゲッタースパイクブレード／ブラックゲッター"><input type="checkbox" id="ゲッタースパイクブレード／ブラックゲッター" />ゲッタースパイクブレード／ブラックゲッター</label><br />
-<label for="ゲッタートマホーク／真ゲッター1"><input type="checkbox" id="ゲッタートマホーク／真ゲッター1" />ゲッタートマホーク／真ゲッター1</label><br />
-<label for="天空剣Vの字斬り／ボルテスV"><input type="checkbox" id="天空剣Vの字斬り／ボルテスV" />天空剣Vの字斬り／ボルテスV</label><br />
-<label for="ヘルアンドヘブン／ガオガイガー"><input type="checkbox" id="ヘルアンドヘブン／ガオガイガー" />ヘルアンドヘブン／ガオガイガー</label><br />
-<label for="輻射波動機構／紅蓮弐式"><input type="checkbox" id="輻射波動機構／紅蓮弐式" />輻射波動機構／紅蓮弐式</label><br />
-<label for="ハドロン砲最大出力／ガウェイン"><input type="checkbox" id="ハドロン砲最大出力／ガウェイン" />ハドロン砲最大出力／ガウェイン</label><br />
-<label for="単分子カッター・スパイラルチェイン／ARX-7 アーバレスト"><input type="checkbox" id="単分子カッター・スパイラルチェイン／ARX-7 アーバレスト" />単分子カッター・スパイラルチェイン／ARX-7 アーバレスト</label><br />
-<label for="超高速ミサイル／M9 ガーンズバック（マオ）"><input type="checkbox" id="超高速ミサイル／M9 ガーンズバック（マオ）" />超高速ミサイル／M9 ガーンズバック（マオ）</label><br />
-<label for="GNソード／ガンダムエクシア"><input type="checkbox" id="GNソード／ガンダムエクシア" />GNソード／ガンダムエクシア</label><br />
-<label for="GNスナイパーライフル連射／ガンダムデュナメス"><input type="checkbox" id="GNスナイパーライフル連射／ガンダムデュナメス" />GNスナイパーライフル連射／ガンダムデュナメス</label><br />
-<label for="高エネルギービームライフル連射／エールストライクガンダム"><input type="checkbox" id="高エネルギービームライフル連射／エールストライクガンダム" />高エネルギービームライフル連射／エールストライクガンダム</label><br />
-<label for="バラエーナプラズマ収束ビーム砲／フリーダムガンダム"><input type="checkbox" id="バラエーナプラズマ収束ビーム砲／フリーダムガンダム" />バラエーナプラズマ収束ビーム砲／フリーダムガンダム</label><br />
-<label for="ホロニックブレード突撃／ゼーガペイン アルティール"><input type="checkbox" id="ホロニックブレード突撃／ゼーガペイン アルティール" />ホロニックブレード突撃／ゼーガペイン アルティール</label><br />
-<label for="ホロニックランチャー連射／ゼーガペイン ガルダ"><input type="checkbox" id="ホロニックランチャー連射／ゼーガペイン ガルダ" />ホロニックランチャー連射／ゼーガペイン ガルダ</label><br />
-<label for="ハラキリ・ブレード／ヴァルヴレイヴⅠ"><input type="checkbox" id="ハラキリ・ブレード／ヴァルヴレイヴⅠ" />ハラキリ・ブレード／ヴァルヴレイヴⅠ</label><br />
-<label for="スピンドル・ナックル／ヴァルヴレイヴⅣ"><input type="checkbox" id="スピンドル・ナックル／ヴァルヴレイヴⅣ" />スピンドル・ナックル／ヴァルヴレイヴⅣ</label><br />
-<label for="滑腔砲連射／ガンダム・バルバトス（第4形態）"><input type="checkbox" id="滑腔砲連射／ガンダム・バルバトス（第4形態）" />滑腔砲連射／ガンダム・バルバトス（第4形態）</label><br />
-<label for="V-MAX／レイズナー"><input type="checkbox" id="V-MAX／レイズナー" />V-MAX／レイズナー</label><br />
-<label for="マルチプル・コンバット／スコープドッグRSC"><input type="checkbox" id="マルチプル・コンバット／スコープドッグRSC" />マルチプル・コンバット／スコープドッグRSC</label><br />
-<label for="精密射撃／KG-6 スレイプニール"><input type="checkbox" id="精密射撃／KG-6 スレイプニール" />精密射撃／KG-6 スレイプニール</label><br />
-<label for="120mmライフル連射／KG-7 アレイオン（韻子）"><input type="checkbox" id="120mmライフル連射／KG-7 アレイオン（韻子）" />120mmライフル連射／KG-7 アレイオン（韻子）</label><br />
-<label for="サン・アタック／ダイターン3"><input type="checkbox" id="サン・アタック／ダイターン3" />サン・アタック／ダイターン3</label><br />
-<label for="ダブルハーケン／グレンダイザー"><input type="checkbox" id="ダブルハーケン／グレンダイザー" />ダブルハーケン／グレンダイザー</label><br />
-<label for="ツインバスターライフル最大出力／ウイングガンダムゼロ"><input type="checkbox" id="ツインバスターライフル最大出力／ウイングガンダムゼロ" />ツインバスターライフル最大出力／ウイングガンダムゼロ</label><br />
-<label for="強襲／ガンダムデスサイズヘル"><input type="checkbox" id="強襲／ガンダムデスサイズヘル" />強襲／ガンダムデスサイズヘル</label><br />
-<label for="ディストーション・アタック／ブラックサレナ"><input type="checkbox" id="ディストーション・アタック／ブラックサレナ" />ディストーション・アタック／ブラックサレナ</label><br />
-<label for="オーラ斬り／サーバイン"><input type="checkbox" id="オーラ斬り／サーバイン" />オーラ斬り／サーバイン</label><br />
-<label for="アンビデクストラス・ハルバード／ジャスティスガンダム"><input type="checkbox" id="アンビデクストラス・ハルバード／ジャスティスガンダム" />アンビデクストラス・ハルバード／ジャスティスガンダム</label><br />
-<label for="グシオンリベイクハルバード／ガンダム・グシオンリベイク"><input type="checkbox" id="グシオンリベイクハルバード／ガンダム・グシオンリベイク" />グシオンリベイクハルバード／ガンダム・グシオンリベイク</label><br />
-<label for="フィン・ファンネル（Hi-ν）／Hi-νガンダム"><input type="checkbox" id="フィン・ファンネル（Hi-ν）／Hi-νガンダム" />フィン・ファンネル（Hi-ν）／Hi-νガンダム</label><br />
-<label for="トランザム一斉射撃／ガンダムヴァーチェ"><input type="checkbox" id="トランザム一斉射撃／ガンダムヴァーチェ" />トランザム一斉射撃／ガンダムヴァーチェ</label><br />
-<label for="必殺登龍剣／龍神丸"><input type="checkbox" id="必殺登龍剣／龍神丸" />必殺登龍剣／龍神丸</label><br />
-<label for="一刀両断エルディカイザー／グランゾート"><input type="checkbox" id="一刀両断エルディカイザー／グランゾート" />一刀両断エルディカイザー／グランゾート</label><br />
-<label for="ハリケーンスマッシャー／ウインザート"><input type="checkbox" id="ハリケーンスマッシャー／ウインザート" />ハリケーンスマッシャー／ウインザート</label><br />
-<label for="ウェーブカイザー／アクアビート"><input type="checkbox" id="ウェーブカイザー／アクアビート" />ウェーブカイザー／アクアビート</label><br />
-<label for="ライガースラッシュ／獣神ライガー"><input type="checkbox" id="ライガースラッシュ／獣神ライガー" />ライガースラッシュ／獣神ライガー</label><br />
-<label for="火炎十文字斬り／ダルタニアス"><input type="checkbox" id="火炎十文字斬り／ダルタニアス" />火炎十文字斬り／ダルタニアス</label><br />
-<label for="ファントム・クライ／アレクサンダ"><input type="checkbox" id="ファントム・クライ／アレクサンダ" />ファントム・クライ／アレクサンダ</label><br />
-<label for="ヴァンシュ・プルング／ヴァンアイン"><input type="checkbox" id="ヴァンシュ・プルング／ヴァンアイン" />ヴァンシュ・プルング／ヴァンアイン</label><br />
-<label for="トランザム連続攻撃／ガンダムキュリオス"><input type="checkbox" id="トランザム連続攻撃／ガンダムキュリオス" />トランザム連続攻撃／ガンダムキュリオス</label><br />
-<label for="猛烈地獄張り手／ジーグ"><input type="checkbox" id="猛烈地獄張り手／ジーグ" />猛烈地獄張り手／ジーグ</label><br />
-<label for="メタルジェノサイダー／R-GUN"><input type="checkbox" id="メタルジェノサイダー／R-GUN" />メタルジェノサイダー／R-GUN</label><br />
-<label for="スピニング・バースター／グラフディン（ベネット機）"><input type="checkbox" id="スピニング・バースター／グラフディン（ベネット機）" />スピニング・バースター／グラフディン（ベネット機）</label><br />
-<label for="ファン・タロン／ヴァルヴレイヴⅥ"><input type="checkbox" id="ファン・タロン／ヴァルヴレイヴⅥ" />ファン・タロン／ヴァルヴレイヴⅥ</label><br />
-<label for="シナプス弾撃／覚醒人1号"><input type="checkbox" id="シナプス弾撃／覚醒人1号" />シナプス弾撃／覚醒人1号</label><br />
-<label for="レンチメイス（チェーンソー）／ガンダム・バルバトス（第6形態）"><input type="checkbox" id="レンチメイス（チェーンソー）／ガンダム・バルバトス（第6形態）" />レンチメイス（チェーンソー）／ガンダム・バルバトス（第6形態）</label><br />
-<label for="舞朱雀／ソウルゲイン"><input type="checkbox" id="舞朱雀／ソウルゲイン" />舞朱雀／ソウルゲイン</label><br />
-<label for="野牛シバラク流✕の字斬り／戦神丸"><input type="checkbox" id="野牛シバラク流✕の字斬り／戦神丸" />野牛シバラク流✕の字斬り／戦神丸</label><br />
-<label for="ダブルドラゴンハング／アルトロンガンダム"><input type="checkbox" id="ダブルドラゴンハング／アルトロンガンダム" />ダブルドラゴンハング／アルトロンガンダム</label><br />
-<label for="ファントム・リベレイト／アレクサンダ・リベルテ"><input type="checkbox" id="ファントム・リベレイト／アレクサンダ・リベルテ" />ファントム・リベレイト／アレクサンダ・リベルテ</label><br />
-<label for="チェイン・デカッター／ガンレオン"><input type="checkbox" id="チェイン・デカッター／ガンレオン" />チェイン・デカッター／ガンレオン</label><br />
-<label for="オン・ザ・エッジ／M9D ファルケ"><input type="checkbox" id="オン・ザ・エッジ／M9D ファルケ" />オン・ザ・エッジ／M9D ファルケ</label><br />
-<label for="ダブルガトリング・ラピッドファイア／ガンダムヘビーアームズ改"><input type="checkbox" id="ダブルガトリング・ラピッドファイア／ガンダムヘビーアームズ改" />ダブルガトリング・ラピッドファイア／ガンダムヘビーアームズ改</label><br />
-<label for="ソードブレイザー／ランスロット・グレイル"><input type="checkbox" id="ソードブレイザー／ランスロット・グレイル" />ソードブレイザー／ランスロット・グレイル</label><br />
-<label for="天上天下無敵剣／SRX"><input type="checkbox" id="天上天下無敵剣／SRX" />天上天下無敵剣／SRX</label><br />
-<label for="アームストロンガー・カノン・フルパワー／ヴァルヴレイヴⅢ"><input type="checkbox" id="アームストロンガー・カノン・フルパワー／ヴァルヴレイヴⅢ" />アームストロンガー・カノン・フルパワー／ヴァルヴレイヴⅢ</label><br />
-<label for="グレートブラスター／マジンエンペラーG"><input type="checkbox" id="グレートブラスター／マジンエンペラーG" />グレートブラスター／マジンエンペラーG</label><br />
-<label for="斬艦刀・雷光斬り／ダイゼンガー"><input type="checkbox" id="斬艦刀・雷光斬り／ダイゼンガー" />斬艦刀・雷光斬り／ダイゼンガー</label><br />
-<label for="ヒートショーテル・アジタート／ガンダムサンドロック改"><input type="checkbox" id="ヒートショーテル・アジタート／ガンダムサンドロック改" />ヒートショーテル・アジタート／ガンダムサンドロック改</label><br />
-<label for="超精密射撃／M9 ガーンズバック（クルツ）"><input type="checkbox" id="超精密射撃／M9 ガーンズバック（クルツ）" />超精密射撃／M9 ガーンズバック（クルツ）</label><br />
-<label for="ボルト・ファランクス／ヴァルヴレイヴⅤ"><input type="checkbox" id="ボルト・ファランクス／ヴァルヴレイヴⅤ" />ボルト・ファランクス／ヴァルヴレイヴⅤ</label><br />
-<label for="ファンネル（ナイチンゲール）／ナイチンゲール"><input type="checkbox" id="ファンネル（ナイチンゲール）／ナイチンゲール" />ファンネル（ナイチンゲール）／ナイチンゲール</label><br />
-<label for="拡散構造相転移砲／蜃気楼"><input type="checkbox" id="拡散構造相転移砲／蜃気楼" />拡散構造相転移砲／蜃気楼</label><br />
-<label for="メガキャノン（トールギスⅢ）／トールギスⅢ"><input type="checkbox" id="メガキャノン（トールギスⅢ）／トールギスⅢ" />メガキャノン（トールギスⅢ）／トールギスⅢ</label><br />
-<label for="輻射波動機構（紅蓮聖天八極式）／紅蓮聖天八極式"><input type="checkbox" id="輻射波動機構（紅蓮聖天八極式）／紅蓮聖天八極式" />輻射波動機構（紅蓮聖天八極式）／紅蓮聖天八極式</label><br />
-<label for="GNソードⅡ・コンビネーション／ダブルオーガンダム"><input type="checkbox" id="GNソードⅡ・コンビネーション／ダブルオーガンダム" />GNソードⅡ・コンビネーション／ダブルオーガンダム</label><br />
-<label for="ツインバスターキャノン／セラヴィーガンダム"><input type="checkbox" id="ツインバスターキャノン／セラヴィーガンダム" />ツインバスターキャノン／セラヴィーガンダム</label><br />
-<label for="シューティングスター・フォールダウン／ニューレイズナー"><input type="checkbox" id="シューティングスター・フォールダウン／ニューレイズナー" />シューティングスター・フォールダウン／ニューレイズナー</label><br />
-<label for="アームド・アーマーDE／バンシィ・ノルン"><input type="checkbox" id="アームド・アーマーDE／バンシィ・ノルン" />アームド・アーマーDE／バンシィ・ノルン</label><br />
-<label for="破砕衝角震電砲／ストライクインターセプター"><input type="checkbox" id="破砕衝角震電砲／ストライクインターセプター" />破砕衝角震電砲／ストライクインターセプター</label><br />
-<label for="GNスナイパーライフルⅡ精密射撃／ケルディムガンダム"><input type="checkbox" id="GNスナイパーライフルⅡ精密射撃／ケルディムガンダム" />GNスナイパーライフルⅡ精密射撃／ケルディムガンダム</label><br />
-<label for="アークシャインボンバー／ゲッターアーク"><input type="checkbox" id="アークシャインボンバー／ゲッターアーク" />アークシャインボンバー／ゲッターアーク</label><br />
-<label for="ゲッタートマホーク・ストーム／真ゲッターロボ タラク"><input type="checkbox" id="ゲッタートマホーク・ストーム／真ゲッターロボ タラク" />ゲッタートマホーク・ストーム／真ゲッターロボ タラク</label><br />
-<label for="ダブルトマホークダークネス／ゲッターノワール1号機"><input type="checkbox" id="ダブルトマホークダークネス／ゲッターノワール1号機" />ダブルトマホークダークネス／ゲッターノワール1号機 ゲッターノワール2号機 ゲッターノワール3号機</label><br />
-<label for="ビームサーベル連撃／フォースインパルスガンダム"><input type="checkbox" id="ビームサーベル連撃／フォースインパルスガンダム" />ビームサーベル連撃／フォースインパルスガンダム</label><br />
-<label for="ゴッドアルファ／ライディーン"><input type="checkbox" id="ゴッドアルファ／ライディーン" />ゴッドアルファ／ライディーン</label><br />
-<label for="GNビームシールド・クローモード／アリオスガンダム"><input type="checkbox" id="GNビームシールド・クローモード／アリオスガンダム" />GNビームシールド・クローモード／アリオスガンダム</label><br />
-<label for="鬼哭穿／クロムクロ"><input type="checkbox" id="鬼哭穿／クロムクロ" />鬼哭穿／クロムクロ</label><br />
-<label for="ソードメイス連撃／ガンダム・バルバトスルプス"><input type="checkbox" id="ソードメイス連撃／ガンダム・バルバトスルプス" />ソードメイス連撃／ガンダム・バルバトスルプス</label><br />
-<label for="ワール・ウィンド／デルフィング（第三形態）"><input type="checkbox" id="ワール・ウィンド／デルフィング（第三形態）" />ワール・ウィンド／デルフィング（第三形態）</label><br />
-<label for="グリッドビーム（Universe Fighter）／グリッドマン"><input type="checkbox" id="グリッドビーム（Universe Fighter）／グリッドマン" />グリッドビーム（Universe Fighter）／グリッドマン</label><br />
-<label for="マリオネット・グラン・バル／アレクサンダType-02"><input type="checkbox" id="マリオネット・グラン・バル／アレクサンダType-02" />マリオネット・グラン・バル／アレクサンダType-02</label><br />
-<label for="カリドゥス複相ビーム砲／ストライクフリーダムガンダム"><input type="checkbox" id="カリドゥス複相ビーム砲／ストライクフリーダムガンダム" />カリドゥス複相ビーム砲／ストライクフリーダムガンダム</label><br />
-</div>
-
-<script>
-const STORAGE_KEY = '2024-02-21-report';
-const CHECKBOX_QUERY = 'article input[type="checkbox"]';
-function load() {
-  var pilots = JSON.parse(localStorage.getItem(STORAGE_KEY));
-
-  if (pilots && pilots['pilots']) {
-    var checked = pilots['pilots'];
-    [...document.querySelectorAll(CHECKBOX_QUERY)].forEach((e) => {
-      var status = checked[e.parentElement.innerText];
-      if (status) {
-        e.checked = true;
-      }
-    });
-  }
-
-  [...document.querySelectorAll(CHECKBOX_QUERY)].forEach((e) => {
-    e.addEventListener('change', (event) => {
-      save();
-    });
-  });
-}
-
-function save() {
-  var checked = {};
-  [...document.querySelectorAll(CHECKBOX_QUERY)].forEach((c) => {
-      checked[c.parentElement.innerText] = c.checked;
-  });
-  var pilots = { 'pilots': checked };
-
-  localStorage.setItem(STORAGE_KEY, JSON.stringify(pilots));
-}
-
-window.onload = () => {
-  load();
-}
-
-function removeChecked() {
-  [...document.querySelectorAll('article label')]
-      .filter((label) => label.querySelector('input').checked)
-      .forEach((label) => {
-        label.style.display = "none";
-        label.nextElementSibling.style.display = "none";
-      });
-}
-</script>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[所持済みを非表示]]></summary></entry></feed>
+<p>苦行になりそうだ。</p>]]></content><author><name>makietan</name></author><category term="otaku" /><summary type="html"><![CDATA[コミックウォーカーがリニューアルしていた。]]></summary></entry></feed>
