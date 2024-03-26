@@ -1,4 +1,172 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2024-03-26T12:15:34+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">シンクロアンデでカラミティorトリシューラを出す</title><link href="https://makietan.github.io/game/yugioh/2024/03/10/report.html" rel="alternate" type="text/html" title="シンクロアンデでカラミティorトリシューラを出す" /><published>2024-03-10T00:00:00+09:00</published><updated>2024-03-10T00:00:00+09:00</updated><id>https://makietan.github.io/game/yugioh/2024/03/10/report</id><content type="html" xml:base="https://makietan.github.io/game/yugioh/2024/03/10/report.html"><![CDATA[<h2 id="レボリューションシンクロンとゴブリンゾンビで相手ターンにカラミティ">レボリューション・シンクロンとゴブリンゾンビで相手ターンにカラミティ</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2024-03-26T16:40:38+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">「ウルズ1コンビネーション」の雑な考察</title><link href="https://makietan.github.io/game/srwdd/2024/03/26/report.html" rel="alternate" type="text/html" title="「ウルズ1コンビネーション」の雑な考察" /><published>2024-03-26T00:00:00+09:00</published><updated>2024-03-26T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2024/03/26/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2024/03/26/report.html"><![CDATA[<h2 id="ssr-lv110-ウルズ1コンビネーション">SSR+ LV110 ウルズ1コンビネーション</h2>
+
+<h3 id="main-ドラゴンフライ">MAIN (ドラゴンフライ)</h3>
+
+<canvas id="chart-1" style="background-color: #fff"></canvas>
+
+<h4 id="m9d-ファルケ装備時">M9D ファルケ装備時</h4>
+
+<ul>
+  <li>射程 +1</li>
+  <li>特殊・打撃属性の全ての攻撃のブレイクゲージ減少量が100%増加</li>
+  <li>周囲4マス内の味方ユニットの攻撃力が21%増加（効果は重複可能）</li>
+  <li>周囲4マス内の味方ユニットの運動性が19%増加（効果は重複不可）</li>
+</ul>
+
+<h5 id="気力130以上">気力130以上</h5>
+
+<ul>
+  <li>全ての攻撃の与ダメージが35%増加</li>
+</ul>
+
+<h5 id="自分がフィールド上にいるとき味方のarx-7-アーバレスト">自分がフィールド上にいるとき、味方のARX-7 アーバレスト</h5>
+
+<ul>
+  <li>攻撃力・運動性が23.5%増加</li>
+  <li>自分のアクション開始時に気力が5上昇</li>
+</ul>
+
+<canvas id="chart-2" style="background-color: #fff"></canvas>
+
+<h3 id="必殺技スロット時-ドラゴンフライ">必殺技スロット時 (ドラゴンフライ)</h3>
+
+<canvas id="chart-3" style="background-color: #fff"></canvas>
+
+<ul>
+  <li>射程 +1</li>
+</ul>
+
+<h4 id="気力130以上-1">気力130以上</h4>
+
+<ul>
+  <li>全ての攻撃の与ダメージが18%増加</li>
+</ul>
+
+<h5 id="自分がフィールド上にいるとき味方のarx-7-アーバレスト-1">自分がフィールド上にいるとき、味方のARX-7 アーバレスト</h5>
+
+<ul>
+  <li>自分のアクション開始時に気力が5上昇</li>
+</ul>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script>
+    // chart-3
+    const ctx3 = document.getElementById('chart-3');
+    new Chart(ctx3, {
+        type: 'radar',
+        data: {
+            labels: ["HP", "攻撃力", "防御力", "照準値", "運動性"],
+            datasets: [{
+                label: "必殺技スロット時 初期(%)",
+                data: [
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0
+                ]
+            },
+            {
+                label: "必殺技スロット時 戦闘回数最大(%)",
+                data: [
+                    0, 
+                    0, 
+                    18, 
+                    18, 
+                    0
+                ]
+            }]
+        }
+    });
+    // chart-2
+    const ctx2 = document.getElementById('chart-2');
+    new Chart(ctx2, {
+        type: 'radar',
+        data: {
+            labels: ["HP", "攻撃力", "防御力", "照準値", "運動性"],
+            datasets: [{
+                label: "周囲4マス内(%)",
+                data: [
+                    0,
+                    21, 
+                    0, 
+                    0, 
+                    19
+                ]
+            },
+            {
+                label: "ARX-7 アーバレスト(%)",
+                data: [
+                    0,
+                    23.5 + 21, 
+                    0, 
+                    0, 
+                    23.5,
+                ]
+            },
+            {
+                label: "ARX-7 アーバレスト MAIN ウルズ・ストライク(%)",
+                data: [
+                    0,
+                    17.5 + 23.5 + 21,
+                    0,
+                    17.5,
+                    23.5
+                ]
+            },
+            {
+                label: "ARX-7 アーバレスト MAIN ウルズ・ストライク 気力180(%)",
+                data: [
+                    0,
+                    17.5 + 23.5 + 21 + (5.5 * 8),
+                    0,
+                    17.5 + (5.5 * 8),
+                    23.5 + (5.5 * 8)
+                ]
+            }]
+        }
+    });
+    // chart-1
+    const ctx1 = document.getElementById('chart-1');
+    new Chart(ctx1, {
+        type: 'radar',
+        data: {
+            labels: ["HP", "攻撃力", "防御力", "照準値", "運動性"],
+            datasets: [{
+                label: "基礎値",
+                data: [
+                    2835 / 10, 
+                    2910 / 10, 
+                    2190 / 10, 
+                    246, 
+                    297
+                ]
+            },
+            {
+                label: "MAIN 初期",
+                data: [
+                    2835 / 10, 
+                    2910 * (1 + 17.5 / 100) / 10, 
+                    2190 / 10, 
+                    246 * (1 + 22.5 / 100), 
+                    297 * (1 + 22.5 / 100)
+                ]
+            },
+            {
+                label: "MAIN 戦闘回数最大",
+                data: [
+                    2835 / 10, 
+                    2910 * (1 + 17.5 / 100) / 10, 
+                    2190 / 10, 
+                    246 * (1 + (22.5 + 36) / 100), 
+                    297 * (1 + (22.5 + 36) / 100)
+                ]
+            }]
+        }
+    });
+</script>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[SSR+ LV110 ウルズ1コンビネーション]]></summary></entry><entry><title type="html">迎撃戦のスコア計算式</title><link href="https://makietan.github.io/game/srwdd/2024/03/17/report.html" rel="alternate" type="text/html" title="迎撃戦のスコア計算式" /><published>2024-03-17T00:00:00+09:00</published><updated>2024-03-17T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2024/03/17/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2024/03/17/report.html"><![CDATA[<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>スコア = (撃破スコア + 撃破スコア * (オーバー命中率ボーナス + オーバー回避率ボーナス + 連続撃破ボーナス + 同時撃破ボーナス + 気力150撃破ボーナス + 属性撃破ボーナス) + オーバーダメージボーナススコア + オーバー防御ボーナススコア + HP回復ボーナススコア) - 撃墜ペナルティスコア
+</code></pre></div></div>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[スコア = (撃破スコア + 撃破スコア * (オーバー命中率ボーナス + オーバー回避率ボーナス + 連続撃破ボーナス + 同時撃破ボーナス + 気力150撃破ボーナス + 属性撃破ボーナス) + オーバーダメージボーナススコア + オーバー防御ボーナススコア + HP回復ボーナススコア) - 撃墜ペナルティスコア]]></summary></entry><entry><title type="html">シンクロアンデでカラミティorトリシューラを出す</title><link href="https://makietan.github.io/game/yugioh/2024/03/10/report.html" rel="alternate" type="text/html" title="シンクロアンデでカラミティorトリシューラを出す" /><published>2024-03-10T00:00:00+09:00</published><updated>2024-03-10T00:00:00+09:00</updated><id>https://makietan.github.io/game/yugioh/2024/03/10/report</id><content type="html" xml:base="https://makietan.github.io/game/yugioh/2024/03/10/report.html"><![CDATA[<h2 id="レボリューションシンクロンとゴブリンゾンビで相手ターンにカラミティ">レボリューション・シンクロンとゴブリンゾンビで相手ターンにカラミティ</h2>
 
 <div class="trim">
   <div class="trim__item">
@@ -93,24 +261,4 @@ Dr.スランプアラレちゃんやドラゴンクエストで少なからず�
 The app identifier "&lt;app identifier&gt;" cannot be registered to your development team because it is not available. Change your bundle identifier to a unique string to try again.
 </code></pre></div></div>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[「Automatically manage signing」が新しいアプリとして登録しようとしているようなので外して自分で Provisioning Profile を設定すれば先に進める。 全てが解決するわけじゃないので注意。]]></summary></entry><entry><title type="html">引用RTでXのポストが100万PVを達成した</title><link href="https://makietan.github.io/twitter/2024/02/28/report.html" rel="alternate" type="text/html" title="引用RTでXのポストが100万PVを達成した" /><published>2024-02-28T00:00:00+09:00</published><updated>2024-02-28T00:00:00+09:00</updated><id>https://makietan.github.io/twitter/2024/02/28/report</id><content type="html" xml:base="https://makietan.github.io/twitter/2024/02/28/report.html"><![CDATA[<p>ほんと何があるかわからないね。</p>
 
-<p>真相に巻き込まれないようにはしつつもダメなものはダメと誇示していかないとね。</p>]]></content><author><name>makietan</name></author><category term="twitter" /><summary type="html"><![CDATA[ほんと何があるかわからないね。]]></summary></entry><entry><title type="html">「Unable to process request - PLA Update available」が表示されたらAppleの契約を確認をしよう</title><link href="https://makietan.github.io/tech/2024/02/27/report.html" rel="alternate" type="text/html" title="「Unable to process request - PLA Update available」が表示されたらAppleの契約を確認をしよう" /><published>2024-02-27T00:00:00+09:00</published><updated>2024-02-27T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2024/02/27/report</id><content type="html" xml:base="https://makietan.github.io/tech/2024/02/27/report.html"><![CDATA[<p><a href="https://developer.apple.com/account">Apple Developer Program</a> に移動すると<code class="language-plaintext highlighter-rouge">本プログラムの使用許諾契約が更新されました。</code>と表示されているはず。</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Unable to process request - PLA Update available
-You currently don't have access to this membership resource. To resolve this issue, your team's Account Holder, &lt;Account Holder User Name&gt;, must agree to the latest Program License Agreement.
-</code></pre></div></div>
-
-<p>Account Holder に同意の手続きをやってもらうと解決する。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[Apple Developer Program に移動すると本プログラムの使用許諾契約が更新されました。と表示されているはず。]]></summary></entry><entry><title type="html">味噌ラーメンを食べた</title><link href="https://makietan.github.io/gourmet/2024/02/24/report.html" rel="alternate" type="text/html" title="味噌ラーメンを食べた" /><published>2024-02-24T00:00:00+09:00</published><updated>2024-02-24T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2024/02/24/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2024/02/24/report.html"><![CDATA[<p>味噌汁に麺を入れてしまった感じが強い。</p>
-
-<p>当たり外れも結構わかりやすい。</p>
-
-<p>醤油ラーメンほどの大外れはなさそう。</p>
-
-<p>ただ個人的な美味しいのラインは超えてこない。</p>
-
-<p>面白さは醤油ラーメン。</p>
-
-<p>安定性は味噌ラーメン。</p>
-
-<p>ああもううるせえ。</p>
-
-<p>好きに食えばいい。</p>]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[味噌汁に麺を入れてしまった感じが強い。]]></summary></entry></feed>
+<p>真相に巻き込まれないようにはしつつもダメなものはダメと誇示していかないとね。</p>]]></content><author><name>makietan</name></author><category term="twitter" /><summary type="html"><![CDATA[ほんと何があるかわからないね。]]></summary></entry></feed>
