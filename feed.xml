@@ -1,4 +1,352 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2024-06-27T12:18:57+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">吉野家の「あすトククーポンキャンペーン」でいい感じの組み合わせを考える</title><link href="https://makietan.github.io/gourmet/2024/06/26/report.html" rel="alternate" type="text/html" title="吉野家の「あすトククーポンキャンペーン」でいい感じの組み合わせを考える" /><published>2024-06-26T00:00:00+09:00</published><updated>2024-06-26T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2024/06/26/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2024/06/26/report.html"><![CDATA[<p><img src="https://www.yoshinoya.com/wp-content/uploads/2024/05/29165008/240430-asutoku-pc.jpg" alt="" /></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2024-06-27T17:57:06+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">制圧戦「翼はシュヴァルツ」の編成</title><link href="https://makietan.github.io/game/srwdd/2024/06/27/report.html" rel="alternate" type="text/html" title="制圧戦「翼はシュヴァルツ」の編成" /><published>2024-06-27T00:00:00+09:00</published><updated>2024-06-27T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2024/06/27/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2024/06/27/report.html"><![CDATA[<p>今回は前回より楽。
+ラスボスでリジェネはほんとに勘弁して欲しいわけよ。</p>
+
+<p>ステータスは全て EX LV3 のもの。</p>
+
+<h2 id="拠点1">拠点1</h2>
+
+<p>運動性の高い機体で編成した。
+特殊でなくてもゴリ押しが可能。</p>
+
+<ul>
+  <li>ARX-7 アーバレスト</li>
+  <li>ダブルオーガンダム</li>
+  <li>M9D ファルケ</li>
+  <li>ナイチンゲール</li>
+</ul>
+
+<h3 id="ボス情報">ボス情報</h3>
+
+<ul>
+  <li>タイプ：バランス</li>
+  <li>弱点属性：特殊</li>
+  <li>ブレイク時
+    <ul>
+      <li>防御力が減少する</li>
+    </ul>
+  </li>
+  <li>撃墜可能なユニットを狙う</li>
+  <li>HP減少時
+    <ul>
+      <li>精神：気合・鉄壁・ひらめき・必中・決意</li>
+    </ul>
+  </li>
+  <li>HP50%以下
+    <ul>
+      <li>アクション時HP10%回復
+        <ul>
+          <li>540644 (EX LV3) × 10% = 54064.4</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>2回行動</li>
+  <li>
+    <p>戦闘時
+||敵からの攻撃|敵への攻撃|基礎値（EX LV3）|
+|:-:|:-|:-|-:|
+|攻撃力|<strong><span style="color:red;">50%</span></strong> (29517)|35% (26565.3)|19678|
+|防御力|35% (29606.85)|<strong><span style="color:red;">50%</span></strong> (32896.5)|21931|
+|照準値|<strong><span style="color:red;">50%</span></strong> (2623.5)|35% (2361.15)|1749|
+|運動性|35% (1530.9)|35% (1530.9)|1134|</p>
+  </li>
+  <li>戦闘時、プレイヤー側の被ダメージ軽減効果の上限値 40%</li>
+  <li>被ダメージ・攻撃命中時気力+3</li>
+</ul>
+
+<h2 id="拠点2">拠点2</h2>
+
+<p>雑魚</p>
+
+<h2 id="拠点3">拠点3</h2>
+
+<p>防御力が高い機体でちまちま殴る感じになった。
+グリッドマンは後々使うのでビーム攻撃を浪費しないようにする。
+マジンエンペラーGの運動性を一番高くして、グリッドマンの照準値を一番高くした。
+ソウルゲインは運動性を下げないと狙われるので変更予定。</p>
+
+<ul>
+  <li>マジンエンペラーG</li>
+  <li>グリッドマン</li>
+  <li>ブレイバーン</li>
+  <li>ソウルゲイン</li>
+</ul>
+
+<h3 id="ボス情報-1">ボス情報</h3>
+
+<p>2体</p>
+
+<ul>
+  <li>タイプ：攻撃&amp;命中</li>
+  <li>弱点属性：ビーム</li>
+  <li>ブレイク時、防御力が減少する</li>
+  <li>戦闘回数に応じて攻撃力・防御力・照準値が8%増加する（最大64%）</li>
+  <li>2回行動</li>
+  <li>ブレイク状態でないとき、被ダメージを50%軽減し、新たに受ける弱体効果を無効化する</li>
+  <li>戦闘時、プレイヤー側の被ダメージ軽減効果の上限値 40%</li>
+  <li>被ダメージ・攻撃命中時気力+3</li>
+</ul>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center"> </th>
+      <th style="text-align: center">ヒリング（髪色：緑）</th>
+      <th style="text-align: center">リヴァイヴ（髪色：紫）</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">ターゲット</td>
+      <td style="text-align: center">照準値が高い</td>
+      <td style="text-align: center">運動性が高い</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">精神：HP減少</td>
+      <td style="text-align: center">気合・鉄壁・屈強・不屈・<strong><span style="color:red;">根性</span></strong></td>
+      <td style="text-align: center">気合・鉄壁・熱血・不屈・決意</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">攻撃力（最大）</td>
+      <td style="text-align: center">22048 (36158.72)</td>
+      <td style="text-align: center">22260 (36506.4)</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">防御力（最大）</td>
+      <td style="text-align: center">20415 (33480.6)</td>
+      <td style="text-align: center">20198 (33124.72)</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">照準値（最大）</td>
+      <td style="text-align: center">4584 (7517.76)</td>
+      <td style="text-align: center">4801 (7873.64)</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">運動性</td>
+      <td style="text-align: center">1144</td>
+      <td style="text-align: center">1144</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">周囲4マス</td>
+      <td style="text-align: center">敵攻撃力-60%</td>
+      <td style="text-align: center">与ダメージ・防御力-35%</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="拠点4">拠点4</h2>
+
+<p>マジンエンペラーGの運動性が最大になるように編成する。
+火力はライディーン・ゲージブレイクはクルツ・バフはカトル。
+カトルは途中から戦力にならないので変更も考えている。
+射程外から攻撃するか防御力の高い実弾機体を探そうと思う。</p>
+
+<ul>
+  <li>マジンエンペラーG</li>
+  <li>ガンダムサンドロック改</li>
+  <li>ライディーン</li>
+  <li>M9 ガーンズバック（クルツ）</li>
+</ul>
+
+<h3 id="ボス情報-2">ボス情報</h3>
+
+<ul>
+  <li>タイプ：防御&amp;命中</li>
+  <li>弱点属性：実弾</li>
+  <li>ブレイク時
+    <ul>
+      <li>防御力が減少する</li>
+    </ul>
+  </li>
+  <li>運動性の高いユニットを狙う</li>
+  <li>HP減少時
+    <ul>
+      <li>精神：気合・鉄壁・集中・不屈・熱血</li>
+    </ul>
+  </li>
+  <li>HP20%減少するごとに
+    <ul>
+      <li>攻撃力・防御力・照準値・運動性 20%
+||0% (598000)|20% (478400)|40% (358800)|60% (239200)|80% (119600)|
+|:-:|:-:|:-:|:-:|:-:|:-:|
+|攻撃力|19323|23187.6|27052.2|30916.8|34781.4|
+|防御力|24910|29892|34874|39856|44838|
+|照準値|4695|5634|6573|7512|8451|
+|運動性|1144|1601.6|1712|1830.4|2059.2|</li>
+    </ul>
+  </li>
+  <li>1度だけ撃墜されずにHP1だけ残り、HP50%まで回復
+    <ul>
+      <li>598000 (EX LV3) × 50% = 299000</li>
+    </ul>
+  </li>
+  <li>戦闘時、プレイヤー側の被ダメージ軽減効果の上限値 40%</li>
+  <li>被ダメージを75%軽減するバリアを展開</li>
+  <li>ブレイク状態でないとき、被ダメージを50%軽減し、新たに受ける弱体効果を無効化する</li>
+  <li>2回行動</li>
+  <li>被ダメージ・攻撃命中時気力+3</li>
+</ul>
+
+<h2 id="拠点5">拠点5</h2>
+
+<p>雑魚</p>
+
+<h2 id="拠点6">拠点6</h2>
+
+<p>グリッドマンを壁にして全戦力で叩く。
+ブレイバーンは最後の拠点でも使うので浪費に注意。
+ヴヴヴⅥは自由枠。</p>
+
+<ul>
+  <li>マジンエンペラーG</li>
+  <li>グリッドマン</li>
+  <li>ブレイバーン</li>
+  <li>ヴァルヴレイヴⅥ</li>
+</ul>
+
+<h3 id="ボス情報-3">ボス情報</h3>
+
+<ul>
+  <li>タイプ：バランス</li>
+  <li>弱点属性：打撃／ビーム</li>
+  <li>ブレイク時
+    <ul>
+      <li>防御力が減少する</li>
+    </ul>
+  </li>
+  <li>HP減少時
+    <ul>
+      <li>精神：気合・集中・鉄壁・ひらめき・屈強</li>
+    </ul>
+  </li>
+  <li>戦闘回数に応じて攻撃力・防御力・照準値が8%増加する（最大64%）
+||基礎値|64%|
+|:-:|-:|-:|
+|攻撃力|24295|39843.8|
+|防御力|23473|38495.72|
+|照準値|3821|6266.44|
+|運動性|1192|1954.88|</li>
+  <li>敵が周囲4マス以内
+    <ul>
+      <li>攻撃力30%、運動性60%増加する</li>
+    </ul>
+  </li>
+  <li>ブレイク状態でないとき、被ダメージを50%軽減し、新たに受ける弱体効果を無効化する</li>
+  <li>戦闘時、プレイヤー側の被ダメージ軽減効果の上限値 40%</li>
+  <li>ブレイク状態でないとき3回行動</li>
+  <li>被ダメージ・攻撃命中時気力+6</li>
+</ul>
+
+<h2 id="拠点7">拠点7</h2>
+
+<p>射程外からの攻撃か運動性の高い機体を使う。
+必中があるのでステージ開始時に不屈をつけておくとよさそう。</p>
+
+<ul>
+  <li>ブレイバーン</li>
+  <li>ARX-7 アーバレスト</li>
+  <li>ダブルオーガンダム</li>
+  <li>M9D ファルケ</li>
+</ul>
+
+<h3 id="ボス情報-4">ボス情報</h3>
+
+<ul>
+  <li>気力上限が高い</li>
+  <li>ブレイク時、運動性が減少</li>
+  <li>照準値の高いユニットを狙う</li>
+  <li>HPが減少
+    <ul>
+      <li>精神：気合・<strong><span style="color: red">根性</span></strong>・屈強・ひらめき</li>
+    </ul>
+  </li>
+  <li>気力が上昇
+    <ul>
+      <li>精神：必中・魂</li>
+    </ul>
+  </li>
+  <li>極めて高い命中率の必殺技を発動する</li>
+  <li>射程+1</li>
+  <li>与ダメージ+50%</li>
+  <li>気力上限+80</li>
+  <li>周囲5マス内味方
+    <ul>
+      <li>攻撃力・防御力25%増加</li>
+    </ul>
+  </li>
+  <li>自分アクション時、照準値が70%増加</li>
+  <li>攻撃命中時、攻撃力・防御力が15%増加（2アクションの間有効）</li>
+  <li>戦闘時、プレイヤー側の被ダメージ軽減効果の上限値 40%</li>
+  <li>HPが20%減少する毎
+    <ul>
+      <li>攻撃力・防御力・照準値・運動性+20%</li>
+    </ul>
+  </li>
+  <li>ブレイク状態でないとき、被ダメージを60%軽減し、新たに受ける弱体効果を無効化する</li>
+  <li>3回行動</li>
+  <li>被ダメージ・攻撃命中時気力+3</li>
+</ul>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center"> </th>
+      <th style="text-align: center">0% (1044420)</th>
+      <th style="text-align: center">アクション時・2HIT</th>
+      <th style="text-align: center">20% (835536)</th>
+      <th style="text-align: center">40% (626652)</th>
+      <th style="text-align: center">60% (417768)</th>
+      <th style="text-align: center">80% (208884)</th>
+      <th style="text-align: center">アクション時・2HIT</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">攻撃力</td>
+      <td style="text-align: center">21306</td>
+      <td style="text-align: center">24501.9</td>
+      <td style="text-align: center">25567.2</td>
+      <td style="text-align: center">29828.4</td>
+      <td style="text-align: center">34089.6</td>
+      <td style="text-align: center">38350.8</td>
+      <td style="text-align: center">41546.7</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">防御力</td>
+      <td style="text-align: center">21290</td>
+      <td style="text-align: center">24483.5</td>
+      <td style="text-align: center">25548</td>
+      <td style="text-align: center">29806</td>
+      <td style="text-align: center">34064</td>
+      <td style="text-align: center">38322</td>
+      <td style="text-align: center">41515.5</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">照準値</td>
+      <td style="text-align: center">2183</td>
+      <td style="text-align: center">3711.1</td>
+      <td style="text-align: center">2619.6</td>
+      <td style="text-align: center">3056.2</td>
+      <td style="text-align: center">3492.8</td>
+      <td style="text-align: center">3929.4</td>
+      <td style="text-align: center">5457.5</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">運動性</td>
+      <td style="text-align: center">1038</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">1245.6</td>
+      <td style="text-align: center">1453.2</td>
+      <td style="text-align: center">1660.8</td>
+      <td style="text-align: center">1868.4</td>
+      <td style="text-align: center">-</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="おわりに">おわりに</h2>
+
+<p>プレイヤーによって育成状態が異なるので、あまり参考にならないかもしれない。</p>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[今回は前回より楽。 ラスボスでリジェネはほんとに勘弁して欲しいわけよ。]]></summary></entry><entry><title type="html">吉野家の「あすトククーポンキャンペーン」でいい感じの組み合わせを考える</title><link href="https://makietan.github.io/gourmet/2024/06/26/report.html" rel="alternate" type="text/html" title="吉野家の「あすトククーポンキャンペーン」でいい感じの組み合わせを考える" /><published>2024-06-26T00:00:00+09:00</published><updated>2024-06-26T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2024/06/26/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2024/06/26/report.html"><![CDATA[<p><img src="https://www.yoshinoya.com/wp-content/uploads/2024/05/29165008/240430-asutoku-pc.jpg" alt="" /></p>
 
 <p>今回は8月末まで開催されている「あすトククーポン」</p>
 
@@ -233,40 +581,4 @@ console.log(selectedItems);
 
 <p>対ユーロで円安も一段落しそうなタイミングなのに楽しみが消えそうで困っている。</p>
 
-<p>夏・冬といえば青春18きっぷで1日中電車に乗って、翌日体調を壊すっていうのをしていたが今後はできなくなりそうだ。</p>]]></content><author><name>makietan</name></author><category term="railway" /><summary type="html"><![CDATA[www.tetsudo.com あれっ、夏と冬の分はないの!?　2024年分の「青春18きっぷ」、発売内容が「春用のみ」発表の理由は - 鉄道コム JRグループが、2024年度分の「青春18きっぷ」の発売を発表しました。しかし、例年は3季節分の発表のはずが、今回は春用のみ。何があったのでしょうか。]]></summary></entry><entry><title type="html">餃子の王将の大感謝祭に行ってきた</title><link href="https://makietan.github.io/gourmet/2024/06/15/report.html" rel="alternate" type="text/html" title="餃子の王将の大感謝祭に行ってきた" /><published>2024-06-15T00:00:00+09:00</published><updated>2024-06-15T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2024/06/15/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2024/06/15/report.html"><![CDATA[<p><u>回鍋肉セット(1050) + 餃子3ヶ(143)</u></p>
-
-<div class="trim">
-  <div class="trim__item">
-    <a href="https://makietan.github.io/assets/images/2024-06-15-report/16-16-46.png">
-      <img class="one" src="https://makietan.github.io/assets/thumbnail/2024-06-15-report/16-16-46.png" />
-    </a>
-  </div>
-</div>
-
-<p>250円割引券がもらえるので行ってきた。</p>
-
-<p>8月末まで利用できる。</p>
-
-<div class="card">
-  <a href="https://www.ohsho.co.jp/menu/east/post_348.html"></a>
-  <div class="card__header">
-    <a href="https://www.ohsho.co.jp/menu/east/post_348.html">www.ohsho.co.jp</a>
-  </div>
-  <div class="card__image">
-    <img src="https://www.ohsho.co.jp/common/img/og_image.png" />
-  </div>
-  <div class="card__title">
-    <p>回鍋肉（ホイコーロー） | メニュー：北海道・東北・関東・信越 | 餃子の王将</p>
-  </div>
-  <div class="card__description">
-    <p>餃子の王将の一品料理メニュー、「回鍋肉（ホイコーロー）」をご覧いただけます。回鍋肉（ホイコーロー）へのこだわりから種類豊富な中華料理メニューのご紹介、お得なイベント・フェア情報まで。餃子の王将の公式サイトです。</p>
-  </div>
-</div>
-
-<p>今回は中華セット（回鍋肉）を注文した。</p>
-
-<p>餃子3ヶを追加で注文すると7%割引後も1109.49円になる。</p>
-
-<p>これに100円割引券を適用すると1017円になった。</p>
-
-<p>かなりお得に食べたと思う。</p>]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[回鍋肉セット(1050) + 餃子3ヶ(143)]]></summary></entry></feed>
+<p>夏・冬といえば青春18きっぷで1日中電車に乗って、翌日体調を壊すっていうのをしていたが今後はできなくなりそうだ。</p>]]></content><author><name>makietan</name></author><category term="railway" /><summary type="html"><![CDATA[www.tetsudo.com あれっ、夏と冬の分はないの!?　2024年分の「青春18きっぷ」、発売内容が「春用のみ」発表の理由は - 鉄道コム JRグループが、2024年度分の「青春18きっぷ」の発売を発表しました。しかし、例年は3季節分の発表のはずが、今回は春用のみ。何があったのでしょうか。]]></summary></entry></feed>
