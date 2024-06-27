@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2024-06-27T17:57:06+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">制圧戦「翼はシュヴァルツ」の編成</title><link href="https://makietan.github.io/game/srwdd/2024/06/27/report.html" rel="alternate" type="text/html" title="制圧戦「翼はシュヴァルツ」の編成" /><published>2024-06-27T00:00:00+09:00</published><updated>2024-06-27T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2024/06/27/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2024/06/27/report.html"><![CDATA[<p>今回は前回より楽。
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2024-06-27T19:59:42+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">制圧戦「翼はシュヴァルツ」の編成</title><link href="https://makietan.github.io/game/srwdd/2024/06/27/report.html" rel="alternate" type="text/html" title="制圧戦「翼はシュヴァルツ」の編成" /><published>2024-06-27T00:00:00+09:00</published><updated>2024-06-27T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2024/06/27/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2024/06/27/report.html"><![CDATA[<p>今回は前回より楽。
 ラスボスでリジェネはほんとに勘弁して欲しいわけよ。</p>
 
 <p>ステータスは全て EX LV3 のもの。</p>
@@ -6,13 +6,14 @@
 <h2 id="拠点1">拠点1</h2>
 
 <p>運動性の高い機体で編成した。
-特殊でなくてもゴリ押しが可能。</p>
+特殊でなくてもゴリ押しが可能。
+ナイチンゲールの特殊攻撃を遠距離攻撃すればかなり楽だった。</p>
 
 <ul>
-  <li>ARX-7 アーバレスト</li>
-  <li>ダブルオーガンダム</li>
+  <li>ARX-7 アーバレスト (気力180・運動性7545)</li>
+  <li>ダブルオーガンダム (気力185・運動性5529)</li>
   <li>M9D ファルケ</li>
-  <li>ナイチンゲール</li>
+  <li>ナイチンゲール (気力170・運動性3454・遠距離攻撃[射程5])</li>
 </ul>
 
 <h3 id="ボス情報">ボス情報</h3>
@@ -41,15 +42,47 @@
     </ul>
   </li>
   <li>2回行動</li>
-  <li>
-    <p>戦闘時
-||敵からの攻撃|敵への攻撃|基礎値（EX LV3）|
-|:-:|:-|:-|-:|
-|攻撃力|<strong><span style="color:red;">50%</span></strong> (29517)|35% (26565.3)|19678|
-|防御力|35% (29606.85)|<strong><span style="color:red;">50%</span></strong> (32896.5)|21931|
-|照準値|<strong><span style="color:red;">50%</span></strong> (2623.5)|35% (2361.15)|1749|
-|運動性|35% (1530.9)|35% (1530.9)|1134|</p>
-  </li>
+  <li>戦闘時</li>
+</ul>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">　</th>
+      <th style="text-align: left">敵からの攻撃</th>
+      <th style="text-align: left">敵への攻撃</th>
+      <th style="text-align: right">基礎値（EX LV3）</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">攻撃力</td>
+      <td style="text-align: left"><strong><span style="color:red;">50%</span></strong> (29517)</td>
+      <td style="text-align: left">35% (26565.3)</td>
+      <td style="text-align: right">19678</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">防御力</td>
+      <td style="text-align: left">35% (29606.85)</td>
+      <td style="text-align: left"><strong><span style="color:red;">50%</span></strong> (32896.5)</td>
+      <td style="text-align: right">21931</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">照準値</td>
+      <td style="text-align: left"><strong><span style="color:red;">50%</span></strong> (2623.5)</td>
+      <td style="text-align: left">35% (2361.15)</td>
+      <td style="text-align: right">1749</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">運動性</td>
+      <td style="text-align: left">35% (1530.9)</td>
+      <td style="text-align: left">35% (1530.9)</td>
+      <td style="text-align: right">1134</td>
+    </tr>
+  </tbody>
+</table>
+
+<ul>
   <li>戦闘時、プレイヤー側の被ダメージ軽減効果の上限値 40%</li>
   <li>被ダメージ・攻撃命中時気力+3</li>
 </ul>
@@ -66,8 +99,8 @@
 ソウルゲインは運動性を下げないと狙われるので変更予定。</p>
 
 <ul>
-  <li>マジンエンペラーG</li>
-  <li>グリッドマン</li>
+  <li>マジンエンペラーG (気力170・防御力48575・照準値2948・運動性1278)</li>
+  <li>グリッドマン (気力170・防御力42060・照準値3170・運動性1240)</li>
   <li>ブレイバーン</li>
   <li>ソウルゲイン</li>
 </ul>
@@ -142,10 +175,10 @@
 射程外から攻撃するか防御力の高い実弾機体を探そうと思う。</p>
 
 <ul>
-  <li>マジンエンペラーG</li>
+  <li>マジンエンペラーG (気力170・防御力48575・照準値2948・運動性1278)</li>
   <li>ガンダムサンドロック改</li>
   <li>ライディーン</li>
-  <li>M9 ガーンズバック（クルツ）</li>
+  <li>M9 ガーンズバック[クルツ]</li>
 </ul>
 
 <h3 id="ボス情報-2">ボス情報</h3>
@@ -198,8 +231,8 @@
 ヴヴヴⅥは自由枠。</p>
 
 <ul>
-  <li>マジンエンペラーG</li>
-  <li>グリッドマン</li>
+  <li>マジンエンペラーG (気力170・防御力48575・照準値2948・運動性1278)</li>
+  <li>グリッドマン (気力170・防御力42060・照準値3170・運動性1240)</li>
   <li>ブレイバーン</li>
   <li>ヴァルヴレイヴⅥ</li>
 </ul>
@@ -219,13 +252,42 @@
       <li>精神：気合・集中・鉄壁・ひらめき・屈強</li>
     </ul>
   </li>
-  <li>戦闘回数に応じて攻撃力・防御力・照準値が8%増加する（最大64%）
-||基礎値|64%|
-|:-:|-:|-:|
-|攻撃力|24295|39843.8|
-|防御力|23473|38495.72|
-|照準値|3821|6266.44|
-|運動性|1192|1954.88|</li>
+  <li>戦闘回数に応じて攻撃力・防御力・照準値が8%増加する（最大64%）</li>
+</ul>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center"> </th>
+      <th style="text-align: right">基礎値</th>
+      <th style="text-align: right">64%</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">攻撃力</td>
+      <td style="text-align: right">24295</td>
+      <td style="text-align: right">39843.8</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">防御力</td>
+      <td style="text-align: right">23473</td>
+      <td style="text-align: right">38495.72</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">照準値</td>
+      <td style="text-align: right">3821</td>
+      <td style="text-align: right">6266.44</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">運動性</td>
+      <td style="text-align: right">1192</td>
+      <td style="text-align: right">1954.88</td>
+    </tr>
+  </tbody>
+</table>
+
+<ul>
   <li>敵が周囲4マス以内
     <ul>
       <li>攻撃力30%、運動性60%増加する</li>
@@ -244,8 +306,8 @@
 
 <ul>
   <li>ブレイバーン</li>
-  <li>ARX-7 アーバレスト</li>
-  <li>ダブルオーガンダム</li>
+  <li>ARX-7 アーバレスト (気力180・運動性7545)</li>
+  <li>ダブルオーガンダム (気力185・運動性5529)</li>
   <li>M9D ファルケ</li>
 </ul>
 
@@ -505,7 +567,7 @@ for (let i = 0; i < menu.length; i++) {
 
 console.log(selectedItems);
 
-</script>]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">3万取り返すぞ</title><link href="https://makietan.github.io/fx/2024/06/25/report.html" rel="alternate" type="text/html" title="3万取り返すぞ" /><published>2024-06-25T00:00:00+09:00</published><updated>2024-06-25T00:00:00+09:00</updated><id>https://makietan.github.io/fx/2024/06/25/report</id><content type="html" xml:base="https://makietan.github.io/fx/2024/06/25/report.html"><![CDATA[<p>もっと下落してくれたら楽々集まるのにほんといい加減にして欲しい円安。</p>]]></content><author><name>makietan</name></author><category term="fx" /><summary type="html"><![CDATA[もっと下落してくれたら楽々集まるのにほんといい加減にして欲しい円安。]]></summary></entry><entry><title type="html">いやー久々に実損出しわたわFX</title><link href="https://makietan.github.io/fx/2024/06/24/report.html" rel="alternate" type="text/html" title="いやー久々に実損出しわたわFX" /><published>2024-06-24T00:00:00+09:00</published><updated>2024-06-24T00:00:00+09:00</updated><id>https://makietan.github.io/fx/2024/06/24/report</id><content type="html" xml:base="https://makietan.github.io/fx/2024/06/24/report.html"><![CDATA[<p>間違えて売り持ってしまって1円も動かれた。
+</script>]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">3万取り返すぞ</title><link href="https://makietan.github.io/fx/2024/06/25/report.html" rel="alternate" type="text/html" title="3万取り返すぞ" /><published>2024-06-25T00:00:00+09:00</published><updated>2024-06-25T00:00:00+09:00</updated><id>https://makietan.github.io/fx/2024/06/25/report</id><content type="html" xml:base="https://makietan.github.io/fx/2024/06/25/report.html"><![CDATA[<p>もっと下落してくれたら楽々集まるのにほんといい加減にして欲しい円安。</p>]]></content><author><name>makietan</name></author><category term="fx" /><summary type="html"><![CDATA[もっと下落してくれたら楽々集まるのにほんといい加減にして欲しい円安。]]></summary></entry><entry><title type="html">いやー久々に実損出したわFX</title><link href="https://makietan.github.io/fx/2024/06/24/report.html" rel="alternate" type="text/html" title="いやー久々に実損出したわFX" /><published>2024-06-24T00:00:00+09:00</published><updated>2024-06-24T00:00:00+09:00</updated><id>https://makietan.github.io/fx/2024/06/24/report</id><content type="html" xml:base="https://makietan.github.io/fx/2024/06/24/report.html"><![CDATA[<p>間違えて売り持ってしまって1円も動かれた。
 かなり痛いって。
 追証精度をマジで廃止して欲しい。
 勝てねえよこんなんあったら。</p>]]></content><author><name>makietan</name></author><category term="fx" /><summary type="html"><![CDATA[間違えて売り持ってしまって1円も動かれた。 かなり痛いって。 追証精度をマジで廃止して欲しい。 勝てねえよこんなんあったら。]]></summary></entry><entry><title type="html">M750Lを買った</title><link href="https://makietan.github.io/tech/2024/06/23/report.html" rel="alternate" type="text/html" title="M750Lを買った" /><published>2024-06-23T00:00:00+09:00</published><updated>2024-06-23T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2024/06/23/report</id><content type="html" xml:base="https://makietan.github.io/tech/2024/06/23/report.html"><![CDATA[<p>マウスの一部が剥がれてきたので新しく買った。</p>
