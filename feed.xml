@@ -1,4 +1,38 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2024-06-27T19:59:42+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">制圧戦「翼はシュヴァルツ」の編成</title><link href="https://makietan.github.io/game/srwdd/2024/06/27/report.html" rel="alternate" type="text/html" title="制圧戦「翼はシュヴァルツ」の編成" /><published>2024-06-27T00:00:00+09:00</published><updated>2024-06-27T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2024/06/27/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2024/06/27/report.html"><![CDATA[<p>今回は前回より楽。
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2024-06-28T11:55:17+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">遊戯王マスターデュエルのリミットレギュレーション分解ボーナスチェッカー</title><link href="https://makietan.github.io/game/yugioh/2024/06/28/report.html" rel="alternate" type="text/html" title="遊戯王マスターデュエルのリミットレギュレーション分解ボーナスチェッカー" /><published>2024-06-28T00:00:00+09:00</published><updated>2024-06-28T00:00:00+09:00</updated><id>https://makietan.github.io/game/yugioh/2024/06/28/report</id><content type="html" xml:base="https://makietan.github.io/game/yugioh/2024/06/28/report.html"><![CDATA[<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+
+<h2 id="無制限--禁止-3枚分解">無制限 → 禁止 (3枚分解)</h2>
+
+<div class="row pb-4">
+<input type="checkbox" class="btn-check" id="カタパルト・タートル" autocomplete="off" />
+<label class="btn btn-outline-secondary" for="カタパルト・タートル">【R】カタパルト・タートル</label><br />
+</div>
+
+<h2 id="制限--禁止-1枚分解">制限 → 禁止 (1枚分解)</h2>
+
+<div class="row pb-4">
+<input type="checkbox" class="btn-check" id="カイザーコロシアム" autocomplete="off" />
+<label class="btn btn-outline-secondary" for="カイザーコロシアム">【SR】カイザーコロシアム</label><br />
+</div>
+
+<h2 id="無制限--制限-2枚分解">無制限 → 制限 (2枚分解)</h2>
+
+<div class="row pb-4">
+<input type="checkbox" class="btn-check" id="サモンリミッター" autocomplete="off" />
+<label class="btn btn-outline-secondary" for="サモンリミッター">【SR】サモンリミッター</label><br />
+</div>
+
+<h2 id="無制限--準制限-1枚分解">無制限 → 準制限 (1枚分解)</h2>
+
+<div class="row pb-4">
+<input type="checkbox" class="btn-check" id="篝火" autocomplete="off" />
+<label class="btn btn-outline-secondary" for="篝火">【UR】篝火</label><br />
+<input type="checkbox" class="btn-check" id="R-ACEエアホイスター" autocomplete="off" />
+<label class="btn btn-outline-secondary" for="R-ACEエアホイスター">【SR】R-ACEエアホイスター</label><br />
+<input type="checkbox" class="btn-check" id="ピュアリィ・リリィ" autocomplete="off" />
+<label class="btn btn-outline-secondary" for="ピュアリィ・リリィ">【R】ピュアリィ・リリィ</label><br />
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>]]></content><author><name>makietan</name></author><category term="game" /><category term="yugioh" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">制圧戦「翼はシュヴァルツ」の編成</title><link href="https://makietan.github.io/game/srwdd/2024/06/27/report.html" rel="alternate" type="text/html" title="制圧戦「翼はシュヴァルツ」の編成" /><published>2024-06-27T00:00:00+09:00</published><updated>2024-06-27T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2024/06/27/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2024/06/27/report.html"><![CDATA[<p>今回は前回より楽。
 ラスボスでリジェネはほんとに勘弁して欲しいわけよ。</p>
 
 <p>ステータスは全て EX LV3 のもの。</p>
@@ -570,7 +604,7 @@ console.log(selectedItems);
 </script>]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">3万取り返すぞ</title><link href="https://makietan.github.io/fx/2024/06/25/report.html" rel="alternate" type="text/html" title="3万取り返すぞ" /><published>2024-06-25T00:00:00+09:00</published><updated>2024-06-25T00:00:00+09:00</updated><id>https://makietan.github.io/fx/2024/06/25/report</id><content type="html" xml:base="https://makietan.github.io/fx/2024/06/25/report.html"><![CDATA[<p>もっと下落してくれたら楽々集まるのにほんといい加減にして欲しい円安。</p>]]></content><author><name>makietan</name></author><category term="fx" /><summary type="html"><![CDATA[もっと下落してくれたら楽々集まるのにほんといい加減にして欲しい円安。]]></summary></entry><entry><title type="html">いやー久々に実損出したわFX</title><link href="https://makietan.github.io/fx/2024/06/24/report.html" rel="alternate" type="text/html" title="いやー久々に実損出したわFX" /><published>2024-06-24T00:00:00+09:00</published><updated>2024-06-24T00:00:00+09:00</updated><id>https://makietan.github.io/fx/2024/06/24/report</id><content type="html" xml:base="https://makietan.github.io/fx/2024/06/24/report.html"><![CDATA[<p>間違えて売り持ってしまって1円も動かれた。
 かなり痛いって。
 追証精度をマジで廃止して欲しい。
-勝てねえよこんなんあったら。</p>]]></content><author><name>makietan</name></author><category term="fx" /><summary type="html"><![CDATA[間違えて売り持ってしまって1円も動かれた。 かなり痛いって。 追証精度をマジで廃止して欲しい。 勝てねえよこんなんあったら。]]></summary></entry><entry><title type="html">M750Lを買った</title><link href="https://makietan.github.io/tech/2024/06/23/report.html" rel="alternate" type="text/html" title="M750Lを買った" /><published>2024-06-23T00:00:00+09:00</published><updated>2024-06-23T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2024/06/23/report</id><content type="html" xml:base="https://makietan.github.io/tech/2024/06/23/report.html"><![CDATA[<p>マウスの一部が剥がれてきたので新しく買った。</p>
+勝てねえよこんなんあったら。</p>]]></content><author><name>makietan</name></author><category term="fx" /><summary type="html"><![CDATA[間違えて売り持ってしまって1円も動かれた。 かなり痛いって。 追証精度をマジで廃止して欲しい。 勝てねえよこんなんあったら。]]></summary></entry><entry><title type="html">M750Lを使った</title><link href="https://makietan.github.io/tech/2024/06/23/report.html" rel="alternate" type="text/html" title="M750Lを使った" /><published>2024-06-23T00:00:00+09:00</published><updated>2024-06-23T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2024/06/23/report</id><content type="html" xml:base="https://makietan.github.io/tech/2024/06/23/report.html"><![CDATA[<p>マウスの一部が剥がれてきたので、新しく買ったのが届いたから使った。</p>
 
 <p>横スクロールのボタンが消えてる…。</p>
 
@@ -578,9 +612,9 @@ console.log(selectedItems);
 
 <p>M590だったから別物だけど。</p>
 
-<p>無能すぎるぞロジクール。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[マウスの一部が剥がれてきたので新しく買った。]]></summary></entry><entry><title type="html">「新キン肉マン 声優超人インタビュー」で一番長いインタビューをしているのは上坂すみれ</title><link href="https://makietan.github.io/otaku/2024/06/20/report.html" rel="alternate" type="text/html" title="「新キン肉マン 声優超人インタビュー」で一番長いインタビューをしているのは上坂すみれ" /><published>2024-06-20T00:00:00+09:00</published><updated>2024-06-20T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2024/06/20/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2024/06/20/report.html"><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/BuuW5C-saxU?si=jfh0nq82WgY6SZ6f" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+<p>無能すぎるぞロジクール。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[マウスの一部が剥がれてきたので、新しく買ったのが届いたから使った。]]></summary></entry><entry><title type="html">「新キン肉マン 声優超人インタビュー」で一番長いインタビューをしているのは上坂すみれ</title><link href="https://makietan.github.io/otaku/2024/06/20/report.html" rel="alternate" type="text/html" title="「新キン肉マン 声優超人インタビュー」で一番長いインタビューをしているのは上坂すみれ" /><published>2024-06-20T00:00:00+09:00</published><updated>2024-06-20T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2024/06/20/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2024/06/20/report.html"><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/BuuW5C-saxU?si=jfh0nq82WgY6SZ6f" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
 
-<p>推しゆえにガチなのは知ってましたが、ここまでの長尺語っているのは非常に貴重なので是非味わって上坂すみれのファンクラブ「[すみぺれんぽう](https://www.sumipe-federation.com/」に加入して頂きたい。</p>
+<p>推しゆえにガチなのは知ってましたが、ここまでの長尺語っているのは非常に貴重なので是非味わって上坂すみれのファンクラブ「<a href="https://www.sumipe-federation.com/">すみぺれんぽう</a>」に加入して頂きたい。</p>
 
 <p>この前は「ジャパニーズ・マジック(ザ・ニンジャのテーマ)」についても語っていたので<a href="https://www.youtube.com/c/uesakasumire">上坂すみれのおまえがねるまで</a>もチェックして頂きたい。
 155回でだいたい30分くらいなので、57.5日あれば全部聞ける。</p>
@@ -625,22 +659,4 @@ console.log(selectedItems);
 
 <p>直接関わっていないから問題ないでは済まされないのが戦争だ。</p>
 
-<p>平和を脅かす連中にはそれなりのペナルティを与えないと行けないだろう。</p>]]></content><author><name>makietan</name></author><category term="world" /><summary type="html"><![CDATA[jp.reuters.com ウクライナ平和サミット、共同声明採択　新興国など署名見送り | ロイター ウクライナの和平案を協議する「平和サミット」は１６日、２日間の日程を終えて閉幕した。西側主要国やその同盟国はロシアによる侵攻を非難したが、一部の新興国などは共同声明への署名を見送った。]]></summary></entry><entry><title type="html">夏の青春18きっぷの発売アナウンスがない…</title><link href="https://makietan.github.io/railway/2024/06/16/report.html" rel="alternate" type="text/html" title="夏の青春18きっぷの発売アナウンスがない…" /><published>2024-06-16T00:00:00+09:00</published><updated>2024-06-16T00:00:00+09:00</updated><id>https://makietan.github.io/railway/2024/06/16/report</id><content type="html" xml:base="https://makietan.github.io/railway/2024/06/16/report.html"><![CDATA[<div class="card">
-  <a href="https://www.tetsudo.com/column/753/"></a>
-  <div class="card__header">
-    <a href="https://www.tetsudo.com/column/753/">www.tetsudo.com</a>
-  </div>
-  <div class="card__image">
-    <img src="https://images.tetsudo.com/column/753/313_5000_001.jpg" />
-  </div>
-  <div class="card__title">
-    <p>あれっ、夏と冬の分はないの!?　2024年分の「青春18きっぷ」、発売内容が「春用のみ」発表の理由は - 鉄道コム</p>
-  </div>
-  <div class="card__description">
-    <p>JRグループが、2024年度分の「青春18きっぷ」の発売を発表しました。しかし、例年は3季節分の発表のはずが、今回は春用のみ。何があったのでしょうか。</p>
-  </div>
-</div>
-
-<p>対ユーロで円安も一段落しそうなタイミングなのに楽しみが消えそうで困っている。</p>
-
-<p>夏・冬といえば青春18きっぷで1日中電車に乗って、翌日体調を壊すっていうのをしていたが今後はできなくなりそうだ。</p>]]></content><author><name>makietan</name></author><category term="railway" /><summary type="html"><![CDATA[www.tetsudo.com あれっ、夏と冬の分はないの!?　2024年分の「青春18きっぷ」、発売内容が「春用のみ」発表の理由は - 鉄道コム JRグループが、2024年度分の「青春18きっぷ」の発売を発表しました。しかし、例年は3季節分の発表のはずが、今回は春用のみ。何があったのでしょうか。]]></summary></entry></feed>
+<p>平和を脅かす連中にはそれなりのペナルティを与えないと行けないだろう。</p>]]></content><author><name>makietan</name></author><category term="world" /><summary type="html"><![CDATA[jp.reuters.com ウクライナ平和サミット、共同声明採択　新興国など署名見送り | ロイター ウクライナの和平案を協議する「平和サミット」は１６日、２日間の日程を終えて閉幕した。西側主要国やその同盟国はロシアによる侵攻を非難したが、一部の新興国などは共同声明への署名を見送った。]]></summary></entry></feed>
