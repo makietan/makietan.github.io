@@ -25,8 +25,12 @@ class TableSort {
         const order = this.orders[index] || 'asc';
         if (order === 'asc') {
             this.orders[index] = 'desc';
+            header.classList.add('tj-desc');
+            header.classList.remove('tj-asc');
         } else {
             this.orders[index] = 'asc';
+            header.classList.remove('tj-desc');
+            header.classList.add('tj-asc');
         }
         const rows = [...table.querySelectorAll('tr')];
         rows.shift();
