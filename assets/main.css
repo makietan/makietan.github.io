@@ -1084,4 +1084,12 @@ ul.pager li.num em, ul.pager li.num a {
   display: none;
 }
 
+table th.tj-asc:after {
+  content: "▲";
+}
+
+table th.tj-desc:after {
+  content: "▼";
+}
+
 /*# sourceMappingURL=main.css.map */
