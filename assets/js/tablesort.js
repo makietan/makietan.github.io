@@ -23,6 +23,11 @@ class TableSort {
     sortTable(table, header) {
         const index = [...header.parentElement.children].indexOf(header);
         const order = this.orders[index] || 'asc';
+        if (order === 'asc') {
+            this.orders[index] = 'desc';
+        } else {
+            this.orders[index] = 'asc';
+        }
         const rows = [...table.querySelectorAll('tr')];
         rows.shift();
         rows.sort((a, b) => {
