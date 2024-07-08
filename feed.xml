@@ -1,4 +1,33 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2024-07-07T15:43:24+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">東京都知事選ですな</title><link href="https://makietan.github.io/japan/2024/07/07/report.html" rel="alternate" type="text/html" title="東京都知事選ですな" /><published>2024-07-07T00:00:00+09:00</published><updated>2024-07-07T00:00:00+09:00</updated><id>https://makietan.github.io/japan/2024/07/07/report</id><content type="html" xml:base="https://makietan.github.io/japan/2024/07/07/report.html"><![CDATA[<p>選挙ポスターは広告パネルと化し、キワモノがかなり増えてしまった都知事選。</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2024-07-08T12:19:51+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">Authy のアホが電話番号を漏らしたらしい</title><link href="https://makietan.github.io/tech/2024/07/08/report.html" rel="alternate" type="text/html" title="Authy のアホが電話番号を漏らしたらしい" /><published>2024-07-08T00:00:00+09:00</published><updated>2024-07-08T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2024/07/08/report</id><content type="html" xml:base="https://makietan.github.io/tech/2024/07/08/report.html"><![CDATA[<h2 id="authy">Authy</h2>
+
+<p>認証サービスとしては致命的なことをやってしまった。</p>
+
+<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">2段階認証アプリ「Authy」開発のTwilio、ハッキングで3,300万件の電話番号流出か <a href="https://t.co/fXs9dAzyNw">https://t.co/fXs9dAzyNw</a> <a href="https://t.co/4symxAqZ0x">pic.twitter.com/4symxAqZ0x</a></p>&mdash; PC Watch (@pc_watch) <a href="https://twitter.com/pc_watch/status/1809135599418552391?ref_src=twsrc%5Etfw">July 5, 2024</a></blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<p>流出が電話番号だけなら問題ない…わけではないが…</p>
+
+<p>被害としては海外から電話がかかってくるということはあるだろうけど勝手に取られることはないのでまだなんとかなる。</p>
+
+<p>基本的に海外からの電話は拒否しておけば問題ない。</p>
+
+<h2 id="海外サービスの安全性ははっきり言って低い">海外サービスの安全性ははっきり言って低い</h2>
+
+<p>海外サービスはほんとに流出が酷い。</p>
+
+<p>毎度毎度全部流出してるのがほんとに終わってる。</p>
+
+<p>日本の企業もそれなりにやられているがその比じゃないくらいだろう。</p>
+
+<p>セキュリティの信用という点で海外サービスはもう低い。</p>
+
+<h2 id="日本向けサービスはパスワードに日本語を使えるようにしろ">日本向けサービスはパスワードに日本語を使えるようにしろ</h2>
+
+<p>いい加減パスワードに日本語を使えるようにして欲しい。</p>
+
+<p>もしくはひらがな・カタカナだけでも。</p>
+
+<p>家数字だけじゃ足りないんだよ日本を守るには。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[Authy]]></summary></entry><entry><title type="html">東京都知事選ですな</title><link href="https://makietan.github.io/japan/2024/07/07/report.html" rel="alternate" type="text/html" title="東京都知事選ですな" /><published>2024-07-07T00:00:00+09:00</published><updated>2024-07-07T00:00:00+09:00</updated><id>https://makietan.github.io/japan/2024/07/07/report</id><content type="html" xml:base="https://makietan.github.io/japan/2024/07/07/report.html"><![CDATA[<p>選挙ポスターは広告パネルと化し、キワモノがかなり増えてしまった都知事選。</p>
 
 <p>一体誰が当選するんだろうなー（棒）。</p>
 
@@ -590,6 +619,4 @@
 
 <p>夏なのでお新香の鮮度が怪しい。</p>
 
-<p>それだけが難点かな。</p>]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[ご飯（並） お新香みそ汁セットのみそ汁をとん汁に変更]]></summary></entry><entry><title type="html">ユーロ円が172.383円になった</title><link href="https://makietan.github.io/fx/2024/06/28/report.html" rel="alternate" type="text/html" title="ユーロ円が172.383円になった" /><published>2024-06-28T00:00:00+09:00</published><updated>2024-06-28T00:00:00+09:00</updated><id>https://makietan.github.io/fx/2024/06/28/report</id><content type="html" xml:base="https://makietan.github.io/fx/2024/06/28/report.html"><![CDATA[<p>もう無理</p>
-
-<p>頭おかしいんじゃねえの</p>]]></content><author><name>makietan</name></author><category term="fx" /><summary type="html"><![CDATA[もう無理]]></summary></entry></feed>
+<p>それだけが難点かな。</p>]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[ご飯（並） お新香みそ汁セットのみそ汁をとん汁に変更]]></summary></entry></feed>
