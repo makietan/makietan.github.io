@@ -1,4 +1,106 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2024-08-15T12:19:13+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">第23回対決戦で利用されている「ARX-7 アーバレスト」の編成を見てみる</title><link href="https://makietan.github.io/game/srwdd/2024/08/12/report.html" rel="alternate" type="text/html" title="第23回対決戦で利用されている「ARX-7 アーバレスト」の編成を見てみる" /><published>2024-08-12T00:00:00+09:00</published><updated>2024-08-12T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2024/08/12/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2024/08/12/report.html"><![CDATA[<ul>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2024-08-15T19:19:04+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">ソウルゲインのMAIN装備比較</title><link href="https://makietan.github.io/game/srwdd/2024/08/15/report.html" rel="alternate" type="text/html" title="ソウルゲインのMAIN装備比較" /><published>2024-08-15T00:00:00+09:00</published><updated>2024-08-15T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2024/08/15/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2024/08/15/report.html"><![CDATA[<h2 id="比較対象">比較対象</h2>
+
+<ul>
+  <li>SSR+ 麒麟</li>
+  <li>SSR+ 舞朱雀</li>
+  <li>SSR+ 白虎咬</li>
+  <li>SSR+ 青龍鱗</li>
+  <li>SSR+ 玄武金剛弾</li>
+</ul>
+
+<h2 id="気力150戦闘回数5回隣接">気力150・戦闘回数5回・隣接</h2>
+
+<p>デバフについては記載しない。</p>
+
+<p>麒麟かな。
+もしくは舞朱雀、被ダメージ軽減の玄武金剛弾かな。</p>
+
+<canvas id="chart-1" style="background-color: #fff"></canvas>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script>
+    // chart
+    const ctx1 = document.getElementById('chart-1');
+    new Chart(ctx1, {
+        type: 'radar',
+        data: {
+            labels: ["HP", "攻撃力", "防御力", "照準値", "運動性", "命中率", "与ダメージ", "移動力", "スピード"],
+            datasets: [
+                {
+                    label: "麒麟",
+                    data: [
+                        0,  
+                        30, 
+                        10 + 30, 
+                        0, 
+                        0,
+                        70,
+                        42,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    label: "舞朱雀",
+                    data: [
+                        0,
+                        30,
+                        30,
+                        24,
+                        0,
+                        0,
+                        42,
+                        2,
+                        75
+                    ]
+                },
+                {
+                    label: "白虎咬",
+                    data: [
+                        0,
+                        10.5,
+                        10.5,
+                        10.5,
+                        10.5,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    label: "青龍鱗",
+                    data: [
+                        0,
+                        10.5,
+                        10.5,
+                        10.5,
+                        10.5,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    label: "玄武金剛弾",
+                    data: [
+                        0,
+                        14.5,
+                        14.5,
+                        14.5,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        }
+    });
+</script>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[比較対象]]></summary></entry><entry><title type="html">第23回対決戦で利用されている「ARX-7 アーバレスト」の編成を見てみる</title><link href="https://makietan.github.io/game/srwdd/2024/08/12/report.html" rel="alternate" type="text/html" title="第23回対決戦で利用されている「ARX-7 アーバレスト」の編成を見てみる" /><published>2024-08-12T00:00:00+09:00</published><updated>2024-08-12T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2024/08/12/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2024/08/12/report.html"><![CDATA[<ul>
   <li>S37位
     <ul>
       <li>MAIN: SSR+ ウルズ・ストライク</li>
@@ -486,9 +588,4 @@ for (let i = 0; i < menu.length; i++) {
 
 console.log(selectedItems.map((d) => `${d.name}(${d.price})`).join(' + ') + " = " + selectedItems.reduce((sum, d) => sum + d.price, 0) + "円");
 
-</script>]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Rails + MySQL で group(DATE… 使って count する</title><link href="https://makietan.github.io/tech/2024/08/03/report.html" rel="alternate" type="text/html" title="Rails + MySQL で group(DATE… 使って count する" /><published>2024-08-03T00:00:00+09:00</published><updated>2024-08-03T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2024/08/03/report</id><content type="html" xml:base="https://makietan.github.io/tech/2024/08/03/report.html"><![CDATA[<p>環境によっては <code class="language-plaintext highlighter-rouge">UTC</code> で計算されてしまうので、しっかり <code class="language-plaintext highlighter-rouge">Asia/Tokyo</code> に変換する。</p>
-
-<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="no">User</span><span class="p">.</span><span class="nf">group</span><span class="p">(</span><span class="s2">"DATE(CONVERT_TZ(created_at, 'UTC', 'Asia/Tokyo'))"</span><span class="p">).</span><span class="nf">count</span>
-</code></pre></div></div>
-
-<p>これに数時間とかしたので要注意メモ。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[環境によっては UTC で計算されてしまうので、しっかり Asia/Tokyo に変換する。]]></summary></entry></feed>
+</script>]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[]]></summary></entry></feed>
