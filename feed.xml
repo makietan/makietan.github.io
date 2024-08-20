@@ -1,4 +1,95 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2024-08-19T12:19:04+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">ソウルゲインのMAIN装備比較</title><link href="https://makietan.github.io/game/srwdd/2024/08/15/report.html" rel="alternate" type="text/html" title="ソウルゲインのMAIN装備比較" /><published>2024-08-15T00:00:00+09:00</published><updated>2024-08-15T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2024/08/15/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2024/08/15/report.html"><![CDATA[<h2 id="比較対象">比較対象</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2024-08-20T10:40:51+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">ナイチンゲールのMAIN装備比較</title><link href="https://makietan.github.io/game/srwdd/2024/08/20/report.html" rel="alternate" type="text/html" title="ナイチンゲールのMAIN装備比較" /><published>2024-08-20T00:00:00+09:00</published><updated>2024-08-20T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2024/08/20/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2024/08/20/report.html"><![CDATA[<h2 id="比較対象">比較対象</h2>
+
+<p>限定は持ってないので未記載。</p>
+
+<ul>
+  <li>SSR +5 拡散メガ粒子砲（ナイチンゲール／MAP）</li>
+  <li>SSR +5 ファンネル（ナイチンゲール）</li>
+  <li>SSR +5 マイクロミサイル（ナイチンゲール）</li>
+  <li>SSR +5 ビーム・サーベル（ナイチンゲール）</li>
+  <li>SSR +5 大型メガ・ビーム・ライフル</li>
+</ul>
+
+<h2 id="気力170戦闘回数5回">気力170・戦闘回数5回</h2>
+
+<p>デバフ・反撃時については記載しない。</p>
+
+<canvas id="chart-1" style="background-color: #fff"></canvas>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script>
+    // chart
+    const ctx1 = document.getElementById('chart-1');
+    new Chart(ctx1, {
+        type: 'radar',
+        data: {
+            labels: ["HP", "攻撃力", "防御力", "照準値", "運動性", "気力上限", "命中率", "回避率"],
+            datasets: [
+                {
+                    label: "拡散メガ粒子砲（ナイチンゲール／MAP）",
+                    data: [
+                        0,  
+                        17.5 + 5 * 7,
+                        0,
+                        13 + 5 * 7,
+                        17.5 + 5 * 7,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    label: "ファンネル（ナイチンゲール）",
+                    data: [
+                        0,
+                        17.5 + 33,
+                        0,
+                        13 + 33,
+                        17.5 + 33,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    label: "マイクロミサイル（ナイチンゲール）",
+                    data: [
+                        0,
+                        14.5,
+                        0,
+                        2 * 7,
+                        14.5,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    label: "ビーム・サーベル（ナイチンゲール）",
+                    data: [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    label: "大型メガ・ビーム・ライフル",
+                    data: [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        12,
+                        12
+                    ]
+                }
+            ]
+        }
+    });
+</script>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[比較対象]]></summary></entry><entry><title type="html">ソウルゲインのMAIN装備比較</title><link href="https://makietan.github.io/game/srwdd/2024/08/15/report.html" rel="alternate" type="text/html" title="ソウルゲインのMAIN装備比較" /><published>2024-08-15T00:00:00+09:00</published><updated>2024-08-15T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2024/08/15/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2024/08/15/report.html"><![CDATA[<h2 id="比較対象">比較対象</h2>
 
 <ul>
   <li>SSR+ 麒麟</li>
@@ -412,180 +503,4 @@
             }]
         }
     });
-</script>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[SSR+ LV110 私との約束]]></summary></entry><entry><title type="html">吉野家が値上げしたので「あすトククーポンキャンペーン」を再計算してみた</title><link href="https://makietan.github.io/gourmet/2024/08/04/report.html" rel="alternate" type="text/html" title="吉野家が値上げしたので「あすトククーポンキャンペーン」を再計算してみた" /><published>2024-08-04T00:00:00+09:00</published><updated>2024-08-04T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2024/08/04/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2024/08/04/report.html"><![CDATA[<p><img src="https://www.yoshinoya.com/wp-content/uploads/2024/05/29165008/240430-asutoku-pc.jpg" alt="" /></p>
-
-<p>以前、計算したのだけど値上げしたので再計算しようと思う。</p>
-
-<div class="card">
-  <a href="https://makietan.github.io/gourmet/2024/06/26/report.html"></a>
-  <div class="card__header">
-    <a href="https://makietan.github.io/gourmet/2024/06/26/report.html">makietan.github.io</a>
-  </div>
-  <div class="card__image">
-    <img src="https://makietan.github.io/assets/thumbnail/logo.png" />
-  </div>
-  <div class="card__title">
-    <p>吉野家の「あすトククーポンキャンペーン」でいい感じの組み合わせを考える | 肉とお米とブロッコリー</p>
-  </div>
-  <div class="card__description">
-    <p>ここは日報をメインに書きます.</p>
-  </div>
-</div>
-
-<h2 id="結果">結果</h2>
-
-<p>最適解があさり汁とタルタルソースという謎の組み合わせとなった。</p>
-
-<p>…あさり汁高くね？</p>
-
-<p>クーポン有りだとまだまだ</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>お新香とん汁セット(332) + ごはん[並](181) = 513円
-</code></pre></div></div>
-
-<p>を注文するのが楽かな</p>
-
-<ul>
-  <li><strong>あさり汁(192) + タルタルソース(108) = 300円</strong>
-    <ul>
-      <li>タルタルソースは、ねぎ塩だれ、ヤンニョムソースでもOK</li>
-    </ul>
-  </li>
-  <li>ポテトサラダ(191) + 納豆(116) = 307円</li>
-  <li>あさり汁(192) + 納豆(116) = 308円</li>
-  <li><strong>お新香あさり汁セット(311) = 311円</strong></li>
-  <li>とん汁(213) + 半熟玉子(105) = 318円</li>
-  <li>お新香みそ汁セット(203) + 納豆(116) = 319円</li>
-  <li>タルタルソース(108) + とん汁(213) = 321円</li>
-  <li>とん汁(213) + 納豆(116) = 329円</li>
-  <li><strong>TPねぎだく(149) + ごはん[並](181) = 330円</strong></li>
-  <li>お新香とん汁セット(332) = 332円</li>
-  <li>TPねぎだく(149) + ポテトサラダ(191) = 340円</li>
-  <li>TPねぎだく(149) + あさり汁(192) = 341円</li>
-  <li>ごはん[大](235) + タルタルソース(108) = 343円</li>
-  <li><strong>ごはん[大](235) + 納豆(116) = 351円</strong></li>
-  <li>TPねぎだく(149) + お新香みそ汁セット(203) = 352円</li>
-  <li>TPねぎだく(149) + とん汁(213) = 362円</li>
-  <li>ごはん[並](181) + ポテトサラダ(191) = 372円</li>
-  <li>あさり汁(192) + ごはん[並](181) = 373円</li>
-  <li>から揚げ1個 × 2(298) + みそ汁(84) = 382円</li>
-  <li>あさり汁(192) + ポテトサラダ(191) = 383円</li>
-  <li>TPねぎだく(149) + ごはん[大](235) = 384円</li>
-  <li>お新香みそ汁セット(203) + ポテトサラダ(191) = 394円</li>
-  <li>あさり汁(192) + お新香みそ汁セット(203) = 395円</li>
-  <li>から揚げ1個 × 2(298) + 半熟玉子(105) = 403円</li>
-  <li>とん汁(213) + ポテトサラダ(191) = 404円</li>
-  <li>あさり汁(192) + とん汁(213) = 405円</li>
-  <li>お新香みそ汁セット(203) + サラダみそ汁セット(203) = 406円</li>
-  <li>から揚げ1個 × 2(298) + 納豆(116) = 414円</li>
-  <li>お新香あさり汁セット(311) + 半熟玉子(105) = 416円</li>
-  <li>お新香あさり汁セット(311) + タルタルソース(108) = 419円</li>
-  <li>ごはん[大](235) + ポテトサラダ(191) = 426円</li>
-  <li>あさり汁(192) + ごはん[大](235) = 427円</li>
-  <li><strong>から揚げ3個(437) = 437円</strong></li>
-  <li>お新香とん汁セット(332) + 半熟玉子(105) = 437円</li>
-  <li>お新香みそ汁セット(203) + ごはん[大](235) = 438円</li>
-  <li>お新香とん汁セット(332) + タルタルソース(108) = 440円</li>
-  <li>TPねぎだく(149) + から揚げ1個 × 2(298) = 447円</li>
-  <li>お新香とん汁セット(332) + 納豆(116) = 448円</li>
-  <li><strong>スパイシーカレー(456) = 456円</strong></li>
-  <li>TPねぎだく(149) + お新香あさり汁セット(311) = 460円</li>
-  <li>ごはん[大](235) + ポテトサラダみそ汁セット(235) = 470円</li>
-  <li>から揚げ1個 × 2(298) + ごはん[並](181) = 479円</li>
-  <li>TPねぎだく(149) + お新香とん汁セット(332) = 481円</li>
-  <li>みそ汁(84) + 牛皿[並](403) = 487円</li>
-  <li>から揚げ1個 × 2(298) + ポテトサラダ(191) = 489円</li>
-  <li><strong>牛丼[並](489) = 489円</strong></li>
-  <li>あさり汁(192) + から揚げ1個 × 2(298) = 490円</li>
-  <li>お新香あさり汁セット(311) + ごはん[並](181) = 492円</li>
-  <li><strong>お新香みそ汁セット(203) + から揚げ1個 × 2(298) = 501円</strong></li>
-  <li>お新香あさり汁セット(311) + ポテトサラダ(191) = 502円</li>
-  <li>あさり汁(192) + お新香あさり汁セット(311) = 503円</li>
-  <li>牛皿[並](403) + 半熟玉子(105) = 508円</li>
-  <li>から揚げ1個 × 2(298) + とん汁(213) = 511円</li>
-  <li><strong>お新香とん汁セット(332) + ごはん[並](181) = 513円</strong></li>
-  <li>お新香あさり汁セット(311) + お新香みそ汁セット(203) = 514円</li>
-  <li>牛皿[並](403) + 納豆(116) = 519円</li>
-  <li>から揚げ3個(437) + みそ汁(84) = 521円</li>
-  <li>お新香とん汁セット(332) + ポテトサラダ(191) = 523円</li>
-  <li>あさり汁(192) + お新香とん汁セット(332) = 524円</li>
-  <li>から揚げ1個 × 3(447) + みそ汁(84) = 531円</li>
-  <li>から揚げ1個 × 2(298) + ごはん[大](235) = 533円</li>
-  <li>お新香とん汁セット(332) + お新香みそ汁セット(203) = 535円</li>
-  <li><strong>スパイシーカレー(456) + みそ汁(84) = 540円</strong></li>
-  <li>から揚げ3個(437) + 半熟玉子(105) = 542円</li>
-  <li>お新香とん汁セット(332) + とん汁(213) = 545円</li>
-  <li>お新香あさり汁セット(311) + ごはん[大](235) = 546円</li>
-  <li>TPねぎだく(149) + 牛皿[並](403) = 552円</li>
-</ul>
-
-<script>
-const menu = [
-    { "name": "TPねぎだく", "price": 149 },
-    { "name": "あさり汁", "price": 192 },
-    { "name": "お新香", "price": 149 },
-    { "name": "お新香あさり汁セット", "price": 311 },
-    { "name": "お新香とん汁セット", "price": 332 },
-    { "name": "お新香みそ汁セット", "price": 203 },
-    { "name": "から揚げ1個 × 2", "price": 298 },
-    { "name": "から揚げ1個 × 3", "price": 447 },
-    { "name": "から揚げ1個", "price": 149 },
-    { "name": "から揚げ3個", "price": 437 },
-    { "name": "から揚げ丼[並]", "price": 564 },
-    { "name": "ごはん[大]", "price": 235 },
-    { "name": "ごはん[並]", "price": 181 },
-    { "name": "サラダあさり汁セット", "price": 311 },
-    { "name": "サラダとん汁セット", "price": 332 },
-    { "name": "サラダみそ汁セット", "price": 203 },
-    { "name": "スパイシーカレー", "price": 456 },
-    { "name": "タルタルソース", "price": 108 },
-    { "name": "チーズスパイシーカレー", "price": 605 },
-    { "name": "チーズ牛サラダ", "price": 645 },
-    { "name": "とん汁", "price": 213 },
-    { "name": "ねぎラー油", "price": 149 },
-    { "name": "ねぎ塩だれ", "price": 108 },
-    { "name": "ねぎ塩牛カルビ皿", "price": 578 },
-    { "name": "ねぎ半玉", "price": 149 },
-    { "name": "ポテトサラダ", "price": 191 },
-    { "name": "ポテトサラダみそ汁セット", "price": 235 },
-    { "name": "みそ汁", "price": 84 },
-    { "name": "ヤンニョムソース", "price": 108 },
-    { "name": "牛カルビ皿", "price": 578 },
-    { "name": "牛皿[大盛]", "price": 511 },
-    { "name": "牛皿[得盛]", "price": 619 },
-    { "name": "牛皿[並]", "price": 403 },
-    { "name": "牛焼肉皿", "price": 578 },
-    { "name": "牛丼[アタマの大盛]", "price": 618 },
-    { "name": "牛丼[小盛]", "price": 456 },
-    { "name": "牛丼[大盛]", "price": 683 },
-    { "name": "牛丼[並]", "price": 489 },
-    { "name": "生野菜サラダ", "price": 149 },
-    { "name": "肉だく（牛小鉢）", "price": 203 },
-    { "name": "納豆", "price": 116 },
-    { "name": "半熟玉子", "price": 105 }
-];
-
-let selectedItems = [];
-const TARGET = 300;
-let closestTotal = Infinity;
-
-for (let i = 0; i < menu.length; i++) {
-  if (menu[i].price >= TARGET && Math.abs(menu[i].price - TARGET) < Math.abs(closestTotal - TARGET)) {
-    selectedItems = [];
-    selectedItems[0] = menu[i];
-    closestTotal = menu[i].price;
-  } else {
-    for (let j = 0; j < menu.length; j++) {
-      const total = menu[i].price + menu[j].price;
-      if (total >= TARGET && Math.abs(total - TARGET) < Math.abs(closestTotal - TARGET)) {
-        selectedItems[0] = menu[i];
-        selectedItems[1] = menu[j];
-        closestTotal = total;
-      }
-    }
-  }
-}
-
-console.log(selectedItems.map((d) => `${d.name}(${d.price})`).join(' + ') + " = " + selectedItems.reduce((sum, d) => sum + d.price, 0) + "円");
-
-</script>]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[]]></summary></entry></feed>
+</script>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[SSR+ LV110 私との約束]]></summary></entry></feed>
