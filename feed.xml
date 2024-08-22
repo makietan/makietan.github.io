@@ -1,4 +1,185 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2024-08-22T12:20:12+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">ナイチンゲールのMAIN装備比較</title><link href="https://makietan.github.io/game/srwdd/2024/08/20/report.html" rel="alternate" type="text/html" title="ナイチンゲールのMAIN装備比較" /><published>2024-08-20T00:00:00+09:00</published><updated>2024-08-20T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2024/08/20/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2024/08/20/report.html"><![CDATA[<h2 id="比較対象">比較対象</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2024-08-22T17:26:13+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">ZガンダムのMAIN装備比較</title><link href="https://makietan.github.io/game/srwdd/2024/08/22/report.html" rel="alternate" type="text/html" title="ZガンダムのMAIN装備比較" /><published>2024-08-22T00:00:00+09:00</published><updated>2024-08-22T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2024/08/22/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2024/08/22/report.html"><![CDATA[<h2 id="比較対象">比較対象</h2>
+
+<p>限定は持ってないので未記載。</p>
+
+<ul>
+  <li>SSR +5 メガ粒子砲一斉攻撃</li>
+  <li>SSR +5 ウェイブ・ライダー突撃</li>
+  <li>SSR +5 ハイパー・メガ・ランチャー（MAP）</li>
+  <li>SSR +5 ビーム・サーベル（ハイパー）</li>
+  <li>SSR +5 ビーム・コンフューズ連続攻撃</li>
+  <li>SSR +5 ハイパー・メガ・ランチャー</li>
+  <li>SSR +5 ビーム・サーベル</li>
+  <li>SSR +5 ビーム・ライフル</li>
+  <li>SSR +5 2連装グレネードランチャー</li>
+</ul>
+
+<h2 id="気力150戦闘回数5回地形宇宙">気力150・戦闘回数5回・地形「宇宙」</h2>
+
+<p>デバフ・反撃時については記載しない。</p>
+
+<ul>
+  <li>メガ粒子砲一斉攻撃は、出撃後最初だけ1アクション、ブレイクゲージ：ビーム・打撃・斬撃属性。</li>
+  <li>ウェイブ・ライダー突撃は、宇宙適性S、ブレイクゲージ：ビーム・打撃・斬撃属性。</li>
+  <li>ハイパー・メガ・ランチャー（MAP）は、命中時に敵の気力-20、ブレイクゲージ：ビーム・斬撃属性。</li>
+  <li>ビーム・サーベル（ハイパー）は、敵アクション時のみ被ダメージ-60%、ブレイクゲージ：ビーム・斬撃属性。</li>
+  <li>ビーム・コンフューズ連続攻撃は、ブレイクゲージ：ビーム属性。</li>
+  <li>ハイパー・メガ・ランチャーは、反撃時に攻撃力+18%。</li>
+</ul>
+
+<p>メガ粒子砲一斉攻撃が最適かな。</p>
+
+<canvas id="chart-1" style="background-color: #fff"></canvas>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script>
+    // chart
+    const ctx1 = document.getElementById('chart-1');
+    new Chart(ctx1, {
+        type: 'radar',
+        data: {
+            labels: ["HP", "攻撃力", "防御力", "照準値", "運動性", "命中率", "回避率", "ブレイクゲージ減少量", "最大射程", "移動力"],
+            datasets: [
+                {
+                    label: "メガ粒子砲一斉攻撃",
+                    data: [
+                          0, // HP
+                         25 + 4.5 * 5 + 16, // 攻撃力
+                          0, // 防御力
+                         25 + 4.5 * 5 + 16, // 照準値
+                         25 + 4.5 * 5 + 16, // 運動性
+                          0, // 命中率
+                          0, // 回避率
+                        100, // ブレイクゲージ減少量
+                          1, // 最大射程
+                          1, // 移動力
+                    ]
+                },
+                {
+                    label: "ウェイブ・ライダー突撃",
+                    data: [
+                          0, // HP
+                         22 + 5 + 4 * 5, // 攻撃力
+                          0, // 防御力
+                         25 + 5 + 4 * 5, // 照準値
+                         25 + 5 + 4 * 5, // 運動性
+                          0, // 命中率
+                          0, // 回避率
+                        110, // ブレイクゲージ減少量
+                          0, // 最大射程
+                          0, // 移動力
+                    ]
+                },
+                {
+                    label: "ハイパー・メガ・ランチャー（MAP）",
+                    data: [
+                          0, // HP
+                         35, // 攻撃力
+                          0, // 防御力
+                         16 + 35, // 照準値
+                         16 + 35, // 運動性
+                          0, // 命中率
+                          0, // 回避率
+                        110, // ブレイクゲージ減少量
+                          0, // 最大射程
+                          0, // 移動力
+                    ]
+                },
+                {
+                    label: "ビーム・サーベル（ハイパー）",
+                    data: [
+                           0, // HP
+                        25.5, // 攻撃力
+                           0, // 防御力
+                        25.5, // 照準値
+                        25.5, // 運動性
+                           0, // 命中率
+                           0, // 回避率
+                         110, // ブレイクゲージ減少量
+                           0, // 最大射程
+                           0, // 移動力
+                    ]
+                },
+                {
+                    label: "ビーム・コンフューズ連続攻撃",
+                    data: [
+                         0, // HP
+                         18, // 攻撃力
+                         0, // 防御力
+                         28, // 照準値
+                         18, // 運動性
+                          0, // 命中率
+                          0, // 回避率
+                        100, // ブレイクゲージ減少量
+                          0, // 最大射程
+                          0, // 移動力
+                    ]
+                },
+                {
+                    label: "ハイパー・メガ・ランチャー",
+                    data: [
+                         0, // HP
+                        18, // 攻撃力
+                         0, // 防御力
+                        18, // 照準値
+                        18, // 運動性
+                         0, // 命中率
+                         0, // 回避率
+                         0, // ブレイクゲージ減少量
+                         0, // 最大射程
+                         0, // 移動力
+                    ]
+                },
+                {
+                    label: "ビーム・サーベル",
+                    data: [
+                           0, // HP
+                        10.5, // 攻撃力
+                        10.5, // 防御力
+                        10.5, // 照準値
+                        10.5, // 運動性
+                          15, // 命中率
+                          15, // 回避率
+                           0, // ブレイクゲージ減少量
+                           0, // 最大射程
+                           0, // 移動力
+                    ]
+                },
+                {
+                    label: "ビーム・ライフル",
+                    data: [
+                           0, // HP
+                        10.5, // 攻撃力
+                        10.5, // 防御力
+                        10.5, // 照準値
+                        10.5, // 運動性
+                           0, // 命中率
+                           0, // 回避率
+                           0, // ブレイクゲージ減少量
+                           0, // 最大射程
+                           0, // 移動力
+                    ]
+                },
+                {
+                    label: "2連装グレネードランチャー",
+                    data: [
+                           0, // HP
+                        10.5, // 攻撃力
+                        10.5, // 防御力
+                        10.5, // 照準値
+                        10.5, // 運動性
+                           0, // 命中率
+                           0, // 回避率
+                           0, // ブレイクゲージ減少量
+                           0, // 最大射程
+                           0, // 移動力
+                    ]
+                }
+            ]
+        }
+    });
+</script>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[比較対象]]></summary></entry><entry><title type="html">ナイチンゲールのMAIN装備比較</title><link href="https://makietan.github.io/game/srwdd/2024/08/20/report.html" rel="alternate" type="text/html" title="ナイチンゲールのMAIN装備比較" /><published>2024-08-20T00:00:00+09:00</published><updated>2024-08-20T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2024/08/20/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2024/08/20/report.html"><![CDATA[<h2 id="比較対象">比較対象</h2>
 
 <p>限定は持ってないので未記載。</p>
 
@@ -325,182 +506,4 @@
 
 <p>まぁバブルだったし、落ちるのはわかってた。</p>
 
-<p>で、そんな落ちないと思うからそこそこ買いポジションを持って上にもってかれないようにもした。</p>]]></content><author><name>makietan</name></author><category term="japan" /><category term="money" /><summary type="html"><![CDATA[【Dealer&#39;s Voice】🇺🇸🇯🇵ドル円、146円割れ pic.twitter.com/aKxyYCdxoE&mdash; みんなのFX｜トレイダーズ証券【公式】 (@Min_FX) August 4, 2024]]></summary></entry><entry><title type="html">「私との約束」の雑な考察</title><link href="https://makietan.github.io/game/srwdd/2024/08/05/report.html" rel="alternate" type="text/html" title="「私との約束」の雑な考察" /><published>2024-08-05T00:00:00+09:00</published><updated>2024-08-05T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2024/08/05/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2024/08/05/report.html"><![CDATA[<h2 id="ssr-lv110-私との約束">SSR+ LV110 私との約束</h2>
-
-<h3 id="精神コマンド">精神コマンド</h3>
-
-<ul>
-  <li>使用回数：2</li>
-  <li><strong>熱血+</strong>
-    <ul>
-      <li>次の攻撃時、与ダメージが1.5倍になる</li>
-    </ul>
-  </li>
-</ul>
-
-<h2 id="main-運動性ダウンⅲ">MAIN (運動性ダウンⅢ)</h2>
-
-<ul>
-  <li>40%の確率
-    <ul>
-      <li>戦闘時のみ敵の運動性を15%減少</li>
-    </ul>
-  </li>
-</ul>
-
-<h2 id="sum-タイプ強化ⅴ照準値バランス連坊小路アキラ">SUM (タイプ強化Ⅴ・照準値（バランス）（連坊小路アキラ）)</h2>
-
-<ul>
-  <li>照準値+11%</li>
-</ul>
-
-<h3 id="バランスタイプ">バランスタイプ</h3>
-
-<ul>
-  <li>照準値+4.5%</li>
-</ul>
-
-<h3 id="連坊小路アキラ装備時">連坊小路アキラ装備時</h3>
-
-<ul>
-  <li>攻撃時+600</li>
-</ul>
-
-<canvas id="chart-1" style="background-color: #fff"></canvas>
-
-<p>(HP・攻撃力・防御力はチャートの関係上 1/10 の数値にしています)</p>
-
-<h2 id="ヴァルヴレイヴⅵ-装備時">ヴァルヴレイヴⅥ 装備時</h2>
-
-<h3 id="main-ハミングバード-ssr-lv110">MAIN ハミング・バード SSR+ LV110</h3>
-<ul>
-  <li>必殺技
-    <ul>
-      <li>ファン・タロン SSR+ LV110</li>
-      <li>フォルド・シックル SSR+ LV110</li>
-    </ul>
-  </li>
-  <li>SUB
-    <ul>
-      <li>私との約束</li>
-    </ul>
-  </li>
-</ul>
-
-<canvas id="chart-2" style="background-color: #fff"></canvas>
-
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-
-<script>
-    // chart-2
-    const ctx2 = document.getElementById('chart-2');
-    new Chart(ctx2, {
-        type: 'radar',
-        data: {
-            labels: ["HP", "攻撃力", "防御力", "照準値", "運動性"],
-            datasets: [
-                {
-                    label: "基礎値",
-                    data: [
-                        24312 / 10,  
-                        13821 / 10, 
-                        12838 / 10, 
-                        1353, 
-                        1098
-                    ]
-                },
-                {
-                    label: "ヴァルヴレイヴⅥ・気力100",
-                    data: [
-                        24312 / 10,
-                        ((13821 + 600) * (1 + (16 + 6.5 + 5 + 12.5) / 100)) / 10, 
-                        (12838 * (1 + (16 + 6.5) / 100)) / 10, 
-                        (1353  * (1 + (16 + 6.5 + 11 + 4.5 + 13 + 12.5) / 100)), 
-                        (1098  * (1 + (6.5) / 100))
-                    ]
-                },
-                // {
-                //     label: "自分の育成状況 (2024/08/05)",
-                //     data: [
-                //         35506 / 10,
-                //         26297 / 10,
-                //         22995 / 10,
-                //         3067,
-                //         1370
-                //     ]
-                // }
-                // {
-                //     label: "自分の育成状況 (2024/08/05)",
-                //     memo: "気力150, 私との約束SSR+, 私との約束SSR, 私との約束SSR, 私との約束SSR",
-                //     data: [
-                //         37136 / 10,
-                //         30055 / 10,
-                //         25149 / 10,
-                //         3947,
-                //         1509
-                //     ]
-                // },
-                // {
-                //     label: "自分の育成状況 (2024/08/05)",
-                //     memo: "気力150, 私との約束SSR+, サマーソルト・ティアーSSR(+5), 新しき年を往く歩みSSR, 超高速ミサイルSSR(+5)",
-                //     data: [
-                //         36907 / 10,
-                //         28578 / 10,
-                //         29071 / 10,
-                //         3273,
-                //         1493
-                //     ]
-                // },
-                // {
-                //     label: "自分の育成状況 (2024/08/05)",
-                //     memo: "気力150, 私との約束SSR+, サマーソルト・ティアーSSR(+5), 新しき年を往く歩みSSR, サマーソルト・ティアーSSR(+5)",
-                //     data: [
-                //         36951 / 10,
-                //         28541 / 10,
-                //         30961 / 10,
-                //         3273,
-                //         1488
-                //     ]
-                // }
-            ]
-        }
-    })
-    // chart
-    const ctx1 = document.getElementById('chart-1');
-    new Chart(ctx1, {
-        type: 'radar',
-        data: {
-            labels: ["HP", "攻撃力", "防御力", "照準値", "運動性"],
-            datasets: [{
-                label: "基礎値",
-                data: [
-                    (2880 * 15 / 100) / 10,  
-                    (2970 * 15 / 100) / 10, 
-                    (2940 * 15 / 100) / 10, 
-                    306  * 15 / 100 * (1 + 11 / 100), 
-                    255  * 15 / 100
-                ]
-            },
-            {
-                label: "バランスタイプ",
-                data: [
-                    (2880 * 15 / 100) / 10, 
-                    (2970 * 15 / 100) / 10, 
-                    (2940 * 15 / 100) / 10, 
-                    306  * 15 / 100 * (1 + (11 + 4.5) / 100), 
-                    255  * 15 / 100
-                ]
-            },
-            {
-                label: "連坊小路アキラ装備時",
-                data: [
-                    (2880 * 15 / 100) / 10, 
-                    (2970 * 15 / 100 + 600) / 10, 
-                    (2940 * 15 / 100) / 10, 
-                    306  * 15 / 100 * (1 + (11 + 4.5) / 100), 
-                    255  * 15 / 100
-                ]
-            }]
-        }
-    });
-</script>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[SSR+ LV110 私との約束]]></summary></entry></feed>
+<p>で、そんな落ちないと思うからそこそこ買いポジションを持って上にもってかれないようにもした。</p>]]></content><author><name>makietan</name></author><category term="japan" /><category term="money" /><summary type="html"><![CDATA[【Dealer&#39;s Voice】🇺🇸🇯🇵ドル円、146円割れ pic.twitter.com/aKxyYCdxoE&mdash; みんなのFX｜トレイダーズ証券【公式】 (@Min_FX) August 4, 2024]]></summary></entry></feed>
