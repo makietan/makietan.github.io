@@ -1,4 +1,167 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2024-09-03T12:20:02+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">ZガンダムのMAIN装備比較</title><link href="https://makietan.github.io/game/srwdd/2024/08/22/report.html" rel="alternate" type="text/html" title="ZガンダムのMAIN装備比較" /><published>2024-08-22T00:00:00+09:00</published><updated>2024-08-22T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2024/08/22/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2024/08/22/report.html"><![CDATA[<h2 id="比較対象">比較対象</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2024-09-04T01:28:11+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">M9D ファルケのMAIN装備比較</title><link href="https://makietan.github.io/game/srwdd/2024/09/04/report.html" rel="alternate" type="text/html" title="M9D ファルケのMAIN装備比較" /><published>2024-09-04T00:00:00+09:00</published><updated>2024-09-04T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2024/09/04/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2024/09/04/report.html"><![CDATA[<h2 id="比較対象">比較対象</h2>
+
+<ul>
+  <li>SSR+ ASマーシャルアーツ</li>
+  <li>SSR+ オン・ザ・エッジ</li>
+  <li>SSR+ ウルズ1コンビネーション</li>
+</ul>
+
+<h2 id="気力150戦闘回数5回隣接">気力150・戦闘回数5回・隣接</h2>
+
+<p>デバフについては記載しない。</p>
+
+<canvas id="chart-1" style="background-color: #fff"></canvas>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script>
+    // chart
+    const ctx1 = document.getElementById('chart-1');
+    new Chart(ctx1, {
+        type: 'radar',
+        data: {
+            labels: ["HP", "攻撃力", "防御力", "照準値", "運動性", "射程", "与ダメージ"],
+            datasets: [
+                {
+                    label: "ASマーシャルアーツ",
+                    data: [
+                        0,
+                        28.5 + 13,
+                        0,
+                        26,
+                        28.5 + 13,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    label: "オン・ザ・エッジ",
+                    data: [
+                        0,
+                        24.5 + 24,
+                        0,
+                        24,
+                        24.5 + 24,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    label: "ウルズ1コンビネーション",
+                    data: [
+                        0,
+                        17.5,
+                        0,
+                        22.5 + 36,
+                        22.5 + 36,
+                        1,
+                        35
+                    ]
+                }
+            ]
+        }
+    });
+</script>
+
+<h2 id="気力170実測値">気力170（実測値）</h2>
+
+<h3 id="ssr-asマーシャルアーツ">SSR+ ASマーシャルアーツ</h3>
+<h4 id="必殺技">必殺技</h4>
+<ul>
+  <li>SSR+ オン・ザ・エッジ</li>
+  <li>SSR+ ウルズ1コンビネーション
+    <h4 id="sub">SUB</h4>
+  </li>
+  <li>DD × 4
+    <h4 id="ステータス">ステータス</h4>
+  </li>
+  <li>HP 44210</li>
+  <li>攻撃力 42196</li>
+  <li>防御力 19443</li>
+  <li>照準値 3487</li>
+  <li>運動性 4602</li>
+  <li>移動 3</li>
+  <li>スピード 625
+    <h3 id="ssr-オンザエッジ">SSR+ オン・ザ・エッジ</h3>
+    <h4 id="必殺技-1">必殺技</h4>
+  </li>
+  <li>SSR+ ASマーシャルアーツ</li>
+  <li>SSR+ ウルズ1コンビネーション
+    <h4 id="sub-1">SUB</h4>
+  </li>
+  <li>DD × 4
+    <h4 id="ステータス-1">ステータス</h4>
+  </li>
+  <li>HP 44165</li>
+  <li>攻撃力 44580</li>
+  <li>防御力 19400</li>
+  <li>照準値 3229</li>
+  <li>運動性 4869</li>
+  <li>移動 3</li>
+  <li>スピード 625
+    <h3 id="ssr-ウルズ1コンビネーション">SSR+ ウルズ1コンビネーション</h3>
+    <h4 id="必殺技-2">必殺技</h4>
+  </li>
+  <li>SSR+ ASマーシャルアーツ</li>
+  <li>SSR+ オン・ザ・エッジ
+    <h4 id="sub-2">SUB</h4>
+  </li>
+  <li>DD × 4
+    <h4 id="ステータス-2">ステータス</h4>
+  </li>
+  <li>HP 44705</li>
+  <li>攻撃力 44782</li>
+  <li>防御力 19182</li>
+  <li>照準値 3709</li>
+  <li>運動性 5382</li>
+  <li>移動 3</li>
+  <li>スピード 625</li>
+</ul>
+
+<canvas id="chart-2" style="background-color: #fff"></canvas>
+
+<script>
+    // chart
+    const ctx2 = document.getElementById('chart-2');
+    new Chart(ctx2, {
+        type: 'radar',
+        data: {
+            labels: ["HP", "攻撃力", "防御力", "照準値", "運動性"],
+            datasets: [
+                {
+                    label: "ASマーシャルアーツ",
+                    data: [
+                        44210,
+                        42196,
+                        19443,
+                        3487,
+                        4602
+                    ]
+                },
+                {
+                    label: "オン・ザ・エッジ",
+                    data: [
+                        44165,
+                        44580,
+                        19400,
+                        3229,
+                        4869
+                    ]
+                },
+                {
+                    label: "ウルズ1コンビネーション",
+                    data: [
+                        44705,
+                        44782,
+                        19182,
+                        3709,
+                        5382
+                    ]
+                }
+            ]
+        }
+    });
+</script>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[比較対象]]></summary></entry><entry><title type="html">ZガンダムのMAIN装備比較</title><link href="https://makietan.github.io/game/srwdd/2024/08/22/report.html" rel="alternate" type="text/html" title="ZガンダムのMAIN装備比較" /><published>2024-08-22T00:00:00+09:00</published><updated>2024-08-22T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2024/08/22/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2024/08/22/report.html"><![CDATA[<h2 id="比較対象">比較対象</h2>
 
 <p>限定は持ってないので未記載。</p>
 
@@ -499,11 +662,4 @@
 あまりにも悲しい結果に。</p>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[以上。]]></summary></entry><entry><title type="html">第23回対決戦で利用されている「蜃気楼」の編成を見てみる</title><link href="https://makietan.github.io/game/srwdd/2024/08/07/report.html" rel="alternate" type="text/html" title="第23回対決戦で利用されている「蜃気楼」の編成を見てみる" /><published>2024-08-07T00:00:00+09:00</published><updated>2024-08-07T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2024/08/07/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2024/08/07/report.html"><![CDATA[<p>以上。</p>
 
 <p>第23回対決戦では500位以内だと0名でした。
-あまりにも悲しい結果に。</p>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[以上。]]></summary></entry><entry><title type="html">株安円高ですね</title><link href="https://makietan.github.io/japan/money/2024/08/06/report.html" rel="alternate" type="text/html" title="株安円高ですね" /><published>2024-08-06T00:00:00+09:00</published><updated>2024-08-06T00:00:00+09:00</updated><id>https://makietan.github.io/japan/money/2024/08/06/report</id><content type="html" xml:base="https://makietan.github.io/japan/money/2024/08/06/report.html"><![CDATA[<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">【Dealer&#39;s Voice】<br />🇺🇸🇯🇵ドル円、146円割れ <a href="https://t.co/aKxyYCdxoE">pic.twitter.com/aKxyYCdxoE</a></p>&mdash; みんなのFX｜トレイダーズ証券【公式】 (@Min_FX) <a href="https://twitter.com/Min_FX/status/1820240682721931750?ref_src=twsrc%5Etfw">August 4, 2024</a></blockquote>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<p>ヒャッホーイ。</p>
-
-<p>まぁバブルだったし、落ちるのはわかってた。</p>
-
-<p>で、そんな落ちないと思うからそこそこ買いポジションを持って上にもってかれないようにもした。</p>]]></content><author><name>makietan</name></author><category term="japan" /><category term="money" /><summary type="html"><![CDATA[【Dealer&#39;s Voice】🇺🇸🇯🇵ドル円、146円割れ pic.twitter.com/aKxyYCdxoE&mdash; みんなのFX｜トレイダーズ証券【公式】 (@Min_FX) August 4, 2024]]></summary></entry></feed>
+あまりにも悲しい結果に。</p>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[以上。]]></summary></entry></feed>
