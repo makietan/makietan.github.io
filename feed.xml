@@ -1,4 +1,156 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2024-09-07T12:19:01+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">M9D ファルケのMAIN装備比較</title><link href="https://makietan.github.io/game/srwdd/2024/09/04/report.html" rel="alternate" type="text/html" title="M9D ファルケのMAIN装備比較" /><published>2024-09-04T00:00:00+09:00</published><updated>2024-09-04T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2024/09/04/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2024/09/04/report.html"><![CDATA[<h2 id="比較対象">比較対象</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2024-09-08T00:04:56+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">相良宗介のオーブ比較</title><link href="https://makietan.github.io/game/srwdd/2024/09/07/report.html" rel="alternate" type="text/html" title="相良宗介のオーブ比較" /><published>2024-09-07T00:00:00+09:00</published><updated>2024-09-07T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2024/09/07/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2024/09/07/report.html"><![CDATA[<h2 id="比較対象">比較対象</h2>
+
+<ul>
+  <li>ウルズ 7 LV20</li>
+  <li>ゲリラ戦法 LV20</li>
+  <li>集中力（宗介） LV20</li>
+  <li>チームワーク（ミスリル） LV20</li>
+  <li>闘争心（宗介） LV12</li>
+  <li>覚悟（宗介） LV13</li>
+  <li>[X]SRT LV20</li>
+  <li>[Z]戦意高揚（宗介） LV15</li>
+  <li>起死回生（宗介） LV20</li>
+</ul>
+
+<h2 id="気力-180戦闘回数-5-回">気力 180・戦闘回数 5 回</h2>
+
+<p>デバフについては記載しない。</p>
+
+<ul>
+  <li>気力 130「奮起」「ひらめき」「ひらめき」</li>
+  <li>HP50%以下「不屈」「直感」</li>
+  <li>ステージ開始時「ひらめき」</li>
+  <li>気力上昇量（攻撃回避） +3</li>
+  <li>気力上昇量（自アクション） +1</li>
+  <li>気力上限 +20（重複なし）</li>
+  <li>気力上限 +10 (重複可)</li>
+</ul>
+
+<canvas id="chart-1" style="background-color: #fff"></canvas>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script>
+    // chart
+    const ctx1 = document.getElementById('chart-1');
+    new Chart(ctx1, {
+        type: 'bar',
+        options: {
+           scales: {
+            x: {
+                stacked: true
+            },
+            y: {
+                stacked: true
+            }
+        }
+        },
+        data: {
+            labels: ["HP (/1000)", "攻撃力", "防御力", "照準値", "運動性", "与ダメージ"],            
+            datasets: [
+                {
+                    label: "ウルズ7",
+                    data: [
+                        0,
+                        0,
+                        0,
+                        5,
+                        5,
+                        12
+                    ]
+                },
+                {
+                    label: "ゲリラ戦法",
+                    data: [
+                        0,
+                        13,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    label: "集中力（宗介）",
+                    data: [
+                        0,
+                        0,
+                        0,
+                        0,
+                        13,
+                        0
+                    ]
+                },
+                {
+                    label: "チームワーク（ミスリル）",
+                    data: [
+                        0,
+                        5,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },                
+                {
+                    label: "闘争心（宗介）",
+                    data: [
+                        0,
+                        1.5 * 8,
+                        0,
+                        0,
+                        1.5 * 8,
+                        0
+                    ]
+                },                
+                {
+                    label: "覚悟（宗介）",
+                    data: [
+                        0,
+                        6,
+                        0,
+                        0,
+                        6,
+                        0
+                    ]
+                },                
+                {
+                    label: "[X]SRT",
+                    data: [
+                        0,
+                        12.5,
+                        0,
+                        12.5,
+                        0,
+                        0
+                    ]
+                },                
+                {
+                    label: "[Z]戦意高揚（宗介）",
+                    data: [
+                        15000 / 1000,
+                        8,
+                        0,
+                        0,
+                        8,
+                        0
+                    ]
+                },
+                {
+                    label: "起死回生（宗介）",
+                    data: [
+                        10000 / 1000,
+                        20,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        }
+    });
+</script>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[比較対象]]></summary></entry><entry><title type="html">M9D ファルケのMAIN装備比較</title><link href="https://makietan.github.io/game/srwdd/2024/09/04/report.html" rel="alternate" type="text/html" title="M9D ファルケのMAIN装備比較" /><published>2024-09-04T00:00:00+09:00</published><updated>2024-09-04T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2024/09/04/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2024/09/04/report.html"><![CDATA[<h2 id="比較対象">比較対象</h2>
 
 <ul>
   <li>SSR+ ASマーシャルアーツ</li>
@@ -81,10 +233,12 @@
   <li>照準値 3487</li>
   <li>運動性 4602</li>
   <li>移動 3</li>
-  <li>スピード 625
-    <h3 id="ssr-オンザエッジ">SSR+ オン・ザ・エッジ</h3>
-    <h4 id="必殺技-1">必殺技</h4>
-  </li>
+  <li>スピード 625</li>
+</ul>
+
+<h3 id="ssr-オンザエッジ">SSR+ オン・ザ・エッジ</h3>
+<h4 id="必殺技-1">必殺技</h4>
+<ul>
   <li>SSR+ ASマーシャルアーツ</li>
   <li>SSR+ ウルズ1コンビネーション
     <h4 id="sub-1">SUB</h4>
@@ -98,10 +252,12 @@
   <li>照準値 3229</li>
   <li>運動性 4869</li>
   <li>移動 3</li>
-  <li>スピード 625
-    <h3 id="ssr-ウルズ1コンビネーション">SSR+ ウルズ1コンビネーション</h3>
-    <h4 id="必殺技-2">必殺技</h4>
-  </li>
+  <li>スピード 625</li>
+</ul>
+
+<h3 id="ssr-ウルズ1コンビネーション">SSR+ ウルズ1コンビネーション</h3>
+<h4 id="必殺技-2">必殺技</h4>
+<ul>
   <li>SSR+ ASマーシャルアーツ</li>
   <li>SSR+ オン・ザ・エッジ
     <h4 id="sub-2">SUB</h4>
@@ -131,9 +287,9 @@
                 {
                     label: "ASマーシャルアーツ",
                     data: [
-                        44210,
-                        42196,
-                        19443,
+                        44210 / 10,
+                        42196 / 10,
+                        19443 / 10,
                         3487,
                         4602
                     ]
@@ -141,9 +297,9 @@
                 {
                     label: "オン・ザ・エッジ",
                     data: [
-                        44165,
-                        44580,
-                        19400,
+                        44165 / 10,
+                        44580 / 10,
+                        19400 / 10,
                         3229,
                         4869
                     ]
@@ -151,9 +307,9 @@
                 {
                     label: "ウルズ1コンビネーション",
                     data: [
-                        44705,
-                        44782,
-                        19182,
+                        44705 / 10,
+                        44782 / 10,
+                        19182 / 10,
                         3709,
                         5382
                     ]
@@ -657,9 +813,6 @@
 <p>他にもたくさんいるが上位5名のデータのみピックアップ。
 ブレイクアップ（特殊）、HP・与ダメアップ、あとは攻撃力を上げるような支援パーツ。
 ブレイク要因としての運用が目立つ。</p>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[S10 MAIN: SSR+ 輻射波動機構（紅蓮聖天八極式／MAP） SP: SSR +2 輻射波動機構（紅蓮聖天八極式） SP: SSR+ 飛燕爪牙（紅蓮聖天八極式） SUB: タイプ強化Ⅲ（攻撃）《攻撃力7%+3%》 SUB: タイプ強化Ⅴ・HP・ダメージ増加（攻撃&amp;命中）（レーツェル・ファインシュメッカー）《与ダメ12%、HP22.5%》 SUB: タイプ強化Ⅴ・HP・ダメージ増加（攻撃&amp;命中）（レーツェル・ファインシュメッカー）《与ダメ12%、HP22.5%》 SUB: タイプ強化Ⅴ・ダメージ増加（攻撃）（オルドリン・ジヴォン）《与ダメ13%》 ABILITY: ダメージアップ（回避タイプ）★3《回避与ダメ2.4%》 ABILITY: 特殊強化★18《与ダメ13.4%》 ABILITY: 防御力・照準値プラス★18《防御力+340、照準値+34》 ABILITY: ブレイクアップ（特殊）★15《特殊ブレイク+19%》 ABILITY: ダメージアップ（自アクション）★19《自アクの与ダメ14%》 S12 MAIN: SSR+ 輻射波動機構（紅蓮聖天八極式／MAP） SP: SSR +5 輻射波動機構（紅蓮聖天八極式） SP: SSR+ 飛燕爪牙（紅蓮聖天八極式） SUB: タイプ強化Ⅴ（攻撃）《攻撃力11%》 SUB: タイプ強化Ⅴ・HP・ダメージ増加（攻撃&amp;命中）（レーツェル・ファインシュメッカー）《与ダメ12%、HP22.5%》 SUB: タイプ強化Ⅴ・HP・ダメージ増加（攻撃&amp;命中）（レーツェル・ファインシュメッカー）《与ダメ12%、HP22.5%》 SUB: タイプ強化Ⅴ・ダメージ増加（攻撃）（オルドリン・ジヴォン）《与ダメ13%》 ABILITY: 攻撃力プラス★19《攻撃力+710》 ABILITY: HPアップ★18《HP18%》 ABILITY: HPプラス★19《HP+2850》 ABILITY: ブレイクアップ（特殊）★11《特殊ブレイク+15%》 ABILITY: HP（攻撃力）プラス・不屈★18《HP+2700、気力140以上「不屈」》 S16 MAIN: SSR+ 輻射波動機構（紅蓮聖天八極式／MAP） SP: SSR+ 輻射波動機構（紅蓮聖天八極式） SP: SSR+ 飛燕爪牙（紅蓮聖天八極式） SUB: タイプ強化Ⅴ・HP・ダメージ増加（攻撃&amp;命中）（レーツェル・ファインシュメッカー）《与ダメ12%、HP22.5%》 SUB: タイプ強化Ⅳ・HP・ダメージ増加（攻撃&amp;命中）（レーツェル・ファインシュメッカー）《与ダメ10%、HP18.5%》 SUB: タイプ強化Ⅴ（攻撃）（照準値）《攻撃力11%》 SUB: タイプ強化Ⅲ（攻撃）《攻撃力+5%》 ABILITY: 攻撃力アップ★19《攻撃力9.5%》 ABILITY: 攻撃力プラス★20《攻撃力+750》 ABILITY: 攻撃力・照準値プラス★17《攻撃力+320、照準値+32》 ABILITY: 攻撃力・移動力プラス★20《攻撃力750、移動力+2》 ABILITY: ダメージアップ（気力）《気力120以上の与ダメ14%》 S19 MAIN: SSR+ 輻射波動機構（紅蓮聖天八極式／MAP） SP: SSR +5 輻射波動機構（紅蓮聖天八極式） SP: SSR+ 飛燕爪牙（紅蓮聖天八極式） SUB: タイプ強化Ⅲ攻撃（攻撃&amp;命中）《攻撃力5%、照準値2.5%》 SUB: タイプ強化Ⅴ（攻撃&amp;命中）《攻撃力・照準値8.5%》 SUB: タイプ強化Ⅲ（攻撃）《攻撃力5%》 SUB: タイプ強化Ⅴ（バランス）《HP・与ダメ12%》 ABILITY: 攻撃力・照準値プラス★12《攻撃力+220、照準値+22》 ABILITY: 攻撃力プラス★13《攻撃力+470》 ABILITY: HPプラス★12《HP+1800》 ABILITY: ブレイクアップ（特殊）★20《特殊与ダメ25%》 ABILITY: ダメージアップ（自アクション）★19《自アクの与ダメ14%》 S21 MAIN: SSR+ 輻射波動機構（紅蓮聖天八極式） SP: SSR+ 輻射波動機構（紅蓮聖天八極式／MAP） SP: SSR+ 飛燕爪牙（紅蓮聖天八極式） SUB: タイプ強化Ⅴ・ダメージ増加（攻撃）（オルドリン・ジヴォン）《与ダメ13%》 SUB: タイプ強化Ⅳ・防御（バランス）《防御力7%》 SUB: タイプ強化Ⅳ・HP・ダメージ増加（攻撃&amp;命中）（レーツェル・ファインシュメッカー）《与ダメ10%、HP18.5%》 SUB: タイプ強化Ⅳ・HP・ダメージ増加（攻撃&amp;命中）（レーツェル・ファインシュメッカー）《与ダメ10%、HP18.5%》 ABILITY: 防御力（攻撃力）プラス・鉄壁★20《防御力・攻撃力+750、気力120以上「鉄壁」》 ABILITY: HPプラス★20《HP+3000》 ABILITY: 攻撃力プラス★15《攻撃力+550》 ABILITY: ブレイクアップ（特殊）★19《特殊与ダメ23%》 ABILITY: 特殊強化★20《特殊与ダメ15%》]]></summary></entry><entry><title type="html">第23回対決戦で利用されている「M9D ファルケ」の編成を見てみる</title><link href="https://makietan.github.io/game/srwdd/2024/08/08/report.html" rel="alternate" type="text/html" title="第23回対決戦で利用されている「M9D ファルケ」の編成を見てみる" /><published>2024-08-08T00:00:00+09:00</published><updated>2024-08-08T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2024/08/08/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2024/08/08/report.html"><![CDATA[<p>以上。</p>
-
-<p>第23回対決戦では500位以内だと0名でした。
-あまりにも悲しい結果に。</p>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[以上。]]></summary></entry><entry><title type="html">第23回対決戦で利用されている「蜃気楼」の編成を見てみる</title><link href="https://makietan.github.io/game/srwdd/2024/08/07/report.html" rel="alternate" type="text/html" title="第23回対決戦で利用されている「蜃気楼」の編成を見てみる" /><published>2024-08-07T00:00:00+09:00</published><updated>2024-08-07T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2024/08/07/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2024/08/07/report.html"><![CDATA[<p>以上。</p>
 
 <p>第23回対決戦では500位以内だと0名でした。
 あまりにも悲しい結果に。</p>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[以上。]]></summary></entry></feed>
