@@ -1,4 +1,252 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2024-10-08T12:25:47+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">サーモンのカルパッチョを作ってみた</title><link href="https://makietan.github.io/gourmet/2024/09/10/report.html" rel="alternate" type="text/html" title="サーモンのカルパッチョを作ってみた" /><published>2024-09-10T00:00:00+09:00</published><updated>2024-09-10T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2024/09/10/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2024/09/10/report.html"><![CDATA[<p>サーモン・大葉・玉ねぎを用意するだけ。</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2024-10-08T17:50:49+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">レーバテインのMAIN装備比較</title><link href="https://makietan.github.io/game/srwdd/2024/10/08/report.html" rel="alternate" type="text/html" title="レーバテインのMAIN装備比較" /><published>2024-10-08T00:00:00+09:00</published><updated>2024-10-08T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2024/10/08/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2024/10/08/report.html"><![CDATA[<h2 id="比較対象">比較対象</h2>
+
+<ul>
+  <li>SSR+ デモリッションガン ガン・ハウザーモード（MAP）
+    <ul>
+      <li>気力130以上
+        <ul>
+          <li>敵防御力・運動性-32%</li>
+          <li>ARX-8 レーバテイン装備時
+            <ul>
+              <li>被ダメージ-3500</li>
+              <li>回避率35%</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>ARX-8 レーバテイン装備時
+        <ul>
+          <li>移動力+1</li>
+          <li>敵バリア-70%</li>
+          <li>斬撃・実弾ブレイクゲージ100%</li>
+          <li>デモリッションガン ガン・ハウザーモード（MAP）でブレイク成功時
+            <ul>
+              <li>敵ブレイクゲージ復帰アクション数+1</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>SSR+ デモリッションガン
+    <ul>
+      <li>命中時
+        <ul>
+          <li>「覚醒」</li>
+        </ul>
+      </li>
+      <li>ARX-8 レーバテイン装備時
+        <ul>
+          <li>射程+1</li>
+          <li>サイズ差減少効果無効</li>
+          <li>敵バリア-70%</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>SSR+ スラスト・コンバット</li>
+  <li>SSR+ 76mm散弾砲ボクサー2</li>
+  <li>SSR+ 単分子カッター</li>
+</ul>
+
+<h2 id="比較気力1804マス以上離戦闘回数5">比較（気力180・4マス以上離・戦闘回数5）</h2>
+
+<p>デバフについては記載しない。</p>
+
+<p>MAPの方に与ダメージがないせいで絶対にこちらという選択肢がない。</p>
+
+<p>ダメージを与えたい場合はデモリッションガンの方を選択する可能性もある。</p>
+
+<canvas id="chart-1" style="background-color: #fff"></canvas>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script>
+    // chart
+    const MAX_MINUS_DEFAULT_KIRYOKU_DIVIDED_BY_10 = (180 - 100) / 10;
+    const NUMBER_OF_BATTLES = 5;
+    const ctx1 = document.getElementById('chart-1');
+    new Chart(ctx1, {
+        type: 'radar',
+        data: {
+            labels: ["HP", "攻撃力", "防御力", "照準値", "運動性", "与ダメージ", "必殺技威力", "回避率", "命中率"],
+            datasets: [
+                {
+                    label: "デモリッションガン ガン・ハウザーモード（MAP）",
+                    data: [
+                        0, // HP
+                        23.5 + 8 * MAX_MINUS_DEFAULT_KIRYOKU_DIVIDED_BY_10, // 攻撃力
+                        0, // 防御力
+                        23.5 + 6 * MAX_MINUS_DEFAULT_KIRYOKU_DIVIDED_BY_10, // 照準値
+                        23.5 + 8 * MAX_MINUS_DEFAULT_KIRYOKU_DIVIDED_BY_10, // 運動性
+                        0, // 与ダメージ
+                        8.5 * MAX_MINUS_DEFAULT_KIRYOKU_DIVIDED_BY_10, // 必殺技威力
+                        35, // 回避率
+                        0 // 命中率
+                    ]
+                },
+                {
+                    label: "デモリッションガン",
+                    data: [
+                        0, // HP
+                        22.5 + 7 * MAX_MINUS_DEFAULT_KIRYOKU_DIVIDED_BY_10, // 攻撃力
+                        0, // 防御力
+                        22.5 + 6 * MAX_MINUS_DEFAULT_KIRYOKU_DIVIDED_BY_10, // 照準値
+                        22.5 + 6 * MAX_MINUS_DEFAULT_KIRYOKU_DIVIDED_BY_10, // 運動性
+                        35, // 与ダメージ
+                        8 * MAX_MINUS_DEFAULT_KIRYOKU_DIVIDED_BY_10, // 必殺技威力
+                        35, // 回避率
+                        25 // 命中率
+                    ]
+                },
+                {
+                    label: "スラスト・コンバット",
+                    data: [
+                        0, // HP
+                        10.5, // 攻撃力
+                        10.5, // 防御力
+                        10.5, // 照準値
+                        25 + 10.5, // 運動性
+                        0, // 与ダメージ
+                        0, // 必殺技威力
+                        0, // 回避率
+                        0 // 命中率
+                    ]
+                },
+                {
+                    label: "76mm散弾砲ボクサー2",
+                    data: [
+                        0, // HP
+                        21 + 3.5 * NUMBER_OF_BATTLES, // 攻撃力
+                        0, // 防御力
+                        0, // 照準値
+                        21 + 3.5 * NUMBER_OF_BATTLES, // 運動性
+                        0, // 与ダメージ
+                        25, // 必殺技威力
+                        0, // 回避率
+                        0 // 命中率
+                    ]
+                },
+                {
+                    label: "単分子カッター",
+                    data: [
+                        0, // HP
+                        10.5, // 攻撃力
+                        10.5, // 防御力
+                        10.5, // 照準値
+                        10.5, // 運動性
+                        0, // 与ダメージ
+                        0, // 必殺技威力
+                        0, // 回避率
+                        0 // 命中率
+                    ]
+                }
+            ]
+        }
+    });
+</script>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[比較対象]]></summary></entry><entry><title type="html">Google Play Console デベロッパー アカウントが閉鎖されました</title><link href="https://makietan.github.io/tech/2024/10/07/report.html" rel="alternate" type="text/html" title="Google Play Console デベロッパー アカウントが閉鎖されました" /><published>2024-10-07T00:00:00+09:00</published><updated>2024-10-07T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2024/10/07/report</id><content type="html" xml:base="https://makietan.github.io/tech/2024/10/07/report.html"><![CDATA[<p>タイトル通り、「Google Play Console デベロッパー アカウントが閉鎖されました」。
+メールの本文には最終通告って書いてたのに完了報告だった。</p>
+
+<p>テスターをたくさん集めたり、住所を晒せだのなんだのと個人開発者のプライバシーを危険に晒す仕様にはがっかりすぎるので
+もうアップロードすることはないだろうけど Android アプリ自体の開発は続けていこうと思う。</p>
+
+<p>早く日本で Google Play 以外のストアが利用できたりするといいな。
+独占禁止法が仕事をしないのがダメだわ。</p>
+
+<p>ちなみに閉鎖された直後は新たに作ることもできず、問い合わせをするしかない。
+それもメールに記載歳れたURLからということらしいが、そんなものは見当たらなかった。</p>
+
+<p>結構雑すぎて困るよ。</p>
+
+<p>一方的に閉めるくせに返金もないからね。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[タイトル通り、「Google Play Console デベロッパー アカウントが閉鎖されました」。 メールの本文には最終通告って書いてたのに完了報告だった。]]></summary></entry><entry><title type="html">「妖精夜行」POP UP STORE のイベントに行ってきた</title><link href="https://makietan.github.io/otaku/2024/10/06/report.html" rel="alternate" type="text/html" title="「妖精夜行」POP UP STORE のイベントに行ってきた" /><published>2024-10-06T00:00:00+09:00</published><updated>2024-10-06T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2024/10/06/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2024/10/06/report.html"><![CDATA[<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/%E6%82%A0%E6%9C%A8%E7%A2%A7?src=hash&amp;ref_src=twsrc%5Etfw">#悠木碧</a><br /><br />【音楽プロジェクト「妖精夜行」POPUPSTORE『悠木碧来店イベント～いたずら妖精お祓い会～』】<br />〈10月6日(日)開催@ラフォーレ原宿〉<a href="https://t.co/fQ92VZDFRW">https://t.co/fQ92VZDFRW</a><br /><br />本日は期間限定ショップでの来店イベント！<br />抽選に参加してくださった皆様ありがとうございました🧚<br />お店は明日まで！<a href="https://twitter.com/hashtag/%E5%A6%96%E7%B2%BE%E5%A4%9C%E8%A1%8C?src=hash&amp;ref_src=twsrc%5Etfw">#妖精夜行</a> <a href="https://t.co/8n2x5A1zi5">pic.twitter.com/8n2x5A1zi5</a></p>&mdash; 青二プロダクション【公式】 (@aoni_official) <a href="https://twitter.com/aoni_official/status/1842865483693138144?ref_src=twsrc%5Etfw">October 6, 2024</a></blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<h2 id="pop-up-store">POP UP STORE</h2>
+
+<div class="card">
+  <a href="https://prtimes.jp/main/html/rd/p/000003958.000019470.html"></a>
+  <div class="card__header">
+    <a href="https://prtimes.jp/main/html/rd/p/000003958.000019470.html">prtimes.jp</a>
+  </div>
+  <div class="card__image">
+    <img src="https://prcdn.freetls.fastly.net/release_image/19470/3958/19470-3958-c8a744c255625ef70009d6e2a886d088-1080x566.jpg?format=jpeg&amp;auto=webp&amp;fit=bounds&amp;width=2400&amp;height=1260" />
+  </div>
+  <div class="card__title">
+    <p>10月1日より『妖精夜行 POP UP STORE~森の収穫祭~』の開催が決定！6日(日)には悠木碧来店イベントも開催！また、同日にオリジナルミニアルバム『妖精夜行』の配信も決定！ | 日本コロムビア株式会社のプレスリリース</p>
+  </div>
+  <div class="card__description">
+    <p>日本コロムビア株式会社のプレスリリース（2024年9月19日 18時00分）10月1日より『妖精夜行 POP UP STORE~森の収穫祭~』の開催が決定！6日(日)には悠木碧来店イベントも開催！また、同日にオリジナルミニアルバム『妖精夜行』の配信も決定！</p>
+  </div>
+</div>
+
+<p>妖精夜行 POP UP STORE 〜森の収穫祭〜 がラフォーレ原宿で開催された。</p>
+
+<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">🧚‍♀️˗ˏˋ グッズのお知らせ ˎˊ˗🧚‍♀️<br /><br />10/1(火)～7(月)<br />『妖精夜行 POP UP STORE~森の収穫祭~』<br />@ラフォーレ原宿<br /><br />オリジナルグッズのラインナップを公開！！🔔<br /><br />夢ノ内先生( <a href="https://twitter.com/yume335?ref_src=twsrc%5Etfw">@yume335</a> )描き下ろしの限定グッズを始め、<br />妖精夜行ゆかりのアイテム勢揃い♪<br /><br />ぜひお越しください✨<a href="https://t.co/W39sn5EW8x">https://t.co/W39sn5EW8x</a> <a href="https://t.co/QNbByiqxE9">pic.twitter.com/QNbByiqxE9</a></p>&mdash; 妖精夜行 OFFICIAL (@yoseiyako) <a href="https://twitter.com/yoseiyako/status/1836691779292463121?ref_src=twsrc%5Etfw">September 19, 2024</a></blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<p>キノコ型の <del>卑猥な</del> ペンライトや、ベレー帽、パーカーといったグッズが販売された。</p>
+
+<p>複製原画は事後販売もあるようだ。</p>
+
+<p>是非、ペンライトくらいは入手していただきたい。</p>
+
+<h2 id="悠木碧来店イベントいたずら妖精お祓い会">悠木碧来店イベント～いたずら妖精お祓い会～</h2>
+
+<p>至ってシンプルで整理券を持ってきた妖精達にお祓い（物理）をしていただけるイベントである。</p>
+
+<p>POP UP STORE で5000円購入ごとにできる抽選で当たると参加できる。</p>
+
+<p>待機列に並んで、森（悠木碧）にお辞儀をすると <del>2回頭を殴られる</del> お祓いをしていただける。</p>
+
+<p>そして、退店という流れだ。</p>
+
+<p>これがとても楽しい。</p>
+
+<p>最寄りの明治神宮よりもご利益がありそうだ。</p>]]></content><author><name>makietan</name></author><category term="otaku" /><summary type="html"><![CDATA[#悠木碧【音楽プロジェクト「妖精夜行」POPUPSTORE『悠木碧来店イベント～いたずら妖精お祓い会～』】〈10月6日(日)開催@ラフォーレ原宿〉https://t.co/fQ92VZDFRW本日は期間限定ショップでの来店イベント！抽選に参加してくださった皆様ありがとうございました🧚お店は明日まで！#妖精夜行 pic.twitter.com/8n2x5A1zi5&mdash; 青二プロダクション【公式】 (@aoni_official) October 6, 2024]]></summary></entry><entry><title type="html">「妖精夜行」のリリースイベントに行ってきた</title><link href="https://makietan.github.io/otaku/2024/10/05/report.html" rel="alternate" type="text/html" title="「妖精夜行」のリリースイベントに行ってきた" /><published>2024-10-05T00:00:00+09:00</published><updated>2024-10-05T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2024/10/05/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2024/10/05/report.html"><![CDATA[<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/%E6%82%A0%E6%9C%A8%E7%A2%A7?src=hash&amp;ref_src=twsrc%5Etfw">#悠木碧</a><br /><br />【妖精夜行「私たちの音楽世界を創ろう」プロジェクト リリースイベント】<br />〈10月5日(土)開催@都内某所〉<a href="https://t.co/YKlyjE8f7b">https://t.co/YKlyjE8f7b</a><br /><br />プロジェクトを一緒に創り上げてきた皆様とイベント開催！<br />活動1年を振り返りつつライブもあり盛り沢山でした、皆様ありがとうございました🧚<a href="https://twitter.com/hashtag/%E5%A6%96%E7%B2%BE%E5%A4%9C%E8%A1%8C?src=hash&amp;ref_src=twsrc%5Etfw">#妖精夜行</a> <a href="https://t.co/2xg7NRFy0V">pic.twitter.com/2xg7NRFy0V</a></p>&mdash; 青二プロダクション【公式】 (@aoni_official) <a href="https://twitter.com/aoni_official/status/1842530617189351899?ref_src=twsrc%5Etfw">October 5, 2024</a></blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<h2 id="妖精夜行">「妖精夜行」</h2>
+
+<p>悠木碧らが立ち上げた Discord の名称。
+参加者は妖精として活動する。
+コミュニティに参加しようとする人たちは新設で平和なところだ。</p>
+
+<p>そこで、発表されたのがクラファンによる楽曲制作だ。
+「妖精夜行」は今回の楽曲のタイトルにもなっている。</p>
+
+<p><a href="https://www.youtube.com/playlist?list=OLAK5uy_nKXsy1g_2OZglfCkv-wuDgxvp1Jtdi4OY">妖精夜行 - YouTube</a></p>
+
+<p>そのリリースイベントが今回クラファン参加者に向けて行われた。</p>
+
+<h2 id="内容">内容</h2>
+
+<ul>
+  <li>「妖精夜行」（Discord、クラファン）で起きた出来事のふりかえり</li>
+  <li>楽曲制作についての想いやヒミツ</li>
+  <li>楽曲披露</li>
+</ul>
+
+<p>妖精夜行では公式配信だったり、リアルの催し等もあったのでその振り返りをした。</p>
+
+<p>次に楽曲に関する話。</p>
+
+<p>レイニーレイニーエラーのとある部分に仕込まれてた音とかね。</p>
+
+<p>楽曲披露では、 sleeping forest をロリ声で歌うといったアレンジが聞けて非常によかった。</p>
+
+<h2 id="なでなで会">なでなで会</h2>
+
+<p>イベントのお見送りでのふれあい会である。</p>
+
+<p>なでなで会は最高でした。
+こんな年令になると撫でてくれる人なんかいないからね。
+なんかご利益ありそうだわ（帰りに水たまりに足突っ込んでしまったけども）。</p>
+
+<h2 id="おわりに">おわりに</h2>
+
+<p>なお、妖精夜行はこのリリースイベントをもって終了してしまう。
+まさに <a href="https://youtu.be/BRjppM4UF3E?si=wtKq9Mtk7pyPJG12">sleeping forest</a> といったところだ。
+Discord については Read Only で残るようなので限りある期限まで楽しみたいと思う。</p>]]></content><author><name>makietan</name></author><category term="otaku" /><summary type="html"><![CDATA[#悠木碧【妖精夜行「私たちの音楽世界を創ろう」プロジェクト リリースイベント】〈10月5日(土)開催@都内某所〉https://t.co/YKlyjE8f7bプロジェクトを一緒に創り上げてきた皆様とイベント開催！活動1年を振り返りつつライブもあり盛り沢山でした、皆様ありがとうございました🧚#妖精夜行 pic.twitter.com/2xg7NRFy0V&mdash; 青二プロダクション【公式】 (@aoni_official) October 5, 2024]]></summary></entry><entry><title type="html">サーモンのカルパッチョを作ってみた</title><link href="https://makietan.github.io/gourmet/2024/09/10/report.html" rel="alternate" type="text/html" title="サーモンのカルパッチョを作ってみた" /><published>2024-09-10T00:00:00+09:00</published><updated>2024-09-10T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2024/09/10/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2024/09/10/report.html"><![CDATA[<p>サーモン・大葉・玉ねぎを用意するだけ。</p>
 
 <p>切ってポン酢で和える。</p>
 
@@ -687,228 +935,4 @@
             ]
         }
     });
-</script>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[比較対象]]></summary></entry><entry><title type="html">ナイチンゲールのMAIN装備比較</title><link href="https://makietan.github.io/game/srwdd/2024/08/20/report.html" rel="alternate" type="text/html" title="ナイチンゲールのMAIN装備比較" /><published>2024-08-20T00:00:00+09:00</published><updated>2024-08-20T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2024/08/20/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2024/08/20/report.html"><![CDATA[<h2 id="比較対象">比較対象</h2>
-
-<p>限定は持ってないので未記載。</p>
-
-<ul>
-  <li>SSR +5 拡散メガ粒子砲（ナイチンゲール／MAP）</li>
-  <li>SSR +5 ファンネル（ナイチンゲール）</li>
-  <li>SSR +5 マイクロミサイル（ナイチンゲール）</li>
-  <li>SSR +5 ビーム・サーベル（ナイチンゲール）</li>
-  <li>SSR +5 大型メガ・ビーム・ライフル</li>
-</ul>
-
-<h2 id="気力170戦闘回数5回">気力170・戦闘回数5回</h2>
-
-<p>デバフ・反撃時については記載しない。</p>
-
-<canvas id="chart-1" style="background-color: #fff"></canvas>
-
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-
-<script>
-    // chart
-    const ctx1 = document.getElementById('chart-1');
-    new Chart(ctx1, {
-        type: 'radar',
-        data: {
-            labels: ["HP", "攻撃力", "防御力", "照準値", "運動性", "気力上限", "命中率", "回避率"],
-            datasets: [
-                {
-                    label: "拡散メガ粒子砲（ナイチンゲール／MAP）",
-                    data: [
-                        0,  
-                        17.5 + 5 * 7,
-                        0,
-                        13 + 5 * 7,
-                        17.5 + 5 * 7,
-                        0,
-                        0
-                    ]
-                },
-                {
-                    label: "ファンネル（ナイチンゲール）",
-                    data: [
-                        0,
-                        17.5 + 33,
-                        0,
-                        13 + 33,
-                        17.5 + 33,
-                        0,
-                        0
-                    ]
-                },
-                {
-                    label: "マイクロミサイル（ナイチンゲール）",
-                    data: [
-                        0,
-                        14.5,
-                        0,
-                        2 * 7,
-                        14.5,
-                        0,
-                        0
-                    ]
-                },
-                {
-                    label: "ビーム・サーベル（ナイチンゲール）",
-                    data: [
-                        0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0
-                    ]
-                },
-                {
-                    label: "大型メガ・ビーム・ライフル",
-                    data: [
-                        0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        12,
-                        12
-                    ]
-                }
-            ]
-        }
-    });
-</script>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[比較対象]]></summary></entry><entry><title type="html">ソウルゲインのMAIN装備比較</title><link href="https://makietan.github.io/game/srwdd/2024/08/15/report.html" rel="alternate" type="text/html" title="ソウルゲインのMAIN装備比較" /><published>2024-08-15T00:00:00+09:00</published><updated>2024-08-15T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2024/08/15/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2024/08/15/report.html"><![CDATA[<h2 id="比較対象">比較対象</h2>
-
-<ul>
-  <li>SSR+ 麒麟</li>
-  <li>SSR+ 舞朱雀</li>
-  <li>SSR+ 白虎咬</li>
-  <li>SSR+ 青龍鱗</li>
-  <li>SSR+ 玄武金剛弾</li>
-</ul>
-
-<h2 id="気力150戦闘回数5回隣接">気力150・戦闘回数5回・隣接</h2>
-
-<p>デバフについては記載しない。</p>
-
-<p>麒麟かな。
-もしくは舞朱雀、被ダメージ軽減の玄武金剛弾かな。</p>
-
-<canvas id="chart-1" style="background-color: #fff"></canvas>
-
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-
-<script>
-    // chart
-    const ctx1 = document.getElementById('chart-1');
-    new Chart(ctx1, {
-        type: 'radar',
-        data: {
-            labels: ["HP", "攻撃力", "防御力", "照準値", "運動性", "命中率", "与ダメージ", "移動力", "スピード"],
-            datasets: [
-                {
-                    label: "麒麟",
-                    data: [
-                        0,  
-                        30, 
-                        10 + 30, 
-                        0, 
-                        0,
-                        70,
-                        42,
-                        0,
-                        0
-                    ]
-                },
-                {
-                    label: "舞朱雀",
-                    data: [
-                        0,
-                        30,
-                        30,
-                        24,
-                        0,
-                        0,
-                        42,
-                        2,
-                        75
-                    ]
-                },
-                {
-                    label: "白虎咬",
-                    data: [
-                        0,
-                        10.5,
-                        10.5,
-                        10.5,
-                        10.5,
-                        0,
-                        0,
-                        0,
-                        0
-                    ]
-                },
-                {
-                    label: "青龍鱗",
-                    data: [
-                        0,
-                        10.5,
-                        10.5,
-                        10.5,
-                        10.5,
-                        0,
-                        0,
-                        0,
-                        0
-                    ]
-                },
-                {
-                    label: "玄武金剛弾",
-                    data: [
-                        0,
-                        14.5,
-                        14.5,
-                        14.5,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0
-                    ]
-                }
-            ]
-        }
-    });
-</script>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[比較対象]]></summary></entry><entry><title type="html">第23回対決戦で利用されている「ARX-7 アーバレスト」の編成を見てみる</title><link href="https://makietan.github.io/game/srwdd/2024/08/12/report.html" rel="alternate" type="text/html" title="第23回対決戦で利用されている「ARX-7 アーバレスト」の編成を見てみる" /><published>2024-08-12T00:00:00+09:00</published><updated>2024-08-12T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2024/08/12/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2024/08/12/report.html"><![CDATA[<ul>
-  <li>S37位
-    <ul>
-      <li>MAIN: SSR+ ウルズ・ストライク</li>
-      <li>SP: SSR+ ボクサー連射</li>
-      <li>SP: SSR+ 強襲</li>
-      <li>SUB: 射程プラス（攻撃&amp;回避）《射程+2》</li>
-      <li>SUB: タイプ強化Ⅴ・運動性（攻撃&amp;回避）（青馬剣之介時貞）《運動性11%+4%》</li>
-      <li>SUB: タイプ強化Ⅴ・運動性（攻撃&amp;回避）（バナージ・リンクス）《運動性11%+4%》</li>
-      <li>SUB: タイプ強化Ⅴ・運動性（攻撃&amp;回避）《11%+4%》</li>
-      <li>ABILITY: 運動性アップ ★20《運動性+10%》</li>
-      <li>ABILITY: 運動性プラス ★20《運動性+75》</li>
-      <li>ABILITY: 攻撃力・運動性プラス ★20《攻撃力+380、運動性+38》</li>
-      <li>ABILITY: 運動性プラス・気力＋（回避） ★20《運動性+75、回避で気力+2》</li>
-      <li>ABILITY: 運動性・移動力プラス ★20《運動性+75、移動力+2》</li>
-    </ul>
-  </li>
-</ul>
-
-<p>以上。</p>
-
-<p>第23回対決戦では500位以内だと1名のみでした。
-運動性アップのアビリティチップなんて今のところ入手したことがないどころか
-運動性アップの他が運動性プラスと攻撃力・運動性プラスという金の暴力でしかえられないものでした。
-ボクサー連射は気力120以上になれば運動性が16.5%増加するので回避機体特化であれば強い。
-ホロボルトプレッシャー・のんびり屋の女子高生（必中）・心のままに（激励）・懸命な声援？となる
-最後は皇女の信じた道でもいいんじゃないかな。</p>
-
-<p>1名しかいなかったのでなんとも言えませんが回避機体特化にすると良さそうです。</p>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[S37位 MAIN: SSR+ ウルズ・ストライク SP: SSR+ ボクサー連射 SP: SSR+ 強襲 SUB: 射程プラス（攻撃&amp;回避）《射程+2》 SUB: タイプ強化Ⅴ・運動性（攻撃&amp;回避）（青馬剣之介時貞）《運動性11%+4%》 SUB: タイプ強化Ⅴ・運動性（攻撃&amp;回避）（バナージ・リンクス）《運動性11%+4%》 SUB: タイプ強化Ⅴ・運動性（攻撃&amp;回避）《11%+4%》 ABILITY: 運動性アップ ★20《運動性+10%》 ABILITY: 運動性プラス ★20《運動性+75》 ABILITY: 攻撃力・運動性プラス ★20《攻撃力+380、運動性+38》 ABILITY: 運動性プラス・気力＋（回避） ★20《運動性+75、回避で気力+2》 ABILITY: 運動性・移動力プラス ★20《運動性+75、移動力+2》]]></summary></entry><entry><title type="html">第23回対決戦で利用されている「ソウルゲイン」の編成を見てみる</title><link href="https://makietan.github.io/game/srwdd/2024/08/11/report.html" rel="alternate" type="text/html" title="第23回対決戦で利用されている「ソウルゲイン」の編成を見てみる" /><published>2024-08-11T00:00:00+09:00</published><updated>2024-08-11T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2024/08/11/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2024/08/11/report.html"><![CDATA[<p>以上。</p>
-
-<p>第23回対決戦では500位以内だと0名でした。
-あまりにも悲しい結果に。</p>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[以上。]]></summary></entry></feed>
+</script>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[比較対象]]></summary></entry></feed>
