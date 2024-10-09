@@ -1,4 +1,107 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2024-10-08T17:50:49+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">レーバテインのMAIN装備比較</title><link href="https://makietan.github.io/game/srwdd/2024/10/08/report.html" rel="alternate" type="text/html" title="レーバテインのMAIN装備比較" /><published>2024-10-08T00:00:00+09:00</published><updated>2024-10-08T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2024/10/08/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2024/10/08/report.html"><![CDATA[<h2 id="比較対象">比較対象</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2024-10-09T12:23:40+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">レーバテインの必殺技装備比較</title><link href="https://makietan.github.io/game/srwdd/2024/10/09/report.html" rel="alternate" type="text/html" title="レーバテインの必殺技装備比較" /><published>2024-10-09T00:00:00+09:00</published><updated>2024-10-09T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2024/10/09/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2024/10/09/report.html"><![CDATA[<h2 id="比較対象">比較対象</h2>
+
+<ul>
+  <li>SSR+ デモリッションガン ガン・ハウザーモード（MAP）
+    <ul>
+      <li>移動力+1（重複可）</li>
+      <li>ブレイクゲージ減少量35%</li>
+    </ul>
+  </li>
+  <li>SSR+ デモリッションガン
+    <ul>
+      <li>射程+1</li>
+      <li>命中時「覚醒」</li>
+      <li>サイズ差減少効果無効</li>
+    </ul>
+  </li>
+  <li>SSR+ スラスト・コンバット</li>
+  <li>SSR+ 76mm散弾砲ボクサー2</li>
+  <li>SSR+ 単分子カッター</li>
+</ul>
+
+<h2 id="比較気力1804マス以上離戦闘回数5">比較（気力180・4マス以上離・戦闘回数5）</h2>
+
+<p>デバフについては記載しない。</p>
+
+<p>スラスト・コンバットの運動性が最高。</p>
+
+<p>次点でデモリッションガン2種。</p>
+
+<p>基本はデモリッションガン2種とスラスト・コンバットの組み合わせになるだろう。</p>
+
+<canvas id="chart-1" style="background-color: #fff"></canvas>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script>
+    // chart
+    const MAX_MINUS_DEFAULT_KIRYOKU_DIVIDED_BY_10 = (180 - 100) / 10;
+    const NUMBER_OF_BATTLES = 5;
+    const ctx1 = document.getElementById('chart-1');
+    new Chart(ctx1, {
+        type: 'radar',
+        data: {
+            labels: ["HP", "攻撃力", "防御力", "照準値", "運動性", "必殺技威力"],
+            datasets: [
+                {
+                    label: "デモリッションガン ガン・ハウザーモード（MAP）",
+                    data: [
+                        0, // HP
+                        2 * MAX_MINUS_DEFAULT_KIRYOKU_DIVIDED_BY_10, // 攻撃力
+                        0, // 防御力
+                        2 * MAX_MINUS_DEFAULT_KIRYOKU_DIVIDED_BY_10, // 照準値
+                        2 * MAX_MINUS_DEFAULT_KIRYOKU_DIVIDED_BY_10, // 運動性
+                        0 // 必殺技威力
+                    ]
+                },
+                {
+                    label: "デモリッションガン",
+                    data: [
+                        0, // HP
+                        2 * MAX_MINUS_DEFAULT_KIRYOKU_DIVIDED_BY_10, // 攻撃力
+                        0, // 防御力
+                        2 * MAX_MINUS_DEFAULT_KIRYOKU_DIVIDED_BY_10, // 照準値
+                        2 * MAX_MINUS_DEFAULT_KIRYOKU_DIVIDED_BY_10, // 運動性
+                        0 // 必殺技威力
+                    ]
+                },
+                {
+                    label: "スラスト・コンバット",
+                    data: [
+                        0, // HP
+                        6.5, // 攻撃力
+                        6.5, // 防御力
+                        6.5, // 照準値
+                        10 + 6.5, // 運動性
+                        0 // 必殺技威力
+                    ]
+                },
+                {
+                    label: "76mm散弾砲ボクサー2",
+                    data: [
+                        0, // HP
+                        11, // 攻撃力
+                        0, // 防御力
+                        0, // 照準値
+                        11, // 運動性
+                        16 // 必殺技威力
+                    ]
+                },
+                {
+                    label: "単分子カッター",
+                    data: [
+                        0, // HP
+                        6.5, // 攻撃力
+                        6.5, // 防御力
+                        6.5, // 照準値
+                        6.5, // 運動性
+                        0 // 必殺技威力
+                    ]
+                }
+            ]
+        }
+    });
+</script>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[比較対象]]></summary></entry><entry><title type="html">レーバテインのMAIN装備比較</title><link href="https://makietan.github.io/game/srwdd/2024/10/08/report.html" rel="alternate" type="text/html" title="レーバテインのMAIN装備比較" /><published>2024-10-08T00:00:00+09:00</published><updated>2024-10-08T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2024/10/08/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2024/10/08/report.html"><![CDATA[<h2 id="比較対象">比較対象</h2>
 
 <ul>
   <li>SSR+ デモリッションガン ガン・ハウザーモード（MAP）
@@ -749,187 +852,6 @@ Discord については Read Only で残るようなので限りある期限ま�
                         19182 / 10,
                         3709,
                         5382
-                    ]
-                }
-            ]
-        }
-    });
-</script>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[比較対象]]></summary></entry><entry><title type="html">ZガンダムのMAIN装備比較</title><link href="https://makietan.github.io/game/srwdd/2024/08/22/report.html" rel="alternate" type="text/html" title="ZガンダムのMAIN装備比較" /><published>2024-08-22T00:00:00+09:00</published><updated>2024-08-22T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2024/08/22/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2024/08/22/report.html"><![CDATA[<h2 id="比較対象">比較対象</h2>
-
-<p>限定は持ってないので未記載。</p>
-
-<ul>
-  <li>SSR +5 メガ粒子砲一斉攻撃</li>
-  <li>SSR +5 ウェイブ・ライダー突撃</li>
-  <li>SSR +5 ハイパー・メガ・ランチャー（MAP）</li>
-  <li>SSR +5 ビーム・サーベル（ハイパー）</li>
-  <li>SSR +5 ビーム・コンフューズ連続攻撃</li>
-  <li>SSR +5 ハイパー・メガ・ランチャー</li>
-  <li>SSR +5 ビーム・サーベル</li>
-  <li>SSR +5 ビーム・ライフル</li>
-  <li>SSR +5 2連装グレネードランチャー</li>
-</ul>
-
-<h2 id="気力150戦闘回数5回地形宇宙">気力150・戦闘回数5回・地形「宇宙」</h2>
-
-<p>デバフ・反撃時については記載しない。</p>
-
-<ul>
-  <li>メガ粒子砲一斉攻撃は、出撃後最初だけ1アクション、ブレイクゲージ：ビーム・打撃・斬撃属性。</li>
-  <li>ウェイブ・ライダー突撃は、宇宙適性S、ブレイクゲージ：ビーム・打撃・斬撃属性。</li>
-  <li>ハイパー・メガ・ランチャー（MAP）は、命中時に敵の気力-20、ブレイクゲージ：ビーム・斬撃属性。</li>
-  <li>ビーム・サーベル（ハイパー）は、敵アクション時のみ被ダメージ-60%、ブレイクゲージ：ビーム・斬撃属性。</li>
-  <li>ビーム・コンフューズ連続攻撃は、ブレイクゲージ：ビーム属性。</li>
-  <li>ハイパー・メガ・ランチャーは、反撃時に攻撃力+18%。</li>
-</ul>
-
-<p>メガ粒子砲一斉攻撃が最適かな。</p>
-
-<canvas id="chart-1" style="background-color: #fff"></canvas>
-
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-
-<script>
-    // chart
-    const ctx1 = document.getElementById('chart-1');
-    new Chart(ctx1, {
-        type: 'radar',
-        data: {
-            labels: ["HP", "攻撃力", "防御力", "照準値", "運動性", "命中率", "回避率", "ブレイクゲージ減少量", "最大射程", "移動力"],
-            datasets: [
-                {
-                    label: "メガ粒子砲一斉攻撃",
-                    data: [
-                          0, // HP
-                         25 + 4.5 * 5 + 16, // 攻撃力
-                          0, // 防御力
-                         25 + 4.5 * 5 + 16, // 照準値
-                         25 + 4.5 * 5 + 16, // 運動性
-                          0, // 命中率
-                          0, // 回避率
-                        100, // ブレイクゲージ減少量
-                          1, // 最大射程
-                          1, // 移動力
-                    ]
-                },
-                {
-                    label: "ウェイブ・ライダー突撃",
-                    data: [
-                          0, // HP
-                         22 + 5 + 4 * 5, // 攻撃力
-                          0, // 防御力
-                         25 + 5 + 4 * 5, // 照準値
-                         25 + 5 + 4 * 5, // 運動性
-                          0, // 命中率
-                          0, // 回避率
-                        110, // ブレイクゲージ減少量
-                          0, // 最大射程
-                          0, // 移動力
-                    ]
-                },
-                {
-                    label: "ハイパー・メガ・ランチャー（MAP）",
-                    data: [
-                          0, // HP
-                         35, // 攻撃力
-                          0, // 防御力
-                         16 + 35, // 照準値
-                         16 + 35, // 運動性
-                          0, // 命中率
-                          0, // 回避率
-                        110, // ブレイクゲージ減少量
-                          0, // 最大射程
-                          0, // 移動力
-                    ]
-                },
-                {
-                    label: "ビーム・サーベル（ハイパー）",
-                    data: [
-                           0, // HP
-                        25.5, // 攻撃力
-                           0, // 防御力
-                        25.5, // 照準値
-                        25.5, // 運動性
-                           0, // 命中率
-                           0, // 回避率
-                         110, // ブレイクゲージ減少量
-                           0, // 最大射程
-                           0, // 移動力
-                    ]
-                },
-                {
-                    label: "ビーム・コンフューズ連続攻撃",
-                    data: [
-                         0, // HP
-                         18, // 攻撃力
-                         0, // 防御力
-                         28, // 照準値
-                         18, // 運動性
-                          0, // 命中率
-                          0, // 回避率
-                        100, // ブレイクゲージ減少量
-                          0, // 最大射程
-                          0, // 移動力
-                    ]
-                },
-                {
-                    label: "ハイパー・メガ・ランチャー",
-                    data: [
-                         0, // HP
-                        18, // 攻撃力
-                         0, // 防御力
-                        18, // 照準値
-                        18, // 運動性
-                         0, // 命中率
-                         0, // 回避率
-                         0, // ブレイクゲージ減少量
-                         0, // 最大射程
-                         0, // 移動力
-                    ]
-                },
-                {
-                    label: "ビーム・サーベル",
-                    data: [
-                           0, // HP
-                        10.5, // 攻撃力
-                        10.5, // 防御力
-                        10.5, // 照準値
-                        10.5, // 運動性
-                          15, // 命中率
-                          15, // 回避率
-                           0, // ブレイクゲージ減少量
-                           0, // 最大射程
-                           0, // 移動力
-                    ]
-                },
-                {
-                    label: "ビーム・ライフル",
-                    data: [
-                           0, // HP
-                        10.5, // 攻撃力
-                        10.5, // 防御力
-                        10.5, // 照準値
-                        10.5, // 運動性
-                           0, // 命中率
-                           0, // 回避率
-                           0, // ブレイクゲージ減少量
-                           0, // 最大射程
-                           0, // 移動力
-                    ]
-                },
-                {
-                    label: "2連装グレネードランチャー",
-                    data: [
-                           0, // HP
-                        10.5, // 攻撃力
-                        10.5, // 防御力
-                        10.5, // 照準値
-                        10.5, // 運動性
-                           0, // 命中率
-                           0, // 回避率
-                           0, // ブレイクゲージ減少量
-                           0, // 最大射程
-                           0, // 移動力
                     ]
                 }
             ]
