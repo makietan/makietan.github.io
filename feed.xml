@@ -1,4 +1,108 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2024-10-09T12:23:40+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">レーバテインの必殺技装備比較</title><link href="https://makietan.github.io/game/srwdd/2024/10/09/report.html" rel="alternate" type="text/html" title="レーバテインの必殺技装備比較" /><published>2024-10-09T00:00:00+09:00</published><updated>2024-10-09T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2024/10/09/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2024/10/09/report.html"><![CDATA[<h2 id="比較対象">比較対象</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2024-10-10T12:24:19+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">レーバテインのデモリッションガン比較</title><link href="https://makietan.github.io/game/srwdd/2024/10/10/report.html" rel="alternate" type="text/html" title="レーバテインのデモリッションガン比較" /><published>2024-10-10T00:00:00+09:00</published><updated>2024-10-10T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2024/10/10/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2024/10/10/report.html"><![CDATA[<h2 id="比較対象">比較対象</h2>
+
+<h3 id="ssr-デモリッションガン-ガンハウザーモードmap">SSR+ デモリッションガン ガン・ハウザーモード（MAP）</h3>
+<h4 id="必殺技">必殺技</h4>
+<ul>
+  <li>SSR+ デモリッションガン</li>
+  <li>SSR+ スラスト・コンバット
+    <h4 id="効果">効果</h4>
+  </li>
+  <li>射程+1（重複不可）</li>
+  <li>移動力+1（重複可）</li>
+  <li>ARX-8 レーバテイン装備時
+    <ul>
+      <li>敵バリア-70%</li>
+      <li>斬撃・実弾ブレイクゲージ減少量100%</li>
+      <li>デモリッションガン ガン・ハウザーモード（MAP）でブレイク時
+        <ul>
+          <li>敵ブレイクゲージ復帰アクション数+1</li>
+        </ul>
+      </li>
+      <li>気力130以上
+        <ul>
+          <li>敵防御力・運動性-32%</li>
+          <li>被ダメージ-3500</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>デモリッションガン命中時「覚醒」</li>
+  <li>サイズ差減少効果無効</li>
+</ul>
+
+<h3 id="ssr-デモリッションガン">SSR+ デモリッションガン</h3>
+<h4 id="必殺技-1">必殺技</h4>
+<ul>
+  <li>SSR+ デモリッションガン ガン・ハウザーモード（MAP）</li>
+  <li>SSR+ スラスト・コンバット
+    <h4 id="効果-1">効果</h4>
+  </li>
+  <li>デモリッションガン命中時「覚醒」</li>
+  <li>ARX-8 レーバテイン装備時
+    <ul>
+      <li>サイズ差減少効果無効</li>
+      <li>敵バリア-70%</li>
+    </ul>
+  </li>
+  <li>射程+1（重複不可）</li>
+  <li>移動力+1（重複可）</li>
+  <li>ブレイクゲージ減少量+35%
+    <h2 id="比較気力1804マス以上離戦闘回数5">比較（気力180・4マス以上離・戦闘回数5）</h2>
+  </li>
+</ul>
+
+<p>デバフについては記載しない。</p>
+
+<p>思ったほど変わらない結果に…。</p>
+
+<p>与ダメージがあるのでデモリッションをMAINにしてもいい感じになる。</p>
+
+<canvas id="chart-1" style="background-color: #fff"></canvas>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script>
+    // chart
+    const MAX_MINUS_DEFAULT_KIRYOKU_DIVIDED_BY_10 = (180 - 100) / 10;
+    const NUMBER_OF_BATTLES = 5;
+    const ctx1 = document.getElementById('chart-1');
+    new Chart(ctx1, {
+        type: 'radar',
+        data: {
+            labels: ["HP", "攻撃力", "防御力", "照準値", "運動性", "必殺技威力", "与ダメージ", "命中率", "回避率"],
+            datasets: [
+                {
+                    label: "デモリッションガン ガン・ハウザーモード（MAP）",
+                    data: [
+                       0, // HP
+                       23.5 + 8 * MAX_MINUS_DEFAULT_KIRYOKU_DIVIDED_BY_10 + 2 * MAX_MINUS_DEFAULT_KIRYOKU_DIVIDED_BY_10, // 攻撃力
+                       0, // 防御力
+                       23.5 + 6 * MAX_MINUS_DEFAULT_KIRYOKU_DIVIDED_BY_10 + 2 * MAX_MINUS_DEFAULT_KIRYOKU_DIVIDED_BY_10, // 照準値
+                       23.5 + 8 * MAX_MINUS_DEFAULT_KIRYOKU_DIVIDED_BY_10 + 2 * MAX_MINUS_DEFAULT_KIRYOKU_DIVIDED_BY_10, // 運動性
+                       8.5 * MAX_MINUS_DEFAULT_KIRYOKU_DIVIDED_BY_10, // 必殺技威力
+                       0, // 与ダメージ
+                       0, // 命中率
+                       35 // 回避率
+                    ]
+                },
+                {
+                    label: "デモリッションガン",
+                    data: [
+                       0, // HP
+                       22.5 + 7 * MAX_MINUS_DEFAULT_KIRYOKU_DIVIDED_BY_10 + 2 * MAX_MINUS_DEFAULT_KIRYOKU_DIVIDED_BY_10 + 6.5, // 攻撃力
+                       6.5, // 防御力
+                       22.5 + 6 * MAX_MINUS_DEFAULT_KIRYOKU_DIVIDED_BY_10 + 2 * MAX_MINUS_DEFAULT_KIRYOKU_DIVIDED_BY_10 + 6.5, // 照準値
+                       22.5 + 6 * MAX_MINUS_DEFAULT_KIRYOKU_DIVIDED_BY_10 + 2 * MAX_MINUS_DEFAULT_KIRYOKU_DIVIDED_BY_10 + 10 + 6.5, // 運動性
+                       8 * MAX_MINUS_DEFAULT_KIRYOKU_DIVIDED_BY_10, // 必殺技威力
+                       35, // 与ダメージ
+                       25, // 命中率
+                       35 // 回避率
+                    ]
+                }
+            ]
+        }
+    });
+</script>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[比較対象]]></summary></entry><entry><title type="html">レーバテインの必殺技装備比較</title><link href="https://makietan.github.io/game/srwdd/2024/10/09/report.html" rel="alternate" type="text/html" title="レーバテインの必殺技装備比較" /><published>2024-10-09T00:00:00+09:00</published><updated>2024-10-09T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2024/10/09/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2024/10/09/report.html"><![CDATA[<h2 id="比較対象">比較対象</h2>
 
 <ul>
   <li>SSR+ デモリッションガン ガン・ハウザーモード（MAP）
@@ -685,173 +789,6 @@ Discord については Read Only で残るようなので限りある期限ま�
                         0,
                         0,
                         0
-                    ]
-                }
-            ]
-        }
-    });
-</script>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[比較対象]]></summary></entry><entry><title type="html">M9D ファルケのMAIN装備比較</title><link href="https://makietan.github.io/game/srwdd/2024/09/04/report.html" rel="alternate" type="text/html" title="M9D ファルケのMAIN装備比較" /><published>2024-09-04T00:00:00+09:00</published><updated>2024-09-04T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2024/09/04/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2024/09/04/report.html"><![CDATA[<h2 id="比較対象">比較対象</h2>
-
-<ul>
-  <li>SSR+ ASマーシャルアーツ</li>
-  <li>SSR+ オン・ザ・エッジ</li>
-  <li>SSR+ ウルズ1コンビネーション</li>
-</ul>
-
-<h2 id="気力150戦闘回数5回隣接">気力150・戦闘回数5回・隣接</h2>
-
-<p>デバフについては記載しない。</p>
-
-<canvas id="chart-1" style="background-color: #fff"></canvas>
-
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-
-<script>
-    // chart
-    const ctx1 = document.getElementById('chart-1');
-    new Chart(ctx1, {
-        type: 'radar',
-        data: {
-            labels: ["HP", "攻撃力", "防御力", "照準値", "運動性", "射程", "与ダメージ"],
-            datasets: [
-                {
-                    label: "ASマーシャルアーツ",
-                    data: [
-                        0,
-                        28.5 + 13,
-                        0,
-                        26,
-                        28.5 + 13,
-                        0,
-                        0
-                    ]
-                },
-                {
-                    label: "オン・ザ・エッジ",
-                    data: [
-                        0,
-                        24.5 + 24,
-                        0,
-                        24,
-                        24.5 + 24,
-                        0,
-                        0
-                    ]
-                },
-                {
-                    label: "ウルズ1コンビネーション",
-                    data: [
-                        0,
-                        17.5,
-                        0,
-                        22.5 + 36,
-                        22.5 + 36,
-                        1,
-                        35
-                    ]
-                }
-            ]
-        }
-    });
-</script>
-
-<h2 id="気力170実測値">気力170（実測値）</h2>
-
-<h3 id="ssr-asマーシャルアーツ">SSR+ ASマーシャルアーツ</h3>
-<h4 id="必殺技">必殺技</h4>
-<ul>
-  <li>SSR+ オン・ザ・エッジ</li>
-  <li>SSR+ ウルズ1コンビネーション
-    <h4 id="sub">SUB</h4>
-  </li>
-  <li>DD × 4
-    <h4 id="ステータス">ステータス</h4>
-  </li>
-  <li>HP 44210</li>
-  <li>攻撃力 42196</li>
-  <li>防御力 19443</li>
-  <li>照準値 3487</li>
-  <li>運動性 4602</li>
-  <li>移動 3</li>
-  <li>スピード 625</li>
-</ul>
-
-<h3 id="ssr-オンザエッジ">SSR+ オン・ザ・エッジ</h3>
-<h4 id="必殺技-1">必殺技</h4>
-<ul>
-  <li>SSR+ ASマーシャルアーツ</li>
-  <li>SSR+ ウルズ1コンビネーション
-    <h4 id="sub-1">SUB</h4>
-  </li>
-  <li>DD × 4
-    <h4 id="ステータス-1">ステータス</h4>
-  </li>
-  <li>HP 44165</li>
-  <li>攻撃力 44580</li>
-  <li>防御力 19400</li>
-  <li>照準値 3229</li>
-  <li>運動性 4869</li>
-  <li>移動 3</li>
-  <li>スピード 625</li>
-</ul>
-
-<h3 id="ssr-ウルズ1コンビネーション">SSR+ ウルズ1コンビネーション</h3>
-<h4 id="必殺技-2">必殺技</h4>
-<ul>
-  <li>SSR+ ASマーシャルアーツ</li>
-  <li>SSR+ オン・ザ・エッジ
-    <h4 id="sub-2">SUB</h4>
-  </li>
-  <li>DD × 4
-    <h4 id="ステータス-2">ステータス</h4>
-  </li>
-  <li>HP 44705</li>
-  <li>攻撃力 44782</li>
-  <li>防御力 19182</li>
-  <li>照準値 3709</li>
-  <li>運動性 5382</li>
-  <li>移動 3</li>
-  <li>スピード 625</li>
-</ul>
-
-<canvas id="chart-2" style="background-color: #fff"></canvas>
-
-<script>
-    // chart
-    const ctx2 = document.getElementById('chart-2');
-    new Chart(ctx2, {
-        type: 'radar',
-        data: {
-            labels: ["HP", "攻撃力", "防御力", "照準値", "運動性"],
-            datasets: [
-                {
-                    label: "ASマーシャルアーツ",
-                    data: [
-                        44210 / 10,
-                        42196 / 10,
-                        19443 / 10,
-                        3487,
-                        4602
-                    ]
-                },
-                {
-                    label: "オン・ザ・エッジ",
-                    data: [
-                        44165 / 10,
-                        44580 / 10,
-                        19400 / 10,
-                        3229,
-                        4869
-                    ]
-                },
-                {
-                    label: "ウルズ1コンビネーション",
-                    data: [
-                        44705 / 10,
-                        44782 / 10,
-                        19182 / 10,
-                        3709,
-                        5382
                     ]
                 }
             ]
