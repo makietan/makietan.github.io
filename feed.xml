@@ -1,4 +1,152 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2024-10-18T12:25:58+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">有楽町から新橋までの大回り乗車案 その①</title><link href="https://makietan.github.io/railway/2024/10/16/report.html" rel="alternate" type="text/html" title="有楽町から新橋までの大回り乗車案 その①" /><published>2024-10-16T00:00:00+09:00</published><updated>2024-10-16T00:00:00+09:00</updated><id>https://makietan.github.io/railway/2024/10/16/report</id><content type="html" xml:base="https://makietan.github.io/railway/2024/10/16/report.html"><![CDATA[<h2 id="大回り乗車とは">大回り乗車とは</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2024-10-18T15:31:08+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">JavaScriptで継承(extends)した場合に「static」の挙動はどうなるのか</title><link href="https://makietan.github.io/tech/2024/10/18/report.html" rel="alternate" type="text/html" title="JavaScriptで継承(extends)した場合に「static」の挙動はどうなるのか" /><published>2024-10-18T00:00:00+09:00</published><updated>2024-10-18T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2024/10/18/report</id><content type="html" xml:base="https://makietan.github.io/tech/2024/10/18/report.html"><![CDATA[<p>JavaScript を使っていて継承 <code class="language-plaintext highlighter-rouge">extends</code> した場合に <code class="language-plaintext highlighter-rouge">static</code> の挙動がどうなるのか気になったので調べてみた。</p>
+
+<ol>
+  <li>継承した class 名で親の static 要素は利用できるのか</li>
+  <li>オーバーライドが可能か？</li>
+</ol>
+
+<h2 id="1-継承した-class-名で親の-static-要素は利用できるのか">1. 継承した class 名で親の static 要素は利用できるのか</h2>
+
+<p>まずは継承したら元の <code class="language-plaintext highlighter-rouge">static</code> は利用できるのかどうかを検証する。</p>
+
+<h3 id="検証">検証</h3>
+
+<p>以下のサイトのコードを引用して、それを継承した <code class="language-plaintext highlighter-rouge">Hoge</code> クラスを作り、各 <code class="language-plaintext highlighter-rouge">static</code> な要素を検証してきます。</p>
+
+<div class="card">
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/static"></a>
+  <div class="card__header">
+    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/static">developer.mozilla.org</a>
+  </div>
+  <div class="card__image">
+    <img src="https://developer.mozilla.org/mdn-social-share.d893525a4fb5fb1f67a2.png" />
+  </div>
+  <div class="card__title">
+    <p>static - JavaScript | MDN</p>
+  </div>
+  <div class="card__description">
+    <p>The static keyword defines a static method or field for a class, or a static initialization block (see the link for more information about this usage). Static properties cannot be directly accessed on instances of the class. Instead, they're accessed on the class itself.</p>
+  </div>
+</div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>class ClassWithStaticMethod {
+  static staticProperty = 'someValue';
+  static staticMethod() {
+    return 'static method has been called.';
+  }
+  static {
+    console.log('Class static initialization block called');
+  }
+}
+
+console.log(ClassWithStaticMethod.staticProperty);
+// Expected output: "someValue"
+console.log(ClassWithStaticMethod.staticMethod());
+// Expected output: "static method has been called."
+
+class Hoge extends ClassWithStaticMethod {
+}
+
+console.log(Hoge.staticProperty);
+console.log(Hoge.staticMethod());
+</code></pre></div></div>
+
+<h3 id="出力結果">出力結果</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt; "Class static initialization block called"
+&gt; "someValue"
+&gt; "static method has been called."
+&gt; "someValue"
+&gt; "static method has been called."
+</code></pre></div></div>
+
+<p>問題なく呼ぶことができました。</p>
+
+<h2 id="2-オーバーライドが可能か">2. オーバーライドが可能か？</h2>
+
+<p>次に <code class="language-plaintext highlighter-rouge">static</code> はオーバーライドできるかどうかです。
+JavaScript は自由度がいい意味でも悪い意味でも高いので、おそらくできてしまうだろうというのが予想です。</p>
+
+<p>さて、実際にはどうなのか検証していきます。</p>
+
+<p>1と同様に以下のサイトのコードを引用して、それを継承した <code class="language-plaintext highlighter-rouge">Hoge</code> クラスを作り、各 <code class="language-plaintext highlighter-rouge">static</code> をオーバーライドしていきます。</p>
+
+<div class="card">
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/static"></a>
+  <div class="card__header">
+    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/static">developer.mozilla.org</a>
+  </div>
+  <div class="card__image">
+    <img src="https://developer.mozilla.org/mdn-social-share.d893525a4fb5fb1f67a2.png" />
+  </div>
+  <div class="card__title">
+    <p>static - JavaScript | MDN</p>
+  </div>
+  <div class="card__description">
+    <p>The static keyword defines a static method or field for a class, or a static initialization block (see the link for more information about this usage). Static properties cannot be directly accessed on instances of the class. Instead, they're accessed on the class itself.</p>
+  </div>
+</div>
+
+<h3 id="検証-1">検証</h3>
+
+<p>オーバーライドできた場合は <a href="https://ja.wikipedia.org/wiki/%E3%83%A1%E3%82%BF%E6%A7%8B%E6%96%87%E5%A4%89%E6%95%B0">メタ構文変数
+</a>が表示されます。</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>class ClassWithStaticMethod {
+  static staticProperty = 'someValue';
+  static staticMethod() {
+    return 'static method has been called.';
+  }
+  static {
+    console.log('Class static initialization block called');
+  }
+}
+
+console.log(ClassWithStaticMethod.staticProperty);
+// Expected output: "someValue"
+console.log(ClassWithStaticMethod.staticMethod());
+// Expected output: "static method has been called."
+
+class Hoge extends ClassWithStaticMethod {
+  static staticProperty = 'fuga';
+  static staticMethod() {
+    return "piyo";
+  }
+  static {
+    console.log("hogera");
+  }
+}
+
+console.log(Hoge.staticProperty);
+console.log(Hoge.staticMethod());
+</code></pre></div></div>
+
+<h3 id="出力結果-1">出力結果</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt; "Class static initialization block called"
+&gt; "someValue"
+&gt; "static method has been called."
+&gt; "hogera"
+&gt; "fuga"
+&gt; "piyo"
+</code></pre></div></div>
+
+<p>継承は可能ということがわかった。</p>
+
+<p><code class="language-plaintext highlighter-rouge">static</code> な initializer は 1 度しか呼ばれない。
+ただし、継承後の initializer は親の initializer が呼ばれた後でも 1 度だけ呼ばれる。</p>
+
+<h2 id="結論">結論</h2>
+
+<p>JavaScript を使っていて継承 <code class="language-plaintext highlighter-rouge">extends</code> した場合</p>
+
+<ul>
+  <li>継承後のクラス名でも <code class="language-plaintext highlighter-rouge">static</code> 要素を利用することができた。</li>
+  <li>オーバーライドが可能。</li>
+  <li>initializer は別途1度だけ呼ばれる。</li>
+</ul>
+
+<p>となった。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[JavaScript を使っていて継承 extends した場合に static の挙動がどうなるのか気になったので調べてみた。]]></summary></entry><entry><title type="html">有楽町から新橋までの大回り乗車案 その①</title><link href="https://makietan.github.io/railway/2024/10/16/report.html" rel="alternate" type="text/html" title="有楽町から新橋までの大回り乗車案 その①" /><published>2024-10-16T00:00:00+09:00</published><updated>2024-10-16T00:00:00+09:00</updated><id>https://makietan.github.io/railway/2024/10/16/report</id><content type="html" xml:base="https://makietan.github.io/railway/2024/10/16/report.html"><![CDATA[<h2 id="大回り乗車とは">大回り乗車とは</h2>
 
 <p>大都市近郊区間内のみを利用する場合に適用される特例を応用した乗車方法のこと。
 ようは電車に長く乗って風景でも見てたいなという人向けの時間潰し方法だ。</p>
@@ -136,23 +284,7 @@
 ｜ 　16:06-16:21［15分］
 ｜ 　 ↓ （ 普通車 ）
 ■新橋    地下2番線着 
-</code></pre></div></div>]]></content><author><name>makietan</name></author><category term="railway" /><summary type="html"><![CDATA[大回り乗車とは]]></summary></entry><entry><title type="html">サブ垢が先に掲載されてしまった…</title><link href="https://makietan.github.io/fx/2024/10/14/report2.html" rel="alternate" type="text/html" title="サブ垢が先に掲載されてしまった…" /><published>2024-10-14T00:00:00+09:00</published><updated>2024-10-14T00:00:00+09:00</updated><id>https://makietan.github.io/fx/2024/10/14/report2</id><content type="html" xml:base="https://makietan.github.io/fx/2024/10/14/report2.html"><![CDATA[<div class="card">
-  <a href="https://kabumatome.doorblog.jp/archives/66022780.html"></a>
-  <div class="card__header">
-    <a href="https://kabumatome.doorblog.jp/archives/66022780.html">kabumatome.doorblog.jp</a>
-  </div>
-  <div class="card__image">
-    <img src="https://livedoor.blogimg.jp/masorira-kabu/imgs/6/7/67a909fd.png" />
-  </div>
-  <div class="card__title">
-    <p>さよなら神田暴威、為替介入の責任者が三村淳さんに交代へ : 市況かぶ全力２階建</p>
-  </div>
-  <div class="card__description">
-    <p>  ワロタ pic.twitter.com/TAZhfATUot— コウナン (@konantower) May 9, 2024 https://www.youtube.com/watch?v=vgaMC8FChQAスタンバイだと思ったらまさかスタンバイバイだったとは— ふくたろう (@fuku__taro) June 28, 2024 https://www.youtube.com/watch?v=Z5KpM9FXhb8神</p>
-  </div>
-</div>
-
-<p>なぜなのか</p>]]></content><author><name>makietan</name></author><category term="fx" /><summary type="html"><![CDATA[kabumatome.doorblog.jp さよなら神田暴威、為替介入の責任者が三村淳さんに交代へ : 市況かぶ全力２階建 ワロタ pic.twitter.com/TAZhfATUot— コウナン (@konantower) May 9, 2024 https://www.youtube.com/watch?v=vgaMC8FChQAスタンバイだと思ったらまさかスタンバイバイだったとは— ふくたろう (@fuku__taro) June 28, 2024 https://www.youtube.com/watch?v=Z5KpM9FXhb8神]]></summary></entry><entry><title type="html">レーバテインのデモリッションガン比較</title><link href="https://makietan.github.io/game/srwdd/2024/10/10/report.html" rel="alternate" type="text/html" title="レーバテインのデモリッションガン比較" /><published>2024-10-10T00:00:00+09:00</published><updated>2024-10-10T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2024/10/10/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2024/10/10/report.html"><![CDATA[<h2 id="比較対象">比較対象</h2>
+</code></pre></div></div>]]></content><author><name>makietan</name></author><category term="railway" /><summary type="html"><![CDATA[大回り乗車とは]]></summary></entry><entry><title type="html">レーバテインのデモリッションガン比較</title><link href="https://makietan.github.io/game/srwdd/2024/10/10/report.html" rel="alternate" type="text/html" title="レーバテインのデモリッションガン比較" /><published>2024-10-10T00:00:00+09:00</published><updated>2024-10-10T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2024/10/10/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2024/10/10/report.html"><![CDATA[<h2 id="比較対象">比較対象</h2>
 
 <h3 id="ssr-デモリッションガン-ガンハウザーモードmap">SSR+ デモリッションガン ガン・ハウザーモード（MAP）</h3>
 <h4 id="必殺技">必殺技</h4>
