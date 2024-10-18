@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2024-10-18T15:31:08+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">JavaScriptで継承(extends)した場合に「static」の挙動はどうなるのか</title><link href="https://makietan.github.io/tech/2024/10/18/report.html" rel="alternate" type="text/html" title="JavaScriptで継承(extends)した場合に「static」の挙動はどうなるのか" /><published>2024-10-18T00:00:00+09:00</published><updated>2024-10-18T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2024/10/18/report</id><content type="html" xml:base="https://makietan.github.io/tech/2024/10/18/report.html"><![CDATA[<p>JavaScript を使っていて継承 <code class="language-plaintext highlighter-rouge">extends</code> した場合に <code class="language-plaintext highlighter-rouge">static</code> の挙動がどうなるのか気になったので調べてみた。</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2024-10-18T19:14:20+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">JavaScriptで継承(extends)した場合に「static」の挙動はどうなるのか</title><link href="https://makietan.github.io/tech/2024/10/18/report.html" rel="alternate" type="text/html" title="JavaScriptで継承(extends)した場合に「static」の挙動はどうなるのか" /><published>2024-10-18T00:00:00+09:00</published><updated>2024-10-18T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2024/10/18/report</id><content type="html" xml:base="https://makietan.github.io/tech/2024/10/18/report.html"><![CDATA[<p>JavaScript を使っていて継承 <code class="language-plaintext highlighter-rouge">extends</code> した場合に <code class="language-plaintext highlighter-rouge">static</code> の挙動がどうなるのか気になったので調べてみた。</p>
 
 <ol>
   <li>継承した class 名で親の static 要素は利用できるのか</li>
@@ -29,35 +29,35 @@
   </div>
 </div>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>class ClassWithStaticMethod {
-  static staticProperty = 'someValue';
-  static staticMethod() {
-    return 'static method has been called.';
-  }
-  static {
-    console.log('Class static initialization block called');
-  }
-}
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">class</span> <span class="nc">ClassWithStaticMethod</span> <span class="p">{</span>
+  <span class="kd">static</span> <span class="nx">staticProperty</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">someValue</span><span class="dl">'</span><span class="p">;</span>
+  <span class="kd">static</span> <span class="nf">staticMethod</span><span class="p">()</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="dl">'</span><span class="s1">static method has been called.</span><span class="dl">'</span><span class="p">;</span>
+  <span class="p">}</span>
+  <span class="kd">static</span> <span class="p">{</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="dl">'</span><span class="s1">Class static initialization block called</span><span class="dl">'</span><span class="p">);</span>
+  <span class="p">}</span>
+<span class="p">}</span>
 
-console.log(ClassWithStaticMethod.staticProperty);
-// Expected output: "someValue"
-console.log(ClassWithStaticMethod.staticMethod());
-// Expected output: "static method has been called."
+<span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="nx">ClassWithStaticMethod</span><span class="p">.</span><span class="nx">staticProperty</span><span class="p">);</span>
+<span class="c1">// Expected output: "someValue"</span>
+<span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="nx">ClassWithStaticMethod</span><span class="p">.</span><span class="nf">staticMethod</span><span class="p">());</span>
+<span class="c1">// Expected output: "static method has been called."</span>
 
-class Hoge extends ClassWithStaticMethod {
-}
+<span class="kd">class</span> <span class="nc">Hoge</span> <span class="kd">extends</span> <span class="nc">ClassWithStaticMethod</span> <span class="p">{</span>
+<span class="p">}</span>
 
-console.log(Hoge.staticProperty);
-console.log(Hoge.staticMethod());
+<span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="nx">Hoge</span><span class="p">.</span><span class="nx">staticProperty</span><span class="p">);</span>
+<span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="nx">Hoge</span><span class="p">.</span><span class="nf">staticMethod</span><span class="p">());</span>
 </code></pre></div></div>
 
 <h3 id="出力結果">出力結果</h3>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt; "Class static initialization block called"
-&gt; "someValue"
-&gt; "static method has been called."
-&gt; "someValue"
-&gt; "static method has been called."
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">&gt;</span> <span class="s2">"Class static initialization block called"</span>
+<span class="o">&gt;</span> <span class="s2">"someValue"</span>
+<span class="o">&gt;</span> <span class="s2">"static method has been called."</span>
+<span class="o">&gt;</span> <span class="s2">"someValue"</span>
+<span class="o">&gt;</span> <span class="s2">"static method has been called."</span>
 </code></pre></div></div>
 
 <p>問題なく呼ぶことができました。</p>
@@ -92,43 +92,43 @@ JavaScript は自由度がいい意味でも悪い意味でも高いので、お
 <p>オーバーライドできた場合は <a href="https://ja.wikipedia.org/wiki/%E3%83%A1%E3%82%BF%E6%A7%8B%E6%96%87%E5%A4%89%E6%95%B0">メタ構文変数
 </a>が表示されます。</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>class ClassWithStaticMethod {
-  static staticProperty = 'someValue';
-  static staticMethod() {
-    return 'static method has been called.';
-  }
-  static {
-    console.log('Class static initialization block called');
-  }
-}
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">class</span> <span class="nc">ClassWithStaticMethod</span> <span class="p">{</span>
+  <span class="kd">static</span> <span class="nx">staticProperty</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">someValue</span><span class="dl">'</span><span class="p">;</span>
+  <span class="kd">static</span> <span class="nf">staticMethod</span><span class="p">()</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="dl">'</span><span class="s1">static method has been called.</span><span class="dl">'</span><span class="p">;</span>
+  <span class="p">}</span>
+  <span class="kd">static</span> <span class="p">{</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="dl">'</span><span class="s1">Class static initialization block called</span><span class="dl">'</span><span class="p">);</span>
+  <span class="p">}</span>
+<span class="p">}</span>
 
-console.log(ClassWithStaticMethod.staticProperty);
-// Expected output: "someValue"
-console.log(ClassWithStaticMethod.staticMethod());
-// Expected output: "static method has been called."
+<span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="nx">ClassWithStaticMethod</span><span class="p">.</span><span class="nx">staticProperty</span><span class="p">);</span>
+<span class="c1">// Expected output: "someValue"</span>
+<span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="nx">ClassWithStaticMethod</span><span class="p">.</span><span class="nf">staticMethod</span><span class="p">());</span>
+<span class="c1">// Expected output: "static method has been called."</span>
 
-class Hoge extends ClassWithStaticMethod {
-  static staticProperty = 'fuga';
-  static staticMethod() {
-    return "piyo";
-  }
-  static {
-    console.log("hogera");
-  }
-}
+<span class="kd">class</span> <span class="nc">Hoge</span> <span class="kd">extends</span> <span class="nc">ClassWithStaticMethod</span> <span class="p">{</span>
+  <span class="kd">static</span> <span class="nx">staticProperty</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">fuga</span><span class="dl">'</span><span class="p">;</span>
+  <span class="kd">static</span> <span class="nf">staticMethod</span><span class="p">()</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="dl">"</span><span class="s2">piyo</span><span class="dl">"</span><span class="p">;</span>
+  <span class="p">}</span>
+  <span class="kd">static</span> <span class="p">{</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="dl">"</span><span class="s2">hogera</span><span class="dl">"</span><span class="p">);</span>
+  <span class="p">}</span>
+<span class="p">}</span>
 
-console.log(Hoge.staticProperty);
-console.log(Hoge.staticMethod());
+<span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="nx">Hoge</span><span class="p">.</span><span class="nx">staticProperty</span><span class="p">);</span>
+<span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="nx">Hoge</span><span class="p">.</span><span class="nf">staticMethod</span><span class="p">());</span>
 </code></pre></div></div>
 
 <h3 id="出力結果-1">出力結果</h3>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt; "Class static initialization block called"
-&gt; "someValue"
-&gt; "static method has been called."
-&gt; "hogera"
-&gt; "fuga"
-&gt; "piyo"
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">&gt;</span> <span class="s2">"Class static initialization block called"</span>
+<span class="o">&gt;</span> <span class="s2">"someValue"</span>
+<span class="o">&gt;</span> <span class="s2">"static method has been called."</span>
+<span class="o">&gt;</span> <span class="s2">"hogera"</span>
+<span class="o">&gt;</span> <span class="s2">"fuga"</span>
+<span class="o">&gt;</span> <span class="s2">"piyo"</span>
 </code></pre></div></div>
 
 <p>継承は可能ということがわかった。</p>
@@ -146,7 +146,37 @@ console.log(Hoge.staticMethod());
   <li>initializer は別途1度だけ呼ばれる。</li>
 </ul>
 
-<p>となった。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[JavaScript を使っていて継承 extends した場合に static の挙動がどうなるのか気になったので調べてみた。]]></summary></entry><entry><title type="html">有楽町から新橋までの大回り乗車案 その①</title><link href="https://makietan.github.io/railway/2024/10/16/report.html" rel="alternate" type="text/html" title="有楽町から新橋までの大回り乗車案 その①" /><published>2024-10-16T00:00:00+09:00</published><updated>2024-10-16T00:00:00+09:00</updated><id>https://makietan.github.io/railway/2024/10/16/report</id><content type="html" xml:base="https://makietan.github.io/railway/2024/10/16/report.html"><![CDATA[<h2 id="大回り乗車とは">大回り乗車とは</h2>
+<p>となった。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[JavaScript を使っていて継承 extends した場合に static の挙動がどうなるのか気になったので調べてみた。]]></summary></entry><entry><title type="html">10月なのに…</title><link href="https://makietan.github.io/weather/2024/10/17/report.html" rel="alternate" type="text/html" title="10月なのに…" /><published>2024-10-17T00:00:00+09:00</published><updated>2024-10-17T00:00:00+09:00</updated><id>https://makietan.github.io/weather/2024/10/17/report</id><content type="html" xml:base="https://makietan.github.io/weather/2024/10/17/report.html"><![CDATA[<ul>
+  <li>最高気温: 26.0℃</li>
+  <li>最低気温: 20.7℃</li>
+</ul>
+
+<div class="card">
+  <a href="https://tenki.jp/past/2024/10/17/weather/"></a>
+  <div class="card__header">
+    <a href="https://tenki.jp/past/2024/10/17/weather/">tenki.jp</a>
+  </div>
+  <div class="card__image">
+    <img src="https://storage.tenki.jp/archive/live/map/2024/10/17/top-large.jpg" />
+  </div>
+  <div class="card__title">
+    <p>過去の天気(実況天気・2024年10月17日) - 日本気象協会 tenki.jp</p>
+  </div>
+  <div class="card__description">
+    <p>過去天気の実況天気では、2024年10月17日の過去の気象情報を確認できます。エリア・日付でわかりやすく整理されています。</p>
+  </div>
+</div>
+
+<p>ほんとに日本かここは？</p>
+
+<p>曇りだったのでまだ日差しに悩まされることはなかったが、
+流石に10月中旬にもなってこの気温はやりすぎだろう。</p>
+
+<p>個人的には最高気温が20.0℃くらいのほうが快適なのだよ。</p>
+
+<p>秋なんとかしてくれ！</p>
+
+<p>（ちなみに日曜日に雨が降るのでそのタイミングで気温は低下しそうだけどね）</p>]]></content><author><name>makietan</name></author><category term="weather" /><summary type="html"><![CDATA[最高気温: 26.0℃ 最低気温: 20.7℃]]></summary></entry><entry><title type="html">有楽町から新橋までの大回り乗車案 その①</title><link href="https://makietan.github.io/railway/2024/10/16/report.html" rel="alternate" type="text/html" title="有楽町から新橋までの大回り乗車案 その①" /><published>2024-10-16T00:00:00+09:00</published><updated>2024-10-16T00:00:00+09:00</updated><id>https://makietan.github.io/railway/2024/10/16/report</id><content type="html" xml:base="https://makietan.github.io/railway/2024/10/16/report.html"><![CDATA[<h2 id="大回り乗車とは">大回り乗車とは</h2>
 
 <p>大都市近郊区間内のみを利用する場合に適用される特例を応用した乗車方法のこと。
 ようは電車に長く乗って風景でも見てたいなという人向けの時間潰し方法だ。</p>
@@ -284,7 +314,123 @@ console.log(Hoge.staticMethod());
 ｜ 　16:06-16:21［15分］
 ｜ 　 ↓ （ 普通車 ）
 ■新橋    地下2番線着 
-</code></pre></div></div>]]></content><author><name>makietan</name></author><category term="railway" /><summary type="html"><![CDATA[大回り乗車とは]]></summary></entry><entry><title type="html">レーバテインのデモリッションガン比較</title><link href="https://makietan.github.io/game/srwdd/2024/10/10/report.html" rel="alternate" type="text/html" title="レーバテインのデモリッションガン比較" /><published>2024-10-10T00:00:00+09:00</published><updated>2024-10-10T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2024/10/10/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2024/10/10/report.html"><![CDATA[<h2 id="比較対象">比較対象</h2>
+</code></pre></div></div>]]></content><author><name>makietan</name></author><category term="railway" /><summary type="html"><![CDATA[大回り乗車とは]]></summary></entry><entry><title type="html">焼肉ライクといえばマンガ盛り</title><link href="https://makietan.github.io/gourmet/2024/10/15/report.html" rel="alternate" type="text/html" title="焼肉ライクといえばマンガ盛り" /><published>2024-10-15T00:00:00+09:00</published><updated>2024-10-15T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2024/10/15/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2024/10/15/report.html"><![CDATA[<p>焼肉ライクの肉の質って大して求めてなくて、どちらかといえば誰にも邪魔されずに1人で焼き肉ができるという体験型飲食店だと思っている。</p>
+
+<p>その中で、最高のUXをくれたのが<strong>マンガ盛り</strong>である。</p>
+
+<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">焼肉ライクやりおる <a href="https://t.co/4sziRy44Lh">pic.twitter.com/4sziRy44Lh</a></p>&mdash; まきえたん🥦☘️ (@makietanX) <a href="https://twitter.com/makietanX/status/1600091474678276096?ref_src=twsrc%5Etfw">December 6, 2022</a></blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<p>焼き肉の味は結局タレ次第なので今の美味しいタレを扱ってるなら問題ないだろう。</p>
+
+<p>ふりかけは何度でも言うけどクソマズい。</p>
+
+<hr />
+
+<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">マンガ盛りとかしてくれてた時はそれしか頼んでなかったなぁ<br />なお焼肉ライクに置いてあるふりかけは不味くてご飯のお供としては不合格 <a href="https://t.co/oGqi0vsc4G">https://t.co/oGqi0vsc4G</a></p>&mdash; まきえたん🥦☘️ (@makietanX) <a href="https://twitter.com/makietanX/status/1846180955197001847?ref_src=twsrc%5Etfw">October 15, 2024</a></blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[焼肉ライクの肉の質って大して求めてなくて、どちらかといえば誰にも邪魔されずに1人で焼き肉ができるという体験型飲食店だと思っている。]]></summary></entry><entry><title type="html">小倉唯のファンならお風呂に入ろう</title><link href="https://makietan.github.io/otaku/2024/10/14/report.html" rel="alternate" type="text/html" title="小倉唯のファンならお風呂に入ろう" /><published>2024-10-14T00:00:00+09:00</published><updated>2024-10-14T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2024/10/14/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2024/10/14/report.html"><![CDATA[<p>わくシャン = 「わくわくシャンプー＆リンス」。</p>
+
+<div class="card">
+  <a href="https://www.youtube.com/watch?v=wYWNCKhMBaY"></a>
+  <div class="card__header">
+    <a href="https://www.youtube.com/watch?v=wYWNCKhMBaY">www.youtube.com</a>
+  </div>
+  <div class="card__image">
+    <img src="https://i.ytimg.com/vi/wYWNCKhMBaY/maxresdefault.jpg" />
+  </div>
+  <div class="card__title">
+    <p>わくわくシャンプー＆リンス - YouTube</p>
+  </div>
+  <div class="card__description">
+    <p>Provided to YouTube by Nippon Columbia Co., Ltd./NIPPONOPHONEわくわくシャンプー＆リンス · Yui OguraBloomy℗ Nippon Columbia Co., Ltd./NIPPONOPHONEReleased on: 2024-09-18Ly...</p>
+  </div>
+</div>
+
+<p>「わくわくシャンプー＆リンス」という曲にちなんだライブでの発言から、「風呂キャンセル界隈」（風呂やシャワーをパスすること）について語る流れになった。</p>
+
+<p>風呂に入れ。シャワーだけじゃ落ちない汚れも多々あるんだ。</p>
+
+<p>小倉唯のファンが風呂に入らないというわけではないので注意しよう。</p>
+
+<p>ちなみに臭う場合は、汗をかいた後でもない限りは、口臭か衣類の悪臭であることが多い。</p>
+
+<p>口腔疾患は喋ったときに分かるので、「ちょっとだけにおいが気になるかも・・・歯医者行ってみたら？」や「少し口臭がするよ、最近体調悪くない？検診とか行ってる？行ったほうがいいよ」とでも言ってあげるといい。</p>
+
+<p>衣類は本当にどうしたらいいのか分からないので頑張ろう…。</p>
+
+<hr />
+
+<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">小倉唯ちゃん：<br />みんな帰ったらちゃんとわくシャンしてくださいね<br />最近お風呂キャンセル界隈を聞いたので<br />お風呂キャンセル界隈ってお風呂に入らないのか、シャワーを浴びないのか<br />どっちもなの？シャワーも浴びないの！？<br />ええええええ！？(ドン引き)<br />ダメだよー！わかった？ <a href="https://twitter.com/hashtag/%E5%B0%8F%E5%80%89%E5%94%AF%E3%83%A9%E3%82%A4%E3%83%96%E3%83%84%E3%82%A2%E3%83%BC2024?src=hash&amp;ref_src=twsrc%5Etfw">#小倉唯ライブツアー2024</a></p>&mdash; たっくん (@n092t) <a href="https://twitter.com/n092t/status/1845799250170650916?ref_src=twsrc%5Etfw">October 14, 2024</a></blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>]]></content><author><name>makietan</name></author><category term="otaku" /><summary type="html"><![CDATA[わくシャン = 「わくわくシャンプー＆リンス」。]]></summary></entry><entry><title type="html">YouTube Anime Weekend でコードギアス奪還のロゼが配信される</title><link href="https://makietan.github.io/otaku/youtube/2024/10/13/report.html" rel="alternate" type="text/html" title="YouTube Anime Weekend でコードギアス奪還のロゼが配信される" /><published>2024-10-13T00:00:00+09:00</published><updated>2024-10-13T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/youtube/2024/10/13/report</id><content type="html" xml:base="https://makietan.github.io/otaku/youtube/2024/10/13/report.html"><![CDATA[<p>いやーこれは暑いね。</p>
+
+<p>第一話、第二話の配信らしく続きが見たくなるのは間違いないだろう。</p>
+
+<p>粋なことしてくれるね。</p>
+
+<p>ただ、配信チャンネルがコードギアス公式ではなく、ディズニープラスチャンネルなので見逃さないようにしたい。</p>
+
+<div class="card">
+  <a href="https://www.youtube.com/watch?v=MkV9FVxUjE0"></a>
+  <div class="card__header">
+    <a href="https://www.youtube.com/watch?v=MkV9FVxUjE0">www.youtube.com</a>
+  </div>
+  <div class="card__image">
+    <img src="https://i.ytimg.com/vi/MkV9FVxUjE0/maxresdefault.jpg" />
+  </div>
+  <div class="card__title">
+    <p>【10/20 日 21:00頃~】1〜2話 期間限定 無料 『コードギアス 奪還のロゼ』｜シリーズ最新作｜Disney+ (ディズニープラス） - YouTube</p>
+  </div>
+  <div class="card__description">
+    <p>Disney+（ディズニープラス）で独占配信中！登録▶︎https://www.youtube.com/channel/UCm9iPGnmMYtZkNQ3IoBIPIA?sub_confirmation=1詳細▶︎ https://www.disneyplus.com/ja-jp?cid=DTCI-Organic...</p>
+  </div>
+</div>
+
+<hr />
+
+<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">【コードギアスチャンネル】<br />『YouTube Anime Weekend』にて、<br />「コードギアス 反逆のルルーシュ」TVシリーズ<br />「コードギアス 奪還のロゼ」<br />セレクト配信実施決定！<br /><br />詳細はこちら→<a href="https://t.co/t1m2trHFHE">https://t.co/t1m2trHFHE</a><a href="https://twitter.com/hashtag/geassp?src=hash&amp;ref_src=twsrc%5Etfw">#geassp</a> <a href="https://twitter.com/hashtag/%E3%82%B3%E3%83%BC%E3%83%89%E3%82%AE%E3%82%A2%E3%82%B9?src=hash&amp;ref_src=twsrc%5Etfw">#コードギアス</a> <a href="https://t.co/se5YmfM7bx">pic.twitter.com/se5YmfM7bx</a></p>&mdash; コードギアスプロジェクト (@GEASSPROJECT) <a href="https://twitter.com/GEASSPROJECT/status/1840663623880073300?ref_src=twsrc%5Etfw">September 30, 2024</a></blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>]]></content><author><name>makietan</name></author><category term="otaku" /><category term="youtube" /><summary type="html"><![CDATA[いやーこれは暑いね。]]></summary></entry><entry><title type="html">ハッピーセットにわんだふるぷりきゅあがくるらしいので集めたいと思う</title><link href="https://makietan.github.io/gourmet/2024/10/12/report.html" rel="alternate" type="text/html" title="ハッピーセットにわんだふるぷりきゅあがくるらしいので集めたいと思う" /><published>2024-10-12T00:00:00+09:00</published><updated>2024-10-12T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2024/10/12/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2024/10/12/report.html"><![CDATA[<p>ハッピーセットにプリキュアがくると集めたくなる。</p>
+
+<p>カービィとかは異常者がたくさん買い占めるので集めるのは難しいがこちらは多分大丈夫だろう。</p>
+
+<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">ハッピーセット®にやってくる！<a href="https://twitter.com/hashtag/%E3%82%8F%E3%82%93%E3%81%A0%E3%81%B5%E3%82%8B%E3%81%B7%E3%82%8A%E3%81%8D%E3%82%85%E3%81%82?src=hash&amp;ref_src=twsrc%5Etfw">#わんだふるぷりきゅあ</a><br /><br />10/18(金)から☆<br />オシャレもなりきりも楽しんじゃお！<a href="https://twitter.com/hashtag/precure?src=hash&amp;ref_src=twsrc%5Etfw">#precure</a><br /><br />詳しくは動画をタップ！</p>&mdash; マクドナルド (@McDonaldsJapan) <a href="https://twitter.com/McDonaldsJapan/status/1844596288274272526?ref_src=twsrc%5Etfw">October 11, 2024</a></blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<ul>
+  <li>まわる！キラキラ　フレンドリータクト</li>
+  <li>こむぎ＆ユキ　ペアブレスレット</li>
+  <li>のぞいてみて！　ワンダフルパクトキャリービューワー</li>
+</ul>
+
+<p>初週は3つ。</p>
+
+<ul>
+  <li>プリキュアにへんしん！　クリアコーム</li>
+  <li>キラニコトランク　おしゃれミラー</li>
+  <li>こむぎとおでかけ！　パスケース</li>
+</ul>
+
+<p>次週も3つ。</p>
+
+<p>それ以降は全種類らしい。</p>
+
+<p>フレンドリータクトが欲しいけど当たるかなぁ…。</p>]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[ハッピーセットにプリキュアがくると集めたくなる。]]></summary></entry><entry><title type="html">「ニンテンドーサウンドクロック Alarmo」が欲しいと思ったが税込12,980円だと…</title><link href="https://makietan.github.io/hobby/2024/10/11/report.html" rel="alternate" type="text/html" title="「ニンテンドーサウンドクロック Alarmo」が欲しいと思ったが税込12,980円だと…" /><published>2024-10-11T00:00:00+09:00</published><updated>2024-10-11T00:00:00+09:00</updated><id>https://makietan.github.io/hobby/2024/10/11/report</id><content type="html" xml:base="https://makietan.github.io/hobby/2024/10/11/report.html"><![CDATA[<p>ただの音がなる時計だと思っていたが1万円越えるらしい。</p>
+
+<p>ネタが満載なんだろうが、マリオ以外はあまり興味がない人間にとってこの価格は手が出せない.</p>
+
+<p>抽選方式でしか買えない状態なのでさらに手が出せない状態だ。</p>
+
+<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">[任天堂HP]あなたの動きに反応する目覚まし時計「ニンテンドーサウンドクロック Alarmo」の紹介映像と公式サイトを公開しました。<br />マイニンテンドーストア（Nintendo Switch Online加入者限定）、Nintendo TOKYO/OSAKA/KYOTOにてご購入いただけます。<a href="https://twitter.com/hashtag/Alarmo?src=hash&amp;ref_src=twsrc%5Etfw">#Alarmo</a><a href="https://t.co/5hzuzSaYAX">https://t.co/5hzuzSaYAX</a></p>&mdash; 任天堂株式会社 (@Nintendo) <a href="https://twitter.com/Nintendo/status/1844001518946803808?ref_src=twsrc%5Etfw">October 9, 2024</a></blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote>
+  <p>Alarmoは、寝ている間も、あなたを見守っています。</p>
+</blockquote>
+
+<p>…ほう。</p>
+
+<p>ゴールドAlarmo「おまえの寝ている姿をずっと見てたぞ」「本当によく頑張ったな？」「遂に我慢が報われ莫大な富を得る」</p>
+
+<p>なんてな。</p>]]></content><author><name>makietan</name></author><category term="hobby" /><summary type="html"><![CDATA[ただの音がなる時計だと思っていたが1万円越えるらしい。]]></summary></entry><entry><title type="html">レーバテインのデモリッションガン比較</title><link href="https://makietan.github.io/game/srwdd/2024/10/10/report.html" rel="alternate" type="text/html" title="レーバテインのデモリッションガン比較" /><published>2024-10-10T00:00:00+09:00</published><updated>2024-10-10T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2024/10/10/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2024/10/10/report.html"><![CDATA[<h2 id="比較対象">比較対象</h2>
 
 <h3 id="ssr-デモリッションガン-ガンハウザーモードmap">SSR+ デモリッションガン ガン・ハウザーモード（MAP）</h3>
 <h4 id="必殺技">必殺技</h4>
@@ -491,306 +637,4 @@ console.log(Hoge.staticMethod());
             ]
         }
     });
-</script>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[比較対象]]></summary></entry><entry><title type="html">レーバテインのMAIN装備比較</title><link href="https://makietan.github.io/game/srwdd/2024/10/08/report.html" rel="alternate" type="text/html" title="レーバテインのMAIN装備比較" /><published>2024-10-08T00:00:00+09:00</published><updated>2024-10-08T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2024/10/08/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2024/10/08/report.html"><![CDATA[<h2 id="比較対象">比較対象</h2>
-
-<ul>
-  <li>SSR+ デモリッションガン ガン・ハウザーモード（MAP）
-    <ul>
-      <li>気力130以上
-        <ul>
-          <li>敵防御力・運動性-32%</li>
-          <li>ARX-8 レーバテイン装備時
-            <ul>
-              <li>被ダメージ-3500</li>
-              <li>回避率35%</li>
-            </ul>
-          </li>
-        </ul>
-      </li>
-      <li>ARX-8 レーバテイン装備時
-        <ul>
-          <li>移動力+1</li>
-          <li>敵バリア-70%</li>
-          <li>斬撃・実弾ブレイクゲージ100%</li>
-          <li>デモリッションガン ガン・ハウザーモード（MAP）でブレイク成功時
-            <ul>
-              <li>敵ブレイクゲージ復帰アクション数+1</li>
-            </ul>
-          </li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-  <li>SSR+ デモリッションガン
-    <ul>
-      <li>命中時
-        <ul>
-          <li>「覚醒」</li>
-        </ul>
-      </li>
-      <li>ARX-8 レーバテイン装備時
-        <ul>
-          <li>射程+1</li>
-          <li>サイズ差減少効果無効</li>
-          <li>敵バリア-70%</li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-  <li>SSR+ スラスト・コンバット</li>
-  <li>SSR+ 76mm散弾砲ボクサー2</li>
-  <li>SSR+ 単分子カッター</li>
-</ul>
-
-<h2 id="比較気力1804マス以上離戦闘回数5">比較（気力180・4マス以上離・戦闘回数5）</h2>
-
-<p>デバフについては記載しない。</p>
-
-<p>MAPの方に与ダメージがないせいで絶対にこちらという選択肢がない。</p>
-
-<p>ダメージを与えたい場合はデモリッションガンの方を選択する可能性もある。</p>
-
-<canvas id="chart-1" style="background-color: #fff"></canvas>
-
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-
-<script>
-    // chart
-    const MAX_MINUS_DEFAULT_KIRYOKU_DIVIDED_BY_10 = (180 - 100) / 10;
-    const NUMBER_OF_BATTLES = 5;
-    const ctx1 = document.getElementById('chart-1');
-    new Chart(ctx1, {
-        type: 'radar',
-        data: {
-            labels: ["HP", "攻撃力", "防御力", "照準値", "運動性", "与ダメージ", "必殺技威力", "回避率", "命中率"],
-            datasets: [
-                {
-                    label: "デモリッションガン ガン・ハウザーモード（MAP）",
-                    data: [
-                        0, // HP
-                        23.5 + 8 * MAX_MINUS_DEFAULT_KIRYOKU_DIVIDED_BY_10, // 攻撃力
-                        0, // 防御力
-                        23.5 + 6 * MAX_MINUS_DEFAULT_KIRYOKU_DIVIDED_BY_10, // 照準値
-                        23.5 + 8 * MAX_MINUS_DEFAULT_KIRYOKU_DIVIDED_BY_10, // 運動性
-                        0, // 与ダメージ
-                        8.5 * MAX_MINUS_DEFAULT_KIRYOKU_DIVIDED_BY_10, // 必殺技威力
-                        35, // 回避率
-                        0 // 命中率
-                    ]
-                },
-                {
-                    label: "デモリッションガン",
-                    data: [
-                        0, // HP
-                        22.5 + 7 * MAX_MINUS_DEFAULT_KIRYOKU_DIVIDED_BY_10, // 攻撃力
-                        0, // 防御力
-                        22.5 + 6 * MAX_MINUS_DEFAULT_KIRYOKU_DIVIDED_BY_10, // 照準値
-                        22.5 + 6 * MAX_MINUS_DEFAULT_KIRYOKU_DIVIDED_BY_10, // 運動性
-                        35, // 与ダメージ
-                        8 * MAX_MINUS_DEFAULT_KIRYOKU_DIVIDED_BY_10, // 必殺技威力
-                        35, // 回避率
-                        25 // 命中率
-                    ]
-                },
-                {
-                    label: "スラスト・コンバット",
-                    data: [
-                        0, // HP
-                        10.5, // 攻撃力
-                        10.5, // 防御力
-                        10.5, // 照準値
-                        25 + 10.5, // 運動性
-                        0, // 与ダメージ
-                        0, // 必殺技威力
-                        0, // 回避率
-                        0 // 命中率
-                    ]
-                },
-                {
-                    label: "76mm散弾砲ボクサー2",
-                    data: [
-                        0, // HP
-                        21 + 3.5 * NUMBER_OF_BATTLES, // 攻撃力
-                        0, // 防御力
-                        0, // 照準値
-                        21 + 3.5 * NUMBER_OF_BATTLES, // 運動性
-                        0, // 与ダメージ
-                        25, // 必殺技威力
-                        0, // 回避率
-                        0 // 命中率
-                    ]
-                },
-                {
-                    label: "単分子カッター",
-                    data: [
-                        0, // HP
-                        10.5, // 攻撃力
-                        10.5, // 防御力
-                        10.5, // 照準値
-                        10.5, // 運動性
-                        0, // 与ダメージ
-                        0, // 必殺技威力
-                        0, // 回避率
-                        0 // 命中率
-                    ]
-                }
-            ]
-        }
-    });
-</script>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[比較対象]]></summary></entry><entry><title type="html">Google Play Console デベロッパー アカウントが閉鎖されました</title><link href="https://makietan.github.io/tech/2024/10/07/report.html" rel="alternate" type="text/html" title="Google Play Console デベロッパー アカウントが閉鎖されました" /><published>2024-10-07T00:00:00+09:00</published><updated>2024-10-07T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2024/10/07/report</id><content type="html" xml:base="https://makietan.github.io/tech/2024/10/07/report.html"><![CDATA[<p>タイトル通り、「Google Play Console デベロッパー アカウントが閉鎖されました」。
-メールの本文には最終通告って書いてたのに完了報告だった。</p>
-
-<p>テスターをたくさん集めたり、住所を晒せだのなんだのと個人開発者のプライバシーを危険に晒す仕様にはがっかりすぎるので
-もうアップロードすることはないだろうけど Android アプリ自体の開発は続けていこうと思う。</p>
-
-<p>早く日本で Google Play 以外のストアが利用できたりするといいな。
-独占禁止法が仕事をしないのがダメだわ。</p>
-
-<p>ちなみに閉鎖された直後は新たに作ることもできず、問い合わせをするしかない。
-それもメールに記載歳れたURLからということらしいが、そんなものは見当たらなかった。</p>
-
-<p>結構雑すぎて困るよ。</p>
-
-<p>一方的に閉めるくせに返金もないからね。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[タイトル通り、「Google Play Console デベロッパー アカウントが閉鎖されました」。 メールの本文には最終通告って書いてたのに完了報告だった。]]></summary></entry><entry><title type="html">「妖精夜行」POP UP STORE のイベントに行ってきた</title><link href="https://makietan.github.io/otaku/2024/10/06/report.html" rel="alternate" type="text/html" title="「妖精夜行」POP UP STORE のイベントに行ってきた" /><published>2024-10-06T00:00:00+09:00</published><updated>2024-10-06T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2024/10/06/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2024/10/06/report.html"><![CDATA[<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/%E6%82%A0%E6%9C%A8%E7%A2%A7?src=hash&amp;ref_src=twsrc%5Etfw">#悠木碧</a><br /><br />【音楽プロジェクト「妖精夜行」POPUPSTORE『悠木碧来店イベント～いたずら妖精お祓い会～』】<br />〈10月6日(日)開催@ラフォーレ原宿〉<a href="https://t.co/fQ92VZDFRW">https://t.co/fQ92VZDFRW</a><br /><br />本日は期間限定ショップでの来店イベント！<br />抽選に参加してくださった皆様ありがとうございました🧚<br />お店は明日まで！<a href="https://twitter.com/hashtag/%E5%A6%96%E7%B2%BE%E5%A4%9C%E8%A1%8C?src=hash&amp;ref_src=twsrc%5Etfw">#妖精夜行</a> <a href="https://t.co/8n2x5A1zi5">pic.twitter.com/8n2x5A1zi5</a></p>&mdash; 青二プロダクション【公式】 (@aoni_official) <a href="https://twitter.com/aoni_official/status/1842865483693138144?ref_src=twsrc%5Etfw">October 6, 2024</a></blockquote>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<h2 id="pop-up-store">POP UP STORE</h2>
-
-<div class="card">
-  <a href="https://prtimes.jp/main/html/rd/p/000003958.000019470.html"></a>
-  <div class="card__header">
-    <a href="https://prtimes.jp/main/html/rd/p/000003958.000019470.html">prtimes.jp</a>
-  </div>
-  <div class="card__image">
-    <img src="https://prcdn.freetls.fastly.net/release_image/19470/3958/19470-3958-c8a744c255625ef70009d6e2a886d088-1080x566.jpg?format=jpeg&amp;auto=webp&amp;fit=bounds&amp;width=2400&amp;height=1260" />
-  </div>
-  <div class="card__title">
-    <p>10月1日より『妖精夜行 POP UP STORE~森の収穫祭~』の開催が決定！6日(日)には悠木碧来店イベントも開催！また、同日にオリジナルミニアルバム『妖精夜行』の配信も決定！ | 日本コロムビア株式会社のプレスリリース</p>
-  </div>
-  <div class="card__description">
-    <p>日本コロムビア株式会社のプレスリリース（2024年9月19日 18時00分）10月1日より『妖精夜行 POP UP STORE~森の収穫祭~』の開催が決定！6日(日)には悠木碧来店イベントも開催！また、同日にオリジナルミニアルバム『妖精夜行』の配信も決定！</p>
-  </div>
-</div>
-
-<p>妖精夜行 POP UP STORE 〜森の収穫祭〜 がラフォーレ原宿で開催された。</p>
-
-<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">🧚‍♀️˗ˏˋ グッズのお知らせ ˎˊ˗🧚‍♀️<br /><br />10/1(火)～7(月)<br />『妖精夜行 POP UP STORE~森の収穫祭~』<br />@ラフォーレ原宿<br /><br />オリジナルグッズのラインナップを公開！！🔔<br /><br />夢ノ内先生( <a href="https://twitter.com/yume335?ref_src=twsrc%5Etfw">@yume335</a> )描き下ろしの限定グッズを始め、<br />妖精夜行ゆかりのアイテム勢揃い♪<br /><br />ぜひお越しください✨<a href="https://t.co/W39sn5EW8x">https://t.co/W39sn5EW8x</a> <a href="https://t.co/QNbByiqxE9">pic.twitter.com/QNbByiqxE9</a></p>&mdash; 妖精夜行 OFFICIAL (@yoseiyako) <a href="https://twitter.com/yoseiyako/status/1836691779292463121?ref_src=twsrc%5Etfw">September 19, 2024</a></blockquote>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<p>キノコ型の <del>卑猥な</del> ペンライトや、ベレー帽、パーカーといったグッズが販売された。</p>
-
-<p>複製原画は事後販売もあるようだ。</p>
-
-<p>是非、ペンライトくらいは入手していただきたい。</p>
-
-<h2 id="悠木碧来店イベントいたずら妖精お祓い会">悠木碧来店イベント～いたずら妖精お祓い会～</h2>
-
-<p>至ってシンプルで整理券を持ってきた妖精達にお祓い（物理）をしていただけるイベントである。</p>
-
-<p>POP UP STORE で5000円購入ごとにできる抽選で当たると参加できる。</p>
-
-<p>待機列に並んで、森（悠木碧）にお辞儀をすると <del>2回頭を殴られる</del> お祓いをしていただける。</p>
-
-<p>そして、退店という流れだ。</p>
-
-<p>これがとても楽しい。</p>
-
-<p>最寄りの明治神宮よりもご利益がありそうだ。</p>
-
-<h2 id="おわりに">おわりに</h2>
-
-<p>お尻 → 頭 ときたら次はどの部分を刺激してもらえるのか今から楽しみである。</p>]]></content><author><name>makietan</name></author><category term="otaku" /><summary type="html"><![CDATA[#悠木碧【音楽プロジェクト「妖精夜行」POPUPSTORE『悠木碧来店イベント～いたずら妖精お祓い会～』】〈10月6日(日)開催@ラフォーレ原宿〉https://t.co/fQ92VZDFRW本日は期間限定ショップでの来店イベント！抽選に参加してくださった皆様ありがとうございました🧚お店は明日まで！#妖精夜行 pic.twitter.com/8n2x5A1zi5&mdash; 青二プロダクション【公式】 (@aoni_official) October 6, 2024]]></summary></entry><entry><title type="html">「妖精夜行」のリリースイベントに行ってきた</title><link href="https://makietan.github.io/otaku/2024/10/05/report.html" rel="alternate" type="text/html" title="「妖精夜行」のリリースイベントに行ってきた" /><published>2024-10-05T00:00:00+09:00</published><updated>2024-10-05T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2024/10/05/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2024/10/05/report.html"><![CDATA[<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/%E6%82%A0%E6%9C%A8%E7%A2%A7?src=hash&amp;ref_src=twsrc%5Etfw">#悠木碧</a><br /><br />【妖精夜行「私たちの音楽世界を創ろう」プロジェクト リリースイベント】<br />〈10月5日(土)開催@都内某所〉<a href="https://t.co/YKlyjE8f7b">https://t.co/YKlyjE8f7b</a><br /><br />プロジェクトを一緒に創り上げてきた皆様とイベント開催！<br />活動1年を振り返りつつライブもあり盛り沢山でした、皆様ありがとうございました🧚<a href="https://twitter.com/hashtag/%E5%A6%96%E7%B2%BE%E5%A4%9C%E8%A1%8C?src=hash&amp;ref_src=twsrc%5Etfw">#妖精夜行</a> <a href="https://t.co/2xg7NRFy0V">pic.twitter.com/2xg7NRFy0V</a></p>&mdash; 青二プロダクション【公式】 (@aoni_official) <a href="https://twitter.com/aoni_official/status/1842530617189351899?ref_src=twsrc%5Etfw">October 5, 2024</a></blockquote>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<h2 id="妖精夜行">「妖精夜行」</h2>
-
-<p>悠木碧らが立ち上げた Discord の名称。
-参加者は妖精として活動する。
-コミュニティに参加しようとする人たちは新設で平和なところだ。</p>
-
-<p>そこで、発表されたのがクラファンによる楽曲制作だ。
-「妖精夜行」は今回の楽曲のタイトルにもなっている。</p>
-
-<p><a href="https://www.youtube.com/playlist?list=OLAK5uy_nKXsy1g_2OZglfCkv-wuDgxvp1Jtdi4OY">妖精夜行 - YouTube</a></p>
-
-<p>そのリリースイベントが今回クラファン参加者に向けて行われた。</p>
-
-<h2 id="内容">内容</h2>
-
-<ul>
-  <li>「妖精夜行」（Discord、クラファン）で起きた出来事のふりかえり</li>
-  <li>楽曲制作についての想いやヒミツ</li>
-  <li>楽曲披露</li>
-</ul>
-
-<p>妖精夜行では公式配信だったり、リアルの催し等もあったのでその振り返りをした。</p>
-
-<p>次に楽曲に関する話。</p>
-
-<p>レイニーレイニーエラーのとある部分に仕込まれてた音とかね。</p>
-
-<p>楽曲披露では、 sleeping forest をロリ声で歌うといったアレンジが聞けて非常によかった。</p>
-
-<h2 id="なでなで会">なでなで会</h2>
-
-<p>イベントのお見送りでのふれあい会である。</p>
-
-<p>なでなで会は最高でした。
-こんな年令になると撫でてくれる人なんかいないからね。
-なんかご利益ありそうだわ（帰りに水たまりに足突っ込んでしまったけども）。</p>
-
-<h2 id="おわりに">おわりに</h2>
-
-<p>なお、妖精夜行はこのリリースイベントをもって終了してしまう。
-まさに <a href="https://youtu.be/BRjppM4UF3E?si=wtKq9Mtk7pyPJG12">sleeping forest</a> といったところだ。
-Discord については Read Only で残るようなので限りある期限まで楽しみたいと思う。</p>]]></content><author><name>makietan</name></author><category term="otaku" /><summary type="html"><![CDATA[#悠木碧【妖精夜行「私たちの音楽世界を創ろう」プロジェクト リリースイベント】〈10月5日(土)開催@都内某所〉https://t.co/YKlyjE8f7bプロジェクトを一緒に創り上げてきた皆様とイベント開催！活動1年を振り返りつつライブもあり盛り沢山でした、皆様ありがとうございました🧚#妖精夜行 pic.twitter.com/2xg7NRFy0V&mdash; 青二プロダクション【公式】 (@aoni_official) October 5, 2024]]></summary></entry><entry><title type="html">サーモンのカルパッチョを作ってみた</title><link href="https://makietan.github.io/gourmet/2024/09/10/report.html" rel="alternate" type="text/html" title="サーモンのカルパッチョを作ってみた" /><published>2024-09-10T00:00:00+09:00</published><updated>2024-09-10T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2024/09/10/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2024/09/10/report.html"><![CDATA[<p>サーモン・大葉・玉ねぎを用意するだけ。</p>
-
-<p>切ってポン酢で和える。</p>
-
-<p>オリーブオイルと味の素は面倒だったので入れなかったけど問題なかった。</p>
-
-<p>以下、参考サイト。</p>
-
-<div class="card">
-  <a href="https://oceans-nadia.com/user/298796/recipe/414654"></a>
-  <div class="card__header">
-    <a href="https://oceans-nadia.com/user/298796/recipe/414654">oceans-nadia.com</a>
-  </div>
-  <div class="card__image">
-    <img src="https://asset.oceans-nadia.com/upload/save_image/fc/fc0c80b52e2971a5f0ea8d0df747f535.jpg?impolicy=cropwm&amp;w=1200&amp;h=630" />
-  </div>
-  <div class="card__title">
-    <p>切って盛るだけ♪サーモンの和風カルパッチョ | レシピサイトNadia</p>
-  </div>
-  <div class="card__description">
-    <p>材料を切って盛るだけ&amp;かけるだけのお手軽カルパッチョ。
-今回はサーモンで作ってみました！﻿
-大葉を載せて後味も爽やか。
-暑い季節でもさっぱりと食べられます♪
-﻿
-タレはポン酢にわさびを効かせてちょっぴり和風に。
-隠し味に味の素®</p>
-  </div>
-</div>]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[サーモン・大葉・玉ねぎを用意するだけ。]]></summary></entry><entry><title type="html">野沢菜漬けじゃなくキャベツ漬け</title><link href="https://makietan.github.io/gourmet/2024/09/09/report.html" rel="alternate" type="text/html" title="野沢菜漬けじゃなくキャベツ漬け" /><published>2024-09-09T00:00:00+09:00</published><updated>2024-09-09T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2024/09/09/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2024/09/09/report.html"><![CDATA[<p>キャベツが安かったので買ったらやっぱり余ってしまったのでお漬物にした。</p>
-
-<p>だし・塩が足りなかったのが悪かったのか味が薄かった。</p>
-
-<p>キャベツが安売りされてたら再チャレンジしよう。</p>
-
-<p>以下、参考サイト。</p>
-
-<div class="card">
-  <a href="https://park.ajinomoto.co.jp/recipe/card/707217/"></a>
-  <div class="card__header">
-    <a href="https://park.ajinomoto.co.jp/recipe/card/707217/">park.ajinomoto.co.jp</a>
-  </div>
-  <div class="card__image">
-    <img src="https://park.ajinomoto.co.jp/wp-content/uploads/2018/03/707217.jpeg" />
-  </div>
-  <div class="card__title">
-    <p>野沢菜漬けのレシピ・作り方｜レシピ大百科（レシピ・料理）｜【味の素パーク】 : 野沢菜を使った料理</p>
-  </div>
-  <div class="card__description">
-    <p>信州のご当地食材の野沢菜☆少し酸味を感じるころが食べごろです♪たべたい、つくりたい、がきっと見つかる！人気レシピから、簡単時短レシピ、健康を考えたレシピなど、作る人を”もっと”応援します。</p>
-  </div>
-</div>]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[キャベツが安かったので買ったらやっぱり余ってしまったのでお漬物にした。]]></summary></entry></feed>
+</script>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[比較対象]]></summary></entry></feed>

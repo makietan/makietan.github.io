@@ -125,35 +125,35 @@
   </div>
 </div>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>class ClassWithStaticMethod {
-  static staticProperty = 'someValue';
-  static staticMethod() {
-    return 'static method has been called.';
-  }
-  static {
-    console.log('Class static initialization block called');
-  }
-}
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">class</span> <span class="nc">ClassWithStaticMethod</span> <span class="p">{</span>
+  <span class="kd">static</span> <span class="nx">staticProperty</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">someValue</span><span class="dl">'</span><span class="p">;</span>
+  <span class="kd">static</span> <span class="nf">staticMethod</span><span class="p">()</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="dl">'</span><span class="s1">static method has been called.</span><span class="dl">'</span><span class="p">;</span>
+  <span class="p">}</span>
+  <span class="kd">static</span> <span class="p">{</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="dl">'</span><span class="s1">Class static initialization block called</span><span class="dl">'</span><span class="p">);</span>
+  <span class="p">}</span>
+<span class="p">}</span>
 
-console.log(ClassWithStaticMethod.staticProperty);
-// Expected output: "someValue"
-console.log(ClassWithStaticMethod.staticMethod());
-// Expected output: "static method has been called."
+<span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="nx">ClassWithStaticMethod</span><span class="p">.</span><span class="nx">staticProperty</span><span class="p">);</span>
+<span class="c1">// Expected output: "someValue"</span>
+<span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="nx">ClassWithStaticMethod</span><span class="p">.</span><span class="nf">staticMethod</span><span class="p">());</span>
+<span class="c1">// Expected output: "static method has been called."</span>
 
-class Hoge extends ClassWithStaticMethod {
-}
+<span class="kd">class</span> <span class="nc">Hoge</span> <span class="kd">extends</span> <span class="nc">ClassWithStaticMethod</span> <span class="p">{</span>
+<span class="p">}</span>
 
-console.log(Hoge.staticProperty);
-console.log(Hoge.staticMethod());
+<span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="nx">Hoge</span><span class="p">.</span><span class="nx">staticProperty</span><span class="p">);</span>
+<span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="nx">Hoge</span><span class="p">.</span><span class="nf">staticMethod</span><span class="p">());</span>
 </code></pre></div></div>
 
 <h3 id="出力結果">出力結果</h3>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt; "Class static initialization block called"
-&gt; "someValue"
-&gt; "static method has been called."
-&gt; "someValue"
-&gt; "static method has been called."
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">&gt;</span> <span class="s2">"Class static initialization block called"</span>
+<span class="o">&gt;</span> <span class="s2">"someValue"</span>
+<span class="o">&gt;</span> <span class="s2">"static method has been called."</span>
+<span class="o">&gt;</span> <span class="s2">"someValue"</span>
+<span class="o">&gt;</span> <span class="s2">"static method has been called."</span>
 </code></pre></div></div>
 
 <p>問題なく呼ぶことができました。</p>
@@ -188,43 +188,43 @@ JavaScript は自由度がいい意味でも悪い意味でも高いので、お
 <p>オーバーライドできた場合は <a href="https://ja.wikipedia.org/wiki/%E3%83%A1%E3%82%BF%E6%A7%8B%E6%96%87%E5%A4%89%E6%95%B0">メタ構文変数
 </a>が表示されます。</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>class ClassWithStaticMethod {
-  static staticProperty = 'someValue';
-  static staticMethod() {
-    return 'static method has been called.';
-  }
-  static {
-    console.log('Class static initialization block called');
-  }
-}
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">class</span> <span class="nc">ClassWithStaticMethod</span> <span class="p">{</span>
+  <span class="kd">static</span> <span class="nx">staticProperty</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">someValue</span><span class="dl">'</span><span class="p">;</span>
+  <span class="kd">static</span> <span class="nf">staticMethod</span><span class="p">()</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="dl">'</span><span class="s1">static method has been called.</span><span class="dl">'</span><span class="p">;</span>
+  <span class="p">}</span>
+  <span class="kd">static</span> <span class="p">{</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="dl">'</span><span class="s1">Class static initialization block called</span><span class="dl">'</span><span class="p">);</span>
+  <span class="p">}</span>
+<span class="p">}</span>
 
-console.log(ClassWithStaticMethod.staticProperty);
-// Expected output: "someValue"
-console.log(ClassWithStaticMethod.staticMethod());
-// Expected output: "static method has been called."
+<span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="nx">ClassWithStaticMethod</span><span class="p">.</span><span class="nx">staticProperty</span><span class="p">);</span>
+<span class="c1">// Expected output: "someValue"</span>
+<span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="nx">ClassWithStaticMethod</span><span class="p">.</span><span class="nf">staticMethod</span><span class="p">());</span>
+<span class="c1">// Expected output: "static method has been called."</span>
 
-class Hoge extends ClassWithStaticMethod {
-  static staticProperty = 'fuga';
-  static staticMethod() {
-    return "piyo";
-  }
-  static {
-    console.log("hogera");
-  }
-}
+<span class="kd">class</span> <span class="nc">Hoge</span> <span class="kd">extends</span> <span class="nc">ClassWithStaticMethod</span> <span class="p">{</span>
+  <span class="kd">static</span> <span class="nx">staticProperty</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">fuga</span><span class="dl">'</span><span class="p">;</span>
+  <span class="kd">static</span> <span class="nf">staticMethod</span><span class="p">()</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="dl">"</span><span class="s2">piyo</span><span class="dl">"</span><span class="p">;</span>
+  <span class="p">}</span>
+  <span class="kd">static</span> <span class="p">{</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="dl">"</span><span class="s2">hogera</span><span class="dl">"</span><span class="p">);</span>
+  <span class="p">}</span>
+<span class="p">}</span>
 
-console.log(Hoge.staticProperty);
-console.log(Hoge.staticMethod());
+<span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="nx">Hoge</span><span class="p">.</span><span class="nx">staticProperty</span><span class="p">);</span>
+<span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="nx">Hoge</span><span class="p">.</span><span class="nf">staticMethod</span><span class="p">());</span>
 </code></pre></div></div>
 
 <h3 id="出力結果-1">出力結果</h3>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt; "Class static initialization block called"
-&gt; "someValue"
-&gt; "static method has been called."
-&gt; "hogera"
-&gt; "fuga"
-&gt; "piyo"
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">&gt;</span> <span class="s2">"Class static initialization block called"</span>
+<span class="o">&gt;</span> <span class="s2">"someValue"</span>
+<span class="o">&gt;</span> <span class="s2">"static method has been called."</span>
+<span class="o">&gt;</span> <span class="s2">"hogera"</span>
+<span class="o">&gt;</span> <span class="s2">"fuga"</span>
+<span class="o">&gt;</span> <span class="s2">"piyo"</span>
 </code></pre></div></div>
 
 <p>継承は可能ということがわかった。</p>
@@ -282,6 +282,36 @@ console.log(Hoge.staticMethod());
   
 
   
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
     
       <div class="related">
         <h1>関連日報</h1>
@@ -300,6 +330,31 @@ console.log(Hoge.staticMethod());
     
     
     
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
   
 
   
