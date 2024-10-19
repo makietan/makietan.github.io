@@ -1,4 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2024-10-18T19:14:20+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">JavaScriptで継承(extends)した場合に「static」の挙動はどうなるのか</title><link href="https://makietan.github.io/tech/2024/10/18/report.html" rel="alternate" type="text/html" title="JavaScriptで継承(extends)した場合に「static」の挙動はどうなるのか" /><published>2024-10-18T00:00:00+09:00</published><updated>2024-10-18T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2024/10/18/report</id><content type="html" xml:base="https://makietan.github.io/tech/2024/10/18/report.html"><![CDATA[<p>JavaScript を使っていて継承 <code class="language-plaintext highlighter-rouge">extends</code> した場合に <code class="language-plaintext highlighter-rouge">static</code> の挙動がどうなるのか気になったので調べてみた。</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2024-10-19T12:23:41+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">角煮かつ苦手なんだよな…松のや</title><link href="https://makietan.github.io/gourmet/2024/10/19/report.html" rel="alternate" type="text/html" title="角煮かつ苦手なんだよな…松のや" /><published>2024-10-19T00:00:00+09:00</published><updated>2024-10-19T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2024/10/19/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2024/10/19/report.html"><![CDATA[<p>以前食べたときから苦手になった角煮かつ。</p>
+
+<p>硬い、ほとんど脂身、衣が刺さる…etc.</p>
+
+<p>まぁ変わった味覚音痴のモノ好きがたくさんいる客層なので再登場するのは仕方ないか。</p>
+
+<div class="card">
+  <a href="https://www.matsuyafoods.co.jp/matsunoya/whatsnew/menu/82402.html"></a>
+  <div class="card__header">
+    <a href="https://www.matsuyafoods.co.jp/matsunoya/whatsnew/menu/82402.html">www.matsuyafoods.co.jp</a>
+  </div>
+  <div class="card__image">
+    <img src="" />
+  </div>
+  <div class="card__title">
+    <p>新感覚かつが2度目の復活「角煮かつ」発売！｜松のや｜松屋フーズ</p>
+  </div>
+  <div class="card__description">
+    <p>新感覚かつが2度目の復活「角煮かつ」発売！のページです。</p>
+  </div>
+</div>]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[以前食べたときから苦手になった角煮かつ。]]></summary></entry><entry><title type="html">JavaScriptで継承(extends)した場合に「static」の挙動はどうなるのか</title><link href="https://makietan.github.io/tech/2024/10/18/report.html" rel="alternate" type="text/html" title="JavaScriptで継承(extends)した場合に「static」の挙動はどうなるのか" /><published>2024-10-18T00:00:00+09:00</published><updated>2024-10-18T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2024/10/18/report</id><content type="html" xml:base="https://makietan.github.io/tech/2024/10/18/report.html"><![CDATA[<p>JavaScript を使っていて継承 <code class="language-plaintext highlighter-rouge">extends</code> した場合に <code class="language-plaintext highlighter-rouge">static</code> の挙動がどうなるのか気になったので調べてみた。</p>
 
 <ol>
   <li>継承した class 名で親の static 要素は利用できるのか</li>
@@ -529,109 +549,6 @@ JavaScript は自由度がいい意味でも悪い意味でも高いので、お
                        35, // 与ダメージ
                        25, // 命中率
                        35 // 回避率
-                    ]
-                }
-            ]
-        }
-    });
-</script>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[比較対象]]></summary></entry><entry><title type="html">レーバテインの必殺技装備比較</title><link href="https://makietan.github.io/game/srwdd/2024/10/09/report.html" rel="alternate" type="text/html" title="レーバテインの必殺技装備比較" /><published>2024-10-09T00:00:00+09:00</published><updated>2024-10-09T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2024/10/09/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2024/10/09/report.html"><![CDATA[<h2 id="比較対象">比較対象</h2>
-
-<ul>
-  <li>SSR+ デモリッションガン ガン・ハウザーモード（MAP）
-    <ul>
-      <li>移動力+1（重複可）</li>
-      <li>ブレイクゲージ減少量35%</li>
-    </ul>
-  </li>
-  <li>SSR+ デモリッションガン
-    <ul>
-      <li>射程+1</li>
-      <li>命中時「覚醒」</li>
-      <li>サイズ差減少効果無効</li>
-    </ul>
-  </li>
-  <li>SSR+ スラスト・コンバット</li>
-  <li>SSR+ 76mm散弾砲ボクサー2</li>
-  <li>SSR+ 単分子カッター</li>
-</ul>
-
-<h2 id="比較気力1804マス以上離戦闘回数5">比較（気力180・4マス以上離・戦闘回数5）</h2>
-
-<p>デバフについては記載しない。</p>
-
-<p>スラスト・コンバットの運動性が最高。</p>
-
-<p>次点でデモリッションガン2種。</p>
-
-<p>基本はデモリッションガン2種とスラスト・コンバットの組み合わせになるだろう。</p>
-
-<canvas id="chart-1" style="background-color: #fff"></canvas>
-
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-
-<script>
-    // chart
-    const MAX_MINUS_DEFAULT_KIRYOKU_DIVIDED_BY_10 = (180 - 100) / 10;
-    const NUMBER_OF_BATTLES = 5;
-    const ctx1 = document.getElementById('chart-1');
-    new Chart(ctx1, {
-        type: 'radar',
-        data: {
-            labels: ["HP", "攻撃力", "防御力", "照準値", "運動性", "必殺技威力"],
-            datasets: [
-                {
-                    label: "デモリッションガン ガン・ハウザーモード（MAP）",
-                    data: [
-                        0, // HP
-                        2 * MAX_MINUS_DEFAULT_KIRYOKU_DIVIDED_BY_10, // 攻撃力
-                        0, // 防御力
-                        2 * MAX_MINUS_DEFAULT_KIRYOKU_DIVIDED_BY_10, // 照準値
-                        2 * MAX_MINUS_DEFAULT_KIRYOKU_DIVIDED_BY_10, // 運動性
-                        0 // 必殺技威力
-                    ]
-                },
-                {
-                    label: "デモリッションガン",
-                    data: [
-                        0, // HP
-                        2 * MAX_MINUS_DEFAULT_KIRYOKU_DIVIDED_BY_10, // 攻撃力
-                        0, // 防御力
-                        2 * MAX_MINUS_DEFAULT_KIRYOKU_DIVIDED_BY_10, // 照準値
-                        2 * MAX_MINUS_DEFAULT_KIRYOKU_DIVIDED_BY_10, // 運動性
-                        0 // 必殺技威力
-                    ]
-                },
-                {
-                    label: "スラスト・コンバット",
-                    data: [
-                        0, // HP
-                        6.5, // 攻撃力
-                        6.5, // 防御力
-                        6.5, // 照準値
-                        10 + 6.5, // 運動性
-                        0 // 必殺技威力
-                    ]
-                },
-                {
-                    label: "76mm散弾砲ボクサー2",
-                    data: [
-                        0, // HP
-                        11, // 攻撃力
-                        0, // 防御力
-                        0, // 照準値
-                        11, // 運動性
-                        16 // 必殺技威力
-                    ]
-                },
-                {
-                    label: "単分子カッター",
-                    data: [
-                        0, // HP
-                        6.5, // 攻撃力
-                        6.5, // 防御力
-                        6.5, // 照準値
-                        6.5, // 運動性
-                        0 // 必殺技威力
                     ]
                 }
             ]
