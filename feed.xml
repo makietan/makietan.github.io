@@ -1,4 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2024-10-19T12:23:41+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">角煮かつ苦手なんだよな…松のや</title><link href="https://makietan.github.io/gourmet/2024/10/19/report.html" rel="alternate" type="text/html" title="角煮かつ苦手なんだよな…松のや" /><published>2024-10-19T00:00:00+09:00</published><updated>2024-10-19T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2024/10/19/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2024/10/19/report.html"><![CDATA[<p>以前食べたときから苦手になった角煮かつ。</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2024-10-20T12:28:08+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">すみぺの大理論 夜の東京公演が…</title><link href="https://makietan.github.io/otaku/2024/10/20/report.html" rel="alternate" type="text/html" title="すみぺの大理論 夜の東京公演が…" /><published>2024-10-20T00:00:00+09:00</published><updated>2024-10-20T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2024/10/20/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2024/10/20/report.html"><![CDATA[<p>なんとスタッフの誤爆が行われました。</p>
+
+<p>たまたま地震が起きてスタッフがXを除いたのか自分がポストした後に削除された。</p>
+
+<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">こういうことです <a href="https://t.co/x6llvqOc8D">pic.twitter.com/x6llvqOc8D</a></p>&mdash; まきえたん🥦☘️ (@makietanX) <a href="https://twitter.com/makietanX/status/1845176888530174277?ref_src=twsrc%5Etfw">October 12, 2024</a></blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<p>ここまで予想したけど、キングレコードだしまた不正ログインされたのかなー（棒）。</p>]]></content><author><name>makietan</name></author><category term="otaku" /><summary type="html"><![CDATA[なんとスタッフの誤爆が行われました。]]></summary></entry><entry><title type="html">角煮かつ苦手なんだよな…松のや</title><link href="https://makietan.github.io/gourmet/2024/10/19/report.html" rel="alternate" type="text/html" title="角煮かつ苦手なんだよな…松のや" /><published>2024-10-19T00:00:00+09:00</published><updated>2024-10-19T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2024/10/19/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2024/10/19/report.html"><![CDATA[<p>以前食べたときから苦手になった角煮かつ。</p>
 
 <p>硬い、ほとんど脂身、衣が刺さる…etc.</p>
 
@@ -450,108 +457,4 @@ JavaScript は自由度がいい意味でも悪い意味でも高いので、お
 
 <p>ゴールドAlarmo「おまえの寝ている姿をずっと見てたぞ」「本当によく頑張ったな？」「遂に我慢が報われ莫大な富を得る」</p>
 
-<p>なんてな。</p>]]></content><author><name>makietan</name></author><category term="hobby" /><summary type="html"><![CDATA[ただの音がなる時計だと思っていたが1万円越えるらしい。]]></summary></entry><entry><title type="html">レーバテインのデモリッションガン比較</title><link href="https://makietan.github.io/game/srwdd/2024/10/10/report.html" rel="alternate" type="text/html" title="レーバテインのデモリッションガン比較" /><published>2024-10-10T00:00:00+09:00</published><updated>2024-10-10T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2024/10/10/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2024/10/10/report.html"><![CDATA[<h2 id="比較対象">比較対象</h2>
-
-<h3 id="ssr-デモリッションガン-ガンハウザーモードmap">SSR+ デモリッションガン ガン・ハウザーモード（MAP）</h3>
-<h4 id="必殺技">必殺技</h4>
-<ul>
-  <li>SSR+ デモリッションガン</li>
-  <li>SSR+ スラスト・コンバット
-    <h4 id="効果">効果</h4>
-  </li>
-  <li>射程+1（重複不可）</li>
-  <li>移動力+1（重複可）</li>
-  <li>ARX-8 レーバテイン装備時
-    <ul>
-      <li>敵バリア-70%</li>
-      <li>斬撃・実弾ブレイクゲージ減少量100%</li>
-      <li>デモリッションガン ガン・ハウザーモード（MAP）でブレイク時
-        <ul>
-          <li>敵ブレイクゲージ復帰アクション数+1</li>
-        </ul>
-      </li>
-      <li>気力130以上
-        <ul>
-          <li>敵防御力・運動性-32%</li>
-          <li>被ダメージ-3500</li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-  <li>デモリッションガン命中時「覚醒」</li>
-  <li>サイズ差減少効果無効</li>
-</ul>
-
-<h3 id="ssr-デモリッションガン">SSR+ デモリッションガン</h3>
-<h4 id="必殺技-1">必殺技</h4>
-<ul>
-  <li>SSR+ デモリッションガン ガン・ハウザーモード（MAP）</li>
-  <li>SSR+ スラスト・コンバット
-    <h4 id="効果-1">効果</h4>
-  </li>
-  <li>デモリッションガン命中時「覚醒」</li>
-  <li>ARX-8 レーバテイン装備時
-    <ul>
-      <li>サイズ差減少効果無効</li>
-      <li>敵バリア-70%</li>
-    </ul>
-  </li>
-  <li>射程+1（重複不可）</li>
-  <li>移動力+1（重複可）</li>
-  <li>ブレイクゲージ減少量+35%
-    <h2 id="比較気力1804マス以上離戦闘回数5">比較（気力180・4マス以上離・戦闘回数5）</h2>
-  </li>
-</ul>
-
-<p>デバフについては記載しない。</p>
-
-<p>思ったほど変わらない結果に…。</p>
-
-<p>与ダメージがあるのでデモリッションをMAINにしてもいい感じになる。</p>
-
-<canvas id="chart-1" style="background-color: #fff"></canvas>
-
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-
-<script>
-    // chart
-    const MAX_MINUS_DEFAULT_KIRYOKU_DIVIDED_BY_10 = (180 - 100) / 10;
-    const NUMBER_OF_BATTLES = 5;
-    const ctx1 = document.getElementById('chart-1');
-    new Chart(ctx1, {
-        type: 'radar',
-        data: {
-            labels: ["HP", "攻撃力", "防御力", "照準値", "運動性", "必殺技威力", "与ダメージ", "命中率", "回避率"],
-            datasets: [
-                {
-                    label: "デモリッションガン ガン・ハウザーモード（MAP）",
-                    data: [
-                       0, // HP
-                       23.5 + 8 * MAX_MINUS_DEFAULT_KIRYOKU_DIVIDED_BY_10 + 2 * MAX_MINUS_DEFAULT_KIRYOKU_DIVIDED_BY_10, // 攻撃力
-                       0, // 防御力
-                       23.5 + 6 * MAX_MINUS_DEFAULT_KIRYOKU_DIVIDED_BY_10 + 2 * MAX_MINUS_DEFAULT_KIRYOKU_DIVIDED_BY_10, // 照準値
-                       23.5 + 8 * MAX_MINUS_DEFAULT_KIRYOKU_DIVIDED_BY_10 + 2 * MAX_MINUS_DEFAULT_KIRYOKU_DIVIDED_BY_10, // 運動性
-                       8.5 * MAX_MINUS_DEFAULT_KIRYOKU_DIVIDED_BY_10, // 必殺技威力
-                       0, // 与ダメージ
-                       0, // 命中率
-                       35 // 回避率
-                    ]
-                },
-                {
-                    label: "デモリッションガン",
-                    data: [
-                       0, // HP
-                       22.5 + 7 * MAX_MINUS_DEFAULT_KIRYOKU_DIVIDED_BY_10 + 2 * MAX_MINUS_DEFAULT_KIRYOKU_DIVIDED_BY_10 + 6.5, // 攻撃力
-                       6.5, // 防御力
-                       22.5 + 6 * MAX_MINUS_DEFAULT_KIRYOKU_DIVIDED_BY_10 + 2 * MAX_MINUS_DEFAULT_KIRYOKU_DIVIDED_BY_10 + 6.5, // 照準値
-                       22.5 + 6 * MAX_MINUS_DEFAULT_KIRYOKU_DIVIDED_BY_10 + 2 * MAX_MINUS_DEFAULT_KIRYOKU_DIVIDED_BY_10 + 10 + 6.5, // 運動性
-                       8 * MAX_MINUS_DEFAULT_KIRYOKU_DIVIDED_BY_10, // 必殺技威力
-                       35, // 与ダメージ
-                       25, // 命中率
-                       35 // 回避率
-                    ]
-                }
-            ]
-        }
-    });
-</script>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[比較対象]]></summary></entry></feed>
+<p>なんてな。</p>]]></content><author><name>makietan</name></author><category term="hobby" /><summary type="html"><![CDATA[ただの音がなる時計だと思っていたが1万円越えるらしい。]]></summary></entry></feed>
