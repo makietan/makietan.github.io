@@ -1,4 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2024-11-02T12:22:59+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">竜剣士から《ジ・アライバル・サイバース＠イグニスター》を出すときの素材</title><link href="https://makietan.github.io/game/yugioh/2024/11/02/report.html" rel="alternate" type="text/html" title="竜剣士から《ジ・アライバル・サイバース＠イグニスター》を出すときの素材" /><published>2024-11-02T00:00:00+09:00</published><updated>2024-11-02T00:00:00+09:00</updated><id>https://makietan.github.io/game/yugioh/2024/11/02/report</id><content type="html" xml:base="https://makietan.github.io/game/yugioh/2024/11/02/report.html"><![CDATA[<ul>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2024-11-03T02:18:21+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">中川家の「街頭演説」が面白い</title><link href="https://makietan.github.io/owarai/2024/11/03/report.html" rel="alternate" type="text/html" title="中川家の「街頭演説」が面白い" /><published>2024-11-03T00:00:00+09:00</published><updated>2024-11-03T00:00:00+09:00</updated><id>https://makietan.github.io/owarai/2024/11/03/report</id><content type="html" xml:base="https://makietan.github.io/owarai/2024/11/03/report.html"><![CDATA[<p>選挙前にこのネタをもってくるのは面白すぎるよ。</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Cl9T55HGZlQ?si=43EbVz10IMhbC7f7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+
+<p>4年前にもやってた。</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GsCkgyzp-pA?si=EbMlhHMQWfz-lxuh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+
+<p>演説やデモをするならこのくらい面白くないとね。</p>]]></content><author><name>makietan</name></author><category term="owarai" /><summary type="html"><![CDATA[選挙前にこのネタをもってくるのは面白すぎるよ。]]></summary></entry><entry><title type="html">竜剣士から《ジ・アライバル・サイバース＠イグニスター》を出すときの素材</title><link href="https://makietan.github.io/game/yugioh/2024/11/02/report.html" rel="alternate" type="text/html" title="竜剣士から《ジ・アライバル・サイバース＠イグニスター》を出すときの素材" /><published>2024-11-02T00:00:00+09:00</published><updated>2024-11-02T00:00:00+09:00</updated><id>https://makietan.github.io/game/yugioh/2024/11/02/report</id><content type="html" xml:base="https://makietan.github.io/game/yugioh/2024/11/02/report.html"><![CDATA[<ul>
   <li>《アストログラフ・マジシャン》+《竜剣士イグニスP》+《背海龍ジーランティス》+《奇跡の魔導剣士》
     <ul>
       <li>4000打点</li>
@@ -153,152 +161,4 @@
   <div class="card__description">
     <p>新感覚かつが2度目の復活「角煮かつ」発売！のページです。</p>
   </div>
-</div>]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[以前食べたときから苦手になった角煮かつ。]]></summary></entry><entry><title type="html">JavaScriptで継承(extends)した場合に「static」の挙動はどうなるのか</title><link href="https://makietan.github.io/tech/2024/10/18/report.html" rel="alternate" type="text/html" title="JavaScriptで継承(extends)した場合に「static」の挙動はどうなるのか" /><published>2024-10-18T00:00:00+09:00</published><updated>2024-10-18T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2024/10/18/report</id><content type="html" xml:base="https://makietan.github.io/tech/2024/10/18/report.html"><![CDATA[<p>JavaScript を使っていて継承 <code class="language-plaintext highlighter-rouge">extends</code> した場合に <code class="language-plaintext highlighter-rouge">static</code> の挙動がどうなるのか気になったので調べてみた。</p>
-
-<ol>
-  <li>継承した class 名で親の static 要素は利用できるのか</li>
-  <li>オーバーライドが可能か？</li>
-</ol>
-
-<h2 id="1-継承した-class-名で親の-static-要素は利用できるのか">1. 継承した class 名で親の static 要素は利用できるのか</h2>
-
-<p>まずは継承したら元の <code class="language-plaintext highlighter-rouge">static</code> は利用できるのかどうかを検証する。</p>
-
-<h3 id="検証">検証</h3>
-
-<p>以下のサイトのコードを引用して、それを継承した <code class="language-plaintext highlighter-rouge">Hoge</code> クラスを作り、各 <code class="language-plaintext highlighter-rouge">static</code> な要素を検証してきます。</p>
-
-<div class="card">
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/static"></a>
-  <div class="card__header">
-    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/static">developer.mozilla.org</a>
-  </div>
-  <div class="card__image">
-    <img src="https://developer.mozilla.org/mdn-social-share.d893525a4fb5fb1f67a2.png" />
-  </div>
-  <div class="card__title">
-    <p>static - JavaScript | MDN</p>
-  </div>
-  <div class="card__description">
-    <p>The static keyword defines a static method or field for a class, or a static initialization block (see the link for more information about this usage). Static properties cannot be directly accessed on instances of the class. Instead, they're accessed on the class itself.</p>
-  </div>
-</div>
-
-<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">class</span> <span class="nc">ClassWithStaticMethod</span> <span class="p">{</span>
-  <span class="kd">static</span> <span class="nx">staticProperty</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">someValue</span><span class="dl">'</span><span class="p">;</span>
-  <span class="kd">static</span> <span class="nf">staticMethod</span><span class="p">()</span> <span class="p">{</span>
-    <span class="k">return</span> <span class="dl">'</span><span class="s1">static method has been called.</span><span class="dl">'</span><span class="p">;</span>
-  <span class="p">}</span>
-  <span class="kd">static</span> <span class="p">{</span>
-    <span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="dl">'</span><span class="s1">Class static initialization block called</span><span class="dl">'</span><span class="p">);</span>
-  <span class="p">}</span>
-<span class="p">}</span>
-
-<span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="nx">ClassWithStaticMethod</span><span class="p">.</span><span class="nx">staticProperty</span><span class="p">);</span>
-<span class="c1">// Expected output: "someValue"</span>
-<span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="nx">ClassWithStaticMethod</span><span class="p">.</span><span class="nf">staticMethod</span><span class="p">());</span>
-<span class="c1">// Expected output: "static method has been called."</span>
-
-<span class="kd">class</span> <span class="nc">Hoge</span> <span class="kd">extends</span> <span class="nc">ClassWithStaticMethod</span> <span class="p">{</span>
-<span class="p">}</span>
-
-<span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="nx">Hoge</span><span class="p">.</span><span class="nx">staticProperty</span><span class="p">);</span>
-<span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="nx">Hoge</span><span class="p">.</span><span class="nf">staticMethod</span><span class="p">());</span>
-</code></pre></div></div>
-
-<h3 id="出力結果">出力結果</h3>
-
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">&gt;</span> <span class="s2">"Class static initialization block called"</span>
-<span class="o">&gt;</span> <span class="s2">"someValue"</span>
-<span class="o">&gt;</span> <span class="s2">"static method has been called."</span>
-<span class="o">&gt;</span> <span class="s2">"someValue"</span>
-<span class="o">&gt;</span> <span class="s2">"static method has been called."</span>
-</code></pre></div></div>
-
-<p>問題なく呼ぶことができました。</p>
-
-<h2 id="2-オーバーライドが可能か">2. オーバーライドが可能か？</h2>
-
-<p>次に <code class="language-plaintext highlighter-rouge">static</code> はオーバーライドできるかどうかです。
-JavaScript は自由度がいい意味でも悪い意味でも高いので、おそらくできてしまうだろうというのが予想です。</p>
-
-<p>さて、実際にはどうなのか検証していきます。</p>
-
-<p>1と同様に以下のサイトのコードを引用して、それを継承した <code class="language-plaintext highlighter-rouge">Hoge</code> クラスを作り、各 <code class="language-plaintext highlighter-rouge">static</code> をオーバーライドしていきます。</p>
-
-<div class="card">
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/static"></a>
-  <div class="card__header">
-    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/static">developer.mozilla.org</a>
-  </div>
-  <div class="card__image">
-    <img src="https://developer.mozilla.org/mdn-social-share.d893525a4fb5fb1f67a2.png" />
-  </div>
-  <div class="card__title">
-    <p>static - JavaScript | MDN</p>
-  </div>
-  <div class="card__description">
-    <p>The static keyword defines a static method or field for a class, or a static initialization block (see the link for more information about this usage). Static properties cannot be directly accessed on instances of the class. Instead, they're accessed on the class itself.</p>
-  </div>
-</div>
-
-<h3 id="検証-1">検証</h3>
-
-<p>オーバーライドできた場合は <a href="https://ja.wikipedia.org/wiki/%E3%83%A1%E3%82%BF%E6%A7%8B%E6%96%87%E5%A4%89%E6%95%B0">メタ構文変数
-</a>が表示されます。</p>
-
-<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">class</span> <span class="nc">ClassWithStaticMethod</span> <span class="p">{</span>
-  <span class="kd">static</span> <span class="nx">staticProperty</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">someValue</span><span class="dl">'</span><span class="p">;</span>
-  <span class="kd">static</span> <span class="nf">staticMethod</span><span class="p">()</span> <span class="p">{</span>
-    <span class="k">return</span> <span class="dl">'</span><span class="s1">static method has been called.</span><span class="dl">'</span><span class="p">;</span>
-  <span class="p">}</span>
-  <span class="kd">static</span> <span class="p">{</span>
-    <span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="dl">'</span><span class="s1">Class static initialization block called</span><span class="dl">'</span><span class="p">);</span>
-  <span class="p">}</span>
-<span class="p">}</span>
-
-<span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="nx">ClassWithStaticMethod</span><span class="p">.</span><span class="nx">staticProperty</span><span class="p">);</span>
-<span class="c1">// Expected output: "someValue"</span>
-<span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="nx">ClassWithStaticMethod</span><span class="p">.</span><span class="nf">staticMethod</span><span class="p">());</span>
-<span class="c1">// Expected output: "static method has been called."</span>
-
-<span class="kd">class</span> <span class="nc">Hoge</span> <span class="kd">extends</span> <span class="nc">ClassWithStaticMethod</span> <span class="p">{</span>
-  <span class="kd">static</span> <span class="nx">staticProperty</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">fuga</span><span class="dl">'</span><span class="p">;</span>
-  <span class="kd">static</span> <span class="nf">staticMethod</span><span class="p">()</span> <span class="p">{</span>
-    <span class="k">return</span> <span class="dl">"</span><span class="s2">piyo</span><span class="dl">"</span><span class="p">;</span>
-  <span class="p">}</span>
-  <span class="kd">static</span> <span class="p">{</span>
-    <span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="dl">"</span><span class="s2">hogera</span><span class="dl">"</span><span class="p">);</span>
-  <span class="p">}</span>
-<span class="p">}</span>
-
-<span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="nx">Hoge</span><span class="p">.</span><span class="nx">staticProperty</span><span class="p">);</span>
-<span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="nx">Hoge</span><span class="p">.</span><span class="nf">staticMethod</span><span class="p">());</span>
-</code></pre></div></div>
-
-<h3 id="出力結果-1">出力結果</h3>
-
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">&gt;</span> <span class="s2">"Class static initialization block called"</span>
-<span class="o">&gt;</span> <span class="s2">"someValue"</span>
-<span class="o">&gt;</span> <span class="s2">"static method has been called."</span>
-<span class="o">&gt;</span> <span class="s2">"hogera"</span>
-<span class="o">&gt;</span> <span class="s2">"fuga"</span>
-<span class="o">&gt;</span> <span class="s2">"piyo"</span>
-</code></pre></div></div>
-
-<p>継承は可能ということがわかった。</p>
-
-<p><code class="language-plaintext highlighter-rouge">static</code> な initializer は 1 度しか呼ばれない。
-ただし、継承後の initializer は親の initializer が呼ばれた後でも 1 度だけ呼ばれる。</p>
-
-<h2 id="結論">結論</h2>
-
-<p>JavaScript を使っていて継承 <code class="language-plaintext highlighter-rouge">extends</code> した場合</p>
-
-<ul>
-  <li>継承後のクラス名でも <code class="language-plaintext highlighter-rouge">static</code> 要素を利用することができた。</li>
-  <li>オーバーライドが可能。</li>
-  <li>initializer は別途1度だけ呼ばれる。</li>
-</ul>
-
-<p>となった。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[JavaScript を使っていて継承 extends した場合に static の挙動がどうなるのか気になったので調べてみた。]]></summary></entry></feed>
+</div>]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[以前食べたときから苦手になった角煮かつ。]]></summary></entry></feed>
