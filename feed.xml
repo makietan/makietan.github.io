@@ -1,4 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2024-11-01T12:33:00+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">2024年11月の遊戯王マスターデュエルのリミットレギュレーション</title><link href="https://makietan.github.io/game/yugioh/2024/11/01/report.html" rel="alternate" type="text/html" title="2024年11月の遊戯王マスターデュエルのリミットレギュレーション" /><published>2024-11-01T00:00:00+09:00</published><updated>2024-11-01T00:00:00+09:00</updated><id>https://makietan.github.io/game/yugioh/2024/11/01/report</id><content type="html" xml:base="https://makietan.github.io/game/yugioh/2024/11/01/report.html"><![CDATA[<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2024-11-02T12:22:59+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">竜剣士から《ジ・アライバル・サイバース＠イグニスター》を出すときの素材</title><link href="https://makietan.github.io/game/yugioh/2024/11/02/report.html" rel="alternate" type="text/html" title="竜剣士から《ジ・アライバル・サイバース＠イグニスター》を出すときの素材" /><published>2024-11-02T00:00:00+09:00</published><updated>2024-11-02T00:00:00+09:00</updated><id>https://makietan.github.io/game/yugioh/2024/11/02/report</id><content type="html" xml:base="https://makietan.github.io/game/yugioh/2024/11/02/report.html"><![CDATA[<ul>
+  <li>《アストログラフ・マジシャン》+《竜剣士イグニスP》+《背海龍ジーランティス》+《奇跡の魔導剣士》
+    <ul>
+      <li>4000打点</li>
+    </ul>
+  </li>
+</ul>
+
+<p>どうやってここまで辿り着くのかは知らん</p>]]></content><author><name>makietan</name></author><category term="game" /><category term="yugioh" /><summary type="html"><![CDATA[《アストログラフ・マジシャン》+《竜剣士イグニスP》+《背海龍ジーランティス》+《奇跡の魔導剣士》 4000打点]]></summary></entry><entry><title type="html">2024年11月の遊戯王マスターデュエルのリミットレギュレーション</title><link href="https://makietan.github.io/game/yugioh/2024/11/01/report.html" rel="alternate" type="text/html" title="2024年11月の遊戯王マスターデュエルのリミットレギュレーション" /><published>2024-11-01T00:00:00+09:00</published><updated>2024-11-01T00:00:00+09:00</updated><id>https://makietan.github.io/game/yugioh/2024/11/01/report</id><content type="html" xml:base="https://makietan.github.io/game/yugioh/2024/11/01/report.html"><![CDATA[<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
 
 <h2 id="制限--準制限-1枚生成">制限 → 準制限 (1枚生成)</h2>
 
@@ -293,34 +301,4 @@ JavaScript は自由度がいい意味でも悪い意味でも高いので、お
   <li>initializer は別途1度だけ呼ばれる。</li>
 </ul>
 
-<p>となった。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[JavaScript を使っていて継承 extends した場合に static の挙動がどうなるのか気になったので調べてみた。]]></summary></entry><entry><title type="html">10月なのに…</title><link href="https://makietan.github.io/weather/2024/10/17/report.html" rel="alternate" type="text/html" title="10月なのに…" /><published>2024-10-17T00:00:00+09:00</published><updated>2024-10-17T00:00:00+09:00</updated><id>https://makietan.github.io/weather/2024/10/17/report</id><content type="html" xml:base="https://makietan.github.io/weather/2024/10/17/report.html"><![CDATA[<ul>
-  <li>最高気温: 26.0℃</li>
-  <li>最低気温: 20.7℃</li>
-</ul>
-
-<div class="card">
-  <a href="https://tenki.jp/past/2024/10/17/weather/"></a>
-  <div class="card__header">
-    <a href="https://tenki.jp/past/2024/10/17/weather/">tenki.jp</a>
-  </div>
-  <div class="card__image">
-    <img src="https://storage.tenki.jp/archive/live/map/2024/10/17/top-large.jpg" />
-  </div>
-  <div class="card__title">
-    <p>過去の天気(実況天気・2024年10月17日) - 日本気象協会 tenki.jp</p>
-  </div>
-  <div class="card__description">
-    <p>過去天気の実況天気では、2024年10月17日の過去の気象情報を確認できます。エリア・日付でわかりやすく整理されています。</p>
-  </div>
-</div>
-
-<p>ほんとに日本かここは？</p>
-
-<p>曇りだったのでまだ日差しに悩まされることはなかったが、
-流石に10月中旬にもなってこの気温はやりすぎだろう。</p>
-
-<p>個人的には最高気温が20.0℃くらいのほうが快適なのだよ。</p>
-
-<p>秋なんとかしてくれ！</p>
-
-<p>（ちなみに日曜日に雨が降るのでそのタイミングで気温は低下しそうだけどね）</p>]]></content><author><name>makietan</name></author><category term="weather" /><summary type="html"><![CDATA[最高気温: 26.0℃ 最低気温: 20.7℃]]></summary></entry></feed>
+<p>となった。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[JavaScript を使っていて継承 extends した場合に static の挙動がどうなるのか気になったので調べてみた。]]></summary></entry></feed>
