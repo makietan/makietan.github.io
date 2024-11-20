@@ -1,4 +1,68 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2024-11-19T15:50:24+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">最近ちょっと頭痛が増えてきたな</title><link href="https://makietan.github.io/health/2024/11/19/report.html" rel="alternate" type="text/html" title="最近ちょっと頭痛が増えてきたな" /><published>2024-11-19T00:00:00+09:00</published><updated>2024-11-19T00:00:00+09:00</updated><id>https://makietan.github.io/health/2024/11/19/report</id><content type="html" xml:base="https://makietan.github.io/health/2024/11/19/report.html"><![CDATA[<p>頭が痛い。</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2024-11-20T12:29:48+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">逸見エリカ[4周年]のスキル差分</title><link href="https://makietan.github.io/game/gup/2024/11/20/report.html" rel="alternate" type="text/html" title="逸見エリカ[4周年]のスキル差分" /><published>2024-11-20T00:00:00+09:00</published><updated>2024-11-20T00:00:00+09:00</updated><id>https://makietan.github.io/game/gup/2024/11/20/report</id><content type="html" xml:base="https://makietan.github.io/game/gup/2024/11/20/report.html"><![CDATA[<h2 id="チュートリアルは終わりよ大">〚チュートリアルは終わりよ（大）〛</h2>
+<p>ターゲット集中&amp;装甲UP&amp;戦闘時お互いの火力&amp;照準に掛かる効果と一部特殊効果、状態異常付与効果を無視&amp;試合中自部隊の車輌数が多いほど装甲&amp;機動性&amp;装填UP（常時発動）</p>
+
+<h2 id="チュートリアルは終わりよ超">〚チュートリアルは終わりよ★（超）〛</h2>
+<p>ターゲット集中&amp;装甲UP&amp;戦闘時お互いの火力&amp;照準と一部特殊効果、状態異常付与効果を無視&amp;試合中自部隊の車輌数が多いほど装甲&amp;機動性&amp;移動力&amp;装填UP&amp;味方車輌と隣接時装甲&amp;機動性&amp;装填UP（常時発動）</p>
+
+<h2 id="差分">差分</h2>
+
+<p>〚チュートリアルは終わりよ<span style="color:green">{+★+}</span>（<span style="color:red">[-大-]</span><span style="color:green">{+超+}</span>）〛</p>
+
+<p>ターゲット集中&amp;装甲UP&amp;戦闘時お互いの火力&amp;照準<span style="color:red">[-に掛かる効果-]</span>と一部特殊効果、状態異常付与効果を無視&amp;試合中自部隊の車輌数が多いほど装甲&amp;機動性&amp;<span style="color:green">{+移動力&amp;装填UP&amp;味方車輌と隣接時装甲&amp;機動性&amp;+}</span>装填UP（常時発動）</p>
+
+<h2 id="変化">変化</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center"> </th>
+      <th style="text-align: center">-</th>
+      <th style="text-align: center">★</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">火力</td>
+      <td style="text-align: center">無視</td>
+      <td style="text-align: center">無視</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">照準</td>
+      <td style="text-align: center">無視</td>
+      <td style="text-align: center">無視</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">装甲</td>
+      <td style="text-align: center">2UP</td>
+      <td style="text-align: center"><strong>3UP</strong></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">機動</td>
+      <td style="text-align: center">UP</td>
+      <td style="text-align: center"><strong>2UP</strong></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">装填</td>
+      <td style="text-align: center">UP</td>
+      <td style="text-align: center"><strong>2UP</strong></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">移動</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"><strong>UP</strong></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">特殊効果</td>
+      <td style="text-align: center">無視</td>
+      <td style="text-align: center">無視</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">状態異常</td>
+      <td style="text-align: center">無視</td>
+      <td style="text-align: center">無視</td>
+    </tr>
+  </tbody>
+</table>]]></content><author><name>makietan</name></author><category term="game" /><category term="gup" /><summary type="html"><![CDATA[〚チュートリアルは終わりよ（大）〛 ターゲット集中&amp;装甲UP&amp;戦闘時お互いの火力&amp;照準に掛かる効果と一部特殊効果、状態異常付与効果を無視&amp;試合中自部隊の車輌数が多いほど装甲&amp;機動性&amp;装填UP（常時発動）]]></summary></entry><entry><title type="html">最近ちょっと頭痛が増えてきたな</title><link href="https://makietan.github.io/health/2024/11/19/report.html" rel="alternate" type="text/html" title="最近ちょっと頭痛が増えてきたな" /><published>2024-11-19T00:00:00+09:00</published><updated>2024-11-19T00:00:00+09:00</updated><id>https://makietan.github.io/health/2024/11/19/report</id><content type="html" xml:base="https://makietan.github.io/health/2024/11/19/report.html"><![CDATA[<p>頭が痛い。</p>
 
 <p>都内の内科ってゴミみたいなところしかないからどこにいけばいいのかわからんわ。</p>
 
@@ -30,7 +94,4 @@
 
 <p>必要なのは壁なんでね。</p>]]></content><author><name>makietan</name></author><category term="game" /><category term="pokemon" /><summary type="html"><![CDATA[どちらかというと普通のフリーザーが欲しい。]]></summary></entry><entry><title type="html">カビゴンよりミュウツーのほうがいい</title><link href="https://makietan.github.io/game/pokemon/2024/11/09/report.html" rel="alternate" type="text/html" title="カビゴンよりミュウツーのほうがいい" /><published>2024-11-09T00:00:00+09:00</published><updated>2024-11-09T00:00:00+09:00</updated><id>https://makietan.github.io/game/pokemon/2024/11/09/report</id><content type="html" xml:base="https://makietan.github.io/game/pokemon/2024/11/09/report.html"><![CDATA[<p>ポケポケの壁役はミュウツーが良さそうだ。
 エネルギー2で逃げることができるのも強い。
-スピーダー2枚で動けるからね。</p>]]></content><author><name>makietan</name></author><category term="game" /><category term="pokemon" /><summary type="html"><![CDATA[ポケポケの壁役はミュウツーが良さそうだ。 エネルギー2で逃げることができるのも強い。 スピーダー2枚で動けるからね。]]></summary></entry><entry><title type="html">ミュウツーexがきた</title><link href="https://makietan.github.io/game/pokemon/2024/11/08/report.html" rel="alternate" type="text/html" title="ミュウツーexがきた" /><published>2024-11-08T00:00:00+09:00</published><updated>2024-11-08T00:00:00+09:00</updated><id>https://makietan.github.io/game/pokemon/2024/11/08/report</id><content type="html" xml:base="https://makietan.github.io/game/pokemon/2024/11/08/report.html"><![CDATA[<p>ミュウツーexがきた。
-それも一番レアリティが高いやつ。</p>
-
-<p>構築できるパーツが全然ないので保留。</p>]]></content><author><name>makietan</name></author><category term="game" /><category term="pokemon" /><summary type="html"><![CDATA[ミュウツーexがきた。 それも一番レアリティが高いやつ。]]></summary></entry></feed>
+スピーダー2枚で動けるからね。</p>]]></content><author><name>makietan</name></author><category term="game" /><category term="pokemon" /><summary type="html"><![CDATA[ポケポケの壁役はミュウツーが良さそうだ。 エネルギー2で逃げることができるのも強い。 スピーダー2枚で動けるからね。]]></summary></entry></feed>
