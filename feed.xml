@@ -1,4 +1,36 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2024-12-05T12:36:07+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">VSCode で Ruby のコードジャンプがしたいときは Ruby Solargraph を使う</title><link href="https://makietan.github.io/tech/2024/12/03/report.html" rel="alternate" type="text/html" title="VSCode で Ruby のコードジャンプがしたいときは Ruby Solargraph を使う" /><published>2024-12-03T00:00:00+09:00</published><updated>2024-12-03T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2024/12/03/report</id><content type="html" xml:base="https://makietan.github.io/tech/2024/12/03/report.html"><![CDATA[<div class="card">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2024-12-06T12:34:31+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">遊戯王マスターデュエルのリミットレギュレーション分解ボーナスチェッカー</title><link href="https://makietan.github.io/game/yugioh/2024/12/06/report.html" rel="alternate" type="text/html" title="遊戯王マスターデュエルのリミットレギュレーション分解ボーナスチェッカー" /><published>2024-12-06T00:00:00+09:00</published><updated>2024-12-06T00:00:00+09:00</updated><id>https://makietan.github.io/game/yugioh/2024/12/06/report</id><content type="html" xml:base="https://makietan.github.io/game/yugioh/2024/12/06/report.html"><![CDATA[<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+
+<h2 id="制限--禁止-1枚分解">制限 → 禁止 (1枚分解)</h2>
+
+<div class="row pb-4">
+  <input type="checkbox" class="btn-check" id="金満で謙虚な壺" autocomplete="off" />
+  <label class="btn btn-outline-secondary" for="金満で謙虚な壺">【SR】金満で謙虚な壺</label><br />
+</div>
+
+<h2 id="無制限--制限-1枚分解">無制限 → 制限 (1枚分解)</h2>
+
+<div class="row pb-4">
+  <input type="checkbox" class="btn-check" id="ディメンション・アトラクター" autocomplete="off" />
+  <label class="btn btn-outline-secondary" for="ディメンション・アトラクター">【UR】ディメンション・アトラクター</label><br />
+  <input type="checkbox" class="btn-check" id="PSYフレームギア・γ" autocomplete="off" />
+  <label class="btn btn-outline-secondary" for="PSYフレームギア・γ">【SR】PSYフレームギア・γ</label><br />
+</div>
+
+<h2 id="無制限--制限-2枚分解">無制限 → 制限 (2枚分解)</h2>
+
+<div class="row pb-4">
+  <input type="checkbox" class="btn-check" id="妖精伝説ーシラユキ" autocomplete="off" />
+  <label class="btn btn-outline-secondary" for="妖精伝説ーシラユキ">【UR】妖精伝説ーシラユキ</label><br />
+</div>
+
+<h2 id="無制限--準制限-1枚分解">無制限 → 準制限 (1枚分解)</h2>
+
+<div class="row pb-4">
+  <input type="checkbox" class="btn-check" id="ライトニング・ストーム" autocomplete="off" />
+  <label class="btn btn-outline-secondary" for="ライトニング・ストーム">【UR】ライトニング・ストーム</label><br />
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>]]></content><author><name>makietan</name></author><category term="game" /><category term="yugioh" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">VSCode で Ruby のコードジャンプがしたいときは Ruby Solargraph を使う</title><link href="https://makietan.github.io/tech/2024/12/03/report.html" rel="alternate" type="text/html" title="VSCode で Ruby のコードジャンプがしたいときは Ruby Solargraph を使う" /><published>2024-12-03T00:00:00+09:00</published><updated>2024-12-03T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2024/12/03/report</id><content type="html" xml:base="https://makietan.github.io/tech/2024/12/03/report.html"><![CDATA[<div class="card">
   <a href="https://qiita.com/NaokiIshimura/items/dbe6a9dc0af59fde0c6b"></a>
   <div class="card__header">
     <a href="https://qiita.com/NaokiIshimura/items/dbe6a9dc0af59fde0c6b">qiita.com</a>
@@ -122,5 +154,4 @@ gem install solargraph
 
 <p>肉体の滅びを感じるレベルで眠い。</p>
 
-<p>どうやったら治るんだこれ…。</p>]]></content><author><name>makietan</name></author><category term="health" /><summary type="html"><![CDATA[寝る時間が遅いせいでもあるんだが、 夕方の睡魔が今まであった睡魔を超えるくらい酷い]]></summary></entry><entry><title type="html">松のやの550円ロースカツ定食が延長したぞ</title><link href="https://makietan.github.io/gourmet/2024/11/13/report.html" rel="alternate" type="text/html" title="松のやの550円ロースカツ定食が延長したぞ" /><published>2024-11-13T00:00:00+09:00</published><updated>2024-11-13T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2024/11/13/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2024/11/13/report.html"><![CDATA[<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">11/20まで延長のQRコード、発動します(´∀｀)<br />みなさまよろしくお願いいたします！<br /><br />※クーポンの使い方※ <br />食券を買う前に、QRコードを先に読み込ませてください。 <a href="https://t.co/EzIi6VZ35A">pic.twitter.com/EzIi6VZ35A</a></p>&mdash; とんかつ 松のや【公式】 (@matsu_noya) <a href="https://twitter.com/matsu_noya/status/1856577739018449168?ref_src=twsrc%5Etfw">November 13, 2024</a></blockquote>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[11/20まで延長のQRコード、発動します(´∀｀)みなさまよろしくお願いいたします！※クーポンの使い方※ 食券を買う前に、QRコードを先に読み込ませてください。 pic.twitter.com/EzIi6VZ35A&mdash; とんかつ 松のや【公式】 (@matsu_noya) November 13, 2024]]></summary></entry></feed>
+<p>どうやったら治るんだこれ…。</p>]]></content><author><name>makietan</name></author><category term="health" /><summary type="html"><![CDATA[寝る時間が遅いせいでもあるんだが、 夕方の睡魔が今まであった睡魔を超えるくらい酷い]]></summary></entry></feed>
