@@ -1,8 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2024-12-21T12:21:42+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">ワークマンの「防水防寒サーマルジャケット」を買った</title><link href="https://makietan.github.io/fashion/2024/12/15/report.html" rel="alternate" type="text/html" title="ワークマンの「防水防寒サーマルジャケット」を買った" /><published>2024-12-15T00:00:00+09:00</published><updated>2024-12-15T00:00:00+09:00</updated><id>https://makietan.github.io/fashion/2024/12/15/report</id><content type="html" xml:base="https://makietan.github.io/fashion/2024/12/15/report.html"><![CDATA[<p>厚着のパーカーはそろそろキツい年齢になってきたので買った。</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2024-12-22T01:37:06+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">ふるさと納税の焼肉用ハラミで屑肉が入ってると面倒</title><link href="https://makietan.github.io/gourmet/2024/12/22/report.html" rel="alternate" type="text/html" title="ふるさと納税の焼肉用ハラミで屑肉が入ってると面倒" /><published>2024-12-22T00:00:00+09:00</published><updated>2024-12-22T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2024/12/22/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2024/12/22/report.html"><![CDATA[<p>今日はたまたま屑肉が多いものにヒットしてしまった。</p>
+
+<p>まぁ別に貰い物なのでいいんだけど多少は傷つくので文句を並べてみる。</p>]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[今日はたまたま屑肉が多いものにヒットしてしまった。]]></summary></entry><entry><title type="html">上坂すみれ生誕祭2024</title><link href="https://makietan.github.io/otaku/2024/12/19/report.html" rel="alternate" type="text/html" title="上坂すみれ生誕祭2024" /><published>2024-12-19T00:00:00+09:00</published><updated>2024-12-19T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2024/12/19/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2024/12/19/report.html"><![CDATA[<p>もう33歳かー。</p>
+
+<p>ライブに行って10年経った。</p>
+
+<p>あのハルク・ホーガンのフィギュアも10年ものになった。</p>
+
+<p>今手放すといくらになるだろうか…。</p>
+
+<p>まぁサインも何もないから意味ないけどね。</p>
+
+<p>しっかし、ここまで声優として活躍しているのは素晴らしいね。</p>
+
+<p>今後もマイペースに応援していこうと思う。</p>]]></content><author><name>makietan</name></author><category term="otaku" /><summary type="html"><![CDATA[もう33歳かー。]]></summary></entry><entry><title type="html">ワークマンの「防水防寒サーマルジャケット」を買った</title><link href="https://makietan.github.io/fashion/2024/12/15/report.html" rel="alternate" type="text/html" title="ワークマンの「防水防寒サーマルジャケット」を買った" /><published>2024-12-15T00:00:00+09:00</published><updated>2024-12-15T00:00:00+09:00</updated><id>https://makietan.github.io/fashion/2024/12/15/report</id><content type="html" xml:base="https://makietan.github.io/fashion/2024/12/15/report.html"><![CDATA[<p>厚着のパーカーはそろそろキツい年齢になってきたので買った。</p>
 
 <p>非常にいい感じだが、手が冷たいので手袋をどうにか調達しようと思う。</p>
 
 <p>3,900円に送料込みで5000円くらい。</p>
+
+<p>送料が850円だったから4,750円だった（追記：2024/12/16）</p>
 
 <p>近くにあったら自力で行くんだけどないんだよな。</p>
 
@@ -65,103 +81,139 @@
 gem install solargraph
 </code></pre></div></div>
 
-<p>あとは rubocop とかも設定するといい感じになる</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[qiita.com 【VSCode】Rubyでコードジャンプする方法 #Ruby - Qiita ✅ はじめに本投稿では、VSCodeでRubyのコードジャンプを提供してくれる拡張機能の導入方法を解説してます。対象者VSCodeでRubyの開発を行っていて、JSなどと同様にコードジャンプし…]]></summary></entry><entry><title type="html">左胸が痛いことがあるので通院したほうが良さそうだ</title><link href="https://makietan.github.io/health/2024/11/24/report.html" rel="alternate" type="text/html" title="左胸が痛いことがあるので通院したほうが良さそうだ" /><published>2024-11-24T00:00:00+09:00</published><updated>2024-11-24T00:00:00+09:00</updated><id>https://makietan.github.io/health/2024/11/24/report</id><content type="html" xml:base="https://makietan.github.io/health/2024/11/24/report.html"><![CDATA[<p>半年前からなんか違和感があったのだが、
+<p>あとは rubocop とかも設定するといい感じになる</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[qiita.com 【VSCode】Rubyでコードジャンプする方法 #Ruby - Qiita ✅ はじめに本投稿では、VSCodeでRubyのコードジャンプを提供してくれる拡張機能の導入方法を解説してます。対象者VSCodeでRubyの開発を行っていて、JSなどと同様にコードジャンプし…]]></summary></entry><entry><title type="html">「クレジット・ガイダンス」が提供開始したらしい</title><link href="https://makietan.github.io/credit/2024/11/29/report.html" rel="alternate" type="text/html" title="「クレジット・ガイダンス」が提供開始したらしい" /><published>2024-11-29T00:00:00+09:00</published><updated>2024-11-29T00:00:00+09:00</updated><id>https://makietan.github.io/credit/2024/11/29/report</id><content type="html" xml:base="https://makietan.github.io/credit/2024/11/29/report.html"><![CDATA[<p>まぁ一般人が発行したところで金かかるしあんまりメリットはない。</p>
+
+<p>借金とかあると一応チェックしたりするといいのかな？</p>
+
+<div class="card">
+  <a href="https://www.cic.co.jp/mydata/online/index.html#application"></a>
+  <div class="card__header">
+    <a href="https://www.cic.co.jp/mydata/online/index.html#application">www.cic.co.jp</a>
+  </div>
+  <div class="card__image">
+    <img src="https://www.cic.co.jp/assets/img/ogp_210226.jpg" />
+  </div>
+  <div class="card__title">
+    <p>インターネットで開示する｜情報開示とは｜指定信用情報機関のCIC</p>
+  </div>
+  <div class="card__description">
+    <p>インターネット開示について紹介します。CICは信用情報の収集・管理・提供・開示を通じて、皆様のクレジットライフをサポートしています。</p>
+  </div>
+</div>]]></content><author><name>makietan</name></author><category term="credit" /><summary type="html"><![CDATA[まぁ一般人が発行したところで金かかるしあんまりメリットはない。]]></summary></entry><entry><title type="html">ダンまちⅤが面白い</title><link href="https://makietan.github.io/otaku/2024/11/27/report.html" rel="alternate" type="text/html" title="ダンまちⅤが面白い" /><published>2024-11-27T00:00:00+09:00</published><updated>2024-11-27T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2024/11/27/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2024/11/27/report.html"><![CDATA[<p>前期はちょいと辛気臭い感じだったが、今回はやべえ女の嫉妬からくるいざこざ…痴情のもつれが引き起こす大戦という。
+世界大戦もビックリの火種である。</p>
+
+<p>まぁ似たような争いは過去にあるんだろうが、調べる気もないので置いておこう。</p>
+
+<p>最近よくあるババアの嫉妬によって超過保護な条例やらなんやらが制定される現代もなかなかに狂っているが、
+それをも超えるであろう自分の持つ軍の全勢力で奪い取る合戦が勃発しそうである。</p>
+
+<p>いやー嫌だね。もっと有意義な争いならいけどさ。自分が関わるならね。</p>
+
+<p>Ⅳのときのキャラがサクサク死んでいくような絶望的過ぎる争いではないので見やすいのは見やすい。</p>
+
+<p>今は起承転結の転の部分なので結がどうなるかじっくり観ていきたい。</p>]]></content><author><name>makietan</name></author><category term="otaku" /><summary type="html"><![CDATA[前期はちょいと辛気臭い感じだったが、今回はやべえ女の嫉妬からくるいざこざ…痴情のもつれが引き起こす大戦という。 世界大戦もビックリの火種である。]]></summary></entry><entry><title type="html">アニメのBLEACHが面白い</title><link href="https://makietan.github.io/otaku/2024/11/26/report.html" rel="alternate" type="text/html" title="アニメのBLEACHが面白い" /><published>2024-11-26T00:00:00+09:00</published><updated>2024-11-26T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2024/11/26/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2024/11/26/report.html"><![CDATA[<p>過去のシリーズをちゃんと観てきたわけじゃないけど、
+今のアニメを観ても楽しめるのがすごい。</p>
+
+<p>そして、原作ファンも知らないシーンの追加とかがあって更に面白い。</p>
+
+<p>中尾隆聖さんすごいね。
+73歳なのにあの演技力。
+まだまだ聞いていたい。</p>]]></content><author><name>makietan</name></author><category term="otaku" /><summary type="html"><![CDATA[過去のシリーズをちゃんと観てきたわけじゃないけど、 今のアニメを観ても楽しめるのがすごい。]]></summary></entry><entry><title type="html">GitHub Actions で Release を作る</title><link href="https://makietan.github.io/tech/github/2024/11/25/report.html" rel="alternate" type="text/html" title="GitHub Actions で Release を作る" /><published>2024-11-25T00:00:00+09:00</published><updated>2024-11-25T00:00:00+09:00</updated><id>https://makietan.github.io/tech/github/2024/11/25/report</id><content type="html" xml:base="https://makietan.github.io/tech/github/2024/11/25/report.html"><![CDATA[<h2 id="結論">結論</h2>
+
+<p>GitHub CLI を使う。</p>
+
+<h2 id="github-cli">GitHUb CLI</h2>
+
+<div class="card">
+  <a href="https://github.com/cli/cli"></a>
+  <div class="card__header">
+    <a href="https://github.com/cli/cli">github.com</a>
+  </div>
+  <div class="card__image">
+    <img src="https://repository-images.githubusercontent.com/212613049/d51e7480-f84b-11ea-84d5-4ef1c4d2a5bc" />
+  </div>
+  <div class="card__title">
+    <p>GitHub - cli/cli: GitHub’s official command line tool</p>
+  </div>
+  <div class="card__description">
+    <p>GitHub’s official command line tool. Contribute to cli/cli development by creating an account on GitHub.</p>
+  </div>
+</div>
+
+<p>GitHub CLI とは GitHub が提供している。</p>
+
+<p>プルリクエストやIssue、その他色々なGitHubに関する処理をCLI経由ですることができる。</p>
+
+<p>これを使うことで Release を作成することが可能だ。</p>
+
+<h3 id="install">Install</h3>
+
+<p>Homebrew でインストールが可能。</p>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>brew <span class="nb">install </span>gh	
+</code></pre></div></div>
+
+<h3 id="command">Command</h3>
+
+<p>Release を作成する場合は以下のコマンドで可能。</p>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gh release create ...
+</code></pre></div></div>
+
+<h4 id="github-actions">GitHub Actions</h4>
+
+<p>YAMLファイルに以下のようなものを追加する。</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">--draft</code> をつけると名前の通り、Draftで作成してくれる。</li>
+  <li><code class="language-plaintext highlighter-rouge">--generate-notes</code> をつけると含まれる変更が自動で記載される。</li>
+</ul>
+
+<p>他にもフラグが色々あるので調べるといいだろう。</p>
+
+<div class="card">
+  <a href="https://cli.github.com/manual/gh_release_create"></a>
+  <div class="card__header">
+    <a href="https://cli.github.com/manual/gh_release_create">cli.github.com</a>
+  </div>
+  <div class="card__image">
+    <img src="https://cli.github.com/assets/images/social-card.png" />
+  </div>
+  <div class="card__title">
+    <p>GitHub CLI | Take GitHub to the command line</p>
+  </div>
+  <div class="card__description">
+    <p>Take GitHub to the command line</p>
+  </div>
+</div>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">steps</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Create Draft Release</span>
+    <span class="na">id</span><span class="pi">:</span> <span class="s">create-draft-release</span>
+    <span class="na">env</span><span class="pi">:</span> 
+      <span class="na">GH_TOKEN</span><span class="pi">:</span> <span class="s">$</span>
+      <span class="na">TAG_NAME</span><span class="pi">:</span> <span class="s">$</span>
+      <span class="na">RELEASE_NAME</span><span class="pi">:</span> <span class="s">$</span>
+    <span class="na">run</span><span class="pi">:</span> <span class="pi">|</span>
+      <span class="s">gh release create "$TAG_NAME" --target "production" --repo="$GITHUB_REPOSITORY" --title="$RELEASE_NAME" --generate-notes --draft</span>
+</code></pre></div></div>
+
+<h3 id="stepsxxxxoutputsxxx"><code class="language-plaintext highlighter-rouge">steps.xxxx.outputs.xxx</code></h3>
+
+<p><code class="language-plaintext highlighter-rouge">steps</code> で付与した <code class="language-plaintext highlighter-rouge">name</code> の ID を指定することでそこでそこの成果物を利用する事ができる。</p>
+
+<p><code class="language-plaintext highlighter-rouge">steps.{id}.outputs.{key}</code> といった感じ。</p>
+
+<p>書き込む方法は以下の通り。</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">steps</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Get Current Date</span>
+    <span class="na">id</span><span class="pi">:</span> <span class="s">date</span>
+    <span class="na">run</span><span class="pi">:</span> <span class="pi">|</span>
+      <span class="s">echo "date=$(date +'%Y-%m-%d')" &gt;&gt; "$GITHUB_OUTPUT"</span>
+</code></pre></div></div>
+
+<p>上記を他から参照する場合は、<code class="language-plaintext highlighter-rouge">steps.date.outputs.date</code> となる。</p>]]></content><author><name>makietan</name></author><category term="tech" /><category term="github" /><summary type="html"><![CDATA[結論]]></summary></entry><entry><title type="html">左胸が痛いことがあるので通院したほうが良さそうだ</title><link href="https://makietan.github.io/health/2024/11/24/report.html" rel="alternate" type="text/html" title="左胸が痛いことがあるので通院したほうが良さそうだ" /><published>2024-11-24T00:00:00+09:00</published><updated>2024-11-24T00:00:00+09:00</updated><id>https://makietan.github.io/health/2024/11/24/report</id><content type="html" xml:base="https://makietan.github.io/health/2024/11/24/report.html"><![CDATA[<p>半年前からなんか違和感があったのだが、
 新橋にろくな内科がないのでどうすればいいのか迷っている。</p>
 
-<p>昔の職場の近くの青山にあった薬配るしか脳がない病院みたいなのに遭遇してしまうと最悪なのでどうにかしたいところだ。</p>]]></content><author><name>makietan</name></author><category term="health" /><summary type="html"><![CDATA[半年前からなんか違和感があったのだが、 新橋にろくな内科がないのでどうすればいいのか迷っている。]]></summary></entry><entry><title type="html">シラユキは禁止にしろ</title><link href="https://makietan.github.io/game/yugioh/2024/11/23/report.html" rel="alternate" type="text/html" title="シラユキは禁止にしろ" /><published>2024-11-23T00:00:00+09:00</published><updated>2024-11-23T00:00:00+09:00</updated><id>https://makietan.github.io/game/yugioh/2024/11/23/report</id><content type="html" xml:base="https://makietan.github.io/game/yugioh/2024/11/23/report.html"><![CDATA[<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">【予告】<br />リミットレギュレーションの適用について<br /><br />12月6日に「リミットレギュレーションの適用」を実施いたします。<br />この変更に先立ち、アプリ内では変更の方針と理由についてお伝えさせていただいております。<br /><br />詳細はゲームをご確認ください。<a href="https://twitter.com/hashtag/%E9%81%8A%E6%88%AF%E7%8E%8B%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%87%E3%83%A5%E3%82%A8%E3%83%AB?src=hash&amp;ref_src=twsrc%5Etfw">#遊戯王マスターデュエル</a> <a href="https://t.co/fZbEy3Q8qN">pic.twitter.com/fZbEy3Q8qN</a></p>&mdash; 【公式】 遊戯王 マスターデュエル (@YuGiOh_MD_INFO) <a href="https://twitter.com/YuGiOh_MD_INFO/status/1859824991183007767?ref_src=twsrc%5Etfw">November 22, 2024</a></blockquote>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<p>ようやく規制されるようだ。</p>
-
-<p>ティアラメンツ・キトカロスを全く規制しないくせに、ずっと無制限でいた時点で狂っている。</p>
-
-<p>はっきり言うが禁止にしろ。</p>
-
-<p>1枚だけでも簡単にエクシーズ・シンクロ・リンク素材にでき、なんならリンク召喚に関しては簡単にリンク4とかにもなれてしまう。</p>
-
-<p>そんなカードが野放しにされている事自体異常なんだが運営は理解できないのだろうな。</p>
-
-<p>手札誘発は直接勝利に直結するものでもないので規制ややり過ぎではある。</p>
-
-<p>バトルフェイズにも発動できるγは天盃龍メタになっていたのに残念だ。</p>]]></content><author><name>makietan</name></author><category term="game" /><category term="yugioh" /><summary type="html"><![CDATA[【予告】リミットレギュレーションの適用について12月6日に「リミットレギュレーションの適用」を実施いたします。この変更に先立ち、アプリ内では変更の方針と理由についてお伝えさせていただいております。詳細はゲームをご確認ください。#遊戯王マスターデュエル pic.twitter.com/fZbEy3Q8qN&mdash; 【公式】 遊戯王 マスターデュエル (@YuGiOh_MD_INFO) November 22, 2024]]></summary></entry><entry><title type="html">今年は直前に女の子とランチに行く機会があってよかった</title><link href="https://makietan.github.io/gourmet/2024/11/22/report.html" rel="alternate" type="text/html" title="今年は直前に女の子とランチに行く機会があってよかった" /><published>2024-11-22T00:00:00+09:00</published><updated>2024-11-22T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2024/11/22/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2024/11/22/report.html"><![CDATA[<p>しかも知らない子も1人追加で。</p>
-
-<p>謎の出費だったけどもあぁいいよ。</p>]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[しかも知らない子も1人追加で。]]></summary></entry><entry><title type="html">逸見エリカ[4周年]のスキル差分</title><link href="https://makietan.github.io/game/gup/2024/11/20/report.html" rel="alternate" type="text/html" title="逸見エリカ[4周年]のスキル差分" /><published>2024-11-20T00:00:00+09:00</published><updated>2024-11-20T00:00:00+09:00</updated><id>https://makietan.github.io/game/gup/2024/11/20/report</id><content type="html" xml:base="https://makietan.github.io/game/gup/2024/11/20/report.html"><![CDATA[<h2 id="チュートリアルは終わりよ大">〚チュートリアルは終わりよ（大）〛</h2>
-<p>ターゲット集中&amp;装甲UP&amp;戦闘時お互いの火力&amp;照準に掛かる効果と一部特殊効果、状態異常付与効果を無視&amp;試合中自部隊の車輌数が多いほど装甲&amp;機動性&amp;装填UP（常時発動）</p>
-
-<h2 id="チュートリアルは終わりよ超">〚チュートリアルは終わりよ★（超）〛</h2>
-<p>ターゲット集中&amp;装甲UP&amp;戦闘時お互いの火力&amp;照準と一部特殊効果、状態異常付与効果を無視&amp;試合中自部隊の車輌数が多いほど装甲&amp;機動性&amp;移動力&amp;装填UP&amp;味方車輌と隣接時装甲&amp;機動性&amp;装填UP（常時発動）</p>
-
-<h2 id="差分">差分</h2>
-
-<p>〚チュートリアルは終わりよ<span style="color:green">{+★+}</span>（<span style="color:red">[-大-]</span><span style="color:green">{+超+}</span>）〛</p>
-
-<p>ターゲット集中&amp;装甲UP&amp;戦闘時お互いの火力&amp;照準<span style="color:red">[-に掛かる効果-]</span>と一部特殊効果、状態異常付与効果を無視&amp;試合中自部隊の車輌数が多いほど装甲&amp;機動性&amp;<span style="color:green">{+移動力&amp;装填UP&amp;味方車輌と隣接時装甲&amp;機動性&amp;+}</span>装填UP（常時発動）</p>
-
-<h2 id="変化">変化</h2>
-
-<table>
-  <thead>
-    <tr>
-      <th style="text-align: center"> </th>
-      <th style="text-align: center">-</th>
-      <th style="text-align: center">★</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: center">火力</td>
-      <td style="text-align: center">無視</td>
-      <td style="text-align: center">無視</td>
-    </tr>
-    <tr>
-      <td style="text-align: center">照準</td>
-      <td style="text-align: center">無視</td>
-      <td style="text-align: center">無視</td>
-    </tr>
-    <tr>
-      <td style="text-align: center">装甲</td>
-      <td style="text-align: center">2UP</td>
-      <td style="text-align: center"><strong>3UP</strong></td>
-    </tr>
-    <tr>
-      <td style="text-align: center">機動</td>
-      <td style="text-align: center">UP</td>
-      <td style="text-align: center"><strong>2UP</strong></td>
-    </tr>
-    <tr>
-      <td style="text-align: center">装填</td>
-      <td style="text-align: center">UP</td>
-      <td style="text-align: center"><strong>2UP</strong></td>
-    </tr>
-    <tr>
-      <td style="text-align: center">移動</td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"><strong>UP</strong></td>
-    </tr>
-    <tr>
-      <td style="text-align: center">特殊効果</td>
-      <td style="text-align: center">無視</td>
-      <td style="text-align: center">無視</td>
-    </tr>
-    <tr>
-      <td style="text-align: center">状態異常</td>
-      <td style="text-align: center">無視</td>
-      <td style="text-align: center">無視</td>
-    </tr>
-  </tbody>
-</table>]]></content><author><name>makietan</name></author><category term="game" /><category term="gup" /><summary type="html"><![CDATA[〚チュートリアルは終わりよ（大）〛 ターゲット集中&amp;装甲UP&amp;戦闘時お互いの火力&amp;照準に掛かる効果と一部特殊効果、状態異常付与効果を無視&amp;試合中自部隊の車輌数が多いほど装甲&amp;機動性&amp;装填UP（常時発動）]]></summary></entry><entry><title type="html">最近ちょっと頭痛が増えてきたな</title><link href="https://makietan.github.io/health/2024/11/19/report.html" rel="alternate" type="text/html" title="最近ちょっと頭痛が増えてきたな" /><published>2024-11-19T00:00:00+09:00</published><updated>2024-11-19T00:00:00+09:00</updated><id>https://makietan.github.io/health/2024/11/19/report</id><content type="html" xml:base="https://makietan.github.io/health/2024/11/19/report.html"><![CDATA[<p>頭が痛い。</p>
-
-<p>都内の内科ってゴミみたいなところしかないからどこにいけばいいのかわからんわ。</p>
-
-<p>血流の問題かな。</p>
-
-<p>どうにかしないと。</p>]]></content><author><name>makietan</name></author><category term="health" /><summary type="html"><![CDATA[頭が痛い。]]></summary></entry><entry><title type="html">iOSをアップデートさせるために「X」を消した</title><link href="https://makietan.github.io/tech/2024/11/16/report.html" rel="alternate" type="text/html" title="iOSをアップデートさせるために「X」を消した" /><published>2024-11-16T00:00:00+09:00</published><updated>2024-11-16T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2024/11/16/report</id><content type="html" xml:base="https://makietan.github.io/tech/2024/11/16/report.html"><![CDATA[<p>なぜかキャッシュで6GBくらい容量を圧迫していて本当に最悪だなという感想しか出てこない。
-ちゃんと消せよ使わないファイルが大量にあるんだからさ。</p>
-
-<p>そのへんのデータをしっかり消す方法が謎なのでAppを削除して再構築することにした。</p>
-
-<p>大量にあるアカウントを再登録するの大変だ…。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[なぜかキャッシュで6GBくらい容量を圧迫していて本当に最悪だなという感想しか出てこない。 ちゃんと消せよ使わないファイルが大量にあるんだからさ。]]></summary></entry><entry><title type="html">ニャース・ミュウツー壁型カメックスexがいいかもしれない</title><link href="https://makietan.github.io/game/pokemon/2024/11/15/report.html" rel="alternate" type="text/html" title="ニャース・ミュウツー壁型カメックスexがいいかもしれない" /><published>2024-11-15T00:00:00+09:00</published><updated>2024-11-15T00:00:00+09:00</updated><id>https://makietan.github.io/game/pokemon/2024/11/15/report</id><content type="html" xml:base="https://makietan.github.io/game/pokemon/2024/11/15/report.html"><![CDATA[<p>ニャースで底にあるかメール・カメックスを早めに引き、ミュウツー壁で耐えつつカメックスexで殴るだけ。</p>
-
-<p>最近はベンチを殴ってくるのが結構しんどい。</p>
-
-<p>どうすりゃいいんだろうな。</p>]]></content><author><name>makietan</name></author><category term="game" /><category term="pokemon" /><summary type="html"><![CDATA[ニャースで底にあるかメール・カメックスを早めに引き、ミュウツー壁で耐えつつカメックスexで殴るだけ。]]></summary></entry></feed>
+<p>昔の職場の近くの青山にあった薬配るしか脳がない病院みたいなのに遭遇してしまうと最悪なのでどうにかしたいところだ。</p>]]></content><author><name>makietan</name></author><category term="health" /><summary type="html"><![CDATA[半年前からなんか違和感があったのだが、 新橋にろくな内科がないのでどうすればいいのか迷っている。]]></summary></entry></feed>
