@@ -1,4 +1,18 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2024-12-22T12:26:07+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">ふるさと納税の焼肉用ハラミで屑肉が入ってると面倒</title><link href="https://makietan.github.io/gourmet/2024/12/22/report.html" rel="alternate" type="text/html" title="ふるさと納税の焼肉用ハラミで屑肉が入ってると面倒" /><published>2024-12-22T00:00:00+09:00</published><updated>2024-12-22T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2024/12/22/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2024/12/22/report.html"><![CDATA[<p>今日はたまたま屑肉が多いものにヒットしてしまった。</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2024-12-23T12:24:57+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">久々に「咲-Saki-」を観たけど結構面白い</title><link href="https://makietan.github.io/otaku/2024/12/23/report.html" rel="alternate" type="text/html" title="久々に「咲-Saki-」を観たけど結構面白い" /><published>2024-12-23T00:00:00+09:00</published><updated>2024-12-23T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2024/12/23/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2024/12/23/report.html"><![CDATA[<p>これ2009年の作品なんだぜ…。</p>
+
+<p>15年も前か…。</p>
+
+<p>マジか…。</p>
+
+<p>阿知賀とかはアニメ化したけど続編はないんだよ。</p>
+
+<p>そろそろ欲しいけど原作が普通に続いてるから仕方ないね。</p>
+
+<p>完結してからガッツリとやってくれたらいいな。</p>
+
+<p>15年も経過しているし、いない声優とかもいるだろうから再アニメ化する場合はどうなるか気になるところである。</p>
+
+<p>それでも続編は観てみたい。</p>]]></content><author><name>makietan</name></author><category term="otaku" /><summary type="html"><![CDATA[これ2009年の作品なんだぜ…。]]></summary></entry><entry><title type="html">ふるさと納税の焼肉用ハラミで屑肉が入ってると面倒</title><link href="https://makietan.github.io/gourmet/2024/12/22/report.html" rel="alternate" type="text/html" title="ふるさと納税の焼肉用ハラミで屑肉が入ってると面倒" /><published>2024-12-22T00:00:00+09:00</published><updated>2024-12-22T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2024/12/22/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2024/12/22/report.html"><![CDATA[<p>今日はたまたま屑肉が多いものにヒットしてしまった。</p>
 
 <p>まぁ別に貰い物なのでいいんだけど多少は傷つくので文句を並べてみる。</p>]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[今日はたまたま屑肉が多いものにヒットしてしまった。]]></summary></entry><entry><title type="html">上坂すみれ生誕祭2024</title><link href="https://makietan.github.io/otaku/2024/12/19/report.html" rel="alternate" type="text/html" title="上坂すみれ生誕祭2024" /><published>2024-12-19T00:00:00+09:00</published><updated>2024-12-19T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2024/12/19/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2024/12/19/report.html"><![CDATA[<p>もう33歳かー。</p>
 
@@ -213,7 +227,4 @@ gem install solargraph
       <span class="s">echo "date=$(date +'%Y-%m-%d')" &gt;&gt; "$GITHUB_OUTPUT"</span>
 </code></pre></div></div>
 
-<p>上記を他から参照する場合は、<code class="language-plaintext highlighter-rouge">steps.date.outputs.date</code> となる。</p>]]></content><author><name>makietan</name></author><category term="tech" /><category term="github" /><summary type="html"><![CDATA[結論]]></summary></entry><entry><title type="html">左胸が痛いことがあるので通院したほうが良さそうだ</title><link href="https://makietan.github.io/health/2024/11/24/report.html" rel="alternate" type="text/html" title="左胸が痛いことがあるので通院したほうが良さそうだ" /><published>2024-11-24T00:00:00+09:00</published><updated>2024-11-24T00:00:00+09:00</updated><id>https://makietan.github.io/health/2024/11/24/report</id><content type="html" xml:base="https://makietan.github.io/health/2024/11/24/report.html"><![CDATA[<p>半年前からなんか違和感があったのだが、
-新橋にろくな内科がないのでどうすればいいのか迷っている。</p>
-
-<p>昔の職場の近くの青山にあった薬配るしか脳がない病院みたいなのに遭遇してしまうと最悪なのでどうにかしたいところだ。</p>]]></content><author><name>makietan</name></author><category term="health" /><summary type="html"><![CDATA[半年前からなんか違和感があったのだが、 新橋にろくな内科がないのでどうすればいいのか迷っている。]]></summary></entry></feed>
+<p>上記を他から参照する場合は、<code class="language-plaintext highlighter-rouge">steps.date.outputs.date</code> となる。</p>]]></content><author><name>makietan</name></author><category term="tech" /><category term="github" /><summary type="html"><![CDATA[結論]]></summary></entry></feed>
