@@ -1,4 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2024-12-30T12:25:20+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">しゃべりんが終わってしまった</title><link href="https://makietan.github.io/otaku/2024/12/26/report.html" rel="alternate" type="text/html" title="しゃべりんが終わってしまった" /><published>2024-12-26T00:00:00+09:00</published><updated>2024-12-26T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2024/12/26/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2024/12/26/report.html"><![CDATA[<p>4年9ヶ月お疲れ様でした。</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2024-12-31T12:23:09+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">なんとも言えない1年でした</title><link href="https://makietan.github.io/japan/2024/12/31/report.html" rel="alternate" type="text/html" title="なんとも言えない1年でした" /><published>2024-12-31T00:00:00+09:00</published><updated>2024-12-31T00:00:00+09:00</updated><id>https://makietan.github.io/japan/2024/12/31/report</id><content type="html" xml:base="https://makietan.github.io/japan/2024/12/31/report.html"><![CDATA[<p>いろいろあったけど金銭的にちょいとハマったね。</p>
+
+<p>特にスワップポイントで結構痛い目をみた。</p>
+
+<p>FXの仕様変更でもそこそこの痛い目をみたので来年はどうにかしたいと思う。</p>]]></content><author><name>makietan</name></author><category term="japan" /><summary type="html"><![CDATA[いろいろあったけど金銭的にちょいとハマったね。]]></summary></entry><entry><title type="html">しゃべりんが終わってしまった</title><link href="https://makietan.github.io/otaku/2024/12/26/report.html" rel="alternate" type="text/html" title="しゃべりんが終わってしまった" /><published>2024-12-26T00:00:00+09:00</published><updated>2024-12-26T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2024/12/26/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2024/12/26/report.html"><![CDATA[<p>4年9ヶ月お疲れ様でした。</p>
 
 <p>おやすみっみ。</p>
 
@@ -101,22 +105,4 @@
 gem install solargraph
 </code></pre></div></div>
 
-<p>あとは rubocop とかも設定するといい感じになる</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[qiita.com 【VSCode】Rubyでコードジャンプする方法 #Ruby - Qiita ✅ はじめに本投稿では、VSCodeでRubyのコードジャンプを提供してくれる拡張機能の導入方法を解説してます。対象者VSCodeでRubyの開発を行っていて、JSなどと同様にコードジャンプし…]]></summary></entry><entry><title type="html">「クレジット・ガイダンス」が提供開始したらしい</title><link href="https://makietan.github.io/credit/2024/11/29/report.html" rel="alternate" type="text/html" title="「クレジット・ガイダンス」が提供開始したらしい" /><published>2024-11-29T00:00:00+09:00</published><updated>2024-11-29T00:00:00+09:00</updated><id>https://makietan.github.io/credit/2024/11/29/report</id><content type="html" xml:base="https://makietan.github.io/credit/2024/11/29/report.html"><![CDATA[<p>まぁ一般人が発行したところで金かかるしあんまりメリットはない。</p>
-
-<p>借金とかあると一応チェックしたりするといいのかな？</p>
-
-<div class="card">
-  <a href="https://www.cic.co.jp/mydata/online/index.html#application"></a>
-  <div class="card__header">
-    <a href="https://www.cic.co.jp/mydata/online/index.html#application">www.cic.co.jp</a>
-  </div>
-  <div class="card__image">
-    <img src="https://www.cic.co.jp/assets/img/ogp_210226.jpg" />
-  </div>
-  <div class="card__title">
-    <p>インターネットで開示する｜情報開示とは｜指定信用情報機関のCIC</p>
-  </div>
-  <div class="card__description">
-    <p>インターネット開示について紹介します。CICは信用情報の収集・管理・提供・開示を通じて、皆様のクレジットライフをサポートしています。</p>
-  </div>
-</div>]]></content><author><name>makietan</name></author><category term="credit" /><summary type="html"><![CDATA[まぁ一般人が発行したところで金かかるしあんまりメリットはない。]]></summary></entry></feed>
+<p>あとは rubocop とかも設定するといい感じになる</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[qiita.com 【VSCode】Rubyでコードジャンプする方法 #Ruby - Qiita ✅ はじめに本投稿では、VSCodeでRubyのコードジャンプを提供してくれる拡張機能の導入方法を解説してます。対象者VSCodeでRubyの開発を行っていて、JSなどと同様にコードジャンプし…]]></summary></entry></feed>
