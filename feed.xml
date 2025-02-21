@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2025-02-21T12:24:19+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">マスターデュエルは詐欺パックを出すのをやめろ</title><link href="https://makietan.github.io/game/yugioh/2025/02/21/report.html" rel="alternate" type="text/html" title="マスターデュエルは詐欺パックを出すのをやめろ" /><published>2025-02-21T00:00:00+09:00</published><updated>2025-02-21T00:00:00+09:00</updated><id>https://makietan.github.io/game/yugioh/2025/02/21/report</id><content type="html" xml:base="https://makietan.github.io/game/yugioh/2025/02/21/report.html"><![CDATA[<p>本当に酷い。</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2025-02-21T13:07:47+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">マスターデュエルは詐欺パックを出すのをやめろ</title><link href="https://makietan.github.io/game/yugioh/2025/02/21/report.html" rel="alternate" type="text/html" title="マスターデュエルは詐欺パックを出すのをやめろ" /><published>2025-02-21T00:00:00+09:00</published><updated>2025-02-21T00:00:00+09:00</updated><id>https://makietan.github.io/game/yugioh/2025/02/21/report</id><content type="html" xml:base="https://makietan.github.io/game/yugioh/2025/02/21/report.html"><![CDATA[<p>本当に酷い。</p>
 
 <p>あまりにも陰湿である。</p>
 
@@ -252,22 +252,190 @@ https://www.mcdonalds.co.jp/products/7020/
 <p>エアプもいい加減にしろ。</p>
 
 <blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">お前消えるのか…<a href="https://twitter.com/hashtag/%E3%82%B9%E3%83%91%E3%83%AD%E3%83%9CDD?src=hash&amp;ref_src=twsrc%5Etfw">#スパロボDD</a> <a href="https://t.co/XpGRV1Qmhu">pic.twitter.com/XpGRV1Qmhu</a></p>&mdash; まきえたん🥦☘️ (@makietanX) <a href="https://twitter.com/makietanX/status/1889512764554748118?ref_src=twsrc%5Etfw">February 12, 2025</a></blockquote>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[本当に最悪。]]></summary></entry><entry><title type="html">はやし田 新橋店でクレジットカード使えました</title><link href="https://makietan.github.io/gourmet/2025/02/12/report2.html" rel="alternate" type="text/html" title="はやし田 新橋店でクレジットカード使えました" /><published>2025-02-12T00:00:00+09:00</published><updated>2025-02-12T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2025/02/12/report2</id><content type="html" xml:base="https://makietan.github.io/gourmet/2025/02/12/report2.html"><![CDATA[<div class="trim">
-  <div class="trim__item">
-    <a href="https://makietan.github.io/assets/images/2025-02-12-report2/17-50-54.png">
-      <img class="one" src="https://makietan.github.io/assets/thumbnail/2025-02-12-report2/17-50-54.png" />
-    </a>
-  </div>
-</div>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[本当に最悪。]]></summary></entry><entry><title type="html">「コンビネーション・アサルト（Sフリーダム&amp;amp;Iジャスティス）」の考察</title><link href="https://makietan.github.io/game/srwdd/2025/02/12/report.html" rel="alternate" type="text/html" title="「コンビネーション・アサルト（Sフリーダム&amp;amp;Iジャスティス）」の考察" /><published>2025-02-12T00:00:00+09:00</published><updated>2025-02-12T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2025/02/12/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2025/02/12/report.html"><![CDATA[<h2 id="ステータス">ステータス</h2>
 
-<p>すみぺのすこやか連邦イベントの物販と演目が始まる間に行ってきた。</p>
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">HP</th>
+      <th style="text-align: center">攻撃力</th>
+      <th style="text-align: center">防御力</th>
+      <th style="text-align: center">照準値</th>
+      <th style="text-align: center">運動性</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">2790</td>
+      <td style="text-align: center">3360</td>
+      <td style="text-align: center">2760</td>
+      <td style="text-align: center">279</td>
+      <td style="text-align: center">171</td>
+    </tr>
+  </tbody>
+</table>
 
-<p>クレジットカード使えました。</p>
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">威力</th>
+      <th style="text-align: center">命中</th>
+      <th style="text-align: center">射程</th>
+      <th style="text-align: center">ｱｸｼｮﾝ</th>
+      <th style="text-align: center">回数</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">250%</td>
+      <td style="text-align: center">60%</td>
+      <td style="text-align: center">1-4</td>
+      <td style="text-align: center">2</td>
+      <td style="text-align: center">5</td>
+    </tr>
+  </tbody>
+</table>
 
-<p>最初の時期は現金のみだったらしいが流石にもう使える。</p>
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">特性</th>
+      <th style="text-align: center">ﾚｱﾘﾃｨ</th>
+      <th style="text-align: center">LV</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">+5</td>
+      <td style="text-align: center">SSR+</td>
+      <td style="text-align: center">110</td>
+    </tr>
+  </tbody>
+</table>
 
-<p>すごくちょうどよかった。</p>
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">WEAK</th>
+      <th style="text-align: center">ﾌﾞﾚｲｸｹﾞｰｼﾞﾎﾟｲﾝﾄ</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">特殊</td>
+      <td style="text-align: center">5000</td>
+    </tr>
+  </tbody>
+</table>
 
-<p>他のメニューも食べたいので気が向いたら行くことにしよう。</p>
+<h2 id="mainウルトラコンパクトニュークリアリアクター">MAIN【ウルトラ・コンパクト・ニュークリア・リアクター】</h2>
 
-<p>新橋の混んでるラーメン屋に行くのは面倒なのでいい感じにずっと営業していて客入りが少ない時間帯を狙える店は良い。</p>]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[]]></summary></entry></feed>
+<ul>
+  <li>実弾・斬撃・打撃属性の被ダメージを 7000 軽減</li>
+  <li>コンビネーション・アサルト（S フリーダム&amp;I ジャスティス）発動前に「一念」発動</li>
+</ul>
+
+<h3 id="気力が-10-上昇する毎に">気力が 10 上昇する毎に</h3>
+
+<ul>
+  <li>攻撃力 7.5%</li>
+  <li>防御力 7.5%</li>
+  <li>照準値 7.5%</li>
+  <li>コンビネーション・アサルト（S フリーダム&amp;I ジャスティス）の必殺技威力 7.5%</li>
+</ul>
+
+<h3 id="ストライクフリーダムガンダム装備時">ストライクフリーダムガンダム装備時</h3>
+
+<ul>
+  <li>攻撃力 21%</li>
+  <li>防御力 21%</li>
+  <li>照準値 21%</li>
+  <li>敵ユニットのアクション時のみ、戦闘する毎にコンビネーション・アサルト（S フリーダム&amp;I ジャスティス）の必殺技アクション数を 1 進める（効果対象となる必殺技を発動した時のみ、その必殺技自身のアクション数は進めない）</li>
+</ul>
+
+<h4 id="アスランザラがいるとき">アスラン・ザラがいるとき</h4>
+
+<ul>
+  <li>攻撃力 35%</li>
+  <li>防御力 20%</li>
+  <li>照準値 35%</li>
+</ul>
+
+<h4 id="気力-140-以上">気力 140 以上</h4>
+
+<ul>
+  <li>与ダメージ 30%</li>
+  <li>命中率 40%</li>
+</ul>
+
+<h3 id="インフィニットジャスティスガンダム装備時">インフィニットジャスティスガンダム装備時</h3>
+
+<ul>
+  <li>スピードが 65 増加</li>
+  <li>HP 22.5%</li>
+  <li>攻撃力 22.5%</li>
+  <li>防御力 22.5%</li>
+  <li>照準値 22.5%</li>
+  <li>ブレイクゲージ減少量 100%</li>
+</ul>
+
+<h4 id="キラヤマトがいるとき">キラ・ヤマトがいるとき</h4>
+
+<ul>
+  <li>攻撃力 35%</li>
+  <li>防御力 35%</li>
+  <li>照準値 20%</li>
+</ul>
+
+<h4 id="気力-140-以上-1">気力 140 以上</h4>
+
+<ul>
+  <li>与ダメージ 40%</li>
+  <li>命中率 30%</li>
+  <li>被ダメージ -45%</li>
+</ul>
+
+<canvas id="chart-1" style="background-color: #fff"></canvas>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script>
+    // chart
+    const MAX_MINUS_DEFAULT_KIRYOKU_DIVIDED_BY_10 = (190 - 100) / 10;
+    const NUMBER_OF_BATTLES = 5;
+    const ctx1 = document.getElementById('chart-1');
+    new Chart(ctx1, {
+        type: 'radar',
+        data: {
+            labels: ["HP", "攻撃力", "防御力", "照準値", "運動性", "必殺技威力", "与ダメージ", "命中率"],
+            datasets: [
+                {
+                    label: "コンビネーション・アサルト（Sフリーダム）",
+                    data: [
+                       0, // HP
+                       21 + 35 + 7.5 * MAX_MINUS_DEFAULT_KIRYOKU_DIVIDED_BY_10, // 攻撃力
+                       21 + 20 + 7.5 * MAX_MINUS_DEFAULT_KIRYOKU_DIVIDED_BY_10, // 防御力
+                       21 + 35 + 7.5 * MAX_MINUS_DEFAULT_KIRYOKU_DIVIDED_BY_10, // 照準値
+                       0, // 運動性
+                       7.5, // 必殺技威力
+                       30, // 与ダメージ
+                       40 // 命中率
+                    ]
+                },
+                {
+                    label: "コンビネーション・アサルト（Iジャスティス）",
+                    data: [
+                        22.5, // HP
+                        22.5 + 35 + 7.5 + MAX_MINUS_DEFAULT_KIRYOKU_DIVIDED_BY_10, // 攻撃力
+                        22.5 + 35 + 7.5 + MAX_MINUS_DEFAULT_KIRYOKU_DIVIDED_BY_10, // 防御力
+                        22.5 + 20 + 7.5 + MAX_MINUS_DEFAULT_KIRYOKU_DIVIDED_BY_10, //　照準値
+                        0, // 運動性
+                        0, // 必殺技威力
+                        40, // 与ダメージ
+                        30 // 命中率
+                    ]
+                }
+            ]
+        }
+    });
+</script>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[ステータス]]></summary></entry></feed>
