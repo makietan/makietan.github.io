@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2025-03-09T13:45:38+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">小さなメダル集めに大回り乗車をする</title><link href="https://makietan.github.io/game/dqw/2025/03/09/report.html" rel="alternate" type="text/html" title="小さなメダル集めに大回り乗車をする" /><published>2025-03-09T00:00:00+09:00</published><updated>2025-03-09T00:00:00+09:00</updated><id>https://makietan.github.io/game/dqw/2025/03/09/report</id><content type="html" xml:base="https://makietan.github.io/game/dqw/2025/03/09/report.html"><![CDATA[<h2 id="結論">結論</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2025-03-09T13:59:36+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">小さなメダル集めに大回り乗車をする</title><link href="https://makietan.github.io/game/dqw/2025/03/09/report.html" rel="alternate" type="text/html" title="小さなメダル集めに大回り乗車をする" /><published>2025-03-09T00:00:00+09:00</published><updated>2025-03-09T00:00:00+09:00</updated><id>https://makietan.github.io/game/dqw/2025/03/09/report</id><content type="html" xml:base="https://makietan.github.io/game/dqw/2025/03/09/report.html"><![CDATA[<h2 id="結論">結論</h2>
 
-<p>■新橋    地下1番線発 
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>■新橋    地下1番線発 
 ｜ 　横須賀線(久里浜行)   14.9km   後方
 ｜ 　14:11-14:26［15分］
 ｜ 　483円（ 普通車 ）
@@ -9,7 +9,7 @@
 ｜ 　14:40-15:04［24分］
 ｜ 　 ↓ 
 ◇府中本町    4番線着・3番線発 ［乗換3分+待ち3分］
-｜ 　武蔵野線(東京行)   57.5km <br />
+｜ 　武蔵野線(東京行)   57.5km   
 ｜ 　15:10-16:13［63分］
 ｜ 　 ↓ 
 ■新松戸    4番線着・4番線発 
@@ -20,7 +20,8 @@
 ｜ 　京葉線快速(東京行)   26.0km   前・後
 ｜ 　16:45-17:11［26分］
 ｜ 　 ↓ 
-■東京    京葉4番線着</p>
+■東京    京葉4番線着 
+</code></pre></div></div>
 
 <p>これに決定。</p>
 
@@ -34,44 +35,45 @@
 
 <p>千葉方面はめっちゃ時間がかかるので八高線を狙う。</p>
 
-<p>■新橋    5番線発 
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>■新橋    5番線発 
 ｜ 　山手線東京方面行   3.2km   6・8・10号車
 ｜ 　14:00-14:06［6分］
 ｜ 　824円
 ◇神田（東京）    3番線着・6番線発 ［乗換3分+待ち0分］
-｜ 　中央線青梅特快(青梅行)   46.1km <br />
+｜ 　中央線青梅特快(青梅行)   46.1km   
 ｜ 　14:09-14:45［36分］
 ｜ 　 ↓ 
 ◇立川    6番線着・5番線発 ［乗換1分+待ち2分］
 ｜ 　中央線(高尾行)   ↓   中後
 ｜ 　14:48-14:58［10分］
 ｜ 　 ↓ 
-■八王子    4番線着</p>
+■八王子    4番線着 
+</code></pre></div></div>
 
 <p>ちなみに立川から拝島までも同じくらいなのでショートカットしようと思う。</p>
 
-<p>■新橋    5番線発 
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>■新橋    5番線発 
 ｜ 　山手線東京方面行   3.2km   6・8・10号車
 ｜ 　14:00-14:06［6分］
 ｜ 　824円
 ◇神田（東京）    3番線着・6番線発 ［乗換3分+待ち0分］
-｜ 　中央線青梅特快(青梅行)   36.2km <br />
+｜ 　中央線青梅特快(青梅行)   36.2km   
 ｜ 　14:09-14:45［36分］
 ｜ 　 ↓ 
 ◇立川 ≪降車不要≫     ［乗換0分+待ち1分］
-｜ 　青梅線(青梅行)   6.9km <br />
+｜ 　青梅線(青梅行)   6.9km   
 ｜ 　14:46-14:58［12分］
 ｜ 　 ↓ 
-■拝島        <br />
-｜ 　八高線(川越行)   82.1km <br />
+■拝島          
+｜ 　八高線(川越行)   82.1km   
 ｜ 　15:01-15:26［25分］
 ｜ 　1,694円
 ◇高麗川     ［乗換1分+待ち18分］
-｜ 　八高線(高崎行)   ↓ <br />
+｜ 　八高線(高崎行)   ↓   
 ｜ 　15:45-17:05［80分］
 ｜ 　 ↓ 
-■倉賀野   <br />
-｜ 　湘南新宿ライン(平塚行)   29.3km <br />
+■倉賀野     
+｜ 　湘南新宿ライン(平塚行)   29.3km   
 ｜ 　17:17-17:45［28分］
 ｜ 　1,980円（ 普通車 ）
 ◇籠原     ［乗換1分+待ち10分］
@@ -79,15 +81,16 @@
 ｜ 　17:56-19:15［79分］
 ｜ 　 ↓ （ 普通車 ）
 ◇東京 ≪降車不要≫     ［乗換0分+待ち1分］
-｜ 　東海道本線（東日本）(沼津行)   1.9km <br />
+｜ 　東海道本線（東日本）(沼津行)   1.9km   
 ｜ 　19:16-19:18［2分］
 ｜ 　 ↓ （ 普通車 ↓ ）
-■新橋    1番線着</p>
+■新橋    1番線着 
+</code></pre></div></div>
 
 <p>ただこれだと神田・東京駅でバッティングしてしまう。
 なので、行きを品川経由にする。</p>
 
-<p>■新橋    4番線発 
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>■新橋    4番線発 
 ｜ 　山手線品川方面行   15.5km   1・5・6・10号車
 ｜ 　14:00-14:29［29分］
 ｜ 　1,980円
@@ -96,26 +99,27 @@
 ｜ 　14:32-15:07［35分］
 ｜ 　 ↓ 
 ◇立川 ≪降車不要≫     ［乗換0分+待ち1分］
-｜ 　青梅線(青梅行)   6.9km <br />
+｜ 　青梅線(青梅行)   6.9km   
 ｜ 　15:08-15:21［13分］
 ｜ 　 ↓ 
 ◇拝島     ［乗換3分+待ち7分］
-｜ 　八高線(川越行)   82.1km <br />
+｜ 　八高線(川越行)   82.1km   
 ｜ 　15:31-15:56［25分］
 ｜ 　 ↓ 
 ◇高麗川     ［乗換1分+待ち101分］
-｜ 　八高線(高崎行)   ↓ <br />
+｜ 　八高線(高崎行)   ↓   
 ｜ 　17:38-19:07［89分］
 ｜ 　 ↓ 
-■倉賀野   <br />
+■倉賀野     
 ｜ 　高崎線(伊東行)   100.6km   中央
 ｜ 　19:10-21:00［110分］
 ｜ 　1,980円（ 普通車 ）
 ◇東京 ≪降車不要≫     ［乗換0分+待ち2分］
-｜ 　東海道本線（東日本）(伊東行)   1.9km <br />
+｜ 　東海道本線（東日本）(伊東行)   1.9km   
 ｜ 　21:02-21:05［3分］
 ｜ 　 ↓ （ 普通車 ↓ ）
-■新橋    1番線着</p>
+■新橋    1番線着
+</code></pre></div></div>
 
 <p>いやー7時間コース…。
 バッテリーがもたない。</p>
