@@ -1,4 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2025-03-13T12:31:58+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">イワシのオリーブ煮を作った（葉っぱ類はなし）</title><link href="https://makietan.github.io/gourmet/2025/03/13/report.html" rel="alternate" type="text/html" title="イワシのオリーブ煮を作った（葉っぱ類はなし）" /><published>2025-03-13T00:00:00+09:00</published><updated>2025-03-13T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2025/03/13/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2025/03/13/report.html"><![CDATA[<div class="card">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2025-03-14T12:29:38+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">マジギレしている人への対応が上手いすみぺ</title><link href="https://makietan.github.io/otaku/2025/03/14/report.html" rel="alternate" type="text/html" title="マジギレしている人への対応が上手いすみぺ" /><published>2025-03-14T00:00:00+09:00</published><updated>2025-03-14T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2025/03/14/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2025/03/14/report.html"><![CDATA[<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">返しがうまいすみぺ<a href="https://twitter.com/ABEMA?ref_src=twsrc%5Etfw">@ABEMA</a> で視聴中<br />▷ <a href="https://t.co/OGx5uJ0WjV">https://t.co/OGx5uJ0WjV</a><a href="https://twitter.com/hashtag/%E3%81%99%E3%81%BF%E3%83%9E%E3%83%AA%E3%81%A8%E7%81%AB%E6%9B%9C%E6%97%A5?src=hash&amp;ref_src=twsrc%5Etfw">#すみマリと火曜日</a> <a href="https://t.co/mjMyGUNmFx">pic.twitter.com/mjMyGUNmFx</a></p>&mdash; まきえたん🥦☘️ (@makietanX) <a href="https://twitter.com/makietanX/status/1899476065657160149?ref_src=twsrc%5Etfw">March 11, 2025</a></blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<p>ガチでキレられたらこれでいくと良さそうだ。</p>]]></content><author><name>makietan</name></author><category term="otaku" /><summary type="html"><![CDATA[返しがうまいすみぺ@ABEMA で視聴中▷ https://t.co/OGx5uJ0WjV#すみマリと火曜日 pic.twitter.com/mjMyGUNmFx&mdash; まきえたん🥦☘️ (@makietanX) March 11, 2025]]></summary></entry><entry><title type="html">イワシのオリーブ煮を作った（葉っぱ類はなし）</title><link href="https://makietan.github.io/gourmet/2025/03/13/report.html" rel="alternate" type="text/html" title="イワシのオリーブ煮を作った（葉っぱ類はなし）" /><published>2025-03-13T00:00:00+09:00</published><updated>2025-03-13T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2025/03/13/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2025/03/13/report.html"><![CDATA[<div class="card">
   <a href="https://dancyu.jp/recipe/2023_00007579.html"></a>
   <div class="card__header">
     <a href="https://dancyu.jp/recipe/2023_00007579.html">dancyu.jp</a>
@@ -390,104 +393,4 @@
   <div class="card__description">
     <p>「【キャンプ飯】ゆるキャン△スープパスタ」の作り方。キャンプでパスタ？煮汁はどうする？ 湯切り一切必要なし！ 材料: パスタ、オリーブオイル、にんにくチューブ</p>
   </div>
-</div>]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[余ってた食材 + キャンプで検索すると手間を省ける料理が出てくる。]]></summary></entry><entry><title type="html">Node.js で SQLite3 のデータのユニーク化をした</title><link href="https://makietan.github.io/tech/2025/03/04/report.html" rel="alternate" type="text/html" title="Node.js で SQLite3 のデータのユニーク化をした" /><published>2025-03-04T00:00:00+09:00</published><updated>2025-03-04T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2025/03/04/report</id><content type="html" xml:base="https://makietan.github.io/tech/2025/03/04/report.html"><![CDATA[<p>データをいろいろ整理したくて昔入ってしまった重複データを排除していた。
-作成日やらをちゃんと管理するのは重要だな。
-そして、 <code class="language-plaintext highlighter-rouge">rowid</code> に助けられた。
-普通にリクエストしたら取得できてないのは罠すぎるよ。</p>
-
-<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">path</span> <span class="o">=</span> <span class="nf">require</span><span class="p">(</span><span class="dl">'</span><span class="s1">path</span><span class="dl">'</span><span class="p">);</span>
-<span class="kd">const</span> <span class="nx">sqlite3</span> <span class="o">=</span> <span class="nf">require</span><span class="p">(</span><span class="dl">'</span><span class="s1">sqlite3</span><span class="dl">'</span><span class="p">).</span><span class="nf">verbose</span><span class="p">();</span>
-
-<span class="kd">class</span> <span class="nc">DataUniqueService</span> <span class="p">{</span>
-
-    <span class="nf">searchSameData</span><span class="p">(</span><span class="nx">db</span><span class="p">,</span> <span class="nx">row</span><span class="p">)</span> <span class="p">{</span>
-        <span class="k">return</span> <span class="k">new</span> <span class="nc">Promise</span><span class="p">((</span><span class="nx">resolve</span><span class="p">,</span> <span class="nx">reject</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
-            <span class="kd">const</span> <span class="nx">ALL_QUERY</span> <span class="o">=</span> <span class="s2">`SELECT rowid FROM mediafile WHERE url = ? AND title = ? AND created_at = ?`</span><span class="p">;</span>
-            <span class="nx">db</span><span class="p">.</span><span class="nf">all</span><span class="p">(</span><span class="nx">ALL_QUERY</span><span class="p">,</span> <span class="p">[</span><span class="nx">row</span><span class="p">.</span><span class="nx">url</span><span class="p">,</span> <span class="nx">row</span><span class="p">.</span><span class="nx">title</span><span class="p">,</span> <span class="nx">row</span><span class="p">.</span><span class="nx">created_at</span><span class="p">],</span> <span class="p">(</span><span class="nx">error</span><span class="p">,</span> <span class="nx">rows</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
-                <span class="nf">if </span><span class="p">(</span><span class="nx">error</span><span class="p">)</span> <span class="p">{</span>
-                    <span class="nf">reject</span><span class="p">(</span><span class="nx">error</span><span class="p">);</span>
-                <span class="p">}</span>
-                <span class="nf">resolve</span><span class="p">(</span><span class="nx">rows</span><span class="p">);</span>
-            <span class="p">});</span>
-        <span class="p">});</span>
-    <span class="p">}</span>
-
-    <span class="nf">deleteByRowid</span><span class="p">(</span><span class="nx">db</span><span class="p">,</span> <span class="nx">rowid</span><span class="p">)</span> <span class="p">{</span>
-        <span class="nx">db</span><span class="p">.</span><span class="nf">run</span><span class="p">(</span><span class="s2">`DELETE FROM mediafile WHERE rowid = </span><span class="p">${</span><span class="nx">rowid</span><span class="p">}</span><span class="s2">`</span><span class="p">);</span>
-    <span class="p">}</span>
-
-    <span class="nf">deleteRows</span><span class="p">(</span><span class="nx">db</span><span class="p">,</span> <span class="nx">rows</span><span class="p">,</span> <span class="nx">url</span><span class="p">,</span> <span class="nx">title</span><span class="p">)</span> <span class="p">{</span>
-        <span class="nf">for </span><span class="p">(</span><span class="kd">const</span> <span class="nx">r</span> <span class="k">of</span> <span class="nx">rows</span><span class="p">)</span> <span class="p">{</span>
-            <span class="k">this</span><span class="p">.</span><span class="nf">deleteByRowid</span><span class="p">(</span><span class="nx">db</span><span class="p">,</span> <span class="nx">r</span><span class="p">.</span><span class="nx">rowid</span><span class="p">);</span>
-            <span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="s2">`Deleted rowid: `</span><span class="p">,</span> <span class="nx">r</span><span class="p">.</span><span class="nx">rowid</span><span class="p">,</span> <span class="nx">url</span><span class="p">,</span> <span class="nx">title</span><span class="p">);</span>
-        <span class="p">}</span>
-    <span class="p">}</span>
-
-    <span class="nf">run</span><span class="p">(</span><span class="nx">db</span><span class="p">)</span> <span class="p">{</span>
-        <span class="k">return</span> <span class="k">new</span> <span class="nc">Promise</span><span class="p">((</span><span class="nx">resolve</span><span class="p">,</span> <span class="nx">reject</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
-            <span class="nx">db</span><span class="p">.</span><span class="nf">serialize</span><span class="p">(()</span> <span class="o">=&gt;</span> <span class="p">{</span>
-                <span class="nx">db</span><span class="p">.</span><span class="nf">each</span><span class="p">(</span><span class="dl">'</span><span class="s1">SELECT * FROM mediafile</span><span class="dl">'</span><span class="p">,</span> <span class="p">(</span><span class="nx">error</span><span class="p">,</span> <span class="nx">row</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>         
-                    <span class="nf">if </span><span class="p">(</span><span class="nx">error</span><span class="p">)</span> <span class="p">{</span>
-                        <span class="nf">reject</span><span class="p">(</span><span class="nx">err</span><span class="p">);</span>
-                    <span class="p">}</span>
-                    <span class="k">this</span><span class="p">.</span><span class="nf">searchSameData</span><span class="p">(</span><span class="nx">db</span><span class="p">,</span> <span class="nx">row</span><span class="p">).</span><span class="nf">then</span><span class="p">((</span><span class="nx">rows</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
-                        <span class="nf">if </span><span class="p">(</span><span class="nx">rows</span><span class="p">.</span><span class="nx">length</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
-                            <span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="dl">'</span><span class="s1">Duplicate data found</span><span class="dl">'</span><span class="p">);</span>
-                            <span class="nx">rows</span><span class="p">.</span><span class="nf">sort</span><span class="p">((</span><span class="nx">a</span><span class="p">,</span> <span class="nx">b</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="nx">a</span><span class="p">.</span><span class="nx">rowid</span> <span class="o">-</span> <span class="nx">b</span><span class="p">.</span><span class="nx">rowid</span><span class="p">);</span>
-                            <span class="nx">rows</span><span class="p">.</span><span class="nf">shift</span><span class="p">();</span>
-                            <span class="k">this</span><span class="p">.</span><span class="nf">deleteRows</span><span class="p">(</span><span class="nx">db</span><span class="p">,</span> <span class="nx">rows</span><span class="p">,</span> <span class="nx">row</span><span class="p">.</span><span class="nx">url</span><span class="p">,</span> <span class="nx">row</span><span class="p">.</span><span class="nx">title</span><span class="p">);</span>
-                        <span class="p">}</span>
-                    <span class="p">});</span>
-                <span class="p">},</span> <span class="p">(</span><span class="nx">error</span><span class="p">,</span> <span class="nx">count</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
-                    <span class="nf">if </span><span class="p">(</span><span class="nx">error</span><span class="p">)</span> <span class="p">{</span>
-                        <span class="nf">reject</span><span class="p">(</span><span class="nx">error</span><span class="p">);</span>
-                    <span class="p">}</span>
-                    <span class="nf">resolve</span><span class="p">();</span>
-                <span class="p">});</span>
-            <span class="p">});</span>
-        <span class="p">});</span>
-    <span class="p">}</span>
-<span class="p">};</span>
-
-<span class="kd">class</span> <span class="nc">Db</span><span class="p">()</span> <span class="p">{</span>
-    <span class="nf">if </span><span class="p">(</span><span class="nx">dbpath</span><span class="p">)</span> <span class="p">{</span>
-      <span class="kd">const</span> <span class="nx">absolutePath</span> <span class="o">=</span> <span class="nx">path</span><span class="p">.</span><span class="nf">resolve</span><span class="p">(</span><span class="nx">dbpath</span><span class="p">);</span>
-      <span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="s2">`DBPATH: </span><span class="p">${</span><span class="nx">absolutePath</span><span class="p">}</span><span class="s2">`</span><span class="p">);</span>
-      <span class="k">this</span><span class="p">.</span><span class="nx">db</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">sqlite3</span><span class="p">.</span><span class="nc">Database</span><span class="p">(</span><span class="nx">absolutePath</span><span class="p">);</span>
-    <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
-      <span class="k">this</span><span class="p">.</span><span class="nx">db</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">sqlite3</span><span class="p">.</span><span class="nc">Database</span><span class="p">(</span><span class="nx">path</span><span class="p">.</span><span class="nf">join</span><span class="p">(</span><span class="nx">process</span><span class="p">.</span><span class="nf">cwd</span><span class="p">(),</span> <span class="dl">'</span><span class="s1">mediafile.sqlite</span><span class="dl">'</span><span class="p">));</span>
-      <span class="k">this</span><span class="p">.</span><span class="nx">db</span><span class="p">.</span><span class="nf">serialize</span><span class="p">(()</span> <span class="o">=&gt;</span> <span class="p">{</span>
-        <span class="k">this</span><span class="p">.</span><span class="nx">db</span><span class="p">.</span><span class="nf">run</span><span class="p">(</span><span class="dl">"</span><span class="s2">CREATE TABLE IF NOT EXISTS mediafile (title TEXT, url TEXT, created_at INTEGER)</span><span class="dl">"</span><span class="p">);</span>
-      <span class="p">});</span>
-    <span class="p">}</span>
-    <span class="k">this</span><span class="p">.</span><span class="nx">db</span><span class="p">.</span><span class="nf">serialize</span><span class="p">(()</span> <span class="o">=&gt;</span> <span class="p">{</span>
-      <span class="k">this</span><span class="p">.</span><span class="nx">db</span><span class="p">.</span><span class="nf">run</span><span class="p">(</span><span class="dl">"</span><span class="s2">CREATE TABLE IF NOT EXISTS version (version INTEGER UNIQUE, created_at INTEGER)</span><span class="dl">"</span><span class="p">);</span>
-    <span class="p">});</span>
-<span class="p">}</span>
-
-<span class="kd">class</span> <span class="nc">DataUniqueController</span> <span class="p">{</span>
-
-    <span class="nf">constructor</span><span class="p">(</span><span class="nx">dbPath</span><span class="p">)</span> <span class="p">{</span>
-        <span class="k">this</span><span class="p">.</span><span class="nx">db</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">Db</span><span class="p">(</span><span class="nx">dbPath</span><span class="p">).</span><span class="nx">db</span><span class="p">;</span>
-        <span class="k">this</span><span class="p">.</span><span class="nx">service</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">DataUniqueService</span><span class="p">();</span>
-    <span class="p">}</span>
-
-    <span class="k">async</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
-        <span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="dl">'</span><span class="s1">DataUniqueController start</span><span class="dl">'</span><span class="p">);</span>
-        <span class="k">await</span> <span class="k">this</span><span class="p">.</span><span class="nx">service</span><span class="p">.</span><span class="nf">run</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">db</span><span class="p">);</span>
-        <span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="dl">'</span><span class="s1">DataUniqueController end</span><span class="dl">'</span><span class="p">);</span>
-    <span class="p">}</span>
-<span class="p">};</span>
-<span class="nx">module</span><span class="p">.</span><span class="nx">exports</span> <span class="o">=</span> <span class="nx">DataUniqueController</span><span class="p">;</span>
-
-<span class="nf">if </span><span class="p">(</span><span class="nx">require</span><span class="p">.</span><span class="nx">main</span> <span class="o">===</span> <span class="nx">module</span><span class="p">)</span> <span class="p">(</span><span class="nf">async </span><span class="p">()</span> <span class="o">=&gt;</span> <span class="p">{</span>
-    <span class="nf">if </span><span class="p">(</span><span class="nx">process</span><span class="p">.</span><span class="nx">argv</span><span class="p">.</span><span class="nx">length</span> <span class="o">&lt;</span> <span class="mi">3</span><span class="p">)</span> <span class="p">{</span>
-        <span class="kd">const</span> <span class="nx">controller</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">DataUniqueController</span><span class="p">();</span>
-        <span class="k">await</span> <span class="nx">controller</span><span class="p">.</span><span class="nf">main</span><span class="p">();</span>
-    <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
-        <span class="kd">const</span> <span class="nx">dbPath</span> <span class="o">=</span> <span class="nx">process</span><span class="p">.</span><span class="nx">argv</span><span class="p">[</span><span class="mi">2</span><span class="p">];</span>
-        <span class="kd">const</span> <span class="nx">controller</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">DataUniqueController</span><span class="p">(</span><span class="nx">dbPath</span><span class="p">);</span>
-        <span class="k">await</span> <span class="nx">controller</span><span class="p">.</span><span class="nf">main</span><span class="p">();</span>
-    <span class="p">}</span>
-<span class="p">})();</span>
-</code></pre></div></div>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[データをいろいろ整理したくて昔入ってしまった重複データを排除していた。 作成日やらをちゃんと管理するのは重要だな。 そして、 rowid に助けられた。 普通にリクエストしたら取得できてないのは罠すぎるよ。]]></summary></entry></feed>
+</div>]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[余ってた食材 + キャンプで検索すると手間を省ける料理が出てくる。]]></summary></entry></feed>
