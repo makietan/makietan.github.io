@@ -1,4 +1,396 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2025-03-29T04:28:04+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">「ラムダ・ストライク（ARX-8）」の考察</title><link href="https://makietan.github.io/game/srwdd/2025/03/28/report.html" rel="alternate" type="text/html" title="「ラムダ・ストライク（ARX-8）」の考察" /><published>2025-03-28T00:00:00+09:00</published><updated>2025-03-28T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2025/03/28/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2025/03/28/report.html"><![CDATA[<h2 id="ステータス">ステータス</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2025-04-02T12:36:16+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">制圧戦最終エリア拠点4 ボス「インベーダー」</title><link href="https://makietan.github.io/game/srwdd/2025/04/02/report.html" rel="alternate" type="text/html" title="制圧戦最終エリア拠点4 ボス「インベーダー」" /><published>2025-04-02T00:00:00+09:00</published><updated>2025-04-02T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2025/04/02/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2025/04/02/report.html"><![CDATA[<h2 id="個人的なメモ">個人的なメモ</h2>
+
+<ul>
+  <li>芋虫</li>
+  <li>照準値がアホ</li>
+  <li>気力を上げきれなかった蜃気楼・ソウルゲインは豆腐のように崩れた</li>
+  <li>手持ち
+    <ul>
+      <li>運動性: 蜃気楼 &gt; ソウルゲイン &gt; マジンエンペラーG &gt; グリッドマン</li>
+    </ul>
+  </li>
+  <li>攻撃力がそこまで高くないので多分マジンエンペラーGより運動性が低い機体を揃えて一気に倒すのがよさそう</li>
+  <li>魂とか必須</li>
+  <li>なんとかして運動性の高い壁を準備する</li>
+</ul>
+
+<h2 id="インベーダー">インベーダー</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">タイプ</th>
+      <th style="text-align: center">弱点</th>
+      <th style="text-align: center">SIZE</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">攻撃&amp;命中</td>
+      <td style="text-align: center">特殊</td>
+      <td style="text-align: center">3L</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">気力</th>
+      <th style="text-align: center">HP</th>
+      <th style="text-align: center">攻撃力</th>
+      <th style="text-align: center">防御力</th>
+      <th style="text-align: center">照準値</th>
+      <th style="text-align: center">運動性</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">200</td>
+      <td style="text-align: center">650000</td>
+      <td style="text-align: center">54145</td>
+      <td style="text-align: center">89180</td>
+      <td style="text-align: center">18746</td>
+      <td style="text-align: center">1476</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">移動</th>
+      <th style="text-align: center">スピード</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">3</td>
+      <td style="text-align: center">580</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="特徴">特徴</h3>
+<ul>
+  <li><span style="color:deepskyblue;">ブレイク時、防御力が減少する</span></li>
+  <li>ブレイクゲージ復帰が早い</li>
+  <li>運動せの高いユニットを狙う</li>
+  <li>HPが減少すると精神コマンド「気合」「屈強」「不屈」「鉄壁」を使用する</li>
+</ul>
+
+<h3 id="main">MAIN</h3>
+<ul>
+  <li>射程が1増加する</li>
+  <li>気力上限が50増加する</li>
+  <li>気力が10上昇する毎に、攻撃力が7%、防御力・照準値が18%増加する(上限200/攻撃力70%・防御力・照準値180%)
+    <ul>
+      <li>→ アホか</li>
+    </ul>
+  </li>
+  <li>気力120以上のとき、被ダメージを60%軽減する</li>
+  <li>周囲4〜9マス内の敵ユニットの攻撃力を50%減少させる
+    <ul>
+      <li><span style="color:deepskyblue;">→ 1〜3マス内に近づく</span></li>
+    </ul>
+  </li>
+  <li>戦闘時、相手の被ダメージ軽減効果の上限値を40%に抑える</li>
+  <li>HP50%以下の時、アクション開始時にHPを15%回復する
+    <ul>
+      <li>→ 1回につきHP97500回復（最終エリア）</li>
+      <li>→ HP325000より下げずに一気に倒す</li>
+    </ul>
+  </li>
+  <li>ブレイク状態でないとき、被ダメージを70%軽減し、新たに受ける弱体効果を無力化する</li>
+  <li>自分のアクション時に2回行動する</li>
+  <li>自分のアクション開始時に気力が8上昇し、被ダメージ時の気力上限量が3増加する</li>
+</ul>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[個人的なメモ]]></summary></entry><entry><title type="html">NHKのネット配信が「必須業務」になってしまった…</title><link href="https://makietan.github.io/japan/2025/04/01/report.html" rel="alternate" type="text/html" title="NHKのネット配信が「必須業務」になってしまった…" /><published>2025-04-01T00:00:00+09:00</published><updated>2025-04-01T00:00:00+09:00</updated><id>https://makietan.github.io/japan/2025/04/01/report</id><content type="html" xml:base="https://makietan.github.io/japan/2025/04/01/report.html"><![CDATA[<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">【2025年春以降】NHKネット配信「必須業務」に 改正放送法成立へ、視聴で受信料<a href="https://t.co/wWSxUExj68">https://t.co/wWSxUExj68</a><br /><br />改正放送法が17日午後、参院本会議で可決・成立する。これまでは「任意業務」の扱いだった。受信料を支払っていない人でも、スマホなどから配信を視聴した場合は受信料を求めるという。</p>&mdash; ライブドアニュース (@livedoornews) <a href="https://twitter.com/livedoornews/status/1791255199539245260?ref_src=twsrc%5Etfw">May 16, 2024</a></blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<p>国税を貪られる理由づくりである。</p>
+
+<p>ただでさえ受信料なるぼったくり商法をしているにもかかわらず何利権作ってんだよ。</p>
+
+<p>やろうと思えば NHK が広告出して誤クリックさせて、閲覧した瞬間に受信料請求できるだろこれ。</p>]]></content><author><name>makietan</name></author><category term="japan" /><summary type="html"><![CDATA[【2025年春以降】NHKネット配信「必須業務」に 改正放送法成立へ、視聴で受信料https://t.co/wWSxUExj68改正放送法が17日午後、参院本会議で可決・成立する。これまでは「任意業務」の扱いだった。受信料を支払っていない人でも、スマホなどから配信を視聴した場合は受信料を求めるという。&mdash; ライブドアニュース (@livedoornews) May 16, 2024]]></summary></entry><entry><title type="html">制圧戦最終エリア拠点3 ボス「アルギュレ（ブラド）」と「ヘラス（フェミーアン）」</title><link href="https://makietan.github.io/game/srwdd/2025/03/31/report.html" rel="alternate" type="text/html" title="制圧戦最終エリア拠点3 ボス「アルギュレ（ブラド）」と「ヘラス（フェミーアン）」" /><published>2025-03-31T00:00:00+09:00</published><updated>2025-03-31T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2025/03/31/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2025/03/31/report.html"><![CDATA[<h2 id="個人的なメモ">個人的なメモ</h2>
+
+<ul>
+  <li>SIZE S
+    <ul>
+      <li>ブレイクゲージ</li>
+    </ul>
+  </li>
+  <li>SIZE M
+    <ul>
+      <li>ヴァルヴレイヴⅥ、マジンエンペラーG</li>
+    </ul>
+  </li>
+  <li>SIZE L
+    <ul>
+      <li>グリッドマン</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="アルギュレ">アルギュレ</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">タイプ</th>
+      <th style="text-align: center">弱点</th>
+      <th style="text-align: center">SIZE</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">バランス</td>
+      <td style="text-align: center">打撃</td>
+      <td style="text-align: center">M</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">気力</th>
+      <th style="text-align: center">HP</th>
+      <th style="text-align: center">攻撃力</th>
+      <th style="text-align: center">防御力</th>
+      <th style="text-align: center">照準値</th>
+      <th style="text-align: center">運動性</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">150</td>
+      <td style="text-align: center">371300</td>
+      <td style="text-align: center">51972</td>
+      <td style="text-align: center">47203</td>
+      <td style="text-align: center">8512</td>
+      <td style="text-align: center">1398</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">移動</th>
+      <th style="text-align: center">スピード</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">3</td>
+      <td style="text-align: center">640</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="特徴">特徴</h3>
+<ul>
+  <li><span style="color:deepskyblue;">ブレイク時、防御力が減少する</span></li>
+  <li>ブレイクゲージ復帰が早い</li>
+  <li>照準値の高いユニットを狙う</li>
+  <li>HPが減少すると精神コマンド「気合」「鉄壁」「激闘」「忍耐」を使用する</li>
+</ul>
+
+<h3 id="main">MAIN</h3>
+<ul>
+  <li>戦闘回数に応じて、攻撃力・防御力・照準値が8%増加する（最大64%/8回）</li>
+  <li>Mサイズ以下の敵ユニットとの戦闘時、被ダメージを50%軽減する</li>
+  <li>戦闘時、相手の被ダメージ軽減効果の上限値を40%に抑える</li>
+  <li>「陸」の地形にいるとき、攻撃力・防御力・照準値が35%増加し、必殺技威力が30%増加する</li>
+  <li>ブレイク状態でないとき、被ダメージを70%軽減し、新たに受ける弱体効果を無力化する</li>
+  <li>自分のアクション時に2回行動する</li>
+  <li>被ダメージ時と攻撃命中時の気力上昇量が3増加する</li>
+</ul>
+
+<h2 id="ヘラス">ヘラス</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">タイプ</th>
+      <th style="text-align: center">弱点</th>
+      <th style="text-align: center">SIZE</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">攻撃&amp;防御</td>
+      <td style="text-align: center">打撃</td>
+      <td style="text-align: center">M</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">気力</th>
+      <th style="text-align: center">HP</th>
+      <th style="text-align: center">攻撃力</th>
+      <th style="text-align: center">防御力</th>
+      <th style="text-align: center">照準値</th>
+      <th style="text-align: center">運動性</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">150</td>
+      <td style="text-align: center">381100</td>
+      <td style="text-align: center">43378</td>
+      <td style="text-align: center">46622</td>
+      <td style="text-align: center">2939</td>
+      <td style="text-align: center">1394</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">移動</th>
+      <th style="text-align: center">スピード</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">3</td>
+      <td style="text-align: center">640</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="特徴-1">特徴</h3>
+<ul>
+  <li><span style="color:deepskyblue">ブレイク時、防御力が減少する</span></li>
+  <li>ブレイクゲージ復帰が早い</li>
+  <li>防御力の高いユニットを狙う</li>
+  <li>HPが減少すると精神コマンド「気合」「集中」「熱血」「鉄壁」「決意」を使用する</li>
+</ul>
+
+<h3 id="main-1">MAIN</h3>
+<ul>
+  <li>射程が1増加する</li>
+  <li>自分のアクション毎に攻撃力・防御力・照準値が8%増加する（最大64%/8回）</li>
+  <li>戦闘を行う敵ユニットが4マス以上離れているとき、攻撃力・防御力・照準値が20%増加する
+    <ul>
+      <li>→ 引き撃ちしてくる（射程：4）</li>
+      <li>→ 壁ハメが有効</li>
+    </ul>
+  </li>
+  <li>Mサイズ以下の敵ユニットとの戦闘時、被ダメージを50%軽減する</li>
+  <li>ブレイク状態でないとき、被ダメージを70%軽減し、新たに受ける弱体効果を無力化する</li>
+  <li>戦闘時、相手の被ダメージ軽減効果の上限値を40%に抑える</li>
+  <li>自分のアクション時に2回行動する</li>
+  <li>被ダメージ時と攻撃命中時の気力上昇量が3増加する</li>
+</ul>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[個人的なメモ]]></summary></entry><entry><title type="html">制圧戦最終エリア拠点1 ボス「GN-ⅩⅢ（パトリック・コーラサワー）」</title><link href="https://makietan.github.io/game/srwdd/2025/03/30/report.html" rel="alternate" type="text/html" title="制圧戦最終エリア拠点1 ボス「GN-ⅩⅢ（パトリック・コーラサワー）」" /><published>2025-03-30T00:00:00+09:00</published><updated>2025-03-30T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2025/03/30/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2025/03/30/report.html"><![CDATA[<h2 id="個人的なメモ">個人的なメモ</h2>
+
+<ul>
+  <li>最終エリア9回戦闘する前にM9Dファルケで撃墜できた</li>
+  <li>M9ガーンズバック（クルツ）を射程を離し忘れて撃墜された</li>
+</ul>
+
+<h2 id="gn-ⅹⅲ">GN-ⅩⅢ</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">タイプ</th>
+      <th style="text-align: center">弱点</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">バランス</td>
+      <td style="text-align: center">実弾/ビーム</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">気力</th>
+      <th style="text-align: center">HP</th>
+      <th style="text-align: center">攻撃力</th>
+      <th style="text-align: center">防御力</th>
+      <th style="text-align: center">照準値</th>
+      <th style="text-align: center">運動性</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">150</td>
+      <td style="text-align: center">515000</td>
+      <td style="text-align: center">52047?</td>
+      <td style="text-align: center">66230?</td>
+      <td style="text-align: center">2769?</td>
+      <td style="text-align: center">2176?</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">移動</th>
+      <th style="text-align: center">スピード</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">3</td>
+      <td style="text-align: center">650</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="特徴">特徴</h3>
+<ul>
+  <li><span style="color:deepskyblue;">ブレイク時、防御力が減少する</span></li>
+  <li>撃墜可能なユニットを狙う</li>
+  <li>HPが減少すると精神コマンド「気合」「鉄壁」「不屈」「屈強」を使用する</li>
+</ul>
+
+<h3 id="main">MAIN</h3>
+<ul>
+  <li>戦闘回数に応じて、攻撃力・防御力・照準値・運動性が8%増加する（最大72%/9回）</li>
+  <li>HP65以下のとき防御力が50%増加</li>
+  <li>ブレイク状態でないとき、自分のアクション時に2回行動する
+    <ul>
+      <li>→ <span style="color:deepskyblue">ブレイク時、1回行動</span></li>
+    </ul>
+  </li>
+  <li>戦闘時、相手の被ダメージ軽減効果の上限値を40%にす抑える</li>
+  <li>被ダメージ時と攻撃命中時の気力上昇量が3増加する</li>
+</ul>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[個人的なメモ]]></summary></entry><entry><title type="html">pipenv がカレントディレクトリじゃなく親ディレクトリを参照してしまう件</title><link href="https://makietan.github.io/tech/2025/03/29/report.html" rel="alternate" type="text/html" title="pipenv がカレントディレクトリじゃなく親ディレクトリを参照してしまう件" /><published>2025-03-29T00:00:00+09:00</published><updated>2025-03-29T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2025/03/29/report</id><content type="html" xml:base="https://makietan.github.io/tech/2025/03/29/report.html"><![CDATA[<p>以下を実行すればファイルが生成される。</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>PIPENV_NO_INHERIT=True pipenv --python 3
+</code></pre></div></div>
+
+<p>その後のコマンドはカレントディレクトリのPipfileに記載されているので環境変数は不要になりそう。</p>
+
+<h2 id="参照">参照</h2>
+
+<div class="card">
+  <a href="https://qiita.com/sndstudy/items/23cc7f9c95ab76b28120"></a>
+  <div class="card__header">
+    <a href="https://qiita.com/sndstudy/items/23cc7f9c95ab76b28120">qiita.com</a>
+  </div>
+  <div class="card__image">
+    <img src="https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-user-contents.imgix.net%2Fhttps%253A%252F%252Fcdn.qiita.com%252Fassets%252Fpublic%252Farticle-ogp-background-afbab5eb44e0b055cce1258705637a91.png%3Fixlib%3Drb-4.0.0%26w%3D1200%26blend64%3DaHR0cHM6Ly9xaWl0YS11c2VyLXByb2ZpbGUtaW1hZ2VzLmltZ2l4Lm5ldC9odHRwcyUzQSUyRiUyRnFpaXRhLWltYWdlLXN0b3JlLnMzLmFwLW5vcnRoZWFzdC0xLmFtYXpvbmF3cy5jb20lMkYwJTJGMjUyMjQxJTJGcHJvZmlsZS1pbWFnZXMlMkYxNjg1ODA5ODQ3P2l4bGliPXJiLTQuMC4wJmFyPTElM0ExJmZpdD1jcm9wJm1hc2s9ZWxsaXBzZSZmbT1wbmczMiZzPWFjNjQ5NDBiN2M4ZTBiMmIyN2MwMGJhN2JiMjlmYzFi%26blend-x%3D120%26blend-y%3D467%26blend-w%3D82%26blend-h%3D82%26blend-mode%3Dnormal%26s%3D8b2ba784c414483f3821d40d06290509?ixlib=rb-4.0.0&amp;w=1200&amp;fm=jpg&amp;mark64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjAuMCZ3PTk2MCZoPTMyNCZ0eHQ9JUUzJTgyJUFCJUUzJTgzJUFDJUUzJTgzJUIzJUUzJTgzJTg4JUUzJTgzJTg3JUUzJTgyJUEzJUUzJTgzJUFDJUUzJTgyJUFGJUUzJTgzJTg4JUUzJTgzJUFBJUUzJTgxJUFCUGlwZmlsZSVFMyU4MSU4QyVFNCVCRCU5QyVFNiU4OCU5MCVFMyU4MSU5NSVFMyU4MiU4QyVFMyU4MSVBQSVFMyU4MSU4NCZ0eHQtYWxpZ249bGVmdCUyQ3RvcCZ0eHQtY29sb3I9JTIzMUUyMTIxJnR4dC1mb250PUhpcmFnaW5vJTIwU2FucyUyMFc2JnR4dC1zaXplPTU2JnR4dC1wYWQ9MCZzPWQwNWZlMGFhYTZhMjc4NTVhZDJjYmVhM2NlODM3ZDhm&amp;mark-x=120&amp;mark-y=112&amp;blend64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjAuMCZ3PTgzOCZoPTU4JnR4dD0lNDBzbmRzdHVkeSZ0eHQtY29sb3I9JTIzMUUyMTIxJnR4dC1mb250PUhpcmFnaW5vJTIwU2FucyUyMFc2JnR4dC1zaXplPTM2JnR4dC1wYWQ9MCZzPTBhZTRiMTFlMTE5NDdmYjA2MDBkZmQ5MjUyZmVjZjI2&amp;blend-x=242&amp;blend-y=480&amp;blend-w=838&amp;blend-h=46&amp;blend-fit=crop&amp;blend-crop=left%2Cbottom&amp;blend-mode=normal&amp;s=0dcbc85bce3545f03e08cc3e1bd43e73" />
+  </div>
+  <div class="card__title">
+    <p>カレントディレクトリにPipfileが作成されない #Python - Qiita</p>
+  </div>
+  <div class="card__description">
+    <p>事象pipenvで仮想環境を作成した時にカレントディレクトリにPipfileが作成されないparent    └── child　←このディレクトリに作成したいが「parent」ディレクトリに作成され…</p>
+  </div>
+</div>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[以下を実行すればファイルが生成される。]]></summary></entry><entry><title type="html">「ラムダ・ストライク（ARX-8）」の考察</title><link href="https://makietan.github.io/game/srwdd/2025/03/28/report.html" rel="alternate" type="text/html" title="「ラムダ・ストライク（ARX-8）」の考察" /><published>2025-03-28T00:00:00+09:00</published><updated>2025-03-28T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2025/03/28/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2025/03/28/report.html"><![CDATA[<h2 id="ステータス">ステータス</h2>
 
 <table>
   <thead>
@@ -339,322 +731,4 @@
 たまたま買ってたフランスパンとの相性も良かった。</p>
 
 <p>クタクタになったプチトマトが美味しいから
-アヒージョみたいなものを今度は攻めてみたい。</p>]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[dancyu.jp 多層的な旨味が楽しめる"イワシのオリーブ煮" | 素材の風味を生かす塩使いの基本レシピ | 【公式】dancyu (ダンチュウ) にんにくの香りを含んだたっぷりのオリーブオイルが、イワシやトマトの旨味を引き立てます。おかずとしてはもちろん、ワインのお供にも。食材と塩を使いこなす基本レシピを、料理研究家の大庭英子さんに教えてもらいました。]]></summary></entry><entry><title type="html">吉野家のプルコギが美味かった</title><link href="https://makietan.github.io/gourmet/2025/03/12/report.html" rel="alternate" type="text/html" title="吉野家のプルコギが美味かった" /><published>2025-03-12T00:00:00+09:00</published><updated>2025-03-12T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2025/03/12/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2025/03/12/report.html"><![CDATA[<div class="card">
-  <a href="https://www.yoshinoya.com/menu/set/gyupurukogi_tei/"></a>
-  <div class="card__header">
-    <a href="https://www.yoshinoya.com/menu/set/gyupurukogi_tei/">www.yoshinoya.com</a>
-  </div>
-  <div class="card__image">
-    <img src="https://www.yoshinoya.com/wp-content/uploads/2025/02/25112703/c8206d3127ca8a9379b6d8226051905e-1.jpg" />
-  </div>
-  <div class="card__title">
-    <p>牛プルコギ定食 | 吉野家公式ホームページ</p>
-  </div>
-  <div class="card__description">
-    <p>牛プルコギ定食 のメニューページです。サイズ別の金額やカロリー、テイクアウト、セットメニューなど、メニュー情報を掲載しています。</p>
-  </div>
-</div>
-
-<blockquote>
-  <p>※牛プルコギは成型肉を使用しております。</p>
-</blockquote>
-
-<p>成型肉なんだけどあんまり気にならない感じだった。
-まぁ牛カルビ丼とかも成型肉なんだけど。</p>
-
-<p>定食と丼があって、モバイルだと何故か定食が40円引で丼が50円引だった。
-紙のクーポンだと両方とも50円引なのに。</p>
-
-<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">🟥新登場🟥<br /><br />🟢牛プルコギ定食<br />━━━━━━━━━<br />🟡牛プルコギ丼<br />━━━━━━━━━<br /><br />牛肉➕3色ピーマン➕甘辛い特製たれ✨<br />ご飯との相性が抜群だよ🍚<br /><br />ぜひ食べてみてね(∩´∀｀)∩<br /><br />🍚詳しくは画像をタップ</p>&mdash; 吉野家 (@yoshinoyagyudon) <a href="https://twitter.com/yoshinoyagyudon/status/1897829556901625952?ref_src=twsrc%5Etfw">March 7, 2025</a></blockquote>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<h2 id="カロリー">カロリー</h2>
-
-<p>結構なカロリーで…。</p>
-
-<h3 id="牛プルコギ定食成型肉">牛プルコギ定食（成型肉）</h3>
-
-<ul>
-  <li>942kcal</li>
-  <li>たんぱく質 27.6g</li>
-  <li>脂質 41.8g</li>
-  <li>炭水化物 112.2g</li>
-  <li>食塩相当量 5.0g</li>
-</ul>
-
-<h3 id="牛皿牛プルコギ定食成型肉">牛皿・牛プルコギ定食（成型肉）</h3>
-
-<ul>
-  <li>1191kcal</li>
-  <li>たんぱく質 39.8g</li>
-  <li>脂質 64.5g</li>
-  <li>炭水化物 111.3g</li>
-  <li>食塩相当量 5.4g</li>
-</ul>
-
-<h2 id="余談">余談</h2>
-
-<p>キムチが美味しくなかった。
-一体どこのを出しているんだろう…。</p>]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[www.yoshinoya.com 牛プルコギ定食 | 吉野家公式ホームページ 牛プルコギ定食 のメニューページです。サイズ別の金額やカロリー、テイクアウト、セットメニューなど、メニュー情報を掲載しています。]]></summary></entry><entry><title type="html">またまた小さなメダル失敗…</title><link href="https://makietan.github.io/game/dqw/2025/03/11/report.html" rel="alternate" type="text/html" title="またまた小さなメダル失敗…" /><published>2025-03-11T00:00:00+09:00</published><updated>2025-03-11T00:00:00+09:00</updated><id>https://makietan.github.io/game/dqw/2025/03/11/report</id><content type="html" xml:base="https://makietan.github.io/game/dqw/2025/03/11/report.html"><![CDATA[<div class="card">
-  <a href="https://makietan.github.io/game/dqw/2025/03/10/report.html"></a>
-  <div class="card__header">
-    <a href="https://makietan.github.io/game/dqw/2025/03/10/report.html">makietan.github.io</a>
-  </div>
-  <div class="card__image">
-    <img src="https://makietan.github.io/assets/thumbnail/logo.png" />
-  </div>
-  <div class="card__title">
-    <p>小さなメダルの遠征失敗… | 肉とお米とブロッコリー</p>
-  </div>
-  <div class="card__description">
-    <p>makietan.github.io 小さなメダル集めに大回り乗車をすることにした | 肉とお米とブロッコリー 予定</p>
-  </div>
-</div>
-
-<p>やっぱ何駅か隣に移動して歩いたほうが拾えるわ。</p>
-
-<p>代々木駅あたりに「五感澄明」があればいい感じに入手できるのがあったから山手線で周回中に取れば良さそう。</p>
-
-<p>信濃駅あたりに1つ入手しやすいのがあった。
-それくらいで、5個程度の入手になってしまった。
-はーもう嫌い。
-ま、徒歩で入手したよ100個までの残り全部。</p>
-
-<p>魔人の二刀流で必要だから頑張ってゲットしないといけなかった。
-いやーめんどくさ。</p>]]></content><author><name>makietan</name></author><category term="game" /><category term="dqw" /><summary type="html"><![CDATA[makietan.github.io 小さなメダルの遠征失敗… | 肉とお米とブロッコリー makietan.github.io 小さなメダル集めに大回り乗車をすることにした | 肉とお米とブロッコリー 予定]]></summary></entry><entry><title type="html">小さなメダルの遠征失敗…</title><link href="https://makietan.github.io/game/dqw/2025/03/10/report.html" rel="alternate" type="text/html" title="小さなメダルの遠征失敗…" /><published>2025-03-10T00:00:00+09:00</published><updated>2025-03-10T00:00:00+09:00</updated><id>https://makietan.github.io/game/dqw/2025/03/10/report</id><content type="html" xml:base="https://makietan.github.io/game/dqw/2025/03/10/report.html"><![CDATA[<div class="card">
-  <a href="https://makietan.github.io/game/dqw/2025/03/09/report.html"></a>
-  <div class="card__header">
-    <a href="https://makietan.github.io/game/dqw/2025/03/09/report.html">makietan.github.io</a>
-  </div>
-  <div class="card__image">
-    <img src="https://makietan.github.io/assets/thumbnail/logo.png" />
-  </div>
-  <div class="card__title">
-    <p>小さなメダル集めに大回り乗車をすることにした | 肉とお米とブロッコリー</p>
-  </div>
-  <div class="card__description">
-    <p>予定</p>
-  </div>
-</div>
-
-<p>これに行ってきた結果…</p>
-
-<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">電車乗る前<br />大回り後<br />秋葉原〜新橋ぶらぶら<br /><br />電車で集めるの効率悪いな…<a href="https://twitter.com/hashtag/%E3%83%89%E3%83%A9%E3%82%AF%E3%82%A8%E3%82%A6%E3%82%A9%E3%83%BC%E3%82%AF?src=hash&amp;ref_src=twsrc%5Etfw">#ドラクエウォーク</a> <a href="https://t.co/y2f0R6jJ5a">pic.twitter.com/y2f0R6jJ5a</a></p>&mdash; まきえたん🥦☘️ (@makietanX) <a href="https://twitter.com/makietanX/status/1898688996521459968?ref_src=twsrc%5Etfw">March 9, 2025</a></blockquote>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<ul>
-  <li>電車（南武線で「五感澄明」）…12枚</li>
-  <li>秋葉原から新橋…13枚</li>
-</ul>
-
-<p>これは予定外だ。</p>
-
-<p>絶妙に駅から届かないところが多く、全部の区間で「五感澄明」を発動してないといけないレベル。
-西国分寺駅で降りると2つゲットできるのが見えてるのに「五感澄明」がないせいで取れないなんてことも多々あった。
-一方、1駅につき2つ程度あるので徒歩で回ってると都心ならそれなりにゲットできる。</p>
-
-<p>残り、2日でなんとか20個取らないといけない大変だ。
-ただ効率は悪いがゲットはできるので山手線の大回り乗車か中央線使ってまたやってみようかと思う。
-なんせ時間がないからショートカットできるならやりたいしね。</p>
-
-<p>そんなことよりスライアスロンの心珠生成をすっかり忘れていて最悪の結果となった。
-全部計測して一番いい3つを選定してくれよ。
-切り替えが大変すぎるんじゃ。</p>
-
-<h2 id="中央総武線55分">中央・総武線（55分）</h2>
-
-<div class="card">
-  <a href="https://makietan.github.io/railway/2024/10/16/report.html"></a>
-  <div class="card__header">
-    <a href="https://makietan.github.io/railway/2024/10/16/report.html">makietan.github.io</a>
-  </div>
-  <div class="card__image">
-    <img src="https://makietan.github.io/assets/thumbnail/logo.png" />
-  </div>
-  <div class="card__title">
-    <p>有楽町から新橋までの大回り乗車案 その① | 肉とお米とブロッコリー</p>
-  </div>
-  <div class="card__description">
-    <p>大回り乗車とは</p>
-  </div>
-</div>
-
-<p>昔調べていてそれをそのまま流用する。</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>発着時間：19:05発 → 20:00着
-所要時間：55分
-乗車時間：49分
-乗換回数：3回
-総額：146円（IC利用）
-距離：25.1km
-
-■新橋    6番線発 
-｜ 　京浜東北線(大宮行)   3.2km   5・8・10号車
-｜ 　19:05-19:11［6分］
-｜ 　146円
-◇神田（東京）    4番線着・6番線発 ［乗換3分+待ち0分］
-｜ 　中央線快速(高尾行)   1.3km   前～後
-｜ 　19:14-19:16［2分］
-｜ 　 ↓ 
-◇御茶ノ水    1番線着・2番線発 ［乗換1分+待ち0分］
-｜ 　中央・総武線各停(三鷹行)   7.0km   1～7号車
-｜ 　19:17-19:32［15分］
-｜ 　 ↓ 
-◇代々木    3番線着・2番線発 ［乗換1分+待ち1分］
-｜ 　山手線渋谷方面行   13.6km   7・10・11号車
-｜ 　19:34-20:00［26分］
-｜ 　 ↓ 
-■浜松町    2番線着 
-</code></pre></div></div>
-
-<div class="card">
-  <a href="https://www.jorudan.co.jp/norikae/cgi/nori.cgi?Sok=%E6%B1%BA%E5%AE%9A&amp;eki1=%E6%96%B0%E6%A9%8B&amp;eok1=R-&amp;eki2=%E6%B5%9C%E6%9D%BE%E7%94%BA&amp;eok2=R-&amp;eki3=%E7%A5%9E%E7%94%B0%EF%BC%88%E6%9D%B1%E4%BA%AC%EF%BC%89&amp;eok3=R-&amp;eki4=%E5%BE%A1%E8%8C%B6%E3%83%8E%E6%B0%B4&amp;eok4=R-&amp;eki5=%E4%BB%A3%E3%80%85%E6%9C%A8"></a>
-  <div class="card__header">
-    <a href="https://www.jorudan.co.jp/norikae/cgi/nori.cgi?Sok=%E6%B1%BA%E5%AE%9A&amp;eki1=%E6%96%B0%E6%A9%8B&amp;eok1=R-&amp;eki2=%E6%B5%9C%E6%9D%BE%E7%94%BA&amp;eok2=R-&amp;eki3=%E7%A5%9E%E7%94%B0%EF%BC%88%E6%9D%B1%E4%BA%AC%EF%BC%89&amp;eok3=R-&amp;eki4=%E5%BE%A1%E8%8C%B6%E3%83%8E%E6%B0%B4&amp;eok4=R-&amp;eki5=%E4%BB%A3%E3%80%85%E6%9C%A8">www.jorudan.co.jp</a>
-  </div>
-  <div class="card__image">
-    <img src="https://www.jorudan.co.jp/com/img/bnr/ogp_jorudan.png" />
-  </div>
-  <div class="card__title">
-    <p>新橋から浜松町の乗換案内 - ジョルダン</p>
-  </div>
-  <div class="card__description">
-    <p>新橋から浜松町の乗換案内です。最短ルートの他、乗換回数や料金など、条件別にルート検索可能です。新橋から浜松町は「バス」でのルートもご案内。始発・終電・復路の検索や、時刻表・運賃・路線図・定期代・18きっぷまで情報多数。運行情報、構内図、出口案内、地図も提供中。</p>
-  </div>
-</div>]]></content><author><name>makietan</name></author><category term="game" /><category term="dqw" /><summary type="html"><![CDATA[makietan.github.io 小さなメダル集めに大回り乗車をすることにした | 肉とお米とブロッコリー 予定]]></summary></entry><entry><title type="html">小さなメダル集めに大回り乗車をすることにした</title><link href="https://makietan.github.io/game/dqw/2025/03/09/report.html" rel="alternate" type="text/html" title="小さなメダル集めに大回り乗車をすることにした" /><published>2025-03-09T00:00:00+09:00</published><updated>2025-03-09T00:00:00+09:00</updated><id>https://makietan.github.io/game/dqw/2025/03/09/report</id><content type="html" xml:base="https://makietan.github.io/game/dqw/2025/03/09/report.html"><![CDATA[<h2 id="予定">予定</h2>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>■新橋    地下1番線発 
-｜ 　横須賀線(久里浜行)   14.9km   後方
-｜ 　14:11-14:26［15分］
-｜ 　483円（ 普通車 ）
-◇武蔵小杉    3番線着・2番線発 ［乗換7分+待ち7分］
-｜ 　南武線快速(立川行)   20.4km   2・5号車
-｜ 　14:40-15:04［24分］
-｜ 　 ↓ 
-◇府中本町    4番線着・3番線発 ［乗換3分+待ち3分］
-｜ 　武蔵野線(東京行)   57.5km   
-｜ 　15:10-16:13［63分］
-｜ 　 ↓ 
-■新松戸    4番線着・4番線発 
-｜ 　武蔵野線(海浜幕張行)   19.7km   4・7号車
-｜ 　16:17-16:39［22分］
-｜ 　483円
-◇南船橋    1番線着・4番線発 ［乗換3分+待ち3分］
-｜ 　京葉線快速(東京行)   26.0km   前・後
-｜ 　16:45-17:11［26分］
-｜ 　 ↓ 
-■東京    京葉4番線着 
-</code></pre></div></div>
-
-<p>これに決定。</p>
-
-<p>次はちゃんと準備したうえでやろうと思う。
-小さなメダルが全部悪い。</p>
-
-<h2 id="考えのログ">考えのログ</h2>
-
-<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/%E3%83%89%E3%83%A9%E3%82%AF%E3%82%A8%E3%82%A6%E3%82%A9%E3%83%BC%E3%82%AF?src=hash&amp;ref_src=twsrc%5Etfw">#ドラクエウォーク</a> <a href="https://twitter.com/hashtag/DQ%E3%82%A6%E3%82%A9%E3%83%BC%E3%82%AF?src=hash&amp;ref_src=twsrc%5Etfw">#DQウォーク</a> <br /><br />【東京付近のメダル集めにオススメの路線】<br /><br />ちいさなメダル集めのため、<br />画像の大回り可能な路線は<br />ここ数日でほとんど制覇しました。<br /><br />その中で特にオススメなのが以下の2路線。<br /><br />・八高線(左上マーカー)<br />・内房線-外房線(右下マーカー)… <a href="https://t.co/wspyPAT6RK">pic.twitter.com/wspyPAT6RK</a></p>&mdash; かずぼう (@DQW06331299) <a href="https://twitter.com/DQW06331299/status/1835964151598039433?ref_src=twsrc%5Etfw">September 17, 2024</a></blockquote>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<p>千葉方面はめっちゃ時間がかかるので八高線を狙う。</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>■新橋    5番線発 
-｜ 　山手線東京方面行   3.2km   6・8・10号車
-｜ 　14:00-14:06［6分］
-｜ 　824円
-◇神田（東京）    3番線着・6番線発 ［乗換3分+待ち0分］
-｜ 　中央線青梅特快(青梅行)   46.1km   
-｜ 　14:09-14:45［36分］
-｜ 　 ↓ 
-◇立川    6番線着・5番線発 ［乗換1分+待ち2分］
-｜ 　中央線(高尾行)   ↓   中後
-｜ 　14:48-14:58［10分］
-｜ 　 ↓ 
-■八王子    4番線着 
-</code></pre></div></div>
-
-<p>ちなみに立川から拝島までも同じくらいなのでショートカットしようと思う。</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>■新橋    5番線発 
-｜ 　山手線東京方面行   3.2km   6・8・10号車
-｜ 　14:00-14:06［6分］
-｜ 　824円
-◇神田（東京）    3番線着・6番線発 ［乗換3分+待ち0分］
-｜ 　中央線青梅特快(青梅行)   36.2km   
-｜ 　14:09-14:45［36分］
-｜ 　 ↓ 
-◇立川 ≪降車不要≫     ［乗換0分+待ち1分］
-｜ 　青梅線(青梅行)   6.9km   
-｜ 　14:46-14:58［12分］
-｜ 　 ↓ 
-■拝島          
-｜ 　八高線(川越行)   82.1km   
-｜ 　15:01-15:26［25分］
-｜ 　1,694円
-◇高麗川     ［乗換1分+待ち18分］
-｜ 　八高線(高崎行)   ↓   
-｜ 　15:45-17:05［80分］
-｜ 　 ↓ 
-■倉賀野     
-｜ 　湘南新宿ライン(平塚行)   29.3km   
-｜ 　17:17-17:45［28分］
-｜ 　1,980円（ 普通車 ）
-◇籠原     ［乗換1分+待ち10分］
-｜ 　高崎線(沼津行)   71.3km   中央
-｜ 　17:56-19:15［79分］
-｜ 　 ↓ （ 普通車 ）
-◇東京 ≪降車不要≫     ［乗換0分+待ち1分］
-｜ 　東海道本線（東日本）(沼津行)   1.9km   
-｜ 　19:16-19:18［2分］
-｜ 　 ↓ （ 普通車 ↓ ）
-■新橋    1番線着 
-</code></pre></div></div>
-
-<p>ただこれだと神田・東京駅でバッティングしてしまう。
-なので、行きを品川経由にする。</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>■新橋    4番線発 
-｜ 　山手線品川方面行   15.5km   1・5・6・10号車
-｜ 　14:00-14:29［29分］
-｜ 　1,980円
-◇新宿    15番線着・12番線発 ［乗換3分+待ち0分］
-｜ 　中央線快速(青梅行)   27.2km   やや前・やや後
-｜ 　14:32-15:07［35分］
-｜ 　 ↓ 
-◇立川 ≪降車不要≫     ［乗換0分+待ち1分］
-｜ 　青梅線(青梅行)   6.9km   
-｜ 　15:08-15:21［13分］
-｜ 　 ↓ 
-◇拝島     ［乗換3分+待ち7分］
-｜ 　八高線(川越行)   82.1km   
-｜ 　15:31-15:56［25分］
-｜ 　 ↓ 
-◇高麗川     ［乗換1分+待ち101分］
-｜ 　八高線(高崎行)   ↓   
-｜ 　17:38-19:07［89分］
-｜ 　 ↓ 
-■倉賀野     
-｜ 　高崎線(伊東行)   100.6km   中央
-｜ 　19:10-21:00［110分］
-｜ 　1,980円（ 普通車 ）
-◇東京 ≪降車不要≫     ［乗換0分+待ち2分］
-｜ 　東海道本線（東日本）(伊東行)   1.9km   
-｜ 　21:02-21:05［3分］
-｜ 　 ↓ （ 普通車 ↓ ）
-■新橋    1番線着
-</code></pre></div></div>
-
-<p>いやー7時間コース…。
-バッテリーがもたない。</p>
-
-<p>ということで武蔵野線だらだら簡易コースに変更。</p>]]></content><author><name>makietan</name></author><category term="game" /><category term="dqw" /><summary type="html"><![CDATA[予定]]></summary></entry><entry><title type="html">パイオニア BDR-X13JBKD を買った</title><link href="https://makietan.github.io/tech/2025/03/08/report.html" rel="alternate" type="text/html" title="パイオニア BDR-X13JBKD を買った" /><published>2025-03-08T00:00:00+09:00</published><updated>2025-03-08T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2025/03/08/report</id><content type="html" xml:base="https://makietan.github.io/tech/2025/03/08/report.html"><![CDATA[<p><a href="https://www.amazon.co.jp/dp/B0DFHK3TJ3?&amp;linkCode=sl1&amp;tag=infirmaria112-22&amp;linkId=99c24e0d26c33364abfde3a83e016639&amp;language=ja_JP&amp;ref_=as_li_ss_tl"><img src="https://m.media-amazon.com/images/I/71o4ob-Y93L._AC_SL1500_.jpg" alt="" /></a></p>
-
-<p>BUFFALOの外付けドライブが変な感じになったので買った。</p>
-
-<p>2万円くらい。</p>
-
-<p>それなりに痛い出費だが、BUFFALOのやつよりは動くので一旦これでいく。</p>
-
-<p>ただ、macOS Sequoia にアップデートしたところ挙動がおかしくなった。</p>
-
-<p>Mac 側の問題なのは当然わかりきっているが高い買い物だったのでなんとかいい感じに動作するよう戻ってほしいところ。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[]]></summary></entry></feed>
+アヒージョみたいなものを今度は攻めてみたい。</p>]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[dancyu.jp 多層的な旨味が楽しめる"イワシのオリーブ煮" | 素材の風味を生かす塩使いの基本レシピ | 【公式】dancyu (ダンチュウ) にんにくの香りを含んだたっぷりのオリーブオイルが、イワシやトマトの旨味を引き立てます。おかずとしてはもちろん、ワインのお供にも。食材と塩を使いこなす基本レシピを、料理研究家の大庭英子さんに教えてもらいました。]]></summary></entry></feed>
