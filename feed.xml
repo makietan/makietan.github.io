@@ -1,4 +1,85 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2025-04-02T12:36:16+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">制圧戦最終エリア拠点4 ボス「インベーダー」</title><link href="https://makietan.github.io/game/srwdd/2025/04/02/report.html" rel="alternate" type="text/html" title="制圧戦最終エリア拠点4 ボス「インベーダー」" /><published>2025-04-02T00:00:00+09:00</published><updated>2025-04-02T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2025/04/02/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2025/04/02/report.html"><![CDATA[<h2 id="個人的なメモ">個人的なメモ</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2025-04-03T12:36:29+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">制圧戦最終エリア拠点6 ボス「ゼオラダイザー（カサド・ゼオラ・ホワイター）」</title><link href="https://makietan.github.io/game/srwdd/2025/04/03/report.html" rel="alternate" type="text/html" title="制圧戦最終エリア拠点6 ボス「ゼオラダイザー（カサド・ゼオラ・ホワイター）」" /><published>2025-04-03T00:00:00+09:00</published><updated>2025-04-03T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2025/04/03/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2025/04/03/report.html"><![CDATA[<h2 id="個人的なメモ">個人的なメモ</h2>
+
+<ul>
+  <li>ホワイターって乳酸飲料みたい</li>
+  <li>バリアさえ削ればつよつよレーバテインで撃破できる</li>
+  <li>セラヴィーガンダムは流石に3回くらいしか耐えられなかった</li>
+  <li>さっさと倒せてしまったせいで各種パラメータがわからん</li>
+</ul>
+
+<h2 id="ゼオラダイザー">ゼオラダイザー</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">タイプ</th>
+      <th style="text-align: center">弱点</th>
+      <th style="text-align: center">SIZE</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">攻撃&amp;回避</td>
+      <td style="text-align: center">ビーム</td>
+      <td style="text-align: center">M</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">気力</th>
+      <th style="text-align: center">HP</th>
+      <th style="text-align: center">攻撃力</th>
+      <th style="text-align: center">防御力</th>
+      <th style="text-align: center">照準値</th>
+      <th style="text-align: center">運動性</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">597400</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">-</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">移動</th>
+      <th style="text-align: center">スピード</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">3</td>
+      <td style="text-align: center">680</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="特徴">特徴</h3>
+<ul>
+  <li><span style="color:deepskyblue;">ブレイク時、運動性が減少する</span></li>
+  <li>攻撃力の低いユニットを狙う</li>
+  <li>HPが減少すると精神コマンド「気合」「鉄壁」「熱血」「決意」を仕様する</li>
+</ul>
+
+<h3 id="main">MAIN</h3>
+<ul>
+  <li>自分のアクション毎に攻撃力・防御力・照準値・運動性が8%増加する（最大72%/9回）</li>
+  <li>周囲5マス内の敵ユニットの攻撃力を50%、防御力・照準値を30%減少させる</li>
+  <li>ブレイク状態でないとき、被ダメージを70%軽減し、新たに受ける弱体効果を無力化する</li>
+  <li>戦闘時、相手の被ダメージ軽減効果の上限値を40%に抑える</li>
+  <li>自分のアクション時に2回行動する</li>
+  <li>被ダメージ時と攻撃命中時の気力上限値が3増加する</li>
+</ul>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[個人的なメモ]]></summary></entry><entry><title type="html">制圧戦最終エリア拠点4 ボス「インベーダー」</title><link href="https://makietan.github.io/game/srwdd/2025/04/02/report.html" rel="alternate" type="text/html" title="制圧戦最終エリア拠点4 ボス「インベーダー」" /><published>2025-04-02T00:00:00+09:00</published><updated>2025-04-02T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2025/04/02/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2025/04/02/report.html"><![CDATA[<h2 id="個人的なメモ">個人的なメモ</h2>
 
 <ul>
   <li>芋虫</li>
@@ -706,29 +787,4 @@
 <p>斉藤恵那ちゃん最高。</p>]]></content><author><name>makietan</name></author><category term="otaku" /><summary type="html"><![CDATA[anime-re.tokyo アニメ『おちこぼれフルーツタルト』れっつごー！フルーツタルト！おちこぼれだってファンミーティング2025 | アニマチReクリエイション 前回に引き続き、おちこぼれフルーツタルトの制作に関する資料展示を行います！ 今回初めて展示のものを含めてさらにおちフルが好きになるものばかりです 是非お越しください]]></summary></entry><entry><title type="html">マジギレしている人への対応が上手いすみぺ</title><link href="https://makietan.github.io/otaku/2025/03/14/report.html" rel="alternate" type="text/html" title="マジギレしている人への対応が上手いすみぺ" /><published>2025-03-14T00:00:00+09:00</published><updated>2025-03-14T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2025/03/14/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2025/03/14/report.html"><![CDATA[<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">返しがうまいすみぺ<a href="https://twitter.com/ABEMA?ref_src=twsrc%5Etfw">@ABEMA</a> で視聴中<br />▷ <a href="https://t.co/OGx5uJ0WjV">https://t.co/OGx5uJ0WjV</a><a href="https://twitter.com/hashtag/%E3%81%99%E3%81%BF%E3%83%9E%E3%83%AA%E3%81%A8%E7%81%AB%E6%9B%9C%E6%97%A5?src=hash&amp;ref_src=twsrc%5Etfw">#すみマリと火曜日</a> <a href="https://t.co/mjMyGUNmFx">pic.twitter.com/mjMyGUNmFx</a></p>&mdash; まきえたん🥦☘️ (@makietanX) <a href="https://twitter.com/makietanX/status/1899476065657160149?ref_src=twsrc%5Etfw">March 11, 2025</a></blockquote>
 <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-<p>ガチでキレられたらこれでいくと良さそうだ。</p>]]></content><author><name>makietan</name></author><category term="otaku" /><summary type="html"><![CDATA[返しがうまいすみぺ@ABEMA で視聴中▷ https://t.co/OGx5uJ0WjV#すみマリと火曜日 pic.twitter.com/mjMyGUNmFx&mdash; まきえたん🥦☘️ (@makietanX) March 11, 2025]]></summary></entry><entry><title type="html">イワシのオリーブ煮を作った（葉っぱ類はなし）</title><link href="https://makietan.github.io/gourmet/2025/03/13/report.html" rel="alternate" type="text/html" title="イワシのオリーブ煮を作った（葉っぱ類はなし）" /><published>2025-03-13T00:00:00+09:00</published><updated>2025-03-13T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2025/03/13/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2025/03/13/report.html"><![CDATA[<div class="card">
-  <a href="https://dancyu.jp/recipe/2023_00007579.html"></a>
-  <div class="card__header">
-    <a href="https://dancyu.jp/recipe/2023_00007579.html">dancyu.jp</a>
-  </div>
-  <div class="card__image">
-    <img src="https://dancyu.jp/images/m7579.jpg" />
-  </div>
-  <div class="card__title">
-    <p>多層的な旨味が楽しめる"イワシのオリーブ煮" | 素材の風味を生かす塩使いの基本レシピ | 【公式】dancyu (ダンチュウ)</p>
-  </div>
-  <div class="card__description">
-    <p>にんにくの香りを含んだたっぷりのオリーブオイルが、イワシやトマトの旨味を引き立てます。おかずとしてはもちろん、ワインのお供にも。食材と塩を使いこなす基本レシピを、料理研究家の大庭英子さんに教えてもらいました。</p>
-  </div>
-</div>
-
-<p>めざし6匹が10%オフだったので買ってどうしようかなと悩んでたらヒットした。</p>
-
-<p>プチトマトを追加で購入し、玉ねぎも加えた。
-基本的には掲載されているとおりに書いて完成。</p>
-
-<p>臭みもなく結構美味しい。
-たまたま買ってたフランスパンとの相性も良かった。</p>
-
-<p>クタクタになったプチトマトが美味しいから
-アヒージョみたいなものを今度は攻めてみたい。</p>]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[dancyu.jp 多層的な旨味が楽しめる"イワシのオリーブ煮" | 素材の風味を生かす塩使いの基本レシピ | 【公式】dancyu (ダンチュウ) にんにくの香りを含んだたっぷりのオリーブオイルが、イワシやトマトの旨味を引き立てます。おかずとしてはもちろん、ワインのお供にも。食材と塩を使いこなす基本レシピを、料理研究家の大庭英子さんに教えてもらいました。]]></summary></entry></feed>
+<p>ガチでキレられたらこれでいくと良さそうだ。</p>]]></content><author><name>makietan</name></author><category term="otaku" /><summary type="html"><![CDATA[返しがうまいすみぺ@ABEMA で視聴中▷ https://t.co/OGx5uJ0WjV#すみマリと火曜日 pic.twitter.com/mjMyGUNmFx&mdash; まきえたん🥦☘️ (@makietanX) March 11, 2025]]></summary></entry></feed>
