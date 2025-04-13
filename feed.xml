@@ -1,4 +1,317 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2025-04-13T13:28:07+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">ARX-8 レーバテインのSUB比較</title><link href="https://makietan.github.io/game/srwdd/2025/04/07/report.html" rel="alternate" type="text/html" title="ARX-8 レーバテインのSUB比較" /><published>2025-04-07T00:00:00+09:00</published><updated>2025-04-07T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2025/04/07/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2025/04/07/report.html"><![CDATA[<h2 id="確認ステージ">確認ステージ</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2025-04-13T17:30:28+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">結婚報告はある程度経過報告してからやってくれ</title><link href="https://makietan.github.io/human/2025/04/13/report.html" rel="alternate" type="text/html" title="結婚報告はある程度経過報告してからやってくれ" /><published>2025-04-13T00:00:00+09:00</published><updated>2025-04-13T00:00:00+09:00</updated><id>https://makietan.github.io/human/2025/04/13/report</id><content type="html" xml:base="https://makietan.github.io/human/2025/04/13/report.html"><![CDATA[<p>急にされても「あっそう」くらいしか出てこないんだわ。</p>]]></content><author><name>makietan</name></author><category term="human" /><summary type="html"><![CDATA[急にされても「あっそう」くらいしか出てこないんだわ。]]></summary></entry><entry><title type="html">ARX-8 レーバテインの武器比較</title><link href="https://makietan.github.io/game/srwdd/2025/04/12/report.html" rel="alternate" type="text/html" title="ARX-8 レーバテインの武器比較" /><published>2025-04-12T00:00:00+09:00</published><updated>2025-04-12T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2025/04/12/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2025/04/12/report.html"><![CDATA[<h2 id="比較対象">比較対象</h2>
+
+<ul>
+  <li>SSR+ ラムダ・ストライク（ARX-8）</li>
+  <li>SSR+ デモリッションガン ガン・ハウザーモード（MAP）</li>
+  <li>SSR+ デモリッションガン</li>
+</ul>
+
+<h2 id="前提条件">前提条件</h2>
+<ul>
+  <li>気力上限180</li>
+</ul>
+
+<h2 id="main">MAIN</h2>
+
+<h3 id="デバフその他スキル">デバフ・その他スキル</h3>
+
+<ul>
+  <li>SSR+ ラムダ・ストライク（ARX-8）
+    <ul>
+      <li>ARX-8 レーバテイン装備時
+        <ul>
+          <li>斬撃・実弾・<span style="color: red;">特殊</span>属性の全ての攻撃のブレイクゲージ減少量が100%増加 ★</li>
+          <li>反撃時、<span style="color: red;">100%</span>先制攻撃 ★</li>
+          <li>気力130以上
+            <ul>
+              <li>敵の防御力・運動性 -32%</li>
+              <li>被ダメージ <span style="color: red;">-7000</span></li>
+              <li>回避率 <span style="color: red;">+45%</span></li>
+            </ul>
+          </li>
+          <li>戦闘時
+            <ul>
+              <li><span style="color: orange;">敵ユニットのバリア系アビリティ効果 -70%</span></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>SSR+ デモリッションガン ガン・ハウザーモード（MAP）
+    <ul>
+      <li>ARX-8 レーバテイン装備時
+        <ul>
+          <li><span style="color: red;">移動力 +1（重複可）</span> ★</li>
+          <li>斬撃・実弾属性の全ての攻撃のブレイクゲージ減少量が100%増加 ★</li>
+          <li>デモリッションガン ガン・ハウザーモード（MAP）でブレイク成功時
+            <ul>
+              <li><span style="color: red;">敵ユニットのブレイク復帰に必要なアクション数を1増加させる</span></li>
+            </ul>
+          </li>
+          <li>戦闘時
+            <ul>
+              <li><span style="color: orange;">敵ユニットのバリア系アビリティ効果 -70%</span></li>
+            </ul>
+          </li>
+          <li>気力130以上
+            <ul>
+              <li>被ダメージ -3500</li>
+              <li>回避率 +35%</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>SSR+ デモリッションガン
+    <ul>
+      <li>ARX-8 レーバテイン装備時
+        <ul>
+          <li><span style="color: red;">MAP兵器以外の最大射程 +1（重複不可）</span> ★</li>
+          <li>4マス以上離れている時
+            <ul>
+              <li>全ての攻撃の与ダメージ <span style="color: red;">+35%</span></li>
+              <li>回避率 +35%</li>
+              <li>命中率 <span style="color: red;">+25%</span></li>
+            </ul>
+          </li>
+          <li>戦闘時
+            <ul>
+              <li><span style="color: red;">命中ユニットのサイズ差による与ダメージ減少効果を無効化</span> ★</li>
+              <li><span style="color: orange;">敵ユニットのバリア系アビリティ効果 -70%</span></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>デモリッションガン命中時
+        <ul>
+          <li><span style="color: red;">「覚醒」</span>を発動 ★</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<canvas id="chart-1" style="background-color: #fff"></canvas>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script>
+    // chart
+    const MAX_KIRYOKU = (180 - 100) / 10;
+    const NUMBER_OF_BATTLES = 5;
+    const ctx1 = document.getElementById('chart-1');
+    new Chart(ctx1, {
+        type: 'radar',
+        data: {
+            labels: ["HP", "攻撃力", "防御力", "照準値", "運動性", "必殺技威力"],
+            datasets: [
+                {
+                    label: "ラムダ・ストライク（ARX-8）",
+                    data: [
+                        /*     HP   */    0,
+                        /*   攻撃力  */ 25.5 + 8 * MAX_KIRYOKU,
+                        /*   防御力  */    0,
+                        /*   照準値  */ 25.5 + 7 * MAX_KIRYOKU,
+                        /*   運動性  */ 25.5 + 8 * MAX_KIRYOKU,
+                        /* 必殺技威力 */  8.5
+                    ]
+                },
+                {
+                    label: "デモリッションガン ガン・ハウザーモード（MAP）",
+                    data: [
+                       /*     HP    */    0,
+                       /*    攻撃力  */ 23.5 + 8 * MAX_KIRYOKU,
+                       /*    防御力  */    0,
+                       /*    照準値  */ 23.5 + 6 * MAX_KIRYOKU,
+                       /*    運動性  */ 23.5 + 8 * MAX_KIRYOKU,
+                       /*  必殺技威力 */  8.5
+                    ]
+                },
+                {
+                    label: "デモリッションガン",
+                    data: [
+                       /*     HP    */    0,
+                       /*    攻撃力  */ 22.5 + 7 * MAX_KIRYOKU,
+                       /*    防御力  */    0,
+                       /*    照準値  */ 22.5 + 6 * MAX_KIRYOKU,
+                       /*    運動性  */ 22.5 + 6 * MAX_KIRYOKU,
+                       /*  必殺技威力 */    8
+                    ]
+                }
+            ]
+        }
+    });
+</script>
+
+<h2 id="必殺技">必殺技</h2>
+
+<h3 id="デバフその他スキル-1">デバフ・その他スキル</h3>
+
+<ul>
+  <li>SSR+ ラムダ・ストライク（ARX-8）
+    <ul>
+      <li>ラムダ・ストライク（ARX-8）のブレイクゲージ減少量 +35%</li>
+      <li>反撃時、70%の確率で先制攻撃</li>
+    </ul>
+  </li>
+  <li>SSR+ デモリッションガン ガン・ハウザーモード（MAP）
+    <ul>
+      <li>移動力 +1 (重複可)</li>
+      <li>デモリッションガン ガン・ハウザーモード（MAP）のブレイクゲージ減少量 +35%</li>
+    </ul>
+  </li>
+  <li>SSR+ デモリッションガン
+    <ul>
+      <li>MAP兵器以外の最大射程 +1 (重複不可)</li>
+      <li>デモリッションガン命中時
+        <ul>
+          <li>「覚醒」を発動</li>
+        </ul>
+      </li>
+      <li>戦闘時
+        <ul>
+          <li>命中ユニットのサイズ差による与ダメージ減少効果を無効化</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<canvas id="chart-2" style="background-color: #fff"></canvas>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script>
+    // chart
+    const MAX_KIRYOKU = (180 - 100) / 10;
+    const NUMBER_OF_BATTLES = 5;
+    const ctx1 = document.getElementById('chart-2');
+    new Chart(ctx1, {
+        type: 'radar',
+        data: {
+            labels: ["HP", "攻撃力", "防御力", "照準値", "運動性", "必殺技威力"],
+            datasets: [
+                {
+                    label: "ラムダ・ストライク（ARX-8）",
+                    data: [
+                        /*     HP   */    0,
+                        /*   攻撃力  */    2 * MAX_KIRYOKU,
+                        /*   防御力  */    0,
+                        /*   照準値  */    2 * MAX_KIRYOKU,
+                        /*   運動性  */    2 * MAX_KIRYOKU,
+                        /* 必殺技威力 */  4.5
+                    ]
+                },
+                {
+                    label: "デモリッションガン ガン・ハウザーモード（MAP）",
+                    data: [
+                       /*     HP    */    0,
+                       /*    攻撃力  */    2 * MAX_KIRYOKU,
+                       /*    防御力  */    0,
+                       /*    照準値  */    2 * MAX_KIRYOKU,
+                       /*    運動性  */    2 * MAX_KIRYOKU,
+                       /*  必殺技威力 */    0
+                    ]
+                },
+                {
+                    label: "デモリッションガン",
+                    data: [
+                       /*     HP    */    0,
+                       /*    攻撃力  */    2 * MAX_KIRYOKU,
+                       /*    防御力  */    0,
+                       /*    照準値  */    2 * MAX_KIRYOKU,
+                       /*    運動性  */    2 * MAX_KIRYOKU,
+                       /*  必殺技威力 */    0
+                    ]
+                }
+            ]
+        }
+    });
+</script>
+
+<h2 id="main--必殺技">MAIN + 必殺技</h2>
+
+<h3 id="組み合わせ">組み合わせ</h3>
+<ul>
+  <li>MAIN
+    <ul>
+      <li>必殺技①</li>
+      <li>必殺技②</li>
+    </ul>
+  </li>
+  <li>① SSR+ ラムダ・ストライク（ARX-8）
+    <ul>
+      <li>SSR+ デモリッションガン ガン・ハウザーモード（MAP）</li>
+      <li>SSR+ デモリッションガン</li>
+    </ul>
+  </li>
+  <li>② SSR+ デモリッションガン ガン・ハウザーモード（MAP）
+    <ul>
+      <li>SSR+ ラムダ・ストライク（ARX-8）</li>
+      <li>SSR+ デモリッションガン</li>
+    </ul>
+  </li>
+  <li>③ SSR+ デモリッションガン
+    <ul>
+      <li>SSR+ ラムダ・ストライク（ARX-8）</li>
+      <li>SSR+ デモリッションガン ガン・ハウザーモード（MAP）</li>
+    </ul>
+  </li>
+</ul>
+
+<canvas id="chart-3" style="background-color: #fff"></canvas>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script>
+    // chart
+    const MAX_KIRYOKU = (180 - 100) / 10;
+    const NUMBER_OF_BATTLES = 5;
+    const ctx1 = document.getElementById('chart-3');
+    new Chart(ctx1, {
+        type: 'radar',
+        data: {
+            labels: ["HP", "攻撃力", "防御力", "照準値", "運動性", "必殺技威力"],
+            datasets: [
+                {
+                    label: "ラムダ・ストライク（ARX-8）",
+                    data: [
+                        /*     HP   */    0,
+                        /*   攻撃力  */ 25.5 + 8 * MAX_KIRYOKU + 2 * MAX_KIRYOKU + 2 * MAX_KIRYOKU,
+                        /*   防御力  */    0,
+                        /*   照準値  */ 25.5 + 7 * MAX_KIRYOKU + 2 * MAX_KIRYOKU + 2 * MAX_KIRYOKU,
+                        /*   運動性  */ 25.5 + 8 * MAX_KIRYOKU + 2 * MAX_KIRYOKU + 2 * MAX_KIRYOKU,
+                        /* 必殺技威力 */  8.5
+                    ]
+                },
+                {
+                    label: "デモリッションガン ガン・ハウザーモード（MAP）",
+                    data: [
+                       /*     HP    */    0,
+                       /*    攻撃力  */ 23.5 + 8 * MAX_KIRYOKU + 2 * MAX_KIRYOKU + 2 * MAX_KIRYOKU,
+                       /*    防御力  */    0,
+                       /*    照準値  */ 23.5 + 6 * MAX_KIRYOKU + 2 * MAX_KIRYOKU + 2 * MAX_KIRYOKU,
+                       /*    運動性  */ 23.5 + 8 * MAX_KIRYOKU + 2 * MAX_KIRYOKU + 2 * MAX_KIRYOKU,
+                       /*  必殺技威力 */  8.5
+                    ]
+                },
+                {
+                    label: "デモリッションガン",
+                    data: [
+                       /*     HP    */    0,
+                       /*    攻撃力  */ 22.5 + 7 * MAX_KIRYOKU + 2 * MAX_KIRYOKU + 2 * MAX_KIRYOKU,
+                       /*    防御力  */    0,
+                       /*    照準値  */ 22.5 + 6 * MAX_KIRYOKU + 2 * MAX_KIRYOKU + 2 * MAX_KIRYOKU,
+                       /*    運動性  */ 22.5 + 6 * MAX_KIRYOKU + 2 * MAX_KIRYOKU + 2 * MAX_KIRYOKU,
+                       /*  必殺技威力 */    8
+                    ]
+                }
+            ]
+        }
+    });
+</script>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[比較対象]]></summary></entry><entry><title type="html">ARX-8 レーバテインのSUB比較</title><link href="https://makietan.github.io/game/srwdd/2025/04/07/report.html" rel="alternate" type="text/html" title="ARX-8 レーバテインのSUB比較" /><published>2025-04-07T00:00:00+09:00</published><updated>2025-04-07T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2025/04/07/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2025/04/07/report.html"><![CDATA[<h2 id="確認ステージ">確認ステージ</h2>
 
 <ul>
   <li>ワールド4 EXTRA ステージ6</li>
@@ -723,107 +1036,4 @@
   <li>戦闘時、相手の被ダメージ軽減効果の上限値を40%に抑える</li>
   <li>自分のアクション時に2回行動する</li>
   <li>被ダメージ時と攻撃命中時の気力上昇量が3増加する</li>
-</ul>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[個人的なメモ]]></summary></entry><entry><title type="html">制圧戦最終エリア拠点1 ボス「GN-ⅩⅢ（パトリック・コーラサワー）」</title><link href="https://makietan.github.io/game/srwdd/2025/03/30/report.html" rel="alternate" type="text/html" title="制圧戦最終エリア拠点1 ボス「GN-ⅩⅢ（パトリック・コーラサワー）」" /><published>2025-03-30T00:00:00+09:00</published><updated>2025-03-30T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2025/03/30/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2025/03/30/report.html"><![CDATA[<h2 id="個人的なメモ">個人的なメモ</h2>
-
-<ul>
-  <li>最終エリア9回戦闘する前にM9Dファルケで撃墜できた</li>
-  <li>M9ガーンズバック（クルツ）を射程を離し忘れて撃墜された</li>
-</ul>
-
-<h2 id="gn-ⅹⅲ">GN-ⅩⅢ</h2>
-
-<table>
-  <thead>
-    <tr>
-      <th style="text-align: center">タイプ</th>
-      <th style="text-align: center">弱点</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: center">バランス</td>
-      <td style="text-align: center">実弾/ビーム</td>
-    </tr>
-  </tbody>
-</table>
-
-<table>
-  <thead>
-    <tr>
-      <th style="text-align: center">気力</th>
-      <th style="text-align: center">HP</th>
-      <th style="text-align: center">攻撃力</th>
-      <th style="text-align: center">防御力</th>
-      <th style="text-align: center">照準値</th>
-      <th style="text-align: center">運動性</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: center">150</td>
-      <td style="text-align: center">515000</td>
-      <td style="text-align: center">52047?</td>
-      <td style="text-align: center">66230?</td>
-      <td style="text-align: center">2769?</td>
-      <td style="text-align: center">2176?</td>
-    </tr>
-  </tbody>
-</table>
-
-<table>
-  <thead>
-    <tr>
-      <th style="text-align: center">移動</th>
-      <th style="text-align: center">スピード</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: center">3</td>
-      <td style="text-align: center">650</td>
-    </tr>
-  </tbody>
-</table>
-
-<h3 id="特徴">特徴</h3>
-<ul>
-  <li><span style="color:deepskyblue;">ブレイク時、防御力が減少する</span></li>
-  <li>撃墜可能なユニットを狙う</li>
-  <li>HPが減少すると精神コマンド「気合」「鉄壁」「不屈」「屈強」を使用する</li>
-</ul>
-
-<h3 id="main">MAIN</h3>
-<ul>
-  <li>戦闘回数に応じて、攻撃力・防御力・照準値・運動性が8%増加する（最大72%/9回）</li>
-  <li>HP65以下のとき防御力が50%増加</li>
-  <li>ブレイク状態でないとき、自分のアクション時に2回行動する
-    <ul>
-      <li>→ <span style="color:deepskyblue">ブレイク時、1回行動</span></li>
-    </ul>
-  </li>
-  <li>戦闘時、相手の被ダメージ軽減効果の上限値を40%にす抑える</li>
-  <li>被ダメージ時と攻撃命中時の気力上昇量が3増加する</li>
-</ul>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[個人的なメモ]]></summary></entry><entry><title type="html">pipenv がカレントディレクトリじゃなく親ディレクトリを参照してしまう件</title><link href="https://makietan.github.io/tech/2025/03/29/report.html" rel="alternate" type="text/html" title="pipenv がカレントディレクトリじゃなく親ディレクトリを参照してしまう件" /><published>2025-03-29T00:00:00+09:00</published><updated>2025-03-29T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2025/03/29/report</id><content type="html" xml:base="https://makietan.github.io/tech/2025/03/29/report.html"><![CDATA[<p>以下を実行すればファイルが生成される。</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>PIPENV_NO_INHERIT=True pipenv --python 3
-</code></pre></div></div>
-
-<p>その後のコマンドはカレントディレクトリのPipfileに記載されているので環境変数は不要になりそう。</p>
-
-<h2 id="参照">参照</h2>
-
-<div class="card">
-  <a href="https://qiita.com/sndstudy/items/23cc7f9c95ab76b28120"></a>
-  <div class="card__header">
-    <a href="https://qiita.com/sndstudy/items/23cc7f9c95ab76b28120">qiita.com</a>
-  </div>
-  <div class="card__image">
-    <img src="https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-user-contents.imgix.net%2Fhttps%253A%252F%252Fcdn.qiita.com%252Fassets%252Fpublic%252Farticle-ogp-background-afbab5eb44e0b055cce1258705637a91.png%3Fixlib%3Drb-4.0.0%26w%3D1200%26blend64%3DaHR0cHM6Ly9xaWl0YS11c2VyLXByb2ZpbGUtaW1hZ2VzLmltZ2l4Lm5ldC9odHRwcyUzQSUyRiUyRnFpaXRhLWltYWdlLXN0b3JlLnMzLmFwLW5vcnRoZWFzdC0xLmFtYXpvbmF3cy5jb20lMkYwJTJGMjUyMjQxJTJGcHJvZmlsZS1pbWFnZXMlMkYxNjg1ODA5ODQ3P2l4bGliPXJiLTQuMC4wJmFyPTElM0ExJmZpdD1jcm9wJm1hc2s9ZWxsaXBzZSZmbT1wbmczMiZzPWFjNjQ5NDBiN2M4ZTBiMmIyN2MwMGJhN2JiMjlmYzFi%26blend-x%3D120%26blend-y%3D467%26blend-w%3D82%26blend-h%3D82%26blend-mode%3Dnormal%26s%3D8b2ba784c414483f3821d40d06290509?ixlib=rb-4.0.0&amp;w=1200&amp;fm=jpg&amp;mark64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjAuMCZ3PTk2MCZoPTMyNCZ0eHQ9JUUzJTgyJUFCJUUzJTgzJUFDJUUzJTgzJUIzJUUzJTgzJTg4JUUzJTgzJTg3JUUzJTgyJUEzJUUzJTgzJUFDJUUzJTgyJUFGJUUzJTgzJTg4JUUzJTgzJUFBJUUzJTgxJUFCUGlwZmlsZSVFMyU4MSU4QyVFNCVCRCU5QyVFNiU4OCU5MCVFMyU4MSU5NSVFMyU4MiU4QyVFMyU4MSVBQSVFMyU4MSU4NCZ0eHQtYWxpZ249bGVmdCUyQ3RvcCZ0eHQtY29sb3I9JTIzMUUyMTIxJnR4dC1mb250PUhpcmFnaW5vJTIwU2FucyUyMFc2JnR4dC1zaXplPTU2JnR4dC1wYWQ9MCZzPWQwNWZlMGFhYTZhMjc4NTVhZDJjYmVhM2NlODM3ZDhm&amp;mark-x=120&amp;mark-y=112&amp;blend64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjAuMCZ3PTgzOCZoPTU4JnR4dD0lNDBzbmRzdHVkeSZ0eHQtY29sb3I9JTIzMUUyMTIxJnR4dC1mb250PUhpcmFnaW5vJTIwU2FucyUyMFc2JnR4dC1zaXplPTM2JnR4dC1wYWQ9MCZzPTBhZTRiMTFlMTE5NDdmYjA2MDBkZmQ5MjUyZmVjZjI2&amp;blend-x=242&amp;blend-y=480&amp;blend-w=838&amp;blend-h=46&amp;blend-fit=crop&amp;blend-crop=left%2Cbottom&amp;blend-mode=normal&amp;s=0dcbc85bce3545f03e08cc3e1bd43e73" />
-  </div>
-  <div class="card__title">
-    <p>カレントディレクトリにPipfileが作成されない #Python - Qiita</p>
-  </div>
-  <div class="card__description">
-    <p>事象pipenvで仮想環境を作成した時にカレントディレクトリにPipfileが作成されないparent    └── child　←このディレクトリに作成したいが「parent」ディレクトリに作成され…</p>
-  </div>
-</div>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[以下を実行すればファイルが生成される。]]></summary></entry></feed>
+</ul>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[個人的なメモ]]></summary></entry></feed>
