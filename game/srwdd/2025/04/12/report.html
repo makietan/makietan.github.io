@@ -13,8 +13,8 @@
 <meta property="og:title" content="ARX-8 レーバテインの武器比較" />
 <meta name="author" content="makietan" />
 <meta property="og:locale" content="ja" />
-<meta name="description" content="比較対象" />
-<meta property="og:description" content="比較対象" />
+<meta name="description" content="ここは日報をメインに書きます." />
+<meta property="og:description" content="ここは日報をメインに書きます." />
 <link rel="canonical" href="https://makietan.github.io/game/srwdd/2025/04/12/report.html" />
 <meta property="og:url" content="https://makietan.github.io/game/srwdd/2025/04/12/report.html" />
 <meta property="og:site_name" content="肉とお米とブロッコリー" />
@@ -23,7 +23,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="ARX-8 レーバテインの武器比較" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"makietan"},"dateModified":"2025-04-12T00:00:00+09:00","datePublished":"2025-04-12T00:00:00+09:00","description":"比較対象","headline":"ARX-8 レーバテインの武器比較","mainEntityOfPage":{"@type":"WebPage","@id":"https://makietan.github.io/game/srwdd/2025/04/12/report.html"},"url":"https://makietan.github.io/game/srwdd/2025/04/12/report.html"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"makietan"},"dateModified":"2025-04-12T00:00:00+09:00","datePublished":"2025-04-12T00:00:00+09:00","description":"ここは日報をメインに書きます.","headline":"ARX-8 レーバテインの武器比較","mainEntityOfPage":{"@type":"WebPage","@id":"https://makietan.github.io/game/srwdd/2025/04/12/report.html"},"url":"https://makietan.github.io/game/srwdd/2025/04/12/report.html"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="https://makietan.github.io/feed.xml" title="肉とお米とブロッコリー" /><meta name="msvalidate.01" content="89F1D244C30C26610D2EB5442A4DA1D8" />
 <!-- Google tag (gtag.js) -->
@@ -100,7 +100,12 @@
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    <h2 id="比較対象">比較対象</h2>
+    <script>
+  const MAX_KIRYOKU = (180 - 100) / 10;
+  const NUMBER_OF_BATTLES = 5;
+</script>
+
+<h2 id="比較対象">比較対象</h2>
 
 <ul>
   <li>SSR+ ラムダ・ストライク（ARX-8）</li>
@@ -109,6 +114,7 @@
 </ul>
 
 <h2 id="前提条件">前提条件</h2>
+
 <ul>
   <li>気力上限180</li>
 </ul>
@@ -201,8 +207,6 @@
 
 <script>
     // chart
-    const MAX_KIRYOKU = (180 - 100) / 10;
-    const NUMBER_OF_BATTLES = 5;
     const ctx1 = document.getElementById('chart-1');
     new Chart(ctx1, {
         type: 'radar',
@@ -287,10 +291,8 @@
 
 <script>
     // chart
-    const MAX_KIRYOKU = (180 - 100) / 10;
-    const NUMBER_OF_BATTLES = 5;
-    const ctx1 = document.getElementById('chart-2');
-    new Chart(ctx1, {
+    const ctx2 = document.getElementById('chart-2');
+    new Chart(ctx2, {
         type: 'radar',
         data: {
             labels: ["HP", "攻撃力", "防御力", "照準値", "運動性", "必殺技威力"],
@@ -369,10 +371,8 @@
 
 <script>
     // chart
-    const MAX_KIRYOKU = (180 - 100) / 10;
-    const NUMBER_OF_BATTLES = 5;
-    const ctx1 = document.getElementById('chart-3');
-    new Chart(ctx1, {
+    const ctx3 = document.getElementById('chart-3');
+    new Chart(ctx3, {
         type: 'radar',
         data: {
             labels: ["HP", "攻撃力", "防御力", "照準値", "運動性", "必殺技威力"],

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2025-04-13T19:55:12+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">結婚報告はある程度経過報告してからやってくれ</title><link href="https://makietan.github.io/human/2025/04/13/report.html" rel="alternate" type="text/html" title="結婚報告はある程度経過報告してからやってくれ" /><published>2025-04-13T00:00:00+09:00</published><updated>2025-04-13T00:00:00+09:00</updated><id>https://makietan.github.io/human/2025/04/13/report</id><content type="html" xml:base="https://makietan.github.io/human/2025/04/13/report.html"><![CDATA[<p>急にされても「あっそう」くらいしか出てこないんだわ。</p>]]></content><author><name>makietan</name></author><category term="human" /><summary type="html"><![CDATA[急にされても「あっそう」くらいしか出てこないんだわ。]]></summary></entry><entry><title type="html">ARX-8 レーバテインの武器比較</title><link href="https://makietan.github.io/game/srwdd/2025/04/12/report.html" rel="alternate" type="text/html" title="ARX-8 レーバテインの武器比較" /><published>2025-04-12T00:00:00+09:00</published><updated>2025-04-12T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2025/04/12/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2025/04/12/report.html"><![CDATA[<h2 id="比較対象">比較対象</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2025-04-13T21:45:28+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">結婚報告はある程度経過報告してからやってくれ</title><link href="https://makietan.github.io/human/2025/04/13/report.html" rel="alternate" type="text/html" title="結婚報告はある程度経過報告してからやってくれ" /><published>2025-04-13T00:00:00+09:00</published><updated>2025-04-13T00:00:00+09:00</updated><id>https://makietan.github.io/human/2025/04/13/report</id><content type="html" xml:base="https://makietan.github.io/human/2025/04/13/report.html"><![CDATA[<p>急にされても「あっそう」くらいしか出てこないんだわ。</p>]]></content><author><name>makietan</name></author><category term="human" /><summary type="html"><![CDATA[急にされても「あっそう」くらいしか出てこないんだわ。]]></summary></entry><entry><title type="html">ARX-8 レーバテインの武器比較</title><link href="https://makietan.github.io/game/srwdd/2025/04/12/report.html" rel="alternate" type="text/html" title="ARX-8 レーバテインの武器比較" /><published>2025-04-12T00:00:00+09:00</published><updated>2025-04-12T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2025/04/12/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2025/04/12/report.html"><![CDATA[<script>
+  const MAX_KIRYOKU = (180 - 100) / 10;
+  const NUMBER_OF_BATTLES = 5;
+</script>
+
+<h2 id="比較対象">比較対象</h2>
 
 <ul>
   <li>SSR+ ラムダ・ストライク（ARX-8）</li>
@@ -7,6 +12,7 @@
 </ul>
 
 <h2 id="前提条件">前提条件</h2>
+
 <ul>
   <li>気力上限180</li>
 </ul>
@@ -99,8 +105,6 @@
 
 <script>
     // chart
-    const MAX_KIRYOKU = (180 - 100) / 10;
-    const NUMBER_OF_BATTLES = 5;
     const ctx1 = document.getElementById('chart-1');
     new Chart(ctx1, {
         type: 'radar',
@@ -185,10 +189,8 @@
 
 <script>
     // chart
-    const MAX_KIRYOKU = (180 - 100) / 10;
-    const NUMBER_OF_BATTLES = 5;
-    const ctx1 = document.getElementById('chart-2');
-    new Chart(ctx1, {
+    const ctx2 = document.getElementById('chart-2');
+    new Chart(ctx2, {
         type: 'radar',
         data: {
             labels: ["HP", "攻撃力", "防御力", "照準値", "運動性", "必殺技威力"],
@@ -267,10 +269,8 @@
 
 <script>
     // chart
-    const MAX_KIRYOKU = (180 - 100) / 10;
-    const NUMBER_OF_BATTLES = 5;
-    const ctx1 = document.getElementById('chart-3');
-    new Chart(ctx1, {
+    const ctx3 = document.getElementById('chart-3');
+    new Chart(ctx3, {
         type: 'radar',
         data: {
             labels: ["HP", "攻撃力", "防御力", "照準値", "運動性", "必殺技威力"],
@@ -311,7 +311,7 @@
             ]
         }
     });
-</script>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[比較対象]]></summary></entry><entry><title type="html">オリックス・バファローズがなんか強い</title><link href="https://makietan.github.io/baseball/2025/04/11/report.html" rel="alternate" type="text/html" title="オリックス・バファローズがなんか強い" /><published>2025-04-11T00:00:00+09:00</published><updated>2025-04-11T00:00:00+09:00</updated><id>https://makietan.github.io/baseball/2025/04/11/report</id><content type="html" xml:base="https://makietan.github.io/baseball/2025/04/11/report.html"><![CDATA[<p>オープン戦最下位だったのに、開幕すると何故か1位に…。</p>
+</script>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">オリックス・バファローズがなんか強い</title><link href="https://makietan.github.io/baseball/2025/04/11/report.html" rel="alternate" type="text/html" title="オリックス・バファローズがなんか強い" /><published>2025-04-11T00:00:00+09:00</published><updated>2025-04-11T00:00:00+09:00</updated><id>https://makietan.github.io/baseball/2025/04/11/report</id><content type="html" xml:base="https://makietan.github.io/baseball/2025/04/11/report.html"><![CDATA[<p>オープン戦最下位だったのに、開幕すると何故か1位に…。</p>
 
 <p>なんでや。</p>]]></content><author><name>makietan</name></author><category term="baseball" /><summary type="html"><![CDATA[オープン戦最下位だったのに、開幕すると何故か1位に…。]]></summary></entry><entry><title type="html">ARX-8 レーバテインのSUB比較</title><link href="https://makietan.github.io/game/srwdd/2025/04/07/report.html" rel="alternate" type="text/html" title="ARX-8 レーバテインのSUB比較" /><published>2025-04-07T00:00:00+09:00</published><updated>2025-04-07T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2025/04/07/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2025/04/07/report.html"><![CDATA[<h2 id="確認ステージ">確認ステージ</h2>
 
