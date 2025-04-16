@@ -7,6 +7,7 @@ permalink: /links/
 ## Youtube
 - [makietan \- YouTube](https://www.youtube.com/@makietan) - メイン
 - [牧江単 \- YouTube](https://www.youtube.com/@makietangup) - 戦車道大作戦
+- [まきえたんDD \- YouTube](https://www.youtube.com/@makietanDD) - スパロボDD 
 
 ## Twitter
 - [@makietanx](https://twitter.com/makietanX) - 現・メイン
@@ -17,6 +18,7 @@ permalink: /links/
 - [@makietan](https://twitter.com/makietan) - 旧・メイン
 - [@makietanFX](https://twitter.com/makietanFX) - 旧・FX
 - [@makietan2](https://twitter.com/makietan2) - プライベート
+- [@makietanP](https://x.com/makietanP) - プチミレ専用
 
 ## Blog
 - [役に立ちそうで役に立たないブログ](https://tanjoin.hatenablog.com/)
