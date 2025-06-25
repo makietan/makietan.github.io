@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2025-06-25T11:49:06+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">画像の代替テキストを読み上げるJavaScript</title><link href="https://makietan.github.io/copilot/tech/2025/06/25/report.html" rel="alternate" type="text/html" title="画像の代替テキストを読み上げるJavaScript" /><published>2025-06-25T00:00:00+09:00</published><updated>2025-06-25T00:00:00+09:00</updated><id>https://makietan.github.io/copilot/tech/2025/06/25/report</id><content type="html" xml:base="https://makietan.github.io/copilot/tech/2025/06/25/report.html"><![CDATA[<p><strong>この記事はCopilotの実験的な機能を使って一部書かれています。</strong></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2025-06-25T12:24:54+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">画像の代替テキストを読み上げるJavaScript</title><link href="https://makietan.github.io/copilot/tech/2025/06/25/report.html" rel="alternate" type="text/html" title="画像の代替テキストを読み上げるJavaScript" /><published>2025-06-25T00:00:00+09:00</published><updated>2025-06-25T00:00:00+09:00</updated><id>https://makietan.github.io/copilot/tech/2025/06/25/report</id><content type="html" xml:base="https://makietan.github.io/copilot/tech/2025/06/25/report.html"><![CDATA[<p><strong>この記事はCopilotの実験的な機能を使って一部書かれています。</strong></p>
 
 <p>なんとなく画像の代替テキストを読み上げるJavaScriptを書いてみました。<br />
 画像を含むリンクをクリックすると、その画像のalt属性の内容を音声で読み上げます。以下のコードをHTMLに追加するだけで利用できます。
@@ -35,11 +35,62 @@
 
 <p>以下のリンクをブックマークバーにドラッグ＆ドロップしておくと、どのウェブサイトでも利用できます。</p>
 
-<p><a href="javascript:(() =&gt; { [...document.querySelectorAll('a:has(img)')].forEach((a) =&gt; { a.addEventListener('click', (e) =&gt; { window.speechSynthesis.speak(new SpeechSynthesisUtterance(e.currentTarget.querySelector('img').alt)); }); }); document.querySelectorAll('img').forEach((img) =&gt; { img.addEventListener('click', (e) =&gt; { window.speechSynthesis.speak(new SpeechSynthesisUtterance(e.currentTarget.alt)); }); }); })();">画像の代替テキストを読み上げる（全画像対応）</a></p>]]></content><author><name>makietan</name></author><category term="copilot" /><category term="tech" /><summary type="html"><![CDATA[この記事はCopilotの実験的な機能を使って一部書かれています。]]></summary></entry><entry><title type="html">目の調子がよくない</title><link href="https://makietan.github.io/health/2025/06/19/report.html" rel="alternate" type="text/html" title="目の調子がよくない" /><published>2025-06-19T00:00:00+09:00</published><updated>2025-06-19T00:00:00+09:00</updated><id>https://makietan.github.io/health/2025/06/19/report</id><content type="html" xml:base="https://makietan.github.io/health/2025/06/19/report.html"><![CDATA[<p>昼間なんか目がシバシバする。</p>
+<p><a href="javascript:(() =&gt; { [...document.querySelectorAll('a:has(img)')].forEach((a) =&gt; { a.addEventListener('click', (e) =&gt; { window.speechSynthesis.speak(new SpeechSynthesisUtterance(e.currentTarget.querySelector('img').alt)); }); }); document.querySelectorAll('img').forEach((img) =&gt; { img.addEventListener('click', (e) =&gt; { window.speechSynthesis.speak(new SpeechSynthesisUtterance(e.currentTarget.alt)); }); }); })();">画像の代替テキストを読み上げる（全画像対応）</a></p>]]></content><author><name>makietan</name></author><category term="copilot" /><category term="tech" /><summary type="html"><![CDATA[この記事はCopilotの実験的な機能を使って一部書かれています。]]></summary></entry><entry><title type="html">Copilot 実験: FXトレードのメンタル</title><link href="https://makietan.github.io/copilot/fx/2025/06/24/report.html" rel="alternate" type="text/html" title="Copilot 実験: FXトレードのメンタル" /><published>2025-06-24T00:00:00+09:00</published><updated>2025-06-24T00:00:00+09:00</updated><id>https://makietan.github.io/copilot/fx/2025/06/24/report</id><content type="html" xml:base="https://makietan.github.io/copilot/fx/2025/06/24/report.html"><![CDATA[<p><strong>この記事はCopilotの実験的な機能を使って一部書かれています。</strong></p>
+
+<p>最近、FXの取引で大きな損失を出してしまい、正直メンタルがかなりやられていました。チャートを見てはため息、ポジションを持つたびに不安が募る日々…。冷静さを失って無理なトレードを繰り返し、さらに傷口を広げてしまいました。</p>
+
+<p>やっぱり、資金管理とメンタルコントロールの大切さを痛感しています。今は一度立ち止まって、トレードの記録を見直したり、しっかり休息を取るようにしています。焦らず、また前向きに頑張っていきたいです。</p>
+
+<hr />
+
+<p>わりとマジで損失がデカくてヤバいです。</p>]]></content><author><name>makietan</name></author><category term="copilot" /><category term="fx" /><summary type="html"><![CDATA[この記事はCopilotの実験的な機能を使って一部書かれています。]]></summary></entry><entry><title type="html">阿波連さんははかれない2期が最終回を迎えた</title><link href="https://makietan.github.io/copilot/otaku/2025/06/23/report.html" rel="alternate" type="text/html" title="阿波連さんははかれない2期が最終回を迎えた" /><published>2025-06-23T00:00:00+09:00</published><updated>2025-06-23T00:00:00+09:00</updated><id>https://makietan.github.io/copilot/otaku/2025/06/23/report</id><content type="html" xml:base="https://makietan.github.io/copilot/otaku/2025/06/23/report.html"><![CDATA[<p><strong>この記事はCopilotの実験的な機能を使って一部書かれています。</strong></p>
+
+<p>アニメ『阿波連さんははかれない』第2期がついに最終回を迎えました。今期も阿波連さんとライドウくんの独特な距離感や、個性的なキャラクターたちの日常が丁寧に描かれていて、毎週とても癒やされました。</p>
+
+<p>特に最終回では、1期1話を別の視点から振り返る演出があり、これまでの物語の積み重ねや成長がしっかりと感じられる素晴らしい締めくくりでした。ギャグとほのぼのとした雰囲気のバランスも絶妙で、最後まで阿波連さんらしい魅力が詰まった作品だったと思います。</p>
+
+<p>2期の制作に関わったスタッフやキャストの皆さんに感謝しつつ、またいつか続編や特別編が見られることを期待しています。阿波連さん、ライドウくん、素敵な時間をありがとう！</p>]]></content><author><name>makietan</name></author><category term="copilot" /><category term="otaku" /><summary type="html"><![CDATA[この記事はCopilotの実験的な機能を使って一部書かれています。]]></summary></entry><entry><title type="html">2025年7月1日(火)適用の『OCG』リミットレギュレーションで「召命の神弓－アポロウーサ」が禁止になった</title><link href="https://makietan.github.io/copilot/yugioh/2025/06/22/report.html" rel="alternate" type="text/html" title="2025年7月1日(火)適用の『OCG』リミットレギュレーションで「召命の神弓－アポロウーサ」が禁止になった" /><published>2025-06-22T00:00:00+09:00</published><updated>2025-06-22T00:00:00+09:00</updated><id>https://makietan.github.io/copilot/yugioh/2025/06/22/report</id><content type="html" xml:base="https://makietan.github.io/copilot/yugioh/2025/06/22/report.html"><![CDATA[<p><strong>この記事はCopilotの実験的な機能を使って一部書かれています。</strong></p>
+
+<p>2025年7月1日(火)適用の『OCG』リミットレギュレーションで「召命の神弓－アポロウーサ」が禁止カードとなりました。アポロウーサはリンク召喚の容易さと、複数回のモンスター効果無効化能力を持つ点で、長らく環境デッキの強力な制圧札として活躍してきました。</p>
+
+<p>特に、展開力の高いデッキでは初動から簡単にアポロウーサをリンク召喚でき、相手のキーカードや展開を止めることができるため、デュエルの流れを一方的に支配する場面が多く見られました。また、効果無効化が回数制限ではなく攻撃力をコストにする仕様のため、複数回の妨害が可能であり、他の制圧カードと組み合わせることで突破が非常に困難でした。</p>
+
+<p>このような状況から、アポロウーサの存在がデッキ構築やゲーム展開の多様性を損なっていたことは否めません。今回の禁止措置により、今後はより多様な制圧手段や戦略が求められる環境になることが期待されます。アポロウーサの禁止は、OCGの健全な発展とバランス調整の観点から妥当な判断と言えるでしょう。</p>
+
+<hr />
+
+<p>もう二度と返ってくるな。</p>]]></content><author><name>makietan</name></author><category term="copilot" /><category term="yugioh" /><summary type="html"><![CDATA[この記事はCopilotの実験的な機能を使って一部書かれています。]]></summary></entry><entry><title type="html">mono #11 の放送があった</title><link href="https://makietan.github.io/copilot/otaku/2025/06/21/report.html" rel="alternate" type="text/html" title="mono #11 の放送があった" /><published>2025-06-21T00:00:00+09:00</published><updated>2025-06-21T00:00:00+09:00</updated><id>https://makietan.github.io/copilot/otaku/2025/06/21/report</id><content type="html" xml:base="https://makietan.github.io/copilot/otaku/2025/06/21/report.html"><![CDATA[<p><strong>この記事はCopilotの実験的な機能を使って一部書かれています。</strong></p>
+
+<p>今期の推し作品『mono』第11話が放送されました。</p>
+
+<p>今回のエピソードでは、主人公たちがかき氷屋を巡る旅に出かけ、さまざまなかき氷を楽しむ様子が描かれています。特に印象的だったのは、桃のかき氷が売り切れで嘆くシーン。現実でも暑くなってきたので、かき氷が食べたくなる気持ちに共感しました。</p>
+
+<p>『mono』は毎回心温まるストーリーが展開されていて、見ていると自然と笑顔になれる作品です。次回の放送も待ち遠しいですね。これからの展開にも期待しています！</p>
+
+<p>また、次回予告で忍者屋敷について語り尽くしていた敷島桜子も最高でした。</p>
+
+<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">╭━━━━━━━━━━━━╮<br /> 𓐍放送開始まであと𝟙時間𓐍<br />╰━━━━━ｖ━━━━━━╯<br /><br />『mono』第11話次回予告🍧<a href="https://t.co/ItOM8qSdqO">https://t.co/ItOM8qSdqO</a><br /><br />6/21㈯ 24:00～放送！<br />ABEMA・dアニメストアにて地上波同時配信<br /><br />🔸ABEMA<a href="https://t.co/gZpdymMEzS">https://t.co/gZpdymMEzS</a><br />🔹dアニメストア<a href="https://t.co/ZkzM6Wvonj">https://t.co/ZkzM6Wvonj</a><a href="https://twitter.com/hashtag/mono?src=hash&amp;ref_src=twsrc%5Etfw">#mono</a> <a href="https://t.co/oKtao8WWUa">pic.twitter.com/oKtao8WWUa</a></p>&mdash; TVアニメ『mono』公式 (@mono_weekend) <a href="https://twitter.com/mono_weekend/status/1936423867876298850?ref_src=twsrc%5Etfw">June 21, 2025</a></blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<p>今期一番いいキャラですね。</p>]]></content><author><name>makietan</name></author><category term="copilot" /><category term="otaku" /><summary type="html"><![CDATA[この記事はCopilotの実験的な機能を使って一部書かれています。]]></summary></entry><entry><title type="html">朝に松のやでとんかつ定食を食べると晩飯が減らせる</title><link href="https://makietan.github.io/copilot/gourmet/2025/06/20/report.html" rel="alternate" type="text/html" title="朝に松のやでとんかつ定食を食べると晩飯が減らせる" /><published>2025-06-20T00:00:00+09:00</published><updated>2025-06-20T00:00:00+09:00</updated><id>https://makietan.github.io/copilot/gourmet/2025/06/20/report</id><content type="html" xml:base="https://makietan.github.io/copilot/gourmet/2025/06/20/report.html"><![CDATA[<p><strong>この記事はCopilotの実験的な機能を使って一部書かれています。</strong></p>
+
+<p>最近、朝から松のやでとんかつ定食を食べるのがマイブームです。朝ごはんをガッツリ食べると、お昼も夜も自然とご飯の量が減るんですよね。</p>
+
+<p>松のやのとんかつ定食って、ボリュームたっぷりでめちゃくちゃ満足感があります。朝にこれを食べると、昼や夜は軽めでOKになるし、カロリーもコントロールしやすい気がします。</p>
+
+<p>朝ごはんをしっかり食べると、体も元気になるし、仕事とか勉強もはかどる感じ。松のやのとんかつ定食は栄養バランスもいいし、朝からパワーチャージしたいときにぴったりです。</p>
+
+<p>健康にもいいし、この習慣はしばらく続けたいなと思ってます。松のやのとんかつ定食、ほんと最高！</p>]]></content><author><name>makietan</name></author><category term="copilot" /><category term="gourmet" /><summary type="html"><![CDATA[この記事はCopilotの実験的な機能を使って一部書かれています。]]></summary></entry><entry><title type="html">目の調子がよくない</title><link href="https://makietan.github.io/health/2025/06/19/report.html" rel="alternate" type="text/html" title="目の調子がよくない" /><published>2025-06-19T00:00:00+09:00</published><updated>2025-06-19T00:00:00+09:00</updated><id>https://makietan.github.io/health/2025/06/19/report</id><content type="html" xml:base="https://makietan.github.io/health/2025/06/19/report.html"><![CDATA[<p>昼間なんか目がシバシバする。</p>
 
 <p>表現が適切かわからないがそんな感じの症状がある。</p>
 
-<p>久々に目薬でも買おうかな。</p>]]></content><author><name>makietan</name></author><category term="health" /><summary type="html"><![CDATA[昼間なんか目がシバシバする。]]></summary></entry><entry><title type="html">ドコモの害悪メール解除のURL</title><link href="https://makietan.github.io/docomo/2025/06/05/report.html" rel="alternate" type="text/html" title="ドコモの害悪メール解除のURL" /><published>2025-06-05T00:00:00+09:00</published><updated>2025-06-05T00:00:00+09:00</updated><id>https://makietan.github.io/docomo/2025/06/05/report</id><content type="html" xml:base="https://makietan.github.io/docomo/2025/06/05/report.html"><![CDATA[<p><a href="https://dmarket.docomo.ne.jp/mypage/setting/">https://dmarket.docomo.ne.jp/mypage/setting/</a></p>
+<p>久々に目薬でも買おうかな。</p>]]></content><author><name>makietan</name></author><category term="health" /><summary type="html"><![CDATA[昼間なんか目がシバシバする。]]></summary></entry><entry><title type="html">シーチキンと玉ねぎのスライスを混ぜて食べるのが好き</title><link href="https://makietan.github.io/copilot/gourmet/2025/06/18/report.html" rel="alternate" type="text/html" title="シーチキンと玉ねぎのスライスを混ぜて食べるのが好き" /><published>2025-06-18T00:00:00+09:00</published><updated>2025-06-18T00:00:00+09:00</updated><id>https://makietan.github.io/copilot/gourmet/2025/06/18/report</id><content type="html" xml:base="https://makietan.github.io/copilot/gourmet/2025/06/18/report.html"><![CDATA[<p><strong>この記事はCopilotの実験的な機能を使って一部書かれています。</strong></p>
+
+<p>最近、シーチキンと玉ねぎのスライスを混ぜて食べるのがマイブームです。シーチキンの旨味と玉ねぎのシャキシャキ感が絶妙にマッチして、すごく美味しいんですよね。
+シーチキンは手軽にタンパク質が摂れるし、玉ねぎはビタミンやミネラルが豊富で、健康にもいい組み合わせです。
+玉ねぎはスライスして水にさらすと、辛味が和らいで甘みが引き立ちます。シーチキンと混ぜると、まろやかな味わいになって、どんな料理とも相性抜群です。
+サラダにトッピングしたり、パスタに和えたり、いろんなアレンジが楽しめます。特に、シーチキンと玉ねぎのスライスを混ぜたサラダは、さっぱりしていて夏にぴったりです。
+このシンプルな組み合わせ、ぜひ試してみてください。手軽に作れるし、栄養もバランスよく摂れるので、忙しい日にもおすすめです。シーチキンと玉ねぎのスライス、ほんと最高です！</p>]]></content><author><name>makietan</name></author><category term="copilot" /><category term="gourmet" /><summary type="html"><![CDATA[この記事はCopilotの実験的な機能を使って一部書かれています。]]></summary></entry><entry><title type="html">ドコモの害悪メール解除のURL</title><link href="https://makietan.github.io/docomo/2025/06/05/report.html" rel="alternate" type="text/html" title="ドコモの害悪メール解除のURL" /><published>2025-06-05T00:00:00+09:00</published><updated>2025-06-05T00:00:00+09:00</updated><id>https://makietan.github.io/docomo/2025/06/05/report</id><content type="html" xml:base="https://makietan.github.io/docomo/2025/06/05/report.html"><![CDATA[<p><a href="https://dmarket.docomo.ne.jp/mypage/setting/">https://dmarket.docomo.ne.jp/mypage/setting/</a></p>
 
 <p>多分、irumo にしてdメールあたりに送られてた迷惑メールが大量に今使っているメールアドレスに流れてくるようになった感じ。</p>]]></content><author><name>makietan</name></author><category term="docomo" /><summary type="html"><![CDATA[https://dmarket.docomo.ne.jp/mypage/setting/]]></summary></entry><entry><title type="html">AI に難読化されたスクリプトを解析させると面白い</title><link href="https://makietan.github.io/tech/2025/06/02/report.html" rel="alternate" type="text/html" title="AI に難読化されたスクリプトを解析させると面白い" /><published>2025-06-02T00:00:00+09:00</published><updated>2025-06-02T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2025/06/02/report</id><content type="html" xml:base="https://makietan.github.io/tech/2025/06/02/report.html"><![CDATA[<p>変数をそれっぽいものにしてもらえば非常に読みやすくなるし、何をしているのかわからない場合はコードを丸ごと投げて処理の説明をしてもらう。</p>
 
@@ -47,151 +98,4 @@
 
 <p>どうやって守ればいいのかわからないよ。</p>
 
-<p>やっぱ古典的な回数制限とかIP制限とか色々とやっていくしかないね。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[変数をそれっぽいものにしてもらえば非常に読みやすくなるし、何をしているのかわからない場合はコードを丸ごと投げて処理の説明をしてもらう。]]></summary></entry><entry><title type="html">遊戯王マスターデュエルのリミットレギュレーション分解ボーナスチェッカー</title><link href="https://makietan.github.io/game/yugioh/2025/06/01/report.html" rel="alternate" type="text/html" title="遊戯王マスターデュエルのリミットレギュレーション分解ボーナスチェッカー" /><published>2025-06-01T00:00:00+09:00</published><updated>2025-06-01T00:00:00+09:00</updated><id>https://makietan.github.io/game/yugioh/2025/06/01/report</id><content type="html" xml:base="https://makietan.github.io/game/yugioh/2025/06/01/report.html"><![CDATA[<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
-
-<h2 id="分解ボーナス期間">分解ボーナス期間</h2>
-
-<p>2025/06/01 10:00 - 2025/07/04 12:59</p>
-
-<h2 id="無制限--制限-2枚分解">無制限 → 制限 (2枚分解)</h2>
-
-<div class="row pb-4">
-<input type="checkbox" class="btn-check count-three" id="原罪宝－スネークアイ" autocomplete="off" />
-<label class="btn btn-outline-secondary" for="原罪宝－スネークアイ">【UR】原罪宝－スネークアイ</label><br />
-</div>
-
-<h2 id="準制限--制限-1枚分解">準制限 → 制限 (1枚分解)</h2>
-
-<div class="row pb-4">
-<input type="checkbox" class="btn-check" id="篝火" autocomplete="off" />
-<label class="btn btn-outline-secondary" for="篝火">【UR】篝火</label><br />
-</div>
-
-<h2 id="無制限--準制限-1枚分解">無制限 → 準制限 (1枚分解)</h2>
-
-<div class="row pb-4">
-<input type="checkbox" class="btn-check" id="白き乙女" autocomplete="off" />
-<label class="btn btn-outline-secondary" for="白き乙女">【UR】白き乙女</label><br />
-<input type="checkbox" class="btn-check" id="青き眼の賢士" autocomplete="off" />
-<label class="btn btn-outline-secondary" for="青き眼の賢士">【SR】青き眼の賢士</label><br />
-</div>
-
-<h2 id="制限--準制限-1枚生成"><span style="color:lightgray;">制限 → 準制限 (1枚生成)</span></h2>
-
-<div class="row pb-4">
-  <input type="checkbox" class="btn-check" id="烙印融合" autocomplete="off" />
-  <label class="btn btn-outline-secondary" for="烙印融合">【UR】烙印融合</label><br />
-</div>
-
-<h2 id="制限--無制限-2枚生成"><span style="color:lightgray;">制限 → 無制限 (2枚生成)</span></h2>
-
-<div class="row pb-4">
-  <input type="checkbox" class="btn-check count-three" id="素早いビーバー" autocomplete="off" />
-  <label class="btn btn-outline-secondary" for="素早いビーバー">【SR】素早いビーバー</label><br />
-</div>
-
-<h2 id="準制限--無制限-1枚生成"><span style="color:lightgray;">準制限 → 無制限 (1枚生成)</span></h2>
-
-<div class="row pb-4">
-  <input type="checkbox" class="btn-check" id="スプライト・ブルー" autocomplete="off" />
-  <label class="btn btn-outline-secondary" for="スプライト・ブルー">【UR】スプライト・ブルー</label><br />
-  <input type="checkbox" class="btn-check" id="天底の使徒" autocomplete="off" />
-  <label class="btn btn-outline-secondary" for="天底の使徒">【UR】天底の使徒</label><br />
-  <input type="checkbox" class="btn-check" id="スプライト・ジェット" autocomplete="off" />
-  <label class="btn btn-outline-secondary" for="スプライト・ジェット">【SR】スプライト・ジェット</label><br />
-</div>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>]]></content><author><name>makietan</name></author><category term="game" /><category term="yugioh" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">ドコモのお申込み履歴の確認ページ</title><link href="https://makietan.github.io/docomo/2025/05/31/report.html" rel="alternate" type="text/html" title="ドコモのお申込み履歴の確認ページ" /><published>2025-05-31T00:00:00+09:00</published><updated>2025-05-31T00:00:00+09:00</updated><id>https://makietan.github.io/docomo/2025/05/31/report</id><content type="html" xml:base="https://makietan.github.io/docomo/2025/05/31/report.html"><![CDATA[<p><a href="https://application.ald.smt.docomo.ne.jp/sr">https://application.ald.smt.docomo.ne.jp/sr</a></p>]]></content><author><name>makietan</name></author><category term="docomo" /><summary type="html"><![CDATA[https://application.ald.smt.docomo.ne.jp/sr]]></summary></entry><entry><title type="html">Switch2 また外れた…</title><link href="https://makietan.github.io/game/2025/05/20/report.html" rel="alternate" type="text/html" title="Switch2 また外れた…" /><published>2025-05-20T00:00:00+09:00</published><updated>2025-05-20T00:00:00+09:00</updated><id>https://makietan.github.io/game/2025/05/20/report</id><content type="html" xml:base="https://makietan.github.io/game/2025/05/20/report.html"><![CDATA[<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">薄目で見た。 <a href="https://t.co/HQUpLTSfvv">pic.twitter.com/HQUpLTSfvv</a></p>&mdash; 中村悠一 (@nakamuraFF11) <a href="https://twitter.com/nakamuraFF11/status/1924678684038009025?ref_src=twsrc%5Etfw">May 20, 2025</a></blockquote>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<p>ポプテピピックはブロックっすわ。</p>]]></content><author><name>makietan</name></author><category term="game" /><summary type="html"><![CDATA[薄目で見た。 pic.twitter.com/HQUpLTSfvv&mdash; 中村悠一 (@nakamuraFF11) May 20, 2025]]></summary></entry><entry><title type="html">LAWSONのマスタードマヨinからあげクンの栄養成分</title><link href="https://makietan.github.io/gourmet/2025/05/10/report.html" rel="alternate" type="text/html" title="LAWSONのマスタードマヨinからあげクンの栄養成分" /><published>2025-05-10T00:00:00+09:00</published><updated>2025-05-10T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2025/05/10/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2025/05/10/report.html"><![CDATA[<p>LAWSONはさっさと消しやがるので、
-Google に表示されたデータからサルベージ。</p>
-
-<h2 id="マスタードマヨinからあげクン">マスタードマヨinからあげクン</h2>
-
-<p>278円</p>
-
-<p>https://www.lawson.co.jp/recommend/original/detail/1504777_1996.html</p>
-
-<p>熱量: 266kcal
-たんぱく質: 14.1g
-脂質: 19.4g
-炭水化物: 9.6g
-糖質: 8.0g
-食物繊維: 1.6g
-食塩相当量: 1.7g</p>]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[LAWSONはさっさと消しやがるので、 Google に表示されたデータからサルベージ。]]></summary></entry><entry><title type="html">マクドナルドの「ベーコンポテトパイ」と「完熟トマトのピッツァ風ソース」他の栄養成分のメモ</title><link href="https://makietan.github.io/gourmet/2025/04/28/report.html" rel="alternate" type="text/html" title="マクドナルドの「ベーコンポテトパイ」と「完熟トマトのピッツァ風ソース」他の栄養成分のメモ" /><published>2025-04-28T00:00:00+09:00</published><updated>2025-04-28T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2025/04/28/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2025/04/28/report.html"><![CDATA[<h2 id="ベーコンポテトパイ">ベーコンポテトパイ</h2>
-<p>https://www.mcdonalds.co.jp/products/2510/
-マクドナルド</p>
-
-<p>エネルギー 228kcal
-たんぱく質 3.5g
-脂質 13.4g
-炭水化物 23.3g
-食塩相当量 1.0g
-ナトリウム 405mg
-カリウム 107mg
-カルシウム 15mg
-リン 51mg
-鉄 0.3mg
-ビタミンＡ 0μg
-ビタミンＢ１ 0.08mg
-ビタミンＢ２ 0.02mg
-ナイアシン 1.3mg
-ビタミンＣ 2mg
-コレステロール 7mg
-食物繊維 1.1g</p>
-
-<p>サクサクのパイの中に、ホクホクのポテト、スモーキーなベーコン、オニオンなどの具材がたっぷり入った人気の期間限定商品です。</p>
-
-<h2 id="完熟トマトのピッツァ風ソース">完熟トマトのピッツァ風ソース</h2>
-<p>https://www.mcdonalds.co.jp/products/1613/
-マクドナルド</p>
-
-<p>エネルギー 24kcal
-たんぱく質 0.4g
-脂質 0.3g
-炭水化物 5.1g
-食塩相当量 0.7g
-ナトリウム 290mg
-カリウム 49mg
-カルシウム 7mg
-リン 12mg
-鉄 0.1mg
-ビタミンＡ 4μg
-ビタミンＢ１ 0.01mg
-ビタミンＢ２ 0.00mg
-ナイアシン 0.2mg
-ビタミンＣ 9mg
-コレステロール 1mg
-食物繊維 0.2g</p>
-
-<p>完熟トマトの旨みとチーズのコクが感じられる、ピッツァ風のトマトソースです。</p>
-
-<h2 id="エッグタルタルソース">エッグタルタルソース</h2>
-<p>https://www.mcdonalds.co.jp/products/1614/
-マクドナルド</p>
-
-<p>エネルギー 90kcal
-たんぱく質 0.2g
-脂質 9.2g
-炭水化物 1.4g
-食塩相当量 0.9g
-ナトリウム 336mg
-カリウム 5mg
-カルシウム 2mg
-リン 6mg
-鉄 0.1mg
-ビタミンＡ 2μg
-ビタミンＢ１ 0.51mg
-ビタミンＢ２ 0.01mg
-ナイアシン 0.1mg
-ビタミンＣ 0mg
-コレステロール 6mg
-食物繊維 0.0g</p>
-
-<p>風味豊かなたまごのコクが特長のタルタルソースです。ブラックペッパーやオニオンで、やみつき感のある味わいに仕上げました。</p>]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[ベーコンポテトパイ https://www.mcdonalds.co.jp/products/2510/ マクドナルド]]></summary></entry><entry><title type="html">「Nintendo Switch 2」本体の第2回抽選販売も頑張るぞい</title><link href="https://makietan.github.io/game/2025/04/26/report.html" rel="alternate" type="text/html" title="「Nintendo Switch 2」本体の第2回抽選販売も頑張るぞい" /><published>2025-04-26T00:00:00+09:00</published><updated>2025-04-26T00:00:00+09:00</updated><id>https://makietan.github.io/game/2025/04/26/report</id><content type="html" xml:base="https://makietan.github.io/game/2025/04/26/report.html"><![CDATA[<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">マイニンテンドーストアでは、「Nintendo Switch 2」本体の第2回抽選販売を以下の日程にて実施いたします。当選された方にスムーズなご購入手続きを行っていただくため、事前にお伝えした日程から一部変更がございます。ご注意ください。<br />＝＝＝＝＝＝<br />応募受付期間：4月28日(月)午後以降　～…</p>&mdash; 任天堂サポート (@nintendo_cs) <a href="https://twitter.com/nintendo_cs/status/1915707422737612892?ref_src=twsrc%5Etfw">April 25, 2025</a></blockquote>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<p>当たれーーーーっ！！</p>
-
-<p>アニメのファイブスター物語かよってね。</p>]]></content><author><name>makietan</name></author><category term="game" /><summary type="html"><![CDATA[マイニンテンドーストアでは、「Nintendo Switch 2」本体の第2回抽選販売を以下の日程にて実施いたします。当選された方にスムーズなご購入手続きを行っていただくため、事前にお伝えした日程から一部変更がございます。ご注意ください。＝＝＝＝＝＝応募受付期間：4月28日(月)午後以降　～…&mdash; 任天堂サポート (@nintendo_cs) April 25, 2025]]></summary></entry></feed>
+<p>やっぱ古典的な回数制限とかIP制限とか色々とやっていくしかないね。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[変数をそれっぽいものにしてもらえば非常に読みやすくなるし、何をしているのかわからない場合はコードを丸ごと投げて処理の説明をしてもらう。]]></summary></entry></feed>
