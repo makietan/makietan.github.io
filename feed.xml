@@ -1,4 +1,44 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2025-07-03T12:54:52+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">TOHOシネマズ 六本木ヒルズ のオープン時間は何時？</title><link href="https://makietan.github.io/otaku/2025/07/03/report.html" rel="alternate" type="text/html" title="TOHOシネマズ 六本木ヒルズ のオープン時間は何時？" /><published>2025-07-03T00:00:00+09:00</published><updated>2025-07-03T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2025/07/03/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2025/07/03/report.html"><![CDATA[<p><strong>8:15</strong></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2025-07-04T12:53:43+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">遊戯王マスターデュエルのリミットレギュレーション分解ボーナスチェッカー</title><link href="https://makietan.github.io/game/yugioh/2025/07/04/report.html" rel="alternate" type="text/html" title="遊戯王マスターデュエルのリミットレギュレーション分解ボーナスチェッカー" /><published>2025-07-04T00:00:00+09:00</published><updated>2025-07-04T00:00:00+09:00</updated><id>https://makietan.github.io/game/yugioh/2025/07/04/report</id><content type="html" xml:base="https://makietan.github.io/game/yugioh/2025/07/04/report.html"><![CDATA[<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+
+<h2 id="分解ボーナス期間">分解ボーナス期間</h2>
+
+<p>2025/07/04 10:00 - 2025/08/04 12:59</p>
+
+<h2 id="無制限--禁止-3枚分解">無制限 → 禁止 (3枚分解)</h2>
+
+<div class="row pb-4">
+<input type="checkbox" class="btn-check count-three" id="スネークアイ・オーク" autocomplete="off" />
+<label class="btn btn-outline-secondary" for="スネークアイ・オーク">【N】スネークアイ・オーク</label><br />
+</div>
+
+<h2 id="無制限--制限-1枚分解">無制限 → 制限 (1枚分解)</h2>
+
+<div class="row pb-4">
+<input type="checkbox" class="btn-check" id="千年の宝を守りしゴーレム" autocomplete="off" />
+<label class="btn btn-outline-secondary" for="千年の宝を守りしゴーレム">【SR】千年の宝を守りしゴーレム</label><br />
+</div>
+
+<h2 id="制限--無制限-2枚生成"><span style="color:lightgray;">制限 → 無制限 (2枚生成)</span></h2>
+
+<div class="row pb-4">
+  <input type="checkbox" class="btn-check" id="アストログラフ・マジシャン" autocomplete="off" />
+  <label class="btn btn-outline-secondary" for="アストログラフ・マジシャン">【UR】アストログラフ・マジシャン</label><br />
+  <input type="checkbox" class="btn-check" id="斬機ダイア" autocomplete="off" />
+  <label class="btn btn-outline-secondary" for="斬機ダイア">【R】斬機ダイア</label><br />
+</div>
+
+<h2 id="禁止--無制限-3枚生成"><span style="color:lightgray;">禁止 → 無制限 (3枚生成)</span></h2>
+
+<p>2025/06/24 〜</p>
+
+<div class="row pb-4">
+  <input type="checkbox" class="btn-check" id="グローアップ・バルブ" autocomplete="off" />
+  <label class="btn btn-outline-secondary" for="グローアップ・バルブ">【UR】グローアップ・バルブ</label><br />
+  <input type="checkbox" class="btn-check" id="刻の封印" autocomplete="off" />
+  <label class="btn btn-outline-secondary" for="刻の封印">【UR】刻の封印</label><br />
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>]]></content><author><name>makietan</name></author><category term="game" /><category term="yugioh" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">TOHOシネマズ 六本木ヒルズ のオープン時間は何時？</title><link href="https://makietan.github.io/otaku/2025/07/03/report.html" rel="alternate" type="text/html" title="TOHOシネマズ 六本木ヒルズ のオープン時間は何時？" /><published>2025-07-03T00:00:00+09:00</published><updated>2025-07-03T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2025/07/03/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2025/07/03/report.html"><![CDATA[<p><strong>8:15</strong></p>
 
 <p>8:30上映開始の作品だからといって早めに行っても開いてないので注意。</p>]]></content><author><name>makietan</name></author><category term="otaku" /><summary type="html"><![CDATA[8:15]]></summary></entry><entry><title type="html">東横ＩＮＮが「推し活応援！～ぬいと一緒にお泊り会プラン～」を出した</title><link href="https://makietan.github.io/travel/2025/06/30/report.html" rel="alternate" type="text/html" title="東横ＩＮＮが「推し活応援！～ぬいと一緒にお泊り会プラン～」を出した" /><published>2025-06-30T00:00:00+09:00</published><updated>2025-06-30T00:00:00+09:00</updated><id>https://makietan.github.io/travel/2025/06/30/report</id><content type="html" xml:base="https://makietan.github.io/travel/2025/06/30/report.html"><![CDATA[<div class="card">
   <a href="https://www.toyoko-inn.com/search/detail/00356/news/OSHI1/"></a>
@@ -112,10 +152,4 @@
 
 <p>表現が適切かわからないがそんな感じの症状がある。</p>
 
-<p>久々に目薬でも買おうかな。</p>]]></content><author><name>makietan</name></author><category term="health" /><summary type="html"><![CDATA[昼間なんか目がシバシバする。]]></summary></entry><entry><title type="html">シーチキンと玉ねぎのスライスを混ぜて食べるのが好き</title><link href="https://makietan.github.io/copilot/gourmet/2025/06/18/report.html" rel="alternate" type="text/html" title="シーチキンと玉ねぎのスライスを混ぜて食べるのが好き" /><published>2025-06-18T00:00:00+09:00</published><updated>2025-06-18T00:00:00+09:00</updated><id>https://makietan.github.io/copilot/gourmet/2025/06/18/report</id><content type="html" xml:base="https://makietan.github.io/copilot/gourmet/2025/06/18/report.html"><![CDATA[<p><strong>この記事はCopilotの実験的な機能を使って一部書かれています。</strong></p>
-
-<p>最近、シーチキンと玉ねぎのスライスを混ぜて食べるのがマイブームです。シーチキンの旨味と玉ねぎのシャキシャキ感が絶妙にマッチして、すごく美味しいんですよね。
-シーチキンは手軽にタンパク質が摂れるし、玉ねぎはビタミンやミネラルが豊富で、健康にもいい組み合わせです。
-玉ねぎはスライスして水にさらすと、辛味が和らいで甘みが引き立ちます。シーチキンと混ぜると、まろやかな味わいになって、どんな料理とも相性抜群です。
-サラダにトッピングしたり、パスタに和えたり、いろんなアレンジが楽しめます。特に、シーチキンと玉ねぎのスライスを混ぜたサラダは、さっぱりしていて夏にぴったりです。
-このシンプルな組み合わせ、ぜひ試してみてください。手軽に作れるし、栄養もバランスよく摂れるので、忙しい日にもおすすめです。シーチキンと玉ねぎのスライス、ほんと最高です！</p>]]></content><author><name>makietan</name></author><category term="copilot" /><category term="gourmet" /><summary type="html"><![CDATA[この記事はCopilotの実験的な機能を使って一部書かれています。]]></summary></entry></feed>
+<p>久々に目薬でも買おうかな。</p>]]></content><author><name>makietan</name></author><category term="health" /><summary type="html"><![CDATA[昼間なんか目がシバシバする。]]></summary></entry></feed>
