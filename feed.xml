@@ -1,4 +1,30 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2025-08-03T13:11:46+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">「ザク切りポテト&amp;amp;肉厚ビーフ やみつきチーズペッパー 」の栄養成分</title><link href="https://makietan.github.io/gourmet/2025/07/29/report.html" rel="alternate" type="text/html" title="「ザク切りポテト&amp;amp;肉厚ビーフ やみつきチーズペッパー 」の栄養成分" /><published>2025-07-29T00:00:00+09:00</published><updated>2025-07-29T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2025/07/29/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2025/07/29/report.html"><![CDATA[<h2 id="ザク切りポテト肉厚ビーフ-やみつきチーズペッパー">ザク切りポテト&amp;肉厚ビーフ やみつきチーズペッパー</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2025-08-04T13:18:12+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">2025年8月4日に適用される遊戯王マスターデュエルのリミットレギュレーション</title><link href="https://makietan.github.io/game/yugioh/2025/08/04/report.html" rel="alternate" type="text/html" title="2025年8月4日に適用される遊戯王マスターデュエルのリミットレギュレーション" /><published>2025-08-04T00:00:00+09:00</published><updated>2025-08-04T00:00:00+09:00</updated><id>https://makietan.github.io/game/yugioh/2025/08/04/report</id><content type="html" xml:base="https://makietan.github.io/game/yugioh/2025/08/04/report.html"><![CDATA[<p>新たに生成して分解してもボーナスが貰えなくなりました。
+乱数要素なのに KONAMI はセコいですね。</p>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+
+<h2 id="無制限--禁止">無制限 → 禁止</h2>
+
+<div class="row pb-4">
+<input type="checkbox" class="btn-check count-three" id="深淵に潜む者" autocomplete="off" />
+<label class="btn btn-outline-secondary" for="深淵に潜む者">【UR】深淵に潜む者</label><br />
+<input type="checkbox" class="btn-check count-three" id="アーティファクト－デスサイズ" autocomplete="off" />
+<label class="btn btn-outline-secondary" for="アーティファクト－デスサイズ">【UR】アーティファクト－デスサイズ</label><br />
+<input type="checkbox" class="btn-check count-three" id="No.67 パラダイスマッシャー" autocomplete="off" />
+<label class="btn btn-outline-secondary" for="No.67 パラダイスマッシャー">【SR】No.67 パラダイスマッシャー</label><br />
+</div>
+
+<h2 id="制限--無制限-3枚生成"><span style="color:lightgray;">制限 → 無制限 (3枚生成)</span></h2>
+
+<div class="row pb-4">
+  <input type="checkbox" class="btn-check count-three" id="六武の門" autocomplete="off" />
+  <label class="btn btn-outline-secondary" for="六武の門">【UR】六武の門</label><br />
+</div>
+
+<hr />
+
+<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">【予告】 <br />リミットレギュレーションの適用について <br /><br />8月4日(月)に「リミットレギュレーションの適用」を実施いたします。 <br />この変更に先立ち、アプリ内では変更の方針と理由についてお伝えさせていただいております。 <br /><br />詳細はゲームをご確認ください。 <a href="https://twitter.com/hashtag/%E9%81%8A%E6%88%AF%E7%8E%8B%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%87%E3%83%A5%E3%82%A8%E3%83%AB?src=hash&amp;ref_src=twsrc%5Etfw">#遊戯王マスターデュエル</a> <a href="https://t.co/gTqOenhSsd">pic.twitter.com/gTqOenhSsd</a></p>&mdash; 【公式】 遊戯王 マスターデュエル (@YuGiOh_MD_INFO) <a href="https://twitter.com/YuGiOh_MD_INFO/status/1948664104488665204?ref_src=twsrc%5Etfw">July 25, 2025</a></blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>]]></content><author><name>makietan</name></author><category term="game" /><category term="yugioh" /><summary type="html"><![CDATA[新たに生成して分解してもボーナスが貰えなくなりました。 乱数要素なのに KONAMI はセコいですね。]]></summary></entry><entry><title type="html">「ザク切りポテト&amp;amp;肉厚ビーフ やみつきチーズペッパー 」の栄養成分</title><link href="https://makietan.github.io/gourmet/2025/07/29/report.html" rel="alternate" type="text/html" title="「ザク切りポテト&amp;amp;肉厚ビーフ やみつきチーズペッパー 」の栄養成分" /><published>2025-07-29T00:00:00+09:00</published><updated>2025-07-29T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2025/07/29/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2025/07/29/report.html"><![CDATA[<h2 id="ザク切りポテト肉厚ビーフ-やみつきチーズペッパー">ザク切りポテト&amp;肉厚ビーフ やみつきチーズペッパー</h2>
 
 <p><a href="https://www.mcdonalds.co.jp/products/6620/">https://www.mcdonalds.co.jp/products/6620/</a></p>
 
@@ -400,178 +426,4 @@
 
 <p>海外ファンにも披露して欲しい。</p>
 
-<p>絶対に人気出ると思う。</p>]]></content><author><name>makietan</name></author><category term="otaku" /><summary type="html"><![CDATA[ぼへぇ〜〜〜〜〜#映画メイドラゴン#カンナちゃんグリーティング#マジやばくね pic.twitter.com/RFn7A451sH&mdash; まきえたん🥦☘️ (@makietanX) July 10, 2025]]></summary></entry><entry><title type="html">《誘いのΔ》を墓地に送るといいモンスター</title><link href="https://makietan.github.io/game/yugioh/2025/07/11/report.html" rel="alternate" type="text/html" title="《誘いのΔ》を墓地に送るといいモンスター" /><published>2025-07-11T00:00:00+09:00</published><updated>2025-07-11T00:00:00+09:00</updated><id>https://makietan.github.io/game/yugioh/2025/07/11/report</id><content type="html" xml:base="https://makietan.github.io/game/yugioh/2025/07/11/report.html"><![CDATA[<h1 id="カードテキスト">カードテキスト</h1>
-
-<blockquote>
-  <p>フィールド魔法</p>
-
-  <p>このカード名のカードは１ターンに１枚しか発動できず、このカード名の②③の効果はそれぞれ１ターンに１度しか使用できない。</p>
-
-  <p>①：このカードの発動時の効果処理として、デッキからレベル５以上のアンデット族モンスター１体を墓地へ送る事ができる。</p>
-
-  <p>②：フィールドにアンデット族モンスターが存在する場合に発動できる。自分フィールドに「Δトークン」（アンデット族・闇・星５・攻／守０）１体を特殊召喚する。</p>
-
-  <p>③：このカードが墓地に存在する状態で、モンスターが墓地から手札に加わった場合に発動できる。このカードを手札に加える。</p>
-</blockquote>
-
-<h1 id="の効果で墓地へ送るメリットのある効果モンスター">①の効果で墓地へ送るメリットのある効果モンスター</h1>
-
-<h2 id="黄金郷エルドリッチ">黄金郷エルドリッチ</h2>
-
-<h3 id="誘いのδ-のみ">誘いのΔ のみ</h3>
-
-<p>—&gt; 場に《黄金郷エルドリッチ》、手札に《誘いのΔ》</p>
-
-<ol>
-  <li>《誘いのΔ》を発動し、《黄金郷エルドリッチ》を墓地へ送る。</li>
-  <li>《黄金郷エルドリッチ》の効果で、墓地から自身を特殊召喚する。</li>
-  <li>《誘いのΔ》の③の効果で《誘いのΔ》を手札に加える。</li>
-</ol>
-
-<h3 id="誘いのδ--手札の魔法罠カード1枚">誘いのΔ + 手札の魔法・罠カード1枚</h3>
-
-<p>—&gt; 場に《影法師トップハットヘア》・《黄金狂エルドリッチ》・《黄金郷のコンキスタドール》・《誘いのΔ》</p>
-
-<ol>
-  <li>《誘いのΔ》を発動し、《黄金郷エルドリッチ》を墓地へ送る。</li>
-  <li>《黄金郷エルドリッチ》の効果で、墓地から自身を特殊召喚する。</li>
-  <li>《誘いのΔ》②の効果で「Δトークン」を特殊召喚する。</li>
-  <li>「Δトークン」で《リンク・スパイダー》を特殊召喚する。</li>
-  <li>《黄金郷エルドリッチ》で《黄金郷のアンヘルカイド》を特殊召喚する。</li>
-  <li>《黄金郷のアンヘルカイド》と《リンク・スパイダー》で《影法師トップハットヘア》を特殊召喚し、《黄金郷のコンキスタドール》または《貴き黄金郷のエルドリクシル》、《黄金郷のワッケーロ》、《黄金郷のガーディアン》、《澱神アポピス》、《苦紋様の土像》、《影帽子》、《碑像の天使－アズルーン》をセットする。</li>
-  <li>《黄金郷のアンヘルカイド》の効果で、《黄金狂エルドリッチ》を特殊召喚する。</li>
-</ol>
-
-<p>《影法師トップハットヘア》ではなく、《閉ザサレシ天ノ月》にしてデモンスミス展開をしたり、MDなら《捕食植物ヴェルテ・アナコンダ》から様々な融合モンスターが出せる。</p>
-
-<h2 id="冥帝エレボス">冥帝エレボス</h2>
-
-<blockquote>
-  <p>このカードが墓地にある場合、1ターンに1度、自分・相手のメインフェイズに、手札から「帝王」魔法・罠カード1枚を捨て、自分の墓地の攻撃力2400以上で守備力1000のモンスター1体を対象として発動できる。そのモンスターを手札に加える。</p>
-</blockquote>
-
-<p>手札にある「帝王」魔法・罠カードを墓地に送ることで、冥帝エレボスを手札に加えることができるようになる。
-間接的なサーチ手段となる。</p>
-
-<h2 id="死霊王-ドーハスーラ">死霊王 ドーハスーラ</h2>
-
-<blockquote>
-  <p>このカード名の②の効果は１ターンに１度しか使用できない。</p>
-
-  <p>①：「死霊王 ドーハスーラ」以外のアンデット族モンスターの効果が発動した時に発動できる（同一チェーン上では１度まで）。以下の効果から１つを適用する。このターン、自分の「死霊王 ドーハスーラ」の効果で同じ効果を適用できない。</p>
-
-  <p>●その効果を無効にする。</p>
-
-  <p>●自分か相手のフィールド・墓地のモンスター１体を除外する。</p>
-
-  <p>②：フィールドゾーンに表側表示カードが存在する場合、自分・相手のスタンバイフェイズに発動できる。このカードを墓地から守備表示で特殊召喚する。</p>
-</blockquote>
-
-<p>墓地に送るだけで、《墓穴の指名者》《無限泡影》《灰流うらら》のどれか1つを消費させることができる。
-また、運がよければフィールド・墓地のモンスターを除外できる。</p>
-
-<h2 id="地下牢の徊神">地下牢の徊神</h2>
-
-<blockquote>
-  <p>このカード名の①②の効果は１ターンに１度、いずれか１つしか使用できない。</p>
-
-  <p>①：このカードがデッキから墓地へ送られた場合に発動する（この効果の発動に対してお互いはモンスターの効果を発動できない）。自分フィールドのカードを全て墓地へ送り、このカードを特殊召喚する。その後、この効果で墓地へ送ったカードの数まで相手フィールドのカードを墓地へ送る。</p>
-
-  <p>②：このカードがデッキ以外から墓地へ送られた場合、手札を１枚墓地へ送って発動できる。フィールドのカード１枚を墓地へ送る。</p>
-</blockquote>
-
-<p>《召命の神弓－アポロウーサ》だけが立ってるなら簡単に処理できる。
-強制効果なので注意。
-《黄金郷エルドリッチ》を墓地に送って出した《アドヴェンデット・セイヴァー》でダメージ計算時に発動するとなかなかに無敵。</p>
-
-<h2 id="アルグールマゼラ">アルグールマゼラ</h2>
-
-<blockquote>
-  <p>このカード名の①②の効果はそれぞれ１ターンに１度しか使用できない。</p>
-
-  <p>①：自分フィールドのアンデット族モンスターが戦闘・効果で破壊される場合、代わりに手札・墓地のこのカードを除外できる。</p>
-
-  <p>②：このカードが手札・墓地から除外された場合に発動できる。このカードを守備表示で特殊召喚する。その後、このカードのレベルを１つ下げる事ができる。</p>
-</blockquote>
-
-<p>自分フィールド上のアンデット族に破壊耐性を付与できる。</p>
-
-<h2 id="屍界塔フィニステラ">屍界塔フィニステラ</h2>
-
-<blockquote>
-  <p>このカード名の、①の方法による特殊召喚は１ターンに１度しかできず、②の効果は１ターンに１度しか使用できない。</p>
-
-  <p>①：自分フィールドにレベル１０モンスターが存在する場合、このカードは手札から特殊召喚できる。</p>
-
-  <p>②：このカードが墓地へ送られた場合、フィールドの表側表示カード１枚を対象として発動できる。このターン、そのカードは効果では破壊されない。</p>
-</blockquote>
-
-<p>モンスターだけでなくフィールド魔法・永続魔法・永続罠に破壊耐性を付与できる。
-手札に来ても《黄金郷エルドリッチ》を場に出せさえすれば《終戒超獸－ヴァルドラス》を出せる。</p>
-
-<h2 id="スカーヴェンデット">スカー・ヴェンデット</h2>
-
-<blockquote>
-  <p>このカード名の①②の効果はそれぞれ１ターンに１度しか使用できない。</p>
-
-  <p>①：このカードが墓地へ送られた場合に発動できる。デッキから「ヴェンデット」魔法・罠カード１枚を手札に加える。</p>
-
-  <p>②：このカードが墓地に存在する状態で、フィールドのモンスターがリリースされた場合、自分の墓地からこのカード以外のアンデット族モンスター１体を除外して発動できる。このカードを特殊召喚する。この効果で特殊召喚したこのカードがモンスターゾーンに表側表示で存在する限り、自分は「ヴェンデット」モンスターしか特殊召喚できない。</p>
-</blockquote>
-
-<p>《ヴェンデット・チャージ》《ヴェンデット・リボーン》等をサーチできる。</p>
-
-<p>場に出すと制約があるので注意。</p>
-
-<h3 id="ヴェンデットリボーン">ヴェンデット・リボーン</h3>
-
-<blockquote>
-  <p>①：相手フィールドの表側表示モンスター１体を対象として発動できる。そのモンスターをリリースし、その元々のレベルと同じレベルを持つ「ヴェンデットトークン」（アンデット族・闇・攻／守０）１体を自分フィールドに特殊召喚する。この効果で特殊召喚したトークンがモンスターゾーンに存在する限り、自分は「ヴェンデット」モンスターしか召喚・特殊召喚できない。</p>
-</blockquote>
-
-<p>相手フィールド上のモンスターをリリースして、同じレベルの「ヴェンデットトークン」を特殊召喚できる。
-ただし、「ヴェンデットトークン」がいる限り「ヴェンデット」しか召喚・特殊召喚できなくなる。</p>
-
-<h3 id="ヴェンデットチャージ">ヴェンデット・チャージ</h3>
-
-<blockquote>
-  <p>このカード名のカードは１ターンに１枚しか発動できない。</p>
-
-  <p>①：手札及び自分フィールドの表側表示モンスターの中から、アンデット族モンスター１体を墓地へ送って発動できる。デッキから「ヴェンデット」モンスター１体を特殊召喚する。</p>
-</blockquote>
-
-<p>手札のアンデット族モンスターを墓地へ送ることで、デッキから「ヴェンデット」モンスターを特殊召喚できる。</p>
-
-<h2 id="竜血公ヴァンパイア">竜血公ヴァンパイア</h2>
-
-<blockquote>
-  <p>このカード名の①②③の効果はそれぞれ１ターンに１度しか使用できない。</p>
-
-  <p>①：このカードが召喚に成功した場合、相手の墓地のモンスターを２体まで対象として発動できる。そのモンスターを効果を無効にして自分フィールドに守備表示で特殊召喚する。</p>
-
-  <p>②：モンスターの効果が発動した時、その同名モンスターが自分・相手の墓地に存在する場合に発動できる。その発動を無効にする。</p>
-
-  <p>③：相手の墓地からモンスターが特殊召喚された場合、自分フィールドのモンスター２体をリリースして発動できる。このカードを墓地から特殊召喚する。</p>
-</blockquote>
-
-<p>相手の墓地蘇生に反応して特殊召喚できるがコスパが悪い。
-1枚だけでなく《隣の芝刈り》等でまとめて他のカードを墓地に落とした上でないと役に立たない。</p>
-
-<h2 id="九尾の狐">九尾の狐</h2>
-
-<p>墓地から特殊召喚できるがコスパが悪い。</p>
-
-<h2 id="ヴァンパイアグレイス">ヴァンパイア・グレイス</h2>
-
-<p>《黄金郷エルドリッチ》等レベル5以上のアンデット族を特殊召喚すれば、墓地蘇生できるが、2000LPを支払う必要がある。
-このカード単体では機能しない。</p>
-
-<h2 id="ダイダラボッチ">ダイダラボッチ</h2>
-
-<p>特殊召喚ができない。
-墓地回収できるが、手札コストが必要、他に2体アンデット族モンスターが墓地に必要で、自分のメインフェイズ開始時なので次のターンにしか使えない。
-打点もフィールドにモンスターがいなかったら《黄金郷エルドリッチ》の効果で出したほうが高い。</p>
-
-<h2 id="霊道士チャンシー">霊道士チャンシー</h2>
-
-<p>このカード単体では機能しないが、除外されると特殊召喚できるので、ビーステッドや《牛頭鬼》等と組み合わせて使うと良い。</p>]]></content><author><name>makietan</name></author><category term="game" /><category term="yugioh" /><summary type="html"><![CDATA[カードテキスト]]></summary></entry></feed>
+<p>絶対に人気出ると思う。</p>]]></content><author><name>makietan</name></author><category term="otaku" /><summary type="html"><![CDATA[ぼへぇ〜〜〜〜〜#映画メイドラゴン#カンナちゃんグリーティング#マジやばくね pic.twitter.com/RFn7A451sH&mdash; まきえたん🥦☘️ (@makietanX) July 10, 2025]]></summary></entry></feed>
