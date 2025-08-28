@@ -224,7 +224,7 @@
         labels: ["HP", "攻撃力", "防御力", "照準値", "運動性"],
         datasets: [
           {
-            label: `戦闘回数 ${battleCount}、気力 ${energy}、距離 ${distance}`,
+            label: `MAIN`,
             data: [
               stats.hp,
               stats.attack,
@@ -268,11 +268,11 @@
   function updateChartSpecial() {
     const stats = calculateSpecialStats();
     // chart
-    const ctx1 = document.getElementById('chart-2');
+    const ctx2 = document.getElementById('chart-2');
     if (Chart.getChart('chart-2')) {
       Chart.getChart('chart-2')?.destroy();
     }
-    new Chart(ctx1, {
+    new Chart(ctx2, {
       type: 'radar',
       plugins: [ChartDataLabels],
       options: {
@@ -293,7 +293,7 @@
         labels: ["HP", "攻撃力", "防御力", "照準値", "運動性"],
         datasets: [
           {
-            label: `戦闘回数 ${battleCount}、気力 ${energy}、距離 ${distance}`,
+            label: `必殺技スロット時`,
             data: [
               stats.hp,
               stats.attack,
@@ -400,6 +400,11 @@
     
     
     
+  
+
+  
+  
+
   
 
   
