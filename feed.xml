@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2025-08-28T17:23:45+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">歯の点検してもらったら前歯の裏側が欠けた</title><link href="https://makietan.github.io/health/2025/08/28/report.html" rel="alternate" type="text/html" title="歯の点検してもらったら前歯の裏側が欠けた" /><published>2025-08-28T00:00:00+09:00</published><updated>2025-08-28T00:00:00+09:00</updated><id>https://makietan.github.io/health/2025/08/28/report</id><content type="html" xml:base="https://makietan.github.io/health/2025/08/28/report.html"><![CDATA[<p>歯を大事にしたいのに乱暴に扱われると非常に困るんだよね。</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2025-08-28T17:44:48+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">歯の点検してもらったら前歯の裏側が欠けた</title><link href="https://makietan.github.io/health/2025/08/28/report.html" rel="alternate" type="text/html" title="歯の点検してもらったら前歯の裏側が欠けた" /><published>2025-08-28T00:00:00+09:00</published><updated>2025-08-28T00:00:00+09:00</updated><id>https://makietan.github.io/health/2025/08/28/report</id><content type="html" xml:base="https://makietan.github.io/health/2025/08/28/report.html"><![CDATA[<p>歯を大事にしたいのに乱暴に扱われると非常に困るんだよね。</p>
 
 <p>なんか力加減がおかしい女だったな。</p>
 
@@ -604,6 +604,441 @@
     };
   }
   document.addEventListener('DOMContentLoaded', updateChartSub);
+</script>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[ステータス]]></summary></entry><entry><title type="html">「ダイモミサイル」の考察</title><link href="https://makietan.github.io/game/srwdd/2025/08/24/report.html" rel="alternate" type="text/html" title="「ダイモミサイル」の考察" /><published>2025-08-24T00:00:00+09:00</published><updated>2025-08-24T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2025/08/24/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2025/08/24/report.html"><![CDATA[<h2 id="ステータス">ステータス</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">HP</th>
+      <th style="text-align: center">攻撃力</th>
+      <th style="text-align: center">防御力</th>
+      <th style="text-align: center">照準値</th>
+      <th style="text-align: center">運動性</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">2655</td>
+      <td style="text-align: center">2910</td>
+      <td style="text-align: center">2700</td>
+      <td style="text-align: center">225</td>
+      <td style="text-align: center">204</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">威力</th>
+      <th style="text-align: center">命中</th>
+      <th style="text-align: center">射程</th>
+      <th style="text-align: center">ｱｸｼｮﾝ.</th>
+      <th style="text-align: center">回数</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">215%</td>
+      <td style="text-align: center">40%</td>
+      <td style="text-align: center">1-3</td>
+      <td style="text-align: center">2</td>
+      <td style="text-align: center">4</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">特性.</th>
+      <th style="text-align: center">ﾚｱﾘﾃｨ</th>
+      <th style="text-align: center">LV</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">+5</td>
+      <td style="text-align: center">SSR+</td>
+      <td style="text-align: center">110</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">WEAK</th>
+      <th style="text-align: center">ﾌﾞﾚｲｸｹﾞｰｼﾞﾎﾟｲﾝﾄ</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">打撃/実弾/特殊</td>
+      <td style="text-align: center">1500</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="main-ガードブレイクⅳ">MAIN 【ガードブレイクⅣ】</h2>
+<ul>
+  <li>攻撃力・防御力・照準値・運動性 10.5%</li>
+</ul>
+
+<h3 id="気力120以上のとき">気力120以上のとき</h3>
+<h4 id="戦闘時のみ">戦闘時のみ</h4>
+<ul>
+  <li>敵の防御力 -25%</li>
+</ul>
+
+<h3 id="シミュレーション">シミュレーション</h3>
+
+<canvas id="chart-1" style="background-color: #fff"></canvas>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.0.0"></script>
+
+<script>
+  function updateChart() {
+    const stats = calculateMainStats();
+    // chart
+    const ctx1 = document.getElementById('chart-1');
+    if (Chart.getChart('chart-1')) {
+      Chart.getChart('chart-1')?.destroy();
+    }
+    new Chart(ctx1, {
+      type: 'radar',
+      plugins: [ChartDataLabels],
+      options: {
+        plugins: {
+          datalabels: {
+            color: '#000',
+            font: {
+              weight: 'bold',
+              size: 16
+            },
+            formatter: function(value, context) {
+              return value.toFixed(1) + '%';
+            }
+          }
+        }
+      },
+      data: {
+        labels: ["HP", "攻撃力", "防御力", "照準値", "運動性"],
+        datasets: [
+          {
+            label: `戦闘回数 ${battleCount}、気力 ${energy}、距離 ${distance}`,
+            data: [
+              stats.hp,
+              stats.attack,
+              stats.defense,
+              stats.accuracy,
+              stats.mobility
+            ]
+          }
+        ]
+      }
+    });
+  }
+  // MAIN
+  function calculateMainStats() {
+    return {
+      hp: 0,
+      attack: 10.5,
+      defense: 10.5,
+      accuracy: 10.5,
+      mobility: 10.5
+    };
+  }
+  document.addEventListener('DOMContentLoaded', updateChart);
+</script>
+
+<h2 id="必殺技スロット時-ガードブレイクⅳ">必殺技スロット時 【ガードブレイクⅣ】</h2>
+<ul>
+  <li>攻撃力・防御力・照準値・運動性 6.5%</li>
+</ul>
+
+<h3 id="気力120以上のとき-1">気力120以上のとき</h3>
+<h4 id="戦闘時のみ-1">戦闘時のみ</h4>
+<ul>
+  <li>敵の防御力 -12.5%</li>
+</ul>
+
+<h3 id="シミュレーション-1">シミュレーション</h3>
+
+<canvas id="chart-2" style="background-color: #fff"></canvas>
+
+<script>
+  function updateChartSpecial() {
+    const stats = calculateSpecialStats();
+    // chart
+    const ctx1 = document.getElementById('chart-2');
+    if (Chart.getChart('chart-2')) {
+      Chart.getChart('chart-2')?.destroy();
+    }
+    new Chart(ctx1, {
+      type: 'radar',
+      plugins: [ChartDataLabels],
+      options: {
+        plugins: {
+          datalabels: {
+            color: '#000',
+            font: {
+              weight: 'bold',
+              size: 16
+            },
+            formatter: function(value, context) {
+              return value.toFixed(1) + '%';
+            }
+          }
+        }
+      },
+      data: {
+        labels: ["HP", "攻撃力", "防御力", "照準値", "運動性"],
+        datasets: [
+          {
+            label: `戦闘回数 ${battleCount}、気力 ${energy}、距離 ${distance}`,
+            data: [
+              stats.hp,
+              stats.attack,
+              stats.defense,
+              stats.accuracy,
+              stats.mobility
+            ]
+          }
+        ]
+      }
+    });
+    // 必殺技スロット時
+    function calculateSpecialStats() {
+      return {
+        hp: 0,
+        attack: 6.5,
+        defense: 6.5,
+        accuracy: 6.5,
+        mobility: 6.5
+      };
+    }
+  }
+  document.addEventListener('DOMContentLoaded', updateChartSpecial);
+</script>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[ステータス]]></summary></entry><entry><title type="html">「必殺二段飛燕蹴り」の考察</title><link href="https://makietan.github.io/game/srwdd/2025/08/23/report.html" rel="alternate" type="text/html" title="「必殺二段飛燕蹴り」の考察" /><published>2025-08-23T00:00:00+09:00</published><updated>2025-08-23T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2025/08/23/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2025/08/23/report.html"><![CDATA[<h2 id="ステータス">ステータス</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">HP</th>
+      <th style="text-align: center">攻撃力</th>
+      <th style="text-align: center">防御力</th>
+      <th style="text-align: center">照準値</th>
+      <th style="text-align: center">運動性</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">2835</td>
+      <td style="text-align: center">2850</td>
+      <td style="text-align: center">2790</td>
+      <td style="text-align: center">213</td>
+      <td style="text-align: center">186</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">威力</th>
+      <th style="text-align: center">命中</th>
+      <th style="text-align: center">射程</th>
+      <th style="text-align: center">ｱｸｼｮﾝ.</th>
+      <th style="text-align: center">回数</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">265%</td>
+      <td style="text-align: center">50%</td>
+      <td style="text-align: center">1-3</td>
+      <td style="text-align: center">3</td>
+      <td style="text-align: center">4</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">特性.</th>
+      <th style="text-align: center">ﾚｱﾘﾃｨ</th>
+      <th style="text-align: center">LV</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">+5</td>
+      <td style="text-align: center">SSR+</td>
+      <td style="text-align: center">110</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">WEAK</th>
+      <th style="text-align: center">ﾌﾞﾚｲｸｹﾞｰｼﾞﾎﾟｲﾝﾄ</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">打撃/実弾/特殊</td>
+      <td style="text-align: center">1500</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="main-全力攻撃ⅳ">MAIN 【全力攻撃Ⅳ】</h2>
+
+<ul>
+  <li>攻撃力・防御力・照準値・運動性 10.5%</li>
+</ul>
+
+<h3 id="気力120以上のとき">気力120以上のとき</h3>
+<ul>
+  <li>与ダメージ 34%</li>
+</ul>
+
+<h3 id="シミュレーション">シミュレーション</h3>
+
+<canvas id="chart-1" style="background-color: #fff"></canvas>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.0.0"></script>
+
+<script>
+  function updateChart() {
+    const stats = calculateMainStats();
+    // chart
+    const ctx1 = document.getElementById('chart-1');
+    if (Chart.getChart('chart-1')) {
+      Chart.getChart('chart-1')?.destroy();
+    }
+    new Chart(ctx1, {
+      type: 'radar',
+      plugins: [ChartDataLabels],
+      options: {
+        plugins: {
+          datalabels: {
+            color: '#000',
+            font: {
+              weight: 'bold',
+              size: 16
+            },
+            formatter: function(value, context) {
+              return value.toFixed(1) + '%';
+            }
+          }
+        }
+      },
+      data: {
+        labels: ["HP", "攻撃力", "防御力", "照準値", "運動性"],
+        datasets: [
+          {
+            label: `戦闘回数 ${battleCount}、気力 ${energy}、距離 ${distance}`,
+            data: [
+              stats.hp,
+              stats.attack,
+              stats.defense,
+              stats.accuracy,
+              stats.mobility
+            ]
+          }
+        ]
+      }
+    });
+  }
+  // MAIN
+  function calculateMainStats() {
+    return {
+      hp: 0,
+      attack: 10.5,
+      defense: 10.5,
+      accuracy: 10.5,
+      mobility: 10.5,
+    };
+  }
+  document.addEventListener('DOMContentLoaded', updateChart);
+</script>
+
+<h2 id="必殺技スロット時-全力攻撃ⅳ">必殺技スロット時 【全力攻撃Ⅳ】</h2>
+<ul>
+  <li>攻撃力・防御力・照準値・運動性 6.5%</li>
+</ul>
+
+<h3 id="気力120以上のとき-1">気力120以上のとき</h3>
+<ul>
+  <li>与ダメージ 20%</li>
+</ul>
+
+<h3 id="シミュレーション-1">シミュレーション</h3>
+
+<canvas id="chart-2" style="background-color: #fff"></canvas>
+
+<script>
+  function updateChartSpecial() {
+    const stats = calculateSpecialStats();
+    // chart
+    const ctx1 = document.getElementById('chart-2');
+    if (Chart.getChart('chart-2')) {
+      Chart.getChart('chart-2')?.destroy();
+    }
+    new Chart(ctx1, {
+      type: 'radar',
+      plugins: [ChartDataLabels],
+      options: {
+        plugins: {
+          datalabels: {
+            color: '#000',
+            font: {
+              weight: 'bold',
+              size: 16
+            },
+            formatter: function(value, context) {
+              return value.toFixed(1) + '%';
+            }
+          }
+        }
+      },
+      data: {
+        labels: ["HP", "攻撃力", "防御力", "照準値", "運動性"],
+        datasets: [
+          {
+            label: `戦闘回数 ${battleCount}、気力 ${energy}、距離 ${distance}`,
+            data: [
+              stats.hp,
+              stats.attack,
+              stats.defense,
+              stats.accuracy,
+              stats.mobility
+            ]
+          }
+        ]
+      }
+    });
+    // 必殺技スロット時
+    function calculateSpecialStats() {
+      return {
+        hp: 0,
+        attack: 6.5,
+        defense: 6.5,
+        accuracy: 6.5,
+        mobility: 6.5
+      };
+    }
+  }
+  document.addEventListener('DOMContentLoaded', updateChartSpecial);
 </script>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[ステータス]]></summary></entry><entry><title type="html">mac で「が使用中のため、操作を完了できません。」が表示される場合の対処法</title><link href="https://makietan.github.io/tech/2025/08/12/report.html" rel="alternate" type="text/html" title="mac で「が使用中のため、操作を完了できません。」が表示される場合の対処法" /><published>2025-08-12T00:00:00+09:00</published><updated>2025-08-12T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2025/08/12/report</id><content type="html" xml:base="https://makietan.github.io/tech/2025/08/12/report.html"><![CDATA[<h2 id="解決方法">解決方法</h2>
 
 <ol>
@@ -774,77 +1209,4 @@
   <li>焼き上がったら、冷まして完成。</li>
 </ol>
 
-<p>やる気の問題だなぁ…。</p>]]></content><author><name>makietan</name></author><category term="copilot" /><category term="gourmet" /><summary type="html"><![CDATA[この記事はCopilotの実験的な機能を使って一部書かれています。]]></summary></entry><entry><title type="html">誘いのΔと原石のデッキ 〜エルドリッチを添えて〜</title><link href="https://makietan.github.io/game/yugioh/2025/07/27/report.html" rel="alternate" type="text/html" title="誘いのΔと原石のデッキ 〜エルドリッチを添えて〜" /><published>2025-07-27T00:00:00+09:00</published><updated>2025-07-27T00:00:00+09:00</updated><id>https://makietan.github.io/game/yugioh/2025/07/27/report</id><content type="html" xml:base="https://makietan.github.io/game/yugioh/2025/07/27/report.html"><![CDATA[<p>《誘いのΔ》が実装されて、相手モンスターの効果を無視した除去ができるようになった。</p>
-
-<p>《誘いのΔ》から《地下牢の徊神》を墓地に落とすと指名者がなければ確定で1除去できる。
-ただし、《誘いのΔ》が無効化されるとどうしようもない。</p>
-
-<p>《原石の皇脈》を使えば、《原石竜アナザー・ベリル》を経由して《原石の穿光》をサーチできる。
-《原石の穿光》は墓地からセットできるのでエルドリッチの効果と相性が非常にいい。</p>
-
-<p>アンデット族の通常モンスターで強力なカードが存在しないため、《ラブラドライドラゴン》でバロネスやディス・パテルを狙うことになる。
-《アンデットワールド》を発動できていれば、《真紅眼の不死竜皇》から《ラブラドライドラゴン》を蘇生できるが、アンデットワールドがドロー事故になりやすい。</p>
-
-<p>《地下牢の徊神》が 2600 で原石のシンクロで 3000〜3500 なので、 5600〜6100 のダメージを出せる。 深淵の獣を使えば 8000 ダメージを与えることができる。
-レベル10がもう1体いれば、《超弩級砲塔列車グスタフ・マックス》で 2000 ダメージを与えることも可能。</p>
-
-<p>まぁロマンだね。</p>]]></content><author><name>makietan</name></author><category term="game" /><category term="yugioh" /><summary type="html"><![CDATA[《誘いのΔ》が実装されて、相手モンスターの効果を無視した除去ができるようになった。]]></summary></entry><entry><title type="html">ファミリーマートのクリスピーチキン（プレーン）のカロリー</title><link href="https://makietan.github.io/gourmet/2025/07/26/report.html" rel="alternate" type="text/html" title="ファミリーマートのクリスピーチキン（プレーン）のカロリー" /><published>2025-07-26T00:00:00+09:00</published><updated>2025-07-26T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2025/07/26/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2025/07/26/report.html"><![CDATA[<div class="card">
-  <a href="https://www.family.co.jp/goods/friedfoods/0250610.html"></a>
-  <div class="card__header">
-    <a href="https://www.family.co.jp/goods/friedfoods/0250610.html">www.family.co.jp</a>
-  </div>
-  <div class="card__image">
-    <img src="https://www.family.co.jp/content/dam/family/goods/0250610.jpg" />
-  </div>
-  <div class="card__title">
-    <p>クリスピーチキン（プレーン）	｜商品情報｜ファミリーマート</p>
-  </div>
-  <div class="card__description">
-    <p>さっぱりとした鶏むね肉にクリスピーな衣の食感が楽しいフライドチキンです。醤油とニンニクを使ったシンプルな味つけで、衣はさらにカリッと食感に、中の肉はさらにしっとり食感に仕上げました。
-</p>
-  </div>
-</div>
-
-<h2 id="栄養成分1個あたり">栄養成分（1個あたり）</h2>
-
-<table>
-  <thead>
-    <tr>
-      <th style="text-align: center">熱量 (kcal)</th>
-      <th style="text-align: center">たんぱく質 (g)</th>
-      <th style="text-align: center">脂質 (g)</th>
-      <th style="text-align: center">炭水化物 (g)</th>
-      <th style="text-align: center">食塩相当量 (g)</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: center">183.1</td>
-      <td style="text-align: center">12.2</td>
-      <td style="text-align: center">9.6</td>
-      <td style="text-align: center">11.9</td>
-      <td style="text-align: center">1.4</td>
-    </tr>
-  </tbody>
-</table>
-
-<h2 id="アレルゲン">アレルゲン</h2>
-
-<ul>
-  <li>小麦</li>
-  <li>卵</li>
-  <li>大豆</li>
-  <li>鶏肉</li>
-</ul>
-
-<h2 id="主な原材料の原料原産地">主な原材料の原料原産地</h2>
-
-<ul>
-  <li>鶏肉（タイ）</li>
-</ul>
-
-<h2 id="原産国最終加工地">原産国（最終加工地）</h2>
-
-<ul>
-  <li>タイ</li>
-</ul>]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[www.family.co.jp クリスピーチキン（プレーン） ｜商品情報｜ファミリーマート さっぱりとした鶏むね肉にクリスピーな衣の食感が楽しいフライドチキンです。醤油とニンニクを使ったシンプルな味つけで、衣はさらにカリッと食感に、中の肉はさらにしっとり食感に仕上げました。]]></summary></entry></feed>
+<p>やる気の問題だなぁ…。</p>]]></content><author><name>makietan</name></author><category term="copilot" /><category term="gourmet" /><summary type="html"><![CDATA[この記事はCopilotの実験的な機能を使って一部書かれています。]]></summary></entry></feed>
