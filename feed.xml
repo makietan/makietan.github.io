@@ -1,4 +1,610 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2025-08-28T12:37:04+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">mac で「が使用中のため、操作を完了できません。」が表示される場合の対処法</title><link href="https://makietan.github.io/tech/2025/08/12/report.html" rel="alternate" type="text/html" title="mac で「が使用中のため、操作を完了できません。」が表示される場合の対処法" /><published>2025-08-12T00:00:00+09:00</published><updated>2025-08-12T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2025/08/12/report</id><content type="html" xml:base="https://makietan.github.io/tech/2025/08/12/report.html"><![CDATA[<h2 id="解決方法">解決方法</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2025-08-28T17:23:45+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">歯の点検してもらったら前歯の裏側が欠けた</title><link href="https://makietan.github.io/health/2025/08/28/report.html" rel="alternate" type="text/html" title="歯の点検してもらったら前歯の裏側が欠けた" /><published>2025-08-28T00:00:00+09:00</published><updated>2025-08-28T00:00:00+09:00</updated><id>https://makietan.github.io/health/2025/08/28/report</id><content type="html" xml:base="https://makietan.github.io/health/2025/08/28/report.html"><![CDATA[<p>歯を大事にしたいのに乱暴に扱われると非常に困るんだよね。</p>
+
+<p>なんか力加減がおかしい女だったな。</p>
+
+<p>そんなに歯は強くないんだよ。</p>]]></content><author><name>makietan</name></author><category term="health" /><summary type="html"><![CDATA[歯を大事にしたいのに乱暴に扱われると非常に困るんだよね。]]></summary></entry><entry><title type="html">YouTubeに謎の翻訳機能がついて結構邪魔</title><link href="https://makietan.github.io/tech/2025/08/27/report.html" rel="alternate" type="text/html" title="YouTubeに謎の翻訳機能がついて結構邪魔" /><published>2025-08-27T00:00:00+09:00</published><updated>2025-08-27T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2025/08/27/report</id><content type="html" xml:base="https://makietan.github.io/tech/2025/08/27/report.html"><![CDATA[<p>日本語なのに英語がオリジナルと判定されて、日本語の翻訳ボイスが流れるのは結構邪魔。</p>
+
+<p>動画の<strong>音声トラック</strong>を<strong>日本語</strong>に設定すれば問題が発生する。</p>
+
+<p>以下の動画で確認できる。</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hRr7rAgbGy8?si=hmlC7PwequurM76W" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+
+<p>おそらく冒頭の歌が英語っぽいので英語判定されたのだろう。</p>
+
+<p>音声トラックを日本語にすると翻訳ボイスが流れる。</p>
+
+<p>新しい技術を出すのはいいがあまりにも不便なり。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[日本語なのに英語がオリジナルと判定されて、日本語の翻訳ボイスが流れるのは結構邪魔。]]></summary></entry><entry><title type="html">「真空回し蹴り」の考察</title><link href="https://makietan.github.io/game/srwdd/2025/08/26/report.html" rel="alternate" type="text/html" title="「真空回し蹴り」の考察" /><published>2025-08-26T00:00:00+09:00</published><updated>2025-08-26T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2025/08/26/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2025/08/26/report.html"><![CDATA[<h2 id="ステータス">ステータス</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">HP</th>
+      <th style="text-align: center">攻撃力</th>
+      <th style="text-align: center">防御力</th>
+      <th style="text-align: center">照準値</th>
+      <th style="text-align: center">運動性</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">2610</td>
+      <td style="text-align: center">2880</td>
+      <td style="text-align: center">2820</td>
+      <td style="text-align: center">219</td>
+      <td style="text-align: center">204</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">威力</th>
+      <th style="text-align: center">命中</th>
+      <th style="text-align: center">射程</th>
+      <th style="text-align: center">ｱｸｼｮﾝ</th>
+      <th style="text-align: center">回数</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">220%</td>
+      <td style="text-align: center">40%</td>
+      <td style="text-align: center">1-3</td>
+      <td style="text-align: center">2</td>
+      <td style="text-align: center">4</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">特性</th>
+      <th style="text-align: center">ﾚｱﾘﾃｨ</th>
+      <th style="text-align: center">LV</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">+5</td>
+      <td style="text-align: center">SSR+</td>
+      <td style="text-align: center">110</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">WEAK</th>
+      <th style="text-align: center">ﾌﾞﾚｲｸｹﾞｰｼﾞﾎﾟｲﾝﾄ</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">打撃/実弾/特殊</td>
+      <td style="text-align: center">1500</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="main-専用操縦システム">MAIN 【専用操縦システム】</h2>
+<ul>
+  <li>攻撃力・防御力 21%</li>
+</ul>
+
+<h3 id="戦闘回数に応じて">戦闘回数に応じて</h3>
+<ul>
+  <li>防御力 3.8% (最大 19% )</li>
+</ul>
+
+<h3 id="真空回し蹴り発動前">真空回し蹴り発動前</h3>
+<ul>
+  <li>「屈強」を発動</li>
+</ul>
+
+<h3 id="シミュレーション">シミュレーション</h3>
+
+<p>戦闘回数: <input type="number" id="battleCount" value="5" min="0" max="5" step="1" onchange="updateChart()" />
+気力: <input type="number" id="energy" value="100" min="100" max="250" step="10" onchange="updateChart()" /></p>
+
+<canvas id="chart-1" style="background-color: #fff"></canvas>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.0.0"></script>
+
+<script>
+  function updateChart() {
+    const battleCount = parseInt(document.getElementById('battleCount').value);
+    const energy = parseInt(document.getElementById('energy').value);
+    const stats = calculateMainStats(battleCount);
+    // chart
+    const ctx1 = document.getElementById('chart-1');
+    if (Chart.getChart('chart-1')) {
+      Chart.getChart('chart-1')?.destroy();
+    }
+    new Chart(ctx1, {
+      type: 'radar',
+      plugins: [ChartDataLabels],
+      options: {
+        plugins: {
+          datalabels: {
+            color: '#000',
+            font: {
+              weight: 'bold',
+              size: 16
+            },
+            formatter: function(value, context) {
+              return value.toFixed(1) + '%';
+            }
+          }
+        }
+      },
+      data: {
+        labels: ["HP", "攻撃力", "防御力", "照準値", "運動性"],
+        datasets: [
+          {
+            label: `戦闘回数 ${battleCount}、気力 ${energy}`,
+            data: [
+              stats.hp,
+              stats.attack,
+              stats.defense,
+              stats.accuracy,
+              stats.mobility
+            ]
+          }
+        ]
+      }
+    });
+  }
+  // MAIN 【専用操縦システム】
+  function calculateMainStats(battleCount) {
+    const maxBattleCount = 5;
+    const effectiveBattleCount = Math.min(battleCount, maxBattleCount);
+    // 3.8% per battle, max 19%
+    const defenseBoost = 3.8 * effectiveBattleCount; 
+    return {
+      hp: 0,
+      attack: 21,
+      defense: 21 + defenseBoost,
+      accuracy: 0,
+      mobility: 0
+    };
+  }
+  document.addEventListener('DOMContentLoaded', updateChart);
+</script>
+
+<h2 id="必殺技スロット時-真空回し蹴り">必殺技スロット時 【真空回し蹴り】</h2>
+<ul>
+  <li>攻撃力・防御力 11%</li>
+</ul>
+
+<h3 id="戦闘回数に応じて-1">戦闘回数に応じて</h3>
+<ul>
+  <li>防御力 2% (最大 10% )</li>
+</ul>
+
+<h3 id="真空回し蹴り発動前-1">真空回し蹴り発動前</h3>
+<ul>
+  <li>「屈強」を発動</li>
+</ul>
+
+<h3 id="シミュレーション-1">シミュレーション</h3>
+
+<p>戦闘回数: <input type="number" id="battleCountSub" value="5" min="0" max="5" step="1" onchange="updateChartSub()" />
+気力: <input type="number" id="energySub" value="100" min="100" max="250" step="10" onchange="updateChartSub()" /></p>
+
+<canvas id="chart-2" style="background-color: #fff"></canvas>
+
+<script>
+  function updateChartSub() {
+    const battleCount = parseInt(document.getElementById('battleCountSub').value);
+    const energy = parseInt(document.getElementById('energySub').value);
+    const stats = calculateSubStats(battleCount);
+    // chart
+    const ctx2 = document.getElementById('chart-2');
+    if (Chart.getChart('chart-2')) {
+      Chart.getChart('chart-2')?.destroy();
+    }
+    new Chart(ctx2, {
+      type: 'radar',
+      plugins: [ChartDataLabels],
+      options: {
+        plugins: {
+          datalabels: {
+            color: '#000',
+            font: {
+              weight: 'bold',
+              size: 16
+            },
+            formatter: function(value, context) {
+              return value.toFixed(1) + '%';
+            }
+          }
+        }
+      },
+      data: {
+        labels: ["HP", "攻撃力", "防御力", "照準値", "運動性"],
+        datasets: [
+          {
+            label: `戦闘回数 ${battleCount}、気力 ${energy}`,
+            data: [
+              stats.hp,
+              stats.attack,
+              stats.defense,
+              stats.accuracy,
+              stats.mobility
+            ]
+          }
+        ]
+      }
+    });
+  }
+  // SUB 【真空回し蹴り】
+  function calculateSubStats(battleCount) {
+    const maxBattleCount = 5;
+    const effectiveBattleCount = Math.min(battleCount, maxBattleCount);
+    // 2% per battle, max 10%
+    const defenseBoost = 2 * effectiveBattleCount; 
+    return {
+      hp: 0,
+      attack: 11,
+      defense: 11 + defenseBoost,
+      accuracy: 0,
+      mobility: 0
+    };
+  }
+  document.addEventListener('DOMContentLoaded', updateChartSub);
+</script>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[ステータス]]></summary></entry><entry><title type="html">「必殺烈風正拳突き」の考察</title><link href="https://makietan.github.io/game/srwdd/2025/08/25/report.html" rel="alternate" type="text/html" title="「必殺烈風正拳突き」の考察" /><published>2025-08-25T00:00:00+09:00</published><updated>2025-08-25T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2025/08/25/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2025/08/25/report.html"><![CDATA[<h2 id="ステータス">ステータス</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">HP</th>
+      <th style="text-align: center">攻撃力</th>
+      <th style="text-align: center">防御力</th>
+      <th style="text-align: center">照準値</th>
+      <th style="text-align: center">運動性</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">2790</td>
+      <td style="text-align: center">3180</td>
+      <td style="text-align: center">2970</td>
+      <td style="text-align: center">279</td>
+      <td style="text-align: center">162</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">威力</th>
+      <th style="text-align: center">命中</th>
+      <th style="text-align: center">射程</th>
+      <th style="text-align: center">ｱｸｼｮﾝ</th>
+      <th style="text-align: center">回数</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">280%</td>
+      <td style="text-align: center">60%</td>
+      <td style="text-align: center">1-3</td>
+      <td style="text-align: center">2</td>
+      <td style="text-align: center">5</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">特性</th>
+      <th style="text-align: center">ﾚｱﾘﾃｨ</th>
+      <th style="text-align: center">LV</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">+5</td>
+      <td style="text-align: center">SSR+</td>
+      <td style="text-align: center">110</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">WEAK</th>
+      <th style="text-align: center">ﾌﾞﾚｲｸｹﾞｰｼﾞﾎﾟｲﾝﾄ</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">打撃/実弾</td>
+      <td style="text-align: center">3500</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="main-ダイモライトエネルギー">MAIN 【ダイモライトエネルギー】</h2>
+<ul>
+  <li>スピード 95 (重複不可)</li>
+  <li>MAP兵器以外の射程 +1 (重複可)</li>
+  <li>攻撃が・防御力・照準値 28.5%</li>
+</ul>
+
+<h3 id="気力が10上昇する毎">気力が10上昇する毎</h3>
+<ul>
+  <li>攻撃力・防御力・照準値 7%</li>
+</ul>
+
+<h3 id="ダイモス装備時">ダイモス装備時</h3>
+<ul>
+  <li>被ダメージを 7000 軽減</li>
+</ul>
+
+<h4 id="4マス以内">4マス以内</h4>
+<ul>
+  <li>攻撃力・防御力 35%</li>
+  <li>照準値 25%</li>
+</ul>
+
+<h3 id="必殺烈風正拳突き発動前">必殺烈風正拳突き発動前</h3>
+<ul>
+  <li>「鉄壁」を発動</li>
+</ul>
+
+<h3 id="シミュレーション">シミュレーション</h3>
+
+<p>戦闘回数: <input type="number" id="battleCount" value="5" min="0" max="5" step="1" onchange="updateChart()" />
+気力: <input type="number" id="energy" value="150" min="100" max="250" step="10" onchange="updateChart()" />
+敵との距離: <input type="number" id="distance" value="4" min="1" max="10" step="1" onchange="updateChart()" /></p>
+
+<canvas id="chart-1" style="background-color: #fff"></canvas>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.0.0"></script>
+
+<script>
+  function updateChart() {
+    const battleCount = parseInt(document.getElementById('battleCount').value);
+    const energy = parseInt(document.getElementById('energy').value);
+    const distance = parseInt(document.getElementById('distance').value);
+    const stats = calculateMainStats(battleCount, energy, distance);
+    // chart
+    const ctx1 = document.getElementById('chart-1');
+    if (Chart.getChart('chart-1')) {
+      Chart.getChart('chart-1')?.destroy();
+    }
+    new Chart(ctx1, {
+      type: 'radar',
+      plugins: [ChartDataLabels],
+      options: {
+        plugins: {
+          datalabels: {
+            color: '#000',
+            font: {
+              weight: 'bold',
+              size: 16
+            },
+            formatter: function(value, context) {
+              return value.toFixed(1) + '%';
+            }
+          }
+        }
+      },
+      data: {
+        labels: ["HP", "攻撃力", "防御力", "照準値", "運動性"],
+        datasets: [
+          {
+            label: `戦闘回数 ${battleCount}、気力 ${energy}、距離 ${distance}`,
+            data: [
+              stats.hp,
+              stats.attack,
+              stats.defense,
+              stats.accuracy,
+              stats.mobility
+            ]
+          }
+        ]
+      }
+    });
+  }
+  // MAIN 【ダイモライトエネルギー】
+  function calculateMainStats(battleCount, energy, distance) {
+    const maxBattleCount = 5;
+    const effectiveBattleCount = Math.min(battleCount, maxBattleCount);
+    // 7% per 10 energy
+    const energyBoost = 7 * Math.floor((energy - 100) / 10);
+    // distance <= 4
+    const isWithin4 = distance <= 4;
+    return {
+      hp: 0,
+      attack: 28.5 + energyBoost + (isWithin4 ? 35 : 0),
+      defense: 28.5 + energyBoost + (isWithin4 ? 35 : 0),
+      accuracy: 28.5 + energyBoost + (isWithin4 ? 25 : 0),
+      mobility: 0
+    };
+  }
+  document.addEventListener('DOMContentLoaded', updateChart);
+</script>
+
+<h2 id="必殺技スロット時-ダイモライトエネルギー">必殺技スロット時 【ダイモライトエネルギー】</h2>
+<ul>
+  <li>スピード 95 (重複不可)</li>
+  <li>MAP兵器以外の射程 +1 (重複可)</li>
+</ul>
+
+<h3 id="気力が10上昇する毎-1">気力が10上昇する毎</h3>
+<ul>
+  <li>攻撃力・防御力 2%</li>
+</ul>
+
+<h3 id="必殺烈風正拳突き発動前-1">必殺烈風正拳突き発動前</h3>
+<ul>
+  <li>「鉄壁」を発動</li>
+</ul>
+
+<h3 id="シミュレーション-1">シミュレーション</h3>
+
+<p>戦闘回数: <input type="number" id="battleCountSpecial" value="5" min="0" max="5" step="1" onchange="updateChartSpecial()" />
+気力: <input type="number" id="energySpecial" value="150" min="100" max="250" step="10" onchange="updateChartSpecial()" />
+敵との距離: <input type="number" id="distanceSpecial" value="4" min="1" max="10" step="1" onchange="updateChartSpecial()" /></p>
+
+<canvas id="chart-2" style="background-color: #fff"></canvas>
+
+<script>
+  function updateChartSpecial() {
+    const battleCount = parseInt(document.getElementById('battleCountSpecial').value);
+    const energy = parseInt(document.getElementById('energySpecial').value);
+    const distance = parseInt(document.getElementById('distanceSpecial').value);
+    const stats = calculateSpecialStats(battleCount, energy, distance);
+    // chart
+    const ctx2 = document.getElementById('chart-2');
+    if (Chart.getChart('chart-2')) {
+      Chart.getChart('chart-2')?.destroy();
+    }
+    new Chart(ctx2, {
+      type: 'radar',
+      plugins: [ChartDataLabels],
+      options: {
+        plugins: {
+          datalabels: {
+            color: '#000',
+            font: {
+              weight: 'bold',
+              size: 16
+            },
+            formatter: function(value, context) {
+              return value.toFixed(1) + '%';
+            }
+          }
+        }
+      },
+      data: {
+        labels: ["HP", "攻撃力", "防御力", "照準値", "運動性"],
+        datasets: [
+          {
+            label: `戦闘回数 ${battleCount}、気力 ${energy}、距離 ${distance}`,
+            data: [
+              stats.hp,
+              stats.attack,
+              stats.defense,
+              stats.accuracy,
+              stats.mobility
+            ]
+          }
+        ]
+      }
+    });
+  }
+  // 必殺技スロット時 【ダイモライトエネルギー】
+  function calculateSpecialStats(battleCount, energy, distance) {
+    const maxBattleCount = 5;
+    const effectiveBattleCount = Math.min(battleCount, maxBattleCount);
+    // 2% per 10 energy
+    const energyBoost = 2 * Math.floor((energy - 100) / 10);
+    return {
+      hp: 0,
+      attack: energyBoost,
+      defense: energyBoost,
+      accuracy: 0,
+      mobility: 0
+    };
+  }
+  document.addEventListener('DOMContentLoaded', updateChartSpecial);
+</script>
+
+<h2 id="sub-ダイモライトエネルギー">SUB 【ダイモライトエネルギー】</h2>
+<ul>
+  <li>攻撃力・照準値 4.5%</li>
+</ul>
+
+<h3 id="攻撃防御タイプ">攻撃&amp;防御タイプ</h3>
+<ul>
+  <li>攻撃力・防御力 2.5%</li>
+</ul>
+
+<h3 id="竜崎一矢装備時">竜崎一矢装備時</h3>
+<ul>
+  <li>攻撃力・防御力 +400</li>
+</ul>
+
+<h3 id="シミュレーション-2">シミュレーション</h3>
+
+<p><label for="toggleSubType" class="checkboxItem">攻撃&amp;防御タイプ</label>
+<input type="checkbox" id="toggleSubType" checked="" onchange="updateChartSub()" class="checkbox" /></p>
+
+<p><label for="toggleSubPilot" class="checkboxItem">竜崎一矢装備</label>
+<input type="checkbox" id="toggleSubPilot" checked="" onchange="updateChartSub()" class="checkbox" /></p>
+
+<canvas id="chart-3" style="background-color: #fff"></canvas>
+
+<script>
+  function updateChartSub() {
+    const isSubType = document.getElementById('toggleSubType').checked;
+    const isSubPilot = document.getElementById('toggleSubPilot').checked;
+    const stats = calculateSubStats(isSubType, isSubPilot);
+    // chart
+    const ctx3 = document.getElementById('chart-3');
+    if (Chart.getChart('chart-3')) {
+      Chart.getChart('chart-3')?.destroy();
+    }
+    new Chart(ctx3, {
+      type: 'radar',
+      plugins: [ChartDataLabels],
+      options: {
+        plugins: {
+          datalabels: {
+            color: '#000',
+            font: {
+              weight: 'bold',
+              size: 16
+            },
+            formatter: function(value, context) {
+              return value.toFixed(1) + '%';
+            }
+          }
+        }
+      },
+      data: {
+        labels: ["HP", "攻撃力", "防御力", "照準値", "運動性"],
+        datasets: [
+          {
+            label: `SUB 【ダイモライトエネルギー】`,
+            data: [
+              stats.hp,
+              stats.attack,
+              stats.defense,
+              stats.accuracy,
+              stats.mobility
+            ]
+          }
+        ]
+      }
+    });
+  }
+  // SUB 【ダイモライトエネルギー】
+  function calculateSubStats(isSubType, isSubPilot) {
+    return {
+      hp: 0,
+      attack: 4.5 + (isSubType ? 2.5 : 0) + (isSubPilot ? 400 / 3180 * 100 : 0),
+      defense: (isSubType ? 2.5 : 0) + (isSubPilot ? 400 / 2970 * 100 : 0),
+      accuracy: 4.5,
+      mobility: 0
+    };
+  }
+  document.addEventListener('DOMContentLoaded', updateChartSub);
+</script>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[ステータス]]></summary></entry><entry><title type="html">mac で「が使用中のため、操作を完了できません。」が表示される場合の対処法</title><link href="https://makietan.github.io/tech/2025/08/12/report.html" rel="alternate" type="text/html" title="mac で「が使用中のため、操作を完了できません。」が表示される場合の対処法" /><published>2025-08-12T00:00:00+09:00</published><updated>2025-08-12T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2025/08/12/report</id><content type="html" xml:base="https://makietan.github.io/tech/2025/08/12/report.html"><![CDATA[<h2 id="解決方法">解決方法</h2>
 
 <ol>
   <li>対象のファイル・ディレクトリを元の場所に移動</li>
@@ -241,195 +847,4 @@
 
 <ul>
   <li>タイ</li>
-</ul>]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[www.family.co.jp クリスピーチキン（プレーン） ｜商品情報｜ファミリーマート さっぱりとした鶏むね肉にクリスピーな衣の食感が楽しいフライドチキンです。醤油とニンニクを使ったシンプルな味つけで、衣はさらにカリッと食感に、中の肉はさらにしっとり食感に仕上げました。]]></summary></entry><entry><title type="html">冷房代が馬鹿にならない…</title><link href="https://makietan.github.io/copilot/health/2025/07/25/report.html" rel="alternate" type="text/html" title="冷房代が馬鹿にならない…" /><published>2025-07-25T00:00:00+09:00</published><updated>2025-07-25T00:00:00+09:00</updated><id>https://makietan.github.io/copilot/health/2025/07/25/report</id><content type="html" xml:base="https://makietan.github.io/copilot/health/2025/07/25/report.html"><![CDATA[<p>PCが暴走しないように冷房を入れてるんだが、これが一体いくらになっているのかが気になるところ。</p>
-
-<p>もう1万円は余裕で超えるようになってしまった電気代をどうにかして欲しい。</p>
-
-<p>3万くらいいくんだろうか？</p>
-
-<p>あー怖い怖い。</p>
-
-<h2 id="24時間稼働してる冷房の電気代は">24時間稼働してる冷房の電気代は？</h2>
-
-<p><strong>この記事はCopilotの実験的な機能を使って一部書かれています。</strong></p>
-
-<p>エアコンの消費電力や電気料金単価によりますが、例えば消費電力が600W（0.6kW）のエアコンを1時間使うと0.6kWhです。1kWhあたりの電気料金が30円の場合、1時間で約18円、24時間で約432円、1ヶ月（30日）で約12,960円になります。</p>
-
-<p>実際の金額はエアコンの性能や設定温度、部屋の断熱性などで変わりますので、あくまで目安として参考にしてください。</p>]]></content><author><name>makietan</name></author><category term="copilot" /><category term="health" /><summary type="html"><![CDATA[PCが暴走しないように冷房を入れてるんだが、これが一体いくらになっているのかが気になるところ。]]></summary></entry><entry><title type="html">「ガーリックシュリンプ」の栄養成分</title><link href="https://makietan.github.io/gourmet/2025/07/24/report.html" rel="alternate" type="text/html" title="「ガーリックシュリンプ」の栄養成分" /><published>2025-07-24T00:00:00+09:00</published><updated>2025-07-24T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2025/07/24/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2025/07/24/report.html"><![CDATA[<h2 id="ガーリックシュリンプ">ガーリックシュリンプ</h2>
-
-<p><a href="https://www.mcdonalds.co.jp/products/6610/">https://www.mcdonalds.co.jp/products/6610/</a></p>
-
-<h3 id="栄養成分1個あたり">栄養成分（1個あたり）</h3>
-
-<table>
-  <thead>
-    <tr>
-      <th>成分</th>
-      <th>含有量</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>エネルギー</td>
-      <td>473 kcal</td>
-    </tr>
-    <tr>
-      <td>たんぱく質</td>
-      <td>11.6 g</td>
-    </tr>
-    <tr>
-      <td>脂質</td>
-      <td>23.7 g</td>
-    </tr>
-    <tr>
-      <td>炭水化物</td>
-      <td>53.4 g</td>
-    </tr>
-    <tr>
-      <td>食塩相当量</td>
-      <td>2.3 g</td>
-    </tr>
-    <tr>
-      <td>ナトリウム</td>
-      <td>909 mg</td>
-    </tr>
-    <tr>
-      <td>カリウム</td>
-      <td>137 mg</td>
-    </tr>
-    <tr>
-      <td>カルシウム</td>
-      <td>77 mg</td>
-    </tr>
-    <tr>
-      <td>リン</td>
-      <td>103 mg</td>
-    </tr>
-    <tr>
-      <td>鉄</td>
-      <td>0.7 mg</td>
-    </tr>
-    <tr>
-      <td>ビタミンA</td>
-      <td>9 μg</td>
-    </tr>
-    <tr>
-      <td>ビタミンB₁</td>
-      <td>0.09 mg</td>
-    </tr>
-    <tr>
-      <td>ビタミンB₂</td>
-      <td>0.06 mg</td>
-    </tr>
-    <tr>
-      <td>ナイアシン</td>
-      <td>3.4 mg</td>
-    </tr>
-    <tr>
-      <td>ビタミンC</td>
-      <td>1 mg</td>
-    </tr>
-    <tr>
-      <td>コレステロール</td>
-      <td>58 mg</td>
-    </tr>
-    <tr>
-      <td>食物繊維</td>
-      <td>2.6 g</td>
-    </tr>
-  </tbody>
-</table>
-
-<hr />
-
-<p>ぷりぷり食感のえびカツに、ロースト感のあるえびの旨味とガーリックの食感が効いたスパイシーなソースがやみつきになる一品です。</p>]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[ガーリックシュリンプ]]></summary></entry><entry><title type="html">「肉厚ビーフチーズロコモコ」の栄養成分</title><link href="https://makietan.github.io/gourmet/2025/07/23/report.html" rel="alternate" type="text/html" title="「肉厚ビーフチーズロコモコ」の栄養成分" /><published>2025-07-23T00:00:00+09:00</published><updated>2025-07-23T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2025/07/23/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2025/07/23/report.html"><![CDATA[<h2 id="肉厚ビーフチーズロコモコ">肉厚ビーフチーズロコモコ</h2>
-
-<p><a href="https://www.mcdonalds.co.jp/products/6600/">https://www.mcdonalds.co.jp/products/6600/</a></p>
-
-<h3 id="栄養成分1食あたり">栄養成分（1食あたり）</h3>
-
-<table>
-  <thead>
-    <tr>
-      <th>成分</th>
-      <th>含有量</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>エネルギー</td>
-      <td>553 kcal</td>
-    </tr>
-    <tr>
-      <td>たんぱく質</td>
-      <td>28.3 g</td>
-    </tr>
-    <tr>
-      <td>脂質</td>
-      <td>31.7 g</td>
-    </tr>
-    <tr>
-      <td>炭水化物</td>
-      <td>37.7 g</td>
-    </tr>
-    <tr>
-      <td>食塩相当量</td>
-      <td>2.6 g</td>
-    </tr>
-    <tr>
-      <td>ナトリウム</td>
-      <td>1032 mg</td>
-    </tr>
-    <tr>
-      <td>カリウム</td>
-      <td>403 mg</td>
-    </tr>
-    <tr>
-      <td>カルシウム</td>
-      <td>151 mg</td>
-    </tr>
-    <tr>
-      <td>リン</td>
-      <td>322 mg</td>
-    </tr>
-    <tr>
-      <td>鉄</td>
-      <td>2.6 mg</td>
-    </tr>
-    <tr>
-      <td>ビタミンA</td>
-      <td>135 μg</td>
-    </tr>
-    <tr>
-      <td>ビタミンB₁</td>
-      <td>0.49 mg</td>
-    </tr>
-    <tr>
-      <td>ビタミンB₂</td>
-      <td>0.39 mg</td>
-    </tr>
-    <tr>
-      <td>ナイアシン</td>
-      <td>8.8 mg</td>
-    </tr>
-    <tr>
-      <td>ビタミンC</td>
-      <td>1 mg</td>
-    </tr>
-    <tr>
-      <td>コレステロール</td>
-      <td>270 mg</td>
-    </tr>
-    <tr>
-      <td>食物繊維</td>
-      <td>2.1 g</td>
-    </tr>
-  </tbody>
-</table>
-
-<hr />
-
-<p>肉厚の100%ビーフとたまごに、ハワイアンバーベキューソースが相性抜群の、ハワイの名物料理をイメージした一品です。</p>]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[肉厚ビーフチーズロコモコ]]></summary></entry><entry><title type="html">鬼おろしポン酢ロースかつ定食が580円になる松のやのXクーポンがきたぞ</title><link href="https://makietan.github.io/gourmet/2025/07/17/report.html" rel="alternate" type="text/html" title="鬼おろしポン酢ロースかつ定食が580円になる松のやのXクーポンがきたぞ" /><published>2025-07-17T00:00:00+09:00</published><updated>2025-07-17T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2025/07/17/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2025/07/17/report.html"><![CDATA[<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">突然ですが・・・本日より、<br /><br />鬼おろしポン酢ロースかつ定食<br />W鬼おろしポン酢ロースかつ定食<br /><br />Xクーポン発動します(´∀｀)<br /><br />(´∀｀)からの最後の贈り物・・・<br />みなさまよろしくお願いいたします！ <a href="https://t.co/ObTirK1xeA">pic.twitter.com/ObTirK1xeA</a></p>&mdash; とんかつ 松のや【公式】 (@matsu_noya) <a href="https://twitter.com/matsu_noya/status/1945362769915863446?ref_src=twsrc%5Etfw">July 16, 2025</a></blockquote>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<p>イヤッッホォォォオオォオウ！</p>]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[突然ですが・・・本日より、鬼おろしポン酢ロースかつ定食W鬼おろしポン酢ロースかつ定食Xクーポン発動します(´∀｀)(´∀｀)からの最後の贈り物・・・みなさまよろしくお願いいたします！ pic.twitter.com/ObTirK1xeA&mdash; とんかつ 松のや【公式】 (@matsu_noya) July 16, 2025]]></summary></entry></feed>
+</ul>]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[www.family.co.jp クリスピーチキン（プレーン） ｜商品情報｜ファミリーマート さっぱりとした鶏むね肉にクリスピーな衣の食感が楽しいフライドチキンです。醤油とニンニクを使ったシンプルな味つけで、衣はさらにカリッと食感に、中の肉はさらにしっとり食感に仕上げました。]]></summary></entry></feed>
