@@ -1,4 +1,356 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2025-08-28T18:38:22+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">歯の点検してもらったら前歯の裏側が欠けた</title><link href="https://makietan.github.io/health/2025/08/28/report.html" rel="alternate" type="text/html" title="歯の点検してもらったら前歯の裏側が欠けた" /><published>2025-08-28T00:00:00+09:00</published><updated>2025-08-28T00:00:00+09:00</updated><id>https://makietan.github.io/health/2025/08/28/report</id><content type="html" xml:base="https://makietan.github.io/health/2025/08/28/report.html"><![CDATA[<p>歯を大事にしたいのに乱暴に扱われると非常に困るんだよね。</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2025-08-29T12:37:03+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">「強襲（ズゴック」の考察</title><link href="https://makietan.github.io/game/srwdd/2025/08/29/report.html" rel="alternate" type="text/html" title="「強襲（ズゴック」の考察" /><published>2025-08-29T00:00:00+09:00</published><updated>2025-08-29T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2025/08/29/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2025/08/29/report.html"><![CDATA[<h2 id="ステータス">ステータス</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">HP</th>
+      <th style="text-align: center">攻撃力</th>
+      <th style="text-align: center">防御力</th>
+      <th style="text-align: center">照準値</th>
+      <th style="text-align: center">運動性</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">2700</td>
+      <td style="text-align: center">3270</td>
+      <td style="text-align: center">2940</td>
+      <td style="text-align: center">282</td>
+      <td style="text-align: center">159</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">威力</th>
+      <th style="text-align: center">命中</th>
+      <th style="text-align: center">射程</th>
+      <th style="text-align: center">ｱｸｼｮﾝ.</th>
+      <th style="text-align: center">回数</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">280%</td>
+      <td style="text-align: center">60%</td>
+      <td style="text-align: center">1-3</td>
+      <td style="text-align: center">2</td>
+      <td style="text-align: center">5</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">特性.</th>
+      <th style="text-align: center">ﾚｱﾘﾃｨ</th>
+      <th style="text-align: center">LV</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">+5</td>
+      <td style="text-align: center">SSR+</td>
+      <td style="text-align: center">110</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">WEAK</th>
+      <th style="text-align: center">ﾌﾞﾚｲｸｹﾞｰｼﾞﾎﾟｲﾝﾄ</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">ビーム/特殊.</td>
+      <td style="text-align: center">5000</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="main-m2x32e-フォランテス">MAIN 【M2X32E フォランテス】</h2>
+<ul>
+  <li>攻撃力・防御力・照準値 24%</li>
+</ul>
+
+<h3 id="ズゴック装備時">ズゴック装備時</h3>
+<ul>
+  <li>移動力 +1 (重複可)</li>
+  <li>被ダメージを 7000 軽減</li>
+  <li>ブレイクゲージ減少量 100%</li>
+</ul>
+
+<h4 id="敵が3マス以内">敵が3マス以内</h4>
+<ul>
+  <li>距離が近いほど攻撃力・防御力・照準値が10%上昇 (最大30%)</li>
+</ul>
+
+<h3 id="気力が10上昇する毎">気力が10上昇する毎</h3>
+<ul>
+  <li>攻撃力 6.5%</li>
+  <li>防御力・照準値 7.5%</li>
+</ul>
+
+<h3 id="シミュレーション">シミュレーション</h3>
+
+<p>戦闘回数: <input type="number" id="battleCount" value="5" min="0" max="5" step="1" onchange="updateChart()" />
+気力: <input type="number" id="energy" value="150" min="100" max="250" step="10" onchange="updateChart()" />
+敵との距離: <input type="number" id="distance" value="4" min="1" max="10" step="1" onchange="updateChart()" /></p>
+
+<canvas id="chart-1" style="background-color: #fff"></canvas>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.0.0"></script>
+
+<script>
+  function updateChart() {
+    const battleCount = document.getElementById("battleCount").value;
+    const energy = document.getElementById("energy").value;
+    const distance = document.getElementById("distance").value;
+
+    const stats = calculateMainStats(battleCount, energy, distance);
+    // chart
+    const ctx1 = document.getElementById('chart-1');
+    if (Chart.getChart('chart-1')) {
+      Chart.getChart('chart-1')?.destroy();
+    }
+    new Chart(ctx1, {
+      type: 'radar',
+      plugins: [ChartDataLabels],
+      options: {
+        plugins: {
+          datalabels: {
+            color: '#000',
+            font: {
+              weight: 'bold',
+              size: 16
+            },
+            formatter: function(value, context) {
+              return value.toFixed(1) + '%';
+            }
+          }
+        }
+      },
+      data: {
+        labels: ["HP", "攻撃力", "防御力", "照準値", "運動性"],
+        datasets: [
+          {
+            label: `MAIN`,
+            data: [
+              stats.hp,
+              stats.attack,
+              stats.defense,
+              stats.accuracy,
+              stats.mobility
+            ]
+          }
+        ]
+      }
+    });
+  }
+  // MAIN
+  function calculateMainStats(battleCount, energy, distance) {
+    let hp = 0;
+    let attack = 24;
+    let defense = 24;
+    let accuracy = 24;
+    let mobility = 0;
+
+    // ズゴック装備時の補正
+    if (distance <= 3) {
+      const proximityBonus = Math.min(30, (4 - distance) * 10);
+      attack *= (1 + proximityBonus / 100);
+      defense *= (1 + proximityBonus / 100);
+      accuracy *= (1 + proximityBonus / 100);
+    }
+
+    // 気力補正
+    const energyBonus = Math.floor((energy - 100) / 10);
+    attack *= (1 + energyBonus * 0.065);
+    defense *= (1 + energyBonus * 0.075);
+    accuracy *= (1 + energyBonus * 0.075);
+
+    return {
+      hp: hp,
+      attack: attack,
+      defense: defense,
+      accuracy: accuracy,
+      mobility: mobility
+    };
+  }
+  document.addEventListener('DOMContentLoaded', updateChart);
+</script>
+
+<h2 id="必殺技スロット時-m2x32e-フォランテス">必殺技スロット時 【M2X32E フォランテス】</h2>
+
+<ul>
+  <li>移動力 +1 (重複可)</li>
+  <li>強襲（ズゴック）のブレイクゲージ減少量 35%</li>
+</ul>
+
+<h3 id="気力が10上昇する毎-1">気力が10上昇する毎</h3>
+<ul>
+  <li>攻撃力・防御力・照準値 2%</li>
+</ul>
+
+<h3 id="シミュレーション-1">シミュレーション</h3>
+
+<p>戦闘回数: <input type="number" id="battleCountSpecial" value="5" min="0" max="5" step="1" onchange="updateChartSpecial()" />
+気力: <input type="number" id="energySpecial" value="150" min="100" max="250" step="10" onchange="updateChartSpecial()" />
+敵との距離: <input type="number" id="distanceSpecial" value="4" min="1" max="10" step="1" onchange="updateChartSpecial()" /></p>
+
+<canvas id="chart-2" style="background-color: #fff"></canvas>
+
+<script>
+  function updateChartSpecial() {
+    const battleCount = document.getElementById("battleCountSpecial").value;
+    const energy = document.getElementById("energySpecial").value;
+    const distance = document.getElementById("distanceSpecial").value;
+    const stats = calculateSpecialStats(energy);
+    // chart
+    const ctx2 = document.getElementById('chart-2');
+    if (Chart.getChart('chart-2')) {
+      Chart.getChart('chart-2')?.destroy();
+    }
+    new Chart(ctx2, {
+      type: 'radar',
+      plugins: [ChartDataLabels],
+      options: {
+        plugins: {
+          datalabels: {
+            color: '#000',
+            font: {
+              weight: 'bold',
+              size: 16
+            },
+            formatter: function(value, context) {
+              return value.toFixed(1) + '%';
+            }
+          }
+        }
+      },
+      data: {
+        labels: ["HP", "攻撃力", "防御力", "照準値", "運動性"],
+        datasets: [
+          {
+            label: `必殺技スロット時`,
+            data: [
+              stats.hp,
+              stats.attack,
+              stats.defense,
+              stats.accuracy,
+              stats.mobility
+            ]
+          }
+        ]
+      }
+    });
+  }
+  // 必殺技スロット時
+  function calculateSpecialStats(energy) {
+    let hp = 0;
+    let attack = 0;
+    let defense = 0;
+    let accuracy = 0;
+    let mobility = 0;
+
+    // 気力補正
+    const energyBonus = Math.floor((energy - 100) / 10);
+    attack += energyBonus * 2;
+    defense += energyBonus * 2;
+    accuracy += energyBonus * 2; 
+    return {
+      hp: hp,
+      attack: attack,
+      defense: defense,
+      accuracy: accuracy,
+      mobility: mobility
+    };
+  }
+  document.addEventListener('DOMContentLoaded', updateChartSpecial);
+</script>
+
+<h2 id="sub-攻撃力防御力アップⅳ加速アスランザラ">SUB 【攻撃力・防御力アップⅣ・加速（アスラン・ザラ）】</h2>
+<ul>
+  <li>攻撃力・防御力 5%</li>
+</ul>
+
+<h3 id="アスランザラ装備時">アスラン・ザラ装備時</h3>
+<h4 id="出撃後1度だけ">出撃後1度だけ</h4>
+<ul>
+  <li>ステージ開始時「加速」</li>
+</ul>
+
+<h3 id="シミュレーション-2">シミュレーション</h3>
+
+<canvas id="chart-3" style="background-color: #fff"></canvas>
+
+<script>
+  function updateChartSub() {
+    const stats = calculateSubStats();
+    // chart
+    const ctx3 = document.getElementById('chart-3');
+    if (Chart.getChart('chart-3')) {
+      Chart.getChart('chart-3')?.destroy();
+    }
+    new Chart(ctx3, {
+      type: 'radar',
+      plugins: [ChartDataLabels],
+      options: {
+        plugins: {
+          datalabels: {
+            color: '#000',
+            font: {
+              weight: 'bold',
+              size: 16
+            },
+            formatter: function(value, context) {
+              return value.toFixed(1) + '%';
+            }
+          }
+        }
+      },
+      data: {
+        labels: ["HP", "攻撃力", "防御力", "照準値", "運動性"],
+        datasets: [
+          {
+            label: `SUB`,
+            data: [
+              stats.hp,
+              stats.attack,
+              stats.defense,
+              stats.accuracy,
+              stats.mobility
+            ]
+          }
+        ]
+      }
+    });
+  }
+  // SUB
+  function calculateSubStats() {
+    let hp = 0;
+    let attack = 5;
+    let defense = 5;
+    let accuracy = 0;
+    let mobility = 0;
+    return {
+      hp: hp,
+      attack: attack,
+      defense: defense,
+      accuracy: accuracy,
+      mobility: mobility
+    };
+  }
+  document.addEventListener('DOMContentLoaded', updateChartSub);
+</script>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[ステータス]]></summary></entry><entry><title type="html">歯の点検してもらったら前歯の裏側が欠けた</title><link href="https://makietan.github.io/health/2025/08/28/report.html" rel="alternate" type="text/html" title="歯の点検してもらったら前歯の裏側が欠けた" /><published>2025-08-28T00:00:00+09:00</published><updated>2025-08-28T00:00:00+09:00</updated><id>https://makietan.github.io/health/2025/08/28/report</id><content type="html" xml:base="https://makietan.github.io/health/2025/08/28/report.html"><![CDATA[<p>歯を大事にしたいのに乱暴に扱われると非常に困るんだよね。</p>
 
 <p>なんか力加減がおかしい女だったな。</p>
 
@@ -1085,91 +1437,4 @@
 <hr />
 
 <blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">【予告】 <br />リミットレギュレーションの適用について <br /><br />8月4日(月)に「リミットレギュレーションの適用」を実施いたします。 <br />この変更に先立ち、アプリ内では変更の方針と理由についてお伝えさせていただいております。 <br /><br />詳細はゲームをご確認ください。 <a href="https://twitter.com/hashtag/%E9%81%8A%E6%88%AF%E7%8E%8B%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%87%E3%83%A5%E3%82%A8%E3%83%AB?src=hash&amp;ref_src=twsrc%5Etfw">#遊戯王マスターデュエル</a> <a href="https://t.co/gTqOenhSsd">pic.twitter.com/gTqOenhSsd</a></p>&mdash; 【公式】 遊戯王 マスターデュエル (@YuGiOh_MD_INFO) <a href="https://twitter.com/YuGiOh_MD_INFO/status/1948664104488665204?ref_src=twsrc%5Etfw">July 25, 2025</a></blockquote>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>]]></content><author><name>makietan</name></author><category term="game" /><category term="yugioh" /><summary type="html"><![CDATA[新たに生成して分解してもボーナスが貰えなくなりました。 乱数要素なのに KONAMI はセコいですね。]]></summary></entry><entry><title type="html">「ザク切りポテト&amp;amp;肉厚ビーフ やみつきチーズペッパー 」の栄養成分</title><link href="https://makietan.github.io/gourmet/2025/07/29/report.html" rel="alternate" type="text/html" title="「ザク切りポテト&amp;amp;肉厚ビーフ やみつきチーズペッパー 」の栄養成分" /><published>2025-07-29T00:00:00+09:00</published><updated>2025-07-29T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2025/07/29/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2025/07/29/report.html"><![CDATA[<h2 id="ザク切りポテト肉厚ビーフ-やみつきチーズペッパー">ザク切りポテト&amp;肉厚ビーフ やみつきチーズペッパー</h2>
-
-<p><a href="https://www.mcdonalds.co.jp/products/6620/">https://www.mcdonalds.co.jp/products/6620/</a></p>
-
-<h3 id="栄養成分1個あたり">栄養成分（1個あたり）</h3>
-
-<table>
-  <thead>
-    <tr>
-      <th>項目</th>
-      <th>含有量</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>エネルギー</td>
-      <td>640 kcal</td>
-    </tr>
-    <tr>
-      <td>たんぱく質</td>
-      <td>23.3 g</td>
-    </tr>
-    <tr>
-      <td>脂質</td>
-      <td>37.4 g</td>
-    </tr>
-    <tr>
-      <td>炭水化物</td>
-      <td>52.5 g</td>
-    </tr>
-    <tr>
-      <td>食塩相当量</td>
-      <td>3.2 g</td>
-    </tr>
-    <tr>
-      <td>ナトリウム</td>
-      <td>1261 mg</td>
-    </tr>
-    <tr>
-      <td>カリウム</td>
-      <td>526 mg</td>
-    </tr>
-    <tr>
-      <td>カルシウム</td>
-      <td>133 mg</td>
-    </tr>
-    <tr>
-      <td>リン</td>
-      <td>285 mg</td>
-    </tr>
-    <tr>
-      <td>鉄</td>
-      <td>2.0 mg</td>
-    </tr>
-    <tr>
-      <td>ビタミンA</td>
-      <td>63 μg</td>
-    </tr>
-    <tr>
-      <td>ビタミンB₁</td>
-      <td>0.52 mg</td>
-    </tr>
-    <tr>
-      <td>ビタミンB₂</td>
-      <td>0.20 mg</td>
-    </tr>
-    <tr>
-      <td>ナイアシン</td>
-      <td>8.5 mg</td>
-    </tr>
-    <tr>
-      <td>ビタミンC</td>
-      <td>4 mg</td>
-    </tr>
-    <tr>
-      <td>コレステロール</td>
-      <td>66 mg</td>
-    </tr>
-    <tr>
-      <td>食物繊維</td>
-      <td>3.6 g</td>
-    </tr>
-  </tbody>
-</table>
-
-<hr />
-
-<p>肉厚ビーフにポテトパティを重ね、バーベキューソースとペッパーの効いたスモークチーズソースを合わせた、食べ応え抜群の一品です。</p>]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[ザク切りポテト&amp;肉厚ビーフ やみつきチーズペッパー]]></summary></entry></feed>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>]]></content><author><name>makietan</name></author><category term="game" /><category term="yugioh" /><summary type="html"><![CDATA[新たに生成して分解してもボーナスが貰えなくなりました。 乱数要素なのに KONAMI はセコいですね。]]></summary></entry></feed>
