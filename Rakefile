@@ -157,7 +157,7 @@ namespace :jekyll do
   desc 'serve'
   task :serve do
     sh "bundle install --path vendor/bundle"
-    sh "bundle exec jekyll serve --trace"
+    sh "bundle exec jekyll serve --incremental --livereload --trace"
   end
 
   # desc 'setup'
