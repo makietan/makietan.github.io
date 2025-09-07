@@ -1,4 +1,18 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2025-09-07T12:37:15+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">相良宗介の強さについての考察</title><link href="https://makietan.github.io/game/srw/paper/2025/09/04/report.html" rel="alternate" type="text/html" title="相良宗介の強さについての考察" /><published>2025-09-04T00:00:00+09:00</published><updated>2025-09-04T00:00:00+09:00</updated><id>https://makietan.github.io/game/srw/paper/2025/09/04/report</id><content type="html" xml:base="https://makietan.github.io/game/srw/paper/2025/09/04/report.html"><![CDATA[<style>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2025-09-07T14:36:18+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">いい感じに開いてるラーメン店があったので育てていきたい気持ちになった</title><link href="https://makietan.github.io/gourmet/2025/09/07/report.html" rel="alternate" type="text/html" title="いい感じに開いてるラーメン店があったので育てていきたい気持ちになった" /><published>2025-09-07T00:00:00+09:00</published><updated>2025-09-07T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2025/09/07/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2025/09/07/report.html"><![CDATA[<p>だが、煮干し系なんだよな。</p>
+
+<p>最寄りの美味しいラーメン店が閉店してしまい、しばらくラーメン難民だったのだが、最近いい感じに開いてるラーメン店があったので育てていきたい気持ちになった。</p>
+
+<p>煮干しラーメンと貝出汁ラーメンなので、煮干し系が苦手な人は避けた方がいいかもしれない。</p>
+
+<p>ただ背脂入りが美味いので、分かる人には分かってほしい店になるだろう。</p>]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[だが、煮干し系なんだよな。]]></summary></entry><entry><title type="html">気を使うとか言う割にはこっちにかなりの負担をかけてくるやつバカだろ</title><link href="https://makietan.github.io/human/2025/09/06/report.html" rel="alternate" type="text/html" title="気を使うとか言う割にはこっちにかなりの負担をかけてくるやつバカだろ" /><published>2025-09-06T00:00:00+09:00</published><updated>2025-09-06T00:00:00+09:00</updated><id>https://makietan.github.io/human/2025/09/06/report</id><content type="html" xml:base="https://makietan.github.io/human/2025/09/06/report.html"><![CDATA[<p>タイトル通り。</p>
+
+<p>ファイルのコミットに気を使うとか言う割には、それをカバーするための仕組みを作れと言ってくるのは、結局のところ自分の都合しか考えていない。</p>
+
+<p>例えば、あるプロジェクトで複数の人が同じファイルを編集しているとする。Aさんは頻繁にコミットを行い、Bさんはあまりコミットしない。AさんはBさんに対して「もっと頻繁にコミットしてくれ」と言うが、Bさんは「気を使っているんだから」と返す。しかし、AさんにとってはBさんのコミットが遅れることで、自分の作業が滞ることになる。そして、Aさんは「気を使うとか言う割にはこっちにかなりの負担をかけてくるやつバカだろ」と感じる。これを解消するためには、Bさんがもっと頻繁にコミットするか、AさんがBさんのペースに合わせるか、あるいは両者が協力して効率的なワークフローを作る必要がある。それなのに、Bさんが「〇〇という仕組みを作れ」と言ってくるのは、結局のところ自分の都合しか考えていない。</p>
+
+<p>このような状況では、コミュニケーションが重要である。お互いの立場や状況を理解し、協力して問題を解決することが求められる。単に「気を使う」と言うだけではなく、具体的な行動や改善策を提案し、実行することが必要である。そうしないと、結局のところ誰も幸せにならない。だが、その改善策がAさんへの負担を増やすものであれば、Aさんは「気を使うとか言う割にはこっちにかなりの負担をかけてくるやつバカだろ」と感じ続けることになる。</p>
+
+<p>結論として、他人に気を使うことは大切だが、それが自分の負担を増やすものであってはならない。お互いに尊重し合い、協力して効率的な方法を見つけることが重要である。</p>]]></content><author><name>makietan</name></author><category term="human" /><summary type="html"><![CDATA[タイトル通り。]]></summary></entry><entry><title type="html">相良宗介の強さについての考察</title><link href="https://makietan.github.io/game/srw/paper/2025/09/04/report.html" rel="alternate" type="text/html" title="相良宗介の強さについての考察" /><published>2025-09-04T00:00:00+09:00</published><updated>2025-09-04T00:00:00+09:00</updated><id>https://makietan.github.io/game/srw/paper/2025/09/04/report</id><content type="html" xml:base="https://makietan.github.io/game/srw/paper/2025/09/04/report.html"><![CDATA[<style>
 .post-content {
   background: #474747;
   padding: 8px;
@@ -1626,46 +1640,4 @@
 
 <p>でも美味しかった。また行く機会があったら食べたい。</p>
 
-<p>心も体もお腹いっぱいな一日でした。</p>]]></content><author><name>makietan</name></author><category term="otaku" /><category term="gourmet" /><summary type="html"><![CDATA[あまりにも暇だったので、舞台『ゲゲゲの鬼太郎2025』大阪公演を観てきました。]]></summary></entry><entry><title type="html">1週間程度家を空けると動かしてるスクリプトで200GBくらいのデータが蓄積されていた</title><link href="https://makietan.github.io/tech/2025/08/22/report.html" rel="alternate" type="text/html" title="1週間程度家を空けると動かしてるスクリプトで200GBくらいのデータが蓄積されていた" /><published>2025-08-22T00:00:00+09:00</published><updated>2025-08-22T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2025/08/22/report</id><content type="html" xml:base="https://makietan.github.io/tech/2025/08/22/report.html"><![CDATA[<p>実家に帰ってたら、家の Mac で動かしてるスクリプトが 200GB くらいデータを溜め込んでて、ストレージが圧迫されてた。</p>
-
-<p>原因は、スクリプトがダウンロードするファイルで、1日で10GB以上溜まってた。</p>
-
-<p>まぁそれを見込んで空き容量を増やしてたからギリギリなんとかなったけど、2週間程度不在にするときはさらに空き容量を増やす必要がある。</p>
-
-<p>大変だよマジで。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[実家に帰ってたら、家の Mac で動かしてるスクリプトが 200GB くらいデータを溜め込んでて、ストレージが圧迫されてた。]]></summary></entry><entry><title type="html">びっくりドンキーに行ったら過去になんやかんやあった連中がいてびっくりした話</title><link href="https://makietan.github.io/gourmet/ai/2025/08/21/report.html" rel="alternate" type="text/html" title="びっくりドンキーに行ったら過去になんやかんやあった連中がいてびっくりした話" /><published>2025-08-21T00:00:00+09:00</published><updated>2025-08-21T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/ai/2025/08/21/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/ai/2025/08/21/report.html"><![CDATA[<h2 id="はじめに">はじめに</h2>
-
-<p><u>おろしそバーグディッシュ L (1450円)</u></p>
-
-<p>1003kcal/塩分4.3g <a href="https://www.bikkuri-donkey.com/menu/menu_10/?pref=osaka">*</a></p>
-
-<div class="trim">
-  <div class="trim__item">
-    <a href="https://makietan.github.io/assets/images/2025-08-21-report/13-18-49.png">
-      <img class="one" src="https://makietan.github.io/assets/thumbnail/2025-08-21-report/13-18-49.png" />
-    </a>
-  </div>
-</div>
-
-<p>なんだろうね。</p>
-
-<p>帰省するとかなりの頻度で行ってしまう。</p>
-
-<h2 id="雑談">雑談</h2>
-
-<p>過去になんやかんやあった人たちがちょうど見える位置の席にいた。</p>
-
-<p>母親が主に被害を受けたのでかなり気まずかった。</p>
-
-<p>こういうとき食ってても味がしないんだよね。</p>
-
-<p>びっくりドンキーのハンバーグは美味しい。</p>
-
-<p>だが、あの場面では味わうことができなかった。</p>
-
-<h2 id="以下aiの作文">以下、AIの作文。</h2>
-
-<p>びっくりドンキーに行ったら、過去に何かあった人たちがいて、びっくりしました。母親が主に被害を受けたので、かなり気まずかったです。こういうときは食べても味がしないんですよね。でも、びっくりドンキーのハンバーグは美味しいです。あの場面では味わうことができませんでしたが、また行きたいと思います。</p>
-
-<h2 id="おわりに">おわりに</h2>
-
-<p>行くかどうかは親と相談する店になってしまった。残念だ。</p>]]></content><author><name>makietan</name></author><category term="gourmet" /><category term="ai" /><summary type="html"><![CDATA[はじめに]]></summary></entry></feed>
+<p>心も体もお腹いっぱいな一日でした。</p>]]></content><author><name>makietan</name></author><category term="otaku" /><category term="gourmet" /><summary type="html"><![CDATA[あまりにも暇だったので、舞台『ゲゲゲの鬼太郎2025』大阪公演を観てきました。]]></summary></entry></feed>
