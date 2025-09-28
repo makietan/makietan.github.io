@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2025-09-28T12:40:24+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">第24回制圧戦：拠点1</title><link href="https://makietan.github.io/game/srwdd/2025/09/28/report.html" rel="alternate" type="text/html" title="第24回制圧戦：拠点1" /><published>2025-09-28T00:00:00+09:00</published><updated>2025-09-28T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2025/09/28/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2025/09/28/report.html"><![CDATA[<h2 id="boss">BOSS</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2025-09-28T17:51:14+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">第24回制圧戦：拠点1</title><link href="https://makietan.github.io/game/srwdd/2025/09/28/report.html" rel="alternate" type="text/html" title="第24回制圧戦：拠点1" /><published>2025-09-28T00:00:00+09:00</published><updated>2025-09-28T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2025/09/28/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2025/09/28/report.html"><![CDATA[<h2 id="boss">BOSS</h2>
 
 <ul>
   <li>ブレイク時、防御力が減少する</li>
@@ -38,25 +38,25 @@
       <li>STATS
         <ul>
           <li>気力: 120
-| ステータス | 値 |
-| — | —: |
-| HP | 58,719 |
-| 攻撃力 | 56,498 |
-| 防御力 | 20,778 |
-| 照準値 | 3,462 |
-| 運動性 | 6,291 |
-| 移動 | 6 |
-| スピード | 625 |</li>
+  | ステータス | 値 |
+  | — | —: |
+  | HP | 58,719 |
+  | 攻撃力 | 56,498 |
+  | 防御力 | 20,778 |
+  | 照準値 | 3,462 |
+  | 運動性 | 6,291 |
+  | 移動 | 6 |
+  | スピード | 625 |</li>
           <li>気力: 180
-| ステータス | 値 |
-| — | —: |
-| HP | 58,719 |
-| 攻撃力 | 91,156 |
-| 防御力 | 24,306 |
-| 照準値 | 5,595 |
-| 運動性 | 9,808 |
-| 移動 | 6 |
-| スピード | 625 |</li>
+  | ステータス | 値 |
+  | — | —: |
+  | HP | 58,719 |
+  | 攻撃力 | 91,156 |
+  | 防御力 | 24,306 |
+  | 照準値 | 5,595 |
+  | 運動性 | 9,808 |
+  | 移動 | 6 |
+  | スピード | 625 |</li>
         </ul>
       </li>
       <li>UNITPARTS
