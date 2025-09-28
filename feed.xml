@@ -1,4 +1,87 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2025-09-27T12:31:05+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">すみぺに遊戯王ネタを言われたら便乗してしょーもないことを言うしかない</title><link href="https://makietan.github.io/otaku/2025/09/27/report.html" rel="alternate" type="text/html" title="すみぺに遊戯王ネタを言われたら便乗してしょーもないことを言うしかない" /><published>2025-09-27T00:00:00+09:00</published><updated>2025-09-27T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2025/09/27/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2025/09/27/report.html"><![CDATA[<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">かわいいデュエル…？私、死すの…？？（すみぺ） <a href="https://t.co/xDw2BAfKTn">https://t.co/xDw2BAfKTn</a></p>&mdash; 上坂すみれ_official (@uesaka_official) <a href="https://twitter.com/uesaka_official/status/1970843600113258835?ref_src=twsrc%5Etfw">September 24, 2025</a></blockquote>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2025-09-28T12:40:24+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">第24回制圧戦：拠点1</title><link href="https://makietan.github.io/game/srwdd/2025/09/28/report.html" rel="alternate" type="text/html" title="第24回制圧戦：拠点1" /><published>2025-09-28T00:00:00+09:00</published><updated>2025-09-28T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2025/09/28/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2025/09/28/report.html"><![CDATA[<h2 id="boss">BOSS</h2>
+
+<ul>
+  <li>ブレイク時、防御力が減少する</li>
+  <li>撃墜可能なユニットを狙う</li>
+  <li>HPが減少すると精神コマンド「気合」「屈強」「不屈」「鉄壁」を使用する</li>
+</ul>
+
+<h3 id="予想パラメータ">予想パラメータ</h3>
+<ul>
+  <li>攻撃力: 50710</li>
+  <li>防御力: 48204</li>
+  <li>照準値: 3300</li>
+  <li>運動性: 1070</li>
+</ul>
+
+<h3 id="実際のパラメータ">実際のパラメータ</h3>
+<ul>
+  <li>気力: 150</li>
+  <li>BREAK: true</li>
+  <li>HP: 125092/810000</li>
+  <li>攻撃力: 58316</li>
+  <li>防御力: 50815</li>
+  <li>照準値: 3795</li>
+  <li>運動性: 1230</li>
+  <li>移動: 3</li>
+  <li>スピード: 580</li>
+</ul>
+
+<h2 id="編成">編成</h2>
+
+<p>照準値はそこそこ高いもののガンギマリ強化のレーバテインの運動性には及ばないので敵の攻撃を回避しつつ、こちらの攻撃を当てていく戦法で。余計な機体を入れずにレーバテイン1機で殴り倒す。</p>
+
+<ul>
+  <li>ARX-8 レーバテイン
+    <ul>
+      <li>通常攻撃: 実弾 射程1-4</li>
+      <li>STATS
+        <ul>
+          <li>気力: 120
+| ステータス | 値 |
+| — | —: |
+| HP | 58,719 |
+| 攻撃力 | 56,498 |
+| 防御力 | 20,778 |
+| 照準値 | 3,462 |
+| 運動性 | 6,291 |
+| 移動 | 6 |
+| スピード | 625 |</li>
+          <li>気力: 180
+| ステータス | 値 |
+| — | —: |
+| HP | 58,719 |
+| 攻撃力 | 91,156 |
+| 防御力 | 24,306 |
+| 照準値 | 5,595 |
+| 運動性 | 9,808 |
+| 移動 | 6 |
+| スピード | 625 |</li>
+        </ul>
+      </li>
+      <li>UNITPARTS
+        <ul>
+          <li>MAIN: SSR+ ラムダ・ストライク（ARX-8） — 射程: 1-4 / アクション: 3 / 回数: 5</li>
+          <li>必殺1: SSR+ デモリッションガン — 射程: 1-6 / アクション: 2 / 回数: 5</li>
+          <li>必殺2: SSR+ デモリッションガン（ガン・ハウザーモード / MAP） — 射程: MAP Lv1 (敵・方向) / アクション: 2 / 回数: 5</li>
+          <li>SUB1: SSR+ のんびり屋の女子高生</li>
+          <li>SUB2: SSR+ 頼もしき級友</li>
+          <li>SUB3: SSR+ 女神の休日</li>
+          <li>SUB4: SSR+ たゆたう身体に宿る意志</li>
+        </ul>
+      </li>
+      <li>CHIP
+        <ul>
+          <li>運動性・移動力プラス ★20</li>
+          <li>攻撃力プラス ★20</li>
+          <li>照準値プラス ★20</li>
+          <li>攻撃力・運動性プラス ★20</li>
+          <li>照準値ダウン付与 ★20</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[BOSS]]></summary></entry><entry><title type="html">すみぺに遊戯王ネタを言われたら便乗してしょーもないことを言うしかない</title><link href="https://makietan.github.io/otaku/2025/09/27/report.html" rel="alternate" type="text/html" title="すみぺに遊戯王ネタを言われたら便乗してしょーもないことを言うしかない" /><published>2025-09-27T00:00:00+09:00</published><updated>2025-09-27T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2025/09/27/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2025/09/27/report.html"><![CDATA[<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">かわいいデュエル…？私、死すの…？？（すみぺ） <a href="https://t.co/xDw2BAfKTn">https://t.co/xDw2BAfKTn</a></p>&mdash; 上坂すみれ_official (@uesaka_official) <a href="https://twitter.com/uesaka_official/status/1970843600113258835?ref_src=twsrc%5Etfw">September 24, 2025</a></blockquote>
 <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <p>すみぺが遊戯王ネタをツイートしていた。かわいいデュエル…？私、死すの…？？ ということで、便乗してしょーもないことを言うしかない。</p>
@@ -152,18 +235,4 @@
 
 <p>いい感じの容器がないし、量も安定しないのでどうにかしたい。</p>
 
-<p>ペットの餌やり機とか使えばいいんかな。</p>]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[Amazonで買った炒り豆が美味しい。]]></summary></entry><entry><title type="html">NPB.jpの球団別個人成績でOPSを表示するためのブックマークレットを作った</title><link href="https://makietan.github.io/tech/baseball/2025/09/18/report.html" rel="alternate" type="text/html" title="NPB.jpの球団別個人成績でOPSを表示するためのブックマークレットを作った" /><published>2025-09-18T00:00:00+09:00</published><updated>2025-09-18T00:00:00+09:00</updated><id>https://makietan.github.io/tech/baseball/2025/09/18/report</id><content type="html" xml:base="https://makietan.github.io/tech/baseball/2025/09/18/report.html"><![CDATA[<p><a href="https://npb.jp/bis/2025/stats/">https://npb.jp/bis/2025/stats/</a></p>
-
-<p>NPBの公式サイトで個人成績を見ているとOPSが表示されていない。
-なので、OPSを表示するためのブックマークレットを作った。</p>
-
-<p>OPS = 出塁率 + 長打率 なので、これらを足し合わせて表示する。</p>
-
-<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">javascript</span><span class="p">:(</span><span class="kd">function</span><span class="p">(){</span><span class="kd">const</span> <span class="nx">t</span><span class="o">=</span><span class="dl">"</span><span class="s2">出塁率</span><span class="dl">"</span><span class="p">,</span><span class="nx">e</span><span class="o">=</span><span class="dl">"</span><span class="s2">長打率</span><span class="dl">"</span><span class="p">,</span><span class="nx">s</span><span class="o">=</span><span class="dl">"</span><span class="s2">OPS</span><span class="dl">"</span><span class="p">;</span><span class="nb">document</span><span class="p">.</span><span class="nf">querySelectorAll</span><span class="p">(</span><span class="dl">"</span><span class="s2">table</span><span class="dl">"</span><span class="p">).</span><span class="nf">forEach</span><span class="p">(</span><span class="nx">r</span><span class="o">=&gt;</span><span class="p">{</span><span class="kd">let</span> <span class="nx">n</span><span class="o">=-</span><span class="mi">1</span><span class="p">,</span><span class="nx">o</span><span class="o">=-</span><span class="mi">1</span><span class="p">,</span><span class="nx">l</span><span class="o">=</span><span class="kc">null</span><span class="p">,</span><span class="nx">c</span><span class="o">=!</span><span class="mi">1</span><span class="p">;</span><span class="kd">const</span> <span class="nx">a</span><span class="o">=</span><span class="nx">r</span><span class="p">.</span><span class="nf">querySelectorAll</span><span class="p">(</span><span class="dl">"</span><span class="s2">th</span><span class="dl">"</span><span class="p">);</span><span class="nf">if</span><span class="p">(</span><span class="mi">0</span><span class="o">===</span><span class="nx">a</span><span class="p">.</span><span class="nx">length</span><span class="p">)</span><span class="k">return</span><span class="p">;</span><span class="nx">a</span><span class="p">.</span><span class="nf">forEach</span><span class="p">((</span><span class="nx">s</span><span class="p">,</span><span class="nx">a</span><span class="p">)</span><span class="o">=&gt;</span><span class="p">{</span><span class="kd">const</span> <span class="nx">i</span><span class="o">=</span><span class="nx">s</span><span class="p">.</span><span class="nx">textContent</span><span class="p">.</span><span class="nf">trim</span><span class="p">();</span><span class="nx">i</span><span class="p">.</span><span class="nf">includes</span><span class="p">(</span><span class="nx">t</span><span class="p">)</span><span class="o">&amp;&amp;</span><span class="p">(</span><span class="nx">n</span><span class="o">=</span><span class="nx">a</span><span class="p">,</span><span class="nx">l</span><span class="o">=</span><span class="nx">s</span><span class="p">.</span><span class="nf">closest</span><span class="p">(</span><span class="dl">"</span><span class="s2">tr</span><span class="dl">"</span><span class="p">)),</span><span class="nx">i</span><span class="p">.</span><span class="nf">includes</span><span class="p">(</span><span class="nx">e</span><span class="p">)</span><span class="o">&amp;&amp;</span><span class="p">(</span><span class="nx">o</span><span class="o">=</span><span class="nx">a</span><span class="p">),</span><span class="nx">i</span><span class="o">===</span><span class="nx">s</span><span class="o">&amp;&amp;</span><span class="nx">c</span><span class="o">==!</span><span class="mi">0</span><span class="p">}),</span><span class="nx">l</span><span class="o">&amp;&amp;-</span><span class="mi">1</span><span class="o">!==</span><span class="nx">n</span><span class="o">&amp;&amp;-</span><span class="mi">1</span><span class="o">!==</span><span class="nx">o</span><span class="o">&amp;&amp;!</span><span class="nx">c</span><span class="o">&amp;&amp;</span><span class="p">(</span><span class="nx">l</span><span class="p">.</span><span class="nf">insertAdjacentHTML</span><span class="p">(</span><span class="dl">"</span><span class="s2">beforeend</span><span class="dl">"</span><span class="p">,</span><span class="s2">`&lt;th&gt;</span><span class="p">${</span><span class="nx">s</span><span class="p">}</span><span class="s2">&lt;/th&gt;`</span><span class="p">),(()</span><span class="o">=&gt;</span><span class="p">{</span><span class="kd">const</span> <span class="nx">t</span><span class="o">=</span><span class="nb">Array</span><span class="p">.</span><span class="nf">from</span><span class="p">(</span><span class="nx">r</span><span class="p">.</span><span class="nf">querySelectorAll</span><span class="p">(</span><span class="dl">"</span><span class="s2">tr</span><span class="dl">"</span><span class="p">)),</span><span class="nx">s</span><span class="o">=</span><span class="nx">t</span><span class="p">.</span><span class="nf">indexOf</span><span class="p">(</span><span class="nx">l</span><span class="p">);</span><span class="nx">t</span><span class="p">.</span><span class="nf">slice</span><span class="p">(</span><span class="nx">s</span><span class="o">+</span><span class="mi">1</span><span class="p">).</span><span class="nf">filter</span><span class="p">(</span><span class="nx">t</span><span class="o">=&gt;!</span><span class="nx">t</span><span class="p">.</span><span class="nf">querySelector</span><span class="p">(</span><span class="dl">"</span><span class="s2">th</span><span class="dl">"</span><span class="p">)).</span><span class="nf">forEach</span><span class="p">(</span><span class="nx">t</span><span class="o">=&gt;</span><span class="p">{</span><span class="kd">const</span> <span class="nx">s</span><span class="o">=</span><span class="nx">t</span><span class="p">.</span><span class="nx">cells</span><span class="p">[</span><span class="nx">n</span><span class="p">],</span><span class="nx">l</span><span class="o">=</span><span class="nx">t</span><span class="p">.</span><span class="nx">cells</span><span class="p">[</span><span class="nx">o</span><span class="p">];</span><span class="nf">if</span><span class="p">(</span><span class="o">!</span><span class="nx">s</span><span class="o">||!</span><span class="nx">l</span><span class="p">)</span><span class="k">return</span> <span class="k">void</span> <span class="nx">t</span><span class="p">.</span><span class="nf">insertAdjacentHTML</span><span class="p">(</span><span class="dl">"</span><span class="s2">beforeend</span><span class="dl">"</span><span class="p">,</span><span class="dl">"</span><span class="s2">&lt;td&gt;-&lt;/td&gt;</span><span class="dl">"</span><span class="p">);</span><span class="kd">const</span> <span class="nx">c</span><span class="o">=</span><span class="nf">parseFloat</span><span class="p">(</span><span class="nx">s</span><span class="p">.</span><span class="nx">textContent</span><span class="p">),</span><span class="nx">a</span><span class="o">=</span><span class="nf">parseFloat</span><span class="p">(</span><span class="nx">l</span><span class="p">.</span><span class="nx">textContent</span><span class="p">);</span><span class="kd">let</span> <span class="nx">i</span><span class="p">;</span><span class="nx">i</span><span class="o">=</span><span class="nf">isNaN</span><span class="p">(</span><span class="nx">c</span><span class="p">)</span><span class="o">||</span><span class="nf">isNaN</span><span class="p">(</span><span class="nx">a</span><span class="p">)?</span><span class="dl">"</span><span class="s2">-</span><span class="dl">"</span><span class="p">:(.</span><span class="mi">001</span><span class="o">*</span><span class="p">(</span><span class="mi">1</span><span class="nx">e3</span><span class="o">*</span><span class="nx">c</span><span class="o">+</span><span class="mi">1</span><span class="nx">e3</span><span class="o">*</span><span class="nx">a</span><span class="p">)).</span><span class="nf">toFixed</span><span class="p">(</span><span class="mi">3</span><span class="p">).</span><span class="nf">replace</span><span class="p">(</span><span class="sr">/^0/</span><span class="p">,</span><span class="dl">""</span><span class="p">),</span><span class="nx">t</span><span class="p">.</span><span class="nf">insertAdjacentHTML</span><span class="p">(</span><span class="dl">"</span><span class="s2">beforeend</span><span class="dl">"</span><span class="p">,</span><span class="s2">`&lt;td&gt;</span><span class="p">${</span><span class="nx">i</span><span class="p">}</span><span class="s2">&lt;/td&gt;`</span><span class="p">)})})())})})();</span>
-</code></pre></div></div>
-
-<p>これをブックマークに登録して、NPBの個人成績のページでクリックするとOPSが表示される。</p>
-
-<p>以下をドラッグしてブックマークバーに登録してください。</p>
-
-<p><a href="javascript:(function(){const t=%22%E5%87%BA%E5%A1%8D%E7%8E%87%22,e=%22%E9%95%B7%E6%89%93%E7%8E%87%22,s=%22OPS%22;document.querySelectorAll(%22table%22).forEach(r=&gt;{let n=-1,o=-1,l=null,c=!1;const a=r.querySelectorAll(%22th%22);if(0===a.length)return;a.forEach((s,a)=&gt;{const i=s.textContent.trim();i.includes(t)&amp;&amp;(n=a,l=s.closest(%22tr%22)),i.includes(e)&amp;&amp;(o=a),i===s&amp;&amp;c==!0}),l&amp;&amp;-1!==n&amp;&amp;-1!==o&amp;&amp;!c&amp;&amp;(l.insertAdjacentHTML(%22beforeend%22,`&lt;th&gt;${s}&lt;/th&gt;`),(()=&gt;{const t=Array.from(r.querySelectorAll(%22tr%22)),s=t.indexOf(l);t.slice(s+1).filter(t=&gt;!t.querySelector(%22th%22)).forEach(t=&gt;{const s=t.cells[n],l=t.cells[o];if(!s||!l)return void t.insertAdjacentHTML(%22beforeend%22,%22&lt;td&gt;-&lt;/td&gt;%22);const c=parseFloat(s.textContent),a=parseFloat(l.textContent);let i;i=isNaN(c)||isNaN(a)?%22-%22:(.001*(1e3*c+1e3*a)).toFixed(3).replace(/^0/,%22%22),t.insertAdjacentHTML(%22beforeend%22,`&lt;td&gt;${i}&lt;/td&gt;`)}))())})})})();" target="_blank">NPBのOPSを表示するブックマークレット</a></p>]]></content><author><name>makietan</name></author><category term="tech" /><category term="baseball" /><summary type="html"><![CDATA[https://npb.jp/bis/2025/stats/]]></summary></entry></feed>
+<p>ペットの餌やり機とか使えばいいんかな。</p>]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[Amazonで買った炒り豆が美味しい。]]></summary></entry></feed>
