@@ -1,4 +1,235 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2025-09-28T17:51:14+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">第24回制圧戦：拠点1</title><link href="https://makietan.github.io/game/srwdd/2025/09/28/report.html" rel="alternate" type="text/html" title="第24回制圧戦：拠点1" /><published>2025-09-28T00:00:00+09:00</published><updated>2025-09-28T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2025/09/28/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2025/09/28/report.html"><![CDATA[<h2 id="boss">BOSS</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2025-09-29T12:40:54+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">第24回制圧戦：拠点3</title><link href="https://makietan.github.io/game/srwdd/2025/09/29/report.html" rel="alternate" type="text/html" title="第24回制圧戦：拠点3" /><published>2025-09-29T00:00:00+09:00</published><updated>2025-09-29T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2025/09/29/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2025/09/29/report.html"><![CDATA[<h2 id="boss">BOSS</h2>
+
+<h3 id="ダンコフ">ダンコフ</h3>
+<ul>
+  <li>“ブレイク時、防御力が減少する
+ブレイクゲージ復帰が早い
+撃墜可能なユニットを狙う
+HPが減少すると精神コマンド「気合」「屈強」「巧手」「鉄壁」「根性」を使用する”</li>
+</ul>
+
+<h4 id="予想パラメータ">予想パラメータ</h4>
+<ul>
+  <li>攻撃力:　33525</li>
+  <li>防御力:　38740</li>
+  <li>照準値:　2980</li>
+  <li>運動性:　1892.3
+    <h4 id="実際のパラメータ">実際のパラメータ</h4>
+  </li>
+  <li>気力: 144（ハミング・バードで減少）</li>
+  <li>BREAK: true</li>
+  <li>HP: 26706/420000</li>
+  <li>攻撃力: 37548</li>
+  <li>防御力: 36644</li>
+  <li>照準値: 3204</li>
+  <li>運動性: 2011</li>
+  <li>移動: 3</li>
+  <li>スピード: 640</li>
+</ul>
+
+<h3 id="エルダール">エルダール</h3>
+<ul>
+  <li>“ブレイク時、運動性が減少する
+ブレイクゲージ復帰が早い
+防御力が低いユニットを狙う
+HPが減少すると精神コマンド「気合」「鉄壁」「熱血」「ひらめき」「集中」を使用する”</li>
+</ul>
+
+<h4 id="予想パラメータ-1">予想パラメータ</h4>
+<ul>
+  <li>攻撃力:　35880</li>
+  <li>防御力:　39000</li>
+  <li>照準値:　3120</li>
+  <li>運動性:　1996.8
+    <h4 id="実際のパラメータ-1">実際のパラメータ</h4>
+    <p>簡単に撃破できてしまい、パラメータを確認し忘れた。</p>
+  </li>
+</ul>
+
+<h2 id="編成">編成</h2>
+
+<ul>
+  <li>セラヴィーガンダム
+    <ul>
+      <li>通常攻撃: ビーム 射程1-4</li>
+      <li>STATS
+        <ul>
+          <li>気力: 130
+| ステータス | 値 |
+| — | —: |
+| HP | 36,568 |
+| 攻撃力 | 21,307 |
+| 防御力 | 24,357 |
+| 照準値 | 2,298 |
+| 運動性 | 977 |
+| 移動 | 4 |
+| スピード | 570 |</li>
+          <li>気力: 175
+| ステータス | 値 |
+| — | —: |
+| HP | 36,568 |
+| 攻撃力 | 32105 |
+| 防御力 | 34765 |
+| 照準値 | 2700 |
+| 運動性 | 542 |
+| 移動 | 4 |
+| スピード | 570 |</li>
+        </ul>
+      </li>
+      <li>UNITPARTS
+        <ul>
+          <li>MAIN: SSR +2 トランザム連続攻撃（セラヴィーガンダム） — 射程: 1-5 / アクション: 3 / 回数: 6</li>
+          <li>必殺1: SSR +5 ツインバスターキャノン — 射程: 1-5 / アクション: 2 / 回数: 5</li>
+          <li>必殺2: SSR +5 GNバズーカⅡ — 射程: 1-4 / アクション: 2 / 回数: 3</li>
+          <li>SUB1:</li>
+          <li>SUB2:</li>
+          <li>SUB3:</li>
+          <li>SUB4:</li>
+        </ul>
+      </li>
+      <li>CHIP
+        <ul>
+          <li>(省略)</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>ストライクフリーダムガンダム
+    <ul>
+      <li>通常攻撃: 斬撃 射程1-5</li>
+      <li>STATS
+        <ul>
+          <li>気力: 137
+| ステータス | 値 |
+| — | —: |
+| HP | 55529 |
+| 攻撃力 | 39914 |
+| 防御力 | 23108 |
+| 照準値 | 3584 |
+| 運動性 | 1286 |
+| 移動 | 4 |
+| スピード | 635 |</li>
+          <li>気力: 170
+| ステータス | 値 |
+| — | —: |
+| HP | 55529 |
+| 攻撃力 | 51469 |
+| 防御力 | 35115 |
+| 照準値 | 4607 |
+| 運動性 | 790 |
+| 移動 | 4 |
+| スピード | 635 |</li>
+        </ul>
+      </li>
+      <li>UNITPARTS
+        <ul>
+          <li>MAIN: SSR スーパードラグーン（MAP） — 射程: MAP Lv1 (敵・着弾) / アクション: 3 / 回数: 6</li>
+          <li>必殺1: SSR +5 カリドゥス複相ビーム砲 — 射程: 1-5 / アクション: 2 / 回数: 5</li>
+          <li>必殺2: SSR+ ビームサーベル（Sフリーダム） — 射程: 1-4 / アクション: 2 / 回数: 4</li>
+          <li>SUB1:</li>
+          <li>SUB2:</li>
+          <li>SUB3:</li>
+          <li>SUB4:</li>
+        </ul>
+      </li>
+      <li>CHIP
+        <ul>
+          <li>(省略)</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>ヴァルヴレイヴⅥ
+    <ul>
+      <li>通常攻撃: 実弾 射程1-4</li>
+      <li>STATS
+        <ul>
+          <li>気力: 129
+| ステータス | 値 |
+| — | —: |
+| HP | 34326 |
+| 攻撃力 | 31460 |
+| 防御力 | 26812 |
+| 照準値 | 3364 |
+| 運動性 | 1676 |
+| 移動 | 4 |
+| スピード | 550 |</li>
+          <li>気力: 170
+| ステータス | 値 |
+| — | —: |
+| HP | 34326 |
+| 攻撃力 | 35912 |
+| 防御力 | 31830 |
+| 照準値 | 3026 |
+| 運動性 | 1097 |
+| 移動 | 4 |
+| スピード | 550 |</li>
+        </ul>
+      </li>
+      <li>UNITPARTS
+        <ul>
+          <li>MAIN: SSR+ ハミング・バード - 射程: 1-5 / アクション: 2 / 回数: 5</li>
+          <li>必殺1: SSR+ ファン・タロン - 射程: 1-3 / アクション: 2 / 回数: 5</li>
+          <li>必殺2: SSR+ ハンド・レイ - 射程: 1-3 / アクション: 3 / 回数: 4</li>
+          <li>SUB1:</li>
+          <li>SUB2:</li>
+          <li>SUB3:</li>
+          <li>SUB4:</li>
+        </ul>
+      </li>
+      <li>CHIP
+        <ul>
+          <li>(省略)</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>真ゲッター1（パイロット：式波・アスカ・ラングレー）
+    <ul>
+      <li>通常攻撃: 斬撃 射程1-2</li>
+      <li>STATS
+        <ul>
+          <li>気力: 132
+| ステータス | 値 |
+| — | —: |
+| HP | 64402 |
+| 攻撃力 | 37068 |
+| 防御力 | 26704 |
+| 照準値 | 1995 |
+| 運動性 | 1246 |
+| 移動 | 4 |
+| スピード | 570 |</li>
+          <li>気力: 165
+| ステータス | 値 |
+| — | —: |
+| HP | 64402 |
+| 攻撃力 | 45531 |
+| 防御力 | 31961 |
+| 照準値 | 2170 |
+| 運動性 | 715 |
+| 移動 | 4 |
+| スピード | 570 |</li>
+        </ul>
+      </li>
+      <li>UNITPARTS
+        <ul>
+          <li>MAIN: SSR+ ゲッター陽電子砲（CP） - 射程: 1-5 / アクション: 2 / 回数: 5</li>
+          <li>必殺1: SSR+ プログレッシブナイフ（CP） - 射程: 1-3 / アクション: 3 / 回数: 4</li>
+          <li>必殺2: SSR+ バレットライフル（CP） - 射程: 1-3 / アクション: 2 / 回数: 4</li>
+          <li>SUB1:</li>
+          <li>SUB2:</li>
+          <li>SUB3:</li>
+          <li>SUB4:</li>
+        </ul>
+      </li>
+      <li>CHIP
+        <ul>
+          <li>(省略)</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[BOSS]]></summary></entry><entry><title type="html">第24回制圧戦：拠点1</title><link href="https://makietan.github.io/game/srwdd/2025/09/28/report.html" rel="alternate" type="text/html" title="第24回制圧戦：拠点1" /><published>2025-09-28T00:00:00+09:00</published><updated>2025-09-28T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2025/09/28/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2025/09/28/report.html"><![CDATA[<h2 id="boss">BOSS</h2>
 
 <ul>
   <li>ブレイク時、防御力が減少する</li>
@@ -229,10 +460,4 @@
 
 <p>2期全話のほうが当然長いので映画のほうが短く感じた。</p>
 
-<p>興行収入5億円おめでとうございます！！！</p>]]></content><author><name>makietan</name></author><category term="otaku" /><summary type="html"><![CDATA[＼たくさん観てくれてありがとう！／　 興行収入5億円になりました❣そんな記念に…一夜限りの特別上映なんてどうですか🌙「小林さんちのメイドラゴン」オールナイト！（まさか眠たいとか言いませんよね？）チケット販売中🐉https://t.co/NMRL5rT5C2#映画メイドラゴン #DragonMaid pic.twitter.com/zJjbie39aX&mdash; 映画『小林さんちのメイドラゴン さみしがりやの竜』公式 (@maidragon_anime) September 16, 2025]]></summary></entry><entry><title type="html">炒り豆が美味しい</title><link href="https://makietan.github.io/gourmet/2025/09/19/report.html" rel="alternate" type="text/html" title="炒り豆が美味しい" /><published>2025-09-19T00:00:00+09:00</published><updated>2025-09-19T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2025/09/19/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2025/09/19/report.html"><![CDATA[<p>Amazonで買った炒り豆が美味しい。</p>
-
-<p>困ってるのは紙コップに毎回入れて食べてること。</p>
-
-<p>いい感じの容器がないし、量も安定しないのでどうにかしたい。</p>
-
-<p>ペットの餌やり機とか使えばいいんかな。</p>]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[Amazonで買った炒り豆が美味しい。]]></summary></entry></feed>
+<p>興行収入5億円おめでとうございます！！！</p>]]></content><author><name>makietan</name></author><category term="otaku" /><summary type="html"><![CDATA[＼たくさん観てくれてありがとう！／　 興行収入5億円になりました❣そんな記念に…一夜限りの特別上映なんてどうですか🌙「小林さんちのメイドラゴン」オールナイト！（まさか眠たいとか言いませんよね？）チケット販売中🐉https://t.co/NMRL5rT5C2#映画メイドラゴン #DragonMaid pic.twitter.com/zJjbie39aX&mdash; 映画『小林さんちのメイドラゴン さみしがりやの竜』公式 (@maidragon_anime) September 16, 2025]]></summary></entry></feed>
