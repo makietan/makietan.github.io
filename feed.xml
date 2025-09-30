@@ -1,4 +1,194 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2025-09-29T12:40:54+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">第24回制圧戦：拠点3</title><link href="https://makietan.github.io/game/srwdd/2025/09/29/report.html" rel="alternate" type="text/html" title="第24回制圧戦：拠点3" /><published>2025-09-29T00:00:00+09:00</published><updated>2025-09-29T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2025/09/29/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2025/09/29/report.html"><![CDATA[<h2 id="boss">BOSS</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2025-09-30T12:38:20+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">第24回制圧戦：拠点4</title><link href="https://makietan.github.io/game/srwdd/2025/09/30/report.html" rel="alternate" type="text/html" title="第24回制圧戦：拠点4" /><published>2025-09-30T00:00:00+09:00</published><updated>2025-09-30T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2025/09/30/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2025/09/30/report.html"><![CDATA[<h2 id="boss">BOSS</h2>
+
+<p>“ブレイク時、運動性が減少する
+ブレイクゲージ復帰が早い
+撃墜可能なユニットを狙う
+HPが減少すると精神コマンド「気合」「愛」「屈強」「ひらめき」「鉄壁」を使用する”</p>
+
+<h2 id="予想パラメータ">予想パラメータ</h2>
+<ul>
+  <li>攻撃力: 41820</li>
+  <li>防御力: 48052</li>
+  <li>照準値: 4920</li>
+  <li>運動性: 1754.8</li>
+</ul>
+
+<h2 id="実際のパラメータ">実際のパラメータ</h2>
+<ul>
+  <li>気力: 140</li>
+  <li>BREAK: true</li>
+  <li>HP: 114437/800000</li>
+  <li>攻撃力: 46838</li>
+  <li>防御力: 53818</li>
+  <li>照準値: 5510</li>
+  <li>運動性: 1785</li>
+  <li>移動: 3</li>
+  <li>スピード: 630</li>
+</ul>
+
+<h2 id="編成">編成</h2>
+
+<p>斬撃／ビームの武器がある機体を使う</p>
+
+<p>回避機体はかなり厳しい</p>
+
+<ul>
+  <li>真ドラゴン（真化態）
+    <ul>
+      <li>通常攻撃: 斬撃 射程1-2</li>
+      <li>STATS
+        <ul>
+          <li>気力: 130
+| ステータス | 値 |
+| — | —: |
+| HP | 132390 |
+| 攻撃力 | 23742 |
+| 防御力 | 17533 |
+| 照準値 | 1611 |
+| 運動性 | 939 |
+| 移動 | 6 |
+| スピード | 570 |</li>
+          <li>気力: 141
+| ステータス | 値 |
+| — | —: |
+| HP | 132390 |
+| 攻撃力 | 35011 |
+| 防御力 | 27768 |
+| 照準値 | 2363 |
+| 運動性 | 1052 |
+| 移動 | 6 |
+| スピード | 570 |</li>
+        </ul>
+      </li>
+      <li>UNITPARTS
+        <ul>
+          <li>MAIN: SSR+ ファイナルゲッタービーム（MAP） - 射程: MAP Lv1 (敵・方向) / アクション: 2 / 回数: 4</li>
+          <li>必殺1: SSR+ ゲッタービーム（真ドラゴン（真化態）） - 射程: 1-3 / アクション: 2 / 回数: 4</li>
+          <li>必殺2: SSR +5 ダブルトマホークブーメラン - 射程: 1-3 / アクション: 2 / 回数: 4</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>ストライクフリーダムガンダム
+    <ul>
+      <li>通常攻撃: 斬撃 射程1-5</li>
+      <li>STATS
+        <ul>
+          <li>気力: 170
+| ステータス | 値 |
+| — | —: |
+| HP | 55529 |
+| 攻撃力 | 51469 |
+| 防御力 | 30562 |
+| 照準値 | 4691 |
+| 運動性 | 1428 |
+| 移動 | 4 |
+| スピード | 635 |</li>
+          <li></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+<div class="card">
+  <a href=""></a>
+  <div class="card__header">
+    <a href=""></a>
+  </div>
+  <div class="card__image">
+    <img src="" />
+  </div>
+  <div class="card__title">
+    <p></p>
+  </div>
+  <div class="card__description">
+    <p></p>
+  </div>
+</div>
+
+<ul>
+  <li>ライディーン
+    <ul>
+      <li>通常攻撃: 斬撃 射程1-3</li>
+      <li>STATS
+        <ul>
+          <li>気力: 100
+| ステータス | 値 |
+| — | —: |
+| HP | 74781 |
+| 攻撃力 | 38642 |
+| 防御力 | 28681 |
+| 照準値 | 2012 |
+| 運動性 | 1060 |
+| 移動 | 4 |
+| スピード | 570 |</li>
+          <li>気力: 148
+| ステータス | 値 |
+| — | —: |
+| HP | 74781 |
+| 攻撃力 | 54172 |
+| 防御力 | 41634 |
+| 照準値 | 3235 |
+| 運動性 | 1187 |
+| 移動 | 4 |
+| スピード | 570 |</li>
+        </ul>
+      </li>
+      <li>UNITPARTS
+        <ul>
+          <li>MAIN: SSR+ ゴッドゴーガン束ね撃ち（MAP） - 射程: MAP Lv1 (敵・方向) / アクション: 2 / 回数: 4</li>
+          <li>必殺1: SSR+ ゴッドバード - 射程: 1-3 / アクション: 2 / 回数: 5</li>
+          <li>必殺2: SSR+ ゴッドアルファ - 射程: 1-4 / アクション: 3 / 回数: 5</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>グリッドマン
+    <ul>
+      <li>通常攻撃: 打撃 射程1-2</li>
+      <li>STATS
+        <ul>
+          <li>気力: 100
+| ステータス | 値 |
+| — | —: |
+| HP | 74500 |
+| 攻撃力 | 41634 |
+| 防御力 | 36125 |
+| 照準値 | 2536 |
+| 運動性 | 1099 |
+| 移動 | 5 |
+| スピード | 625 |</li>
+          <li>気力: 170
+| ステータス | 値 |
+| — | —: |
+| HP | 74500 |
+| 攻撃力 | 59879 |
+| 防御力 | 52409 |
+| 照準値 | 4017 |
+| 運動性 | 1255 |
+| 移動 | 5 |
+| スピード | 625 |</li>
+        </ul>
+      </li>
+      <li>UNITPARTS
+        <ul>
+          <li>MAIN: SSR+ バスターグリッドマン - 射程:1-3 / アクション: 2 / 回数: 4</li>
+          <li>必殺1: SSR+ マックスグリッドマン - 射程:1-3 / アクション: 2 / 回数: 4</li>
+          <li>必殺2: SSR+ グリッドキャリバーエンド - 射程:1-3 / アクション: 3 / 回数: 5</li>
+          <li>SUB1:</li>
+          <li>SUB2:</li>
+          <li>SUB3:</li>
+          <li>SUB4:</li>
+        </ul>
+      </li>
+      <li>CHIP
+        <ul>
+          <li>(未定)</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[BOSS]]></summary></entry><entry><title type="html">第24回制圧戦：拠点3</title><link href="https://makietan.github.io/game/srwdd/2025/09/29/report.html" rel="alternate" type="text/html" title="第24回制圧戦：拠点3" /><published>2025-09-29T00:00:00+09:00</published><updated>2025-09-29T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2025/09/29/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2025/09/29/report.html"><![CDATA[<h2 id="boss">BOSS</h2>
 
 <h3 id="ダンコフ">ダンコフ</h3>
 <ul>
@@ -437,27 +627,4 @@ HPが減少すると精神コマンド「気合」「鉄壁」「熱血」「ひ
 <p>謝罪と弁償をマクドナルドに要求したい。</p>
 
 <blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">ハートよりも珍しそうな不良品入ってた<a href="https://twitter.com/hashtag/%E3%83%97%E3%83%AA%E3%83%97%E3%83%AA%E3%82%A8%E3%83%93%E3%83%97%E3%83%AA%E3%82%AA?src=hash&amp;ref_src=twsrc%5Etfw">#プリプリエビプリオ</a><a href="https://twitter.com/hashtag/%E3%83%9E%E3%82%AF%E3%83%89%E3%83%8A%E3%83%AB%E3%83%89?src=hash&amp;ref_src=twsrc%5Etfw">#マクドナルド</a> <a href="https://t.co/RdZl0UObgx">pic.twitter.com/RdZl0UObgx</a></p>&mdash; まきえたん🥦☘️ (@makietanX) <a href="https://twitter.com/makietanX/status/1969522054220390856?ref_src=twsrc%5Etfw">September 20, 2025</a></blockquote>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[珍しいもんが入ってた。]]></summary></entry><entry><title type="html">映画メイドラゴンのオールナイト上映に行った</title><link href="https://makietan.github.io/otaku/2025/09/20/report.html" rel="alternate" type="text/html" title="映画メイドラゴンのオールナイト上映に行った" /><published>2025-09-20T00:00:00+09:00</published><updated>2025-09-20T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2025/09/20/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2025/09/20/report.html"><![CDATA[<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">＼たくさん観てくれてありがとう！／<br />　 興行収入5億円になりました❣<br /><br />そんな記念に…一夜限りの特別上映なんてどうですか🌙<br /><br />「小林さんちのメイドラゴン」オールナイト！<br />（まさか眠たいとか言いませんよね？）<br /><br />チケット販売中🐉<a href="https://t.co/NMRL5rT5C2">https://t.co/NMRL5rT5C2</a><a href="https://twitter.com/hashtag/%E6%98%A0%E7%94%BB%E3%83%A1%E3%82%A4%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3?src=hash&amp;ref_src=twsrc%5Etfw">#映画メイドラゴン</a> <a href="https://twitter.com/hashtag/DragonMaid?src=hash&amp;ref_src=twsrc%5Etfw">#DragonMaid</a> <a href="https://t.co/zJjbie39aX">pic.twitter.com/zJjbie39aX</a></p>&mdash; 映画『小林さんちのメイドラゴン さみしがりやの竜』公式 (@maidragon_anime) <a href="https://twitter.com/maidragon_anime/status/1967861014311080125?ref_src=twsrc%5Etfw">September 16, 2025</a></blockquote>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<p>うおおおおおおお！！！</p>
-
-<p>メイドラゴン2期のオールナイト上映だ！！！</p>
-
-<p>1期のオールナイト上映はよくわからない施設であったので人はそこまで多く入ってなかったけど、今回はちゃんとした映画館でやるので人が多く入った。</p>
-
-<p>ほぼほぼ満席だった。</p>
-
-<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">オールナイト！<br />眠い！！<a href="https://twitter.com/hashtag/%E6%98%A0%E7%94%BB%E3%83%A1%E3%82%A4%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3?src=hash&amp;ref_src=twsrc%5Etfw">#映画メイドラゴン</a> <a href="https://t.co/tCIVRJVp7J">pic.twitter.com/tCIVRJVp7J</a></p>&mdash; まきえたん🥦☘️ (@makietanX) <a href="https://twitter.com/makietanX/status/1969028662562267173?ref_src=twsrc%5Etfw">September 19, 2025</a></blockquote>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<p>なんとかずっと起きてた。</p>
-
-<p>明日から体内リズムを戻さないと大変なことになりそうだ</p>
-
-<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">オールナイトお疲れ様でした<br />ねむ〜<a href="https://twitter.com/hashtag/%E6%98%A0%E7%94%BB%E3%83%A1%E3%82%A4%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3?src=hash&amp;ref_src=twsrc%5Etfw">#映画メイドラゴン</a><a href="https://twitter.com/hashtag/DragonMaid?src=hash&amp;ref_src=twsrc%5Etfw">#DragonMaid</a> <a href="https://t.co/6VGnZdawRe">pic.twitter.com/6VGnZdawRe</a></p>&mdash; まきえたん🥦☘️ (@makietanX) <a href="https://twitter.com/makietanX/status/1969144526691311765?ref_src=twsrc%5Etfw">September 19, 2025</a></blockquote>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<p>2期全話のほうが当然長いので映画のほうが短く感じた。</p>
-
-<p>興行収入5億円おめでとうございます！！！</p>]]></content><author><name>makietan</name></author><category term="otaku" /><summary type="html"><![CDATA[＼たくさん観てくれてありがとう！／　 興行収入5億円になりました❣そんな記念に…一夜限りの特別上映なんてどうですか🌙「小林さんちのメイドラゴン」オールナイト！（まさか眠たいとか言いませんよね？）チケット販売中🐉https://t.co/NMRL5rT5C2#映画メイドラゴン #DragonMaid pic.twitter.com/zJjbie39aX&mdash; 映画『小林さんちのメイドラゴン さみしがりやの竜』公式 (@maidragon_anime) September 16, 2025]]></summary></entry></feed>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[珍しいもんが入ってた。]]></summary></entry></feed>
