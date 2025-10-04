@@ -1,4 +1,229 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2025-09-30T12:38:20+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">第24回制圧戦：拠点4</title><link href="https://makietan.github.io/game/srwdd/2025/09/30/report.html" rel="alternate" type="text/html" title="第24回制圧戦：拠点4" /><published>2025-09-30T00:00:00+09:00</published><updated>2025-09-30T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2025/09/30/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2025/09/30/report.html"><![CDATA[<h2 id="boss">BOSS</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2025-10-04T12:36:03+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">レッドソックスvsヤンキースのポストシーズンが面白かった</title><link href="https://makietan.github.io/baseball/2025/10/03/report.html" rel="alternate" type="text/html" title="レッドソックスvsヤンキースのポストシーズンが面白かった" /><published>2025-10-03T00:00:00+09:00</published><updated>2025-10-03T00:00:00+09:00</updated><id>https://makietan.github.io/baseball/2025/10/03/report</id><content type="html" xml:base="https://makietan.github.io/baseball/2025/10/03/report.html"><![CDATA[<p>吉田正尚の活躍が目立った2025年のMLBポストシーズン。</p>
+
+<p>初戦の勝ちに繋がる2点タイムリーや、2戦目の決死のヘッドスライディングなど、彼のプレーはチームに大きな勢いをもたらしました。</p>
+
+<p>結果的に1勝2敗でシリーズを落としたものの、彼の存在感は間違いなくチームにとってプラスでした。</p>
+
+<p>2026年シーズンの構想外となった吉田正尚ですが、彼の実力と経験は他のチームにとっても魅力的だと思うので、来シーズンもMLBでの活躍を期待しています。</p>
+
+<p>ヤンキースキラーとしての吉田正尚の評価は、今後も高まることでしょう。</p>]]></content><author><name>makietan</name></author><category term="baseball" /><summary type="html"><![CDATA[吉田正尚の活躍が目立った2025年のMLBポストシーズン。]]></summary></entry><entry><title type="html">第24回制圧戦：拠点7</title><link href="https://makietan.github.io/game/srwdd/2025/10/02/report.html" rel="alternate" type="text/html" title="第24回制圧戦：拠点7" /><published>2025-10-02T00:00:00+09:00</published><updated>2025-10-02T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2025/10/02/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2025/10/02/report.html"><![CDATA[<h2 id="boss">BOSS</h2>
+
+<p>“気力上限が高い
+ブレイク時、運動性が減少する
+撃墜可能なユニットを狙う
+HPが減少すると精神コマンド「気合」「鉄壁」「不屈」「ド根性」を使用する
+気力が上昇すると精神コマンド「集中」「忍耐」「魂」を使用する
+極めて高い命中率の必殺技を発動する”</p>
+
+<h3 id="予想パラメータ">予想パラメータ</h3>
+<ul>
+  <li>攻撃力: 40500</li>
+  <li>防御力: 55000</li>
+  <li>照準値: 9000</li>
+  <li>運動性: 2340</li>
+</ul>
+
+<h3 id="実際のパラメータ">実際のパラメータ</h3>
+<p>弱くて草</p>
+
+<h2 id="構成">構成</h2>
+
+<p>斬撃／実弾で倒す。</p>
+
+<p>照準値が非常に高く回避は難しい。</p>
+
+<ul>
+  <li>インフィニットジャスティスガンダム
+    <ul>
+      <li>STATS
+        <ul>
+          <li>気力: 120
+| ステータス | 値 |
+| — | —: |
+| HP | 47,200 |
+| 攻撃力 | 48,800 |
+| 防御力 | 22,400 |
+| 照準値 | 4,200 |
+| 運動性 | 3,600 |
+| 移動 | 6 |
+| スピード | 560 |</li>
+          <li>気力: 180
+| ステータス | 値 |
+| — | —: |
+| HP | 95784 |
+| 攻撃力 | 39046 |
+| 防御力 | 40159 |
+| 照準値 | 2937 |
+| 運動性 | 1308 |
+| 移動 | 4 |
+| スピード | 635 |</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>ARX-8 レーバテイン
+    <ul>
+      <li>STATS
+        <ul>
+          <li>気力: 180
+| ステータス | 値 |
+| — | —: |
+| HP | 58,719 |
+| 攻撃力 | 91,156 |
+| 防御力 | 24,306 |
+| 照準値 | 5,595 |
+| 運動性 | 9,808 |
+| 移動 | 6 |
+| スピード | 625 |</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>ライディーン
+    <ul>
+      <li>STATS
+        <ul>
+          <li>気力: 149
+| ステータス | 値 |
+| — | —: |
+| HP | 74781 |
+| 攻撃力 | 50014 |
+| 防御力 | 38722 |
+| 照準値 | 2877 |
+| 運動性 | 1187 |
+| 移動 | 4 |
+| スピード | 570 |</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>真ドラゴン（真化態）
+    <ul>
+      <li>STATS
+        <ul>
+          <li>気力: 185
+| ステータス | 値 |
+| — | —: |
+| HP | 132390 |
+| 攻撃力 | 47708 |
+| 防御力 | 35330 |
+| 照準値 | 3202 |
+| 運動性 | 1164 |
+| 移動 | 6 |
+| スピード | 570 |</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[BOSS]]></summary></entry><entry><title type="html">第24回制圧戦：拠点6</title><link href="https://makietan.github.io/game/srwdd/2025/10/01/report.html" rel="alternate" type="text/html" title="第24回制圧戦：拠点6" /><published>2025-10-01T00:00:00+09:00</published><updated>2025-10-01T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2025/10/01/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2025/10/01/report.html"><![CDATA[<h2 id="boss">BOSS</h2>
+
+<p>“ブレイク時、防御力が減少する
+撃墜可能なユニットを狙う
+HPが減少すると精神コマンド「集中」「鉄壁」「不屈」「ひらめき」を使用する”</p>
+
+<h2 id="予想パラメータ">予想パラメータ</h2>
+<ul>
+  <li>攻撃力: 43928.8</li>
+  <li>防御力: 42140</li>
+  <li>照準値: 4300</li>
+  <li>運動性: 2236</li>
+</ul>
+
+<h2 id="実際のパラメータ">実際のパラメータ</h2>
+
+<p>気づいたら倒してた</p>
+
+<ul>
+  <li>気力:</li>
+  <li>BREAK:</li>
+  <li>HP: /</li>
+  <li>攻撃力:</li>
+  <li>防御力:</li>
+  <li>照準値:</li>
+  <li>運動性:</li>
+  <li>移動:</li>
+  <li>スピード:</li>
+</ul>
+
+<h2 id="編成">編成</h2>
+
+<p>打撃で殴り倒す。
+照準値が高いので防御力の高めの機体で出撃する。</p>
+
+<ul>
+  <li>グリッドマン
+    <ul>
+      <li>STATS
+        <ul>
+          <li>気力: 170
+| ステータス | 値 |
+| — | —: |
+| HP | 74500 |
+| 攻撃力 | 59879 |
+| 防御力 | 52409 |
+| 照準値 | 4017 |
+| 運動性 | 1255 |
+| 移動 | 5 |
+| スピード | 625 |</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>ブレイバーン
+    <ul>
+      <li>STATS
+        <ul>
+          <li>気力: 100
+| ステータス | 値 |
+| — | —: |
+| HP | 111892 |
+| 攻撃力 | 30076 |
+| 防御力 | 29651 |
+| 照準値 | 2506 |
+| 運動性 | 1167 |
+| 移動 | 5 |
+| スピード | 625 |</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>マジンエンペラーG
+    <ul>
+      <li>STATS
+        <ul>
+          <li>気力: 130
+| ステータス | 値 |
+| — | —: |
+| HP | 70683 |
+| 攻撃力 | 41383 |
+| 防御力 | 44891 |
+| 照準値 | 2431 |
+| 運動性 | 1259 |
+| 移動 | 6 |
+| スピード | 570 |</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>真ドラゴン（真化態）
+    <ul>
+      <li>STATS
+        <ul>
+          <li>気力: 142
+| ステータス | 値 |
+| — | —: |
+| HP | 132390 |
+| 攻撃力 | 35011 |
+| 防御力 | 25775 |
+| 照準値 | 2363 |
+| 運動性 | 1052 |
+| 移動 | 6 |
+| スピード | 570 |</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[BOSS]]></summary></entry><entry><title type="html">第24回制圧戦：拠点4</title><link href="https://makietan.github.io/game/srwdd/2025/09/30/report.html" rel="alternate" type="text/html" title="第24回制圧戦：拠点4" /><published>2025-09-30T00:00:00+09:00</published><updated>2025-09-30T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2025/09/30/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2025/09/30/report.html"><![CDATA[<h2 id="boss">BOSS</h2>
 
 <p>“ブレイク時、運動性が減少する
 ブレイクゲージ復帰が早い
@@ -602,29 +827,4 @@ HPが減少すると精神コマンド「気合」「鉄壁」「熱血」「ひ
 
 <p>1枚通ればバカ展開できるカードを許すな。</p>
 
-<p>さっさと禁止にしろ。</p>]]></content><author><name>makietan</name></author><category term="game" /><category term="yugioh" /><summary type="html"><![CDATA[DCのせいで夜ふかしが止まらない。]]></summary></entry><entry><title type="html">めんどくさいドキュメントの配布方法はやめてくれ</title><link href="https://makietan.github.io/tech/2025/09/23/report.html" rel="alternate" type="text/html" title="めんどくさいドキュメントの配布方法はやめてくれ" /><published>2025-09-23T00:00:00+09:00</published><updated>2025-09-23T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2025/09/23/report</id><content type="html" xml:base="https://makietan.github.io/tech/2025/09/23/report.html"><![CDATA[<p>なんで Notion なんか使うかな。</p>
-
-<p>エクスポートされたファイルの形式がおかしいし、ファイルの参照も狂ってる。</p>
-
-<p>公式のエクスポートでこれはない。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[なんで Notion なんか使うかな。]]></summary></entry><entry><title type="html">イカれたテーマのせいで汎用性のあるカードが規制されてしまう残念な遊戯王</title><link href="https://makietan.github.io/game/yugioh/2025/09/22/report.html" rel="alternate" type="text/html" title="イカれたテーマのせいで汎用性のあるカードが規制されてしまう残念な遊戯王" /><published>2025-09-22T00:00:00+09:00</published><updated>2025-09-22T00:00:00+09:00</updated><id>https://makietan.github.io/game/yugioh/2025/09/22/report</id><content type="html" xml:base="https://makietan.github.io/game/yugioh/2025/09/22/report.html"><![CDATA[<p>もうカードゲームとしては終わりだね。
-枚数が多くてギネスになったんだっけ？
-その大半のカード使い物にならないから。
-環境が偏りすぎていて面白くない。</p>
-
-<p>インゼクターで何も学ばなかったんだな。</p>
-
-<p>愚かすぎる。</p>
-
-<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">マジで規制する方向性が頭悪いのどうにかならんか...ウロボロスに問題があるんじゃなくてアホみたいに特殊召喚できてしまうライゼオル側に問題があるのに <a href="https://t.co/Ve6ZhUIVca">https://t.co/Ve6ZhUIVca</a></p>&mdash; まきえたん🥦☘️ (@makietanX) <a href="https://twitter.com/makietanX/status/1969756378807066843?ref_src=twsrc%5Etfw">September 21, 2025</a></blockquote>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>]]></content><author><name>makietan</name></author><category term="game" /><category term="yugioh" /><summary type="html"><![CDATA[もうカードゲームとしては終わりだね。 枚数が多くてギネスになったんだっけ？ その大半のカード使い物にならないから。 環境が偏りすぎていて面白くない。]]></summary></entry><entry><title type="html">プリプリエビプリオの不良品</title><link href="https://makietan.github.io/gourmet/2025/09/21/report.html" rel="alternate" type="text/html" title="プリプリエビプリオの不良品" /><published>2025-09-21T00:00:00+09:00</published><updated>2025-09-21T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2025/09/21/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2025/09/21/report.html"><![CDATA[<p>珍しいもんが入ってた。</p>
-
-<p>プリプリエビプリオには稀にハート型のものが入ってるらしい。</p>
-
-<p>今回入ってたのはハート型ではなく、ただの不良品。</p>
-
-<p>はっきり言って不快だ。</p>
-
-<p>謝罪と弁償をマクドナルドに要求したい。</p>
-
-<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">ハートよりも珍しそうな不良品入ってた<a href="https://twitter.com/hashtag/%E3%83%97%E3%83%AA%E3%83%97%E3%83%AA%E3%82%A8%E3%83%93%E3%83%97%E3%83%AA%E3%82%AA?src=hash&amp;ref_src=twsrc%5Etfw">#プリプリエビプリオ</a><a href="https://twitter.com/hashtag/%E3%83%9E%E3%82%AF%E3%83%89%E3%83%8A%E3%83%AB%E3%83%89?src=hash&amp;ref_src=twsrc%5Etfw">#マクドナルド</a> <a href="https://t.co/RdZl0UObgx">pic.twitter.com/RdZl0UObgx</a></p>&mdash; まきえたん🥦☘️ (@makietanX) <a href="https://twitter.com/makietanX/status/1969522054220390856?ref_src=twsrc%5Etfw">September 20, 2025</a></blockquote>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[珍しいもんが入ってた。]]></summary></entry></feed>
+<p>さっさと禁止にしろ。</p>]]></content><author><name>makietan</name></author><category term="game" /><category term="yugioh" /><summary type="html"><![CDATA[DCのせいで夜ふかしが止まらない。]]></summary></entry></feed>
