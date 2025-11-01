@@ -1,4 +1,77 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2025-11-01T12:46:49+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">八竜神を使った神魔王/大魔王ラスヴェーザを倒す手順</title><link href="https://makietan.github.io/game/dqw/2025/10/19/report.html" rel="alternate" type="text/html" title="八竜神を使った神魔王/大魔王ラスヴェーザを倒す手順" /><published>2025-10-19T00:00:00+09:00</published><updated>2025-10-19T00:00:00+09:00</updated><id>https://makietan.github.io/game/dqw/2025/10/19/report</id><content type="html" xml:base="https://makietan.github.io/game/dqw/2025/10/19/report.html"><![CDATA[<table>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2025-11-02T03:21:25+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">関東圏のMOVIXの復路費用について</title><link href="https://makietan.github.io/otaku/2025/11/02/report.html" rel="alternate" type="text/html" title="関東圏のMOVIXの復路費用について" /><published>2025-11-02T00:00:00+09:00</published><updated>2025-11-02T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2025/11/02/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2025/11/02/report.html"><![CDATA[<p>映画館、それは不快と隣り合わせの空間である。
+周囲の咀嚼音やいびき（寝るのは勝手にしてくれ）、過剰に漏れる呼吸音、隣の人との距離感、地味にかかる交通費など、様々なストレス要因が存在する。
+特に交通費は、関東圏のMOVIX系列の映画館を利用する場合、復路の交通費が非常に高額になることが多い。
+例えば、MOVIXさいたまからの復路は、最寄り駅がさいたま新都心駅であるため、JR新橋駅からだと片道約580円、往復で1160円もかかる。
+他もまとめてみると以下の通り。
+8時出発とする。</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">映画館</th>
+      <th style="text-align: left">最寄り駅</th>
+      <th style="text-align: center">復路交通費（片道）</th>
+      <th style="text-align: center">復路交通費（往復）</th>
+      <th style="text-align: center">ルート</th>
+      <th style="text-align: center">時間（片道）</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">MOVIX川口</td>
+      <td style="text-align: left">川口駅</td>
+      <td style="text-align: center">320円</td>
+      <td style="text-align: center">640円</td>
+      <td style="text-align: center">JR京浜東北線</td>
+      <td style="text-align: center">約1時間（徒歩15分）</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">MOVIX亀有</td>
+      <td style="text-align: left">亀有駅</td>
+      <td style="text-align: center">430円</td>
+      <td style="text-align: center">860円</td>
+      <td style="text-align: center">千代田線</td>
+      <td style="text-align: center">約50分 (徒歩10分)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">MOVIXさいたま</td>
+      <td style="text-align: left">さいたま新都心駅</td>
+      <td style="text-align: center">580円</td>
+      <td style="text-align: center">1160円</td>
+      <td style="text-align: center">JR京浜東北線(JR東海道線)</td>
+      <td style="text-align: center">約1時間10分</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">MOVIXつくば</td>
+      <td style="text-align: left">研究学園駅</td>
+      <td style="text-align: center">1260円</td>
+      <td style="text-align: center">2520円</td>
+      <td style="text-align: center">日比谷線(南千住)-つくばエクスプレス</td>
+      <td style="text-align: center">約2時間 (徒歩15分)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">MOVIX宇都宮</td>
+      <td style="text-align: left">宇都宮駅/中島[宇都宮市]</td>
+      <td style="text-align: center">2,520円</td>
+      <td style="text-align: center">5,040円</td>
+      <td style="text-align: center">JR高崎線-JR湘南新宿ライン-路線バス</td>
+      <td style="text-align: center">約3時間 (徒歩15分)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">MOVIX伊勢崎</td>
+      <td style="text-align: left">境町駅/三室北</td>
+      <td style="text-align: center">1550円</td>
+      <td style="text-align: center">3,100円</td>
+      <td style="text-align: center">千代田線-東武スカイツリーライン-東武伊勢崎線-あずま・境連絡バス</td>
+      <td style="text-align: center">約4時間40分 (徒歩16分)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>このように、MOVIX系列の映画館を利用する際には、復路の交通費が非常に高額になることが多い。特に、MOVIXつくばやMOVIX宇都宮、MOVIX伊勢崎など、都心から離れた場所にある映画館では、復路の交通費が往復で数千円に達することもある。
+映画鑑賞の際には、これらの交通費も考慮に入れて計画を立てる必要があるだろう。</p>
+
+<p>以上、関東圏のMOVIX系列映画館の復路交通費についての報告でした。</p>]]></content><author><name>makietan</name></author><category term="otaku" /><summary type="html"><![CDATA[映画館、それは不快と隣り合わせの空間である。 周囲の咀嚼音やいびき（寝るのは勝手にしてくれ）、過剰に漏れる呼吸音、隣の人との距離感、地味にかかる交通費など、様々なストレス要因が存在する。 特に交通費は、関東圏のMOVIX系列の映画館を利用する場合、復路の交通費が非常に高額になることが多い。 例えば、MOVIXさいたまからの復路は、最寄り駅がさいたま新都心駅であるため、JR新橋駅からだと片道約580円、往復で1160円もかかる。 他もまとめてみると以下の通り。 8時出発とする。]]></summary></entry><entry><title type="html">八竜神を使った神魔王/大魔王ラスヴェーザを倒す手順</title><link href="https://makietan.github.io/game/dqw/2025/10/19/report.html" rel="alternate" type="text/html" title="八竜神を使った神魔王/大魔王ラスヴェーザを倒す手順" /><published>2025-10-19T00:00:00+09:00</published><updated>2025-10-19T00:00:00+09:00</updated><id>https://makietan.github.io/game/dqw/2025/10/19/report</id><content type="html" xml:base="https://makietan.github.io/game/dqw/2025/10/19/report.html"><![CDATA[<table>
   <thead>
     <tr>
       <th style="text-align: left">キャラクター</th>
@@ -815,31 +888,4 @@ HPが減少すると精神コマンド「気合」「鉄壁」「熱血」「ひ
   <p>ライフはまだ残ってる。ここを耐えれば、マリクに勝てるんだから！</p>
 
   <p>次回「城之内死す」デュエルスタンバイ！</p>
-</blockquote>]]></content><author><name>makietan</name></author><category term="otaku" /><summary type="html"><![CDATA[かわいいデュエル…？私、死すの…？？（すみぺ） https://t.co/xDw2BAfKTn&mdash; 上坂すみれ_official (@uesaka_official) September 24, 2025]]></summary></entry><entry><title type="html">松のやの朝のアジフライ定食が復活していた</title><link href="https://makietan.github.io/gourmet/2025/09/26/report.html" rel="alternate" type="text/html" title="松のやの朝のアジフライ定食が復活していた" /><published>2025-09-26T00:00:00+09:00</published><updated>2025-09-26T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2025/09/26/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2025/09/26/report.html"><![CDATA[<p>得朝アジフライ（1枚）定食 590円</p>
-
-<div class="card">
-  <a href="https://www.matsuyafoods.co.jp/matsunoya/menu/morning/asa_aji_hp_250924.html"></a>
-  <div class="card__header">
-    <a href="https://www.matsuyafoods.co.jp/matsunoya/menu/morning/asa_aji_hp_250924.html">www.matsuyafoods.co.jp</a>
-  </div>
-  <div class="card__image">
-    <img src="" />
-  </div>
-  <div class="card__title">
-    <p>得朝アジフライ（1枚）定食｜メニュー｜松のや</p>
-  </div>
-  <div class="card__description">
-    <p>松のやのメニュー 得朝アジフライ（1枚）定食をご紹介します。</p>
-  </div>
-</div>
-
-<p>一時、松のやの朝定食からアジフライが消えていたが、いつの間にか復活していた。</p>
-
-<p>これは非常にありがたい。</p>
-
-<p>昔あった焼魚定食の復活が一番好ましいがそうはいかないだろうから、アジフライで我慢する。</p>
-
-<p>他にも、明太ごはん定食とかいうのも新たに登場していた。
-小鉢なしで380円は安い。</p>
-
-<p>一番安いのは相変わらず玉子丼で330円。</p>]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[得朝アジフライ（1枚）定食 590円]]></summary></entry></feed>
+</blockquote>]]></content><author><name>makietan</name></author><category term="otaku" /><summary type="html"><![CDATA[かわいいデュエル…？私、死すの…？？（すみぺ） https://t.co/xDw2BAfKTn&mdash; 上坂すみれ_official (@uesaka_official) September 24, 2025]]></summary></entry></feed>
