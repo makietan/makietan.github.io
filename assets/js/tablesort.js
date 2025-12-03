@@ -38,9 +38,9 @@ class TableSort {
             const aVal = a.children[index].innerText;
             const bVal = b.children[index].innerText;
             if (order === 'asc') {
-                return aVal > bVal ? 1 : -1;
+                return aVal.localeCompare(bVal, undefined, {numeric: true});
             } else {
-                return aVal < bVal ? 1 : -1;
+                return bVal.localeCompare(aVal, undefined, {numeric: true});
             }
         });
         rows.forEach(row => {
