@@ -1,4 +1,48 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2025-12-03T10:03:05+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">スパロボDDに初めてちゃんと課金した</title><link href="https://makietan.github.io/game/srwdd/2025/12/02/report.html" rel="alternate" type="text/html" title="スパロボDDに初めてちゃんと課金した" /><published>2025-12-02T00:00:00+09:00</published><updated>2025-12-02T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2025/12/02/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2025/12/02/report.html"><![CDATA[<p>クリスマスのユニスが全然出てこなくて課金してしまった。10,000円分。
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2025-12-03T10:35:18+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">冬になると眠たくなる現象についての考察</title><link href="https://makietan.github.io/health/2025/12/03/report.html" rel="alternate" type="text/html" title="冬になると眠たくなる現象についての考察" /><published>2025-12-03T00:00:00+09:00</published><updated>2025-12-03T00:00:00+09:00</updated><id>https://makietan.github.io/health/2025/12/03/report</id><content type="html" xml:base="https://makietan.github.io/health/2025/12/03/report.html"><![CDATA[<h2 id="1-はじめに">1. はじめに</h2>
+
+<p>冬季における睡眠傾向の変化は、多くの人々が経験する現象であり、特に日照時間の短縮と関連していると考えられている。
+本稿では、冬になると眠たくなる現象について、その生理学的背景と環境要因を考察し、適切な対策方法についても提案する。</p>
+
+<h2 id="2-冬季の睡眠傾向の背景">2. 冬季の睡眠傾向の背景</h2>
+
+<p>冬季における睡眠傾向の変化は、主に以下の要因によって引き起こされると考えられている。</p>
+
+<ul>
+  <li><strong>日照時間の短縮</strong>: 冬季は日照時間が短くなり、メラトニンの分泌が増加することで、眠気が促進される。</li>
+  <li><strong>気温の低下</strong>: 低温環境は体温調節に影響を与え、睡眠の質や量に変化をもたらす。</li>
+  <li><strong>活動量の減少</strong>: 冬季は屋外活動が制限されることが多く、身体活動量の減少が睡眠パターンに影響を与える。</li>
+</ul>
+
+<h2 id="3-生理学的メカニズム">3. 生理学的メカニズム</h2>
+
+<p>メラトニンは、脳の松果体から分泌されるホルモンであり、睡眠-覚醒サイクルの調節に重要な役割を果たす。
+冬季における日照時間の短縮は、メラトニンの分泌を促進し、結果として眠気が増加する。
+また、寒冷環境は体温を低下させるため、体温調節機能が睡眠の質に影響を与えることも知られている。</p>
+
+<h2 id="4-対策方法">4. 対策方法</h2>
+
+<p>冬季における過度な眠気を軽減するためには、以下の対策が有効であると考えられる。</p>
+
+<ul>
+  <li><strong>適切な光環境の確保</strong>: 室内での明るい照明や、日中の屋外活動を増やすことで、メラトニン分泌の抑制が期待できる。</li>
+  <li><strong>規則的な運動</strong>: 適度な身体活動は、睡眠の質を向上させ、冬季の眠気を軽減する効果がある。</li>
+  <li><strong>温かい環境の維持</strong>: 室温を適切に保つことで、体温調節をサポートし、快適な睡眠環境を作ることができる。</li>
+</ul>
+
+<h2 id="5-結論">5. 結論</h2>
+
+<p>冬季における眠気の増加は、主に日照時間の短縮と関連する生理学的メカニズムによって引き起こされる。
+本稿で提案した対策方法を実践することで、冬季の過度な眠気を軽減し、快適な生活を維持することが可能である。
+今後もさらなる研究が進むことで、より効果的な対策が開発されることが期待される。</p>
+
+<h2 id="参考文献">参考文献</h2>
+
+<ol>
+  <li><a href="https://www.mentalclinic.com/disease/p8238/">冬季うつへの対処　幸せホルモン（セロトニン）とダークホルモン（メラトニン）を味方につける - あらたまこころのクリニック | 名古屋市瑞穂区の心療内科・精神科</a></li>
+  <li><a href="https://meiekisakomentalclinic.com/blog/1914/">メラトニンと冬季うつ</a>, <a href="https://meiekisakomentalclinic.com/">名古屋の心療内科・精神科｜名駅さこうメンタルクリニック｜うつ病・発達障害（大人のADHD）</a></li>
+  <li><a href="https://www.ncnp.go.jp/hospital/guide/sleep-column21.html">温度、湿度と睡眠 | NCNP病院 国立精神・神経医療研究センター</a></li>
+  <li><a href="https://www.ncnp.go.jp/nimh/sleep/sleep-medicine/insomnia/index.html">不眠症（Insomnia） | 国立精神・神経医療研究センター精神保健研究所睡眠・覚醒障害研究部</a></li>
+</ol>]]></content><author><name>makietan</name></author><category term="health" /><summary type="html"><![CDATA[1. はじめに]]></summary></entry><entry><title type="html">スパロボDDに初めてちゃんと課金した</title><link href="https://makietan.github.io/game/srwdd/2025/12/02/report.html" rel="alternate" type="text/html" title="スパロボDDに初めてちゃんと課金した" /><published>2025-12-02T00:00:00+09:00</published><updated>2025-12-02T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2025/12/02/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2025/12/02/report.html"><![CDATA[<p>クリスマスのユニスが全然出てこなくて課金してしまった。10,000円分。
 とりあえず課金して回したら2体出たので満足。ポイントで覚醒の綾波レイを入手。
 まぁそりゃ課金したら出るよねって感じではあるけど、無課金でやってるとそもそも回せないからな。</p>
 
@@ -313,7 +357,74 @@ WEBで稼ぐには何があるだろうか。
 
 <h2 id="参考文献">参考文献</h2>
 
-<p>本研究で提示した手法は、ECMAScript 標準仕様に基づいており、現代的な JavaScript 実行環境において広く利用可能である。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[1. 序論]]></summary></entry><entry><title type="html">ガールズ&amp;amp;パンツァー戦車道大作戦「ダージリンと腕試し！【制限あり】」のメモ</title><link href="https://makietan.github.io/game/gup/2025/11/22/report.html" rel="alternate" type="text/html" title="ガールズ&amp;amp;パンツァー戦車道大作戦「ダージリンと腕試し！【制限あり】」のメモ" /><published>2025-11-22T00:00:00+09:00</published><updated>2025-11-22T00:00:00+09:00</updated><id>https://makietan.github.io/game/gup/2025/11/22/report</id><content type="html" xml:base="https://makietan.github.io/game/gup/2025/11/22/report.html"><![CDATA[<p>フラッグ戦、制限あり。</p>
+<p>本研究で提示した手法は、ECMAScript 標準仕様に基づいており、現代的な JavaScript 実行環境において広く利用可能である。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[1. 序論]]></summary></entry><entry><title type="html">いい肉の日</title><link href="https://makietan.github.io/gourmet/2025/11/29/report2.html" rel="alternate" type="text/html" title="いい肉の日" /><published>2025-11-29T00:00:00+09:00</published><updated>2025-11-29T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2025/11/29/report2</id><content type="html" xml:base="https://makietan.github.io/gourmet/2025/11/29/report2.html"><![CDATA[<p>牛タンを焼いた。</p>
+
+<p>ふるさと納税最高だな。</p>]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[牛タンを焼いた。]]></summary></entry><entry><title type="html">推しが武道館いってくれたら死ぬ 最終話が公開された</title><link href="https://makietan.github.io/otaku/2025/11/28/report.html" rel="alternate" type="text/html" title="推しが武道館いってくれたら死ぬ 最終話が公開された" /><published>2025-11-28T00:00:00+09:00</published><updated>2025-11-28T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2025/11/28/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2025/11/28/report.html"><![CDATA[<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/%E6%8E%A8%E3%81%97%E3%81%8C%E6%AD%A6%E9%81%93%E9%A4%A8%E3%81%84%E3%81%A3%E3%81%A6%E3%81%8F%E3%82%8C%E3%81%9F%E3%82%89%E6%AD%BB%E3%81%AC?src=hash&amp;ref_src=twsrc%5Etfw">#推しが武道館いってくれたら死ぬ</a><br />【最終話】<br />🌸明日11月28日(金)17時～公開🌸 <a href="https://t.co/5qB8XXKm3h">https://t.co/5qB8XXKm3h</a> <a href="https://t.co/GrSWn0cBUA">pic.twitter.com/GrSWn0cBUA</a></p>&mdash; 推し武道公式☘️ (@oshibudoryu) <a href="https://twitter.com/oshibudoryu/status/1993875436955480538?ref_src=twsrc%5Etfw">November 27, 2025</a></blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<h2 id="1-はじめに">1. はじめに</h2>
+
+<p>推しが武道館いってくれたら死ぬ（通称：推し武道）は、平尾アウリによる日本の漫画作品であり、アニメ化もされた人気シリーズである。本記事では、2025年11月28日に公開された最終話について、その内容と感想を述べる。</p>
+
+<h2 id="2-最終話の概要">2. 最終話の概要</h2>
+
+<p>2025年11月28日17時に、推し武道の最終話が公式サイトで公開された。</p>
+
+<p>最終話では、主人公のえりぴよが病院に運ばれた後のストーリーが描かれており、彼女の夢である舞菜の武道館公演が実現するかどうかの様子が感動的に描かれている。</p>
+
+<h2 id="3-感想">3. 感想</h2>
+
+<p>最終話は、シリーズ全体を通じてのテーマである「夢の実現」と「友情」の重要性を再確認させる内容であった。
+えりぴよの献身的な行動と、舞菜たちの努力が結実する瞬間は、多くの読者に感動を与えたことであろう。
+また、最終話の公開に伴い、アクセスの負荷でサイトがエラーになり503エラーが発生したが、それだけ多くの人々に推し武道が愛されていることを改めて実感した。</p>
+
+<h2 id="4-結論">4. 結論</h2>
+
+<p>推しが武道館いってくれたら死ぬの最終話は、シリーズの締めくくりとして非常に満足のいく内容であった。
+ファンにとっては感動的なエンディングであり、今後もこの作品が多くの人々に愛され続けることを願ってやまない。
+くまささんが救われて欲しいなと思います。</p>
+
+<p>最後に、推し武道の公式サイトおよび関係者の皆様に感謝の意を表したい。</p>
+
+<p>以上、推し武道最終話のレポートでした。</p>
+
+<h2 id="参考文献">参考文献</h2>
+
+<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/%E6%8E%A8%E3%81%97%E3%81%8C%E6%AD%A6%E9%81%93%E9%A4%A8%E3%81%84%E3%81%A3%E3%81%A6%E3%81%8F%E3%82%8C%E3%81%9F%E3%82%89%E6%AD%BB%E3%81%AC?src=hash&amp;ref_src=twsrc%5Etfw">#推しが武道館いってくれたら死ぬ</a><br />【65話&amp;最終話】<br />🌸無料公開は12月4日(木)まで🌸<br />⏩️<a href="https://t.co/nQZPIV8Hdf">https://t.co/nQZPIV8Hdf</a><br /><br />たくさん読んでもらった御礼に…<br />平尾アウリさん作成<br />💓あなたの推しがわかるチャート💓<br />特別に投稿しておきます！ <a href="https://t.co/TfMT6gpjml">https://t.co/TfMT6gpjml</a> <a href="https://t.co/Bn7VJ1LEvZ">pic.twitter.com/Bn7VJ1LEvZ</a></p>&mdash; 推し武道公式☘️ (@oshibudoryu) <a href="https://twitter.com/oshibudoryu/status/1995775003091239384?ref_src=twsrc%5Etfw">December 2, 2025</a></blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>]]></content><author><name>makietan</name></author><category term="otaku" /><summary type="html"><![CDATA[#推しが武道館いってくれたら死ぬ【最終話】🌸明日11月28日(金)17時～公開🌸 https://t.co/5qB8XXKm3h pic.twitter.com/GrSWn0cBUA&mdash; 推し武道公式☘️ (@oshibudoryu) November 27, 2025]]></summary></entry><entry><title type="html">好きなオタクグッズ発表ドラゴン「冷蔵庫に貼れそうな薄いマグネット」</title><link href="https://makietan.github.io/otaku/2025/11/27/report.html" rel="alternate" type="text/html" title="好きなオタクグッズ発表ドラゴン「冷蔵庫に貼れそうな薄いマグネット」" /><published>2025-11-27T00:00:00+09:00</published><updated>2025-11-27T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2025/11/27/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2025/11/27/report.html"><![CDATA[<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">好きなオタクグッズ発表ドラゴン<br />冷蔵庫に貼れそうな薄いマグネット <a href="https://t.co/ktsMPz8ume">pic.twitter.com/ktsMPz8ume</a></p>&mdash; まきえたん🥦☘️ (@makietanX) <a href="https://twitter.com/makietanX/status/1993670343278604448?ref_src=twsrc%5Etfw">November 26, 2025</a></blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<p>これの正式名称ってなんて言うんだろう。薄いマグネットシート？</p>
+
+<p>商品にはキャラクターマグネットリフレクターと書いている。</p>
+
+<p>これは冷蔵庫に貼れるくらい薄いので便利。</p>
+
+<p>斉藤恵那のキャラクターマグネットリフレクター。</p>
+
+<p>最高にかわいいね。</p>]]></content><author><name>makietan</name></author><category term="otaku" /><summary type="html"><![CDATA[好きなオタクグッズ発表ドラゴン冷蔵庫に貼れそうな薄いマグネット pic.twitter.com/ktsMPz8ume&mdash; まきえたん🥦☘️ (@makietanX) November 26, 2025]]></summary></entry><entry><title type="html">夜ポテチを食べ始めたら心の心労のサインらしいが、ずっと食べてる場合は…？</title><link href="https://makietan.github.io/health/2025/11/26/report.html" rel="alternate" type="text/html" title="夜ポテチを食べ始めたら心の心労のサインらしいが、ずっと食べてる場合は…？" /><published>2025-11-26T00:00:00+09:00</published><updated>2025-11-26T00:00:00+09:00</updated><id>https://makietan.github.io/health/2025/11/26/report</id><content type="html" xml:base="https://makietan.github.io/health/2025/11/26/report.html"><![CDATA[<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">ずっと食べてる… <a href="https://t.co/T7kMZpZ6Cb">https://t.co/T7kMZpZ6Cb</a></p>&mdash; まきえたん🥦☘️ (@makietanX) <a href="https://twitter.com/makietanX/status/1993668294302384463?ref_src=twsrc%5Etfw">November 26, 2025</a></blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<p>えっ、ずっと食べてる場合はどうしたらいいの…？</p>
+
+<p>助けてAIくん！</p>
+
+<p>以下、AIくんの回答です。</p>
+
+<p>四六時中ポテチを食べ続ける場合、これは深刻な心のストレスや不安のサインである可能性があります。以下の対策を検討してみてください：</p>
+
+<ol>
+  <li><strong>専門家の相談</strong>: 心理カウンセラーや精神科医に相談し、根本的な原因を特定してもらうことが重要です。</li>
+  <li><strong>ストレス管理</strong>: 瞑想、ヨガ、深呼吸などのリラクゼーション技術を取り入れて、ストレスを軽減しましょう。</li>
+  <li><strong>健康的な食習慣</strong>: バランスの取れた食事を心がけ、過剰なスナック摂取を避けるようにしましょう。</li>
+  <li><strong>運動</strong>: 定期的な運動はストレス解消に効果的です。ウォーキングやジョギングなど、好きな運動を取り入れてみてください。</li>
+  <li><strong>サポートネットワーク</strong>: 友人や家族と話すことで、感情を共有し、サポートを得ることができます。</li>
+  <li><strong>趣味や活動</strong>: 新しい趣味や活動に参加することで、気分転換を図り、ポテチへの依存を減らすことができます。</li>
+</ol>
+
+<p>もしこれらの対策を試しても改善が見られない場合は、専門家の助けを求めることを強くお勧めします。</p>
+
+<p>知るかボケ。</p>]]></content><author><name>makietan</name></author><category term="health" /><summary type="html"><![CDATA[ずっと食べてる… https://t.co/T7kMZpZ6Cb&mdash; まきえたん🥦☘️ (@makietanX) November 26, 2025]]></summary></entry><entry><title type="html">ガールズ&amp;amp;パンツァー戦車道大作戦「ダージリンと腕試し！【制限あり】」のメモ</title><link href="https://makietan.github.io/game/gup/2025/11/22/report.html" rel="alternate" type="text/html" title="ガールズ&amp;amp;パンツァー戦車道大作戦「ダージリンと腕試し！【制限あり】」のメモ" /><published>2025-11-22T00:00:00+09:00</published><updated>2025-11-22T00:00:00+09:00</updated><id>https://makietan.github.io/game/gup/2025/11/22/report</id><content type="html" xml:base="https://makietan.github.io/game/gup/2025/11/22/report.html"><![CDATA[<p>フラッグ戦、制限あり。</p>
 
 <h2 id="出撃制限">出撃制限</h2>
 
@@ -464,48 +575,4 @@ WEBで稼ぐには何があるだろうか。
   </tbody>
 </table>
 
-<p>こんな感じでガンガンオート</p>]]></content><author><name>makietan</name></author><category term="game" /><category term="gup" /><summary type="html"><![CDATA[フラッグ戦、制限あり。]]></summary></entry><entry><title type="html">為替がきつい一週間</title><link href="https://makietan.github.io/fx/2025/11/20/report.html" rel="alternate" type="text/html" title="為替がきつい一週間" /><published>2025-11-20T00:00:00+09:00</published><updated>2025-11-20T00:00:00+09:00</updated><id>https://makietan.github.io/fx/2025/11/20/report</id><content type="html" xml:base="https://makietan.github.io/fx/2025/11/20/report.html"><![CDATA[<p>全然下がらない。</p>
-
-<p>アホみたいに円安が進んでいる。</p>
-
-<p>アホ派すぎる。</p>]]></content><author><name>makietan</name></author><category term="fx" /><summary type="html"><![CDATA[全然下がらない。]]></summary></entry><entry><title type="html">ちょっとユーロ円181円台乗せてないんだけど</title><link href="https://makietan.github.io/fx/2025/11/19/report.html" rel="alternate" type="text/html" title="ちょっとユーロ円181円台乗せてないんだけど" /><published>2025-11-19T00:00:00+09:00</published><updated>2025-11-19T00:00:00+09:00</updated><id>https://makietan.github.io/fx/2025/11/19/report</id><content type="html" xml:base="https://makietan.github.io/fx/2025/11/19/report.html"><![CDATA[<p>いやーちょっとユーロ円181円台乗せてないんだけど暴投するなら潔く行け。
-ドル円のせいでユーロ円がとんでもなく強い動きしてる。
-いい加減に下げてくれないと困るんだけどなあ.</p>]]></content><author><name>makietan</name></author><category term="fx" /><summary type="html"><![CDATA[いやーちょっとユーロ円181円台乗せてないんだけど暴投するなら潔く行け。 ドル円のせいでユーロ円がとんでもなく強い動きしてる。 いい加減に下げてくれないと困るんだけどなあ.]]></summary></entry><entry><title type="html">駅メモに日記をつけ始めた</title><link href="https://makietan.github.io/game/ekimemo/2025/11/18/report.html" rel="alternate" type="text/html" title="駅メモに日記をつけ始めた" /><published>2025-11-18T00:00:00+09:00</published><updated>2025-11-18T00:00:00+09:00</updated><id>https://makietan.github.io/game/ekimemo/2025/11/18/report</id><content type="html" xml:base="https://makietan.github.io/game/ekimemo/2025/11/18/report.html"><![CDATA[<p>なんか日報機能ができてたので100文字程度で日記をつけようと思う。</p>
-
-<p>本来ならこっちに書くべきなんだけど、PCでしか手軽に書けないから厳しい。</p>]]></content><author><name>makietan</name></author><category term="game" /><category term="ekimemo" /><summary type="html"><![CDATA[なんか日報機能ができてたので100文字程度で日記をつけようと思う。]]></summary></entry><entry><title type="html">女をイかせるための筋トレ</title><link href="https://makietan.github.io/health/ai/2025/11/17/report.html" rel="alternate" type="text/html" title="女をイかせるための筋トレ" /><published>2025-11-17T00:00:00+09:00</published><updated>2025-11-17T00:00:00+09:00</updated><id>https://makietan.github.io/health/ai/2025/11/17/report</id><content type="html" xml:base="https://makietan.github.io/health/ai/2025/11/17/report.html"><![CDATA[<p>女性をイかせるためには、男性側もある程度の筋力と持久力が必要です。以下に、効果的な筋トレ方法を紹介します。</p>
-
-<ol>
-  <li><strong>スクワット</strong><br />
-スクワットは下半身の筋力を鍛えるのに最適です。強い脚力は、セックス中の体位変更や持続力に役立ちます。
-    <ul>
-      <li>3セット x 15回</li>
-    </ul>
-  </li>
-  <li><strong>プランク</strong><br />
-プランクは体幹を鍛えるのに効果的です。 体幹が強いと、安定した動きが可能になり、女性をイかせるための持久力が向上します。
-    <ul>
-      <li>3セット x 30秒</li>
-    </ul>
-  </li>
-  <li><strong>腕立て伏せ</strong><br />
-腕立て伏せは上半身の筋力を鍛えるのに役立ちます。強い腕力は、セックス中のサポートや体位維持に役立ちます。
-    <ul>
-      <li>3セット x 12回</li>
-    </ul>
-  </li>
-  <li><strong>有酸素運動</strong><br />
-ランニングやサイクリングなどの有酸素運動は、心肺機能を向上させ、持久力を高めます。セックス中の疲労を軽減するために重要です。
-    <ul>
-      <li>週に3回、30分ずつ</li>
-    </ul>
-  </li>
-</ol>
-
-<p>これらの筋トレを継続的に行うことで、女性をイかせるための体力と筋力が向上します。 また、コミュニケーションも重要ですので、相手の反応をよく観察し、適切なタイミングで休憩を取ることも忘れないでください。
-健康的な生活習慣とバランスの取れた食事も、筋力向上に寄与します。 ぜひ、これらのトレーニングを取り入れて、より良いセックスライフを楽しんでください。</p>
-
-<p>だってさ。</p>]]></content><author><name>makietan</name></author><category term="health" /><category term="ai" /><summary type="html"><![CDATA[女性をイかせるためには、男性側もある程度の筋力と持久力が必要です。以下に、効果的な筋トレ方法を紹介します。]]></summary></entry><entry><title type="html">なんか外付けHDDから異音がする</title><link href="https://makietan.github.io/tech/2025/11/16/report.html" rel="alternate" type="text/html" title="なんか外付けHDDから異音がする" /><published>2025-11-16T00:00:00+09:00</published><updated>2025-11-16T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2025/11/16/report</id><content type="html" xml:base="https://makietan.github.io/tech/2025/11/16/report.html"><![CDATA[<p>いやーそろそろ寿命か？</p>
-
-<p>もうちょっともってほしいんだけどなあ。</p>
-
-<p>そう安くないわけだしね。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[いやーそろそろ寿命か？]]></summary></entry></feed>
+<p>こんな感じでガンガンオート</p>]]></content><author><name>makietan</name></author><category term="game" /><category term="gup" /><summary type="html"><![CDATA[フラッグ戦、制限あり。]]></summary></entry></feed>
