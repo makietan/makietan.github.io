@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2025-12-23T18:34:15+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">平均値、中央値、最頻値を求めるプログラム</title><link href="https://makietan.github.io/tech/2025/12/23/report.html" rel="alternate" type="text/html" title="平均値、中央値、最頻値を求めるプログラム" /><published>2025-12-23T00:00:00+09:00</published><updated>2025-12-23T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2025/12/23/report</id><content type="html" xml:base="https://makietan.github.io/tech/2025/12/23/report.html"><![CDATA[<h2 id="概要">概要</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2025-12-23T19:38:59+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">平均値、中央値、最頻値、標準偏差を求めるプログラム</title><link href="https://makietan.github.io/tech/2025/12/23/report.html" rel="alternate" type="text/html" title="平均値、中央値、最頻値、標準偏差を求めるプログラム" /><published>2025-12-23T00:00:00+09:00</published><updated>2025-12-23T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2025/12/23/report</id><content type="html" xml:base="https://makietan.github.io/tech/2025/12/23/report.html"><![CDATA[<h2 id="概要">概要</h2>
 <p>このプログラムは、与えられた数値のリストから平均値、中央値、最頻値を計算します。数値は改行で区切られた形式で入力されます。</p>
 <h2 id="使用方法">使用方法</h2>
 <ol>
@@ -10,12 +10,25 @@
 <textarea rows="20" cols="80" id="list" oninput="run()"></textarea>
 <h2 id="結果表示">結果表示</h2>
 <div id="output"></div>
+<p><br /></p>
+<div id="output-graph"></div>
 <script>
 function run() {
-  const list = document.getElementById("list").split("\n");
-  const numbers = list.map(Number).filter(n => !isNaN(n));
+    const list = document.getElementById("list").value.split("\n");
+    // 元行テキストと数値の対応を保持
+    const entries = [];
+    for (const line of list) {
+            const t = line.trim();
+            if (t === "") continue;
+            const cleaned = t.replace(/[^0-9.\-]/g, '');
+            const n = Number(cleaned);
+            if (!isNaN(n)) {
+                    entries.push({ value: n, raw: t });
+            }
+    }
+    const numbers = entries.map(e => e.value);
   if (numbers.length === 0) {
-      document.getElementById("list").value = "有効な数値がありません。";
+      document.getElementById("output").textContent = "有効な数値がありません。";
   } else {
       // 平均値の計算
       const sum = numbers.reduce((a, b) => a + b, 0);
@@ -40,8 +53,126 @@ function run() {
               mode = num;
           }
       }
-      document.getElementById("output").textContent =
-          `平均値: ${mean}\n中央値: ${median}\n最頻値: ${mode}`;
+      // 分散の計算
+      const variance = numbers.reduce((a, b) => a + Math.pow(b - mean, 2), 0) / numbers.length;
+      // 標準偏差の計算
+      const stdDev = Math.sqrt(variance);
+      // 最小値と最大値の計算
+      const min = Math.min(...numbers);
+      const max = Math.max(...numbers);
+      // 範囲の計算
+      const range = max - min;
+      // 歪度の計算
+      const skewness = numbers.reduce((a, b) => a + Math.pow((b - mean) / stdDev, 3), 0) / numbers.length;
+      // 尖度の計算
+      const kurtosis = numbers.reduce((a, b) => a + Math.pow((b - mean) / stdDev, 4), 0) / numbers.length - 3;
+      // 結果の表示
+      document.getElementById("output").innerText = [
+          `平均値: ${mean}`,
+          `中央値: ${median}`,
+          `最頻値: ${mode}`,
+          `分散: ${variance}`,
+          `標準偏差: ${stdDev}`,
+          `最小値: ${min}`,
+          `最大値: ${max}`,
+          `範囲: ${range}`,
+          `歪度: ${skewness}`,
+          `尖度: ${kurtosis}`
+      ].join("\n");
+      // ヒストグラム計算は不要になったため削除（散布図のみ描画）
+      // numbers を使って 散布図を描画する（x=インデックス, y=値）
+      const width = 500;
+      const height = 300;
+      const margin = 30;
+      let graphHtml = `<svg width="${width}" height="${height}" style="border:1px solid black">`;
+      // 軸の描画
+      graphHtml += `<line x1="${margin}" y1="${height - margin}" x2="${width - margin}" y2="${height - margin}" stroke="black"/>`;
+      graphHtml += `<line x1="${margin}" y1="${margin}" x2="${margin}" y2="${height - margin}" stroke="black"/>`;
+      // 軸ラベル
+      graphHtml += `<text x="${width / 2}" y="${height - 5}" text-anchor="middle" font-size="10">Index</text>`;
+      graphHtml += `<text x="${margin + 5}" y="${margin - 10}" text-anchor="start" font-size="10">Value</text>`;
+      // スケールの計算（yはmin/maxに基づき、xはインデックスに基づく）
+      const yRange = max - min;
+      const yScale = yRange === 0 ? 0 : (height - margin * 2) / yRange;
+      const xStep = numbers.length > 1 ? (width - margin * 2) / (numbers.length - 1) : 0;
+      // y軸目盛（5分割）+ グリッドライン
+      const yTicks = 5;
+      for (let t = 0; t <= yTicks; t++) {
+          const v = yRange === 0 ? min : (min + (yRange * t) / yTicks);
+          const yTick = yRange === 0 ? (height / 2) : (height - margin - ((v - min) * yScale));
+          // グリッドライン
+          graphHtml += `<line x1="${margin}" y1="${yTick}" x2="${width - margin}" y2="${yTick}" stroke="#eeeeee"/>`;
+          // 目盛ラベル
+          graphHtml += `<text x="${margin - 6}" y="${yTick + 3}" text-anchor="end" font-size="10">${v}</text>`;
+      }
+      // x軸の端点ラベル（混雑を避けて最小限）
+      graphHtml += `<text x="${margin}" y="${height - margin + 12}" text-anchor="middle" font-size="10">0</text>`;
+      graphHtml += `<text x="${width - margin}" y="${height - margin + 12}" text-anchor="middle" font-size="10">${Math.max(numbers.length - 1, 0)}</text>`;
+      // 値→Y座標（min/maxにクランプ）
+      const toY = (v) => yRange === 0
+          ? (height / 2)
+          : (height - margin - ((Math.max(Math.min(v, max), min) - min) * yScale));
+      // 平均線（破線）
+      const meanY = toY(mean);
+      graphHtml += `<line x1="${margin}" y1="${meanY}" x2="${width - margin}" y2="${meanY}" stroke="red" stroke-dasharray="4 2"/>`;
+      graphHtml += `<text x="${width - margin}" y="${meanY - 5}" text-anchor="end" font-size="10" fill="red">mean=${mean}</text>`;
+      // 中央値線（破線）
+      const medianY = toY(median);
+      graphHtml += `<line x1="${margin}" y1="${medianY}" x2="${width - margin}" y2="${medianY}" stroke="green" stroke-dasharray="4 2"/>`;
+      graphHtml += `<text x="${width - margin}" y="${medianY - 5}" text-anchor="end" font-size="10" fill="green">median=${median}</text>`;
+      // 散布図の点を描画（データ属性で元行を保持）
+      const escAttr = (s) => String(s)
+          .replace(/&/g, '&amp;')
+          .replace(/</g, '&lt;')
+          .replace(/>/g, '&gt;')
+          .replace(/"/g, '&quot;');
+      for (let i = 0; i < numbers.length; i++) {
+          const x = numbers.length > 1 ? margin + i * xStep : width / 2;
+          const y = height - margin - ((numbers[i] - min) * yScale);
+          const cy = yRange === 0 ? height / 2 : y; // すべて同値のときは中央線上に配置
+          const rawText = entries[i]?.raw ?? String(numbers[i]);
+          graphHtml += `<circle cx="${x}" cy="${cy}" r="3" fill="blue" data-index="${i}" data-value="${numbers[i]}" data-raw="${escAttr(rawText)}"></circle>`;
+      }
+      graphHtml += '</svg>';
+      const container = document.getElementById("output-graph");
+      container.style.position = 'relative';
+      container.innerHTML = graphHtml;
+      // カスタムツールチップの作成/取得
+      let tooltip = container.querySelector('.svg-tooltip');
+      if (!tooltip) {
+          tooltip = document.createElement('div');
+          tooltip.className = 'svg-tooltip';
+          const style = tooltip.style;
+          style.position = 'absolute';
+          style.pointerEvents = 'none';
+          style.background = '#fff';
+          style.border = '1px solid #ccc';
+          style.padding = '4px 6px';
+          style.fontSize = '12px';
+          style.borderRadius = '4px';
+          style.boxShadow = '0 1px 4px rgba(0,0,0,0.2)';
+          style.display = 'none';
+          style.whiteSpace = 'pre';
+          container.appendChild(tooltip);
+      }
+      const svg = container.querySelector('svg');
+      const circles = svg ? svg.querySelectorAll('circle') : [];
+      circles.forEach((circle) => {
+          const show = (e) => {
+              const raw = circle.getAttribute('data-raw') || '';
+              tooltip.textContent = `${raw}`;
+              tooltip.style.display = 'block';
+              const rect = container.getBoundingClientRect();
+              const x = e.clientX - rect.left + 10;
+              const y = e.clientY - rect.top + 10;
+              tooltip.style.left = `${x}px`;
+              tooltip.style.top = `${y}px`;
+          };
+          const hide = () => { tooltip.style.display = 'none'; };
+          circle.addEventListener('mouseenter', show);
+          circle.addEventListener('mousemove', show);
+          circle.addEventListener('mouseleave', hide);
+      });
   }
 }
 </script>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[概要 このプログラムは、与えられた数値のリストから平均値、中央値、最頻値を計算します。数値は改行で区切られた形式で入力されます。 使用方法 下のテキストエリアに数値を改行で区切って入力します。 ページを読み込むと、平均値、中央値、最頻値が計算され、表示されます。 テキストエリア 結果表示]]></summary></entry><entry><title type="html">いざ新潟へ</title><link href="https://makietan.github.io/travel/2025/12/20/report.html" rel="alternate" type="text/html" title="いざ新潟へ" /><published>2025-12-20T00:00:00+09:00</published><updated>2025-12-20T00:00:00+09:00</updated><id>https://makietan.github.io/travel/2025/12/20/report</id><content type="html" xml:base="https://makietan.github.io/travel/2025/12/20/report.html"><![CDATA[<div class="card">
