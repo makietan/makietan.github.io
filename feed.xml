@@ -1,4 +1,65 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2025-12-27T12:57:29+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">平均値、中央値、最頻値、標準偏差を求めるプログラム</title><link href="https://makietan.github.io/tech/2025/12/23/report.html" rel="alternate" type="text/html" title="平均値、中央値、最頻値、標準偏差を求めるプログラム" /><published>2025-12-23T00:00:00+09:00</published><updated>2025-12-23T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2025/12/23/report</id><content type="html" xml:base="https://makietan.github.io/tech/2025/12/23/report.html"><![CDATA[<h2 id="概要">概要</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2025-12-27T22:40:27+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">Intel Mac (macOS 13) に yt-dlp を GitHub ソースからインストールする方法</title><link href="https://makietan.github.io/tech/2025/12/27/report.html" rel="alternate" type="text/html" title="Intel Mac (macOS 13) に yt-dlp を GitHub ソースからインストールする方法" /><published>2025-12-27T00:00:00+09:00</published><updated>2025-12-27T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2025/12/27/report</id><content type="html" xml:base="https://makietan.github.io/tech/2025/12/27/report.html"><![CDATA[<p>macOS 13(Ventura)などのIntel Mac環境で、Homebrewを使わずにGitHubのリポジトリから<code class="language-plaintext highlighter-rouge">yt-dlp</code>をインストールする手順をまとめます。</p>
+
+<p>Pythonの<code class="language-plaintext highlighter-rouge">error: externally-managed-environment</code>(PEP 668)を回避するため、仮想環境(venv)を作成します。シンボリックリンクでシステム全体から呼び出せるように設定します。</p>
+
+<hr />
+
+<h2 id="1-ソースコードの取得">1. ソースコードの取得</h2>
+<p>まず、適当な作業ディレクトリに移動し、GitHubから最新のリポジトリをクローンします。</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cd</span> ~/project/
+git clone https://github.com/yt-dlp/yt-dlp.git
+<span class="nb">cd </span>yt-dlp
+</code></pre></div></div>
+
+<h2 id="2-仮想環境-venv-の作成とインストール">2. 仮想環境 (venv) の作成とインストール</h2>
+<p>システム環境を保護するため、ディレクトリ内に隔離されたPython環境を作ります。</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># 仮想環境を作成</span>
+python3 <span class="nt">-m</span> venv venv
+
+<span class="c"># 仮想環境を有効化</span>
+<span class="nb">source </span>venv/bin/activate
+
+<span class="c"># 仮想環境内に yt-dlp をインストール</span>
+python3 <span class="nt">-m</span> pip <span class="nb">install</span> <span class="nb">.</span>
+
+<span class="c"># バージョンが表示されるか確認</span>
+yt-dlp <span class="nt">--version</span>
+
+<span class="c"># 確認できたら仮想環境を抜ける</span>
+deactivate
+</code></pre></div></div>
+
+<h2 id="3-シンボリックリンクの設定">3. シンボリックリンクの設定</h2>
+<p>自作のシェルスクリプトやターミナルから直接 <code class="language-plaintext highlighter-rouge">yt-dlp</code> コマンドを呼び出せるよう、パスの通った場所にリンクを作成します。</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># リンクを作成（パスは実際の環境に合わせて書き換えてください）</span>
+<span class="nb">sudo ln</span> <span class="nt">-s</span> /Users/あなたのユーザー名/yt-dlp/venv/bin/yt-dlp /usr/local/bin/yt-dlp
+</code></pre></div></div>
+
+<h2 id="4-動作確認">4. 動作確認</h2>
+<p>設定が完了したら、新しいターミナルを開いて以下のコマンドでパスを確認します。</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>which yt-dlp
+<span class="c"># /usr/local/bin/yt-dlp と表示されれば完了</span>
+</code></pre></div></div>
+
+<hr />
+
+<h2 id="補足アップデート方法">補足：アップデート方法</h2>
+
+<p>最新のソースに更新したい場合は、ディレクトリに移動して <code class="language-plaintext highlighter-rouge">git pull</code> 後に再度インストールを行います。</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cd</span> ~/project/yt-dlp
+git pull
+<span class="nb">source </span>venv/bin/activate
+python3 <span class="nt">-m</span> pip <span class="nb">install</span> <span class="nb">.</span>
+deactivate
+</code></pre></div></div>
+
+<h2 id="必須ffmpegについて">必須：FFmpegについて</h2>
+<p>動画と音声を結合するには<strong>FFmpeg</strong>が必要です。Homebrewが使えない場合は、公式バイナリをダウンロードして<code class="language-plaintext highlighter-rouge">/usr/local/bin</code>へ配置してください。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[macOS 13(Ventura)などのIntel Mac環境で、Homebrewを使わずにGitHubのリポジトリからyt-dlpをインストールする手順をまとめます。]]></summary></entry><entry><title type="html">平均値、中央値、最頻値、標準偏差を求めるプログラム</title><link href="https://makietan.github.io/tech/2025/12/23/report.html" rel="alternate" type="text/html" title="平均値、中央値、最頻値、標準偏差を求めるプログラム" /><published>2025-12-23T00:00:00+09:00</published><updated>2025-12-23T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2025/12/23/report</id><content type="html" xml:base="https://makietan.github.io/tech/2025/12/23/report.html"><![CDATA[<h2 id="概要">概要</h2>
 <p>このプログラムは、与えられた数値のリストから平均値、中央値、最頻値を計算します。数値は改行で区切られた形式で入力されます。</p>
 <h2 id="使用方法">使用方法</h2>
 <ol>
@@ -654,19 +715,4 @@ SNSを使えないことで、子供たちの将来に悪影響を与える可�
 
 <p>映画館は消えてなくなればいいのに、と思う今日この頃である。</p>
 
-<p>サブスクで十分だから。</p>]]></content><author><name>makietan</name></author><category term="otaku" /><summary type="html"><![CDATA[ドリンクバーカップの提供がポップコーン待ちで詰まってたのは新宿ピカデリーだったかなどこ行っても非効率だし映画代は高いしストレスはそこそこ貯まる https://t.co/jC0E8nso8Z&mdash; まきえたん🥦☘️ (@makietanX) December 8, 2025]]></summary></entry><entry><title type="html">日高屋が美味いとか言ってるやつは信用できない</title><link href="https://makietan.github.io/gourmet/2025/12/07/report.html" rel="alternate" type="text/html" title="日高屋が美味いとか言ってるやつは信用できない" /><published>2025-12-07T00:00:00+09:00</published><updated>2025-12-07T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2025/12/07/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2025/12/07/report.html"><![CDATA[<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">日高屋のまだなんとか食べられる三銃士<br />餃子は王将派だから頼まないけど<br />他は無理… <a href="https://t.co/fQziYFAiqP">https://t.co/fQziYFAiqP</a></p>&mdash; まきえたん🥦☘️ (@makietanX) <a href="https://twitter.com/makietanX/status/1997303165415567416?ref_src=twsrc%5Etfw">December 6, 2025</a></blockquote>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<p>はっきり言おう。日高屋のすべてのメニューは不味い。</p>
-
-<p>定食類は全部アウト。</p>
-
-<p>ラーメン、チャーハン、餃子はまだなんとか食べられるレベル。</p>
-
-<p>ただ、どれをとっても美味しいと思ったことがない。</p>
-
-<p>なので、日高屋が美味いとか言ってるやつは信用できない。</p>
-
-<p>日高屋を美味いと思う人は、味覚が壊れている可能性が高い。</p>
-
-<p>もっとうまいものを食べたほうがいい。</p>]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[日高屋のまだなんとか食べられる三銃士餃子は王将派だから頼まないけど他は無理… https://t.co/fQziYFAiqP&mdash; まきえたん🥦☘️ (@makietanX) December 6, 2025]]></summary></entry></feed>
+<p>サブスクで十分だから。</p>]]></content><author><name>makietan</name></author><category term="otaku" /><summary type="html"><![CDATA[ドリンクバーカップの提供がポップコーン待ちで詰まってたのは新宿ピカデリーだったかなどこ行っても非効率だし映画代は高いしストレスはそこそこ貯まる https://t.co/jC0E8nso8Z&mdash; まきえたん🥦☘️ (@makietanX) December 8, 2025]]></summary></entry></feed>
