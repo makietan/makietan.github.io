@@ -1,4 +1,15 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-01-07T13:04:09+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">Intel Mac (macOS 13) に yt-dlp を GitHub ソースからインストールする方法</title><link href="https://makietan.github.io/tech/2025/12/27/report.html" rel="alternate" type="text/html" title="Intel Mac (macOS 13) に yt-dlp を GitHub ソースからインストールする方法" /><published>2025-12-27T00:00:00+09:00</published><updated>2025-12-27T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2025/12/27/report</id><content type="html" xml:base="https://makietan.github.io/tech/2025/12/27/report.html"><![CDATA[<p>macOS 13(Ventura)などのIntel Mac環境で、Homebrewを使わずにGitHubのリポジトリから<code class="language-plaintext highlighter-rouge">yt-dlp</code>をインストールする手順をまとめます。</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-01-07T14:53:15+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">iPhone をアップデートしたらエラー 100 が発生しておそらく文鎮化した</title><link href="https://makietan.github.io/tech/2026/01/07/report.html" rel="alternate" type="text/html" title="iPhone をアップデートしたらエラー 100 が発生しておそらく文鎮化した" /><published>2026-01-07T00:00:00+09:00</published><updated>2026-01-07T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2026/01/07/report</id><content type="html" xml:base="https://makietan.github.io/tech/2026/01/07/report.html"><![CDATA[<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>iPhone “iPhone”をアップデートできませんでした。不明なエラーが発生しました（100）。 06A6.0064
+</code></pre></div></div>
+
+<p>最悪すぎる…。</p>
+
+<p>とりあえず Apple の店に行く。</p>
+
+<p>はぁ…。</p>
+
+<p>最悪。</p>
+
+<p>Apple はクソ。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[iPhone “iPhone”をアップデートできませんでした。不明なエラーが発生しました（100）。 06A6.0064]]></summary></entry><entry><title type="html">Intel Mac (macOS 13) に yt-dlp を GitHub ソースからインストールする方法</title><link href="https://makietan.github.io/tech/2025/12/27/report.html" rel="alternate" type="text/html" title="Intel Mac (macOS 13) に yt-dlp を GitHub ソースからインストールする方法" /><published>2025-12-27T00:00:00+09:00</published><updated>2025-12-27T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2025/12/27/report</id><content type="html" xml:base="https://makietan.github.io/tech/2025/12/27/report.html"><![CDATA[<p>macOS 13(Ventura)などのIntel Mac環境で、Homebrewを使わずにGitHubのリポジトリから<code class="language-plaintext highlighter-rouge">yt-dlp</code>をインストールする手順をまとめます。</p>
 
 <p>Pythonの<code class="language-plaintext highlighter-rouge">error: externally-managed-environment</code>(PEP 668)を回避するため、仮想環境(venv)を作成します。シンボリックリンクでシステム全体から呼び出せるように設定します。</p>
 
@@ -682,37 +693,4 @@ SNSを使えないことで、子供たちの将来に悪影響を与える可�
 
 <p>M9Dファルケの強化があったから楽になった可能性がある。</p>
 
-<p>グリッドマンもオーブ強化できたからそれも影響あるかな？</p>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[記念スべき第60回迎撃戦、忘れてた…。]]></summary></entry><entry><title type="html">ただでさえ不快な映画館。そのドリンクバーがまともなはずもなく…</title><link href="https://makietan.github.io/otaku/2025/12/08/report.html" rel="alternate" type="text/html" title="ただでさえ不快な映画館。そのドリンクバーがまともなはずもなく…" /><published>2025-12-08T00:00:00+09:00</published><updated>2025-12-08T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2025/12/08/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2025/12/08/report.html"><![CDATA[<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">ドリンクバーカップの提供がポップコーン待ちで詰まってたのは新宿ピカデリーだったかな<br />どこ行っても非効率だし映画代は高いし<br />ストレスはそこそこ貯まる <a href="https://t.co/jC0E8nso8Z">https://t.co/jC0E8nso8Z</a></p>&mdash; まきえたん🥦☘️ (@makietanX) <a href="https://twitter.com/makietanX/status/1998037825745515003?ref_src=twsrc%5Etfw">December 8, 2025</a></blockquote>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<p>映画館が嫌いだ。</p>
-
-<p>人が多い、席が狭い、音がうるさい、食べ物が高い、飲み物が高い、トイレが汚い、スタッフの態度が悪い、上映開始時間に遅れることが多い、などなど。</p>
-
-<p>ドリンクバーもその一つだ。</p>
-
-<p>注文したらなぜかポップコーン待ちのキューに追加される。</p>
-
-<p>さっさとカップだけ渡してくれたらいいのに、なぜか他人がポップコーンを受け取るまでカップがもらえない。</p>
-
-<p>そのせいでカップ待ちの行列ができてしまい、ますますストレスがたまる。</p>
-
-<p>映画館の運営側は、なぜこんな非効率なシステムを採用しているのか理解に苦しむ。</p>
-
-<p>映画を楽しむために映画館に行くのに、こんなことでストレスを感じるのは本末転倒だ。</p>
-
-<p>映画館はもっと顧客体験を向上させるべきだ。ドリンクバーの提供方法を見直し、顧客が快適に映画を楽しめるようにするべきだ。</p>
-
-<p>映画館に行くたびに、このドリンクバーの非効率さにイライラさせられるのはもうたくさんだ。映画館は顧客の声に耳を傾け、改善策を講じるべきだと強く感じる。</p>
-
-<p>てか、高い。</p>
-
-<p>映画が高すぎる。</p>
-
-<p>エウリアンの発展型という認識しかない。</p>
-
-<p>マジで害悪な存在。</p>
-
-<p>映画館は消えてなくなればいいのに、と思う今日この頃である。</p>
-
-<p>サブスクで十分だから。</p>]]></content><author><name>makietan</name></author><category term="otaku" /><summary type="html"><![CDATA[ドリンクバーカップの提供がポップコーン待ちで詰まってたのは新宿ピカデリーだったかなどこ行っても非効率だし映画代は高いしストレスはそこそこ貯まる https://t.co/jC0E8nso8Z&mdash; まきえたん🥦☘️ (@makietanX) December 8, 2025]]></summary></entry></feed>
+<p>グリッドマンもオーブ強化できたからそれも影響あるかな？</p>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[記念スべき第60回迎撃戦、忘れてた…。]]></summary></entry></feed>
