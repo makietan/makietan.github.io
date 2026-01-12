@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-01-13T01:11:33+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">Apple サポートに連絡する方法</title><link href="https://makietan.github.io/tech/2026/01/13/report.html" rel="alternate" type="text/html" title="Apple サポートに連絡する方法" /><published>2026-01-13T00:00:00+09:00</published><updated>2026-01-13T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2026/01/13/report</id><content type="html" xml:base="https://makietan.github.io/tech/2026/01/13/report.html"><![CDATA[<div class="card">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-01-13T01:36:26+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">Apple サポートに連絡する方法</title><link href="https://makietan.github.io/tech/2026/01/13/report.html" rel="alternate" type="text/html" title="Apple サポートに連絡する方法" /><published>2026-01-13T00:00:00+09:00</published><updated>2026-01-13T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2026/01/13/report</id><content type="html" xml:base="https://makietan.github.io/tech/2026/01/13/report.html"><![CDATA[<div class="card">
   <a href="https://getsupport.apple.com/?locale=ja_JP"></a>
   <div class="card__header">
     <a href="https://getsupport.apple.com/?locale=ja_JP">getsupport.apple.com</a>
@@ -7,14 +7,14 @@
     <img src="" />
   </div>
   <div class="card__title">
-    <p></p>
+    <p>お問い合わせ</p>
   </div>
   <div class="card__description">
-    <p></p>
+    <p>Appleサポートが問題解決のお手伝いをします。</p>
   </div>
 </div>
 
-<p>とりあえずここから自分の端末を選んでいけば、サポートに連絡する方法がわかる。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[getsupport.apple.com]]></summary></entry><entry><title type="html">iPhone をアップデートしたらエラー 100 が発生しておそらく文鎮化した</title><link href="https://makietan.github.io/tech/2026/01/07/report.html" rel="alternate" type="text/html" title="iPhone をアップデートしたらエラー 100 が発生しておそらく文鎮化した" /><published>2026-01-07T00:00:00+09:00</published><updated>2026-01-07T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2026/01/07/report</id><content type="html" xml:base="https://makietan.github.io/tech/2026/01/07/report.html"><![CDATA[<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>iPhone “iPhone”をアップデートできませんでした。不明なエラーが発生しました（100）。 06A6.0064
+<p>とりあえずここから自分の端末を選んでいけば、サポートに連絡する方法がわかる。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[getsupport.apple.com お問い合わせ Appleサポートが問題解決のお手伝いをします。]]></summary></entry><entry><title type="html">iPhone をアップデートしたらエラー 100 が発生しておそらく文鎮化した</title><link href="https://makietan.github.io/tech/2026/01/07/report.html" rel="alternate" type="text/html" title="iPhone をアップデートしたらエラー 100 が発生しておそらく文鎮化した" /><published>2026-01-07T00:00:00+09:00</published><updated>2026-01-07T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2026/01/07/report</id><content type="html" xml:base="https://makietan.github.io/tech/2026/01/07/report.html"><![CDATA[<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>iPhone “iPhone”をアップデートできませんでした。不明なエラーが発生しました（100）。 06A6.0064
 </code></pre></div></div>
 
 <p>最悪すぎる…。</p>
