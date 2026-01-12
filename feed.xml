@@ -1,4 +1,20 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-01-12T13:14:58+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">iPhone をアップデートしたらエラー 100 が発生しておそらく文鎮化した</title><link href="https://makietan.github.io/tech/2026/01/07/report.html" rel="alternate" type="text/html" title="iPhone をアップデートしたらエラー 100 が発生しておそらく文鎮化した" /><published>2026-01-07T00:00:00+09:00</published><updated>2026-01-07T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2026/01/07/report</id><content type="html" xml:base="https://makietan.github.io/tech/2026/01/07/report.html"><![CDATA[<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>iPhone “iPhone”をアップデートできませんでした。不明なエラーが発生しました（100）。 06A6.0064
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-01-13T01:11:33+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">Apple サポートに連絡する方法</title><link href="https://makietan.github.io/tech/2026/01/13/report.html" rel="alternate" type="text/html" title="Apple サポートに連絡する方法" /><published>2026-01-13T00:00:00+09:00</published><updated>2026-01-13T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2026/01/13/report</id><content type="html" xml:base="https://makietan.github.io/tech/2026/01/13/report.html"><![CDATA[<div class="card">
+  <a href="https://getsupport.apple.com/?locale=ja_JP"></a>
+  <div class="card__header">
+    <a href="https://getsupport.apple.com/?locale=ja_JP">getsupport.apple.com</a>
+  </div>
+  <div class="card__image">
+    <img src="" />
+  </div>
+  <div class="card__title">
+    <p></p>
+  </div>
+  <div class="card__description">
+    <p></p>
+  </div>
+</div>
+
+<p>とりあえずここから自分の端末を選んでいけば、サポートに連絡する方法がわかる。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[getsupport.apple.com]]></summary></entry><entry><title type="html">iPhone をアップデートしたらエラー 100 が発生しておそらく文鎮化した</title><link href="https://makietan.github.io/tech/2026/01/07/report.html" rel="alternate" type="text/html" title="iPhone をアップデートしたらエラー 100 が発生しておそらく文鎮化した" /><published>2026-01-07T00:00:00+09:00</published><updated>2026-01-07T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2026/01/07/report</id><content type="html" xml:base="https://makietan.github.io/tech/2026/01/07/report.html"><![CDATA[<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>iPhone “iPhone”をアップデートできませんでした。不明なエラーが発生しました（100）。 06A6.0064
 </code></pre></div></div>
 
 <p>最悪すぎる…。</p>
@@ -681,16 +697,4 @@ SNSを使えないことで、子供たちの将来に悪影響を与える可�
 
 <p>新たな推しを見つけて、また全力で応援していくんだ。</p>
 
-<p>推しが武道館いってくれたら死ぬ、永遠に不滅です。</p>]]></content><author><name>makietan</name></author><category term="otaku" /><summary type="html"><![CDATA[終わってしまったんだよーーー。]]></summary></entry><entry><title type="html">あ、迎撃戦忘れてた…</title><link href="https://makietan.github.io/game/srwdd/2025/12/09/report.html" rel="alternate" type="text/html" title="あ、迎撃戦忘れてた…" /><published>2025-12-09T00:00:00+09:00</published><updated>2025-12-09T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2025/12/09/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2025/12/09/report.html"><![CDATA[<p>記念スべき第60回迎撃戦、忘れてた…。</p>
-
-<p>いやー、完全にスルーしてたわ。お知らせ見逃してたらしい、ゲームのこと考える余裕なかったしなあ。</p>
-
-<p>で、今日気づいて慌てて参戦。まあ、まだ期間あるし、のんびりやるか。</p>
-
-<p>と思ったらあっさりと目標点は越えた。</p>
-
-<p>ということで残りミッション分走らせて終わりかなあ。</p>
-
-<p>M9Dファルケの強化があったから楽になった可能性がある。</p>
-
-<p>グリッドマンもオーブ強化できたからそれも影響あるかな？</p>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[記念スべき第60回迎撃戦、忘れてた…。]]></summary></entry></feed>
+<p>推しが武道館いってくれたら死ぬ、永遠に不滅です。</p>]]></content><author><name>makietan</name></author><category term="otaku" /><summary type="html"><![CDATA[終わってしまったんだよーーー。]]></summary></entry></feed>
