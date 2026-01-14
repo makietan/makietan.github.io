@@ -1,4 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-01-14T13:11:48+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">Apple サポートに連絡する方法</title><link href="https://makietan.github.io/tech/2026/01/13/report.html" rel="alternate" type="text/html" title="Apple サポートに連絡する方法" /><published>2026-01-13T00:00:00+09:00</published><updated>2026-01-13T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2026/01/13/report</id><content type="html" xml:base="https://makietan.github.io/tech/2026/01/13/report.html"><![CDATA[<div class="card">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-01-14T15:36:07+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">git の submodule のユーザー設定は .git/modules に保存される</title><link href="https://makietan.github.io/tech/2026/01/14/report.html" rel="alternate" type="text/html" title="git の submodule のユーザー設定は .git/modules に保存される" /><published>2026-01-14T00:00:00+09:00</published><updated>2026-01-14T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2026/01/14/report</id><content type="html" xml:base="https://makietan.github.io/tech/2026/01/14/report.html"><![CDATA[<p>どうやらグローバルがデフォルトで使用されているようだ。
+変更したい場合は <code class="language-plaintext highlighter-rouge">.git/modules/&lt;submodule_name&gt;/config</code> に設定を追加すればよい。</p>
+
+<div class="language-ini highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nn">[user]</span>
+    <span class="py">name</span> <span class="p">=</span> <span class="s">Your Name</span>
+    <span class="py">email</span> <span class="p">=</span> <span class="s">your.email@users.noreply.github.com</span>
+</code></pre></div></div>
+
+<p>サブモジュールがあるディレクトリの <code class="language-plaintext highlighter-rouge">.git</code> には <code class="language-plaintext highlighter-rouge">gitdir: ../.git/modules/&lt;submodule_name&gt;</code> のように書かれている。
+これを辿って追記してくれるスクリプトを書くのもいいかもしれない。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[どうやらグローバルがデフォルトで使用されているようだ。 変更したい場合は .git/modules/&lt;submodule_name&gt;/config に設定を追加すればよい。]]></summary></entry><entry><title type="html">Apple サポートに連絡する方法</title><link href="https://makietan.github.io/tech/2026/01/13/report.html" rel="alternate" type="text/html" title="Apple サポートに連絡する方法" /><published>2026-01-13T00:00:00+09:00</published><updated>2026-01-13T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2026/01/13/report</id><content type="html" xml:base="https://makietan.github.io/tech/2026/01/13/report.html"><![CDATA[<div class="card">
   <a href="https://getsupport.apple.com/?locale=ja_JP"></a>
   <div class="card__header">
     <a href="https://getsupport.apple.com/?locale=ja_JP">getsupport.apple.com</a>
@@ -25,10 +34,10 @@
     <img src="" />
   </div>
   <div class="card__title">
-    <p></p>
+    <p>お問い合わせ</p>
   </div>
   <div class="card__description">
-    <p></p>
+    <p>サポートが必要な製品やサービスを選択してください</p>
   </div>
 </div>
 
@@ -693,26 +702,4 @@ SNSを使えないことで、子供たちの将来に悪影響を与える可�
 <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">「火災でエサがないからかわいそう」とコアラ700匹射殺　豪「人道的措置」に非難も<a href="https://t.co/OalXMcNXlC">https://t.co/OalXMcNXlC</a><br /><br />落雷が原因でブジ・ビム国立公園の2200ヘクタールが焼失<br /><br />多くのコアラが火傷を負いエサであるユーカリの木がなくなった<br /><br />従来、外来生物に限定して行っていた「空中駆除」を行うことを決定</p>&mdash; 産経ニュース (@Sankei_news) <a href="https://twitter.com/Sankei_news/status/1916383433645060242?ref_src=twsrc%5Etfw">April 27, 2025</a></blockquote>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>]]></content><author><name>makietan</name></author><category term="world" /><summary type="html"><![CDATA[子どものSNS禁止、オーストラリアにEUなど追随検討https://t.co/353msXowb4 日本は現在、強制力を伴う規制はしていません。フィルタリング機能の提供を義務付けていますが、使用率は4割強にとどまっています。 pic.twitter.com/41KiY2h4EE&mdash; 日本経済新聞 電子版（日経電子版） (@nikkei) December 9, 2025]]></summary></entry><entry><title type="html">明日は推し武道の最終巻発売日</title><link href="https://makietan.github.io/otaku/2025/12/11/report.html" rel="alternate" type="text/html" title="明日は推し武道の最終巻発売日" /><published>2025-12-11T00:00:00+09:00</published><updated>2025-12-11T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2025/12/11/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2025/12/11/report.html"><![CDATA[<p>終わってしまったんだよーーー。</p>
-
-<p>明日は推しが武道館いってくれたら死ぬの最終巻の発売日。</p>
-
-<p>この作品は私のオタク人生において非常に重要な位置を占めている。</p>
-
-<p>初めてこの作品に出会ったのは、数年前のコロナ禍のアニメ放送時だった。推しが武道館いってくれたら死ぬのアニメは、その独特な世界観とキャラクターたちの魅力で私を一瞬で虜にした。特に主人公の成長物語と、彼女たちが夢を追いかける姿には心を打たれた。</p>
-
-<p>アニメ放送中、原作漫画を読み始め、その深いストーリーと繊細なキャラクター描写にますます惹かれていった。推しが武道館いってくれたら死ぬの物語は、単なるエンターテインメントを超え、私にとっての人生の教訓や励ましとなった。</p>
-
-<p>推しが武道館いってくれたら死ぬの最終巻の発売は、私にとって特別な意味を持つ。物語の結末を迎えることで、私は一つの時代の終わりを感じると同時に、新たな始まりを迎える準備ができると感じている。</p>
-
-<p>推しは推せるときに推せ、という言葉があるが、まさにその通りだと思う。私はこれからも推しが武道館いってくれたら死ぬの世界を大切にし、その教えを胸に日々を過ごしていきたい。</p>
-
-<p>明日は推しが武道館いってくれたら死ぬの最終巻を手に入れ、その物語の最後のページをめくる瞬間を心待ちにしている。ありがとう、推しが武道館いってくれたら死ぬ。</p>
-
-<p>推しの連載が終わったら死ぬ。</p>
-
-<p>いや、死んでる場合じゃない。</p>
-
-<p>新たな推しを見つけて、また全力で応援していくんだ。</p>
-
-<p>推しが武道館いってくれたら死ぬ、永遠に不滅です。</p>]]></content><author><name>makietan</name></author><category term="otaku" /><summary type="html"><![CDATA[終わってしまったんだよーーー。]]></summary></entry></feed>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>]]></content><author><name>makietan</name></author><category term="world" /><summary type="html"><![CDATA[子どものSNS禁止、オーストラリアにEUなど追随検討https://t.co/353msXowb4 日本は現在、強制力を伴う規制はしていません。フィルタリング機能の提供を義務付けていますが、使用率は4割強にとどまっています。 pic.twitter.com/41KiY2h4EE&mdash; 日本経済新聞 電子版（日経電子版） (@nikkei) December 9, 2025]]></summary></entry></feed>
