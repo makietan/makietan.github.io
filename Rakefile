@@ -15,7 +15,7 @@ end
 
 desc "git add & git commit -m '日報'"
 task :s do
-  # sh "git add ."
+  sh "git add -u"
   sh "git commit -m '日報'"
   sh "git pull --rebase origin develop"
 end
