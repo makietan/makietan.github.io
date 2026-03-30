@@ -85,10 +85,14 @@ namespace :embed do
         else
           meta[:image] = image.to_s unless image.nil? || image.empty?
         end
+
+        puts "#{meta[:title]} (#{meta[:url]}) #{meta[:description]} #{meta[:image]}"
       rescue => e
         puts "URL: " + uri
         puts e
       end
+    else
+      meta[:url] = uri
     end
     meta
   end
