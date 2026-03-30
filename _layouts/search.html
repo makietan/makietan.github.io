@@ -1,0 +1,117 @@
+---
+layout: default
+title: Search
+permalink: /search/
+---
+
+<div class="container mt-6 mb-6">
+  <div class="search-shell" id="searchShell">
+    <div class="search-top-space" aria-hidden="true"></div>
+    <div class="search-input-shell">
+      <span class="search-left-icon" aria-hidden="true">
+        <i class="fas fa-search"></i>
+      </span>
+      <input id="searchInput" class="search-input-field" type="text" placeholder="キーワードや[タグ]で検索" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" oninput="debouncedSearch()" onkeydown="if(event.key==='Enter'){search();}">
+      <button id="searchClearButton" class="search-clear-button" type="button" aria-label="検索入力をクリア" onclick="clearSearchInput()">×</button>
+    </div>
+  </div>
+  <div id="results" class="search-results"></div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/js/all.min.js" crossorigin="anonymous"></script>
+<script src="/assets/js/search.js"></script>
+
+<style>
+  .search-shell {
+    max-width: 760px;
+    margin: 6vh auto 0;
+    transition: margin .18s ease;
+  }
+
+  .search-shell.is-active {
+    margin: 0 auto;
+  }
+
+  .search-top-space {
+    height: 120px;
+    margin-bottom: 2rem;
+    transition: height .18s ease, margin-bottom .18s ease;
+  }
+
+  .search-shell.is-active .search-top-space {
+    height: 0;
+    margin-bottom: .75rem;
+  }
+
+  .search-input-shell {
+    height: 56px;
+    border-radius: 28px;
+    border: 1px solid #dfe1e5;
+    box-shadow: 0 1px 6px rgba(32, 33, 36, 0.18);
+    display: flex;
+    align-items: center;
+    padding: 0 18px;
+    background: #fff;
+    transition: box-shadow .18s ease;
+  }
+
+  .search-shell.is-active .search-input-shell {
+    box-shadow: 0 1px 3px rgba(32, 33, 36, 0.2);
+  }
+
+  .search-left-icon {
+    color: #9aa0a6;
+    margin-right: 12px;
+    font-size: 1rem;
+  }
+
+  .search-input-field {
+    flex: 1;
+    border: 0;
+    outline: 0;
+    font-size: 1.25rem;
+    background: transparent;
+  }
+
+  .search-clear-button {
+    border: 0;
+    background: transparent;
+    color: #5f6368;
+    font-size: 1.8rem;
+    line-height: 1;
+    cursor: pointer;
+    width: 32px;
+    height: 32px;
+    padding: 0;
+    margin-left: 8px;
+    display: none;
+  }
+
+  .search-shell.is-active .search-clear-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .search-results {
+    max-width: 760px;
+    margin: 28px auto 0;
+    border-top: 1px solid transparent;
+    transition: margin .18s ease, border-color .18s ease;
+  }
+
+  .search-shell.is-active + .search-results {
+    margin-top: 16px;
+    border-top-color: #dadce0;
+    padding-top: 14px;
+  }
+
+  @media (max-width: 768px) {
+    .search-top-space {
+      height: 80px;
+    }
+
+    .search-input-field {
+      font-size: 1rem;
+    }
+  }
+</style>
