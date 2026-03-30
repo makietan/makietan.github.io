@@ -8,21 +8,21 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=BIZ+UDGothic&display=swap" rel="stylesheet"><!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>肉とお米とブロッコリー | ここは日報をメインに書きます.</title>
+<title>検索 | 肉とお米とブロッコリー</title>
 <meta name="generator" content="Jekyll v4.3.2" />
-<meta property="og:title" content="肉とお米とブロッコリー" />
+<meta property="og:title" content="検索" />
 <meta name="author" content="makietan" />
 <meta property="og:locale" content="ja" />
 <meta name="description" content="ここは日報をメインに書きます." />
 <meta property="og:description" content="ここは日報をメインに書きます." />
-<link rel="canonical" href="https://makietan.github.io/category/yurucamp" />
-<meta property="og:url" content="https://makietan.github.io/category/yurucamp" />
+<link rel="canonical" href="https://makietan.github.io/search.html" />
+<meta property="og:url" content="https://makietan.github.io/search.html" />
 <meta property="og:site_name" content="肉とお米とブロッコリー" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="肉とお米とブロッコリー" />
+<meta property="twitter:title" content="検索" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"makietan"},"description":"ここは日報をメインに書きます.","headline":"肉とお米とブロッコリー","url":"https://makietan.github.io/category/yurucamp"}</script>
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"makietan"},"description":"ここは日報をメインに書きます.","headline":"検索","url":"https://makietan.github.io/search.html"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="https://makietan.github.io/feed.xml" title="肉とお米とブロッコリー" /><meta name="msvalidate.01" content="89F1D244C30C26610D2EB5442A4DA1D8" />
 <!-- Google tag (gtag.js) -->
@@ -52,7 +52,7 @@
 </head>
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:site" content="@makietanx" />
-<meta name="twitter:title" content="肉とお米とブロッコリー" />
+<meta name="twitter:title" content="検索" />
 <meta name="twitter:description" content="ここは日報をメインに書きます." />
 
 <meta name="twitter:image" content="https://makietan.github.io/assets/thumbnail/logo.png" />
@@ -72,34 +72,123 @@
           </span>
         </label>
 
-        <div class="trigger"><a class="page-link" href="/about/">About</a><a class="page-link" href="/category/">Category</a><a class="page-link" href="/links/">Links</a><a class="page-link" href="/search/">Search</a></div>
+        <div class="trigger"><a class="page-link" href="/about/">About</a><a class="page-link" href="/category/">Category</a><a class="page-link" href="/links/">Links</a><a class="page-link" href="/search.html">検索</a></div>
       </nav></div>
 </header>
 
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <div id="archives">
-  <div class="archive-group">
-    <div id="#yurucamp">
-      <h1 class="category-head">yurucamp</h1>
-      <ul>
-        
-        <li class="archive-item"><div class="post-meta">2024-01-05 00:00</div>
-          <a href="https://makietan.github.io/game/yurucamp/2024/01/05/report.html">えな吉！</a>
-        </li>
-        
-        <li class="archive-item"><div class="post-meta">2023-07-27 00:00</div>
-          <a href="https://makietan.github.io/game/yurucamp/2023/07/27/report.html">ゆるキャンのソシャゲ一旦やめます</a>
-        </li>
-        
-        <li class="archive-item"><div class="post-meta">2023-07-08 00:00</div>
-          <a href="https://makietan.github.io/game/yurucamp/2023/07/08/report.html">つなキャンやってます</a>
-        </li>
-        
-      </ul>
+        <div class="container mt-6 mb-6">
+  <div class="search-shell" id="searchShell">
+    <div class="search-top-space" aria-hidden="true"></div>
+    <div class="search-input-shell">
+      <span class="search-left-icon" aria-hidden="true">
+        <i class="fas fa-search"></i>
+      </span>
+      <input id="searchInput" class="search-input-field" type="text" placeholder="キーワードや[タグ]で検索" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" oninput="debouncedSearch()" onkeydown="if(event.key==='Enter'){search();}">
+      <button id="searchClearButton" class="search-clear-button" type="button" aria-label="検索入力をクリア" onclick="clearSearchInput()">×</button>
     </div>
   </div>
+  <div id="results" class="search-results"></div>
 </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/js/all.min.js" crossorigin="anonymous"></script>
+<script src="/assets/js/search.js"></script>
+
+<style>
+  .search-shell {
+    max-width: 760px;
+    margin: 6vh auto 0;
+    transition: margin .18s ease;
+  }
+
+  .search-shell.is-active {
+    margin: 0 auto;
+  }
+
+  .search-top-space {
+    height: 120px;
+    margin-bottom: 2rem;
+    transition: height .18s ease, margin-bottom .18s ease;
+  }
+
+  .search-shell.is-active .search-top-space {
+    height: 0;
+    margin-bottom: .75rem;
+  }
+
+  .search-input-shell {
+    height: 56px;
+    border-radius: 28px;
+    border: 1px solid #dfe1e5;
+    box-shadow: 0 1px 6px rgba(32, 33, 36, 0.18);
+    display: flex;
+    align-items: center;
+    padding: 0 18px;
+    background: #fff;
+    transition: box-shadow .18s ease;
+  }
+
+  .search-shell.is-active .search-input-shell {
+    box-shadow: 0 1px 3px rgba(32, 33, 36, 0.2);
+  }
+
+  .search-left-icon {
+    color: #9aa0a6;
+    margin-right: 12px;
+    font-size: 1rem;
+  }
+
+  .search-input-field {
+    flex: 1;
+    border: 0;
+    outline: 0;
+    font-size: 1.25rem;
+    background: transparent;
+  }
+
+  .search-clear-button {
+    border: 0;
+    background: transparent;
+    color: #5f6368;
+    font-size: 1.8rem;
+    line-height: 1;
+    cursor: pointer;
+    width: 32px;
+    height: 32px;
+    padding: 0;
+    margin-left: 8px;
+    display: none;
+  }
+
+  .search-shell.is-active .search-clear-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .search-results {
+    max-width: 760px;
+    margin: 28px auto 0;
+    border-top: 1px solid transparent;
+    transition: margin .18s ease, border-color .18s ease;
+  }
+
+  .search-shell.is-active + .search-results {
+    margin-top: 16px;
+    border-top-color: #dadce0;
+    padding-top: 14px;
+  }
+
+  @media (max-width: 768px) {
+    .search-top-space {
+      height: 80px;
+    }
+
+    .search-input-field {
+      font-size: 1rem;
+    }
+  }
+</style>
 
       </div>
     </main><footer class="site-footer h-card">
