@@ -3749,6 +3749,15 @@
 
   
   {
+    "title": "遊戯王マスターデュエルのリミットレギュレーション分解ボーナスチェッカー",
+    
+    "tags": [{"tagName" : "チェッカー", "count": 2}, {"tagName" : "リミットレギュレーション", "count": 2}, {"tagName" : "分解", "count": 2}, {"tagName" : "遊戯王マスターデュエル", "count": 2}],
+    "url": "/game/yugioh/2026/04/01/report.html",
+    "date": {"year": "2026", "month": "04", "day": "01"},
+    "content": "無制限 → 制限 (2枚分解)【UR】カプシー☆ヤミーミツルギカンジョウ【UR】巳剣勧請かみのつうこく【UR】神の通告ドラゴンテイルルキアス【SR】星辰槍手ルキアスラーフ・ドラゴンテイル【SR】羅睺星辰かみのけいこく【UR】神の警告準制限 → 制限 (1枚分解)ステイク　ユア　ソウル！【UR】Stake Your Soul!かみのせんこく【UR】神の宣告無制限 ➝ 準制限 (1枚分解)おうのいほうまつりしせいいき【SR】王の遺宝祀りし聖域制限 → 制限解除 (2枚生成)    せんねんのたからをまもりしゴーレム【UR】千年の宝を守りしゴーレム"
+  },
+  
+  {
     "title": "FOMAとiモード終了のお知らせ",
     
     "tags": [{"tagName" : "FOMA", "count": 1}, {"tagName" : "NTTドコモ", "count": 1}, {"tagName" : "iモード", "count": 1}, {"tagName" : "mova", "count": 1}],
@@ -3868,7 +3877,7 @@
   {
     "title": "遊戯王マスターデュエルのリミットレギュレーション分解ボーナスチェッカー",
     
-    "tags": [{"tagName" : "チェッカー", "count": 1}, {"tagName" : "リミットレギュレーション", "count": 1}, {"tagName" : "分解", "count": 1}, {"tagName" : "遊戯王マスターデュエル", "count": 1}],
+    "tags": [{"tagName" : "チェッカー", "count": 2}, {"tagName" : "リミットレギュレーション", "count": 2}, {"tagName" : "分解", "count": 2}, {"tagName" : "遊戯王マスターデュエル", "count": 2}],
     "url": "/game/yugioh/2026/03/01/report.html",
     "date": {"year": "2026", "month": "03", "day": "01"},
     "content": "無制限 → 準制限 (1枚分解)【UR】天羽々斬之巳剣制限 → 制限解除 (2枚生成)    【UR】蛇眼の炎燐    【UR】強欲で貪欲な壺"
