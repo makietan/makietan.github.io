@@ -30,16 +30,27 @@ namespace :thumbnail do
     original.auto_orient
 
     thumbnail = original.clone
-    thumbnail.resize "#{THUMBNAIL_WIDTH}x#{THUMBNAIL_HEIGHT}>"
-
-    thumbnail.combine_options do |config|
-      config.background transparent_background?(output_path) ? "none" : "white"
-      config.gravity "center"
-      config.extent "#{THUMBNAIL_WIDTH}x#{THUMBNAIL_HEIGHT}"
+    if landscape_image?(original)
+      thumbnail.resize "#{THUMBNAIL_WIDTH}x#{THUMBNAIL_HEIGHT}^"
+      thumbnail.combine_options do |config|
+        config.gravity "center"
+        config.extent "#{THUMBNAIL_WIDTH}x#{THUMBNAIL_HEIGHT}"
+      end
+    else
+      thumbnail.resize "#{THUMBNAIL_WIDTH}x#{THUMBNAIL_HEIGHT}>"
+      thumbnail.combine_options do |config|
+        config.background transparent_background?(output_path) ? "none" : "white"
+        config.gravity "center"
+        config.extent "#{THUMBNAIL_WIDTH}x#{THUMBNAIL_HEIGHT}"
+      end
     end
 
     thumbnail.strip
     thumbnail.write output_path
+  end
+
+  def landscape_image?(image)
+    image.width >= image.height
   end
 
   def thumbnail_output_path(source_path)

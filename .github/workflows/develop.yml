@@ -32,7 +32,7 @@ jobs:
           pushd tmp
           pushd makietan.github.io
           git add --all
-          git commit -a -m "Update _site by Travis"
+          git commit -a -m "Update _site by GitHub Actions"
           git push origin master
           popd
           popd
