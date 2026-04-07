@@ -27,20 +27,14 @@ namespace :thumbnail do
     source = MiniMagick::Image.open(source_path)
     source.auto_orient
 
-    background = source.clone
-    background.resize "#{THUMBNAIL_WIDTH}x#{THUMBNAIL_HEIGHT}^"
-    background.gravity "center"
-    background.extent "#{THUMBNAIL_WIDTH}x#{THUMBNAIL_HEIGHT}"
-    background.blur "0x12"
-
-    foreground = source.clone
-    foreground.resize "#{THUMBNAIL_WIDTH}x#{THUMBNAIL_HEIGHT}>"
-
-    result = background.composite(foreground) do |composite|
-      composite.gravity "center"
+    source.resize "#{THUMBNAIL_WIDTH}x#{THUMBNAIL_HEIGHT}>"
+    source.combine_options do |config|
+      config.background "white"
+      config.gravity "center"
+      config.extent "#{THUMBNAIL_WIDTH}x#{THUMBNAIL_HEIGHT}"
     end
 
-    result.strip
-    result.write output_path
+    source.strip
+    source.write output_path
   end
 end
