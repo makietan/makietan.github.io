@@ -16,25 +16,41 @@ namespace :thumbnail do
     file_pattern = ['./assets/images/**/*.png', './assets/images/**/*.jpg', './assets/images/**/*.jpeg', './assets/images/**/*.PNG', './assets/images/**/*.JPG', './assets/images/**/*.JPEG']
 
     Dir.glob(file_pattern).each do |f|
-      output = File.absolute_path(f).gsub(/assets\/images/, 'assets/thumbnail/')
+      source_path = File.absolute_path(f)
+      output = thumbnail_output_path(source_path)
+
       if force || !File.exist?(output)
-        create_thumbnail(File.absolute_path(f), output)
+        create_thumbnail(source_path, output)
       end
     end
   end
 
   def create_thumbnail(source_path, output_path)
-    source = MiniMagick::Image.open(source_path)
-    source.auto_orient
+    original = MiniMagick::Image.open(source_path)
+    original.auto_orient
 
-    source.resize "#{THUMBNAIL_WIDTH}x#{THUMBNAIL_HEIGHT}>"
-    source.combine_options do |config|
-      config.background "white"
+    thumbnail = original.clone
+    thumbnail.resize "#{THUMBNAIL_WIDTH}x#{THUMBNAIL_HEIGHT}>"
+
+    thumbnail.combine_options do |config|
+      config.background transparent_background?(output_path) ? "none" : "white"
       config.gravity "center"
       config.extent "#{THUMBNAIL_WIDTH}x#{THUMBNAIL_HEIGHT}"
     end
 
-    source.strip
-    source.write output_path
+    thumbnail.strip
+    thumbnail.write output_path
+  end
+
+  def thumbnail_output_path(source_path)
+    source_output_path(source_path)
+  end
+
+  def source_output_path(source_path)
+    source_path.gsub(/assets\/images/, 'assets/thumbnail/')
+  end
+
+  def transparent_background?(output_path)
+    File.extname(output_path).downcase == ".png"
   end
 end
