@@ -1,4 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-04-08T14:13:06+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">サイゼ飲みは安い</title><link href="https://makietan.github.io/gourmet/2026/04/08/report.html" rel="alternate" type="text/html" title="サイゼ飲みは安い" /><published>2026-04-08T00:00:00+09:00</published><updated>2026-04-08T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2026/04/08/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2026/04/08/report.html"><![CDATA[<p>今日は知人とサイゼリヤに行ってきた。</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-04-09T14:11:32+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">サイトのサムネイルの作成方法を変更した</title><link href="https://makietan.github.io/tech/2026/04/09/report.html" rel="alternate" type="text/html" title="サイトのサムネイルの作成方法を変更した" /><published>2026-04-09T00:00:00+09:00</published><updated>2026-04-09T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2026/04/09/report</id><content type="html" xml:base="https://makietan.github.io/tech/2026/04/09/report.html"><![CDATA[<p>Copilot を使って、サイトのサムネイルの作成方法を変更した。</p>
+
+<p>これまでは最大値を 1200x630 にしていたが、これを 800x420 に変更した。
+理由は、1200x630 だとファイルサイズが大きくなってしまうためだ。
+800x420 にすることで、ファイルサイズを小さくすることができる。
+また、800x420 でも十分な解像度があるため、見た目も問題ないと判断した。
+今後は、800x420 のサムネイルを作成するようにする。</p>
+
+<p>とAIが言っている。</p>
+
+<p>期待通りのサムネイルができているかちょっと試してみて、ダメだったら戻すかもしれない。</p>]]></content><author><name>makietan</name></author><category term="tech" /><category term="サムネイル" /><category term="画像サイズ" /><category term="ファイルサイズ" /><category term="解像度" /><summary type="html"><![CDATA[Copilot を使って、サイトのサムネイルの作成方法を変更した。]]></summary></entry><entry><title type="html">サイゼ飲みは安い</title><link href="https://makietan.github.io/gourmet/2026/04/08/report.html" rel="alternate" type="text/html" title="サイゼ飲みは安い" /><published>2026-04-08T00:00:00+09:00</published><updated>2026-04-08T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2026/04/08/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2026/04/08/report.html"><![CDATA[<p>今日は知人とサイゼリヤに行ってきた。</p>
 
 <p>サイゼリヤは安いイタリアンレストランチェーンで、特にワインが安いことで有名だ。サイゼ飲みは、サイゼリヤでお酒を楽しむことを指す言葉で、若者の間で人気がある。</p>
 
@@ -445,17 +455,4 @@
 <blockquote class="twitter-tweet tw-align-center"><p lang="en" dir="ltr">Woke up in Bridgerton universe but turns out I’m a maid~💖 <a href="https://t.co/HL5QZDMTXe">pic.twitter.com/HL5QZDMTXe</a></p>&mdash; PeachMilky 🌟 Cosplay (@PeachMilky_) <a href="https://twitter.com/PeachMilky_/status/2035518826180386935?ref_src=twsrc%5Etfw">March 22, 2026</a></blockquote>
 <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-<p>ええのう。</p>]]></content><author><name>makietan</name></author><category term="gourmet" /><category term="otaku" /><category term="カフェ" /><category term="コーヒー" /><category term="紅茶" /><category term="ブリティッシュ" /><category term="ブリティッシュカフェ" /><category term="ロンドン" /><category term="イギリス" /><category term="アジア人" /><category term="細身" /><summary type="html"><![CDATA[🇯🇵 Cafe British in Tokyo looks more British than London 🤦‍♂️ pic.twitter.com/jAey2xEAoK&mdash; Asian Dawn (@AsianDawn4) March 20, 2026]]></summary></entry><entry><title type="html">守屋亨香さんももう30歳ですよ</title><link href="https://makietan.github.io/otaku/2026/03/28/report.html" rel="alternate" type="text/html" title="守屋亨香さんももう30歳ですよ" /><published>2026-03-28T00:00:00+09:00</published><updated>2026-03-28T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2026/03/28/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2026/03/28/report.html"><![CDATA[<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">アザラシを愛しています🦭<a href="https://twitter.com/hashtag/%E5%9B%BD%E9%9A%9B%E3%82%A2%E3%82%B6%E3%83%A9%E3%82%B7%E3%81%AE%E6%97%A5?src=hash&amp;ref_src=twsrc%5Etfw">#国際アザラシの日</a> <a href="https://t.co/FAfs3wTOx4">pic.twitter.com/FAfs3wTOx4</a></p>&mdash; 守屋亨香 (@kyoka_moriya) <a href="https://twitter.com/kyoka_moriya/status/2035694023084794134?ref_src=twsrc%5Etfw">March 22, 2026</a></blockquote>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<p>いやー30歳かぁ…。</p>
-
-<p>全然そんな感じない。</p>
-
-<p>グループ活動している年長者でしっかりしてない感じだと若々しさが残るのかな。</p>
-
-<p>顔面強いな。</p>
-
-<p>2026年3月15日のおちフルイベントで間近で見たけど、どの角度で見ても顔面が強かった。</p>
-
-<p>なかなかにエグい。</p>]]></content><author><name>makietan</name></author><category term="otaku" /><category term="守屋亨香" /><category term="おちこぼれフルーツタルト" /><summary type="html"><![CDATA[アザラシを愛しています🦭#国際アザラシの日 pic.twitter.com/FAfs3wTOx4&mdash; 守屋亨香 (@kyoka_moriya) March 22, 2026]]></summary></entry></feed>
+<p>ええのう。</p>]]></content><author><name>makietan</name></author><category term="gourmet" /><category term="otaku" /><category term="カフェ" /><category term="コーヒー" /><category term="紅茶" /><category term="ブリティッシュ" /><category term="ブリティッシュカフェ" /><category term="ロンドン" /><category term="イギリス" /><category term="アジア人" /><category term="細身" /><summary type="html"><![CDATA[🇯🇵 Cafe British in Tokyo looks more British than London 🤦‍♂️ pic.twitter.com/jAey2xEAoK&mdash; Asian Dawn (@AsianDawn4) March 20, 2026]]></summary></entry></feed>
