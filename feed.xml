@@ -1,4 +1,44 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-04-14T14:25:42+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">サイトのサムネイルの作成方法を変更した</title><link href="https://makietan.github.io/tech/2026/04/09/report.html" rel="alternate" type="text/html" title="サイトのサムネイルの作成方法を変更した" /><published>2026-04-09T00:00:00+09:00</published><updated>2026-04-09T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2026/04/09/report</id><content type="html" xml:base="https://makietan.github.io/tech/2026/04/09/report.html"><![CDATA[<p>Copilot を使って、サイトのサムネイルの作成方法を変更した。</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-04-15T02:29:36+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">広報みなとを雑に読んでみた（2026年4月15日号）</title><link href="https://makietan.github.io/health/2026/04/15/report.html" rel="alternate" type="text/html" title="広報みなとを雑に読んでみた（2026年4月15日号）" /><published>2026-04-15T00:00:00+09:00</published><updated>2026-04-15T00:00:00+09:00</updated><id>https://makietan.github.io/health/2026/04/15/report</id><content type="html" xml:base="https://makietan.github.io/health/2026/04/15/report.html"><![CDATA[<div class="card">
+  <a href="https://www.city.minato.tokyo.jp/kouhou/kuse/koho/minato2026/202604/index.html"></a>
+  <div class="card__header">
+    <a href="https://www.city.minato.tokyo.jp/kouhou/kuse/koho/minato2026/202604/index.html">www.city.minato.tokyo.jp</a>
+  </div>
+  <div class="card__image">
+    <img src="https://www.city.minato.tokyo.jp/shared/images/sns/summary_large_image.png" />
+  </div>
+  <div class="card__title">
+    <p>港区ホームページ／広報みなと2026年4月</p>
+  </div>
+  <div class="card__description">
+    <p>東京都港区ホームページです。</p>
+  </div>
+</div>
+
+<p>参考資料</p>
+<ul>
+  <li><a href="https://www.city.minato.tokyo.jp/documents/177491/20260414143820.pdf">広報みなと2026年4月15日号6面</a></li>
+</ul>
+
+<h2 id="港区の夜間休日診療">港区の夜間・休日診療</h2>
+
+<p>三田病院だったり、済生会だったり、大きいところは日によって診てくれるらしい。
+以前、謎の腹痛でやばかったときは虎の門病院に行ったけど、あのときは結構取られた。
+まぁ、健康第一なので、何かあったらすぐに行くべきだと思う。
+てか、歯医者の休日診療って複数あるのね。知らなかった。
+薬の相談ができる場所もあるらしい。薬局に行ったところで処方箋がないと何もできないから意味があるのかどうかは謎だ。</p>
+
+<h2 id="夏季区民保養施設">夏季区民保養施設</h2>
+
+<p>利用者登録が必要らしいけど、区民は金払えば利用できるらしい。</p>
+
+<p>まぁ気が向いたら調べてみよう。</p>
+
+<h2 id="おわりに">おわりに</h2>
+
+<p>基本的には子供・老人向けのサービスばかりで自分とは縁遠い感じがするが、
+一部使えそうな制度も存在するので、知っておいて損はないと思う。</p>
+
+<p>また、気が向いたら他の号も読んでみようと思う。</p>]]></content><author><name>makietan</name></author><category term="health" /><summary type="html"><![CDATA[www.city.minato.tokyo.jp 港区ホームページ／広報みなと2026年4月 東京都港区ホームページです。]]></summary></entry><entry><title type="html">サイトのサムネイルの作成方法を変更した</title><link href="https://makietan.github.io/tech/2026/04/09/report.html" rel="alternate" type="text/html" title="サイトのサムネイルの作成方法を変更した" /><published>2026-04-09T00:00:00+09:00</published><updated>2026-04-09T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2026/04/09/report</id><content type="html" xml:base="https://makietan.github.io/tech/2026/04/09/report.html"><![CDATA[<p>Copilot を使って、サイトのサムネイルの作成方法を変更した。</p>
 
 <p>これまでは最大値を 1200x630 にしていたが、これを 800x420 に変更した。
 理由は、1200x630 だとファイルサイズが大きくなってしまうためだ。
@@ -441,18 +481,4 @@
   </div>
 </div>
 
-<p>試してみてね。</p>]]></content><author><name>makietan</name></author><category term="tech" /><category term="画像差分" /><category term="JavaScript" /><category term="コロッケ！" /><category term="増えたキャラ" /><category term="抽出" /><summary type="html"><![CDATA[両端にだいぶ追加されてるのかウスターに気を取られて気づいてなかったあと中にもちょっといる（笑） https://t.co/VOsUqHJZ1C pic.twitter.com/CiVnW41Sk3&mdash; まきえたん☘️🥦 (@makietanX) March 22, 2026]]></summary></entry><entry><title type="html">コンセプト「カフェ」じゃなければ行くんだけどなぁ…</title><link href="https://makietan.github.io/gourmet/otaku/2026/03/29/report.html" rel="alternate" type="text/html" title="コンセプト「カフェ」じゃなければ行くんだけどなぁ…" /><published>2026-03-29T00:00:00+09:00</published><updated>2026-03-29T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/otaku/2026/03/29/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/otaku/2026/03/29/report.html"><![CDATA[<blockquote class="twitter-tweet tw-align-center"><p lang="en" dir="ltr">🇯🇵 Cafe British in Tokyo looks more British than London 🤦‍♂️ <a href="https://t.co/jAey2xEAoK">pic.twitter.com/jAey2xEAoK</a></p>&mdash; Asian Dawn (@AsianDawn4) <a href="https://twitter.com/AsianDawn4/status/2035023673095225853?ref_src=twsrc%5Etfw">March 20, 2026</a></blockquote>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<p>はー美人。</p>
-
-<p>外国人の顔で細身って最強だよね。</p>
-
-<p>コーヒーとか紅茶とか飲めないからカフェには行かない。</p>
-
-<p>だから行く機会ないだろうな…。</p>
-
-<blockquote class="twitter-tweet tw-align-center"><p lang="en" dir="ltr">Woke up in Bridgerton universe but turns out I’m a maid~💖 <a href="https://t.co/HL5QZDMTXe">pic.twitter.com/HL5QZDMTXe</a></p>&mdash; PeachMilky 🌟 Cosplay (@PeachMilky_) <a href="https://twitter.com/PeachMilky_/status/2035518826180386935?ref_src=twsrc%5Etfw">March 22, 2026</a></blockquote>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<p>ええのう。</p>]]></content><author><name>makietan</name></author><category term="gourmet" /><category term="otaku" /><category term="カフェ" /><category term="コーヒー" /><category term="紅茶" /><category term="ブリティッシュ" /><category term="ブリティッシュカフェ" /><category term="ロンドン" /><category term="イギリス" /><category term="アジア人" /><category term="細身" /><summary type="html"><![CDATA[🇯🇵 Cafe British in Tokyo looks more British than London 🤦‍♂️ pic.twitter.com/jAey2xEAoK&mdash; Asian Dawn (@AsianDawn4) March 20, 2026]]></summary></entry></feed>
+<p>試してみてね。</p>]]></content><author><name>makietan</name></author><category term="tech" /><category term="画像差分" /><category term="JavaScript" /><category term="コロッケ！" /><category term="増えたキャラ" /><category term="抽出" /><summary type="html"><![CDATA[両端にだいぶ追加されてるのかウスターに気を取られて気づいてなかったあと中にもちょっといる（笑） https://t.co/VOsUqHJZ1C pic.twitter.com/CiVnW41Sk3&mdash; まきえたん☘️🥦 (@makietanX) March 22, 2026]]></summary></entry></feed>
