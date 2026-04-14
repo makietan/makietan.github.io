@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-04-15T02:35:38+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">広報みなとを雑に読んでみた（2026年4月15日号）</title><link href="https://makietan.github.io/health/2026/04/15/report.html" rel="alternate" type="text/html" title="広報みなとを雑に読んでみた（2026年4月15日号）" /><published>2026-04-15T00:00:00+09:00</published><updated>2026-04-15T00:00:00+09:00</updated><id>https://makietan.github.io/health/2026/04/15/report</id><content type="html" xml:base="https://makietan.github.io/health/2026/04/15/report.html"><![CDATA[<div class="card">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-04-15T03:25:56+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">広報みなとを雑に読んでみた（2026年4月15日号）</title><link href="https://makietan.github.io/health/2026/04/15/report.html" rel="alternate" type="text/html" title="広報みなとを雑に読んでみた（2026年4月15日号）" /><published>2026-04-15T00:00:00+09:00</published><updated>2026-04-15T00:00:00+09:00</updated><id>https://makietan.github.io/health/2026/04/15/report</id><content type="html" xml:base="https://makietan.github.io/health/2026/04/15/report.html"><![CDATA[<div class="card">
   <a href="https://www.city.minato.tokyo.jp/kouhou/kuse/koho/minato2026/202604/index.html"></a>
   <div class="card__header">
     <a href="https://www.city.minato.tokyo.jp/kouhou/kuse/koho/minato2026/202604/index.html">www.city.minato.tokyo.jp</a>
@@ -44,13 +44,13 @@
     <a href="https://tver.jp/episodes/epkjppjvu7">tver.jp</a>
   </div>
   <div class="card__image">
-    <img src="" />
+    <img src="https://image-cdn.tver.jp/w=800/images/content/thumbnail/episode/xlarge/epkjppjvu7.jpg?v=2e7ccf4b" />
   </div>
   <div class="card__title">
-    <p></p>
+    <p>うどんMAPサタデー 福岡のうどんを食べ尽くす 有明海産のり使用 磯香る海苔うどん 4月11日(土)放送分 | バラエティ | 見逃し無料配信はTVer！人気の動画見放題</p>
   </div>
   <div class="card__description">
-    <p></p>
+    <p>うどんMAPサタデー 福岡のうどんを食べ尽くす 有明海産のり使用 磯香る海苔うどん 4月11日(土)放送分 | 2代目うどんの人“朝光”が福岡のうどんを食べ尽くす「うどんMAP」。今回はみやま… | テレビ西日本制作 | 出演は朝光。 | TVerにあるテレビ番組はすべて無料で配信！最新話から過去人気番組まで動画見放題！</p>
   </div>
 </div>
 
@@ -68,7 +68,7 @@
 また、番組の中で紹介されるうどん店は、地元の人々に愛されている名店から、新しいスタイルのうどん店まで幅広く、視聴者にとって新しい発見があること間違いなしだ。
 さらに、番組の中では、うどんの歴史や文化についても触れられており、うどんに対する理解を深めることができる。
 総じて、「うどんMAPサタデー」は、うどん好きはもちろんのこと、うどんに興味がある人にとっても、非常に楽しめる内容となっていると感じた。
-今後もこの番組を視聴して、うどんの魅力をさらに知っていきたいと思う。</p>]]></content><author><name>makietan</name></author><category term="tver" /><summary type="html"><![CDATA[tver.jp]]></summary></entry><entry><title type="html">サイトのサムネイルの作成方法を変更した</title><link href="https://makietan.github.io/tech/2026/04/09/report.html" rel="alternate" type="text/html" title="サイトのサムネイルの作成方法を変更した" /><published>2026-04-09T00:00:00+09:00</published><updated>2026-04-09T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2026/04/09/report</id><content type="html" xml:base="https://makietan.github.io/tech/2026/04/09/report.html"><![CDATA[<p>Copilot を使って、サイトのサムネイルの作成方法を変更した。</p>
+今後もこの番組を視聴して、うどんの魅力をさらに知っていきたいと思う。</p>]]></content><author><name>makietan</name></author><category term="tver" /><summary type="html"><![CDATA[tver.jp うどんMAPサタデー 福岡のうどんを食べ尽くす 有明海産のり使用 磯香る海苔うどん 4月11日(土)放送分 | バラエティ | 見逃し無料配信はTVer！人気の動画見放題 うどんMAPサタデー 福岡のうどんを食べ尽くす 有明海産のり使用 磯香る海苔うどん 4月11日(土)放送分 | 2代目うどんの人“朝光”が福岡のうどんを食べ尽くす「うどんMAP」。今回はみやま… | テレビ西日本制作 | 出演は朝光。 | TVerにあるテレビ番組はすべて無料で配信！最新話から過去人気番組まで動画見放題！]]></summary></entry><entry><title type="html">サイトのサムネイルの作成方法を変更した</title><link href="https://makietan.github.io/tech/2026/04/09/report.html" rel="alternate" type="text/html" title="サイトのサムネイルの作成方法を変更した" /><published>2026-04-09T00:00:00+09:00</published><updated>2026-04-09T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2026/04/09/report</id><content type="html" xml:base="https://makietan.github.io/tech/2026/04/09/report.html"><![CDATA[<p>Copilot を使って、サイトのサムネイルの作成方法を変更した。</p>
 
 <p>これまでは最大値を 1200x630 にしていたが、これを 800x420 に変更した。
 理由は、1200x630 だとファイルサイズが大きくなってしまうためだ。
