@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-04-15T02:29:36+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">広報みなとを雑に読んでみた（2026年4月15日号）</title><link href="https://makietan.github.io/health/2026/04/15/report.html" rel="alternate" type="text/html" title="広報みなとを雑に読んでみた（2026年4月15日号）" /><published>2026-04-15T00:00:00+09:00</published><updated>2026-04-15T00:00:00+09:00</updated><id>https://makietan.github.io/health/2026/04/15/report</id><content type="html" xml:base="https://makietan.github.io/health/2026/04/15/report.html"><![CDATA[<div class="card">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-04-15T02:35:38+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">広報みなとを雑に読んでみた（2026年4月15日号）</title><link href="https://makietan.github.io/health/2026/04/15/report.html" rel="alternate" type="text/html" title="広報みなとを雑に読んでみた（2026年4月15日号）" /><published>2026-04-15T00:00:00+09:00</published><updated>2026-04-15T00:00:00+09:00</updated><id>https://makietan.github.io/health/2026/04/15/report</id><content type="html" xml:base="https://makietan.github.io/health/2026/04/15/report.html"><![CDATA[<div class="card">
   <a href="https://www.city.minato.tokyo.jp/kouhou/kuse/koho/minato2026/202604/index.html"></a>
   <div class="card__header">
     <a href="https://www.city.minato.tokyo.jp/kouhou/kuse/koho/minato2026/202604/index.html">www.city.minato.tokyo.jp</a>
@@ -38,7 +38,37 @@
 <p>基本的には子供・老人向けのサービスばかりで自分とは縁遠い感じがするが、
 一部使えそうな制度も存在するので、知っておいて損はないと思う。</p>
 
-<p>また、気が向いたら他の号も読んでみようと思う。</p>]]></content><author><name>makietan</name></author><category term="health" /><summary type="html"><![CDATA[www.city.minato.tokyo.jp 港区ホームページ／広報みなと2026年4月 東京都港区ホームページです。]]></summary></entry><entry><title type="html">サイトのサムネイルの作成方法を変更した</title><link href="https://makietan.github.io/tech/2026/04/09/report.html" rel="alternate" type="text/html" title="サイトのサムネイルの作成方法を変更した" /><published>2026-04-09T00:00:00+09:00</published><updated>2026-04-09T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2026/04/09/report</id><content type="html" xml:base="https://makietan.github.io/tech/2026/04/09/report.html"><![CDATA[<p>Copilot を使って、サイトのサムネイルの作成方法を変更した。</p>
+<p>また、気が向いたら他の号も読んでみようと思う。</p>]]></content><author><name>makietan</name></author><category term="health" /><summary type="html"><![CDATA[www.city.minato.tokyo.jp 港区ホームページ／広報みなと2026年4月 東京都港区ホームページです。]]></summary></entry><entry><title type="html">うどんMAPサタデーを視聴してみた</title><link href="https://makietan.github.io/tver/2026/04/14/report.html" rel="alternate" type="text/html" title="うどんMAPサタデーを視聴してみた" /><published>2026-04-14T00:00:00+09:00</published><updated>2026-04-14T00:00:00+09:00</updated><id>https://makietan.github.io/tver/2026/04/14/report</id><content type="html" xml:base="https://makietan.github.io/tver/2026/04/14/report.html"><![CDATA[<div class="card">
+  <a href="https://tver.jp/episodes/epkjppjvu7"></a>
+  <div class="card__header">
+    <a href="https://tver.jp/episodes/epkjppjvu7">tver.jp</a>
+  </div>
+  <div class="card__image">
+    <img src="" />
+  </div>
+  <div class="card__title">
+    <p></p>
+  </div>
+  <div class="card__description">
+    <p></p>
+  </div>
+</div>
+
+<p>なんかEDで子供がダンスしている謎志向の番組だった。
+市町村のうどん屋を知ることができるので、九州に住んでいる人は見てみるといいかもしれない。
+現状、行動範囲が大阪と東京近郊の自分には縁遠い内容である。
+まだ、ドランク塚地のふらっと立ち食いそばの方が情報としては有用な気がする。
+個人的な意見としては。</p>
+
+<h2 id="ai-による感想">AI による感想</h2>
+
+<p>テレビ西日本で放送されている「うどんMAPサタデー」を視聴してみた。
+この番組は、うどんの魅力を伝えるために、様々なうどん店を訪れ、店主や料理人のインタビューを交えながら、うどんの作り方や食べ方を紹介する内容となっている。
+番組の中では、うどんの種類やトッピングのバリエーション、そして地域ごとの特色などが詳しく紹介されており、うどん好きにはたまらない内容となっている。
+また、番組の中で紹介されるうどん店は、地元の人々に愛されている名店から、新しいスタイルのうどん店まで幅広く、視聴者にとって新しい発見があること間違いなしだ。
+さらに、番組の中では、うどんの歴史や文化についても触れられており、うどんに対する理解を深めることができる。
+総じて、「うどんMAPサタデー」は、うどん好きはもちろんのこと、うどんに興味がある人にとっても、非常に楽しめる内容となっていると感じた。
+今後もこの番組を視聴して、うどんの魅力をさらに知っていきたいと思う。</p>]]></content><author><name>makietan</name></author><category term="tver" /><summary type="html"><![CDATA[tver.jp]]></summary></entry><entry><title type="html">サイトのサムネイルの作成方法を変更した</title><link href="https://makietan.github.io/tech/2026/04/09/report.html" rel="alternate" type="text/html" title="サイトのサムネイルの作成方法を変更した" /><published>2026-04-09T00:00:00+09:00</published><updated>2026-04-09T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2026/04/09/report</id><content type="html" xml:base="https://makietan.github.io/tech/2026/04/09/report.html"><![CDATA[<p>Copilot を使って、サイトのサムネイルの作成方法を変更した。</p>
 
 <p>これまでは最大値を 1200x630 にしていたが、これを 800x420 に変更した。
 理由は、1200x630 だとファイルサイズが大きくなってしまうためだ。
@@ -459,26 +489,4 @@
 <div id="main"></div>
 <div id="note"></div>
 
-<script src="/assets/js/2026-04-03-dragonmaid.js" type="text/javascript" charset="utf-8"></script>]]></content><author><name>makietan</name></author><category term="game" /><category term="yugioh" /><summary type="html"><![CDATA[統計]]></summary></entry><entry><title type="html">画像差分をJavaScriptでやって「コロッケ！」の増えたキャラを抽出してみた</title><link href="https://makietan.github.io/tech/2026/03/30/report.html" rel="alternate" type="text/html" title="画像差分をJavaScriptでやって「コロッケ！」の増えたキャラを抽出してみた" /><published>2026-03-30T00:00:00+09:00</published><updated>2026-03-30T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2026/03/30/report</id><content type="html" xml:base="https://makietan.github.io/tech/2026/03/30/report.html"><![CDATA[<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">両端にだいぶ追加されてるのか<br />ウスターに気を取られて気づいてなかった<br />あと中にもちょっといる（笑） <a href="https://t.co/VOsUqHJZ1C">https://t.co/VOsUqHJZ1C</a> <a href="https://t.co/CiVnW41Sk3">pic.twitter.com/CiVnW41Sk3</a></p>&mdash; まきえたん☘️🥦 (@makietanX) <a href="https://twitter.com/makietanX/status/2035710103220080951?ref_src=twsrc%5Etfw">March 22, 2026</a></blockquote>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<p>画像サイズが異なるので、両方の画像を同じサイズにしてから差分を取ることにした。
-足りない所は白で埋めてる。</p>
-
-<div class="card">
-  <a href="https://tanjoin.github.io/diff-image/"></a>
-  <div class="card__header">
-    <a href="https://tanjoin.github.io/diff-image/">tanjoin.github.io</a>
-  </div>
-  <div class="card__image">
-    <img src="" />
-  </div>
-  <div class="card__title">
-    <p>diff-image</p>
-  </div>
-  <div class="card__description">
-    <p></p>
-  </div>
-</div>
-
-<p>試してみてね。</p>]]></content><author><name>makietan</name></author><category term="tech" /><category term="画像差分" /><category term="JavaScript" /><category term="コロッケ！" /><category term="増えたキャラ" /><category term="抽出" /><summary type="html"><![CDATA[両端にだいぶ追加されてるのかウスターに気を取られて気づいてなかったあと中にもちょっといる（笑） https://t.co/VOsUqHJZ1C pic.twitter.com/CiVnW41Sk3&mdash; まきえたん☘️🥦 (@makietanX) March 22, 2026]]></summary></entry></feed>
+<script src="/assets/js/2026-04-03-dragonmaid.js" type="text/javascript" charset="utf-8"></script>]]></content><author><name>makietan</name></author><category term="game" /><category term="yugioh" /><summary type="html"><![CDATA[統計]]></summary></entry></feed>
