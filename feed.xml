@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-04-15T18:04:50+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">広報みなとを雑に読んでみた（2026年4月15日号）</title><link href="https://makietan.github.io/health/2026/04/15/report.html" rel="alternate" type="text/html" title="広報みなとを雑に読んでみた（2026年4月15日号）" /><published>2026-04-15T00:00:00+09:00</published><updated>2026-04-15T00:00:00+09:00</updated><id>https://makietan.github.io/health/2026/04/15/report</id><content type="html" xml:base="https://makietan.github.io/health/2026/04/15/report.html"><![CDATA[<div class="card">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-04-15T19:19:51+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>ここは日報をメインに書きます.</subtitle><author><name>makietan</name></author><entry><title type="html">広報みなとを雑に読んでみた（2026年4月15日号）</title><link href="https://makietan.github.io/health/2026/04/15/report.html" rel="alternate" type="text/html" title="広報みなとを雑に読んでみた（2026年4月15日号）" /><published>2026-04-15T00:00:00+09:00</published><updated>2026-04-15T00:00:00+09:00</updated><id>https://makietan.github.io/health/2026/04/15/report</id><content type="html" xml:base="https://makietan.github.io/health/2026/04/15/report.html"><![CDATA[<div class="card">
   <a href="https://www.city.minato.tokyo.jp/kouhou/kuse/koho/minato2026/202604/index.html"></a>
   <div class="card__header">
     <a href="https://www.city.minato.tokyo.jp/kouhou/kuse/koho/minato2026/202604/index.html">www.city.minato.tokyo.jp</a>
@@ -91,7 +91,27 @@ index bbbbbbb..ccccccc 100000
 </code></pre></div></div>
 
 <p>この出力では、コミットのハッシュ値、作者、日付、コミットメッセージ、および変更されたファイルの差分が表示される。
-この方法を使用することで、特定の文字列を含むコミットを簡単に見つけることができる。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[git log -S "特定の文字列" --patch 特定のファイル]]></summary></entry><entry><title type="html">サイトのサムネイルの作成方法を変更した</title><link href="https://makietan.github.io/tech/2026/04/09/report.html" rel="alternate" type="text/html" title="サイトのサムネイルの作成方法を変更した" /><published>2026-04-09T00:00:00+09:00</published><updated>2026-04-09T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2026/04/09/report</id><content type="html" xml:base="https://makietan.github.io/tech/2026/04/09/report.html"><![CDATA[<p>Copilot を使って、サイトのサムネイルの作成方法を変更した。</p>
+この方法を使用することで、特定の文字列を含むコミットを簡単に見つけることができる。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[git log -S "特定の文字列" --patch 特定のファイル]]></summary></entry><entry><title type="html">ジージェネエターナルの強敵襲来の所持状況</title><link href="https://makietan.github.io/game/2026/04/12/report.html" rel="alternate" type="text/html" title="ジージェネエターナルの強敵襲来の所持状況" /><published>2026-04-12T00:00:00+09:00</published><updated>2026-04-12T00:00:00+09:00</updated><id>https://makietan.github.io/game/2026/04/12/report</id><content type="html" xml:base="https://makietan.github.io/game/2026/04/12/report.html"><![CDATA[<ul>
+  <li>2 赤いガンダム</li>
+  <li>2 サイコロガンダム</li>
+  <li>2 オーヴェロン（アーマー形態）</li>
+  <li>2 フルアーマー百式改</li>
+  <li>2 デスティニーインパルス</li>
+  <li>2 コマンドガンダム</li>
+  <li>1-1 <strong>武者頑駄無</strong></li>
+  <li>2  タイタニア</li>
+  <li>1-1 <strong>バイアラン・カスタム2号機</strong></li>
+  <li>1-1 <strong>シャイニングガンダム（スーパーモード）</strong></li>
+  <li>1-0 <strong>ガンダム・端白星</strong></li>
+  <li>1-1 <strong>フルアーマーガンダムMk-Ⅲ</strong></li>
+  <li>2-2 ザクウォーリア（ライブ仕様）</li>
+  <li>2 GファルコンGX</li>
+  <li>2 Gサイフォス</li>
+  <li>2 スコーピオ</li>
+</ul>
+
+<p>ザクウォーリア（ライブ仕様）は余裕があったら5機集めたい。
+とりあえずはシャイニングガンダム（スーパーモード）を優先しつつ、終われば古い順から<code class="language-plaintext highlighter-rouge">2</code>になっていない機体を集めていく感じで進める予定。</p>]]></content><author><name>makietan</name></author><category term="game" /><summary type="html"><![CDATA[2 赤いガンダム 2 サイコロガンダム 2 オーヴェロン（アーマー形態） 2 フルアーマー百式改 2 デスティニーインパルス 2 コマンドガンダム 1-1 武者頑駄無 2 タイタニア 1-1 バイアラン・カスタム2号機 1-1 シャイニングガンダム（スーパーモード） 1-0 ガンダム・端白星 1-1 フルアーマーガンダムMk-Ⅲ 2-2 ザクウォーリア（ライブ仕様） 2 GファルコンGX 2 Gサイフォス 2 スコーピオ]]></summary></entry><entry><title type="html">サイトのサムネイルの作成方法を変更した</title><link href="https://makietan.github.io/tech/2026/04/09/report.html" rel="alternate" type="text/html" title="サイトのサムネイルの作成方法を変更した" /><published>2026-04-09T00:00:00+09:00</published><updated>2026-04-09T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2026/04/09/report</id><content type="html" xml:base="https://makietan.github.io/tech/2026/04/09/report.html"><![CDATA[<p>Copilot を使って、サイトのサムネイルの作成方法を変更した。</p>
 
 <p>これまでは最大値を 1200x630 にしていたが、これを 800x420 に変更した。
 理由は、1200x630 だとファイルサイズが大きくなってしまうためだ。
@@ -400,102 +420,4 @@ index bbbbbbb..ccccccc 100000
   <label class="btn btn-outline-secondary" for="千年の宝を守りしゴーレム"><span class="ruby">せんねんのたからをまもりしゴーレム</span>【UR】千年の宝を守りしゴーレム</label><br />
 </div>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>]]></content><author><name>makietan</name></author><category term="game" /><category term="yugioh" /><category term="遊戯王マスターデュエル" /><category term="リミットレギュレーション" /><category term="分解" /><category term="チェッカー" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">FOMAとiモード終了のお知らせ</title><link href="https://makietan.github.io/phone/2026/03/31/report.html" rel="alternate" type="text/html" title="FOMAとiモード終了のお知らせ" /><published>2026-03-31T00:00:00+09:00</published><updated>2026-03-31T00:00:00+09:00</updated><id>https://makietan.github.io/phone/2026/03/31/report</id><content type="html" xml:base="https://makietan.github.io/phone/2026/03/31/report.html"><![CDATA[<div class="card">
-  <a href="https://www.nttdocomo.co.jp/info/news_release/2019/10/29_00.html"></a>
-  <div class="card__header">
-    <a href="https://www.nttdocomo.co.jp/info/news_release/2019/10/29_00.html">www.nttdocomo.co.jp</a>
-  </div>
-  <div class="card__image">
-    <img src="https://www.nttdocomo.co.jp/images_osp/common/header/logo_header_ogp.png" />
-  </div>
-  <div class="card__title">
-    <p>報道発表資料 : 「FOMA」および「iモード」のサービス終了について | お知らせ | NTTドコモ</p>
-  </div>
-  <div class="card__description">
-    <p>「FOMA」および「iモード」のサービスを終了いたします。</p>
-  </div>
-</div>
-
-<p>2026年3月31日の本日をもってiモードとFOMAが終了する。</p>
-
-<p>2019年10月29日に発表されてから2,345日。</p>
-
-<p>6年5ヶ月後に終了した。</p>
-
-<table>
-  <thead>
-    <tr>
-      <th style="text-align: center"> </th>
-      <th style="text-align: center">iモード</th>
-      <th style="text-align: center">FOMA</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: center"><strong>開始日</strong></td>
-      <td style="text-align: center">1999年2月</td>
-      <td style="text-align: center">2001年10月</td>
-    </tr>
-    <tr>
-      <td style="text-align: center"><strong>終了日</strong></td>
-      <td style="text-align: center">2026年3月31日</td>
-      <td style="text-align: center">2026年3月31日</td>
-    </tr>
-    <tr>
-      <td style="text-align: center"><strong>稼働期間</strong></td>
-      <td style="text-align: center">27年1ヶ月</td>
-      <td style="text-align: center">24年5ヶ月</td>
-    </tr>
-  </tbody>
-</table>
-
-<p>化け物サービスだった。</p>
-
-<h2 id="mova">mova</h2>
-
-<div class="card">
-  <a href="https://k-tai.watch.impress.co.jp/docs/news/522862.html"></a>
-  <div class="card__header">
-    <a href="https://k-tai.watch.impress.co.jp/docs/news/522862.html">k-tai.watch.impress.co.jp</a>
-  </div>
-  <div class="card__image">
-    <img src="http://k-tai.watch.impress.co.jpnull" />
-  </div>
-  <div class="card__title">
-    <p>「mova」が3月31日にサービス終了、19年の歴史に幕 - ケータイ Watch</p>
-  </div>
-  <div class="card__description">
-    <p></p>
-  </div>
-</div>
-
-<p>ちなみにFOMAの前はというとみんなご存知movaだ。</p>
-
-<table>
-  <thead>
-    <tr>
-      <th style="text-align: center"> </th>
-      <th style="text-align: center">mova</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: center"><strong>開始日</strong></td>
-      <td style="text-align: center">1993年3月</td>
-    </tr>
-    <tr>
-      <td style="text-align: center"><strong>終了日</strong></td>
-      <td style="text-align: center">2012年3月31日</td>
-    </tr>
-    <tr>
-      <td style="text-align: center"><strong>稼働期間</strong></td>
-      <td style="text-align: center">19年</td>
-    </tr>
-  </tbody>
-</table>
-
-<blockquote>
-  <p>2012年2月末時点でmovaの契約数は34万4900件。</p>
-</blockquote>
-
-<p>こちらもとんでもない化け物サービスだった。</p>]]></content><author><name>makietan</name></author><category term="phone" /><category term="FOMA" /><category term="iモード" /><category term="NTTドコモ" /><category term="mova" /><summary type="html"><![CDATA[www.nttdocomo.co.jp 報道発表資料 : 「FOMA」および「iモード」のサービス終了について | お知らせ | NTTドコモ 「FOMA」および「iモード」のサービスを終了いたします。]]></summary></entry></feed>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>]]></content><author><name>makietan</name></author><category term="game" /><category term="yugioh" /><category term="遊戯王マスターデュエル" /><category term="リミットレギュレーション" /><category term="分解" /><category term="チェッカー" /><summary type="html"><![CDATA[]]></summary></entry></feed>
