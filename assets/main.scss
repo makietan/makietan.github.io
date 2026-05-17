@@ -162,34 +162,113 @@ blockquote em {
   font-style: normal;
 }
 
-pre,
-code {
+pre:not(.gist-file pre),
+code:not(.gist-file code) {
   font-family: $code-font-family;
-  background-color: #eef;
+  font-size: 85%;
 }
 
-pre {
-  padding: 8px 12px;
-  font-size: 15px;
-  line-height: 1.4;
-  color: $text-color;
+pre:not(.gist-file pre) {
+  padding: 16px;
+  line-height: 1.45;
+  color: #24292f;
   overflow-x: auto;
-  border: 1px solid #e8e8e8;
-  border-radius: 3px;
+  background-color: #f6f8fa;
+  border: 1px solid #d0d7de;
+  border-radius: 6px;
 }
 
-pre > code {
+pre:not(.gist-file pre) > code:not(.gist-file code) {
   display: inline-block;
   width: 100%;
   border: 0;
   padding: 0;
+  margin: 0;
+  font-size: 100%;
+  line-height: inherit;
+  color: inherit;
+  background: transparent;
 }
 
-code {
-  padding: 1px 5px;
-  font-size: 14px;
-  border: 1px solid #e8e8e8;
-  border-radius: 3px;
+code:not(.gist-file code) {
+  padding: .2em .4em;
+  margin: 0;
+  color: #24292f;
+  background-color: rgba(175, 184, 193, .2);
+  border: 0;
+  border-radius: 6px;
+}
+
+/* Rouge syntax highlighting */
+.highlight:not(.gist-file .highlight) {
+  background: #f6f8fa;
+  color: #24292f;
+}
+
+.highlight:not(.gist-file .highlight) pre:not(.gist-file pre) {
+  margin: 0;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+}
+
+.highlight:not(.gist-file .highlight) {
+  .c,
+  .cm,
+  .c1,
+  .cs {
+    color: #6e7781;
+    font-style: italic;
+  }
+
+  .k,
+  .kc,
+  .kd,
+  .kn,
+  .kp,
+  .kr,
+  .kt {
+    color: #cf222e;
+  }
+
+  .s,
+  .sb,
+  .sc,
+  .sd,
+  .s1,
+  .s2,
+  .se,
+  .sh,
+  .si,
+  .sx {
+    color: #0a3069;
+  }
+
+  .m,
+  .mi,
+  .mf,
+  .mh,
+  .mo,
+  .il {
+    color: #953800;
+  }
+
+  .nf,
+  .fm,
+  .na,
+  .nc {
+    color: #8250df;
+  }
+
+  .nb,
+  .bp {
+    color: #0550ae;
+  }
+
+  .o,
+  .p {
+    color: #24292f;
+  }
 }
 
 .wrapper {
