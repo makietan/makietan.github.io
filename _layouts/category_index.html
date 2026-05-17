@@ -3,19 +3,20 @@ layout: default
 autogen: true
 ---
 
-<div id="archives">
-  <div class="archive-group">
-    <div id="#{{ page.category }}">
-      <h1 class="category-head">{{ page.category }}</h1>
-      <ul class="archive-list">
-        {% for post in site.categories[page.category] %}
-        <li class="archive-item">
-          {%- assign date_format = site.minima.date_format | default: "%Y-%m-%d %H:%M" -%}
-          <div class="post-meta">{{ post.date | date: date_format }}</div>
-          <a class="archive-link" href="{{ site.url }}{{ post.url }}">{{post.title}}</a>
-        </li>
-        {% endfor %}
-      </ul>
-    </div>
-  </div>
-</div>
+<section class="category-detail">
+  <header class="category-detail__header">
+    <p class="category-detail__eyebrow">Category</p>
+    <h1 class="category-detail__title">{{ page.category }}</h1>
+    <p class="category-detail__count">{{ site.categories[page.category] | size }} posts</p>
+  </header>
+
+  <ul class="archive-list category-detail__list" aria-label="{{ page.category }} posts">
+    {% for post in site.categories[page.category] %}
+    <li class="archive-item category-detail__item">
+      {%- assign date_format = site.minima.date_format | default: "%Y-%m-%d %H:%M" -%}
+      <time class="post-meta category-detail__meta" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: date_format }}</time>
+      <a class="archive-link category-detail__link" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
