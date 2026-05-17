@@ -180,7 +180,7 @@
   
   {
     "title": "",
-    "url": "/otaku/gup/2021/04/02/report.html",
+    "url": "/otaku/2021/04/02/report.html",
     "content": ""
   },
   
@@ -607,8 +607,6 @@
     "url": "/index.html",
     "content": ""
   },
-  
-  
   
   
   
@@ -12220,7 +12218,7 @@
     "tags": [],
     "url": "/tech/ruby/2022/10/13/report.html",
     "date": {"year": "2022", "month": "10", "day": "13"},
-    "content": "format( %06&lt;x&gt;d %&lt;y&gt;d , x: 100, y: 200)結果は以下のようになる。000100 200アノテーションとして &lt;x&gt; を付与すると可読性が高まるのでよい。        paiza.io                Online PHP/Java/C++... editor and compiler | paiza.IO          試したいならpaizaのruby環境で実行してみるのが手っ取り早い。その場合は、出力させる必要があるので puts を付ける必要がある。puts format( %06&lt;x&gt;d %&lt;y&gt;d , x: 100, y: 200)"
+    "content": "format( %06&lt;x&gt;d %&lt;y&gt;d , x: 100, y: 200)結果は以下のようになる。000100 200アノテーションとして &lt;x&gt; を付与すると可読性が高まるのでよい。        paiza.io                Online PHP/Java/C++... editor and compiler | paiza.IO        {{description ? description : 'paiza.IOはオンラインですぐにプログラミングが始められる、オンライン実行環境です。C,C++,Java,Ruby,Python,PHP,Perlなど主要24言語に対応。プログラミング学習にも。'}}  試したいならpaizaのruby環境で実行してみるのが手っ取り早い。その場合は、出力させる必要があるので puts を付ける必要がある。puts format( %06&lt;x&gt;d %&lt;y&gt;d , x: 100, y: 200)"
   },
   
   {
