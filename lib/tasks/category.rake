@@ -10,7 +10,7 @@ namespace :category do
     FileUtils.mkdir_p('./category') unless FileTest.exist?('./category')
     get_categories().each do |category|
       output = File.absolute_path("./category") + "/#{category}.md"
-      unless File.exists?(output)
+      unless File.exist?(output)
         content = "---\nlayout: category\npermalink: /category/#{category}\ncategory: #{category}\n---"
         File.open(output, "w") do |file|
           file.puts content
