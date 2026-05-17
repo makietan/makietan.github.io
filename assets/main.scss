@@ -165,17 +165,21 @@ blockquote em {
 pre:not(.gist-file pre),
 code:not(.gist-file code) {
   font-family: $code-font-family;
-  font-size: 85%;
+  font-size: 0.9rem;
 }
 
 pre:not(.gist-file pre) {
-  padding: 16px;
-  line-height: 1.45;
-  color: #24292f;
+  margin: 12px 0 18px;
+  padding: 18px 20px;
+  line-height: 1.55;
+  color: #e5e7eb;
   overflow-x: auto;
-  background-color: #f6f8fa;
-  border: 1px solid #d0d7de;
-  border-radius: 6px;
+  background: #0f172a;
+  border: 1px solid #334155;
+  border-left: 6px solid #22c55e;
+  border-radius: 8px;
+  box-shadow: 0 6px 18px rgba(2, 6, 23, 0.35);
+  tab-size: 2;
 }
 
 pre:not(.gist-file pre) > code:not(.gist-file code) {
@@ -191,18 +195,19 @@ pre:not(.gist-file pre) > code:not(.gist-file code) {
 }
 
 code:not(.gist-file code) {
-  padding: .2em .4em;
+  padding: .18em .45em;
   margin: 0;
-  color: #24292f;
-  background-color: rgba(175, 184, 193, .2);
-  border: 0;
-  border-radius: 6px;
+  color: #111827;
+  background: #fff4cc;
+  border: 1px solid #f2d77a;
+  border-radius: 4px;
 }
 
 /* Rouge syntax highlighting */
 .highlight:not(.gist-file .highlight) {
-  background: #f6f8fa;
-  color: #24292f;
+  margin: 12px 0 18px;
+  background: #0f172a;
+  color: #e5e7eb;
 }
 
 .highlight:not(.gist-file .highlight) pre:not(.gist-file pre) {
@@ -217,7 +222,7 @@ code:not(.gist-file code) {
   .cm,
   .c1,
   .cs {
-    color: #6e7781;
+    color: #94a3b8;
     font-style: italic;
   }
 
@@ -228,7 +233,7 @@ code:not(.gist-file code) {
   .kp,
   .kr,
   .kt {
-    color: #cf222e;
+    color: #f472b6;
   }
 
   .s,
@@ -241,7 +246,7 @@ code:not(.gist-file code) {
   .sh,
   .si,
   .sx {
-    color: #0a3069;
+    color: #93c5fd;
   }
 
   .m,
@@ -250,24 +255,24 @@ code:not(.gist-file code) {
   .mh,
   .mo,
   .il {
-    color: #953800;
+    color: #fbbf24;
   }
 
   .nf,
   .fm,
   .na,
   .nc {
-    color: #8250df;
+    color: #67e8f9;
   }
 
   .nb,
   .bp {
-    color: #0550ae;
+    color: #c4b5fd;
   }
 
   .o,
   .p {
-    color: #24292f;
+    color: #d1d5db;
   }
 }
 
