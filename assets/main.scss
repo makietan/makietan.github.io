@@ -148,33 +148,93 @@ img.trim {
 
 // paginator v2
 
+.pager-nav {
+  margin-top: 2rem;
+}
+
 ul.pager {
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: .35rem;
+  padding: 0;
+  margin: 0;
   list-style: none;
 }
 
-ul.pager li {
-  display: inline;
-  padding: 10px;
-  margin: 5px;
+.pager-item a,
+.pager-item em,
+.pager-item .is-disabled,
+.pager-item-ellipsis {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 2.2rem;
+  height: 2.2rem;
+  padding: 0 .7rem;
+  border-radius: 999px;
+  border: 1px solid #d3d8e0;
+  font-size: .92rem;
+  line-height: 1;
 }
 
-ul.pager li.num {
-  display: inline;
-  padding: 0px;
-  margin: 0px;
+.pager-item a {
+  color: #333;
+  background-color: #fff;
 }
 
-ul.pager li.num em, ul.pager li.num a {
-  padding: 0px;
-  margin: 2px;
+.pager-item a:hover {
+  border-color: #9099a8;
+  background-color: #f7f9fc;
+}
+
+.pager-item em {
+  background-color: #222;
+  border-color: #222;
+  color: #fff;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.pager-item .is-disabled {
+  color: #a2a9b5;
+  background-color: #f4f6f9;
+  border-color: #e5e9ef;
+}
+
+.pager-item-ellipsis {
+  border-color: transparent;
+  background-color: transparent;
+  color: #707785;
+  min-width: 1.5rem;
+  padding: 0;
+}
+
+.pager-item-control a,
+.pager-item-control .is-disabled {
+  min-width: 3.6rem;
+  font-weight: 600;
 }
 
 @media screen and (max-width: 568px) {
-  ul.pager li.num em, ul.pager li.num a {
-    padding: 0px;
-    margin: 2px;
-    display: none;
+  ul.pager {
+    gap: .25rem;
+  }
+
+  .pager-item a,
+  .pager-item em,
+  .pager-item .is-disabled,
+  .pager-item-ellipsis {
+    min-width: 2rem;
+    height: 2rem;
+    font-size: .85rem;
+    padding: 0 .5rem;
+  }
+
+  .pager-item-control a,
+  .pager-item-control .is-disabled {
+    min-width: 3.2rem;
   }
 }
 

@@ -61,29 +61,65 @@ layout: default
   </ul>
 
   {% if paginator.total_pages > 1 %}
-  <ul class="pager">
-      {% if paginator.previous_page %}
-      <li class="previous">
-          <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"><</a>
-      </li>
-      {% endif %}
-      {% for page in (1..paginator.total_pages) %}
-      <li class="num">
-        {% if page == paginator.page %}
-          <em>{{ page }}</em>
-        {% elsif page == 1 %}
-          <a href="/">{{ page }}</a>
+  {% assign current_page = paginator.page %}
+  {% assign total_pages = paginator.total_pages %}
+  {% assign window_size = 2 %}
+  {% assign start_page = current_page | minus: window_size %}
+  {% assign end_page = current_page | plus: window_size %}
+
+  {% if start_page < 1 %}
+    {% assign start_page = 1 %}
+  {% endif %}
+  {% if end_page > total_pages %}
+    {% assign end_page = total_pages %}
+  {% endif %}
+
+  <nav class="pager-nav" aria-label="ページナビゲーション">
+    <ul class="pager">
+      <li class="pager-item pager-item-control">
+        {% if paginator.previous_page %}
+          <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" rel="prev" aria-label="前のページ">前へ</a>
         {% else %}
-          <a href="{{ site.baseurl | replace: '//', '/' }}/page/{{ page }}">{{ page }}</a>
+          <span class="is-disabled" aria-hidden="true">前へ</span>
         {% endif %}
       </li>
-      {% endfor %}
-      {% if paginator.next_page %}
-      <li class="next">
-          <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">></a>
-      </li>
+
+      {% if start_page > 1 %}
+        <li class="pager-item"><a href="{{ '/' | relative_url }}" aria-label="1ページ目">1</a></li>
+        {% if start_page > 2 %}
+          <li class="pager-item pager-item-ellipsis" aria-hidden="true">…</li>
+        {% endif %}
       {% endif %}
-  </ul>
+
+      {% for page_num in (start_page..end_page) %}
+        <li class="pager-item">
+          {% if page_num == current_page %}
+            <em aria-current="page">{{ page_num }}</em>
+          {% elsif page_num == 1 %}
+            <a href="{{ '/' | relative_url }}" aria-label="{{ page_num }}ページ目">{{ page_num }}</a>
+          {% else %}
+            <a href="{{ '/page/' | append: page_num | append: '/' | relative_url }}" aria-label="{{ page_num }}ページ目">{{ page_num }}</a>
+          {% endif %}
+        </li>
+      {% endfor %}
+
+      {% if end_page < total_pages %}
+        {% assign second_last_page = total_pages | minus: 1 %}
+        {% if end_page < second_last_page %}
+          <li class="pager-item pager-item-ellipsis" aria-hidden="true">…</li>
+        {% endif %}
+        <li class="pager-item"><a href="{{ '/page/' | append: total_pages | append: '/' | relative_url }}" aria-label="{{ total_pages }}ページ目">{{ total_pages }}</a></li>
+      {% endif %}
+
+      <li class="pager-item pager-item-control">
+        {% if paginator.next_page %}
+          <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" rel="next" aria-label="次のページ">次へ</a>
+        {% else %}
+          <span class="is-disabled" aria-hidden="true">次へ</span>
+        {% endif %}
+      </li>
+    </ul>
+  </nav>
   {% endif %}
 
 </div>
