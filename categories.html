@@ -4,15 +4,22 @@ permalink: /category/
 title: Category
 ---
 
-<div id="archives">
-  {% for category in site.categories %}
-  <div class="archive-group category-group">
-    {% capture category_name %}{{ category | first }}{% endcapture %}
-    <div id="#{{ category_name | slugize }}">
-      <h3 class="category-head">
-        <a class="category-link" href="{{ site.url }}/categories/{{ category_name }}">{{ category_name }}</a>
-      </h3>
-    </div>
-  </div>
-  {% endfor %}
-</div>
+<section class="category-index" aria-label="カテゴリ一覧">
+  <ul class="category-grid" aria-label="カテゴリ一覧">
+    {% assign categories = site.categories | sort %}
+    {% for category in categories %}
+    {% assign category_name = category[0] %}
+    {% assign category_posts = category[1] %}
+    {% assign latest_post = category_posts | first %}
+    <li class="category-card" id="{{ category_name | slugize }}">
+      <a class="category-card__link" href="{{ site.url }}/categories/{{ category_name }}">
+        <span class="category-card__name">{{ category_name }}</span>
+        <span class="category-card__meta">{{ category_posts | size }} posts</span>
+        {% if latest_post %}
+        <time class="category-card__date" datetime="{{ latest_post.date | date_to_xmlschema }}">{{ latest_post.date | date: "%Y-%m-%d" }} update</time>
+        {% endif %}
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+</section>

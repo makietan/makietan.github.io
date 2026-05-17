@@ -43,13 +43,6 @@ figure {
   padding: 0;
 }
 
-body,
-html {
-  font-family: "BIZ UDGothic", Hiragino Sans, "ヒラギノ角ゴシック", Hiragino Kaku Gothic ProN, "ヒラギノ角ゴ ProN W3", Roboto, "Droid Sans", YuGothic, "游ゴシック", Meiryo, "メイリオ", Verdana, "ＭＳ Ｐゴシック", "Helvetica Neue", Arial, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
 body {
   font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
   color: $text-color;
@@ -59,6 +52,13 @@ body {
   min-height: 100vh;
   flex-direction: column;
   overflow-wrap: break-word;
+}
+
+body,
+html {
+  font-family: "BIZ UDGothic", Hiragino Sans, "ヒラギノ角ゴシック", Hiragino Kaku Gothic ProN, "ヒラギノ角ゴ ProN W3", Roboto, "Droid Sans", YuGothic, "游ゴシック", Meiryo, "メイリオ", Verdana, "ＭＳ Ｐゴシック", "Helvetica Neue", Arial, sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 h1,
@@ -132,7 +132,7 @@ li > ol {
 
 a {
   color: $link-base-color;
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 a:visited {
@@ -232,13 +232,13 @@ code {
   color: #000000;
 }
 
-.site-nav .page-link {
+.site-nav .site-nav-link {
   color: #111111 !important;
   line-height: $base-line-height;
   font-weight: 400 !important;
 }
 
-.site-nav .page-link:not(:last-child) {
+.site-nav .site-nav-link:not(:last-child) {
   margin-right: $spacing-unit * 0.5;
 }
 
@@ -285,7 +285,7 @@ code {
     padding-bottom: 5px;
   }
 
-  .site-nav .page-link {
+  .site-nav .site-nav-link {
     display: block;
     padding: 5px 10px;
     margin-left: 20px;
@@ -827,4 +827,154 @@ table th.tj-asc:after {
 
 table th.tj-desc:after {
   content: "▼";
+}
+
+// category pages
+
+.category-detail__eyebrow {
+  margin: 0 0 .2rem;
+  font-size: .72rem;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: #6b7280;
+  font-weight: 700;
+}
+
+.category-detail__title {
+  margin-top: 0;
+  margin-bottom: .35rem;
+  font-size: clamp(1.3rem, 2.8vw, 1.65rem);
+  font-weight: 600;
+}
+
+.category-detail__count {
+  margin: 0 0 1rem;
+  font-size: .88rem;
+  color: #6b7280;
+}
+
+.category-grid,
+.category-detail__list {
+  list-style: none;
+  margin: 0;
+  margin-left: 0;
+  padding: 0;
+}
+
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 0 1.5rem;
+}
+
+.category-card {
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.category-card__link {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-template-areas:
+    "name meta"
+    "date date";
+  align-items: baseline;
+  gap: .15rem .65rem;
+  padding: .78rem 0;
+  text-decoration: none;
+}
+
+.category-card__link,
+.category-card__link:visited {
+  color: inherit;
+}
+
+.category-card__link:hover .category-card__name,
+.category-detail__link:hover {
+  color: $text-color;
+}
+
+.category-card__link:focus-visible,
+.category-detail__link:focus-visible {
+  outline: 2px solid #111827;
+  outline-offset: 3px;
+}
+
+.category-card__name {
+  grid-area: name;
+  display: inline-block;
+  font-size: 1rem;
+  line-height: 1.35;
+  font-weight: 600;
+  color: $link-base-color;
+}
+
+.category-card__link:visited .category-card__name {
+  color: $link-visited-color;
+}
+
+.category-card__meta,
+.category-card__date {
+  display: block;
+  font-size: .78rem;
+  color: #6b7280;
+  background: none;
+}
+
+.category-card__meta {
+  grid-area: meta;
+  text-align: right;
+}
+
+.category-card__date {
+  grid-area: date;
+}
+
+.category-detail__list {
+  display: grid;
+  gap: 0;
+}
+
+.category-detail__item {
+  display: grid;
+  grid-template-columns: 140px 1fr;
+  align-items: baseline;
+  column-gap: .9rem;
+  row-gap: .12rem;
+  padding: .72rem 0;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.category-detail__meta {
+  margin: 0;
+  color: #6b7280;
+  font-size: .8rem;
+}
+
+.category-detail__link {
+  display: inline-block;
+  font-size: 1rem;
+  line-height: 1.45;
+  font-weight: 600;
+  color: $link-base-color;
+  text-decoration: underline;
+}
+
+.category-detail__link:visited {
+  color: $link-visited-color;
+}
+
+.category-detail__link:hover {
+  color: $text-color;
+}
+
+@media screen and (max-width: 720px) {
+  .category-grid {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .category-detail__item {
+    grid-template-columns: 1fr;
+    row-gap: .08rem;
+  }
 }
