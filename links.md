@@ -11,6 +11,7 @@ permalink: /links/
 
 ## Twitter
 - [@makietanx](https://twitter.com/makietanX) - 現・メイン
+- [@makietanG](https://twitter.com/makietanG) - ガルパン用
 - [@makietanZ](https://twitter.com/makietanZ) - サブ
 - [@makietanT](https://twitter.com/makietanT) - 技術用
 - [@makietanA](https://twitter.com/makietanA) - 現・FX

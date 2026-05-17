@@ -1,10 +1,13 @@
 title: 肉とお米とブロッコリー
 author: makietan
-description: ここは日報をメインに書きます.
+description: 日報を中心に、技術メモやイベント参加記録をまとめるブログです。
 lang: 'ja'
+locale: ja_JP
 
+# minima footer/social compatibility
 twitter_username: makietanx
-github_username:  makietan
+github_username: makietan
+
 rss: rss
 
 url: https://makietan.github.io
@@ -20,9 +23,24 @@ kramdown:
 theme: minima
 
 plugins:
+  - jekyll-seo-tag
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-paginate-v2
+
+logo: /assets/images/icon_144.png
+
+twitter:
+  username: makietanx
+
+github:
+  username: makietan
+
+social:
+  name: makietan
+  links:
+    - https://github.com/makietan
+    - https://twitter.com/makietanx
 
 google_analytics: true
 google_adsense: true
