@@ -66,10 +66,6 @@ GEM
     mini_magick (5.3.1)
       logger
     mini_portile2 (2.8.9)
-    minima (2.5.2)
-      jekyll (>= 3.5, < 5.0)
-      jekyll-feed (~> 0.9)
-      jekyll-seo-tag (~> 2.1)
     nokogiri (1.18.10)
       mini_portile2 (~> 2.8.2)
       racc (~> 1.4)
@@ -102,7 +98,6 @@ DEPENDENCIES
   jekyll-seo-tag
   jekyll-sitemap
   mini_magick
-  minima
   nokogiri
   rake
   safe_yaml
