@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-05-29T00:10:31+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>日報を中心に、技術メモやイベント参加記録をまとめるブログです。</subtitle><author><name>makietan</name></author><entry><title type="html">個人用のYouTubeのダウンロード管理ソフトを Copilot と codex 3.5 で改修してみた</title><link href="https://makietan.github.io/tech/2026/05/29/report.html" rel="alternate" type="text/html" title="個人用のYouTubeのダウンロード管理ソフトを Copilot と codex 3.5 で改修してみた" /><published>2026-05-29T00:00:00+09:00</published><updated>2026-05-29T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2026/05/29/report</id><content type="html" xml:base="https://makietan.github.io/tech/2026/05/29/report.html"><![CDATA[<p>繁雑なソースコードを Copilot と codex 3.5 で改修してみました。</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-05-29T04:28:32+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>日報を中心に、技術メモやイベント参加記録をまとめるブログです。</subtitle><author><name>makietan</name></author><entry><title type="html">個人用のYouTubeのダウンロード管理ソフトを Copilot と codex 3.5 で改修してみた</title><link href="https://makietan.github.io/tech/2026/05/29/report.html" rel="alternate" type="text/html" title="個人用のYouTubeのダウンロード管理ソフトを Copilot と codex 3.5 で改修してみた" /><published>2026-05-29T00:00:00+09:00</published><updated>2026-05-29T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2026/05/29/report</id><content type="html" xml:base="https://makietan.github.io/tech/2026/05/29/report.html"><![CDATA[<p>繁雑なソースコードを Copilot と codex 3.5 で改修してみました。</p>
 
 <p>フォーマットごとに分かれていたコードを、共通化できる部分は共通化して、コードの重複を減らしました。</p>
 
@@ -18,7 +18,15 @@
 
 <p>どうにかしてほしいわ。</p>
 
-<p>育成したい機体だったので引けてラッキーでした。</p>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[いやーまさかですよ。]]></summary></entry><entry><title type="html">このサイトのデザインを変更しようとしたら codex がアホほどプレミアム要求してきてめっちゃ損した</title><link href="https://makietan.github.io/tech/2026/05/21/report.html" rel="alternate" type="text/html" title="このサイトのデザインを変更しようとしたら codex がアホほどプレミアム要求してきてめっちゃ損した" /><published>2026-05-21T00:00:00+09:00</published><updated>2026-05-21T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2026/05/21/report</id><content type="html" xml:base="https://makietan.github.io/tech/2026/05/21/report.html"><![CDATA[<p>AI ほんと酷いな。</p>
+<p>育成したい機体だったので引けてラッキーでした。</p>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[いやーまさかですよ。]]></summary></entry><entry><title type="html">Yahoo! ファイナンスの情報を扱ってみる</title><link href="https://makietan.github.io/tech/2026/05/27/report.html" rel="alternate" type="text/html" title="Yahoo! ファイナンスの情報を扱ってみる" /><published>2026-05-27T00:00:00+09:00</published><updated>2026-05-27T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2026/05/27/report</id><content type="html" xml:base="https://makietan.github.io/tech/2026/05/27/report.html"><![CDATA[<p>株やら為替やら、金融の情報を扱うことがあると思います。そんなときに便利なのが Yahoo! ファイナンスの情報です。</p>
+
+<p>[embed:https://finance.yahoo.co.jp/]</p>
+
+<p>Yahoo! ファイナンス公式のライブラリは存在しないのですが、非公式のライブラリがいくつか存在しています。</p>
+
+<p>[embed:https://github.com/gadicc/yahoo-finance2]</p>
+
+<p>でまぁ、自分も保有銘柄や為替の情報を取得して動向を確認しているので、参考にした情報を紹介しました。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[株やら為替やら、金融の情報を扱うことがあると思います。そんなときに便利なのが Yahoo! ファイナンスの情報です。]]></summary></entry><entry><title type="html">このサイトのデザインを変更しようとしたら codex がアホほどプレミアム要求してきてめっちゃ損した</title><link href="https://makietan.github.io/tech/2026/05/21/report.html" rel="alternate" type="text/html" title="このサイトのデザインを変更しようとしたら codex がアホほどプレミアム要求してきてめっちゃ損した" /><published>2026-05-21T00:00:00+09:00</published><updated>2026-05-21T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2026/05/21/report</id><content type="html" xml:base="https://makietan.github.io/tech/2026/05/21/report.html"><![CDATA[<p>AI ほんと酷いな。</p>
 
 <p>ゴミカスすぎる。</p>
 
@@ -292,94 +300,4 @@
 
 <p>自分に合えばリピートしたり、宣伝されてるものを買ってみたりしてみようかなと思う。</p>
 
-<p>Amazon定期おトク（でもない）便なので月末からスタート予定。</p>]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[補足・カルシウムは牛乳の約25倍・塩分は一般的な調味料の約18分の1・DHA・EPAが補給できる・無添加で原材料も安心実際味噌汁に入れてみたけど美味しくて便利でコスパも良いし添加物アレルギーの人や乳製品で腸が荒れてしまう人にも良さそう https://t.co/zkomoCeT32&mdash; るぴ (@rupigram_) May 11, 2026]]></summary></entry><entry><title type="html">マクドナルドのシャカシャカポテト じゃがバタシーズニングの栄養成分表</title><link href="https://makietan.github.io/gourmet/2026/05/11/report.html" rel="alternate" type="text/html" title="マクドナルドのシャカシャカポテト じゃがバタシーズニングの栄養成分表" /><published>2026-05-11T00:00:00+09:00</published><updated>2026-05-11T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2026/05/11/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2026/05/11/report.html"><![CDATA[<h2 id="シャカシャカポテト-じゃがバタシーズニング">シャカシャカポテト® じゃがバタシーズニング</h2>
-<p>https://www.mcdonalds.co.jp/products/6130/</p>
-
-<p>エネルギー 9kcal
-たんぱく質 0.3g
-脂質 0.3g
-炭水化物 1.4g
-食塩相当量 0.6g
-ナトリウム 254mg
-カリウム 7mg
-カルシウム 2mg
-リン 4mg
-鉄 0.0mg
-ビタミンＡ 2μg
-ビタミンＢ１ 0.00mg
-ビタミンＢ２ 0.01mg
-ナイアシン 0.0mg
-ビタミンＣ 0mg
-コレステロール 0mg
-食物繊維 0.0g</p>
-
-<p>バターと醤油に隠し味のチーズを加えた、コクと旨みのある一品が、北海道産バターを使用してさらにおいしくなって復活しました。</p>
-
-<h2 id="炙り醤油風-たまごベーコン肉厚ビーフ">炙り醤油風 たまごベーコン肉厚ビーフ</h2>
-<p>https://www.mcdonalds.co.jp/products/1260/</p>
-
-<p>エネルギー 511kcal
-たんぱく質 30.8g
-脂質 26.2g
-炭水化物 37.5g
-食塩相当量 3.3g
-ナトリウム 1305mg
-カリウム 422mg
-カルシウム 161mg
-リン 372mg
-鉄 2.8mg
-ビタミンＡ 129μg
-ビタミンＢ１ 0.20mg
-ビタミンＢ２ 0.41mg
-ナイアシン 9.5mg
-ビタミンＣ 6mg
-コレステロール 269mg
-食物繊維 2.0g</p>
-
-<p>厚みのある100%ビーフとたまごに、香ばしいソースが決め手の、ビーフとたまごのバランスが絶妙な一品です。</p>
-
-<h2 id="塩レモンタルタルソース">塩レモンタルタルソース</h2>
-<p>https://www.mcdonalds.co.jp/products/1613/</p>
-
-<p>エネルギー 91kcal
-たんぱく質 0.2g
-脂質 9.5g
-炭水化物 1.2g
-食塩相当量 0.8g
-ナトリウム 334mg
-カリウム 3mg
-カルシウム 2mg
-リン 4mg
-鉄 0.0mg
-ビタミンＡ 3μg
-ビタミンＢ１ 0.01mg
-ビタミンＢ２ 0.00mg
-ナイアシン 0.0mg
-ビタミンＣ 0mg
-コレステロール 7mg
-食物繊維 0.1g</p>
-
-<p>さっぱりとしたレモンの風味にガーリックの旨味を加え、ソルティがアクセントになったコクのある味わいのタルタルソースです。</p>
-
-<h2 id="コク旨焼肉ソース">コク旨焼肉ソース</h2>
-<p>https://www.mcdonalds.co.jp/products/1614/</p>
-
-<p>エネルギー 34kcal
-たんぱく質 0.3g
-脂質 1.0g
-炭水化物 6.3g
-食塩相当量 0.8g
-ナトリウム 312mg
-カリウム 16mg
-カルシウム 2mg
-リン 5mg
-鉄 0.0mg
-ビタミンＡ 1μg
-ビタミンＢ１ 0.01mg
-ビタミンＢ２ 0.00mg
-ナイアシン 0.1mg
-ビタミンＣ 8mg
-コレステロール 1mg
-食物繊維 0.2g</p>
-
-<p>醤油とにんにく、しょうがの風味を効かせた、焼き肉のタレをイメージしたソースです。</p>]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[シャカシャカポテト® じゃがバタシーズニング https://www.mcdonalds.co.jp/products/6130/]]></summary></entry></feed>
+<p>Amazon定期おトク（でもない）便なので月末からスタート予定。</p>]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[補足・カルシウムは牛乳の約25倍・塩分は一般的な調味料の約18分の1・DHA・EPAが補給できる・無添加で原材料も安心実際味噌汁に入れてみたけど美味しくて便利でコスパも良いし添加物アレルギーの人や乳製品で腸が荒れてしまう人にも良さそう https://t.co/zkomoCeT32&mdash; るぴ (@rupigram_) May 11, 2026]]></summary></entry></feed>
