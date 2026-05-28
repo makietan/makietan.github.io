@@ -1,4 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-05-28T15:57:26+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>日報を中心に、技術メモやイベント参加記録をまとめるブログです。</subtitle><author><name>makietan</name></author><entry><title type="html">このサイトのデザインを変更しようとしたら codex がアホほどプレミアム要求してきてめっちゃ損した</title><link href="https://makietan.github.io/tech/2026/05/21/report.html" rel="alternate" type="text/html" title="このサイトのデザインを変更しようとしたら codex がアホほどプレミアム要求してきてめっちゃ損した" /><published>2026-05-21T00:00:00+09:00</published><updated>2026-05-21T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2026/05/21/report</id><content type="html" xml:base="https://makietan.github.io/tech/2026/05/21/report.html"><![CDATA[<p>AI ほんと酷いな。</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-05-29T00:10:31+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>日報を中心に、技術メモやイベント参加記録をまとめるブログです。</subtitle><author><name>makietan</name></author><entry><title type="html">個人用のYouTubeのダウンロード管理ソフトを Copilot と codex 3.5 で改修してみた</title><link href="https://makietan.github.io/tech/2026/05/29/report.html" rel="alternate" type="text/html" title="個人用のYouTubeのダウンロード管理ソフトを Copilot と codex 3.5 で改修してみた" /><published>2026-05-29T00:00:00+09:00</published><updated>2026-05-29T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2026/05/29/report</id><content type="html" xml:base="https://makietan.github.io/tech/2026/05/29/report.html"><![CDATA[<p>繁雑なソースコードを Copilot と codex 3.5 で改修してみました。</p>
+
+<p>フォーマットごとに分かれていたコードを、共通化できる部分は共通化して、コードの重複を減らしました。</p>
+
+<p>あとはクッキーを設定したりする処理を全体で使えるように意味ごとのクラス化を行いました。</p>
+
+<p>残りは SQLite の部分で新しいライブラリを使うようにしないといけないですね。</p>
+
+<p>まぁ、全体的にコードがすっきりして、保守性も上がったと思います。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[繁雑なソースコードを Copilot と codex 3.5 で改修してみました。]]></summary></entry><entry><title type="html">まさかの「ソルグラヴィトンノヴァ（MAP）」をチケットで引く</title><link href="https://makietan.github.io/game/srwdd/2026/05/28/report.html" rel="alternate" type="text/html" title="まさかの「ソルグラヴィトンノヴァ（MAP）」をチケットで引く" /><published>2026-05-28T00:00:00+09:00</published><updated>2026-05-28T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2026/05/28/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2026/05/28/report.html"><![CDATA[<p>いやーまさかですよ。</p>
+
+<p>チケットで引くとは思わなかった。</p>
+
+<p>「斗牙と共に在る少女」は一周回して引いたのでそっちをメインで共闘戦を周回していたのに、まさかもう片方まで引いてしまうとは。</p>
+
+<p>このおかげで、シャアのオーブと刹那のオーブを凸った。</p>
+
+<p>もっと他にも凸りたいものがあるけど、陰湿な素材半分でしか交換できないからなあ。</p>
+
+<p>どうにかしてほしいわ。</p>
+
+<p>育成したい機体だったので引けてラッキーでした。</p>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[いやーまさかですよ。]]></summary></entry><entry><title type="html">このサイトのデザインを変更しようとしたら codex がアホほどプレミアム要求してきてめっちゃ損した</title><link href="https://makietan.github.io/tech/2026/05/21/report.html" rel="alternate" type="text/html" title="このサイトのデザインを変更しようとしたら codex がアホほどプレミアム要求してきてめっちゃ損した" /><published>2026-05-21T00:00:00+09:00</published><updated>2026-05-21T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2026/05/21/report</id><content type="html" xml:base="https://makietan.github.io/tech/2026/05/21/report.html"><![CDATA[<p>AI ほんと酷いな。</p>
 
 <p>ゴミカスすぎる。</p>
 
@@ -362,29 +382,4 @@
 コレステロール 1mg
 食物繊維 0.2g</p>
 
-<p>醤油とにんにく、しょうがの風味を効かせた、焼き肉のタレをイメージしたソースです。</p>]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[シャカシャカポテト® じゃがバタシーズニング https://www.mcdonalds.co.jp/products/6130/]]></summary></entry><entry><title type="html">征竜ドラゴンメイドは無敵のディザスター置いとけば勝てる</title><link href="https://makietan.github.io/game/yugioh/2026/05/08/report.html" rel="alternate" type="text/html" title="征竜ドラゴンメイドは無敵のディザスター置いとけば勝てる" /><published>2026-05-08T00:00:00+09:00</published><updated>2026-05-08T00:00:00+09:00</updated><id>https://makietan.github.io/game/yugioh/2026/05/08/report</id><content type="html" xml:base="https://makietan.github.io/game/yugioh/2026/05/08/report.html"><![CDATA[<p>誰もテキストを読まないのか無敵のディザスターを対象にして初めて気付くらしい。
-ディザスターは他のカードの効果を受けないので打点を上げて殴って倒す以外の方法がない。
-ドラゴンメイドで要所々々で効果を無効化しつつ、ディザスターを置いておけば相手はどうやっても勝てない。</p>]]></content><author><name>makietan</name></author><category term="game" /><category term="yugioh" /><summary type="html"><![CDATA[誰もテキストを読まないのか無敵のディザスターを対象にして初めて気付くらしい。 ディザスターは他のカードの効果を受けないので打点を上げて殴って倒す以外の方法がない。 ドラゴンメイドで要所々々で効果を無効化しつつ、ディザスターを置いておけば相手はどうやっても勝てない。]]></summary></entry><entry><title type="html">日焼け止めを見直す</title><link href="https://makietan.github.io/health/2026/04/23/report.html" rel="alternate" type="text/html" title="日焼け止めを見直す" /><published>2026-04-23T00:00:00+09:00</published><updated>2026-04-23T00:00:00+09:00</updated><id>https://makietan.github.io/health/2026/04/23/report</id><content type="html" xml:base="https://makietan.github.io/health/2026/04/23/report.html"><![CDATA[<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">背中日焼け止め検証でも同じ結果出てた‼️<br />・ビオレUV呼吸感ベール<br />・ラロッシュポゼ<br />・by365<br />はガチで焼けないから今年の夏もこの3つで乗り切ります。 <a href="https://t.co/2OytdVRPie">https://t.co/2OytdVRPie</a> <a href="https://t.co/I5R7ll1eSR">pic.twitter.com/I5R7ll1eSR</a></p>&mdash; 🙂‍↕️🎀 (@_9743_o_sub) <a href="https://twitter.com/_9743_o_sub/status/2046810482997338444?ref_src=twsrc%5Etfw">April 22, 2026</a></blockquote>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<p>今は謎のピンク液のやつを使っている。</p>
-
-<p>それでもいいんだが、やるなら一番効果あるやつがいいかなと思うので、わかりやすいスキンアクアを買ってみる。</p>
-
-<div class="card">
-  <a href="https://jp.rohto.com/skin-aqua/promo/serum/"></a>
-  <div class="card__header">
-    <a href="https://jp.rohto.com/skin-aqua/promo/serum/">jp.rohto.com</a>
-  </div>
-  <div class="card__image">
-    <img src="https://jp.rohto.com/-/media/com/skin-aqua/promo/serum/20241218/assets/img/ogp.jpg?sc_lang=ja-jp" />
-  </div>
-  <div class="card__title">
-    <p>ヒアルロンセラムUV | ロート製薬: 商品情報サイト</p>
-  </div>
-  <div class="card__description">
-    <p>スキンアクアヒアルロンセラムUVの商品情報ページ。紫外線による乾燥ダメージから素肌を保護し、うるおい続く。ヒアルロン酸（うるおい成分）配合。アルコール（エタノール）フリーの日やけ止め。</p>
-  </div>
-</div>
-
-<p>Amazon定期おトク便で買うので5月末に届く予定。</p>]]></content><author><name>makietan</name></author><category term="health" /><summary type="html"><![CDATA[背中日焼け止め検証でも同じ結果出てた‼️・ビオレUV呼吸感ベール・ラロッシュポゼ・by365はガチで焼けないから今年の夏もこの3つで乗り切ります。 https://t.co/2OytdVRPie pic.twitter.com/I5R7ll1eSR&mdash; 🙂‍↕️🎀 (@_9743_o_sub) April 22, 2026]]></summary></entry></feed>
+<p>醤油とにんにく、しょうがの風味を効かせた、焼き肉のタレをイメージしたソースです。</p>]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[シャカシャカポテト® じゃがバタシーズニング https://www.mcdonalds.co.jp/products/6130/]]></summary></entry></feed>
