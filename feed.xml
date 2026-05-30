@@ -1,4 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-05-29T15:57:11+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>日報を中心に、技術メモやイベント参加記録をまとめるブログです。</subtitle><author><name>makietan</name></author><entry><title type="html">個人用のYouTubeのダウンロード管理ソフトを Copilot と codex 3.5 で改修してみた</title><link href="https://makietan.github.io/tech/2026/05/29/report.html" rel="alternate" type="text/html" title="個人用のYouTubeのダウンロード管理ソフトを Copilot と codex 3.5 で改修してみた" /><published>2026-05-29T00:00:00+09:00</published><updated>2026-05-29T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2026/05/29/report</id><content type="html" xml:base="https://makietan.github.io/tech/2026/05/29/report.html"><![CDATA[<p>繁雑なソースコードを Copilot と codex 3.5 で改修してみました。</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-05-30T15:26:28+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>日報を中心に、技術メモやイベント参加記録をまとめるブログです。</subtitle><author><name>makietan</name></author><entry><title type="html">マスターデュエルの Off-Meta イベントはアンデット族でやった</title><link href="https://makietan.github.io/game/yugioh/2026/05/30/report.html" rel="alternate" type="text/html" title="マスターデュエルの Off-Meta イベントはアンデット族でやった" /><published>2026-05-30T00:00:00+09:00</published><updated>2026-05-30T00:00:00+09:00</updated><id>https://makietan.github.io/game/yugioh/2026/05/30/report</id><content type="html" xml:base="https://makietan.github.io/game/yugioh/2026/05/30/report.html"><![CDATA[<p>誘いのΔで地下牢の徊神を落とせばだいたい勝てる</p>
+
+<p>儚無みずきを1枚しか持ってないので3枚投入してもいいかもしれない</p>
+
+<p>完全耐性のやつをどうやって処理するかはちょっと考えないといけないけど、まあなんとかなるでしょう</p>
+
+<p><img src="../assets/images/2026-05-30-report/04-16-41.png" alt="" /></p>]]></content><author><name>makietan</name></author><category term="game" /><category term="yugioh" /><summary type="html"><![CDATA[誘いのΔで地下牢の徊神を落とせばだいたい勝てる]]></summary></entry><entry><title type="html">個人用のYouTubeのダウンロード管理ソフトを Copilot と codex 3.5 で改修してみた</title><link href="https://makietan.github.io/tech/2026/05/29/report.html" rel="alternate" type="text/html" title="個人用のYouTubeのダウンロード管理ソフトを Copilot と codex 3.5 で改修してみた" /><published>2026-05-29T00:00:00+09:00</published><updated>2026-05-29T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2026/05/29/report</id><content type="html" xml:base="https://makietan.github.io/tech/2026/05/29/report.html"><![CDATA[<p>繁雑なソースコードを Copilot と codex 3.5 で改修してみました。</p>
 
 <p>フォーマットごとに分かれていたコードを、共通化できる部分は共通化して、コードの重複を減らしました。</p>
 
@@ -285,19 +291,4 @@
 
 <p>とまぁ、こんな感じで、顔の角質とニキビの関係について対策しようかなと思う。特に脂性肌や顎ニキビの人は、角質を溜めないことが重要みたいだね。先行乳液で肌を柔らかくして、サリチル酸で角質を削り取る方法も効果的みたいだから、試してみようかなと思う。</p>
 
-<p>Amazon定期おトク便でいろいろ買ってみる予定。</p>]]></content><author><name>makietan</name></author><category term="beauty" /><summary type="html"><![CDATA[脂性肌＆顎ニキビの人たちは角質勝負なんよね。もっとわかりやすく言えば肌の柔らかさ。「角質が溜まって毛穴を塞いで皮脂が詰まる」という最悪ループでニキビができてるので、角質を溜めないっていうのは根本的な対策でもある。だから先行乳液で肌を柔らかくして、サリチル酸で角質削り取っていくのは… https://t.co/9sPIvtna9t&mdash; 毛 (@keana_tsubusu) May 8, 2026]]></summary></entry><entry><title type="html">手軽に魚摂取しようかなと思う</title><link href="https://makietan.github.io/gourmet/2026/05/12/report.html" rel="alternate" type="text/html" title="手軽に魚摂取しようかなと思う" /><published>2026-05-12T00:00:00+09:00</published><updated>2026-05-12T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2026/05/12/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2026/05/12/report.html"><![CDATA[<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">補足<br />・カルシウムは牛乳の約25倍<br />・塩分は一般的な調味料の約18分の1<br />・DHA・EPAが補給できる<br />・無添加で原材料も安心<br /><br />実際味噌汁に入れてみたけど美味しくて便利でコスパも良いし添加物アレルギーの人や乳製品で腸が荒れてしまう人にも良さそう <a href="https://t.co/zkomoCeT32">https://t.co/zkomoCeT32</a></p>&mdash; るぴ (@rupigram_) <a href="https://twitter.com/rupigram_/status/2053717749562790155?ref_src=twsrc%5Etfw">May 11, 2026</a></blockquote>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<p>という投稿があったので便乗して購入。</p>
-
-<p><a href="https://amzn.to/4uCAdQ8">サカモト だしはこれ 300g</a> もあったが 300g もいらないかなと思ってこっちにした。</p>
-
-<h3 id="ヤマキ-瀬戸内産にぼしだし-120g"><a href="https://amzn.to/4uMBnJ8">ヤマキ 瀬戸内産にぼしだし 120g</a></h3>
-
-<p><a href="https://amzn.to/4uMBnJ8"><img src="https://m.media-amazon.com/images/I/81JM+2CsX3L._AC_SL1500_.jpg" alt="" /></a></p>
-
-<p>とりあえず 120g で 400円くらい。</p>
-
-<p>自分に合えばリピートしたり、宣伝されてるものを買ってみたりしてみようかなと思う。</p>
-
-<p>Amazon定期おトク（でもない）便なので月末からスタート予定。</p>]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[補足・カルシウムは牛乳の約25倍・塩分は一般的な調味料の約18分の1・DHA・EPAが補給できる・無添加で原材料も安心実際味噌汁に入れてみたけど美味しくて便利でコスパも良いし添加物アレルギーの人や乳製品で腸が荒れてしまう人にも良さそう https://t.co/zkomoCeT32&mdash; るぴ (@rupigram_) May 11, 2026]]></summary></entry></feed>
+<p>Amazon定期おトク便でいろいろ買ってみる予定。</p>]]></content><author><name>makietan</name></author><category term="beauty" /><summary type="html"><![CDATA[脂性肌＆顎ニキビの人たちは角質勝負なんよね。もっとわかりやすく言えば肌の柔らかさ。「角質が溜まって毛穴を塞いで皮脂が詰まる」という最悪ループでニキビができてるので、角質を溜めないっていうのは根本的な対策でもある。だから先行乳液で肌を柔らかくして、サリチル酸で角質削り取っていくのは… https://t.co/9sPIvtna9t&mdash; 毛 (@keana_tsubusu) May 8, 2026]]></summary></entry></feed>
