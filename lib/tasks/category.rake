@@ -1,6 +1,6 @@
 namespace :category do
+  require 'yaml'
   require 'time'
-  require "safe_yaml/load"
 
   YAML_FRONT_MATTER_REGEXP = %r!\A(---\s*\n.*?\n?)^((---|\.\.\.)\s*$\n?)!m
 
@@ -24,7 +24,11 @@ namespace :category do
     Dir.glob('./_posts/*.md').each do |f|
       content = File.read(f)
       if content =~ YAML_FRONT_MATTER_REGEXP
-        data_file = SafeYAML.load(Regexp.last_match(1))
+        data_file = YAML.safe_load(
+          Regexp.last_match(1),
+          permitted_classes: [Date, Time],
+          aliases: true
+        ) || {}
         if data_file["categories"].kind_of?(Array)
           data_file["categories"].each do |category|
             categories << category unless category.nil?

@@ -12,7 +12,8 @@ jobs:
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 3.3
+          ruby-version: 4.0
+          bundler-cache: true
       - name: Build Jekyll
         run: |
           sudo apt-get -y --reinstall install imagemagick
