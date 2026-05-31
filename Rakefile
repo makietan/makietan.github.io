@@ -10,7 +10,7 @@ task :b_d => ['utils:build_diff']
 
 desc "git diff --name-only origin/develop を実行する"
 task :d do
-  sh "git diff --name-only origin/develop | grep \"M _posts\""
+  sh "git diff --name-only origin/develop | grep \"_posts\""
 end
 
 desc "git add & git commit -m '日報'"
@@ -232,12 +232,12 @@ namespace :utils do
   namespace :lint do
     desc "日本語校閲する"
     task :build do
-      system "git status --porcelain | grep \"M _posts\" | sed s/^...// | xargs -n 1 sh -c 'npx textlint $0'"
+      system "git diff --name-only develop | grep \"_posts\" | xargs -n 1 sh -c 'npx textlint $0'"
     end
 
     desc "日本語校閲する(develop)"
     task :build_diff do
-      system "git diff --name-only develop | grep \"M _posts\" | xargs -n 1 sh -c 'npx textlint $0'"
+      system "git diff --name-only develop | grep \"_posts\" | xargs -n 1 sh -c 'npx textlint $0'"
     end
 
     desc "日本語校閲する(latest)"
@@ -270,11 +270,11 @@ namespace :utils do
   namespace :haiku do
     desc "変更ファイルに適用する"
     task :build do
-      system "git status --porcelain | grep \"M _posts\" | sed s/^...// | xargs -n 1 sh -c 'rake utils:haiku:apply $0'"
+      system "git diff --name-only develop | grep \"_posts\" | xargs -n 1 sh -c 'rake utils:haiku:apply $0'"
     end
 
     task :build_diff do
-      system "git diff --name-only develop | grep \"M _posts\" | xargs -n 1 sh -c 'rake utils:haiku:apply $0'"
+      system "git diff --name-only develop | grep \"_posts\" | xargs -n 1 sh -c 'rake utils:haiku:apply $0'"
     end
 
     desc "川柳の表示にする"
@@ -294,11 +294,11 @@ namespace :utils do
   namespace :twitter do
     desc "変更ファイルに適用する"
     task :build do
-      system "git status --porcelain | grep \"M _posts\" | sed s/^...// | xargs -n 1 sh -c 'rake utils:twitter:apply $0'"
+      system "git diff --name-only develop | grep \"_posts\" | xargs -n 1 sh -c 'rake utils:twitter:apply $0'"
     end
 
     task :build_diff do
-      system "git diff --name-only develop | grep \"M _posts\" | xargs -n 1 sh -c 'rake utils:twitter:apply $0'"
+      system "git diff --name-only develop | grep \"_posts\" | xargs -n 1 sh -c 'rake utils:twitter:apply $0'"
     end
 
     desc "中央寄せにする"
@@ -331,11 +331,11 @@ namespace :utils do
 
     desc "image を自動適用する"
     task :build do
-      system "git status --porcelain | grep \"M _posts\" | sed s/^...// | xargs -n 1 sh -c 'rake utils:image:apply $0'"
+      system "git diff --name-only develop | grep \"_posts\" | xargs -n 1 sh -c 'rake utils:image:apply $0'"
     end
 
     task :build_diff do
-      system "git diff --name-only develop | grep \"M _posts\" | xargs -n 1 sh -c 'rake utils:image:apply $0'"
+      system "git diff --name-only develop | grep \"_posts\" | xargs -n 1 sh -c 'rake utils:image:apply $0'"
     end
 
     desc "image を適用する"
@@ -368,11 +368,11 @@ namespace :utils do
 
     desc "embed を自動適用する"
     task :build do
-      system "git status --porcelain | grep \"M _posts\" | sed s/^...// | xargs -n 1 sh -c 'rake utils:embed:apply $0'"
+      system "git diff --name-only develop | grep \"_posts\" | xargs -n 1 sh -c 'rake utils:embed:apply $0'"
     end
 
     task :build_diff do
-      system "git diff --name-only develop | grep \"M _posts\" | xargs -n 1 sh -c 'rake utils:embed:apply $0'"
+      system "git diff --name-only develop | grep \"_posts\" | xargs -n 1 sh -c 'rake utils:embed:apply $0'"
     end
 
     desc "embed を適用する"

@@ -1,5 +1,3 @@
-require 'kconv'
-
 namespace :embed do
   require 'uri'
   require 'open-uri'
@@ -58,7 +56,8 @@ namespace :embed do
         opt['Accept-Language'] = 'ja,en;q=0.9,en-US;q=0.8'
         html = URI.open(uri, opt).read
         
-        doc = Nokogiri::HTML(html.toutf8, nil, 'utf-8')
+        utf8_html = html.encode('UTF-8', invalid: :replace, undef: :replace)
+        doc = Nokogiri::HTML(utf8_html, nil, 'utf-8')
 
         title = doc.title
         title = doc.xpath('//meta[@property="og:title"]/@content') if title.nil? || title.empty?
