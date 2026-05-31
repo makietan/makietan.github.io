@@ -1,4 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-05-31T17:49:57+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>日報を中心に、技術メモやイベント参加記録をまとめるブログです。</subtitle><author><name>makietan</name></author><entry><title type="html">エルフェンノーツとドラゴンメイド（ドラゴンテイル）を混ぜてみた</title><link href="https://makietan.github.io/game/yugioh/2026/05/31/report.html" rel="alternate" type="text/html" title="エルフェンノーツとドラゴンメイド（ドラゴンテイル）を混ぜてみた" /><published>2026-05-31T00:00:00+09:00</published><updated>2026-05-31T00:00:00+09:00</updated><id>https://makietan.github.io/game/yugioh/2026/05/31/report</id><content type="html" xml:base="https://makietan.github.io/game/yugioh/2026/05/31/report.html"><![CDATA[<div class="trim">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-06-01T02:44:08+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>日報を中心に、技術メモやイベント参加記録をまとめるブログです。</subtitle><author><name>makietan</name></author><entry><title type="html">最近の AI の挙動がだいぶカスになってきた</title><link href="https://makietan.github.io/tech/2026/06/01/report.html" rel="alternate" type="text/html" title="最近の AI の挙動がだいぶカスになってきた" /><published>2026-06-01T00:00:00+09:00</published><updated>2026-06-01T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2026/06/01/report</id><content type="html" xml:base="https://makietan.github.io/tech/2026/06/01/report.html"><![CDATA[<p>ちょっと使い物にならん。</p>
+
+<p>やめろと言っても同じ修正を何度もしてくる。</p>
+
+<p>色々なところに書いて抑制しているのにやってくる。</p>
+
+<p>さらに、自分で間違えて実装したところを絶対に直そうとしない。</p>
+
+<p>そのまま勝手に進行する。</p>
+
+<p>やるなと書いても勝手にやる。</p>
+
+<p>もうまともに指示に従わないゴミカスはやめてくれ。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[ちょっと使い物にならん。]]></summary></entry><entry><title type="html">エルフェンノーツとドラゴンメイド（ドラゴンテイル）を混ぜてみた</title><link href="https://makietan.github.io/game/yugioh/2026/05/31/report.html" rel="alternate" type="text/html" title="エルフェンノーツとドラゴンメイド（ドラゴンテイル）を混ぜてみた" /><published>2026-05-31T00:00:00+09:00</published><updated>2026-05-31T00:00:00+09:00</updated><id>https://makietan.github.io/game/yugioh/2026/05/31/report</id><content type="html" xml:base="https://makietan.github.io/game/yugioh/2026/05/31/report.html"><![CDATA[<div class="trim">
   <div class="trim__item">
     <a href="https://makietan.github.io/assets/images/2026-05-31-report/04-23-33.png">
       <img class="one" src="https://makietan.github.io/assets/thumbnail/2026-05-31-report/04-23-33.png" />
@@ -54,252 +66,51 @@
 
 <p>[embed:https://github.com/gadicc/yahoo-finance2]</p>
 
-<p>でまぁ、自分も保有銘柄や為替の情報を取得して動向を確認しているので、参考にした情報を紹介しました。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[株やら為替やら、金融の情報を扱うことがあると思います。そんなときに便利なのが Yahoo! ファイナンスの情報です。]]></summary></entry><entry><title type="html">このサイトのデザインを変更しようとしたら codex がアホほどプレミアム要求してきてめっちゃ損した</title><link href="https://makietan.github.io/tech/2026/05/21/report.html" rel="alternate" type="text/html" title="このサイトのデザインを変更しようとしたら codex がアホほどプレミアム要求してきてめっちゃ損した" /><published>2026-05-21T00:00:00+09:00</published><updated>2026-05-21T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2026/05/21/report</id><content type="html" xml:base="https://makietan.github.io/tech/2026/05/21/report.html"><![CDATA[<p>AI ほんと酷いな。</p>
-
-<p>ゴミカスすぎる。</p>
-
-<p>プレミアム要求20%も遣わされた。</p>
-
-<p>ありえない。</p>
-
-<p>修正しろって言ってることが何一つ修正できない。</p>
-
-<p>しかも変更を全てリセットしてくる。</p>
-
-<p>異常すぎる。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[AI ほんと酷いな。]]></summary></entry><entry><title type="html">たぬきスレッタ・きつねミオリネがまたやってくる</title><link href="https://makietan.github.io/gourmet/2026/05/20/report.html" rel="alternate" type="text/html" title="たぬきスレッタ・きつねミオリネがまたやってくる" /><published>2026-05-20T00:00:00+09:00</published><updated>2026-05-20T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2026/05/20/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2026/05/20/report.html"><![CDATA[<div class="card">
-  <a href="https://news.yahoo.co.jp/articles/512cc01c6099f2cd5cefbb647d47ffb32f967337"></a>
-  <div class="card__header">
-    <a href="https://news.yahoo.co.jp/articles/512cc01c6099f2cd5cefbb647d47ffb32f967337">news.yahoo.co.jp</a>
-  </div>
-  <div class="card__image">
-    <img src="https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260512-00000039-isd-000-1-view.jpg?exp=10800" />
-  </div>
-  <div class="card__title">
-    <p>「ガンダム 水星の魔女」たぬきスレッタ、きつねミオリネ再び！新たに浴衣姿で描き下ろされた「赤いたぬき/緑のきつね」コラボ商品が5月20日発売（インサイド） - Yahoo!ニュース</p>
-  </div>
-  <div class="card__description">
-    <p>セブン‐イレブンにて、「機動戦士ガンダム 水星の魔女」とコラボした「マルちゃん 縦型ビッグ 赤いたぬき天うどん」および「マルちゃん 縦型ビッグ 緑のきつねそば」が5月20日以降より順次発売されます。</p>
-  </div>
-</div>
-
-<p>前回はアクスタがあったから仕事そこそこに買いに行ったなぁ。</p>
-
-<p>また買えるといいな。</p>
-
-<h2 id="マルちゃん縦型ビッグ赤いたぬき天うどん">マルちゃん　縦型ビッグ　赤いたぬき天うどん</h2>
-
-<div class="card">
-  <a href="https://www.sej.co.jp/products/a/item/340029/"></a>
-  <div class="card__header">
-    <a href="https://www.sej.co.jp/products/a/item/340029/">www.sej.co.jp</a>
-  </div>
-  <div class="card__image">
-    <img src="" />
-  </div>
-  <div class="card__title">
-    <p>マルちゃん　縦型ビッグ　赤いたぬき天うどん｜セブン‐イレブン</p>
-  </div>
-  <div class="card__description">
-    <p>セブン‐イレブン・ジャパン</p>
-  </div>
-</div>
-
-<blockquote>
-  <p>マルちゃん　縦型ビッグ　赤いたぬき天うどん</p>
-
-  <p>248円（税込267.84円）</p>
-
-  <p>2026年05月20日（水）以降順次発売
-<!-- > 
-掲載商品は、店舗により取り扱いがない場合や販売地域内でも未発売の場合がございます。
-また、予想を大きく上回る売れ行きで原材料供給が追い付かない場合は、掲載中の商品であっても
-販売を終了している場合がございます。商品のお取り扱いについては、店舗にお問合せください。 --></p>
-</blockquote>
-
-<p><img src="https://img-afd.7api-01.dp1.sej.co.jp/item-image/340029/E776A9D29002C0AFB3E536BF32F6732C.jpg" alt="" /></p>
-
-<h2 id="マルちゃん縦型ビッグ緑のきつねそば">マルちゃん　縦型ビッグ　緑のきつねそば</h2>
-
-<div class="card">
-  <a href="https://www.sej.co.jp/products/a/item/340212/"></a>
-  <div class="card__header">
-    <a href="https://www.sej.co.jp/products/a/item/340212/">www.sej.co.jp</a>
-  </div>
-  <div class="card__image">
-    <img src="" />
-  </div>
-  <div class="card__title">
-    <p>マルちゃん　縦型ビッグ　緑のきつねそば｜セブン‐イレブン</p>
-  </div>
-  <div class="card__description">
-    <p>セブン‐イレブン・ジャパン</p>
-  </div>
-</div>
-
-<blockquote>
-  <p>マルちゃん　縦型ビッグ　緑のきつねそば</p>
-
-  <p>248円（税込267.84円）</p>
-
-  <p>2026年05月20日（水）以降順次発売
-<!-- >
-掲載商品は、店舗により取り扱いがない場合や販売地域内でも未発売の場合がございます。
-また、予想を大きく上回る売れ行きで原材料供給が追い付かない場合は、掲載中の商品であっても
-販売を終了している場合がございます。商品のお取り扱いについては、店舗にお問合せください。 --></p>
-</blockquote>
-
-<p><img src="https://img-afd.7api-01.dp1.sej.co.jp/item-image/340212/C43EB141CDA97AD57EC5F5FDE55057ED.jpg" alt="" /></p>]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[news.yahoo.co.jp 「ガンダム 水星の魔女」たぬきスレッタ、きつねミオリネ再び！新たに浴衣姿で描き下ろされた「赤いたぬき/緑のきつね」コラボ商品が5月20日発売（インサイド） - Yahoo!ニュース セブン‐イレブンにて、「機動戦士ガンダム 水星の魔女」とコラボした「マルちゃん 縦型ビッグ 赤いたぬき天うどん」および「マルちゃん 縦型ビッグ 緑のきつねそば」が5月20日以降より順次発売されます。]]></summary></entry><entry><title type="html">上坂すみれの土曜闇鍋劇場でプラスチック・ラブが流れた</title><link href="https://makietan.github.io/otaku/2026/05/17/report.html" rel="alternate" type="text/html" title="上坂すみれの土曜闇鍋劇場でプラスチック・ラブが流れた" /><published>2026-05-17T00:00:00+09:00</published><updated>2026-05-17T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2026/05/17/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2026/05/17/report.html"><![CDATA[<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">▂▅▇ 🎧NOW ON AIR📷▇▅▂<br /><br />👤<a href="https://twitter.com/hashtag/%E7%AB%B9%E5%86%85%E3%81%BE%E3%82%8A%E3%82%84?src=hash&amp;ref_src=twsrc%5Etfw">#竹内まりや</a><br /><br />🎵<a href="https://twitter.com/hashtag/%E3%83%97%E3%83%A9%E3%82%B9%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF%E3%83%BB%E3%83%A9%E3%83%96?src=hash&amp;ref_src=twsrc%5Etfw">#プラスティック・ラブ</a><br /><br />🔗<a href="https://t.co/3WKyfUZTx7">https://t.co/3WKyfUZTx7</a><a href="https://twitter.com/hashtag/%E5%B1%B1%E4%B8%8B%E9%81%94%E9%83%8E?src=hash&amp;ref_src=twsrc%5Etfw">#山下達郎</a> さんがプロデュース・編曲の名曲✨<br /><br />昨夜の <a href="https://twitter.com/hashtag/%E9%B7%B2%E5%B4%8E%E5%81%A5?src=hash&amp;ref_src=twsrc%5Etfw">#鷲崎健</a> さんの <a href="https://twitter.com/hashtag/%E3%82%A2%E3%82%B3%E3%82%AEFUN?src=hash&amp;ref_src=twsrc%5Etfw">#アコギFUN</a> でも<br />演奏されましたね☺️🌃<a href="https://twitter.com/hashtag/%E4%B8%8A%E5%9D%82%E3%81%99%E3%81%BF%E3%82%8C?src=hash&amp;ref_src=twsrc%5Etfw">#上坂すみれ</a> <a href="https://twitter.com/hashtag/%E3%81%99%E3%81%BF%E3%81%BA?src=hash&amp;ref_src=twsrc%5Etfw">#すみぺ</a><a href="https://twitter.com/hashtag/interfm?src=hash&amp;ref_src=twsrc%5Etfw">#interfm</a> <a href="https://twitter.com/hashtag/%E5%9C%9F%E3%83%8A%E3%83%99?src=hash&amp;ref_src=twsrc%5Etfw">#土ナベ</a></p>&mdash; 【公式】上坂すみれの土曜闇鍋劇場😈🥘 (@donaberadio) <a href="https://twitter.com/donaberadio/status/2055670105045078092?ref_src=twsrc%5Etfw">May 16, 2026</a></blockquote>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<p>上坂すみれの『土曜闇鍋劇場』で、竹内まりやの『プラスティック・ラブ』が流れました。
-この曲は山下達郎さんがプロデュース・編曲した名曲です。</p>
-
-<p>すみぺが選曲したのかは分かりませんが、良い選曲でした。</p>
-
-<div class="google">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/WpQCCB0Lpik?si=I7pe8Du1i-phnGfP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
-</div>
-
-<p>山下達郎さんのバックコーラスが後半で際立つライブバージョンはとても良いです。</p>
-
-<p>ちなみに正月の旅行で何度も聴かされたので、軽くノイローゼ気味かもしれません。</p>]]></content><author><name>makietan</name></author><category term="otaku" /><summary type="html"><![CDATA[▂▅▇ 🎧NOW ON AIR📷▇▅▂👤#竹内まりや🎵#プラスティック・ラブ🔗https://t.co/3WKyfUZTx7#山下達郎 さんがプロデュース・編曲の名曲✨昨夜の #鷲崎健 さんの #アコギFUN でも演奏されましたね☺️🌃#上坂すみれ #すみぺ#interfm #土ナベ&mdash; 【公式】上坂すみれの土曜闇鍋劇場😈🥘 (@donaberadio) May 16, 2026]]></summary></entry><entry><title type="html">「長縄まりあ talk &amp;amp; live 2026 ~microcosmos~」に行ってきた</title><link href="https://makietan.github.io/otaku/2026/05/16/report.html" rel="alternate" type="text/html" title="「長縄まりあ talk &amp;amp; live 2026 ~microcosmos~」に行ってきた" /><published>2026-05-16T00:00:00+09:00</published><updated>2026-05-16T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2026/05/16/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2026/05/16/report.html"><![CDATA[<p>「長縄まりあ talk &amp; live 2026 ~microcosmos~」に行ってきました。</p>
-
-<div class="trim">
+<p>でまぁ、自分も保有銘柄や為替の情報を取得して動向を確認しているので、参考にした情報を紹介しました。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[株やら為替やら、金融の情報を扱うことがあると思います。そんなときに便利なのが Yahoo! ファイナンスの情報です。]]></summary></entry><entry><title type="html">スレッタとミオリネのアクリルを確保してきました</title><link href="https://makietan.github.io/otaku/2026/05/26/report.html" rel="alternate" type="text/html" title="スレッタとミオリネのアクリルを確保してきました" /><published>2026-05-26T00:00:00+09:00</published><updated>2026-05-26T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2026/05/26/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2026/05/26/report.html"><![CDATA[<div class="trim">
   <div class="trim__item">
-    <a href="https://makietan.github.io/assets/images/2026-05-16-report/13-26-06.png">
-      <img class="one" src="https://makietan.github.io/assets/thumbnail/2026-05-16-report/13-26-06.png" />
+    <a href="https://makietan.github.io/assets/images/2026-05-26-report/01-26-00.png">
+      <img class="one" src="https://makietan.github.io/assets/thumbnail/2026-05-26-report/01-26-00.png" />
     </a>
   </div>
 </div>
 
-<p>会場はサイエンスホール。</p>
+<p>「機動戦士ガンダム 水星の魔女」オリジナルアクリルスタンド第2弾が始まっていたので、ひとまずスレッタとミオリネを確保してきました。</p>
 
-<p>桑原由気さんのまりあぬいぐるみの写真を見て、早くもテンションが上がりました。</p>
+<p>今回のラインナップでも、まずはこの2人を優先で取りに行った感じ。</p>
 
-<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">きたよ🥰✨<br />皆様もぜひ…✨ <a href="https://t.co/tm5stNNc42">https://t.co/tm5stNNc42</a> <a href="https://t.co/z2g4M2UprS">pic.twitter.com/z2g4M2UprS</a></p>&mdash; 桑原由気（くわはらゆうき） (@yuuki_0624) <a href="https://twitter.com/yuuki_0624/status/2055494127576563855?ref_src=twsrc%5Etfw">May 16, 2026</a></blockquote>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<p>男性キャラは基本見送りだけど、グエルだけは入手するかもしれない。</p>
 
-<p>入口は分かりにくかったですが、中に入ると「エントランス」や「入場口」と表示されていました。</p>
+<p>欲しいものを絞って取りに行くと、散財せずに済むし満足度も高いんですよね。</p>
 
-<div class="trim">
-  <div class="trim__item">
-    <a href="https://makietan.github.io/assets/images/2026-05-16-report/13-30-25.png">
-      <img class="one" src="https://makietan.github.io/assets/thumbnail/2026-05-16-report/13-30-25.png" />
-    </a>
-  </div>
-</div>
+<p>こういうキャンペーンをやってくれるセブン-イレブン最高ですな。</p>]]></content><author><name>makietan</name></author><category term="otaku" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">ラジオ100カノ第45回をリアタイで聴いた。Lynnさん良いわ</title><link href="https://makietan.github.io/otaku/2026/05/25/report.html" rel="alternate" type="text/html" title="ラジオ100カノ第45回をリアタイで聴いた。Lynnさん良いわ" /><published>2026-05-25T00:00:00+09:00</published><updated>2026-05-25T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2026/05/25/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2026/05/25/report.html"><![CDATA[<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">ふふーんでしたわー <a href="https://x.com/hashtag/%E3%83%A9%E3%82%B8%E3%82%AA100%E3%82%AB%E3%83%8E?src=hash&amp;ref_src=twsrc%5Etfw">#ラジオ100カノ</a> <a href="https://t.co/ScGatvsvTL">https://t.co/ScGatvsvTL</a></p>&mdash; Ｌｙｎｎ (りん) (@Lynn_0601_) <a href="https://x.com/Lynn_0601_/status/2058924941375119373?ref_src=twsrc%5Etfw">May 25, 2026</a></blockquote>
+<script async="" src="https://platform.x.com/widgets.js" charset="utf-8"></script>
 
-<p>会場前には既に同好の士が集まり、ざわめきと期待が混ざった空気が漂っていました。</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4-MFokl-u3Y?si=_x1_JD4ZMs9DkHwI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
 
-<p>入場前から胸が高鳴り、今日のトーク&amp;ライブはとても楽しみです。</p>
+<p>ラジオ100カノ第45回、ライブ配信をリアタイで聴いた。</p>
 
-<div class="trim">
-  <div class="trim__item">
-    <a href="https://makietan.github.io/assets/images/2026-05-16-report/13-26-32.png">
-      <img class="one" src="https://makietan.github.io/assets/thumbnail/2026-05-16-report/13-26-32.png" />
-    </a>
-  </div>
-</div>
+<p>今回も空気感がめちゃくちゃ良くて、最後までずっと楽しかった。</p>
 
-<p>フラスタが並び、入った瞬間から気分が上がりました。</p>
+<p>自分はLynnさんのファンなんだけど、やっぱりLynnさん良いわ。</p>
 
-<p>色とりどりの花と応援メッセージから推しへの熱量が伝わり、ライブに来た実感がぐっと湧きます。</p>
+<p>気づいたらアーカイブをもう一回流してる。</p>]]></content><author><name>makietan</name></author><category term="otaku" /><summary type="html"><![CDATA[ふふーんでしたわー #ラジオ100カノ https://t.co/ScGatvsvTL&mdash; Ｌｙｎｎ (りん) (@Lynn_0601_) May 25, 2026]]></summary></entry><entry><title type="html">公的な文書に「情弱」を書く感覚はやっぱり危うい</title><link href="https://makietan.github.io/japan/2026/05/23/report.html" rel="alternate" type="text/html" title="公的な文書に「情弱」を書く感覚はやっぱり危うい" /><published>2026-05-23T00:00:00+09:00</published><updated>2026-05-23T00:00:00+09:00</updated><id>https://makietan.github.io/japan/2026/05/23/report</id><content type="html" xml:base="https://makietan.github.io/japan/2026/05/23/report.html"><![CDATA[<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">昔、自治体の資料作成に参加したとき草案に情弱って書いてて<br />お前が情弱かいと内心思いながら<br />修正依頼した思い出<br />アレは酷かった <a href="https://t.co/9XawCzfWhX">https://t.co/9XawCzfWhX</a></p>&mdash; まきえたん☘️🥦 (@makietanX) <a href="https://x.com/makietanX/status/2058144306981167241?ref_src=twsrc%5Etfw">May 23, 2026</a></blockquote>
+<script async="" src="https://platform.x.com/widgets.js" charset="utf-8"></script>
 
-<p>ライブはとても楽しかったです。ゲストMCの桑原由気さんの紹介に続き、曲や二人の関係にまつわるトークが展開されました。</p>
+<p>「情弱」をどう読むかの話にしても、実務の側では別の問題が残る。</p>
 
-<p>曲にまつわる話では、合いの手に4人のまりあがいることや英語のフレーズを照れながら話したり、チーズが好き、グリーンピースが苦手、シティポップが好きなど、さまざまなエピソードが飛び出して面白かったです。</p>
+<p>昔、自治体の資料作成に参加したとき、草案にそのまま「情弱」って書いてあって普通にびっくりした。内心では「お前が情弱かい」と思いつつ、公開物に載せるのはまずいので修正依頼を出した。</p>
 
-<p>長縄まりあの人となりが分かる2択クイズなど、ファンにはたまらない内容もありました。</p>
+<p>ネットスラングとして使う場面があるのはわかる。でも、行政や公共向けの資料で使った瞬間に、説明する側が対象を見下しているように見えるんですよね。読み手の理解を助けるどころか、距離を広げる言葉になってしまう。</p>
 
-<p>観客参加コーナーは予想以上にカオスで最高でした。</p>
+<p>しかも、こういう言葉は一回入ると半永久的に残ってしまう。だから最初の段階で止めるしかないし、レビュー時に「この語は誰にどう響くか」をちゃんと見るのが大事だと思う。</p>
 
-<p>演者が選んだ観客同士がじゃんけんをして、勝者にまりあが質問するという趣向で、即興性がイベントならではの面白さを生んでいました。</p>
+<p>言い換えはいくらでもできるのに、わざわざ刺さる言い方を残す必要はない。公的な文章ほど、正確さだけじゃなくて敬意のある語彙を選ぶべきなんだよな。</p>]]></content><author><name>makietan</name></author><category term="japan" /><summary type="html"><![CDATA[昔、自治体の資料作成に参加したとき草案に情弱って書いててお前が情弱かいと内心思いながら修正依頼した思い出アレは酷かった https://t.co/9XawCzfWhX&mdash; まきえたん☘️🥦 (@makietanX) May 23, 2026]]></summary></entry><entry><title type="html">AI使ったセキュリティソフトが見当たらないのは不思議</title><link href="https://makietan.github.io/tech/2026/05/22/report.html" rel="alternate" type="text/html" title="AI使ったセキュリティソフトが見当たらないのは不思議" /><published>2026-05-22T00:00:00+09:00</published><updated>2026-05-22T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2026/05/22/report</id><content type="html" xml:base="https://makietan.github.io/tech/2026/05/22/report.html"><![CDATA[<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">AI 使ったセキュリティソフトが出てこないの不思議</p>&mdash; まきえたん☘️🥦 (@makietanX) <a href="https://x.com/makietanX/status/2057337615754641916?ref_src=twsrc%5Etfw">May 21, 2026</a></blockquote>
+<script async="" src="https://platform.x.com/widgets.js" charset="utf-8"></script>
 
-<p>笑いと一体感が増し、会場の熱気がさらに高まりました。</p>
+<p>AI使ったセキュリティソフトって、今の空気ならもっと露骨に出てきてもよさそうなのに、案外見当たらないんだよな。</p>
 
-<p>質問の仕方もクセがあって、昼の部では事前に用意されたまりあ用のサンプルの資料も見ずに質問をしていて、観客も謎の質問に戸惑いながらも楽しんでいました。</p>
+<p>何にでもAIの看板が付きがちな時期なのに、ここだけは「AIで守ります」を前面に出した定番がぱっと浮かばない。むしろ静かすぎて、そこが少し不思議に見える。</p>
 
-<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">ポケモンバトルみたいに野生のオタクをバトル（じゃんけん）させて勝者から個人情報を聞き出す神コーナーがあったのと<br />曲について、4人のまりあや英語を照れながら言ったりの話や <a href="https://twitter.com/hashtag/%E9%95%B7%E7%B8%84%E3%81%BE%E3%82%8A%E3%81%82?src=hash&amp;ref_src=twsrc%5Etfw">#長縄まりあ</a> の生態がわかる2択問題等<br />最後までたっぷりなイベントだった<br />夜も行きます<br />ライブも良かった</p>&mdash; まきえたん☘️🥦 (@makietanX) <a href="https://twitter.com/makietanX/status/2055560980479070531?ref_src=twsrc%5Etfw">May 16, 2026</a></blockquote>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<p>たぶんセキュリティは、賢そうに見えることより、変な誤検知をしないとか、勝手に重くならないとか、そういう地味な安心感の方がずっと大事なんだと思う。AIを売り文句にした瞬間に、便利そうより先に怖さが立つのかもしれない。</p>
 
-<p>『自宅でアニメを見るときは何を食べるんだい？』という質問で観客が『ポッキー』と答えると、長縄さんは『最後までチョコたっぷりだもんね』と返し、桑原さんが『トッポ』とツッコむなど、やり取りがとても面白かったです。</p>
-
-<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">ポッキーのくだり面白すぎた<br />ド天然発揮してるの最高<a href="https://twitter.com/hashtag/%E9%95%B7%E7%B8%84%E3%81%BE%E3%82%8A%E3%81%82?src=hash&amp;ref_src=twsrc%5Etfw">#長縄まりあ</a></p>&mdash; まきえたん☘️🥦 (@makietanX) <a href="https://twitter.com/makietanX/status/2055554006928531524?ref_src=twsrc%5Etfw">May 16, 2026</a></blockquote>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<p>セットリストはカバー曲も含めてこんな感じでした。</p>
-
-<blockquote class="twitter-tweet tw-align-center" data-conversation="none"><p lang="ja" dir="ltr">SETLISTを公開✨<br /><br />ミニアルバム「microcosmos」<br />これからもたくさん聴いてくださいね♪ <a href="https://t.co/qu6cmdg7Ky">pic.twitter.com/qu6cmdg7Ky</a></p>&mdash; 長縄まりあ Music Official (@maria_n_music) <a href="https://twitter.com/maria_n_music/status/2055631330252386433?ref_src=twsrc%5Etfw">May 16, 2026</a></blockquote>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<p>セットリストは『microcosmos』を中心とした構成で、カバー曲も交えつつ聴きごたえがありました。どの曲も最高でした。</p>
-
-<p>『絶対！ニーデリッヒ宣言♡』では、天城サリーのパートを観客に歌ってもらうためにマイクが向けられる無茶振りがあり、会場は大いに盛り上がりました。</p>
-
-<p>『恋愛サーキュレーション』は、長縄さんの歌唱力と表現力が存分に発揮されていて、会場全体が魅了されました。ちょっとミスもあったけど、それも含めてライブの醍醐味だと感じました。</p>
-
-<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">✨新楽曲公開✨<br /><br />新楽曲『絶対！ニーデリッヒ宣言♡』も公開です🌟<br /><br />🎵楽曲詳細🎵<br />作詞 <a href="https://twitter.com/hashtag/%E5%BF%97%E6%9D%91%E7%9C%9F%E7%99%BD?src=hash&amp;ref_src=twsrc%5Etfw">#志村真白</a>（FirstCall）<br />作曲 <a href="https://twitter.com/hashtag/%E5%BF%97%E6%9D%91%E7%9C%9F%E7%99%BD?src=hash&amp;ref_src=twsrc%5Etfw">#志村真白</a>（FirstCall）<br />編曲 <a href="https://twitter.com/hashtag/%E5%BF%97%E6%9D%91%E7%9C%9F%E7%99%BD?src=hash&amp;ref_src=twsrc%5Etfw">#志村真白</a>（FirstCall）<br />歌 <a href="https://twitter.com/hashtag/%E3%82%AB%E3%83%88%E3%83%AA%E3%83%8A%E3%83%BB%E3%82%B0%E3%83%AA%E3%83%BC%E3%83%99%E3%83%AB?src=hash&amp;ref_src=twsrc%5Etfw">#カトリナ・グリーベル</a> (CV <a href="https://twitter.com/hashtag/%E5%A4%A9%E5%9F%8E%E3%82%B5%E3%83%AA%E3%83%BC?src=hash&amp;ref_src=twsrc%5Etfw">#天城サリー</a>)<br /> <a href="https://twitter.com/hashtag/%E6%96%B0%E5%A6%BB%E5%85%AB%E6%81%B5?src=hash&amp;ref_src=twsrc%5Etfw">#新妻八恵</a> (CV <a href="https://twitter.com/hashtag/%E9%95%B7%E7%B8%84%E3%81%BE%E3%82%8A%E3%81%82?src=hash&amp;ref_src=twsrc%5Etfw">#長縄まりあ</a>)<a href="https://twitter.com/hashtag/%E3%83%A6%E3%83%A1%E3%82%B9%E3%83%86?src=hash&amp;ref_src=twsrc%5Etfw">#ユメステ</a> <a href="https://twitter.com/hashtag/%E3%83%AF%E3%83%BC%E3%83%80%E3%82%A4?src=hash&amp;ref_src=twsrc%5Etfw">#ワーダイ</a> <a href="https://twitter.com/hashtag/%E3%83%AF%E3%83%BC%E3%83%AB%E3%83%89%E3%83%80%E3%82%A4%E3%82%B9%E3%82%BF%E3%83%BC?src=hash&amp;ref_src=twsrc%5Etfw">#ワールドダイスター</a></p>&mdash; ワールドダイスター 夢のステラリウム (ユメステ) 公式 (@wds_game) <a href="https://twitter.com/wds_game/status/1877310348631617811?ref_src=twsrc%5Etfw">January 9, 2025</a></blockquote>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<p>終演後もしばらく余韻が残り、帰り道も歌が頭から離れず、ついニヤニヤしてしまいました。こういう体験があるからライブはやめられません。</p>
-
-<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">長縄まりあ Talk &amp; Live 2026 ～microcosmos～<br /><br />無事終了しました✨<br /><br />お越しいただいた皆様<br />ありがとうございました🎀<br />楽しんでいただけたでしょうか？🫧<a href="https://twitter.com/hashtag/%E9%95%B7%E7%B8%84%E3%81%BE%E3%82%8A%E3%81%82%E3%83%9F%E3%82%AF%E3%83%AD%E3%82%B3%E3%82%B9%E3%83%A2%E3%82%B9?src=hash&amp;ref_src=twsrc%5Etfw">#長縄まりあミクロコスモス</a> で<br />沢山感想をポストしてくださいね♪（スタッフ） <a href="https://t.co/IomVEyhLQT">pic.twitter.com/IomVEyhLQT</a></p>&mdash; 長縄まりあ Music Official (@maria_n_music) <a href="https://twitter.com/maria_n_music/status/2055620143083110877?ref_src=twsrc%5Etfw">May 16, 2026</a></blockquote>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">『 <a href="https://twitter.com/hashtag/%E9%95%B7%E7%B8%84%E3%81%BE%E3%82%8A%E3%81%82%E3%83%9F%E3%82%AF%E3%83%AD%E3%82%B3%E3%82%B9%E3%83%A2%E3%82%B9?src=hash&amp;ref_src=twsrc%5Etfw">#長縄まりあミクロコスモス</a> 』<br />ありがとうございました！<br />まりあちゃんの人柄が感じられるような愛に溢れた素敵なイベントでした✨<br />まだあたたかな余韻が残っています…☺️<br />これからも曲をたくさん聴いて、まりあちゃんに感想もいっぱい届けて下さいっ🎶 <a href="https://t.co/qh94J4QAEy">https://t.co/qh94J4QAEy</a> <a href="https://t.co/22oyTBO1UR">pic.twitter.com/22oyTBO1UR</a></p>&mdash; 桑原由気（くわはらゆうき） (@yuuki_0624) <a href="https://twitter.com/yuuki_0624/status/2055624742120645020?ref_src=twsrc%5Etfw">May 16, 2026</a></blockquote>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<h2 id="おわりに">おわりに</h2>
-
-<h3 id="清水門">清水門</h3>
-
-<div class="trim">
-  <div class="trim__item">
-    <a href="https://makietan.github.io/assets/images/2026-05-16-report/13-31-31.png">
-      <img class="one" src="https://makietan.github.io/assets/thumbnail/2026-05-16-report/13-31-31.png" />
-    </a>
-  </div>
-</div>
-
-<p>昼の部の帰りは清水門から出ました。</p>
-
-<p>段差のある階段を降りるのがちょっと楽しかったです。</p>
-
-<h3 id="夕食">夕食</h3>
-
-<p>イベント後は神保町まで歩いて、ちゃん系ラーメン店『新橋ニューともちんラーメン 神保町店』へ。</p>
-
-<div class="trim">
-  <div class="trim__item">
-    <a href="https://makietan.github.io/assets/images/2026-05-16-report/13-34-23.png">
-      <img class="one" src="https://makietan.github.io/assets/thumbnail/2026-05-16-report/13-34-23.png" />
-    </a>
-  </div>
-</div>
-
-<p><u>わかめ中華そば（890円）＋めし大（無料）</u></p>
-
-<div class="trim">
-  <div class="trim__item">
-    <a href="https://makietan.github.io/assets/images/2026-05-16-report/13-35-20.png">
-      <img class="one" src="https://makietan.github.io/assets/thumbnail/2026-05-16-report/13-35-20.png" />
-    </a>
-  </div>
-</div>
-
-<p>イベント後はいつもラーメンで締めると決めているので、今回もラーメンで締めました。賑やかな余韻に浸りながら熱い一杯をすすり、胡椒とにんにくで自分好みに整えると完璧な締めになりました。</p>
-
-<p>わかめ中華そばはあっさりとした豚清湯スープにわかめの風味が加わり、とても美味しかったです。めし大は無料で、ラーメンと合わせると満足感がありました。青かっぱも無料で、めしは余裕で平らげられました。</p>
-
-<p>またサイエンスホールでイベントがあれば、ぜひ行きたいです。都営三田線のアクセスが良く、遅い時間帯の夕食にも便利そうです。</p>
-
-<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">新橋ニューともちんラーメン 神保町店のわかめ中華そばがなかなか良かった安いし<br />とはいえ<br />たきちゃんラーメンの高菜キムチの方が好き<br />大昔に背脂乗ってたのが好きだったけどあれはお試し商品だったのかな</p>&mdash; まきえたん☘️🥦 (@makietanX) <a href="https://twitter.com/makietanX/status/2055609732552151261?ref_src=twsrc%5Etfw">May 16, 2026</a></blockquote>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<p>初めて食べたちゃん系ラーメンが親の味として刷り込まれている影響か、たきちゃんラーメンの高菜キムチの方が好みだと改めて感じました。ただ、わかめ中華そばも美味しかったので、また食べたいです。</p>]]></content><author><name>makietan</name></author><category term="otaku" /><summary type="html"><![CDATA[「長縄まりあ talk &amp; live 2026 ~microcosmos~」に行ってきました。]]></summary></entry><entry><title type="html">ポケモンベースボールフェスタ2026関連グッズのユニとTシャツとタオルだけ注文した</title><link href="https://makietan.github.io/baseball/2026/05/14/report.html" rel="alternate" type="text/html" title="ポケモンベースボールフェスタ2026関連グッズのユニとTシャツとタオルだけ注文した" /><published>2026-05-14T00:00:00+09:00</published><updated>2026-05-14T00:00:00+09:00</updated><id>https://makietan.github.io/baseball/2026/05/14/report</id><content type="html" xml:base="https://makietan.github.io/baseball/2026/05/14/report.html"><![CDATA[<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">「ポケモンベースボールフェスタ2026」関連グッズ<br />一部商品受注販売のお知らせ⚾️<br /><br />ご好評により品切れ中の下記商品につきましては、5/9(土)11時より球団オンラインショップにて受注販売を行います。<br /><br />【受注販売商品】<br />⚡️ポケモン2026 バファローズ ユニフォームシャツ<br />⚡️ポケモン2026 バファローズ… <a href="https://t.co/JK7PqXsx2c">pic.twitter.com/JK7PqXsx2c</a></p>&mdash; オリックス・バファローズ (@Orix_Buffaloes) <a href="https://twitter.com/Orix_Buffaloes/status/2052671661317775771?ref_src=twsrc%5Etfw">May 8, 2026</a></blockquote>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<p>とりあえず予約できるものを買った。
-他のグッズもあるみたいだけど、ユニフォームシャツとTシャツとタオルだけ注文した。</p>
-
-<p>7月に届くみたいだから楽しみだな。</p>]]></content><author><name>makietan</name></author><category term="baseball" /><summary type="html"><![CDATA[「ポケモンベースボールフェスタ2026」関連グッズ一部商品受注販売のお知らせ⚾️ご好評により品切れ中の下記商品につきましては、5/9(土)11時より球団オンラインショップにて受注販売を行います。【受注販売商品】⚡️ポケモン2026 バファローズ ユニフォームシャツ⚡️ポケモン2026 バファローズ… pic.twitter.com/JK7PqXsx2c&mdash; オリックス・バファローズ (@Orix_Buffaloes) May 8, 2026]]></summary></entry></feed>
+<p>中身では普通に使われていても、表ではあえて言わない。そのくらいの距離感が一番しっくり来る分野なのかもな、という気がする。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[AI 使ったセキュリティソフトが出てこないの不思議&mdash; まきえたん☘️🥦 (@makietanX) May 21, 2026]]></summary></entry></feed>
