@@ -1,6 +1,6 @@
 namespace :category do
   require 'yaml'
-  require 'time'
+  require 'date'
 
   YAML_FRONT_MATTER_REGEXP = %r!\A(---\s*\n.*?\n?)^((---|\.\.\.)\s*$\n?)!m
 

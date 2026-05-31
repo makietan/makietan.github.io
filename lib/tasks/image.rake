@@ -1,8 +1,4 @@
 namespace :image do
-  require 'uri'
-  require 'open-uri'
-  require "nokogiri"
-
   desc 'Image適用'
   task :apply do
     filename = File.basename(ARGV[3]).gsub('.md', '')

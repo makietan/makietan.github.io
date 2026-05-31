@@ -107,7 +107,6 @@ DEPENDENCIES
   mini_magick
   nokogiri
   rake
-  safe_yaml
   tzinfo-data
   webrick (~> 1.7)
 
