@@ -190,6 +190,9 @@ namespace :utils do
       Rake::Task["utils:twitter:build"].invoke()
     end
     threads << Thread.new do
+      Rake::Task["utils:youtube:build"].invoke()
+    end
+    threads << Thread.new do
       Rake::Task["utils:image:build"].invoke()
     end
     threads << Thread.new do
@@ -209,6 +212,9 @@ namespace :utils do
     end
     threads << Thread.new do
       Rake::Task["utils:twitter:build_diff"].invoke()
+    end
+    threads << Thread.new do
+      Rake::Task["utils:youtube:build_diff"].invoke()
     end
     threads << Thread.new do
       Rake::Task["utils:image:build_diff"].invoke()
@@ -306,6 +312,30 @@ namespace :utils do
       file_path = "#{ARGV.last}"
       if !file_path.empty?
         system "bundle exec rake -f lib/tasks/twitter.rake twitter:apply #{file_path}"
+        sleep 3
+      end
+      ARGV.slice(1, ARGV.size).each{ |v|
+        task v.to_sym do;
+        end
+      }
+    end
+  end
+
+  namespace :youtube do
+    desc "変更ファイルに適用する"
+    task :build do
+      system "git diff --name-only develop | grep \"_posts\" | xargs -n 1 sh -c 'rake utils:youtube:apply $0'"
+    end
+
+    task :build_diff do
+      system "git diff --name-only develop | grep \"_posts\" | xargs -n 1 sh -c 'rake utils:youtube:apply $0'"
+    end
+
+    desc "YouTube embed を google で囲む"
+    task :apply do
+      file_path = "#{ARGV.last}"
+      if !file_path.empty?
+        system "bundle exec rake -f lib/tasks/youtube.rake youtube:apply #{file_path}"
         sleep 3
       end
       ARGV.slice(1, ARGV.size).each{ |v|
