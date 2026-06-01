@@ -21,6 +21,14 @@ permalink: /links/
 - [@makietan2](https://twitter.com/makietan2) - プライベート
 - [@makietanP](https://x.com/makietanP) - プチミレ専用
 
+## SNS
+- [Bluesky](https://bsky.app/profile/tanjoin.bsky.social)
+- [Truth Social](https://truthsocial.com/@tanjoin)
+- [Instagram](https://www.instagram.com/tanjoin/?hl=ja)
+- [tanjoin\(@tanjoin\) • Threads](https://www.threads.com/@tanjoin)
+- [tanjoin \(@tanjoin\) \| mixi2](https://mixi.social/@tanjoin)
+- [makietan \(@makietan\) \| mixi2](https://mixi.social/@makietan)
+
 ## Blog
 - [役に立ちそうで役に立たないブログ](https://tanjoin.hatenablog.com/)
 - [すずろ庵](https://tanjoin.hatenablog.jp/)
