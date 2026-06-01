@@ -3857,7 +3857,7 @@
     "tags": [],
     "url": "/tech/2026/05/27/report.html",
     "date": {"year": "2026", "month": "05", "day": "27"},
-    "content": "株やら為替やら、金融の情報を扱うことがあると思います。そんなときに便利なのが Yahoo! ファイナンスの情報です。[embed:https://finance.yahoo.co.jp/]Yahoo! ファイナンス公式のライブラリは存在しないのですが、非公式のライブラリがいくつか存在しています。[embed:https://github.com/gadicc/yahoo-finance2]でまぁ、自分も保有銘柄や為替の情報を取得して動向を確認しているので、参考にした情報を紹介しました。"
+    "content": "株やら為替やら、金融の情報を扱うことがあると思います。そんなときに便利なのが Yahoo! ファイナンスの情報です。        finance.yahoo.co.jp                Yahoo!ファイナンス - 株価・最新ニュース        リアルタイム株価、最新ニュース、株式掲示板などを提供する、投資やマネーの総合情報サイトです。株価指数、外国為替相場、日本株、米国株など、投資判断に役立つ情報を掲載しています。  Yahoo! ファイナンス公式のライブラリは存在しないのですが、非公式のライブラリがいくつか存在しています。        github.com                GitHub - gadicc/yahoo-finance2: Unofficial API for Yahoo Finance with CLI, MCP and Agent Skill · GitHub        Unofficial API for Yahoo Finance with CLI, MCP and Agent Skill - gadicc/yahoo-finance2  でまぁ、自分も保有銘柄や為替の情報を取得して動向を確認しているので、参考にした情報を紹介しました。"
   },
   
   {

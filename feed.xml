@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-06-01T03:46:24+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>日報を中心に、技術メモやイベント参加記録をまとめるブログです。</subtitle><author><name>makietan</name></author><entry><title type="html">最近の AI の挙動がだいぶカスになってきた</title><link href="https://makietan.github.io/tech/2026/06/01/report.html" rel="alternate" type="text/html" title="最近の AI の挙動がだいぶカスになってきた" /><published>2026-06-01T00:00:00+09:00</published><updated>2026-06-01T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2026/06/01/report</id><content type="html" xml:base="https://makietan.github.io/tech/2026/06/01/report.html"><![CDATA[<p>ちょっと使い物にならん。</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-06-01T14:33:06+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>日報を中心に、技術メモやイベント参加記録をまとめるブログです。</subtitle><author><name>makietan</name></author><entry><title type="html">最近の AI の挙動がだいぶカスになってきた</title><link href="https://makietan.github.io/tech/2026/06/01/report.html" rel="alternate" type="text/html" title="最近の AI の挙動がだいぶカスになってきた" /><published>2026-06-01T00:00:00+09:00</published><updated>2026-06-01T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2026/06/01/report</id><content type="html" xml:base="https://makietan.github.io/tech/2026/06/01/report.html"><![CDATA[<p>ちょっと使い物にならん。</p>
 
 <p>やめろと言っても同じ修正を何度もしてくる。</p>
 
@@ -60,11 +60,39 @@
 
 <p>育成したい機体だったので引けてラッキーでした。</p>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[いやーまさかですよ。]]></summary></entry><entry><title type="html">Yahoo! ファイナンスの情報を扱ってみる</title><link href="https://makietan.github.io/tech/2026/05/27/report.html" rel="alternate" type="text/html" title="Yahoo! ファイナンスの情報を扱ってみる" /><published>2026-05-27T00:00:00+09:00</published><updated>2026-05-27T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2026/05/27/report</id><content type="html" xml:base="https://makietan.github.io/tech/2026/05/27/report.html"><![CDATA[<p>株やら為替やら、金融の情報を扱うことがあると思います。そんなときに便利なのが Yahoo! ファイナンスの情報です。</p>
 
-<p>[embed:https://finance.yahoo.co.jp/]</p>
+<div class="card">
+  <a href="https://finance.yahoo.co.jp/"></a>
+  <div class="card__header">
+    <a href="https://finance.yahoo.co.jp/">finance.yahoo.co.jp</a>
+  </div>
+  <div class="card__image">
+    <img src="https://s.yimg.jp/images/finance/common/image/ogp.png" />
+  </div>
+  <div class="card__title">
+    <p>Yahoo!ファイナンス - 株価・最新ニュース</p>
+  </div>
+  <div class="card__description">
+    <p>リアルタイム株価、最新ニュース、株式掲示板などを提供する、投資やマネーの総合情報サイトです。株価指数、外国為替相場、日本株、米国株など、投資判断に役立つ情報を掲載しています。</p>
+  </div>
+</div>
 
 <p>Yahoo! ファイナンス公式のライブラリは存在しないのですが、非公式のライブラリがいくつか存在しています。</p>
 
-<p>[embed:https://github.com/gadicc/yahoo-finance2]</p>
+<div class="card">
+  <a href="https://github.com/gadicc/yahoo-finance2"></a>
+  <div class="card__header">
+    <a href="https://github.com/gadicc/yahoo-finance2">github.com</a>
+  </div>
+  <div class="card__image">
+    <img src="https://opengraph.githubassets.com/02e2503c9574661588981cf85039bffb6b35a6a9a22a7d107642fe5f9a451517/gadicc/yahoo-finance2" />
+  </div>
+  <div class="card__title">
+    <p>GitHub - gadicc/yahoo-finance2: Unofficial API for Yahoo Finance with CLI, MCP and Agent Skill · GitHub</p>
+  </div>
+  <div class="card__description">
+    <p>Unofficial API for Yahoo Finance with CLI, MCP and Agent Skill - gadicc/yahoo-finance2</p>
+  </div>
+</div>
 
 <p>でまぁ、自分も保有銘柄や為替の情報を取得して動向を確認しているので、参考にした情報を紹介しました。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[株やら為替やら、金融の情報を扱うことがあると思います。そんなときに便利なのが Yahoo! ファイナンスの情報です。]]></summary></entry><entry><title type="html">スレッタとミオリネのアクリルを確保してきました</title><link href="https://makietan.github.io/otaku/2026/05/26/report.html" rel="alternate" type="text/html" title="スレッタとミオリネのアクリルを確保してきました" /><published>2026-05-26T00:00:00+09:00</published><updated>2026-05-26T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2026/05/26/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2026/05/26/report.html"><![CDATA[<div class="trim">
   <div class="trim__item">
