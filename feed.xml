@@ -1,4 +1,18 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-06-01T20:48:37+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>日報を中心に、技術メモやイベント参加記録をまとめるブログです。</subtitle><author><name>makietan</name></author><entry><title type="html">最近の AI の挙動がだいぶカスになってきた</title><link href="https://makietan.github.io/tech/2026/06/01/report.html" rel="alternate" type="text/html" title="最近の AI の挙動がだいぶカスになってきた" /><published>2026-06-01T00:00:00+09:00</published><updated>2026-06-01T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2026/06/01/report</id><content type="html" xml:base="https://makietan.github.io/tech/2026/06/01/report.html"><![CDATA[<p>ちょっと使い物にならん。</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-06-02T16:26:01+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>日報を中心に、技術メモやイベント参加記録をまとめるブログです。</subtitle><author><name>makietan</name></author><entry><title type="html">飯能の駅近ハイキングやってみたい</title><link href="https://makietan.github.io/otaku/2026/06/02/report.html" rel="alternate" type="text/html" title="飯能の駅近ハイキングやってみたい" /><published>2026-06-02T00:00:00+09:00</published><updated>2026-06-02T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2026/06/02/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2026/06/02/report.html"><![CDATA[<p>アド街見てたら行きたくなった。</p>
+
+<p>天覧山と多峰主山を歩く。</p>
+
+<p>1時間30分で多峰主山の頂上に行けるらしい。</p>
+
+<ul>
+  <li>ムササビ</li>
+  <li>十六羅漢像</li>
+  <li>飯能笹</li>
+</ul>
+
+<p>うどん こくや にもまた行きたい。</p>
+
+<p>（Google確認したら前回6年前という…）</p>]]></content><author><name>makietan</name></author><category term="otaku" /><summary type="html"><![CDATA[アド街見てたら行きたくなった。]]></summary></entry><entry><title type="html">最近の AI の挙動がだいぶカスになってきた</title><link href="https://makietan.github.io/tech/2026/06/01/report.html" rel="alternate" type="text/html" title="最近の AI の挙動がだいぶカスになってきた" /><published>2026-06-01T00:00:00+09:00</published><updated>2026-06-01T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2026/06/01/report</id><content type="html" xml:base="https://makietan.github.io/tech/2026/06/01/report.html"><![CDATA[<p>ちょっと使い物にならん。</p>
 
 <p>やめろと言っても同じ修正を何度もしてくる。</p>
 
@@ -134,13 +148,4 @@
 
 <p>しかも、こういう言葉は一回入ると半永久的に残ってしまう。だから最初の段階で止めるしかないし、レビュー時に「この語は誰にどう響くか」をちゃんと見るのが大事だと思う。</p>
 
-<p>言い換えはいくらでもできるのに、わざわざ刺さる言い方を残す必要はない。公的な文章ほど、正確さだけじゃなくて敬意のある語彙を選ぶべきなんだよな。</p>]]></content><author><name>makietan</name></author><category term="japan" /><summary type="html"><![CDATA[昔、自治体の資料作成に参加したとき草案に情弱って書いててお前が情弱かいと内心思いながら修正依頼した思い出アレは酷かった https://t.co/9XawCzfWhX&mdash; まきえたん☘️🥦 (@makietanX) May 23, 2026]]></summary></entry><entry><title type="html">AI使ったセキュリティソフトが見当たらないのは不思議</title><link href="https://makietan.github.io/tech/2026/05/22/report.html" rel="alternate" type="text/html" title="AI使ったセキュリティソフトが見当たらないのは不思議" /><published>2026-05-22T00:00:00+09:00</published><updated>2026-05-22T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2026/05/22/report</id><content type="html" xml:base="https://makietan.github.io/tech/2026/05/22/report.html"><![CDATA[<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">AI 使ったセキュリティソフトが出てこないの不思議</p>&mdash; まきえたん☘️🥦 (@makietanX) <a href="https://x.com/makietanX/status/2057337615754641916?ref_src=twsrc%5Etfw">May 21, 2026</a></blockquote>
-<script async="" src="https://platform.x.com/widgets.js" charset="utf-8"></script>
-
-<p>AI使ったセキュリティソフトって、今の空気ならもっと露骨に出てきてもよさそうなのに、案外見当たらないんだよな。</p>
-
-<p>何にでもAIの看板が付きがちな時期なのに、ここだけは「AIで守ります」を前面に出した定番がぱっと浮かばない。むしろ静かすぎて、そこが少し不思議に見える。</p>
-
-<p>たぶんセキュリティは、賢そうに見えることより、変な誤検知をしないとか、勝手に重くならないとか、そういう地味な安心感の方がずっと大事なんだと思う。AIを売り文句にした瞬間に、便利そうより先に怖さが立つのかもしれない。</p>
-
-<p>中身では普通に使われていても、表ではあえて言わない。そのくらいの距離感が一番しっくり来る分野なのかもな、という気がする。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[AI 使ったセキュリティソフトが出てこないの不思議&mdash; まきえたん☘️🥦 (@makietanX) May 21, 2026]]></summary></entry></feed>
+<p>言い換えはいくらでもできるのに、わざわざ刺さる言い方を残す必要はない。公的な文章ほど、正確さだけじゃなくて敬意のある語彙を選ぶべきなんだよな。</p>]]></content><author><name>makietan</name></author><category term="japan" /><summary type="html"><![CDATA[昔、自治体の資料作成に参加したとき草案に情弱って書いててお前が情弱かいと内心思いながら修正依頼した思い出アレは酷かった https://t.co/9XawCzfWhX&mdash; まきえたん☘️🥦 (@makietanX) May 23, 2026]]></summary></entry></feed>
