@@ -1,4 +1,37 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-06-03T17:19:16+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>日報を中心に、技術メモやイベント参加記録をまとめるブログです。</subtitle><author><name>makietan</name></author><entry><title type="html">AIを長時間回して何が社会に残るのか見えない</title><link href="https://makietan.github.io/tech/2026/06/03/report.html" rel="alternate" type="text/html" title="AIを長時間回して何が社会に残るのか見えない" /><published>2026-06-03T00:00:00+09:00</published><updated>2026-06-03T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2026/06/03/report</id><content type="html" xml:base="https://makietan.github.io/tech/2026/06/03/report.html"><![CDATA[<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">AIを長時間稼働させてる人<br />一体どんな社会の役に立ってるんだろうか</p>&mdash; まきえたん☘️🥦 (@makietanX) <a href="https://x.com/makietanX/status/2058893263575400733?ref_src=twsrc%5Etfw">May 25, 2026</a></blockquote>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-06-04T16:26:12+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>日報を中心に、技術メモやイベント参加記録をまとめるブログです。</subtitle><author><name>makietan</name></author><entry><title type="html">日比谷公園を周って溜池山王まで歩くルートを開拓した</title><link href="https://makietan.github.io/walking/2026/06/04/report.html" rel="alternate" type="text/html" title="日比谷公園を周って溜池山王まで歩くルートを開拓した" /><published>2026-06-04T00:00:00+09:00</published><updated>2026-06-04T00:00:00+09:00</updated><id>https://makietan.github.io/walking/2026/06/04/report</id><content type="html" xml:base="https://makietan.github.io/walking/2026/06/04/report.html"><![CDATA[<div class="card">
+  <a href="https://maps.app.goo.gl/tUaccPNSg2SmbDms5"></a>
+  <div class="card__header">
+    <a href="https://maps.app.goo.gl/tUaccPNSg2SmbDms5">maps.app.goo.gl</a>
+  </div>
+  <div class="card__image">
+    <img src="" />
+  </div>
+  <div class="card__title">
+    <p></p>
+  </div>
+  <div class="card__description">
+    <p></p>
+  </div>
+</div>
+
+<p>まず松のや新橋店で飯を食う。
+これが重要というか、これがないとこのルートは成立しない。
+ロースかつ定食が安いので、それを食べるために新橋に行く価値がある。</p>
+
+<p>食べ終わったら日比谷公園を目指す。
+日比谷公園の有楽門まで行ったら、そこを左折する。
+右に行けば有楽町駅のチェックインができるので、駅メモをやっているならそっちに寄ってもいいと思う。</p>
+
+<p>左折したら桜田門駅までまっすぐ歩く。</p>
+
+<p>警視庁の横の坂を登って、国土交通省を見下しながら外務省、財務省、文科省の横を歩く。
+そのまま行くと溜池山王駅に着く。</p>
+
+<p>イシバシ・ゲルが行っていた「支那麺 はしご 赤坂店」が近くにあるので汗だくになってない冬場とかなら行ってもいいんじゃないかと思う。
+そっからは自由というか虎ノ門駅まで戻る。</p>
+
+<p>するとだいたい5000歩くらいになると思う。
+ちょうどいい距離だと思うので、気が向いたらやってみてほしい。</p>]]></content><author><name>makietan</name></author><category term="walking" /><summary type="html"><![CDATA[maps.app.goo.gl]]></summary></entry><entry><title type="html">AIを長時間回して何が社会に残るのか見えない</title><link href="https://makietan.github.io/tech/2026/06/03/report.html" rel="alternate" type="text/html" title="AIを長時間回して何が社会に残るのか見えない" /><published>2026-06-03T00:00:00+09:00</published><updated>2026-06-03T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2026/06/03/report</id><content type="html" xml:base="https://makietan.github.io/tech/2026/06/03/report.html"><![CDATA[<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">AIを長時間稼働させてる人<br />一体どんな社会の役に立ってるんだろうか</p>&mdash; まきえたん☘️🥦 (@makietanX) <a href="https://x.com/makietanX/status/2058893263575400733?ref_src=twsrc%5Etfw">May 25, 2026</a></blockquote>
 <script async="" src="https://platform.x.com/widgets.js" charset="utf-8"></script>
 
 <p>AIを長時間回してる投稿を見るたびに、これで何が社会に残るのかがよくわからなくなる。</p>
@@ -133,17 +166,4 @@
 
 <p>欲しいものを絞って取りに行くと、散財せずに済むし満足度も高いんですよね。</p>
 
-<p>こういうキャンペーンをやってくれるセブン-イレブン最高ですな。</p>]]></content><author><name>makietan</name></author><category term="otaku" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">ラジオ100カノ第45回をリアタイで聴いた。Lynnさん良いわ</title><link href="https://makietan.github.io/otaku/2026/05/25/report.html" rel="alternate" type="text/html" title="ラジオ100カノ第45回をリアタイで聴いた。Lynnさん良いわ" /><published>2026-05-25T00:00:00+09:00</published><updated>2026-05-25T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2026/05/25/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2026/05/25/report.html"><![CDATA[<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">ふふーんでしたわー <a href="https://x.com/hashtag/%E3%83%A9%E3%82%B8%E3%82%AA100%E3%82%AB%E3%83%8E?src=hash&amp;ref_src=twsrc%5Etfw">#ラジオ100カノ</a> <a href="https://t.co/ScGatvsvTL">https://t.co/ScGatvsvTL</a></p>&mdash; Ｌｙｎｎ (りん) (@Lynn_0601_) <a href="https://x.com/Lynn_0601_/status/2058924941375119373?ref_src=twsrc%5Etfw">May 25, 2026</a></blockquote>
-<script async="" src="https://platform.x.com/widgets.js" charset="utf-8"></script>
-
-<div class="google">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4-MFokl-u3Y?si=_x1_JD4ZMs9DkHwI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
-</div>
-
-<p>ラジオ100カノ第45回、ライブ配信をリアタイで聴いた。</p>
-
-<p>今回も空気感がめちゃくちゃ良くて、最後までずっと楽しかった。</p>
-
-<p>自分はLynnさんのファンなんだけど、やっぱりLynnさん良いわ。</p>
-
-<p>気づいたらアーカイブをもう一回流してる。</p>]]></content><author><name>makietan</name></author><category term="otaku" /><summary type="html"><![CDATA[ふふーんでしたわー #ラジオ100カノ https://t.co/ScGatvsvTL&mdash; Ｌｙｎｎ (りん) (@Lynn_0601_) May 25, 2026]]></summary></entry></feed>
+<p>こういうキャンペーンをやってくれるセブン-イレブン最高ですな。</p>]]></content><author><name>makietan</name></author><category term="otaku" /><summary type="html"><![CDATA[]]></summary></entry></feed>
