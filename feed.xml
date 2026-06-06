@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-06-07T02:38:43+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>日報を中心に、技術メモやイベント参加記録をまとめるブログです。</subtitle><author><name>makietan</name></author><entry><title type="html">GitHubでの進捗管理するためのDoneリストを作った</title><link href="https://makietan.github.io/tech/2026/06/06/report.html" rel="alternate" type="text/html" title="GitHubでの進捗管理するためのDoneリストを作った" /><published>2026-06-06T00:00:00+09:00</published><updated>2026-06-06T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2026/06/06/report</id><content type="html" xml:base="https://makietan.github.io/tech/2026/06/06/report.html"><![CDATA[<div class="card">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-06-07T03:11:16+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>日報を中心に、技術メモやイベント参加記録をまとめるブログです。</subtitle><author><name>makietan</name></author><entry><title type="html">GitHubでの進捗管理するためのDoneリストを作った</title><link href="https://makietan.github.io/tech/2026/06/06/report.html" rel="alternate" type="text/html" title="GitHubでの進捗管理するためのDoneリストを作った" /><published>2026-06-06T00:00:00+09:00</published><updated>2026-06-06T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2026/06/06/report</id><content type="html" xml:base="https://makietan.github.io/tech/2026/06/06/report.html"><![CDATA[<div class="card">
   <a href="https://github.com/tanjoin/done"></a>
   <div class="card__header">
     <a href="https://github.com/tanjoin/done">github.com</a>
@@ -26,13 +26,13 @@
     <a href="https://tver.jp/episodes/epav24x5j1">tver.jp</a>
   </div>
   <div class="card__image">
-    <img src="" />
+    <img src="https://image-cdn.tver.jp/w=800/images/content/thumbnail/episode/xlarge/epav24x5j1.jpg?v=e15ec98b" />
   </div>
   <div class="card__title">
-    <p></p>
+    <p>出川哲朗の充電させてもらえませんか？ 春爛漫の関西！【奈良⇒大阪⇒和歌山城】 5月30日(土)放送分 | バラエティ | 見逃し無料配信はTVer！人気の動画見放題</p>
   </div>
   <div class="card__description">
-    <p></p>
+    <p>出川哲朗の充電させてもらえませんか？ 春爛漫の関西！【奈良⇒大阪⇒和歌山城】 5月30日(土)放送分 | ■春の関西！奈良からズズッと大阪湾沿いを122キロ！■目指すは名城“和歌山城”で… | テレ東制作 | 出演は出川 哲朗、熊谷 航太郎ほか。 | TVerにあるテレビ番組はすべて無料で配信！最新話から過去人気番組まで動画見放題！</p>
   </div>
 </div>
 
@@ -42,7 +42,7 @@
 </blockquote>
 
 <p>車で大学に行くときに結構通った道が出ていて、懐かしい気持ちになった。
-さらには滝谷不動も出ていて、身近な感じがして嬉しかった。</p>]]></content><author><name>makietan</name></author><category term="osaka" /><summary type="html"><![CDATA[tver.jp]]></summary></entry><entry><title type="html">日比谷公園を周って溜池山王まで歩くルートを開拓した</title><link href="https://makietan.github.io/walking/2026/06/04/report.html" rel="alternate" type="text/html" title="日比谷公園を周って溜池山王まで歩くルートを開拓した" /><published>2026-06-04T00:00:00+09:00</published><updated>2026-06-04T00:00:00+09:00</updated><id>https://makietan.github.io/walking/2026/06/04/report</id><content type="html" xml:base="https://makietan.github.io/walking/2026/06/04/report.html"><![CDATA[<div class="card">
+さらには滝谷不動も出ていて、身近な感じがして嬉しかった。</p>]]></content><author><name>makietan</name></author><category term="osaka" /><summary type="html"><![CDATA[tver.jp 出川哲朗の充電させてもらえませんか？ 春爛漫の関西！【奈良⇒大阪⇒和歌山城】 5月30日(土)放送分 | バラエティ | 見逃し無料配信はTVer！人気の動画見放題 出川哲朗の充電させてもらえませんか？ 春爛漫の関西！【奈良⇒大阪⇒和歌山城】 5月30日(土)放送分 | ■春の関西！奈良からズズッと大阪湾沿いを122キロ！■目指すは名城“和歌山城”で… | テレ東制作 | 出演は出川 哲朗、熊谷 航太郎ほか。 | TVerにあるテレビ番組はすべて無料で配信！最新話から過去人気番組まで動画見放題！]]></summary></entry><entry><title type="html">日比谷公園を周って溜池山王まで歩くルートを開拓した</title><link href="https://makietan.github.io/walking/2026/06/04/report.html" rel="alternate" type="text/html" title="日比谷公園を周って溜池山王まで歩くルートを開拓した" /><published>2026-06-04T00:00:00+09:00</published><updated>2026-06-04T00:00:00+09:00</updated><id>https://makietan.github.io/walking/2026/06/04/report</id><content type="html" xml:base="https://makietan.github.io/walking/2026/06/04/report.html"><![CDATA[<div class="card">
   <a href="https://maps.app.goo.gl/tUaccPNSg2SmbDms5"></a>
   <div class="card__header">
     <a href="https://maps.app.goo.gl/tUaccPNSg2SmbDms5">maps.app.goo.gl</a>
