@@ -27,23 +27,29 @@ namespace :embed do
   end
 
   def get_embed(meta)
-    """
-<div class=\"card\">
-  <a href=\"#{meta[:url]}\"></a>
-  <div class=\"card__header\">
-    <a href=\"#{meta[:url]}\">#{meta[:host]}</a>
-  </div>
-  <div class=\"card__image\">
-    <img src=\"#{meta[:image]}\">
-  </div>
-  <div class=\"card__title\">
-    <p>#{meta[:title]}</p>
-  </div>
-  <div class=\"card__description\">
-    <p>#{meta[:description]}</p>
-  </div>
-</div>
-"""
+    <<~HTML
+    <div class="card">
+      <a href="#{meta[:url]}"></a>
+      <div class="card__header">
+        <a href="#{meta[:url]}">#{meta[:host]}</a>
+      </div>
+      <% if meta[:image] %>
+      <div class="card__image">
+        <img src="#{meta[:image]}">
+      </div>
+      <% end %>
+      <% if meta[:title] %>
+      <div class="card__title">
+        <p>#{meta[:title]}</p>
+      </div>
+      <% end %>
+      <% if meta[:description] %>
+      <div class="card__description">
+        <p>#{meta[:description]}</p>
+      </div>
+      <% end %>
+    </div>
+    HTML
   end
 
   def get_meta(uri)
@@ -58,31 +64,39 @@ namespace :embed do
         
         utf8_html = html.encode('UTF-8', invalid: :replace, undef: :replace)
         doc = Nokogiri::HTML(utf8_html, nil, 'utf-8')
+        # Title
+        title = doc.at('meta[property="og:title"]')&.[]('content') ||
+                doc.at('meta[name="twitter:title"]')&.[]('content') ||
+                doc.at('title')&.text
+        meta[:title] = title.to_s.strip unless title.nil? || title.to_s.strip.empty?
 
-        title = doc.title
-        title = doc.xpath('//meta[@property="og:title"]/@content') if title.nil? || title.empty?
-        title = doc.xpath('//meta[@name="twitter:title"]/@content') if title.nil? || title.empty?
-        meta[:title] = title unless title.nil? or title.empty?
+        # Description
+        description = doc.at('meta[name="description"]')&.[]('content') ||
+                      doc.at('meta[property="og:description"]')&.[]('content') ||
+                      doc.at('meta[name="twitter:description"]')&.[]('content')
+        meta[:description] = description.to_s.strip unless description.nil? || description.to_s.strip.empty?
 
-        description = doc.xpath('//meta[@name="description"]/@content')
-        description = doc.xpath('//meta[@property="og:description"]/@content') if description.nil? || description.empty?
-        description = doc.xpath('//meta[@name="twitter:description"]/@content') if description.nil? || description.empty?
-        meta[:description] = description.to_s unless description.nil? || description.empty?
-
-        url = uri
-        url = doc.xpath('//meta[@property="og:description"]/@content')  if url.nil? || url.empty?
-        url = doc.xpath('//meta[@name="twitter:description"]/@content') if url.nil? || url.empty?
-        url = uri unless url.nil? or url.empty?
+        # URL (prefer og:url, canonical, twitter:url)
+        url = doc.at('meta[property="og:url"]')&.[]('content') ||
+              doc.at('link[rel="canonical"]')&.[]('href') ||
+              doc.at('meta[name="twitter:url"]')&.[]('content') ||
+              uri
         meta[:url] = url.to_s
-        meta[:host] = URI.parse(url).host unless URI.parse(url)&.host.nil?
+        begin; meta[:host] = URI.parse(meta[:url]).host; rescue; meta[:host] = nil; end
 
-        image = doc.xpath('//meta[@property="og:image"]/@content')
-        image = doc.xpath('//meta[@name="twitter:image"]/@content') if image.nil? || image.empty?
-        image = doc.xpath('//link[@rel="apple-touch-icon"]/@href') if image.nil? || image.empty?
-        if image.to_s =~ %r{^\/(.*)}
-          meta[:image] = URI.join(uri, image.to_s).to_s unless image.nil? || image.empty?
-        else
-          meta[:image] = image.to_s unless image.nil? || image.empty?
+        # Image (handle protocol-relative and root-relative URLs)
+        image = doc.at('meta[property="og:image"]')&.[]('content') ||
+                doc.at('meta[name="twitter:image"]')&.[]('content') ||
+                doc.at('link[rel="apple-touch-icon"]')&.[]('href')
+        unless image.nil? || image.to_s.strip.empty?
+          image_str = image.to_s.strip
+          if image_str.start_with?('//')
+            scheme = URI.parse(uri).scheme || 'https'
+            image_str = "#{scheme}:#{image_str}"
+          elsif image_str.start_with?('/')
+            image_str = URI.join(uri, image_str).to_s
+          end
+          meta[:image] = image_str
         end
 
         puts "#{meta[:title]} (#{meta[:url]}) #{meta[:description]} #{meta[:image]}"
