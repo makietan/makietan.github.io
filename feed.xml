@@ -1,7 +1,29 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-06-06T15:32:24+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>日報を中心に、技術メモやイベント参加記録をまとめるブログです。</subtitle><author><name>makietan</name></author><entry><title type="html">日比谷公園を周って溜池山王まで歩くルートを開拓した</title><link href="https://makietan.github.io/walking/2026/06/04/report.html" rel="alternate" type="text/html" title="日比谷公園を周って溜池山王まで歩くルートを開拓した" /><published>2026-06-04T00:00:00+09:00</published><updated>2026-06-04T00:00:00+09:00</updated><id>https://makietan.github.io/walking/2026/06/04/report</id><content type="html" xml:base="https://makietan.github.io/walking/2026/06/04/report.html"><![CDATA[<div class="card">
-  <a href="https://maps.app.goo.gl/tUaccPNSg2SmbDms5"></a>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-06-07T02:38:43+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>日報を中心に、技術メモやイベント参加記録をまとめるブログです。</subtitle><author><name>makietan</name></author><entry><title type="html">GitHubでの進捗管理するためのDoneリストを作った</title><link href="https://makietan.github.io/tech/2026/06/06/report.html" rel="alternate" type="text/html" title="GitHubでの進捗管理するためのDoneリストを作った" /><published>2026-06-06T00:00:00+09:00</published><updated>2026-06-06T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2026/06/06/report</id><content type="html" xml:base="https://makietan.github.io/tech/2026/06/06/report.html"><![CDATA[<div class="card">
+  <a href="https://github.com/tanjoin/done"></a>
   <div class="card__header">
-    <a href="https://maps.app.goo.gl/tUaccPNSg2SmbDms5">maps.app.goo.gl</a>
+    <a href="https://github.com/tanjoin/done">github.com</a>
+  </div>
+  <div class="card__image">
+    <img src="https://opengraph.githubassets.com/8667733a7b01446f99f37a5d574e223ca8ad80f3e29f730b1beaa18bcfc90f40/tanjoin/done" />
+  </div>
+  <div class="card__title">
+    <p>GitHub - tanjoin/done · GitHub</p>
+  </div>
+  <div class="card__description">
+    <p>Contribute to tanjoin/done development by creating an account on GitHub.</p>
+  </div>
+</div>
+
+<p>非常にシンプルで</p>
+
+<p>日々のタスクをJSONで読み込ませると</p>
+
+<p>それをGoogleカレンダーに登録するためのインテントを生成するツール</p>
+
+<p>開いとけば通知もしてくれるのでタスク管理が捗る</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[github.com GitHub - tanjoin/done · GitHub Contribute to tanjoin/done development by creating an account on GitHub.]]></summary></entry><entry><title type="html">「出川哲朗の充電させてもらえませんか？」で地元に近いところが出ていた</title><link href="https://makietan.github.io/osaka/2026/06/05/report.html" rel="alternate" type="text/html" title="「出川哲朗の充電させてもらえませんか？」で地元に近いところが出ていた" /><published>2026-06-05T00:00:00+09:00</published><updated>2026-06-05T00:00:00+09:00</updated><id>https://makietan.github.io/osaka/2026/06/05/report</id><content type="html" xml:base="https://makietan.github.io/osaka/2026/06/05/report.html"><![CDATA[<div class="card">
+  <a href="https://tver.jp/episodes/epav24x5j1"></a>
+  <div class="card__header">
+    <a href="https://tver.jp/episodes/epav24x5j1">tver.jp</a>
   </div>
   <div class="card__image">
     <img src="" />
@@ -11,6 +33,28 @@
   </div>
   <div class="card__description">
     <p></p>
+  </div>
+</div>
+
+<blockquote>
+  <p>出川哲朗の充電させてもらえませんか？
+春爛漫の関西！【奈良⇒大阪⇒和歌山城】</p>
+</blockquote>
+
+<p>車で大学に行くときに結構通った道が出ていて、懐かしい気持ちになった。
+さらには滝谷不動も出ていて、身近な感じがして嬉しかった。</p>]]></content><author><name>makietan</name></author><category term="osaka" /><summary type="html"><![CDATA[tver.jp]]></summary></entry><entry><title type="html">日比谷公園を周って溜池山王まで歩くルートを開拓した</title><link href="https://makietan.github.io/walking/2026/06/04/report.html" rel="alternate" type="text/html" title="日比谷公園を周って溜池山王まで歩くルートを開拓した" /><published>2026-06-04T00:00:00+09:00</published><updated>2026-06-04T00:00:00+09:00</updated><id>https://makietan.github.io/walking/2026/06/04/report</id><content type="html" xml:base="https://makietan.github.io/walking/2026/06/04/report.html"><![CDATA[<div class="card">
+  <a href="https://maps.app.goo.gl/tUaccPNSg2SmbDms5"></a>
+  <div class="card__header">
+    <a href="https://maps.app.goo.gl/tUaccPNSg2SmbDms5">maps.app.goo.gl</a>
+  </div>
+  <div class="card__image">
+    <img src="" />
+  </div>
+  <div class="card__title">
+    <p>松のや 新橋店から虎ノ門駅までのルート</p>
+  </div>
+  <div class="card__description">
+    <p>日比谷公園を周って溜池山王駅を経由するルート</p>
   </div>
 </div>
 
@@ -31,7 +75,7 @@
 そっからは自由というか虎ノ門駅まで戻る。</p>
 
 <p>するとだいたい5000歩くらいになると思う。
-ちょうどいい距離だと思うので、気が向いたらやってみてほしい。</p>]]></content><author><name>makietan</name></author><category term="walking" /><summary type="html"><![CDATA[maps.app.goo.gl]]></summary></entry><entry><title type="html">AIを長時間回して何が社会に残るのか見えない</title><link href="https://makietan.github.io/tech/2026/06/03/report.html" rel="alternate" type="text/html" title="AIを長時間回して何が社会に残るのか見えない" /><published>2026-06-03T00:00:00+09:00</published><updated>2026-06-03T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2026/06/03/report</id><content type="html" xml:base="https://makietan.github.io/tech/2026/06/03/report.html"><![CDATA[<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">AIを長時間稼働させてる人<br />一体どんな社会の役に立ってるんだろうか</p>&mdash; まきえたん☘️🥦 (@makietanX) <a href="https://x.com/makietanX/status/2058893263575400733?ref_src=twsrc%5Etfw">May 25, 2026</a></blockquote>
+ちょうどいい距離だと思うので、気が向いたらやってみてほしい。</p>]]></content><author><name>makietan</name></author><category term="walking" /><summary type="html"><![CDATA[maps.app.goo.gl 松のや 新橋店から虎ノ門駅までのルート 日比谷公園を周って溜池山王駅を経由するルート]]></summary></entry><entry><title type="html">AIを長時間回して何が社会に残るのか見えない</title><link href="https://makietan.github.io/tech/2026/06/03/report.html" rel="alternate" type="text/html" title="AIを長時間回して何が社会に残るのか見えない" /><published>2026-06-03T00:00:00+09:00</published><updated>2026-06-03T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2026/06/03/report</id><content type="html" xml:base="https://makietan.github.io/tech/2026/06/03/report.html"><![CDATA[<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">AIを長時間稼働させてる人<br />一体どんな社会の役に立ってるんだろうか</p>&mdash; まきえたん☘️🥦 (@makietanX) <a href="https://x.com/makietanX/status/2058893263575400733?ref_src=twsrc%5Etfw">May 25, 2026</a></blockquote>
 <script async="" src="https://platform.x.com/widgets.js" charset="utf-8"></script>
 
 <p>AIを長時間回してる投稿を見るたびに、これで何が社会に残るのかがよくわからなくなる。</p>
@@ -114,56 +158,4 @@
 
 <p>どうにかしてほしいわ。</p>
 
-<p>育成したい機体だったので引けてラッキーでした。</p>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[いやーまさかですよ。]]></summary></entry><entry><title type="html">Yahoo! ファイナンスの情報を扱ってみる</title><link href="https://makietan.github.io/tech/2026/05/27/report.html" rel="alternate" type="text/html" title="Yahoo! ファイナンスの情報を扱ってみる" /><published>2026-05-27T00:00:00+09:00</published><updated>2026-05-27T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2026/05/27/report</id><content type="html" xml:base="https://makietan.github.io/tech/2026/05/27/report.html"><![CDATA[<p>株やら為替やら、金融の情報を扱うことがあると思います。そんなときに便利なのが Yahoo! ファイナンスの情報です。</p>
-
-<div class="card">
-  <a href="https://finance.yahoo.co.jp/"></a>
-  <div class="card__header">
-    <a href="https://finance.yahoo.co.jp/">finance.yahoo.co.jp</a>
-  </div>
-  <div class="card__image">
-    <img src="https://s.yimg.jp/images/finance/common/image/ogp.png" />
-  </div>
-  <div class="card__title">
-    <p>Yahoo!ファイナンス - 株価・最新ニュース</p>
-  </div>
-  <div class="card__description">
-    <p>リアルタイム株価、最新ニュース、株式掲示板などを提供する、投資やマネーの総合情報サイトです。株価指数、外国為替相場、日本株、米国株など、投資判断に役立つ情報を掲載しています。</p>
-  </div>
-</div>
-
-<p>Yahoo! ファイナンス公式のライブラリは存在しないのですが、非公式のライブラリがいくつか存在しています。</p>
-
-<div class="card">
-  <a href="https://github.com/gadicc/yahoo-finance2"></a>
-  <div class="card__header">
-    <a href="https://github.com/gadicc/yahoo-finance2">github.com</a>
-  </div>
-  <div class="card__image">
-    <img src="https://opengraph.githubassets.com/02e2503c9574661588981cf85039bffb6b35a6a9a22a7d107642fe5f9a451517/gadicc/yahoo-finance2" />
-  </div>
-  <div class="card__title">
-    <p>GitHub - gadicc/yahoo-finance2: Unofficial API for Yahoo Finance with CLI, MCP and Agent Skill · GitHub</p>
-  </div>
-  <div class="card__description">
-    <p>Unofficial API for Yahoo Finance with CLI, MCP and Agent Skill - gadicc/yahoo-finance2</p>
-  </div>
-</div>
-
-<p>でまぁ、自分も保有銘柄や為替の情報を取得して動向を確認しているので、参考にした情報を紹介しました。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[株やら為替やら、金融の情報を扱うことがあると思います。そんなときに便利なのが Yahoo! ファイナンスの情報です。]]></summary></entry><entry><title type="html">スレッタとミオリネのアクリルを確保してきました</title><link href="https://makietan.github.io/otaku/2026/05/26/report.html" rel="alternate" type="text/html" title="スレッタとミオリネのアクリルを確保してきました" /><published>2026-05-26T00:00:00+09:00</published><updated>2026-05-26T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2026/05/26/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2026/05/26/report.html"><![CDATA[<div class="trim">
-  <div class="trim__item">
-    <a href="https://makietan.github.io/assets/images/2026-05-26-report/01-26-00.png">
-      <img class="one" src="https://makietan.github.io/assets/thumbnail/2026-05-26-report/01-26-00.png" />
-    </a>
-  </div>
-</div>
-
-<p>「機動戦士ガンダム 水星の魔女」オリジナルアクリルスタンド第2弾が始まっていたので、ひとまずスレッタとミオリネを確保してきました。</p>
-
-<p>今回のラインナップでも、まずはこの2人を優先で取りに行った感じ。</p>
-
-<p>男性キャラは基本見送りだけど、グエルだけは入手するかもしれない。</p>
-
-<p>欲しいものを絞って取りに行くと、散財せずに済むし満足度も高いんですよね。</p>
-
-<p>こういうキャンペーンをやってくれるセブン-イレブン最高ですな。</p>]]></content><author><name>makietan</name></author><category term="otaku" /><summary type="html"><![CDATA[]]></summary></entry></feed>
+<p>育成したい機体だったので引けてラッキーでした。</p>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[いやーまさかですよ。]]></summary></entry></feed>
