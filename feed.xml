@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-06-07T22:16:54+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>日報を中心に、技術メモやイベント参加記録をまとめるブログです。</subtitle><author><name>makietan</name></author><entry><title type="html">GitHubでの進捗管理するためのDoneリストを作った</title><link href="https://makietan.github.io/tech/2026/06/06/report.html" rel="alternate" type="text/html" title="GitHubでの進捗管理するためのDoneリストを作った" /><published>2026-06-06T00:00:00+09:00</published><updated>2026-06-06T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2026/06/06/report</id><content type="html" xml:base="https://makietan.github.io/tech/2026/06/06/report.html"><![CDATA[<div class="card">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-06-07T22:24:39+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>日報を中心に、技術メモやイベント参加記録をまとめるブログです。</subtitle><author><name>makietan</name></author><entry><title type="html">デミハンバーグが美味い #松屋 芝大門</title><link href="https://makietan.github.io/https:/tanjoin.hatenablog.jp/entry/2026/06/06/000000" rel="alternate" type="text/html" title="デミハンバーグが美味い #松屋 芝大門" /><published>2026-06-07T00:00:00+09:00</published><updated>2026-06-07T00:00:00+09:00</updated><id>https://makietan.github.io/https:/tanjoin.hatenablog.jp/entry/2026/06/06/report</id><content type="html" xml:base="https://makietan.github.io/https:/tanjoin.hatenablog.jp/entry/2026/06/06/000000"><![CDATA[]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">GitHubでの進捗管理するためのDoneリストを作った</title><link href="https://makietan.github.io/tech/2026/06/06/report.html" rel="alternate" type="text/html" title="GitHubでの進捗管理するためのDoneリストを作った" /><published>2026-06-06T00:00:00+09:00</published><updated>2026-06-06T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2026/06/06/report</id><content type="html" xml:base="https://makietan.github.io/tech/2026/06/06/report.html"><![CDATA[<div class="card">
   <a href="https://github.com/tanjoin/done"></a>
   <div class="card__header">
     <a href="https://github.com/tanjoin/done">github.com</a>
@@ -146,16 +146,4 @@
 
 <p>残りは SQLite の部分で新しいライブラリを使うようにしないといけないですね。</p>
 
-<p>まぁ、全体的にコードがすっきりして、保守性も上がったと思います。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[繁雑なソースコードを Copilot と codex 3.5 で改修してみました。]]></summary></entry><entry><title type="html">まさかの「ソルグラヴィトンノヴァ（MAP）」をチケットで引く</title><link href="https://makietan.github.io/game/srwdd/2026/05/28/report.html" rel="alternate" type="text/html" title="まさかの「ソルグラヴィトンノヴァ（MAP）」をチケットで引く" /><published>2026-05-28T00:00:00+09:00</published><updated>2026-05-28T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2026/05/28/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2026/05/28/report.html"><![CDATA[<p>いやーまさかですよ。</p>
-
-<p>チケットで引くとは思わなかった。</p>
-
-<p>「斗牙と共に在る少女」は一周回して引いたのでそっちをメインで共闘戦を周回していたのに、まさかもう片方まで引いてしまうとは。</p>
-
-<p>このおかげで、シャアのオーブと刹那のオーブを凸った。</p>
-
-<p>もっと他にも凸りたいものがあるけど、陰湿な素材半分でしか交換できないからなあ。</p>
-
-<p>どうにかしてほしいわ。</p>
-
-<p>育成したい機体だったので引けてラッキーでした。</p>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[いやーまさかですよ。]]></summary></entry></feed>
+<p>まぁ、全体的にコードがすっきりして、保守性も上がったと思います。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[繁雑なソースコードを Copilot と codex 3.5 で改修してみました。]]></summary></entry></feed>
