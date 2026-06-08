@@ -3863,6 +3863,15 @@
 
   
   {
+    "title": "BUNDLE_ONLY を使った bundle install で余計な gem がインストールされないようにする",
+    
+    "tags": [],
+    "url": "/tech/2026/06/08/report.html",
+    "date": {"year": "2026", "month": "06", "day": "08"},
+    "content": "はじめにGemfile で厄介なのは、開発やテスト環境でのみ必要な gem をインストールしたいときに、bundle install を実行するとすべての gem がインストールされてしまうことです。これを防ぐために、Bundler 2.3 以降では BUNDLE_ONLY 環境変数を使用して、特定のグループの gem のみをインストールすることができます。例えば、BUNDLE_ONLY=rubocop と設定して bundle install を実行すると、rubocop グループに属する gem のみがインストールされます。同様に、 bundle config set --local only 'rubocop' としても同様の効果が得られます。主な使い所は、CI 環境でテストを実行する際に、テストに必要な gem のみをインストールする場合などです。Gemfile のグループ分けrubocop を例にすると、Gemfile で以下のようにグループ分けをしておくと便利です。# Gemfilegroup :development, :test, :rubocop do  gem 'rubocop', require: false  gem 'rubocop-performance', require: false  gem 'rubocop-rails', require: false  gem 'rubocop-rspec', require: falseend他にも、Gemfile でグループ分けをしておくと、bundle install --without オプションを使って特定のグループをインストールから除外することができます。例えば、開発やテスト環境でのみ必要な gem を :development や :test グループにまとめることができます。おわりにBundler の BUNDLE_ONLY 環境変数や bundle config を活用することで、必要な gem のみをインストールすることができ、プロジェクトの依存関係をより効率的に管理することができます。これにより、開発環境と本番環境で異なる gem を使用する場合でも、適切な gem をインストールすることができます。"
+  },
+  
+  {
     "title": "デミハンバーグが美味い #松屋 芝大門",
     
     "tags": [],
@@ -8027,6 +8036,24 @@
     "url": "/gourmet/2024/03/29/report.html",
     "date": {"year": "2024", "month": "03", "day": "29"},
     "content": "いやーたまに食べたくなる。でも1人で並ぶほどメンタル強くないので空いてるときに行ってる。ビアードパパ活&mdash; まきえたん☘️🥦 (@makietanX) March 28, 2024"
+  },
+  
+  {
+    "title": "桑ちゃんの赤い紐がランドセルに見えてしまってな...",
+    
+    "tags": [],
+    "url": "/otaku/2024/03/28/report.html",
+    "date": {"year": "2024", "month": "03", "day": "28"},
+    "content": "赤い紐がランドセルに見えてしまってな... https://t.co/3viLPfvfZn&mdash; まきえたん☘️🥦 (@makietanX) March 24, 2024…ランドセルだね。"
+  },
+  
+  {
+    "title": "デジタルデータはレンタル品なのにアホほど金使ってるのほんと意味わからんのよ",
+    
+    "tags": [],
+    "url": "/tech/2024/03/27/report.html",
+    "date": {"year": "2024", "month": "03", "day": "27"},
+    "content": "確率な上にレンタルっていう地獄 https://t.co/XmtEPYlxjs&mdash; まきえたん☘️🥦 (@makietanX) March 23, 2024レンタル品にアホほど金使ってるのほんと意味わからんのよ&mdash; まきえたん☘️🥦 (@makietanX) March 23, 2024ソシャゲのガチャとかデジタルデータは物理的なものではないので、所有することができない。約款に記載されている通り、レンタル品のようなものである。しかも確率でしか手に入らないため、金を使っても手に入る保証がない。それなのに、アホほど金を使っている人がいるのは、ほんと意味がわからない。"
   },
   
   {

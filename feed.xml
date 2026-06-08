@@ -1,4 +1,28 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-06-08T05:16:38+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>日報を中心に、技術メモやイベント参加記録をまとめるブログです。</subtitle><author><name>makietan</name></author><entry><title type="html">デミハンバーグが美味い #松屋 芝大門</title><link href="https://makietan.github.io/gourmet/2026/06/07/report.html" rel="alternate" type="text/html" title="デミハンバーグが美味い #松屋 芝大門" /><published>2026-06-07T00:00:00+09:00</published><updated>2026-06-07T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2026/06/07/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2026/06/07/report.html"><![CDATA[]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[ご飯感想ブログ「すずろ庵」へ遷移します]]></summary></entry><entry><title type="html">GitHubでの進捗管理するためのDoneリストを作った</title><link href="https://makietan.github.io/tech/2026/06/06/report.html" rel="alternate" type="text/html" title="GitHubでの進捗管理するためのDoneリストを作った" /><published>2026-06-06T00:00:00+09:00</published><updated>2026-06-06T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2026/06/06/report</id><content type="html" xml:base="https://makietan.github.io/tech/2026/06/06/report.html"><![CDATA[<div class="card">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-06-08T16:38:54+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>日報を中心に、技術メモやイベント参加記録をまとめるブログです。</subtitle><author><name>makietan</name></author><entry><title type="html">BUNDLE_ONLY を使った bundle install で余計な gem がインストールされないようにする</title><link href="https://makietan.github.io/tech/2026/06/08/report.html" rel="alternate" type="text/html" title="BUNDLE_ONLY を使った bundle install で余計な gem がインストールされないようにする" /><published>2026-06-08T00:00:00+09:00</published><updated>2026-06-08T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2026/06/08/report</id><content type="html" xml:base="https://makietan.github.io/tech/2026/06/08/report.html"><![CDATA[<h2 id="はじめに">はじめに</h2>
+
+<p>Gemfile で厄介なのは、開発やテスト環境でのみ必要な gem をインストールしたいときに、<code class="language-plaintext highlighter-rouge">bundle install</code> を実行するとすべての gem がインストールされてしまうことです。これを防ぐために、Bundler 2.3 以降では <code class="language-plaintext highlighter-rouge">BUNDLE_ONLY</code> 環境変数を使用して、特定のグループの gem のみをインストールすることができます。
+例えば、<code class="language-plaintext highlighter-rouge">BUNDLE_ONLY=rubocop</code> と設定して <code class="language-plaintext highlighter-rouge">bundle install</code> を実行すると、<code class="language-plaintext highlighter-rouge">rubocop</code> グループに属する gem のみがインストールされます。
+同様に、 <code class="language-plaintext highlighter-rouge">bundle config set --local only 'rubocop'</code> としても同様の効果が得られます。
+主な使い所は、CI 環境でテストを実行する際に、テストに必要な gem のみをインストールする場合などです。</p>
+
+<h2 id="gemfile-のグループ分け">Gemfile のグループ分け</h2>
+
+<p>rubocop を例にすると、Gemfile で以下のようにグループ分けをしておくと便利です。</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Gemfile</span>
+<span class="n">group</span> <span class="ss">:development</span><span class="p">,</span> <span class="ss">:test</span><span class="p">,</span> <span class="ss">:rubocop</span> <span class="k">do</span>
+  <span class="n">gem</span> <span class="s1">'rubocop'</span><span class="p">,</span> <span class="ss">require: </span><span class="kp">false</span>
+  <span class="n">gem</span> <span class="s1">'rubocop-performance'</span><span class="p">,</span> <span class="ss">require: </span><span class="kp">false</span>
+  <span class="n">gem</span> <span class="s1">'rubocop-rails'</span><span class="p">,</span> <span class="ss">require: </span><span class="kp">false</span>
+  <span class="n">gem</span> <span class="s1">'rubocop-rspec'</span><span class="p">,</span> <span class="ss">require: </span><span class="kp">false</span>
+<span class="k">end</span>
+</code></pre></div></div>
+
+<p>他にも、Gemfile でグループ分けをしておくと、<code class="language-plaintext highlighter-rouge">bundle install --without</code> オプションを使って特定のグループをインストールから除外することができます。例えば、開発やテスト環境でのみ必要な gem を <code class="language-plaintext highlighter-rouge">:development</code> や <code class="language-plaintext highlighter-rouge">:test</code> グループにまとめることができます。</p>
+
+<h2 id="おわりに">おわりに</h2>
+
+<p>Bundler の <code class="language-plaintext highlighter-rouge">BUNDLE_ONLY</code> 環境変数や <code class="language-plaintext highlighter-rouge">bundle config</code> を活用することで、必要な gem のみをインストールすることができ、プロジェクトの依存関係をより効率的に管理することができます。これにより、開発環境と本番環境で異なる gem を使用する場合でも、適切な gem をインストールすることができます。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[はじめに]]></summary></entry><entry><title type="html">デミハンバーグが美味い #松屋 芝大門</title><link href="https://makietan.github.io/gourmet/2026/06/07/report.html" rel="alternate" type="text/html" title="デミハンバーグが美味い #松屋 芝大門" /><published>2026-06-07T00:00:00+09:00</published><updated>2026-06-07T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2026/06/07/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2026/06/07/report.html"><![CDATA[]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[ご飯感想ブログ「すずろ庵」へ遷移します]]></summary></entry><entry><title type="html">GitHubでの進捗管理するためのDoneリストを作った</title><link href="https://makietan.github.io/tech/2026/06/06/report.html" rel="alternate" type="text/html" title="GitHubでの進捗管理するためのDoneリストを作った" /><published>2026-06-06T00:00:00+09:00</published><updated>2026-06-06T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2026/06/06/report</id><content type="html" xml:base="https://makietan.github.io/tech/2026/06/06/report.html"><![CDATA[<div class="card">
   <a href="https://github.com/tanjoin/done"></a>
   <div class="card__header">
     <a href="https://github.com/tanjoin/done">github.com</a>
@@ -138,12 +162,4 @@
 
 <p>儚無みずきを1枚しか持ってないので3枚投入してもいいかもしれない</p>
 
-<p>完全耐性のやつをどうやって処理するかはちょっと考えないといけないけど、まあなんとかなるでしょう</p>]]></content><author><name>makietan</name></author><category term="game" /><category term="yugioh" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">個人用のYouTubeのダウンロード管理ソフトを Copilot と codex 3.5 で改修してみた</title><link href="https://makietan.github.io/tech/2026/05/29/report.html" rel="alternate" type="text/html" title="個人用のYouTubeのダウンロード管理ソフトを Copilot と codex 3.5 で改修してみた" /><published>2026-05-29T00:00:00+09:00</published><updated>2026-05-29T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2026/05/29/report</id><content type="html" xml:base="https://makietan.github.io/tech/2026/05/29/report.html"><![CDATA[<p>繁雑なソースコードを Copilot と codex 3.5 で改修してみました。</p>
-
-<p>フォーマットごとに分かれていたコードを、共通化できる部分は共通化して、コードの重複を減らしました。</p>
-
-<p>あとはクッキーを設定したりする処理を全体で使えるように意味ごとのクラス化を行いました。</p>
-
-<p>残りは SQLite の部分で新しいライブラリを使うようにしないといけないですね。</p>
-
-<p>まぁ、全体的にコードがすっきりして、保守性も上がったと思います。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[繁雑なソースコードを Copilot と codex 3.5 で改修してみました。]]></summary></entry></feed>
+<p>完全耐性のやつをどうやって処理するかはちょっと考えないといけないけど、まあなんとかなるでしょう</p>]]></content><author><name>makietan</name></author><category term="game" /><category term="yugioh" /><summary type="html"><![CDATA[]]></summary></entry></feed>
