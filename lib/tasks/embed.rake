@@ -33,21 +33,15 @@ namespace :embed do
       <div class="card__header">
         <a href="#{meta[:url]}">#{meta[:host]}</a>
       </div>
-      <% if meta[:image] %>
       <div class="card__image">
         <img src="#{meta[:image]}">
       </div>
-      <% end %>
-      <% if meta[:title] %>
       <div class="card__title">
         <p>#{meta[:title]}</p>
       </div>
-      <% end %>
-      <% if meta[:description] %>
       <div class="card__description">
         <p>#{meta[:description]}</p>
       </div>
-      <% end %>
     </div>
     HTML
   end
