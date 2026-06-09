@@ -3871,6 +3871,15 @@
 
   
   {
+    "title": "Google Fonts から M PLUS Rounded 1c を入れた",
+    
+    "tags": [],
+    "url": "/tech/2026/06/09/report.html",
+    "date": {"year": "2026", "month": "06", "day": "09"},
+    "content": "        fonts.google.com                M PLUS Rounded 1c - Google Fonts        The M+ Outline Fonts Project develops a superfamily set of several families: 4 families with proportional Latin, 3 with fixed-halfwidth Latin, and 2 with fixed-  わりと好きなフォントで、Google Fonts からも提供されているので mac にも入れてみた。.ttf ファイルをクリックすればインストールできるのでラクチン。"
+  },
+  
+  {
     "title": "BUNDLE_ONLY を使った bundle install で余計な gem がインストールされないようにする",
     
     "tags": [],

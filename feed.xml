@@ -1,4 +1,21 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-06-09T15:52:17+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>日報を中心に、技術メモやイベント参加記録をまとめるブログです。</subtitle><author><name>makietan</name></author><entry><title type="html">BUNDLE_ONLY を使った bundle install で余計な gem がインストールされないようにする</title><link href="https://makietan.github.io/tech/2026/06/08/report.html" rel="alternate" type="text/html" title="BUNDLE_ONLY を使った bundle install で余計な gem がインストールされないようにする" /><published>2026-06-08T00:00:00+09:00</published><updated>2026-06-08T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2026/06/08/report</id><content type="html" xml:base="https://makietan.github.io/tech/2026/06/08/report.html"><![CDATA[<h2 id="はじめに">はじめに</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-06-09T16:09:19+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>日報を中心に、技術メモやイベント参加記録をまとめるブログです。</subtitle><author><name>makietan</name></author><entry><title type="html">Google Fonts から M PLUS Rounded 1c を入れた</title><link href="https://makietan.github.io/tech/2026/06/09/report.html" rel="alternate" type="text/html" title="Google Fonts から M PLUS Rounded 1c を入れた" /><published>2026-06-09T00:00:00+09:00</published><updated>2026-06-09T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2026/06/09/report</id><content type="html" xml:base="https://makietan.github.io/tech/2026/06/09/report.html"><![CDATA[<div class="card">
+  <a href="https://fonts.google.com/specimen/M+PLUS+Rounded+1c"></a>
+  <div class="card__header">
+    <a href="https://fonts.google.com/specimen/M+PLUS+Rounded+1c">fonts.google.com</a>
+  </div>
+  <div class="card__image">
+    <img src="https://www.gstatic.com/images/icons/material/apps/fonts/1x/catalog/v5/opengraph_color.png" />
+  </div>
+  <div class="card__title">
+    <p>M PLUS Rounded 1c - Google Fonts</p>
+  </div>
+  <div class="card__description">
+    <p>The M+ Outline Fonts Project develops a superfamily set of several families: 4 families with proportional Latin, 3 with fixed-halfwidth Latin, and 2 with fixed-</p>
+  </div>
+</div>
+
+<p>わりと好きなフォントで、Google Fonts からも提供されているので mac にも入れてみた。
+<code class="language-plaintext highlighter-rouge">.ttf</code> ファイルをクリックすればインストールできるのでラクチン。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[fonts.google.com M PLUS Rounded 1c - Google Fonts The M+ Outline Fonts Project develops a superfamily set of several families: 4 families with proportional Latin, 3 with fixed-halfwidth Latin, and 2 with fixed-]]></summary></entry><entry><title type="html">BUNDLE_ONLY を使った bundle install で余計な gem がインストールされないようにする</title><link href="https://makietan.github.io/tech/2026/06/08/report.html" rel="alternate" type="text/html" title="BUNDLE_ONLY を使った bundle install で余計な gem がインストールされないようにする" /><published>2026-06-08T00:00:00+09:00</published><updated>2026-06-08T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2026/06/08/report</id><content type="html" xml:base="https://makietan.github.io/tech/2026/06/08/report.html"><![CDATA[<h2 id="はじめに">はじめに</h2>
 
 <p>Gemfile で厄介なのは、開発やテスト環境でのみ必要な gem をインストールしたいときに、<code class="language-plaintext highlighter-rouge">bundle install</code> を実行するとすべての gem がインストールされてしまうことです。これを防ぐために、Bundler 2.3 以降では <code class="language-plaintext highlighter-rouge">BUNDLE_ONLY</code> 環境変数を使用して、特定のグループの gem のみをインストールすることができます。
 例えば、<code class="language-plaintext highlighter-rouge">BUNDLE_ONLY=rubocop</code> と設定して <code class="language-plaintext highlighter-rouge">bundle install</code> を実行すると、<code class="language-plaintext highlighter-rouge">rubocop</code> グループに属する gem のみがインストールされます。
@@ -150,16 +167,4 @@
 
 <p>レベル6の魔法使い族で魔法を多用するテーマと混合なので、超魔導竜騎士－ドラグーン・オブ・レッドアイズ を出すギミックを入れるのもあり</p>
 
-<p>フォルトナとチェイムでパーフェクトアンヘルとかも出せるので EXデッキは要調整</p>]]></content><author><name>makietan</name></author><category term="game" /><category term="yugioh" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">マスターデュエルの Off-Meta イベントはアンデット族でやった</title><link href="https://makietan.github.io/game/yugioh/2026/05/30/report.html" rel="alternate" type="text/html" title="マスターデュエルの Off-Meta イベントはアンデット族でやった" /><published>2026-05-30T00:00:00+09:00</published><updated>2026-05-30T00:00:00+09:00</updated><id>https://makietan.github.io/game/yugioh/2026/05/30/report</id><content type="html" xml:base="https://makietan.github.io/game/yugioh/2026/05/30/report.html"><![CDATA[<div class="trim">
-  <div class="trim__item">
-    <a href="https://makietan.github.io/assets/images/2026-05-30-report/04-16-41.png">
-      <img class="one" src="https://makietan.github.io/assets/thumbnail/2026-05-30-report/04-16-41.png" />
-    </a>
-  </div>
-</div>
-
-<p>誘いのΔで地下牢の徊神を落とせばだいたい勝てる</p>
-
-<p>儚無みずきを1枚しか持ってないので3枚投入してもいいかもしれない</p>
-
-<p>完全耐性のやつをどうやって処理するかはちょっと考えないといけないけど、まあなんとかなるでしょう</p>]]></content><author><name>makietan</name></author><category term="game" /><category term="yugioh" /><summary type="html"><![CDATA[]]></summary></entry></feed>
+<p>フォルトナとチェイムでパーフェクトアンヘルとかも出せるので EXデッキは要調整</p>]]></content><author><name>makietan</name></author><category term="game" /><category term="yugioh" /><summary type="html"><![CDATA[]]></summary></entry></feed>
