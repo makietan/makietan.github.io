@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="ja"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/notosansjp.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=BIZ+UDGothic&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" /><!-- Begin Jekyll SEO tag v2.9.0 -->
+<title>Node.js 化して JSON に再生成すれば余計な , は許される（許されない） | 肉とお米とブロッコリー</title>
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:title" content="Node.js 化して JSON に再生成すれば余計な , は許される（許されない）" />
+<meta name="author" content="makietan" />
+<meta property="og:locale" content="ja_JP" />
+<meta name="description" content="先頭に exports 追加して Node.js 化し、JSON に再生成すれば許される（許されない） https://t.co/79stmAJoxF&mdash; まきえたん☘️🥦 (@makietanX) May 10, 2024" />
+<meta name="twitter:description" property="og:description" content="先頭に exports 追加して Node.js 化し、JSON に再生成すれば許される（許されない） https://t.co/79stmAJoxF&mdash; まきえたん☘️🥦 (@makietanX) May 10, 2024" />
+<link rel="canonical" href="https://makietan.github.io/tech/2024/05/07/report.html" />
+<meta property="og:url" content="https://makietan.github.io/tech/2024/05/07/report.html" />
+<meta property="og:site_name" content="肉とお米とブロッコリー" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2024-05-07T00:00:00+09:00" />
+<meta property="article:modified_time" content="2024-05-07T00:00:00+09:00" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Node.js 化して JSON に再生成すれば余計な , は許される（許されない）" />
+<meta name="twitter:site" content="@makietanx" />
+<meta name="twitter:creator" content="@makietan" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"makietan"},"dateModified":"2024-05-07T00:00:00+09:00","datePublished":"2024-05-07T00:00:00+09:00","description":"先頭に exports 追加して Node.js 化し、JSON に再生成すれば許される（許されない） https://t.co/79stmAJoxF&mdash; まきえたん☘️🥦 (@makietanX) May 10, 2024","headline":"Node.js 化して JSON に再生成すれば余計な , は許される（許されない）","mainEntityOfPage":{"@type":"WebPage","@id":"https://makietan.github.io/tech/2024/05/07/report.html"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://makietan.github.io/assets/images/icon_144.png"},"name":"makietan"},"url":"https://makietan.github.io/tech/2024/05/07/report.html"}</script>
+<!-- End Jekyll SEO tag -->
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "肉とお米とブロッコリー",
+      "url": "https://makietan.github.io",
+      "inLanguage": "ja",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://makietan.github.io/search.html?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+  </script>
+  <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="https://makietan.github.io/feed.xml" title="肉とお米とブロッコリー" /><meta name="msvalidate.01" content="89F1D244C30C26610D2EB5442A4DA1D8" />
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-7SP4YXPLVE"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-7SP4YXPLVE');
+</script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-72711550-4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-72711550-4');
+</script>
+<link rel="shortcut icon" href="/assets/images/icon.ico">
+  <link rel="icon" sizes="144x144" href="/assets/images/icon_144.png">
+  <script src="/assets/js/clipboard.js" type="text/javascript" charset="utf-8"></script>
+  <script src="/assets/js/image-display.js" type="text/javascript" charset="utf-8"></script>
+  <script src="/assets/js/collapse.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@makietanx" />
+<meta name="twitter:title" content="Node.js 化して JSON に再生成すれば余計な `,` は許される（許されない）" />
+<meta name="twitter:description" content="日報を中心に、技術メモやイベント参加記録をまとめるブログです。" />
+
+<meta name="twitter:image" content="https://makietan.github.io/assets/thumbnail/logo.png" />
+
+<link rel="icon" href="https://makietan.github.io/assets/images/favicon.ico">
+  <link rel="apple-touch-icon" sizes="144x144" href="https://makietan.github.io/assets/images/icon_144.png" />
+
+  <body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">肉とお米とブロッコリー</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="site-nav-link" href="/about/">About</a><a class="site-nav-link" href="/category/">Category</a><a class="site-nav-link" href="/links/">Links</a><a class="site-nav-link" href="/search.html">検索</a></div>
+      </nav></div>
+</header>
+
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Node.js 化して JSON に再生成すれば余計な `,` は許される（許されない）</h1>
+    <div class="post-meta">
+      <time class="dt-published" datetime="2024-05-07T00:00:00+09:00" itemprop="datePublished">2024-05-07 00:00
+      </time></div><div class="post-meta post-meta-categories">
+        <span class="post-categories">
+          
+          
+            <a href="https://makietan.github.io/categories/tech">tech</a>
+            
+          
+        </span>
+      </div></header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">先頭に exports 追加して Node.js 化し、JSON に再生成すれば許される（許されない） <a href="https://t.co/79stmAJoxF">https://t.co/79stmAJoxF</a></p>&mdash; まきえたん☘️🥦 (@makietanX) <a href="https://x.com/makietanX/status/1788821063113347181?ref_src=twsrc%5Etfw">May 10, 2024</a></blockquote>
+<script async="" src="https://platform.x.com/widgets.js" charset="utf-8"></script>
+
+<p>JSON 形式のデータを生成する際、末尾に余計なカンマ（<code class="language-plaintext highlighter-rouge">,</code>）があると、通常はエラーになります。しかし、Node.js のモジュールとしてエクスポートする場合、<code class="language-plaintext highlighter-rouge">exports</code> を使用してデータを再生成すれば、そのようなカンマが許されることがあります。
+例えば、以下のような JSON データがあるとします：</p>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Alice"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"age"</span><span class="p">:</span><span class="w"> </span><span class="mi">30</span><span class="p">,</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<p>このデータは末尾のカンマがあるため、通常の JSON パーサーではエラーになります。しかし、Node.js のモジュールとしてエクスポートする場合、以下のように書き換えることができます：</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">exports</span><span class="p">.</span><span class="nx">data</span> <span class="o">=</span> <span class="p">{</span>
+  <span class="dl">"</span><span class="s2">name</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">Alice</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">age</span><span class="dl">"</span><span class="p">:</span> <span class="mi">30</span><span class="p">,</span>
+<span class="p">};</span>
+</code></pre></div></div>
+
+<p>このようにすることで、Node.js のモジュールとしてデータをエクスポートする際に、末尾のカンマが許されるようになります。ただし、これはあくまで Node.js のモジュールシステムに特有の挙動であり、一般的な JSON 形式では依然としてエラーとなるため、注意が必要です。</p>
+
+<p>ここからJSONに再生成する手順は以下の通りです：</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>node <span class="nt">-c</span> <span class="s2">"console.log(JSON.stringify(require('./data.js').data))"</span> <span class="o">&gt;</span> output.json
+</code></pre></div></div>
+
+<p>このコマンドを実行すると、<code class="language-plaintext highlighter-rouge">data.js</code> ファイルからデータを読み込み、JSON 形式で出力します。これにより、末尾のカンマが許される Node.js のモジュールとしてのデータを、正しい JSON 形式に変換することができます。</p>
+
+<p>人が読みやすい形式でアルファベット順のJSONを生成する手順は以下の通りです：</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>node <span class="nt">-c</span> <span class="s2">"console.log(JSON.stringify(require('./data.js').data, Object.keys(require('./data.js').data).sort(), 2))"</span> <span class="o">&gt;</span> output.json
+</code></pre></div></div>
+
+<p>このコマンドでは、<code class="language-plaintext highlighter-rouge">JSON.stringify</code> の第二引数に <code class="language-plaintext highlighter-rouge">Object.keys(require('./data.js').data).sort()</code> を渡すことで、アルファベット順にキーをソートした JSON を生成します。また、第三引数に <code class="language-plaintext highlighter-rouge">2</code> を指定することで、インデントを付けて人が読みやすい形式で出力します。</p>
+
+<p>このように、Node.js のモジュールシステムを利用することで、通常の JSON 形式では許されない末尾のカンマを許容しつつ、必要に応じて正しい JSON 形式に変換することができます。ただし、一般的な JSON パーサーでは依然としてエラーとなるため、使用する際には注意が必要です。</p>
+
+  </div><a class="u-url" href="/tech/2024/05/07/report.html" hidden></a>
+</article>
+
+<hr>
+
+
+
+
+  
+  
+
+  
+
+  
+  
+
+  
+    
+      <div class="related">
+        <h1>関連日報</h1>
+        <div class="related-posts">
+    
+          <div class="card">
+            <a href="/tech/2026/06/09/report.html" title="Google Fonts から M PLUS Rounded 1c を入れた"></a>
+            <div class="card__header">
+              <a href="/tech/2026/06/09/report.html">2026-06-09 00:00</a>
+            </div>
+            <div class="card__title">
+              <p>Google Fonts から M PLUS Rounded 1c を入れた</p>
+            </div>
+            <div class="card__description"></div>
+          </div>
+    
+    
+    
+  
+
+  
+  
+
+  
+    
+          <div class="card">
+            <a href="/tech/2026/06/08/report.html" title="BUNDLE_ONLY を使った bundle install で余計な gem がインストールされないようにする"></a>
+            <div class="card__header">
+              <a href="/tech/2026/06/08/report.html">2026-06-08 00:00</a>
+            </div>
+            <div class="card__title">
+              <p>BUNDLE_ONLY を使った bundle install で余計な gem がインストールされないようにする</p>
+            </div>
+            <div class="card__description"></div>
+          </div>
+    
+    
+    
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+    
+          <div class="card">
+            <a href="/tech/2026/06/06/report.html" title="GitHubでの進捗管理するためのDoneリストを作った"></a>
+            <div class="card__header">
+              <a href="/tech/2026/06/06/report.html">2026-06-06 00:00</a>
+            </div>
+            <div class="card__title">
+              <p>GitHubでの進捗管理するためのDoneリストを作った</p>
+            </div>
+            <div class="card__description"></div>
+          </div>
+    
+    
+    
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+    
+          <div class="card">
+            <a href="/tech/2026/06/03/report.html" title="AIを長時間回して何が社会に残るのか見えない"></a>
+            <div class="card__header">
+              <a href="/tech/2026/06/03/report.html">2026-06-03 00:00</a>
+            </div>
+            <div class="card__title">
+              <p>AIを長時間回して何が社会に残るのか見えない</p>
+            </div>
+            <div class="card__description"></div>
+          </div>
+    
+    
+    
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+    
+          <div class="card">
+            <a href="/tech/2026/06/01/report.html" title="最近の AI の挙動がだいぶカスになってきた"></a>
+            <div class="card__header">
+              <a href="/tech/2026/06/01/report.html">2026-06-01 00:00</a>
+            </div>
+            <div class="card__title">
+              <p>最近の AI の挙動がだいぶカスになってきた</p>
+            </div>
+            <div class="card__description"></div>
+          </div>
+    
+    
+        </div>
+      </div>
+      
+
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">肉とお米とブロッコリー</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1"><ul class="social-media-list"><li>
+    <a href="https://github.com/makietan" rel="me noopener noreferrer" target="_blank">
+      <i class="fa-brands fa-github social-icon" aria-hidden="true"></i>
+      <span class="username">makietan</span>
+    </a>
+  </li><li>
+    <a href="https://x.com/makietanx" rel="me noopener noreferrer" target="_blank">
+      <i class="fa-brands fa-twitter social-icon" aria-hidden="true"></i>
+      <span class="username">makietanx</span>
+    </a>
+  </li><li>
+    <a href="/feed.xml" target="_blank">
+      <i class="fa-solid fa-rss social-icon" aria-hidden="true"></i>
+      <span class="username">RSS</span>
+    </a>
+  </li></ul></div>
+      <div class="footer-col footer-col-2">
+      </div>
+      <div class="footer-col footer-col-3">
+        <p>日報を中心に、技術メモやイベント参加記録をまとめるブログです。</p>
+      </div>
+    </div>
+
+  </div><div style='text-align:center;'>
+     <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+     <!-- https://makietan.github.io/ -->
+     <ins class="adsbygoogle"
+          style="display:block"
+          data-ad-client="ca-pub-2075260640954079"
+          data-ad-slot="8308086588"
+          data-ad-format="auto"
+          data-full-width-responsive="true"></ins>
+     <script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+     </script>
+</div>
+</footer>
+</body>
+
+</html>

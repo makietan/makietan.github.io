@@ -7994,6 +7994,24 @@
   },
   
   {
+    "title": "Node.js 化して JSON に再生成すれば余計な `,` は許される（許されない）",
+    
+    "tags": [],
+    "url": "/tech/2024/05/07/report.html",
+    "date": {"year": "2024", "month": "05", "day": "07"},
+    "content": "先頭に exports 追加して Node.js 化し、JSON に再生成すれば許される（許されない） https://t.co/79stmAJoxF&mdash; まきえたん☘️🥦 (@makietanX) May 10, 2024JSON 形式のデータを生成する際、末尾に余計なカンマ（,）があると、通常はエラーになります。しかし、Node.js のモジュールとしてエクスポートする場合、exports を使用してデータを再生成すれば、そのようなカンマが許されることがあります。例えば、以下のような JSON データがあるとします：{   name :  Alice ,   age : 30,}このデータは末尾のカンマがあるため、通常の JSON パーサーではエラーになります。しかし、Node.js のモジュールとしてエクスポートする場合、以下のように書き換えることができます：exports.data = {   name :  Alice ,   age : 30,};このようにすることで、Node.js のモジュールとしてデータをエクスポートする際に、末尾のカンマが許されるようになります。ただし、これはあくまで Node.js のモジュールシステムに特有の挙動であり、一般的な JSON 形式では依然としてエラーとなるため、注意が必要です。ここからJSONに再生成する手順は以下の通りです：node -c  console.log(JSON.stringify(require('./data.js').data))  &gt; output.jsonこのコマンドを実行すると、data.js ファイルからデータを読み込み、JSON 形式で出力します。これにより、末尾のカンマが許される Node.js のモジュールとしてのデータを、正しい JSON 形式に変換することができます。人が読みやすい形式でアルファベット順のJSONを生成する手順は以下の通りです：node -c  console.log(JSON.stringify(require('./data.js').data, Object.keys(require('./data.js').data).sort(), 2))  &gt; output.jsonこのコマンドでは、JSON.stringify の第二引数に Object.keys(require('./data.js').data).sort() を渡すことで、アルファベット順にキーをソートした JSON を生成します。また、第三引数に 2 を指定することで、インデントを付けて人が読みやすい形式で出力します。このように、Node.js のモジュールシステムを利用することで、通常の JSON 形式では許されない末尾のカンマを許容しつつ、必要に応じて正しい JSON 形式に変換することができます。ただし、一般的な JSON パーサーでは依然としてエラーとなるため、使用する際には注意が必要です。"
+  },
+  
+  {
+    "title": "店の中で空調服着てONの状態で飯食ってるやつうるさすぎて嫌い",
+    
+    "tags": [],
+    "url": "/human/2024/05/06/report.html",
+    "date": {"year": "2024", "month": "05", "day": "06"},
+    "content": "店の中でこれ着てONの状態で飯食ってるやつうるさすぎて嫌い https://t.co/1gByUUpgrB&mdash; まきえたん☘️🥦 (@makietanX) May 6, 2024頭おかしいんだろうな。他人の迷惑を考えられないのだろう。空調服は暑い環境で働く人のためのものであって、店内で着るものではない。"
+  },
+  
+  {
     "title": "ガッツガツガツ #来来亭 富田林店",
     
     "tags": [],
