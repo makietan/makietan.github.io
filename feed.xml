@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-06-09T23:58:54+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>日報を中心に、技術メモやイベント参加記録をまとめるブログです。</subtitle><author><name>makietan</name></author><entry><title type="html">Google Fonts から M PLUS Rounded 1c を入れた</title><link href="https://makietan.github.io/tech/2026/06/09/report.html" rel="alternate" type="text/html" title="Google Fonts から M PLUS Rounded 1c を入れた" /><published>2026-06-09T00:00:00+09:00</published><updated>2026-06-09T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2026/06/09/report</id><content type="html" xml:base="https://makietan.github.io/tech/2026/06/09/report.html"><![CDATA[<link rel="preconnect" href="https://fonts.googleapis.com" />
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-06-10T12:12:08+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>日報を中心に、技術メモやイベント参加記録をまとめるブログです。</subtitle><author><name>makietan</name></author><entry><title type="html">Google NotebookLM に 株主総会招集ご通知 を読み込ませて議決権行使の判断材料にする試み</title><link href="https://makietan.github.io/gourmet/2026/06/10/report.html" rel="alternate" type="text/html" title="Google NotebookLM に 株主総会招集ご通知 を読み込ませて議決権行使の判断材料にする試み" /><published>2026-06-10T00:00:00+09:00</published><updated>2026-06-10T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2026/06/10/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2026/06/10/report.html"><![CDATA[]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[雑記ブログ「役に立ちそうで役に立たないブログ」へ遷移します]]></summary></entry><entry><title type="html">Google Fonts から M PLUS Rounded 1c を入れた</title><link href="https://makietan.github.io/tech/2026/06/09/report.html" rel="alternate" type="text/html" title="Google Fonts から M PLUS Rounded 1c を入れた" /><published>2026-06-09T00:00:00+09:00</published><updated>2026-06-09T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2026/06/09/report</id><content type="html" xml:base="https://makietan.github.io/tech/2026/06/09/report.html"><![CDATA[<link rel="preconnect" href="https://fonts.googleapis.com" />
 
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
 
@@ -157,20 +157,4 @@
 
 <p>やるなと書いても勝手にやる。</p>
 
-<p>もうまともに指示に従わないゴミカスはやめてくれ。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[ちょっと使い物にならん。]]></summary></entry><entry><title type="html">エルフェンノーツとドラゴンメイド（ドラゴンテイル）を混ぜてみた</title><link href="https://makietan.github.io/game/yugioh/2026/05/31/report.html" rel="alternate" type="text/html" title="エルフェンノーツとドラゴンメイド（ドラゴンテイル）を混ぜてみた" /><published>2026-05-31T00:00:00+09:00</published><updated>2026-05-31T00:00:00+09:00</updated><id>https://makietan.github.io/game/yugioh/2026/05/31/report</id><content type="html" xml:base="https://makietan.github.io/game/yugioh/2026/05/31/report.html"><![CDATA[<div class="trim">
-  <div class="trim__item">
-    <a href="https://makietan.github.io/assets/images/2026-05-31-report/04-23-33.png">
-      <img class="one" src="https://makietan.github.io/assets/thumbnail/2026-05-31-report/04-23-33.png" />
-    </a>
-  </div>
-</div>
-
-<p>エルフェンノーツでシンクロ（バロネス）立てて</p>
-
-<p>安全にドラゴンメイドorドラゴンテイルの展開をする</p>
-
-<p>シナジーは魔法使い族である点</p>
-
-<p>レベル6の魔法使い族で魔法を多用するテーマと混合なので、超魔導竜騎士－ドラグーン・オブ・レッドアイズ を出すギミックを入れるのもあり</p>
-
-<p>フォルトナとチェイムでパーフェクトアンヘルとかも出せるので EXデッキは要調整</p>]]></content><author><name>makietan</name></author><category term="game" /><category term="yugioh" /><summary type="html"><![CDATA[]]></summary></entry></feed>
+<p>もうまともに指示に従わないゴミカスはやめてくれ。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[ちょっと使い物にならん。]]></summary></entry></feed>
