@@ -1,4 +1,26 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-06-11T17:05:45+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>日報を中心に、技術メモやイベント参加記録をまとめるブログです。</subtitle><author><name>makietan</name></author><entry><title type="html">Google Fonts から Dela Gothic One を入れた</title><link href="https://makietan.github.io/tech/2026/06/11/report.html" rel="alternate" type="text/html" title="Google Fonts から Dela Gothic One を入れた" /><published>2026-06-11T00:00:00+09:00</published><updated>2026-06-11T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2026/06/11/report</id><content type="html" xml:base="https://makietan.github.io/tech/2026/06/11/report.html"><![CDATA[<link rel="preconnect" href="https://fonts.googleapis.com" />
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-06-12T16:24:04+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>日報を中心に、技術メモやイベント参加記録をまとめるブログです。</subtitle><author><name>makietan</name></author><entry><title type="html">Google Fonts から Zen Maru Gothic を入れた</title><link href="https://makietan.github.io/tech/2026/06/12/report.html" rel="alternate" type="text/html" title="Google Fonts から Zen Maru Gothic を入れた" /><published>2026-06-12T00:00:00+09:00</published><updated>2026-06-12T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2026/06/12/report</id><content type="html" xml:base="https://makietan.github.io/tech/2026/06/12/report.html"><![CDATA[<link rel="preconnect" href="https://fonts.googleapis.com" />
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+
+<link href="https://fonts.googleapis.com/css2?family=BIZ+UDPGothic&amp;family=Dela+Gothic+One&amp;family=M+PLUS+Rounded+1c&amp;family=Zen+Maru+Gothic&amp;display=swap" rel="stylesheet" />
+
+<div class="card">
+  <a href="https://fonts.google.com/specimen/Zen+Maru+Gothic"></a>
+  <div class="card__header">
+    <a href="https://fonts.google.com/specimen/Zen+Maru+Gothic">fonts.google.com</a>
+  </div>
+  <div class="card__image">
+    <img src="https://www.gstatic.com/images/icons/material/apps/fonts/1x/catalog/v5/opengraph_color.png" />
+  </div>
+  <div class="card__title">
+    <p>Zen Maru Gothic - Google Fonts</p>
+  </div>
+  <div class="card__description">
+    <p>Zen Maru Gothic is a rounded san serif family that gives a soft and natural impression due to the deep rounds in the corners. Because of this unique soft impres</p>
+  </div>
+</div>
+
+<p style="font-family: 'Zen Maru Gothic', sans-serif;">丸みのあるフォントはなんぼあってもいいと思うので、Google Fonts から Zen Maru Gothic を入れてみました。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Google Fonts から Dela Gothic One を入れた</title><link href="https://makietan.github.io/tech/2026/06/11/report.html" rel="alternate" type="text/html" title="Google Fonts から Dela Gothic One を入れた" /><published>2026-06-11T00:00:00+09:00</published><updated>2026-06-11T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2026/06/11/report</id><content type="html" xml:base="https://makietan.github.io/tech/2026/06/11/report.html"><![CDATA[<link rel="preconnect" href="https://fonts.googleapis.com" />
 
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
 
@@ -153,18 +175,4 @@
 
 <p>個人で遊ぶぶんには自由だけど、「社会の役に立つ」と言うなら、まず結果の質と再現性を見せてほしい。</p>
 
-<p>長く回してること自体より、何を減らして何を良くしたのかが見えないと意味ないんだよな。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[AIを長時間稼働させてる人一体どんな社会の役に立ってるんだろうか&mdash; まきえたん☘️🥦 (@makietanX) May 25, 2026]]></summary></entry><entry><title type="html">飯能の駅近ハイキングやってみたい</title><link href="https://makietan.github.io/otaku/2026/06/02/report.html" rel="alternate" type="text/html" title="飯能の駅近ハイキングやってみたい" /><published>2026-06-02T00:00:00+09:00</published><updated>2026-06-02T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2026/06/02/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2026/06/02/report.html"><![CDATA[<p>アド街見てたら行きたくなった。</p>
-
-<p>天覧山と多峰主山を歩く。</p>
-
-<p>1時間30分で多峰主山の頂上に行けるらしい。</p>
-
-<ul>
-  <li>ムササビ</li>
-  <li>十六羅漢像</li>
-  <li>飯能笹</li>
-</ul>
-
-<p>うどん こくや にもまた行きたい。</p>
-
-<p>（Google確認したら前回6年前という…）</p>]]></content><author><name>makietan</name></author><category term="otaku" /><summary type="html"><![CDATA[アド街見てたら行きたくなった。]]></summary></entry></feed>
+<p>長く回してること自体より、何を減らして何を良くしたのかが見えないと意味ないんだよな。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[AIを長時間稼働させてる人一体どんな社会の役に立ってるんだろうか&mdash; まきえたん☘️🥦 (@makietanX) May 25, 2026]]></summary></entry></feed>
