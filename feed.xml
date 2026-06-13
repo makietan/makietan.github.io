@@ -1,4 +1,26 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-06-12T20:52:40+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>日報を中心に、技術メモやイベント参加記録をまとめるブログです。</subtitle><author><name>makietan</name></author><entry><title type="html">Google Fonts から Zen Maru Gothic を入れた</title><link href="https://makietan.github.io/tech/2026/06/12/report.html" rel="alternate" type="text/html" title="Google Fonts から Zen Maru Gothic を入れた" /><published>2026-06-12T00:00:00+09:00</published><updated>2026-06-12T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2026/06/12/report</id><content type="html" xml:base="https://makietan.github.io/tech/2026/06/12/report.html"><![CDATA[<link rel="preconnect" href="https://fonts.googleapis.com" />
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-06-13T16:00:28+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>日報を中心に、技術メモやイベント参加記録をまとめるブログです。</subtitle><author><name>makietan</name></author><entry><title type="html">Google Fonts から Mochiy Pop P One を入れた</title><link href="https://makietan.github.io/tech/2026/06/13/report.html" rel="alternate" type="text/html" title="Google Fonts から Mochiy Pop P One を入れた" /><published>2026-06-13T00:00:00+09:00</published><updated>2026-06-13T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2026/06/13/report</id><content type="html" xml:base="https://makietan.github.io/tech/2026/06/13/report.html"><![CDATA[<link rel="preconnect" href="https://fonts.googleapis.com" />
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+
+<link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&amp;display=swap" rel="stylesheet" />
+
+<div class="card">
+  <a href="https://fonts.google.com/specimen/Mochiy+Pop+P+One"></a>
+  <div class="card__header">
+    <a href="https://fonts.google.com/specimen/Mochiy+Pop+P+One">fonts.google.com</a>
+  </div>
+  <div class="card__image">
+    <img src="https://www.gstatic.com/images/icons/material/apps/fonts/1x/catalog/v5/opengraph_color.png" />
+  </div>
+  <div class="card__title">
+    <p>Mochiy Pop P One - Google Fonts</p>
+  </div>
+  <div class="card__description">
+    <p>Mochiy Pop is a casual Gothic font created based on characters written by girls in their 20s in Japan. A cute display font, you can use it widely, such as for m</p>
+  </div>
+</div>
+
+<p style="font-family: 'Mochiy Pop P One', sans-serif;">面白そうなフォントがあったので、Google Fonts から Mochiy Pop P One を入れてみました。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Google Fonts から Zen Maru Gothic を入れた</title><link href="https://makietan.github.io/tech/2026/06/12/report.html" rel="alternate" type="text/html" title="Google Fonts から Zen Maru Gothic を入れた" /><published>2026-06-12T00:00:00+09:00</published><updated>2026-06-12T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2026/06/12/report</id><content type="html" xml:base="https://makietan.github.io/tech/2026/06/12/report.html"><![CDATA[<link rel="preconnect" href="https://fonts.googleapis.com" />
 
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
 
@@ -166,13 +188,4 @@
 そっからは自由というか虎ノ門駅まで戻る。</p>
 
 <p>するとだいたい5000歩くらいになると思う。
-ちょうどいい距離だと思うので、気が向いたらやってみてほしい。</p>]]></content><author><name>makietan</name></author><category term="walking" /><summary type="html"><![CDATA[maps.app.goo.gl 松のや 新橋店から虎ノ門駅までのルート 日比谷公園を周って溜池山王駅を経由するルート]]></summary></entry><entry><title type="html">AIを長時間回して何が社会に残るのか見えない</title><link href="https://makietan.github.io/tech/2026/06/03/report.html" rel="alternate" type="text/html" title="AIを長時間回して何が社会に残るのか見えない" /><published>2026-06-03T00:00:00+09:00</published><updated>2026-06-03T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2026/06/03/report</id><content type="html" xml:base="https://makietan.github.io/tech/2026/06/03/report.html"><![CDATA[<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">AIを長時間稼働させてる人<br />一体どんな社会の役に立ってるんだろうか</p>&mdash; まきえたん☘️🥦 (@makietanX) <a href="https://x.com/makietanX/status/2058893263575400733?ref_src=twsrc%5Etfw">May 25, 2026</a></blockquote>
-<script async="" src="https://platform.x.com/widgets.js" charset="utf-8"></script>
-
-<p>AIを長時間回してる投稿を見るたびに、これで何が社会に残るのかがよくわからなくなる。</p>
-
-<p>処理時間や消費リソースは増えてるのに、出てくるものが結局コピペ調のまとめだったり、手戻りの多い成果物だったりすると、しんどさだけが先に立つ。</p>
-
-<p>個人で遊ぶぶんには自由だけど、「社会の役に立つ」と言うなら、まず結果の質と再現性を見せてほしい。</p>
-
-<p>長く回してること自体より、何を減らして何を良くしたのかが見えないと意味ないんだよな。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[AIを長時間稼働させてる人一体どんな社会の役に立ってるんだろうか&mdash; まきえたん☘️🥦 (@makietanX) May 25, 2026]]></summary></entry></feed>
+ちょうどいい距離だと思うので、気が向いたらやってみてほしい。</p>]]></content><author><name>makietan</name></author><category term="walking" /><summary type="html"><![CDATA[maps.app.goo.gl 松のや 新橋店から虎ノ門駅までのルート 日比谷公園を周って溜池山王駅を経由するルート]]></summary></entry></feed>
