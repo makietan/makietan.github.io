@@ -3923,6 +3923,15 @@
 
   
   {
+    "title": "Copilot の Code Review model とは？",
+    
+    "tags": [],
+    "url": "/tech/2026/06/16/report.html",
+    "date": {"year": "2026", "month": "06", "day": "16"},
+    "content": "Copilot の料金どうなってるか確認したときに、Code Review model という項目があって、これが何なのか気になったので調べてみた。Code Review model とは、GitHub Copilot の機能の一つで、コードレビューを支援するための AI モデル。Pull Request を作成した際に、コードの変更点を分析して、コードレビューのコメントを自動生成してくれるアレのこと。だいたい1回のコードレビューで70円程度のコストがかかるっぽい。まぁ、そこそこ高いけど、コードレビューの工数を削減できるなら十分元は取れるかなという感じ。"
+  },
+  
+  {
     "title": "AIの余計な一言を消す方法が結構簡単だった",
     
     "tags": [],
@@ -3932,12 +3941,12 @@
   },
   
   {
-    "title": "Google Fonts から Mochiy Pop One を入れた",
+    "title": "すごく・・・大きいです・・・ #ジョナサン 神谷町店",
     
     "tags": [],
-    "url": "/tech/2026/06/14/report.html",
+    "url": "/gourmet/2026/06/14/report.html",
     "date": {"year": "2026", "month": "06", "day": "14"},
-    "content": "        fonts.google.com                Mochiy Pop One - Google Fonts        Mochiy Pop is a casual Gothic font created based on characters written by girls in their 20s in Japan. A cute display font, you can use it widely, such as for m  面白そうなフォントがあったので、Google Fonts から Mochiy Pop One を入れてみました。"
+    "content": ""
   },
   
   {

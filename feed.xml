@@ -1,4 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-06-15T20:59:35+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>日報を中心に、技術メモやイベント参加記録をまとめるブログです。</subtitle><author><name>makietan</name></author><entry><title type="html">AIの余計な一言を消す方法が結構簡単だった</title><link href="https://makietan.github.io/tech/2026/06/15/report.html" rel="alternate" type="text/html" title="AIの余計な一言を消す方法が結構簡単だった" /><published>2026-06-15T00:00:00+09:00</published><updated>2026-06-15T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2026/06/15/report</id><content type="html" xml:base="https://makietan.github.io/tech/2026/06/15/report.html"><![CDATA[<div class="card">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-06-16T02:41:11+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>日報を中心に、技術メモやイベント参加記録をまとめるブログです。</subtitle><author><name>makietan</name></author><entry><title type="html">Copilot の Code Review model とは？</title><link href="https://makietan.github.io/tech/2026/06/16/report.html" rel="alternate" type="text/html" title="Copilot の Code Review model とは？" /><published>2026-06-16T00:00:00+09:00</published><updated>2026-06-16T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2026/06/16/report</id><content type="html" xml:base="https://makietan.github.io/tech/2026/06/16/report.html"><![CDATA[<p>Copilot の料金どうなってるか確認したときに、Code Review model という項目があって、これが何なのか気になったので調べてみた。</p>
+
+<p>Code Review model とは、GitHub Copilot の機能の一つで、コードレビューを支援するための AI モデル。
+Pull Request を作成した際に、コードの変更点を分析して、コードレビューのコメントを自動生成してくれるアレのこと。</p>
+
+<p>だいたい1回のコードレビューで70円程度のコストがかかるっぽい。
+まぁ、そこそこ高いけど、コードレビューの工数を削減できるなら十分元は取れるかなという感じ。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[Copilot の料金どうなってるか確認したときに、Code Review model という項目があって、これが何なのか気になったので調べてみた。]]></summary></entry><entry><title type="html">AIの余計な一言を消す方法が結構簡単だった</title><link href="https://makietan.github.io/tech/2026/06/15/report.html" rel="alternate" type="text/html" title="AIの余計な一言を消す方法が結構簡単だった" /><published>2026-06-15T00:00:00+09:00</published><updated>2026-06-15T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2026/06/15/report</id><content type="html" xml:base="https://makietan.github.io/tech/2026/06/15/report.html"><![CDATA[<div class="card">
   <a href="https://note.com/rehab_datasci/n/nee5aec9c6649"></a>
   <div class="card__header">
     <a href="https://note.com/rehab_datasci/n/nee5aec9c6649">note.com</a>
@@ -19,29 +25,7 @@
 </code></pre>
 
 <p>ollama とかでコミットメッセージを生成する際に、余計な一言が入ることがあって困っていたのですが、上記のようにプロンプトを工夫するだけで、余計な一言が入らなくなった。
-この程度で済むならAI提供側がプロンプトの工夫を促すようなガイドラインを用意してくれればいいのにと思う。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[note.com 【AI術】ChatGPTの「余計な一言」を秒で消す。執筆効率を最大化するたった2行の指示｜rehab-datascience 生成AIに文章の校正や整形をお願いした時、こんな経験はありませんか？ 「はい、承知いたしました！ ご指示通りに整形した文章を以下に提示します。ご確認ください。」 …この冒頭の挨拶（プリアンブル）、邪魔だと思ったことはないでしょうか。 私は普段、Obsidianで作業ログを書き、それをAIで整形してnoteやQiitaに投稿しています。その際、この「AIの丁寧な前置き」を手動で削除する作業に、毎回数秒のロスと小さなストレスを感じていました。 今回は、私が辞書登録して愛用している、AIを「お喋り相手」から「純粋なテキスト変換関数」に変えるための、たった2つの指示を紹介します。 執]]></summary></entry><entry><title type="html">Google Fonts から Mochiy Pop One を入れた</title><link href="https://makietan.github.io/tech/2026/06/14/report.html" rel="alternate" type="text/html" title="Google Fonts から Mochiy Pop One を入れた" /><published>2026-06-14T00:00:00+09:00</published><updated>2026-06-14T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2026/06/14/report</id><content type="html" xml:base="https://makietan.github.io/tech/2026/06/14/report.html"><![CDATA[<link rel="preconnect" href="https://fonts.googleapis.com" />
-
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
-
-<link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&amp;family=Mochiy+Pop+P+One&amp;display=swap" rel="stylesheet" />
-
-<div class="card">
-  <a href="https://fonts.google.com/specimen/Mochiy+Pop+One"></a>
-  <div class="card__header">
-    <a href="https://fonts.google.com/specimen/Mochiy+Pop+One">fonts.google.com</a>
-  </div>
-  <div class="card__image">
-    <img src="https://www.gstatic.com/images/icons/material/apps/fonts/1x/catalog/v5/opengraph_color.png" />
-  </div>
-  <div class="card__title">
-    <p>Mochiy Pop One - Google Fonts</p>
-  </div>
-  <div class="card__description">
-    <p>Mochiy Pop is a casual Gothic font created based on characters written by girls in their 20s in Japan. A cute display font, you can use it widely, such as for m</p>
-  </div>
-</div>
-
-<p style="font-family: 'Mochiy Pop One', sans-serif;">面白そうなフォントがあったので、Google Fonts から Mochiy Pop One を入れてみました。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Google Fonts から Mochiy Pop P One を入れた</title><link href="https://makietan.github.io/tech/2026/06/13/report.html" rel="alternate" type="text/html" title="Google Fonts から Mochiy Pop P One を入れた" /><published>2026-06-13T00:00:00+09:00</published><updated>2026-06-13T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2026/06/13/report</id><content type="html" xml:base="https://makietan.github.io/tech/2026/06/13/report.html"><![CDATA[<link rel="preconnect" href="https://fonts.googleapis.com" />
+この程度で済むならAI提供側がプロンプトの工夫を促すようなガイドラインを用意してくれればいいのにと思う。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[note.com 【AI術】ChatGPTの「余計な一言」を秒で消す。執筆効率を最大化するたった2行の指示｜rehab-datascience 生成AIに文章の校正や整形をお願いした時、こんな経験はありませんか？ 「はい、承知いたしました！ ご指示通りに整形した文章を以下に提示します。ご確認ください。」 …この冒頭の挨拶（プリアンブル）、邪魔だと思ったことはないでしょうか。 私は普段、Obsidianで作業ログを書き、それをAIで整形してnoteやQiitaに投稿しています。その際、この「AIの丁寧な前置き」を手動で削除する作業に、毎回数秒のロスと小さなストレスを感じていました。 今回は、私が辞書登録して愛用している、AIを「お喋り相手」から「純粋なテキスト変換関数」に変えるための、たった2つの指示を紹介します。 執]]></summary></entry><entry><title type="html">すごく・・・大きいです・・・ #ジョナサン 神谷町店</title><link href="https://makietan.github.io/gourmet/2026/06/14/report.html" rel="alternate" type="text/html" title="すごく・・・大きいです・・・ #ジョナサン 神谷町店" /><published>2026-06-14T00:00:00+09:00</published><updated>2026-06-14T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2026/06/14/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2026/06/14/report.html"><![CDATA[]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[ご飯感想ブログ「すずろ庵」へ遷移します]]></summary></entry><entry><title type="html">Google Fonts から Mochiy Pop P One を入れた</title><link href="https://makietan.github.io/tech/2026/06/13/report.html" rel="alternate" type="text/html" title="Google Fonts から Mochiy Pop P One を入れた" /><published>2026-06-13T00:00:00+09:00</published><updated>2026-06-13T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2026/06/13/report</id><content type="html" xml:base="https://makietan.github.io/tech/2026/06/13/report.html"><![CDATA[<link rel="preconnect" href="https://fonts.googleapis.com" />
 
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
 
@@ -154,26 +138,4 @@
 
 <h2 id="おわりに">おわりに</h2>
 
-<p>Bundler の <code class="language-plaintext highlighter-rouge">BUNDLE_ONLY</code> 環境変数や <code class="language-plaintext highlighter-rouge">bundle config</code> を活用することで、必要な gem のみをインストールすることができ、プロジェクトの依存関係をより効率的に管理することができます。これにより、開発環境と本番環境で異なる gem を使用する場合でも、適切な gem をインストールすることができます。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[はじめに]]></summary></entry><entry><title type="html">デミハンバーグが美味い #松屋 芝大門</title><link href="https://makietan.github.io/gourmet/2026/06/07/report.html" rel="alternate" type="text/html" title="デミハンバーグが美味い #松屋 芝大門" /><published>2026-06-07T00:00:00+09:00</published><updated>2026-06-07T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2026/06/07/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2026/06/07/report.html"><![CDATA[]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[ご飯感想ブログ「すずろ庵」へ遷移します]]></summary></entry><entry><title type="html">GitHubでの進捗管理するためのDoneリストを作った</title><link href="https://makietan.github.io/tech/2026/06/06/report.html" rel="alternate" type="text/html" title="GitHubでの進捗管理するためのDoneリストを作った" /><published>2026-06-06T00:00:00+09:00</published><updated>2026-06-06T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2026/06/06/report</id><content type="html" xml:base="https://makietan.github.io/tech/2026/06/06/report.html"><![CDATA[<div class="card">
-  <a href="https://github.com/tanjoin/done"></a>
-  <div class="card__header">
-    <a href="https://github.com/tanjoin/done">github.com</a>
-  </div>
-  <div class="card__image">
-    <img src="https://opengraph.githubassets.com/8667733a7b01446f99f37a5d574e223ca8ad80f3e29f730b1beaa18bcfc90f40/tanjoin/done" />
-  </div>
-  <div class="card__title">
-    <p>GitHub - tanjoin/done · GitHub</p>
-  </div>
-  <div class="card__description">
-    <p>Contribute to tanjoin/done development by creating an account on GitHub.</p>
-  </div>
-</div>
-
-<p>非常にシンプルで</p>
-
-<p>日々のタスクをJSONで読み込ませると</p>
-
-<p>それをGoogleカレンダーに登録するためのインテントを生成するツール</p>
-
-<p>開いとけば通知もしてくれるのでタスク管理が捗る</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[github.com GitHub - tanjoin/done · GitHub Contribute to tanjoin/done development by creating an account on GitHub.]]></summary></entry></feed>
+<p>Bundler の <code class="language-plaintext highlighter-rouge">BUNDLE_ONLY</code> 環境変数や <code class="language-plaintext highlighter-rouge">bundle config</code> を活用することで、必要な gem のみをインストールすることができ、プロジェクトの依存関係をより効率的に管理することができます。これにより、開発環境と本番環境で異なる gem を使用する場合でも、適切な gem をインストールすることができます。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[はじめに]]></summary></entry><entry><title type="html">デミハンバーグが美味い #松屋 芝大門</title><link href="https://makietan.github.io/gourmet/2026/06/07/report.html" rel="alternate" type="text/html" title="デミハンバーグが美味い #松屋 芝大門" /><published>2026-06-07T00:00:00+09:00</published><updated>2026-06-07T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2026/06/07/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2026/06/07/report.html"><![CDATA[]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[ご飯感想ブログ「すずろ庵」へ遷移します]]></summary></entry></feed>
