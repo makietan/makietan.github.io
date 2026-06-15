@@ -1,4 +1,25 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-06-14T16:24:56+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>日報を中心に、技術メモやイベント参加記録をまとめるブログです。</subtitle><author><name>makietan</name></author><entry><title type="html">Google Fonts から Mochiy Pop One を入れた</title><link href="https://makietan.github.io/tech/2026/06/14/report.html" rel="alternate" type="text/html" title="Google Fonts から Mochiy Pop One を入れた" /><published>2026-06-14T00:00:00+09:00</published><updated>2026-06-14T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2026/06/14/report</id><content type="html" xml:base="https://makietan.github.io/tech/2026/06/14/report.html"><![CDATA[<link rel="preconnect" href="https://fonts.googleapis.com" />
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-06-15T13:03:05+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>日報を中心に、技術メモやイベント参加記録をまとめるブログです。</subtitle><author><name>makietan</name></author><entry><title type="html">AIの余計な一言を消す方法が結構簡単だった</title><link href="https://makietan.github.io/tech/2026/06/15/report.html" rel="alternate" type="text/html" title="AIの余計な一言を消す方法が結構簡単だった" /><published>2026-06-15T00:00:00+09:00</published><updated>2026-06-15T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2026/06/15/report</id><content type="html" xml:base="https://makietan.github.io/tech/2026/06/15/report.html"><![CDATA[<div class="card">
+  <a href="https://note.com/rehab_datasci/n/nee5aec9c6649"></a>
+  <div class="card__header">
+    <a href="https://note.com/rehab_datasci/n/nee5aec9c6649">note.com</a>
+  </div>
+  <div class="card__image">
+    <img src="https://assets.st-note.com/production/uploads/images/240707624/rectangle_large_type_2_ffea824bcba33cfa0719cd69509a88fc.png?fit=bounds&amp;quality=85&amp;width=1280" />
+  </div>
+  <div class="card__title">
+    <p>【AI術】ChatGPTの「余計な一言」を秒で消す。執筆効率を最大化するたった2行の指示｜rehab-datascience</p>
+  </div>
+  <div class="card__description">
+    <p>生成AIに文章の校正や整形をお願いした時、こんな経験はありませんか？  「はい、承知いたしました！ ご指示通りに整形した文章を以下に提示します。ご確認ください。」  …この冒頭の挨拶（プリアンブル）、邪魔だと思ったことはないでしょうか。  私は普段、Obsidianで作業ログを書き、それをAIで整形してnoteやQiitaに投稿しています。その際、この「AIの丁寧な前置き」を手動で削除する作業に、毎回数秒のロスと小さなストレスを感じていました。  今回は、私が辞書登録して愛用している、AIを「お喋り相手」から「純粋なテキスト変換関数」に変えるための、たった2つの指示を紹介します。  執</p>
+  </div>
+</div>
+
+<pre><code class="language-markdwon">1. 解説や前置きは一切不要です。コードブロックの中身のみを出力してください。
+2. 結果をそのままコピペできるように、コードブロックで囲んだマークダウン形式にしてください。
+</code></pre>
+
+<p>ollama とかでコミットメッセージを生成する際に、余計な一言が入ることがあって困っていたのですが、上記のようにプロンプトを工夫するだけで、余計な一言が入らなくなった。
+この程度で済むならAI提供側がプロンプトの工夫を促すようなガイドラインを用意してくれればいいのにと思う。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[note.com 【AI術】ChatGPTの「余計な一言」を秒で消す。執筆効率を最大化するたった2行の指示｜rehab-datascience 生成AIに文章の校正や整形をお願いした時、こんな経験はありませんか？ 「はい、承知いたしました！ ご指示通りに整形した文章を以下に提示します。ご確認ください。」 …この冒頭の挨拶（プリアンブル）、邪魔だと思ったことはないでしょうか。 私は普段、Obsidianで作業ログを書き、それをAIで整形してnoteやQiitaに投稿しています。その際、この「AIの丁寧な前置き」を手動で削除する作業に、毎回数秒のロスと小さなストレスを感じていました。 今回は、私が辞書登録して愛用している、AIを「お喋り相手」から「純粋なテキスト変換関数」に変えるための、たった2つの指示を紹介します。 執]]></summary></entry><entry><title type="html">Google Fonts から Mochiy Pop One を入れた</title><link href="https://makietan.github.io/tech/2026/06/14/report.html" rel="alternate" type="text/html" title="Google Fonts から Mochiy Pop One を入れた" /><published>2026-06-14T00:00:00+09:00</published><updated>2026-06-14T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2026/06/14/report</id><content type="html" xml:base="https://makietan.github.io/tech/2026/06/14/report.html"><![CDATA[<link rel="preconnect" href="https://fonts.googleapis.com" />
 
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
 
@@ -155,26 +176,4 @@
 
 <p>それをGoogleカレンダーに登録するためのインテントを生成するツール</p>
 
-<p>開いとけば通知もしてくれるのでタスク管理が捗る</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[github.com GitHub - tanjoin/done · GitHub Contribute to tanjoin/done development by creating an account on GitHub.]]></summary></entry><entry><title type="html">「出川哲朗の充電させてもらえませんか？」で地元に近いところが出ていた</title><link href="https://makietan.github.io/osaka/2026/06/05/report.html" rel="alternate" type="text/html" title="「出川哲朗の充電させてもらえませんか？」で地元に近いところが出ていた" /><published>2026-06-05T00:00:00+09:00</published><updated>2026-06-05T00:00:00+09:00</updated><id>https://makietan.github.io/osaka/2026/06/05/report</id><content type="html" xml:base="https://makietan.github.io/osaka/2026/06/05/report.html"><![CDATA[<div class="card">
-  <a href="https://tver.jp/episodes/epav24x5j1"></a>
-  <div class="card__header">
-    <a href="https://tver.jp/episodes/epav24x5j1">tver.jp</a>
-  </div>
-  <div class="card__image">
-    <img src="https://image-cdn.tver.jp/w=800/images/content/thumbnail/episode/xlarge/epav24x5j1.jpg?v=e15ec98b" />
-  </div>
-  <div class="card__title">
-    <p>出川哲朗の充電させてもらえませんか？ 春爛漫の関西！【奈良⇒大阪⇒和歌山城】 5月30日(土)放送分 | バラエティ | 見逃し無料配信はTVer！人気の動画見放題</p>
-  </div>
-  <div class="card__description">
-    <p>出川哲朗の充電させてもらえませんか？ 春爛漫の関西！【奈良⇒大阪⇒和歌山城】 5月30日(土)放送分 | ■春の関西！奈良からズズッと大阪湾沿いを122キロ！■目指すは名城“和歌山城”で… | テレ東制作 | 出演は出川 哲朗、熊谷 航太郎ほか。 | TVerにあるテレビ番組はすべて無料で配信！最新話から過去人気番組まで動画見放題！</p>
-  </div>
-</div>
-
-<blockquote>
-  <p>出川哲朗の充電させてもらえませんか？
-春爛漫の関西！【奈良⇒大阪⇒和歌山城】</p>
-</blockquote>
-
-<p>車で大学に行くときに結構通った道が出ていて、懐かしい気持ちになった。
-さらには滝谷不動も出ていて、身近な感じがして嬉しかった。</p>]]></content><author><name>makietan</name></author><category term="osaka" /><summary type="html"><![CDATA[tver.jp 出川哲朗の充電させてもらえませんか？ 春爛漫の関西！【奈良⇒大阪⇒和歌山城】 5月30日(土)放送分 | バラエティ | 見逃し無料配信はTVer！人気の動画見放題 出川哲朗の充電させてもらえませんか？ 春爛漫の関西！【奈良⇒大阪⇒和歌山城】 5月30日(土)放送分 | ■春の関西！奈良からズズッと大阪湾沿いを122キロ！■目指すは名城“和歌山城”で… | テレ東制作 | 出演は出川 哲朗、熊谷 航太郎ほか。 | TVerにあるテレビ番組はすべて無料で配信！最新話から過去人気番組まで動画見放題！]]></summary></entry></feed>
+<p>開いとけば通知もしてくれるのでタスク管理が捗る</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[github.com GitHub - tanjoin/done · GitHub Contribute to tanjoin/done development by creating an account on GitHub.]]></summary></entry></feed>
