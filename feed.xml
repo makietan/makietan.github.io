@@ -1,4 +1,27 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-06-24T20:55:58+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>日報を中心に、技術メモやイベント参加記録をまとめるブログです。</subtitle><author><name>makietan</name></author><entry><title type="html">タンメンが美味しそうかも #宝屋</title><link href="https://makietan.github.io/gourmet/2026/06/24/report.html" rel="alternate" type="text/html" title="タンメンが美味しそうかも #宝屋" /><published>2026-06-24T00:00:00+09:00</published><updated>2026-06-24T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2026/06/24/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2026/06/24/report.html"><![CDATA[]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[ご飯感想ブログ「すずろ庵」へ遷移します]]></summary></entry><entry><title type="html">Copilot の GPT-5.5 が高すぎる</title><link href="https://makietan.github.io/tech/2026/06/23/report.html" rel="alternate" type="text/html" title="Copilot の GPT-5.5 が高すぎる" /><published>2026-06-23T00:00:00+09:00</published><updated>2026-06-23T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2026/06/23/report</id><content type="html" xml:base="https://makietan.github.io/tech/2026/06/23/report.html"><![CDATA[<p>1日使用しただけで、56.90708ドル(約9,114.44円)もかかってしまった。</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-06-25T15:50:06+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>日報を中心に、技術メモやイベント参加記録をまとめるブログです。</subtitle><author><name>makietan</name></author><entry><title type="html">Google Fonts から BIZ UDPGothic を入れた</title><link href="https://makietan.github.io/tech/2026/06/25/report.html" rel="alternate" type="text/html" title="Google Fonts から BIZ UDPGothic を入れた" /><published>2026-06-25T00:00:00+09:00</published><updated>2026-06-25T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2026/06/25/report</id><content type="html" xml:base="https://makietan.github.io/tech/2026/06/25/report.html"><![CDATA[<link rel="preconnect" href="https://fonts.googleapis.com" />
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+
+<link href="https://fonts.googleapis.com/css2?family=BIZ+UDPGothic&amp;family=Dela+Gothic+One&amp;display=swap" rel="stylesheet" />
+
+<div class="card">
+  <a href="https://fonts.google.com/specimen/BIZ+UDPGothic"></a>
+  <div class="card__header">
+    <a href="https://fonts.google.com/specimen/BIZ+UDPGothic">fonts.google.com</a>
+  </div>
+  <div class="card__image">
+    <img src="https://www.gstatic.com/images/icons/material/apps/fonts/1x/catalog/v5/opengraph_color.png" />
+  </div>
+  <div class="card__title">
+    <p>BIZ UDPGothic - Google Fonts</p>
+  </div>
+  <div class="card__description">
+    <p>モリサワのBIZ UDゴシックは、教育やビジネス文書作成などに活用できるよう、より多くの方にとって読みやすく使いやすいように設計されたユニバーサルデザインフォントです。読みやすさとデザインバランスに優れた、すっきりとしたUDゴシック書体で、漢字の省略できるハネやゲタを取ることで、文字をクリアに見せています。大きめな字面</p>
+  </div>
+</div>
+
+<p style="font-family: 'BIZ UDPGothic', sans-serif;">視認性高いことで有名な BIZ UDPGothic も Google Fonts から提供されているので mac に入れてみた。<br />
+<code>.ttf</code> ファイルをクリックすればインストールできるのでラクチン。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">タンメンが美味しそうかも #宝屋</title><link href="https://makietan.github.io/gourmet/2026/06/24/report.html" rel="alternate" type="text/html" title="タンメンが美味しそうかも #宝屋" /><published>2026-06-24T00:00:00+09:00</published><updated>2026-06-24T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2026/06/24/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2026/06/24/report.html"><![CDATA[]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[ご飯感想ブログ「すずろ庵」へ遷移します]]></summary></entry><entry><title type="html">Copilot の GPT-5.5 が高すぎる</title><link href="https://makietan.github.io/tech/2026/06/23/report.html" rel="alternate" type="text/html" title="Copilot の GPT-5.5 が高すぎる" /><published>2026-06-23T00:00:00+09:00</published><updated>2026-06-23T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2026/06/23/report</id><content type="html" xml:base="https://makietan.github.io/tech/2026/06/23/report.html"><![CDATA[<p>1日使用しただけで、56.90708ドル(約9,114.44円)もかかってしまった。</p>
 
 <p>これでは、毎日使うのは難しいですね。</p>
 
@@ -242,25 +265,4 @@
 Pull Request を作成した際に、コードの変更点を分析して、コードレビューのコメントを自動生成してくれるアレのこと。</p>
 
 <p>だいたい1回のコードレビューで70円程度のコストがかかるっぽい。
-まぁ、そこそこ高いけど、コードレビューの工数を削減できるなら十分元は取れるかなという感じ。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[Copilot の料金どうなってるか確認したときに、Code Review model という項目があって、これが何なのか気になったので調べてみた。]]></summary></entry><entry><title type="html">AIの余計な一言を消す方法が結構簡単だった</title><link href="https://makietan.github.io/tech/2026/06/15/report.html" rel="alternate" type="text/html" title="AIの余計な一言を消す方法が結構簡単だった" /><published>2026-06-15T00:00:00+09:00</published><updated>2026-06-15T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2026/06/15/report</id><content type="html" xml:base="https://makietan.github.io/tech/2026/06/15/report.html"><![CDATA[<div class="card">
-  <a href="https://note.com/rehab_datasci/n/nee5aec9c6649"></a>
-  <div class="card__header">
-    <a href="https://note.com/rehab_datasci/n/nee5aec9c6649">note.com</a>
-  </div>
-  <div class="card__image">
-    <img src="https://assets.st-note.com/production/uploads/images/240707624/rectangle_large_type_2_ffea824bcba33cfa0719cd69509a88fc.png?fit=bounds&amp;quality=85&amp;width=1280" />
-  </div>
-  <div class="card__title">
-    <p>【AI術】ChatGPTの「余計な一言」を秒で消す。執筆効率を最大化するたった2行の指示｜rehab-datascience</p>
-  </div>
-  <div class="card__description">
-    <p>生成AIに文章の校正や整形をお願いした時、こんな経験はありませんか？  「はい、承知いたしました！ ご指示通りに整形した文章を以下に提示します。ご確認ください。」  …この冒頭の挨拶（プリアンブル）、邪魔だと思ったことはないでしょうか。  私は普段、Obsidianで作業ログを書き、それをAIで整形してnoteやQiitaに投稿しています。その際、この「AIの丁寧な前置き」を手動で削除する作業に、毎回数秒のロスと小さなストレスを感じていました。  今回は、私が辞書登録して愛用している、AIを「お喋り相手」から「純粋なテキスト変換関数」に変えるための、たった2つの指示を紹介します。  執</p>
-  </div>
-</div>
-
-<pre><code class="language-markdwon">1. 解説や前置きは一切不要です。コードブロックの中身のみを出力してください。
-2. 結果をそのままコピペできるように、コードブロックで囲んだマークダウン形式にしてください。
-</code></pre>
-
-<p>ollama とかでコミットメッセージを生成する際に、余計な一言が入ることがあって困っていたのですが、上記のようにプロンプトを工夫するだけで、余計な一言が入らなくなった。
-この程度で済むならAI提供側がプロンプトの工夫を促すようなガイドラインを用意してくれればいいのにと思う。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[note.com 【AI術】ChatGPTの「余計な一言」を秒で消す。執筆効率を最大化するたった2行の指示｜rehab-datascience 生成AIに文章の校正や整形をお願いした時、こんな経験はありませんか？ 「はい、承知いたしました！ ご指示通りに整形した文章を以下に提示します。ご確認ください。」 …この冒頭の挨拶（プリアンブル）、邪魔だと思ったことはないでしょうか。 私は普段、Obsidianで作業ログを書き、それをAIで整形してnoteやQiitaに投稿しています。その際、この「AIの丁寧な前置き」を手動で削除する作業に、毎回数秒のロスと小さなストレスを感じていました。 今回は、私が辞書登録して愛用している、AIを「お喋り相手」から「純粋なテキスト変換関数」に変えるための、たった2つの指示を紹介します。 執]]></summary></entry></feed>
+まぁ、そこそこ高いけど、コードレビューの工数を削減できるなら十分元は取れるかなという感じ。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[Copilot の料金どうなってるか確認したときに、Code Review model という項目があって、これが何なのか気になったので調べてみた。]]></summary></entry></feed>
