@@ -1,4 +1,26 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-07-03T15:34:46+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>日報を中心に、技術メモやイベント参加記録をまとめるブログです。</subtitle><author><name>makietan</name></author><entry><title type="html">マツコの知らない世界でよもぎが紹介されてた</title><link href="https://makietan.github.io/gourmet/2026/07/03/report.html" rel="alternate" type="text/html" title="マツコの知らない世界でよもぎが紹介されてた" /><published>2026-07-03T00:00:00+09:00</published><updated>2026-07-03T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2026/07/03/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2026/07/03/report.html"><![CDATA[<p>意外と種類が多いよもぎ。</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-07-04T15:22:37+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>日報を中心に、技術メモやイベント参加記録をまとめるブログです。</subtitle><author><name>makietan</name></author><entry><title type="html">Google Fonts から Mochiy Pop One を入れた</title><link href="https://makietan.github.io/tech/2026/07/04/report.html" rel="alternate" type="text/html" title="Google Fonts から Mochiy Pop One を入れた" /><published>2026-07-04T00:00:00+09:00</published><updated>2026-07-04T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2026/07/04/report</id><content type="html" xml:base="https://makietan.github.io/tech/2026/07/04/report.html"><![CDATA[<link rel="preconnect" href="https://fonts.googleapis.com" />
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+
+<link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&amp;family=Mochiy+Pop+P+One&amp;display=swap" rel="stylesheet" />
+
+<div class="card">
+  <a href="https://fonts.google.com/specimen/Mochiy+Pop+One"></a>
+  <div class="card__header">
+    <a href="https://fonts.google.com/specimen/Mochiy+Pop+One">fonts.google.com</a>
+  </div>
+  <div class="card__image">
+    <img src="https://www.gstatic.com/images/icons/material/apps/fonts/1x/catalog/v5/opengraph_color.png" />
+  </div>
+  <div class="card__title">
+    <p>Mochiy Pop One - Google Fonts</p>
+  </div>
+  <div class="card__description">
+    <p>Mochiy Pop is a casual Gothic font created based on characters written by girls in their 20s in Japan. A cute display font, you can use it widely, such as for m</p>
+  </div>
+</div>
+
+<p style="font-family: 'Mochiy Pop One', sans-serif;">面白そうなフォントがあったので、Google Fonts から Mochiy Pop One を入れてみました。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">マツコの知らない世界でよもぎが紹介されてた</title><link href="https://makietan.github.io/gourmet/2026/07/03/report.html" rel="alternate" type="text/html" title="マツコの知らない世界でよもぎが紹介されてた" /><published>2026-07-03T00:00:00+09:00</published><updated>2026-07-03T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2026/07/03/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2026/07/03/report.html"><![CDATA[<p>意外と種類が多いよもぎ。</p>
 
 <p>マツコの知らない世界で紹介されていたので箇条書きにした。</p>
 
@@ -331,4 +353,4 @@
 </div>
 
 <p style="font-family: 'BIZ UDPGothic', sans-serif;">視認性高いことで有名な BIZ UDPGothic も Google Fonts から提供されているので mac に入れてみた。<br />
-<code>.ttf</code> ファイルをクリックすればインストールできるのでラクチン。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">タンメンが美味しそうかも #宝屋</title><link href="https://makietan.github.io/gourmet/2026/06/24/report.html" rel="alternate" type="text/html" title="タンメンが美味しそうかも #宝屋" /><published>2026-06-24T00:00:00+09:00</published><updated>2026-06-24T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2026/06/24/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2026/06/24/report.html"><![CDATA[]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[ご飯感想ブログ「すずろ庵」へ遷移します]]></summary></entry></feed>
+<code>.ttf</code> ファイルをクリックすればインストールできるのでラクチン。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[]]></summary></entry></feed>
