@@ -2,6 +2,7 @@ namespace :embed do
   require 'uri'
   require 'open-uri'
   require "nokogiri"
+  require "ferrum"
 
   desc 'Embed適用'
   task :apply do
@@ -48,15 +49,22 @@ namespace :embed do
 
   def get_meta(uri)
     meta = {}
-    if uri =~ URI::regexp
+    unless uri.nil? || uri.empty?
       begin 
-        opt = {}
-        opt['User-Agent'] = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36'
-        opt['Accept'] = 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
-        opt['Accept-Language'] = 'ja,en;q=0.9,en-US;q=0.8'
-        html = URI.open(uri, opt).read
-        
-        utf8_html = html.encode('UTF-8', invalid: :replace, undef: :replace)
+        browser = Ferrum::Browser.new(timeout: 30, headless: true, browser_options: { 'no-sandbox': nil, 'disable-gpu': nil })
+        page = browser.create_page
+        page.headers.set({
+          'User-Agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36',
+          'Accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8',
+          'Accept-Language' => 'ja,en;q=0.9,en-US;q=0.8'
+        })
+        page.go_to(uri)
+        page.network.wait_for_idle(timeout: 5)
+
+        utf8_html = page.body
+
+        browser.quit
+
         doc = Nokogiri::HTML(utf8_html, nil, 'utf-8')
         # Title
         title = doc.at('meta[property="og:title"]')&.[]('content') ||
@@ -92,8 +100,6 @@ namespace :embed do
           end
           meta[:image] = image_str
         end
-
-        puts "#{meta[:title]} (#{meta[:url]}) #{meta[:description]} #{meta[:image]}"
       rescue => e
         puts "URL: " + uri
         puts e
