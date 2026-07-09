@@ -1,4 +1,29 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-07-08T14:53:14+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>日報を中心に、技術メモやイベント参加記録をまとめるブログです。</subtitle><author><name>makietan</name></author><entry><title type="html">YAMLエディターを作った</title><link href="https://makietan.github.io/tech/2026/07/08/report.html" rel="alternate" type="text/html" title="YAMLエディターを作った" /><published>2026-07-08T00:00:00+09:00</published><updated>2026-07-08T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2026/07/08/report</id><content type="html" xml:base="https://makietan.github.io/tech/2026/07/08/report.html"><![CDATA[<div class="card">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-07-09T12:07:45+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>日報を中心に、技術メモやイベント参加記録をまとめるブログです。</subtitle><author><name>makietan</name></author><entry><title type="html">簡易融合を解除するならキトカロスは禁止にしろよ</title><link href="https://makietan.github.io/game/yugioh/2026/07/09/report.html" rel="alternate" type="text/html" title="簡易融合を解除するならキトカロスは禁止にしろよ" /><published>2026-07-09T00:00:00+09:00</published><updated>2026-07-09T00:00:00+09:00</updated><id>https://makietan.github.io/game/yugioh/2026/07/09/report</id><content type="html" xml:base="https://makietan.github.io/game/yugioh/2026/07/09/report.html"><![CDATA[<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">【予告】<a href="https://x.com/hashtag/%E9%81%8A%E6%88%AF%E7%8E%8B%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%87%E3%83%A5%E3%82%A8%E3%83%AB?src=hash&amp;ref_src=twsrc%5Etfw">#遊戯王マスターデュエル</a><br />リミットレギュレーションの適用について<br /><br />2026年7月9日(木)に「リミットレギュレーションの適用」を実施いたします。<br />この変更に先立ち、アプリ内では変更の方針と理由についてお伝えさせていただいております。<br /><br />■枚数規制が解除されるカード… <a href="https://t.co/fGaMhoJ6G3">pic.twitter.com/fGaMhoJ6G3</a></p>&mdash; 【公式】 遊戯王 マスターデュエル (@YuGiOh_MD_INFO) <a href="https://x.com/YuGiOh_MD_INFO/status/2072184041336623589?ref_src=twsrc%5Etfw">July 1, 2026</a></blockquote>
+<script async="" src="https://platform.x.com/widgets.js" charset="utf-8"></script>
+
+<p>いやーもうアホだろ。</p>
+
+<ul>
+  <li>《ミレニアム・アイズ・サクリファイス》でフィールド・墓地の無効。ついでに《リンクリボー》にできる</li>
+  <li>《ティアラメンツ・キトカロス》で5枚、《ティアラメンツ・クシャトリラ》で3枚、運よくティアラメンツのモンスターが落ちれば、《ティアラメンツ・クシャトリラ》の効果でさらに2枚落とせる</li>
+  <li>《捕食植物アンブロメリドゥス》で《捕食植物オフリス・スコーピオ》がサーチできる</li>
+  <li>《ナイトメア・アイズ・サクリファイス》で相手モンスターを装備魔法にできる</li>
+  <li>《蜃欺龍》による融合サポート</li>
+  <li>《妖精伝姫を紡ぐ者》による《妖精伝姫－シラユキ》の特殊召喚と妖精の王子様</li>
+  <li>《憑依共鳴－ウィン》によるドロバ回収とコントロール奪取</li>
+  <li>《精霊コロゾ》でチューナー用意</li>
+  <li>神碑のモンスター特殊召喚
+    <ul>
+      <li>《神碑の牙ゲーリ》・《神碑の牙フレーキ》：墓地回収</li>
+      <li>《神碑の翼フギン》・《神碑の翼ムニン》：サーチ</li>
+    </ul>
+  </li>
+  <li>《わくどきメルフィーズ》でバウンス</li>
+</ul>
+
+<p>他にも、《インフェルノイド・イヴィル》《騎甲虫クルーエル・サターン》《マスター・オブ・HAM》《魔道騎竜カース・オブ・ドラゴン》とかもいる。</p>
+
+<p>ようこんなん解除したな。</p>]]></content><author><name>makietan</name></author><category term="game" /><category term="yugioh" /><summary type="html"><![CDATA[【予告】#遊戯王マスターデュエルリミットレギュレーションの適用について2026年7月9日(木)に「リミットレギュレーションの適用」を実施いたします。この変更に先立ち、アプリ内では変更の方針と理由についてお伝えさせていただいております。■枚数規制が解除されるカード… pic.twitter.com/fGaMhoJ6G3&mdash; 【公式】 遊戯王 マスターデュエル (@YuGiOh_MD_INFO) July 1, 2026]]></summary></entry><entry><title type="html">YAMLエディターを作った</title><link href="https://makietan.github.io/tech/2026/07/08/report.html" rel="alternate" type="text/html" title="YAMLエディターを作った" /><published>2026-07-08T00:00:00+09:00</published><updated>2026-07-08T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2026/07/08/report</id><content type="html" xml:base="https://makietan.github.io/tech/2026/07/08/report.html"><![CDATA[<div class="card">
   <a href="https://tanjoin.github.io/yaml-editor/"></a>
   <div class="card__header">
     <a href="https://tanjoin.github.io/yaml-editor/">tanjoin.github.io</a>
@@ -305,71 +330,4 @@ Blanc Bec</p>
 食べるとすぐに睡魔が襲ってきて、仕事どころじゃない。
 これじゃあ昼休みの後はずっと寝てることになる。</p>
 
-<p>食べる量を減らすか、食べる内容を変えるか、何か対策を考えないと。</p>]]></content><author><name>makietan</name></author><category term="health" /><summary type="html"><![CDATA[いやー流石にヤバいね。]]></summary></entry><entry><title type="html">TVアニメ『女神「異世界転生何になりたいですか」俺「勇者の肋骨で」』 第11話 の感想</title><link href="https://makietan.github.io/otaku/2026/06/29/report.html" rel="alternate" type="text/html" title="TVアニメ『女神「異世界転生何になりたいですか」俺「勇者の肋骨で」』 第11話 の感想" /><published>2026-06-29T00:00:00+09:00</published><updated>2026-06-29T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2026/06/29/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2026/06/29/report.html"><![CDATA[<p>そういや公式ページの最新ニュースが3月17日以降更新されていないのですが、どうしたんでしょうか。</p>
-
-<p>11話の感想を呑気に書いている場合じゃないのかもしれませんが、まあいいでしょう。</p>
-
-<h2 id="井口はいつ結婚するんだ">井口はいつ結婚するんだ？</h2>
-
-<p><del>百合ハーレム勇者が3番目におとした、王道属性はメインとサブの二人に取られ、インパクトは後発優勢で、中盤辺りでは名前ぐらいしか描写されず、終盤では名前すら出てこなくなる美少女ヒロイン</del></p>
-
-<p>肉体改造 <del>整形</del> して巨乳化してからセクシー売りが加速した井口ですが、結婚はいつするんでしょうか。</p>
-
-<p>まさか女神のようにBLモノで興奮している場合じゃないですよね。</p>
-
-<p>さて、そんないらぬ心配は置いておいて、11話の感想に移りましょう。</p>
-
-<p>今回は同性愛ネタでしたね。</p>
-
-<p>それから天下一武道会のような勝ち抜きバトルもありました。</p>
-
-<p>あいかわらず意味不明な展開でしたが、まあ面白かったです。</p>
-
-<p>ハーレムものの3番手といえば、</p>
-
-<ul>
-  <li>この素晴らしい世界に祝福を！
-    <ul>
-      <li>ダクネス：茅野愛衣</li>
-      <li>ネタキャラとしてはだいぶ強いので該当するのだろうか？</li>
-    </ul>
-  </li>
-  <li>ゆるキャン△
-    <ul>
-      <li>犬山あおい：豊崎愛生</li>
-      <li>斉藤恵那は5番手くらいですかね1番好きなんですけど</li>
-    </ul>
-  </li>
-  <li>やはり俺の青春ラブコメはまちがっている。
-    <ul>
-      <li>戸塚彩加：小松未可子</li>
-      <li>小町かわいい。一色いろはは後発インパクトの典型。</li>
-    </ul>
-  </li>
-  <li>ぼっち・ざ・ろっく！
-    <ul>
-      <li>山田 リョウ：水野朔</li>
-      <li>喜多 郁代と伊地知 虹夏が1・2番手なので。</li>
-    </ul>
-  </li>
-  <li>涼宮ハルヒの憂鬱
-    <ul>
-      <li>古泉一樹：小野大輔</li>
-      <li>古泉は男ですが、ハルヒの3番手といえば古泉でしょう。</li>
-    </ul>
-  </li>
-  <li>To LOVEる -とらぶる-
-    <ul>
-      <li>結城美柑：花澤香菜</li>
-      <li>古手川あたりかも？</li>
-    </ul>
-  </li>
-</ul>
-
-<p>有名作品でもパッとしないキャラが並びますね。</p>
-
-<p>3番手っぽく見えて、実は3番手じゃないキャラって結構いるんじゃないかなと思いました。</p>
-
-<p>感想を書くつもりでしたが3番手キャラを挙げるだけで終わってしまいました。</p>
-
-<p>まぁこれも感想の一部ということで。</p>]]></content><author><name>makietan</name></author><category term="otaku" /><summary type="html"><![CDATA[そういや公式ページの最新ニュースが3月17日以降更新されていないのですが、どうしたんでしょうか。]]></summary></entry></feed>
+<p>食べる量を減らすか、食べる内容を変えるか、何か対策を考えないと。</p>]]></content><author><name>makietan</name></author><category term="health" /><summary type="html"><![CDATA[いやー流石にヤバいね。]]></summary></entry></feed>
