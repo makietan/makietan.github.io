@@ -1,4 +1,50 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-07-12T21:03:12+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>日報を中心に、技術メモやイベント参加記録をまとめるブログです。</subtitle><author><name>makietan</name></author><entry><title type="html">ケンコバがハリハリ鍋を食べてた</title><link href="https://makietan.github.io/gourmet/2026/07/12/report.html" rel="alternate" type="text/html" title="ケンコバがハリハリ鍋を食べてた" /><published>2026-07-12T00:00:00+09:00</published><updated>2026-07-12T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2026/07/12/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2026/07/12/report.html"><![CDATA[<div class="card">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-07-13T11:57:37+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>日報を中心に、技術メモやイベント参加記録をまとめるブログです。</subtitle><author><name>makietan</name></author><entry><title type="html">酔いには段階があるらしい。じゃあシラフを段階分けするとどうなるんだろう？</title><link href="https://makietan.github.io/gourmet/2026/07/13/report.html" rel="alternate" type="text/html" title="酔いには段階があるらしい。じゃあシラフを段階分けするとどうなるんだろう？" /><published>2026-07-13T00:00:00+09:00</published><updated>2026-07-13T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2026/07/13/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2026/07/13/report.html"><![CDATA[<h2 id="酔いの段階">酔いの段階</h2>
+
+<div class="card">
+  <a href="https://www.suntory.co.jp/arp/drunk/"></a>
+  <div class="card__header">
+    <a href="https://www.suntory.co.jp/arp/drunk/">www.suntory.co.jp</a>
+  </div>
+  <div class="card__image">
+    <img src="https://www.suntory.co.jp/arp/ads/img/img_ads_no28_ogp.png" />
+  </div>
+  <div class="card__title">
+    <p>酔いってなに？</p>
+  </div>
+  <div class="card__description">
+    <p>酔いとは、血液に溶け込んで脳に運ばれたアルコールによって脳が麻痺することです。サントリー「適正飲酒」では、お酒に関する事実を紹介します。</p>
+  </div>
+</div>
+
+<p>どうやらサントリーは血中濃度で状態を段階分けしているらしい。</p>
+
+<ul>
+  <li>爽快期：0.02%～0.04% 《日本酒（～1合）》</li>
+  <li>ほろ酔い期：0.05%～0.10% 《日本酒（1～2合）》</li>
+  <li>酩酊初期：0.11%～0.15% 《日本酒（3合）》</li>
+  <li>酩酊期：0.16%～0.30% 《日本酒（4～6合）》</li>
+  <li>泥酔期：0.31%～0.40% 《日本酒（7合～1升）》</li>
+  <li>昏睡期：0.41%～0.50% 《日本酒（1升以上）》</li>
+</ul>
+
+<p>最近の「ケンコバのほろ酔いビジホ泊 全国版」は4杯くらい飲んでるので、ほろ酔い期～酩酊初期くらいの状態で撮影しているっぽい。
+まぁ、おおよそタイトル通りの状態。</p>
+
+<h2 id="素面しらふの段階">素面（しらふ）の段階</h2>
+
+<ul>
+  <li>正常（せいじょう）</li>
+  <li>賢者期</li>
+  <li>枯燥期</li>
+</ul>
+
+<p>いい感じのネーミングがないな</p>
+
+<p>枯燥ビジホ泊 … うーん微妙だ。いい感じの名前にならんかな。</p>
+
+<p>ドカ食いとかそういうジャンルをつけるとかになるかな。</p>
+
+<p>ラーメンとか、カレーとか、そういうジャンルをつけるといい感じになるかも。</p>]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[酔いの段階]]></summary></entry><entry><title type="html">ケンコバがハリハリ鍋を食べてた</title><link href="https://makietan.github.io/gourmet/2026/07/12/report.html" rel="alternate" type="text/html" title="ケンコバがハリハリ鍋を食べてた" /><published>2026-07-12T00:00:00+09:00</published><updated>2026-07-12T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2026/07/12/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2026/07/12/report.html"><![CDATA[<div class="card">
   <a href="https://tver.jp/episodes/epnko9ai7m"></a>
   <div class="card__header">
     <a href="https://tver.jp/episodes/epnko9ai7m">tver.jp</a>
@@ -302,66 +348,4 @@ Blanc Bec</p>
   </div>
 </div>
 
-<p style="font-family: 'Mochiy Pop One', sans-serif;">面白そうなフォントがあったので、Google Fonts から Mochiy Pop One を入れてみました。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">マツコの知らない世界でよもぎが紹介されてた</title><link href="https://makietan.github.io/gourmet/2026/07/03/report.html" rel="alternate" type="text/html" title="マツコの知らない世界でよもぎが紹介されてた" /><published>2026-07-03T00:00:00+09:00</published><updated>2026-07-03T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2026/07/03/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2026/07/03/report.html"><![CDATA[<p>意外と種類が多いよもぎ。</p>
-
-<p>マツコの知らない世界で紹介されていたので箇条書きにした。</p>
-
-<h2 id="マツコの知らない世界">マツコの知らない世界</h2>
-
-<p>後半「よもぎの世界」</p>
-
-<ul>
-  <li>ノンカフェイン</li>
-  <li>
-    <p>薬効成分や香り成分が熱に強い</p>
-  </li>
-  <li>セブンイレブン
-    <ul>
-      <li>よもぎ香る草もち 198円(213.84円)</li>
-    </ul>
-  </li>
-  <li>よもぎ肉うどん (900円)
-    <ul>
-      <li>福岡・北九州市
-        <ul>
-          <li>元祖京家</li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-  <li>日本のスタンダード
-    <ul>
-      <li>カズザキヨモギ</li>
-    </ul>
-  </li>
-</ul>
-
-<h3 id="よもぎ餅3選">よもぎ餅3選</h3>
-
-<ul>
-  <li>京都府
-    <ul>
-      <li>出町ふたば
-        <ul>
-          <li>田舎大福 (300円)</li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-  <li>北海道
-    <ul>
-      <li>ひめや製パン菓子店
-        <ul>
-          <li>よもぎの里 (200円)</li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-  <li>福岡県
-    <ul>
-      <li>太宰府天満宮</li>
-      <li>毎月25日</li>
-      <li>よもぎ梅ヶ枝餅</li>
-    </ul>
-  </li>
-</ul>]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[意外と種類が多いよもぎ。]]></summary></entry></feed>
+<p style="font-family: 'Mochiy Pop One', sans-serif;">面白そうなフォントがあったので、Google Fonts から Mochiy Pop One を入れてみました。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[]]></summary></entry></feed>
