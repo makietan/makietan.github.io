@@ -1,4 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-07-16T14:42:45+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>日報を中心に、技術メモやイベント参加記録をまとめるブログです。</subtitle><author><name>makietan</name></author><entry><title type="html">ちゃん系ラーメンのおしゃれ番長 #銀座はるちゃんラーメン #ちゃん系ラーメン</title><link href="https://makietan.github.io/gourmet/2026/07/16/report.html" rel="alternate" type="text/html" title="ちゃん系ラーメンのおしゃれ番長 #銀座はるちゃんラーメン #ちゃん系ラーメン" /><published>2026-07-16T00:00:00+09:00</published><updated>2026-07-16T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2026/07/16/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2026/07/16/report.html"><![CDATA[]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[ご飯感想ブログ「すずろ庵」へ遷移します]]></summary></entry><entry><title type="html">咳が止まらないんだが…</title><link href="https://makietan.github.io/health/2026/07/15/report.html" rel="alternate" type="text/html" title="咳が止まらないんだが…" /><published>2026-07-15T00:00:00+09:00</published><updated>2026-07-15T00:00:00+09:00</updated><id>https://makietan.github.io/health/2026/07/15/report</id><content type="html" xml:base="https://makietan.github.io/health/2026/07/15/report.html"><![CDATA[<p>来週には健康診断があるというのに…。</p>]]></content><author><name>makietan</name></author><category term="health" /><summary type="html"><![CDATA[来週には健康診断があるというのに…。]]></summary></entry><entry><title type="html">大谷翔平とかが飲んでそうな青いドリンクに似た「アクエリアス ザ・ゼロ」を飲んでみた</title><link href="https://makietan.github.io/gourmet/2026/07/14/report.html" rel="alternate" type="text/html" title="大谷翔平とかが飲んでそうな青いドリンクに似た「アクエリアス ザ・ゼロ」を飲んでみた" /><published>2026-07-14T00:00:00+09:00</published><updated>2026-07-14T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2026/07/14/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2026/07/14/report.html"><![CDATA[<p>大谷翔平がこれを飲んでいるかどうかは不明だが
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-07-17T11:44:31+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>日報を中心に、技術メモやイベント参加記録をまとめるブログです。</subtitle><author><name>makietan</name></author><entry><title type="html">ドコモは海外からのゴミ電話をデフォルトで拒否しろや</title><link href="https://makietan.github.io/tech/2026/07/17/report.html" rel="alternate" type="text/html" title="ドコモは海外からのゴミ電話をデフォルトで拒否しろや" /><published>2026-07-17T00:00:00+09:00</published><updated>2026-07-17T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2026/07/17/report</id><content type="html" xml:base="https://makietan.github.io/tech/2026/07/17/report.html"><![CDATA[<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">「中国入国管理局」を名乗る日本語の自動音声が流れ、ダイヤルボタンを押すよう案内される不審な電話が発生しています。<br />当庁（入管）とは全く関係がありませんので、このような電話を受けても回答などはせず、最寄りの地方出入国在留管理局にご相談ください。<a href="https://t.co/RXhOcmz0t9">https://t.co/RXhOcmz0t9</a></p>&mdash; 出入国在留管理庁（Immigration Services Agency） (@MOJ_IMMI) <a href="https://x.com/MOJ_IMMI/status/1661541693160820736?ref_src=twsrc%5Etfw">May 25, 2023</a></blockquote>
+<script async="" src="https://platform.x.com/widgets.js" charset="utf-8"></script>
+
+<p>日本人の生活を脅かすドコモ本当にいい加減にしろ。
+国際電話なんか普通の日本人使わねえんだから全部拒否でいいだろ。
+本当に使えないクソ企業だな。</p>
+
+<p>つーか拒否ボタン押したら留守電になった。
+Android てめえも同罪だよ。
+スパムに留守電させるとかマジで頭おかしいだろ。
+完全拒否のボタン設置しろや。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[「中国入国管理局」を名乗る日本語の自動音声が流れ、ダイヤルボタンを押すよう案内される不審な電話が発生しています。当庁（入管）とは全く関係がありませんので、このような電話を受けても回答などはせず、最寄りの地方出入国在留管理局にご相談ください。https://t.co/RXhOcmz0t9&mdash; 出入国在留管理庁（Immigration Services Agency） (@MOJ_IMMI) May 25, 2023]]></summary></entry><entry><title type="html">ちゃん系ラーメンのおしゃれ番長 #銀座はるちゃんラーメン #ちゃん系ラーメン</title><link href="https://makietan.github.io/gourmet/2026/07/16/report.html" rel="alternate" type="text/html" title="ちゃん系ラーメンのおしゃれ番長 #銀座はるちゃんラーメン #ちゃん系ラーメン" /><published>2026-07-16T00:00:00+09:00</published><updated>2026-07-16T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2026/07/16/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2026/07/16/report.html"><![CDATA[]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[ご飯感想ブログ「すずろ庵」へ遷移します]]></summary></entry><entry><title type="html">咳が止まらないんだが…</title><link href="https://makietan.github.io/health/2026/07/15/report.html" rel="alternate" type="text/html" title="咳が止まらないんだが…" /><published>2026-07-15T00:00:00+09:00</published><updated>2026-07-15T00:00:00+09:00</updated><id>https://makietan.github.io/health/2026/07/15/report</id><content type="html" xml:base="https://makietan.github.io/health/2026/07/15/report.html"><![CDATA[<p>来週には健康診断があるというのに…。</p>]]></content><author><name>makietan</name></author><category term="health" /><summary type="html"><![CDATA[来週には健康診断があるというのに…。]]></summary></entry><entry><title type="html">大谷翔平とかが飲んでそうな青いドリンクに似た「アクエリアス ザ・ゼロ」を飲んでみた</title><link href="https://makietan.github.io/gourmet/2026/07/14/report.html" rel="alternate" type="text/html" title="大谷翔平とかが飲んでそうな青いドリンクに似た「アクエリアス ザ・ゼロ」を飲んでみた" /><published>2026-07-14T00:00:00+09:00</published><updated>2026-07-14T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2026/07/14/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2026/07/14/report.html"><![CDATA[<p>大谷翔平がこれを飲んでいるかどうかは不明だが
 色合いは似ているのがアクエリアス ザ・ゼロ。</p>
 
 <blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">飲み物の色がすごい<a href="https://x.com/hashtag/%E5%A4%A7%E8%B0%B7%E7%BF%94%E5%B9%B3?src=hash&amp;ref_src=twsrc%5Etfw">#大谷翔平</a>　<a href="https://x.com/hashtag/ShoheiOhtani?src=hash&amp;ref_src=twsrc%5Etfw">#ShoheiOhtani</a>　<a href="https://x.com/hashtag/ShoTime?src=hash&amp;ref_src=twsrc%5Etfw">#ShoTime</a>　<a href="https://x.com/hashtag/%E3%83%89%E3%82%B8%E3%83%A3%E3%83%BC%E3%82%B9?src=hash&amp;ref_src=twsrc%5Etfw">#ドジャース</a> <a href="https://t.co/fP1nEWeZqZ">pic.twitter.com/fP1nEWeZqZ</a></p>&mdash; 光山　貴大(スポーツニッポン新聞社写真映像部) (@takahiroKOHYAMA) <a href="https://x.com/takahiroKOHYAMA/status/1803688451297910906?ref_src=twsrc%5Etfw">June 20, 2024</a></blockquote>
@@ -276,101 +286,4 @@
 
 <p>細かい注文を Gemini にしたらささっと対応してくれたので、</p>
 
-<p>よっぽど変な操作をしない限りは、ほぼ問題なく使える。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[tanjoin.github.io シンプル YAML エディター]]></summary></entry><entry><title type="html">ケンコバが焼売と一緒に飲んでた白ワイン</title><link href="https://makietan.github.io/gourmet/2026/07/07/report.html" rel="alternate" type="text/html" title="ケンコバが焼売と一緒に飲んでた白ワイン" /><published>2026-07-07T00:00:00+09:00</published><updated>2026-07-07T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2026/07/07/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2026/07/07/report.html"><![CDATA[<div class="card">
-  <a href="https://tver.jp/episodes/epwftie2e0"></a>
-  <div class="card__header">
-    <a href="https://tver.jp/episodes/epwftie2e0">tver.jp</a>
-  </div>
-  <div class="card__image">
-    <img src="" />
-  </div>
-  <div class="card__title">
-    <p></p>
-  </div>
-  <div class="card__description">
-    <p></p>
-  </div>
-</div>
-
-<blockquote>
-  <p>ケンコバのほろ酔いビジホ泊 全国版
-西中島（大阪府）</p>
-</blockquote>
-
-<h2 id="大阪-西中島">大阪 西中島</h2>
-
-<p>新大阪駅に隣接 駅周辺はオフィス街や多くの飲食店が軒を連ねる</p>
-
-<h2 id="ビジホ">ビジホ</h2>
-
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3279.192331087571!2d135.49103579294777!3d34.72554610306374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e42fc29e4a0b%3A0x5b272edab82f6efc!2z44Ob44OG44Or44Kv44Op44Kk44OI44Oz5paw5aSn6Ziq!5e0!3m2!1sja!2sjp!4v1782438117687!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
-
-<p>サウナ・水シャワー・整いエリアがある。</p>
-
-<p>焼肉たむらのカレーを置いてたのがデメリットとのこと。
-ライバル商品のガス火焼肉コバヤシに期待してます。</p>
-
-<h2 id="白ワイン">白ワイン</h2>
-
-<p>ブラン・ベック 
-ベストハイム
-Blanc Bec</p>
-
-<div class="card">
-  <a href="https://online.tokyu-dept.co.jp/goods/?ggcd=20FD-WINE265021n"></a>
-  <div class="card__header">
-    <a href="https://online.tokyu-dept.co.jp/goods/?ggcd=20FD-WINE265021n">online.tokyu-dept.co.jp</a>
-  </div>
-  <div class="card__image">
-    <img src="https://online.tokyu-dept.co.jp/g_images/20FD-WINE265021n/20FD-WINE265021n_01_pdm.jpg" />
-  </div>
-  <div class="card__title">
-    <p>【おすすめ白ワインNo.7】≪ベストハイム≫ブラン ベック | ザ・ワイン オンラインストア （ワイン通販） - 東急百貨店オンラインストア【公式】</p>
-  </div>
-  <div class="card__description">
-    <p>【おすすめ白ワインNo.7】≪ベストハイム≫ブラン ベックのページです。東急百貨店が運営するワインの通販サイト「THE WINE（ザ・ワイン）」。フランス、ヨーロッパを中心にシャンパーニュ、スパークリングワイン、ブルゴーニュから国産ワインまで、世界中から厳選したワインを取り揃えております。ジャンルにとらわれず、エントリーユーザーからワイン愛好家まで幅広いワインラバーのご要望にお応えします。</p>
-  </div>
-</div>
-
-<p>焼売に合ってるとのこと。
-1度試してみたいな。</p>
-
-<h2 id="お店">お店</h2>
-
-<p>つむぎ</p>
-
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3279.12351825633!2d135.49162769294816!3d34.727280803061475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e4300e84fed3%3A0x90c902665b429eb3!2z44Gk44KA44GO!5e0!3m2!1sja!2sjp!4v1782437793160!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
-
-<p>小綺麗な店。</p>
-
-<ul>
-  <li>インカのめざめのポテトサラダ</li>
-  <li>大和真菜と揚げ湯葉の浸し</li>
-  <li>活稚鮎天ぷら</li>
-  <li>鯖きずし</li>
-  <li>鴨みんちと新玉葱のしゅうまい</li>
-</ul>
-
-<p>も美味しそうでした。</p>
-
-<p>稚鮎の天ぷら 500円 はいいんじゃないの。骨も固くないらしい。</p>
-
-<p>流石関西といったところか、しめ鯖ではなく「きずし」とちゃんと呼んでました。</p>
-
-<ul>
-  <li>アサヒ生</li>
-  <li>勇心 純米吟醸 14号</li>
-  <li>ブラックニッカクリア ハイボール</li>
-  <li>？ないな（宮崎）</li>
-  <li>白ワイン（ブラン・ベック ベストハイム Blanc Bec）</li>
-</ul>
-
-<p>だいぶ飲んだね。</p>
-
-<p>白ワインはセントジェームス着た鳥が描かれてるラベル。</p>
-
-<p>新大阪近くなので、行く機会があれば立ち寄ってみたい。</p>
-
-<h2 id="おわりに">おわりに</h2>
-
-<p>近くに「らーめん鱗 西中島店」があるので、ラーメン好きは立ち寄ってみるのも良いかもしれません。</p>]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[tver.jp]]></summary></entry></feed>
+<p>よっぽど変な操作をしない限りは、ほぼ問題なく使える。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[tanjoin.github.io シンプル YAML エディター]]></summary></entry></feed>
