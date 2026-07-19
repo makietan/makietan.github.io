@@ -1,4 +1,59 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-07-19T18:03:41+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>日報を中心に、技術メモやイベント参加記録をまとめるブログです。</subtitle><author><name>makietan</name></author><entry><title type="html">キュアエクレールの正体がとうとう明かされる！</title><link href="https://makietan.github.io/otaku/2026/07/19/report.html" rel="alternate" type="text/html" title="キュアエクレールの正体がとうとう明かされる！" /><published>2026-07-19T00:00:00+09:00</published><updated>2026-07-19T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2026/07/19/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2026/07/19/report.html"><![CDATA[<div class="card">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-07-20T01:04:43+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>日報を中心に、技術メモやイベント参加記録をまとめるブログです。</subtitle><author><name>makietan</name></author><entry><title type="html">『ヤニねこ』がもたらす不快さと拡張現実</title><link href="https://makietan.github.io/otaku/2026/07/20/report.html" rel="alternate" type="text/html" title="『ヤニねこ』がもたらす不快さと拡張現実" /><published>2026-07-20T00:00:00+09:00</published><updated>2026-07-20T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2026/07/20/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2026/07/20/report.html"><![CDATA[<h2 id="獣人は現実にいないだがそこにいる">獣人は現実にいない、だが「そこにいる」</h2>
+
+<p>『ヤニねこ』というコンテンツに対して、生理的な嫌悪感を抱く人は少なくない。
+汚部屋、重度の喫煙、自堕落な生態。
+描かれているのは、お世辞にも上品とは言えない人間の業そのものである。
+しかし、「このコンテンツが嫌いすぎて困る」という強烈な拒絶反応こそが、本作が成し遂げた恐るべき表現の到達点を示している。</p>
+
+<p>言うまでもなく、獣人など現実にいるわけがない。
+画面の向こうにいるのは、猫耳という記号を付与されたただの虚構だ。
+それにもかかわらず、読者は自分の生活圏のすぐ隣に彼女らが潜んでいるかのような、
+あるいは自分の部屋の空気までタバコの煙で澱んでいくかのような錯覚を覚える。</p>
+
+<p>これこそが、真の意味での「拡張現実（AR）」に他ならないのではないか。</p>
+
+<h2 id="しょーもない技術デモを超えた現実の重ね書き">しょーもない技術デモを超えた「現実の重ね書き」</h2>
+
+<p>世間一般で言われるARといえば、スマートフォンのカメラや専用ゴーグルを介して、現実空間にデジタルオブジェクトを投影する技術を指す。
+だが、そうしたプロダクトは往々にして、目新しいだけの「しょーもない技術デモやサービス」の域を出ず、人間の認知の根源を揺さぶるには至らない。</p>
+
+<p>『ヤニねこ』が引き起こしているAR現象は、そうしたデバイス依存の技術論とは次元が違う。
+物理的な機材を一切使わず、漫画というメディアの表現力だけで、我々が生きている泥臭い「現実のレイヤー」の上に、
+本来は虚構であるはずの「獣人のレイヤー」を強制的に重ね書きしているのだ。</p>
+
+<h2 id="なぜ虚構が現実をハックできるのか">なぜ虚構が現実をハックできるのか</h2>
+
+<p>この奇妙な拡張現実が成立する理由は、描写の「不快なまでの解像度の高さ」にある。</p>
+
+<p>通常のキャラクタービジネスは、現実を美化し、記号化して消費しやすくする。
+しかし本作は、現実の最も見たくない生々しい部分、すなわち「生活臭」を過剰に煮詰めて提示してくる。
+この生々しさがトリガーとなり、読者の脳内にある現実の記憶（不快な嗅覚、隣人の気配、生活の重み）が強制的に起動させられる。</p>
+
+<p>「獣人」という非現実的な記号と、「剥き出しの不快な現実」。
+この交わるはずのない2つが最悪の形で融解した結果、読者はこれを「ただのフィクション」として安全に消費できなくなる。
+不快だからこそ「今そこにある現実」として生々しく認識され、私たちの住む物理空間を浸食してくるのだ。</p>
+
+<h2 id="認知のバグを突く最悪のar">認知のバグを突く最悪のAR</h2>
+
+<p>『ヤニねこ』という作品が好きか嫌いかと問われれば、コンテンツとしては間違いなく「嫌い」だ。
+しかし、その拭い去れない嫌悪感こそが、作品が読者の認知をハックし、現実空間を拡張せしめた動かぬ証拠である。</p>
+
+<p>デバイスを通じた技術的なARが未だにユースケースを模索している中で、人間の五感と嫌悪感のバグを突き、逃げ場のない「現実の重ね書き」を成立させてしまったこの構造は、表現論として極めて強烈な一撃を放っている。</p>
+
+<hr />
+
+<h2 id="おまけ日常を侵食するもう一つのar小林さんちのメイドラゴン">おまけ：日常を侵食するもう一つのAR『小林さんちのメイドラゴン』</h2>
+
+<p>「異種族が生活空間に紛れ込む拡張現実」という観点で言えば、『小林さんちのメイドラゴン』もまた、極めて高度な「現実の重ね書き」を行っている作品だ。</p>
+
+<p>『ヤニねこ』が「不快感」というバグを突いて現実を浸食する悪性のARだとすれば、こちらは「圧倒的な日常感」と「ドラゴン達の超越した行動」の絶妙なコントラストによって、虚構を現実に定着させる良性のARと言える。</p>
+
+<p>神話級のドラゴンである彼女らは、魔法で認識阻害をかけたり、一瞬で大陸間を移動したりと、文字通り人智を超越したアクションを平然とやってのける。しかしその一方で、ブラック企業に勤める小林さんの雑然としたマンションに居座り、スーパーの特売に一喜一憂し、洗濯や買い出しといった極めて所帯染みた生活を営んでいるのだ。</p>
+
+<p>カンナがランドセルを背負って小学校に通う姿や、トールが料理を作る姿には、本来ドラゴンが持ち得ないはずの「生活臭」が丁寧に付与されている。超越的な存在であるはずの彼女らが持つこの生活臭こそが、見慣れた日本の市街地や駅前、あるいはデスクワークの疲労感といった「自分たちの現実」の延長線上に、当然のように実在しているかのような温かい錯覚を読者にもたらす。</p>
+
+<p>これもまた、専用ゴーグルなど一切不要な、認知と日常のハックである。
+ベクトルは正反対だが、フィクションの存在を読者の物理空間にまで引きずり込んでみせる手腕において、両者は同じ「真の拡張現実」の系譜に連なっているのだ。</p>]]></content><author><name>makietan</name></author><category term="otaku" /><summary type="html"><![CDATA[獣人は現実にいない、だが「そこにいる」]]></summary></entry><entry><title type="html">キュアエクレールの正体がとうとう明かされる！</title><link href="https://makietan.github.io/otaku/2026/07/19/report.html" rel="alternate" type="text/html" title="キュアエクレールの正体がとうとう明かされる！" /><published>2026-07-19T00:00:00+09:00</published><updated>2026-07-19T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2026/07/19/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2026/07/19/report.html"><![CDATA[<div class="card">
   <a href="http://www.toei-anim.co.jp/tv/precure/camp_cureeclair/"></a>
   <div class="card__header">
     <a href="http://www.toei-anim.co.jp/tv/precure/camp_cureeclair/">www.toei-anim.co.jp</a>
@@ -299,24 +354,4 @@ Android てめえも同罪だよ。
   </li>
 </ol>
 
-<p>まぁ気が向いたら作ってみようかな。</p>]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[赤じそふりかけ奴]]></summary></entry><entry><title type="html">かれこれ10年くらいお世話になった新橋のマクドナルドが閉店した</title><link href="https://makietan.github.io/gourmet/2026/07/10/report.html" rel="alternate" type="text/html" title="かれこれ10年くらいお世話になった新橋のマクドナルドが閉店した" /><published>2026-07-10T00:00:00+09:00</published><updated>2026-07-10T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2026/07/10/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2026/07/10/report.html"><![CDATA[<p>6/20 には情報が出ていたらしい。</p>
-
-<p>そして 6/30 に閉店。</p>
-
-<p>いやー感慨深い。</p>
-
-<p>ヘビーユーザーだっただけに閉店は悲しい。</p>
-
-<p>最寄りのマクドナルドは神谷町店になってしまった。</p>
-
-<p>虎ノ門店➝新橋日比谷口店➝神谷町店</p>
-
-<p>なかなかに遠くなってしまった。</p>
-
-<p>直近は体調崩して新橋方面に全く行ってなかったので、閉店の情報を知ったのは 7/4。</p>
-
-<p>とりあえず体調戻して神谷町店に行こうかな。</p>
-
-<p>行ったことはあるから別にいいんだけど雰囲気が雑に行ける感じじゃなく店内に入らないといけないのでちょっと面倒。</p>
-
-<p>カウンター越しに受け取れたのは画期的だったなと思いを馳せる。</p>]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[6/20 には情報が出ていたらしい。]]></summary></entry></feed>
+<p>まぁ気が向いたら作ってみようかな。</p>]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[赤じそふりかけ奴]]></summary></entry></feed>
