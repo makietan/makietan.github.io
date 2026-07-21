@@ -1,4 +1,33 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-07-20T15:22:16+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>日報を中心に、技術メモやイベント参加記録をまとめるブログです。</subtitle><author><name>makietan</name></author><entry><title type="html">『ヤニねこ』がもたらす不快さと拡張現実</title><link href="https://makietan.github.io/otaku/2026/07/20/report.html" rel="alternate" type="text/html" title="『ヤニねこ』がもたらす不快さと拡張現実" /><published>2026-07-20T00:00:00+09:00</published><updated>2026-07-20T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2026/07/20/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2026/07/20/report.html"><![CDATA[<h2 id="獣人は現実にいないだがそこにいる">獣人は現実にいない、だが「そこにいる」</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-07-21T12:49:46+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>日報を中心に、技術メモやイベント参加記録をまとめるブログです。</subtitle><author><name>makietan</name></author><entry><title type="html">X（旧：Twitter）のアーカイブで「アーカイブのデータ量が50 GBを超えたため、このビューには表示できません。[データフォルダ](./data)ではアーカイブを表示できます。」と表示される場合の対処方法</title><link href="https://makietan.github.io/tech/2026/07/21/report.html" rel="alternate" type="text/html" title="X（旧：Twitter）のアーカイブで「アーカイブのデータ量が50 GBを超えたため、このビューには表示できません。[データフォルダ](./data)ではアーカイブを表示できます。」と表示される場合の対処方法" /><published>2026-07-21T00:00:00+09:00</published><updated>2026-07-21T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2026/07/21/report</id><content type="html" xml:base="https://makietan.github.io/tech/2026/07/21/report.html"><![CDATA[<p>英語だとこうなる。</p>
+
+<blockquote>
+  <p>Your archive is too large to view here
+Since the amount of data in your archive is larger than 50 GB, you won’t be able to see it in this view. However, you can still see your archive in the data folder.</p>
+</blockquote>
+
+<h2 id="対処方法">対処方法</h2>
+
+<p><code class="language-plaintext highlighter-rouge">manifest.js</code> を開き、</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="dl">"</span><span class="s2">archiveInfo</span><span class="dl">"</span> <span class="p">:</span> <span class="p">{</span>
+  <span class="dl">"</span><span class="s2">sizeBytes</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">53699735021</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">generationDate</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">2026-07-11T04:19:00.558Z</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">isPartialArchive</span><span class="dl">"</span> <span class="p">:</span> <span class="kc">false</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">maxPartSizeBytes</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">107374182400</span><span class="dl">"</span>
+<span class="p">},</span>
+</code></pre></div></div>
+
+<p>に書き換える。</p>
+
+<p>必ず自分のアーカイブの <code class="language-plaintext highlighter-rouge">sizeBytes</code> の値を確認して書き換えること。</p>
+
+<p>そしたら多分、表示できる。</p>
+
+<p><code class="language-plaintext highlighter-rouge">maxPartSizeBytes</code> と <code class="language-plaintext highlighter-rouge">isPartialArchive</code> が悪さをしているので、<code class="language-plaintext highlighter-rouge">maxPartSizeBytes</code> は 50 GB より大きい値にして、<code class="language-plaintext highlighter-rouge">isPartialArchive</code> は <code class="language-plaintext highlighter-rouge">false</code> にする。</p>
+
+<p>分割してダウンロードしている場合は、2つ目以降のファイルはこれではうまくいかない。</p>
+
+<p>何かしら対処する必要があるだろう。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[英語だとこうなる。]]></summary></entry><entry><title type="html">『ヤニねこ』がもたらす不快さと拡張現実</title><link href="https://makietan.github.io/otaku/2026/07/20/report.html" rel="alternate" type="text/html" title="『ヤニねこ』がもたらす不快さと拡張現実" /><published>2026-07-20T00:00:00+09:00</published><updated>2026-07-20T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2026/07/20/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2026/07/20/report.html"><![CDATA[<h2 id="獣人は現実にいないだがそこにいる">獣人は現実にいない、だが「そこにいる」</h2>
 
 <p>『ヤニねこ』というコンテンツに対して、生理的な嫌悪感を抱く人は少なくない。
 汚部屋、重度の喫煙、自堕落な生態。
@@ -302,56 +331,4 @@ Android てめえも同罪だよ。
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3274.2309371345827!2d135.6170144770621!3d34.85042417286706!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600103bb146501b5%3A0xd505ecb9b518f00f!2z44Go44Go44Go44GP44GY44KJ!5e0!3m2!1sja!2sjp!4v1783649246190!5m2!1sja!2sjp" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 
-<p>行く機会があったら行ってみたい。</p>]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[tver.jp ケンコバのほろ酔いビジホ泊 全国版 高槻市（大阪府） 7月9日(木)放送分 | バラエティ | 見逃し無料配信はTVer！人気の動画見放題 ケンコバのほろ酔いビジホ泊 全国版 高槻市（大阪府） 7月9日(木)放送分 | 大阪府高槻市。ケンコバさんは馴染みがないという街で、阪急高槻市駅近くのビジホにチ… | BS朝日制作 | 出演はケンドーコバヤシ。 | TVerにあるテレビ番組はすべて無料で配信！最新話から過去人気番組まで動画見放題！]]></summary></entry><entry><title type="html">マツコの知らない世界「冷奴の世界」であった赤じそふりかけ奴が気になる</title><link href="https://makietan.github.io/gourmet/2026/07/11/report.html" rel="alternate" type="text/html" title="マツコの知らない世界「冷奴の世界」であった赤じそふりかけ奴が気になる" /><published>2026-07-11T00:00:00+09:00</published><updated>2026-07-11T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2026/07/11/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2026/07/11/report.html"><![CDATA[<h2 id="赤じそふりかけ奴">赤じそふりかけ奴</h2>
-
-<ul>
-  <li>ゆかりのふりかけ</li>
-  <li>オリーブオイル</li>
-  <li>絹豆腐</li>
-</ul>
-
-<p>かけるだけ</p>
-
-<p>ビールじゃないらしい。</p>
-
-<p>白ワインか日本酒だって。</p>
-
-<div class="card">
-  <a href="https://tver.jp/episodes/ep2s3rjz8p"></a>
-  <div class="card__header">
-    <a href="https://tver.jp/episodes/ep2s3rjz8p">tver.jp</a>
-  </div>
-  <div class="card__image">
-    <img src="https://image-cdn.tver.jp/w=800/images/content/thumbnail/episode/xlarge/ep2s3rjz8p.jpg?v=d53322e4" />
-  </div>
-  <div class="card__title">
-    <p>マツコの知らない世界 「冷奴の世界」 2022年放送 | バラエティ | 見逃し無料配信はTVer！人気の動画見放題</p>
-  </div>
-  <div class="card__description">
-    <p>マツコの知らない世界 「冷奴の世界」 2022年放送 | 3分クッキングの料理研究家＆89歳の義父アシスタントの名コンビ！冷奴の魅力が満載… | TBS制作 | 出演はマツコ・デラックス、小林 まさみほか。 | TVerにあるテレビ番組はすべて無料で配信！最新話から過去人気番組まで動画見放題！</p>
-  </div>
-</div>
-
-<h2 id="おかず冷奴">おかず冷奴</h2>
-
-<ol>
-  <li>そば屋さんのカレー奴
-    <ul>
-      <li>大根・にんじん・豚ひき肉・長ねぎ・水・酒・醤油・カレールー・かつお節・片栗粉</li>
-    </ul>
-  </li>
-  <li>豚キムチ奴</li>
-  <li>高菜そぼろ奴
-    <ul>
-      <li>豚ひき肉・コマ油・高菜漬け・赤唐辛子・醤油・酒</li>
-    </ul>
-  </li>
-  <li>ちくわバター奴</li>
-  <li>卵とじ奴
-    <ul>
-      <li>たまねぎ・しいたけ・卵・揚げ玉・かつおだし・醤油・みりん・砂糖・みつば</li>
-    </ul>
-  </li>
-</ol>
-
-<p>まぁ気が向いたら作ってみようかな。</p>]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[赤じそふりかけ奴]]></summary></entry></feed>
+<p>行く機会があったら行ってみたい。</p>]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[tver.jp ケンコバのほろ酔いビジホ泊 全国版 高槻市（大阪府） 7月9日(木)放送分 | バラエティ | 見逃し無料配信はTVer！人気の動画見放題 ケンコバのほろ酔いビジホ泊 全国版 高槻市（大阪府） 7月9日(木)放送分 | 大阪府高槻市。ケンコバさんは馴染みがないという街で、阪急高槻市駅近くのビジホにチ… | BS朝日制作 | 出演はケンドーコバヤシ。 | TVerにあるテレビ番組はすべて無料で配信！最新話から過去人気番組まで動画見放題！]]></summary></entry></feed>
