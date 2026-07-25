@@ -1,22 +1,74 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-07-26T02:57:21+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>日報を中心に、技術メモやイベント参加記録をまとめるブログです。</subtitle><author><name>makietan</name></author><entry><title type="html">DONEリストを修正した</title><link href="https://makietan.github.io/tech/2026/07/26/report.html" rel="alternate" type="text/html" title="DONEリストを修正した" /><published>2026-07-26T00:00:00+09:00</published><updated>2026-07-26T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2026/07/26/report</id><content type="html" xml:base="https://makietan.github.io/tech/2026/07/26/report.html"><![CDATA[<div class="card">
-  <a href="https://github.com/tanjoin/done"></a>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-07-26T05:41:58+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>日報を中心に、技術メモやイベント参加記録をまとめるブログです。</subtitle><author><name>makietan</name></author><entry><title type="html">一般発売のチケット販売サイト比較</title><link href="https://makietan.github.io/otaku/2026/07/26/report.html" rel="alternate" type="text/html" title="一般発売のチケット販売サイト比較" /><published>2026-07-26T00:00:00+09:00</published><updated>2026-07-26T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2026/07/26/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2026/07/26/report.html"><![CDATA[<div class="card">
+  <a href="https://konosuba.com/10th_anniv"></a>
   <div class="card__header">
-    <a href="https://github.com/tanjoin/done">github.com</a>
+    <a href="https://konosuba.com/10th_anniv">konosuba.com</a>
   </div>
   <div class="card__image">
-    <img src="https://opengraph.githubassets.com/1ac9de27bac52e563212fe23f18875b78d3cade0aa2c918076d02c09551810ca/tanjoin/done" />
+    <img src="https://konosuba.com/10th_anniv/assets/img/ogp.png" />
   </div>
   <div class="card__title">
-    <p>GitHub - tanjoin/done</p>
+    <p>アニメ「この素晴らしい世界に祝福を！」10周年記念サイト</p>
   </div>
   <div class="card__description">
-    <p>Contribute to tanjoin/done development by creating an account on GitHub.</p>
+    <p>アニメ「この素晴らしい世界に祝福を！」10周年記念サイト</p>
   </div>
 </div>
 
-<p>最初は全てカレンダーに登録するようにしていたが、ただの完了するだけの仕様に変えた。</p>
+<p>『この素晴らしい世界に祝福を！』　アニメ１０周年記念イベント“Ｃｏｌｏｒｆｕｌ” の一般発売の比較をする。</p>
 
-<p>一方で、詳細な時間の保存はまだできていないのでどうにかしたい。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[github.com GitHub - tanjoin/done Contribute to tanjoin/done development by creating an account on GitHub.]]></summary></entry><entry><title type="html">田町駅までちぃばすで行ってみたい</title><link href="https://makietan.github.io/travel/2026/07/25/report.html" rel="alternate" type="text/html" title="田町駅までちぃばすで行ってみたい" /><published>2026-07-25T00:00:00+09:00</published><updated>2026-07-25T00:00:00+09:00</updated><id>https://makietan.github.io/travel/2026/07/25/report</id><content type="html" xml:base="https://makietan.github.io/travel/2026/07/25/report.html"><![CDATA[<h2 id="ラーメンを食べに行きたい">ラーメンを食べに行きたい</h2>
+<h2 id="eイープラス">e+(イープラス)</h2>
+
+<ul>
+  <li>支払方法：クレジットカード</li>
+  <li>
+    <p>受取方法：セブンイレブン</p>
+  </li>
+  <li>料金 10,385円
+    <ul>
+      <li>チケット料金：¥10,000</li>
+      <li>システム利用料：¥220</li>
+      <li>※店頭発券手数料¥165を別途お支払いください。</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="チケットぴあ">チケットぴあ</h2>
+
+<ul>
+  <li>合計	10,495円
+    <ul>
+      <li>チケット料金	指定	10,000円×1枚	10,000円</li>
+      <li>システム利用料	330円×1枚	330円</li>
+      <li>発券手数料	165円×1枚	165円</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="ローソンチケット">ローソンチケット</h2>
+
+<ul>
+  <li>合計金額 ¥10,495
+    <ul>
+      <li>チケット代金 指定席 ¥10,000 × 1枚</li>
+      <li>手数料 システム利用料 ¥330 × 1枚</li>
+      <li>店頭発券手数料 ¥165 × 1枚</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="まとめ">まとめ</h2>
+
+<ul>
+  <li>e+(イープラス)が最安値</li>
+</ul>
+
+<p>なんで？</p>
+
+<p>とりあえず、e+(イープラス)で購入するのが良いでしょう。</p>
+
+<p>まぁ、5時くらいに書いてるので、寝て起きたら夜の部しか行けないかもしれないけど、まぁ、いいか。</p>
+
+<p>というか昼の部は完売してるから、7,000円で通しで見れる配信チケットの方が良いかもしれない。</p>]]></content><author><name>makietan</name></author><category term="otaku" /><summary type="html"><![CDATA[konosuba.com アニメ「この素晴らしい世界に祝福を！」10周年記念サイト アニメ「この素晴らしい世界に祝福を！」10周年記念サイト]]></summary></entry><entry><title type="html">田町駅までちぃばすで行ってみたい</title><link href="https://makietan.github.io/travel/2026/07/25/report.html" rel="alternate" type="text/html" title="田町駅までちぃばすで行ってみたい" /><published>2026-07-25T00:00:00+09:00</published><updated>2026-07-25T00:00:00+09:00</updated><id>https://makietan.github.io/travel/2026/07/25/report</id><content type="html" xml:base="https://makietan.github.io/travel/2026/07/25/report.html"><![CDATA[<h2 id="ラーメンを食べに行きたい">ラーメンを食べに行きたい</h2>
 
 <p>田町にもラーメン屋はあると思うので安価に移動して食べに行きたい。</p>
 
