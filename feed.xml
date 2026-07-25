@@ -1,4 +1,22 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-07-25T14:44:59+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>日報を中心に、技術メモやイベント参加記録をまとめるブログです。</subtitle><author><name>makietan</name></author><entry><title type="html">田町駅までちぃばすで行ってみたい</title><link href="https://makietan.github.io/travel/2026/07/25/report.html" rel="alternate" type="text/html" title="田町駅までちぃばすで行ってみたい" /><published>2026-07-25T00:00:00+09:00</published><updated>2026-07-25T00:00:00+09:00</updated><id>https://makietan.github.io/travel/2026/07/25/report</id><content type="html" xml:base="https://makietan.github.io/travel/2026/07/25/report.html"><![CDATA[<h2 id="ラーメンを食べに行きたい">ラーメンを食べに行きたい</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-07-26T00:55:29+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>日報を中心に、技術メモやイベント参加記録をまとめるブログです。</subtitle><author><name>makietan</name></author><entry><title type="html">DONEリストを修正した</title><link href="https://makietan.github.io/tech/2026/07/26/report.html" rel="alternate" type="text/html" title="DONEリストを修正した" /><published>2026-07-26T00:00:00+09:00</published><updated>2026-07-26T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2026/07/26/report</id><content type="html" xml:base="https://makietan.github.io/tech/2026/07/26/report.html"><![CDATA[<div class="card">
+  <a href="https://github.com/tanjoin/done"></a>
+  <div class="card__header">
+    <a href="https://github.com/tanjoin/done">github.com</a>
+  </div>
+  <div class="card__image">
+    <img src="https://opengraph.githubassets.com/1ac9de27bac52e563212fe23f18875b78d3cade0aa2c918076d02c09551810ca/tanjoin/done" />
+  </div>
+  <div class="card__title">
+    <p>GitHub - tanjoin/done</p>
+  </div>
+  <div class="card__description">
+    <p>Contribute to tanjoin/done development by creating an account on GitHub.</p>
+  </div>
+</div>
+
+<p>最初は全てカレンダーに登録するようにしていたが、ただの完了するだけの仕様に変えた。</p>
+
+<p>一方で、詳細な時間の保存はまだできていないのでどうにかしたい。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[github.com GitHub - tanjoin/done Contribute to tanjoin/done development by creating an account on GitHub.]]></summary></entry><entry><title type="html">田町駅までちぃばすで行ってみたい</title><link href="https://makietan.github.io/travel/2026/07/25/report.html" rel="alternate" type="text/html" title="田町駅までちぃばすで行ってみたい" /><published>2026-07-25T00:00:00+09:00</published><updated>2026-07-25T00:00:00+09:00</updated><id>https://makietan.github.io/travel/2026/07/25/report</id><content type="html" xml:base="https://makietan.github.io/travel/2026/07/25/report.html"><![CDATA[<h2 id="ラーメンを食べに行きたい">ラーメンを食べに行きたい</h2>
 
 <p>田町にもラーメン屋はあると思うので安価に移動して食べに行きたい。</p>
 
@@ -64,7 +82,7 @@
 
 <ul class="task-list">
   <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />三田製麺所 三田本店</li>
-  <li class="task-list-item">[✓] むらさき山</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />むらさき山</li>
   <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />大輝家直系 家系ラーメン 大総家</li>
   <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />中華そば専門 田中そば店 田町タワー店</li>
   <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />舎鈴 田町駅前店</li>
@@ -73,8 +91,8 @@
 
 <p>新橋周辺に昔いたお店がちらほらいたりするので久々に食べてみたい。</p>
 
-<ul>
-  <li>[✓] ラーメン二郎 三田本店</li>
+<ul class="task-list">
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />ラーメン二郎 三田本店</li>
 </ul>
 
 <p>すこし距離はあるが、 ラーメン二郎 三田本店 もまた行ってみたい。</p>
@@ -293,4 +311,4 @@ Since the amount of data in your archive is larger than 50 GB, you won’t be ab
 <p>つーか拒否ボタン押したら留守電になった。
 Android てめえも同罪だよ。
 スパムに留守電させるとかマジで頭おかしいだろ。
-完全拒否のボタン設置しろや。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[「中国入国管理局」を名乗る日本語の自動音声が流れ、ダイヤルボタンを押すよう案内される不審な電話が発生しています。当庁（入管）とは全く関係がありませんので、このような電話を受けても回答などはせず、最寄りの地方出入国在留管理局にご相談ください。https://t.co/RXhOcmz0t9&mdash; 出入国在留管理庁（Immigration Services Agency） (@MOJ_IMMI) May 25, 2023]]></summary></entry><entry><title type="html">ちゃん系ラーメンのおしゃれ番長 #銀座はるちゃんラーメン #ちゃん系ラーメン</title><link href="https://makietan.github.io/gourmet/2026/07/16/report.html" rel="alternate" type="text/html" title="ちゃん系ラーメンのおしゃれ番長 #銀座はるちゃんラーメン #ちゃん系ラーメン" /><published>2026-07-16T00:00:00+09:00</published><updated>2026-07-16T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2026/07/16/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2026/07/16/report.html"><![CDATA[]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[ご飯感想ブログ「すずろ庵」へ遷移します]]></summary></entry></feed>
+完全拒否のボタン設置しろや。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[「中国入国管理局」を名乗る日本語の自動音声が流れ、ダイヤルボタンを押すよう案内される不審な電話が発生しています。当庁（入管）とは全く関係がありませんので、このような電話を受けても回答などはせず、最寄りの地方出入国在留管理局にご相談ください。https://t.co/RXhOcmz0t9&mdash; 出入国在留管理庁（Immigration Services Agency） (@MOJ_IMMI) May 25, 2023]]></summary></entry></feed>
