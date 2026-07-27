@@ -1,4 +1,104 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-07-27T15:33:01+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>日報を中心に、技術メモやイベント参加記録をまとめるブログです。</subtitle><author><name>makietan</name></author><entry><title type="html">「機動戦士ガンダム 水星の魔女 青春フロンティア」を Amazon で買った</title><link href="https://makietan.github.io/otaku/2026/07/27/report.html" rel="alternate" type="text/html" title="「機動戦士ガンダム 水星の魔女 青春フロンティア」を Amazon で買った" /><published>2026-07-27T00:00:00+09:00</published><updated>2026-07-27T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2026/07/27/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2026/07/27/report.html"><![CDATA[<p>どうやら買い忘れていたので、Amazon で「機動戦士ガンダム 水星の魔女 青春フロンティア」(1) (2) を買った。</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-07-28T02:35:12+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>日報を中心に、技術メモやイベント参加記録をまとめるブログです。</subtitle><author><name>makietan</name></author><entry><title type="html">先攻予約のチケット販売サイト比較</title><link href="https://makietan.github.io/otaku/2026/07/28/report.html" rel="alternate" type="text/html" title="先攻予約のチケット販売サイト比較" /><published>2026-07-28T00:00:00+09:00</published><updated>2026-07-28T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2026/07/28/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2026/07/28/report.html"><![CDATA[<p>チケット予約サイトの手数料が高い。</p>
+
+<p>本当に高い。</p>
+
+<p>少しでも安くチケットを購入したいと思い、今回は「ボイスシネマ声優口演ライブ2026 in 有楽町〔東京〕」の先行予約で比較してみました。</p>
+
+<div class="card">
+  <a href="https://www.seiyu-kouen.jp/"></a>
+  <div class="card__header">
+    <a href="https://www.seiyu-kouen.jp/">www.seiyu-kouen.jp</a>
+  </div>
+  <div class="card__image">
+    <img src="https://www.seiyu-kouen.jp/asset2026-2/items/ogp.jpg" />
+  </div>
+  <div class="card__title">
+    <p>ボイスシネマ声優口演ライブ2026</p>
+  </div>
+  <div class="card__description">
+    <p>【東京公演】2026年10月2日(金)～10月4日(日)〈全3公演〉｜【大阪公演】11月7日(土)</p>
+  </div>
+</div>
+
+<p>特に悪意はなく、複数のチケット販売サイトの料金を比較することができるイベントだったので参考にさせていただきました。</p>
+
+<p>いつぞやの公演を観た時に面白いなと思ったので、今回も観に行きたいなと思ってますが、手数料が高いので、どのサイトで購入するか悩んでる最中なんです。</p>
+
+<h2 id="チケットぴあ">チケットぴあ</h2>
+
+<ul>
+  <li>クレジットカード決済</li>
+  <li>
+    <p>セブンイレブンにて発券</p>
+  </li>
+  <li>料金 10,045円
+    <ul>
+      <li>指定席 9,000円 × 1枚</li>
+      <li>システム利用料 330円 × 1枚</li>
+      <li>発券手数料 165円 × 1枚</li>
+      <li>特別販売利用料 550円 × 1枚</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="ローソンチケット">ローソンチケット</h2>
+
+<ul>
+  <li>引取方法：店頭</li>
+  <li>
+    <p>支払方法：クレジットカード</p>
+  </li>
+  <li>料金 10,045円
+    <ul>
+      <li>指定席 9,000円 × 1枚</li>
+      <li>システム利用料 330円 × 1枚</li>
+      <li>店頭発券手数料 165円 × 1枚</li>
+      <li>先行サービス料 550円 × 1枚</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="eイープラス">e+（イープラス）</h2>
+
+<ul>
+  <li>支払方法：クレジットカード</li>
+  <li>
+    <p>受取方法：セブン-イレブン</p>
+  </li>
+  <li>料金 10,045円
+    <ul>
+      <li>チケット料金：¥9,000</li>
+      <li>サービス料：¥660</li>
+      <li>システム利用料：¥220</li>
+      <li>※店頭発券手数料¥165を別途お支払いください。</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="zaiko">ZAIKO</h2>
+
+<ul>
+  <li>クレジットカード決済</li>
+  <li>
+    <p>電子チケット</p>
+  </li>
+  <li>料金 9,968円
+    <ul>
+      <li>指定席 ￥9,000</li>
+      <li>購入手数料 ￥968</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="まとめ">まとめ</h2>
+
+<p>ZAIKOが最も安いです。
+ただ、電子チケットで、購入手数料としては他よりバカ高いので、購入する際は注意が必要です。</p>
+
+<p>発券して記念に残したい場合は、チケットぴあやローソンチケット、e+（イープラス）を利用するのが良いでしょう。
+どこも同じ値段で、手数料の内訳が違うだけなので、どこで購入しても大差はありません。</p>
+
+<p>ここまで料金が一緒だと、競争とかもなく、ズブズブと手数料が高くなっていくのも仕方ないのかなと思います。</p>]]></content><author><name>makietan</name></author><category term="otaku" /><summary type="html"><![CDATA[チケット予約サイトの手数料が高い。]]></summary></entry><entry><title type="html">「機動戦士ガンダム 水星の魔女 青春フロンティア」を Amazon で買った</title><link href="https://makietan.github.io/otaku/2026/07/27/report.html" rel="alternate" type="text/html" title="「機動戦士ガンダム 水星の魔女 青春フロンティア」を Amazon で買った" /><published>2026-07-27T00:00:00+09:00</published><updated>2026-07-27T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2026/07/27/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2026/07/27/report.html"><![CDATA[<p>どうやら買い忘れていたので、Amazon で「機動戦士ガンダム 水星の魔女 青春フロンティア」(1) (2) を買った。</p>
 
 <h2 id="機動戦士ガンダム-水星の魔女-青春フロンティア-1-角川コミックスエース">機動戦士ガンダム 水星の魔女 青春フロンティア 1 (角川コミックス・エース)</h2>
 <p><a href="https://link.amazon/B08aZv5nn"><img src="https://m.media-amazon.com/images/I/71LF6oDK+FL._SL1422_.jpg" alt="" /></a></p>
@@ -318,58 +418,4 @@ Since the amount of data in your archive is larger than 50 GB, you won’t be ab
 
 <p>今回プリキュアにならなくてもまぁ別にいいかなと思ってます。</p>
 
-<p>なんだこの水星の魔女オタク。</p>]]></content><author><name>makietan</name></author><category term="otaku" /><summary type="html"><![CDATA[www.toei-anim.co.jp キュアエクレールの正体は誰!?｜名探偵プリキュア！｜東映アニメーション エクレールの正体を推理して投票しよう！投票期間は、6月21(日)あさ8時00分から7月19日(日)あさ8時00分まで！]]></summary></entry><entry><title type="html">富士駅近くに金目鯛がお手頃価格で食べられそうな店があるっぽい</title><link href="https://makietan.github.io/gourmet/2026/07/18/report.html" rel="alternate" type="text/html" title="富士駅近くに金目鯛がお手頃価格で食べられそうな店があるっぽい" /><published>2026-07-18T00:00:00+09:00</published><updated>2026-07-18T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2026/07/18/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2026/07/18/report.html"><![CDATA[<div class="card">
-  <a href="https://tver.jp/episodes/epu9v68ljw"></a>
-  <div class="card__header">
-    <a href="https://tver.jp/episodes/epu9v68ljw">tver.jp</a>
-  </div>
-  <div class="card__image">
-    <img src="https://image-cdn.tver.jp/w=800/images/content/thumbnail/episode/xlarge/epu9v68ljw.jpg?v=561727fa" />
-  </div>
-  <div class="card__title">
-    <p>ケンコバのほろ酔いビジホ泊 全国版 富士市（静岡県） 7月16日(木)放送分 | バラエティ | 見逃し無料配信はTVer！人気の動画見放題</p>
-  </div>
-  <div class="card__description">
-    <p>ケンコバのほろ酔いビジホ泊 全国版 富士市（静岡県） 7月16日(木)放送分 | 今宵は静岡県富士市宿泊先は屋上にサウナがあるサウナ好きにはたまらないビジホ。整っ… | BS朝日制作 | 出演はケンドーコバヤシ。 | TVerにあるテレビ番組はすべて無料で配信！最新話から過去人気番組まで動画見放題！</p>
-  </div>
-</div>
-
-<h2 id="hotel--sauna-fujinos">HOTEL &amp; SAUNA FUJINOS</h2>
-
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3262.3162576730915!2d138.65697287576415!3d35.148732672763785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601a2bb76cda4881%3A0x3254819cf96baa12!2sHOTEL%20%26%20SAUNA%20FUJINOS!5e0!3m2!1sja!2sjp!4v1784354208639!5m2!1sja!2sjp" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
-
-<p>個室サウナがあるホテル。</p>
-
-<p>非常にリッチな固執サウナだったので良さそうだった。</p>
-
-<h2 id="山海">山海</h2>
-
-<p>店は一階らしい。</p>
-
-<p>三階の山海って書いてるのに（笑）。</p>
-
-<ul>
-  <li>
-    <p>お通し 330円</p>
-  </li>
-  <li>ザ・プレミアム・モルツ 649円</li>
-  <li>白隠正宗 誉富士特別純米酒（熱燗） 649円</li>
-  <li>
-    <p>山中山屋 普通酒精撰（熱燗） 638円</p>
-  </li>
-  <li>金目鯛煮付 1,078円</li>
-  <li>牛スジ煮込 638円</li>
-  <li>お刺身三品盛 1,078円</li>
-</ul>
-
-<p>合計 5,060円</p>
-
-<p>安いねぇ。</p>
-
-<p>いやー伊豆で食べるより格安。</p>
-
-<p>やっぱこういうところで食べるのがいいですね。</p>
-
-<p>安く食べられる店を色々調べてみたい。</p>
-
-<p>金目鯛美味しいからね。</p>]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[tver.jp ケンコバのほろ酔いビジホ泊 全国版 富士市（静岡県） 7月16日(木)放送分 | バラエティ | 見逃し無料配信はTVer！人気の動画見放題 ケンコバのほろ酔いビジホ泊 全国版 富士市（静岡県） 7月16日(木)放送分 | 今宵は静岡県富士市宿泊先は屋上にサウナがあるサウナ好きにはたまらないビジホ。整っ… | BS朝日制作 | 出演はケンドーコバヤシ。 | TVerにあるテレビ番組はすべて無料で配信！最新話から過去人気番組まで動画見放題！]]></summary></entry></feed>
+<p>なんだこの水星の魔女オタク。</p>]]></content><author><name>makietan</name></author><category term="otaku" /><summary type="html"><![CDATA[www.toei-anim.co.jp キュアエクレールの正体は誰!?｜名探偵プリキュア！｜東映アニメーション エクレールの正体を推理して投票しよう！投票期間は、6月21(日)あさ8時00分から7月19日(日)あさ8時00分まで！]]></summary></entry></feed>
