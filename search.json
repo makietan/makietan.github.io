@@ -4095,6 +4095,15 @@
 
   
   {
+    "title": "Dependabotの更新が一時停止されたときの対処方法",
+    
+    "tags": [],
+    "url": "/tech/2026/07/29/report.html",
+    "date": {"year": "2026", "month": "07", "day": "29"},
+    "content": "久々に Dependabot を使おうとしたら、以下のようなメッセージが表示されて更新が止まってしまいました。表示されたメッセージ:warning:  Dependabot updates are pausedWe noticed you haven’t used Dependabot in a while, so we’ve paused automated Dependabot updates for this repository.To resume updates, merge a Dependabot pull request or use @dependabot rebase.. See open Dependabot pull requests or learn more about pausing of activity.日本語訳:warning:  Dependabotの更新は一時停止されていますしばらくDependabotを使用していないことがわかったため、このリポジトリの自動Dependabot更新は一時停止されました。更新を再開するには、Dependabotのプルリクエストをマージするか、@dependabot rebase を使用してください。オープン中のDependabotプルリクエストを確認するか、アクティビティの一時停止について詳しく学んでください。        docs-internal.github.com                Dependabot セキュリティ アップデート - GitHubドキュメント        Dependabot では、セキュリティ更新プログラムを使用して pull request を生成することで、脆弱な依存関係を修正できます。  See open Dependabot pull requests以下のようなリンクが貼られていました。Dependabot によるプルリクエストの有無が確認できるリンクです。https://github.com/makietan/makietan.github.io/pulls/app%2Fdependabot※ makietan/makietan.github.io は私のリポジトリです。Dependabot alertsDependabot alerts のページで一覧が確認できる。https://github.com/makietan/makietan.github.io/security/dependabot90日間更新がないと自動的に更新が停止されるみたい        dev.classmethod.jp                [GitHub] Dependabot updates は 90 日間操作が無い場合は自動で無効化される | DevelopersIO          記事によると90日間更新がないと自動的に更新が停止されるみたい。また、更新を再開するには、Dependabotのプルリクエストをマージするか、@dependabot rebase を使用する必要があるとのこと。まとめDependabotの更新が一時停止されたときは、以下のいずれかの方法で更新を再開することができます。  Dependabotのプルリクエストをマージする  @dependabot rebase を使用する一時停止されるのは90日間更新がない場合なので、定期的にDependabotを使用することで自動的に更新が停止されることを防ぐことができます。頑張ろう。"
+  },
+  
+  {
     "title": "先攻予約のチケット販売サイト比較",
     
     "tags": [],
