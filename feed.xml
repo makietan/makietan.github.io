@@ -1,4 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-07-31T23:58:33+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>日報を中心に、技術メモやイベント参加記録をまとめるブログです。</subtitle><author><name>makietan</name></author><entry><title type="html">DONEリストを修正した</title><link href="https://makietan.github.io/tech/2026/07/31/report.html" rel="alternate" type="text/html" title="DONEリストを修正した" /><published>2026-07-31T00:00:00+09:00</published><updated>2026-07-31T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2026/07/31/report</id><content type="html" xml:base="https://makietan.github.io/tech/2026/07/31/report.html"><![CDATA[<div class="card">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-08-01T01:52:14+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>日報を中心に、技術メモやイベント参加記録をまとめるブログです。</subtitle><author><name>makietan</name></author><entry><title type="html">PLの花火が終わってから12年</title><link href="https://makietan.github.io/japan/2026/08/01/report.html" rel="alternate" type="text/html" title="PLの花火が終わってから12年" /><published>2026-08-01T00:00:00+09:00</published><updated>2026-08-01T00:00:00+09:00</updated><id>https://makietan.github.io/japan/2026/08/01/report</id><content type="html" xml:base="https://makietan.github.io/japan/2026/08/01/report.html"><![CDATA[<p>2014年が最後だった。</p>
+
+<p>地元のPLの花火大会が終わってから、もう12年が経った。</p>
+
+<p>毎年8月1日になると、爆撃かと思うほどの音と共にあの夜空に咲いた大輪の花火を思い出す。</p>
+
+<p>あの瞬間、街全体が光に包まれ、子供たちの歓声と共に夏の夜が一層鮮やかに感じられた。</p>
+
+<p>教団とは一切関係ないが、あの花火大会はちょっとした楽しみだった。</p>
+
+<p>12年経った今でも、8月1日になると、花火見たなと思い出す。</p>
+
+<p>それほどに地域に根付いたイベントだったのだろう。</p>]]></content><author><name>makietan</name></author><category term="japan" /><summary type="html"><![CDATA[2014年が最後だった。]]></summary></entry><entry><title type="html">DONEリストを修正した</title><link href="https://makietan.github.io/tech/2026/07/31/report.html" rel="alternate" type="text/html" title="DONEリストを修正した" /><published>2026-07-31T00:00:00+09:00</published><updated>2026-07-31T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2026/07/31/report</id><content type="html" xml:base="https://makietan.github.io/tech/2026/07/31/report.html"><![CDATA[<div class="card">
   <a href="https://github.com/tanjoin/done"></a>
   <div class="card__header">
     <a href="https://github.com/tanjoin/done">github.com</a>
@@ -415,33 +427,4 @@
 
 <p>さらに、施設のいたるところに作品のコラボポスターが掲示されており、ファン心をくすぐる演出も魅力的であった。</p>
 
-<p>アニメファンはもちろん、快適な空間から一風変わった初夏の絶景を楽しみたい人にも、ぜひおすすめしたいスポットである。</p>]]></content><author><name>makietan</name></author><category term="otaku" /><summary type="html"><![CDATA[越谷の田んぼアートちゃんと展望施設もあってかなり良いマジやばくね#小林さんちのメイドラゴン pic.twitter.com/4jCX2eBhT4&mdash; まきえたん☘️🥦 (@makietanX) July 19, 2026]]></summary></entry><entry><title type="html">X（旧：Twitter）のアーカイブで「アーカイブのデータ量が50 GBを超えたため、このビューには表示できません。[データフォルダ](./data)ではアーカイブを表示できます。」と表示される場合の対処方法</title><link href="https://makietan.github.io/tech/2026/07/21/report.html" rel="alternate" type="text/html" title="X（旧：Twitter）のアーカイブで「アーカイブのデータ量が50 GBを超えたため、このビューには表示できません。[データフォルダ](./data)ではアーカイブを表示できます。」と表示される場合の対処方法" /><published>2026-07-21T00:00:00+09:00</published><updated>2026-07-21T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2026/07/21/report</id><content type="html" xml:base="https://makietan.github.io/tech/2026/07/21/report.html"><![CDATA[<p>英語だとこうなる。</p>
-
-<blockquote>
-  <p>Your archive is too large to view here
-Since the amount of data in your archive is larger than 50 GB, you won’t be able to see it in this view. However, you can still see your archive in the data folder.</p>
-</blockquote>
-
-<h2 id="対処方法">対処方法</h2>
-
-<p><code class="language-plaintext highlighter-rouge">manifest.js</code> を開き、</p>
-
-<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="dl">"</span><span class="s2">archiveInfo</span><span class="dl">"</span> <span class="p">:</span> <span class="p">{</span>
-  <span class="dl">"</span><span class="s2">sizeBytes</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">53699735021</span><span class="dl">"</span><span class="p">,</span>
-  <span class="dl">"</span><span class="s2">generationDate</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">2026-07-11T04:19:00.558Z</span><span class="dl">"</span><span class="p">,</span>
-  <span class="dl">"</span><span class="s2">isPartialArchive</span><span class="dl">"</span> <span class="p">:</span> <span class="kc">false</span><span class="p">,</span>
-  <span class="dl">"</span><span class="s2">maxPartSizeBytes</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">107374182400</span><span class="dl">"</span>
-<span class="p">},</span>
-</code></pre></div></div>
-
-<p>に書き換える。</p>
-
-<p>必ず自分のアーカイブの <code class="language-plaintext highlighter-rouge">sizeBytes</code> の値を確認して書き換えること。</p>
-
-<p>そしたら多分、表示できる。</p>
-
-<p><code class="language-plaintext highlighter-rouge">maxPartSizeBytes</code> と <code class="language-plaintext highlighter-rouge">isPartialArchive</code> が悪さをしているので、<code class="language-plaintext highlighter-rouge">maxPartSizeBytes</code> は 50 GB より大きい値にして、<code class="language-plaintext highlighter-rouge">isPartialArchive</code> は <code class="language-plaintext highlighter-rouge">false</code> にする。</p>
-
-<p>分割してダウンロードしている場合は、2つ目以降のファイルはこれではうまくいかない。</p>
-
-<p>何かしら対処する必要があるだろう。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[英語だとこうなる。]]></summary></entry></feed>
+<p>アニメファンはもちろん、快適な空間から一風変わった初夏の絶景を楽しみたい人にも、ぜひおすすめしたいスポットである。</p>]]></content><author><name>makietan</name></author><category term="otaku" /><summary type="html"><![CDATA[越谷の田んぼアートちゃんと展望施設もあってかなり良いマジやばくね#小林さんちのメイドラゴン pic.twitter.com/4jCX2eBhT4&mdash; まきえたん☘️🥦 (@makietanX) July 19, 2026]]></summary></entry></feed>
