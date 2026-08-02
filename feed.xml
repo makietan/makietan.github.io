@@ -1,4 +1,172 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-08-01T23:33:54+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>日報を中心に、技術メモやイベント参加記録をまとめるブログです。</subtitle><author><name>makietan</name></author><entry><title type="html">PLの花火が終わってから12年</title><link href="https://makietan.github.io/japan/2026/08/01/report.html" rel="alternate" type="text/html" title="PLの花火が終わってから12年" /><published>2026-08-01T00:00:00+09:00</published><updated>2026-08-01T00:00:00+09:00</updated><id>https://makietan.github.io/japan/2026/08/01/report</id><content type="html" xml:base="https://makietan.github.io/japan/2026/08/01/report.html"><![CDATA[<p>2014年が最後だった。</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-08-02T15:00:08+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>日報を中心に、技術メモやイベント参加記録をまとめるブログです。</subtitle><author><name>makietan</name></author><entry><title type="html">吉野家では焼魚（鮭）と納豆を食えという結論になった</title><link href="https://makietan.github.io/gourmet/2026/08/02/report.html" rel="alternate" type="text/html" title="吉野家では焼魚（鮭）と納豆を食えという結論になった" /><published>2026-08-02T00:00:00+09:00</published><updated>2026-08-02T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2026/08/02/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2026/08/02/report.html"><![CDATA[<p><a href="https://notebooklm.google.com/">Google NotebookLM</a> に <code class="language-plaintext highlighter-rouge">https://www.yoshinoya.com/pdf/allergy/</code> を読み込ませて以下の指示を行った</p>
+
+<h2 id="指示その1">指示その1</h2>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>たんぱく質を20g摂取するのに最適化されたメニューを出して
+栄養成分も出して
+価格が安く、脂質が少ないのがベスト
+糖質もできれば少ないほうがいい
+</code></pre></div></div>
+
+<p>という指示をしたら</p>
+
+<h3 id="1-ベスト低脂質低糖質重視単品メニューの組み合わせ">1. 【ベスト：低脂質・低糖質重視】単品メニューの組み合わせ</h3>
+
+<p>ご飯（炭水化物）を避け、高たんぱく・低脂質な単品を組み合わせるのが、最も脂質と糖質を抑えられる方法です。</p>
+
+<ul>
+  <li><strong>メニュー：焼魚（鮭）単品 ＋ 納豆単品</strong>
+    <ul>
+      <li><strong>たんぱく質：20.9g</strong> (12.9g + 8.0g)</li>
+      <li><strong>脂質：9.0g</strong> (3.3g + 5.7g)</li>
+      <li><strong>炭水化物：7.6g</strong> (2.2g + 5.4g)</li>
+      <li><strong>熱量：190 kcal</strong> (83kcal + 107kcal)</li>
+      <li><strong>食塩相当量：3.2g</strong> (1.5g + 1.7g)</li>
+    </ul>
+  </li>
+</ul>
+
+<p><strong>このメニューのメリット：</strong> 焼魚（鮭）は脂質が3.3gと非常に少なく
+、納豆と合わせることで脂質を10g以下に抑えつつ、目標のたんぱく質20gを達成できます。単品の組み合わせのため、価格も比較的安価に抑えられます。</p>
+
+<h3 id="2-定食バランス重視納豆牛小鉢定食">2. 【定食：バランス重視】納豆牛小鉢定食</h3>
+
+<p>朝の定食メニューですが、たんぱく質の効率が非常に良い構成です。</p>
+
+<ul>
+  <li><strong>メニュー：納豆牛小鉢定食</strong>
+    <ul>
+      <li><strong>たんぱく質：21.7g</strong></li>
+      <li><strong>脂質：17.4g</strong></li>
+      <li><strong>炭水化物：95.5g</strong></li>
+      <li><strong>熱量：612 kcal</strong></li>
+      <li><strong>食塩相当量：2.9g</strong></li>
+    </ul>
+  </li>
+</ul>
+
+<p><strong>このメニューのメリット：</strong> 牛丼（並盛）と比較して、たんぱく質がより多く、脂質が低いのが特徴です（牛丼並盛の脂質は23.6g）
+。ご飯が含まれるため糖質は高くなりますが、定食として安価にまとまったセットです。</p>
+
+<h3 id="3-シンプル安価重視牛丼並盛">3. 【シンプル・安価重視】牛丼（並盛）</h3>
+<p>最も手軽で安価な選択肢です。</p>
+<ul>
+  <li><strong>メニュー：牛丼（並盛）</strong>
+    <ul>
+      <li><strong>たんぱく質：19.6g</strong></li>
+      <li><strong>脂質：23.6g</strong></li>
+      <li><strong>炭水化物：88.2g</strong></li>
+      <li><strong>熱量：633 kcal</strong></li>
+      <li><strong>食塩相当量：2.5g</strong></li>
+    </ul>
+  </li>
+</ul>
+
+<p><strong>このメニューのメリット：</strong> 1杯でほぼ20gのたんぱく質を摂取できます
+。ただし、上記の定食や単品コンボと比較すると、牛丼の具に由来する脂質がやや高めになります。</p>
+
+<h2 id="指示その2">指示その2</h2>
+
+<p>納豆が無理と言ったら以下の回答が出てきた</p>
+
+<h3 id="1-ベスト低脂質低糖質重視単品の組み合わせ">1. 【ベスト：低脂質・低糖質重視】単品の組み合わせ</h3>
+
+<p>ご飯（炭水化物）を注文せず、高たんぱく・低脂質な単品メニューを組み合わせることで、脂質と糖質を最小限に抑えられます。</p>
+
+<ul>
+  <li><strong>メニュー：焼魚（鮭）単品 ＋ 玉子単品</strong>
+    <ul>
+      <li><strong>たんぱく質：20.3g</strong> (12.9g + 7.4g)</li>
+      <li><strong>脂質：9.0g</strong> (3.3g + 5.7g)</li>
+      <li><strong>炭水化物：4.9g</strong> (2.2g + 2.7g)</li>
+      <li><strong>熱量：179 kcal</strong> (83kcal + 96kcal)</li>
+    </ul>
+  </li>
+</ul>
+
+<p><strong>このメニューのポイント：</strong> 鮭は脂質が3.3gと非常に低く、優秀なタンパク源です。玉子を加えることで、目標のたんぱく質20gをクリアしつつ、脂質を10g以下に抑えることができます。</p>
+
+<h3 id="2-高たんぱく魚重視焼魚--ほっけ単品">2. 【高たんぱく・魚重視】焼魚 ＋ ほっけ単品</h3>
+
+<p>魚料理を重ねることで、肉類よりも脂質を抑えつつボリュームを出す構成です。</p>
+
+<ul>
+  <li><strong>メニュー：焼魚（鮭）単品 ＋ ほっけ単品</strong>
+    <ul>
+      <li><strong>たんぱく質：23.4g</strong> (12.9g + 10.5g)</li>
+      <li><strong>脂質：10.2g</strong> (3.3g + 6.9g)</li>
+      <li><strong>炭水化物：2.3g</strong> (2.2g + 0.1g)</li>
+      <li><strong>熱量：192 kcal</strong> (83kcal + 109kcal)</li>
+    </ul>
+  </li>
+</ul>
+
+<p><strong>このメニューのポイント：</strong> ほっけも10.5gのたんぱく質を含み、炭水化物はほぼゼロです。糖質を極限まで避けたい場合に最適です。</p>
+<h3 id="3-丼メニュー手軽さ重視牛丼並盛">3. 【丼メニュー：手軽さ重視】牛丼（並盛）</h3>
+
+<p>最も標準的な選択肢で、1杯で目標値に近いタンパク質を摂取できます。</p>
+
+<ul>
+  <li><strong>メニュー：牛丼（並盛）</strong>
+    <ul>
+      <li><strong>たんぱく質：19.6g</strong></li>
+      <li><strong>脂質：23.6g</strong></li>
+      <li><strong>炭水化物：88.2g</strong></li>
+      <li><strong>熱量：633 kcal</strong></li>
+    </ul>
+  </li>
+</ul>
+
+<p><strong>このメニューのポイント：</strong> 単品の組み合わせよりも脂質と糖質（ご飯由来）は高くなりますが、最も安価で手軽な選択肢です。</p>
+
+<h2 id="指示その3">指示その3</h2>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ご飯は食べたい
+</code></pre></div></div>
+
+<h3 id="ご飯付きでのベストほっけ定食">【ご飯付きでのベスト】ほっけ定食</h3>
+
+<p>これ一品で、目標とする20g以上のたんぱく質を摂取でき、かつ非常に低脂質です。</p>
+
+<ul>
+  <li><strong>栄養成分（1食当たり）</strong>
+    <ul>
+      <li><strong>たんぱく質：20.4g</strong></li>
+      <li><strong>脂質：5.0g</strong></li>
+      <li><strong>炭水化物：88.9g</strong></li>
+      <li><strong>熱量：463 kcal</strong></li>
+      <li><strong>食塩相当量：3.7g</strong></li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="特朝定食鮭-午前11時までの朝定食限定">特朝定食（鮭） ※午前11時までの朝定食限定</h3>
+
+<ul>
+  <li><strong>たんぱく質：21.3g</strong></li>
+  <li><strong>脂質：11.1g</strong></li>
+  <li><strong>炭水化物：92.0g</strong></li>
+</ul>
+
+<p><strong>このメニューのポイント：</strong> 鮭と小鉢でたんぱく質を稼ぎつつ、脂質も比較的低めに抑えられています。</p>
+
+<h3 id="牛丼並盛">牛丼（並盛）</h3>
+
+<ul>
+  <li><strong>たんぱく質：19.6g</strong></li>
+  <li><strong>脂質：23.6g</strong></li>
+  <li><strong>炭水化物：88.2g</strong></li>
+</ul>
+
+<p><strong>このメニューのポイント：</strong> 最も安価で手軽ですが、魚の定食と比較すると脂質が約4.7倍高くなります。</p>
+
+<h2 id="まとめ">まとめ</h2>
+
+<p>最強なのは、焼魚（鮭）単品 ＋ 納豆単品の組み合わせ。</p>
+
+<p>ご飯が食べたいなら、ほっけ定食が最もバランスが良く、たんぱく質20g以上、脂質5g以下、炭水化物はご飯由来で88.9gと適度。</p>
+
+<p>牛丼（並盛）は安価で手軽なので、コスト重視or脂質が気にならないのであれば牛丼も選択肢に入る。</p>]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[Google NotebookLM に https://www.yoshinoya.com/pdf/allergy/ を読み込ませて以下の指示を行った]]></summary></entry><entry><title type="html">PLの花火が終わってから12年</title><link href="https://makietan.github.io/japan/2026/08/01/report.html" rel="alternate" type="text/html" title="PLの花火が終わってから12年" /><published>2026-08-01T00:00:00+09:00</published><updated>2026-08-01T00:00:00+09:00</updated><id>https://makietan.github.io/japan/2026/08/01/report</id><content type="html" xml:base="https://makietan.github.io/japan/2026/08/01/report.html"><![CDATA[<p>2014年が最後だった。</p>
 
 <p>地元のPLの花火大会が終わってから、もう12年が経った。</p>
 
@@ -405,26 +573,4 @@
   <div class="card__description">
     <p>バスキタはお手持ちのスマートフォンで、バスの運行状況（現在地等）をリアルタイムで確認できるシステムです。</p>
   </div>
-</div>]]></content><author><name>makietan</name></author><category term="travel" /><summary type="html"><![CDATA[ラーメンを食べに行きたい]]></summary></entry><entry><title type="html">民度が終わってる #ドラクエウォーク #吉野家 虎ノ門店</title><link href="https://makietan.github.io/gourmet/2026/07/24/report.html" rel="alternate" type="text/html" title="民度が終わってる #ドラクエウォーク #吉野家 虎ノ門店" /><published>2026-07-24T00:00:00+09:00</published><updated>2026-07-24T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2026/07/24/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2026/07/24/report.html"><![CDATA[]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[ご飯感想ブログ「すずろ庵」へ遷移します]]></summary></entry><entry><title type="html">暑いから冷たいラーメン #どうとんぼり神座 京王モール店</title><link href="https://makietan.github.io/gourmet/2026/07/23/report.html" rel="alternate" type="text/html" title="暑いから冷たいラーメン #どうとんぼり神座 京王モール店" /><published>2026-07-23T00:00:00+09:00</published><updated>2026-07-23T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2026/07/23/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2026/07/23/report.html"><![CDATA[]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[ご飯感想ブログ「すずろ庵」へ遷移します]]></summary></entry><entry><title type="html">越谷の田んぼアートの『小林さんちのメイドラゴン』が披露されたので行ってきた</title><link href="https://makietan.github.io/otaku/2026/07/22/report.html" rel="alternate" type="text/html" title="越谷の田んぼアートの『小林さんちのメイドラゴン』が披露されたので行ってきた" /><published>2026-07-22T00:00:00+09:00</published><updated>2026-07-22T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2026/07/22/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2026/07/22/report.html"><![CDATA[<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">越谷の田んぼアート<br />ちゃんと展望施設もあってかなり良い<br />マジやばくね<a href="https://x.com/hashtag/%E5%B0%8F%E6%9E%97%E3%81%95%E3%82%93%E3%81%A1%E3%81%AE%E3%83%A1%E3%82%A4%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3?src=hash&amp;ref_src=twsrc%5Etfw">#小林さんちのメイドラゴン</a> <a href="https://t.co/4jCX2eBhT4">pic.twitter.com/4jCX2eBhT4</a></p>&mdash; まきえたん☘️🥦 (@makietanX) <a href="https://x.com/makietanX/status/2078682218533396940?ref_src=twsrc%5Etfw">July 19, 2026</a></blockquote>
-<script async="" src="https://platform.x.com/widgets.js" charset="utf-8"></script>
-
-<p>埼玉県越谷市で開催されている「田んぼアート」を訪れた。</p>
-
-<p>今年のテーマは、人気作品『小林さんちのメイドラゴン』である。</p>
-
-<p>現地にはしっかりと整備された展望施設が用意されており、そこから見下ろす広大な田んぼの景色は圧巻の一言に尽きる。</p>
-
-<p>緑豊かな水田に見事に描き出されたキャラクターたちの姿は、まさに「マジやばくね」と呟いてしまうほどのクオリティである。</p>
-
-<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">マジやばくね <a href="https://x.com/hashtag/maidragon?src=hash&amp;ref_src=twsrc%5Etfw">#maidragon</a> <a href="https://x.com/hashtag/doragonmaid?src=hash&amp;ref_src=twsrc%5Etfw">#doragonmaid</a> <a href="https://t.co/uuE7HcwABR">pic.twitter.com/uuE7HcwABR</a></p>&mdash; まきえたん☘️🥦 (@makietanX) <a href="https://x.com/makietanX/status/2078728359853601117?ref_src=twsrc%5Etfw">July 19, 2026</a></blockquote>
-<script async="" src="https://platform.x.com/widgets.js" charset="utf-8"></script>
-
-<p>この田んぼアートは、「東埼玉資源環境組合 第一工場ごみ処理施設」の展望台から見下ろすことができる。</p>
-
-<p>現地へと足を運んだが、高い位置から一望する景色は実に綺麗であった。</p>
-
-<p>当日は暑い日差しが照りつけていたが、展望台の室内は涼しく快適で、じっくりとアートを堪能するには最高の環境が整っている。</p>
-
-<p>さらに、施設のいたるところに作品のコラボポスターが掲示されており、ファン心をくすぐる演出も魅力的であった。</p>
-
-<p>アニメファンはもちろん、快適な空間から一風変わった初夏の絶景を楽しみたい人にも、ぜひおすすめしたいスポットである。</p>]]></content><author><name>makietan</name></author><category term="otaku" /><summary type="html"><![CDATA[越谷の田んぼアートちゃんと展望施設もあってかなり良いマジやばくね#小林さんちのメイドラゴン pic.twitter.com/4jCX2eBhT4&mdash; まきえたん☘️🥦 (@makietanX) July 19, 2026]]></summary></entry></feed>
+</div>]]></content><author><name>makietan</name></author><category term="travel" /><summary type="html"><![CDATA[ラーメンを食べに行きたい]]></summary></entry><entry><title type="html">民度が終わってる #ドラクエウォーク #吉野家 虎ノ門店</title><link href="https://makietan.github.io/gourmet/2026/07/24/report.html" rel="alternate" type="text/html" title="民度が終わってる #ドラクエウォーク #吉野家 虎ノ門店" /><published>2026-07-24T00:00:00+09:00</published><updated>2026-07-24T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2026/07/24/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2026/07/24/report.html"><![CDATA[]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[ご飯感想ブログ「すずろ庵」へ遷移します]]></summary></entry><entry><title type="html">暑いから冷たいラーメン #どうとんぼり神座 京王モール店</title><link href="https://makietan.github.io/gourmet/2026/07/23/report.html" rel="alternate" type="text/html" title="暑いから冷たいラーメン #どうとんぼり神座 京王モール店" /><published>2026-07-23T00:00:00+09:00</published><updated>2026-07-23T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2026/07/23/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2026/07/23/report.html"><![CDATA[]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[ご飯感想ブログ「すずろ庵」へ遷移します]]></summary></entry></feed>
