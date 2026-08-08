@@ -1,4 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-08-07T13:56:52+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>日報を中心に、技術メモやイベント参加記録をまとめるブログです。</subtitle><author><name>makietan</name></author><entry><title type="html">Amazon Mastercard -&amp;gt; JAL Pay -&amp;gt; au PAY -&amp;gt; VポイントPay</title><link href="https://makietan.github.io/money/2026/08/07/report.html" rel="alternate" type="text/html" title="Amazon Mastercard -&amp;gt; JAL Pay -&amp;gt; au PAY -&amp;gt; VポイントPay" /><published>2026-08-07T00:00:00+09:00</published><updated>2026-08-07T00:00:00+09:00</updated><id>https://makietan.github.io/money/2026/08/07/report</id><content type="html" xml:base="https://makietan.github.io/money/2026/08/07/report.html"><![CDATA[<p>VポイントPay の本人確認をしてチャージができるようにした</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-08-08T13:12:45+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>日報を中心に、技術メモやイベント参加記録をまとめるブログです。</subtitle><author><name>makietan</name></author><entry><title type="html">ポケポケのデッキ供養：イッカネズミラムパルド</title><link href="https://makietan.github.io/game/pokemon/2026/08/08/report.html" rel="alternate" type="text/html" title="ポケポケのデッキ供養：イッカネズミラムパルド" /><published>2026-08-08T00:00:00+09:00</published><updated>2026-08-08T00:00:00+09:00</updated><id>https://makietan.github.io/game/pokemon/2026/08/08/report</id><content type="html" xml:base="https://makietan.github.io/game/pokemon/2026/08/08/report.html"><![CDATA[<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">供養　<a href="https://x.com/hashtag/%E3%83%9D%E3%82%B1%E3%83%9D%E3%82%B1?src=hash&amp;ref_src=twsrc%5Etfw">#ポケポケ</a> <a href="https://t.co/OyQ96NWTNF">pic.twitter.com/OyQ96NWTNF</a></p>&mdash; まきえたん☘️🥦 (@makietanX) <a href="https://x.com/makietanX/status/2053129888866156701?ref_src=twsrc%5Etfw">May 9, 2026</a></blockquote>
+<script async="" src="https://platform.x.com/widgets.js" charset="utf-8"></script>
+
+<p>だいぶ前だけどメモとして。</p>]]></content><author><name>makietan</name></author><category term="game" /><category term="pokemon" /><summary type="html"><![CDATA[供養　#ポケポケ pic.twitter.com/OyQ96NWTNF&mdash; まきえたん☘️🥦 (@makietanX) May 9, 2026]]></summary></entry><entry><title type="html">Amazon Mastercard -&amp;gt; JAL Pay -&amp;gt; au PAY -&amp;gt; VポイントPay</title><link href="https://makietan.github.io/money/2026/08/07/report.html" rel="alternate" type="text/html" title="Amazon Mastercard -&amp;gt; JAL Pay -&amp;gt; au PAY -&amp;gt; VポイントPay" /><published>2026-08-07T00:00:00+09:00</published><updated>2026-08-07T00:00:00+09:00</updated><id>https://makietan.github.io/money/2026/08/07/report</id><content type="html" xml:base="https://makietan.github.io/money/2026/08/07/report.html"><![CDATA[<p>VポイントPay の本人確認をしてチャージができるようにした</p>
 
 <p>今なんとVポイントPay経由が地味にオトクで</p>
 
@@ -409,104 +412,4 @@
 
 <p>一時停止されるのは90日間更新がない場合なので、定期的にDependabotを使用することで自動的に更新が停止されることを防ぐことができます。</p>
 
-<p>頑張ろう。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[久々に Dependabot を使おうとしたら、以下のようなメッセージが表示されて更新が止まってしまいました。]]></summary></entry><entry><title type="html">先攻予約のチケット販売サイト比較</title><link href="https://makietan.github.io/otaku/2026/07/28/report.html" rel="alternate" type="text/html" title="先攻予約のチケット販売サイト比較" /><published>2026-07-28T00:00:00+09:00</published><updated>2026-07-28T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2026/07/28/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2026/07/28/report.html"><![CDATA[<p>チケット予約サイトの手数料が高い。</p>
-
-<p>本当に高い。</p>
-
-<p>少しでも安くチケットを購入したいと思い、今回は「ボイスシネマ声優口演ライブ2026 in 有楽町〔東京〕」の先行予約で比較してみました。</p>
-
-<div class="card">
-  <a href="https://www.seiyu-kouen.jp/"></a>
-  <div class="card__header">
-    <a href="https://www.seiyu-kouen.jp/">www.seiyu-kouen.jp</a>
-  </div>
-  <div class="card__image">
-    <img src="https://www.seiyu-kouen.jp/asset2026-2/items/ogp.jpg" />
-  </div>
-  <div class="card__title">
-    <p>ボイスシネマ声優口演ライブ2026</p>
-  </div>
-  <div class="card__description">
-    <p>【東京公演】2026年10月2日(金)～10月4日(日)〈全3公演〉｜【大阪公演】11月7日(土)</p>
-  </div>
-</div>
-
-<p>特に悪意はなく、複数のチケット販売サイトの料金を比較することができるイベントだったので参考にさせていただきました。</p>
-
-<p>いつぞやの公演を観た時に面白いなと思ったので、今回も観に行きたいなと思ってますが、手数料が高いので、どのサイトで購入するか悩んでる最中なんです。</p>
-
-<h2 id="チケットぴあ">チケットぴあ</h2>
-
-<ul>
-  <li>クレジットカード決済</li>
-  <li>
-    <p>セブンイレブンにて発券</p>
-  </li>
-  <li>料金 10,045円
-    <ul>
-      <li>指定席 9,000円 × 1枚</li>
-      <li>システム利用料 330円 × 1枚</li>
-      <li>発券手数料 165円 × 1枚</li>
-      <li>特別販売利用料 550円 × 1枚</li>
-    </ul>
-  </li>
-</ul>
-
-<h2 id="ローソンチケット">ローソンチケット</h2>
-
-<ul>
-  <li>引取方法：店頭</li>
-  <li>
-    <p>支払方法：クレジットカード</p>
-  </li>
-  <li>料金 10,045円
-    <ul>
-      <li>指定席 9,000円 × 1枚</li>
-      <li>システム利用料 330円 × 1枚</li>
-      <li>店頭発券手数料 165円 × 1枚</li>
-      <li>先行サービス料 550円 × 1枚</li>
-    </ul>
-  </li>
-</ul>
-
-<h2 id="eイープラス">e+（イープラス）</h2>
-
-<ul>
-  <li>支払方法：クレジットカード</li>
-  <li>
-    <p>受取方法：セブン-イレブン</p>
-  </li>
-  <li>料金 10,045円
-    <ul>
-      <li>チケット料金：¥9,000</li>
-      <li>サービス料：¥660</li>
-      <li>システム利用料：¥220</li>
-      <li>※店頭発券手数料¥165を別途お支払いください。</li>
-    </ul>
-  </li>
-</ul>
-
-<h2 id="zaiko">ZAIKO</h2>
-
-<ul>
-  <li>クレジットカード決済</li>
-  <li>
-    <p>電子チケット</p>
-  </li>
-  <li>料金 9,968円
-    <ul>
-      <li>指定席 ￥9,000</li>
-      <li>購入手数料 ￥968</li>
-    </ul>
-  </li>
-</ul>
-
-<h2 id="まとめ">まとめ</h2>
-
-<p>ZAIKOが最も安いです。
-ただ、電子チケットで、購入手数料としては他よりバカ高いので、購入する際は注意が必要です。</p>
-
-<p>発券して記念に残したい場合は、チケットぴあやローソンチケット、e+（イープラス）を利用するのが良いでしょう。
-どこも同じ値段で、手数料の内訳が違うだけなので、どこで購入しても大差はありません。</p>
-
-<p>ここまで料金が一緒だと、競争とかもなく、ズブズブと手数料が高くなっていくのも仕方ないのかなと思います。</p>]]></content><author><name>makietan</name></author><category term="otaku" /><summary type="html"><![CDATA[チケット予約サイトの手数料が高い。]]></summary></entry></feed>
+<p>頑張ろう。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[久々に Dependabot を使おうとしたら、以下のようなメッセージが表示されて更新が止まってしまいました。]]></summary></entry></feed>
