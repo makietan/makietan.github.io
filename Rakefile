@@ -63,6 +63,56 @@ task :category do
   }
 end
 
+desc "tomorrowを実行し、作成されたファイルと指定された日付のファイルを入れ替える"
+task :swap, ['target_date'] do |task, args|
+  if args.target_date.nil? || args.target_date.empty?
+    puts "日付を指定してください (例: rake swap_date[2026-10-01])"
+    next
+  end
+
+  # 1. まず tomorrow タスクをきっちり実行する
+  Rake::Task["tomorrow"].invoke()
+
+  # 2. tomorrow によって作成された最新のファイルを特定する
+  day = Date.today
+  path = "_posts/#{day.strftime('%F')}-report.md"
+  while File.exist?(path)
+    day = day + 1
+    path = "_posts/#{day.strftime('%F')}-report.md"
+  end
+  # tomorrow 実行後なので、whileを抜けた1日前の日付が作成されたファイル
+  tomorrow_day = day - 1
+  tomorrow_path = "_posts/#{tomorrow_day.strftime('%F')}-report.md"
+
+  # 3. 指定された入れ替え対象の日付
+  target_day = Date.parse(args.target_date)
+  target_path = "_posts/#{target_day.strftime('%F')}-report.md"
+
+  if File.exist?(target_path)
+    # 4. 「2」をつけるのではなく、中身と日付をごっそり入れ替える
+    tomorrow_content = File.read(tomorrow_path)
+    target_content = File.read(target_path)
+
+    # 互いのフロントマター等の日付文字列を置換
+    tomorrow_content.gsub!(tomorrow_day.strftime('%F'), target_day.strftime('%F'))
+    target_content.gsub!(target_day.strftime('%F'), tomorrow_day.strftime('%F'))
+
+    # パスをクロスさせて上書き保存（スワップ）
+    File.write(tomorrow_path, target_content)
+    File.write(target_path, tomorrow_content)
+
+    puts "🔄 #{tomorrow_path} と #{target_path} の中身と日付を完全に入れ替えました！"
+  else
+    # 対象ファイルがない場合は、単にリネームして日付を書き換える
+    tomorrow_content = File.read(tomorrow_path)
+    tomorrow_content.gsub!(tomorrow_day.strftime('%F'), target_day.strftime('%F'))
+    File.write(tomorrow_path, tomorrow_content)
+    File.rename(tomorrow_path, target_path)
+
+    puts "➡️ 指定された日付のファイルがなかったため、#{tomorrow_path} を #{target_path} に変更しました。"
+  end
+end
+
 desc "create new post tomorrow"
 task :tomorrow do
   title = ""
