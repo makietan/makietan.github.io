@@ -64,14 +64,15 @@ task :category do
 end
 
 desc "tomorrowを実行し、作成されたファイルと指定された日付のファイルを入れ替える"
-task :swap, ['target_date'] do |task, args|
+task :swap, ['target_date', "type"] do |task, args|
   if args.target_date.nil? || args.target_date.empty?
     puts "日付を指定してください (例: rake swap_date[2026-10-01])"
     next
   end
 
-  # 1. まず tomorrow タスクをきっちり実行する
-  Rake::Task["tomorrow"].invoke()
+  task_type = (args.type && !args.type.empty?) ? args.type : "tomorrow"
+
+  Rake::Task[task_type].invoke()
 
   # 2. tomorrow によって作成された最新のファイルを特定する
   day = Date.today
@@ -89,7 +90,6 @@ task :swap, ['target_date'] do |task, args|
   target_path = "_posts/#{target_day.strftime('%F')}-report.md"
 
   if File.exist?(target_path)
-    # 4. 「2」をつけるのではなく、中身と日付をごっそり入れ替える
     tomorrow_content = File.read(tomorrow_path)
     target_content = File.read(target_path)
 
@@ -111,6 +111,72 @@ task :swap, ['target_date'] do |task, args|
 
     puts "➡️ 指定された日付のファイルがなかったため、#{tomorrow_path} を #{target_path} に変更しました。"
   end
+end
+
+desc "すずろ庵へ遷移するためのリダイレクトページを作成する"
+task :suzuro do
+  title = ""
+  day = Date.today
+  path = "_posts/#{day.strftime('%F')}-report.md"
+  path, day = checkFilename2(path, day)
+  File.open(path, "w") do |f|
+    f.puts "---"
+    f.puts "layout: redirect"
+    f.puts "title:  \"\""
+    f.puts "categories: gourmet"
+    f.puts "date: \"#{day.strftime('%F %T')}\""
+    f.puts "redirect_to: "
+    f.puts "sitemap: false"
+    f.puts "description: \"ご飯感想ブログ「すずろ庵」へ遷移します\""
+    f.puts "---"
+    f.puts ""
+    f.puts ""
+  end
+  sh "code #{path}"
+end
+
+desc "X「@makietanX」へ遷移するためのリダイレクトページを作成する"
+task :twitter do
+  title = ""
+  day = Date.today
+  path = "_posts/#{day.strftime('%F')}-report.md"
+  path, day = checkFilename2(path, day)
+  File.open(path, "w") do |f|
+    f.puts "---"
+    f.puts "layout: redirect"
+    f.puts "title:  \"\""
+    f.puts "categories: unknown"
+    f.puts "date: \"#{day.strftime('%F %T')}\""
+    f.puts "redirect_to: "
+    f.puts "sitemap: false"
+    f.puts "description: \"X「@makietanX」のしょーもない投稿へ遷移します\""
+    f.puts "---"
+    f.puts ""
+    f.puts ""
+  end
+  sh "code #{path}"
+end
+
+desc "雑記ブログ「役に立ちそうで役に立たないブログ」へ遷移するためのリダイレクトページを作成する"
+task :yakuni do
+  title = ""
+  day = Date.today
+  path = "_posts/#{day.strftime('%F')}-report.md"
+  path, day = checkFilename2(path, day)
+  File.open(path, "w") do |f|
+    f.puts "---"
+    f.puts "layout: redirect"
+    f.puts "title:  \"\""
+    f.puts "categories: unknown"
+    f.puts "date: \"#{day.strftime('%F %T')}\""
+    f.puts "redirect_to: "
+    f.puts "sitemap: false"
+    f.puts "description: \"雑記ブログ「役に立ちそうで役に立たないブログ」へ遷移します\""
+    f.puts "---"
+    f.puts ""
+    f.puts ""
+  end
+  sh "code #{path}"
 end
 
 desc "create new post tomorrow"
