@@ -4199,6 +4199,15 @@
 
   
   {
+    "title": "ポケポケのデッキ供養：あばれぬんちゃく",
+    
+    "tags": [],
+    "url": "/game/pokemon/2026/08/15/report.html",
+    "date": {"year": "2026", "month": "08", "day": "15"},
+    "content": "ウミディグダのデッキ。供養 #ポケポケ pic.twitter.com/45ywtPpI8P&mdash; まきえたん☘️🥦 (@makietanX) March 26, 2026だいぶ前だけどメモとして。"
+  },
+  
+  {
     "title": "築地から徒歩で帰る",
     
     "tags": [],
@@ -7310,6 +7319,15 @@
     "url": "/docomo/2025/06/05/report.html",
     "date": {"year": "2025", "month": "06", "day": "05"},
     "content": "https://dmarket.docomo.ne.jp/mypage/setting/多分、irumo にしてdメールあたりに送られてた迷惑メールが大量に今使っているメールアドレスに流れてくるようになった感じ。"
+  },
+  
+  {
+    "title": "pre-push フックでブランチの push をブロックする",
+    
+    "tags": [],
+    "url": "/tech/2025/06/03/report.html",
+    "date": {"year": "2025", "month": "06", "day": "03"},
+    "content": "Git のフック機能（pre-push）を使い、対象のブランチ（例: csv-history）が push されそうになったときに自動でエラーを出して処理をキャンセルする方法。.git/hooks/pre-push に以下のスクリプトを配置することで、対象ブランチへの push を禁止することができます。#!/bin/shprotected_branch= history current_branch=$(git symbolic-ref --short HEAD)if [  $current_branch  =  $protected_branch  ]; then  echo  You are trying to push to the protected branch '$protected_branch'.   echo  Please switch to a different branch before pushing.   exit 1fiexit 0面倒な場合は以下のコマンドで直接フックを作成することもできます。cat &lt;&lt; 'EOF' &gt; .git/hooks/pre-push#!/bin/shprotected_branch= history current_branch=$(git symbolic-ref --short HEAD)if [  $current_branch  =  $protected_branch  ]; then  echo  You are trying to push to the protected branch '$protected_branch'.   echo  Please switch to a different branch before pushing.   exit 1fiexit 0EOFecho の部分を日本語にしたいなら、echo  保護されたブランチ '$protected_branch' に push しようとしています。 echo  push する前に別のブランチに切り替えてください。 と書き換えれば OK です。"
   },
   
   {
