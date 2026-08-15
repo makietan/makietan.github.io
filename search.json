@@ -4196,7 +4196,28 @@
   
   
   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
 
+  
+  {
+    "title": "ポケポケのデッキ供養：ゲッコウイーブイ",
+    
+    "tags": [],
+    "url": "/game/pokemon/2026/08/16/report.html",
+    "date": {"year": "2026", "month": "08", "day": "16"},
+    "content": "供養　#ポケポケ pic.twitter.com/8gXJH0vodc&mdash; まきえたん☘️🥦 (@makietanX) February 27, 2026だいぶ前だけどメモとして。"
+  },
   
   {
     "title": "ポケポケのデッキ供養：あばれぬんちゃく",
@@ -7319,6 +7340,15 @@
     "url": "/docomo/2025/06/05/report.html",
     "date": {"year": "2025", "month": "06", "day": "05"},
     "content": "https://dmarket.docomo.ne.jp/mypage/setting/多分、irumo にしてdメールあたりに送られてた迷惑メールが大量に今使っているメールアドレスに流れてくるようになった感じ。"
+  },
+  
+  {
+    "title": ".gitconfig の alias で全履歴検索を設定する",
+    
+    "tags": [],
+    "url": "/tech/2025/06/04/report.html",
+    "date": {"year": "2025", "month": "06", "day": "04"},
+    "content": "git で過去のコミットから全件検索がしたいなんてことはよくあると思います。実は以下のようにコマンドを実行すると、全履歴から検索することができます。git rev-list --all | xargs git grep  検索したい文字列 ただ、毎回長々とコマンドを打つのは面倒なので、.gitconfig に alias を設定しておくと便利です。[alias]    search-all =  !f() { git rev-list --all | xargs git grep \\ $1\\ ; }; f xargs にしたのは、検索結果が大規模になる場合に、git grep の引数が長すぎてエラーになることを防ぐためです。"
   },
   
   {
