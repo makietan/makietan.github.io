@@ -128,8 +128,8 @@
             <span class="k">return</span> <span class="k">await</span> <span class="nf">asyncFunc</span><span class="p">();</span>
         <span class="p">}</span> <span class="k">catch </span><span class="p">(</span><span class="nx">error</span><span class="p">)</span> <span class="p">{</span>
             <span class="nx">attempts</span><span class="o">++</span><span class="p">;</span>
-            <span class="k">if </span><span class="p">(</span><span class="nx">isDebug</span><span class="p">)</span> <span class="p">{</span> 
-              <span class="nx">console</span><span class="p">.</span><span class="nf">error</span><span class="p">(</span><span class="s2">`Attempt </span><span class="p">${</span><span class="nx">attempts</span><span class="p">}</span><span class="s2"> failed: </span><span class="p">${</span><span class="nx">error</span><span class="p">.</span><span class="nx">message</span><span class="p">}</span><span class="s2">`</span><span class="p">);</span>
+            <span class="k">if </span><span class="p">(</span><span class="nx">isDebug</span><span class="p">)</span> <span class="p">{</span>
+                <span class="nx">console</span><span class="p">.</span><span class="nf">error</span><span class="p">(</span><span class="s2">`Attempt </span><span class="p">${</span><span class="nx">attempts</span><span class="p">}</span><span class="s2"> failed: </span><span class="p">${</span><span class="nx">error</span><span class="p">.</span><span class="nx">message</span><span class="p">}</span><span class="s2">`</span><span class="p">);</span>
             <span class="p">}</span>
             <span class="k">if </span><span class="p">(</span><span class="nx">attempts</span> <span class="o">&gt;=</span> <span class="nx">maxRetries</span><span class="p">)</span> <span class="p">{</span>
                 <span class="k">throw</span> <span class="k">new</span> <span class="nc">Error</span><span class="p">(</span><span class="s2">`Max retries reached: </span><span class="p">${</span><span class="nx">error</span><span class="p">.</span><span class="nx">message</span><span class="p">}</span><span class="s2">`</span><span class="p">);</span>
@@ -139,6 +139,16 @@
     <span class="p">}</span>
 <span class="p">}</span>
 </code></pre></div></div>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">asyncFunc</code>: リトライしたい非同期関数</li>
+  <li><code class="language-plaintext highlighter-rouge">maxRetries</code>: 最大リトライ回数（デフォルトは 3 回）</li>
+  <li><code class="language-plaintext highlighter-rouge">delay</code>: リトライ間の待機時間（ミリ秒、デフォルトは 1000 ミリ秒）</li>
+  <li><code class="language-plaintext highlighter-rouge">isDebug</code>: デバッグモード（true の場合、リトライの試行回数とエラー内容をコンソールに出力する）</li>
+</ul>
+
+<p>まぁデバッグモードなんていらないんだけどね。</p>
+
 
   </div><a class="u-url" href="/tech/2025/06/06/report.html" hidden></a>
 </article>

@@ -7348,7 +7348,7 @@
     "tags": [],
     "url": "/tech/2025/06/06/report.html",
     "date": {"year": "2025", "month": "06", "day": "06"},
-    "content": "わりとよくあるのが、API などの通信でエラーになった場合に、リトライする処理を入れたいというケース。まぁ、さくっと書けるだろうけどメモとして残しておく。async function retryAsyncFunction(asyncFunc, maxRetries = 3, delay = 1000, isDebug = false) {    let attempts = 0;    while (attempts &lt; maxRetries) {        try {            return await asyncFunc();        } catch (error) {            attempts++;            if (isDebug) {               console.error(`Attempt ${attempts} failed: ${error.message}`);            }            if (attempts &gt;= maxRetries) {                throw new Error(`Max retries reached: ${error.message}`);            }            await new Promise(resolve =&gt; setTimeout(resolve, delay));        }    }}"
+    "content": "わりとよくあるのが、API などの通信でエラーになった場合に、リトライする処理を入れたいというケース。まぁ、さくっと書けるだろうけどメモとして残しておく。async function retryAsyncFunction(asyncFunc, maxRetries = 3, delay = 1000, isDebug = false) {    let attempts = 0;    while (attempts &lt; maxRetries) {        try {            return await asyncFunc();        } catch (error) {            attempts++;            if (isDebug) {                console.error(`Attempt ${attempts} failed: ${error.message}`);            }            if (attempts &gt;= maxRetries) {                throw new Error(`Max retries reached: ${error.message}`);            }            await new Promise(resolve =&gt; setTimeout(resolve, delay));        }    }}  asyncFunc: リトライしたい非同期関数  maxRetries: 最大リトライ回数（デフォルトは 3 回）  delay: リトライ間の待機時間（ミリ秒、デフォルトは 1000 ミリ秒）  isDebug: デバッグモード（true の場合、リトライの試行回数とエラー内容をコンソールに出力する）まぁデバッグモードなんていらないんだけどね。"
   },
   
   {
