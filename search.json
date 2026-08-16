@@ -4211,6 +4211,15 @@
 
   
   {
+    "title": "朝ラー #邦ちゃんラーメン 両国店 #ちゃん系ラーメン",
+    
+    "tags": [],
+    "url": "/gourmet/2026/08/17/report.html",
+    "date": {"year": "2026", "month": "08", "day": "17"},
+    "content": ""
+  },
+  
+  {
     "title": "ポケポケのデッキ供養：ゲッコウイーブイ",
     
     "tags": [],
@@ -7331,6 +7340,15 @@
     "url": "/gourmet/2025/06/08/report.html",
     "date": {"year": "2025", "month": "06", "day": "08"},
     "content": ""
+  },
+  
+  {
+    "title": "JavaScript でエラーになったらリトライするスクリプト",
+    
+    "tags": [],
+    "url": "/tech/2025/06/06/report.html",
+    "date": {"year": "2025", "month": "06", "day": "06"},
+    "content": "わりとよくあるのが、API などの通信でエラーになった場合に、リトライする処理を入れたいというケース。まぁ、さくっと書けるだろうけどメモとして残しておく。async function retryAsyncFunction(asyncFunc, maxRetries = 3, delay = 1000, isDebug = false) {    let attempts = 0;    while (attempts &lt; maxRetries) {        try {            return await asyncFunc();        } catch (error) {            attempts++;            if (isDebug) {               console.error(`Attempt ${attempts} failed: ${error.message}`);            }            if (attempts &gt;= maxRetries) {                throw new Error(`Max retries reached: ${error.message}`);            }            await new Promise(resolve =&gt; setTimeout(resolve, delay));        }    }}"
   },
   
   {
