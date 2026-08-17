@@ -7343,6 +7343,15 @@
   },
   
   {
+    "title": ".gitconfig に日付と変更内容を表示する alias を作ってみた",
+    
+    "tags": [],
+    "url": "/tech/2025/06/07/report.html",
+    "date": {"year": "2025", "month": "06", "day": "07"},
+    "content": "いつ何を変更したのかを簡単に確認できるように、.gitconfig に日付と変更内容を表示する alias を作ってみました。スクリプトsearch-latest =  !f() { git log --all -S \\ $1\\  -p --format='%cd %h' --date=short -- \\ ${2:-.}\\  | awk -v kw=\\ $1\\  '/^[0-9]{4}-[0-9]{2}-[0-9]{2}/ {date=$1} /^ +[^+]/ &amp;&amp; $0 ~ kw {sub(/^ +/, \\ \\ ); print date \\  \\  $0}'; }; f やっていること  git log で全てのブランチを対象に、指定したキーワードを含むコミットを検索します。  -p オプションでパッチを表示し、--format='%cd %h' で日付とコミットハッシュを出力します。  awk で日付と変更内容を整形して表示します。具体的には          日付の行を見つけたら変数 date に保存      変更内容の行（+ で始まる行）で、キーワードを含む場合に日付と変更内容を出力します。        sub(/^ +/, \\ \\ ) で行頭の + を削除しています。  ${2:-.} で、検索対象のディレクトリを指定できます。指定しない場合はカレントディレクトリが対象になります。  例えば、git search-latest  keyword  path/to/dir のように使えます。使い方  git search-latest  keyword  のように使うと、カレントディレクトリ以下の全てのファイルが対象になります。  git search-latest  keyword  . のように使うと、カレントディレクトリの直下のファイルが対象になります。  git search-latest  keyword  path/to/dir のように使うと、指定したディレクトリ以下の全てのファイルが対象になります。  git search-latest  keyword  path/to/file のように使うと、指定したファイルが対象になります。"
+  },
+  
+  {
     "title": "JavaScript でエラーになったらリトライするスクリプト",
     
     "tags": [],
