@@ -4209,12 +4209,21 @@
 
   
   {
+    "title": "ポケポケのナマコブシとメッソンのデッキが面白い",
+    
+    "tags": [],
+    "url": "/game/pokemon/2026/08/20/report.html",
+    "date": {"year": "2026", "month": "08", "day": "20"},
+    "content": "ナマコブシとメッソンのデッキ楽しい受け身デッキだから無傷で勝つのは難しいけど70〜50を2回ex系に与えられるとスムーズにいけるインテレオンが無駄にタフで火力あるのも良い#ポケポケ pic.twitter.com/VLreufi7Jr&mdash; まきえたん☘️🥦 (@makietanX) June 1, 2026ナマコブシを壁にしつつ、後ろでメッソンを育ててダメージを与える。たったこれだけ、ゴツヘルをナマコブシ、レスキュースカーフをメッソンに持たせる。回収すれば何回でも使えるので、いかに耐えるかだけを考えて戦う。インテレオンは合計で100ダメージが入るのでタイミングを見極める必要がある。そんな感じ。"
+  },
+  
+  {
     "title": "yt-dlp が 「ERROR: unable to download video data: HTTP Error 403: Forbidden」ばかり吐くので HEAD 版に更新してみた",
     
     "tags": [],
     "url": "/tech/2026/08/19/report.html",
     "date": {"year": "2026", "month": "08", "day": "19"},
-    "content": "なんか yt-dlp が ERROR: unable to download video data: HTTP Error 403: Forbidden ばかり吐くようになった。てか、2026.07.04 にしてからちらほら発生していた更新したら治るかなと思ったので HEAD 版に更新してみた。brew uninstall yt-dlpbrew install --HEAD yt-dlpこれで　yt-dlp プロジェクトの最新のコミットがインストールされる。        github.com                GitHub - yt-dlp/yt-dlp: A feature-rich command-line audio/video downloader        A feature-rich command-line audio/video downloader - yt-dlp/yt-dlp  新しい stable 版が出るまでのつなぎとして HEAD 版を使うのはありだと思う。その場合は、 HEAD 版をアンインストールして、 stable 版をインストールし直す必要がある。brew uninstall yt-dlpbrew install yt-dlpちなみにハッシュ確認にするにはbrew info yt-dlpすると&gt; brew info yt-dlp==&gt; yt-dlp ✔: stable 2026.7.4 (bottled), HEADFeature-rich command-line audio/video downloaderhttps://github.com/yt-dlp/yt-dlpInstalled (on request)From: https://github.com/Homebrew/homebrew-core/blob/HEAD/Formula/y/yt-dlp.rbLicense: Unlicense==&gt; Installed Versionsyt-dlp ✔ HEAD-b375e1d (1,938 files, 26MB) [Linked]==&gt; DependenciesRequired (3): certifi ✔, deno ✔, python@3.14 ✔Recursive Runtime (17): all installed ✔==&gt; Options--HEAD        Install HEAD version==&gt; Downloading https://formulae.brew.sh/api/formula/yt-dlp.json==&gt; Analyticsinstall: 41,549 (30 days), 161,948 (90 days), 718,456 (365 days)install-on-request: 37,069 (30 days), 142,519 (90 days), 665,985 (365 days)build-error: 82 (30 days)ってな感じで、yt-dlp ✔ HEAD-b375e1d の部分がハッシュを確認できる。"
+    "content": "なんか yt-dlp が ERROR: unable to download video data: HTTP Error 403: Forbidden ばかり吐くようになった。てか、2026.07.04 にしてからちらほら発生していた更新したら治るかなと思ったので HEAD 版に更新してみた。brew uninstall yt-dlpbrew install --HEAD yt-dlpこれで　yt-dlp プロジェクトの最新のコミットがインストールされる。        github.com                GitHub - yt-dlp/yt-dlp: A feature-rich command-line audio/video downloader        A feature-rich command-line audio/video downloader - yt-dlp/yt-dlp  新しい stable 版が出るまでのつなぎとして HEAD 版を使うのはありだと思う。その場合は、 HEAD 版をアンインストールして、 stable 版をインストールし直す必要がある。brew uninstall yt-dlpbrew install yt-dlpちなみにハッシュを確認するには、以下のコマンドを実行する。brew info yt-dlpすると、以下のように表示される。&gt; brew info yt-dlp==&gt; yt-dlp ✔: stable 2026.7.4 (bottled), HEADFeature-rich command-line audio/video downloaderhttps://github.com/yt-dlp/yt-dlpInstalled (on request)From: https://github.com/Homebrew/homebrew-core/blob/HEAD/Formula/y/yt-dlp.rbLicense: Unlicense==&gt; Installed Versionsyt-dlp ✔ HEAD-b375e1d (1,938 files, 26MB) [Linked]==&gt; DependenciesRequired (3): certifi ✔, deno ✔, python@3.14 ✔Recursive Runtime (17): all installed ✔==&gt; Options--HEAD        Install HEAD version==&gt; Downloading https://formulae.brew.sh/api/formula/yt-dlp.json==&gt; Analyticsinstall: 41,549 (30 days), 161,948 (90 days), 718,456 (365 days)install-on-request: 37,069 (30 days), 142,519 (90 days), 665,985 (365 days)build-error: 82 (30 days)ってな感じで、yt-dlp ✔ HEAD-b375e1d の部分がハッシュを確認できる。"
   },
   
   {
