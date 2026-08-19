@@ -7380,6 +7380,15 @@
   },
   
   {
+    "title": "Swipe diff viewer を試しに書いてみた",
+    
+    "tags": [],
+    "url": "/tech/2025/06/11/report.html",
+    "date": {"year": "2025", "month": "06", "day": "11"},
+    "content": "GitHubの画像diffはどのように実装されているのか上の記事を参考に、GitHub のプルリクエストの画像の差分表示のような UI を試しに書いてみました。GitHub Image Diff Tool      1. Before (変更前) 画像    ドラッグ＆ドロップ または クリック                2. After (変更後) 画像    ドラッグ＆ドロップ または クリック            1. Swipe Diff (左右にホバー/スワイプ)                            2. Onion Skin Diff (左右にホバーで透明度変更)              3. Difference Mode (差分ハイライト)            "
+  },
+  
+  {
     "title": "GoogleのTypeScriptスタイルガイドに学ぶ、プログラミング言語の作法",
     
     "tags": [],
