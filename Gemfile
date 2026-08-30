@@ -31,6 +31,7 @@ gem "wdm", "~> 0.1.0" if Gem.win_platform?
 gem "mini_magick"
 gem "nokogiri"
 gem "ferrum"
+gem "bigdecimal"
 
 gem "rake"
 
