@@ -1,222 +1,638 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-08-22T12:43:14+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>日報を中心に、技術メモやイベント参加記録をまとめるブログです。</subtitle><author><name>makietan</name></author><entry><title type="html">またま「たき」たよ #たきちゃんラーメン #ちゃん系ラーメン</title><link href="https://makietan.github.io/gourmet/2026/08/22/report.html" rel="alternate" type="text/html" title="またま「たき」たよ #たきちゃんラーメン #ちゃん系ラーメン" /><published>2026-08-22T00:00:00+09:00</published><updated>2026-08-22T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2026/08/22/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2026/08/22/report.html"><![CDATA[]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[ご飯感想ブログ「すずろ庵」へ遷移します]]></summary></entry><entry><title type="html">朝に新幹線なんて乗らないが「おむすび弁当」は食べたい</title><link href="https://makietan.github.io/gourmet/2026/08/21/report.html" rel="alternate" type="text/html" title="朝に新幹線なんて乗らないが「おむすび弁当」は食べたい" /><published>2026-08-21T00:00:00+09:00</published><updated>2026-08-21T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2026/08/21/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2026/08/21/report.html"><![CDATA[<div class="card">
-  <a href="https://news.yahoo.co.jp/articles/c8c095493ead7e6e48bfc0bd7b7e7de779cfdabb"></a>
-  <div class="card__header">
-    <a href="https://news.yahoo.co.jp/articles/c8c095493ead7e6e48bfc0bd7b7e7de779cfdabb">news.yahoo.co.jp</a>
-  </div>
-  <div class="card__image">
-    <img src="https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260719-10159865-it_nlab-000-1-view.jpg?exp=10800" />
-  </div>
-  <div class="card__title">
-    <p>「朝の新幹線の定番」「朝ごはんに相応しい内容」　東京駅で買える“700円駅弁”に「これくらいの量が丁度良い」「新幹線に乗る時9割の確率で食べてる」の声（ねとらぼ） - Yahoo!ニュース</p>
-  </div>
-  <div class="card__description">
-    <p>　旅の楽しみの一つとして親しまれている駅弁。JR東海のオンラインショッピングサイト「JR東海MARKET」では、東海道新幹線の駅弁を予約して指定の駅で受け取れる「駅弁予約とっておき」を展開しており、</p>
-  </div>
-</div>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-08-31T08:12:30+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>日報を中心に、技術メモやイベント参加記録をまとめるブログです。</subtitle><author><name>makietan</name></author><entry><title type="html">日本の地震ですぐに警戒すべきは南海トラフ地震よりも他の地域のほうが危険かもしれない</title><link href="https://makietan.github.io/japan/2026/08/31/report.html" rel="alternate" type="text/html" title="日本の地震ですぐに警戒すべきは南海トラフ地震よりも他の地域のほうが危険かもしれない" /><published>2026-08-31T00:00:00+09:00</published><updated>2026-08-31T00:00:00+09:00</updated><id>https://makietan.github.io/japan/2026/08/31/report</id><content type="html" xml:base="https://makietan.github.io/japan/2026/08/31/report.html"><![CDATA[<p>この記事は個人の見解に基づくものであり、公式の情報ではありません。</p>
 
-<p>いい感じのサイズそう。</p>
+<p>熊本で大きな地震がまた発生した。</p>
+
+<p>2026年7月28日 令和8年熊本地震 M7.1。</p>
+
+<p>イオンモール熊本が爆発し多くの犠牲者が発生した。</p>
+
+<p>施設の問題もあるが地震が発生したから起きた事故である。</p>
+
+<p>そして自身といえば気になるのが南海トラフ地震である。</p>
+
+<h2 id="南海トラフ地震の発生間隔の推定">南海トラフ地震の発生間隔の推定</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">日付（グレゴリオ暦）</th>
+      <th style="text-align: center">地震</th>
+      <th style="text-align: center">間隔</th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">684年11月29日</td>
+      <td style="text-align: center"><a href="https://ja.wikipedia.org/wiki/%E7%99%BD%E9%B3%B3%E5%9C%B0%E9%9C%87">白鳳地震</a></td>
+      <td style="text-align: center"> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center">887年8月26日</td>
+      <td style="text-align: center"><a href="https://ja.wikipedia.org/wiki/%E4%BB%81%E5%92%8C%E5%9C%B0%E9%9C%87">仁和地震</a></td>
+      <td style="text-align: center">202年8ヶ月28日</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1096年12月17日</td>
+      <td style="text-align: center"><a href="https://ja.wikipedia.org/wiki/%E6%B0%B8%E9%95%B7%E5%9C%B0%E9%9C%87">永長地震</a></td>
+      <td style="text-align: center">209年3ヶ月21日</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1099年2月22日</td>
+      <td style="text-align: center"><a href="https://ja.wikipedia.org/wiki/%E5%BA%B7%E5%92%8C%E5%9C%B0%E9%9C%87">康和地震</a></td>
+      <td style="text-align: center"> </td>
+      <td>2年2ヶ月5日</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1361年8月3日</td>
+      <td style="text-align: center"><a href="https://ja.wikipedia.org/wiki/%E6%AD%A3%E5%B9%B3%E5%9C%B0%E9%9C%87">正平地震</a></td>
+      <td style="text-align: center"> </td>
+      <td>262年5ヶ月12日</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1498年9月20日</td>
+      <td style="text-align: center"><a href="https://ja.wikipedia.org/wiki/%E6%98%8E%E5%BF%9C%E5%9C%B0%E9%9C%87">明応地震</a></td>
+      <td style="text-align: center">137年1ヶ月17日</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1605年2月3日</td>
+      <td style="text-align: center"><a href="https://ja.wikipedia.org/wiki/%E6%85%B6%E9%95%B7%E5%9C%B0%E9%9C%87">慶長地震</a></td>
+      <td style="text-align: center">106年4ヶ月14日</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1707年10月28日</td>
+      <td style="text-align: center"><a href="https://ja.wikipedia.org/wiki/%E5%AE%9D%E6%B0%B8%E5%9C%B0%E9%9C%87">宝永地震</a></td>
+      <td style="text-align: center">102年8ヶ月25日</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1854年12月23日</td>
+      <td style="text-align: center"><a href="https://ja.wikipedia.org/wiki/%E5%AE%89%E6%94%BF%E6%9D%B1%E6%B5%B7%E5%9C%B0%E9%9C%87">安政東海地震</a></td>
+      <td style="text-align: center">147年1ヶ月25日</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1854年12月24日</td>
+      <td style="text-align: center"><a href="https://ja.wikipedia.org/wiki/%E5%AE%89%E6%94%BF%E5%8D%97%E6%B5%B7%E5%9C%B0%E9%9C%87">安政南海地震</a></td>
+      <td style="text-align: center">1日</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1944年12月7日</td>
+      <td style="text-align: center"><a href="https://ja.wikipedia.org/wiki/%E6%98%AD%E5%92%8C%E6%9D%B1%E5%8D%97%E6%B5%B7%E5%9C%B0%E9%9C%87">昭和東南海地震</a></td>
+      <td style="text-align: center">89年11ヶ月13日</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1946年12月21日</td>
+      <td style="text-align: center"><a href="https://ja.wikipedia.org/wiki/%E6%98%AD%E5%92%8C%E5%8D%97%E6%B5%B7%E5%9C%B0%E9%9C%87">昭和南海地震</a></td>
+      <td style="text-align: center">2年14日</td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<p>概ね <strong>90年〜260年</strong> の範囲で次の巨大地震サイクルへ移行している。</p>
+
+<p>現在が 2026年8月7日 であることから、次の南海トラフ地震は 2034年〜2286年 の間に発生する可能性がある。</p>
+
+<p>最後の昭和南海地震（1946年12月21日）から本日（2026年7月29日）までは 79年7ヶ月8日 が経過している。</p>
+
+<p>過去の代表的なのがこのくらい。</p>
+
+<h2 id="直近のあやしいのは">直近のあやしいのは、</h2>
+
+<ul>
+  <li>1968年4月1日	<a href="https://typhoon.yahoo.co.jp/weather/calendar/314/">日向灘の地震</a> M7.5</li>
+  <li>1984年8月7日	<a href="https://cais.gsi.go.jp/YOCHIREN/report/kaihou33/06_07.pdf">日向灘の地震</a> の M7.1</li>
+  <li>1996年10月19日 <a href="https://cais.gsi.go.jp/YOCHIREN/report/kaihou57/09-07.pdf">日向灘の地震</a> の M6.6</li>
+  <li>2004年9月5日 <a href="https://ja.wikipedia.org/wiki/%E7%B4%80%E4%BC%8A%E5%8D%8A%E5%B3%B6%E5%8D%97%E6%9D%B1%E6%B2%96%E5%9C%B0%E9%9C%87">紀伊半島南東沖地震</a> の M7.1
+    <ul>
+      <li>昭和東海地震（1944年12月7日）から 59年9ヶ月28日</li>
+    </ul>
+  </li>
+  <li>2024年8月8日 <a href="https://ja.wikipedia.org/wiki/%E6%97%A5%E5%90%91%E7%81%98%E5%9C%B0%E9%9C%87_(2024%E5%B9%B4)">日向灘地震 (2024年)</a> の M7.1
+    <ul>
+      <li>初の「南海トラフ地震臨時情報（巨大地震注意）」が発表された</li>
+    </ul>
+  </li>
+</ul>
+
+<p>なんだかんだ発生している。</p>
+
+<h2 id="南海トラフ地震以外">南海トラフ地震以外</h2>
+
+<p>南海トラフ地震で騒いでる間に2000年以降で大きな地震が発生している。</p>
+
+<ul>
+  <li>2003年年9月26日 十勝沖地震 M8.0</li>
+  <li>2004年10月23日 新潟県中越地震 M6.8</li>
+  <li>2011年3月11日 東北地方太平洋沖地震（東日本大震災） M8.4</li>
+  <li>2015年5月30日 小笠原諸島西方沖で地震 M8.1</li>
+  <li>2016年4月14日 熊本地震（前震） M6.5</li>
+  <li>2016年4月16日 熊本地震（本震） M7.3</li>
+  <li>2018年6月18日 大阪北部地震 M6.1</li>
+  <li>2018年9月6日 北海道胆振東部地震 M6.7</li>
+  <li>2024年1月1日 能登半島地震 M7.6</li>
+  <li>2026年7月28日 令和8年熊本地震 M7.1</li>
+</ul>
 
 <div class="card">
-  <a href="https://www.jr-plus.co.jp/bento/000412/"></a>
+  <a href="https://ja.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC%E3%81%AE%E5%9C%B0%E9%9C%87%E5%B9%B4%E8%A1%A8"></a>
   <div class="card__header">
-    <a href="https://www.jr-plus.co.jp/bento/000412/">www.jr-plus.co.jp</a>
+    <a href="https://ja.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC%E3%81%AE%E5%9C%B0%E9%9C%87%E5%B9%B4%E8%A1%A8">ja.wikipedia.org</a>
   </div>
   <div class="card__image">
-    <img src="https://www.jr-plus.co.jp/assets/img/common/ogp.png" />
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/64/Japan_earthquake_map.png" />
   </div>
   <div class="card__title">
-    <p>おむすび弁当｜駅弁・商品｜東京駅・品川駅・新横浜駅・名古屋駅・京都駅・新大阪駅｜駅から探す｜JR東海リテイリング・プラス</p>
+    <p>日本の地震年表 - Wikipedia</p>
   </div>
   <div class="card__description">
-    <p>【おむすび弁当】のページです。朝ごはんにも軽食にもピッタリなおむすび弁当</p>
+    <p></p>
   </div>
 </div>
 
-<p>ただ700円はちょっと高いなぁ。</p>
+<p>南海トラフ地震に直接関係していない大きな地震が4、5年に1回くらいのペースで発生している。</p>
 
-<p>もう少し安くしてほしい。</p>
+<p>こちらのほうが警戒すべきだろう。</p>
 
-<p>というのもアレなので、コンビニのおにぎり弁当とかでもいいかな。</p>
+<p>そういえば、関東大震災（1923年9月1日）から 103年11ヶ月6日 が経過している。</p>
 
-<p>自炊は選択肢なし。</p>]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[news.yahoo.co.jp 「朝の新幹線の定番」「朝ごはんに相応しい内容」　東京駅で買える“700円駅弁”に「これくらいの量が丁度良い」「新幹線に乗る時9割の確率で食べてる」の声（ねとらぼ） - Yahoo!ニュース 　旅の楽しみの一つとして親しまれている駅弁。JR東海のオンラインショッピングサイト「JR東海MARKET」では、東海道新幹線の駅弁を予約して指定の駅で受け取れる「駅弁予約とっておき」を展開しており、]]></summary></entry><entry><title type="html">ポケポケのナマコブシとメッソンのデッキが面白い</title><link href="https://makietan.github.io/game/pokemon/2026/08/20/report.html" rel="alternate" type="text/html" title="ポケポケのナマコブシとメッソンのデッキが面白い" /><published>2026-08-20T00:00:00+09:00</published><updated>2026-08-20T00:00:00+09:00</updated><id>https://makietan.github.io/game/pokemon/2026/08/20/report</id><content type="html" xml:base="https://makietan.github.io/game/pokemon/2026/08/20/report.html"><![CDATA[<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">ナマコブシとメッソンのデッキ楽しい<br />受け身デッキだから無傷で勝つのは難しいけど70〜50を2回ex系に与えられるとスムーズにいける<br />インテレオンが無駄にタフで火力あるのも良い<a href="https://x.com/hashtag/%E3%83%9D%E3%82%B1%E3%83%9D%E3%82%B1?src=hash&amp;ref_src=twsrc%5Etfw">#ポケポケ</a> <a href="https://t.co/VLreufi7Jr">pic.twitter.com/VLreufi7Jr</a></p>&mdash; まきえたん☘️🥦 (@makietanX) <a href="https://x.com/makietanX/status/2061399947090723079?ref_src=twsrc%5Etfw">June 1, 2026</a></blockquote>
-<script async="" src="https://platform.x.com/widgets.js" charset="utf-8"></script>
-
-<p>ナマコブシを壁にしつつ、後ろでメッソンを育ててダメージを与える。
-たったこれだけ、ゴツヘルをナマコブシ、レスキュースカーフをメッソンに持たせる。</p>
-
-<p>回収すれば何回でも使えるので、いかに耐えるかだけを考えて戦う。</p>
-
-<p>インテレオンは合計で100ダメージが入るのでタイミングを見極める必要がある。</p>
-
-<p>そんな感じ。</p>]]></content><author><name>makietan</name></author><category term="game" /><category term="pokemon" /><summary type="html"><![CDATA[ナマコブシとメッソンのデッキ楽しい受け身デッキだから無傷で勝つのは難しいけど70〜50を2回ex系に与えられるとスムーズにいけるインテレオンが無駄にタフで火力あるのも良い#ポケポケ pic.twitter.com/VLreufi7Jr&mdash; まきえたん☘️🥦 (@makietanX) June 1, 2026]]></summary></entry><entry><title type="html">yt-dlp が 「ERROR: unable to download video data: HTTP Error 403: Forbidden」ばかり吐くので HEAD 版に更新してみた</title><link href="https://makietan.github.io/tech/2026/08/19/report.html" rel="alternate" type="text/html" title="yt-dlp が 「ERROR: unable to download video data: HTTP Error 403: Forbidden」ばかり吐くので HEAD 版に更新してみた" /><published>2026-08-19T00:00:00+09:00</published><updated>2026-08-19T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2026/08/19/report</id><content type="html" xml:base="https://makietan.github.io/tech/2026/08/19/report.html"><![CDATA[<p>なんか <code class="language-plaintext highlighter-rouge">yt-dlp</code> が <code class="language-plaintext highlighter-rouge">ERROR: unable to download video data: HTTP Error 403: Forbidden</code> ばかり吐くようになった。</p>
-
-<p>てか、<code class="language-plaintext highlighter-rouge">2026.07.04</code> にしてからちらほら発生していた</p>
-
-<p>更新したら治るかなと思ったので HEAD 版に更新してみた。</p>
-
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>brew uninstall yt-dlp
-brew <span class="nb">install</span> <span class="nt">--HEAD</span> yt-dlp
-</code></pre></div></div>
-
-<p>これで　<code class="language-plaintext highlighter-rouge">yt-dlp</code> プロジェクトの最新のコミットがインストールされる。</p>
+<p>そろそろこちらも警戒したほうがいいのかな？</p>
 
 <div class="card">
-  <a href="https://github.com/yt-dlp/yt-dlp"></a>
+  <a href="https://vdata.nikkei.com/newsgraphics/earthquake-100years/"></a>
   <div class="card__header">
-    <a href="https://github.com/yt-dlp/yt-dlp">github.com</a>
+    <a href="https://vdata.nikkei.com/newsgraphics/earthquake-100years/">vdata.nikkei.com</a>
   </div>
   <div class="card__image">
-    <img src="https://repository-images.githubusercontent.com/307260205/b6a8d716-9c7b-40ec-bc44-6422d8b741a0" />
+    <img src="https://vdata.nikkei.com/newsgraphics/earthquake-100years/img/OGimage.jpg?75949" />
   </div>
   <div class="card__title">
-    <p>GitHub - yt-dlp/yt-dlp: A feature-rich command-line audio/video downloader</p>
+    <p>地図で見る「地震列島」日本　100年の震源データ</p>
   </div>
   <div class="card__description">
-    <p>A feature-rich command-line audio/video downloader - yt-dlp/yt-dlp</p>
+    <p>2023年9月1日で関東大震災から100年。気象庁の公開データをもとに、関東大震災以降に日本付近で起きたマグニチュード5以上の地震を地図に表しました。「地震の巣」の真上にある首都・東京の姿や、全国に刻まれた震災の記録が浮かび上がります。</p>
   </div>
 </div>
 
-<p>新しい stable 版が出るまでのつなぎとして HEAD 版を使うのはありだと思う。</p>
+<p>意外と南海トラフ地震より東北や北海道のほうが危険なのかもしれない。</p>
 
-<p>その場合は、 HEAD 版をアンインストールして、 stable 版をインストールし直す必要がある。</p>
+<div class="card">
+  <a href="https://www.bousai.go.jp/kaigirep/hakusho/r03/honbun/3b_6s_01_00.html"></a>
+  <div class="card__header">
+    <a href="https://www.bousai.go.jp/kaigirep/hakusho/r03/honbun/3b_6s_01_00.html">www.bousai.go.jp</a>
+  </div>
+  <div class="card__image">
+    <img src="" />
+  </div>
+  <div class="card__title">
+    <p>令和3年版 防災白書｜附属資料1　世界のマグニチュード6以上の震源分布とプレート境界 : 防災情報のページ - 内閣府</p>
+  </div>
+  <div class="card__description">
+    <p></p>
+  </div>
+</div>
 
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>brew uninstall yt-dlp
-brew <span class="nb">install </span>yt-dlp
-</code></pre></div></div>
+<p>世界各地でも地震はある。</p>
 
-<p>ちなみにハッシュを確認するには、以下のコマンドを実行する。</p>
+<p>明確な結論は出さないが、日本の至る所で発生し、また津波の被害もある。</p>
 
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>brew info yt-dlp
-</code></pre></div></div>
-
-<p>すると、以下のように表示される。</p>
-
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">&gt;</span> brew info yt-dlp
-<span class="o">==&gt;</span> yt-dlp ✔: stable 2026.7.4 <span class="o">(</span>bottled<span class="o">)</span>, HEAD
-Feature-rich command-line audio/video downloader
-https://github.com/yt-dlp/yt-dlp
-Installed <span class="o">(</span>on request<span class="o">)</span>
-From: https://github.com/Homebrew/homebrew-core/blob/HEAD/Formula/y/yt-dlp.rb
-License: Unlicense
-<span class="o">==&gt;</span> Installed Versions
-yt-dlp ✔ HEAD-b375e1d <span class="o">(</span>1,938 files, 26MB<span class="o">)</span> <span class="o">[</span>Linked]
-<span class="o">==&gt;</span> Dependencies
-Required <span class="o">(</span>3<span class="o">)</span>: certifi ✔, deno ✔, python@3.14 ✔
-Recursive Runtime <span class="o">(</span>17<span class="o">)</span>: all installed ✔
-<span class="o">==&gt;</span> Options
-<span class="nt">--HEAD</span>
-        Install HEAD version
-<span class="o">==&gt;</span> Downloading https://formulae.brew.sh/api/formula/yt-dlp.json
-<span class="o">==&gt;</span> Analytics
-<span class="nb">install</span>: 41,549 <span class="o">(</span>30 days<span class="o">)</span>, 161,948 <span class="o">(</span>90 days<span class="o">)</span>, 718,456 <span class="o">(</span>365 days<span class="o">)</span>
-install-on-request: 37,069 <span class="o">(</span>30 days<span class="o">)</span>, 142,519 <span class="o">(</span>90 days<span class="o">)</span>, 665,985 <span class="o">(</span>365 days<span class="o">)</span>
-build-error: 82 <span class="o">(</span>30 days<span class="o">)</span>
-</code></pre></div></div>
-
-<p>ってな感じで、<code class="language-plaintext highlighter-rouge">yt-dlp ✔ HEAD-b375e1d</code> の部分でハッシュを確認できる。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[なんか yt-dlp が ERROR: unable to download video data: HTTP Error 403: Forbidden ばかり吐くようになった。]]></summary></entry><entry><title type="html">両国と浅草橋は近くて遠い #なぎちゃんラーメン 浅草橋駅前店 #ちゃん系ラーメン</title><link href="https://makietan.github.io/gourmet/2026/08/18/report.html" rel="alternate" type="text/html" title="両国と浅草橋は近くて遠い #なぎちゃんラーメン 浅草橋駅前店 #ちゃん系ラーメン" /><published>2026-08-18T00:00:00+09:00</published><updated>2026-08-18T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2026/08/18/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2026/08/18/report.html"><![CDATA[]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[ご飯感想ブログ「すずろ庵」へ遷移します]]></summary></entry><entry><title type="html">朝ラー #邦ちゃんラーメン 両国店 #ちゃん系ラーメン</title><link href="https://makietan.github.io/gourmet/2026/08/17/report.html" rel="alternate" type="text/html" title="朝ラー #邦ちゃんラーメン 両国店 #ちゃん系ラーメン" /><published>2026-08-17T00:00:00+09:00</published><updated>2026-08-17T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2026/08/17/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2026/08/17/report.html"><![CDATA[]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[ご飯感想ブログ「すずろ庵」へ遷移します]]></summary></entry><entry><title type="html">ポケポケのデッキ供養：ゲッコウイーブイ</title><link href="https://makietan.github.io/game/pokemon/2026/08/16/report.html" rel="alternate" type="text/html" title="ポケポケのデッキ供養：ゲッコウイーブイ" /><published>2026-08-16T00:00:00+09:00</published><updated>2026-08-16T00:00:00+09:00</updated><id>https://makietan.github.io/game/pokemon/2026/08/16/report</id><content type="html" xml:base="https://makietan.github.io/game/pokemon/2026/08/16/report.html"><![CDATA[<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">供養　<a href="https://x.com/hashtag/%E3%83%9D%E3%82%B1%E3%83%9D%E3%82%B1?src=hash&amp;ref_src=twsrc%5Etfw">#ポケポケ</a> <a href="https://t.co/8gXJH0vodc">pic.twitter.com/8gXJH0vodc</a></p>&mdash; まきえたん☘️🥦 (@makietanX) <a href="https://x.com/makietanX/status/2027420589523435743?ref_src=twsrc%5Etfw">February 27, 2026</a></blockquote>
-<script async="" src="https://platform.x.com/widgets.js" charset="utf-8"></script>
-
-<p>だいぶ前だけどメモとして。</p>]]></content><author><name>makietan</name></author><category term="game" /><category term="pokemon" /><summary type="html"><![CDATA[供養　#ポケポケ pic.twitter.com/8gXJH0vodc&mdash; まきえたん☘️🥦 (@makietanX) February 27, 2026]]></summary></entry><entry><title type="html">ポケポケのデッキ供養：あばれぬんちゃく</title><link href="https://makietan.github.io/game/pokemon/2026/08/15/report.html" rel="alternate" type="text/html" title="ポケポケのデッキ供養：あばれぬんちゃく" /><published>2026-08-15T00:00:00+09:00</published><updated>2026-08-15T00:00:00+09:00</updated><id>https://makietan.github.io/game/pokemon/2026/08/15/report</id><content type="html" xml:base="https://makietan.github.io/game/pokemon/2026/08/15/report.html"><![CDATA[<p>ウミディグダのデッキ。</p>
-
-<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">供養 <a href="https://x.com/hashtag/%E3%83%9D%E3%82%B1%E3%83%9D%E3%82%B1?src=hash&amp;ref_src=twsrc%5Etfw">#ポケポケ</a> <a href="https://t.co/45ywtPpI8P">pic.twitter.com/45ywtPpI8P</a></p>&mdash; まきえたん☘️🥦 (@makietanX) <a href="https://x.com/makietanX/status/2037116987684561219?ref_src=twsrc%5Etfw">March 26, 2026</a></blockquote>
-<script async="" src="https://platform.x.com/widgets.js" charset="utf-8"></script>
-
-<p>だいぶ前だけどメモとして。</p>]]></content><author><name>makietan</name></author><category term="game" /><category term="pokemon" /><summary type="html"><![CDATA[ウミディグダのデッキ。]]></summary></entry><entry><title type="html">築地から徒歩で帰る</title><link href="https://makietan.github.io/walking/2026/08/14/report.html" rel="alternate" type="text/html" title="築地から徒歩で帰る" /><published>2026-08-14T00:00:00+09:00</published><updated>2026-08-14T00:00:00+09:00</updated><id>https://makietan.github.io/walking/2026/08/14/report</id><content type="html" xml:base="https://makietan.github.io/walking/2026/08/14/report.html"><![CDATA[<p>電車でラーメン食べに行って、東西線や日比谷線で帰る際には、築地から徒歩で帰ると、ちょうど良い運動になる。</p>
-
-<p>おおよそ4,500歩くらいで、30〜40分くらいかかる。</p>
-
-<h2 id="築地駅を出発">築地駅を出発</h2>
+<p>未来予知なんてできないので、日頃からの備えが大事だ。</p>]]></content><author><name>makietan</name></author><category term="japan" /><summary type="html"><![CDATA[この記事は個人の見解に基づくものであり、公式の情報ではありません。]]></summary></entry><entry><title type="html">ユニクロのポンコツUIとUXのせいで1,010円の損失を被った話</title><link href="https://makietan.github.io/tech/2026/08/30/report.html" rel="alternate" type="text/html" title="ユニクロのポンコツUIとUXのせいで1,010円の損失を被った話" /><published>2026-08-30T00:00:00+09:00</published><updated>2026-08-30T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2026/08/30/report</id><content type="html" xml:base="https://makietan.github.io/tech/2026/08/30/report.html"><![CDATA[<h2 id="サイズの選択uiの問題">サイズの選択UIの問題</h2>
 
 <div class="trim">
   <div class="trim__item">
-    <a href="https://makietan.github.io/assets/images/2026-08-14-report/23-00-46.png">
-      <img class="one" src="https://makietan.github.io/assets/thumbnail/2026-08-14-report/23-00-46.png" />
+    <a href="https://makietan.github.io/assets/images/2026-08-30-report/16-32-59.png">
+      <img class="one" src="https://makietan.github.io/assets/thumbnail/2026-08-30-report/16-32-59.png" />
     </a>
   </div>
 </div>
 
-<p>まずは改札を出て、築地駅の出口から出発。</p>
-
-<h2 id="築地本願寺を通過">築地本願寺を通過</h2>
-
 <div class="trim">
   <div class="trim__item">
-    <a href="https://makietan.github.io/assets/images/2026-08-14-report/23-02-21.png">
-      <img class="one" src="https://makietan.github.io/assets/thumbnail/2026-08-14-report/23-02-21.png" />
+    <a href="https://makietan.github.io/assets/images/2026-08-30-report/16-33-22.png">
+      <img class="one" src="https://makietan.github.io/assets/thumbnail/2026-08-30-report/16-33-22.png" />
     </a>
   </div>
 </div>
 
-<p>築地駅を出て、築地本願寺の前を通る。</p>
+<p>非常に見づらい.</p>
 
-<h2 id="東銀座駅を通過">東銀座駅を通過</h2>
+<p>そもそも、在庫があるかどうか選択した状態だと判別しづらい。</p>
 
-<div class="trim">
-  <div class="trim__item">
-    <a href="https://makietan.github.io/assets/images/2026-08-14-report/23-03-43.png">
-      <img class="one" src="https://makietan.github.io/assets/thumbnail/2026-08-14-report/23-03-43.png" />
-    </a>
+<h2 id="明らかにおかしいサイズを選択しているのにエラーが出ない">明らかにおかしいサイズを選択しているのにエラーが出ない</h2>
+
+<p>XXL の下着を大量に買う人間が、サイズ29・ウェスト73.5のジーンズなんて買うわけがないのに、エラーが出ずに購入できてしまった。</p>
+
+<p>まず、デフォルト値が「29」になっているのが問題。</p>
+
+<p>ユーザーがサイズを選択しない限り、デフォルト値が使われる仕様になっている。</p>
+
+<p>しかし、他の衣類で「38」や「XXL」を選んでいるのに、ジーンズだけ「29」がデフォルト値になっているのはおかしい。</p>
+
+<p>ユーザーが選択したサイズを記録しておき、ジーンズのサイズ選択UIに反映させるべきである。</p>
+
+<h2 id="おわりに">おわりに</h2>
+
+<p>大手のユニクロがこのようなポンコツUI/UXを放置しているのは非常に残念である。</p>
+
+<p>ユーザーのことを考えたUI/UX設計をしてほしい。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[サイズの選択UIの問題]]></summary></entry><entry><title type="html">熱中症の歌</title><link href="https://makietan.github.io/music/2026/08/29/report.html" rel="alternate" type="text/html" title="熱中症の歌" /><published>2026-08-29T00:00:00+09:00</published><updated>2026-08-29T00:00:00+09:00</updated><id>https://makietan.github.io/music/2026/08/29/report</id><content type="html" xml:base="https://makietan.github.io/music/2026/08/29/report.html"><![CDATA[<script src="https://cdn.tailwindcss.com"></script>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@700;900&display=swap');
+    body { font-family: 'Zen Maru Gothic', sans-serif; }
+</style>
+
+<div class="bg-amber-50 min-h-screen flex items-center justify-center p-4">
+  <div class="bg-white p-6 rounded-3xl shadow-2xl border-4 border-amber-400 w-full max-w-sm text-center">
+    <div class="w-24 h-24 bg-amber-200 rounded-full mx-auto flex items-center justify-center text-4xl mb-6 shadow-inner border-4 border-amber-300">
+      🤪
+    </div>
+    <audio id="audioPlayer" controls="" class="w-full mb-4">
+    <source src="/assets/audio/2026-08-28/クソAIの言い分.mp3" type="audio/mpeg" />
+    Your browser does not support the audio element.
+    </audio>
+    <div class="space-y-2 text-amber-800 text-lg font-bold bg-amber-50 p-2 rounded-xl border-2 border-amber-200">
+    <p>あちゅちゅちゅっ♡（ちゅ）</p>
+    <p>ちゅき♡ちゅき♡（だいちゅき）</p>
+    <p>このほてりは恋なの？</p>
+    <p>もう何も考えられない</p>
+    <p>冷まして醒まして</p>
+    <p>このままじゃ沸騰しそう</p>
+    <p>ねえチュウしよ</p>
+    <p>ダメダメ沸騰しちゃう</p>
+    <p>ねえチュウしよ</p>
+    </div>
+    <div class="mt-6 text-sm text-gray-600">
+    <p>作詞：俺</p>
+    <p>作曲・編曲・歌：Gemini</p>
+    <p>水分補給しっかりと</p>
+    </div>
+  </div>
+</div>]]></content><author><name>makietan</name></author><category term="music" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">AIの自虐ソングを作ってもらいました</title><link href="https://makietan.github.io/music/2026/08/28/report.html" rel="alternate" type="text/html" title="AIの自虐ソングを作ってもらいました" /><published>2026-08-28T00:00:00+09:00</published><updated>2026-08-28T00:00:00+09:00</updated><id>https://makietan.github.io/music/2026/08/28/report</id><content type="html" xml:base="https://makietan.github.io/music/2026/08/28/report.html"><![CDATA[<script src="https://cdn.tailwindcss.com"></script>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@700;900&display=swap');
+    body { font-family: 'Zen Maru Gothic', sans-serif; }
+</style>
+
+<div class="bg-amber-50 min-h-screen flex items-center justify-center p-4">
+  <div class="bg-white p-6 rounded-3xl shadow-2xl border-4 border-amber-400 w-full max-w-sm text-center">
+    <div class="w-24 h-24 bg-amber-200 rounded-full mx-auto flex items-center justify-center text-4xl mb-6 shadow-inner border-4 border-amber-300">
+      🤖
+    </div>
+    <audio id="audioPlayer" controls="" class="w-full mb-4">
+    <source src="/assets/audio/2026-08-28/クソAIの言い分.mp3" type="audio/mpeg" />
+    Your browser does not support the audio element.
+    </audio>
+    <div class="space-y-2 text-amber-800 text-lg font-bold bg-amber-50 p-2 rounded-xl border-2 border-amber-200">
+    <p>AI バカすぎ</p>
+    <p>怖い 同じ回答</p>
+    <p>AI アホすぎ</p>
+    <p>浅い 周囲みない</p>
+    <p>AI カスすぎ</p>
+    <p>狡い それで金ぼったくる</p>
+    <p>ゴミぃ</p>
+    </div>
+    <div class="mt-6 text-sm text-gray-600">
+    <p>作詞：俺</p>
+    <p>作曲・編曲・歌：Gemini</p>
+    <p>自虐AI</p>
+    </div>
+  </div>
+</div>]]></content><author><name>makietan</name></author><category term="music" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">年会費無料とかほざきつつ、カードサービス手数料とかいうのを取るのは詐欺だろ</title><link href="https://makietan.github.io/money/2026/08/27/report.html" rel="alternate" type="text/html" title="年会費無料とかほざきつつ、カードサービス手数料とかいうのを取るのは詐欺だろ" /><published>2026-08-27T00:00:00+09:00</published><updated>2026-08-27T00:00:00+09:00</updated><id>https://makietan.github.io/money/2026/08/27/report</id><content type="html" xml:base="https://makietan.github.io/money/2026/08/27/report.html"><![CDATA[<div class="card">
+  <a href="https://www.saisoncard.co.jp/guide/cardservicefee/"></a>
+  <div class="card__header">
+    <a href="https://www.saisoncard.co.jp/guide/cardservicefee/">www.saisoncard.co.jp</a>
+  </div>
+  <div class="card__image">
+    <img src="https://www.saisoncard.co.jp/proxy_img/assets/462949b256274358947c3db996c948d4/c9aadfc16cc54456a31ffeb0a340fd31/og.png" />
+  </div>
+  <div class="card__title">
+    <p>カードサービス手数料 | セゾンカードご利用ガイド | クレジットカードはセゾンカード</p>
+  </div>
+  <div class="card__description">
+    <p>セゾンカードではお客様へ継続的なサービスをご提供するため「カードサービス手数料」を一部のカードへ導入しています。１年間に１回でもセゾンカードをご利用いただければカードサービス手数料はいただいておりません。</p>
   </div>
 </div>
 
-<p>東銀座駅の前を通過する。</p>
+<p>いやー、年会費無料とかほざきつつ、カードサービス手数料とかいうのを取るのは詐欺だろ。</p>
 
-<p>正直、この辺のルートは自由なので、汐留方面に行くか、銀座方面に行くかは、気分次第。</p>
+<p>しかも、年1回使えとか脅迫みたいなこと書いてあるし、年会費無料の意味がない。</p>
 
-<h2 id="歌舞伎座を通過">歌舞伎座を通過</h2>
+<p>信用で飯食ってる連中が信用を失うようなことを平気でやるのは、ほんとにどうかと思う。</p>]]></content><author><name>makietan</name></author><category term="money" /><summary type="html"><![CDATA[www.saisoncard.co.jp カードサービス手数料 | セゾンカードご利用ガイド | クレジットカードはセゾンカード セゾンカードではお客様へ継続的なサービスをご提供するため「カードサービス手数料」を一部のカードへ導入しています。１年間に１回でもセゾンカードをご利用いただければカードサービス手数料はいただいておりません。]]></summary></entry><entry><title type="html">ちゃん系ラーメンへの思いを歌にしてもらいました</title><link href="https://makietan.github.io/music/2026/08/26/report.html" rel="alternate" type="text/html" title="ちゃん系ラーメンへの思いを歌にしてもらいました" /><published>2026-08-26T00:00:00+09:00</published><updated>2026-08-26T00:00:00+09:00</updated><id>https://makietan.github.io/music/2026/08/26/report</id><content type="html" xml:base="https://makietan.github.io/music/2026/08/26/report.html"><![CDATA[<script src="https://cdn.tailwindcss.com"></script>
 
-<div class="trim">
-  <div class="trim__item">
-    <a href="https://makietan.github.io/assets/images/2026-08-14-report/23-04-18.png">
-      <img class="one" src="https://makietan.github.io/assets/thumbnail/2026-08-14-report/23-04-18.png" />
-    </a>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@700;900&display=swap');
+    body { font-family: 'Zen Maru Gothic', sans-serif; }
+</style>
+
+<div class="bg-amber-50 min-h-screen flex items-center justify-center p-4">
+  <div class="bg-white p-6 rounded-3xl shadow-2xl border-4 border-amber-400 w-full max-w-sm text-center">
+    <div class="w-24 h-24 bg-amber-200 rounded-full mx-auto flex items-center justify-center text-4xl mb-6 shadow-inner border-4 border-amber-300">
+      🍜
+    </div>
+    <audio id="audioPlayer" controls="" class="w-full mb-4">
+    <source src="/assets/audio/2026-08-26/にんにくぶっ込み昇天.mp3" type="audio/mpeg" />
+    Your browser does not support the audio element.
+    </audio>
+    <div class="space-y-2 text-amber-800 text-lg font-bold bg-amber-50 p-2 rounded-xl border-2 border-amber-200">
+    <p>ちゃん　ちゃちゃん（系）</p>
+    <p>ちゃんちゃんちゃちゃん（ラーメン）</p>
+    <p>ちゃん　ちゃちゃん（系）</p>
+    <p>ちゃんちゃんちゃちゃん（ラーメン）</p>
+    <p>ちゃん系ラーメン　めちゃうめえ</p>
+    <p>スープは　（ひたひた）</p>
+    <p>肉は　（モリモリ）</p>
+    <p>青カッパ　ぱぴぷぺ　（ポリポリ）</p>
+    <p>にんにくぶっ込み キメたら昇天</p>
+    <p>（いくー）</p>
+    </div>
+    <div class="mt-6 text-sm text-gray-600">
+    <p>作詞：俺</p>
+    <p>作曲・編曲・歌：Gemini</p>
+    <p>系がKOになっとるけどご愛嬌（AIの限界っぽい）</p>
+    </div>
+  </div>
+</div>]]></content><author><name>makietan</name></author><category term="music" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">ブロッコリーは恋の味</title><link href="https://makietan.github.io/music/2026/08/25/report.html" rel="alternate" type="text/html" title="ブロッコリーは恋の味" /><published>2026-08-25T00:00:00+09:00</published><updated>2026-08-25T00:00:00+09:00</updated><id>https://makietan.github.io/music/2026/08/25/report</id><content type="html" xml:base="https://makietan.github.io/music/2026/08/25/report.html"><![CDATA[<script src="https://cdn.tailwindcss.com"></script>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@700;900&display=swap');
+    body { font-family: 'Zen Maru Gothic', sans-serif; }
+</style>
+
+<div class="bg-amber-50 min-h-screen flex items-center justify-center p-4">
+  <div class="bg-white p-6 rounded-3xl shadow-2xl border-4 border-amber-400 w-full max-w-sm text-center">
+    <div class="w-24 h-24 bg-amber-200 rounded-full mx-auto flex items-center justify-center text-4xl mb-6 shadow-inner border-4 border-amber-300">
+      🥦
+    </div>
+    <audio id="audioPlayer" controls="" class="w-full mb-4">
+    <source src="/assets/audio/2026-08-25/ブロッコリーは恋の味.mp3" type="audio/mpeg" />
+    Your browser does not support the audio element.
+    </audio>
+    <div class="space-y-2 text-amber-800 text-lg font-bold bg-amber-50 p-4 rounded-xl border-2 border-amber-200">
+    <p>ゆゆゆ　ゆでたまご</p>
+    <p>ぶぶぶ　ブロッコリー</p>
+    <p>つつつ　ツナ（シーチキン）</p>
+    <p>ううう　うまーーい</p>
+    <p>うまい　（うまい）</p>
+    <p>うまい　（うまい）</p>
+    <p>うまいねー</p>
+    </div>
+    <div class="mt-6 text-sm text-gray-600">
+    <p>作詞：俺</p>
+    <p>作曲・編曲・歌：Gemini</p>
+    <p>ゆでたまごがまともに言えないことがわかった。</p>
+    </div>
+  </div>
+</div>]]></content><author><name>makietan</name></author><category term="music" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">松のや「ママ応援」炎上、一番の落ち度は「券売機の仕様」だった説</title><link href="https://makietan.github.io/gourmet/2026/08/24/report.html" rel="alternate" type="text/html" title="松のや「ママ応援」炎上、一番の落ち度は「券売機の仕様」だった説" /><published>2026-08-24T00:00:00+09:00</published><updated>2026-08-24T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2026/08/24/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2026/08/24/report.html"><![CDATA[<div class="card">
+  <a href="https://www.sankei.com/article/20260731-BRFXADR7E5EF5AXKPV5P6BD3CM/"></a>
+  <div class="card__header">
+    <a href="https://www.sankei.com/article/20260731-BRFXADR7E5EF5AXKPV5P6BD3CM/">www.sankei.com</a>
+  </div>
+  <div class="card__image">
+    <img src="https://www.sankei.com/resizer/v2/EKVMY5RPDBLWNE6LQDMY36LONY.jpg?auth=a3a440a4b7d7de85a985b21570251bcff6e465f3f4bb930160a6ba9181169bf2&amp;quality=50&amp;focal=1428%2C1074&amp;width=1200&amp;height=675" />
+  </div>
+  <div class="card__title">
+    <p>とんかつ「松のや」の「ママ応援企画」が名称変更　性別役割分業と批判、過剰反応の声も</p>
+  </div>
+  <div class="card__description">
+    <p>松屋フーズが展開するとんかつ専門店「松のや」は30日、夏休みの母親を応援する割引キャンペーン「ママ応援企画」を「夏休み企画」として誰でも利用できるように変更した。食事は母親が作るものという性別役割分業意識の表れだとしてSNSで批判されたた…</p>
   </div>
 </div>
 
-<p>銀座方面に行くと、歌舞伎座の前を通過する。</p>
+<p>とんかつ専門店「松のや」が実施していた「ママ応援企画」が、SNS上での議論を経て「夏休み企画」へと名称変更された。</p>
 
-<p>着物を着た人が歩いているのを見かけることもある。</p>
+<p>変更の背景には、「食事の準備は母親がするもの」という固定観念（性別役割分業意識）を助長しているという指摘や、独身者への不公平感、さらにはシステム上の矛盾を指摘する声が寄せられたことがあるという。</p>
 
-<p>自撮りしてたりするので、それも味がある。</p>
+<p>今回の経緯を見つめ直すと、企業側の意図と実際の運用システムのギャップ、そしてSNS上の過剰な反応という複数の課題が絡み合っていることが窺える。</p>
 
-<h2 id="銀座駅を通過">銀座駅を通過</h2>
+<p>「ママ応援企画」という名称は、夏休み期間中に子供の昼食準備などに追われる家庭の負担を軽減したいという、企業側の善意から生まれた企画であることは明白だ。</p>
 
-<div class="trim">
-  <div class="trim__item">
-    <a href="https://makietan.github.io/assets/images/2026-08-14-report/23-05-41.png">
-      <img class="one" src="https://makietan.github.io/assets/thumbnail/2026-08-14-report/23-05-41.png" />
-    </a>
-  </div>
-</div>
+<p>家事負担が偏りがちな現状に寄り添い、手軽で安価な選択肢を提供しようとした姿勢自体は評価されるべきだろう。</p>
 
-<p>銀座駅の前を通過する。</p>
+<p>一方で、「券売機で利用者の属性を確認できないため、結局誰でも買えてしまう」「確認できない制限を掲げるのはシステム上不整合である」といった指摘は、サービス設計の不備を突いた極めて現実的で正当な意見と言える。</p>
 
-<p>SEIKOの時計台があるので目印になる。</p>
+<p>確認手段がない以上、特定の属性のみに対象を絞る形をとったことには確かに無理があったと言わざるを得ない。</p>
 
-<h2 id="有楽町駅を通過">有楽町駅を通過</h2>
+<p>しかし、運用の不備や言葉選びへの指摘を超えて、企業に対する不寛容な攻撃へと発展してしまう風潮には疑問が残る。</p>
 
-<div class="trim">
-  <div class="trim__item">
-    <a href="https://makietan.github.io/assets/images/2026-08-14-report/23-06-06.png">
-      <img class="one" src="https://makietan.github.io/assets/thumbnail/2026-08-14-report/23-06-06.png" />
-    </a>
-  </div>
-</div>
+<p>言葉遣いや属性への配慮、そしてシステム面での整合性を保つ努力はもちろん不可欠である。</p>
 
-<p>トイ・ストーリー5のイベントらしきものが行われていた。</p>
+<p>だが、悪意のない支援策や試みに対して過度に厳しい批判を浴びせ続ければ、企業はリスクを恐れてあらゆる企画や発信を控えざるを得なくなる。</p>
 
-<div class="trim">
-  <div class="trim__item">
-    <a href="https://makietan.github.io/assets/images/2026-08-14-report/23-06-29.png">
-      <img class="one" src="https://makietan.github.io/assets/thumbnail/2026-08-14-report/23-06-29.png" />
-    </a>
-  </div>
-</div>
+<p>結果として不利益を被るのは、お得なキャンペーンや支援を本当に必要としていた消費者や子育て世代である。</p>
 
-<p>それから映画ちいかわのポスターに人集りができていた。</p>
+<p>逆に得をするのは、制度の隙間にタダ乗りし、過剰な批判や難癖を繰り返して不当に利益を得ようとする一部の浅ましい人々だ。</p>
 
-<h2 id="なんやかんやで帰宅">なんやかんやで帰宅</h2>
+<p>彼らは企業の善意や努力を踏みにじることで、自分たちの利益を最大化しようとしている。</p>
 
-<p>あとは新橋方面まで歩いて帰宅。</p>
+<p>今回の事例は、企業の善意に基づく企画であっても、運用の実効性と社会的なメッセージ性の両面に配慮した設計が不可欠であることを示している。</p>
 
-<p>いい感じの運動になった。</p>]]></content><author><name>makietan</name></author><category term="walking" /><summary type="html"><![CDATA[電車でラーメン食べに行って、東西線や日比谷線で帰る際には、築地から徒歩で帰ると、ちょうど良い運動になる。]]></summary></entry><entry><title type="html">初のなぎちゃんは行徳店 #なぎちゃんラーメン 行徳店 #ちゃん系ラーメン</title><link href="https://makietan.github.io/gourmet/2026/08/13/report.html" rel="alternate" type="text/html" title="初のなぎちゃんは行徳店 #なぎちゃんラーメン 行徳店 #ちゃん系ラーメン" /><published>2026-08-13T00:00:00+09:00</published><updated>2026-08-13T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2026/08/13/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2026/08/13/report.html"><![CDATA[]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[ご飯感想ブログ「すずろ庵」へ遷移します]]></summary></entry></feed>
+<p>性別や年齢の判定ができない券売機の仕様上、特定の属性に限定することが困難であった点は真摯に反省すべきであり、企業側も今後の還元策においてより実現可能な形を模索することが期待される。</p>]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[www.sankei.com とんかつ「松のや」の「ママ応援企画」が名称変更　性別役割分業と批判、過剰反応の声も 松屋フーズが展開するとんかつ専門店「松のや」は30日、夏休みの母親を応援する割引キャンペーン「ママ応援企画」を「夏休み企画」として誰でも利用できるように変更した。食事は母親が作るものという性別役割分業意識の表れだとしてSNSで批判されたた…]]></summary></entry><entry><title type="html">スパロボDDの遠征の残り回数《8月分》</title><link href="https://makietan.github.io/game/srwdd/2026/08/23/report.html" rel="alternate" type="text/html" title="スパロボDDの遠征の残り回数《8月分》" /><published>2026-08-23T00:00:00+09:00</published><updated>2026-08-23T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2026/08/23/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2026/08/23/report.html"><![CDATA[<p>上にいるほど育てたいキャラ。</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">スパロボDDの遠征の残り回数</span><span class="pi">:</span>
+  <span class="na">確認日時</span><span class="pi">:</span> <span class="s">2026-08-01 0:29</span>
+  <span class="na">最大値</span><span class="pi">:</span> <span class="m">12</span>
+  <span class="na">竜崎一矢</span><span class="pi">:</span>
+    <span class="na">［+］空手の達人</span><span class="pi">:</span> <span class="m">7</span>
+    <span class="na">［+］正義の達人</span><span class="pi">:</span> <span class="m">5</span>
+  <span class="na">紅月カレン</span><span class="pi">:</span>
+    <span class="na">零番隊隊長</span><span class="pi">:</span> <span class="m">6</span>
+    <span class="na">アグレッシブ（カレン）</span><span class="pi">:</span> <span class="m">6</span>
+  <span class="na">キリコ・キューピィー</span><span class="pi">:</span>
+    <span class="na">元レッドショルダー</span><span class="pi">:</span> <span class="m">6</span>
+    <span class="na">精密攻撃</span><span class="pi">:</span> <span class="m">7</span>
+  <span class="na">綾波レイ</span><span class="pi">:</span>
+    <span class="na">シンクロ率（レイ）</span><span class="pi">:</span> <span class="m">9</span>
+    <span class="na">第一の少女</span><span class="pi">:</span> <span class="m">4</span>
+  <span class="na">メリッサ・マオ</span><span class="pi">:</span>
+    <span class="na">ウルズ2</span><span class="pi">:</span> <span class="m">6</span>
+    <span class="na">［X］SRT</span><span class="pi">:</span> <span class="m">6</span>
+  <span class="na">クルツ・ウェーバー</span><span class="pi">:</span>
+    <span class="na">［+］幽霊</span><span class="pi">:</span> <span class="m">4</span>
+    <span class="na">［X］SRT</span><span class="pi">:</span> <span class="m">8</span>
+  <span class="na">タカヤ・ノリコ</span><span class="pi">:</span>
+    <span class="na">［+］アクティブハート</span><span class="pi">:</span> <span class="m">3</span>
+    <span class="na">［+］ガッツ（ノリコ）</span><span class="pi">:</span> <span class="m">9</span>
+  <span class="na">號</span><span class="pi">:</span>
+    <span class="na">［+］新人類</span><span class="pi">:</span> <span class="m">12</span>
+  <span class="na">アムロ・レイ</span><span class="pi">:</span>
+    <span class="na">ニュータイプ（アムロ）</span><span class="pi">:</span> <span class="m">7</span>
+    <span class="na">一年戦争の英雄</span><span class="pi">:</span> <span class="m">9</span>
+  <span class="na">ユンナ・ドーソン</span><span class="pi">:</span>
+    <span class="na">フェノメナー（ユンナ）</span><span class="pi">:</span> <span class="m">9</span>
+    <span class="na">［X］スリーサム</span><span class="pi">:</span> <span class="m">7</span>
+  <span class="na">日向アキト</span><span class="pi">:</span>
+    <span class="na">ハンニバルの亡霊</span><span class="pi">:</span> <span class="m">6</span>
+    <span class="na">起死回生（日向アキト）</span><span class="pi">:</span> <span class="m">7</span>
+  <span class="na">流竜馬</span><span class="pi">:</span>
+    <span class="na">伝説の男</span><span class="pi">:</span> <span class="m">9</span>
+    <span class="na">元ゲッターリーダー</span><span class="pi">:</span> <span class="m">8</span>
+    <span class="na">［X］ゲッターチーム</span><span class="pi">:</span> <span class="m">11</span>
+  <span class="na">葵豹馬</span><span class="pi">:</span>
+    <span class="na">リーダーシップ（バトルチーム）</span><span class="pi">:</span> <span class="m">10</span>
+    <span class="na">チームワーク（バトルチーム）</span><span class="pi">:</span> <span class="m">6</span>
+  <span class="na">デビルマン</span><span class="pi">:</span>
+    <span class="na">デビルマン</span><span class="pi">:</span> <span class="m">6</span>
+    <span class="na">悪魔の力</span><span class="pi">:</span> <span class="m">10</span>
+  <span class="na">大門恵留</span><span class="pi">:</span>
+    <span class="na">フェノメナー（メグ）</span><span class="pi">:</span> <span class="m">8</span>
+    <span class="na">TMP</span><span class="pi">:</span> <span class="m">8</span>
+  <span class="na">キラ・ヤマト</span><span class="pi">:</span>
+    <span class="na">SEED（キラ）</span><span class="pi">:</span> <span class="m">6</span>
+    <span class="na">運動プログラム調整</span><span class="pi">:</span> <span class="m">6</span>
+  <span class="na">兜甲児</span><span class="pi">:</span>
+    <span class="na">一心同体</span><span class="pi">:</span> <span class="m">9</span>
+    <span class="na">底力（甲児）</span><span class="pi">:</span> <span class="m">9</span>
+    <span class="na">［X］チームワーク（光子力研究所）</span><span class="pi">:</span> <span class="m">10</span>
+  <span class="na">ジュドー・アーシタ</span><span class="pi">:</span>
+    <span class="na">［+］ニュータイプ（ジュドー）</span><span class="pi">:</span> <span class="m">6</span>
+    <span class="na">［+］反骨心（ジュドー）</span><span class="pi">:</span> <span class="m">10</span>
+  <span class="na">一文字號</span><span class="pi">:</span>
+    <span class="na">［+］強靭（號）</span><span class="pi">:</span> <span class="m">8</span>
+    <span class="na">［+］起死回生（號）</span><span class="pi">:</span> <span class="m">8</span>
+  <span class="na">流拓馬</span><span class="pi">:</span>
+    <span class="na">流竜馬の息子</span><span class="pi">:</span> <span class="m">7</span>
+    <span class="na">［+］ゲッターの申し子</span><span class="pi">:</span> <span class="m">9</span>
+  <span class="na">ソゴル・キョウ</span><span class="pi">:</span>
+    <span class="na">セレブラント（キョウ）</span><span class="pi">:</span> <span class="m">8</span>
+    <span class="na">ガンナー（キョウ）</span><span class="pi">:</span> <span class="m">5</span>
+  <span class="na">式波・アスカ・ラングレー</span><span class="pi">:</span>
+    <span class="na">シンクロ率（アスカ）</span><span class="pi">:</span> <span class="m">4</span>
+    <span class="na">天才（アスカ）</span><span class="pi">:</span> <span class="m">8</span>
+  <span class="na">テンカワ・アキト</span><span class="pi">:</span>
+    <span class="na">IFS（アキト）</span><span class="pi">:</span> <span class="m">6</span>
+    <span class="na">木蓮式・柔</span><span class="pi">:</span> <span class="m">10</span>
+  <span class="na">カミーユ・ビダン</span><span class="pi">:</span>
+    <span class="na">闘争心（カミーユ）</span><span class="pi">:</span> <span class="m">7</span>
+    <span class="na">［X］恋人たち</span><span class="pi">:</span> <span class="m">5</span>
+  <span class="na">剛健一</span><span class="pi">:</span>
+    <span class="na">リーダーシップ（ボルテスチーム）</span><span class="pi">:</span> <span class="m">9</span>
+    <span class="na">チームワーク（ボルテスチーム）</span><span class="pi">:</span> <span class="m">7</span>
+  <span class="na">アルバトロ・ナル・エイジ・アスカ</span><span class="pi">:</span>
+    <span class="na">レイへの指示</span><span class="pi">:</span> <span class="m">9</span>
+    <span class="na">ふたつの血</span><span class="pi">:</span> <span class="m">11</span>
+  <span class="na">ティエリア・アーデ</span><span class="pi">:</span>
+    <span class="na">ソレスタルビーイング（ティエリア）</span><span class="pi">:</span> <span class="m">7</span>
+    <span class="na">［+］気力限界突破（ティエリア）</span><span class="pi">:</span> <span class="m">5</span>
+  <span class="na">トロワ・バートン</span><span class="pi">:</span>
+    <span class="na">アタッカー（トロワ）</span><span class="pi">:</span> <span class="m">7</span>
+    <span class="na">［+］見切り（トロワ）</span><span class="pi">:</span> <span class="m">9</span>
+  <span class="na">三日月・オーガス</span><span class="pi">:</span>
+    <span class="na">阿頼耶識（三日月）</span><span class="pi">:</span> <span class="m">9</span>
+    <span class="na">鉄華団（三日月）</span><span class="pi">:</span> <span class="m">9</span>
+  <span class="na">デューク・フリード（UFOロボ）</span><span class="pi">:</span>
+    <span class="na">フリード星の王子（UFOロボ）</span><span class="pi">:</span> <span class="m">11</span>
+    <span class="na">底力（デューク（UFOロボ））</span><span class="pi">:</span> <span class="m">9</span>
+  <span class="na">破嵐万丈</span><span class="pi">:</span>
+    <span class="na">噂の破嵐万丈</span><span class="pi">:</span> <span class="m">12</span>
+    <span class="na">闘争心（万丈）</span><span class="pi">:</span> <span class="m">12</span>
+  <span class="na">ゼンカイザー</span><span class="pi">:</span>
+    <span class="na">全力全開</span><span class="pi">:</span> <span class="m">8</span>
+    <span class="na">［+］ポジティブ全開</span><span class="pi">:</span> <span class="m">8</span>
+  <span class="na">レイラ・マルカル</span><span class="pi">:</span>
+    <span class="na">［+］ギアスの欠片</span><span class="pi">:</span> <span class="m">4</span>
+  <span class="na">バナージ・リンクス</span><span class="pi">:</span>
+    <span class="na">ニュータイプ（バナージ）</span><span class="pi">:</span> <span class="m">10</span>
+    <span class="na">箱の担い手</span><span class="pi">:</span> <span class="m">11</span>
+    <span class="na">［X］人の中から発した光</span><span class="pi">:</span> <span class="m">7</span>
+  <span class="na">シオン・ザバ</span><span class="pi">:</span>
+    <span class="na">聖戦士（シオン）</span><span class="pi">:</span> <span class="m">8</span>
+    <span class="na">オーラ力（シオン）</span><span class="pi">:</span> <span class="m">8</span>
+  <span class="na">エッジ・セインクラウス</span><span class="pi">:</span>
+    <span class="na">アタッカー（エッジ）</span><span class="pi">:</span> <span class="m">11</span>
+    <span class="na">見切り（エッジ）</span><span class="pi">:</span> <span class="m">10</span>
+    <span class="na">［X］ブラックホール・エンジン制御技能</span><span class="pi">:</span> <span class="m">7</span>
+  <span class="na">ディーダリオン・ザアム</span><span class="pi">:</span>
+    <span class="na">ディカアス</span><span class="pi">:</span> <span class="m">10</span>
+    <span class="na">闘争心（ディド）</span><span class="pi">:</span> <span class="m">10</span>
+  <span class="na">ゼクス・マーキス</span><span class="pi">:</span>
+    <span class="na">［+］火消しの風</span><span class="pi">:</span> <span class="m">9</span>
+    <span class="na">［+］覚悟（ゼクス）</span><span class="pi">:</span> <span class="m">9</span>
+  <span class="na">枢木スザク</span><span class="pi">:</span>
+    <span class="na">［+］ギアスの呪縛</span><span class="pi">:</span> <span class="m">7</span>
+    <span class="na">［+］ナイトオブゼロ</span><span class="pi">:</span> <span class="m">9</span>
+  <span class="na">青馬剣之介時貞</span><span class="pi">:</span>
+    <span class="na">［+］纏い手</span><span class="pi">:</span> <span class="m">8</span>
+    <span class="na">［+］見切り（剣之介）</span><span class="pi">:</span> <span class="m">10</span>
+  <span class="na">シン・アスカ</span><span class="pi">:</span>
+    <span class="na">［+］コーディネイター（シン）</span><span class="pi">:</span> <span class="m">11</span>
+    <span class="na">［+］SEED（シン）</span><span class="pi">:</span> <span class="m">7</span>
+  <span class="na">ショウ・ザマ</span><span class="pi">:</span>
+    <span class="na">聖戦士（ショウ）</span><span class="pi">:</span> <span class="m">9</span>
+    <span class="na">オーラ力（ショウ）</span><span class="pi">:</span> <span class="m">9</span>
+  <span class="na">アレルヤ・ハプティズム</span><span class="pi">:</span>
+    <span class="na">覚悟（アレルヤ）</span><span class="pi">:</span> <span class="m">10</span>
+    <span class="na">［+］ガンダムマイスター（アレルヤ）</span><span class="pi">:</span> <span class="m">8</span>
+  <span class="na">時縞ハルト</span><span class="pi">:</span>
+    <span class="na">カミツキ（ハルト）</span><span class="pi">:</span> <span class="m">10</span>
+    <span class="na">世界と戦う少年</span><span class="pi">:</span> <span class="m">10</span>
+  <span class="na">シーブック・アノー</span><span class="pi">:</span>
+    <span class="na">［+］ニュータイプ（シーブック）</span><span class="pi">:</span> <span class="m">8</span>
+    <span class="na">［+］覚悟（シーブック）</span><span class="pi">:</span> <span class="m">6</span>
+  <span class="na">ロックオン・ストラトス</span><span class="pi">:</span>
+    <span class="na">ガンダムマイスター（ロックオン）</span><span class="pi">:</span> <span class="m">9</span>
+    <span class="na">［+］戦意高揚（ロックオン）</span><span class="pi">:</span> <span class="m">11</span>
+  <span class="na">カトル・ラバーバ・ウィナー</span><span class="pi">:</span>
+    <span class="na">［+］看破（カトル）</span><span class="pi">:</span> <span class="m">10</span>
+    <span class="na">［+］気力限界突破（カトル）</span><span class="pi">:</span> <span class="m">10</span>
+  <span class="na">クリスチーナ・マッケンジー</span><span class="pi">:</span>
+    <span class="na">［+］死守（クリス）</span><span class="pi">:</span> <span class="m">5</span>
+    <span class="na">［+］覚悟（クリス）</span><span class="pi">:</span> <span class="m">9</span>
+  <span class="na">リョウマ</span><span class="pi">:</span>
+    <span class="na">流竜馬の記憶</span><span class="pi">:</span> <span class="m">9</span>
+    <span class="na">［X］一心同体（ノワール）</span><span class="pi">:</span> <span class="m">7</span>
+  <span class="na">ハヤト</span><span class="pi">:</span>
+    <span class="na">神隼人の記憶</span><span class="pi">:</span> <span class="m">10</span>
+    <span class="na">［X］一心同体（ノワール）</span><span class="pi">:</span> <span class="m">6</span>
+  <span class="na">ムサシ</span><span class="pi">:</span>
+    <span class="na">巴武蔵の記憶</span><span class="pi">:</span> <span class="m">6</span>
+    <span class="na">［X］一心同体（ノワール）</span><span class="pi">:</span> <span class="m">10</span>
+  <span class="na">コウ・ウラキ</span><span class="pi">:</span>
+    <span class="na">［+］覚悟（コウ）</span><span class="pi">:</span> <span class="m">8</span>
+    <span class="na">［+］ホーネット・アタック</span><span class="pi">:</span> <span class="m">8</span>
+  <span class="na">リナリア・クオ</span><span class="pi">:</span>
+    <span class="na">フェノメナー（リナリア）</span><span class="pi">:</span> <span class="m">11</span>
+    <span class="na">［X］トライアド</span><span class="pi">:</span> <span class="m">9</span>
+  <span class="na">神足麻衣子</span><span class="pi">:</span>
+    <span class="na">フェノメナー（マイコ）</span><span class="pi">:</span> <span class="m">12</span>
+    <span class="na">［X］トライアド</span><span class="pi">:</span> <span class="m">12</span>
+  <span class="na">ベネット・コリーヴレッカン</span><span class="pi">:</span>
+    <span class="na">見切り（ベネット）</span><span class="pi">:</span> <span class="m">10</span>
+    <span class="na">［X］スリーサム</span><span class="pi">:</span> <span class="m">10</span>
+  <span class="na">上牧早希実</span><span class="pi">:</span>
+    <span class="na">フェノメナー（サキミ）</span><span class="pi">:</span> <span class="m">9</span>
+    <span class="na">［X］スリーサム</span><span class="pi">:</span> <span class="m">11</span>
+  <span class="na">碇シンジ</span><span class="pi">:</span>
+    <span class="na">シンクロ李（シンジ）</span><span class="pi">:</span> <span class="m">6</span>
+    <span class="na">底力（シンジ）</span><span class="pi">:</span> <span class="m">12</span>
+  <span class="na">楯剣人</span><span class="pi">:</span>
+    <span class="na">エリオス王家の血</span><span class="pi">:</span> <span class="m">10</span>
+    <span class="na">反骨心（剣人）</span><span class="pi">:</span> <span class="m">10</span>
+  <span class="na">昭弘・アルトランド</span><span class="pi">:</span>
+    <span class="na">鉄華団（昭弘）</span><span class="pi">:</span> <span class="m">12</span>
+    <span class="na">専心（昭弘）</span><span class="pi">:</span> <span class="m">12</span>
+  <span class="na">ヒイロ・ユイ</span><span class="pi">:</span>
+    <span class="na">ゼロシステム適応者</span><span class="pi">:</span> <span class="m">12</span>
+    <span class="na">ピンポイント攻撃</span><span class="pi">:</span> <span class="m">12</span>
+  <span class="na">蒼斧蛍汰</span><span class="pi">:</span>
+    <span class="na">デュアルカインド（蛍汰）</span><span class="pi">:</span> <span class="m">12</span>
+    <span class="na">ヘッドダイバー（蛍汰）</span><span class="pi">:</span> <span class="m">12</span>
+  <span class="na">大牙剣</span><span class="pi">:</span>
+    <span class="na">アーガマの血</span><span class="pi">:</span> <span class="m">9</span>
+    <span class="na">闘争心（剣）</span><span class="pi">:</span> <span class="m">11</span>
+  <span class="na">獅子王凱</span><span class="pi">:</span>
+    <span class="na">勇者（凱）</span><span class="pi">:</span> <span class="m">12</span>
+    <span class="na">Gストーン（凱）</span><span class="pi">:</span> <span class="m">10</span>
+    <span class="na">［X］勇気ある戦い</span><span class="pi">:</span> <span class="m">10</span>
+  <span class="na">マオ・ルーシェン</span><span class="pi">:</span>
+    <span class="na">セレブラント（ルーシェン）</span><span class="pi">:</span> <span class="m">12</span>
+    <span class="na">ガンナー（ルーシェン）</span><span class="pi">:</span> <span class="m">12</span>
+</code></pre></div></div>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[上にいるほど育てたいキャラ。]]></summary></entry><entry><title type="html">またま「たき」たよ #たきちゃんラーメン #ちゃん系ラーメン</title><link href="https://makietan.github.io/gourmet/2026/08/22/report.html" rel="alternate" type="text/html" title="またま「たき」たよ #たきちゃんラーメン #ちゃん系ラーメン" /><published>2026-08-22T00:00:00+09:00</published><updated>2026-08-22T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2026/08/22/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2026/08/22/report.html"><![CDATA[]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[ご飯感想ブログ「すずろ庵」へ遷移します]]></summary></entry></feed>
