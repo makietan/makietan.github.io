@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-08-31T08:49:59+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>日報を中心に、技術メモやイベント参加記録をまとめるブログです。</subtitle><author><name>makietan</name></author><entry><title type="html">日本の地震ですぐに警戒すべきは南海トラフ地震よりも他の地域のほうが危険かもしれない</title><link href="https://makietan.github.io/japan/2026/08/31/report.html" rel="alternate" type="text/html" title="日本の地震ですぐに警戒すべきは南海トラフ地震よりも他の地域のほうが危険かもしれない" /><published>2026-08-31T00:00:00+09:00</published><updated>2026-08-31T00:00:00+09:00</updated><id>https://makietan.github.io/japan/2026/08/31/report</id><content type="html" xml:base="https://makietan.github.io/japan/2026/08/31/report.html"><![CDATA[<p>この記事は個人の見解に基づくものであり、公式の情報ではありません。</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-08-31T09:00:59+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>日報を中心に、技術メモやイベント参加記録をまとめるブログです。</subtitle><author><name>makietan</name></author><entry><title type="html">日本の地震ですぐに警戒すべきは南海トラフ地震よりも他の地域のほうかもしれない</title><link href="https://makietan.github.io/japan/2026/08/31/report.html" rel="alternate" type="text/html" title="日本の地震ですぐに警戒すべきは南海トラフ地震よりも他の地域のほうかもしれない" /><published>2026-08-31T00:00:00+09:00</published><updated>2026-08-31T00:00:00+09:00</updated><id>https://makietan.github.io/japan/2026/08/31/report</id><content type="html" xml:base="https://makietan.github.io/japan/2026/08/31/report.html"><![CDATA[<p>この記事は個人の見解に基づくものであり、公式の情報ではありません。</p>
 
 <p>熊本で大きな地震がまた発生した。</p>
 
@@ -204,7 +204,13 @@
 
 <p>明確な結論は出さないが、日本の至る所で発生し、また津波の被害もある。</p>
 
-<p>未来予知なんてできないので、日頃からの備えが大事だ。</p>]]></content><author><name>makietan</name></author><category term="japan" /><summary type="html"><![CDATA[この記事は個人の見解に基づくものであり、公式の情報ではありません。]]></summary></entry><entry><title type="html">ユニクロのポンコツUIとUXのせいで1,010円の損失を被った話</title><link href="https://makietan.github.io/tech/2026/08/30/report.html" rel="alternate" type="text/html" title="ユニクロのポンコツUIとUXのせいで1,010円の損失を被った話" /><published>2026-08-30T00:00:00+09:00</published><updated>2026-08-30T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2026/08/30/report</id><content type="html" xml:base="https://makietan.github.io/tech/2026/08/30/report.html"><![CDATA[<h2 id="サイズの選択uiの問題">サイズの選択UIの問題</h2>
+<p>未来予知なんてできないので、日頃からの備えが大事だ。</p>
+
+<p>ちなみに魔法少女まどか☆マギカのコンテンツが提供されるとその近辺で災害が発生するという不文律がある。</p>
+
+<p>今回はちょっとタイミングがズレているがそれに該当するレベルだろう。</p>
+
+<p>今後も魔法少女まどか☆マギカのコンテンツが提供されるときは注意したほうがいいかもしれない。</p>]]></content><author><name>makietan</name></author><category term="japan" /><summary type="html"><![CDATA[この記事は個人の見解に基づくものであり、公式の情報ではありません。]]></summary></entry><entry><title type="html">ユニクロのポンコツUIとUXのせいで1,010円の損失を被った話</title><link href="https://makietan.github.io/tech/2026/08/30/report.html" rel="alternate" type="text/html" title="ユニクロのポンコツUIとUXのせいで1,010円の損失を被った話" /><published>2026-08-30T00:00:00+09:00</published><updated>2026-08-30T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2026/08/30/report</id><content type="html" xml:base="https://makietan.github.io/tech/2026/08/30/report.html"><![CDATA[<h2 id="サイズの選択uiの問題">サイズの選択UIの問題</h2>
 
 <div class="trim">
   <div class="trim__item">
