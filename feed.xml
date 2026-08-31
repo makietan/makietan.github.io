@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-08-31T09:00:59+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>日報を中心に、技術メモやイベント参加記録をまとめるブログです。</subtitle><author><name>makietan</name></author><entry><title type="html">日本の地震ですぐに警戒すべきは南海トラフ地震よりも他の地域のほうかもしれない</title><link href="https://makietan.github.io/japan/2026/08/31/report.html" rel="alternate" type="text/html" title="日本の地震ですぐに警戒すべきは南海トラフ地震よりも他の地域のほうかもしれない" /><published>2026-08-31T00:00:00+09:00</published><updated>2026-08-31T00:00:00+09:00</updated><id>https://makietan.github.io/japan/2026/08/31/report</id><content type="html" xml:base="https://makietan.github.io/japan/2026/08/31/report.html"><![CDATA[<p>この記事は個人の見解に基づくものであり、公式の情報ではありません。</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-08-31T09:14:04+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>日報を中心に、技術メモやイベント参加記録をまとめるブログです。</subtitle><author><name>makietan</name></author><entry><title type="html">日本の地震ですぐに警戒すべきは南海トラフ地震よりも他の地域のほうかもしれない</title><link href="https://makietan.github.io/japan/2026/08/31/report.html" rel="alternate" type="text/html" title="日本の地震ですぐに警戒すべきは南海トラフ地震よりも他の地域のほうかもしれない" /><published>2026-08-31T00:00:00+09:00</published><updated>2026-08-31T00:00:00+09:00</updated><id>https://makietan.github.io/japan/2026/08/31/report</id><content type="html" xml:base="https://makietan.github.io/japan/2026/08/31/report.html"><![CDATA[<p>この記事は個人の見解に基づくものであり、公式の情報ではありません。</p>
 
 <p>熊本で大きな地震がまた発生した。</p>
 
@@ -261,7 +261,7 @@
       🤪
     </div>
     <audio id="audioPlayer" controls="" class="w-full mb-4">
-    <source src="/assets/audio/2026-08-28/クソAIの言い分.mp3" type="audio/mpeg" />
+    <source src="/assets/music/2026-08-28/クソAIの言い分.mp3" type="audio/mpeg" />
     Your browser does not support the audio element.
     </audio>
     <div class="space-y-2 text-amber-800 text-lg font-bold bg-amber-50 p-2 rounded-xl border-2 border-amber-200">
@@ -294,7 +294,7 @@
       🤖
     </div>
     <audio id="audioPlayer" controls="" class="w-full mb-4">
-    <source src="/assets/audio/2026-08-28/クソAIの言い分.mp3" type="audio/mpeg" />
+    <source src="/assets/music/2026-08-28/クソAIの言い分.mp3" type="audio/mpeg" />
     Your browser does not support the audio element.
     </audio>
     <div class="space-y-2 text-amber-800 text-lg font-bold bg-amber-50 p-2 rounded-xl border-2 border-amber-200">
@@ -345,7 +345,7 @@
       🍜
     </div>
     <audio id="audioPlayer" controls="" class="w-full mb-4">
-    <source src="/assets/audio/2026-08-26/にんにくぶっ込み昇天.mp3" type="audio/mpeg" />
+    <source src="/assets/music/2026-08-26/にんにくぶっ込み昇天.mp3" type="audio/mpeg" />
     Your browser does not support the audio element.
     </audio>
     <div class="space-y-2 text-amber-800 text-lg font-bold bg-amber-50 p-2 rounded-xl border-2 border-amber-200">
@@ -379,7 +379,7 @@
       🥦
     </div>
     <audio id="audioPlayer" controls="" class="w-full mb-4">
-    <source src="/assets/audio/2026-08-25/ブロッコリーは恋の味.mp3" type="audio/mpeg" />
+    <source src="/assets/music/2026-08-25/ブロッコリーは恋の味.mp3" type="audio/mpeg" />
     Your browser does not support the audio element.
     </audio>
     <div class="space-y-2 text-amber-800 text-lg font-bold bg-amber-50 p-4 rounded-xl border-2 border-amber-200">
