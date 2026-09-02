@@ -113,6 +113,38 @@ task :swap, ['target_date', "type"] do |task, args|
   end
 end
 
+desc "指定した 2 つの日付の記事を入れ替える"
+task :reorder, ['first_date', 'second_date'] do |task, args|
+  first_date = args.first_date.to_s.strip
+  second_date = args.second_date.to_s.strip
+
+  if first_date.empty? || second_date.empty?
+    puts "2 つの日付を指定してください (例: rake reorder[2026-10-01,2026-10-02])"
+    next
+  end
+
+  first_day = Date.parse(first_date)
+  second_day = Date.parse(second_date)
+  first_path = "_posts/#{first_day.strftime('%F')}-report.md"
+  second_path = "_posts/#{second_day.strftime('%F')}-report.md"
+
+  if !File.exist?(first_path) || !File.exist?(second_path)
+    puts "両方のファイルが存在する場合のみ入れ替えます。#{first_path} と #{second_path} のどちらかが見つからないため、処理は行いません。"
+    next
+  end
+
+  first_content = File.read(first_path)
+  second_content = File.read(second_path)
+
+  first_content.gsub!(first_day.strftime('%F'), second_day.strftime('%F'))
+  second_content.gsub!(second_day.strftime('%F'), first_day.strftime('%F'))
+
+  File.write(first_path, second_content)
+  File.write(second_path, first_content)
+
+  puts "🔄 #{first_path} と #{second_path} の中身と日付を完全に入れ替えました！"
+end
+
 desc "すずろ庵へ遷移するためのリダイレクトページを作成する"
 task :suzuro do
   title = ""
