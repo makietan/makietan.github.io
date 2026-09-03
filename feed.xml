@@ -1,4 +1,39 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-09-02T16:43:24+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>日報を中心に、技術メモやイベント参加記録をまとめるブログです。</subtitle><author><name>makietan</name></author><entry><title type="html">『劇場版 魔法少女まどか☆マギカ 〈ワルプルギスの廻天〉』を観てきた</title><link href="https://makietan.github.io/otaku/2026/09/02/report.html" rel="alternate" type="text/html" title="『劇場版 魔法少女まどか☆マギカ 〈ワルプルギスの廻天〉』を観てきた" /><published>2026-09-02T00:00:00+09:00</published><updated>2026-09-02T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2026/09/02/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2026/09/02/report.html"><![CDATA[<p>我が意は視聴済みである。特典はない。</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-09-03T16:52:25+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>日報を中心に、技術メモやイベント参加記録をまとめるブログです。</subtitle><author><name>makietan</name></author><entry><title type="html">遊戯王マスターデュエルのリミットレギュレーション分解ボーナスチェッカー</title><link href="https://makietan.github.io/game/yugioh/2026/09/03/report.html" rel="alternate" type="text/html" title="遊戯王マスターデュエルのリミットレギュレーション分解ボーナスチェッカー" /><published>2026-09-03T00:00:00+09:00</published><updated>2026-09-03T00:00:00+09:00</updated><id>https://makietan.github.io/game/yugioh/2026/09/03/report</id><content type="html" xml:base="https://makietan.github.io/game/yugioh/2026/09/03/report.html"><![CDATA[<h2 id="20260903-1300-">2026/09/03 <strong><span style="color:red;">13:00</span></strong> 〜</h2>
+
+<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">【予告】<a href="https://x.com/hashtag/%E9%81%8A%E6%88%AF%E7%8E%8B%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%87%E3%83%A5%E3%82%A8%E3%83%AB?src=hash&amp;ref_src=twsrc%5Etfw">#遊戯王マスターデュエル</a><br />リミットレギュレーションの適用について<br /><br />2026年9月3日(木)に「リミットレギュレーションの適用」を実施いたします。<br />この変更に先立ち、アプリ内では変更の方針と理由についてお伝えさせていただいております。<br /><br />■禁止となるカード<br />墓穴の指名者（制限→禁止）… <a href="https://t.co/IiHmzXMBir">pic.twitter.com/IiHmzXMBir</a></p>&mdash; 【公式】 遊戯王 マスターデュエル (@YuGiOh_MD_INFO) <a href="https://x.com/YuGiOh_MD_INFO/status/2094303502550049024?ref_src=twsrc%5Etfw">August 31, 2026</a></blockquote>
+<script async="" src="https://platform.x.com/widgets.js" charset="utf-8"></script>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+
+<h2 id="制限--禁止-2枚分解">制限 → 禁止 (2枚分解)</h2>
+
+<div class="row pb-4">
+<input type="checkbox" class="btn-check" id="墓穴の指名者" autocomplete="off" />
+<label class="btn btn-outline-secondary" for="墓穴の指名者">【UR】墓穴の指名者</label><br />
+</div>
+
+<h5 id="イラスト違いカードのリミットレギュレーション適用について"><strong><span style="color:red;">イラスト違いカードのリミットレギュレーション適用について</span></strong></h5>
+
+<p><strong>「墓穴の指名者」は分解ボーナス期間において「引換券」アイテムに交換可能なカードとなります。</strong>
+イラスト違いカードを<span style="color:red;">先に分解</span>しないと引換券が入手できなくなります。</p>
+
+<h2 id="無制限--準制限-1枚分解">無制限 ➝ 準制限 (1枚分解)</h2>
+
+<div class="row pb-4">
+<input type="checkbox" class="btn-check" id="星辰竜ムルル" autocomplete="off" />
+<label class="btn btn-outline-secondary" for="星辰竜ムルル">【UR】星辰竜ムルル</label><br />
+<input type="checkbox" class="btn-check" id="計都星辰" autocomplete="off" />
+<label class="btn btn-outline-secondary" for="計都星辰">【UR】計都星辰</label><br />
+</div>
+
+<h2 id="制限--制限解除-2枚生成"><span style="color:lightgray;">制限 → 制限解除 (2枚生成)</span></h2>
+
+<div class="row pb-4">
+  <input type="checkbox" class="btn-check" id="ティアラメンツ・ハゥフニス" autocomplete="off" />
+  <label class="btn btn-outline-secondary" for="ティアラメンツ・ハゥフニス">【N】ティアラメンツ・ハゥフニス</label><br />
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>]]></content><author><name>makietan</name></author><category term="game" /><category term="yugioh" /><category term="遊戯王マスターデュエル" /><category term="リミットレギュレーション" /><category term="分解" /><category term="チェッカー" /><summary type="html"><![CDATA[2026/09/03 13:00 〜]]></summary></entry><entry><title type="html">『劇場版 魔法少女まどか☆マギカ 〈ワルプルギスの廻天〉』を観てきた</title><link href="https://makietan.github.io/otaku/2026/09/02/report.html" rel="alternate" type="text/html" title="『劇場版 魔法少女まどか☆マギカ 〈ワルプルギスの廻天〉』を観てきた" /><published>2026-09-02T00:00:00+09:00</published><updated>2026-09-02T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2026/09/02/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2026/09/02/report.html"><![CDATA[<p>我が意は視聴済みである。特典はない。</p>
 
 <p>TOHOシネマズ日比谷に行ったことがなかったのであえて選んだ。
 まぁ近いという理由もあった。
@@ -466,48 +501,4 @@ Xを見た感じ前日にはなかったようだ。
     <p>ゆでたまごがまともに言えないことがわかった。</p>
     </div>
   </div>
-</div>]]></content><author><name>makietan</name></author><category term="music" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">松のや「ママ応援」炎上、一番の落ち度は「券売機の仕様」だった説</title><link href="https://makietan.github.io/gourmet/2026/08/24/report.html" rel="alternate" type="text/html" title="松のや「ママ応援」炎上、一番の落ち度は「券売機の仕様」だった説" /><published>2026-08-24T00:00:00+09:00</published><updated>2026-08-24T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2026/08/24/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2026/08/24/report.html"><![CDATA[<div class="card">
-  <a href="https://www.sankei.com/article/20260731-BRFXADR7E5EF5AXKPV5P6BD3CM/"></a>
-  <div class="card__header">
-    <a href="https://www.sankei.com/article/20260731-BRFXADR7E5EF5AXKPV5P6BD3CM/">www.sankei.com</a>
-  </div>
-  <div class="card__image">
-    <img src="https://www.sankei.com/resizer/v2/EKVMY5RPDBLWNE6LQDMY36LONY.jpg?auth=a3a440a4b7d7de85a985b21570251bcff6e465f3f4bb930160a6ba9181169bf2&amp;quality=50&amp;focal=1428%2C1074&amp;width=1200&amp;height=675" />
-  </div>
-  <div class="card__title">
-    <p>とんかつ「松のや」の「ママ応援企画」が名称変更　性別役割分業と批判、過剰反応の声も</p>
-  </div>
-  <div class="card__description">
-    <p>松屋フーズが展開するとんかつ専門店「松のや」は30日、夏休みの母親を応援する割引キャンペーン「ママ応援企画」を「夏休み企画」として誰でも利用できるように変更した。食事は母親が作るものという性別役割分業意識の表れだとしてSNSで批判されたた…</p>
-  </div>
-</div>
-
-<p>とんかつ専門店「松のや」が実施していた「ママ応援企画」が、SNS上での議論を経て「夏休み企画」へと名称変更された。</p>
-
-<p>変更の背景には、「食事の準備は母親がするもの」という固定観念（性別役割分業意識）を助長しているという指摘や、独身者への不公平感、さらにはシステム上の矛盾を指摘する声が寄せられたことがあるという。</p>
-
-<p>今回の経緯を見つめ直すと、企業側の意図と実際の運用システムのギャップ、そしてSNS上の過剰な反応という複数の課題が絡み合っていることが窺える。</p>
-
-<p>「ママ応援企画」という名称は、夏休み期間中に子供の昼食準備などに追われる家庭の負担を軽減したいという、企業側の善意から生まれた企画であることは明白だ。</p>
-
-<p>家事負担が偏りがちな現状に寄り添い、手軽で安価な選択肢を提供しようとした姿勢自体は評価されるべきだろう。</p>
-
-<p>一方で、「券売機で利用者の属性を確認できないため、結局誰でも買えてしまう」「確認できない制限を掲げるのはシステム上不整合である」といった指摘は、サービス設計の不備を突いた極めて現実的で正当な意見と言える。</p>
-
-<p>確認手段がない以上、特定の属性のみに対象を絞る形をとったことには確かに無理があったと言わざるを得ない。</p>
-
-<p>しかし、運用の不備や言葉選びへの指摘を超えて、企業に対する不寛容な攻撃へと発展してしまう風潮には疑問が残る。</p>
-
-<p>言葉遣いや属性への配慮、そしてシステム面での整合性を保つ努力はもちろん不可欠である。</p>
-
-<p>だが、悪意のない支援策や試みに対して過度に厳しい批判を浴びせ続ければ、企業はリスクを恐れてあらゆる企画や発信を控えざるを得なくなる。</p>
-
-<p>結果として不利益を被るのは、お得なキャンペーンや支援を本当に必要としていた消費者や子育て世代である。</p>
-
-<p>逆に得をするのは、制度の隙間にタダ乗りし、過剰な批判や難癖を繰り返して不当に利益を得ようとする一部の浅ましい人々だ。</p>
-
-<p>彼らは企業の善意や努力を踏みにじることで、自分たちの利益を最大化しようとしている。</p>
-
-<p>今回の事例は、企業の善意に基づく企画であっても、運用の実効性と社会的なメッセージ性の両面に配慮した設計が不可欠であることを示している。</p>
-
-<p>性別や年齢の判定ができない券売機の仕様上、特定の属性に限定することが困難であった点は真摯に反省すべきであり、企業側も今後の還元策においてより実現可能な形を模索することが期待される。</p>]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[www.sankei.com とんかつ「松のや」の「ママ応援企画」が名称変更　性別役割分業と批判、過剰反応の声も 松屋フーズが展開するとんかつ専門店「松のや」は30日、夏休みの母親を応援する割引キャンペーン「ママ応援企画」を「夏休み企画」として誰でも利用できるように変更した。食事は母親が作るものという性別役割分業意識の表れだとしてSNSで批判されたた…]]></summary></entry></feed>
+</div>]]></content><author><name>makietan</name></author><category term="music" /><summary type="html"><![CDATA[]]></summary></entry></feed>
