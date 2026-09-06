@@ -1,4 +1,255 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-09-05T16:29:40+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>日報を中心に、技術メモやイベント参加記録をまとめるブログです。</subtitle><author><name>makietan</name></author><entry><title type="html">タレントや番組によって受ける印象の違いってあるんだな</title><link href="https://makietan.github.io/owarai/2026/09/05/report.html" rel="alternate" type="text/html" title="タレントや番組によって受ける印象の違いってあるんだな" /><published>2026-09-05T00:00:00+09:00</published><updated>2026-09-05T00:00:00+09:00</updated><id>https://makietan.github.io/owarai/2026/09/05/report</id><content type="html" xml:base="https://makietan.github.io/owarai/2026/09/05/report.html"><![CDATA[<p>同じ店に行っているが受ける印象は異なる。</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-09-06T16:43:11+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>日報を中心に、技術メモやイベント参加記録をまとめるブログです。</subtitle><author><name>makietan</name></author><entry><title type="html">《超融合》で融合召喚できるモンスターの属性・種族の組み合わせ</title><link href="https://makietan.github.io/game/yugioh/2026/09/06/report.html" rel="alternate" type="text/html" title="《超融合》で融合召喚できるモンスターの属性・種族の組み合わせ" /><published>2026-09-06T00:00:00+09:00</published><updated>2026-09-06T00:00:00+09:00</updated><id>https://makietan.github.io/game/yugioh/2026/09/06/report</id><content type="html" xml:base="https://makietan.github.io/game/yugioh/2026/09/06/report.html"><![CDATA[<h2 id="超融合で融合召喚できるモンスターの属性種族の組み合わせ">《超融合》で融合召喚できるモンスターの属性・種族の組み合わせ</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th>同種族</th>
+      <th>異種族</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>同属性</td>
+      <td>共命の翼ガルーラ</td>
+      <td>沼地のドロゴン</td>
+    </tr>
+    <tr>
+      <td>異属性</td>
+      <td>F・HERO フレイム・ウィングマン</td>
+      <td>❌️</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="異種族異属性の組み合わせ">異種族・異属性の組み合わせ</h2>
+
+<p>属性は「闇属性」・「光属性」・「地属性」・「水属性」・「炎属性」・「風属性」・「神属性」の７種類。</p>
+
+<p>種族は「魔法使い族」・「ドラゴン族」・「アンデット族」・「戦士族」・「獣戦士族」・「獣族」・「鳥獣族」・「悪魔族」・「天使族」・「昆虫族」・「恐竜族」・「爬虫類族」・「魚族」・「海竜族」・「水族」・「炎族」・「雷族」・「岩石族」・「植物族」・「機械族」・「サイキック族」・「幻神獣族」・「創造神族」・「幻竜族」・「サイバース族」・「幻想魔族」の26種類。</p>
+
+<p>種族・属性はすべてのモンスターが持っている。</p>
+
+<p>その他項目は「通常」・「効果」・「儀式」・「融合」・「シンクロ」・「エクシーズ」・「トゥーン」・「スピリット」・「ユニオン」・「デュアル」・「チューナー」・「リバース」・「ペンデュラム」・「リンク」の14種類。</p>
+
+<p>大区分として「通常」・「効果」がある。
+モンスター召喚条件は「儀式」「融合」・「シンクロ」・「エクシーズ」・「ペンデュラム」・「リンク」の6種類。
+モンスターの特性として「トゥーン」・「スピリット」・「ユニオン」・「デュアル」・「チューナー」・「リバース」の6種類。</p>
+
+<ul>
+  <li><a href="https://www.db.yugioh-card.com/yugiohdb/card_search.action?ope=2&amp;cid=22693&amp;request_locale=ja">F・HERO シャイニング・フレア・ウィングマン</a>
+    <ul>
+      <li>融合モンスター＋フィールドの表側表示モンスター</li>
+    </ul>
+  </li>
+  <li><a href="https://www.db.yugioh-card.com/yugiohdb/card_search.action?ope=2&amp;cid=12871&amp;request_locale=ja">テセウスの魔棲物</a>
+    <ul>
+      <li>チューナー×２</li>
+    </ul>
+  </li>
+  <li><a href="https://www.db.yugioh-card.com/yugiohdb/card_search.action?ope=2&amp;cid=19935&amp;request_locale=ja">A★スペキュレーション</a>
+    <ul>
+      <li>攻撃力２５００以上のモンスター＋守備力２５００以下の裏側守備表示モンスター</li>
+    </ul>
+  </li>
+  <li><a href="https://www.db.yugioh-card.com/yugiohdb/card_search.action?ope=2&amp;cid=14282&amp;request_locale=ja">星杯の守護竜アルマドゥーク</a>
+    <ul>
+      <li>リンクモンスター×３</li>
+    </ul>
+  </li>
+  <li><a href="https://www.db.yugioh-card.com/yugiohdb/card_search.action?ope=2&amp;cid=20773&amp;request_locale=ja">聖アザミナ</a>
+    <ul>
+      <li>レベル６以上の融合モンスター＋レベル６以上のSモンスター</li>
+    </ul>
+  </li>
+  <li><a href="https://www.db.yugioh-card.com/yugiohdb/card_search.action?ope=2&amp;cid=17147&amp;request_locale=ja">スターヴ・ヴェノム・プレデター・フュージョン・ドラゴン</a>
+    <ul>
+      <li>闇属性の融合モンスター＋融合モンスター</li>
+    </ul>
+  </li>
+  <li><a href="https://www.db.yugioh-card.com/yugiohdb/card_search.action?ope=2&amp;cid=12870&amp;request_locale=ja">捕食植物ドラゴスタペリア</a>
+    <ul>
+      <li>融合モンスター＋闇属性モンスター</li>
+    </ul>
+  </li>
+  <li><a href="https://www.db.yugioh-card.com/yugiohdb/card_search.action?ope=2&amp;cid=16428&amp;request_locale=ja">スターヴ・ヴェネミー・ドラゴン</a>
+    <ul>
+      <li>闇属性モンスター＋Pモンスター</li>
+    </ul>
+  </li>
+  <li><a href="https://www.db.yugioh-card.com/yugiohdb/card_search.action?ope=2&amp;cid=18820&amp;request_locale=ja">幻獣王キマイラ</a>
+    <ul>
+      <li>獣族モンスター＋悪魔族モンスター</li>
+    </ul>
+  </li>
+  <li><a href="https://www.db.yugioh-card.com/yugiohdb/card_search.action?ope=2&amp;cid=19174&amp;request_locale=ja">幻獣魔王バフォメット</a>
+    <ul>
+      <li>種族が異なる獣族・悪魔族・幻想魔族モンスター×２</li>
+    </ul>
+  </li>
+  <li><a href="https://www.db.yugioh-card.com/yugiohdb/card_search.action?ope=2&amp;cid=16414&amp;request_locale=ja">ケンタウルミナ</a>
+    <ul>
+      <li>戦士族・光属性モンスター＋獣族モンスター</li>
+    </ul>
+  </li>
+  <li><a href="https://www.db.yugioh-card.com/yugiohdb/card_search.action?ope=2&amp;cid=14850&amp;request_locale=ja">アースゴーレム＠イグニスター</a>
+    <ul>
+      <li>サイバース族モンスター＋リンクモンスター</li>
+    </ul>
+  </li>
+  <li><a href="https://www.db.yugioh-card.com/yugiohdb/card_search.action?ope=2&amp;cid=21448&amp;request_locale=ja">聖秘なる竜騎士</a>
+    <ul>
+      <li>ドラゴン族モンスター＋魔法使い族モンスター</li>
+    </ul>
+  </li>
+  <li><a href="https://www.db.yugioh-card.com/yugiohdb/card_search.action?ope=2&amp;cid=15995&amp;request_locale=ja">ミュステリオンの竜冠</a>
+    <ul>
+      <li>魔法使い族モンスター＋ドラゴン族モンスター</li>
+    </ul>
+  </li>
+  <li><a href="https://www.db.yugioh-card.com/yugiohdb/card_search.action?ope=2&amp;cid=11003&amp;request_locale=ja">重装機甲 パンツァードラゴン</a>
+    <ul>
+      <li>機械族モンスター＋ドラゴン族モンスター</li>
+    </ul>
+  </li>
+  <li><a href="https://www.db.yugioh-card.com/yugiohdb/card_search.action?ope=2&amp;cid=16283&amp;request_locale=ja">魔道騎竜カース・オブ・ドラゴン</a>
+    <ul>
+      <li>戦士族モンスター＋レベル５以上のドラゴン族モンスター</li>
+    </ul>
+  </li>
+  <li><a href="https://www.db.yugioh-card.com/yugiohdb/card_search.action?ope=2&amp;cid=19728&amp;request_locale=ja">闘気炎斬龍</a>
+    <ul>
+      <li>ドラゴン族モンスター＋戦士族・炎属性モンスター</li>
+    </ul>
+  </li>
+  <li><a href="https://www.db.yugioh-card.com/yugiohdb/card_search.action?ope=2&amp;cid=20389&amp;request_locale=ja">死霊公爵</a>
+    <ul>
+      <li>悪魔族・アンデット族モンスター×２</li>
+    </ul>
+  </li>
+  <li><a href="https://www.db.yugioh-card.com/yugiohdb/card_search.action?ope=2&amp;cid=22333">フラックス・オクセンフェルト</a>
+    <ul>
+      <li>レベル５以上の地属性モンスター＋岩石族モンスター</li>
+    </ul>
+  </li>
+  <li><a href="https://www.db.yugioh-card.com/yugiohdb/card_search.action?ope=2&amp;cid=20508&amp;request_locale=ja">飢渇聖徒エリュシクトーン</a>
+    <ul>
+      <li>幻想魔族モンスター＋悪魔族モンスター</li>
+    </ul>
+  </li>
+  <li><a href="https://www.db.yugioh-card.com/yugiohdb/card_search.action?ope=2&amp;cid=20507&amp;request_locale=ja">告死聖徒ルシエラーゴ</a>
+    <ul>
+      <li>幻想魔族モンスター＋魔法使い族・光属性モンスター</li>
+    </ul>
+  </li>
+  <li><a href="https://www.db.yugioh-card.com/yugiohdb/card_search.action?ope=2&amp;cid=20509&amp;request_locale=ja">殺戮聖徒レジーナ</a>
+    <ul>
+      <li>幻想魔族モンスター＋レベル６以上の悪魔族モンスター</li>
+    </ul>
+  </li>
+  <li><a href="https://www.db.yugioh-card.com/yugiohdb/card_search.action?ope=2&amp;cid=20506&amp;request_locale=ja">背信聖徒シルヴィア</a>
+    <ul>
+      <li>幻想魔族モンスター＋魔法使い族・光属性モンスター</li>
+    </ul>
+  </li>
+  <li><a href="https://www.db.yugioh-card.com/yugiohdb/card_search.action?ope=2&amp;cid=20471&amp;request_locale=ja">精霊コロゾ</a>
+    <ul>
+      <li>融合・S・X・Lモンスター＋魔法使い族モンスター</li>
+    </ul>
+  </li>
+  <li><a href="https://www.db.yugioh-card.com/yugiohdb/card_search.action?ope=2&amp;cid=21803&amp;request_locale=ja">サイキッカー・オラクル</a>
+    <ul>
+      <li>サイキック族モンスター＋S・X・Lモンスター</li>
+    </ul>
+  </li>
+  <li><a href="https://www.db.yugioh-card.com/yugiohdb/card_search.action?ope=2&amp;cid=21445&amp;request_locale=ja">アブソリュートサイキッカー</a>
+    <ul>
+      <li>サイキック族Sモンスター＋Sモンスター</li>
+    </ul>
+  </li>
+  <li><a href="https://www.db.yugioh-card.com/yugiohdb/card_search.action?ope=2&amp;cid=6837&amp;request_locale=ja">ダイナ・タンク</a>
+    <ul>
+      <li>機械族モンスター＋恐竜族モンスター</li>
+    </ul>
+  </li>
+  <li><a href="https://www.db.yugioh-card.com/yugiohdb/card_search.action?ope=2&amp;cid=18722&amp;request_locale=ja">超越竜ギガントザウラー</a>
+    <ul>
+      <li>恐竜族モンスター＋通常モンスター</li>
+    </ul>
+  </li>
+  <li><a href="https://www.db.yugioh-card.com/yugiohdb/card_search.action?ope=2&amp;cid=9255&amp;request_locale=ja">爆撃獣ファイヤ・ボンバー</a>
+    <ul>
+      <li>機械族モンスター＋炎族モンスター</li>
+    </ul>
+  </li>
+  <li><a href="https://www.db.yugioh-card.com/yugiohdb/card_search.action?ope=2&amp;cid=9256&amp;request_locale=ja">重爆撃禽 ボム・フェネクス</a>
+    <ul>
+      <li>機械族モンスター＋炎族モンスター</li>
+    </ul>
+  </li>
+  <li><a href="https://www.db.yugioh-card.com/yugiohdb/card_search.action?ope=2&amp;cid=9195&amp;request_locale=ja">起爆獣ヴァルカノン</a>
+    <ul>
+      <li>機械族モンスター＋炎族モンスター</li>
+    </ul>
+  </li>
+  <li><a href="https://www.db.yugioh-card.com/yugiohdb/card_search.action?ope=2&amp;cid=17391&amp;request_locale=ja">聖菓使クーベル</a>
+    <ul>
+      <li>Pモンスター×２</li>
+    </ul>
+  </li>
+  <li><a href="https://www.db.yugioh-card.com/yugiohdb/card_search.action?ope=2&amp;cid=7301&amp;request_locale=ja">超合魔獣ラプテノス</a>
+    <ul>
+      <li>デュアルモンスター×２</li>
+    </ul>
+  </li>
+  <li><a href="https://www.db.yugioh-card.com/yugiohdb/card_search.action?ope=2&amp;cid=16227&amp;request_locale=ja">無の畢竟 オールヴェイン</a>
+    <ul>
+      <li>通常モンスター×２</li>
+    </ul>
+  </li>
+  <li><a href="https://www.db.yugioh-card.com/yugiohdb/card_search.action?ope=2&amp;cid=17230&amp;request_locale=ja">偉大なるダブルキャスター</a>
+    <ul>
+      <li>効果モンスター以外のモンスター×２</li>
+    </ul>
+  </li>
+  <li><a href="https://www.db.yugioh-card.com/yugiohdb/card_search.action?ope=2&amp;cid=15954&amp;request_locale=ja">三相魔神コーディウス</a>
+    <ul>
+      <li>Sモンスター＋Xモンスター＋リンクモンスター</li>
+    </ul>
+  </li>
+  <li><a href="https://www.db.yugioh-card.com/yugiohdb/card_search.action?ope=2&amp;cid=15332&amp;request_locale=ja">神・スライム</a>
+    <ul>
+      <li>水族モンスター＋水属性・レベル１０モンスター</li>
+    </ul>
+  </li>
+  <li><a href="https://www.db.yugioh-card.com/yugiohdb/card_search.action?ope=2&amp;cid=14345&amp;request_locale=ja">幻魔帝トリロジーグ</a>
+    <ul>
+      <li>レベル１０モンスター×３</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="その他">その他</h2>
+
+<ul>
+  <li><a href="https://www.db.yugioh-card.com/yugiohdb/card_search.action?ope=2&amp;cid=12338">融合識別</a> と <a href="https://www.db.yugioh-card.com/yugiohdb/card_search.action?ope=2&amp;cid=20773">聖アザミナ</a> と <a href="https://www.db.yugioh-card.com/yugiohdb/card_search.action?ope=2&amp;cid=21172">贖罪神女</a> を使ったコンボ
+    <ul>
+      <li>《融合識別》：①：自分フィールドのモンスター１体を対象として発動できる。EXデッキの融合モンスター１体を相手に見せる。このターン、対象のモンスターを融合素材とする場合、その見せたモンスターの同名カードとして融合素材にできる。
+        <ul>
+          <li>なぜかこれで《聖アザミナ》を見せると、《贖罪神女》の特殊召喚条件が満たせてしまうらしい（意味わからん）</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="まとめ">まとめ</h2>
+
+<p>《共命の翼ガルーラ》《沼地のドロゴン》《F・HERO フレイム・ウィングマン》を投入しておけば、だいたいの除去を《超融合》で可能になる。</p>
+
+<p>《フルール・ド・バロネス》とクシャトリラが並んでいたら《サイキッカー・オラクル》を追加sして、《超融合》で除去することも可能。</p>
+
+<p>それでも難しい場合は《贖罪神女》《聖アザミナ》《融合識別》を使ったコンボで突破することも可能。</p>]]></content><author><name>makietan</name></author><category term="game" /><category term="yugioh" /><summary type="html"><![CDATA[《超融合》で融合召喚できるモンスターの属性・種族の組み合わせ]]></summary></entry><entry><title type="html">タレントや番組によって受ける印象の違いってあるんだな</title><link href="https://makietan.github.io/owarai/2026/09/05/report.html" rel="alternate" type="text/html" title="タレントや番組によって受ける印象の違いってあるんだな" /><published>2026-09-05T00:00:00+09:00</published><updated>2026-09-05T00:00:00+09:00</updated><id>https://makietan.github.io/owarai/2026/09/05/report</id><content type="html" xml:base="https://makietan.github.io/owarai/2026/09/05/report.html"><![CDATA[<p>同じ店に行っているが受ける印象は異なる。</p>
 
 <p>というか番組映像流しながらの撮影は面白すぎる。</p>
 
@@ -746,24 +997,4 @@ Xを見た感じ前日にはなかったようだ。
     <p>自虐AI</p>
     </div>
   </div>
-</div>]]></content><author><name>makietan</name></author><category term="music" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">年会費無料とかほざきつつ、カードサービス手数料とかいうのを取るのは詐欺だろ</title><link href="https://makietan.github.io/money/2026/08/27/report.html" rel="alternate" type="text/html" title="年会費無料とかほざきつつ、カードサービス手数料とかいうのを取るのは詐欺だろ" /><published>2026-08-27T00:00:00+09:00</published><updated>2026-08-27T00:00:00+09:00</updated><id>https://makietan.github.io/money/2026/08/27/report</id><content type="html" xml:base="https://makietan.github.io/money/2026/08/27/report.html"><![CDATA[<div class="card">
-  <a href="https://www.saisoncard.co.jp/guide/cardservicefee/"></a>
-  <div class="card__header">
-    <a href="https://www.saisoncard.co.jp/guide/cardservicefee/">www.saisoncard.co.jp</a>
-  </div>
-  <div class="card__image">
-    <img src="https://www.saisoncard.co.jp/proxy_img/assets/462949b256274358947c3db996c948d4/c9aadfc16cc54456a31ffeb0a340fd31/og.png" />
-  </div>
-  <div class="card__title">
-    <p>カードサービス手数料 | セゾンカードご利用ガイド | クレジットカードはセゾンカード</p>
-  </div>
-  <div class="card__description">
-    <p>セゾンカードではお客様へ継続的なサービスをご提供するため「カードサービス手数料」を一部のカードへ導入しています。１年間に１回でもセゾンカードをご利用いただければカードサービス手数料はいただいておりません。</p>
-  </div>
-</div>
-
-<p>いやー、年会費無料とかほざきつつ、カードサービス手数料とかいうのを取るのは詐欺だろ。</p>
-
-<p>しかも、年1回使えとか脅迫みたいなこと書いてあるし、年会費無料の意味がない。</p>
-
-<p>信用で飯食ってる連中が信用を失うようなことを平気でやるのは、ほんとにどうかと思う。</p>]]></content><author><name>makietan</name></author><category term="money" /><summary type="html"><![CDATA[www.saisoncard.co.jp カードサービス手数料 | セゾンカードご利用ガイド | クレジットカードはセゾンカード セゾンカードではお客様へ継続的なサービスをご提供するため「カードサービス手数料」を一部のカードへ導入しています。１年間に１回でもセゾンカードをご利用いただければカードサービス手数料はいただいておりません。]]></summary></entry></feed>
+</div>]]></content><author><name>makietan</name></author><category term="music" /><summary type="html"><![CDATA[]]></summary></entry></feed>
