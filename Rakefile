@@ -386,29 +386,33 @@ namespace :utils do
   namespace :lint do
     desc "日本語校閲する"
     task :build do
-      puts "textlint は削除されました"
+      system "git diff --name-only develop | grep \"_posts\" | xargs -n 1 sh -c 'npx textlint $0'"
     end
 
     desc "日本語校閲する(develop)"
     task :build_diff do
-      puts "textlint は削除されました"
+      system "git diff --name-only develop | grep \"_posts\" | xargs -n 1 sh -c 'npx textlint $0'"
     end
 
     desc "日本語校閲する(latest)"
     task :build_latest do
-      puts "textlint は削除されました"
+      Dir.glob('_posts/*.md').each do |f|
+        system "npx textlint #{f}"
+      end
     end
 
     desc "日本語校閲して修正する(latest)"
     task :fix_latest do
-      puts "textlint は削除されました"
+      Dir.glob('_posts/*.md').each do |f|
+        system "npx textlint --fix #{f}"
+      end
     end
 
     desc "日本語校閲する"
     task :apply do
       file_path = "#{ARGV.last}"
       if !file_path.empty?
-        puts "textlint は削除されました"
+        system "npx textlint #{file_path}"
       end
       ARGV.slice(1, ARGV.size).each{ |v|
         task v.to_sym do;
