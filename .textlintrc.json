@@ -1,0 +1,20 @@
+{
+  "plugins": {},
+  "filters": {
+    "whitelist": {
+      "allow": [
+        "見沼代親水公園行",
+        "西新井大師西駅"
+      ]
+    }
+  },
+  "rules": {
+    "preset-japanese": true,
+    "preset-ja-technical-writing": true,
+    "@textlint-ja/preset-ai-writing": {
+      "ai-tech-writing-guideline": {
+        "severity": "info"
+      }
+    }
+  }
+}

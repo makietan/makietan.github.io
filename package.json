@@ -1,0 +1,25 @@
+{
+  "name": "makietan.github.io",
+  "version": "1.0.0",
+  "description": "[![Build GitHub Pages (Push develop branch)](https://github.com/makietan/makietan.github.io/actions/workflows/develop.yml/badge.svg?branch=develop&event=push)](https://github.com/makietan/makietan.github.io/actions/workflows/develop.yml)",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "textlint": "textlint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@makietan:makietan/makietan.github.io.git"
+  },
+  "keywords": [],
+  "author": "makietan",
+  "type": "commonjs",
+  "devDependencies": {
+    "@textlint-ja/textlint-rule-preset-ai-writing": "^1.7.0",
+    "textlint": "^15.8.0",
+    "textlint-rule-preset-ja-technical-writing": "^12.0.2",
+    "textlint-rule-preset-japanese": "^10.0.4"
+  }
+}

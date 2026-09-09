@@ -1,11 +1,16 @@
-# Contribute Guideline
+# Contributing
 
-## Comments
+## セットアップ
 
-[Issues](https://github.com/makietan/makietan.github.io/issues) より受け付けます
+ローカルでこのサイトを動かすときは、次を実行します。
 
-## Bug reports
+- `brew install rbenv`
+- `eval "$(rbenv init - zsh)" >> ~/.zshrc`
+- `gem install bundler`
+- `bundle install --path vendor/bundle`
 
-[Issues](https://github.com/makietan/makietan.github.io/issues) または [Pull requests](https://github.com/makietan/makietan.github.io/pulls) より受け付けます
+## ローカル確認
 
+- `rake jekyll:serve`
 
+ブラウザで http://localhost:4000 を開いて確認します。

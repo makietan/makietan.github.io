@@ -6,12 +6,21 @@
 
 <https://makietan.github.io>
 
-## Setup
+このリポジトリは、makietan が運営するブログサイトのソースコードです。日報を中心に、技術メモ、イベント参加記録、雑記を Jekyll + GitHub Pages で公開しています。
 
-- `brew install rbenv`
+## 概要
 
-- `eval "$(rbenv init - zsh)"` >> ~/.zshrc
+- サイト名: 肉とお米とブロッコリー
+- フレームワーク: Jekyll
+- 配信先: GitHub Pages
+- 公開元: https://makietan.github.io
+- 主要コンテンツ: 日報、技術メモ、イベント記録、雑記
 
-- `gem install bundler`
+## ローカル開発
 
-- `bundle install --path vendor/bundle`
+ローカルでのセットアップと確認は、[CONTRIBUTING.md](CONTRIBUTING.md) を参照してください。
+
+## 参考
+
+- [CONTRIBUTING.md](CONTRIBUTING.md)
+- [about.md](about.md)
