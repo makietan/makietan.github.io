@@ -62,3 +62,5 @@ _draft/
 node_modules/
 
 _site/
+
+TEXTLINT.log

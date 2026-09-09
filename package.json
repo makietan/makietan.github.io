@@ -7,7 +7,8 @@
     "lib": "lib"
   },
   "scripts": {
-    "textlint": "textlint"
+    "textlint": "textlint",
+    "textlint:export": "npx textlint _posts/*.md > TEXTLINT.log"
   },
   "repository": {
     "type": "git",

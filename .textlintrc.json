@@ -1,16 +1,18 @@
 {
   "plugins": {},
-  "filters": {
-    "whitelist": {
-      "allow": [
-        "見沼代親水公園行",
-        "西新井大師西駅"
-      ]
-    }
-  },
+  "filters": {},
   "rules": {
     "preset-japanese": true,
-    "preset-ja-technical-writing": true,
+    "preset-ja-technical-writing": {
+      "max-kanji-continuous-len": {
+        "allow": [
+          "見沼代親水公園行",
+          "西新井大師西駅",
+          "京急久里浜行",
+          "裏側守備表示"
+        ]
+      }
+    },
     "@textlint-ja/preset-ai-writing": {
       "ai-tech-writing-guideline": {
         "severity": "info"
