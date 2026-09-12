@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-09-13T00:57:39+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>日報を中心に、技術メモやイベント参加記録をまとめるブログです。</subtitle><author><name>makietan</name></author><entry><title type="html">picocolors を使っていたが util.styleText というものが Node.js に追加されたのでそちらに移行するかもしれない</title><link href="https://makietan.github.io/tech/2026/09/13/report.html" rel="alternate" type="text/html" title="picocolors を使っていたが util.styleText というものが Node.js に追加されたのでそちらに移行するかもしれない" /><published>2026-09-13T00:00:00+09:00</published><updated>2026-09-13T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2026/09/13/report</id><content type="html" xml:base="https://makietan.github.io/tech/2026/09/13/report.html"><![CDATA[<div class="card">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-09-13T02:09:51+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>日報を中心に、技術メモやイベント参加記録をまとめるブログです。</subtitle><author><name>makietan</name></author><entry><title type="html">picocolors を使っていたが util.styleText というものが Node.js に追加されたのでそちらに移行するかもしれない</title><link href="https://makietan.github.io/tech/2026/09/13/report.html" rel="alternate" type="text/html" title="picocolors を使っていたが util.styleText というものが Node.js に追加されたのでそちらに移行するかもしれない" /><published>2026-09-13T00:00:00+09:00</published><updated>2026-09-13T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2026/09/13/report</id><content type="html" xml:base="https://makietan.github.io/tech/2026/09/13/report.html"><![CDATA[<div class="card">
   <a href="https://nodejs.org/api/util.html"></a>
   <div class="card__header">
     <a href="https://nodejs.org/api/util.html">nodejs.org</a>
@@ -42,7 +42,7 @@
 <span class="nx">console</span><span class="p">.</span><span class="nf">error</span><span class="p">(</span><span class="nx">errorMessage</span><span class="p">);</span>
 </code></pre></div></div>
 
-<p>こっちのほうがすっくりしとるやないかーい。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[nodejs.org Util | Node.js v26.8.1 Documentation]]></summary></entry><entry><title type="html">ふるさと納税で貰ったローソファーがボロボロなので粗大ごみとして出す</title><link href="https://makietan.github.io/life/2026/09/12/report.html" rel="alternate" type="text/html" title="ふるさと納税で貰ったローソファーがボロボロなので粗大ごみとして出す" /><published>2026-09-12T00:00:00+09:00</published><updated>2026-09-12T00:00:00+09:00</updated><id>https://makietan.github.io/life/2026/09/12/report</id><content type="html" xml:base="https://makietan.github.io/life/2026/09/12/report.html"><![CDATA[<p>2017年に行ったふるさとチョイスでのふるさと納税のもの。</p>
+<p>こっちのほうがすっきりしとるやないかーい。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[nodejs.org Util | Node.js v26.8.1 Documentation]]></summary></entry><entry><title type="html">ふるさと納税で貰ったローソファーがボロボロなので粗大ごみとして出す</title><link href="https://makietan.github.io/life/2026/09/12/report.html" rel="alternate" type="text/html" title="ふるさと納税で貰ったローソファーがボロボロなので粗大ごみとして出す" /><published>2026-09-12T00:00:00+09:00</published><updated>2026-09-12T00:00:00+09:00</updated><id>https://makietan.github.io/life/2026/09/12/report</id><content type="html" xml:base="https://makietan.github.io/life/2026/09/12/report.html"><![CDATA[<p>2017年に行ったふるさとチョイスでのふるさと納税のもの。</p>
 
 <p><strong>神奈川県 厚木市  No.106 和楽ソファベッド　DMT3</strong></p>
 
@@ -126,7 +126,8 @@ checkboxes.forEach(checkbox => {
   checkbox.addEventListener('change', () => {
     const state = {};
     checkboxes.forEach(cb => {
-      state[cb.id] = cb.checked;
+      const li = cb.parentNode;
+      state[li.textContent] = cb.checked;
     });
     localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
   });
@@ -134,8 +135,9 @@ checkboxes.forEach(checkbox => {
 // ページ読み込み時にチェック状態を復元
 const savedState = JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}');
 checkboxes.forEach(checkbox => {
-  if (savedState[checkbox.id] !== undefined) {
-    checkbox.checked = savedState[checkbox.id];
+  const li = checkbox.parentNode;
+  if (savedState[li.textContent] !== undefined) {
+    checkbox.checked = savedState[li.textContent];
   }
 });
 // チェックボックスにデフォルトのインデックスを data-default-index 属性として付与する
