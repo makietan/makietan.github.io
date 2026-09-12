@@ -329,7 +329,7 @@
 
 <script type="text/javascript">
 const STORAGE_KEY = '2025-08-06-report';
-const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+const checkboxes = document.querySelectorAll('#生徒リスト ~ * input[type="checkbox"]');
 // チェック状態を localStorage に保存
 checkboxes.forEach(checkbox => {
   checkbox.disabled = false;
@@ -372,7 +372,7 @@ document.querySelectorAll('.sort-buttons button').forEach(button => {
         return costumeA.localeCompare(costumeB);
       });
     }
-    const ul = checkboxesArray[0].closest('ul') || checkboxesArray[0].parentNode;
+    const ul = checkboxesArray[0].closest('ul') || checkboxesArray[0].parentNode.parentNode;
     checkboxesArray.forEach(checkbox => ul.appendChild(checkbox.parentNode));
   });
 });
@@ -386,6 +386,11 @@ document.querySelectorAll('.sort-buttons button').forEach(button => {
 
 
 
+
+  
+  
+
+  
 
   
   

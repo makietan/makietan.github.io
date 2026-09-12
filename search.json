@@ -4281,6 +4281,15 @@
 
   
   {
+    "title": "picocolors を使っていたが util.styleText というものが Node.js に追加されたのでそちらに移行するかもしれない",
+    
+    "tags": [],
+    "url": "/tech/2026/09/13/report.html",
+    "date": {"year": "2026", "month": "09", "day": "13"},
+    "content": "        nodejs.org                Util | Node.js v26.8.1 Documentation          外部ライブラリのほうが使いやすいが、Node.js の組み込み関数のほうが依存関係が減るので、そちらに移行するかもしれない。const { styleText } = require('node:util');const { stderr } = require('node:process');const successMessage = styleText('green', 'Success!');console.log(successMessage);const errorMessage = styleText(  'red',  'Error! Error!',  // Validate if process.stderr has TTY  { stream: stderr },);console.error(errorMessage);ちなみに picocolors は以下のように使っていた。const pico = require('picocolors');const successMessage = pico.green('Success!');console.log(successMessage);const errorMessage = pico.red('Error! Error!');console.error(errorMessage);こっちのほうがすっくりしとるやないかーい。"
+  },
+  
+  {
     "title": "ふるさと納税で貰ったローソファーがボロボロなので粗大ごみとして出す",
     
     "tags": [],
