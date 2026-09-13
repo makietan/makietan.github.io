@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="ja"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/notosansjp.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=BIZ+UDGothic&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" /><!-- Begin Jekyll SEO tag v2.9.0 -->
+<title>Google がやらかしてるのでちょっと試してみた | 肉とお米とブロッコリー</title>
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:title" content="Google がやらかしてるのでちょっと試してみた" />
+<meta name="author" content="makietan" />
+<meta property="og:locale" content="ja_JP" />
+<meta name="description" content="https://www.google.com/search?si= のリンクを踏むと他人の検索結果が出てくるらしい。" />
+<meta name="twitter:description" property="og:description" content="https://www.google.com/search?si= のリンクを踏むと他人の検索結果が出てくるらしい。" />
+<link rel="canonical" href="https://makietan.github.io/tech/2026/09/14/report.html" />
+<meta property="og:url" content="https://makietan.github.io/tech/2026/09/14/report.html" />
+<meta property="og:site_name" content="肉とお米とブロッコリー" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2026-09-14T00:00:00+09:00" />
+<meta property="article:modified_time" content="2026-09-14T00:00:00+09:00" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Google がやらかしてるのでちょっと試してみた" />
+<meta name="twitter:site" content="@makietanx" />
+<meta name="twitter:creator" content="@makietan" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"makietan"},"dateModified":"2026-09-14T00:00:00+09:00","datePublished":"2026-09-14T00:00:00+09:00","description":"https://www.google.com/search?si= のリンクを踏むと他人の検索結果が出てくるらしい。","headline":"Google がやらかしてるのでちょっと試してみた","mainEntityOfPage":{"@type":"WebPage","@id":"https://makietan.github.io/tech/2026/09/14/report.html"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://makietan.github.io/assets/images/icon_144.png"},"name":"makietan"},"url":"https://makietan.github.io/tech/2026/09/14/report.html"}</script>
+<!-- End Jekyll SEO tag -->
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "肉とお米とブロッコリー",
+      "url": "https://makietan.github.io",
+      "inLanguage": "ja",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://makietan.github.io/search.html?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+  </script>
+  <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="https://makietan.github.io/feed.xml" title="肉とお米とブロッコリー" /><meta name="msvalidate.01" content="89F1D244C30C26610D2EB5442A4DA1D8" />
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-7SP4YXPLVE"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-7SP4YXPLVE');
+</script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-72711550-4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-72711550-4');
+</script>
+<link rel="shortcut icon" href="/assets/images/icon.ico">
+  <link rel="icon" sizes="144x144" href="/assets/images/icon_144.png">
+  <script src="/assets/js/clipboard.js" type="text/javascript" charset="utf-8"></script>
+  <script src="/assets/js/image-display.js" type="text/javascript" charset="utf-8"></script>
+  <script src="/assets/js/collapse.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@makietanx" />
+<meta name="twitter:title" content="Google がやらかしてるのでちょっと試してみた" />
+<meta name="twitter:description" content="日報を中心に、技術メモやイベント参加記録をまとめるブログです。" />
+
+<meta name="twitter:image" content="https://makietan.github.io/assets/thumbnail/logo.png" />
+
+<link rel="icon" href="https://makietan.github.io/assets/images/favicon.ico">
+  <link rel="apple-touch-icon" sizes="144x144" href="https://makietan.github.io/assets/images/icon_144.png" />
+
+  <body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">肉とお米とブロッコリー</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="site-nav-link" href="/about/">About</a><a class="site-nav-link" href="/category/">Category</a><a class="site-nav-link" href="/links/">Links</a><a class="site-nav-link" href="/search.html">検索</a></div>
+      </nav></div>
+</header>
+
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Google がやらかしてるのでちょっと試してみた</h1>
+    <div class="post-meta">
+      <time class="dt-published" datetime="2026-09-14T00:00:00+09:00" itemprop="datePublished">2026-09-14 00:00
+      </time></div><div class="post-meta post-meta-categories">
+        <span class="post-categories">
+          
+          
+            <a href="https://makietan.github.io/categories/tech">tech</a>
+            
+          
+        </span>
+      </div></header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p><a href="https://www.google.com/search?si=">https://www.google.com/search?si=</a> のリンクを踏むと他人の検索結果が出てくるらしい。</p>
+
+<h2 id="72の法則">「72の法則」</h2>
+
+<p>複利運用で手元の資産を2倍にするための必要な「期間」や「金利（利回り）」を、暗算で簡単に割り出すための便利な計算式。</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>72 ÷ 金利 (%) = 投資期間 (年)
+</code></pre></div></div>
+
+<p>三井住友銀行の10年定期が 1.250% なのでこれを当てはめると以下になる。</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>72 ÷ 1.250 = 57.6 年
+</code></pre></div></div>
+
+<p>な、長すぎる。</p>
+
+<p>20歳で投資を始めると、77歳で資産が2倍になる計算となる。</p>
+
+<p>ほぼ死んでるじゃねえか。</p>
+
+<h2 id="エントロピーentropy">エントロピー（Entropy）</h2>
+
+<p>「乱雑さ（散らかり具合）の度合い」を表す指標。</p>
+
+<p>物理学や化学、情報理論などで広く使われる概念で、「状態がきれいに整っているか、それともバラバラに乱れているか」を数値で表すもの。</p>
+
+<h3 id="日常的なイメージで表す">日常的なイメージで表す</h3>
+
+<h4 id="部屋の片付け">部屋の片付け</h4>
+<ul>
+  <li>エントロピーが低い状態
+    <ul>
+      <li>部屋がきれいに片付いている状態。物がどこにあるか決まっていて、規則正しく並んでいる状態</li>
+    </ul>
+  </li>
+  <li>エントロピーが高い状態
+    <ul>
+      <li>部屋が散らかっている状態。服や本が床にバラバラ散らばり、乱雑になっている状態</li>
+    </ul>
+  </li>
+</ul>
+
+<p>自然の法則として、エネルギー（片付ける労力）を使わないと、部屋は勝手に散らかっていく。
+このように、「放っておくと自然に乱雑な方向（エントロピーが増大する方向）へ向かう」のが宇宙の大原則。</p>
+
+<h3 id="物理化学でのエントロピー熱力学">物理・化学でのエントロピー（熱力学）</h3>
+
+<p>科学の世界では、物質を形作る「原子や分子の集まり具合（無秩序さ）」を指す。</p>
+
+<ul>
+  <li>氷（エントロピーが低い）：水分子が規則正しくカチッと並んで凍っている状態</li>
+  <li>水（エントロピーが中くらい）：分子が少し自由な動きをするようになった状態</li>
+  <li>水蒸気（エントロピーが高い）：分子が空間全体にバラバラに激しく飛び回っている状態</li>
+</ul>
+
+<p>熱が加わると分子の動きが活発になり、よりバラバラになるため、エントロピーは大きくなる。</p>
+
+<p>これを「熱力学第二法則（エントロピー増大の法則）」と呼び、自然界の現象はすべてエントロピーが増える方向（元に戻らない方向）に進むとされている。</p>
+
+<p>（例：コップが割れる、コーヒーにミルクが混ざるなど）。</p>
+
+<h3 id="情報の世界でのエントロピー情報理論">情報の世界でのエントロピー（情報理論）</h3>
+
+<p>情報理論におけるエントロピーは、ある情報源から得られる情報の「不確実性」や「予測困難さ」を表す指標。</p>
+
+<p>例えば、コインの表裏を予測する場合、公平なコインでは次に出る面を予測することが難しく、エントロピーは高い。一方、偏ったコインでは予測が容易で、エントロピーは低い。</p>
+
+<p>パソコンやAIの世界では、エントロピーは「予測できなさ（不確実性）の度合い」や「情報の詰まり具合」を意味する。</p>
+
+<ul>
+  <li>エントロピーが低い：
+    <ul>
+      <li>次に何が起こるか簡単に予測できる状態（例：「はい」しか言わない人の返事 ➡️ 情報価値が低い）</li>
+    </ul>
+  </li>
+  <li>エントロピーが高い：
+    <ul>
+      <li>次に何が起こるか全く予測できない状態（例：サイコロの出目 ➡️ 次に何が出るかわからないので、情報としての価値や驚きが大きい）</li>
+    </ul>
+  </li>
+</ul>
+
+<p>データを圧縮するときなどに、この「予測できなさ」を計算して効率よくデータを小さくする技術に使われる。</p>
+
+<h3 id="まとめ">まとめ</h3>
+
+<p>エントロピーとは、「物事がどれだけバラバラで、予測不可能で、散らかっているか」を示すものと覚えておくと理解しやすい。</p>
+
+<h2 id="zスコアと-tスコアの使い分け">zスコアと tスコアの使い分け</h2>
+
+<p>統計学において、母平均を区間推定する際に zスコア と tスコア（t値） のどちらを使うかは、母分散（母標準偏差 σ）が既知か未知かによって決まる。</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">条件</th>
+      <th style="text-align: left">使用する統計量</th>
+      <th style="text-align: left">根拠となる分布</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">母分散（σ²）が分かっている</td>
+      <td style="text-align: left">zスコア</td>
+      <td style="text-align: left">標準正規分布 N(0, 1)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">母分散（σ²）が分かっていない</td>
+      <td style="text-align: left">tスコア</td>
+      <td style="text-align: left">自由度 n-1 の t分布</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="補足サンプルの大きさ--n--について">補足：サンプルの大きさ （ n ） について</h3>
+<h4 id="従来の教科書的なルール">従来の教科書的なルール</h4>
+<p>ひと昔前の統計学では、母分散が未知であってもサンプルサイズが十分に大きい（一般に n ≥ 30）場合は、中心極限定理を理由に zスコア（標準正規分布）で代用することが一般的だった。</p>
+<h4 id="現代の標準的なルール">現代の標準的なルール</h4>
+<p>現在の実務や主要な統計ソフト（R や Pythonなど）では、母分散が未知であればサンプルサイズ（ n ）の大小に関わらず tスコアを使用する のが一般的。
+なぜなら、サンプルサイズが大きくなると t分布は自然と標準正規分布（z分布）に収束していくため、常に t分布を使っておけば間違いがないから。</p>
+
+<h2 id="おわりに">おわりに</h2>
+
+<p>とりあえず3回やって出てきたやつ。</p>
+
+<p>回数を重ねるほど、内容はどんどん難解になっていき、辛い。</p>
+
+  </div><a class="u-url" href="/tech/2026/09/14/report.html" hidden></a>
+</article>
+
+<hr>
+
+
+
+
+  
+  
+
+  
+
+  
+  
+
+  
+    
+      <div class="related">
+        <h1>関連日報</h1>
+        <div class="related-posts">
+    
+          <div class="card">
+            <a href="/tech/2026/09/13/report.html" title="picocolors を使っていたが util.styleText というものが Node.js に追加されたのでそちらに移行するかもしれない"></a>
+            <div class="card__header">
+              <a href="/tech/2026/09/13/report.html">2026-09-13 00:00</a>
+            </div>
+            <div class="card__title">
+              <p>picocolors を使っていたが util.styleText というものが Node.js に追加されたのでそちらに移行するかもしれない</p>
+            </div>
+            <div class="card__description"></div>
+          </div>
+    
+    
+    
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+    
+          <div class="card">
+            <a href="/tech/2026/09/09/report.html" title="GitHub Actions が動作しなくなったので nokogiri のバージョンを更新した"></a>
+            <div class="card__header">
+              <a href="/tech/2026/09/09/report.html">2026-09-09 00:00</a>
+            </div>
+            <div class="card__title">
+              <p>GitHub Actions が動作しなくなったので nokogiri のバージョンを更新した</p>
+            </div>
+            <div class="card__description"></div>
+          </div>
+    
+    
+    
+  
+
+  
+  
+
+  
+    
+          <div class="card">
+            <a href="/tech/2026/09/08/report.html" title="iPhone のショートカットでスイッチコントロールの設定画面を開く方法"></a>
+            <div class="card__header">
+              <a href="/tech/2026/09/08/report.html">2026-09-08 00:00</a>
+            </div>
+            <div class="card__title">
+              <p>iPhone のショートカットでスイッチコントロールの設定画面を開く方法</p>
+            </div>
+            <div class="card__description"></div>
+          </div>
+    
+    
+    
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+    
+          <div class="card">
+            <a href="/tech/2026/08/30/report.html" title="ユニクロのポンコツUIとUXのせいで1,010円の損失を被った話"></a>
+            <div class="card__header">
+              <a href="/tech/2026/08/30/report.html">2026-08-30 00:00</a>
+            </div>
+            <div class="card__title">
+              <p>ユニクロのポンコツUIとUXのせいで1,010円の損失を被った話</p>
+            </div>
+            <div class="card__description"></div>
+          </div>
+    
+    
+    
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+    
+          <div class="card">
+            <a href="/tech/2026/08/19/report.html" title="yt-dlp が 「ERROR: unable to download video data: HTTP Error 403: Forbidden」ばかり吐くので HEAD 版に更新してみた"></a>
+            <div class="card__header">
+              <a href="/tech/2026/08/19/report.html">2026-08-19 00:00</a>
+            </div>
+            <div class="card__title">
+              <p>yt-dlp が 「ERROR: unable to download video data: HTTP Error 403: Forbidden」ばかり吐くので HEAD 版に更新してみた</p>
+            </div>
+            <div class="card__description"></div>
+          </div>
+    
+    
+        </div>
+      </div>
+      
+
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">肉とお米とブロッコリー</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1"><ul class="social-media-list"><li>
+    <a href="https://github.com/makietan" rel="me noopener noreferrer" target="_blank">
+      <i class="fa-brands fa-github social-icon" aria-hidden="true"></i>
+      <span class="username">makietan</span>
+    </a>
+  </li><li>
+    <a href="https://x.com/makietanx" rel="me noopener noreferrer" target="_blank">
+      <i class="fa-brands fa-twitter social-icon" aria-hidden="true"></i>
+      <span class="username">makietanx</span>
+    </a>
+  </li><li>
+    <a href="/feed.xml" target="_blank">
+      <i class="fa-solid fa-rss social-icon" aria-hidden="true"></i>
+      <span class="username">RSS</span>
+    </a>
+  </li></ul></div>
+      <div class="footer-col footer-col-2">
+      </div>
+      <div class="footer-col footer-col-3">
+        <p>日報を中心に、技術メモやイベント参加記録をまとめるブログです。</p>
+      </div>
+    </div>
+
+  </div><div style='text-align:center;'>
+     <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+     <!-- https://makietan.github.io/ -->
+     <ins class="adsbygoogle"
+          style="display:block"
+          data-ad-client="ca-pub-2075260640954079"
+          data-ad-slot="8308086588"
+          data-ad-format="auto"
+          data-full-width-responsive="true"></ins>
+     <script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+     </script>
+</div>
+</footer>
+</body>
+
+</html>
