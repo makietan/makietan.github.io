@@ -4,6 +4,12 @@
   "rules": {
     "preset-japanese": true,
     "preset-ja-technical-writing": {
+      "no-mix-dearu-desumasu": {
+        "preferInHeader": "",
+        "preferInBody": "",
+        "preferInList": "",
+        "strict": false
+      },
       "max-kanji-continuous-len": {
         "allow": [
           "見沼代親水公園行",
@@ -13,7 +19,13 @@
           "三井住友銀行",
           "熱力学第二法則",
           "標準正規分布",
-          "中心極限定理"
+          "中心極限定理",
+          "情報通信機器",
+          "外部記憶媒体",
+          "連続作業時間",
+          "近鉄南大阪線",
+          "近鉄名古屋駅",
+          "大阪阿部野橋"
         ]
       },
       "ja-unnatural-alphabet": {
