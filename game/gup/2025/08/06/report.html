@@ -333,11 +333,26 @@ const checkboxes = document.querySelectorAll('#生徒リスト ~ * input[type="c
 // チェック状態を localStorage に保存
 checkboxes.forEach(checkbox => {
   checkbox.disabled = false;
+  checkbox.indeterminate = false;
+  checkbox.addEventListener('click', (e) => {
+    e.preventDefault();
+    if (!checkbox.checked && checkbox.indeterminate) {
+      checkbox.indeterminate = false;
+      checkbox.checked = true;
+    } else if (checkbox.checked && !checkbox.indeterminate) {
+      checkbox.indeterminate = false;
+      checkbox.checked = false;
+    } else {
+      checkbox.indeterminate = true;
+      checkbox.checked = false;
+    }
+  });
   checkbox.addEventListener('change', () => {
     const state = {};
     checkboxes.forEach(cb => {
       const li = cb.parentNode;
-      state[li.textContent] = cb.checked;
+      const value = cb.checked ? true : cb.indeterminate ? 'indeterminate' : false;
+      state[li.textContent] = value;
     });
     localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
   });
@@ -347,7 +362,8 @@ const savedState = JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}');
 checkboxes.forEach(checkbox => {
   const li = checkbox.parentNode;
   if (savedState[li.textContent] !== undefined) {
-    checkbox.checked = savedState[li.textContent];
+    checkbox.checked = savedState[li.textContent] === true;
+    checkbox.indeterminate = savedState[li.textContent] === 'indeterminate';
   }
 });
 // チェックボックスにデフォルトのインデックスを data-default-index 属性として付与する
@@ -388,6 +404,11 @@ document.querySelectorAll('.sort-buttons button').forEach(button => {
 
 
 
+
+  
+  
+
+  
 
   
   
