@@ -71,6 +71,20 @@
   <script src="/assets/js/clipboard.js" type="text/javascript" charset="utf-8"></script>
   <script src="/assets/js/image-display.js" type="text/javascript" charset="utf-8"></script>
   <script src="/assets/js/collapse.js" type="text/javascript" charset="utf-8"></script>
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']],
+        processEscapes: true,
+        processEnvironments: true
+      },
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+      }
+    };
+  </script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:site" content="@makietanx" />
@@ -125,7 +139,7 @@
   </div>
 </div>
 
-<!-- $$\mathbf{T(W) = 3 \times \min\left(20,\ 10 + 5 \times \left\lfloor \frac{W - 1}{2} \right\rfloor \right)}$$  -->
+\[\mathbf{T(W)} = 3 \times \min\left(20,\ 10 + 5 \times \left\lfloor \frac{W - 1}{2} \right\rfloor\right)\]
 
 <p>※ $\lfloor \dots \rfloor$ は端数を切り捨てる記号です。</p>
 

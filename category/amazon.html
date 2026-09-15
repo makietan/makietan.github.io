@@ -69,6 +69,20 @@
   <script src="/assets/js/clipboard.js" type="text/javascript" charset="utf-8"></script>
   <script src="/assets/js/image-display.js" type="text/javascript" charset="utf-8"></script>
   <script src="/assets/js/collapse.js" type="text/javascript" charset="utf-8"></script>
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']],
+        processEscapes: true,
+        processEnvironments: true
+      },
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+      }
+    };
+  </script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:site" content="@makietanx" />
