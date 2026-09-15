@@ -334,25 +334,20 @@ const checkboxes = document.querySelectorAll('#生徒リスト ~ * input[type="c
 checkboxes.forEach(checkbox => {
   checkbox.disabled = false;
   checkbox.addEventListener('click', (e) => {
-    e.preventDefault();
-
-    if (!checkbox.checked && !checkbox.indeterminate) {
-      checkbox.checked = true;
-      checkbox.indeterminate = false;
-    } else if (checkbox.checked && !checkbox.indeterminate) {
-      checkbox.checked = false;
-      checkbox.indeterminate = true;
-    } else {
-      checkbox.checked = false;
-      checkbox.indeterminate = false;
-    }
+    const cb = e.target;
+    let state = parseInt(e.target.dataset.state);
+    state = (state + 1) % 3;
+    cb.dataset.state = state;
+    cb.checked = state === 2;
+    cb.indeterminate = state === 1;
   });
   checkbox.addEventListener('change', () => {
     const state = {};
     checkboxes.forEach(cb => {
       const li = cb.parentNode;
-      const value = cb.checked ? true : cb.indeterminate ? 'indeterminate' : false;
+      const value = cb.dataset.state ? parseInt(cb.dataset.state) : false;
       state[li.textContent] = value;
+      cb.dataset.state = value;
     });
     localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
   });
@@ -362,8 +357,9 @@ const savedState = JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}');
 checkboxes.forEach(checkbox => {
   const li = checkbox.parentNode;
   if (savedState[li.textContent] !== undefined) {
-    checkbox.checked = savedState[li.textContent] === true;
-    checkbox.indeterminate = savedState[li.textContent] === 'indeterminate';
+    checkbox.checked = savedState[li.textContent] === 2;
+    checkbox.indeterminate = savedState[li.textContent] === 1;
+    checkbox.dataset.state = savedState[li.textContent] | 0;
   }
 });
 // チェックボックスにデフォルトのインデックスを data-default-index 属性として付与する
