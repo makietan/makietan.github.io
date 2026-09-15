@@ -333,18 +333,18 @@ const checkboxes = document.querySelectorAll('#生徒リスト ~ * input[type="c
 // チェック状態を localStorage に保存
 checkboxes.forEach(checkbox => {
   checkbox.disabled = false;
-  checkbox.indeterminate = false;
   checkbox.addEventListener('click', (e) => {
     e.preventDefault();
-    if (!checkbox.checked && checkbox.indeterminate) {
-      checkbox.indeterminate = false;
+
+    if (!checkbox.checked && !checkbox.indeterminate) {
       checkbox.checked = true;
-    } else if (checkbox.checked && !checkbox.indeterminate) {
       checkbox.indeterminate = false;
+    } else if (checkbox.checked && !checkbox.indeterminate) {
       checkbox.checked = false;
-    } else {
       checkbox.indeterminate = true;
+    } else {
       checkbox.checked = false;
+      checkbox.indeterminate = false;
     }
   });
   checkbox.addEventListener('change', () => {
