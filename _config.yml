@@ -19,7 +19,6 @@ markdown: kramdown
 kramdown:
   input: GFM
   gfm_emojis: true
-  math_engine: katex
 
 plugins:
   - jekyll-seo-tag
