@@ -18,7 +18,8 @@ jobs:
           bundler-cache: true
       - name: Build Jekyll
         run: |
-          sudo apt-get -y --reinstall install imagemagick
+          sudo apt-get update
+          sudo apt-get -y --no-install-recommends install imagemagick
           mkdir -p tmp
           pushd tmp
           echo -e "machine github.com\n  login ${{ secrets.CI_USER_TOKEN }}" >> ~/.netrc
