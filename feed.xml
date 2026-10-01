@@ -1,4 +1,28 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-09-30T18:24:32+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>日報を中心に、技術メモやイベント参加記録をまとめるブログです。</subtitle><author><name>makietan</name></author><entry><title type="html">アニメ『ヤニねこ』の視聴可否を指標とした表現の自由と国家規制に関する考察</title><link href="https://makietan.github.io/otaku/2026/09/30/report.html" rel="alternate" type="text/html" title="アニメ『ヤニねこ』の視聴可否を指標とした表現の自由と国家規制に関する考察" /><published>2026-09-30T00:00:00+09:00</published><updated>2026-09-30T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2026/09/30/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2026/09/30/report.html"><![CDATA[<p>現代社会において、特定の映像作品が流通可能であるか否かは、その国家が思想・良心の自由をどの程度保障しているかを測る重要な尺度となる。
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-10-01T18:51:14+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>日報を中心に、技術メモやイベント参加記録をまとめるブログです。</subtitle><author><name>makietan</name></author><entry><title type="html">「丸源ラーメン 西新井店」へのルート</title><link href="https://makietan.github.io/gourmet/2026/10/01/report.html" rel="alternate" type="text/html" title="「丸源ラーメン 西新井店」へのルート" /><published>2026-10-01T00:00:00+09:00</published><updated>2026-10-01T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2026/10/01/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2026/10/01/report.html"><![CDATA[<ul>
+  <li>霞ヶ関駅
+    <ul>
+      <li>千代田線 各停 北綾瀬行</li>
+    </ul>
+  </li>
+  <li>西日暮里駅
+    <ul>
+      <li>徒歩 約5分</li>
+    </ul>
+  </li>
+  <li>西日暮里駅
+    <ul>
+      <li>日暮里・舎人ライナー 普通 見沼代親水公園行</li>
+    </ul>
+  </li>
+  <li>西新井大師西駅
+    <ul>
+      <li>徒歩 約15分</li>
+    </ul>
+  </li>
+  <li>丸源ラーメン 西新井店 @ 500円</li>
+</ul>
+
+<p>全体で55分。</p>]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[霞ヶ関駅 千代田線 各停 北綾瀬行 西日暮里駅 徒歩 約5分 西日暮里駅 日暮里・舎人ライナー 普通 見沼代親水公園行 西新井大師西駅 徒歩 約15分 丸源ラーメン 西新井店 @ 500円]]></summary></entry><entry><title type="html">アニメ『ヤニねこ』の視聴可否を指標とした表現の自由と国家規制に関する考察</title><link href="https://makietan.github.io/otaku/2026/09/30/report.html" rel="alternate" type="text/html" title="アニメ『ヤニねこ』の視聴可否を指標とした表現の自由と国家規制に関する考察" /><published>2026-09-30T00:00:00+09:00</published><updated>2026-09-30T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2026/09/30/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2026/09/30/report.html"><![CDATA[<p>現代社会において、特定の映像作品が流通可能であるか否かは、その国家が思想・良心の自由をどの程度保障しているかを測る重要な尺度となる。
 2026年に放送・配信が開始されたアニメ『ヤニねこ』は、喫煙描写や退廃的な日常を描くその特異な作風から、各国の規制当局およびプラットフォームの対応が大きく分かれる結果となった。
 本稿では、本作の視聴可否を手がかりに、国家の表現の自由と規制の度合いを考えていく。
 最近の事例をもとに、そうした関係を見ていきたい。</p>
@@ -278,13 +302,4 @@ ABCテレビ「探偵！ナイトスクープ」
 
 <p>まぁ人気作品にもなれば、こうした悪口大会が起こるのは避けられない。ファンの期待が大きければ大きいほど、失望もまた大きくなるのは自然なことだろう。</p>
 
-<p>今後に期待されるのは、この不満や悪口の嵐を経て、ファンや批評家が冷静に作品を評価し、建設的な議論が再び形成されることだろう。</p>]]></content><author><name>makietan</name></author><category term="otaku" /><summary type="html"><![CDATA[news.yahoo.co.jp ＜劇場版 魔法少女まどか☆マギカ〈ワルプルギスの廻天〉＞ネタバレ解禁　謎の新キャラ登場（MANTANWEB） - Yahoo!ニュース 　人気アニメ「魔法少女まどか☆マギカ」の新作劇場版アニメ「劇場版 魔法少女まどか☆マギカ〈ワルプルギスの廻天〉」の“ネタバレ”が9月12日、解禁された。「ワルプルギスの廻天」は、「［新編］叛逆の物語]]></summary></entry><entry><title type="html">遊戯王マスターデュエルのUI改善要望：裏側選択を廃止せよ</title><link href="https://makietan.github.io/game/yugioh/2026/09/21/report.html" rel="alternate" type="text/html" title="遊戯王マスターデュエルのUI改善要望：裏側選択を廃止せよ" /><published>2026-09-21T00:00:00+09:00</published><updated>2026-09-21T00:00:00+09:00</updated><id>https://makietan.github.io/game/yugioh/2026/09/21/report</id><content type="html" xml:base="https://makietan.github.io/game/yugioh/2026/09/21/report.html"><![CDATA[<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">マジでこれやめろや<br />意味ねえだろ<br />ユーザーがタップする必要性皆無<a href="https://x.com/hashtag/%E9%81%8A%E6%88%AF%E7%8E%8B%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%87%E3%83%A5%E3%82%A8%E3%83%AB?src=hash&amp;ref_src=twsrc%5Etfw">#遊戯王マスターデュエル</a> <a href="https://t.co/UuJQEruHzQ">pic.twitter.com/UuJQEruHzQ</a></p>&mdash; まきえたん☘️🥦 (@makietanX) <a href="https://x.com/makietanX/status/2098764731742044381?ref_src=twsrc%5Etfw">September 12, 2026</a></blockquote>
-<script async="" src="https://platform.x.com/widgets.js" charset="utf-8"></script>
-
-<p>紙でランダムを擬似的に再現するための仕様なのに、デジタルゲームでは無意味だろ。</p>
-
-<p>裏側選択なんて廃止しろ。</p>
-
-<p>裏側選択を廃止すれば、ゲームのテンポも良くなるし、ユーザーのストレスも減るはずだ。</p>
-
-<p>今すぐ裏側選択を廃止し、ユーザーが快適に遊べる環境を整えろ。</p>]]></content><author><name>makietan</name></author><category term="game" /><category term="yugioh" /><summary type="html"><![CDATA[マジでこれやめろや意味ねえだろユーザーがタップする必要性皆無#遊戯王マスターデュエル pic.twitter.com/UuJQEruHzQ&mdash; まきえたん☘️🥦 (@makietanX) September 12, 2026]]></summary></entry></feed>
+<p>今後に期待されるのは、この不満や悪口の嵐を経て、ファンや批評家が冷静に作品を評価し、建設的な議論が再び形成されることだろう。</p>]]></content><author><name>makietan</name></author><category term="otaku" /><summary type="html"><![CDATA[news.yahoo.co.jp ＜劇場版 魔法少女まどか☆マギカ〈ワルプルギスの廻天〉＞ネタバレ解禁　謎の新キャラ登場（MANTANWEB） - Yahoo!ニュース 　人気アニメ「魔法少女まどか☆マギカ」の新作劇場版アニメ「劇場版 魔法少女まどか☆マギカ〈ワルプルギスの廻天〉」の“ネタバレ”が9月12日、解禁された。「ワルプルギスの廻天」は、「［新編］叛逆の物語]]></summary></entry></feed>
