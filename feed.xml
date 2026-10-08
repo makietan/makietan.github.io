@@ -1,4 +1,22 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-10-07T18:56:53+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>日報を中心に、技術メモやイベント参加記録をまとめるブログです。</subtitle><author><name>makietan</name></author><entry><title type="html">スパロボDDの遠征の残り回数《10月分》</title><link href="https://makietan.github.io/game/srwdd/2026/10/07/report.html" rel="alternate" type="text/html" title="スパロボDDの遠征の残り回数《10月分》" /><published>2026-10-07T00:00:00+09:00</published><updated>2026-10-07T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2026/10/07/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2026/10/07/report.html"><![CDATA[<p>上にいるほど育てたいキャラ。</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-10-08T15:47:48+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>日報を中心に、技術メモやイベント参加記録をまとめるブログです。</subtitle><author><name>makietan</name></author><entry><title type="html">Google Play 開発者サービスが無限にクラッシュするのでリセットしたら Google マップのデータまで消えた</title><link href="https://makietan.github.io/tech/2026/10/08/report.html" rel="alternate" type="text/html" title="Google Play 開発者サービスが無限にクラッシュするのでリセットしたら Google マップのデータまで消えた" /><published>2026-10-08T00:00:00+09:00</published><updated>2026-10-08T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2026/10/08/report</id><content type="html" xml:base="https://makietan.github.io/tech/2026/10/08/report.html"><![CDATA[<p>Google Play 開発者サービスに重要な役割与えすぎだろ。</p>
+
+<p>Google マップなら Google マップのアプリ内で完結しろよ。</p>
+
+<p>位置データを能動的にバックアップできるようにしろ。</p>
+
+<p>本当にクソだなGoogle。</p>
+
+<p>バックアップの日付を見たら2026年3月だった。</p>
+
+<p>もう7か月も前のデータしか残っていない。</p>
+
+<p>これじゃあ意味ないだろ。</p>
+
+<p>Google のせいで大事なデータを失った。</p>
+
+<p>iPhone のデータが一応有るが、Android のデータは完全に失われた。</p>
+
+<p>最悪だわ。</p>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[Google Play 開発者サービスに重要な役割与えすぎだろ。]]></summary></entry><entry><title type="html">スパロボDDの遠征の残り回数《10月分》</title><link href="https://makietan.github.io/game/srwdd/2026/10/07/report.html" rel="alternate" type="text/html" title="スパロボDDの遠征の残り回数《10月分》" /><published>2026-10-07T00:00:00+09:00</published><updated>2026-10-07T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2026/10/07/report</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2026/10/07/report.html"><![CDATA[<p>上にいるほど育てたいキャラ。</p>
 
 <div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">スパロボDDの遠征の残り回数</span><span class="pi">:</span>
   <span class="na">確認日時</span><span class="pi">:</span> <span class="s">2026-09-29 13:07</span>
@@ -356,34 +374,4 @@
 <iframe width="560" height="315" src="https://www.youtube.com/embed/GxlyedgiVDg?si=OlbX9ZJqr97AcrIC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
 </div>
 
-<p>まぁ MSSP が面白いってのもあるけど、この意味不明なアクションができてしまうシミュレータ系のゲームは面白い。</p>]]></content><author><name>makietan</name></author><category term="game" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">エポスカードのカード名義が普段使ってるものと違うものになってることに今気づいた</title><link href="https://makietan.github.io/credit/2026/09/28/report.html" rel="alternate" type="text/html" title="エポスカードのカード名義が普段使ってるものと違うものになってることに今気づいた" /><published>2026-09-28T00:00:00+09:00</published><updated>2026-09-28T00:00:00+09:00</updated><id>https://makietan.github.io/credit/2026/09/28/report</id><content type="html" xml:base="https://makietan.github.io/credit/2026/09/28/report.html"><![CDATA[<p>いやーその表記は怒るよ。</p>
-
-<p>こだわってるのに侮辱的な方を設定されていると非常に憤る。</p>
-
-<div class="card">
-  <a href="https://faq.eposcard.co.jp/faq/show/318?category_id=76&amp;site_domain=default"></a>
-  <div class="card__header">
-    <a href="https://faq.eposcard.co.jp/faq/show/318?category_id=76&amp;site_domain=default">faq.eposcard.co.jp</a>
-  </div>
-  <div class="card__image">
-    <img src="" />
-  </div>
-  <div class="card__title">
-    <p>カードに印字されているローマ字のスペルを変更したいです。 | エポスカード　よくあるご質問</p>
-  </div>
-  <div class="card__description">
-    <p>スペルの変更には、カードの再発行が必要です。
-
-次の方法でお手続きいただけます。
- 
-再発行には、発行料1,100円（税込）がかかる場合がございますので、お手続きの際にご確認ください。
- 
-・お電話</p>
-  </div>
-</div>
-
-<p>変更したかったら金を払えと。</p>
-
-<p>お前らが間違えて設定したからやろがい。</p>
-
-<p>イライラがMAXだよ。</p>]]></content><author><name>makietan</name></author><category term="credit" /><summary type="html"><![CDATA[いやーその表記は怒るよ。]]></summary></entry></feed>
+<p>まぁ MSSP が面白いってのもあるけど、この意味不明なアクションができてしまうシミュレータ系のゲームは面白い。</p>]]></content><author><name>makietan</name></author><category term="game" /><summary type="html"><![CDATA[]]></summary></entry></feed>
