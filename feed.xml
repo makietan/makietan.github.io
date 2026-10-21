@@ -1,4 +1,48 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-10-20T17:19:23+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>日報を中心に、技術メモやイベント参加記録をまとめるブログです。</subtitle><author><name>makietan</name></author><entry><title type="html">村上宗隆 35本塁打達成記念の太肉 #桂花ラーメン</title><link href="https://makietan.github.io/gourmet/2026/10/20/report.html" rel="alternate" type="text/html" title="村上宗隆 35本塁打達成記念の太肉 #桂花ラーメン" /><published>2026-10-20T00:00:00+09:00</published><updated>2026-10-20T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2026/10/20/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2026/10/20/report.html"><![CDATA[]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[ご飯感想ブログ「すずろ庵」へ遷移します]]></summary></entry><entry><title type="html">大きいチャーシューがまた違った印象を与えてくれる　中華そば専門 #邦ちゃん 新小岩店</title><link href="https://makietan.github.io/gourmet/2026/10/19/report.html" rel="alternate" type="text/html" title="大きいチャーシューがまた違った印象を与えてくれる　中華そば専門 #邦ちゃん 新小岩店" /><published>2026-10-19T00:00:00+09:00</published><updated>2026-10-19T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2026/10/19/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2026/10/19/report.html"><![CDATA[]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[ご飯感想ブログ「すずろ庵」へ遷移します]]></summary></entry><entry><title type="html">2026年9月の都心は全ての日で降水があったらしい</title><link href="https://makietan.github.io/japan/2026/10/18/report.html" rel="alternate" type="text/html" title="2026年9月の都心は全ての日で降水があったらしい" /><published>2026-10-18T00:00:00+09:00</published><updated>2026-10-18T00:00:00+09:00</updated><id>https://makietan.github.io/japan/2026/10/18/report</id><content type="html" xml:base="https://makietan.github.io/japan/2026/10/18/report.html"><![CDATA[<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">【史上初 都心は9月全ての日で降水】<a href="https://t.co/p9jeceESBY">https://t.co/p9jeceESBY</a></p>&mdash; Yahoo!ニュース (@YahooNewsTopics) <a href="https://x.com/YahooNewsTopics/status/2105105598245478737?ref_src=twsrc%5Etfw">September 30, 2026</a></blockquote>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-10-21T15:54:29+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>日報を中心に、技術メモやイベント参加記録をまとめるブログです。</subtitle><author><name>makietan</name></author><entry><title type="html">特定のルート上にあるちゃん系ラーメン探索</title><link href="https://makietan.github.io/gourmet/2026/10/21/report.html" rel="alternate" type="text/html" title="特定のルート上にあるちゃん系ラーメン探索" /><published>2026-10-21T00:00:00+09:00</published><updated>2026-10-21T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2026/10/21/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2026/10/21/report.html"><![CDATA[<p>下記のプロンプトを使うといい感じに情報を出してくれると Gemini は言っているが、実際にどうなるかは試してみる必要がある。</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>【目的】
+虎ノ門駅から「池袋」と「秋葉原」の両方を順番に巡って戻ってくる（周遊する）最適なルートと、お得な乗車券（切符）の有無・通常運賃との比較を教えてください。
+
+【条件・制約事項】
+1. 移動ルートと最寄り駅の選定:
+   - 虎ノ門 ➔ 池袋 ➔ 秋葉原 ➔ 虎ノ門（またはその逆順）
+   - 途中下車も含め、東京メトロのみを利用する前提で計算してください。JR線や他社線（都営地下鉄含む）は絶対に混ぜないでください。
+   - 「池袋」「秋葉原」は単なる駅名ではなく目的地のエリア（街）として扱い、メトロ運賃が安くなる／乗り換えがスムーズな最寄り駅（末広町駅、本郷三丁目駅など）を柔軟に考慮してください。ただし、下車駅から目的地まで徒歩20分以上離れているような不現実な「徒歩連絡」を「徒歩圏内」と偽って提案することは厳禁とし、距離と徒歩分数を客観的事実として明記してください。
+
+2. 厳格な運賃計算と比較:
+   - 各区間の営業キロに基づく正確な東京メトロの通常IC運賃（1〜6km: 178円、7〜11km: 209円、12〜19km: 252円等）を算出し、四捨五入や数値の省略・勝手な概算を行わずに正確に合計してください。
+   - 「通常のIC運賃（合計）」と「東京メトロ24時間券（700円）」の損益分岐・比較を提示してください。
+
+3. ちゃん系ラーメンの探索:
+   - 上記ルートの移動途中または各目的地（池袋・秋葉原）の徒歩圏内にある「ちゃん系ラーメン」の未訪問店舗があれば提案してください。
+
+4. 厳格な除外店舗リスト（訪問済みのため提案不可）:
+   - 神田 ちえちゃんラーメン
+   - 新宿 えっちゃんラーメン。
+   - 田町 えっちゃんラーメン。
+   - 池袋 ひろちゃんラーメン！
+   - 浅草 生田庵
+   - 虎ノ門 たきちゃんラーメン
+   - 中野 邦ちゃんラーメン
+   - 邦ちゃんラーメン 両国店
+   - 中華そば専門 邦ちゃん 新小岩店
+   - 新宿ナギチャンラーメン
+   - 銀座はるちゃんラーメン
+   - 渋谷かっちゃんラーメン
+   - 新橋ニューともちん 神保町店
+   - 新橋ニューともちん五反田駅前店
+   - なぎちゃんラーメン 大森駅前
+   - なぎちゃんラーメン 行徳店
+   - なぎちゃんラーメン浅草橋駅前店
+
+5. 除外エリア:
+   - 上記以外のルートから外れたエリア（新宿・高円寺・下北沢等）の店舗は絶対に提案しないでください。
+
+【出力形式】
+- 東京メトロ最適周遊ルート（乗換駅・降車駅、距離、各区間のIC運賃明細）
+- 運賃比較と損益分岐点（最安値の判定）
+- ルート上の未訪問ちゃん系ラーメン店舗（最新の検索結果に基づく）
+</code></pre></div></div>]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[下記のプロンプトを使うといい感じに情報を出してくれると Gemini は言っているが、実際にどうなるかは試してみる必要がある。]]></summary></entry><entry><title type="html">村上宗隆 35本塁打達成記念の太肉 #桂花ラーメン</title><link href="https://makietan.github.io/gourmet/2026/10/20/report.html" rel="alternate" type="text/html" title="村上宗隆 35本塁打達成記念の太肉 #桂花ラーメン" /><published>2026-10-20T00:00:00+09:00</published><updated>2026-10-20T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2026/10/20/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2026/10/20/report.html"><![CDATA[]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[ご飯感想ブログ「すずろ庵」へ遷移します]]></summary></entry><entry><title type="html">大きいチャーシューがまた違った印象を与えてくれる　中華そば専門 #邦ちゃん 新小岩店</title><link href="https://makietan.github.io/gourmet/2026/10/19/report.html" rel="alternate" type="text/html" title="大きいチャーシューがまた違った印象を与えてくれる　中華そば専門 #邦ちゃん 新小岩店" /><published>2026-10-19T00:00:00+09:00</published><updated>2026-10-19T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2026/10/19/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2026/10/19/report.html"><![CDATA[]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[ご飯感想ブログ「すずろ庵」へ遷移します]]></summary></entry><entry><title type="html">2026年9月の都心は全ての日で降水があったらしい</title><link href="https://makietan.github.io/japan/2026/10/18/report.html" rel="alternate" type="text/html" title="2026年9月の都心は全ての日で降水があったらしい" /><published>2026-10-18T00:00:00+09:00</published><updated>2026-10-18T00:00:00+09:00</updated><id>https://makietan.github.io/japan/2026/10/18/report</id><content type="html" xml:base="https://makietan.github.io/japan/2026/10/18/report.html"><![CDATA[<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">【史上初 都心は9月全ての日で降水】<a href="https://t.co/p9jeceESBY">https://t.co/p9jeceESBY</a></p>&mdash; Yahoo!ニュース (@YahooNewsTopics) <a href="https://x.com/YahooNewsTopics/status/2105105598245478737?ref_src=twsrc%5Etfw">September 30, 2026</a></blockquote>
 <script async="" src="https://platform.x.com/widgets.js" charset="utf-8"></script>
 
 <p>史上初とのこと。</p>
@@ -59,31 +103,4 @@
 
 <p>3期ともなると、リタイアする人も出てくるのではないかと感じた。</p>
 
-<p>とはいえ、CV.悠木碧 なので気が向いているうちは楽しもうと思う。</p>]]></content><author><name>makietan</name></author><category term="otaku" /><summary type="html"><![CDATA[毒に対する知識や対応の描写が特に面白かった。]]></summary></entry><entry><title type="html">Amazon で購入したレンジパンのおかげで朝食作るのめんどくさい問題が解消した</title><link href="https://makietan.github.io/gourmet/2026/10/15/report.html" rel="alternate" type="text/html" title="Amazon で購入したレンジパンのおかげで朝食作るのめんどくさい問題が解消した" /><published>2026-10-15T00:00:00+09:00</published><updated>2026-10-15T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2026/10/15/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2026/10/15/report.html"><![CDATA[]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[ご飯感想ブログ「すずろ庵」へ遷移します]]></summary></entry><entry><title type="html">近場にも丸源ラーメンがあった！！！ #丸源ラーメン 品川シーサイド店</title><link href="https://makietan.github.io/gourmet/2026/10/14/report.html" rel="alternate" type="text/html" title="近場にも丸源ラーメンがあった！！！ #丸源ラーメン 品川シーサイド店" /><published>2026-10-14T00:00:00+09:00</published><updated>2026-10-14T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2026/10/14/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2026/10/14/report.html"><![CDATA[]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[ご飯感想ブログ「すずろ庵」へ遷移します]]></summary></entry><entry><title type="html">ベーコンとナスの冷製パスタが美味しい #フォルクス 新橋店</title><link href="https://makietan.github.io/gourmet/2026/10/13/report.html" rel="alternate" type="text/html" title="ベーコンとナスの冷製パスタが美味しい #フォルクス 新橋店" /><published>2026-10-13T00:00:00+09:00</published><updated>2026-10-13T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2026/10/13/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2026/10/13/report.html"><![CDATA[]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[ご飯感想ブログ「すずろ庵」へ遷移します]]></summary></entry><entry><title type="html">早朝はナイトワークの方達で満席 #なぎちゃんラーメン 大森駅前店</title><link href="https://makietan.github.io/gourmet/2026/10/12/report.html" rel="alternate" type="text/html" title="早朝はナイトワークの方達で満席 #なぎちゃんラーメン 大森駅前店" /><published>2026-10-12T00:00:00+09:00</published><updated>2026-10-12T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2026/10/12/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2026/10/12/report.html"><![CDATA[]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[ご飯感想ブログ「すずろ庵」へ遷移します]]></summary></entry><entry><title type="html">おばあちゃんが言っていたVシネクストに過剰な期待は厳禁だと</title><link href="https://makietan.github.io/otaku/2026/10/11/report.html" rel="alternate" type="text/html" title="おばあちゃんが言っていたVシネクストに過剰な期待は厳禁だと" /><published>2026-10-11T00:00:00+09:00</published><updated>2026-10-11T00:00:00+09:00</updated><id>https://makietan.github.io/otaku/2026/10/11/report</id><content type="html" xml:base="https://makietan.github.io/otaku/2026/10/11/report.html"><![CDATA[<blockquote class="twitter-tweet tw-align-center"><p lang="ja" dir="ltr">【重要！】<br />本日開催<br />Vシネ「仮面ライダーカブト20th 天を継ぐもの」<br />舞台挨拶で新宿バルト９にご来場のお客様へ<br /><br />本イベントは全国生中継をいたします。<br />舞台挨拶が始まりますと、収録の関係でお席にご案内できない場合がございます。<br />余裕を持ってご入場、ご着席をお願いいたします。<a href="https://x.com/hashtag/V%E3%82%B7%E3%83%8D%E3%82%AB%E3%83%96%E3%83%88?src=hash&amp;ref_src=twsrc%5Etfw">#Vシネカブト</a> <a href="https://t.co/tY7StFO8kD">https://t.co/tY7StFO8kD</a></p>&mdash; 「仮面ライダーカブト20th 天を継ぐもの」【公式】 (@vcinext_movie) <a href="https://x.com/vcinext_movie/status/2105055018558849041?ref_src=twsrc%5Etfw">September 29, 2026</a></blockquote>
-<script async="" src="https://platform.x.com/widgets.js" charset="utf-8"></script>
-
-<p>撮影費用が抑えられているのか、全体的に地味な印象。</p>
-
-<p>メインキャストがいないので、過剰な期待は禁物だ。</p>
-
-<p>地獄兄弟が好きなら、楽しめるだろう。</p>
-
-<h2 id="以下ネタバレ注意">以下、ネタバレ注意</h2>
-
-<details>
-
-カブトを継ぐのはお前かい。
-
-しかも戦闘の構えはガタックかい。
-
-矢車さんの最後のシーンはぐっときた。
-
-田所さん...。
-
-まあ、ツッコミどころはあるけれど、過剰な期待がなければ楽しめる作品だ。
-
-というか、最後のアレは本人なのか、それが気になって仕方がない。
-
-解説を求む。
-
-</details>]]></content><author><name>makietan</name></author><category term="otaku" /><summary type="html"><![CDATA[【重要！】本日開催Vシネ「仮面ライダーカブト20th 天を継ぐもの」舞台挨拶で新宿バルト９にご来場のお客様へ本イベントは全国生中継をいたします。舞台挨拶が始まりますと、収録の関係でお席にご案内できない場合がございます。余裕を持ってご入場、ご着席をお願いいたします。#Vシネカブト https://t.co/tY7StFO8kD&mdash; 「仮面ライダーカブト20th 天を継ぐもの」【公式】 (@vcinext_movie) September 29, 2026]]></summary></entry></feed>
+<p>とはいえ、CV.悠木碧 なので気が向いているうちは楽しもうと思う。</p>]]></content><author><name>makietan</name></author><category term="otaku" /><summary type="html"><![CDATA[毒に対する知識や対応の描写が特に面白かった。]]></summary></entry><entry><title type="html">Amazon で購入したレンジパンのおかげで朝食作るのめんどくさい問題が解消した</title><link href="https://makietan.github.io/gourmet/2026/10/15/report.html" rel="alternate" type="text/html" title="Amazon で購入したレンジパンのおかげで朝食作るのめんどくさい問題が解消した" /><published>2026-10-15T00:00:00+09:00</published><updated>2026-10-15T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2026/10/15/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2026/10/15/report.html"><![CDATA[]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[ご飯感想ブログ「すずろ庵」へ遷移します]]></summary></entry><entry><title type="html">近場にも丸源ラーメンがあった！！！ #丸源ラーメン 品川シーサイド店</title><link href="https://makietan.github.io/gourmet/2026/10/14/report.html" rel="alternate" type="text/html" title="近場にも丸源ラーメンがあった！！！ #丸源ラーメン 品川シーサイド店" /><published>2026-10-14T00:00:00+09:00</published><updated>2026-10-14T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2026/10/14/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2026/10/14/report.html"><![CDATA[]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[ご飯感想ブログ「すずろ庵」へ遷移します]]></summary></entry><entry><title type="html">ベーコンとナスの冷製パスタが美味しい #フォルクス 新橋店</title><link href="https://makietan.github.io/gourmet/2026/10/13/report.html" rel="alternate" type="text/html" title="ベーコンとナスの冷製パスタが美味しい #フォルクス 新橋店" /><published>2026-10-13T00:00:00+09:00</published><updated>2026-10-13T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2026/10/13/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2026/10/13/report.html"><![CDATA[]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[ご飯感想ブログ「すずろ庵」へ遷移します]]></summary></entry><entry><title type="html">早朝はナイトワークの方達で満席 #なぎちゃんラーメン 大森駅前店</title><link href="https://makietan.github.io/gourmet/2026/10/12/report.html" rel="alternate" type="text/html" title="早朝はナイトワークの方達で満席 #なぎちゃんラーメン 大森駅前店" /><published>2026-10-12T00:00:00+09:00</published><updated>2026-10-12T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2026/10/12/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2026/10/12/report.html"><![CDATA[]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[ご飯感想ブログ「すずろ庵」へ遷移します]]></summary></entry></feed>
