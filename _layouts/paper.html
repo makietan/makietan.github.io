@@ -17,12 +17,19 @@ layout: default
       font-family: "Computer Modern Serif", "Noto Serif JP", "Yu Mincho", "Hiragino Mincho ProN", "MS PMincho", serif;
       font-size: 16px; 
       line-height: 1.7;
-      color: #000;
-      background-color: #fff;
+      
+      /* 真っ白な上質紙の質感を表現 */
+      color: #111;
+      background-color: #ffffff; /* 黄ばみのない純白 */
+      background-image: none; /* グラデーションを削除 */
+      border: 1px solid #e0e0e0; /* 紙のエッジを際立たせるごく薄いグレーの線 */
+      box-shadow: 
+        0 4px 6px rgba(0, 0, 0, 0.04),   /* 紙が少し浮いているような直下の影 */
+        0 10px 30px rgba(0, 0, 0, 0.06); /* 全体にかかる柔らかい影 */
+      
       max-width: 800px; /* 論文の横幅 */
-      margin: 2em auto;
-      padding: 40px; /* 論文らしい余白 */
-      box-shadow: 0 4px 12px rgba(0,0,0,0.05); /* 少しだけ紙のように浮かせる（不要なら削除） */
+      margin: 3em auto;
+      padding: 60px 55px; /* A4用紙の余白を意識した少し広めのパディング */
       
       text-align: justify;
       hyphens: auto;
@@ -205,6 +212,7 @@ layout: default
       </time>
     </div>
 
+    <!-- カテゴリーリンクをヘッダー内に移動 -->
     {%- if page.categories -%}
       <div class="categories">
         <span class="post-categories">
@@ -215,7 +223,7 @@ layout: default
           {% endif %}
           {% for category in categories %}
             <a href="{{site.url}}/categories/{{category|slugize}}">{{category}}</a>
-            {% unless forloop.last %}&nbsp;|&nbsp;{% endunless %}
+            {% unless forloop.last %}&nbsp;{% endunless %}
           {% endfor %}
         </span>
       </div>
