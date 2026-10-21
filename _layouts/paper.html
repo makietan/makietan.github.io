@@ -2,185 +2,211 @@
 layout: default
 ---
 
+<!-- 数式描画用のMathJax -->
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
 <style>
-  /* ==========================================================================
-     LaTeX (article class / JSME / IPSJ style) Full CSS Reset & Typography
-     ========================================================================== */
+  /* =========================================================
+     LaTeX Style Scoped CSS (適用範囲を .latex-paper に限定)
+     ========================================================= */
+  @import url('https://cdn.jsdelivr.net/gh/dreampulse/computer-modern-web-font@master/fonts.css');
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&display=swap');
 
-  /* 論文全体コンテナ：紙面幅と余白をLaTeX（A4標準）の比率に設定 */
   .latex-paper {
-    font-family: "Computer Modern Serif", "Latin Modern Math", "Yu Mincho", "YuMincho", "Hiragino Mincho ProN", "MS PMincho", serif;
-    font-size: 10.5pt; /* LaTeX 標準の本文サイズ */
-    line-height: 1.6;  /* 論文の標準行間 */
-    color: #000000;
-    background-color: #ffffff;
-    max-width: 680px; /* A4用紙の本文領域相当 */
-    margin: 2rem auto;
-    padding: 0 1rem;
-    text-align: justify;
-    text-justify: inter-ideograph;
-    -webkit-font-smoothing: antialiased;
-    font-feature-settings: "palt" 1, "pkna" 1;
+      font-family: "Computer Modern Serif", "Noto Serif JP", "Yu Mincho", "Hiragino Mincho ProN", "MS PMincho", serif;
+      font-size: 16px; 
+      line-height: 1.7;
+      color: #000;
+      background-color: #fff;
+      max-width: 800px; /* 論文の横幅 */
+      margin: 2em auto;
+      padding: 40px; /* 論文らしい余白 */
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05); /* 少しだけ紙のように浮かせる（不要なら削除） */
+      
+      text-align: justify;
+      hyphens: auto;
+      word-wrap: break-word;
+      overflow-wrap: break-word;
+      counter-reset: section;
   }
 
-  /* --- 論文ヘッダー（タイトル・アブストラクト） --- */
-  .latex-paper .post-header {
-    text-align: center;
-    margin-bottom: 3.5rem;
-    padding-bottom: 0;
-    border: none;
+  /* タイトル部分 (\maketitle 相当) */
+  .latex-paper .maketitle {
+      text-align: center;
+      margin-bottom: 3em;
+      margin-top: 1em;
   }
 
-  /* タイトル: \title{} */
-  .latex-paper .post-title {
-    font-family: inherit;
-    font-size: 18pt;
-    font-weight: bold;
-    line-height: 1.3;
-    margin-bottom: 1.5rem;
-    color: #000000;
-    letter-spacing: -0.02em;
+  .latex-paper .maketitle h1 {
+      font-size: 2em;
+      margin-bottom: 0.2em;
+      font-weight: normal;
+      border: none; /* Jekyllのデフォルトテーマの罫線を消す */
   }
 
-  /* 著者・日付メタ情報: \author{} / \date{} */
-  .latex-paper .post-meta {
-    font-size: 10pt;
-    color: #000000;
-    margin-top: 1rem;
-    line-height: 1.5;
+  .latex-paper .maketitle .author {
+      font-size: 1.2em;
+      margin-top: 1em;
+      margin-bottom: 0.2em;
   }
 
-  .latex-paper .post-meta-categories {
-    font-size: 9pt;
-    margin-top: 0.5rem;
+  .latex-paper .maketitle .date {
+      font-size: 1em;
+      margin-top: 0.5em;
   }
 
-  .latex-paper .post-meta-categories a {
-    color: #000000;
-    text-decoration: underline;
+  .latex-paper .maketitle .categories {
+      margin-top: 0.8em;
+      font-size: 0.9em;
   }
 
-  /* --- 見出し（\section, \subsection） --- */
-  /* \section{} */
-  .latex-paper .post-content h2 {
-    font-family: inherit;
-    font-size: 12pt;
-    font-weight: bold;
-    border: none; /* LaTeX標準には下線はない */
-    padding-bottom: 0;
-    margin-top: 2.5rem;
-    margin-bottom: 0.8rem;
-    color: #000000;
-    text-align: left;
-    letter-spacing: 0.05em;
+  .latex-paper .maketitle .categories a {
+      text-decoration: none;
   }
 
-  /* \subsection{} */
-  .latex-paper .post-content h3 {
-    font-family: inherit;
-    font-size: 10.5pt;
-    font-weight: bold;
-    margin-top: 1.8rem;
-    margin-bottom: 0.6rem;
-    color: #000000;
-    text-align: left;
+  .latex-paper .maketitle .categories a:hover {
+      text-decoration: underline;
   }
 
-  /* --- 本文段落（LaTeX特有の一文字段落下げ） --- */
-  .latex-paper .post-content p {
-    margin-top: 0;
-    margin-bottom: 0;
-    text-indent: 1em; /* \parindent */
+  /* アブストラクト (概要) */
+  .latex-paper .abstract {
+      width: 85%;
+      margin: 0 auto 2.5em auto;
+      font-size: 0.9em;
   }
 
-  /* 直後に来る最初の段落はLaTeXの慣習でインデントしない場合もあるが、日本語組み版では全段落インデント */
-  .latex-paper .post-content h2 + p,
-  .latex-paper .post-content h3 + p {
-    text-indent: 1em;
+  .latex-paper .abstract-title {
+      text-align: center;
+      font-weight: bold;
+      margin-bottom: 0.5em;
+  }
+  
+  .latex-paper .abstract p {
+      text-indent: 1em; /* 概要内の段落 */
+  }
+  .latex-paper .abstract p:first-of-type {
+      text-indent: 0;
   }
 
-  /* --- テーブル (booktabs パッケージ規格) --- */
-  /* \toprule (1.2pt) / \midrule (0.5pt) / \bottomrule (1.2pt) */
-  .latex-paper .post-content table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 2rem 0;
-    font-size: 9.5pt;
-    line-height: 1.4;
+  /* 見出し (Sections) */
+  .latex-paper h1, .latex-paper h2, .latex-paper h3, .latex-paper h4, .latex-paper h5, .latex-paper h6 {
+      font-weight: bold;
+      line-height: 1.3;
+      margin-top: 2.5em;
+      margin-bottom: 1em;
+      border: none;
   }
 
-  .latex-paper .post-content th,
-  .latex-paper .post-content td {
-    padding: 0.5rem 0.75rem;
-    border: none;
-    text-align: left;
-    vertical-align: top;
+  .latex-paper h2 {
+      font-size: 1.4em;
+      counter-reset: subsection;
   }
 
-  .latex-paper .post-content thead tr:first-child th {
-    border-top: 1.2pt solid #000000;    /* \toprule */
-    border-bottom: 0.5pt solid #000000; /* \midrule */
-    font-weight: bold;
-    text-align: center;
+  .latex-paper h2::before {
+      counter-increment: section;
+      content: counter(section) ". ";
   }
 
-  .latex-paper .post-content tbody tr:last-child td {
-    border-bottom: 1.2pt solid #000000; /* \bottomrule */
+  .latex-paper h3 {
+      font-size: 1.2em;
   }
 
-  /* --- 引用ブロック（quotation 環境） --- */
-  .latex-paper .post-content blockquote {
-    font-size: 9.5pt;
-    margin: 1.5rem 2em;
-    padding: 0;
-    border: none; /* 線を排除 */
-    color: #000000;
+  .latex-paper h3::before {
+      counter-increment: subsection;
+      content: counter(section) "." counter(subsection) " ";
   }
 
-  .latex-paper .post-content blockquote p {
-    text-indent: 1em;
+  /* 段落の字下げ */
+  .latex-paper p {
+      margin: 0;
+      padding: 0;
   }
 
-  /* --- 箇条書き（itemize / enumerate 環境） --- */
-  .latex-paper .post-content ul,
-  .latex-paper .post-content ol {
-    margin: 1rem 0;
-    padding-left: 2.5em;
+  .latex-paper h1 + p, .latex-paper h2 + p, .latex-paper h3 + p, .latex-paper h4 + p, .latex-paper h5 + p, .latex-paper h6 + p, 
+  .latex-paper .maketitle + p {
+      text-indent: 0;
   }
 
-  .latex-paper .post-content li {
-    margin: 0.2rem 0;
-    text-indent: 0;
+  .latex-paper p + p {
+      text-indent: 1em;
   }
 
-  /* --- 論文フッター（頁外脚注・フッター） --- */
-  .paper-footer {
-    margin-top: 5rem;
-    border-top: 0.5pt solid #000000; /* LaTeX標準のフッター区切り線 */
-    padding-top: 1rem;
-    text-align: center;
-    font-size: 9pt;
-    font-family: inherit;
+  /* 定理環境 */
+  .latex-paper .theorem, .latex-paper .lemma, .latex-paper .definition, .latex-paper .proof {
+      margin: 1.5em 0;
+      padding: 0;
+  }
+
+  .latex-paper .theorem { font-style: italic; }
+  .latex-paper .theorem::before { content: "定理. "; font-weight: bold; font-style: normal; }
+  .latex-paper .definition { font-style: normal; }
+  .latex-paper .definition::before { content: "定義. "; font-weight: bold; }
+  .latex-paper .proof { font-style: normal; }
+  .latex-paper .proof::before { content: "証明. "; font-style: italic; }
+  .latex-paper .proof::after { content: "■"; float: right; }
+
+  /* 箇条書き */
+  .latex-paper ul, .latex-paper ol {
+      margin: 1em 0;
+      padding-left: 2.5em;
+  }
+  .latex-paper ul p, .latex-paper ol p { text-indent: 0; }
+
+  /* 引用、表、図 */
+  .latex-paper blockquote {
+      margin: 1.5em 2em;
+      font-size: 0.95em;
+      border-left: none; /* Jekyllデフォルトの左線を消す */
+      color: inherit;
+  }
+  
+  .latex-paper table {
+      margin: 2em auto;
+      border-collapse: collapse;
+      border-top: 2px solid #000;
+      border-bottom: 2px solid #000;
+  }
+
+  .latex-paper th, .latex-paper td { padding: 0.5em 1em; }
+  .latex-paper th { border-bottom: 1px solid #000; }
+  .latex-paper caption { caption-side: top; margin-bottom: 0.5em; font-size: 0.9em; }
+  .latex-paper figure { margin: 2em 0; text-align: center; }
+  .latex-paper figcaption { margin-top: 0.5em; font-size: 0.9em; }
+
+  /* Markdownによって生成される脚注 (Kramdown対応) */
+  .latex-paper .footnotes {
+      margin-top: 3em;
+      padding-top: 1em;
+      border-top: 1px solid #ccc;
+      font-size: 0.85em;
+  }
+  .latex-paper .footnotes p {
+      text-indent: 0; /* 脚注の中は字下げしない */
   }
 </style>
 
 <article class="post h-entry latex-paper" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <header class="post-header">
+  <!-- \maketitle 相当 -->
+  <header class="maketitle">
     <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
-    <div class="post-meta">
+    
+    {%- if page.author -%}
+      <div class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span itemprop="name">{{ page.author }}</span>
+      </div>
+    {%- endif -%}
+
+    <div class="date">
       <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-        {%- assign date_format = site.minima.date_format | default: "%Y-%m-%d" -%}
+        {%- assign date_format = site.minima.date_format | default: "%Y年%m月%d日" -%}
         {{ page.date | date: date_format }}
       </time>
-      {%- if page.author -%}
-        <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-          <span class="p-author h-card" itemprop="name"> / {{ page.author }}</span>
-        </span>
-      {%- endif -%}
     </div>
+
     {%- if page.categories -%}
-      <div class="post-meta post-meta-categories">
+      <div class="categories">
         <span class="post-categories">
           {% if post %}
             {% assign categories = post.categories %}
@@ -189,26 +215,32 @@ layout: default
           {% endif %}
           {% for category in categories %}
             <a href="{{site.url}}/categories/{{category|slugize}}">{{category}}</a>
-            {% unless forloop.last %}&nbsp;{% endunless %}
+            {% unless forloop.last %}&nbsp;|&nbsp;{% endunless %}
           {% endfor %}
         </span>
       </div>
     {%- endif -%}
   </header>
 
+  <!-- \begin{abstract} 相当 -->
+  {%- if page.abstract -%}
+  <div class="abstract">
+    <div class="abstract-title">概要</div>
+    <!-- MarkdownのテキストをHTMLとしてレンダリング -->
+    {{ page.abstract | markdownify }}
+  </div>
+  {%- endif -%}
+
+  <!-- 本文 -->
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
   </div>
-  
+
   {%- if site.disqus.shortname -%}
     {%- include disqus_comments.html -%}
   {%- endif -%}
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
-
-  <footer class="paper-footer">
-    <p>&copy; {{ page.date | date: "%Y" }} {{ site.author.name | default: site.author }}</p>
-  </footer>
 </article>
 
 {% include related_posts.html %}
