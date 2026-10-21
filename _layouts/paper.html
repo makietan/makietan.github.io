@@ -1,0 +1,214 @@
+---
+layout: default
+---
+
+<style>
+  /* ==========================================================================
+     LaTeX (article class / JSME / IPSJ style) Full CSS Reset & Typography
+     ========================================================================== */
+
+  /* 論文全体コンテナ：紙面幅と余白をLaTeX（A4標準）の比率に設定 */
+  .latex-paper {
+    font-family: "Computer Modern Serif", "Latin Modern Math", "Yu Mincho", "YuMincho", "Hiragino Mincho ProN", "MS PMincho", serif;
+    font-size: 10.5pt; /* LaTeX 標準の本文サイズ */
+    line-height: 1.6;  /* 論文の標準行間 */
+    color: #000000;
+    background-color: #ffffff;
+    max-width: 680px; /* A4用紙の本文領域相当 */
+    margin: 2rem auto;
+    padding: 0 1rem;
+    text-align: justify;
+    text-justify: inter-ideograph;
+    -webkit-font-smoothing: antialiased;
+    font-feature-settings: "palt" 1, "pkna" 1;
+  }
+
+  /* --- 論文ヘッダー（タイトル・アブストラクト） --- */
+  .latex-paper .post-header {
+    text-align: center;
+    margin-bottom: 3.5rem;
+    padding-bottom: 0;
+    border: none;
+  }
+
+  /* タイトル: \title{} */
+  .latex-paper .post-title {
+    font-family: inherit;
+    font-size: 18pt;
+    font-weight: bold;
+    line-height: 1.3;
+    margin-bottom: 1.5rem;
+    color: #000000;
+    letter-spacing: -0.02em;
+  }
+
+  /* 著者・日付メタ情報: \author{} / \date{} */
+  .latex-paper .post-meta {
+    font-size: 10pt;
+    color: #000000;
+    margin-top: 1rem;
+    line-height: 1.5;
+  }
+
+  .latex-paper .post-meta-categories {
+    font-size: 9pt;
+    margin-top: 0.5rem;
+  }
+
+  .latex-paper .post-meta-categories a {
+    color: #000000;
+    text-decoration: underline;
+  }
+
+  /* --- 見出し（\section, \subsection） --- */
+  /* \section{} */
+  .latex-paper .post-content h2 {
+    font-family: inherit;
+    font-size: 12pt;
+    font-weight: bold;
+    border: none; /* LaTeX標準には下線はない */
+    padding-bottom: 0;
+    margin-top: 2.5rem;
+    margin-bottom: 0.8rem;
+    color: #000000;
+    text-align: left;
+    letter-spacing: 0.05em;
+  }
+
+  /* \subsection{} */
+  .latex-paper .post-content h3 {
+    font-family: inherit;
+    font-size: 10.5pt;
+    font-weight: bold;
+    margin-top: 1.8rem;
+    margin-bottom: 0.6rem;
+    color: #000000;
+    text-align: left;
+  }
+
+  /* --- 本文段落（LaTeX特有の一文字段落下げ） --- */
+  .latex-paper .post-content p {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-indent: 1em; /* \parindent */
+  }
+
+  /* 直後に来る最初の段落はLaTeXの慣習でインデントしない場合もあるが、日本語組み版では全段落インデント */
+  .latex-paper .post-content h2 + p,
+  .latex-paper .post-content h3 + p {
+    text-indent: 1em;
+  }
+
+  /* --- テーブル (booktabs パッケージ規格) --- */
+  /* \toprule (1.2pt) / \midrule (0.5pt) / \bottomrule (1.2pt) */
+  .latex-paper .post-content table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 2rem 0;
+    font-size: 9.5pt;
+    line-height: 1.4;
+  }
+
+  .latex-paper .post-content th,
+  .latex-paper .post-content td {
+    padding: 0.5rem 0.75rem;
+    border: none;
+    text-align: left;
+    vertical-align: top;
+  }
+
+  .latex-paper .post-content thead tr:first-child th {
+    border-top: 1.2pt solid #000000;    /* \toprule */
+    border-bottom: 0.5pt solid #000000; /* \midrule */
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .latex-paper .post-content tbody tr:last-child td {
+    border-bottom: 1.2pt solid #000000; /* \bottomrule */
+  }
+
+  /* --- 引用ブロック（quotation 環境） --- */
+  .latex-paper .post-content blockquote {
+    font-size: 9.5pt;
+    margin: 1.5rem 2em;
+    padding: 0;
+    border: none; /* 線を排除 */
+    color: #000000;
+  }
+
+  .latex-paper .post-content blockquote p {
+    text-indent: 1em;
+  }
+
+  /* --- 箇条書き（itemize / enumerate 環境） --- */
+  .latex-paper .post-content ul,
+  .latex-paper .post-content ol {
+    margin: 1rem 0;
+    padding-left: 2.5em;
+  }
+
+  .latex-paper .post-content li {
+    margin: 0.2rem 0;
+    text-indent: 0;
+  }
+
+  /* --- 論文フッター（頁外脚注・フッター） --- */
+  .paper-footer {
+    margin-top: 5rem;
+    border-top: 0.5pt solid #000000; /* LaTeX標準のフッター区切り線 */
+    padding-top: 1rem;
+    text-align: center;
+    font-size: 9pt;
+    font-family: inherit;
+  }
+</style>
+
+<article class="post h-entry latex-paper" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+    <div class="post-meta">
+      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+        {%- assign date_format = site.minima.date_format | default: "%Y-%m-%d" -%}
+        {{ page.date | date: date_format }}
+      </time>
+      {%- if page.author -%}
+        <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <span class="p-author h-card" itemprop="name"> / {{ page.author }}</span>
+        </span>
+      {%- endif -%}
+    </div>
+    {%- if page.categories -%}
+      <div class="post-meta post-meta-categories">
+        <span class="post-categories">
+          {% if post %}
+            {% assign categories = post.categories %}
+          {% else %}
+            {% assign categories = page.categories %}
+          {% endif %}
+          {% for category in categories %}
+            <a href="{{site.url}}/categories/{{category|slugize}}">[{{category}}]</a>
+            {% unless forloop.last %}&nbsp;{% endunless %}
+          {% endfor %}
+        </span>
+      </div>
+    {%- endif -%}
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    {{ content }}
+  </div>
+  
+  {%- if site.disqus.shortname -%}
+    {%- include disqus_comments.html -%}
+  {%- endif -%}
+
+  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+
+  <footer class="paper-footer">
+    <p>&copy; {{ page.date | date: "%Y" }} {{ site.author.name | default: site.author }}</p>
+  </footer>
+</article>
+
+{% include related_posts.html %}
