@@ -12445,7 +12445,7 @@
 <lastmod>2026-10-21T00:00:00+09:00</lastmod>
 </url>
 <url>
-<loc>https://makietan.github.io/paper/2026/10/21/report2.html</loc>
+<loc>https://makietan.github.io/paper/design/2026/10/21/report2.html</loc>
 <lastmod>2026-10-21T00:00:00+09:00</lastmod>
 </url>
 <url>
@@ -12459,6 +12459,9 @@
 </url>
 <url>
 <loc>https://makietan.github.io/category/credit</loc>
+</url>
+<url>
+<loc>https://makietan.github.io/category/design</loc>
 </url>
 <url>
 <loc>https://makietan.github.io/category/game</loc>
@@ -12858,5 +12861,8 @@
 </url>
 <url>
 <loc>https://makietan.github.io/categories/osaka/</loc>
+</url>
+<url>
+<loc>https://makietan.github.io/categories/design/</loc>
 </url>
 </urlset>

@@ -19,8 +19,8 @@
 <meta property="og:locale" content="ja_JP" />
 <meta name="description" content="概要" />
 <meta name="twitter:description" property="og:description" content="概要" />
-<link rel="canonical" href="https://makietan.github.io/paper/2026/10/21/report2.html" />
-<meta property="og:url" content="https://makietan.github.io/paper/2026/10/21/report2.html" />
+<link rel="canonical" href="https://makietan.github.io/paper/design/2026/10/21/report2.html" />
+<meta property="og:url" content="https://makietan.github.io/paper/design/2026/10/21/report2.html" />
 <meta property="og:site_name" content="肉とお米とブロッコリー" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2026-10-21T00:00:00+09:00" />
@@ -30,7 +30,7 @@
 <meta name="twitter:site" content="@makietanx" />
 <meta name="twitter:creator" content="@makietan" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"makietan"},"dateModified":"2026-10-21T00:00:00+09:00","datePublished":"2026-10-21T00:00:00+09:00","description":"概要","headline":"論文デザインのレイアウトを追加してみた","mainEntityOfPage":{"@type":"WebPage","@id":"https://makietan.github.io/paper/2026/10/21/report2.html"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://makietan.github.io/assets/images/icon_144.png"},"name":"makietan"},"url":"https://makietan.github.io/paper/2026/10/21/report2.html"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"makietan"},"dateModified":"2026-10-21T00:00:00+09:00","datePublished":"2026-10-21T00:00:00+09:00","description":"概要","headline":"論文デザインのレイアウトを追加してみた","mainEntityOfPage":{"@type":"WebPage","@id":"https://makietan.github.io/paper/design/2026/10/21/report2.html"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://makietan.github.io/assets/images/icon_144.png"},"name":"makietan"},"url":"https://makietan.github.io/paper/design/2026/10/21/report2.html"}</script>
 <!-- End Jekyll SEO tag -->
 <script type="application/ld+json">
     {
@@ -129,12 +129,19 @@
       font-family: "Computer Modern Serif", "Noto Serif JP", "Yu Mincho", "Hiragino Mincho ProN", "MS PMincho", serif;
       font-size: 16px; 
       line-height: 1.7;
-      color: #000;
-      background-color: #fff;
+      
+      /* 真っ白な上質紙の質感を表現 */
+      color: #111;
+      background-color: #ffffff; /* 黄ばみのない純白 */
+      background-image: none; /* グラデーションを削除 */
+      border: 1px solid #e0e0e0; /* 紙のエッジを際立たせるごく薄いグレーの線 */
+      box-shadow: 
+        0 4px 6px rgba(0, 0, 0, 0.04),   /* 紙が少し浮いているような直下の影 */
+        0 10px 30px rgba(0, 0, 0, 0.06); /* 全体にかかる柔らかい影 */
+      
       max-width: 800px; /* 論文の横幅 */
-      margin: 2em auto;
-      padding: 40px; /* 論文らしい余白 */
-      box-shadow: 0 4px 12px rgba(0,0,0,0.05); /* 少しだけ紙のように浮かせる（不要なら削除） */
+      margin: 3em auto;
+      padding: 60px 55px; /* A4用紙の余白を意識した少し広めのパディング */
       
       text-align: justify;
       hyphens: auto;
@@ -307,11 +314,16 @@
       </div><div class="date">
       <time class="dt-published" datetime="2026-10-21T00:00:00+09:00" itemprop="datePublished">2026年10月21日
       </time>
-    </div><div class="categories">
+    </div>
+
+    <!-- カテゴリーリンクをヘッダー内に移動 --><div class="categories">
         <span class="post-categories">
           
           
             <a href="https://makietan.github.io/categories/paper">paper</a>
+            &nbsp;
+          
+            <a href="https://makietan.github.io/categories/design">design</a>
             
           
         </span>
@@ -344,7 +356,7 @@
 
 <p>論文風のスタイルを適用した結果、本文の可読性が向上し、見出しや表、引用の視覚的な区別が明確になった。また、全体のレイアウトが論文に近い印象となり、学術的な雰囲気を醸成できた。</p>
 
-  </div><a class="u-url" href="/paper/2026/10/21/report2.html" hidden></a>
+  </div><a class="u-url" href="/paper/design/2026/10/21/report2.html" hidden></a>
 </article>
 
 <hr>
@@ -16335,6 +16347,7 @@
   
 
   
+
 
 
       </div>
