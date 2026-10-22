@@ -14,6 +14,8 @@ layout: default
   @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&display=swap');
 
   .latex-paper {
+      box-sizing: border-box;
+      width: 100%;
       font-family: "Computer Modern Serif", "Noto Serif JP", "Yu Mincho", "Hiragino Mincho ProN", "MS PMincho", serif;
       font-size: 16px; 
       line-height: 1.7;
@@ -190,6 +192,39 @@ layout: default
   }
   .latex-paper .footnotes p {
       text-indent: 0; /* 脚注の中は字下げしない */
+  }
+
+  @media screen and (max-width: 600px) {
+      .latex-paper {
+        margin: 1.5em auto;
+        padding: 32px 22px;
+        font-size: 15px;
+      }
+
+      .latex-paper .maketitle h1 {
+        font-size: 1.6em;
+      }
+
+      .latex-paper .abstract {
+        width: 100%;
+      }
+
+      .latex-paper blockquote {
+        margin-right: 0.5em;
+        margin-left: 0.5em;
+      }
+
+      .latex-paper table {
+        display: block;
+        max-width: 100%;
+        overflow-x: auto;
+      }
+
+      .latex-paper mjx-container[display="true"] {
+        max-width: 100%;
+        overflow-x: auto;
+        overflow-y: hidden;
+      }
   }
 </style>
 
