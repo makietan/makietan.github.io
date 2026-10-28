@@ -1,4 +1,54 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-10-27T17:44:21+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>日報を中心に、技術メモやイベント参加記録をまとめるブログです。</subtitle><author><name>makietan</name></author><entry><title type="html">アレが再発した上に前より酷いことになってるので皮膚科へまた行かないといけない…</title><link href="https://makietan.github.io/health/2026/10/27/report.html" rel="alternate" type="text/html" title="アレが再発した上に前より酷いことになってるので皮膚科へまた行かないといけない…" /><published>2026-10-27T00:00:00+09:00</published><updated>2026-10-27T00:00:00+09:00</updated><id>https://makietan.github.io/health/2026/10/27/report</id><content type="html" xml:base="https://makietan.github.io/health/2026/10/27/report.html"><![CDATA[<p>ちょっと目を離した隙に悪化してしまった。</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-10-28T13:26:36+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>日報を中心に、技術メモやイベント参加記録をまとめるブログです。</subtitle><author><name>makietan</name></author><entry><title type="html">Xのシャドウバンをチェックできる機能が公式から提供されている</title><link href="https://makietan.github.io/twitter/2026/10/28/report.html" rel="alternate" type="text/html" title="Xのシャドウバンをチェックできる機能が公式から提供されている" /><published>2026-10-28T00:00:00+09:00</published><updated>2026-10-28T00:00:00+09:00</updated><id>https://makietan.github.io/twitter/2026/10/28/report</id><content type="html" xml:base="https://makietan.github.io/twitter/2026/10/28/report.html"><![CDATA[<div class="card">
+  <a href="https://x.com/i/jf/under_the_hood/report"></a>
+  <div class="card__header">
+    <a href="https://x.com/i/jf/under_the_hood/report">x.com</a>
+  </div>
+  <div class="card__image">
+    <img src="https://abs.twimg.com/rweb/ssr/default/v2/og/image.png" />
+  </div>
+  <div class="card__title">
+    <p>X - 何でもアリのアプリ</p>
+  </div>
+  <div class="card__description">
+    <p></p>
+  </div>
+</div>
+
+<p>微塵も絡んだことないフォロワーの多いユーザーにブロックされてたので何が起因だったかを軽く調べようとしたら検索結果がまともに出てこなかった。</p>
+
+<p>シャドウバンされてるのかなと思って公式のチェック機能を使ってみた。</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>### 期間内のポスト
+
+1059
+
+### 期間
+
+2026/08/01
+〜
+
+2026/08/31
+UTC
+
+### レポート生成
+
+2026/09/09 23:59:59 UTC
+### ポストのラベル
+
+この期間にあなたのポストに付けられた、ポストの表示を制限する可能性のあるラベル。
+
+✅️ この期間にデータはありません
+
+### アカウントのラベル
+
+この期間にあなたのアカウントに付けられたラベルで、ポストの表示を制限する可能性があるもの。
+
+✅️ この期間にデータはありません
+</code></pre></div></div>
+
+<p>まぁ問題ないようだ。</p>
+
+<p>Xの検索がゴミすぎるだけか…シンプルにクソだな。</p>]]></content><author><name>makietan</name></author><category term="twitter" /><summary type="html"><![CDATA[x.com X - 何でもアリのアプリ]]></summary></entry><entry><title type="html">アレが再発した上に前より酷いことになってるので皮膚科へまた行かないといけない…</title><link href="https://makietan.github.io/health/2026/10/27/report.html" rel="alternate" type="text/html" title="アレが再発した上に前より酷いことになってるので皮膚科へまた行かないといけない…" /><published>2026-10-27T00:00:00+09:00</published><updated>2026-10-27T00:00:00+09:00</updated><id>https://makietan.github.io/health/2026/10/27/report</id><content type="html" xml:base="https://makietan.github.io/health/2026/10/27/report.html"><![CDATA[<p>ちょっと目を離した隙に悪化してしまった。</p>
 
 <p>そりゃ9月ずっと雨降ってたし、湿気で悪化するのも当然か。</p>
 
@@ -114,4 +164,4 @@ https://t.co/kUGjlRqcLa
 
 <h2 id="結果">結果</h2>
 
-<p>論文風のスタイルを適用した結果、本文の可読性が向上し、見出しや表、引用の視覚的な区別が明確になった。また、全体のレイアウトが論文に近い印象となり、学術的な雰囲気を醸成できた。</p>]]></content><author><name>makietan</name></author><category term="paper" /><category term="design" /><summary type="html"><![CDATA[概要]]></summary></entry><entry><title type="html">村上宗隆 35本塁打達成記念の太肉 #桂花ラーメン</title><link href="https://makietan.github.io/gourmet/2026/10/20/report.html" rel="alternate" type="text/html" title="村上宗隆 35本塁打達成記念の太肉 #桂花ラーメン" /><published>2026-10-20T00:00:00+09:00</published><updated>2026-10-20T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2026/10/20/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2026/10/20/report.html"><![CDATA[]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[ご飯感想ブログ「すずろ庵」へ遷移します]]></summary></entry><entry><title type="html">大きいチャーシューがまた違った印象を与えてくれる　中華そば専門 #邦ちゃん 新小岩店</title><link href="https://makietan.github.io/gourmet/2026/10/19/report.html" rel="alternate" type="text/html" title="大きいチャーシューがまた違った印象を与えてくれる　中華そば専門 #邦ちゃん 新小岩店" /><published>2026-10-19T00:00:00+09:00</published><updated>2026-10-19T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2026/10/19/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2026/10/19/report.html"><![CDATA[]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[ご飯感想ブログ「すずろ庵」へ遷移します]]></summary></entry></feed>
+<p>論文風のスタイルを適用した結果、本文の可読性が向上し、見出しや表、引用の視覚的な区別が明確になった。また、全体のレイアウトが論文に近い印象となり、学術的な雰囲気を醸成できた。</p>]]></content><author><name>makietan</name></author><category term="paper" /><category term="design" /><summary type="html"><![CDATA[概要]]></summary></entry><entry><title type="html">村上宗隆 35本塁打達成記念の太肉 #桂花ラーメン</title><link href="https://makietan.github.io/gourmet/2026/10/20/report.html" rel="alternate" type="text/html" title="村上宗隆 35本塁打達成記念の太肉 #桂花ラーメン" /><published>2026-10-20T00:00:00+09:00</published><updated>2026-10-20T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2026/10/20/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2026/10/20/report.html"><![CDATA[]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[ご飯感想ブログ「すずろ庵」へ遷移します]]></summary></entry></feed>
