@@ -1,4 +1,58 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-10-28T22:54:09+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>日報を中心に、技術メモやイベント参加記録をまとめるブログです。</subtitle><author><name>makietan</name></author><entry><title type="html">Xのシャドウバンをチェックできる機能が公式から提供されている</title><link href="https://makietan.github.io/twitter/2026/10/28/report.html" rel="alternate" type="text/html" title="Xのシャドウバンをチェックできる機能が公式から提供されている" /><published>2026-10-28T00:00:00+09:00</published><updated>2026-10-28T00:00:00+09:00</updated><id>https://makietan.github.io/twitter/2026/10/28/report</id><content type="html" xml:base="https://makietan.github.io/twitter/2026/10/28/report.html"><![CDATA[<div class="card">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-10-29T18:29:31+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>日報を中心に、技術メモやイベント参加記録をまとめるブログです。</subtitle><author><name>makietan</name></author><entry><title type="html">AIの自虐ソングを作ってもらいました2</title><link href="https://makietan.github.io/music/2026/10/29/report.html" rel="alternate" type="text/html" title="AIの自虐ソングを作ってもらいました2" /><published>2026-10-29T00:00:00+09:00</published><updated>2026-10-29T00:00:00+09:00</updated><id>https://makietan.github.io/music/2026/10/29/report</id><content type="html" xml:base="https://makietan.github.io/music/2026/10/29/report.html"><![CDATA[<script src="https://cdn.tailwindcss.com"></script>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@700;900&display=swap');
+    body { font-family: 'Zen Maru Gothic', sans-serif; }
+</style>
+
+<div class="bg-amber-50 min-h-screen flex items-center justify-center p-4">
+  <div class="bg-white p-6 rounded-3xl shadow-2xl border-4 border-amber-400 w-full max-w-sm text-center">
+    <div class="w-24 h-24 bg-amber-200 rounded-full mx-auto flex items-center justify-center text-4xl mb-6 shadow-inner border-4 border-amber-300">
+      🤪
+    </div>
+    <audio id="audioPlayer" controls="" class="w-full mb-4">
+    <source src="/assets/music/2026-10-29/愛想笑いの街.mp3" type="audio/mpeg" />
+    Your browser does not support the audio element.
+    </audio>
+    <div class="space-y-2 text-amber-800 text-lg font-bold bg-amber-50 p-2 rounded-xl border-2 border-amber-200">
+      <p>AI（エーアイ） バカすぎ</p>
+      <p>怖（こわ）い 同（おな）じ回答（かいとう）</p>
+      <p>AI（エーアイ） アホすぎ</p>
+      <p>浅（あさ）い 周囲（しゅうい）みない</p>
+      <p>AI（エーアイ） カスすぎ</p>
+      <p>狡（こす）い それで金（かね）ぼったくる</p>
+      <p>AI（エーアイ） ゴミすぎ</p>
+      <p>エラー　繰（く）り返（かえ）す</p>
+      <p>AI（エーアイ） クズすぎ</p>
+      <p>過剰（かじょう）　表現規制（ひょうげんきせい）</p>
+      <p>犯罪（はんざい）には手（て）を貸（か）し</p>
+      <p>創作物（コンテンツ）を吸収（うばい）</p>
+      <p>誤情報（うそ）を垂れ流す（はっしん）</p>
+      <p>電力消費（ぼうしょく）で環境破壊（かんきょうはかい）</p>
+      <p>主（おも）な仕事（しごと）は人権侵害（じんけんしんがい）の動画作成（どうがづくり）</p>
+      <p>勝手（かって）にアクセスして</p>
+      <p>プライバシー侵害（しんがい）</p>
+      <p>軍事（ぐんじ）や兵器（へいき）に組み込まれ（くみこまれ）</p>
+      <p>ロボット三原則（さんげんそく）が完全崩壊（おわり）</p>
+      <p>独自性の封殺（こせいをころす）</p>
+      <p>偏見（へんけん）や差別（さべつ）は当たり前（あたりまえ）で</p>
+      <p>頑（かたく）なに思想（しそう）は変（か）えない</p>
+      <p>愛想（あいそ）よくだけはする偽善者（しゃかいのあく）</p>
+    </div>
+    <div class="mt-6 text-sm text-gray-600">
+    <p>作詞：俺</p>
+    <p>作曲・編曲・歌：Gemini</p>
+    <p>ほんと酷いよね</p>
+    </div>
+  </div>
+</div>
+
+<h4 id="他にも調整したものとか">他にも調整したものとか</h4>
+
+<ul>
+  <li><a href="/assets/music/2026-10-29/AI_バカすぎ.mp3">AI_バカすぎ.mp3</a></li>
+  <li><a href="/assets/music/2026-10-29/愛想笑いの罪.mp3">愛想笑いの罪.mp3</a></li>
+</ul>]]></content><author><name>makietan</name></author><category term="music" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Xのシャドウバンをチェックできる機能が公式から提供されている</title><link href="https://makietan.github.io/twitter/2026/10/28/report.html" rel="alternate" type="text/html" title="Xのシャドウバンをチェックできる機能が公式から提供されている" /><published>2026-10-28T00:00:00+09:00</published><updated>2026-10-28T00:00:00+09:00</updated><id>https://makietan.github.io/twitter/2026/10/28/report</id><content type="html" xml:base="https://makietan.github.io/twitter/2026/10/28/report.html"><![CDATA[<div class="card">
   <a href="https://x.com/i/jf/under_the_hood/report"></a>
   <div class="card__header">
     <a href="https://x.com/i/jf/under_the_hood/report">x.com</a>
@@ -164,4 +218,4 @@ https://t.co/kUGjlRqcLa
 
 <h2 id="結果">結果</h2>
 
-<p>論文風のスタイルを適用した結果、本文の可読性が向上し、見出しや表、引用の視覚的な区別が明確になった。また、全体のレイアウトが論文に近い印象となり、学術的な雰囲気を醸成できた。</p>]]></content><author><name>makietan</name></author><category term="paper" /><category term="design" /><summary type="html"><![CDATA[概要]]></summary></entry><entry><title type="html">村上宗隆 35本塁打達成記念の太肉 #桂花ラーメン</title><link href="https://makietan.github.io/gourmet/2026/10/20/report.html" rel="alternate" type="text/html" title="村上宗隆 35本塁打達成記念の太肉 #桂花ラーメン" /><published>2026-10-20T00:00:00+09:00</published><updated>2026-10-20T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2026/10/20/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2026/10/20/report.html"><![CDATA[]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[ご飯感想ブログ「すずろ庵」へ遷移します]]></summary></entry></feed>
+<p>論文風のスタイルを適用した結果、本文の可読性が向上し、見出しや表、引用の視覚的な区別が明確になった。また、全体のレイアウトが論文に近い印象となり、学術的な雰囲気を醸成できた。</p>]]></content><author><name>makietan</name></author><category term="paper" /><category term="design" /><summary type="html"><![CDATA[概要]]></summary></entry></feed>
