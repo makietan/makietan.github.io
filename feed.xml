@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-10-29T21:31:26+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>日報を中心に、技術メモやイベント参加記録をまとめるブログです。</subtitle><author><name>makietan</name></author><entry><title type="html">AIの自虐ソングを作ってもらいました2</title><link href="https://makietan.github.io/music/2026/10/29/report.html" rel="alternate" type="text/html" title="AIの自虐ソングを作ってもらいました2" /><published>2026-10-29T00:00:00+09:00</published><updated>2026-10-29T00:00:00+09:00</updated><id>https://makietan.github.io/music/2026/10/29/report</id><content type="html" xml:base="https://makietan.github.io/music/2026/10/29/report.html"><![CDATA[<script src="https://cdn.tailwindcss.com"></script>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-10-29T21:47:43+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>日報を中心に、技術メモやイベント参加記録をまとめるブログです。</subtitle><author><name>makietan</name></author><entry><title type="html">AIの自虐ソングを作ってもらいました2</title><link href="https://makietan.github.io/music/2026/10/29/report.html" rel="alternate" type="text/html" title="AIの自虐ソングを作ってもらいました2" /><published>2026-10-29T00:00:00+09:00</published><updated>2026-10-29T00:00:00+09:00</updated><id>https://makietan.github.io/music/2026/10/29/report</id><content type="html" xml:base="https://makietan.github.io/music/2026/10/29/report.html"><![CDATA[<script src="https://cdn.tailwindcss.com"></script>
 
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@700;900&display=swap');
@@ -45,14 +45,36 @@
     <p>ほんと酷いよね</p>
     </div>
   </div>
-  <div>
-    <h2>他にも調整したものとか</h2>
-    <ul>
-      <li><a href="/assets/music/2026-10-29/AI_バカすぎ.mp3">AI_バカすぎ.mp3</a></li>
-      <li><a href="/assets/music/2026-10-29/愛想笑いの罪.mp3">愛想笑いの罪.mp3</a></li>
-    </ul>
-  </div>
-</div>]]></content><author><name>makietan</name></author><category term="music" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Xのシャドウバンをチェックできる機能が公式から提供されている</title><link href="https://makietan.github.io/twitter/2026/10/28/report.html" rel="alternate" type="text/html" title="Xのシャドウバンをチェックできる機能が公式から提供されている" /><published>2026-10-28T00:00:00+09:00</published><updated>2026-10-28T00:00:00+09:00</updated><id>https://makietan.github.io/twitter/2026/10/28/report</id><content type="html" xml:base="https://makietan.github.io/twitter/2026/10/28/report.html"><![CDATA[<div class="card">
+</div>
+<div class="bg-amber-50 min-h-screen flex items-center justify-center p-4">
+  <h2>他にも調整したものとか</h2>
+  <ul>
+    <li><a href="/assets/music/2026-10-29/AI_バカすぎ.mp3">AI_バカすぎ.mp3</a></li>
+    <li><a href="/assets/music/2026-10-29/愛想笑いの罪.mp3">愛想笑いの罪.mp3</a></li>
+  </ul>
+</div>]]></content><author><name>makietan</name></author><category term="music" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">右上親知らずを抜歯した</title><link href="https://makietan.github.io/health/2026/10/29/report2.html" rel="alternate" type="text/html" title="右上親知らずを抜歯した" /><published>2026-10-29T00:00:00+09:00</published><updated>2026-10-29T00:00:00+09:00</updated><id>https://makietan.github.io/health/2026/10/29/report2</id><content type="html" xml:base="https://makietan.github.io/health/2026/10/29/report2.html"><![CDATA[<p>えー…抜歯してきました。</p>
+
+<p>右上の親知らずです。</p>
+
+<p>ずっと渋ってましたが、ついに決心しました。</p>
+
+<p>ちょっと虫歯になってしまっていて、放置しておくと悪化しそうだったので抜くことにしました。</p>
+
+<p>麻酔をしてからの抜歯だったので、痛みはほとんどありませんでしたが、やはり少し怖かったです。</p>
+
+<p>手が震えてました麻酔で。</p>
+
+<p>大丈夫かな麻酔の後遺症。</p>
+
+<p>顔は腫れてるけど、見た感じは正直わからない。</p>
+
+<p>ほうれい線が少し目立つような気もする。</p>
+
+<p>腫れが引くのにどれくらいかかるんだろう。</p>
+
+<p>食事もちゃんとできるかな。</p>
+
+<p>とにかく今日は安静にしておこう。</p>]]></content><author><name>makietan</name></author><category term="health" /><summary type="html"><![CDATA[えー…抜歯してきました。]]></summary></entry><entry><title type="html">Xのシャドウバンをチェックできる機能が公式から提供されている</title><link href="https://makietan.github.io/twitter/2026/10/28/report.html" rel="alternate" type="text/html" title="Xのシャドウバンをチェックできる機能が公式から提供されている" /><published>2026-10-28T00:00:00+09:00</published><updated>2026-10-28T00:00:00+09:00</updated><id>https://makietan.github.io/twitter/2026/10/28/report</id><content type="html" xml:base="https://makietan.github.io/twitter/2026/10/28/report.html"><![CDATA[<div class="card">
   <a href="https://x.com/i/jf/under_the_hood/report"></a>
   <div class="card__header">
     <a href="https://x.com/i/jf/under_the_hood/report">x.com</a>
@@ -200,22 +222,4 @@ https://t.co/kUGjlRqcLa
 - 東京メトロ最適周遊ルート（乗換駅・降車駅、距離、各区間のIC運賃明細）
 - 運賃比較と損益分岐点（最安値の判定）
 - ルート上の未訪問ちゃん系ラーメン店舗（最新の検索結果に基づく）
-</code></pre></div></div>]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[下記のプロンプトを使うといい感じに情報を出してくれると Gemini は言っているが、実際にどうなるかは試してみる必要がある。]]></summary></entry><entry><title type="html">論文デザインのレイアウトを追加してみた</title><link href="https://makietan.github.io/paper/design/2026/10/21/report2.html" rel="alternate" type="text/html" title="論文デザインのレイアウトを追加してみた" /><published>2026-10-21T00:00:00+09:00</published><updated>2026-10-21T00:00:00+09:00</updated><id>https://makietan.github.io/paper/design/2026/10/21/report2</id><content type="html" xml:base="https://makietan.github.io/paper/design/2026/10/21/report2.html"><![CDATA[<h2 id="概要">概要</h2>
-
-<p>昨今、論文のデザインやレイアウトに関する関心が高まっている。本稿では、論文風のレイアウトを追加する試みについて報告する。</p>
-
-<h2 id="背景">背景</h2>
-
-<p>論文のレイアウトは、内容の理解や読みやすさに大きく影響する。従来のウェブ記事のレイアウトでは、論文特有の形式や美学を十分に表現できないことがある。</p>
-
-<h2 id="方法">方法</h2>
-
-<p>本稿では、既存のウェブ記事のレイアウトをベースに、論文風のスタイルを追加する方法を検討した。具体的には、フォント、段落、見出し、表、引用などのスタイルを論文に近づけるように調整した。</p>
-
-<p>数式の例として、次の二次方程式の解の公式を示す。</p>
-
-\[x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}\]
-
-<h2 id="結果">結果</h2>
-
-<p>論文風のスタイルを適用した結果、本文の可読性が向上し、見出しや表、引用の視覚的な区別が明確になった。また、全体のレイアウトが論文に近い印象となり、学術的な雰囲気を醸成できた。</p>]]></content><author><name>makietan</name></author><category term="paper" /><category term="design" /><summary type="html"><![CDATA[概要]]></summary></entry></feed>
+</code></pre></div></div>]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[下記のプロンプトを使うといい感じに情報を出してくれると Gemini は言っているが、実際にどうなるかは試してみる必要がある。]]></summary></entry></feed>
