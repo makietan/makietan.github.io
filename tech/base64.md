@@ -134,6 +134,10 @@
       const outputEl = document.getElementById("base64-output");
       const decodeCb = document.getElementById("base64-decode-cb");
       const modeText = document.getElementById("base64-mode-text");
+      const params = new URLSearchParams(window.location.search);
+
+      inputEl.value = params.get("input") || "";
+      decodeCb.checked = params.get("type") === "decode";
 
       function update() {
         const input = inputEl.value;
@@ -153,6 +157,7 @@
 
       inputEl.addEventListener("input", update);
       decodeCb.addEventListener("change", update);
+      update();
     })();
   </script>
 </div>
