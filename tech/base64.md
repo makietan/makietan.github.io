@@ -55,6 +55,28 @@
       color: #374151;
       font-size: 0.9em;
     }
+    .base64-output-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 6px;
+    }
+    .base64-output-header .base64-label {
+      margin-bottom: 0;
+    }
+    .base64-copy-button {
+      min-width: 8rem;
+      padding: 6px 10px;
+      border: 1px solid #d1d5db;
+      border-radius: 4px;
+      background: #ffffff;
+      color: #374151;
+      cursor: pointer;
+    }
+    .base64-copy-button:disabled {
+      cursor: not-allowed;
+      opacity: 0.5;
+    }
     /* トグルスイッチのCSS */
     .base64-switch {
       position: relative;
@@ -106,7 +128,10 @@
   <label class="base64-label">入力</label>
   <textarea id="base64-input" class="base64-textarea" rows="4" placeholder="テキストを入力してください..."></textarea>
 
-  <label class="base64-label">出力</label>
+  <div class="base64-output-header">
+    <label class="base64-label" for="base64-output">出力</label>
+    <button type="button" id="base64-copy-button" class="base64-copy-button" disabled>コピー</button>
+  </div>
   <textarea id="base64-output" class="base64-textarea" rows="4" readonly placeholder="結果がここに表示されます..." style="background-color: #f3f4f6;"></textarea>
 
   <script>
@@ -134,6 +159,7 @@
       const outputEl = document.getElementById("base64-output");
       const decodeCb = document.getElementById("base64-decode-cb");
       const modeText = document.getElementById("base64-mode-text");
+      const copyButton = document.getElementById("base64-copy-button");
       const params = new URLSearchParams(window.location.search);
 
       inputEl.value = params.get("input") || "";
@@ -143,6 +169,7 @@
         const input = inputEl.value;
         if (!input) {
           outputEl.value = "";
+          copyButton.disabled = true;
           return;
         }
         
@@ -153,10 +180,24 @@
           modeText.textContent = "エンコード";
           outputEl.value = encodeBase64(input);
         }
+        copyButton.disabled = !outputEl.value;
+      }
+
+      async function copyOutput() {
+        try {
+          await navigator.clipboard.writeText(outputEl.value);
+          copyButton.textContent = "コピーしました";
+        } catch (e) {
+          copyButton.textContent = "コピーできませんでした";
+        }
+        window.setTimeout(() => {
+          copyButton.textContent = "コピー";
+        }, 1500);
       }
 
       inputEl.addEventListener("input", update);
       decodeCb.addEventListener("change", update);
+      copyButton.addEventListener("click", copyOutput);
       update();
     })();
   </script>
