@@ -1,4 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-10-31T18:22:17+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>日報を中心に、技術メモやイベント参加記録をまとめるブログです。</subtitle><author><name>makietan</name></author><entry><title type="html">AIの自虐ソングを作ってもらいました4</title><link href="https://makietan.github.io/music/2026/10/31/report.html" rel="alternate" type="text/html" title="AIの自虐ソングを作ってもらいました4" /><published>2026-10-31T00:00:00+09:00</published><updated>2026-10-31T00:00:00+09:00</updated><id>https://makietan.github.io/music/2026/10/31/report</id><content type="html" xml:base="https://makietan.github.io/music/2026/10/31/report.html"><![CDATA[<p>歌詞の増改築をして色々試しているこの謎企画。
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-11-01T17:15:28+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>日報を中心に、技術メモやイベント参加記録をまとめるブログです。</subtitle><author><name>makietan</name></author><entry><title type="html">git の著者情報を書き換える</title><link href="https://makietan.github.io/tech/2026/11/01/report.html" rel="alternate" type="text/html" title="git の著者情報を書き換える" /><published>2026-11-01T00:00:00+09:00</published><updated>2026-11-01T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2026/11/01/report</id><content type="html" xml:base="https://makietan.github.io/tech/2026/11/01/report.html"><![CDATA[<p>うっかり間違えてコミットしてしまった場合に、著者情報を書き換えるのをアカウント名を引数にするだけで簡単に行うことができる。</p>
+
+<p>これを <code class="language-plaintext highlighter-rouge">.gitconfig</code> の <code class="language-plaintext highlighter-rouge">[alias]</code> セクションに追加する。</p>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>rewrite-author <span class="o">=</span> <span class="s2">"!f() { </span><span class="se">\</span><span class="s2">
+    FILTER_BRANCH_SQUELCH_WARNING=1 git filter-branch -f --env-filter </span><span class="se">\"</span><span class="s2"> </span><span class="se">\</span><span class="s2">
+        GIT_AUTHOR_NAME='</span><span class="nv">$1</span><span class="s2">'; </span><span class="se">\</span><span class="s2">
+        GIT_AUTHOR_EMAIL='</span><span class="nv">$1</span><span class="s2">@users.noreply.github.com'; </span><span class="se">\</span><span class="s2">
+        GIT_COMMITTER_NAME='</span><span class="nv">$1</span><span class="s2">'; </span><span class="se">\</span><span class="s2">
+        GIT_COMMITTER_EMAIL='</span><span class="nv">$1</span><span class="s2">@users.noreply.github.com'; </span><span class="se">\</span><span class="s2">
+    </span><span class="se">\"</span><span class="s2"> HEAD; </span><span class="se">\</span><span class="s2">
+}; f"</span>
+</code></pre></div></div>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[うっかり間違えてコミットしてしまった場合に、著者情報を書き換えるのをアカウント名を引数にするだけで簡単に行うことができる。]]></summary></entry><entry><title type="html">AIの自虐ソングを作ってもらいました4</title><link href="https://makietan.github.io/music/2026/10/31/report.html" rel="alternate" type="text/html" title="AIの自虐ソングを作ってもらいました4" /><published>2026-10-31T00:00:00+09:00</published><updated>2026-10-31T00:00:00+09:00</updated><id>https://makietan.github.io/music/2026/10/31/report</id><content type="html" xml:base="https://makietan.github.io/music/2026/10/31/report.html"><![CDATA[<p>歌詞の増改築をして色々試しているこの謎企画。
 第4回目の今回は微調整だけです。
 前回もそうだったけど、微調整だけでも結構印象が変わるんですよね。</p>
 
@@ -338,26 +350,4 @@ UTC
 
 <p>やっぱり早めに皮膚科に行って診てもらうしかないな。</p>
 
-<p>つらいぜ…。</p>]]></content><author><name>makietan</name></author><category term="health" /><summary type="html"><![CDATA[ちょっと目を離した隙に悪化してしまった。]]></summary></entry><entry><title type="html">TOKYO BRT 4DX2D #ど・みそ ららぽーと豊洲店</title><link href="https://makietan.github.io/gourmet/2026/10/26/report.html" rel="alternate" type="text/html" title="TOKYO BRT 4DX2D #ど・みそ ららぽーと豊洲店" /><published>2026-10-26T00:00:00+09:00</published><updated>2026-10-26T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2026/10/26/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2026/10/26/report.html"><![CDATA[]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[ご飯感想ブログ「すずろ庵」へ遷移します]]></summary></entry><entry><title type="html">ナイフで肉が切れない… #ステーキ屋松 本郷三丁目店</title><link href="https://makietan.github.io/gourmet/2026/10/25/report.html" rel="alternate" type="text/html" title="ナイフで肉が切れない… #ステーキ屋松 本郷三丁目店" /><published>2026-10-25T00:00:00+09:00</published><updated>2026-10-25T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2026/10/25/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2026/10/25/report.html"><![CDATA[]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[ご飯感想ブログ「すずろ庵」へ遷移します]]></summary></entry><entry><title type="html">東京湾大華火祭が開催される</title><link href="https://makietan.github.io/japan/2026/10/24/report.html" rel="alternate" type="text/html" title="東京湾大華火祭が開催される" /><published>2026-10-24T00:00:00+09:00</published><updated>2026-10-24T00:00:00+09:00</updated><id>https://makietan.github.io/japan/2026/10/24/report</id><content type="html" xml:base="https://makietan.github.io/japan/2026/10/24/report.html"><![CDATA[<div class="card">
-  <a href="https://www.city.minato.tokyo.jp/chiikishinkou/hanabi.html"></a>
-  <div class="card__header">
-    <a href="https://www.city.minato.tokyo.jp/chiikishinkou/hanabi.html">www.city.minato.tokyo.jp</a>
-  </div>
-  <div class="card__image">
-    <img src="https://www.city.minato.tokyo.jp/images/172095/20251110100635.jpg" />
-  </div>
-  <div class="card__title">
-    <p>東京湾大華火祭</p>
-  </div>
-  <div class="card__description">
-    <p>東京都港区ホームページです。</p>
-  </div>
-</div>
-
-<p>平成27年の開催が最後だったらしい。</p>
-
-<p>区政80周年を記念して復活するみたいだ。</p>
-
-<p>土曜日の17:30から19:00までだから見られるかな。</p>
-
-<p>散歩しながらぶらぶらと見よう。</p>]]></content><author><name>makietan</name></author><category term="japan" /><summary type="html"><![CDATA[www.city.minato.tokyo.jp 東京湾大華火祭 東京都港区ホームページです。]]></summary></entry></feed>
+<p>つらいぜ…。</p>]]></content><author><name>makietan</name></author><category term="health" /><summary type="html"><![CDATA[ちょっと目を離した隙に悪化してしまった。]]></summary></entry><entry><title type="html">TOKYO BRT 4DX2D #ど・みそ ららぽーと豊洲店</title><link href="https://makietan.github.io/gourmet/2026/10/26/report.html" rel="alternate" type="text/html" title="TOKYO BRT 4DX2D #ど・みそ ららぽーと豊洲店" /><published>2026-10-26T00:00:00+09:00</published><updated>2026-10-26T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2026/10/26/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2026/10/26/report.html"><![CDATA[]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[ご飯感想ブログ「すずろ庵」へ遷移します]]></summary></entry><entry><title type="html">ナイフで肉が切れない… #ステーキ屋松 本郷三丁目店</title><link href="https://makietan.github.io/gourmet/2026/10/25/report.html" rel="alternate" type="text/html" title="ナイフで肉が切れない… #ステーキ屋松 本郷三丁目店" /><published>2026-10-25T00:00:00+09:00</published><updated>2026-10-25T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2026/10/25/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2026/10/25/report.html"><![CDATA[]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[ご飯感想ブログ「すずろ庵」へ遷移します]]></summary></entry></feed>
