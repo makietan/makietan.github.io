@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-11-01T19:09:53+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>日報を中心に、技術メモやイベント参加記録をまとめるブログです。</subtitle><author><name>makietan</name></author><entry><title type="html">git の著者情報を書き換える</title><link href="https://makietan.github.io/tech/2026/11/01/report.html" rel="alternate" type="text/html" title="git の著者情報を書き換える" /><published>2026-11-01T00:00:00+09:00</published><updated>2026-11-01T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2026/11/01/report</id><content type="html" xml:base="https://makietan.github.io/tech/2026/11/01/report.html"><![CDATA[<p>うっかり間違えてコミットしてしまった場合に、著者情報を書き換えるのをアカウント名を引数にするだけで簡単に行うことができる。</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-11-01T21:44:57+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>日報を中心に、技術メモやイベント参加記録をまとめるブログです。</subtitle><author><name>makietan</name></author><entry><title type="html">git の著者情報を書き換える</title><link href="https://makietan.github.io/tech/2026/11/01/report.html" rel="alternate" type="text/html" title="git の著者情報を書き換える" /><published>2026-11-01T00:00:00+09:00</published><updated>2026-11-01T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2026/11/01/report</id><content type="html" xml:base="https://makietan.github.io/tech/2026/11/01/report.html"><![CDATA[<p>うっかり間違えてコミットしてしまった場合に、著者情報を書き換えるのをアカウント名を引数にするだけで簡単に行うことができる。</p>
 
 <p>これを <code class="language-plaintext highlighter-rouge">.gitconfig</code> の <code class="language-plaintext highlighter-rouge">[alias]</code> セクションに追加する。</p>
 
@@ -10,7 +10,197 @@
         GIT_COMMITTER_EMAIL='</span><span class="nv">$1</span><span class="s2">@users.noreply.github.com'; </span><span class="se">\</span><span class="s2">
     </span><span class="se">\"</span><span class="s2"> HEAD; </span><span class="se">\</span><span class="s2">
 }; f"</span>
-</code></pre></div></div>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[うっかり間違えてコミットしてしまった場合に、著者情報を書き換えるのをアカウント名を引数にするだけで簡単に行うことができる。]]></summary></entry><entry><title type="html">AIの自虐ソングを作ってもらいました4</title><link href="https://makietan.github.io/music/2026/10/31/report.html" rel="alternate" type="text/html" title="AIの自虐ソングを作ってもらいました4" /><published>2026-10-31T00:00:00+09:00</published><updated>2026-10-31T00:00:00+09:00</updated><id>https://makietan.github.io/music/2026/10/31/report</id><content type="html" xml:base="https://makietan.github.io/music/2026/10/31/report.html"><![CDATA[<p>歌詞の増改築をして色々試しているこの謎企画。
+</code></pre></div></div>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[うっかり間違えてコミットしてしまった場合に、著者情報を書き換えるのをアカウント名を引数にするだけで簡単に行うことができる。]]></summary></entry><entry><title type="html">スパロボDDの遠征の残り回数《11月分》</title><link href="https://makietan.github.io/game/srwdd/2026/11/01/report2.html" rel="alternate" type="text/html" title="スパロボDDの遠征の残り回数《11月分》" /><published>2026-11-01T00:00:00+09:00</published><updated>2026-11-01T00:00:00+09:00</updated><id>https://makietan.github.io/game/srwdd/2026/11/01/report2</id><content type="html" xml:base="https://makietan.github.io/game/srwdd/2026/11/01/report2.html"><![CDATA[<p>上にいるほど育てたいキャラ。</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">スパロボDDの遠征の残り回数</span><span class="pi">:</span>
+  <span class="na">確認日時</span><span class="pi">:</span> <span class="s">2026-11-01 21:35</span>
+  <span class="na">最大値</span><span class="pi">:</span> <span class="m">12</span>
+  <span class="na">キリコ・キューピィー</span><span class="pi">:</span>
+    <span class="na">精密攻撃</span><span class="pi">:</span> <span class="m">1</span>
+  <span class="na">綾波レイ</span><span class="pi">:</span>
+    <span class="na">シンクロ率（レイ）</span><span class="pi">:</span> <span class="m">1</span>
+  <span class="na">アムロ・レイ</span><span class="pi">:</span>
+    <span class="na">ニュータイプ（アムロ）</span><span class="pi">:</span> <span class="m">2</span>
+    <span class="na">一年戦争の英雄</span><span class="pi">:</span> <span class="m">2</span>
+  <span class="na">ユンナ・ドーソン</span><span class="pi">:</span>
+    <span class="na">フェノメナー（ユンナ）</span><span class="pi">:</span> <span class="m">4</span>
+  <span class="na">日向アキト</span><span class="pi">:</span>
+    <span class="na">ハンニバルの亡霊</span><span class="pi">:</span> <span class="m">1</span>
+  <span class="na">流竜馬</span><span class="pi">:</span>
+    <span class="na">伝説の男</span><span class="pi">:</span> <span class="m">5</span>
+    <span class="na">元ゲッターリーダー</span><span class="pi">:</span> <span class="m">2</span>
+    <span class="na">［X］ゲッターチーム</span><span class="pi">:</span> <span class="m">9</span>
+  <span class="na">葵豹馬</span><span class="pi">:</span>
+    <span class="na">リーダーシップ（バトルチーム）</span><span class="pi">:</span> <span class="m">4</span>
+  <span class="na">デビルマン</span><span class="pi">:</span>
+    <span class="na">デビルマン</span><span class="pi">:</span> <span class="m">2</span>
+    <span class="na">悪魔の力</span><span class="pi">:</span> <span class="m">2</span>
+  <span class="na">大門恵留</span><span class="pi">:</span>
+    <span class="na">フェノメナー（メグ）</span><span class="pi">:</span> <span class="m">4</span>
+  <span class="na">兜甲児</span><span class="pi">:</span>
+    <span class="na">一心同体</span><span class="pi">:</span> <span class="m">7</span>
+    <span class="na">底力（甲児）</span><span class="pi">:</span> <span class="m">2</span>
+    <span class="na">［X］チームワーク（光子力研究所）</span><span class="pi">:</span> <span class="m">7</span>
+  <span class="na">ジュドー・アーシタ</span><span class="pi">:</span>
+    <span class="na">［+］反骨心（ジュドー）</span><span class="pi">:</span> <span class="m">5</span>
+  <span class="na">一文字號</span><span class="pi">:</span>
+    <span class="na">［+］強靭（號）</span><span class="pi">:</span> <span class="m">2</span>
+    <span class="na">［+］起死回生（號）</span><span class="pi">:</span> <span class="m">2</span>
+  <span class="na">流拓馬</span><span class="pi">:</span>
+    <span class="na">流竜馬の息子</span><span class="pi">:</span> <span class="m">1</span>
+    <span class="na">［+］ゲッターの申し子</span><span class="pi">:</span> <span class="m">3</span>
+  <span class="na">ソゴル・キョウ</span><span class="pi">:</span>
+    <span class="na">セレブラント（キョウ）</span><span class="pi">:</span> <span class="m">1</span>
+  <span class="na">テンカワ・アキト</span><span class="pi">:</span>
+    <span class="na">木蓮式・柔</span><span class="pi">:</span> <span class="m">4</span>
+  <span class="na">剛健一</span><span class="pi">:</span>
+    <span class="na">リーダーシップ（ボルテスチーム）</span><span class="pi">:</span> <span class="m">1</span>
+    <span class="na">チームワーク（ボルテスチーム）</span><span class="pi">:</span> <span class="m">3</span>
+  <span class="na">枢木スザク</span><span class="pi">:</span>
+    <span class="na">［+］ギアスの呪縛</span><span class="pi">:</span> <span class="m">1</span>
+    <span class="na">［+］ナイトオブゼロ</span><span class="pi">:</span> <span class="m">3</span>
+  <span class="na">トロワ・バートン</span><span class="pi">:</span>
+    <span class="na">アタッカー（トロワ）</span><span class="pi">:</span> <span class="m">3</span>
+    <span class="na">［+］見切り（トロワ）</span><span class="pi">:</span> <span class="m">1</span>
+  <span class="na">ゼンカイザー</span><span class="pi">:</span>
+    <span class="na">全力全開</span><span class="pi">:</span> <span class="m">2</span>
+    <span class="na">［+］ポジティブ全開</span><span class="pi">:</span> <span class="m">2</span>
+  <span class="na">ディーダリオン・ザアム</span><span class="pi">:</span>
+    <span class="na">ディカアス</span><span class="pi">:</span> <span class="m">6</span>
+    <span class="na">闘争心（ディド）</span><span class="pi">:</span> <span class="m">6</span>
+  <span class="na">リナリア・クオ</span><span class="pi">:</span>
+    <span class="na">フェノメナー（リナリア）</span><span class="pi">:</span> <span class="m">5</span>
+    <span class="na">［X］トライアド</span><span class="pi">:</span> <span class="m">3</span>
+  <span class="na">神足麻衣子</span><span class="pi">:</span>
+    <span class="na">フェノメナー（マイコ）</span><span class="pi">:</span> <span class="m">7</span>
+    <span class="na">［X］トライアド</span><span class="pi">:</span> <span class="m">6</span>
+  <span class="na">ベネット・コリーヴレッカン</span><span class="pi">:</span>
+    <span class="na">見切り（ベネット）</span><span class="pi">:</span> <span class="m">3</span>
+    <span class="na">［X］スリーサム</span><span class="pi">:</span> <span class="m">6</span>
+  <span class="na">上牧早希実</span><span class="pi">:</span>
+    <span class="na">フェノメナー（サキミ）</span><span class="pi">:</span> <span class="m">7</span>
+    <span class="na">［X］スリーサム</span><span class="pi">:</span> <span class="m">2</span>
+  <span class="na">シオン・ザバ</span><span class="pi">:</span>
+    <span class="na">聖戦士（シオン）</span><span class="pi">:</span> <span class="m">3</span>
+    <span class="na">オーラ力（シオン）</span><span class="pi">:</span> <span class="m">5</span>
+  <span class="na">エッジ・セインクラウス</span><span class="pi">:</span>
+    <span class="na">アタッカー（エッジ）</span><span class="pi">:</span> <span class="m">5</span>
+    <span class="na">見切り（エッジ）</span><span class="pi">:</span> <span class="m">6</span>
+    <span class="na">［X］ブラックホール・エンジン制御技能</span><span class="pi">:</span> <span class="m">7</span>
+  <span class="na">三日月・オーガス</span><span class="pi">:</span>
+    <span class="na">阿頼耶識（三日月）</span><span class="pi">:</span> <span class="m">4</span>
+    <span class="na">鉄華団（三日月）</span><span class="pi">:</span> <span class="m">2</span>
+  <span class="na">破嵐万丈</span><span class="pi">:</span>
+    <span class="na">噂の破嵐万丈</span><span class="pi">:</span> <span class="m">8</span>
+    <span class="na">闘争心（万丈）</span><span class="pi">:</span> <span class="m">6</span>
+  <span class="na">バナージ・リンクス</span><span class="pi">:</span>
+    <span class="na">ニュータイプ（バナージ）</span><span class="pi">:</span> <span class="m">6</span>
+    <span class="na">箱の担い手</span><span class="pi">:</span> <span class="m">5</span>
+    <span class="na">［X］人の中から発した光</span><span class="pi">:</span> <span class="m">5</span>
+  <span class="na">アレルヤ・ハプティズム</span><span class="pi">:</span>
+    <span class="na">覚悟（アレルヤ）</span><span class="pi">:</span> <span class="m">5</span>
+    <span class="na">［+］ガンダムマイスター（アレルヤ）</span><span class="pi">:</span> <span class="m">5</span>
+  <span class="na">シン・アスカ</span><span class="pi">:</span>
+    <span class="na">［+］コーディネイター（シン）</span><span class="pi">:</span> <span class="m">7</span>
+    <span class="na">［+］SEED（シン）</span><span class="pi">:</span> <span class="m">1</span>
+  <span class="na">アルバトロ・ナル・エイジ・アスカ</span><span class="pi">:</span>
+    <span class="na">レイへの指示</span><span class="pi">:</span> <span class="m">6</span>
+    <span class="na">ふたつの血</span><span class="pi">:</span> <span class="m">2</span>
+  <span class="na">青馬剣之介時貞</span><span class="pi">:</span>
+    <span class="na">［+］纏い手</span><span class="pi">:</span> <span class="m">2</span>
+    <span class="na">［+］見切り（剣之介）</span><span class="pi">:</span> <span class="m">4</span>
+  <span class="na">シーブック・アノー</span><span class="pi">:</span>
+    <span class="na">［+］ニュータイプ（シーブック）</span><span class="pi">:</span> <span class="m">4</span>
+  <span class="na">クリスチーナ・マッケンジー</span><span class="pi">:</span>
+    <span class="na">［+］覚悟（クリス）</span><span class="pi">:</span> <span class="m">6</span>
+  <span class="na">コウ・ウラキ</span><span class="pi">:</span>
+    <span class="na">［+］ホーネット・アタック</span><span class="pi">:</span> <span class="m">4</span>
+  <span class="na">ULTRAMAN</span><span class="pi">:</span>
+    <span class="na">［+］ウルトラマン因子</span><span class="pi">:</span> <span class="m">12</span>
+  <span class="na">ガス山本</span><span class="pi">:</span>
+    <span class="na">魔動戦士（ガス）</span><span class="pi">:</span> <span class="m">12</span>
+    <span class="na">魔動力（ガス）</span><span class="pi">:</span> <span class="m">12</span>
+  <span class="na">ラビ</span><span class="pi">:</span>
+    <span class="na">魔動戦士（ラビ）</span><span class="pi">:</span> <span class="m">11</span>
+    <span class="na">魔動力（ラビ）</span><span class="pi">:</span> <span class="m">11</span>
+  <span class="na">カトル・ラバーバ・ウィナー</span><span class="pi">:</span>
+    <span class="na">［+］看破（カトル）</span><span class="pi">:</span> <span class="m">7</span>
+    <span class="na">［+］気力限界突破（カトル）</span><span class="pi">:</span> <span class="m">9</span>
+  <span class="na">デューク・フリード（UFOロボ）</span><span class="pi">:</span>
+    <span class="na">フリード星の王子（UFOロボ）</span><span class="pi">:</span> <span class="m">7</span>
+    <span class="na">底力（デューク（UFOロボ））</span><span class="pi">:</span> <span class="m">1</span>
+  <span class="na">天空侍斗牙</span><span class="pi">:</span>
+    <span class="na">［+］G因子</span><span class="pi">:</span> <span class="m">8</span>
+  <span class="na">獅子王凱</span><span class="pi">:</span>
+    <span class="na">勇者（凱）</span><span class="pi">:</span> <span class="m">10</span>
+    <span class="na">Gストーン（凱）</span><span class="pi">:</span> <span class="m">9</span>
+    <span class="na">［X］勇気ある戦い</span><span class="pi">:</span> <span class="m">7</span>
+  <span class="na">ゼクス・マーキス</span><span class="pi">:</span>
+    <span class="na">［+］火消しの風</span><span class="pi">:</span> <span class="m">7</span>
+    <span class="na">［+］覚悟（ゼクス）</span><span class="pi">:</span> <span class="m">5</span>
+  <span class="na">ショウ・ザマ</span><span class="pi">:</span>
+    <span class="na">聖戦士（ショウ）</span><span class="pi">:</span> <span class="m">6</span>
+    <span class="na">オーラ力（ショウ）</span><span class="pi">:</span> <span class="m">6</span>
+  <span class="na">時縞ハルト</span><span class="pi">:</span>
+    <span class="na">カミツキ（ハルト）</span><span class="pi">:</span> <span class="m">8</span>
+    <span class="na">世界と戦う少年</span><span class="pi">:</span> <span class="m">6</span>
+  <span class="na">ロックオン・ストラトス</span><span class="pi">:</span>
+    <span class="na">ガンダムマイスター（ロックオン）</span><span class="pi">:</span> <span class="m">6</span>
+    <span class="na">［+］戦意高揚（ロックオン）</span><span class="pi">:</span> <span class="m">9</span>
+  <span class="na">碇シンジ</span><span class="pi">:</span>
+    <span class="na">底力（シンジ）</span><span class="pi">:</span> <span class="m">10</span>
+  <span class="na">ヒイロ・ユイ</span><span class="pi">:</span>
+    <span class="na">ゼロシステム適応者</span><span class="pi">:</span> <span class="m">9</span>
+    <span class="na">ピンポイント攻撃</span><span class="pi">:</span> <span class="m">5</span>
+  <span class="na">リョウマ</span><span class="pi">:</span>
+    <span class="na">流竜馬の記憶</span><span class="pi">:</span> <span class="m">3</span>
+    <span class="na">［X］一心同体（ノワール）</span><span class="pi">:</span> <span class="m">2</span>
+  <span class="na">ハヤト</span><span class="pi">:</span>
+    <span class="na">神隼人の記憶</span><span class="pi">:</span> <span class="m">8</span>
+    <span class="na">［X］一心同体（ノワール）</span><span class="pi">:</span> <span class="m">4</span>
+  <span class="na">ムサシ</span><span class="pi">:</span>
+    <span class="na">巴武蔵の記憶</span><span class="pi">:</span> <span class="m">4</span>
+    <span class="na">［X］一心同体（ノワール）</span><span class="pi">:</span> <span class="m">8</span>
+  <span class="na">楯剣人</span><span class="pi">:</span>
+    <span class="na">エリオス王家の血</span><span class="pi">:</span> <span class="m">5</span>
+    <span class="na">反骨心（剣人）</span><span class="pi">:</span> <span class="m">7</span>
+  <span class="na">蒼斧蛍汰</span><span class="pi">:</span>
+    <span class="na">デュアルカインド（蛍汰）</span><span class="pi">:</span> <span class="m">6</span>
+    <span class="na">ヘッドダイバー（蛍汰）</span><span class="pi">:</span> <span class="m">8</span>
+  <span class="na">大牙剣</span><span class="pi">:</span>
+    <span class="na">アーガマの血</span><span class="pi">:</span> <span class="m">8</span>
+    <span class="na">闘争心（剣）</span><span class="pi">:</span> <span class="m">2</span>
+  <span class="na">戦部ワタル</span><span class="pi">:</span>
+    <span class="na">救世主</span><span class="pi">:</span> <span class="m">10</span>
+    <span class="na">底力（ワタル）</span><span class="pi">:</span> <span class="m">10</span>
+  <span class="na">遥大地</span><span class="pi">:</span>
+    <span class="na">魔動戦士（大地）</span><span class="pi">:</span> <span class="m">12</span>
+    <span class="na">魔動力（大地）</span><span class="pi">:</span> <span class="m">12</span>
+  <span class="na">昭弘・アルトランド</span><span class="pi">:</span>
+    <span class="na">鉄華団（昭弘）</span><span class="pi">:</span> <span class="m">9</span>
+    <span class="na">専心（昭弘）</span><span class="pi">:</span> <span class="m">9</span>
+  <span class="na">マオ・ルーシェン</span><span class="pi">:</span>
+    <span class="na">セレブラント（ルーシェン）</span><span class="pi">:</span> <span class="m">9</span>
+    <span class="na">ガンナー（ルーシェン）</span><span class="pi">:</span> <span class="m">10</span>
+  <span class="na">オルドリン・ジヴォン</span><span class="pi">:</span>
+    <span class="na">筆頭騎士</span><span class="pi">:</span> <span class="m">10</span>
+    <span class="na">［+］アタッカー（オルドリン）</span><span class="pi">:</span> <span class="m">11</span>
+  <span class="na">神隼人</span><span class="pi">:</span>
+    <span class="na">［X］ゲッターチーム</span><span class="pi">:</span> <span class="m">2</span>
+  <span class="na">草薙剣児</span><span class="pi">:</span>
+    <span class="na">見切り（剣児）</span><span class="pi">:</span> <span class="m">10</span>
+    <span class="na">防人（剣児）</span><span class="pi">:</span> <span class="m">10</span>
+  <span class="na">鋼鉄ジーグ</span><span class="pi">:</span>
+    <span class="na">サイボーグ（宙）</span><span class="pi">:</span> <span class="m">10</span>
+    <span class="na">反骨心（宙）</span><span class="pi">:</span> <span class="m">10</span>
+  <span class="na">車弁慶</span><span class="pi">:</span>
+    <span class="na">［X］ゲッタービーム</span><span class="pi">:</span> <span class="m">8</span>
+  <span class="na">ラトゥーニ・スゥボータ</span><span class="pi">:</span>
+    <span class="na">ブーステッド・チルドレン（ラトゥーニ）</span><span class="pi">:</span> <span class="m">8</span>
+  <span class="na">シュウ・シラカワ</span><span class="pi">:</span>
+    <span class="na">天才（シュウ）</span><span class="pi">:</span> <span class="m">12</span>
+    <span class="na">メタ・ネクシャリスト</span><span class="pi">:</span> <span class="m">12</span>
+</code></pre></div></div>]]></content><author><name>makietan</name></author><category term="game" /><category term="srwdd" /><summary type="html"><![CDATA[上にいるほど育てたいキャラ。]]></summary></entry><entry><title type="html">AIの自虐ソングを作ってもらいました4</title><link href="https://makietan.github.io/music/2026/10/31/report.html" rel="alternate" type="text/html" title="AIの自虐ソングを作ってもらいました4" /><published>2026-10-31T00:00:00+09:00</published><updated>2026-10-31T00:00:00+09:00</updated><id>https://makietan.github.io/music/2026/10/31/report</id><content type="html" xml:base="https://makietan.github.io/music/2026/10/31/report.html"><![CDATA[<p>歌詞の増改築をして色々試しているこの謎企画。
 第4回目の今回は微調整だけです。
 前回もそうだったけど、微調整だけでも結構印象が変わるんですよね。</p>
 
@@ -350,4 +540,4 @@ UTC
 
 <p>やっぱり早めに皮膚科に行って診てもらうしかないな。</p>
 
-<p>つらいぜ…。</p>]]></content><author><name>makietan</name></author><category term="health" /><summary type="html"><![CDATA[ちょっと目を離した隙に悪化してしまった。]]></summary></entry><entry><title type="html">TOKYO BRT 4DX2D #ど・みそ ららぽーと豊洲店</title><link href="https://makietan.github.io/gourmet/2026/10/26/report.html" rel="alternate" type="text/html" title="TOKYO BRT 4DX2D #ど・みそ ららぽーと豊洲店" /><published>2026-10-26T00:00:00+09:00</published><updated>2026-10-26T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2026/10/26/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2026/10/26/report.html"><![CDATA[]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[ご飯感想ブログ「すずろ庵」へ遷移します]]></summary></entry><entry><title type="html">ナイフで肉が切れない… #ステーキ屋松 本郷三丁目店</title><link href="https://makietan.github.io/gourmet/2026/10/25/report.html" rel="alternate" type="text/html" title="ナイフで肉が切れない… #ステーキ屋松 本郷三丁目店" /><published>2026-10-25T00:00:00+09:00</published><updated>2026-10-25T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2026/10/25/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2026/10/25/report.html"><![CDATA[]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[ご飯感想ブログ「すずろ庵」へ遷移します]]></summary></entry></feed>
+<p>つらいぜ…。</p>]]></content><author><name>makietan</name></author><category term="health" /><summary type="html"><![CDATA[ちょっと目を離した隙に悪化してしまった。]]></summary></entry><entry><title type="html">TOKYO BRT 4DX2D #ど・みそ ららぽーと豊洲店</title><link href="https://makietan.github.io/gourmet/2026/10/26/report.html" rel="alternate" type="text/html" title="TOKYO BRT 4DX2D #ど・みそ ららぽーと豊洲店" /><published>2026-10-26T00:00:00+09:00</published><updated>2026-10-26T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2026/10/26/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2026/10/26/report.html"><![CDATA[]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[ご飯感想ブログ「すずろ庵」へ遷移します]]></summary></entry></feed>
