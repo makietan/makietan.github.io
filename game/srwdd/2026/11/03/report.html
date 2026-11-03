@@ -1,0 +1,1056 @@
+<!DOCTYPE html>
+<html lang="ja"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/notosansjp.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=BIZ+UDGothic&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" /><!-- Begin Jekyll SEO tag v2.9.0 -->
+<title>インフィニットジャスティスガンダム弐式におけるメインスロットおよび必殺技スロット最適配置の検証 | 肉とお米とブロッコリー</title>
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:title" content="インフィニットジャスティスガンダム弐式におけるメインスロットおよび必殺技スロット最適配置の検証" />
+<meta name="author" content="makietan" />
+<meta property="og:locale" content="ja_JP" />
+<meta name="description" content="日報を中心に、技術メモやイベント参加記録をまとめるブログです。" />
+<meta name="twitter:description" property="og:description" content="日報を中心に、技術メモやイベント参加記録をまとめるブログです。" />
+<link rel="canonical" href="https://makietan.github.io/game/srwdd/2026/11/03/report.html" />
+<meta property="og:url" content="https://makietan.github.io/game/srwdd/2026/11/03/report.html" />
+<meta property="og:site_name" content="肉とお米とブロッコリー" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2026-11-03T00:00:00+09:00" />
+<meta property="article:modified_time" content="2026-11-03T00:00:00+09:00" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="インフィニットジャスティスガンダム弐式におけるメインスロットおよび必殺技スロット最適配置の検証" />
+<meta name="twitter:site" content="@makietanx" />
+<meta name="twitter:creator" content="@makietan" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"makietan"},"dateModified":"2026-11-03T00:00:00+09:00","datePublished":"2026-11-03T00:00:00+09:00","description":"日報を中心に、技術メモやイベント参加記録をまとめるブログです。","headline":"インフィニットジャスティスガンダム弐式におけるメインスロットおよび必殺技スロット最適配置の検証","mainEntityOfPage":{"@type":"WebPage","@id":"https://makietan.github.io/game/srwdd/2026/11/03/report.html"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://makietan.github.io/assets/images/icon_144.png"},"name":"makietan"},"url":"https://makietan.github.io/game/srwdd/2026/11/03/report.html"}</script>
+<!-- End Jekyll SEO tag -->
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "肉とお米とブロッコリー",
+      "url": "https://makietan.github.io",
+      "inLanguage": "ja",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://makietan.github.io/search.html?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+  </script>
+  <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="https://makietan.github.io/feed.xml" title="肉とお米とブロッコリー" /><meta name="msvalidate.01" content="89F1D244C30C26610D2EB5442A4DA1D8" />
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-7SP4YXPLVE"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-7SP4YXPLVE');
+</script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-72711550-4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-72711550-4');
+</script>
+<link rel="shortcut icon" href="/assets/images/icon.ico">
+  <link rel="icon" sizes="144x144" href="/assets/images/icon_144.png">
+  <script src="/assets/js/clipboard.js" type="text/javascript" charset="utf-8"></script>
+  <script src="/assets/js/image-display.js" type="text/javascript" charset="utf-8"></script>
+  <script src="/assets/js/collapse.js" type="text/javascript" charset="utf-8"></script>
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']],
+        processEscapes: true,
+        processEnvironments: true
+      },
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+      }
+    };
+  </script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@makietanx" />
+<meta name="twitter:title" content="インフィニットジャスティスガンダム弐式におけるメインスロットおよび必殺技スロット最適配置の検証" />
+<meta name="twitter:description" content="日報を中心に、技術メモやイベント参加記録をまとめるブログです。" />
+
+<meta name="twitter:image" content="https://makietan.github.io/assets/thumbnail/logo.png" />
+
+<link rel="icon" href="https://makietan.github.io/assets/images/favicon.ico">
+  <link rel="apple-touch-icon" sizes="144x144" href="https://makietan.github.io/assets/images/icon_144.png" />
+
+  <body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">肉とお米とブロッコリー</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="site-nav-link" href="/about/">About</a><a class="site-nav-link" href="/category/">Category</a><a class="site-nav-link" href="/links/">Links</a><a class="site-nav-link" href="/search.html">検索</a></div>
+      </nav></div>
+</header>
+
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">インフィニットジャスティスガンダム弐式におけるメインスロットおよび必殺技スロット最適配置の検証</h1>
+    <div class="post-meta">
+      <time class="dt-published" datetime="2026-11-03T00:00:00+09:00" itemprop="datePublished">2026-11-03 00:00
+      </time></div><div class="post-meta post-meta-categories">
+        <span class="post-categories">
+          
+          
+            <a href="https://makietan.github.io/categories/game">game</a>
+            &nbsp;
+          
+            <a href="https://makietan.github.io/categories/srwdd">srwdd</a>
+            
+          
+        </span>
+      </div></header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<style>
+    /* 徹底的な余計な枠・背景色の排除と厳格なTypography */
+    .report-wrapper *, .report-wrapper *::before, .report-wrapper *::after {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        background: transparent !important;
+        box-shadow: none !important;
+    }
+
+    .report-wrapper {
+        background-color: #ffffff !important;
+        color: #111111;
+        font-family: "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
+        line-height: 1.85;
+        font-size: 15px;
+        padding: 20px 0;
+        max-width: 820px;
+        margin: 0 auto;
+    }
+
+    /* ヘッダー装飾（下線1本のみ） */
+    .report-wrapper header {
+        border-bottom: 2px solid #000000;
+        padding-bottom: 15px;
+        margin-bottom: 30px;
+    }
+
+    .report-wrapper h1 {
+        font-family: "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
+        font-size: 22px;
+        font-weight: bold;
+        line-height: 1.4;
+        margin-bottom: 10px;
+    }
+
+    .report-wrapper .meta-info {
+        font-family: "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
+        font-size: 12px;
+        color: #444444;
+    }
+
+    /* 節見出し（下線1本のみ） */
+    .report-wrapper h2 {
+        font-family: "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+        border-bottom: 1px solid #000000;
+        padding-bottom: 4px;
+        margin-top: 35px;
+        margin-bottom: 15px;
+    }
+
+    .report-wrapper h3 {
+        font-family: "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+        margin-top: 20px;
+        margin-bottom: 8px;
+    }
+
+    .report-wrapper p {
+        text-align: justify;
+        margin-bottom: 14px;
+        text-indent: 1em;
+    }
+
+    .report-wrapper p.no-indent {
+        text-indent: 0;
+    }
+
+    .report-wrapper ul, .report-wrapper ol {
+        margin-left: 2em;
+        margin-bottom: 14px;
+    }
+
+    .report-wrapper li {
+        margin-bottom: 4px;
+    }
+
+    /* シンプルな罫線のみのテーブル（枠で囲わない） */
+    .report-wrapper table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 20px 0;
+        font-size: 13px;
+        font-family: "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
+    }
+
+    .report-wrapper th, .report-wrapper td {
+        padding: 8px 10px;
+        text-align: left;
+        border-top: 1px solid #000000;
+        border-bottom: 1px solid #000000;
+    }
+
+    .report-wrapper th {
+        font-weight: bold;
+        border-bottom: 2px solid #000000;
+    }
+
+    /* グラフエリア */
+    .report-wrapper .chart-container {
+        width: 100%;
+        max-width: 480px;
+        height: 280px;
+        margin: 25px auto;
+    }
+
+    .report-wrapper footer {
+        margin-top: 50px;
+        border-top: 1px solid #888888;
+        padding-top: 10px;
+        text-align: center;
+        font-size: 11px;
+        font-family: sans-serif;
+        color: #555555;
+    }
+</style>
+
+<div class="report-wrapper">
+    <header>
+        <div class="meta-info">スーパーロボット大戦DD ユニットパーツ検証</div>
+        <h1>インフィニットジャスティスガンダム弐式におけるメインスロットおよび必殺技スロット最適配置の検証</h1>
+        <div class="meta-info">
+            対象機体：インフィニットジャスティスガンダム弐式（パイロット：アスラン・ザラ）<br />
+            検証条件：メインスロット1枠＋必殺技スロット2枠（SSR+ LV110 特性+5）
+        </div>
+    </header>
+    <main>
+        <section>
+            <h2>1. 概要</h2>
+            <p>
+                『スーパーロボット大戦DD』におけるインフィニットジャスティスガンダム弐式の基本性能を最大化するユニットパーツの組み合わせについて検証したものである。4種類のSSR+ユニットパーツ（キャバリアーアイフリッド、スピッツェシュヴァート ビームホーン、トーニトゥルス、強襲（ズゴック））のメインアビリティおよび必殺技アビリティの性能に基づき、客観的な比較を行った。
+            </p>
+            <p>
+                なお、サブスロット枠は支援ユニットパーツの装着が優先されるため除外とし、メインスロット1枠および必殺技スロット2枠の合計3枠における最適配置を導出する。
+            </p>
+        </section>
+        <section>
+            <h2>2. メンスロットおよび必殺技スロット1枠の固定検証</h2>
+            <p>
+                アビリティの性質上、以下の2枠は他の選択肢を排して固定配置となる。
+            </p>
+            <h3>【メインスロット】キャバリアーアイフリッド</h3>
+            <p>
+                メインスロット装着時、攻撃力・防御力・照準値・HPの基本ステータスが31.5%増加する。さらに気力10上昇毎の補正（気力150時に攻防+42%、照準+36%、必殺技威力+44%）に加え、気力140以上で与ダメージ+40%、被ダメージ45%軽減、10,000軽減バリア、敵のバリア効果75%減少が付与される。
+            </p>
+            <p>
+                さらに、HP50%以下で発動する割り込み行動および精神コマンド「ひらめき」の発動、被弾時（敵アクション時）に必殺技アクション数を2進める効果を持つため、機体の耐久性能と回転率を維持する上でメインスロットへの装備が必須となる。
+            </p>
+            <h3>【必殺技スロット1】スピッツェシュヴァート ビームホーン</h3>
+            <p>
+                必殺技スロット装着時においても「スピード110増加（重複不可）」が有効となる。また、100%の確率で受ける弱体化効果の無力化、必殺技発動前の精神コマンド「一念」発動、命中時の「覚醒」発動が機能するため、必殺技スロット1枠目の固定パーツとなる。
+            </p>
+        </section>
+        <section>
+            <h2>3. 必殺技スロット2枠の比較（トーニトゥルス vs 強襲（ズゴック））</h2>
+            <p>
+                必殺技スロット2枠目の選定対象となる「トーニトゥルス」と「強襲（ズゴック）」の必殺技スロット装着用アビリティおよび必殺技性能の性能比較を以下に示す。
+            </p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>評価項目</th>
+                        <th>トーニトゥルス</th>
+                        <th>強襲（ズゴック）</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>固定ステータス増加</td>
+                        <td>攻撃力・防御力・照準値 +11%</td>
+                        <td>なし（0%）</td>
+                    </tr>
+                    <tr>
+                        <td>気力10上昇毎の加算</td>
+                        <td>攻撃力・防御力 +1.5%</td>
+                        <td>攻撃力・防御力・照準値 +2.0%</td>
+                    </tr>
+                    <tr>
+                        <td>最大HP増加</td>
+                        <td>+10,000</td>
+                        <td>なし（0）</td>
+                    </tr>
+                    <tr>
+                        <td>精神コマンド発動</td>
+                        <td>命中時「根性」</td>
+                        <td>なし</td>
+                    </tr>
+                    <tr>
+                        <td>移動力補正</td>
+                        <td>なし（0）</td>
+                        <td>移動力 +1（重複可能）</td>
+                    </tr>
+                    <tr>
+                        <td>ブレイクゲージ減少量</td>
+                        <td>なし</td>
+                        <td>強襲のブレイク減少量 +35%</td>
+                    </tr>
+                    <tr>
+                        <td>必殺技スペック</td>
+                        <td>威力 215% / 回数 4 / 射程 1-4</td>
+                        <td>威力 280% / 回数 5 / 射程 1-3</td>
+                    </tr>
+                    <tr>
+                        <td>攻撃属性</td>
+                        <td>斬撃</td>
+                        <td>実弾</td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="chart-container">
+                <canvas id="radarChart"></canvas>
+            </div>
+        </section>
+        <section>
+            <h2>4. コンテンツ・運用別の適性評価</h2>
+            <h3>4.1 対決戦（フルオート戦闘）における適性</h3>
+            <p>
+                オートAIによって戦闘が進行する「対決戦」においては、<span style="font-weight: bold;">トーニトゥルス</span>が優位となる。
+            </p>
+            <p>
+                気力上昇を待たずに固定で照準値+11%が保証されるため、高運動性の回避特化機体に対する命中率が安定する。射程1-4を保持するため、初手に射程外で必殺技を使用できないリスクを回避できる。また、最大HP+10,000および「根性」による耐久補正が機能し、移動力+1が付与されないことでAIが単身で敵陣に過剰突入して孤立撃破される事故を防止できる。
+            </p>
+            <h3>4.2 迎撃戦・周回・手動操作における適性</h3>
+            <p>
+                手動操作およびマップ攻略、周回コンテンツにおいては、<span style="font-weight: bold;">強襲（ズゴック）</span>が優位となる。
+            </p>
+            <p>
+                スピッツェシュヴァートによるスピード+110に加えて移動力+1が追加されることで機動力が大幅に向上する。さらに、他の3パーツがすべて斬撃属性であるのに対し、強襲（ズゴック）は貴重な実弾属性であり、ブレイク量+35%と合わさって実弾弱点の敵に対するブレイク要員として機能する。威力280%（回数5）の必殺技性能は、キャバリアーの必殺技短縮およびスピッツェの「覚醒」による連続行動と噛み合い、手数を活かしたダメージ効率を高める。
+            </p>
+        </section>
+        <section>
+            <h2>5. 結論</h2>
+            <p class="no-indent">
+                インフィニットジャスティスガンダム弐式におけるユニットパーツ編成の結論は以下の通りである。
+            </p>
+            <ul>
+                <li><strong>メインスロット：</strong> キャバリアーアイフリッド</li>
+                <li><strong>必殺技スロット1：</strong> スピッツェシュヴァート ビームホーン</li>
+                <li><strong>必殺技スロット2：</strong> 出撃コンテンツに応じて選択
+                    <ul>
+                        <li>対決戦・フルオート（照準安定・耐久重視）：<strong>トーニトゥルス</strong></li>
+                        <li>迎撃戦・周回・手動攻略（機動・属性・手数重視）：<strong>強襲（ズゴック）</strong></li>
+                    </ul>
+                </li>
+            </ul>
+            <p>
+                必殺技スロット2枠目に関しては一方が完全な上位互換ではなく、命中安定と事故防止が求められる対決戦ではトーニトゥルス、機動力と属性カバー・火力が求められる一般攻略や迎撃戦では強襲（ズゴック）を付け替えて運用することが最適な配置となる。
+            </p>
+        </section>
+        <section>
+            <h2>付録. インフィニットジャスティスガンダム弐式のユニットパーツ情報</h2>
+            <!-- 1つ目: キャバリアーアイフリッド -->
+            <div class="unit-card">
+                <h4>■SSR+ キャバリアーアイフリッド LV110 特性+5 斬撃</h4>
+                <div class="stats-box">
+                    <ul>
+                        <li><strong>HP:</strong> 2745</li>
+                        <li><strong>攻撃力:</strong> 3450</li>
+                        <li><strong>防御力:</strong> 2850</li>
+                        <li><strong>照準値:</strong> 279</li>
+                        <li><strong>運動性:</strong> 150</li>
+                    </ul>
+                    <ul style="margin-top: 8px;">
+                        <li><strong>威力:</strong> 260%</li>
+                        <li><strong>命中:</strong> +60%</li>
+                        <li><strong>射程:</strong> 1-5</li>
+                        <li><strong>アクション:</strong> 2</li>
+                        <li><strong>回数:</strong> 6</li>
+                    </ul>
+                </div>
+                <h5>MAIN（全天周モニター）</h5>
+                <ul class="ability-list">
+                    <li>HP・攻撃力・防御力・照準値が31.5%増加する。</li>
+                    <li>気力が10上昇する毎に、攻撃力・防御力が10.5%、照準値が9%、キャバリアーアイフリッドの必殺技威力が11%増加する。</li>
+                    <li>気力140以上のとき、全ての攻撃の与ダメージ・照準値が40%増加し、被ダメージを45%軽減する。</li>
+                    <li>インフィニットジャスティスガンダム弐式装備時、被ダメージを10000軽減するバリアを展開する。</li>
+                    <li>全ての攻撃のブレイクゲージ減少量が150%増加する。</li>
+                    <li>気力140以上のとき、35%の確率で攻撃を完全に回避する。</li>
+                    <li>インフィニットジャスティスガンダム弐式装備時、戦闘時のみ敵ユニットのバリア系アビリティ効果を75%減少させる。</li>
+                    <li>インフィニットジャスティスガンダム弐式装備時、いずれかのユニットのアクション終了時に自分がHP50%以下になった場合、割り込んで自分のアクションを開始し、「ひらめき」を発動する（効果は出撃後1度だけ発動する。元の自分の順番は保持される）。</li>
+                    <li>敵ユニットのアクション時のみ、戦闘する毎にキャバリアーアイフリッドの必殺技アクション数を2進める（効果対象となる必殺技を発動した時のみ、その必殺技自身のアクション数は進めない）。</li>
+                </ul>
+                <h5>必殺技スロット時（全天周モニター）</h5>
+                <ul class="ability-list">
+                    <li>気力が10上昇する毎に、攻撃力・防御力・照準値が2%増加する。</li>
+                    <li>気力140以上のとき、35%の確率で攻撃を完全に回避する。</li>
+                    <li>いずれかのユニットのアクション終了時に自分がHP50%以下になった場合、割り込んで自分のアクションを開始する（効果は出撃後1度だけ発動する。元の自分の順番は保持される）。</li>
+                    <li>敵ユニットのアクション時のみ、戦闘する毎にキャバリアーアイフリッドの必殺技アクション数を2進める（効果対象となる必殺技を発動した時のみ、その必殺技自身のアクション数は進めない）。</li>
+                </ul>
+                <h5>SUB（攻撃力・防御力アップⅢ）</h5>
+                <ul class="ability-list">
+                    <li>攻撃力・防御力が2.5%増加する。</li>
+                </ul>
+            </div>
+            <!-- 2つ目: スピッツェシュヴァート ビームホーン -->
+            <div class="unit-card">
+                <h4>■SSR+ スピッツェシュヴァート ビームホーン LV110 特性+5 斬撃</h4>
+                <div class="stats-box">
+                    <ul>
+                        <li><strong>HP:</strong> 2790</li>
+                        <li><strong>攻撃力:</strong> 3390</li>
+                        <li><strong>防御力:</strong> 2820</li>
+                        <li><strong>照準値:</strong> 279</li>
+                        <li><strong>運動性:</strong> 156</li>
+                    </ul>
+                    <ul style="margin-top: 8px;">
+                        <li><strong>威力:</strong> 280%</li>
+                        <li><strong>命中:</strong> +60%</li>
+                        <li><strong>射程:</strong> 1-4</li>
+                        <li><strong>アクション:</strong> 2</li>
+                        <li><strong>回数:</strong> 6</li>
+                    </ul>
+                </div>        
+                <h5>MAIN（M2X32E フォランテス（Iジャスティス弐式））</h5>
+                <ul class="ability-list">
+                    <li>インフィニットジャスティスガンダム弐式装備時、スピードが110増加する（効果は重複しない。効果の最も高いもののみ有効）。</li>
+                    <li>HP・攻撃力・防御力・照準値が31.5%増加する。</li>
+                    <li>気力が10上昇する毎に、攻撃力・防御力が10%、照準値が9%、スピッツェシュヴァート ビームホーンの必殺技威力が9%増加する。</li>
+                    <li>気力140以上のとき、全ての攻撃の与ダメージ・照準値が40%増加し、被ダメージを45%軽減する。</li>
+                    <li>インフィニットジャスティスガンダム弐式装備時、被ダメージを10000軽減するバリアを展開する。</li>
+                    <li>全ての攻撃のブレイクゲージ減少量が150%増加する。</li>
+                    <li>100%の確率で新たに受けるアビリティによる弱体効果を無力化し、戦闘時のみ敵ユニットのバリア系アビリティ効果を75%減少させる。</li>
+                    <li>スピッツェシュヴァート ビームホーン発動前に「一念」を発動し、スピッツェシュヴァート ビームホーン命中時、自分に「覚醒」を発動する。</li>
+                </ul>
+                <h5>必殺技スロット時（M2X32E フォランテス（Iジャスティス弐式））</h5>
+                <ul class="ability-list">
+                    <li>スピードが110増加する（効果は重複しない。効果の最も高いもののみ有効）。</li>
+                    <li>気力が10上昇する毎に、攻撃力・防御力・照準値が2%増加する。</li>
+                    <li>100%の確率で新たに受けるアビリティによる弱体効果を無力化する。</li>
+                    <li>スピッツェシュヴァート ビームホーン発動前に「一念」を発動し、スピッツェシュヴァート ビームホーン命中時、自分に「覚醒」を発動する。</li>
+                </ul>
+                <h5>SUB（攻撃力・防御力アップⅢ）</h5>
+                <ul class="ability-list">
+                    <li>攻撃力・防御力が2.5%増加する。</li>
+                </ul>
+            </div>
+            <!-- 3つ目: トーニトゥルス -->
+            <div class="unit-card">
+                <h4>■SSR+ トーニトゥルス LV110 特性+5 斬撃</h4>
+                <div class="stats-box">
+                    <ul>
+                        <li><strong>HP:</strong> 2610</li>
+                        <li><strong>攻撃力:</strong> 2790</li>
+                        <li><strong>防御力:</strong> 2700</li>
+                        <li><strong>照準値:</strong> 237</li>
+                        <li><strong>運動性:</strong> 207</li>
+                    </ul>
+                    <ul style="margin-top: 8px;">
+                        <li><strong>威力:</strong> 215%</li>
+                        <li><strong>命中:</strong> +40%</li>
+                        <li><strong>射程:</strong> 1-4</li>
+                        <li><strong>アクション:</strong> 2</li>
+                        <li><strong>回数:</strong> 4</li>
+                    </ul>
+                </div>        
+                <h5>MAIN（ジャスティスの系譜）</h5>
+                <ul class="ability-list">
+                    <li>攻撃力・防御力・照準値が21%増加する。</li>
+                    <li>気力が10上昇する毎に、攻撃力・防御力が2.8%増加する。</li>
+                    <li>インフィニットジャスティスガンダム弐式装備時、HPが10000増加し、トーニトゥルス命中時、自分に「根性」を発動する。</li>
+                </ul>
+                <h5>必殺技スロット時（ジャスティスの系譜）</h5>
+                <ul class="ability-list">
+                    <li>攻撃力・防御力・照準値が11%増加する。</li>
+                    <li>気力が10上昇する毎に、攻撃力・防御力が1.5%増加する。</li>
+                    <li>HPが10000増加し、トーニトゥルス命中時、自分に「根性」を発動する。</li>
+                </ul>
+                <h5>SUB（攻撃力・防御力アップⅠ）</h5>
+                <ul class="ability-list">
+                    <li>攻撃力・防御力が1.5%増加する。</li>
+                </ul>
+            </div>
+            <!-- 4つ目: 強襲（ズゴック） -->
+            <div class="unit-card">
+                <h4>■SSR+ 強襲（ズゴック） LV110 特性+5 実弾</h4>
+                <div class="stats-box">
+                    <ul>
+                        <li><strong>HP:</strong> 2700</li>
+                        <li><strong>攻撃力:</strong> 3270</li>
+                        <li><strong>防御力:</strong> 2940</li>
+                        <li><strong>照準値:</strong> 282</li>
+                        <li><strong>運動性:</strong> 159</li>
+                    </ul>
+                    <ul style="margin-top: 8px;">
+                        <li><strong>威力:</strong> 280%</li>
+                        <li><strong>命中:</strong> +60%</li>
+                        <li><strong>射程:</strong> 1-3</li>
+                        <li><strong>アクション:</strong> 2</li>
+                        <li><strong>回数:</strong> 5</li>
+                    </ul>
+                </div>        
+                <h5>MAIN（M2X32E フォランテス）</h5>
+                <ul class="ability-list">
+                    <li>ズゴック装備時、移動力が1増加する（効果は重複可能）。</li>
+                    <li>攻撃力・防御力・照準値が24%増加する。</li>
+                    <li>気力が10上昇する毎に、攻撃力が6.5%、防御力・照準値が7.5%増加する。</li>
+                    <li>ズゴック装備時、被ダメージを7000軽減するバリアを展開し、戦闘を行う敵ユニットが3マス以内にいるとき、距離が近いほど攻撃力・防御力・照準値が10%増加する（最大30%）。</li>
+                    <li>ズゴック装備時、全ての攻撃のブレイクゲージ減少量が100%増加する。</li>
+                </ul>
+                <h5>必殺技スロット時（M2X32E フォランテス）</h5>
+                <ul class="ability-list">
+                    <li>移動力が1増加する（効果は重複可能）。</li>
+                    <li>気力が10上昇する毎に、攻撃力・防御力・照準値が2%増加する。</li>
+                    <li>強襲（ズゴック）のブレイクゲージ減少量が35%増加する。</li>
+                </ul>
+                <h5>SUB（攻撃力・防御力アップⅣ・加速（アスラン・ザラ））</h5>
+                <ul class="ability-list">
+                    <li>攻撃力・防御力が5%増加する。アスラン・ザラ装備時、出撃後1度だけ、ステージ開始時「加速」がかかる。</li>
+                </ul>
+            </div>
+    </section>
+    </main>
+    <footer>
+        スーパーロボット大戦DD ユニットパーツ最適化学術検証レポート
+    </footer>
+</div>
+<script>
+    (function renderRadarChart() {
+        const initChart = () => {
+            const canvas = document.getElementById('radarChart');
+            if (!canvas || !window.Chart) {
+                setTimeout(initChart, 100);
+                return;
+            }
+            const ctx = canvas.getContext('2d');
+            new Chart(ctx, {
+                type: 'radar',
+                data: {
+                    labels: ['固定ステータス', '気力加算', '耐久・HP', '照準・命中', '移動・機動', '必殺威力・手数'],
+                    datasets: [
+                        {
+                            label: 'トーニトゥルス',
+                            data: [85, 60, 90, 85, 40, 50],
+                            borderColor: '#000000',
+                            borderWidth: 2,
+                            pointRadius: 3,
+                            pointBackgroundColor: '#000000'
+                        },
+                        {
+                            label: '強襲（ズゴック）',
+                            data: [10, 80, 30, 60, 95, 90],
+                            borderColor: '#666666',
+                            borderWidth: 1.5,
+                            borderDash: [4, 4],
+                            pointRadius: 3,
+                            pointBackgroundColor: '#666666'
+                        }
+                    ]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    animation: false,
+                    scales: {
+                        r: {
+                            angleLines: { color: '#aaaaaa' },
+                            grid: { color: '#cccccc' },
+                            pointLabels: {
+                                color: '#000000',
+                                font: { family: 'Hiragino Kaku Gothic ProN, Yu Gothic, sans-serif', size: 11 }
+                            },
+                            ticks: { display: false },
+                            suggestedMin: 0,
+                            suggestedMax: 100
+                        }
+                    },
+                    plugins: {
+                        legend: {
+                            position: 'bottom',
+                            labels: {
+                                color: '#000000',
+                                font: { family: 'Hiragino Kaku Gothic ProN, Yu Gothic, sans-serif', size: 12 }
+                            }
+                        }
+                    }
+                }
+            });
+        };
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', initChart);
+        } else {
+            initChart();
+        }
+    })();
+</script>
+
+
+  </div><a class="u-url" href="/game/srwdd/2026/11/03/report.html" hidden></a>
+</article>
+
+<hr>
+
+
+
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+    
+      <div class="related">
+        <h1>関連日報</h1>
+        <div class="related-posts">
+    
+          <div class="card">
+            <a href="/game/srwdd/2026/11/01/report2.html" title="スパロボDDの遠征の残り回数《11月分》"></a>
+            <div class="card__header">
+              <a href="/game/srwdd/2026/11/01/report2.html">2026-11-01 00:00</a>
+            </div>
+            <div class="card__title">
+              <p>スパロボDDの遠征の残り回数《11月分》</p>
+            </div>
+            <div class="card__description"></div>
+          </div>
+    
+    
+    
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+    
+          <div class="card">
+            <a href="/game/srwdd/2026/10/07/report.html" title="スパロボDDの遠征の残り回数《10月分》"></a>
+            <div class="card__header">
+              <a href="/game/srwdd/2026/10/07/report.html">2026-10-07 00:00</a>
+            </div>
+            <div class="card__title">
+              <p>スパロボDDの遠征の残り回数《10月分》</p>
+            </div>
+            <div class="card__description"></div>
+          </div>
+    
+    
+    
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+    
+          <div class="card">
+            <a href="/game/2026/09/29/report.html" title="複数人でわちゃわちゃしてる「Waterpark Simulator」が面白い"></a>
+            <div class="card__header">
+              <a href="/game/2026/09/29/report.html">2026-09-29 00:00</a>
+            </div>
+            <div class="card__title">
+              <p>複数人でわちゃわちゃしてる「Waterpark Simulator」が面白い</p>
+            </div>
+            <div class="card__description"></div>
+          </div>
+    
+    
+    
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+    
+          <div class="card">
+            <a href="/game/yugioh/2026/09/21/report.html" title="遊戯王マスターデュエルのUI改善要望：裏側選択を廃止せよ"></a>
+            <div class="card__header">
+              <a href="/game/yugioh/2026/09/21/report.html">2026-09-21 00:00</a>
+            </div>
+            <div class="card__title">
+              <p>遊戯王マスターデュエルのUI改善要望：裏側選択を廃止せよ</p>
+            </div>
+            <div class="card__description"></div>
+          </div>
+    
+    
+    
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+    
+          <div class="card">
+            <a href="/game/gup/2026/09/11/report.html" title="戦車道大作戦の戦車道連盟購買部の生徒リスト"></a>
+            <div class="card__header">
+              <a href="/game/gup/2026/09/11/report.html">2026-09-11 00:00</a>
+            </div>
+            <div class="card__title">
+              <p>戦車道大作戦の戦車道連盟購買部の生徒リスト</p>
+            </div>
+            <div class="card__description"></div>
+          </div>
+    
+    
+        </div>
+      </div>
+      
+
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">肉とお米とブロッコリー</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1"><ul class="social-media-list"><li>
+    <a href="https://github.com/makietan" rel="me noopener noreferrer" target="_blank">
+      <i class="fa-brands fa-github social-icon" aria-hidden="true"></i>
+      <span class="username">makietan</span>
+    </a>
+  </li><li>
+    <a href="https://x.com/makietanx" rel="me noopener noreferrer" target="_blank">
+      <i class="fa-brands fa-twitter social-icon" aria-hidden="true"></i>
+      <span class="username">makietanx</span>
+    </a>
+  </li><li>
+    <a href="/feed.xml" target="_blank">
+      <i class="fa-solid fa-rss social-icon" aria-hidden="true"></i>
+      <span class="username">RSS</span>
+    </a>
+  </li></ul></div>
+      <div class="footer-col footer-col-2">
+      </div>
+      <div class="footer-col footer-col-3">
+        <p>日報を中心に、技術メモやイベント参加記録をまとめるブログです。</p>
+      </div>
+    </div>
+
+  </div><div style='text-align:center;'>
+     <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+     <!-- https://makietan.github.io/ -->
+     <ins class="adsbygoogle"
+          style="display:block"
+          data-ad-client="ca-pub-2075260640954079"
+          data-ad-slot="8308086588"
+          data-ad-format="auto"
+          data-full-width-responsive="true"></ins>
+     <script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+     </script>
+</div>
+</footer>
+</body>
+
+</html>
