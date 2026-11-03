@@ -40,6 +40,12 @@
           "t値",
           "z分布"
         ]
+      },
+      "ja-no-mixed-period": {
+        "allowPeriodMarks": [
+          "$$"
+        ],
+        "allowEmojiAtEnd": true
       }
     },
     "@textlint-ja/preset-ai-writing": {
