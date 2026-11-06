@@ -12429,6 +12429,10 @@
 <lastmod>2026-10-11T00:00:00+09:00</lastmod>
 </url>
 <url>
+<loc>https://makietan.github.io/tech/security/2026/10/14/report-illegal.html</loc>
+<lastmod>2026-10-14T00:00:00+09:00</lastmod>
+</url>
+<url>
 <loc>https://makietan.github.io/otaku/2026/10/16/report.html</loc>
 <lastmod>2026-10-16T00:00:00+09:00</lastmod>
 </url>
@@ -12505,6 +12509,14 @@
 <lastmod>2026-11-05T00:00:00+09:00</lastmod>
 </url>
 <url>
+<loc>https://makietan.github.io/tech/security/2026/11/05/report-illegal.html</loc>
+<lastmod>2026-11-05T19:00:00+09:00</lastmod>
+</url>
+<url>
+<loc>https://makietan.github.io/tech/security/2026/11/06/report-illegal.html</loc>
+<lastmod>2026-11-06T13:00:00+09:00</lastmod>
+</url>
+<url>
 <loc>https://makietan.github.io/about/</loc>
 </url>
 <url>
@@ -12554,6 +12566,9 @@
 </url>
 <url>
 <loc>https://makietan.github.io/search.html</loc>
+</url>
+<url>
+<loc>https://makietan.github.io/category/security</loc>
 </url>
 <url>
 <loc>https://makietan.github.io/category/srwdd</loc>
@@ -12917,6 +12932,9 @@
 </url>
 <url>
 <loc>https://makietan.github.io/categories/osaka/</loc>
+</url>
+<url>
+<loc>https://makietan.github.io/categories/security/</loc>
 </url>
 <url>
 <loc>https://makietan.github.io/categories/design/</loc>
