@@ -2,13 +2,57 @@
 layout: post
 title:  "来来亭のポイントの有効期限がそろそろ切れそうなのでどの店に行くか考える"
 categories: gourmet
-date: "2026-12-01 00:00:00"
+date: "2026-11-09 00:00:00"
 ---
 
 相武台店は千代田線を使えば30分は短縮できるので、平日に行くなら一番便利な選択肢となる。
 というか全体的に1時間以上かかるので、時間に余裕があるときに行くのがよさそうだ。
 
 とは言え、12月にポイントの有効期限が切れるので、どこかには行かないといけない。
+
+<section class="route-browser" id="route-browser" aria-label="店舗経路の検索と並べ替え">
+  <div class="route-browser__filters">
+    <label>店舗名
+      <input type="search" data-filter="name" placeholder="店名で検索">
+    </label>
+    <label>料金上限（円）
+      <input type="number" data-filter="fare" min="0" step="1" inputmode="numeric">
+    </label>
+    <label>所要時間上限（分）
+      <input type="number" data-filter="duration" min="0" step="1" inputmode="numeric">
+    </label>
+    <label>徒歩時間上限（分）
+      <input type="number" data-filter="walk" min="0" step="1" inputmode="numeric">
+    </label>
+    <label>乗換回数上限
+      <input type="number" data-filter="transfers" min="0" step="1" inputmode="numeric">
+    </label>
+    <label>並び替え
+      <select data-sort>
+        <option value="fare">料金</option>
+        <option value="duration">所要時間</option>
+        <option value="walk">徒歩時間</option>
+      </select>
+    </label>
+    <label>順序
+      <select data-direction>
+        <option value="asc">昇順</option>
+        <option value="desc">降順</option>
+      </select>
+    </label>
+  </div>
+  <fieldset class="route-browser__modes">
+    <legend>利用する交通機関</legend>
+    <label><input type="checkbox" value="地下鉄"> 地下鉄</label>
+    <label><input type="checkbox" value="私鉄"> 私鉄</label>
+    <label><input type="checkbox" value="ＪＲ"> JR</label>
+    <label><input type="checkbox" value="バス"> バス</label>
+  </fieldset>
+  <div class="route-browser__footer">
+    <p data-result-count role="status" aria-live="polite"></p>
+    <button type="button" data-reset>条件をリセット</button>
+  </div>
+</section>
 
 - 石神井店：462円・1時間11分・徒歩13分
   <details>
@@ -593,3 +637,5 @@ date: "2026-12-01 00:00:00"
   ■来来亭本庄店
   </pre>
   </details>
+
+<script defer src="{{ '/assets/js/2026-12-01-report.js' | relative_url }}"></script>
