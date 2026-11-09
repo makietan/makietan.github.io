@@ -1,25 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-11-09T08:14:34+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>日報を中心に、技術メモやイベント参加記録をまとめるブログです。</subtitle><author><name>makietan</name></author><entry><title type="html">来来亭のポイントの有効期限がそろそろ切れそうなのでどの店に行くか考える</title><link href="https://makietan.github.io/gourmet/2026/11/09/report-ramen.html" rel="alternate" type="text/html" title="来来亭のポイントの有効期限がそろそろ切れそうなのでどの店に行くか考える" /><published>2026-11-09T00:00:00+09:00</published><updated>2026-11-09T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2026/11/09/report-ramen</id><content type="html" xml:base="https://makietan.github.io/gourmet/2026/11/09/report-ramen.html"><![CDATA[<p>相武台店は千代田線を使えば30分は短縮できるので、平日に行くなら一番便利な選択肢となる。
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-11-09T10:39:02+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>日報を中心に、技術メモやイベント参加記録をまとめるブログです。</subtitle><author><name>makietan</name></author><entry><title type="html">来来亭のポイントの有効期限がそろそろ切れそうなのでどの店に行くか考える</title><link href="https://makietan.github.io/gourmet/2026/11/09/report-ramen.html" rel="alternate" type="text/html" title="来来亭のポイントの有効期限がそろそろ切れそうなのでどの店に行くか考える" /><published>2026-11-09T00:00:00+09:00</published><updated>2026-11-09T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2026/11/09/report-ramen</id><content type="html" xml:base="https://makietan.github.io/gourmet/2026/11/09/report-ramen.html"><![CDATA[<p>相武台店は千代田線を使えば30分は短縮できるので、平日に行くなら一番便利な選択肢となる。
 というか全体的に1時間以上かかるので、時間に余裕があるときに行くのがよさそうだ。</p>
 
 <p>とは言え、12月にポイントの有効期限が切れるので、どこかには行かないといけない。</p>
 
 <section class="route-browser" id="route-browser" aria-label="店舗経路の検索と並べ替え">
-  <div class="route-browser__filters">
-    <label>店舗名
-      <input type="search" data-filter="name" placeholder="店名で検索" />
-    </label>
-    <label>料金上限（円）
-      <input type="number" data-filter="fare" min="0" step="1" inputmode="numeric" />
-    </label>
-    <label>所要時間上限（分）
-      <input type="number" data-filter="duration" min="0" step="1" inputmode="numeric" />
-    </label>
-    <label>徒歩時間上限（分）
-      <input type="number" data-filter="walk" min="0" step="1" inputmode="numeric" />
-    </label>
-    <label>乗換回数上限
-      <input type="number" data-filter="transfers" min="0" step="1" inputmode="numeric" />
-    </label>
+  <div class="route-browser__toolbar">
     <label>並び替え
       <select data-sort="">
         <option value="fare">料金</option>
@@ -33,18 +18,38 @@
         <option value="desc">降順</option>
       </select>
     </label>
-  </div>
-  <fieldset class="route-browser__modes">
-    <legend>利用する交通機関</legend>
-    <label><input type="checkbox" value="地下鉄" /> 地下鉄</label>
-    <label><input type="checkbox" value="私鉄" /> 私鉄</label>
-    <label><input type="checkbox" value="ＪＲ" /> JR</label>
-    <label><input type="checkbox" value="バス" /> バス</label>
-  </fieldset>
-  <div class="route-browser__footer">
     <p data-result-count="" role="status" aria-live="polite"></p>
-    <button type="button" data-reset="">条件をリセット</button>
   </div>
+  <details class="route-browser__panel">
+    <summary>絞り込み</summary>
+    <div class="route-browser__filters">
+      <label>店舗名
+        <input type="search" data-filter="name" placeholder="店名で検索" />
+      </label>
+      <label>料金上限（円）
+        <input type="number" data-filter="fare" min="0" step="1" inputmode="numeric" />
+      </label>
+      <label>所要時間上限（分）
+        <input type="number" data-filter="duration" min="0" step="1" inputmode="numeric" />
+      </label>
+      <label>徒歩時間上限（分）
+        <input type="number" data-filter="walk" min="0" step="1" inputmode="numeric" />
+      </label>
+      <label>乗換回数上限
+        <input type="number" data-filter="transfers" min="0" step="1" inputmode="numeric" />
+      </label>
+    </div>
+    <fieldset class="route-browser__modes">
+      <legend>利用する交通機関</legend>
+      <label><input type="checkbox" value="地下鉄" /> 地下鉄</label>
+      <label><input type="checkbox" value="私鉄" /> 私鉄</label>
+      <label><input type="checkbox" value="ＪＲ" /> JR</label>
+      <label><input type="checkbox" value="バス" /> バス</label>
+    </fieldset>
+    <div class="route-browser__footer">
+      <button type="button" data-reset="">条件をリセット</button>
+    </div>
+  </details>
 </section>
 
 <ul>
@@ -651,7 +656,238 @@
   </li>
 </ul>
 
-<script defer="" src="/assets/js/2026-12-01-report.js"></script>]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[相武台店は千代田線を使えば30分は短縮できるので、平日に行くなら一番便利な選択肢となる。 というか全体的に1時間以上かかるので、時間に余裕があるときに行くのがよさそうだ。]]></summary></entry><entry><title type="html">深夜料金だと… #カレーハウスCoCo壱番屋 港区御成門駅前店</title><link href="https://makietan.github.io/gourmet/2026/11/09/report.html" rel="alternate" type="text/html" title="深夜料金だと… #カレーハウスCoCo壱番屋 港区御成門駅前店" /><published>2026-11-09T00:00:00+09:00</published><updated>2026-11-09T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2026/11/09/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2026/11/09/report.html"><![CDATA[]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[ご飯感想ブログ「すずろ庵」へ遷移します]]></summary></entry><entry><title type="html">晩飯の救世主 #高円寺ともちん 新橋店</title><link href="https://makietan.github.io/gourmet/2026/11/08/report.html" rel="alternate" type="text/html" title="晩飯の救世主 #高円寺ともちん 新橋店" /><published>2026-11-08T00:00:00+09:00</published><updated>2026-11-08T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2026/11/08/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2026/11/08/report.html"><![CDATA[]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[ご飯感想ブログ「すずろ庵」へ遷移します]]></summary></entry><entry><title type="html">「第4回こがねい産業祭り」に行っておちフルのグッズを手に入れた</title><link href="https://makietan.github.io/otaku/2026/11/07/report2.html" rel="alternate" type="text/html" title="「第4回こがねい産業祭り」に行っておちフルのグッズを手に入れた" /><published>2026-11-07T21:16:58+09:00</published><updated>2026-11-07T21:16:58+09:00</updated><id>https://makietan.github.io/otaku/2026/11/07/report2</id><content type="html" xml:base="https://makietan.github.io/otaku/2026/11/07/report2.html"><![CDATA[<div class="card">
+<style>
+.route-browser {
+  margin: 1.25rem 0;
+  border-top: 1px solid #d7dce0;
+  border-bottom: 1px solid #d7dce0;
+}
+
+.route-browser__toolbar {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(140px, 220px)) 1fr;
+  align-items: end;
+  gap: .75rem;
+  padding: .75rem 0;
+}
+
+.route-browser__toolbar label,
+.route-browser__filters label {
+  display: grid;
+  gap: .3rem;
+  color: #414b52;
+  font-size: .84rem;
+  font-weight: 600;
+}
+
+.route-browser input[type="search"],
+.route-browser input[type="number"],
+.route-browser select {
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 2.35rem;
+  padding: .35rem .5rem;
+  border: 1px solid #aeb7bd;
+  border-radius: 2px;
+  background: #fff;
+  color: #20272b;
+  font: inherit;
+}
+
+.route-browser__toolbar p {
+  justify-self: end;
+  margin: 0;
+  color: #58636a;
+  font-size: .88rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.route-browser__panel {
+  border-top: 1px solid #e1e5e8;
+}
+
+.route-browser__panel summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: .65rem .1rem;
+  color: #29343a;
+  font-size: .9rem;
+  font-weight: 600;
+  cursor: pointer;
+  list-style: none;
+}
+
+.route-browser__panel summary::-webkit-details-marker {
+  display: none;
+}
+
+.route-browser__panel summary::after {
+  content: "+";
+  color: #52616a;
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+.route-browser__panel[open] summary::after {
+  content: "−";
+}
+
+.route-browser__panel[open] summary {
+  border-bottom: 1px solid #e1e5e8;
+}
+
+.route-browser__panel > :not(summary) {
+  margin-top: .8rem;
+}
+
+.route-browser__filters {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  gap: .75rem;
+  padding: .1rem 0;
+}
+
+.route-browser__modes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .35rem 1rem;
+  margin: .8rem 0;
+  padding: .5rem .65rem .6rem;
+  border: 1px solid #d7dce0;
+}
+
+.route-browser__modes legend {
+  padding: 0 .25rem;
+  font-size: .88rem;
+  font-weight: 600;
+}
+
+.route-browser__modes label {
+  white-space: nowrap;
+}
+
+.route-browser__footer {
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: .8rem;
+}
+
+.route-browser__footer button {
+  min-height: 2.2rem;
+  padding: .3rem .6rem;
+  border: 1px solid #aeb7bd;
+  border-radius: 2px;
+  background: #f7f8f8;
+  color: #29343a;
+  font: inherit;
+  font-size: .85rem;
+  cursor: pointer;
+}
+
+.route-browser__footer button:hover {
+  background: #edf0f1;
+}
+
+@media screen and (max-width: 560px) {
+  .route-browser__toolbar {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .route-browser__toolbar p {
+    grid-column: 1 / -1;
+    justify-self: start;
+  }
+}
+</style>
+
+<script>
+const initRouteBrowser = () => {
+  const browser = document.querySelector('#route-browser');
+  if (!browser) return;
+
+  let list = browser.nextElementSibling;
+  while (list && list.tagName !== 'UL') list = list.nextElementSibling;
+  if (!list) return;
+
+  const parseMinutes = (text) => {
+    const match = text.match(/(?:(\d+)時間)?(\d+)分/);
+    return match ? Number(match[1] || 0) * 60 + Number(match[2]) : null;
+  };
+
+  const routes = [...list.querySelectorAll(':scope > li')].map((item, index) => {
+    const summary = item.querySelector(':scope > p')?.textContent || item.textContent;
+    const details = item.querySelector('details')?.textContent || '';
+    const fare = summary.match(/([\d,]+)円/);
+    const walk = summary.match(/徒歩(\d+)分/);
+    const transfers = details.match(/乗換回数：(\d+)回/);
+
+    return {
+      item,
+      index,
+      name: summary.split(/[：:]/, 1)[0].trim(),
+      fare: fare ? Number(fare[1].replace(/,/g, '')) : null,
+      duration: parseMinutes(summary),
+      walk: walk ? Number(walk[1]) : null,
+      transfers: transfers ? Number(transfers[1]) : null,
+      details
+    };
+  });
+
+  const filters = [...browser.querySelectorAll('[data-filter]')];
+  const sort = browser.querySelector('[data-sort]');
+  const direction = browser.querySelector('[data-direction]');
+  const count = browser.querySelector('[data-result-count]');
+  const modeFilters = [...browser.querySelectorAll('.route-browser__modes input')];
+
+  const update = () => {
+    const activeModes = modeFilters.filter((input) => input.checked).map((input) => input.value);
+    const visibleRoutes = routes.filter((route) => {
+      const nameFilter = browser.querySelector('[data-filter="name"]').value.trim().toLocaleLowerCase();
+      if (nameFilter && !route.name.toLocaleLowerCase().includes(nameFilter)) return false;
+
+      for (const key of ['fare', 'duration', 'walk', 'transfers']) {
+        const value = browser.querySelector(`[data-filter="${key}"]`).value;
+        if (value !== '' && (route[key] === null || route[key] > Number(value))) return false;
+      }
+
+      return activeModes.length === 0 || activeModes.some((mode) => route.details.includes(mode));
+    });
+
+    const key = sort.value;
+    const multiplier = direction.value === 'desc' ? -1 : 1;
+    visibleRoutes.sort((left, right) => {
+      const difference = (left[key] ?? Infinity) - (right[key] ?? Infinity);
+      return difference === 0 ? left.index - right.index : difference * multiplier;
+    });
+
+    for (const route of routes) route.item.hidden = true;
+    for (const route of visibleRoutes) {
+      route.item.hidden = false;
+      list.append(route.item);
+    }
+    count.textContent = `${visibleRoutes.length} / ${routes.length} 店舗`;
+  };
+
+  browser.addEventListener('input', update);
+  browser.addEventListener('change', update);
+  browser.querySelector('[data-reset]').addEventListener('click', () => {
+    for (const filter of filters) filter.value = '';
+    for (const input of modeFilters) input.checked = false;
+    sort.value = 'fare';
+    direction.value = 'asc';
+    update();
+  });
+
+  update();
+};
+
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', initRouteBrowser, { once: true });
+} else {
+  initRouteBrowser();
+}
+</script>]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[相武台店は千代田線を使えば30分は短縮できるので、平日に行くなら一番便利な選択肢となる。 というか全体的に1時間以上かかるので、時間に余裕があるときに行くのがよさそうだ。]]></summary></entry><entry><title type="html">深夜料金だと… #カレーハウスCoCo壱番屋 港区御成門駅前店</title><link href="https://makietan.github.io/gourmet/2026/11/09/report.html" rel="alternate" type="text/html" title="深夜料金だと… #カレーハウスCoCo壱番屋 港区御成門駅前店" /><published>2026-11-09T00:00:00+09:00</published><updated>2026-11-09T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2026/11/09/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2026/11/09/report.html"><![CDATA[]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[ご飯感想ブログ「すずろ庵」へ遷移します]]></summary></entry><entry><title type="html">晩飯の救世主 #高円寺ともちん 新橋店</title><link href="https://makietan.github.io/gourmet/2026/11/08/report.html" rel="alternate" type="text/html" title="晩飯の救世主 #高円寺ともちん 新橋店" /><published>2026-11-08T00:00:00+09:00</published><updated>2026-11-08T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2026/11/08/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2026/11/08/report.html"><![CDATA[]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[ご飯感想ブログ「すずろ庵」へ遷移します]]></summary></entry><entry><title type="html">「第4回こがねい産業祭り」に行っておちフルのグッズを手に入れた</title><link href="https://makietan.github.io/otaku/2026/11/07/report2.html" rel="alternate" type="text/html" title="「第4回こがねい産業祭り」に行っておちフルのグッズを手に入れた" /><published>2026-11-07T21:16:58+09:00</published><updated>2026-11-07T21:16:58+09:00</updated><id>https://makietan.github.io/otaku/2026/11/07/report2</id><content type="html" xml:base="https://makietan.github.io/otaku/2026/11/07/report2.html"><![CDATA[<div class="card">
   <a href="https://koganei-kanko.jp/event/15321"></a>
   <div class="card__header">
     <a href="https://koganei-kanko.jp/event/15321">koganei-kanko.jp</a>
