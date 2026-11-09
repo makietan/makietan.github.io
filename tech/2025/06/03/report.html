@@ -175,6 +175,13 @@ exit 0
 
 <p>と書き換えれば OK です。</p>
 
+<p>ちなみに、<code class="language-plaintext highlighter-rouge">pre-push</code> は実行可能にしておく必要があります。</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">chmod</span> +x .git/hooks/pre-push
+</code></pre></div></div>
+
+<p>なお、<code class="language-plaintext highlighter-rouge">.git/hooks</code> 配下のファイルは Git 管理対象ではないので、個人の環境ごとに設定する前提です。チーム全体で統一したルールにしたい場合は、<code class="language-plaintext highlighter-rouge">pre-push</code> をテンプレート化したり、CI 側での保護チェックを併用するとよいです。</p>
+
   </div><a class="u-url" href="/tech/2025/06/03/report.html" hidden></a>
 </article>
 
