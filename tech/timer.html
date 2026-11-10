@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <title>タイマー</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      min-height: 100dvh;
+      margin: 0;
+      padding: max(16px, env(safe-area-inset-top)) max(16px, env(safe-area-inset-right)) max(16px, env(safe-area-inset-bottom)) max(16px, env(safe-area-inset-left));
+      background-color: #121212;
+      color: #e0e0e0;
+      -webkit-tap-highlight-color: transparent;
+      user-select: none;
+      -webkit-user-select: none;
+      overflow-x: hidden;
+    }
+
+    .timer-container {
+      background-color: #1e1e1e;
+      padding: 1.5rem;
+      width: 100%;
+      max-width: 420px;
+      border-radius: 24px;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+      text-align: center;
+      border: 1px solid #2a2a2a;
+      position: relative;
+    }
+
+    /* ヘッダー部分（設定URL共有用リンク） */
+    .header-actions {
+      display: flex;
+      justify-content: flex-end;
+      margin-bottom: 0.5rem;
+    }
+    .share-link-btn {
+      background: none;
+      border: none;
+      color: #777;
+      font-size: 0.75rem;
+      cursor: pointer;
+      text-decoration: underline;
+      padding: 2px 4px;
+      transition: color 0.2s;
+    }
+    .share-link-btn:hover {
+      color: #1e88e5;
+    }
+
+    /* コピートースト表示 */
+    .toast {
+      position: absolute;
+      top: 50px;
+      right: 16px;
+      background-color: #323232;
+      color: #fff;
+      font-size: 0.75rem;
+      padding: 4px 10px;
+      border-radius: 6px;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.3s;
+      z-index: 10;
+    }
+    .toast.show {
+      opacity: 1;
+    }
+
+    /* 音声ブロック警告バナー */
+    .audio-warning {
+      background-color: #b71c1c;
+      color: #ffffff;
+      font-size: 0.85rem;
+      padding: 0.75rem 1rem;
+      border-radius: 12px;
+      margin-bottom: 1rem;
+      display: none;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+      box-shadow: 0 4px 12px rgba(183, 28, 28, 0.4);
+      animation: pulse-warning 2s infinite;
+    }
+    .audio-warning.show {
+      display: flex;
+    }
+    .audio-warning button {
+      background-color: #ffffff;
+      color: #b71c1c;
+      border: none;
+      padding: 0.4rem 0.8rem;
+      border-radius: 6px;
+      font-weight: bold;
+      font-size: 0.8rem;
+      cursor: pointer;
+      white-space: nowrap;
+      min-height: 36px;
+    }
+
+    @keyframes pulse-warning {
+      0% { opacity: 1; }
+      50% { opacity: 0.85; }
+      100% { opacity: 1; }
+    }
+
+    .preset-group {
+      display: flex;
+      justify-content: center;
+      gap: 8px;
+      margin-bottom: 1rem;
+    }
+    .preset-btn {
+      flex: 1;
+      font-size: 0.95rem;
+      min-height: 44px;
+      padding: 0.5rem 0;
+      border: 1px solid #333;
+      border-radius: 12px;
+      background-color: #252525;
+      color: #b0b0b0;
+      cursor: pointer;
+      touch-action: manipulation;
+      transition: background-color 0.2s, border-color 0.2s, color 0.2s, opacity 0.2s;
+    }
+    .preset-btn.active {
+      background-color: #1e88e5;
+      color: white;
+      border-color: #1e88e5;
+      font-weight: bold;
+    }
+    .preset-btn:disabled {
+      opacity: 0.4;
+      cursor: not-allowed;
+    }
+    
+    .timer-circle-wrap {
+      position: relative;
+      width: min(65vw, 220px);
+      height: min(65vw, 220px);
+      margin: 0 auto 0.75rem auto;
+    }
+    .timer-svg {
+      width: 100%;
+      height: 100%;
+      transform: rotate(-90deg);
+    }
+    .circle-bg {
+      fill: none;
+      stroke: #2c2c2c;
+      stroke-width: 10;
+    }
+    .circle-progress {
+      fill: none;
+      stroke: #1e88e5;
+      stroke-width: 10;
+      stroke-linecap: round;
+      stroke-dasharray: 691.15;
+      stroke-dashoffset: 691.15;
+      transition: stroke-dashoffset 0.3s linear;
+    }
+
+    .timer-display-container {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      pointer-events: none;
+    }
+    .timer-display {
+      font-size: clamp(2.6rem, 11vw, 3.5rem);
+      font-weight: bold;
+      color: #ffffff;
+      font-variant-numeric: tabular-nums;
+      line-height: 1;
+    }
+
+    /* 控えめなカスタム時間入力エリア */
+    .custom-time-trigger {
+      font-size: 0.75rem;
+      color: #666;
+      background: none;
+      border: none;
+      cursor: pointer;
+      text-decoration: underline;
+      margin-bottom: 1rem;
+      padding: 4px 8px;
+      transition: color 0.2s;
+    }
+    .custom-time-trigger:hover {
+      color: #aaa;
+    }
+    .custom-time-trigger:disabled {
+      color: #333;
+      text-decoration: none;
+      cursor: not-allowed;
+    }
+
+    .custom-input-box {
+      display: none;
+      justify-content: center;
+      align-items: center;
+      gap: 6px;
+      margin-bottom: 1rem;
+    }
+    .custom-input-box.show {
+      display: flex;
+    }
+    .custom-input-box input {
+      width: 50px;
+      background-color: #252525;
+      border: 1px solid #444;
+      color: #fff;
+      border-radius: 6px;
+      padding: 4px;
+      text-align: center;
+      font-size: 0.9rem;
+    }
+    .custom-input-box button {
+      background-color: #333;
+      color: #ccc;
+      border: none;
+      border-radius: 6px;
+      padding: 4px 10px;
+      font-size: 0.8rem;
+      cursor: pointer;
+    }
+
+    .button-group {
+      display: flex;
+      gap: 10px;
+    }
+    .button-group button {
+      flex: 1;
+      font-size: 1rem;
+      min-height: 50px;
+      padding: 0.75rem 0;
+      border: none;
+      border-radius: 12px;
+      cursor: pointer;
+      touch-action: manipulation;
+      font-weight: bold;
+      transition: opacity 0.2s, background-color 0.2s;
+    }
+    .button-group button:active {
+      opacity: 0.7;
+    }
+
+    .btn-toggle { background-color: #1e88e5; color: white; display: none; }
+    .btn-toggle.show { display: block; }
+    .btn-toggle.paused { background-color: #fb8c00; }
+    
+    .btn-lap { background-color: #43a047; color: white; display: none; }
+    .btn-lap.show { display: block; }
+
+    .btn-reset { background-color: #e53935; color: white; display: none; }
+    .btn-reset.show { display: block; }
+
+    /* ラップタイム表示リスト */
+    .lap-list-container {
+      margin-top: 1.2rem;
+      max-height: 120px;
+      overflow-y: auto;
+      border-top: 1px solid #2a2a2a;
+      padding-top: 0.5rem;
+      display: none;
+    }
+    .lap-list-container.show {
+      display: block;
+    }
+    .lap-item {
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.8rem;
+      color: #aaa;
+      padding: 4px 8px;
+      border-bottom: 1px dashed #282828;
+    }
+    .lap-item span:first-child {
+      color: #666;
+    }
+
+    .key-hints {
+      margin-top: 1rem;
+      font-size: 0.75rem;
+      color: #666;
+      line-height: 1.4;
+    }
+    
+    @media (hover: none) and (pointer: coarse) {
+      .key-hints {
+        display: none;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="timer-container">
+    <div class="header-actions">
+      <button class="share-link-btn" onclick="copyShareUrl()">現在の設定をURL共有</button>
+    </div>
+    <div id="toast" class="toast">URLをコピーしました</div>
+
+    <div id="audioWarning" class="audio-warning">
+      <span>⚠️ 自動再生がブロックされています</span>
+      <button onclick="unlockAudio()">音声を有効化</button>
+    </div>
+
+    <div class="preset-group">
+      <button class="preset-btn" data-time="180" onclick="setPreset(180, this)">3分</button>
+      <button class="preset-btn active" data-time="300" onclick="setPreset(300, this)">5分</button>
+      <button class="preset-btn" data-time="600" onclick="setPreset(600, this)">10分</button>
+    </div>
+    
+    <div class="timer-circle-wrap">
+      <svg class="timer-svg" viewBox="0 0 240 240">
+        <circle class="circle-bg" cx="120" cy="120" r="110" />
+        <circle class="circle-progress" id="progress" cx="120" cy="120" r="110" />
+      </svg>
+      <div class="timer-display-container">
+        <div class="timer-display" id="display">05:00</div>
+      </div>
+    </div>
+
+    <!-- 控えめなカスタム時間入力 -->
+    <button id="customTrigger" class="custom-time-trigger" onclick="toggleCustomInput()">時間を直接入力</button>
+    <div id="customBox" class="custom-input-box">
+      <input type="number" id="customMin" placeholder="分" min="0" max="999"> 分
+      <input type="number" id="customSec" placeholder="秒" min="0" max="59"> 秒
+      <button onclick="applyCustomTime()">設定</button>
+    </div>
+    
+    <div class="button-group">
+      <button id="btnToggle" class="btn-toggle" onclick="toggleTimer()">スタート</button>
+      <button id="btnLap" class="btn-lap" onclick="recordLap()">ラップ</button>
+      <button id="btnReset" class="btn-reset" onclick="resetTimer()">リセット</button>
+    </div>
+
+    <!-- ラップタイム履歴 -->
+    <div id="lapContainer" class="lap-list-container">
+      <div id="lapList"></div>
+    </div>
+
+    <div class="key-hints">
+      [ Space / Enter ]: スタート・一時停止 | [ L ]: ラップ | [ R ]: リセット
+    </div>
+  </div>
+
+  <script>
+    const FULL_CIRCUMFERENCE = 2 * Math.PI * 110;
+    let initialTime = 300;
+    let timeLeft = initialTime;
+    let timerId = null;
+    let audioCtx = null;
+    let wakeLock = null;
+    let lapCount = 0;
+
+    const displayElement = document.getElementById('display');
+    const progressElement = document.getElementById('progress');
+    const audioWarningElement = document.getElementById('audioWarning');
+    const btnToggle = document.getElementById('btnToggle');
+    const btnLap = document.getElementById('btnLap');
+    const btnReset = document.getElementById('btnReset');
+    const customTrigger = document.getElementById('customTrigger');
+    const customBox = document.getElementById('customBox');
+    const lapContainer = document.getElementById('lapContainer');
+    const lapList = document.getElementById('lapList');
+
+    async function requestWakeLock() {
+      if ('wakeLock' in navigator) {
+        try { wakeLock = await navigator.wakeLock.request('screen'); } catch (err) {}
+      }
+    }
+
+    function releaseWakeLock() {
+      if (wakeLock !== null) {
+        wakeLock.release().then(() => { wakeLock = null; });
+      }
+    }
+
+    function checkAudioState() {
+      if (audioCtx && audioCtx.state === 'suspended') {
+        audioWarningElement.classList.add('show');
+      } else {
+        audioWarningElement.classList.remove('show');
+      }
+    }
+
+    function initAudio() {
+      if (!audioCtx) {
+        audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+      }
+      if (audioCtx.state === 'suspended') {
+        audioCtx.resume().then(() => { checkAudioState(); });
+      } else {
+        checkAudioState();
+      }
+    }
+
+    function unlockAudio() {
+      initAudio();
+      if (audioCtx && audioCtx.state === 'running') {
+        const osc = audioCtx.createOscillator();
+        const gain = audioCtx.createGain();
+        gain.gain.setValueAtTime(0.001, audioCtx.currentTime);
+        osc.connect(gain);
+        gain.connect(audioCtx.destination);
+        osc.start();
+        osc.stop(audioCtx.currentTime + 0.05);
+      }
+      checkAudioState();
+    }
+
+    function updateControlsState() {
+      const isRunning = timerId !== null;
+      const isInitial = timeLeft === initialTime;
+      const isFinished = timeLeft <= 0;
+
+      if (isRunning) {
+        btnToggle.textContent = '一時停止';
+        btnToggle.classList.add('paused', 'show');
+        btnLap.classList.add('show');
+        btnReset.classList.remove('show');
+        
+        customTrigger.disabled = true;
+        customBox.classList.remove('show');
+        document.querySelectorAll('.preset-btn').forEach(b => b.disabled = true);
+      } else if (isInitial) {
+        btnToggle.textContent = 'スタート';
+        btnToggle.classList.remove('paused');
+        btnToggle.classList.add('show');
+        btnLap.classList.remove('show');
+        btnReset.classList.remove('show');
+        
+        customTrigger.disabled = false;
+        document.querySelectorAll('.preset-btn').forEach(b => b.disabled = false);
+      } else if (isFinished) {
+        btnToggle.classList.remove('show', 'paused');
+        btnLap.classList.remove('show');
+        btnReset.classList.add('show');
+        
+        customTrigger.disabled = false;
+        document.querySelectorAll('.preset-btn').forEach(b => b.disabled = false);
+      } else {
+        btnToggle.textContent = 'スタート';
+        btnToggle.classList.remove('paused');
+        btnToggle.classList.add('show');
+        btnLap.classList.remove('show');
+        btnReset.classList.add('show');
+        
+        customTrigger.disabled = false;
+        document.querySelectorAll('.preset-btn').forEach(b => b.disabled = false);
+      }
+    }
+
+    function toggleCustomInput() {
+      if (timerId !== null) return;
+      customBox.classList.toggle('show');
+    }
+
+    function applyCustomTime() {
+      const m = parseInt(document.getElementById('customMin').value, 10) || 0;
+      const s = parseInt(document.getElementById('customSec').value, 10) || 0;
+      const totalSeconds = m * 60 + s;
+
+      if (totalSeconds > 0) {
+        initialTime = totalSeconds;
+        timeLeft = initialTime;
+        document.querySelectorAll('.preset-btn').forEach(b => b.classList.remove('active'));
+        clearLaps();
+        updateDisplay();
+        updateControlsState();
+        customBox.classList.remove('show');
+      }
+    }
+
+    function recordLap() {
+      if (timerId === null) return;
+      lapCount++;
+      lapContainer.classList.add('show');
+
+      const elapsedSec = initialTime - timeLeft;
+      const formatTime = (sec) => {
+        const m = Math.floor(sec / 60);
+        const s = sec % 60;
+        return String(m).padStart(2, '0') + ':' + String(s).padStart(2, '0');
+      };
+
+      const item = document.createElement('div');
+      item.className = 'lap-item';
+      item.innerHTML = `
+        <span>Lap ${lapCount}</span>
+        <span>残り ${formatTime(timeLeft)} (経過 ${formatTime(elapsedSec)})</span>
+      `;
+      lapList.insertBefore(item, lapList.firstChild);
+    }
+
+    function clearLaps() {
+      lapCount = 0;
+      lapList.innerHTML = '';
+      lapContainer.classList.remove('show');
+    }
+
+    function copyShareUrl() {
+      const url = new URL(window.location.href);
+      url.searchParams.set('t', initialTime);
+      navigator.clipboard.writeText(url.toString()).then(() => {
+        const toast = document.getElementById('toast');
+        toast.classList.add('show');
+        setTimeout(() => toast.classList.remove('show'), 2000);
+      });
+    }
+
+    function parseQueryParams() {
+      const params = new URLSearchParams(window.location.search);
+      let sec = null;
+
+      if (params.has('t')) {
+        sec = parseInt(params.get('t'), 10);
+      } else if (params.has('m')) {
+        sec = parseFloat(params.get('m')) * 60;
+      }
+
+      if (sec !== null && !isNaN(sec) && sec > 0) {
+        initialTime = Math.floor(sec);
+        timeLeft = initialTime;
+
+        document.querySelectorAll('.preset-btn').forEach(b => {
+          if (parseInt(b.getAttribute('data-time'), 10) === initialTime) {
+            b.classList.add('active');
+          } else {
+            b.classList.remove('active');
+          }
+        });
+      }
+
+      updateDisplay();
+
+      const autostartParam = params.get('autostart');
+      const isAutoStart = !(autostartParam === '0' || autostartParam === 'false');
+
+      if (isAutoStart) {
+        initAudio();
+        startTimer();
+        setTimeout(checkAudioState, 200);
+      } else {
+        updateControlsState();
+      }
+    }
+
+    function playAlarm() {
+      initAudio();
+      
+      const now = audioCtx.currentTime;
+      const freq = 2093.00;
+
+      const times = [0.0, 0.15, 0.3, 0.7, 0.85, 1.0];
+
+      times.forEach(t => {
+        const osc = audioCtx.createOscillator();
+        const gain = audioCtx.createGain();
+
+        osc.type = 'sine';
+        osc.frequency.setValueAtTime(freq, now + t);
+
+        gain.gain.setValueAtTime(0, now + t);
+        gain.gain.linearRampToValueAtTime(0.9, now + t + 0.01);
+        gain.gain.setValueAtTime(0.9, now + t + 0.08);
+        gain.gain.linearRampToValueAtTime(0, now + t + 0.1);
+
+        osc.connect(gain);
+        gain.connect(audioCtx.destination);
+
+        osc.start(now + t);
+        osc.stop(now + t + 0.1);
+      });
+    }
+
+    function updateDisplay() {
+      const minutes = Math.floor(timeLeft / 60);
+      const seconds = timeLeft % 60;
+      displayElement.textContent = 
+        String(minutes).padStart(2, '0') + ':' + String(seconds).padStart(2, '0');
+
+      const elapsedRatio = (initialTime - timeLeft) / initialTime;
+      const strokeDashoffset = FULL_CIRCUMFERENCE * (1 - elapsedRatio);
+      progressElement.style.strokeDashoffset = strokeDashoffset;
+    }
+
+    function setPreset(seconds, btnElement) {
+      if (timerId !== null) return;
+
+      initialTime = seconds;
+      timeLeft = initialTime;
+      
+      // プリセット変更時にカスタム設定フォームを閉じる
+      customBox.classList.remove('show');
+      
+      document.querySelectorAll('.preset-btn').forEach(b => b.classList.remove('active'));
+      if (btnElement) {
+        btnElement.classList.add('active');
+      }
+      
+      clearLaps();
+      updateDisplay();
+      updateControlsState();
+    }
+
+    function toggleTimer() {
+      if (timerId !== null) {
+        pauseTimer();
+      } else if (timeLeft > 0) {
+        startTimer();
+      }
+    }
+
+    function startTimer() {
+      initAudio();
+      requestWakeLock();
+
+      if (timerId !== null) return;
+      if (timeLeft <= 0) return;
+      
+      // スタート時にカスタム設定フォームを閉じる
+      customBox.classList.remove('show');
+
+      timerId = setInterval(() => {
+        if (timeLeft > 0) {
+          timeLeft--;
+          updateDisplay();
+        } else {
+          clearInterval(timerId);
+          timerId = null;
+          releaseWakeLock();
+          updateControlsState();
+          playAlarm();
+        }
+      }, 1000);
+
+      updateControlsState();
+    }
+
+    function pauseTimer() {
+      if (timerId !== null) {
+        clearInterval(timerId);
+        timerId = null;
+        releaseWakeLock();
+        updateControlsState();
+      }
+    }
+
+    function resetTimer() {
+      if (timerId !== null) return;
+      timeLeft = initialTime;
+      clearLaps();
+      updateDisplay();
+      updateControlsState();
+    }
+
+    window.addEventListener('keydown', (e) => {
+      if (['INPUT', 'TEXTAREA'].includes(document.activeElement.tagName)) return;
+
+      initAudio();
+
+      if (e.code === 'Space' || e.code === 'Enter') {
+        e.preventDefault();
+        toggleTimer();
+      } else if (e.code === 'KeyL') {
+        if (timerId !== null) recordLap();
+      } else if (e.code === 'KeyR') {
+        if (timerId === null && timeLeft !== initialTime) resetTimer();
+      } else if (e.key === '1' && timerId === null) {
+        const btn = document.querySelector('.preset-btn[data-time="180"]');
+        setPreset(180, btn);
+      } else if (e.key === '2' && timerId === null) {
+        const btn = document.querySelector('.preset-btn[data-time="300"]');
+        setPreset(300, btn);
+      } else if (e.key === '3' && timerId === null) {
+        const btn = document.querySelector('.preset-btn[data-time="600"]');
+        setPreset(600, btn);
+      }
+    });
+
+    window.addEventListener('pointerdown', () => {
+      initAudio();
+    }, { once: true });
+
+    parseQueryParams();
+  </script>
+
+</body>
+</html>
