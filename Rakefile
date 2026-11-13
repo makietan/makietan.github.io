@@ -72,18 +72,17 @@ task :swap, ['target_date', "type"] do |task, args|
 
   task_type = (args.type && !args.type.empty?) ? args.type : "tomorrow"
 
+  existing_paths = Dir.glob("_posts/*-report.md")
   Rake::Task[task_type].invoke()
 
-  # 2. tomorrow によって作成された最新のファイルを特定する
-  day = Date.today
-  path = "_posts/#{day.strftime('%F')}-report.md"
-  while File.exist?(path)
-    day = day + 1
-    path = "_posts/#{day.strftime('%F')}-report.md"
+  created_paths = Dir.glob("_posts/*-report.md") - existing_paths
+  if created_paths.size != 1
+    puts "新しく作成された投稿を1件に特定できませんでした。入れ替えは行いません。"
+    next
   end
-  # tomorrow 実行後なので、whileを抜けた1日前の日付が作成されたファイル
-  tomorrow_day = day - 1
-  tomorrow_path = "_posts/#{tomorrow_day.strftime('%F')}-report.md"
+
+  tomorrow_path = created_paths.first
+  tomorrow_day = Date.parse(File.basename(tomorrow_path, "-report.md"))
 
   # 3. 指定された入れ替え対象の日付
   target_day = Date.parse(args.target_date)
