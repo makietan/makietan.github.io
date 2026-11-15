@@ -8,6 +8,7 @@ permalink: /links/
 - [makietan \- YouTube](https://www.youtube.com/@makietan) - メイン
 - [牧江単 \- YouTube](https://www.youtube.com/@makietangup) - 戦車道大作戦
 - [まきえたんDD \- YouTube](https://www.youtube.com/@makietanDD) - スパロボDD 
+- [まきえたん遊戯王倉庫 \- YouTube](https://www.youtube.com/@makietanYUGIOH) - 遊戯王
 
 ## Twitter
 - [@makietanx](https://twitter.com/makietanX) - 現・メイン
