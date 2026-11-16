@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>資料集風 100%積み上げ横棒グラフ作成ツール</title>
+<style>
+  :root {
+    --bg-color: #f4f5f0;
+    --panel-bg: #ffffff;
+    --border-color: #333333;
+    --accent-color: #2c6e49;
+  }
+
+  body {
+    font-family: "Hiragino Kaku Gothic ProN", "Meiryo", sans-serif;
+    background-color: var(--bg-color);
+    color: #222;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h1 {
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+    color: #111;
+  }
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1200px;
+    width: 100%;
+    justify-content: center;
+  }
+
+  /* 左側：入力フォーム */
+  .editor-panel {
+    background: var(--panel-bg);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    flex: 1;
+    min-width: 340px;
+    max-width: 480px;
+    max-height: 85vh;
+    overflow-y: auto;
+  }
+
+  .country-card {
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 12px;
+    margin-bottom: 15px;
+    background: #fafafa;
+  }
+
+  .country-header {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 10px;
+    align-items: center;
+  }
+
+  .country-header input {
+    padding: 6px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    font-size: 0.95rem;
+  }
+
+  .item-row {
+    display: flex;
+    gap: 6px;
+    margin-bottom: 6px;
+    align-items: center;
+  }
+
+  .item-row input[type="text"] {
+    flex: 2;
+    padding: 5px;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+  }
+
+  .item-row input[type="number"] {
+    flex: 1;
+    width: 60px;
+    padding: 5px;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+  }
+
+  .item-row select {
+    padding: 5px;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+  }
+
+  button {
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    padding: 6px 10px;
+    font-size: 0.85rem;
+    transition: opacity 0.2s;
+  }
+
+  button:hover {
+    opacity: 0.85;
+  }
+
+  .btn-add {
+    background-color: var(--accent-color);
+    color: white;
+    margin-top: 5px;
+  }
+
+  .btn-del {
+    background-color: #d9534f;
+    color: white;
+    padding: 5px 8px;
+  }
+
+  .btn-primary {
+    background-color: #0066cc;
+    color: white;
+    font-size: 1rem;
+    padding: 10px 16px;
+    width: 100%;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+
+  .global-settings {
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #eee;
+  }
+
+  .global-settings input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 6px;
+    margin-top: 4px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+  }
+
+  /* 右側：グラフプレビュー（資料集風デザイン） */
+  .preview-panel {
+    background: #eef1e6; /* 教科書の紙面風の淡い背景色 */
+    padding: 30px;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    flex: 1.4;
+    min-width: 520px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  #chart-capture-area {
+    background: #eef1e6;
+    padding: 20px 25px;
+  }
+
+  .chart-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 28px; /* 引き出し線用の余白 */
+    position: relative;
+  }
+
+  .country-info {
+    width: 115px;
+    text-align: center;
+    padding-right: 12px;
+    flex-shrink: 0;
+  }
+
+  .country-name {
+    font-weight: bold;
+    font-size: 1.05rem;
+    letter-spacing: 0.05em;
+    color: #111;
+  }
+
+  .country-total {
+    font-size: 0.85rem;
+    color: #333;
+    margin-top: 2px;
+  }
+
+  /* 棒グラフ本体 */
+  .bar-container {
+    flex: 1;
+    height: 36px;
+    display: flex;
+    border: 1.5px solid #222;
+    background: #fff;
+    position: relative;
+  }
+
+  .bar-segment {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid #222;
+    box-sizing: border-box;
+    font-size: 0.78rem;
+    line-height: 1.15;
+    color: #111;
+    position: relative;
+    text-align: center;
+    overflow: visible;
+    white-space: nowrap;
+  }
+
+  .bar-segment:last-child {
+    border-right: none;
+  }
+
+  /* 幅が狭い項目用の引き出し線ラベル（下部） */
+  .callout-bottom {
+    position: absolute;
+    top: 38px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 0.75rem;
+    color: #111;
+    white-space: nowrap;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .callout-bottom::before {
+    content: "";
+    width: 1px;
+    height: 8px;
+    background: #222;
+    margin-bottom: 1px;
+  }
+
+  /* 幅が狭い項目用の引き出し線ラベル（上部） */
+  .callout-top {
+    position: absolute;
+    bottom: 38px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 0.75rem;
+    color: #111;
+    white-space: nowrap;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .callout-top::before {
+    content: "";
+    width: 1px;
+    height: 8px;
+    background: #222;
+    margin-top: 1px;
+  }
+
+  .chart-footer {
+    text-align: right;
+    font-size: 0.8rem;
+    color: #333;
+    margin-top: 10px;
+  }
+
+  .chart-title-box {
+    margin-top: 12px;
+    font-weight: bold;
+    font-size: 1.05rem;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .badge-num {
+    background: #2b5b84;
+    color: #fff;
+    padding: 1px 6px;
+    border-radius: 3px;
+    font-size: 0.9rem;
+  }
+</style>
+</head>
+<body>
+
+<h1>社会科資料集風 100%積み上げ横棒グラフ作成ツール</h1>
+
+<div class="container">
+  <!-- 左側：データ編集エリア -->
+  <div class="editor-panel">
+    <div class="global-settings">
+      <label><strong>グラフタイトル</strong></label>
+      <input type="text" id="chartTitle" value="主な国の輸出品目" oninput="renderChart()">
+      <label style="display:block; margin-top:8px;"><strong>出典・注釈（右下）</strong></label>
+      <input type="text" id="chartSource" value="＊2018年 （2019年）〔UN Comtrade〕" oninput="renderChart()">
+    </div>
+
+    <div id="countries-editor"></div>
+
+    <button class="btn-add" style="width:100%; padding:8px;" onclick="addCountry()">＋ 国・項目を追加</button>
+    <button class="btn-primary" onclick="exportHTML()">完成したグラフ単体のHTMLを保存</button>
+  </div>
+
+  <!-- 右側：プレビューエリア -->
+  <div class="preview-panel">
+    <div id="chart-capture-area">
+      <div id="chart-container"></div>
+      <div class="chart-footer" id="preview-source"></div>
+      <div class="chart-title-box">
+        <span class="badge-num">1</span>
+        <span id="preview-title">主な国の輸出品目</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+// 資料集で使われる品目別カラーパレット
+const CATEGORY_COLORS = {
+  "石油・原油": "#e29cb5",
+  "金・鉱産物": "#f2d624",
+  "機械類": "#b6d7e4",
+  "自動車・輸送": "#b2b2d8",
+  "衣類": "#eab686",
+  "農産物・食品": "#d68c45",
+  "化学・薬品": "#c9e29c",
+  "水産物": "#5299c6",
+  "その他": "#e5e5e5"
+};
+
+// 初期サンプルデータ（画像のエジプト・チュニジア・ナイジェリア等を再現）
+let chartData = [
+  {
+    name: "エジプト",
+    total: "306億ドル",
+    items: [
+      { label: "石油製品", value: 15.0, color: "石油・原油" },
+      { label: "金(非貨幣用)", value: 6.7, color: "金・鉱産物" },
+      { label: "原油", value: 6.3, color: "石油・原油" },
+      { label: "機械類", value: 6.0, color: "機械類" },
+      { label: "プラスチック類", value: 5.8, color: "自動車・輸送" },
+      { label: "その他", value: 60.2, color: "その他" }
+    ]
+  },
+  {
+    name: "チュニジア",
+    total: "149億ドル",
+    items: [
+      { label: "機械類", value: 30.4, color: "機械類" },
+      { label: "衣類", value: 15.2, color: "衣類" },
+      { label: "原油", value: 4.1, color: "石油・原油" },
+      { label: "精密機械", value: 4.1, color: "化学・薬品" },
+      { label: "自動車", value: 3.5, color: "自動車・輸送" },
+      { label: "その他", value: 42.7, color: "その他" }
+    ]
+  },
+  {
+    name: "ナイジェリア",
+    total: "624億ドル",
+    items: [
+      { label: "原油", value: 82.3, color: "石油・原油" },
+      { label: "液化天然ガス", value: 9.9, color: "化学・薬品" },
+      { label: "船舶", value: 2.4, color: "自動車・輸送" },
+      { label: "その他", value: 5.4, color: "その他" }
+    ]
+  },
+  {
+    name: "ガーナ",
+    total: "168億ドル",
+    items: [
+      { label: "金(非貨幣用)", value: 37.0, color: "金・鉱産物" },
+      { label: "原油", value: 31.3, color: "石油・原油" },
+      { label: "カカオ豆", value: 11.0, color: "農産物・食品" },
+      { label: "ココアペースト", value: 2.4, color: "農産物・食品" },
+      { label: "果実", value: 2.2, color: "農産物・食品" },
+      { label: "その他", value: 16.1, color: "その他" }
+    ]
+  }
+];
+
+function renderEditor() {
+  const editor = document.getElementById("countries-editor");
+  editor.innerHTML = "";
+
+  chartData.forEach((country, cIdx) => {
+    const card = document.createElement("div");
+    card.className = "country-card";
+
+    let itemsHtml = "";
+    country.items.forEach((item, iIdx) => {
+      const colorOptions = Object.keys(CATEGORY_COLORS).map(cat =>
+        `<option value="${cat}" ${item.color === cat ? "selected" : ""}>${cat}</option>`
+      ).join("");
+
+      itemsHtml += `
+        <div class="item-row">
+          <input type="text" value="${item.label}" placeholder="品目名" onchange="updateItem(${cIdx}, ${iIdx}, 'label', this.value)">
+          <input type="number" step="0.1" value="${item.value}" placeholder="%" onchange="updateItem(${cIdx}, ${iIdx}, 'value', parseFloat(this.value) || 0)">
+          <select onchange="updateItem(${cIdx}, ${iIdx}, 'color', this.value)">${colorOptions}</select>
+          <button class="btn-del" onclick="removeItem(${cIdx}, ${iIdx})">×</button>
+        </div>
+      `;
+    });
+
+    card.innerHTML = `
+      <div class="country-header">
+        <input type="text" value="${country.name}" placeholder="国名" style="flex:1.2; font-weight:bold;" onchange="updateCountry(${cIdx}, 'name', this.value)">
+        <input type="text" value="${country.total}" placeholder="総額(例:306億ドル)" style="flex:1;" onchange="updateCountry(${cIdx}, 'total', this.value)">
+        <button class="btn-del" onclick="removeCountry(${cIdx})">削除</button>
+      </div>
+      ${itemsHtml}
+      <button class="btn-add" onclick="addItem(${cIdx})">＋ 品目追加</button>
+    `;
+    editor.appendChild(card);
+  });
+}
+
+function renderChart() {
+  document.getElementById("preview-title").textContent = document.getElementById("chartTitle").value;
+  document.getElementById("preview-source").textContent = document.getElementById("chartSource").value;
+
+  const container = document.getElementById("chart-container");
+  container.innerHTML = "";
+
+  chartData.forEach((country, cIdx) => {
+    const row = document.createElement("div");
+    row.className = "chart-row";
+
+    const totalPercent = country.items.reduce((sum, item) => sum + item.value, 0) || 100;
+    let calloutToggle = false; // 上下の引き出し線を交互に振るためのフラグ
+
+    const segmentsHtml = country.items.map((item, idx) => {
+      const widthPct = (item.value / totalPercent) * 100;
+      const bgColor = CATEGORY_COLORS[item.color] || "#e5e5e5";
+      const valStr = idx === 0 ? `${item.value.toFixed(1)}%` : `${item.value.toFixed(1)}`;
+
+      // 幅が狭い（8%未満）場合は枠外に引き出し線で表示
+      if (widthPct < 8.5) {
+        const posClass = calloutToggle ? "callout-top" : "callout-bottom";
+        calloutToggle = !calloutToggle;
+        return `
+          <div class="bar-segment" style="width: ${widthPct}%; background-color: ${bgColor};">
+            <span style="font-size:0.65rem;">${widthPct >= 4.2 ? valStr : ""}</span>
+            <div class="${posClass}">${item.label} ${widthPct < 4.2 ? valStr : ""}</div>
+          </div>
+        `;
+      } else {
+        return `
+          <div class="bar-segment" style="width: ${widthPct}%; background-color: ${bgColor};">
+            <span>${item.label}</span>
+            <span>${valStr}</span>
+          </div>
+        `;
+      }
+    }).join("");
+
+    row.innerHTML = `
+      <div class="country-info">
+        <div class="country-name">${country.name}</div>
+        <div class="country-total">${country.total}</div>
+      </div>
+      <div class="bar-container">
+        ${segmentsHtml}
+      </div>
+    `;
+    container.appendChild(row);
+  });
+}
+
+function updateCountry(cIdx, field, val) {
+  chartData[cIdx][field] = val;
+  renderChart();
+}
+
+function addCountry() {
+  chartData.push({
+    name: "新しい国",
+    total: "100億ドル",
+    items: [
+      { label: "主要品目", value: 60.0, color: "機械類" },
+      { label: "その他", value: 40.0, color: "その他" }
+    ]
+  });
+  renderEditor();
+  renderChart();
+}
+
+function removeCountry(cIdx) {
+  chartData.splice(cIdx, 1);
+  renderEditor();
+  renderChart();
+}
+
+function updateItem(cIdx, iIdx, field, val) {
+  chartData[cIdx].items[iIdx][field] = val;
+  renderChart();
+}
+
+function addItem(cIdx) {
+  chartData[cIdx].items.splice(chartData[cIdx].items.length - 1, 0, {
+    label: "新規品目",
+    value: 5.0,
+    color: "金・鉱産物"
+  });
+  renderEditor();
+  renderChart();
+}
+
+function removeItem(cIdx, iIdx) {
+  chartData[cIdx].items.splice(iIdx, 1);
+  renderEditor();
+  renderChart();
+}
+
+// グラフ部分だけを独立したHTMLファイルとしてダウンロード
+function exportHTML() {
+  const chartHtml = document.getElementById("chart-capture-area").outerHTML;
+  const styles = document.querySelector("style").innerHTML;
+  const fullDoc = `<!DOCTYPE html><html lang="ja"><head><meta charset="UTF-8"><style>${styles} body{background:#eef1e6;}</style></head><body>${chartHtml}</body></html>`;
+  const blob = new Blob([fullDoc], { type: "text/html" });
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(blob);
+  a.download = "export_chart.html";
+  a.click();
+}
+
+// 初期描画
+renderEditor();
+renderChart();
+</script>
+
+</body>
+</html>

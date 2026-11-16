@@ -2,7 +2,7 @@
 layout: post
 title:  "OpenMTP を使って Android と接続する"
 categories: tech
-date: "2026-11-10 17:01:23"
+date: "2027-11-10 17:01:23"
 ---
 
 Android File Transfer が終了したため、代替として OpenMTP を使用する。
