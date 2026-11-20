@@ -1,4 +1,123 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-11-19T23:18:02+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>日報を中心に、技術メモやイベント参加記録をまとめるブログです。</subtitle><author><name>makietan</name></author><entry><title type="html">スタンプの有効期限を更新しにきた #来来亭 東川口店</title><link href="https://makietan.github.io/gourmet/2026/11/19/report.html" rel="alternate" type="text/html" title="スタンプの有効期限を更新しにきた #来来亭 東川口店" /><published>2026-11-19T00:00:00+09:00</published><updated>2026-11-19T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2026/11/19/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2026/11/19/report.html"><![CDATA[]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[ご飯感想ブログ「すずろ庵」へ遷移します]]></summary></entry><entry><title type="html">ちゃん系ではない #マルショーラーメン</title><link href="https://makietan.github.io/gourmet/2026/11/18/report.html" rel="alternate" type="text/html" title="ちゃん系ではない #マルショーラーメン" /><published>2026-11-18T00:00:00+09:00</published><updated>2026-11-18T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2026/11/18/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2026/11/18/report.html"><![CDATA[]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[ご飯感想ブログ「すずろ庵」へ遷移します]]></summary></entry><entry><title type="html">玉手橋は玉手山遊園地のために作られたらしい</title><link href="https://makietan.github.io/history/2026/11/17/report.html" rel="alternate" type="text/html" title="玉手橋は玉手山遊園地のために作られたらしい" /><published>2026-11-17T00:00:00+09:00</published><updated>2026-11-17T00:00:00+09:00</updated><id>https://makietan.github.io/history/2026/11/17/report</id><content type="html" xml:base="https://makietan.github.io/history/2026/11/17/report.html"><![CDATA[<div class="card">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://makietan.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://makietan.github.io/" rel="alternate" type="text/html" hreflang="ja" /><updated>2026-11-20T20:00:16+09:00</updated><id>https://makietan.github.io/feed.xml</id><title type="html">肉とお米とブロッコリー</title><subtitle>日報を中心に、技術メモやイベント参加記録をまとめるブログです。</subtitle><author><name>makietan</name></author><entry><title type="html">なぎちゃんラーメン最北端店 #なぎちゃんラーメン 川越店</title><link href="https://makietan.github.io/gourmet/2026/11/20/report.html" rel="alternate" type="text/html" title="なぎちゃんラーメン最北端店 #なぎちゃんラーメン 川越店" /><published>2026-11-20T00:00:00+09:00</published><updated>2026-11-20T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2026/11/20/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2026/11/20/report.html"><![CDATA[]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[ご飯感想ブログ「すずろ庵」へ遷移します]]></summary></entry><entry><title type="html">PHPの脆弱性が話題なので曲にしてもらいました</title><link href="https://makietan.github.io/tech/2026/11/20/report2.html" rel="alternate" type="text/html" title="PHPの脆弱性が話題なので曲にしてもらいました" /><published>2026-11-20T00:00:00+09:00</published><updated>2026-11-20T00:00:00+09:00</updated><id>https://makietan.github.io/tech/2026/11/20/report2</id><content type="html" xml:base="https://makietan.github.io/tech/2026/11/20/report2.html"><![CDATA[<audio id="audioPlayer" controls="" class="w-full mb-4">
+<source src="/assets/music/2026-10-22/Twenty_Three_Hundred.mp3" type="audio/mpeg" />
+Your browser does not support the audio element.
+</audio>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[A0]
+Yo look at the clock it is past midnight now
+But the digital world never sleeps for the weak
+We are staring at screens with our eyes open wide
+Looking for ghosts that are trying to hide in the code
+
+[B1]
+Red alerts flashing they popping all over my glowing display
+Systems are crashing and failing to hold the perimeter line
+Zero day drop hitting hard like a brick in the night
+Look at the terminal burning with critical errors and faults
+Packet injection is breaching the core of the secure database
+Unauthorized access detected on all of the primary nodes
+Firewalls crumbling like dust in the wind from the heavy assault
+Trace the connection to see where the malicious packets reside
+Dumping the memory looking for clues of the silent breach
+Every line scanned and scrutinized deeply for malicious code
+Payload is executing rapidly before we can patch the bug
+We are fighting a war in the dark with no light
+
+[C2]
+Php update at twenty three hundred drop now
+Nandeyanen shine kasu why you do this now
+Check the web first boke do it right now
+Hayo shirabero ya kasu find the leak now
+Php update at twenty three hundred drop now
+Nandeyanen shine kasu why you do this now
+Check the web first boke do it right now
+Hayo shirabero ya kasu find the leak now
+
+[B3]
+Buffer overflow detected in the main processing thread now
+Exploit string is looking like a complex mathematical formula tonight
+Stack is smashed and the execution flow is entirely compromised
+Malicious code is actively executing with the highest root privileges
+Dump the core dump and analyze the memory stack immediately
+Looking for the specific return address that caused this crash
+Every instruction decoded and reversed to find the root cause
+This is a sophisticated advanced persistent threat not script kiddies
+They bypass all the signature based detection mechanisms with ease
+Behavioral analysis shows highly anomalous and suspicious network activity patterns
+Isolate the affected subnets to prevent any further lateral movement
+We are racing against time to identify the specific zero day
+
+[C4]
+Php update at twenty three hundred drop now
+Nandeyanen shine kasu why you do this now
+Check the web first boke do it right now
+Hayo shirabero ya kasu find the leak now
+Php update at twenty three hundred drop now
+Nandeyanen shine kasu why you do this now
+Check the web first boke do it right now
+Hayo shirabero ya kasu find the leak now
+
+[D5](Instrumental)
+
+[C6]
+Php update at twenty three hundred drop now
+Nandeyanen shine kasu why you do this now
+Check the web first boke do it right now
+Hayo shirabero ya kasu find the leak now
+Php update at twenty three hundred drop now
+Nandeyanen shine kasu why you do this now
+Check the web first boke do it right now
+Hayo shirabero ya kasu find the leak now
+</code></pre></div></div>
+
+<h2 id="日本語訳">日本語訳</h2>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[A0 / イントロ]
+時計の針は深夜を回り、
+デジタル世界は眠らない。
+画面を凝視し、コードに隠れた亡霊を探し続ける。
+
+[B1 / バース1]
+ディスプレイに広がる赤色の警告、
+システムは崩壊し、防衛線が破られる。
+深夜に強烈なゼロデイ攻撃が直撃し、ターミナルがエラーで燃え盛る。
+データベースの中核がパケットインジェクションに突破され、
+すべての主要ノードで不正アクセスが検知された。
+ファイアウォールは砂の城のように崩れ去る。
+痕跡を追い、メモリをダンプし、
+パッチが間に合う前に悪意あるペイロードが暴走する。
+
+[C2 / コーラス]
+23時のPHPアプデ、今降ってきた
+なんでやねん、死ねカス、なんで今なんだよ！
+まずはWebを調べろや、ボケ、今すぐやれ！
+早よ調べろやカス、脆弱性を見つけ出せ！
+
+[B3 / バース2]
+メインスレッドでバッファオーバーフローを検知、
+複雑な数式のような攻撃文字列。
+スタックが破壊され、実行フローが完全にハッキングされた。
+最高の権限で悪意あるコードが実行されている。
+コアダンプを分析し、クラッシュの原因を探る。
+これは素人の仕業ではない、高度で巧妙な持続的標的型攻撃だ。
+シグネチャ検知を軽々とすり抜ける。
+二次被害を防ぐため、影響を受けたサブネットを今すぐ隔離しろ。
+
+[C4 / コーラス]
+（同上）
+
+[D5 / インストゥルメンタル]
+（間奏）
+
+[C6 / アウトロ・最後のコーラス]
+（同上）
+</code></pre></div></div>
+
+<h4 id="他にも調整したものとか">他にも調整したものとか</h4>
+
+<ul>
+  <li><a href="/assets/music/2026-10-22/深夜の悪あがき.mp3">深夜の悪あがき.mp3</a></li>
+</ul>]]></content><author><name>makietan</name></author><category term="tech" /><summary type="html"><![CDATA[Your browser does not support the audio element.]]></summary></entry><entry><title type="html">スタンプの有効期限を更新しにきた #来来亭 東川口店</title><link href="https://makietan.github.io/gourmet/2026/11/19/report.html" rel="alternate" type="text/html" title="スタンプの有効期限を更新しにきた #来来亭 東川口店" /><published>2026-11-19T00:00:00+09:00</published><updated>2026-11-19T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2026/11/19/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2026/11/19/report.html"><![CDATA[]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[ご飯感想ブログ「すずろ庵」へ遷移します]]></summary></entry><entry><title type="html">ちゃん系ではない #マルショーラーメン</title><link href="https://makietan.github.io/gourmet/2026/11/18/report.html" rel="alternate" type="text/html" title="ちゃん系ではない #マルショーラーメン" /><published>2026-11-18T00:00:00+09:00</published><updated>2026-11-18T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2026/11/18/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2026/11/18/report.html"><![CDATA[]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[ご飯感想ブログ「すずろ庵」へ遷移します]]></summary></entry><entry><title type="html">玉手橋は玉手山遊園地のために作られたらしい</title><link href="https://makietan.github.io/history/2026/11/17/report.html" rel="alternate" type="text/html" title="玉手橋は玉手山遊園地のために作られたらしい" /><published>2026-11-17T00:00:00+09:00</published><updated>2026-11-17T00:00:00+09:00</updated><id>https://makietan.github.io/history/2026/11/17/report</id><content type="html" xml:base="https://makietan.github.io/history/2026/11/17/report.html"><![CDATA[<div class="card">
   <a href="https://tver.jp/episodes/ep8c2popdj"></a>
   <div class="card__header">
     <a href="https://tver.jp/episodes/ep8c2popdj">tver.jp</a>
@@ -103,4 +222,4 @@
 
 <p>もうちょっとご飯とか撮影するときに添えたら味が出るアクスタとか出してほしいよ。</p>
 
-<p>まぁ、<a href="https://x.com/amamori_takibi/status/2114628166723756247">八奈見さん</a>とか<a href="https://x.com/nankashittori_">禪院直哉</a>みたいなアクスタが強すぎるだけなんだけどな。</p>]]></content><author><name>makietan</name></author><category term="otaku" /><summary type="html"><![CDATA[voicekit.official.ec ボイスキットショップ powered by BASE ボイスキットのオフィシャルショップです]]></summary></entry><entry><title type="html">麺の道を往き総てを司る男 #なぎちゃんラーメン 杉田店</title><link href="https://makietan.github.io/gourmet/2026/11/12/report.html" rel="alternate" type="text/html" title="麺の道を往き総てを司る男 #なぎちゃんラーメン 杉田店" /><published>2026-11-12T00:00:00+09:00</published><updated>2026-11-12T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2026/11/12/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2026/11/12/report.html"><![CDATA[]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[ご飯感想ブログ「すずろ庵」へ遷移します]]></summary></entry><entry><title type="html">JX金属のガルパンコンテナからの… #吉野家 虎ノ門店</title><link href="https://makietan.github.io/gourmet/2026/11/11/report.html" rel="alternate" type="text/html" title="JX金属のガルパンコンテナからの… #吉野家 虎ノ門店" /><published>2026-11-11T00:00:00+09:00</published><updated>2026-11-11T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2026/11/11/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2026/11/11/report.html"><![CDATA[]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[ご飯感想ブログ「すずろ庵」へ遷移します]]></summary></entry><entry><title type="html">朝から、もり中華 #高円寺ともちん 新橋店</title><link href="https://makietan.github.io/gourmet/2026/11/10/report.html" rel="alternate" type="text/html" title="朝から、もり中華 #高円寺ともちん 新橋店" /><published>2026-11-10T00:00:00+09:00</published><updated>2026-11-10T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2026/11/10/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2026/11/10/report.html"><![CDATA[]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[ご飯感想ブログ「すずろ庵」へ遷移します]]></summary></entry></feed>
+<p>まぁ、<a href="https://x.com/amamori_takibi/status/2114628166723756247">八奈見さん</a>とか<a href="https://x.com/nankashittori_">禪院直哉</a>みたいなアクスタが強すぎるだけなんだけどな。</p>]]></content><author><name>makietan</name></author><category term="otaku" /><summary type="html"><![CDATA[voicekit.official.ec ボイスキットショップ powered by BASE ボイスキットのオフィシャルショップです]]></summary></entry><entry><title type="html">麺の道を往き総てを司る男 #なぎちゃんラーメン 杉田店</title><link href="https://makietan.github.io/gourmet/2026/11/12/report.html" rel="alternate" type="text/html" title="麺の道を往き総てを司る男 #なぎちゃんラーメン 杉田店" /><published>2026-11-12T00:00:00+09:00</published><updated>2026-11-12T00:00:00+09:00</updated><id>https://makietan.github.io/gourmet/2026/11/12/report</id><content type="html" xml:base="https://makietan.github.io/gourmet/2026/11/12/report.html"><![CDATA[]]></content><author><name>makietan</name></author><category term="gourmet" /><summary type="html"><![CDATA[ご飯感想ブログ「すずろ庵」へ遷移します]]></summary></entry></feed>
